@@ -1,0 +1,36 @@
+{
+  "provider": "qwen3-max",
+  "prompt": "What's the predicted weather in SF for Nov 24?",
+  "prompt_index": 0,
+  "timestamp": "2025-11-23T16:03:29.105288",
+  "response": {
+    "status_code": 200,
+    "request_id": "0f22b327-c3e7-9ce1-b646-60b389df8412",
+    "code": "",
+    "message": "",
+    "output": {
+      "text": null,
+      "finish_reason": null,
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I'm sorry, but I can't provide real-time or future weather forecasts. For the most accurate and up-to-date weather prediction for San Francisco on November 24, 2025, I recommend checking a trusted weather service like:\n\n- [National Weather Service (weather.gov)](https://www.weather.gov)\n- [Weather.com (The Weather Channel)](https://weather.com)\n- [AccuWeather](https://www.accuweather.com)\n- Your smartphone\u2019s weather app\n\nLet me know if you\u2019d like help interpreting a forecast once you find it!"
+          }
+        }
+      ],
+      "search_info": {
+        "search_results": []
+      }
+    },
+    "usage": {
+      "input_tokens": 133,
+      "output_tokens": 123,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 256
+    }
+  }
+}

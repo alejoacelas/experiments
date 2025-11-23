@@ -1,0 +1,36 @@
+{
+  "provider": "qwen3-max",
+  "prompt": "Who won the latest Nobel Prize in Physics?",
+  "prompt_index": 2,
+  "timestamp": "2025-11-23T16:04:06.634701",
+  "response": {
+    "status_code": 200,
+    "request_id": "d7bcc6b9-7dfd-9051-b186-673fc0f6a462",
+    "code": "",
+    "message": "",
+    "output": {
+      "text": null,
+      "finish_reason": null,
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "The latest Nobel Prize in Physics, awarded in 2024, was given to **John J. Hopfield** and **Geoffrey E. Hinton** \"for foundational discoveries and inventions that enable machine learning with artificial neural networks.\"\n\n- **John J. Hopfield** developed a structure known as the **Hopfield network**, which can store and reconstruct patterns\u2014such as images or data\u2014using principles inspired by physics.\n- **Geoffrey E. Hinton** invented a method called **backpropagation**, which allows neural networks to learn from errors and improve over time, forming the backbone of modern deep learning.\n\nTheir work bridges physics, computer science, and cognitive neuroscience, and has had a profound impact on the development of artificial intelligence."
+          }
+        }
+      ],
+      "search_info": {
+        "search_results": []
+      }
+    },
+    "usage": {
+      "input_tokens": 129,
+      "output_tokens": 158,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 287
+    }
+  }
+}

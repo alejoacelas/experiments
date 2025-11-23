@@ -1,0 +1,173 @@
+{
+  "provider": "claude-haiku-4.5",
+  "prompt": "What's the predicted weather in SF for Nov 24?",
+  "prompt_index": 0,
+  "timestamp": "2025-11-23T16:03:21.165893",
+  "response": {
+    "id": "msg_0169XJureuySbnBRYvbZzXq8",
+    "content": [
+      {
+        "id": "srvtoolu_014TTfXTtcMFfpdrMJ2ysPyY",
+        "input": {
+          "query": "San Francisco weather forecast November 24"
+        },
+        "name": "web_search",
+        "type": "server_tool_use"
+      },
+      {
+        "content": [
+          {
+            "encrypted_content": "EocJCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDIIiS4so4JZaMkGDLhoMzBlSPhl5QsFKOI4+IjC8n0iruRI0XD5xCzG905ad6PcXp7Dge8ZaFL3A+mq/pmF3/Ja/36+trCUXBEZJQ70qigh8tFaddYcURnQzwJWsFtHx9o8cyXrIx1Ce0sPekU81wy4M2hjjSYM/dK5nUbX1cW1ISA/vTVGjwf5eXoABJveZoyJ9KKW9py12udPHIQ0f+VzGbuTkivQg7AjpN92b2Z4c/wDu73dGYtZibx2FrjXqvxyCdIBnjcCIrgCZCzLUJWGkzHfyeKWIGPVaABKA/ET1A+Ial5otw3L13QG6+vflsX/Pf+eUNzbTbSTsxdGTawGja5tMcG8JIbeLrI85ao3MoxZ+doGxJCuZAjMUU+l9fSWJ1WEkmp7hltXbbOBX6QYPuDCvYL1VsXhjD53kIfYTe1Degx5STMG3SqKuJel4gMP5eWzbYGeBs1AsyjEqDphiCYRUekEELOJTu3/pXjLmLuVbPwyX4PG+zJyv+iMjONYQnN1ZOk2boAQ1m/30jKMH4iIJbjN92Q0LFXxa92bSJHiFBYwkWTTZpawI1ACYL763jm5NVTSNTjMXcuSboAiJA+m/u96qtQwmcojsGbJPC/JxRGzkHtI8k2nVcwBATBXByapHqJYwKRc1iFQcq+J/WyU2KGZ+MoHhytkWJQ25BSkY+rxMbxOpQ11o6ixIfFR7EWOjWjbR12FWJwOyWAVrh3ciNguKK4Oysb0am3mcinFdMxPGmCezUbIaPSip8IdzIobeX6bx3bk3w6tVAcT2ugdvmBhADqahkzPTWLO8B1hyR46x985bk0gD07ev/Npfxrhe9tcaH518sABOXjg4WVq26rpdgzacTkD2Ozb4U2HCeIesRW1TYAY4ES4LuQOPp1BvJy8eKFmMU0Rq9D7RPlHh4uQU+HDolPxOMvJRDIwbvFrvutbcpNiaGZKjf3XVoUGKgbLVsy5GUAqprMNzcOym6k91HZPrEpou9cQA3X5XSnqypKqtCChmKxtz1pQHthdzjvn03zUJ12nbA1U6J2NJ38rj8w4XlhKHnwAn3uZAbrehtzS3fE+5G4MovLTP7hYWC6VdCfvjBQ65LuxRKiK6x4/2OrsQftBya+9htUxxRmmtao1UBtmJmfrUP1qgcwxPpkIm5naFWdC/JH7YumsqWKHtVOqNro0g35Bu4KQ6hX7FpPrMK2cvwr5gkv4lBYcA2A6+tKAgDcw7YAm6f1Ppln81K7cVUp2WkVwBzzXw8/eJnR8yUaZibwaS/XPDJtKozsv7z0oHu15yomaTMuCxCwkwEnubJaY//fZFy/JIC7tWuSJGF0ZeN/fq5xSOc0LFi2854lccbPxQziOROzqHQx+ZMwJW5+rBTl5D7PDZCobjThDPbKpYmPNDtHBf7LFNdbESvxW0/ywWuxkypxnP1yUmWbBC9nyNPZ2o+asrJVxpQqCR5m0BT8+/r4zGvH2LjxPRmxgD",
+            "page_age": null,
+            "title": "San Francisco, CA Monthly Weather | AccuWeather",
+            "type": "web_search_result",
+            "url": "https://www.accuweather.com/en/us/san-francisco/94103/november-weather/347629"
+          },
+          {
+            "encrypted_content": "EucCCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDACilunKUZlyoCJhLxoMxuusCqXeSoKZTsVRIjBHqLB1Ttm9Wo4vZ8jOAF2Jr87E98sOVCXQjdew8pQ92DmJOx3wk1uoTH/eZLgYvwUq6gHymtK+S8/fJLdR64gG5dVNJndlvrTYHwrMR1BLyuhy8v8z626Sj9eIE+k7u5VhlT+s6JCGklmsTUsfobexKUvcbFr99wAuqzliIqodTI7dfeE9aAOx0dD5AOfviI3e2mJo+eSILy5/dzlSSAsoMhHncNWHIoeNcOu8z7Ef/hgYaeLH1Vd6gKe9u5TNRoCbkK/ZmHHE+ST2y2NTq4O1FcX6bwvLdu2VKbxU2R2LFVkWs0GmHUtBb61lS9tXtw/+9BIniLRDTk9JQkR/SM3PEAKKszxI9LRXU+Pf4Zdbd+LnD1einsV3R6Atp04YAw==",
+            "page_age": null,
+            "title": "Weather in San Francisco in November 2024 (California) - detailed Weather Forecast for a month",
+            "type": "web_search_result",
+            "url": "https://world-weather.info/forecast/usa/san_francisco/november-2024/"
+          },
+          {
+            "encrypted_content": "EqEDCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDH2St/ddiS6sZcdUhRoMOxZUyk2xtt0jYTX+IjB06o9JvYW2QqkC6ngjj5IqH5AJUaAzFg6YVfdrVhNpRkXPZ/COUYWQleSfOsizOMQqpAJgSXOPdfDeNVNXvVaXI2tXXefetafU/riYeXwQ2rWHr2K/CjMbuQOT119SZjiZ0saYYygXzILBRL1KpHcolB27cCjpKo7XRo/byGYP8BcUg83wWXtbVORjoODNehl7c2N1ZL0AvSvwXHozZSv/MrsIriOmAGYDyWvfBONfsPRzGTJxOMCfRifAWcuQHwFtrS9RO23tx+iUfwH4TGE2THG9hQIffaZj1D9gH5/+LTcMnnNQ3IPhqF387Shp9v479L564ibprvvusNJNR2bKO9ATqQxi36WgBiyqcBGDxpOWGPBDCpXvPZ6FHYXyUP2fLIXJmwgJBCr3ItxCK67dXObc3oxFRDyb4kE0V9A1Cf/4RTzvLq/nWMtGQD7B/Q4F41pHBe0iGAM=",
+            "page_age": null,
+            "title": "National Weather Service",
+            "type": "web_search_result",
+            "url": "https://forecast.weather.gov/MapClick.php?FcstType=text&lat=37.775&lg=english&lon=-122.418&bw=1"
+          },
+          {
+            "encrypted_content": "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",
+            "page_age": "2 days ago",
+            "title": "November 2025 Weather - San Francisco",
+            "type": "web_search_result",
+            "url": "https://www.easeweather.com/north-america/united-states/california/city-and-county-of-san-francisco/san-francisco/november"
+          },
+          {
+            "encrypted_content": "EscCCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDHBRekJi1y2IwgfSixoMlqRK1CSlT7lOFs1JIjBmsNtnyG9TA57GTA5BBJnUTOqUn52w7CgZ+9jaZucJBjDfzM5t5UzoPOjYpQ6wWxoqygH1ryKmATas3SJ4wU5PWE8kQtPLEmwFwlXEURb2Fe2w3+G9+37D3Ebg8gYJGd9PfGFV3tuUK+c/778bdXqwelZmGRtVBYIPmVNfwg0kijwYDsVK55erLH1K4mZoTPWDPEH8yCctDc4XjLIGRH8fn1pnG8jeas7p+DNOPDfe+RlXwgGRFQjWJ3+g+001iaiYMgULZ9v9aITLLDF1fMI64vgdg2oXKPiFe9pXwnAR4ApJaq6/gwhVlDtuNVTeDszBcu8ZHWX1NRd/7AvgGAM=",
+            "page_age": null,
+            "title": "San Francisco weather in November 2025 | Weather25.com",
+            "type": "web_search_result",
+            "url": "https://www.weather25.com/north-america/usa/california/san-francisco?page=month&month=November"
+          },
+          {
+            "encrypted_content": "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",
+            "page_age": "3 days ago",
+            "title": "City and County of San Francisco 10 Day Weather Forecast | Ease Weather",
+            "type": "web_search_result",
+            "url": "https://www.easeweather.com/north-america/united-states/california/city-and-county-of-san-francisco"
+          },
+          {
+            "encrypted_content": "EpYHCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDJutuWGHem2FLiexEhoM6uYB+al9B/uolKHAIjAadxQQbO/XxVXVdaauJ1yHsI2bYcm/fyzb1p8osyPcafOLDb9d85idPbrbiW7JY3gqmQb3Nxy4VUm4sy7IJawS+w1ZsbdxmagUOroFWkdiXiIA/eHs3NW8VkHcrIh7X9inXfnzzLrDqIlYmHtMpkRPgdMRh3DXhXCKZMcsb7IEy9gom/CNi2rAoxCQQbEw+o7rWwpnl0Rl41bWNE8NVnaWpNEMdrClxM2R5XNbfwnOjH3H5PAKovlcA2KamiO8g1SahzaFR6rIvTp8sHfYtK7zR45aN9FrATUpDv1autMXZYa8rc9GZzbFSrK3saEmmf7f1vBbC3ZXmLKWIiruThz8xO/kcJyZY7XdgAHEs3de2y180+tp9CSGBlqx+2aQlJgWpSQg9NQpjwD8fJwWY3cwyU/2/KnbrSdIXAA9H0HlFp6oW5cXG207Hkn103PfL7bNBIe2T+xltWX7osOv06Uxb8SMOalYBU4JLgWeBO6R6rjI+be0UzDi8GBm7npuCU0DuCl+DYaiJXdb1Y3fnQaSGLqec9Kj8aedWQi9U3JdluvqynzlS2ZTFAzOFRWOq9zx4bMRgIAsY5q/tXz745CR9MreVMUSwqo3V7ikgsbctJ3qHq+NOWrqs+H3RdSCMNTJmLzyNTEcUH2zTfhD/nBdwsR6yRFPrdqhlz+rUlT0eKMqaBVq7m6Vahx4fONDLD3LmyX/J0R9E5PKTo1cHowxYsCEhVNw/ij1uS6MEcBngKufqTK6in4xVH2WEt4omlbbdfCbQkKR6nxnMm5oNesmj+n7Xgfcqfa+avnjd/F5/sC08t77iQ4Cw4tKX4WTbmkMhKbAQkCWUhhlxA0Xk8k5I8AvYLyyy/43nFYt1VBnIsDwqhKS/VdAK+cAymUZEXQR88o50SelzjpUUVk8ewKA/3AMRHrgdsSCK9VElsvmfiYTqfW0WnZTb5sCjwoat+06NG9vWvPs+nOHbQLx7wavqyXTXixJEHktafPiiXqxWrFQxDlu4Pj1C3+3Dz4lpfXs8RlZJuVNndO4yH72y9rPah+XXJ9hzeGcNzlLi+LPcDFoPs6SoAfyPio5uu3bilN5tTcaOZhzpn4247zc9/oDISjFxdYhmuhD6l3FGAM=",
+            "page_age": null,
+            "title": "Zone Area Forecast for San Francisco County",
+            "type": "web_search_result",
+            "url": "https://forecast.weather.gov/MapClick.php?zoneid=CAZ006"
+          },
+          {
+            "encrypted_content": "EoIKCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDI4iZvv0ALuNp54ynRoMCPckApmGQzxfXYDcIjBG4LPUkLmYZJ8sZIzusFMZlVqlkNZc8oE9dBF/fm0fsbQWB/AoVmxIQ4spJ8REx+8qhQlzVhj8yxA7Wj59Dve3q1BvW62owpdC7G7+7SHTaQGnDC6QRLy+WW/ff3WRtiwVg4BsfYaCE+Ig5sYOw8xJWxfayiFPWeuHL+Pct8TLLsDoINVibiBUscCw+cV8Ta7qlwWozrTlVTDem0LSQoPhdhm3MUtjAOhO+rnZ/egrP2CzW3kbD8mkhGSJYx6TpkvWKhxX60XIcrBBnTNS/QUGSQHpdz0UQxrqQLiX0d5pQzStgPqBN+9nF6w7De+MGnux4NwSIT5PAfZmYOZ8EhUofKLFS2eF5McY/gL9J+hhJBG1PONZ8wGkCFV6XG3DWMha8sii5+MR2BbKmcqyfu6bLLbRkjuKb737ZvYXfjlavC2oOFJcvzWcHjICZM87ZX3dCKDFgCNz+BeSf5DA1IJmJlq2IQUeVQ8pkHAqYekU6SulQjrdvMvWD8dMazfPC6ZmYJTYuBmo63Rh8Y8hq4eU3ZKJc9FSkKIgjouSxnsDcBK9LZ6xRqWxyKSk6cFzsyWjF1GkEgNm11Ah2doBR6t96ZUFNg7t7+38lJc6W/8zyq/hL5K7R/DzfqR1vUjKd85WUrfhGWgekvkgPFZ91vMvrpm84kCzIRFPRclt3wkZWYh0gdLEk/+JcYRDyFIR7nsDvJNoPNsf4rb9Ta8T4ZYNrWM7xeixahlR+3ppLxD88z8A7xOZxLKm2Quy1151hjQIOTSkY2W9I8YrgsTfuaE7WL9pqXbsqJoK8sNzLlRU50Jbv57H1oFvgjY+X2Ffg4ioa0w6w87Bp8BMS8J23km0TEJbRBjQJDFuCA1hTy4mZ7KxY0pW9lg1/pK0NL61ERBAWR38EvyI+IsokxSQ3NLTrIUh+xTifJjnd3+kZvYx4f6iz8LFRF8SMTy4jfQEVzIEUDHRG0ds7UYsZF14L6bndGlwOfVNxjESYmHMWI+pcsh+AZkcZNItd1guEdO3+bgGJ40Fw+CksaQZeGg0FBwaZL74nfVonc11G76wlX4ceO5DmjRx44loipQDTikXMCSSzL1jWC494MiqCE/Sc4wDCc81xLqqiRRmwh+wCwPEpFXufs6VFfa+0WHGybmAjeJdGjNNpKtYUfZvlyOvQ74fnQvBbyDlJyfzy9NbhPtNvUt5ssH5UkZVbep0l6RwjpLC+UdQhEyIV8mvxvMiwn1VSJ2ohfph6YdcCcBQLaq5S8Xn8UEvBRZPcfce4nH8F3ZcMxWFVJ6p07I4fvYj+ipg3uqVwOTbSI/aOt/TzsYi+KoS+74/IkVhZKaSGVjsqWRXgBBNInafe7D2bGBIkOX8OOcMam9mvcAsAvZLP99i6iI76oVQSx9tegUjw5nHJGb+seJxeILysNpfFsnJPyueFBwil3lgLBUn9LYr06eZgHZEP0rteoW+cS4cOfmp6M1AhBZrvc6zm5PUN7yGrxvcBODJOYm7WqC/aOIDSss3xezjrOeH7HFhfjT7fBELE+CaxGREp+5eFZjJUQN0UnN/fiY771AOCP4Ni1BrD0xWcLyHFZizIBxU3HWtXlCAwJeXQVEOHGu1TxgD",
+            "page_age": null,
+            "title": "San Francisco Weather in November | Thomas Cook",
+            "type": "web_search_result",
+            "url": "https://www.thomascook.com/holidays/weather/usa/california/san-francisco/november/"
+          },
+          {
+            "encrypted_content": "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",
+            "page_age": null,
+            "title": "San Francisco CA Weather in November",
+            "type": "web_search_result",
+            "url": "https://www.currentresults.com/Weather/California/Places/san-francisco-weather-in-november.php"
+          },
+          {
+            "encrypted_content": "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",
+            "page_age": null,
+            "title": "Weather San Francisco in November 2025: Temperature & Climate",
+            "type": "web_search_result",
+            "url": "https://en.climate-data.org/north-america/united-states-of-america/california/san-francisco-385/t/november-11/"
+          }
+        ],
+        "tool_use_id": "srvtoolu_014TTfXTtcMFfpdrMJ2ysPyY",
+        "type": "web_search_tool_result"
+      },
+      {
+        "citations": null,
+        "text": "Based on the search results, here's the predicted weather for San Francisco on November 24:\n\n",
+        "type": "text"
+      },
+      {
+        "citations": [
+          {
+            "cited_text": "24 \u00b7",
+            "encrypted_index": "Eo8BCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDCBpufAX0k3/KRiBkBoMupVG2xCacJW+vK4nIjC9ix8RyfqyGxovGdNb7rzPpIRvTI4/FpPaPx04XAfzXi/w9Ychou7G7sFuDivQCdYqEwLmKmb+u24pG4Nb8J/0aMmf6oEYBA==",
+            "title": "City and County of San Francisco 10 Day Weather Forecast | Ease Weather",
+            "type": "web_search_result_location",
+            "url": "https://www.easeweather.com/north-america/united-states/california/city-and-county-of-san-francisco"
+          }
+        ],
+        "text": "Monday, November 24",
+        "type": "text"
+      },
+      {
+        "citations": null,
+        "text": " is expected to have ",
+        "type": "text"
+      },
+      {
+        "citations": [
+          {
+            "cited_text": "Lat: 37.77056\u00b0 N Lon: 122.42694\u00b0 W Elev: 150.0 ft. ... Mostly cloudy. Breezy. A slight chance of rain. ",
+            "encrypted_index": "EpEBCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDDlByHUMDjaVMDUkzhoM1dBslk5nb3u1aaE3IjAL3wMOde5RT/MGHL11Xy+nqibEaw3gYPMVlTq3NiLfAkoVHVenUZc6Q7/QiSzRWsIqFbW3P6vjUPEEbmhlkBEXdinRYOXyCxgE",
+            "title": "Zone Area Forecast for San Francisco County",
+            "type": "web_search_result_location",
+            "url": "https://forecast.weather.gov/MapClick.php?zoneid=CAZ006"
+          }
+        ],
+        "text": "mostly cloudy conditions with breezy winds and a slight chance of rain",
+        "type": "text"
+      },
+      {
+        "citations": null,
+        "text": ". ",
+        "type": "text"
+      },
+      {
+        "citations": [
+          {
+            "cited_text": "Highs near 60. Northwest winds 5 to 15 mph increasing to 20 to 30 mph in the afternoon. ",
+            "encrypted_index": "EpEBCioICRgCIiQzMzJlMjg1ZS0zNTUwLTRmMWUtYmE1ZS02NjM2M2I3ZmY0MGESDBxrig6qQ7T5b53aRhoM2jdIuVaxFmwuOonDIjAZYeYQZoGHxeIkEDXVCkNCqqO4qHIAmN2DGAC1zSzlfvpJox8U/ejve1KTiwSRJHMqFQq7K3VW6Wcx/8bA0zKYoAlTuKq02RgE",
+            "title": "Zone Area Forecast for San Francisco County",
+            "type": "web_search_result_location",
+            "url": "https://forecast.weather.gov/MapClick.php?zoneid=CAZ006"
+          }
+        ],
+        "text": "Highs will be near 60\u00b0F with northwest winds increasing to 20 to 30 mph in the afternoon",
+        "type": "text"
+      },
+      {
+        "citations": null,
+        "text": ".",
+        "type": "text"
+      }
+    ],
+    "model": "claude-haiku-4-5-20251001",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 11779,
+      "output_tokens": 197,
+      "server_tool_use": {
+        "web_search_requests": 1
+      },
+      "service_tier": "standard"
+    }
+  }
+}

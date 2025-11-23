@@ -1,0 +1,36 @@
+{
+  "provider": "qwen3-max",
+  "prompt": "What's the current Alibaba stock price?",
+  "prompt_index": 1,
+  "timestamp": "2025-11-23T16:03:47.769411",
+  "response": {
+    "status_code": 200,
+    "request_id": "308b7547-a5a6-9b88-aecf-cab0a0216f86",
+    "code": "",
+    "message": "",
+    "output": {
+      "text": null,
+      "finish_reason": null,
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I can't provide real-time stock prices. However, you can check the current Alibaba stock price (ticker: **BABA** on the NYSE or **09988.HK** on the Hong Kong Stock Exchange) using financial websites like:\n\n- [Yahoo Finance](https://finance.yahoo.com/quote/BABA/)\n- [Google Finance](https://www.google.com/finance/quote/BABA:NYSE)\n- [Bloomberg](https://www.bloomberg.com/quote/BABA:US)\n- Your brokerage platform\n\nLet me know if you\u2019d like help interpreting financial data or historical trends!"
+          }
+        }
+      ],
+      "search_info": {
+        "search_results": []
+      }
+    },
+    "usage": {
+      "input_tokens": 128,
+      "output_tokens": 129,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 257
+    }
+  }
+}
