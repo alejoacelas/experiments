@@ -1,0 +1,35 @@
+{
+  "dialogue": "Protagoras",
+  "questions": [
+    {
+      "question": "Can virtue (in particular political or civic excellence) be taught?",
+      "dialogue": "Protagoras",
+      "location": "Opening exchange with Protagoras at Callias's house (Socrates's objections from the Athenian assembly and from good fathers with bad sons; Protagoras's Great Speech / myth of Prometheus and Zeus in reply), returning explicitly at the very end of the dialogue",
+      "answer_note": "No settled answer is reached; instead the dialogue ends with the famous reversal, noted by Socrates himself, in which he, who began by doubting that virtue can be taught, has argued that virtue is knowledge (and hence teachable), while Protagoras, who professed to teach it, has resisted identifying virtue with knowledge (implying it cannot be taught) - so Socrates proposes to start over by first asking what virtue is, and Protagoras declines."
+    },
+    {
+      "question": "Are the virtues (justice, temperance, holiness, wisdom, courage) one thing under different names, or distinct parts of virtue with different natures and functions?",
+      "dialogue": "Protagoras",
+      "location": "Raised immediately after Protagoras's Great Speech (the parts-of-a-face vs. parts-of-gold analogy), pursued through the justice-holiness and wisdom-temperance arguments, and resumed after the Simonides interlude when Protagoras concedes four virtues are akin but holds out for courage as different",
+      "answer_note": "Socrates progressively argues the virtues into unity - justice and holiness are shown nearly the same, wisdom and temperance identified via the one-opposite argument, and finally courage is reduced to knowledge of what is and is not to be feared - so that all the virtues coalesce in knowledge, though Protagoras's assent is extracted only reluctantly and the inquiry is explicitly left unfinished."
+    },
+    {
+      "question": "Is courage distinct from the rest of virtue, or is it a form of knowledge (wisdom about what is and is not genuinely dangerous)?",
+      "dialogue": "Protagoras",
+      "location": "Two passes in the second half: the first argument from the confidence of divers and skilled fighters, which Protagoras rebuts, and the final argument after the hedonism discussion, ending with Protagoras's near-silent capitulation",
+      "answer_note": "The dialogue concludes that courage is knowledge of what is and is not dangerous and cowardice is ignorance of the same, an inference Protagoras finally admits is unavoidable 'consistently with the argument,' though he assents only with great reluctance and at last falls silent."
+    },
+    {
+      "question": "Can a person act against their own knowledge of what is best (akrasia) - can knowledge be 'overcome' by pleasure, passion, or fear?",
+      "dialogue": "Protagoras",
+      "location": "The 'dialogue within a dialogue' with 'the many' in the latter part, where Socrates and Protagoras jointly examine the popular claim that people knowingly do evil because they are overcome by pleasure",
+      "answer_note": "The dialogue answers no: being 'overcome by pleasure' is redescribed as mere ignorance (a mistaken measurement of goods and evils), so that no one voluntarily pursues what they believe to be evil and wrongdoing is always due to lack of knowledge."
+    },
+    {
+      "question": "Is pleasure the good and pain the evil, and does living well therefore depend on an 'art of measurement' that weighs pleasures and pains correctly against each other, near and distant?",
+      "dialogue": "Protagoras",
+      "location": "The hedonism argument in the latter part of the dialogue, immediately preceding and grounding the refutation of akrasia and the final argument about courage",
+      "answer_note": "For the purposes of the argument the company accepts that the pleasant is the good and the painful the evil, and that salvation in life lies in a science of measuring pleasures and pains that defeats the deceptive 'power of appearance' - a knowledge-based hedonic calculus whose precise nature Socrates explicitly defers to future consideration (and which Plato elsewhere retracts)."
+    }
+  ]
+}

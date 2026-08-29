@@ -1,0 +1,29 @@
+{
+  "dialogue": "Meno",
+  "questions": [
+    {
+      "question": "What is virtue itself — the single common nature shared by all the virtues — as opposed to a mere list of particular virtues?",
+      "dialogue": "Meno",
+      "location": "opening section: Meno's three failed definitions and the digression on defining figure and colour",
+      "answer_note": "No definition survives scrutiny — Meno's attempts (a swarm of virtues, the power of command, desiring and attaining good things justly) all fail, ending in aporia symbolized by the 'torpedo's shock', and Socrates closes the dialogue insisting the question must still be answered before anything else can be settled."
+    },
+    {
+      "question": "How is inquiry into what one does not know even possible (the paradox of inquiry), and is learning really recollection of knowledge the soul already possesses?",
+      "dialogue": "Meno",
+      "location": "middle section: Meno's paradox and the slave-boy geometry demonstration",
+      "answer_note": "Socrates answers the eristic paradox with the theory that the immortal soul has seen all things and learning is recollection, demonstrated by questioning an untaught slave who arrives at the theorem that the double square is built on the diagonal — though Socrates concedes he is 'not altogether confident' of some of this, standing firm only on the duty to inquire."
+    },
+    {
+      "question": "Can virtue be taught — is it acquired by teaching, by practice, by nature, or in some other way?",
+      "dialogue": "Meno",
+      "location": "framing question at the very opening, resumed after the recollection episode via the hypothesis that virtue is knowledge, and pressed in the exchange with Anytus about the Sophists and the statesmen's sons",
+      "answer_note": "Under the hypothesis 'if virtue is knowledge it is teachable' virtue first appears teachable, but since no genuine teachers or students of it can be found (neither the Sophists nor gentlemen like Themistocles, who could not transmit virtue to their own sons), the dialogue concludes it is not taught and hence not knowledge, tentatively resolving that virtue comes as a divine gift — a conclusion Socrates immediately flags as uncertain until virtue's nature is known."
+    },
+    {
+      "question": "What distinguishes knowledge from true opinion, and does right conduct require knowledge or can true opinion guide action just as well?",
+      "dialogue": "Meno",
+      "location": "final section, after the exchange with Anytus",
+      "answer_note": "True opinion is conceded to be as good a practical guide as knowledge (the road-to-Larisa example), but is unstable like the statues of Daedalus until 'fastened by the tie of the cause' through recollection — which is why knowledge is more honourable — and the virtue of actual statesmen is diagnosed as divinely inspired right opinion rather than knowledge."
+    }
+  ]
+}
