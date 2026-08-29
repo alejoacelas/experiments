@@ -1,0 +1,29 @@
+{
+  "dialogue": "Charmides",
+  "questions": [
+    {
+      "question": "What is sophrosyne (temperance/self-control/moderation) — what is the real nature of this virtue?",
+      "dialogue": "Charmides",
+      "location": "Whole dialogue, from Socrates' first question to Charmides after the framing scene at the palaestra through the end (Stephanus 159a-176d)",
+      "answer_note": "Every proposed definition — quietness, modesty, doing one's own business, doing good, self-knowledge, and knowledge of knowledge — is refuted, and the dialogue ends in explicit aporia, with Socrates confessing he has 'utterly failed to discover' what temperance is even while insisting it must be a great good."
+    },
+    {
+      "question": "Is temperance identical with self-knowledge — and can self-knowledge be cashed out as a second-order 'knowledge of knowledge (and of ignorance)', i.e., knowing what one knows and does not know?",
+      "dialogue": "Charmides",
+      "location": "Middle section, after Critias takes over from Charmides and invokes the Delphic 'Know thyself' (Stephanus 164d-167a)",
+      "answer_note": "The identification is entertained but never vindicated: Socrates argues that a pure knowledge of knowledge, lacking any subject-matter, could at best tell us that someone knows something, never what they know, so it fails to deliver the promised self-knowledge."
+    },
+    {
+      "question": "Is reflexive knowledge even possible — can there be a science whose object is itself (and other sciences), given that vision, hearing, desire, love, fear, and opinion all seem to require objects other than themselves?",
+      "dialogue": "Charmides",
+      "location": "Later middle section, Socrates' battery of analogies from the senses and relative terms (Stephanus 167b-169c)",
+      "answer_note": "Left explicitly undetermined: Socrates finds self-relation inadmissible for relatives like 'greater' and doubtful for the senses, and says 'some great man' is needed to settle whether anything can be related to itself, provisionally granting the assumption only to let the argument continue."
+    },
+    {
+      "question": "Even if a knowledge of knowledge were possible, would it benefit us — is it knowledge in general, or only the knowledge of good and evil, that makes life go well and makes us happy?",
+      "dialogue": "Charmides",
+      "location": "Final stretch of the argument, Socrates' 'dream' of a life ruled by knowledge through the closing exchange with Critias (Stephanus 169d-175a)",
+      "answer_note": "The dialogue concludes that living 'according to knowledge' as such does not secure happiness — only the science of good and evil makes the other arts beneficial — so temperance defined as knowledge of knowledge appears useless, a paradoxical result Socrates blames on the inquiry rather than on temperance itself, ending in aporia."
+    }
+  ]
+}

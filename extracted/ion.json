@@ -1,0 +1,29 @@
+{
+  "dialogue": "Ion",
+  "questions": [
+    {
+      "question": "Does the rhapsode's ability to interpret and speak brilliantly about a poet rest on genuine knowledge or skill (techne), or on something else entirely, namely divine inspiration?",
+      "dialogue": "Ion",
+      "location": "The overarching question of the whole dialogue, framed at the opening exchange and resolved in the closing lines (530a-533c and 541e-542b in Stephanus terms; Jowett text from Socrates' first probing of Ion's Homer-only skill to the final 'dishonest or inspired' dilemma)",
+      "answer_note": "Socrates concludes, and Ion accepts, that the rhapsode speaks not by art or knowledge but by divine inspiration, though the conclusion is forced by elimination and delivered with heavy irony rather than fully argued."
+    },
+    {
+      "question": "If criticism of poetry were a genuine art, would competence not extend to poetry as a whole rather than to a single poet — so why can Ion speak well only about Homer?",
+      "dialogue": "Ion",
+      "location": "Early section (531a-533c): the arguments from arithmetic, medicine, painting, sculpture, and music that whoever can judge the good speaker on a subject can judge the bad, and that every art is a whole",
+      "answer_note": "The dialogue answers that since an expert in any whole art (painting, sculpture, music) can judge all its practitioners, Ion's Homer-only competence proves he possesses no art, setting up the inspiration thesis as the only remaining explanation."
+    },
+    {
+      "question": "Do poets themselves compose by rational craft, or are they passive vehicles possessed by the Muse, transmitting divine utterance through a chain of inspiration to rhapsodes and audiences?",
+      "dialogue": "Ion",
+      "location": "Middle section (533d-536d): Socrates' magnet (stone of Heraclea) speech and the chain of rings from Muse to poet to rhapsode to spectator, with the examples of the Corybantes and Tynnichus",
+      "answer_note": "Socrates asserts, and Ion is charmed into agreeing, that good poets compose not by art but when out of their minds and possessed by the god, the rhapsode being an interpreter of interpreters in the magnetic chain — a positive doctrine offered rather than argued to aporia."
+    },
+    {
+      "question": "What distinctive subject matter, if any, does the rhapsode's supposed art give him knowledge of, given that each art (charioteering, medicine, fishing, prophecy, generalship) is the proper judge of its own domain?",
+      "dialogue": "Ion",
+      "location": "Final section (536e-541e): the survey of Homeric passages assigned to the charioteer, physician, fisherman, and prophet, culminating in Ion's retreat into the claim that the rhapsode knows the general's art",
+      "answer_note": "No coherent subject matter is found — Ion's last refuge, that the rhapsode knows what a general should say, collapses into absurdity, and Socrates closes the trap: Ion must be either a dishonest pretender to knowledge or divinely inspired, and Ion chooses inspiration."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "dialogue": "Laches",
+  "questions": [
+    {
+      "question": "How should one decide questions about the education of the young — for instance, whether boys should be trained to fight in armour — and who is qualified to give such advice: the majority, or the one person with genuine expert knowledge of the soul's improvement?",
+      "dialogue": "Laches",
+      "location": "Opening scene through Socrates' first intervention (Lysimachus' request, the Nicias/Laches disagreement over Stesilaus' art, and Socrates' argument that a good decision rests on knowledge, not numbers)",
+      "answer_note": "The dialogue answers the methodological point — such matters must be settled by expert knowledge of virtue, verified by teachers or works, not by majority vote — but no such expert is found among the company, so the practical question of the boys' education is deferred to a resolve that everyone, old men included, must first find teachers for themselves."
+    },
+    {
+      "question": "What is courage — what is the single common quality present in all courageous action, whether in war, at sea, in illness, in poverty, in politics, and in resisting pleasures and desires, and not merely in a hoplite standing his ground?",
+      "dialogue": "Laches",
+      "location": "Central section: Socrates' reframing of the inquiry (from virtue as a whole to courage as its part) and the examination of Laches' definitions — standing at one's post, then 'endurance of the soul', then 'wise endurance'",
+      "answer_note": "Every definition fails — 'staying at one's post' is too narrow, mere endurance can be foolish and hurtful, and 'wise endurance' collapses when unskilled daring seems more courageous than skilled — leaving Laches unable to say what he is sure he knows; this strand ends in explicit aporia."
+    },
+    {
+      "question": "Is courage a form of knowledge — specifically, knowledge of what is genuinely to be feared and hoped for (i.e., of future good and evil)?",
+      "dialogue": "Laches",
+      "location": "Later section: Nicias' definition (drawn from the Socratic dictum that a man is good in what he is wise in), Laches' objections about craftsmen, soothsayers, animals and children, and Socrates' final examination",
+      "answer_note": "Nicias' definition survives Laches' ridicule but is refuted by Socrates: since knowledge of good and evil cannot be confined to the future, courage so defined becomes knowledge of all good and evil — that is, the whole of virtue — contradicting the agreed premise that courage is only a part of virtue, so the definition fails."
+    },
+    {
+      "question": "What is the relation of an individual virtue such as courage to virtue as a whole — can courage be one part among others (alongside justice, temperance, holiness), or does its identification with knowledge of good and evil make it identical with all virtue?",
+      "dialogue": "Laches",
+      "location": "Final argument against Nicias and the closing exchanges (through Socrates' conclusion 'Then, Nicias, we have not discovered what courage is' and the proposal that all of them go to school again)",
+      "answer_note": "The tension is left unresolved: the premise that courage is a part of virtue contradicts the conclusion that knowledge of all good and evil would be the whole of virtue, and the dialogue ends in acknowledged aporia, with Socrates proposing that generals and old men alike must seek out teachers."
+    }
+  ]
+}

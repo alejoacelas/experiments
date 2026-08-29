@@ -1,0 +1,29 @@
+{
+  "dialogue": "Lysis",
+  "questions": [
+    {
+      "question": "What is a friend, and when one person loves another, who is the friend — the one who loves, the one who is loved, or only the two when the love is reciprocated?",
+      "dialogue": "Lysis",
+      "location": "Opening of the dialectical inquiry with Menexenus, after Socrates professes his lifelong longing for a friend (roughly 211d-213d)",
+      "answer_note": "Every option is refuted — unreciprocated love yields the paradox of being friend to one's enemy, while requiring mutuality contradicts our talk of loving horses, wine, or wisdom — so this first approach ends without an answer."
+    },
+    {
+      "question": "Is friendship grounded in similarity (like befriending like) or in opposition (unlike attracting unlike)?",
+      "dialogue": "Lysis",
+      "location": "Middle section examining the poets and philosophers — Homer and Empedocles for likeness, Hesiod and the natural philosophers for opposites (roughly 213e-216b)",
+      "answer_note": "Both views are rejected: the like can offer nothing to the like (and the self-sufficient good needs no friend), while the opposites view absurdly entails that the just befriends the unjust and love befriends hate."
+    },
+    {
+      "question": "Is the friend really that which is neither good nor bad, which loves the good because of the presence of evil in it — and does all such friendship terminate in some ultimate 'first friend' loved for its own sake?",
+      "dialogue": "Lysis",
+      "location": "Later middle section, with the examples of the sick body befriending medicine, the lover of wisdom, and the father valuing wine for his poisoned son's sake (roughly 216c-221a)",
+      "answer_note": "This account is triumphantly embraced then undermined: it makes evil the cause of friendship, yet Socrates argues that if evil were abolished, neutral desires — and hence love — would remain, so some other cause of friendship must be sought."
+    },
+    {
+      "question": "Is desire for what is congenial or akin to oneself (the oikeion) the true source of love and friendship?",
+      "dialogue": "Lysis",
+      "location": "Final stretch of the argument, just before the tutors break up the conversation (roughly 221d-223b)",
+      "answer_note": "The proposal collapses because the congenial cannot be distinguished from the already-refuted 'like' or identified with the already-refuted 'good', and the dialogue ends in explicit aporia — Socrates confessing that he, Lysis, and Menexenus think themselves friends yet cannot discover what a friend is."
+    }
+  ]
+}

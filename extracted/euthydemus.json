@@ -1,0 +1,29 @@
+{
+  "dialogue": "Euthydemus",
+  "questions": [
+    {
+      "question": "What is the relationship between wisdom and happiness — do conventional goods (wealth, health, honor, even good fortune) benefit us at all apart from the knowledge that guides their right use?",
+      "dialogue": "Euthydemus",
+      "location": "First protreptic interlude with Cleinias (Stephanus ~278e-282d; Socrates' exhortation after the sophists' opening puzzles)",
+      "answer_note": "Socrates and Cleinias conclude that goods are neither good nor evil in themselves, that wisdom is the only good and ignorance the only evil, and therefore that everyone who desires happiness must pursue wisdom (philosophize)."
+    },
+    {
+      "question": "Can wisdom (virtue) be taught, or does it come to human beings some other way?",
+      "dialogue": "Euthydemus",
+      "location": "Close of the first protreptic interlude (Stephanus ~282c), and presupposed in the framing exchange where the brothers claim to teach virtue best of all men",
+      "answer_note": "The question is raised but not argued: Cleinias's ingenuous declaration that wisdom can be taught relieves Socrates of 'a long and tiresome investigation,' so the dialogue simply assumes teachability for the sake of the exhortation rather than establishing it."
+    },
+    {
+      "question": "What is the single art or science whose possession would actually make us happy — a knowledge that both produces its object and knows how to use it?",
+      "dialogue": "Euthydemus",
+      "location": "Second protreptic interlude with Cleinias and the recap to Crito (Stephanus ~288d-292e; after rejecting money-making, speechwriting, and generalship, the search settles on the kingly/political art)",
+      "answer_note": "The inquiry ends in explicit aporia: the kingly art seems to be the sought-for master science, but when asked what good it produces the answer circles back to 'making men wise and good' without saying good at what, leaving Socrates and Cleinias, by his own account, back at the beginning of a labyrinth."
+    },
+    {
+      "question": "What do the sophists' eristic paradoxes — that no one can speak falsely, that contradiction is impossible, that whoever knows anything knows everything — reveal about the nature of falsehood, error, and the ambiguity of language?",
+      "dialogue": "Euthydemus",
+      "location": "The sophists' three eristic displays, especially the falsehood-and-contradiction arguments with Ctesippus and Socrates (Stephanus ~275d-278b, 283b-288a, 293a-304b)",
+      "answer_note": "No formal theory is offered, but Socrates diagnoses the tricks as trading on ambiguous terms (e.g. the two senses of 'learn') and shows the denial of falsehood to be self-undermining — if no one can err, the brothers have nothing to teach and cannot even be refuted or refute — leaving the fallacies exposed by ridicule rather than resolved by an explicit logic."
+    }
+  ]
+}

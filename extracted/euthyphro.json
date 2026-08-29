@@ -1,0 +1,29 @@
+{
+  "dialogue": "Euthyphro",
+  "questions": [
+    {
+      "question": "What is piety (holiness) itself — the single form or essential property common to all pious actions that makes them pious and could serve as a standard for judging any action?",
+      "dialogue": "Euthyphro",
+      "location": "Posed after the opening scene at the Porch of the King Archon and pursued throughout the entire dialogue (roughly Stephanus 5c-6e onward), as Socrates rejects Euthyphro's first answer, 'doing as I do, prosecuting a wrongdoer,' as a mere example rather than a definition",
+      "answer_note": "No definition survives examination — every proposed account is refuted or shown to circle back to an earlier rejected one, and the dialogue ends in explicit aporia when Euthyphro hurries away rather than begin the inquiry again."
+    },
+    {
+      "question": "Can the gods' approval define piety if the gods themselves disagree — that is, if the same action can be loved by some gods and hated by others, making it both pious and impious on that definition?",
+      "dialogue": "Euthyphro",
+      "location": "Early-middle section examining the second definition, 'piety is what is dear to the gods' (roughly Stephanus 6e-9e), including the discussion of what kinds of disputes — about the just and unjust, good and evil — cannot be settled by measurement and so cause quarrels among gods as among men",
+      "answer_note": "The definition is refuted as stated, since on Euthyphro's own view of quarreling gods the same act would be both pious and impious; the definition is then amended to 'what ALL the gods love,' setting up the next question rather than resolving this one."
+    },
+    {
+      "question": "Is the pious loved by the gods because it is pious, or is it pious because the gods love it? (In modern terms: is divine approval the ground of moral or religious value, or merely a response to a value that exists independently?)",
+      "dialogue": "Euthyphro",
+      "location": "Central section, the famous 'Euthyphro dilemma' examining the amended definition 'piety is what all the gods love' (roughly Stephanus 10a-11b), argued via the analogy of carrying/being carried and seeing/being seen",
+      "answer_note": "Euthyphro concedes that the pious is loved because it is pious, from which Socrates concludes that being god-beloved is only an attribute (an effect of piety) and not its essence, so the definition fails — the deeper question of what piety essentially is remains open."
+    },
+    {
+      "question": "If piety is a part of justice, which part is it — and specifically, what is the nature of the 'attention' or service to the gods that piety is supposed to consist in, and what end or benefit does that service accomplish?",
+      "dialogue": "Euthyphro",
+      "location": "Later section, after Socrates restarts the inquiry with 'is all the just pious, or all the pious just?' (roughly Stephanus 11e-15c), covering piety as attending to the gods, as ministration like a servant's, and finally as a 'science of asking and giving' — prayer and sacrifice",
+      "answer_note": "Each refinement collapses: pious acts cannot benefit or improve the gods, no divine work our service helps accomplish is named, and the 'business transaction' account reduces to giving the gods what pleases them — i.e. back to the already-refuted 'dear to the gods' — leaving the question unresolved in aporia."
+    }
+  ]
+}

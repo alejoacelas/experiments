@@ -1,0 +1,29 @@
+{
+  "dialogue": "Crito",
+  "questions": [
+    {
+      "question": "Is it morally right for Socrates to escape from prison without the consent of the Athenians, given that his death sentence is unjust?",
+      "dialogue": "Crito",
+      "location": "Framed after Crito's plea and Socrates' reply (roughly the middle of the dialogue, 46b-48d in standard pagination), and answered through the speech of the Laws that occupies the final third",
+      "answer_note": "The dialogue reaches a definite answer: escaping would be unjust, so Socrates must remain and accept death, departing 'a sufferer and not a doer of evil.'"
+    },
+    {
+      "question": "In moral matters, whose judgment should we follow — the opinion of the majority, or that of the one person with genuine expert understanding?",
+      "dialogue": "Crito",
+      "location": "Early in the argument, in the exchange using the trainer/physician analogy (roughly 46c-48a), just after Crito's appeal to what 'the many' will think",
+      "answer_note": "Answered decisively: only the judgment of the one who understands justice (and the truth itself) matters, since heeding the many corrupts the part of us improved by justice and ruined by injustice — a fate worse than bodily harm, because a good and just life, not mere life, is what has value."
+    },
+    {
+      "question": "Is it ever permissible to do wrong or to return wrong for wrong — that is, to injure someone in retaliation for an injury one has suffered?",
+      "dialogue": "Crito",
+      "location": "The pivotal middle section where Socrates secures Crito's assent to his 'first principle' (roughly 49a-e), before applying it to the escape",
+      "answer_note": "Answered with a firm no: doing injustice is always evil and dishonorable, so one must never do wrong or retaliate with evil for evil, whatever one has suffered — a principle Socrates notes few people will ever accept."
+    },
+    {
+      "question": "Does a citizen owe obedience to the laws of his state even when they have treated him unjustly, or may he override a lawful verdict he believes to be wrong?",
+      "dialogue": "Crito",
+      "location": "The personified speech of the Laws of Athens that dominates the last third of the dialogue (roughly 50a-54d)",
+      "answer_note": "The Laws answer yes: by benefiting from and voluntarily remaining under them for seventy years Socrates entered an implied agreement to obey or else persuade them, so evading the sentence would wrongfully injure the laws and the city — an argument Crito cannot rebut."
+    }
+  ]
+}

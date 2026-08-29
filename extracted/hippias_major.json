@@ -1,0 +1,17 @@
+{
+  "dialogue": "Hippias Major",
+  "questions": [
+    {
+      "question": "What is the beautiful/fine (to kalon) itself — the single property by whose presence all beautiful things are beautiful, as opposed to a list of examples of beautiful things?",
+      "dialogue": "Hippias Major",
+      "location": "Raised after the opening banter, when Socrates reports the anonymous questioner's challenge (roughly the first third of the dialogue), and pursued through the whole remainder",
+      "answer_note": "No answer survives scrutiny: Hippias's examples (a beautiful maiden, gold, a life of wealth and honorable burial) and the joint candidate definitions (the appropriate, the useful, the beneficial, and pleasure through sight and hearing) are each refuted, and the dialogue ends in explicit aporia, with Socrates concluding only that 'beautiful things are difficult'."
+    },
+    {
+      "question": "What is the relation between the beautiful and the good — in particular, can the beautiful be defined as what is beneficial, i.e. as the cause of the good?",
+      "dialogue": "Hippias Major",
+      "location": "The later stretch of refutations: the argument that the beneficial is the cause of good (and its reprise against the 'beneficial pleasure' proposal near the end)",
+      "answer_note": "The dialogue argues that if the beautiful is the cause (a 'father') of the good, then, since a cause differs from its effect, the beautiful would not be good nor the good beautiful — a conclusion both speakers find unacceptable, so the beneficial-based definitions are abandoned and the question is left unresolved within the general aporia."
+    }
+  ]
+}

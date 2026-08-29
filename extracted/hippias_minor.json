@@ -1,0 +1,23 @@
+{
+  "dialogue": "Hippias Minor",
+  "questions": [
+    {
+      "question": "Who is the better man, Achilles or Odysseus — is the 'true' (truthful, straightforward) man really a different and better person than the 'false' (wily, deceitful) man?",
+      "dialogue": "Hippias Minor",
+      "location": "Opening through first half (363a-369b; Socrates questions Hippias about Homer's Achilles and Odysseus)",
+      "answer_note": "Socrates argues, from cases like arithmetic, geometry, and astronomy, that the same skilled person is best able both to tell the truth and to lie, so the true man and the false man are the same and neither is better — a paradoxical result Hippias resists."
+    },
+    {
+      "question": "Is the person who lies or errs voluntarily better than the person who lies or errs involuntarily?",
+      "dialogue": "Hippias Minor",
+      "location": "Second half (371e-375d; after Hippias distinguishes Achilles' unintentional from Odysseus' intentional falsehood, Socrates runs through analogies from running, wrestling, tools, animals, and the arts)",
+      "answer_note": "The argument from craft analogies concludes that the voluntary wrongdoer is better, but Socrates himself admits he oscillates on the question and distrusts the conclusion, attributing his position to ignorance."
+    },
+    {
+      "question": "If justice is a power or knowledge of the soul, does it follow that only the good man is capable of doing wrong voluntarily — that the voluntary wrongdoer, if he exists, is the good man?",
+      "dialogue": "Hippias Minor",
+      "location": "Conclusion (375d-376c; the final argument about justice as power and/or knowledge, ending the dialogue)",
+      "answer_note": "The argument forces the conclusion that the good man is the one who does wrong voluntarily 'if there be such a man,' but Hippias refuses to accept it and Socrates says he cannot agree with himself either, ending in explicit aporia with both parties wandering in perplexity."
+    }
+  ]
+}

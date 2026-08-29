@@ -1,0 +1,35 @@
+{
+  "dialogue": "Apology",
+  "questions": [
+    {
+      "question": "What is human wisdom, and in what sense could Socrates, who claims to know nothing, be the wisest of men?",
+      "dialogue": "Apology",
+      "location": "early defense against the old accusers — the Delphic oracle story and the examination of politicians, poets, and craftsmen (c. 20d-23b)",
+      "answer_note": "The text asserts a positive answer: human wisdom is worthless compared with the god's, and its highest form is knowing that one does not know — Socrates is wisest only because, unlike the politicians, poets, and craftsmen, he neither knows nor thinks that he knows."
+    },
+    {
+      "question": "Is death an evil to be feared, or might it even be a good?",
+      "dialogue": "Apology",
+      "location": "middle of the defense (the Achilles passage, c. 28b-29b) and especially the closing address to the acquitting jurors after the death sentence (c. 40c-42a)",
+      "answer_note": "Socrates first argues that fearing death is the conceit of knowing the unknown, then after the verdict offers hope that death is a good either way — a dreamless sleep or a migration to converse with the dead — yet the speech ends in professed uncertainty ('Which is better God only knows')."
+    },
+    {
+      "question": "Is a life of relentless self-examination and philosophical questioning worth pursuing even at the cost of one's life, and may one abandon it under threat of death?",
+      "dialogue": "Apology",
+      "location": "the hypothetical offer of acquittal on condition of silence (c. 29c-30b) and the penalty phase (c. 37e-38a, 'the unexamined life is not worth living')",
+      "answer_note": "Socrates asserts without argument that the unexamined life is not worth living and that daily discourse about virtue is the greatest good of man, so he will obey the god rather than the Athenians and never cease philosophizing, even if he must die many times."
+    },
+    {
+      "question": "Which takes priority when they conflict: obedience to the state's demands or fidelity to divine command and justice?",
+      "dialogue": "Apology",
+      "location": "middle of the defense — the soldier-at-his-post analogy, 'I shall obey God rather than you,' and the Arginusae and Leon of Salamis episodes (c. 28d-32e)",
+      "answer_note": "The text answers by assertion and example rather than argument: one must remain at the post where god or a rightful commander has placed one, and Socrates cites his defiance of both the democracy and the Thirty to show he will disobey any human order to do injustice."
+    },
+    {
+      "question": "Can a good person really be harmed by others, and is committing injustice worse than suffering it (including suffering death)?",
+      "dialogue": "Apology",
+      "location": "late in the defense ('a bad man is not permitted to injure a better,' c. 30c-d) and after the verdict ('unrighteousness runs faster than death,' c. 39a-b; 'no evil can happen to a good man,' 41c-d)",
+      "answer_note": "Asserted rather than demonstrated: Meletus and Anytus may kill or exile Socrates but cannot truly injure him, since doing injustice harms the doer more than the victim, and no evil can befall a good man in life or death."
+    }
+  ]
+}
