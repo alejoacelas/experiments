@@ -1,0 +1,775 @@
+{
+  "generated": "2026-08-29",
+  "method": "Central questions extracted per-dialogue from Jowett public-domain texts (Hippias Major: public-domain Wikisource translation) by per-dialogue subagents; merged and deduplicated across dialogues; classified as ANSWERED / OPEN / DISSOLVED where the test for ANSWERED is sociological (disciplinary convergence, not a philosopher's favorite answer); literature pointers verified by web search.",
+  "open_reason_legend": {
+    "a": "irreducibly normative",
+    "b": "an empirical field is working on it but has not converged",
+    "c": "other (explained in 'why')"
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Can virtue (moral excellence) be taught?",
+      "sources": [
+        "Protagoras",
+        "Meno",
+        "Euthydemus"
+      ],
+      "dialogue_outcome": "Protagoras ends in a reversal of positions; Meno tentatively concludes virtue is not taught (no teachers found) and comes as 'divine gift'; Euthydemus assumes teachability without argument.",
+      "bucket": "OPEN",
+      "open_reason": "b",
+      "borderline": true,
+      "borderline_note": "An empirical field (moral development / character education research) actively studies it, but the question also has a normative component about what counts as virtue.",
+      "why": "Developmental and educational psychology study whether interventions durably change character, with mixed and unconverged results; whether what is thereby changed is 'virtue' remains partly normative.",
+      "modern_engagement": "The question was taken over by developmental and educational psychology as 'character education' research, which runs and meta-analyzes school-based interventions to test whether traits like honesty and self-control can be durably taught, while neo-Aristotelian philosophers of education (e.g. Kristjánsson and the Jubilee Centre) debate what would count as teaching genuine virtue rather than mere behavioral compliance.",
+      "literature": [
+        {
+          "title": "Moral Character",
+          "source": "Stanford Encyclopedia of Philosophy (Marcia Homiak; first published 2003, revised)",
+          "url": "https://plato.stanford.edu/entries/moral-character/"
+        },
+        {
+          "title": "Aristotelian Character Education",
+          "source": "Kristján Kristjánsson, Routledge, 2015",
+          "url": "https://www.routledge.com/Aristotelian-Character-Education/Kristjansson/p/book/9781138804753"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "question": "What is virtue itself — is there a single definable nature common to all the virtues?",
+      "sources": [
+        "Meno"
+      ],
+      "dialogue_outcome": "Aporia; every definition Meno offers fails.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": true,
+      "borderline_note": "Arguably partly dissolved: cognitive science of concepts rejects the demand for necessary-and-sufficient definitions, though normative virtue theory continues.",
+      "why": "Virtue ethics revived the question and no convergence exists among competing accounts (Aristotelian, sentimentalist, exemplarist); it is irreducibly normative.",
+      "modern_engagement": "Normative philosophy revived the question wholesale in the virtue-ethics movement, where Aristotelian, sentimentalist, and exemplarist accounts of what a virtue is remain in open competition; meanwhile empirical work (personality psychology and the situationist critique) contests whether robust character traits of the kind any such definition presupposes exist at all.",
+      "literature": [
+        {
+          "title": "Virtue Ethics",
+          "source": "Rosalind Hursthouse & Glen Pettigrove, Stanford Encyclopedia of Philosophy (2016, rev. 2022)",
+          "url": "https://plato.stanford.edu/entries/ethics-virtue/"
+        },
+        {
+          "title": "Moral Character",
+          "source": "Stanford Encyclopedia of Philosophy (Marcia Homiak)",
+          "url": "https://plato.stanford.edu/entries/moral-character/"
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "question": "What is courage?",
+      "sources": [
+        "Laches"
+      ],
+      "dialogue_outcome": "Aporia; endurance-based and knowledge-based definitions both refuted.",
+      "bucket": "OPEN",
+      "open_reason": "c",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Both a normative question in virtue ethics and a young empirical construct in psychology; neither literature has converged on a definition, though psychology now measures courage as a construct.",
+      "modern_engagement": "Positive and personality psychology turned courage into an empirical construct: researchers elicit lay ('implicit') theories of courage, build taxonomies (physical, moral, psychological courage), and develop measures, converging on a working schema of intentional action toward a worthy goal despite personal risk and fear — while conceding, in explicit echo of the Laches, that no consensus definition yet exists.",
+      "literature": [
+        {
+          "title": "The Psychology of Courage: Modern Research on an Ancient Virtue",
+          "source": "Cynthia L. S. Pury & Shane J. Lopez (eds.), American Psychological Association, 2010",
+          "url": "https://psycnet.apa.org/record/2010-14508-000"
+        },
+        {
+          "title": "Implicit theories of courage",
+          "source": "Christopher R. Rate, Jennifer A. Clarke, Douglas R. Lindsay & Robert J. Sternberg, The Journal of Positive Psychology 2(2), 2007",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17439760701228755"
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "question": "What is temperance/self-control (sophrosyne), and what good does it do us?",
+      "sources": [
+        "Charmides"
+      ],
+      "dialogue_outcome": "Aporia after six definitions fail.",
+      "bucket": "OPEN",
+      "open_reason": "b",
+      "borderline": true,
+      "borderline_note": "The empirical self-regulation construct is robustly predictive (a partial ANSWERED), but construct definition and mechanisms are contested (ego-depletion replication crisis; marshmallow-test re-analyses).",
+      "why": "Self-regulation research is the modern heir: self-control robustly predicts life outcomes, but psychology has not converged on what self-control is or how it works.",
+      "modern_engagement": "Self-regulation research in psychology and behavioral science is the direct heir: longitudinal studies show childhood self-control predicts adult health, wealth, and criminality (answering 'what good does it do us'), while competing models of what self-control actually is — strength/ego-depletion, motivational, and strategy-based accounts — remain under active integration and dispute after the field's replication crises.",
+      "literature": [
+        {
+          "title": "Integrating Models of Self-Regulation",
+          "source": "Michael Inzlicht, Kaitlyn M. Werner, Julia L. Briskin & Brent W. Roberts, Annual Review of Psychology 72, 2021",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-psych-061020-105721"
+        },
+        {
+          "title": "A gradient of childhood self-control predicts health, wealth, and public safety",
+          "source": "Terrie E. Moffitt et al., Proceedings of the National Academy of Sciences 108(7), 2011",
+          "url": "https://www.pnas.org/doi/abs/10.1073/pnas.1010076108"
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "question": "Is reflexive knowledge possible — can there be knowledge whose object is knowledge itself (knowing what one knows and does not know)?",
+      "sources": [
+        "Charmides"
+      ],
+      "dialogue_outcome": "Left explicitly undetermined, awaiting 'some great man'.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "The empirical possibility is settled (metacognition exists and is measurable); the logical worries about self-reference were resolved separately and partly negatively (limitative theorems).",
+      "why": "Metacognition research demonstrates that humans monitor and evaluate their own knowledge states, with mature paradigms (feeling-of-knowing, confidence calibration, Dunning-Kruger effects); mathematical logic clarified which forms of self-reference are coherent.",
+      "modern_engagement": "Cognitive psychology and neuroscience took the question over as 'metacognition': since Flavell named the field, mature paradigms (feeling-of-knowing, confidence calibration, signal-detection measures of metacognitive sensitivity) demonstrate that knowledge of one's own knowledge exists, is measurable, and is imperfect in systematic ways — settling the possibility question Critias's refutation left open, while metacognitive neuroscience now maps its mechanisms.",
+      "literature": [
+        {
+          "title": "Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry",
+          "source": "John H. Flavell, American Psychologist 34(10), 1979",
+          "url": "https://psycnet.apa.org/doi/10.1037/0003-066X.34.10.906"
+        },
+        {
+          "title": "How to measure metacognition",
+          "source": "Stephen M. Fleming & Hakwan Lau, Frontiers in Human Neuroscience 8:443, 2014",
+          "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full"
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "question": "What is piety/holiness — a single essence common to all pious acts?",
+      "sources": [
+        "Euthyphro"
+      ],
+      "dialogue_outcome": "Aporia; every definition refuted or circular.",
+      "bucket": "DISSOLVED",
+      "open_reason": "",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Rests on the presupposition that 'piety' has a classical (necessary-and-sufficient) definition; modern religious studies treats piety naturalistically as culturally variable practice, and cognitive science of concepts rejects classical definitions for such categories.",
+      "modern_engagement": "No field now seeks a necessary-and-sufficient essence of piety: the cognitive science of concepts (Wittgenstein's family resemblance, Rosch's prototype theory) undermined the classical theory of definition that the Euthyphro's search presupposes, and the cognitive science of religion instead explains piety and religious practice naturalistically as products of ordinary, culturally variable cognitive systems.",
+      "literature": [
+        {
+          "title": "Concepts",
+          "source": "Eric Margolis & Stephen Laurence, Stanford Encyclopedia of Philosophy (2005, rev. 2019)",
+          "url": "https://plato.stanford.edu/entries/concepts/"
+        },
+        {
+          "title": "Religion Explained: The Evolutionary Origins of Religious Thought",
+          "source": "Pascal Boyer, Basic Books, 2001",
+          "url": "https://en.wikipedia.org/wiki/Religion_Explained"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "question": "Is what is good/pious good because the gods approve it, or do they approve it because it is good? (Does morality depend on divine will?)",
+      "sources": [
+        "Euthyphro"
+      ],
+      "dialogue_outcome": "Euthyphro concedes the gods love piety because it is pious; god-belovedness is an attribute, not essence.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": true,
+      "borderline_note": "Most metaethicists take the dilemma to refute simple divine command theory — close to a disciplinary consensus — but sophisticated theistic metaethics is still actively defended.",
+      "why": "The autonomy of ethics from theology is the mainstream view in metaethics, but modified divine command theories remain live; the question is irreducibly normative/metaethical.",
+      "modern_engagement": "The Euthyphro dilemma became the organizing problem of theistic metaethics: analytic philosophy of religion debates whether divine command theory can survive the arbitrariness horn, with modified divine command theories (grounding obligation in the commands of an essentially loving God) as the leading contemporary response, while mainstream metaethics treats the dilemma as establishing the autonomy of ethics from theology.",
+      "literature": [
+        {
+          "title": "Theological Voluntarism",
+          "source": "Mark Murphy, Stanford Encyclopedia of Philosophy (2002, rev. through 2025)",
+          "url": "https://plato.stanford.edu/entries/voluntarism-theological/"
+        },
+        {
+          "title": "Finite and Infinite Goods: A Framework for Ethics",
+          "source": "Robert Merrihew Adams, Oxford University Press, 1999",
+          "url": "https://global.oup.com/academic/product/finite-and-infinite-goods-9780195153712"
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "question": "What is beauty (the fine, to kalon) — the one property by which all beautiful things are beautiful?",
+      "sources": [
+        "Hippias Major"
+      ],
+      "dialogue_outcome": "Aporia; 'beautiful things are difficult'.",
+      "bucket": "DISSOLVED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "Dissolution is the majority trajectory (no single essence; subjective-response theories), but aesthetic realism still has defenders, and empirical aesthetics studies beauty judgments productively.",
+      "why": "Modern aesthetics largely abandoned the search for a single essence of beauty after Hume and Kant relocated it in response-dependence; empirical aesthetics and neuroaesthetics reframed the question as: what predicts human aesthetic response?",
+      "modern_engagement": "Philosophical aesthetics reframed the question after Hume and Kant as one about the objectivity or response-dependence of aesthetic judgment rather than a single essence of beauty, while empirical aesthetics and neuroaesthetics took over the tractable remainder: experimentally identifying the stimulus features, processing dynamics, and brain systems that predict human aesthetic response.",
+      "literature": [
+        {
+          "title": "Beauty",
+          "source": "Crispin Sartwell, Stanford Encyclopedia of Philosophy (2012, revised)",
+          "url": "https://plato.stanford.edu/entries/beauty/"
+        },
+        {
+          "title": "Neuroaesthetics: The Cognitive Neuroscience of Aesthetic Experience",
+          "source": "Marcus T. Pearce, Dahlia W. Zaidel, Oshin Vartanian, Martin Skov, Helmut Leder, Anjan Chatterjee & Marcos Nadal, Perspectives on Psychological Science 11(2): 265-279, 2016",
+          "url": "https://journals.sagepub.com/doi/10.1177/1745691615621274"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "question": "Do we befriend those like ourselves or those unlike ourselves (likeness vs. opposition as the basis of attachment)?",
+      "sources": [
+        "Lysis"
+      ],
+      "dialogue_outcome": "Both options refuted dialectically.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Relationship science answered it empirically: homophily — similarity-based attraction and assortment — is one of the most robust findings in social science, while the 'opposites attract' complementarity hypothesis repeatedly failed to replicate.",
+      "modern_engagement": "Sociology and relationship science made the Lysis puzzle an empirical question and answered it: homophily research shows that similarity structures ties of every kind (friendship, marriage, work), and meta-analytic work on similarity and attraction finds large effects of actual and perceived similarity, while the 'opposites attract' complementarity hypothesis has repeatedly failed to find support.",
+      "literature": [
+        {
+          "title": "Birds of a Feather: Homophily in Social Networks",
+          "source": "Miller McPherson, Lynn Smith-Lovin & James M. Cook, Annual Review of Sociology 27: 415-444, 2001",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev.soc.27.1.415"
+        },
+        {
+          "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity",
+          "source": "R. Matthew Montoya, Robert S. Horton & Jeffrey Kirchner, Journal of Social and Personal Relationships 25(6): 889-922, 2008",
+          "url": "https://journals.sagepub.com/doi/10.1177/0265407508096700"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "What is friendship, and what makes a friend a friend?",
+      "sources": [
+        "Lysis"
+      ],
+      "dialogue_outcome": "Aporia; the interlocutors cannot say what a friend is.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Philosophy of friendship (value, partiality, the 'friendship condition') remains contested; relationship science describes correlates and functions of friendship but does not settle its nature or normative significance.",
+      "modern_engagement": "Analytic moral philosophy holds the definitional question directly — contemporary work on friendship debates the intimacy, shared-agency, and mutual-caring conditions that make a friend a friend, and the tension between friendship's partiality and impartial morality — while relationship science studies friendship's correlates and functions without settling its nature.",
+      "literature": [
+        {
+          "title": "Friendship",
+          "source": "Bennett Helm, Stanford Encyclopedia of Philosophy (2005, rev. 2021)",
+          "url": "https://plato.stanford.edu/entries/friendship/"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "Is someone who does wrong knowingly/voluntarily worse than someone who does wrong unwittingly?",
+      "sources": [
+        "Hippias Minor"
+      ],
+      "dialogue_outcome": "The craft analogy forces the paradox that the voluntary wrongdoer is better; Socrates distrusts his own conclusion; aporia.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "The paradox itself is diagnosed as an equivocation (skill/capacity vs. disposition to act); the residual philosophical question of the relation between skill and virtue is still discussed.",
+      "why": "Law (mens rea doctrine) and the moral psychology of blame converge: intent aggravates culpability, and experimental work shows intention is the central input to blame judgments — the reverse of the Socratic paradox, which trades on conflating being able to err with being disposed to.",
+      "modern_engagement": "Two fields took this over and converged on the anti-Socratic verdict that knowing wrongdoing is worse: criminal law's mens rea doctrine grades culpability by mental state (purposeful worse than negligent), theorized in the philosophy of criminal law, while the moral psychology of blame experimentally shows that intentionality and mental-state information are the central inputs to blame judgments.",
+      "literature": [
+        {
+          "title": "A Theory of Blame",
+          "source": "Bertram F. Malle, Steve Guglielmo & Andrew E. Monroe, Psychological Inquiry 25(2): 147-186, 2014",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/1047840X.2014.877340"
+        },
+        {
+          "title": "Theories of Criminal Law",
+          "source": "Antony Duff & Zachary Hoskins, Stanford Encyclopedia of Philosophy (2002, revised)",
+          "url": "https://plato.stanford.edu/entries/criminal-law/"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "Can a person act against their own better judgment (akrasia / weakness of will)?",
+      "sources": [
+        "Protagoras"
+      ],
+      "dialogue_outcome": "Socrates answers no: 'overcome by pleasure' is redescribed as mismeasurement/ignorance.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "Psychology's verdict (yes, akrasia is real) is convergent, but the correct philosophical description of such actions is still debated.",
+      "why": "Self-control research, addiction science, and behavioral economics (hyperbolic discounting, preference reversals) converge that people knowingly act against their own judged best interest — empirically rejecting the Socratic denial — and provide mechanisms for it.",
+      "modern_engagement": "Philosophy of action kept the conceptual question alive (Davidson's reopening of the Socratic denial and the ensuing debate over how akratic action is possible and whether it is irrational), while psychology, behavioral economics, and addiction science effectively answered the empirical question: hyperbolic discounting and preference-reversal research model exactly how people knowingly act against their own better judgment, and self-control research studies the mechanisms that resist it.",
+      "literature": [
+        {
+          "title": "Weakness of Will",
+          "source": "Sarah Stroud & Larisa Svirsky, Stanford Encyclopedia of Philosophy (2008, rev. 2025)",
+          "url": "https://plato.stanford.edu/entries/weakness-will/"
+        },
+        {
+          "title": "Breakdown of Will",
+          "source": "George Ainslie, Cambridge University Press, 2001",
+          "url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/precis-of-breakdown-of-will/71FA8AE21157EC36FE88166DEF8A7C2C"
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": "Is pleasure the good — is well-being just pleasant experience?",
+      "sources": [
+        "Protagoras",
+        "Gorgias"
+      ],
+      "dialogue_outcome": "Accepted for argument's sake in Protagoras; refuted in Gorgias.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Theories of well-being (hedonism, desire-satisfaction, objective list) remain in open competition in normative philosophy; hedonism is a minority view but not refuted to consensus.",
+      "modern_engagement": "The question survives almost intact as the debate over theories of well-being in normative ethics, where hedonism competes with desire-satisfaction and objective-list theories, with Nozick's experience machine playing the role of Socrates' refutation and philosophers like Feldman and Crisp mounting sophisticated defenses of hedonism. A parallel empirical literature in psychology and economics measures 'subjective well-being', quietly operationalizing a broadly hedonist conception without settling the normative question.",
+      "literature": [
+        {
+          "title": "Well-Being",
+          "source": "Roger Crisp, Stanford Encyclopedia of Philosophy (2001, rev. 2021)",
+          "url": "https://plato.stanford.edu/entries/well-being/"
+        },
+        {
+          "title": "Hedonism",
+          "source": "Andrew Moore, Stanford Encyclopedia of Philosophy (2004, rev. 2013)",
+          "url": "https://plato.stanford.edu/entries/hedonism/"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "question": "Is there a rational 'art of measurement' for weighing goods, pleasures, and pains against each other — near against distant?",
+      "sources": [
+        "Protagoras"
+      ],
+      "dialogue_outcome": "Posited as the science that saves life from the 'power of appearance'; its nature deferred.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "The formal apparatus converged (expected utility theory), but its normative authority and the commensurability of all values remain philosophically contested.",
+      "why": "Decision theory is exactly this art — axiomatized expected utility — and behavioral economics (prospect theory, temporal discounting) empirically mapped the 'power of appearance', the systematic distortions Socrates postulated.",
+      "modern_engagement": "Decision theory built exactly the 'art of measurement' Socrates postulated: axiomatized expected utility gives a formal calculus for weighing goods against each other and near against distant, while behavioral economics mapped the 'power of appearance' empirically — prospect theory catalogued the systematic distortions in how prospects appear, and the intertemporal-choice literature showed near rewards are hyperbolically overweighted relative to distant ones.",
+      "literature": [
+        {
+          "title": "Decision Theory",
+          "source": "Katie Steele and H. Orri Stefánsson, Stanford Encyclopedia of Philosophy (2015, rev. 2020)",
+          "url": "https://plato.stanford.edu/entries/decision-theory/"
+        },
+        {
+          "title": "Prospect Theory: An Analysis of Decision under Risk",
+          "source": "Daniel Kahneman and Amos Tversky, Econometrica 47(2): 263-291, 1979",
+          "url": "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk"
+        },
+        {
+          "title": "Time Discounting and Time Preference: A Critical Review",
+          "source": "Shane Frederick, George Loewenstein and Ted O'Donoghue, Journal of Economic Literature 40(2): 351-401, 2002",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/002205102320161311"
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "question": "Is it better to suffer injustice than to commit it — can an unjust person flourish, and can a good person truly be harmed?",
+      "sources": [
+        "Gorgias",
+        "Crito",
+        "Apology"
+      ],
+      "dialogue_outcome": "Socrates answers: doing injustice is worse; the unjust are miserable; no evil can befall a good man.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "The core is irreducibly normative — no discipline can settle whether moral integrity trumps all other goods; empirical well-being research offers only correlational evidence that prosociality tends to accompany happiness.",
+      "modern_engagement": "The normative core lives on in ethics and the philosophy of well-being as the question whether virtue or moral integrity is necessary for (or partly constitutive of) flourishing — a central axis of the well-being debate from the ancient eudaimonists to modern objective-list theories. The empirical wing is well-being science, where meta-analytic work finds that acting prosocially modestly boosts the actor's happiness — a correlational echo of, not a verdict on, the Socratic thesis that the just life is the better one.",
+      "literature": [
+        {
+          "title": "Well-Being",
+          "source": "Roger Crisp, Stanford Encyclopedia of Philosophy (2001, rev. 2021)",
+          "url": "https://plato.stanford.edu/entries/well-being/"
+        },
+        {
+          "title": "Happy to help? A systematic review and meta-analysis of the effects of performing acts of kindness on the well-being of the actor",
+          "source": "Oliver Scott Curry, Lee A. Rowland, Caspar J. Van Lissa, Sally Zlotowitz, John McAlaney and Harvey Whitehouse, Journal of Experimental Social Psychology 76: 320-329, 2018",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0022103117303451"
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "question": "Does punishment reform/improve the wrongdoer?",
+      "sources": [
+        "Gorgias"
+      ],
+      "dialogue_outcome": "Socrates asserts just punishment cures the soul; the unpunished wrongdoer is most wretched.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "The empirical core has converged (punishment severity does not rehabilitate; targeted programs modestly do), but Socrates' claim was partly normative (expiation), which criminology cannot address.",
+      "why": "Criminology converges that punishment as such does not reform: imprisonment does not reduce reoffending and severity adds little deterrence, whereas certainty of sanction and structured rehabilitation programs have modest effects.",
+      "modern_engagement": "Criminology and the economics of crime turned Socrates' claim into a measurable question about deterrence and recidivism, and the evidence runs against 'punishment cures': imprisonment and sanction severity do not reduce reoffending (certainty of apprehension matters far more than severity), while structured rehabilitation programs — treatment rather than punishment as such — show consistent modest effects in systematic reviews.",
+      "literature": [
+        {
+          "title": "Deterrence in the Twenty-First Century",
+          "source": "Daniel S. Nagin, Crime and Justice 42(1): 199-263, 2013",
+          "url": "https://www.journals.uchicago.edu/doi/10.1086/670398"
+        },
+        {
+          "title": "The Effectiveness of Correctional Rehabilitation: A Review of Systematic Reviews",
+          "source": "Mark W. Lipsey and Francis T. Cullen, Annual Review of Law and Social Science 3: 297-320, 2007",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev.lawsocsci.3.081806.112833"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "question": "Must citizens obey the law even when it treats them unjustly — what grounds political obligation?",
+      "sources": [
+        "Crito",
+        "Apology"
+      ],
+      "dialogue_outcome": "The Laws' speech answers yes (persuade or obey), though the Apology reserves disobedience to unjust orders.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Political obligation and the justification of civil disobedience remain among the most contested questions in political philosophy; every proposed ground (consent, fair play, gratitude — all present in the Crito) has standing objections.",
+      "modern_engagement": "This became the problem of political obligation, a standing research program in political philosophy: every ground the Laws offer in the Crito (consent, gratitude, fair play) has a modern theory and standing objections, with philosophical anarchists denying any general obligation to obey. The permissible-disobedience half was reshaped by Rawls and the civil-rights era into the theory of civil disobedience, now an active literature on when and how citizens may break unjust laws.",
+      "literature": [
+        {
+          "title": "Political Obligation",
+          "source": "Richard Dagger and David Lefkowitz, Stanford Encyclopedia of Philosophy (2007, rev. 2021)",
+          "url": "https://plato.stanford.edu/entries/political-obligation/"
+        },
+        {
+          "title": "Civil Disobedience",
+          "source": "Candice Delmas and Kimberley Brownlee, Stanford Encyclopedia of Philosophy (2007, rev. 2024)",
+          "url": "https://plato.stanford.edu/entries/civil-disobedience/"
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "question": "Is it ever right to return wrong for wrong (retaliation/retribution)?",
+      "sources": [
+        "Crito"
+      ],
+      "dialogue_outcome": "Socrates answers never — one must not requite evil with evil.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Retributivism vs. consequentialist and restorative alternatives is a standing dispute in the philosophy of punishment; game-theoretic work complicates it by showing sanctioning defectors helps sustain cooperation.",
+      "modern_engagement": "The normative question is the retributivism debate in the philosophy of punishment — whether wrongdoing itself merits proportionate hard treatment or only forward-looking (deterrent, restorative) responses are justified — which remains unresolved, with restorative justice as the institutionalized heir of the Socratic 'never return wrong'. Game theory and evolutionary work on cooperation complicated the picture from another direction, showing that reciprocal sanctioning of defectors (tit-for-tat, altruistic punishment) is often what sustains cooperation among self-interested agents.",
+      "literature": [
+        {
+          "title": "Retributive Justice",
+          "source": "Alec Walen, Stanford Encyclopedia of Philosophy (2014, rev. 2020)",
+          "url": "https://plato.stanford.edu/entries/justice-retributive/"
+        },
+        {
+          "title": "The Evolution of Cooperation",
+          "source": "Robert Axelrod, Basic Books, 1984",
+          "url": "https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation"
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "question": "Whose judgment should guide us — the expert's or the majority's?",
+      "sources": [
+        "Crito",
+        "Laches"
+      ],
+      "dialogue_outcome": "Socrates answers: the one who knows, not the many; but no moral expert is found.",
+      "bucket": "OPEN",
+      "open_reason": "c",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Split verdict across fields: social epistemology and the wisdom-of-crowds literature show aggregation beats individuals in some domains while expertise dominates in others; whether moral expertise exists at all is still contested — partly empirical, partly normative.",
+      "modern_engagement": "Social epistemology took over the expert-vs-many question as the problems of testimony, disagreement, and novice/expert identification, while formal work descending from the Condorcet jury theorem and the 'wisdom of crowds' literature studies when aggregated lay judgment outperforms individual experts; epistemic democracy (e.g. Landemore) turns this into an argument about political authority, and judgment-and-forecasting research (Tetlock) empirically tests expert accuracy.",
+      "literature": [
+        {
+          "title": "Social Epistemology",
+          "source": "Stanford Encyclopedia of Philosophy (Goldman & O'Connor)",
+          "url": "https://plato.stanford.edu/entries/epistemology-social/"
+        },
+        {
+          "title": "Democratic Reason: Politics, Collective Intelligence, and the Rule of the Many",
+          "source": "Hélène Landemore, Princeton University Press, 2013",
+          "url": "https://www.jstor.org/stable/j.ctt1r2gf0"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "question": "Is death a harm to the one who dies, and is it rational to fear it?",
+      "sources": [
+        "Apology"
+      ],
+      "dialogue_outcome": "Fearing death is the conceit of knowing the unknown; 'which is better God only knows'.",
+      "bucket": "OPEN",
+      "open_reason": "a",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "The Epicurean challenge and the deprivation account are still actively debated in philosophy of death; empirical mortality research (terror management) studies fear of death but cannot settle whether death is a harm.",
+      "modern_engagement": "Analytic philosophy of death owns the question: since Nagel's 'Death' (1970) revived the Epicurean challenge, a dense literature debates the deprivation account, the timing problem, and Lucretius' symmetry argument, without consensus. Empirical psychology engages the fear-of-death half separately through terror management theory, which studies how mortality salience shapes behavior rather than whether the fear is rational.",
+      "literature": [
+        {
+          "title": "Death",
+          "source": "Stanford Encyclopedia of Philosophy (Steven Luper)",
+          "url": "https://plato.stanford.edu/entries/death/"
+        },
+        {
+          "title": "Death",
+          "source": "Thomas Nagel, Noûs 4(1), 1970; reprinted in Mortal Questions, Cambridge University Press, 1979",
+          "url": "https://philpapers.org/rec/NAGD"
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "question": "What is wisdom — and is awareness of one's own ignorance its core?",
+      "sources": [
+        "Apology",
+        "Charmides"
+      ],
+      "dialogue_outcome": "Human wisdom is knowing that one does not know; only god is wise.",
+      "bucket": "OPEN",
+      "open_reason": "b",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "An empirical psychology of wisdom now exists (with a 2020 'common wisdom model' attempt at consensus) and intellectual-humility research directly vindicates the Socratic component, but the field has not converged on what wisdom is.",
+      "modern_engagement": "An empirical psychology of wisdom emerged from the 1980s onward and in 2020 a task force of wisdom scientists published a consensus 'common wisdom model' centering perspectival metacognition — epistemic humility, perspective-taking, balancing interests — which is strikingly close to the Socratic conception; the specifically Socratic component (awareness of one's own ignorance) is now its own measurable construct, intellectual humility, with a large predictive literature.",
+      "literature": [
+        {
+          "title": "The Science of Wisdom in a Polarized World: Knowns and Unknowns",
+          "source": "Igor Grossmann, Nic M. Weststrate, Monika Ardelt et al., Psychological Inquiry 31(2), 2020",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/1047840X.2020.1750917"
+        },
+        {
+          "title": "Predictors and consequences of intellectual humility",
+          "source": "Tenelle Porter, Abdo Elnakouri, Ethan A. Meyers, Takuya Shibayama, Eranda Jayawickreme & Igor Grossmann, Nature Reviews Psychology 1(9), 2022",
+          "url": "https://www.nature.com/articles/s44159-022-00081-9"
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "question": "What distinguishes knowledge from true belief?",
+      "sources": [
+        "Meno"
+      ],
+      "dialogue_outcome": "True opinion guides action as well as knowledge but is unstable until bound by 'the tie of the cause'.",
+      "bucket": "OPEN",
+      "open_reason": "c",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Epistemology remains unconverged after the post-Gettier programme failed to deliver an accepted analysis; knowledge-first epistemology responds by treating knowledge as unanalyzable — a live methodological dispute rather than a normative or empirical one.",
+      "modern_engagement": "This is the central question of analytic epistemology: Gettier's 1963 counterexamples to the justified-true-belief analysis launched a fifty-year program of proposed analyses (causal, reliabilist, defeasibility, safety, virtue-theoretic), none of which won acceptance, and Williamson's knowledge-first epistemology responds by taking knowledge as primitive and unanalyzable — so the field still actively works Socrates' Meno question, including his own 'tie of the cause' intuition (stability, aptness, connection to fact).",
+      "literature": [
+        {
+          "title": "The Analysis of Knowledge",
+          "source": "Stanford Encyclopedia of Philosophy (Jonathan Jenkins Ichikawa & Matthias Steup)",
+          "url": "https://plato.stanford.edu/entries/knowledge-analysis/"
+        },
+        {
+          "title": "Knowledge and Its Limits",
+          "source": "Timothy Williamson, Oxford University Press, 2000",
+          "url": "https://global.oup.com/academic/product/knowledge-and-its-limits-9780199256563"
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "question": "How can we learn or inquire into what we do not already know (Meno's paradox) — is learning drawing out something innate?",
+      "sources": [
+        "Meno"
+      ],
+      "dialogue_outcome": "Answered via recollection and the slave-boy demonstration, with confessed uncertainty.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "The paradox is resolved (partial/graded knowledge, inductive learning with priors), but the exact division between innate structure and learning — Plato's deeper claim — is still fought over in cognitive science.",
+      "why": "Formal learning theory and cognitive science answered how inquiry is possible: learners with inductive biases/prior structure can acquire genuinely new knowledge from data, and developmental 'core knowledge' research vindicates a naturalized version of innateness.",
+      "modern_engagement": "Cognitive science naturalized the recollection doctrine as the nativism-empiricism debate: Chomsky's poverty-of-the-stimulus argument explicitly recast Plato's problem as an empirical question about innate constraints on learning, developmental psychology's 'core knowledge' program documents unlearned infant systems for objects, number, and agents, and formal learning theory (Gold, PAC learning, Bayesian models) shows precisely how learners equipped with prior structure or inductive biases can acquire genuinely new knowledge — dissolving the paradox while keeping the innateness question live.",
+      "literature": [
+        {
+          "title": "Innateness and Language",
+          "source": "Stanford Encyclopedia of Philosophy (Fiona Cowie)",
+          "url": "https://plato.stanford.edu/entries/innateness-language/"
+        },
+        {
+          "title": "Core knowledge",
+          "source": "Elizabeth S. Spelke & Katherine D. Kinzler, Developmental Science 10(1), 2007",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-7687.2007.00569.x"
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "question": "Are the virtues one thing or many — and is virtue a kind of knowledge?",
+      "sources": [
+        "Protagoras",
+        "Laches"
+      ],
+      "dialogue_outcome": "Socrates argues the virtues coalesce in knowledge; inquiry explicitly unfinished; Laches ends in aporia on part vs. whole.",
+      "bucket": "OPEN",
+      "open_reason": "c",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Virtue theorists still debate the unity/reciprocity of the virtues, and the empirical wing (situationism vs. character; personality psychology on cross-situational consistency) has produced a genuine literature without convergence — part normative, part empirical.",
+      "modern_engagement": "Virtue ethics still debates the unity/reciprocity of the virtues as a normative thesis, but the empirical action moved to the character-situationism controversy: Doris and Harman used social psychology's cross-situational inconsistency findings to argue there are no broad character traits of the kind virtue theory (and Socratic unity) presupposes, and personality psychology answered with density-distribution and whole-trait models (Fleeson, Jayawickreme) showing stable trait structure within situational variability — a live interdisciplinary literature without convergence.",
+      "literature": [
+        {
+          "title": "Moral Character",
+          "source": "Stanford Encyclopedia of Philosophy (Marcia Homiak)",
+          "url": "https://plato.stanford.edu/entries/moral-character/"
+        },
+        {
+          "title": "Lack of Character: Personality and Moral Behavior",
+          "source": "John M. Doris, Cambridge University Press, 2002",
+          "url": "https://philpapers.org/rec/DORLOC-3"
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "question": "Is persuasive rhetoric a genuine art grounded in knowledge, or a mere knack — and what is its relation to truth?",
+      "sources": [
+        "Gorgias"
+      ],
+      "dialogue_outcome": "Socrates concludes rhetoric is a knack of flattery, a counterfeit of politics.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": true,
+      "borderline_note": "Persuasion became a systematic science — against Socrates' 'mere knack' — but his normative worry (persuasion detached from truth) is precisely what misinformation research now studies.",
+      "why": "Attitude-change and persuasion research (dual-process models such as the Elaboration Likelihood Model, and the Yale programme before it) made persuasion a cumulative experimental science with lawlike moderators; communication and misinformation studies carry the normative concern forward.",
+      "modern_engagement": "Social psychology turned persuasion into a cumulative experimental science: the attitude-change tradition (Yale program, then dual-process theories like the Elaboration Likelihood Model) maps when persuasion proceeds via argument scrutiny versus peripheral cues — precisely Socrates' art-vs-knack distinction, naturalized. His normative worry about persuasion detached from truth is now the explicit subject of misinformation research in psychology and communication science.",
+      "literature": [
+        {
+          "title": "The Elaboration Likelihood Model of Persuasion",
+          "source": "Richard E. Petty & John T. Cacioppo, Advances in Experimental Social Psychology, vol. 19, 1986",
+          "url": "https://richardepetty.com/wp-content/uploads/2019/01/1986-advances-pettycacioppo.pdf"
+        },
+        {
+          "title": "The psychological drivers of misinformation belief and its resistance to correction",
+          "source": "Ullrich K. H. Ecker, Stephan Lewandowsky, et al., Nature Reviews Psychology, 2022",
+          "url": "https://www.nature.com/articles/s44159-021-00006-y"
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "question": "Does artistic creation come from rational craft or from inspiration ('possession')?",
+      "sources": [
+        "Ion"
+      ],
+      "dialogue_outcome": "Socrates concludes (ironically) that poet and rhapsode work by divine inspiration, not art.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Creativity research converges that creative production rests on domain expertise, incremental generate-and-test processes, and explicable cognitive mechanisms — the phenomenology of 'inspiration' (incubation, flow, insight) is itself studied as a natural process, not possession.",
+      "modern_engagement": "Creativity research in psychology and cognitive science took the question over, explaining creative production through domain expertise, motivation, and ordinary cognitive processes (generate-and-test, incubation, insight), while treating the phenomenology of 'inspiration' — flow states, sudden insight — as itself a measurable natural phenomenon rather than possession. The field's consensus is firmly on the craft-plus-explicable-process side, with the muse reduced to studied mechanisms.",
+      "literature": [
+        {
+          "title": "Creativity",
+          "source": "Beth A. Hennessey & Teresa M. Amabile, Annual Review of Psychology, vol. 61, pp. 569-598, 2010",
+          "url": "https://doi.org/10.1146/annurev.psych.093008.100416"
+        },
+        {
+          "title": "Explaining Creativity: The Science of Human Innovation (2nd ed.)",
+          "source": "R. Keith Sawyer, Oxford University Press, 2012 (3rd ed. with Danah Henriksen, 2024)",
+          "url": "https://global.oup.com/academic/product/explaining-creativity-9780199737574"
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "question": "Is expertise domain-general or domain-specific — should competence in judging one poet extend to all poetry?",
+      "sources": [
+        "Ion"
+      ],
+      "dialogue_outcome": "Socrates assumes an expert in an art judges the whole domain, so Ion's Homer-only skill shows he has no art.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Expertise research answered with a twist: expertise is strongly domain-specific and transfer beyond the trained domain is rare — vindicating the possibility Socrates ruled out (genuine but narrow competence), while confirming his premise that expertise is tied to a structured domain of knowledge.",
+      "modern_engagement": "Expertise research in cognitive psychology, launched by Chase and Simon's chess-chunking studies, made domain-specificity one of its central and best-replicated findings: expert performance rests on large domain-specific knowledge structures acquired through extended practice, and meta-analyses show far transfer of trained skill to other domains is rare to nonexistent. The field thus answers Socrates with a twist — genuine but narrow competence, the option he ruled out, is exactly what experts have.",
+      "literature": [
+        {
+          "title": "The Cambridge Handbook of Expertise and Expert Performance (2nd ed.)",
+          "source": "K. Anders Ericsson, Robert R. Hoffman, Aaron Kozbelt & A. Mark Williams (eds.), Cambridge University Press, 2018",
+          "url": "https://www.cambridge.org/core/books/cambridge-handbook-of-expertise-and-expert-performance/A1BC1FC1B8C8E6FCEE0F4ED2C4E5614D"
+        },
+        {
+          "title": "Does Far Transfer Exist? Negative Evidence From Chess, Music, and Working Memory Training",
+          "source": "Giovanni Sala & Fernand Gobet, Current Directions in Psychological Science, 26(6), 515-520, 2017",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/0963721417712760"
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "question": "How is it possible to say or believe what is false, or to contradict someone — do the sophistic paradoxes show falsehood is impossible?",
+      "sources": [
+        "Euthydemus"
+      ],
+      "dialogue_outcome": "Fallacies exposed as equivocation but no formal theory given; the denial of falsehood shown self-undermining.",
+      "bucket": "ANSWERED",
+      "open_reason": "",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Modern logic and semantics dissolved the paradoxes completely: the sense/reference distinction, truth-conditional semantics, and formal treatments of ambiguity and fallacy explain exactly how meaningful false statements and genuine contradiction work — a textbook case of a Socratic puzzle absorbed by a mature discipline.",
+      "modern_engagement": "Philosophy of language and formal logic absorbed and dissolved the puzzle: Frege's sense/reference distinction and truth-conditional semantics explain how a sentence can be meaningful yet false (it expresses a graspable sense whose truth-conditions fail to obtain), while modern fallacy theory and argumentation studies give systematic treatments of the equivocations the Euthydemus sophisms trade on. The sophistic paradoxes now serve as textbook exercises in disambiguation rather than live threats.",
+      "literature": [
+        {
+          "title": "On Sense and Reference (Über Sinn und Bedeutung)",
+          "source": "Gottlob Frege, Zeitschrift für Philosophie und philosophische Kritik 100: 25-50, 1892",
+          "url": "https://www.ub.edu/grc_logos/wp-content/uploads/files_publication/1263459298-Sense&Reference.pdf"
+        },
+        {
+          "title": "Fallacies",
+          "source": "Hans Hansen, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/fallacies/"
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "question": "Do external goods (wealth, health, fortune) benefit us apart from the wisdom to use them well — and is there a master science of happiness?",
+      "sources": [
+        "Euthydemus",
+        "Gorgias"
+      ],
+      "dialogue_outcome": "Wisdom declared the only good; but the search for the 'kingly art' of happiness ends in aporia.",
+      "bucket": "OPEN",
+      "open_reason": "b",
+      "borderline": false,
+      "borderline_note": "",
+      "why": "Well-being science (positive psychology, happiness economics) is actively working on how resources convert into flourishing — income-happiness curves, adaptation, the limits of circumstances — but has famously unstable results and no consensus 'science of happiness'.",
+      "modern_engagement": "An empirical well-being science — positive psychology and happiness economics — now directly studies how external goods convert into flourishing, most visibly in the income-happiness literature, where even a formal adversarial collaboration between Kahneman's and Killingsworth's camps was needed to reconcile whether money's benefits plateau; results remain unstable and moderated by who is measured and how. The normative half of the question — which theory of well-being the measurements should track — remains with philosophy.",
+      "literature": [
+        {
+          "title": "Income and emotional well-being: A conflict resolved",
+          "source": "Matthew A. Killingsworth, Daniel Kahneman & Barbara Mellers, PNAS 120(10), 2023",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2208661120"
+        },
+        {
+          "title": "Well-Being",
+          "source": "Roger Crisp, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/well-being/"
+        }
+      ]
+    }
+  ]
+}
