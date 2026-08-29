@@ -1,0 +1,29 @@
+{
+  "dialogue": "Gorgias",
+  "questions": [
+    {
+      "question": "What is rhetoric, and is it a genuine art (craft) grounded in knowledge, or merely a knack for producing persuasion?",
+      "dialogue": "Gorgias",
+      "location": "conversation with Gorgias (and opening of the exchange with Polus)",
+      "answer_note": "Socrates concludes that rhetoric is not a true art but an empirical knack, a branch of flattery that produces belief without knowledge and stands to justice as cookery stands to medicine - a counterfeit of a part of politics."
+    },
+    {
+      "question": "Is it worse to commit injustice or to suffer it?",
+      "dialogue": "Gorgias",
+      "location": "conversation with Polus (reaffirmed against Callicles)",
+      "answer_note": "Socrates argues, and Polus is forced to concede, that doing injustice is both more shameful and a greater evil than suffering it, so no one would rationally prefer to do wrong."
+    },
+    {
+      "question": "Can an unjust person be happy, and is a wrongdoer better off being punished or escaping punishment?",
+      "dialogue": "Gorgias",
+      "location": "conversation with Polus (the Archelaus example), reinforced by the closing myth told to Callicles",
+      "answer_note": "The dialogue concludes that the unjust are miserable regardless of worldly success, since just punishment cures the soul of vice, the unpunished wrongdoer is the most wretched of all - a verdict sealed by the eschatological myth of judgment after death."
+    },
+    {
+      "question": "Is pleasure identical with the good, and how should one live - the life of unrestrained appetite and political power urged by Callicles, or the ordered life of temperance, justice, and philosophy?",
+      "dialogue": "Gorgias",
+      "location": "conversation with Callicles",
+      "answer_note": "Socrates refutes the identification of pleasure with the good (pleasure and pain can coexist and even the bad feel pleasure) and concludes that the temperate, just, and orderly soul is the happy one, so the philosophic life aimed at real virtue rather than flattery is the life one should live."
+    }
+  ]
+}
