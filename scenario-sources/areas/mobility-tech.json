@@ -460,7 +460,7 @@
      "status": "full",
      "bytes": 20175354,
      "pages": 295,
-     "note": ""
+     "note": "295 pp; iea.org report page returned 403 to curl, PDF fetched directly from the IEA blob store; online data explorer not downloaded"
     }
    ],
    "quotes": [
@@ -2094,7 +2094,7 @@
      "status": "full",
      "bytes": 3836106,
      "pages": 44,
-     "note": ""
+     "note": "PDF created 2026-02-27; edition date 2026-03-02 is the MWC26 launch date per a GSMA press release seen only in search results"
     }
    ],
    "quotes": []
