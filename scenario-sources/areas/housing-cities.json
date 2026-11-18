@@ -1,0 +1,2294 @@
+{
+ "area_id": "housing-cities",
+ "area_name": "Housing, cities & local services",
+ "trends": [
+  {
+   "trend": "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+   "why_it_shapes_daily_life": "Decides whether a household can buy, move or refinance: monthly payments, builder rate buydowns, lock-in keeping existing homes off the market, and whether home equity grows or stalls in real terms."
+  },
+  {
+   "trend": "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates",
+   "why_it_shapes_daily_life": "Sets rent renewals and vacancy in each metro, the number of new subdivisions and apartment towers opening near people, who is allowed to own rental houses, and how hard states push cities to permit homes."
+  },
+  {
+   "trend": "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive",
+   "why_it_shapes_daily_life": "Budget gaps turn into hiring freezes, shelter and rental-voucher limits, class sizes, library hours, tax and fee increases, and bond-rating fights that residents experience as service quality."
+  },
+  {
+   "trend": "Transit and local capital programs: fare increases, deficits and dated megaproject schedules",
+   "why_it_shapes_daily_life": "Commuters feel scheduled fare and toll increases, station closures for signal and accessibility work, new lines opening (or slipping), and whether trains are reliable enough to return to offices."
+  },
+  {
+   "trend": "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment",
+   "why_it_shapes_daily_life": "Lease expirations and refinancing walls decide which downtown blocks empty or convert; data-center assessments let some counties cut car and home taxes while neighbours raise them; fewer children means school consolidations and closures."
+  }
+ ],
+ "sources": [
+  {
+   "id": "nyc-financial-plan",
+   "name": "New York City Financial Plan FY2027-2030 (OMB) with State Comptroller, City Comptroller and IBO reviews",
+   "publisher": "NYC Mayor's Office of Management and Budget; Office of the NY State Comptroller (OSDC); NYC Comptroller; NYC Independent Budget Office",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive",
+    "Transit and local capital programs: fare increases, deficits and dated megaproject schedules",
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "Year-by-year revenues, expenditures and 'gap to be closed' for NYC through FY2030 (Nov 2026 plan: gaps of $6.2bn FY2028, $8.7bn FY2029, $9.0bn FY2030), with agency-level drivers (rental vouchers, shelter, schools, debt service, MTA subsidies) and the monitors' independent risk re-estimates.",
+   "horizon": "fiscal years 2027-2030 (four-year plan, updated quarterly); debt service and capital to FY2030+",
+   "latest_edition": {
+    "title": "November 2026 Financial Plan, Fiscal Years 2027-2030 (four-year table); narrative detail in FY2027 Executive Budget 'Message of the Mayor' (May 2026) and OSC 'Review of the Financial Plan of the City of New York' Report 8-2027 (August 2026)",
+    "date": "2026-11-11",
+    "url": "https://www.nyc.gov/assets/omb/downloads/pdf/nov26/fp11-26.pdf"
+   },
+   "update_cadence": "Four plan updates a year (November, January/February preliminary, April/May executive, June adopted); OSC, City Comptroller and IBO publish a review of each",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "T1: the Financial Emergency Act requires a GAAP-balanced budget and four-year plan, with a Financial Control Board control period triggered by a deficit over $100m, so the City loses legal autonomy if wrong. T2: three independent monitors (OSC, City Comptroller, IBO) are paid to attack every plan; OSC's August 2026 review re-estimates the FY2028-30 gaps at $8.1bn/$9.4bn/$8.9bn. T4: the plan period is four years. Not T3/T5: no systematic published error record by OMB, and only labor contracts/debt service are pre-committed. Known bias, in both directions: earlier plans underbudgeted recurring costs (in January 2026 the Comptroller put the FY2026-27 gap near $12bn against IBO's roughly $7bn; https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/press-releases/2026/2026-statement-on-budget-gaps.pdf), while published out-year gaps are always closed before the year arrives because the budget must balance."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Hundreds of dated, dollar-valued line items: gaps by fiscal year, CityFHEPS voucher growth rates, shelter and asylum costs, class-size mandate teachers, hold-harmless school funding, debt service by year, MTA/NYCHA/H+H subsidies, named capital categories, plus narrated assumptions and a line-by-line OSC risk table."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Editions dated May-November 2026. AI appears only qualitatively: as a driver of business investment and of Manhattan office leasing by 'finance, tech, and AI firms' in the economic narrative; no tax or expense line is adjusted for AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Most of this gain has been supported by large-scale spending on artificial intelligence (AI) infrastructure, such as data centers and related gear.",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/nyc-omb-fy2027-executive-budget-message-of-the-mayor-mm5-26.pdf",
+     "page": 16
+    },
+    "search_note": "Searched 'artificial intelligence', 'AI': 15 hits in Message of the Mayor (economic outlook only), 1 in OSC review (equity markets), 0 in the November/June plan tables."
+   },
+   "tier": "top",
+   "why_top_or_not": "Largest US city budget, legally required four-year plan attacked by three paid monitors; richest single source of dated service-level fiscal detail for city life.",
+   "primary_docs": [
+    {
+     "title": "November 2026 Financial Plan FY2027-2030 - Four Year Financial Plan Revenues and Expenditures",
+     "url": "https://www.nyc.gov/assets/omb/downloads/pdf/nov26/fp11-26.pdf",
+     "local_path": "primary/housing-cities/nyc-financial-plan/nyc-omb-financial-plan-nov-2026-fp11-26.pdf",
+     "status": "full",
+     "bytes": 91901,
+     "pages": 1,
+     "note": "Complete official file is a one-page table. A pdftotext -layout rendering is saved alongside as nyc-omb-financial-plan-nov-2026-fp11-26.layout.txt (default-mode text scrambles the columns). No November narrative/technical volumes were found on nyc.gov on 2026-11-18 (several guessed filenames returned 404)."
+    },
+    {
+     "title": "June 2026 Adopted Budget Financial Plan FY2026-2030 (five-year table)",
+     "url": "https://www.nyc.gov/assets/omb/downloads/pdf/adopt26/fp6-26.pdf",
+     "local_path": "primary/housing-cities/nyc-financial-plan/nyc-omb-financial-plan-june-2026-fp6-26.pdf",
+     "status": "full",
+     "bytes": 103529,
+     "pages": 1,
+     "note": "One-page table."
+    },
+    {
+     "title": "FY2027 Executive Budget - Message of the Mayor (May 2026)",
+     "url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/mm5-26.pdf",
+     "local_path": "primary/housing-cities/nyc-financial-plan/nyc-omb-fy2027-executive-budget-message-of-the-mayor-mm5-26.pdf",
+     "status": "full",
+     "bytes": 2938498,
+     "pages": 245,
+     "note": "Latest full narrative volume with economic forecast, tax forecasts, agency and capital detail."
+    },
+    {
+     "title": "OSC Review of the Financial Plan of the City of New York, Report 8-2027 (August 2026)",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/fy27-nyc-adopted-plan-report-final.pdf",
+     "local_path": "primary/housing-cities/nyc-financial-plan/osc-fy27-nyc-adopted-plan-report.pdf",
+     "status": "full",
+     "bytes": 1100245,
+     "pages": 65,
+     "note": ""
+    },
+    {
+     "title": "NYC Comptroller - Comments on New York City's Fiscal Year 2027 Adopted Budget",
+     "url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-fiscal-year-2027-adopted-budget/",
+     "local_path": "primary/housing-cities/nyc-financial-plan/nyc-comptroller-comments-fy2027-adopted.html",
+     "status": "full",
+     "bytes": 437788,
+     "pages": 0,
+     "note": "HTML report page."
+    },
+    {
+     "title": "IBO statement on budget gaps (January 2026)",
+     "url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/press-releases/2026/2026-statement-on-budget-gaps.pdf",
+     "local_path": "primary/housing-cities/nyc-financial-plan/ibo-2026-statement-on-budget-gaps.pdf",
+     "status": "full",
+     "bytes": 295350,
+     "pages": 1,
+     "note": "One page."
+    },
+    {
+     "title": "NYC General Obligation Bonds Fiscal 2027 Series D-G Official Statement (October 2026)",
+     "url": "https://emma.msrb.org/IssuerHomePage/Issuer?id=FCC4CAC31DD76120E043151E820AF7C8&type=M",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "EMMA is JavaScript-driven behind a terms-of-use gate; the OS was not retrievable with curl and nyc.gov investor pages link only to EMMA. Rating reports on the same sale are saved under rating-agency-outlooks/."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Total Expenditures $ 129,170 $ 133,358 $ 136,859 $ 139,812 [...] Gap To Be Closed $ - $ (6,183) $ (8,693) $ (8,960)",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/nyc-omb-financial-plan-nov-2026-fp11-26.layout.txt",
+     "page": 1,
+     "locator": "November 2026 Four Year Financial Plan table, columns FY 2027 / FY 2028 / FY 2029 / FY 2030, $ in millions (plan dated November 2026)",
+     "url": "https://www.nyc.gov/assets/omb/downloads/pdf/nov26/fp11-26.pdf",
+     "worldbuilding_use": "Official NYC budget gaps: $6.2bn FY2028, $8.7bn FY2029, $9.0bn FY2030."
+    },
+    {
+     "text": "The City’s stated out-year gaps now total a combined $23.4 billion from FY 2028 to FY 2030, excluding tax programs, 37 percent higher than the cumulative gaps since last June and the largest amount on record.",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/osc-fy27-nyc-adopted-plan-report.pdf",
+     "page": 5,
+     "locator": "I. Executive Summary",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/fy27-nyc-adopted-plan-report-final.pdf",
+     "worldbuilding_use": "Record $23.4bn three-year NYC gap frames cuts/tax fights through 2030."
+    },
+    {
+     "text": "From FY 2027 through FY 2030, the June Plan assumes annual CityFHEPS spending growth of 10 percent in FY 2027, 22 percent in FY 2028, 17 percent in FY 2029 and 14 percent in FY 2030.",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/osc-fy27-nyc-adopted-plan-report.pdf",
+     "page": 42,
+     "locator": "VII. Expenditure Trends - rental assistance (Figure 27 text)",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/fy27-nyc-adopted-plan-report-final.pdf",
+     "worldbuilding_use": "Rental-voucher programme keeps growing double digits yearly; cost-containment fights."
+    },
+    {
+     "text": "The City has spent more than $1.9 billion holding schools harmless for enrollment loss since FY 2021, and student enrollment is projected to continue declining in future years.",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/osc-fy27-nyc-adopted-plan-report.pdf",
+     "page": 52,
+     "locator": "VII. Expenditure Trends - Department of Education",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/fy27-nyc-adopted-plan-report-final.pdf",
+     "worldbuilding_use": "Shrinking NYC school rolls versus protected school budgets; consolidation pressure."
+    },
+    {
+     "text": "The June Plan assumes that city-funded debt service will grow by an average annual rate of 11.6 percent from $8 billion in FY 2026 to $12.4 billion in FY 2030.",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/osc-fy27-nyc-adopted-plan-report.pdf",
+     "page": 50,
+     "locator": "VIII. Debt Service and Capital Spending",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/fy27-nyc-adopted-plan-report-final.pdf",
+     "worldbuilding_use": "Debt service crowding out services: $8bn to $12.4bn by FY2030."
+    },
+    {
+     "text": "Leasing momentum in New York City’s commercial real estate market remained robust, supported by finance, tech, and AI firms. [...] total leasing reaching 9.5 million square feet (msf), up 30 percent year-over-year.",
+     "doc_local_path": "primary/housing-cities/nyc-financial-plan/nyc-omb-fy2027-executive-budget-message-of-the-mayor-mm5-26.pdf",
+     "page": 11,
+     "locator": "Economic Outlook - New York City commercial real estate",
+     "url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/mm5-26.pdf",
+     "worldbuilding_use": "AI firms named as Manhattan office demand driver; record Q1 2026 leasing."
+    }
+   ]
+  },
+  {
+   "id": "loudoun-county-budget",
+   "name": "Loudoun County, Virginia FY2027 Adopted Budget and FY2027-FY2032 Capital Improvement Program",
+   "publisher": "Loudoun County Board of Supervisors / Department of Finance and Budget",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment",
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive",
+    "Transit and local capital programs: fare increases, deficits and dated megaproject schedules"
+   ],
+   "what_it_forecasts": "Adopted tax rates, revenues and appropriations for FY2027 and a six-year capital programme to FY2032, with data-center real and computer-equipment tax revenue (about $879m of personal property tax alone) forecast as a separately identified base, school enrollment, and dated school/road/transit projects.",
+   "horizon": "FY2027 adopted (July 2026-June 2027); six-year CIP FY2027-FY2032; debt schedules beyond",
+   "latest_edition": {
+    "title": "FY 2027 Adopted Budget (adopted by the Board April 7, 2026)",
+    "date": "2026-04-07",
+    "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document"
+   },
+   "update_cadence": "Annual (proposed February, adopted April); CIP re-adopted annually; continuing disclosure with each bond sale (Series 2026A GO sold May 2026)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "T1: a legally adopted, balanced appropriation and tax-rate ordinance backing AAA/Aaa GO debt; missing revenue forces mid-year cuts or reserve draws. T4: the CIP and debt plan run six years. T5: the tax base it forecasts is largely already permitted or built (9.8 million sq ft of data-center permits issued in 2025). T3 is partial: prior-year actuals sit beside adopted figures but no formal error study. Known measurable bias: deliberately conservative - the document itself records data-center revenue over-performance in FY2023-FY2025 and a dedicated Revenue Stabilization Fund."
+   },
+   "richness": {
+    "score": 5,
+    "why": "862 pages naming projects, election districts, completion dates and dollars (schools, roads, fire stations, Metro), tax rates by class, assessed-value shares, enrollment counts, and explained forecasting methodology for data-center real and equipment taxes."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Adopted April 2026. Data-center real property and computer-equipment tax are separately quantified line items that move the tax rates, but the document never names AI as the cause, so AI enters only through the (quantified) data-center base."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "The major contributor to the revenue annual increases shown below is data center development, with the attendant increase in taxable computer equipment.",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 846
+    },
+    "search_note": "Searched 'artificial intelligence' and standalone 'AI': none found in 862 pages. 'data center' appears 48 times with dollar figures; the passage above is the nearest AI-linked treatment."
+   },
+   "tier": "top",
+   "why_top_or_not": "The clearest quantified case of AI infrastructure rewriting a local tax base: an adopted budget where data centers fund schools and cut vehicle taxes, with a six-year project list.",
+   "primary_docs": [
+    {
+     "title": "FY 2027 Adopted Budget Document (complete, incl. FY2027-FY2032 CIP)",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "status": "full",
+     "bytes": 53928369,
+     "pages": 862,
+     "note": ""
+    },
+    {
+     "title": "FY 2027 Adopted Budget - Debt Service section",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221487/Debt-Service-PDF",
+     "local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Debt-Service.pdf",
+     "status": "full",
+     "bytes": 1051847,
+     "pages": 22,
+     "note": "Stand-alone copy of the debt chapter."
+    },
+    {
+     "title": "Loudoun County General Obligation Public Improvement Bonds Series 2026A Official Statement (May 2026)",
+     "url": "https://emma.msrb.org/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Only available via EMMA (JavaScript/terms gate); not retrieved. Adopted budget is the underlying document."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "For FY 2027, the budget for computer equipment taxes specifically located in data centers accounts for ~77 percent of personal property tax revenue (excluding the state reimbursement), or ~$879 million.",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 846,
+     "locator": "Long-range/fiscal trends - Personal Property Tax revenue",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "worldbuilding_use": "Servers inside data centers pay ~$879m: the county's biggest single tax source."
+    },
+    {
+     "text": "The County continues to attract data centers with several site acquisitions and development plans announced in the past year. In 2025, the County issued building permits for 9.8 million square feet of data center space.",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 153,
+     "locator": "General Fund Revenue - General Property Taxes",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "worldbuilding_use": "Pipeline: 9.8m sq ft of data centers permitted in one year in one county."
+    },
+    {
+     "text": "During 2025, residential property appreciated by 1.36 percent; this is lower than in recent years as still heightened interest rates (relative to pandemic era lows) combine with increasing economic headwinds to depress the residential property market. Commercial property appreciated by 28.31 percent",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 31,
+     "locator": "Executive Summary - Economic outlook / real property",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "worldbuilding_use": "Homes +1.4% versus commercial (data centers) +28%: tax burden shifts off homeowners."
+    },
+    {
+     "text": "The FY 2027 budget anticipates 0.39 percent decline in enrollment for the 2026-2027 school year, or 80,201 students, approximately 3,970 fewer students than pre-pandemic (FY 2020).",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 28,
+     "locator": "Executive Summary - Loudoun County Public Schools enrollment",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "worldbuilding_use": "Even a booming county has falling school enrollment: 80,201 students in 2026-27."
+    },
+    {
+     "text": "The budget is balanced with a real property tax rate of $0.805 per $100 in assessed value, which is consistent with the current rate. The budget also includes a vehicle personal property tax rate reduction to $3.09 per $100",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 12,
+     "locator": "Transmittal / budget adoption summary (adopted April 7, 2026, vote 8-0-1)",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "worldbuilding_use": "Data-center money used to cut residents' car tax while holding the home rate."
+    },
+    {
+     "text": "The target size of the RSF is 10 percent of real and business tangible personal property tax revenue associated with the data center industry.",
+     "doc_local_path": "primary/housing-cities/loudoun-county-budget/FY2027-Adopted-Budget-Document.pdf",
+     "page": 66,
+     "locator": "Fiscal Policy - Revenue Stabilization Fund (RSF)",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+     "worldbuilding_use": "County hedges an AI/data-center bust with a dedicated 10% reserve."
+    }
+   ]
+  },
+  {
+   "id": "mta-financial-capital-plan",
+   "name": "MTA July Financial Plan 2027-2030 and 2025-2029 Capital Plan, with the State Comptroller's Financial Outlook review",
+   "publisher": "Metropolitan Transportation Authority (New York); Office of the NY State Comptroller",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Transit and local capital programs: fare increases, deficits and dated megaproject schedules",
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive"
+   ],
+   "what_it_forecasts": "MTA operating deficits by year to 2030 ($295m in 2027 rising to $897m in 2030), scheduled 4% fare/toll increases in March 2027 and March 2029, ridership recovery by mode to 2030, and the $68.4bn 2025-2029 capital programme (railcars, signals, accessible stations, Interborough Express).",
+   "horizon": "operating plan 2026-2030; capital plan 2025-2029 with projects completing into the 2030s",
+   "latest_edition": {
+    "title": "MTA 2027 Preliminary Budget - July Financial Plan 2027-2030 (July 2026); OSC 'Financial Outlook for the Metropolitan Transportation Authority' Report 14-2027 (October 2026)",
+    "date": "2026-07-29",
+    "url": "https://www.mta.info/document/215226"
+   },
+   "update_cadence": "Financial plan three times a year (February, July, November); capital plan every five years with amendments; OSC review after each July plan. No November 2026 plan was found published as of 2026-11-18.",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "T1: statutory balanced-budget requirement and bond covenants on ~$40bn of operating-budget debt. T2: OSC is paid to attack it (its October 2026 report gives adjusted gaps of '$517 million in 2028 rising to $812 million' after its own risks and offsets) and rating agencies/bondholders price it. T4: four-year plan plus five-year capital plan with lockbox revenue. T5: $15.8bn of capital commitments were signed in 2025 and railcar orders are placed. Not a 5 because of known bias: capital schedules have historically slipped, and OSC notes bus paid ridership 'has stalled and remains below projections'."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named lines, stations, fleets and dates: fare-increase months, ridership by mode and year, Penn Station Access opening year, 2,000 railcars, 75 miles of signals on named lines, 60 accessible stations, IBX, plus cost drivers (health care, paratransit, claims) in dollars."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 editions (July plan, October OSC review) with no AI treatment; the only adjacent item is savings from 'automated people-counting software'. Ridership forecasts do not consider AI effects on office work."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "additional savings measures such as reimagining the role of traffic checkers by using automated people-counting software and paratransit call center savings",
+     "doc_local_path": "primary/housing-cities/mta-financial-capital-plan/osc-2026-mta-july-plan-report.pdf",
+     "page": 21
+    },
+    "search_note": "Searched OSC MTA report and the saved Volume 1 / capital plan captures for 'artificial intelligence', 'AI', 'automation': no AI mentions; only the automation passage quoted."
+   },
+   "tier": "top",
+   "why_top_or_not": "Best dated transit source: legally constrained plan with scheduled fare hikes, deficits and named capital deliverables, plus an adversarial state review (official MTA PDFs only partially captured).",
+   "primary_docs": [
+    {
+     "title": "OSC Financial Outlook for the Metropolitan Transportation Authority, Report 14-2027 (October 2026)",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/2026/pdf/2026-mta-july-plan-report.pdf",
+     "local_path": "primary/housing-cities/mta-financial-capital-plan/osc-2026-mta-july-plan-report.pdf",
+     "status": "full",
+     "bytes": 683705,
+     "pages": 35,
+     "note": ""
+    },
+    {
+     "title": "MTA 2027 Preliminary Budget - July Financial Plan 2027-2030, Volume 1 (Executive Summary text capture)",
+     "url": "https://www.mta.info/document/215226",
+     "local_path": "primary/housing-cities/mta-financial-capital-plan/mta-july-financial-plan-2027-2030-vol1-exec-summary.textcapture.txt",
+     "status": "partial",
+     "bytes": 4808,
+     "pages": 0,
+     "note": "mta.info returned HTTP 403 to curl; a header/Playwright retry was blocked by the sandbox permission system, so only the Executive Summary (pp. I-1 to I-2) was captured via a web-fetch tool. Volume 2 (https://www.mta.info/document/215221) not captured."
+    },
+    {
+     "title": "MTA 2025-2029 Capital Plan 'The Future Rides With Us' (goals and funding text capture)",
+     "url": "https://www.mta.info/document/174186",
+     "local_path": "primary/housing-cities/mta-financial-capital-plan/mta-2025-2029-capital-plan.textcapture.txt",
+     "status": "partial",
+     "bytes": 3401,
+     "pages": 0,
+     "note": "Same 403 limitation; goals, agency allocation and funding tables captured via web-fetch tool."
+    },
+    {
+     "title": "OSC press release on MTA financial outlook (October 2026)",
+     "url": "https://www.osc.ny.gov/press/releases/2026/10/dinapoli-mta-financial-outlook-stable-short-run-gaps-loom-costs-rise",
+     "local_path": "primary/housing-cities/mta-financial-capital-plan/osc-mta-press-2026-10.html",
+     "status": "full",
+     "bytes": 111249,
+     "pages": 0,
+     "note": "HTML."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The July Plan remains balanced in 2026, but includes deficits of $295 million in 2027, $507 million in 2028, $707 million in 2029, and $897 million in 2030.",
+     "doc_local_path": "primary/housing-cities/mta-financial-capital-plan/mta-july-financial-plan-2027-2030-vol1-exec-summary.textcapture.txt",
+     "page": null,
+     "locator": "Volume 1, Executive Summary, 'The Bottom Line' (p. I-1)",
+     "url": "https://www.mta.info/document/215226",
+     "worldbuilding_use": "MTA deficits by year to 2030; pressure for service cuts or new taxes."
+    },
+    {
+     "text": "The July Plan continues to include additional farebox and toll revenues from proposed fare and toll rate and policy changes for implementation in March 2027 and March 2029 that will generate annualized four percent increases in farebox and toll revenues.",
+     "doc_local_path": "primary/housing-cities/mta-financial-capital-plan/mta-july-financial-plan-2027-2030-vol1-exec-summary.textcapture.txt",
+     "page": null,
+     "locator": "Volume 1, Executive Summary (p. I-1)",
+     "url": "https://www.mta.info/document/215226",
+     "worldbuilding_use": "Dated fare/toll hikes: about 4% in March 2027 and again March 2029."
+    },
+    {
+     "text": "the MTA’s financial plan does not assume that ridership will fully recover for any mode of public transportation by 2030, but it does assume that it will reach a blended rate of ridership recovery of 74 percent by the end of 2026.",
+     "doc_local_path": "primary/housing-cities/mta-financial-capital-plan/osc-2026-mta-july-plan-report.pdf",
+     "page": 5,
+     "locator": "Ridership trends",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/2026/pdf/2026-mta-july-plan-report.pdf",
+     "worldbuilding_use": "Official assumption: transit ridership never regains 2019 levels before 2030."
+    },
+    {
+     "text": "The July Plan expects Metro-North ridership to reach 76 million in 2028 and 78 million in 2029, the first full year of Penn Station Access service.",
+     "doc_local_path": "primary/housing-cities/mta-financial-capital-plan/osc-2026-mta-july-plan-report.pdf",
+     "page": 8,
+     "locator": "Ridership trends - Metro-North Railroad",
+     "url": "https://www.osc.ny.gov/files/reports/osdc/2026/pdf/2026-mta-july-plan-report.pdf",
+     "worldbuilding_use": "Penn Station Access (Bronx stations to Penn) in full service by 2029."
+    },
+    {
+     "text": "Start building the Interborough Express, a project that will connect Brooklyn and Queens, and could reduce travel times by up to 30 minutes for more than 900,000 New Yorkers who live along the corridor.",
+     "doc_local_path": "primary/housing-cities/mta-financial-capital-plan/mta-2025-2029-capital-plan.textcapture.txt",
+     "page": null,
+     "locator": "2025-2029 Capital Plan goals - Provide frequent and reliable service",
+     "url": "https://www.mta.info/document/174186",
+     "worldbuilding_use": "IBX construction start in the 2025-29 programme; Brooklyn-Queens light rail."
+    }
+   ]
+  },
+  {
+   "id": "homebuilder-filings",
+   "name": "Large homebuilder SEC filings: guidance, incentives and lot pipelines (D.R. Horton, Lennar, PulteGroup, NVR)",
+   "publisher": "D.R. Horton, Lennar, PulteGroup, NVR (SEC EDGAR 10-Q / 8-K)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "Homes each builder expects to deliver and at what price and incentive level over the next 1-4 quarters (e.g. D.R. Horton 79,000-84,000 closings in fiscal 2027), plus controlled-lot pipelines that bound new-home supply for several years.",
+   "horizon": "company guidance 1 quarter to 1 fiscal year; owned/optioned lot supply about 3-6 years",
+   "latest_edition": {
+    "title": "Q3 2026 Form 10-Qs and earnings 8-Ks (NVR 10-Q filed 2026-11-04; PulteGroup 10-Q 2026-10-22; D.R. Horton FY2026 results 8-K 2026-10-29; Lennar 10-Q 2026-10-02)",
+    "date": "2026-11-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000104/nvr-20260930.htm"
+   },
+   "update_cadence": "Quarterly (10-Q/10-K and earnings releases); D.R. Horton FY2026 10-K not yet filed as of 2026-11-18",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "T1: securities-law liability for guidance and billions of own capital in land (D.R. Horton carries $14.9bn of land and lots). T2: sell-side analysts and short sellers pick the numbers apart every quarter. But T4 fails - guidance reaches one year and optioned lots can be walked away from (NVR's exposure is limited to deposits) - and results-vs-guidance is not a published multi-year error record (T3). Known bias: guidance is revised quickly in downturns (Lennar cut 2026 deliveries within a quarter)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Company- and region-level orders, closings, average prices, incentive percentages, cycle times, community counts and lot positions with management's narrated reasons; few specific named places."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Filings dated September-November 2026; AI appears only as boilerplate risk-factor language about using AI in operations. Demand, price and volume guidance are driven by mortgage rates and affordability, with no AI consideration."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "rapidly changing technological developments including, but not limited to, the use of artificial intelligence in the homebuilding industry",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/PHM-10Q-2026-09-30.htm",
+     "page": null
+    },
+    "search_note": "Searched all seven filings for 'artificial intelligence'/'AI': 0 hits in DHI 10-Q, LEN 10-Q/8-K, NVR 10-Q; 1 boilerplate forward-looking-statement mention each in DHI 8-K, PHM 10-Q, PHM 8-K."
+   },
+   "tier": "top",
+   "why_top_or_not": "Lower-scoring than the fiscal sources but the only money-at-stake, legally scrutinised window on what homes cost and how many get built; chosen to cover the for-sale housing mechanism.",
+   "primary_docs": [
+    {
+     "title": "D.R. Horton 8-K Exhibit 99.1 - fiscal 2026 fourth quarter and year-end results with fiscal 2027 guidance (2026-10-29)",
+     "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000119/a9302026exhibit991.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/DHI-8K-ex991-FY2026-results-2026-10-29.htm",
+     "status": "full",
+     "bytes": 624921,
+     "pages": 0,
+     "note": "Text rendering saved as .htm.txt."
+    },
+    {
+     "title": "D.R. Horton Form 10-Q for quarter ended 2026-06-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000096/dhi-20260630.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/DHI-10Q-2026-06-30.htm",
+     "status": "full",
+     "bytes": 2518084,
+     "pages": 0,
+     "note": "Latest periodic report; FY2026 10-K not yet filed."
+    },
+    {
+     "title": "Lennar 8-K Exhibit 99.1 - third quarter 2026 results (2026-09-16)",
+     "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/LEN-8K-ex991-Q3-2026-09-16.htm",
+     "status": "full",
+     "bytes": 395112,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Lennar Form 10-Q for quarter ended 2026-08-31",
+     "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026064557/len-20260831.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/LEN-10Q-2026-08-31.htm",
+     "status": "full",
+     "bytes": 2711093,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "PulteGroup 8-K Exhibit 99.1 - third quarter 2026 results (2026-10-22)",
+     "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000041/ex991earningspr9302026.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/PHM-8K-ex991-Q3-2026-10-22.htm",
+     "status": "full",
+     "bytes": 256770,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "PulteGroup Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000043/phm-20260930.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/PHM-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 1619031,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVR Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000104/nvr-20260930.htm",
+     "local_path": "primary/housing-cities/homebuilder-filings/NVR-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 1347356,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Based on current market conditions, D.R. Horton is providing initial guidance for fiscal 2027 including: • Consolidated revenues in the range of $30.0 billion to $32.0 billion • Homes closed by homebuilding operations of 79,000 homes to 84,000 homes",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/DHI-8K-ex991-FY2026-results-2026-10-29.htm",
+     "page": null,
+     "locator": "Guidance section, press release dated October 29, 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000119/a9302026exhibit991.htm",
+     "worldbuilding_use": "America's largest builder plans 79-84k closings in fiscal 2027 (Oct 2026-Sep 2027)."
+    },
+    {
+     "text": "We expect incentives to remain elevated in fiscal 2027, the extent of which will depend on market conditions throughout the year.",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/DHI-8K-ex991-FY2026-results-2026-10-29.htm",
+     "page": null,
+     "locator": "Executive chairman statement, press release dated October 29, 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000119/a9302026exhibit991.htm",
+     "worldbuilding_use": "New homes sold with rate buydowns/discounts through 2027."
+    },
+    {
+     "text": "Our average sales price was $372,000, reflecting approximately 12.0% in incentives, along with base price adjustments necessary to sustain volume in a market where affordability remains the defining constraint.",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/LEN-8K-ex991-Q3-2026-09-16.htm",
+     "page": null,
+     "locator": "Management commentary, Q3 2026 results (quarter ended August 31, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm",
+     "worldbuilding_use": "Lennar's typical new home: $372k after ~12% incentives."
+    },
+    {
+     "text": "we are moderating our target full-year 2026 deliveries to approximately 80,000 to 81,000 homes, from the 82,000 to 83,000 homes we discussed last quarter.",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/LEN-8K-ex991-Q3-2026-09-16.htm",
+     "page": null,
+     "locator": "Management commentary, Q3 2026 results",
+     "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm",
+     "worldbuilding_use": "Builders trimming volume as rates rose in autumn 2026."
+    },
+    {
+     "text": "The rapid increase in interest rates has stretched affordability even further, made selling an existing home even harder, and has pushed even more consumers to the sidelines",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/PHM-8K-ex991-Q3-2026-10-22.htm",
+     "page": null,
+     "locator": "CEO Ryan Marshall statement, Q3 2026 results dated October 22, 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000041/ex991earningspr9302026.htm",
+     "worldbuilding_use": "Move-up buyers stuck: cannot sell existing home at ~7% rates."
+    },
+    {
+     "text": "As of September 30, 2026, we controlled approximately 176,000 lots under LPAs with third parties through deposits in cash and letters of credit",
+     "doc_local_path": "primary/housing-cities/homebuilder-filings/NVR-10Q-2026-09-30.htm",
+     "page": null,
+     "locator": "Notes to financial statements - Variable Interest Entities / Lot Purchase Agreements",
+     "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000104/nvr-20260930.htm",
+     "worldbuilding_use": "NVR's optioned pipeline: 176,000 future home sites, mostly Mid-Atlantic."
+    }
+   ]
+  },
+  {
+   "id": "office-reit-filings",
+   "name": "Office REIT SEC filings: lease-expiration schedules, development deliveries and refinancings (BXP, SL Green, Vornado)",
+   "publisher": "BXP, Inc.; SL Green Realty Corp.; Vornado Realty Trust (SEC EDGAR 10-Q and supplemental packages)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "Contractual lease expirations by year to 2035, named towers under construction with estimated stabilization dates and costs (e.g. 343 Madison Avenue, Q2 2031, $1.75bn), pre-leasing, and debt maturities for the largest owners of New York, Boston, San Francisco and Washington offices.",
+   "horizon": "lease expirations annually to 2035+; development stabilization dates to 2031; debt maturities to 2031+",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended September 30, 2026 (BXP filed 2026-11-06; SL Green 2026-11-05; Vornado 2026-11-02) and Q3 2026 supplemental packages",
+    "date": "2026-11-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm"
+   },
+   "update_cadence": "Quarterly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "T1/T2: audited-issuer liability, lenders' covenants and an active short/analyst community around office REITs. T4: the mechanisms are long contracts - BXP's weighted-average remaining lease term is 7.7 years and its 343 Madison construction loan matures in 2030. T5: the 2027-2031 outcome is largely signed leases and buildings already under construction (BXP pipeline 70% pre-leased). Known bias keeps it at 4: issuer optimism on occupancy/leasing guidance, and a trophy-asset sample that understates distress in commodity offices."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named buildings, addresses, tenants, square feet, rents per square foot, loan amounts and maturity dates, stabilization quarters and percentage leased - dozens of liftable dated facts per filing."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Q3 2026 filings; AI appears only in a risk factor about the companies' own use of AI/cybersecurity. Leasing and development numbers are not attributed to or adjusted for AI demand or displacement (0 AI hits in SL Green and Vornado 10-Qs)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "risks associated with our use of AI and cyber security breaches, incidents and compromises, as well as other significant disruptions of our information technology (IT) networks and related systems",
+     "doc_local_path": "primary/housing-cities/office-reit-filings/BXP-10Q-2026-09-30.htm",
+     "page": null
+    },
+    "search_note": "Searched five filings for 'artificial intelligence'/'AI': 1 hit (BXP 10-Q risk-factor bullet); 0 in BXP supplemental, SLG 10-Q, SLG supplemental, VNO 10-Q."
+   },
+   "tier": "top",
+   "why_top_or_not": "Contractually dated picture of downtown office to 2031 (who leaves when, which towers open) from parties with capital and legal exposure; complements the city-budget sources.",
+   "primary_docs": [
+    {
+     "title": "BXP Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm",
+     "local_path": "primary/housing-cities/office-reit-filings/BXP-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 4770387,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "BXP Q3 2026 Supplemental Operating and Financial Data (8-K exhibit, 2026-10-27)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000041/q32026supplemental.htm",
+     "local_path": "primary/housing-cities/office-reit-filings/BXP-Q3-2026-supplemental-2026-10-27.htm",
+     "status": "full",
+     "bytes": 4537929,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "SL Green Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1040971/000162828026071014/slg-20260930.htm",
+     "local_path": "primary/housing-cities/office-reit-filings/SLG-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 3777590,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "SL Green Q3 2026 Supplemental (8-K exhibit, 2026-10-21)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1040971/000162828026066842/a26q3supplemental.htm",
+     "local_path": "primary/housing-cities/office-reit-filings/SLG-Q3-2026-supplemental-2026-10-21.htm",
+     "status": "full",
+     "bytes": 4849742,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Vornado Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/899689/000089968926000053/vno-20260930.htm",
+     "local_path": "primary/housing-cities/office-reit-filings/VNO-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 3621563,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "343 Madison Avenue (89.45% ownership) Q2 2031 New York, NY 1 930,000 498,037 1,750,000 1,073,400 71,634 250,197 56 %",
+     "doc_local_path": "primary/housing-cities/office-reit-filings/BXP-10Q-2026-09-30.htm",
+     "page": null,
+     "locator": "MD&A - properties under construction/redevelopment table as of September 30, 2026 (columns: estimated stabilization date, location, buildings, sq ft, investment to date, estimated total investment, financing, future equity, % leased; $ thousands)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm",
+     "worldbuilding_use": "New 930,000 sq ft Midtown tower: $1.75bn, 56% pre-leased, stabilizing Q2 2031."
+    },
+    {
+     "text": "As of September 30, 2026, we have six properties under development or redevelopment. Our share of the estimated total investment for these projects is approximately $3.1 billion, of which approximately $773.0 million remained to be invested.",
+     "doc_local_path": "primary/housing-cities/office-reit-filings/BXP-10Q-2026-09-30.htm",
+     "page": null,
+     "locator": "MD&A - Development activities",
+     "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm",
+     "worldbuilding_use": "Scale of new premium office/lab supply still coming in gateway cities."
+    },
+    {
+     "text": "Through year-end 2027, we have relatively low exposure to contractual lease expirations with approximately 4.0% of our share of the square footage of our in-service portfolio expiring.",
+     "doc_local_path": "primary/housing-cities/office-reit-filings/BXP-10Q-2026-09-30.htm",
+     "page": null,
+     "locator": "MD&A - Overview",
+     "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000043/bxp-20260930.htm",
+     "worldbuilding_use": "Top-tier offices face little rollover through 2027; distress sits elsewhere."
+    },
+    {
+     "text": "formed a new joint venture (the “350 Park JV”) to develop an approximately 1,900,000 square foot office tower on the combined sites of 350 Park Avenue, 39 East 51st Street and 40 East 52nd Street, with Citadel Enterprise Americas LLC (“CEAMER”) as the anchor tenant.",
+     "doc_local_path": "primary/housing-cities/office-reit-filings/VNO-10Q-2026-09-30.htm",
+     "page": null,
+     "locator": "Note 20 - Subsequent Events, 350 Park Avenue (October 20, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899689/000089968926000053/vno-20260930.htm",
+     "worldbuilding_use": "Citadel-anchored 1.9m sq ft Park Avenue supertall proceeds; construction through decade."
+    },
+    {
+     "text": "2027 73 709,149 709,149 8.0 % $48,453,286 $48,453,286 $68.33 2028 75 579,807 579,807 6.5 % 43,976,655 43,976,655 75.85 2029 82 646,142 646,142 7.3 % 48,999,376 48,999,376 75.83 2030 64 978,524 978,524 11.0 %",
+     "doc_local_path": "primary/housing-cities/office-reit-filings/SLG-Q3-2026-supplemental-2026-10-21.htm",
+     "page": null,
+     "locator": "Lease Expirations - Manhattan Operating Properties, wholly-owned and consolidated JV (columns: year, leases, sq ft, SLG share sq ft, % of total, cash rent, SLG share, $/psf)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1040971/000162828026066842/a26q3supplemental.htm",
+     "worldbuilding_use": "Manhattan lease rollover by year 2027-2030 with rents per square foot."
+    }
+   ]
+  },
+  {
+   "id": "datacenter-reit-filings",
+   "name": "Data-center REIT SEC filings: development pipelines by metro and megawatt (Digital Realty, Equinix)",
+   "publisher": "Digital Realty Trust; Equinix (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "Megawatts under construction by metro with percent pre-leased and expected completion quarter (e.g. the Digital Realty Northern Virginia development row: 390 MW, 85% leased, completion 4Q27), leasing backlog and capex guidance.",
+   "horizon": "guidance 1 year; development completions to 2028; customer leases 5-15 years",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended September 30, 2026 and Q3 2026 earnings exhibits (DLR 10-Q filed 2026-10-30; EQIX 10-Q 2026-10-28)",
+    "date": "2026-10-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm"
+   },
+   "update_cadence": "Quarterly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "T1/T2: issuer liability, lender and analyst scrutiny. T4/T5: long-dated signed leases (record $2.5bn backlog at DLR) and capacity already under construction with stated completion quarters. Held at 4 for issuer optimism and dependence on utility power delivery outside the company's control."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Metro-by-metro MW, occupancy, rents, pre-leasing and completion dates, named products and partners; less narrative on local impacts."
+   },
+   "ai": {
+    "score": 4,
+    "why": "October 2026 filings; AI workloads are named as a core demand driver (Equinix 10-Q has 40 AI mentions; 'traditional and AI workloads'), though bookings are not split into AI and non-AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Announced Equinix Inference Exchange, in collaboration with NVIDIA and Together AI, to help enterprises deploy and scale AI inferencing workloads globally through high-performance, interconnected infrastructure.",
+     "doc_local_path": "primary/housing-cities/datacenter-reit-filings/EQIX-8K-ex991-Q3-2026-10-28.htm",
+     "page": null
+    },
+    "search_note": "AI hits: EQIX 10-Q 40, EQIX 8-K 7, DLR 8-K exhibit 3, DLR 10-Q 0."
+   },
+   "tier": "considered",
+   "why_top_or_not": "High score but the same mechanism as the Loudoun budget (data-center build-out) and primarily the AI-infrastructure area's source; kept as supporting evidence for local tax-base scenes.",
+   "primary_docs": [
+    {
+     "title": "Digital Realty Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm",
+     "local_path": "primary/housing-cities/datacenter-reit-filings/DLR-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 4868228,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Digital Realty 8-K Exhibit 99.1 - Q3 2026 results and supplemental (2026-10-29)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120212/dlr-ex99d1.htm",
+     "local_path": "primary/housing-cities/datacenter-reit-filings/DLR-8K-ex99-1-Q3-2026-2026-10-29.htm",
+     "status": "full",
+     "bytes": 4509182,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Equinix Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm",
+     "local_path": "primary/housing-cities/datacenter-reit-filings/EQIX-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 2908803,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Equinix 8-K Exhibit 99.1 - Q3 2026 results (2026-10-28)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm",
+     "local_path": "primary/housing-cities/datacenter-reit-filings/EQIX-8K-ex991-Q3-2026-10-28.htm",
+     "status": "full",
+     "bytes": 620715,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "residential-reit-filings",
+   "name": "Apartment and single-family-rental REIT SEC filings (Vivmark Residential - the merged AvalonBay/Equity Residential - and Invitation Homes)",
+   "publisher": "Vivmark Residential (formerly Equity Residential, merged with AvalonBay August 2026); Invitation Homes (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates",
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Same-store rent and occupancy guidance by coastal/Sun Belt market, apartment development starts and deliveries, single-family-rental renewal rates, and disclosed regulatory risk from the 21st Century ROAD to Housing Act's limits on institutional home buying.",
+   "horizon": "guidance 1 year; development deliveries about 2-3 years; leases about 12 months",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended September 30, 2026 (Vivmark filed 2026-11-09; Invitation Homes 2026-10-29) and INVH Q3 2026 supplemental",
+    "date": "2026-11-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526453735/vmrk-20260930.htm"
+   },
+   "update_cadence": "Quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "T1/T2: securities liability and heavy analyst coverage. T4 fails: rents reset every 12 months and guidance covers one year; T5 only for the development pipeline; no published multi-year error record. Issuer optimism on rent growth is a known bias."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Market-level rents, occupancy, turnover, development communities with unit counts and costs, plus explicit legislative risk discussion; AvalonBay no longer files separately after deregistering in September 2026."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 filings; AI only as boilerplate operational risk ('development and use of artificial intelligence'); rent and demand outlooks are not AI-adjusted (0 AI hits in the Vivmark 10-Q)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "performance of our information technology systems, development and use of artificial intelligence (“AI”)",
+     "doc_local_path": "primary/housing-cities/residential-reit-filings/INVH-10Q-2026-09-30.htm",
+     "page": null
+    },
+    "search_note": "AI hits: INVH 10-Q 3 (risk factors), INVH supplemental 1, VMRK 10-Q 0."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Solid on rents but guidance is one-year and the mechanism overlaps the homebuilder source; not a different enough trend to displace a top pick.",
+   "primary_docs": [
+    {
+     "title": "Vivmark Residential (formerly Equity Residential) Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526453735/vmrk-20260930.htm",
+     "local_path": "primary/housing-cities/residential-reit-filings/VMRK-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 7914363,
+     "pages": 0,
+     "note": "First 10-Q after the AvalonBay/Equity Residential merger; EDGAR shows AvalonBay filed Form 15 deregistration in September 2026."
+    },
+    {
+     "title": "Invitation Homes Form 10-Q for quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1687229/000168722926000056/invh-20260930.htm",
+     "local_path": "primary/housing-cities/residential-reit-filings/INVH-10Q-2026-09-30.htm",
+     "status": "full",
+     "bytes": 2548587,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Invitation Homes Q3 2026 Supplemental (8-K exhibit, 2026-10-28)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1687229/000168722926000053/q32026supplemental.htm",
+     "local_path": "primary/housing-cities/residential-reit-filings/INVH-Q3-2026-supplemental-2026-10-28.htm",
+     "status": "full",
+     "bytes": 2253136,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "prediction-markets-housing",
+   "name": "Kalshi and Polymarket housing contracts: mortgage rates, city home values, rents, permits, NYC policy",
+   "publisher": "Kalshi (CFTC-regulated exchange); Polymarket",
+   "kind": "market price",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates",
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive",
+    "Transit and local capital programs: fare increases, deficits and dated megaproject schedules"
+   ],
+   "what_it_forecasts": "Market-implied probabilities for the Freddie Mac 30-year rate at end-2026 and end-2027, Zillow home values in a dozen metros, NYC asking rents, state permit counts, Manhattan office vacancy, an NYC property-tax increase and the end of congestion pricing.",
+   "horizon": "mostly 1-13 months (latest contracts close December 2027 / January 2028)",
+   "latest_edition": {
+    "title": "API snapshot of open markets taken 2026-11-18 14:31 UTC",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/markets"
+   },
+   "update_cadence": "Continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "T1: traders lose money when wrong. T2: open to independent traders, though several strikes show zero volume and wide bid-ask (e.g. many end-2027 mortgage strikes quoted 0.00/1.00). T4/T5 fail: no contract reaches beyond about 13 months. T3: contracts settle publicly but no multi-year calibration record exists for these housing series."
+   },
+   "richness": {
+    "score": 2,
+    "why": "About 200 Kalshi and 80 Polymarket strikes: single probabilities per threshold with city and date, no reasoning."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Live prices on 2026-11-18 that embed whatever traders believe about AI's effect on rates and housing, but no housing contract isolates AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Scanned 16,626 Kalshi series titles and Polymarket search results for housing terms; no AI-linked housing or mortgage contract found (Polymarket 'rent' hits were GPU rental prices, excluded)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Real money but thin and short-dated; useful for 2027 anchors only, and one number per contract.",
+   "primary_docs": [
+    {
+     "title": "Kalshi open housing-related markets snapshot (JSON)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=<series>&status=open",
+     "local_path": "primary/housing-cities/prediction-markets-housing/kalshi_housing_open_markets_2026-11-18.json",
+     "status": "full",
+     "bytes": 462787,
+     "pages": 0,
+     "note": "206 open markets across 64 queried series; snapshot_utc 2026-11-18T14:31:52Z."
+    },
+    {
+     "title": "Kalshi open housing-related markets snapshot (CSV rendering)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=<series>&status=open",
+     "local_path": "primary/housing-cities/prediction-markets-housing/kalshi_housing_open_markets_2026-11-18.csv",
+     "status": "full",
+     "bytes": 37779,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Polymarket mortgage-rate and median-home-value events snapshot (JSON)",
+     "url": "https://gamma-api.polymarket.com/public-search",
+     "local_path": "primary/housing-cities/prediction-markets-housing/polymarket_housing_events_2026-11-18.json",
+     "status": "full",
+     "bytes": 459618,
+     "pages": 0,
+     "note": "snapshot_utc 2026-11-18T14:32:12Z."
+    },
+    {
+     "title": "Polymarket mortgage-rate and median-home-value markets (CSV rendering)",
+     "url": "https://gamma-api.polymarket.com/public-search",
+     "local_path": "primary/housing-cities/prediction-markets-housing/polymarket_housing_markets_2026-11-18.csv",
+     "status": "full",
+     "bytes": 21342,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "fannie-mae-esr-forecast",
+   "name": "Fannie Mae ESR Group Economic and Housing Forecast",
+   "publisher": "Fannie Mae Economic and Strategic Research Group",
+   "kind": "expert report",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "Quarterly path to end-2028 for the 30-year mortgage rate (7.2% throughout 2027-2028), home sales, housing starts, Fannie Mae HPI growth (0.6% in 2027, 1.1% in 2028, Q4/Q4) and mortgage originations.",
+   "horizon": "quarterly to Q4 2028",
+   "latest_edition": {
+    "title": "Housing Forecast: November 2026 (dated November 12, 2026)",
+    "date": "2026-11-12",
+    "url": "https://www.fanniemae.com/media/58571/display"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "A GSE research group whose forecast is marked against outcomes every month, but Fannie Mae explicitly disclaims that it reflects the company's business expectations, no error record is published by the forecaster, nobody is paid to attack it, and it reaches only about two years. Revisions are large: the 2027 rate path moved from 6.7% (September) to about 7.5% (October) to 7.2% (November) per trade-press coverage."
+   },
+   "richness": {
+    "score": 2,
+    "why": "About ten national series by quarter; the monthly release is now tables only with no commentary or regional detail."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition with no AI treatment: tables only, no text on drivers."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the saved text capture for 'AI', 'artificial intelligence', 'data center', 'automation': none found (document is a single table page)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Most-cited mortgage-rate/home-price forecast, but unincentivised, two-year, national-only and silent on AI; the official PDF was also blocked (403).",
+   "primary_docs": [
+    {
+     "title": "Fannie Mae Housing Forecast: November 2026 (text capture)",
+     "url": "https://www.fanniemae.com/media/58571/display",
+     "local_path": "primary/housing-cities/fannie-mae-esr-forecast/fannie-mae-housing-forecast-2026-11-12.textcapture.txt",
+     "status": "partial",
+     "bytes": 3609,
+     "pages": 0,
+     "note": "fanniemae.com returned HTTP 403 to curl; text of the one-page table captured via a web-fetch tool. The companion November Economic Forecast was not captured."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "fannie-mae-hpes",
+   "name": "Fannie Mae Home Price Expectations Survey (HPES), produced with Pulsenomics",
+   "publisher": "Fannie Mae / Pulsenomics LLC",
+   "kind": "survey",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Mean and dispersion of 100+ housing experts' forecasts of national home-price change for each of the next five calendar years (Q3 2026 panel: +2.5% 2026, +2.2% 2027, +2.7% 2028, +3.1% 2029, +3.3% 2030).",
+   "horizon": "five calendar years (2026-2030)",
+   "latest_edition": {
+    "title": "Q3 2026 Home Price Expectations Survey (field period August 5-14, 2026; published August 26, 2026)",
+    "date": "2026-08-26",
+    "url": "https://www.fanniemae.com/data-and-insights/surveys-indices/home-price-expectations-survey-hpes"
+   },
+   "update_cadence": "Quarterly (a Q4 2026 edition was not yet found on 2026-11-18)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "The survey horizon genuinely spans five years and panelist-level forecasts are published (Pulsenomics has given 'Crystal Ball' awards), but panelists stake only reputation, there is no adversary, and no systematic multi-year error record is published. The panel's 2027-2029 cumulative expectation fell from 10.3% to 8.2% in one year, showing drift with current conditions."
+   },
+   "richness": {
+    "score": 2,
+    "why": "One national series by year with optimist/pessimist quartiles and a special-topic questionnaire; no regional detail."
+   },
+   "ai": {
+    "score": 2,
+    "why": "August 2026 edition; the recap discusses rates, lock-in and inflation, and nothing in the price forecast is attributed to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the saved Pulsenomics recap for 'AI'/'artificial intelligence': only a sidebar link to an unrelated blog post; no AI in the survey results."
+   },
+   "tier": "considered",
+   "why_top_or_not": "A survey of unscored experts; kept as the only explicit five-year national price consensus.",
+   "primary_docs": [
+    {
+     "title": "Pulsenomics - Home Price Expectations Survey: Q3 Recap (August 27, 2026)",
+     "url": "https://pulsenomics.com/2026/08/home-price-expectations-survey-q3-recap/",
+     "local_path": "primary/housing-cities/fannie-mae-hpes/pulsenomics-hpes-q3-2026-recap.html",
+     "status": "partial",
+     "bytes": 135138,
+     "pages": 0,
+     "note": "Survey operator recap page saved in full; Fannie Mae-hosted panelist-level PDF/XLSX not retrieved (fanniemae.com 403)."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "mba-forecast",
+   "name": "Mortgage Bankers Association Mortgage Finance Forecast",
+   "publisher": "Mortgage Bankers Association",
+   "kind": "expert report",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Quarterly 30-year mortgage rate, originations (purchase/refinance) and home sales about two to three years ahead; trade press reports the October 2026 forecast at 7.2% for most of 2027 and 7.0% at end-2028.",
+   "horizon": "quarterly to end-2028",
+   "latest_edition": {
+    "title": "Mortgage Finance Forecast, October 2026 (date and figures from secondary coverage only; not verified against the MBA document)",
+    "date": "2026-10-11",
+    "url": "https://www.mba.org/news-and-research/forecasts-and-commentary"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Trade association of lenders (an interested party) whose forecast is checked monthly against outcomes but has no money or licence at stake, no adversary and a horizon under three years; historically optimistic on origination volume."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of national series by quarter with a short monthly commentary."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; no AI treatment could be verified because the document was not retrievable."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Document not downloaded (mba.org 403; landing page lists the forecast as a sign-up download), so no AI search was possible."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Interested-party trade forecast duplicating Fannie Mae's variables; not retrievable.",
+   "primary_docs": [
+    {
+     "title": "MBA Mortgage Finance Forecast (latest)",
+     "url": "https://www.mba.org/news-and-research/forecasts-and-commentary",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "mba.org returned HTTP 403 to curl and the web-fetch capture returned only the landing page; edition date taken from trade-press reports."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "freddie-mac-outlook",
+   "name": "Freddie Mac Economic, Housing and Mortgage Market Outlook",
+   "publisher": "Freddie Mac Economic & Housing Research",
+   "kind": "expert report",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Formerly a qualitative outlook for home sales, prices, rates and originations; the forecast page shows no edition after January 2025.",
+   "horizon": "about 1-2 years (when published)",
+   "latest_edition": {
+    "title": "Economic, Housing and Mortgage Market Outlook - January 2025",
+    "date": "2025-01-24",
+    "url": "https://www.freddiemac.com/research/forecast/20250124-us-economy-grew-stronger-pace"
+   },
+   "update_cadence": "Discontinued or dormant: Freddie Mac's forecast index viewed 2026-11-18 lists January 2025 as the newest outlook",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Accountable GSE research shop, but no stakes, no adversary, short horizon, and now stale."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Short narrative with a few headline series."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Latest edition is January 2025 with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the saved January 2025 outlook page for 'AI', 'artificial intelligence', 'data center', 'automation': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Well-known source that has effectively stopped: nothing published since January 2025.",
+   "primary_docs": [
+    {
+     "title": "Freddie Mac Outlook - January 2025 (latest available)",
+     "url": "https://www.freddiemac.com/research/forecast/20250124-us-economy-grew-stronger-pace",
+     "local_path": "primary/housing-cities/freddie-mac-outlook/20250124-us-economy-grew-stronger-pace.html",
+     "status": "full",
+     "bytes": 107881,
+     "pages": 0,
+     "note": "HTML page."
+    },
+    {
+     "title": "Freddie Mac forecast index page as of 2026-11-18",
+     "url": "https://www.freddiemac.com/research/forecast",
+     "local_path": "primary/housing-cities/freddie-mac-outlook/forecast-index-2026-11-18.html",
+     "status": "full",
+     "bytes": 97746,
+     "pages": 0,
+     "note": "Evidence that January 2025 is the newest edition listed."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "zillow-home-value-forecast",
+   "name": "Zillow Home Value Forecast (ZHVF), metro level",
+   "publisher": "Zillow Research",
+   "kind": "expert report",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Forecast percent change in the Zillow Home Value Index one, three and twelve months ahead for the US and about 925 regions (base October 31, 2026: US +0.9% to October 2027; New York +2.2%, Dallas -1.0%).",
+   "horizon": "12 months",
+   "latest_edition": {
+    "title": "ZHVF public CSV, base date 2026-10-31 (downloaded 2026-11-18)",
+    "date": "2026-10-31",
+    "url": "https://files.zillowstatic.com/research/public_csvs/zhvf_growth/Metro_zhvf_growth_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Model forecast re-marked monthly against Zillow's own index; Zillow has no direct money on the forecast since closing Zillow Offers, no adversary, and a 12-month horizon. Kalshi and Polymarket city home-value contracts settle on the same index."
+   },
+   "richness": {
+    "score": 3,
+    "why": "About 925 named metros plus the US with three horizons each; no narrative in the data file."
+   },
+   "ai": {
+    "score": 2,
+    "why": "October 2026 data; statistical model with no AI driver."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "CSV of numeric forecasts; no text to search for AI."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best free metro-level price forecast but only one year ahead and model-only.",
+   "primary_docs": [
+    {
+     "title": "Zillow Home Value Forecast - metro CSV (mid-tier, smoothed, seasonally adjusted)",
+     "url": "https://files.zillowstatic.com/research/public_csvs/zhvf_growth/Metro_zhvf_growth_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv",
+     "local_path": "primary/housing-cities/zillow-home-value-forecast/Metro_zhvf_growth_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv",
+     "status": "full",
+     "bytes": 53416,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "cotality-home-price-insights",
+   "name": "Cotality (formerly CoreLogic) US Home Price Insights and forecast",
+   "publisher": "Cotality",
+   "kind": "expert report",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "National and state/metro home-price growth with a 12-month forecast (November 2026 release: +1.7% year over year in September 2026, forecast to slow to 0.9%).",
+   "horizon": "12 months",
+   "latest_edition": {
+    "title": "US home price insights - November 2026 (published November 3, 2026)",
+    "date": "2026-11-03",
+    "url": "https://www.cotality.com/insights/articles/us-home-price-insights-november-2026"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Data vendor's model forecast, re-marked monthly; no stakes or adversary, one-year horizon. Its January 2026 call of 4.3% growth by November 2026 compares with 1.7% now."
+   },
+   "richness": {
+    "score": 3,
+    "why": "State and metro rankings with chief-economist commentary."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition; no AI in the forecast (AI appears only in product marketing on the page)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched saved page: 15 'AI' hits, all site navigation/product marketing (e.g. 'AI-ready data'); none in the forecast text."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Duplicates Zillow/Fannie on a one-year horizon.",
+   "primary_docs": [
+    {
+     "title": "Cotality US home price insights - November 2026",
+     "url": "https://www.cotality.com/insights/articles/us-home-price-insights-november-2026",
+     "local_path": "primary/housing-cities/cotality-home-price-insights/us-home-price-insights-november-2026.html",
+     "status": "full",
+     "bytes": 598997,
+     "pages": 0,
+     "note": "HTML page."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "cme-case-shiller-futures",
+   "name": "CME S&P CoreLogic Case-Shiller Home Price Index futures",
+   "publisher": "CME Group",
+   "kind": "market price",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Futures-implied level of the Case-Shiller 10-city composite and selected metro indices at quarterly expiries.",
+   "horizon": "listed expiries out roughly 1-5 years, with trading concentrated in the nearest contracts",
+   "latest_edition": {
+    "title": "Quotes page (not retrieved)",
+    "date": "2026-11-18",
+    "url": "https://www.cmegroup.com/markets/real-estate/residential/sp-case-shiller-composite.quotes.html"
+   },
+   "update_cadence": "Continuous",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T1"
+    ],
+    "why": "Real money in principle, but the contracts are very thinly traded so few independent parties set the price (T2 fails) and far expiries rarely trade (T4 fails in practice); no published forecast-error record. Liquidity could not be re-checked because the quotes page was blocked."
+   },
+   "richness": {
+    "score": 1,
+    "why": "A single index level per expiry and metro with no reasoning."
+   },
+   "ai": {
+    "score": 3,
+    "why": "A continuously quoted price that would embed AI expectations if it traded, but they cannot be separated out."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document retrieved (cmegroup.com returned HTTP 403), so no AI search was possible."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The only true home-price futures curve, but illiquid and not retrievable.",
+   "primary_docs": [
+    {
+     "title": "CME Case-Shiller composite futures quotes",
+     "url": "https://www.cmegroup.com/markets/real-estate/residential/sp-case-shiller-composite.quotes.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "cmegroup.com returned HTTP 403 to curl; not retried with a browser because the sandbox permission system blocked 403 workarounds."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "chicago-budget-forecast",
+   "name": "City of Chicago 2027 Budget Forecast",
+   "publisher": "City of Chicago Office of Budget and Management",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive"
+   ],
+   "what_it_forecasts": "Corporate Fund gap for 2027 ($882.4m) and out-year gaps under baseline, positive and negative economic scenarios, with pension contributions, personnel, debt and revenue drivers.",
+   "horizon": "2027 budget year plus two out-years (to 2029)",
+   "latest_edition": {
+    "title": "2027 Budget Forecast (released September 3, 2026 per press coverage)",
+    "date": "2026-09-03",
+    "url": "https://news.wttw.com/sites/default/files/article/file-attachments/2027%20Chicago%20Budget%20Forecast.pdf"
+   },
+   "update_cadence": "Annual (late summer), ahead of the October budget proposal",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "T1: the City must adopt a balanced budget and its bond ratings hinge on these numbers. T2: the Civic Federation, council budget office, rating agencies and Bond Buyer analysts publicly dispute the gap (Bond Buyer coverage quoted an analyst expecting the real 2027 gap nearer $500-600m). Horizon is three years, no formal error record is published, and gaps have a known political bias in both directions."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dollar gaps by year and scenario, pension payments by fund and year, named revenue sources and cost drivers; fewer named projects than New York's plan."
+   },
+   "ai": {
+    "score": 4,
+    "why": "September 2026 edition; AI investment is named as the baseline growth driver and the negative scenario is explicitly an AI-investment 'bubble' bust with its own revenue path - a scenario-level, partly quantified treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In this scenario, rising tech sector valuations draw concerns of an unsustainable economic “bubble” which drops investment in the AI industry.",
+     "doc_local_path": "primary/housing-cities/chicago-budget-forecast/2027-Chicago-Budget-Forecast.pdf",
+     "page": 18
+    },
+    "search_note": "4 hits for AI/artificial intelligence, all in the economic-scenario pages (pp. 9, 17, 18)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Same mechanism as the NYC plan with a shorter horizon and weaker oversight; notable for building an AI-bust scenario into a city budget.",
+   "primary_docs": [
+    {
+     "title": "2027 Chicago Budget Forecast",
+     "url": "https://news.wttw.com/sites/default/files/article/file-attachments/2027%20Chicago%20Budget%20Forecast.pdf",
+     "local_path": "primary/housing-cities/chicago-budget-forecast/2027-Chicago-Budget-Forecast.pdf",
+     "status": "full",
+     "bytes": 2665887,
+     "pages": 54,
+     "note": "Copy hosted by WTTW News; the chicago.gov URL guessed for the same file returned 403."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "sf-five-year-plan",
+   "name": "San Francisco Five-Year Financial Plan / Joint Report (Controller, Mayor's Budget Office, Budget & Legislative Analyst)",
+   "publisher": "City and County of San Francisco",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive",
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "General Fund shortfalls by year through FY2029-30 (FY2026-27 shortfall $168.5m; structural deficit growing to over $1bn), with revenue, salary/benefit and baseline-mandate drivers.",
+   "horizon": "four fiscal years (FY2026-27 to FY2029-30)",
+   "latest_edition": {
+    "title": "Budget Outlook Update (March Five-Year Update), FY 2026-27 through FY 2029-30 (March 31, 2026)",
+    "date": "2026-03-31",
+    "url": "https://media.api.sf.gov/documents/March_Update_FY_26-27_through_FY_29-30_FINAL.pdf"
+   },
+   "update_cadence": "Legally required five-year financial plan with December and March joint-report updates; a December 2026 update was not yet published on 2026-11-18",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "T2: issued jointly by three offices including the Board's independent Budget & Legislative Analyst, who reports to a different branch. T4: a four-to-five-year statutory horizon. No money or licence at stake for the authors and no published error record; projections are 'do-nothing' baselines that policy always changes."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Shortfall by year, revenue lines (business, transfer, hotel taxes), labor cost assumptions and named risks; city-specific."
+   },
+   "ai": {
+    "score": 3,
+    "why": "March 2026 edition; AI enters only as a named downside risk ('the possibility of an AI stock market correction'), not as a quantified revenue driver despite the city's AI-company office leasing."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "the possibility of an AI stock market correction, and the growing risk of a prolonged oil shock",
+     "doc_local_path": "primary/housing-cities/sf-five-year-plan/March_Update_FY_26-27_through_FY_29-30_FINAL.pdf",
+     "page": 7
+    },
+    "search_note": "2 hits for 'AI', both in the risk discussion (pp. 7, 9)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Comparable to NYC but smaller, older (March 2026) and without paid external monitors.",
+   "primary_docs": [
+    {
+     "title": "San Francisco Budget Outlook Update (March Five-Year Update) FY2026-27 through FY2029-30",
+     "url": "https://media.api.sf.gov/documents/March_Update_FY_26-27_through_FY_29-30_FINAL.pdf",
+     "local_path": "primary/housing-cities/sf-five-year-plan/March_Update_FY_26-27_through_FY_29-30_FINAL.pdf",
+     "status": "full",
+     "bytes": 491105,
+     "pages": 15,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "cps-lausd-school-budgets",
+   "name": "Big-district school budgets and disclosures (Chicago Public Schools FY2027 budget; Los Angeles USD)",
+   "publisher": "Chicago Public Schools; Los Angeles Unified School District",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment",
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive"
+   ],
+   "what_it_forecasts": "District-level appropriations, deficits, staffing and school-by-school funding tied to enrollment (CPS FY2027 budget closing a $732m deficit; LAUSD reported expecting to lose about 20,000 students over two years, from press coverage).",
+   "horizon": "one fiscal year adopted; multi-year deficit outlooks 3-5 years in separate presentations and bond disclosures",
+   "latest_edition": {
+    "title": "CPS FY2027 Revised Budget Book v2.1 (PDF created July 28, 2026)",
+    "date": "2026-07-28",
+    "url": "https://www.cps.edu/globalassets/cps-pages/about-cps/finance/budget/budget-2027/docs/fy27-revised-budget-book--2.1.pdf"
+   },
+   "update_cadence": "Annual",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "T1: legally adopted budgets backing rated debt, so errors feed directly into borrowing costs. T2: the Civic Federation, teachers' union, rating agencies and state monitors contest the numbers. The binding part is one year (T4 fails); enrollment cohorts are largely born (partial T5) but district multi-year gap projections are not error-tracked."
+   },
+   "richness": {
+    "score": 4,
+    "why": "School-level budgets, enrollment-driven staffing formulas, department programmes and capital projects by name."
+   },
+   "ai": {
+    "score": 2,
+    "why": "July 2026 edition; AI appears as an internal IT/curriculum programme (35 mentions), not as a driver of enrollment, revenue or staffing forecasts."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "Operationalizing AI for District Excellence: Building on the established foundations of AI governance and literacy, ITS is driving the full-scale operationalization of AI initiatives to increase administrative efficiency and instructional innovation.",
+     "doc_local_path": "primary/housing-cities/cps-lausd-school-budgets/cps-fy27-revised-budget-book-2.1.pdf",
+     "page": 112
+    },
+    "search_note": "35 AI/automation hits in the CPS budget book, all describing departmental technology programmes. LAUSD documents not retrieved (lausd.org 403)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "One-year binding horizon; useful colour on enrollment-driven school consolidation but weaker than NCES cohorts plus city plans.",
+   "primary_docs": [
+    {
+     "title": "Chicago Public Schools FY2027 Revised Budget Book v2.1",
+     "url": "https://www.cps.edu/globalassets/cps-pages/about-cps/finance/budget/budget-2027/docs/fy27-revised-budget-book--2.1.pdf",
+     "local_path": "primary/housing-cities/cps-lausd-school-budgets/cps-fy27-revised-budget-book-2.1.pdf",
+     "status": "full",
+     "bytes": 7529293,
+     "pages": 290,
+     "note": ""
+    },
+    {
+     "title": "LAUSD budget / enrollment projection documents",
+     "url": "https://www.lausd.org/budget",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "lausd.org returned HTTP 403 to curl; LAUSD general obligation official statements sit on EMMA, which was not retrievable."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nces-projections",
+   "name": "NCES Projections of Education Statistics (public school enrollment by state)",
+   "publisher": "National Center for Education Statistics (US Department of Education)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "Public elementary and secondary enrollment by state and year to fall 2031, plus teachers, graduates and expenditures.",
+   "horizon": "annual to fall 2031",
+   "latest_edition": {
+    "title": "Projections of Education Statistics to 2031 - web tables (Digest table 203.20 prepared December 2023); last full report is the 49th edition 'to 2030' (February 2024)",
+    "date": "2023-12-31",
+    "url": "https://nces.ed.gov/programs/digest/d23/tables/dt23_203.20.asp"
+   },
+   "update_cadence": "Formerly annual; no projection tables found after the Digest 2023 set - the 2024 and 2025 versions of table 203.20 (prepared October 2024 and March 2026) carry actuals only",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "T3: NCES publishes mean absolute percentage errors of past projections in its technical appendix. T5: every child who will be in K-12 through 2031 is already born. No stakes or adversary, and the series appears to have stalled (no projection tables after the Digest 2023 set), so the latest projection predates the 2024-26 immigration and birth-rate shifts."
+   },
+   "richness": {
+    "score": 3,
+    "why": "State-by-state enrollment by year with regional totals and brief methodology; no district detail."
+   },
+   "ai": {
+    "score": 1,
+    "why": "Latest projection tables were prepared in December 2023 (pre-2025) and contain no AI treatment; the cohort method cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched saved table pages for 'AI'/'artificial intelligence': none. Method is cohort-survival extrapolation."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Structurally sound cohort forecast but stale: no new projection edition since 2023-24.",
+   "primary_docs": [
+    {
+     "title": "Digest of Education Statistics 2023, Table 203.20 - enrollment by state, actual and projected through fall 2031",
+     "url": "https://nces.ed.gov/programs/digest/d23/tables/dt23_203.20.asp",
+     "local_path": "primary/housing-cities/nces-projections/dt23_203.20.html",
+     "status": "full",
+     "bytes": 211831,
+     "pages": 0,
+     "note": "HTML table."
+    },
+    {
+     "title": "Digest 2025, Table 203.20 (prepared March 2026) - actuals only through fall 2024",
+     "url": "https://nces.ed.gov/programs/digest/d25/tables/dt25_203.20.asp",
+     "local_path": "primary/housing-cities/nces-projections/dt25_203.20.html",
+     "status": "full",
+     "bytes": 146321,
+     "pages": 0,
+     "note": "Saved as evidence that the newer table no longer includes projections."
+    },
+    {
+     "title": "NCES Projections of Education Statistics home page",
+     "url": "https://nces.ed.gov/programs/pes/",
+     "local_path": "primary/housing-cities/nces-projections/pes-index.html",
+     "status": "full",
+     "bytes": 17861,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NCES 'Latest version of all Projection Tables' page",
+     "url": "https://nces.ed.gov/programs/PES/current_tables.asp",
+     "local_path": "primary/housing-cities/nces-projections/pes-current-tables.html",
+     "status": "full",
+     "bytes": 17483,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "california-rhna",
+   "name": "California Regional Housing Needs Determinations (7th cycle RHNA) from HCD",
+   "publisher": "California Department of Housing and Community Development",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "The number of homes each region must plan and zone for by income category - 1,359,750 units for the six-county SCAG region in the 7th cycle running from June 30, 2029 - with statutory deadlines for allocation and housing-element adoption.",
+   "horizon": "7th-cycle projection period mid-2029 to 2037; allocation and rezoning deadlines 2027-2029",
+   "latest_edition": {
+    "title": "HCD Final Regional Housing Need Determination letter to SCAG (October 15, 2026)",
+    "date": "2026-10-15",
+    "url": "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/housing-element/scag-7th-cycle-final-determination-letter.pdf"
+   },
+   "update_cadence": "Every eight years per region, staggered; annual progress reports each April",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "T2: a binding state mandate policed by adversaries - cities without a compliant housing element lose zoning control (builder's remedy) and face HCD and Attorney General enforcement plus pro-housing litigants. T4: an eight-year cycle. T1 fails for the forecaster itself: HCD loses nothing if the homes are not built. As a forecast of homes actually built it has a large upward bias: it sets zoning capacity, and sixth-cycle permitting has been widely documented as running well below targets in HCD's annual progress reporting."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Units by region and six income categories, statutory dates, and the demographic method (DOF projections, vacancy and overcrowding adjustments); city-level allocations follow in 2027."
+   },
+   "ai": {
+    "score": 2,
+    "why": "October 2026 edition with no AI treatment; the method is fixed by statute to Department of Finance demographic projections and cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the SCAG determination letter for 'AI', 'artificial intelligence', 'data center', 'automation': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "A real, dated legal obligation on what gets zoned, but a poor predictor of what gets built.",
+   "primary_docs": [
+    {
+     "title": "HCD - SCAG 7th Cycle Final Regional Housing Need Determination letter",
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/housing-element/scag-7th-cycle-final-determination-letter.pdf",
+     "local_path": "primary/housing-cities/california-rhna/scag-7th-cycle-final-determination-letter.pdf",
+     "status": "full",
+     "bytes": 274599,
+     "pages": 9,
+     "note": "Other regions (e.g. SACOG) have separate letters not downloaded."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "census-building-permits",
+   "name": "Census/HUD Monthly New Residential Construction (permits, starts, completions)",
+   "publisher": "US Census Bureau and HUD",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "Not a forecast: monthly permits, starts, units under construction and completions by region and structure type, which fix the next 12-24 months of housing deliveries (October 2026: permits 1,295,000, starts 1,309,000, completions 1,272,000 SAAR).",
+   "horizon": "implied pipeline 1-2 years",
+   "latest_edition": {
+    "title": "Monthly New Residential Construction, October 2026 (release CB26-187, November 18, 2026)",
+    "date": "2026-11-18",
+    "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "T3: published with sampling errors and systematic revisions. T5: permits and units under construction are the literal pipeline. No stakes, no adversary, and the pipeline reaches two years, not five."
+   },
+   "richness": {
+    "score": 2,
+    "why": "National and four-region series by structure type with confidence intervals; no narrative or place names (county/place permits are in separate data files)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 release; a statistical count with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched release text for 'AI'/'artificial intelligence'/'data center': none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Essential base data but backward-looking and thin on narrative.",
+   "primary_docs": [
+    {
+     "title": "Monthly New Residential Construction, October 2026",
+     "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+     "local_path": "primary/housing-cities/census-building-permits/newresconst.pdf",
+     "status": "full",
+     "bytes": 433913,
+     "pages": 7,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "trepp-cmbs-maturities",
+   "name": "Trepp CMBS hard-maturity and delinquency research",
+   "publisher": "Trepp",
+   "kind": "expert report",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "Dollar volume of securitised commercial mortgages reaching hard maturity each month by property type, with share unable to refinance at current size, delinquency and special-servicing rates and named large loans.",
+   "horizon": "month-by-month maturities 1-2 years ahead; delinquency current",
+   "latest_edition": {
+    "title": "$4.42 Billion of Private-Label CMBS Debt Reaches Hard Maturity in November (November 12, 2026)",
+    "date": "2026-11-12",
+    "url": "https://www.trepp.com/trepptalk/cmbs-hard-maturities-november-2026"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "T4/T5: loan maturities are contractual dates on existing debt, so the refinancing wall is literally in the pipeline. Trepp is a data vendor with no money at stake and no adversary; its forward 'cannot refinance' share is a model estimate without a published error record."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Property-type and loan-level detail: balances, debt yields, delinquency, named assets and cities (e.g. a California mall, a New York office condo)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition; no AI treatment in the analysis (only a product banner mentions AI)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "1 'AI' hit in the saved page, a marketing banner for Trepp's MCP servers; none in the research text. The monthly delinquency report itself was not downloaded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good pipeline data on office/retail distress but vendor-compiled and short-horizon; partly redundant with office REIT filings.",
+   "primary_docs": [
+    {
+     "title": "Trepp - $4.42 Billion of Private-Label CMBS Debt Reaches Hard Maturity in November",
+     "url": "https://www.trepp.com/trepptalk/cmbs-hard-maturities-november-2026",
+     "local_path": "primary/housing-cities/trepp-cmbs-maturities/cmbs-hard-maturities-november-2026.html",
+     "status": "full",
+     "bytes": 159039,
+     "pages": 0,
+     "note": "HTML article."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "rating-agency-outlooks",
+   "name": "Rating-agency reports and sector outlooks for local governments (Moody's, S&P, Fitch)",
+   "publisher": "Moody's Ratings; S&P Global Ratings; Fitch Ratings",
+   "kind": "expert report",
+   "covers_trends": [
+    "City fiscal squeeze: structural budget gaps, pensions, federal aid cuts and what services survive"
+   ],
+   "what_it_forecasts": "Issuer ratings and 12-24 month outlooks with the fiscal triggers for upgrade or downgrade (Moody's assigned Aa2 with a negative outlook to New York City's October 2026 GO bonds); annual sector outlooks for states and local governments.",
+   "horizon": "outlook 12-24 months; ratings through the cycle",
+   "latest_edition": {
+    "title": "Moody's and S&P rating reports on NYC GO Fiscal 2027 Series D-G (October 2, 2026); 2027 sector outlooks not yet published as of 2026-11-18",
+    "date": "2026-10-02",
+    "url": "https://www.nyc.gov/assets/investorrelations/downloads/pdf/moodys-report-go-10-02-2026.pdf"
+   },
+   "update_cadence": "Per bond sale; sector outlooks each December/January",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "T1: NRSRO registration and franchise value are at risk from bad ratings. T3: agencies publish multi-year default and transition studies. But the outlook horizon is under two years, ratings lag, and issuers pay for them (a known conflict)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Issuer-specific drivers and thresholds with some figures; mostly restates issuer plans."
+   },
+   "ai": {
+    "score": 2,
+    "why": "October 2026 reports; no AI in the credit analysis (S&P mentions AI only in a content-production disclaimer)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Moody's report: 0 hits. S&P report: 3 hits, all in the legal disclaimer about AI-assisted content."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Derivative of the issuer plans already covered; sector outlooks for 2027 not yet out and mostly paywalled.",
+   "primary_docs": [
+    {
+     "title": "Moody's rating action - NYC GO Fiscal 2027 Series D-G, Aa2, outlook negative (October 2, 2026)",
+     "url": "https://www.nyc.gov/assets/investorrelations/downloads/pdf/moodys-report-go-10-02-2026.pdf",
+     "local_path": "primary/housing-cities/rating-agency-outlooks/moodys-report-nyc-go-10-02-2026.pdf",
+     "status": "full",
+     "bytes": 66231,
+     "pages": 6,
+     "note": ""
+    },
+    {
+     "title": "S&P research update - NYC GO Fiscal 2027 Series D-G rated 'AA', outlook stable (October 2, 2026)",
+     "url": "https://www.nyc.gov/assets/investorrelations/downloads/pdf/sp-report-go-10-02-2026.pdf",
+     "local_path": "primary/housing-cities/rating-agency-outlooks/sp-report-nyc-go-10-02-2026.pdf",
+     "status": "full",
+     "bytes": 226629,
+     "pages": 8,
+     "note": ""
+    },
+    {
+     "title": "Moody's / S&P / Fitch 2027 US state and local government sector outlooks",
+     "url": "https://www.spglobal.com/ratings/en/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "No 2027 sector outlook found in search as of 2026-11-18 (usually published December-January); spglobal.com returned 403 and full reports are subscriber-only."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "obr-efo-housing",
+   "name": "UK Office for Budget Responsibility Economic and Fiscal Outlook (housing forecast)",
+   "publisher": "Office for Budget Responsibility (UK)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "UK house-price growth (about 2% in 2026, 2.5% in 2027, 2.75% a year from 2028), net additions to the housing stock (220,000 in 2026-27 rising to 260,000 in 2030-31), property transactions and mortgage rates.",
+   "horizon": "five fiscal years to 2030-31",
+   "latest_edition": {
+    "title": "Economic and fiscal outlook - October 2026 (document shows month only; day in date field is nominal)",
+    "date": "2026-10-31",
+    "url": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/"
+   },
+   "update_cadence": "Twice a year with each fiscal event",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "T3: the OBR publishes an annual Forecast Evaluation Report (June 2026 edition) and a historical forecasts database. T4: a statutory five-year horizon. No money at stake and it must condition on stated government policy, which has produced documented optimism on housebuilding."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Several housing series by year with explained judgements (planning reform, mortgage rates); national only."
+   },
+   "ai": {
+    "score": 4,
+    "why": "October 2026 edition; AI is a quantified element of the central forecast (productivity growth +0.2 percentage points a year by the medium term), but the housing lines are not separately AI-adjusted."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "The development and adoption of artificial intelligence could have a significant positive effect – our central forecast is for it to boost productivity growth by 0.2 percentage points a year by the medium term – but the scale and timing of any effect is highly uncertain.",
+     "doc_local_path": "primary/housing-cities/obr-efo-housing/OBR-Economic-and-fiscal-outlook-October-2026.pdf",
+     "page": 25
+    },
+    "search_note": "13 hits for AI/artificial intelligence, concentrated in the productivity and gilt-yield discussion."
+   },
+   "tier": "considered",
+   "why_top_or_not": "UK comparator only; best example of an official forecaster putting a number on AI.",
+   "primary_docs": [
+    {
+     "title": "OBR Economic and fiscal outlook - October 2026",
+     "url": "https://obr.uk/download/economic-and-fiscal-outlook-october-2026/",
+     "local_path": "primary/housing-cities/obr-efo-housing/OBR-Economic-and-fiscal-outlook-October-2026.pdf",
+     "status": "full",
+     "bytes": 1771863,
+     "pages": 201,
+     "note": "Supplementary tables and the historical forecasts database were not downloaded."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "boe-monetary-policy-report",
+   "name": "Bank of England Monetary Policy Report",
+   "publisher": "Bank of England",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "UK Bank Rate-conditioned projections for inflation, GDP and unemployment over three years, with housing-market indicators (mortgage approvals down 8%, house prices falling 0.8% over three months) and mortgage-rate pass-through.",
+   "horizon": "three years (to late 2029)",
+   "latest_edition": {
+    "title": "Monetary Policy Report - November 2026 (MPC meeting ending 4 November 2026)",
+    "date": "2026-11-05",
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf"
+   },
+   "update_cadence": "Quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "T3: the Bank publishes forecast evaluations and fan-chart calibration and was independently reviewed (Bernanke review). T4 only partly: a three-year horizon. Institutional accountability but no money at stake; housing is an input, not a headline forecast. Publication date assumed to be the day after the 4 November meeting."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Narrated macro and housing indicators with charts and boxes; UK national level."
+   },
+   "ai": {
+    "score": 4,
+    "why": "November 2026 edition with 59 AI mentions and a dedicated box: AI investment is treated as a demand boost now and a possible persistent productivity lift, with partial quantification."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Given the observable AI-related activity in the data so far, the roll out appears to primarily reflect a boost to demand within the economy. However, should AI investment start to feed through more strongly to UK productivity growth, that should support potential supply growth over coming years (Box D).",
+     "doc_local_path": "primary/housing-cities/boe-monetary-policy-report/monetary-policy-report-november-2026.pdf",
+     "page": 51
+    },
+    "search_note": "59 hits for AI/artificial intelligence (trade prices, investment, productivity box)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "UK comparator; housing is secondary and the horizon is three years.",
+   "primary_docs": [
+    {
+     "title": "Bank of England Monetary Policy Report - November 2026",
+     "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf",
+     "local_path": "primary/housing-cities/boe-monetary-policy-report/monetary-policy-report-november-2026.pdf",
+     "status": "full",
+     "bytes": 3872156,
+     "pages": 93,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nyfed-sce-housing-survey",
+   "name": "New York Fed Survey of Consumer Expectations - Housing Survey",
+   "publisher": "Federal Reserve Bank of New York",
+   "kind": "survey",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "Households' expected home-price change over one and five years, expected rent change, expected mortgage rates, and stated probabilities of buying or moving, split by owners/renters, region, age and income.",
+   "horizon": "one-year and five-year expectations",
+   "latest_edition": {
+    "title": "SCE Housing Survey - 2026 (chart deck dated May 2026; 921 respondents)",
+    "date": "2026-05-05",
+    "url": "https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/data/slide_deck_housing_2026_public.pdf"
+   },
+   "update_cadence": "Annual (fielded February, published spring)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "A consistent annual household survey whose five-year questions reach the horizon, but respondents are unincentivised, there is no adversary, and the Fed publishes the series without scoring expectations against outcomes. Household price expectations are known to extrapolate recent experience. Date is the PDF creation date; the deck shows 'May 2026'."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Several expectation series with demographic and regional splits and distributions; chart deck with little narrative and no named places."
+   },
+   "ai": {
+    "score": 2,
+    "why": "May 2026 edition; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the 49-page deck for 'AI', 'artificial intelligence', 'automation', 'data center': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Shows what households believe (useful for character psychology) rather than what will happen.",
+   "primary_docs": [
+    {
+     "title": "SCE Housing Survey 2026 - public slide deck",
+     "url": "https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/data/slide_deck_housing_2026_public.pdf",
+     "local_path": "primary/housing-cities/nyfed-sce-housing-survey/slide_deck_housing_2026_public.pdf",
+     "status": "full",
+     "bytes": 1132073,
+     "pages": 49,
+     "note": "Chart data XLSX and microdata not downloaded."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "jchs-state-of-nations-housing",
+   "name": "Harvard JCHS - The State of the Nation's Housing 2026",
+   "publisher": "Joint Center for Housing Studies of Harvard University",
+   "kind": "expert report",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates"
+   ],
+   "what_it_forecasts": "Mostly diagnostic: household growth, cost burdens, rents, construction and affordability by metro, with qualitative outlook (slowing household growth, reduced immigration, cooling construction).",
+   "horizon": "current conditions with a 1-3 year qualitative outlook; separate JCHS household projections run to 2035-2045",
+   "latest_edition": {
+    "title": "The State of the Nation's Housing 2026 (released June 17, 2026)",
+    "date": "2026-06-17",
+    "url": "https://www.jchs.harvard.edu/state-nations-housing-2026"
+   },
+   "update_cadence": "Annual (June)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Academic centre with no stakes, no adversary and no scored forecasts; its strength is that demographic drivers (cohorts, household formation) are largely in the pipeline. Partly funded by housing-industry sponsors."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Metro- and state-level cost-burden, rent and construction data with narrated drivers and downloadable tables (judged from the landing page and release summary; full report not retrieved)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition; no AI treatment visible in the landing-page summary or the Harvard release (full report not retrieved, so this is a floor)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the saved landing-page capture and Harvard GSD release for 'AI'/'artificial intelligence'/'data center': none. Full PDF not available to search."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Authoritative description of the present, not an incentivised forecast; full PDF blocked (403).",
+   "primary_docs": [
+    {
+     "title": "JCHS State of the Nation's Housing 2026 - landing page (text capture)",
+     "url": "https://www.jchs.harvard.edu/state-nations-housing-2026",
+     "local_path": "primary/housing-cities/jchs-state-of-nations-housing/jchs-son-2026-landing-page.textcapture.txt",
+     "status": "partial",
+     "bytes": 1201,
+     "pages": 0,
+     "note": "jchs.harvard.edu returned HTTP 403 to curl; only the landing-page summary was captured via a web-fetch tool. Full report PDF not retrieved."
+    },
+    {
+     "title": "Harvard GSD news release on the report (June 17, 2026)",
+     "url": "https://www.gsd.harvard.edu/2026/06/state-of-the-nations-housing-2026-finds-affordability-challenges/",
+     "local_path": "primary/housing-cities/jchs-state-of-nations-housing/gsd-harvard-son-2026-release-2026-06.html",
+     "status": "full",
+     "bytes": 295747,
+     "pages": 0,
+     "note": "Secondary summary page saved to document the edition date and findings."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "uli-pwc-emerging-trends",
+   "name": "PwC / Urban Land Institute - Emerging Trends in Real Estate 2027 (US and Canada)",
+   "publisher": "PwC and the Urban Land Institute",
+   "kind": "survey",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment",
+    "What gets built and what rent costs: the post-2025 multifamily supply drop, builder pipelines and state zoning mandates",
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Survey- and interview-based outlook: eight trends for 2027, property-type prospects (office, multifamily, single-family, data centers, senior housing) and a ranking of markets to watch (Dallas/Fort Worth, Nashville, Miami, Raleigh/Durham, San Francisco at the top).",
+   "horizon": "1-3 years, qualitative",
+   "latest_edition": {
+    "title": "Emerging Trends in Real Estate 2027, 48th edition (copyright October 2026; released October 27, 2026 per press coverage)",
+    "date": "2026-10-27",
+    "url": "https://www.pwc.com/us/en/industries/financial-services/emerging-trends-in-real-estate/etre2027/pwc-uli-etre-2027.pdf"
+   },
+   "update_cadence": "Annual (autumn)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T1"
+    ],
+    "why": "Respondents (about 1,000 surveyed, 500+ interviewed) are investors, developers and lenders with money in real estate, but answers are anonymous, unscored sentiment from interested parties with no adversary and no published track record."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named markets with rankings, property-type sections and quoted practitioner views; judged from the table of contents - only front matter was captured."
+   },
+   "ai": {
+    "score": 3,
+    "why": "October 2026 edition with a dedicated trend ('AI and the Human Premium'), an AI spotlight and a data-center section; treatment appears qualitative/survey-based and could not be checked for quantification because the body text was not retrieved."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "38 Trend 7. AI and the Human Premium 43 Spotlight: AI in Institutional Real Estate",
+     "doc_local_path": "primary/housing-cities/uli-pwc-emerging-trends/pwc-uli-etre-2027.textcapture.txt",
+     "page": null
+    },
+    "search_note": "Only the contents/front matter was captured: AI appears in Trend 7, a spotlight, a Canadian chapter heading and a note that parts of the report were written with generative-AI assistance."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Widely read industry sentiment, but an unscored survey and only partially retrievable.",
+   "primary_docs": [
+    {
+     "title": "Emerging Trends in Real Estate 2027 - front matter and contents (text capture)",
+     "url": "https://www.pwc.com/us/en/industries/financial-services/emerging-trends-in-real-estate/etre2027/pwc-uli-etre-2027.pdf",
+     "local_path": "primary/housing-cities/uli-pwc-emerging-trends/pwc-uli-etre-2027.textcapture.txt",
+     "status": "partial",
+     "bytes": 4329,
+     "pages": 0,
+     "note": "pwc.com and uli.org returned HTTP 403 to curl; first ~9,000 characters captured via a web-fetch tool. Full 160+ page PDF not saved."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "cbre-outlook",
+   "name": "CBRE Research - AI's Impact on Office Demand (AI & Commercial Real Estate series) and US Real Estate Market Outlook",
+   "publisher": "CBRE",
+   "kind": "expert report",
+   "covers_trends": [
+    "Office reset and the data-center tax base: who pays for local government, plus shrinking school enrollment"
+   ],
+   "what_it_forecasts": "US office vacancy to year-end 2031 under a baseline (falling to 14.5% from 18.3%) and an 'AI Vulnerability Downside Scenario' (18.7%), with office-using employment growth of 0.9% a year.",
+   "horizon": "five years (to year-end 2031)",
+   "latest_edition": {
+    "title": "AI's Impact on Office Demand - AI & Commercial Real Estate, Part 2 of 4 (September 9, 2026); the 2027 US Real Estate Market Outlook was not yet published on 2026-11-18",
+    "date": "2026-09-09",
+    "url": "https://www.cbre.com/insights/reports/ais-impact-on-office-demand"
+   },
+   "update_cadence": "Annual outlook each December with a midyear review; occasional thematic series",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "A brokerage whose revenue depends on leasing and sales activity (an interested party with a bullish lean); the forecast reaches five years via CBRE Econometric Advisors models, but there is no adversary, nothing at stake beyond reputation, and no published error record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "National vacancy and employment paths with two scenarios and narrated drivers; market rankings in the full report (only the executive summary was captured)."
+   },
+   "ai": {
+    "score": 5,
+    "why": "September 2026 edition whose subject is AI itself, with a separately quantified AI downside scenario for office vacancy in 2031."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Our AI Vulnerability Downside Scenario assumes that all at-risk office-using jobs are eliminated. Even under this severe assumption, we project only a slight rise in the overall office vacancy from today's 18.3% to 18.7% in 2031.",
+     "doc_local_path": "primary/housing-cities/cbre-outlook/cbre-ais-impact-on-office-demand-2026-09-09.textcapture.txt",
+     "page": null
+    },
+    "search_note": "AI is the report's subject; passage above is the quantified scenario."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The most explicit AI-to-office-vacancy numbers found, but from a conflicted vendor with no accountability; use as a foil to the REIT filings.",
+   "primary_docs": [
+    {
+     "title": "CBRE - AI's Impact on Office Demand (executive summary text capture)",
+     "url": "https://www.cbre.com/insights/reports/ais-impact-on-office-demand",
+     "local_path": "primary/housing-cities/cbre-outlook/cbre-ais-impact-on-office-demand-2026-09-09.textcapture.txt",
+     "status": "partial",
+     "bytes": 3535,
+     "pages": 0,
+     "note": "cbre.com returned HTTP 403 to curl; executive summary captured via a web-fetch tool. JLL and Cushman & Wakefield 2027 outlooks were not found published as of 2026-11-18."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "fhfa-hpi",
+   "name": "FHFA House Price Index (state and metro, purchase-only)",
+   "publisher": "Federal Housing Finance Agency",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Not a forecast: quarterly and monthly repeat-sales price indexes by state and metro, used as the settlement benchmark for Kalshi state home-price contracts and as the base for conforming loan limits.",
+   "horizon": "none (historical index; loan-limit implications one year ahead)",
+   "latest_edition": {
+    "title": "FHFA HPI data page as of 2026-11-18",
+    "date": "2026-11-18",
+    "url": "https://www.fhfa.gov/data/hpi"
+   },
+   "update_cadence": "Monthly and quarterly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "A carefully revised official statistic with published methodology, so it is well marked, but it makes no forward statement at all; nothing forecast, nothing at stake."
+   },
+   "richness": {
+    "score": 3,
+    "why": "State, metro and ZIP-level index series; no narrative about the future."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Current 2026 data with no AI treatment; a backward-looking index."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the saved landing page for 'AI'/'artificial intelligence': none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored for completeness: it is the yardstick other forecasts are settled against, not a forecast.",
+   "primary_docs": [
+    {
+     "title": "FHFA House Price Index landing page",
+     "url": "https://www.fhfa.gov/data/hpi",
+     "local_path": "primary/housing-cities/fhfa-hpi/fhfa-hpi-landing-2026-11-18.html",
+     "status": "partial",
+     "bytes": 88828,
+     "pages": 0,
+     "note": "Landing page only; index datasets not downloaded."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "homeowners-insurance-rate-filings",
+   "name": "Homeowners-insurance rate filings with state regulators (e.g. California Department of Insurance, Florida OIR, SERFF)",
+   "publisher": "Insurers filing with state insurance departments",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Mortgage rates near 7% and flat prices: the frozen, incentive-driven for-sale market"
+   ],
+   "what_it_forecasts": "Requested and approved premium changes by insurer, state and territory for the next policy year, with the catastrophe-model and reinsurance-cost justifications.",
+   "horizon": "12 months per filing; multi-year trend visible across filings",
+   "latest_edition": {
+    "title": "Not retrieved - deep coverage left to the climate/insurance area per the brief",
+    "date": "2026-11-18",
+    "url": "https://filingaccess.serff.com/"
+   },
+   "update_cadence": "Continuous (each insurer files roughly annually per state)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "T1: insurers' own capital is at stake and rates must be actuarially justified under law. T2: regulators' actuaries (and paid intervenors in California under Proposition 103) attack each filing. T3: loss ratios are reported annually and filed with each request. Each filing binds only about a year (T4 fails) and requested increases are a known upper-bound bias versus approved rates."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Insurer-, state- and ZIP/territory-level percentage changes with effective dates and supporting exhibits."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Filings are current (2026) but driven by catastrophe models and reinsurance costs; no AI treatment expected. Not verified because no filing was downloaded."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document downloaded for this area; score is provisional and should defer to the climate/insurance agent's review."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Material to housing costs but explicitly assigned to another area; scored only, not downloaded.",
+   "primary_docs": [],
+   "quotes": []
+  }
+ ]
+}

@@ -1,0 +1,2489 @@
+{
+ "area_id": "ai-compute",
+ "area_name": "AI & the compute build-out",
+ "trends": [
+  {
+   "trend": "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+   "why_it_shapes_daily_life": "Trillions of dollars of signed purchase and lease commitments set how much AI capacity exists by 2028-2031, and therefore how cheap and ubiquitous AI services, agents and automation become at work and at home."
+  },
+  {
+   "trend": "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)",
+   "why_it_shapes_daily_life": "Fabs, HBM memory and lithography tools ramp on multi-year schedules; shortages show up as rationed AI access, dearer phones/PCs/consoles and geopolitics around Taiwan and export licences."
+  },
+  {
+   "trend": "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)",
+   "why_it_shapes_daily_life": "How fast models improve and how much revenue labs earn decides which jobs are automated when, what software costs, and whether 'AGI announced' is a 2027 or a 2031 headline."
+  },
+  {
+   "trend": "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+   "why_it_shapes_daily_life": "The build-out is financed with long leases, vendor guarantees and high-coupon debt; if revenue lags, the unwind hits pensions, bond funds, local tax bases and jobs, and if it holds, the same structures concentrate wealth."
+  },
+  {
+   "trend": "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+   "why_it_shapes_daily_life": "Gigawatt campuses land in specific counties (Ohio, Texas, Louisiana, Tennessee), bringing construction booms, gas turbines, grid strain, higher power bills and ballot fights over moratoria."
+  }
+ ],
+ "sources": [
+  {
+   "id": "hyperscaler-sec-filings",
+   "name": "Hyperscaler 10-Q/10-K filings and earnings exhibits (Microsoft, Alphabet, Amazon, Meta, Oracle)",
+   "publisher": "Microsoft, Alphabet, Amazon, Meta Platforms, Oracle (filed with the U.S. SEC via EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)"
+   ],
+   "what_it_forecasts": "Audited-quality disclosure of each company's contracted future spend: purchase commitments, leases signed but not yet commenced (with commencement years), customer backlog/RPO, lab investments and next-year capex guidance.",
+   "horizon": "capex guidance 1-2 years; purchase commitments mostly through 2031; leases commencing 2026-2036 with terms up to 30 years; Oracle targets to FY2030",
+   "latest_edition": {
+    "title": "Quarterly reports for the quarter ended 2026-09-30 (MSFT, GOOGL, AMZN, META) and 2026-08-31 (ORCL), plus FY2026 10-Ks and earnings/Investor Day 8-K exhibits",
+    "date": "2026-10-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+   },
+   "update_cadence": "quarterly (10-Q/10-K) plus 8-K earnings releases",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Signed contracts and lease obligations disclosed under Exchange Act liability and auditor review (T1), picked over by sell-side analysts, short-sellers and rating agencies (T2), with lease commencements out to 2034-2036 and purchase commitments through 2031 (T4) that are already executed (T5). No published error record for the forward numbers (T3 fails), and there is a measurable directional bias: capex guidance has been repeatedly raised, and several commitments are conditional (Microsoft: 'subject to certain contractual conditions being met'; Alphabet: 'subject to counterparties performing'), so 4 not 5."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named counterparties (OpenAI, Anthropic, Blackstone/Crux AI, Louisiana and Texas ventures), dollar amounts, lease commencement years, contract lengths (8 and 10 years), residual value guarantees, capex guidance and FY2030 targets, with MD&A explaining the mechanisms."
+   },
+   "ai": {
+    "score": 5,
+    "why": "All editions dated Sept-Oct 2026; AI infrastructure is the separately identified driver of the commitments (e.g. Amazon's $100bn+ OpenAI and Anthropic contracts, Meta's 'third-party cloud capacity arrangements', Microsoft's $10.0bn quarterly OpenAI revenue)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We have made and are continuing to make significant capital and operational investments to develop, train, deploy, and support AI models and related cloud-based services, including building and expanding datacenters, acquiring necessary components, and securing energy resources. These investments are being made at significant scale and on an accelerated timeline, require substantial and increasing capital expenditures and continued access to capital, and are in advance of fully developed revenue streams.",
+     "doc_local_path": "primary/ai-compute/hyperscaler-sec-filings/msft-10q-2026-09-30_10-Q_msft-20260930.htm",
+     "page": 0
+    },
+    "search_note": "searched: AI, datacenter/data center, OpenAI, Anthropic, not yet commenced, purchase commitments, remaining performance obligation"
+   },
+   "tier": "top",
+   "why_top_or_not": "Largest pool of legally disclosed, already-signed AI infrastructure commitments (well over $2 trillion across five filers) with dates and counterparties; the demand-side anchor for the whole area.",
+   "primary_docs": [
+    {
+     "title": "Microsoft 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/msft-10q-2026-09-30_10-Q_msft-20260930.htm",
+     "status": "full",
+     "bytes": 5482975,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Microsoft 8-K earnings release (EX-99.1), 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/msft-8k-earnings-2026-10-28_EX-99.1_msft-ex99_1.htm",
+     "status": "full",
+     "bytes": 597468,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Microsoft 8-K cover, 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/msft-8k-earnings-2026-10-28_8-K_msft-20261028.htm",
+     "status": "full",
+     "bytes": 63339,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Microsoft 10-K, fiscal year ended 2026-06-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/msft-10k-fy2026_10-K_msft-20260630.htm",
+     "status": "full",
+     "bytes": 8585616,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Alphabet 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/goog-10q-2026-09-30_10-Q_goog-20260930.htm",
+     "status": "full",
+     "bytes": 2530719,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Alphabet 8-K earnings release (EX-99.1), 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/goog-8k-earnings-2026-10-28_EX-99.1_googexhibit991q32026.htm",
+     "status": "full",
+     "bytes": 370594,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Alphabet 8-K cover, 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/goog-8k-earnings-2026-10-28_8-K_goog-20261028.htm",
+     "status": "full",
+     "bytes": 66315,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/amzn-10q-2026-09-30_10-Q_amzn-20260930.htm",
+     "status": "full",
+     "bytes": 1646120,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon 8-K earnings release (EX-99.1), 2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/amzn-8k-earnings-2026-10-29_EX-99.1_amzn-20260930xex991.htm",
+     "status": "full",
+     "bytes": 673530,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon 8-K EX-99.2, 2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex992.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/amzn-8k-earnings-2026-10-29_EX-99.2_amzn-20260930xex992.htm",
+     "status": "full",
+     "bytes": 4457,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon 8-K cover, 2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/amzn-8k-earnings-2026-10-29_8-K_amzn-20261029.htm",
+     "status": "full",
+     "bytes": 53449,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/meta-10q-2026-09-30_10-Q_meta-20260930.htm",
+     "status": "full",
+     "bytes": 1826165,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 8-K earnings release with CFO outlook (EX-99.1), 2026-10-21",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/meta-8k-earnings-2026-10-21_EX-99.1_meta-09302026xexhibit991.htm",
+     "status": "full",
+     "bytes": 287684,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 8-K cover (Items 1.01, 2.02, 8.01), 2026-10-21",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/meta-8k-earnings-2026-10-21_8-K_meta-20261019.htm",
+     "status": "full",
+     "bytes": 50018,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 8-K EX-10.1, 2026-10-21",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta10202026-ex101.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/meta-8k-earnings-2026-10-21_EX-10.1_meta10202026-ex101.htm",
+     "status": "full",
+     "bytes": 166607,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 10-Q, quarter ended 2026-08-31",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-10q-2026-08-31_10-Q_orcl-20260831.htm",
+     "status": "full",
+     "bytes": 2709068,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 8-K earnings release (EX-99.1), 2026-09-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-8k-earnings-2026-09-10_EX-99.1_orcl-ex99_1.htm",
+     "status": "full",
+     "bytes": 1324609,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 8-K cover, 2026-09-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-8k-earnings-2026-09-10_8-K_orcl-20260910.htm",
+     "status": "full",
+     "bytes": 56505,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 10-K, fiscal year ended 2026-05-31",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-10k-fy2026_10-K_orcl-20260531.htm",
+     "status": "full",
+     "bytes": 6874052,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle Investor Day 2026 press release (8-K EX-99.1), 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-8k-2026-10-28_EX-99.1_d75538dex991.htm",
+     "status": "full",
+     "bytes": 13802,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 8-K cover (Reg FD), 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538d8k.htm",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-8k-2026-10-28_8-K_d75538d8k.htm",
+     "status": "full",
+     "bytes": 26297,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Microsoft Q1 FY2027 earnings call transcript (Motley Fool transcription), 2026-10-29",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/microsoft-msft-q1-2027-earnings-call-transcript/",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/msft_Q1-FY2027_earnings_call_transcript_motleyfool_2026-10-29.html",
+     "status": "partial",
+     "bytes": 534456,
+     "pages": 0,
+     "note": "Third-party transcription; official transcript not on EDGAR."
+    },
+    {
+     "title": "Alphabet Q3 2026 earnings call transcript (Motley Fool transcription), 2026-10-29",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/alphabet-googl-q3-2026-earnings-call-transcript/",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/googl_Q3-2026_earnings_call_transcript_motleyfool_2026-10-29.html",
+     "status": "partial",
+     "bytes": 542410,
+     "pages": 0,
+     "note": "Third-party transcription; official transcript not on EDGAR."
+    },
+    {
+     "title": "Amazon Q3 2026 earnings call transcript (Motley Fool transcription), 2026-10-30",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/amazon-amzn-q3-2026-earnings-call-transcript/",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/amzn_Q3-2026_earnings_call_transcript_motleyfool_2026-10-30.html",
+     "status": "partial",
+     "bytes": 528269,
+     "pages": 0,
+     "note": "Third-party transcription; official transcript not on EDGAR."
+    },
+    {
+     "title": "Meta Q3 2026 earnings call transcript (Motley Fool transcription), 2026-10-21",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/21/meta-meta-q3-2026-earnings-call-transcript/",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/meta_Q3-2026_earnings_call_transcript_motleyfool_2026-10-21.html",
+     "status": "partial",
+     "bytes": 557310,
+     "pages": 0,
+     "note": "Third-party transcription; official transcript not on EDGAR."
+    },
+    {
+     "title": "Oracle Q1 FY2027 earnings call transcript (Motley Fool transcription), 2026-09-11",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/09/11/oracle-orcl-q1-2027-earnings-call-transcript/",
+     "local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl_Q1-FY2027_earnings_call_transcript_motleyfool_2026-09-11.html",
+     "status": "partial",
+     "bytes": 524011,
+     "pages": 0,
+     "note": "Third-party transcription; official transcript not on EDGAR."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "As of September 30, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $364.6 billion, with some arrangements subject to certain contractual conditions being met. These leases will commence between fiscal year 2027 and fiscal year 2034 with lease terms of 1 year to 20 years.",
+     "doc_local_path": "primary/ai-compute/hyperscaler-sec-filings/msft-10q-2026-09-30_10-Q_msft-20260930.htm",
+     "page": 0,
+     "locator": "Microsoft 10-Q, Notes to Financial Statements - Leases (as of 2026-09-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+     "worldbuilding_use": "Microsoft datacenter leases worth $364.6bn switch on between FY2027 and FY2034."
+    },
+    {
+     "text": "$924.4 billion material purchase commitments, of which $802.1 billion relates to multi-year commitments for technical infrastructure and inventory, energy take-or-pay contracts, and content licenses. The significant majority of these commitments will be fulfilled through 2031.",
+     "doc_local_path": "primary/ai-compute/hyperscaler-sec-filings/goog-10q-2026-09-30_10-Q_goog-20260930.htm",
+     "page": 0,
+     "locator": "Alphabet 10-Q, MD&A - Purchase Commitments and Other Contractual Obligations (as of 2026-09-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+     "worldbuilding_use": "Alphabet has $924bn of purchase commitments, mostly chips/servers/energy, to be paid by 2031."
+    },
+    {
+     "text": "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $100.0 billion over 10.0 years, which includes contractual obligations related to the performance of AWS chips. [...] We expect cash capital expenditures to meaningfully increase in 2027, primarily driven by investments in technology infrastructure.",
+     "doc_local_path": "primary/ai-compute/hyperscaler-sec-filings/amzn-10q-2026-09-30_10-Q_amzn-20260930.htm",
+     "page": 0,
+     "locator": "Amazon 10-Q, Note 1 (performance obligations) and MD&A Liquidity (as of 2026-09-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+     "worldbuilding_use": "AWS-Anthropic contract of $100bn+ runs ten years; Amazon capex rises again in 2027 from ~$220bn."
+    },
+    {
+     "text": "The lease agreement with the Louisiana Venture will commence in 2029 and the lease agreement with the Texas Venture will commence in 2028. Each lease has an initial four-year term and renewal options that provide for a total lease period of up to 20 years, including the initial term.",
+     "doc_local_path": "primary/ai-compute/hyperscaler-sec-filings/meta-10q-2026-09-30_10-Q_meta-20260930.htm",
+     "page": 0,
+     "locator": "Meta 10-Q, Note on non-marketable equity method investments (Louisiana Venture ~$27bn, Texas Venture ~$14bn)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "worldbuilding_use": "Meta's JV campuses: Texas lease starts 2028, Louisiana 2029; four-year walk-away options."
+    },
+    {
+     "text": "Following a period of peak capex in FY27-FY28, capital expenditures are expected to step-down in FY29, supporting positive free cash flow of at least $30 billion in FY29.",
+     "doc_local_path": "primary/ai-compute/hyperscaler-sec-filings/orcl-8k-2026-10-28_EX-99.1_d75538dex991.htm",
+     "page": 0,
+     "locator": "Oracle Investor Day 2026 press release, 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+     "worldbuilding_use": "Oracle says its capex peaks in FY27-FY28 and steps down in FY29; a dated build-out peak."
+    }
+   ]
+  },
+  {
+   "id": "nvidia-sec-filings",
+   "name": "NVIDIA 8-K earnings exhibits (CFO commentary) and 10-Q",
+   "publisher": "NVIDIA Corporation (filed with the U.S. SEC via EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031"
+   ],
+   "what_it_forecasts": "Next-quarter revenue outlook plus a fiscal-year schedule (FY2027 to FY2032+) of NVIDIA's own supply, cloud, lease, equity and neocloud commitments and its credit guarantees on named AI campuses.",
+   "horizon": "one quarter of revenue guidance; commitment schedule by fiscal year through FY2032 and thereafter; guaranteed leases of 20 years",
+   "latest_edition": {
+    "title": "Form 8-K, Q3 fiscal 2027 results: press release, CFO Commentary and supplemental financial information",
+    "date": "2026-11-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "NVIDIA has $390bn of supply commitments and up to $118bn of guarantee exposure at risk if demand is wrong (T1); the stock is among the most analysed and shorted in the world (T2); the commitment table runs to FY2032 and thereafter and the guaranteed OpenAI leases are 20-year (T4); the supply is contracted and the Rubin ramp is under way (T5). No multi-year error record is published (T3 fails) and a vendor has an optimism incentive; neocloud commitments are contingent on customers securing financing, so 4."
+   },
+   "richness": {
+    "score": 5,
+    "why": "A dated commitment table by fiscal year, named sites (SB Energy's PORTS-Pike campus in Ohio, 4.25 GW across nine buildings, 20-year OpenAI leases), product cadence (Blackwell Ultra, Rubin, Vera CPUs), China shipment figures and guarantee caps."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 2026-11-17; AI data-center demand is the forecast itself (Data Center revenue $107.6bn of $115.8bn) and the outlook explicitly excludes China data-center compute."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Securing land, power and shell for data centers has become the next critical phase in the AI infrastructure buildout. Neoclouds and frontier labs are seeing extraordinary demand for AI infrastructure, yet many are growing faster than their balance sheets and long-term credit profiles can support.",
+     "doc_local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "page": 0
+    },
+    "search_note": "searched: AI, data center, supply commitments, guarantee, China, outlook"
+   },
+   "tier": "top",
+   "why_top_or_not": "The supply-side counterpart to hyperscaler capex: a year-by-year schedule of chip/memory commitments and vendor-backed campus guarantees filed one day before this review.",
+   "primary_docs": [
+    {
+     "title": "NVIDIA CFO Commentary on Q3 FY2027 results (8-K EX-99.2), 2026-11-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "status": "full",
+     "bytes": 251579,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA Q3 FY2027 press release (8-K EX-99.1), 2026-11-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.1_q3fy27pr.htm",
+     "status": "full",
+     "bytes": 348178,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA supplemental financial information (8-K EX-99.3), 2026-11-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.3_supplementalfinancialinfor.htm",
+     "status": "full",
+     "bytes": 240681,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA 8-K cover, 2026-11-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_8-K_nvda-20261117.htm",
+     "status": "full",
+     "bytes": 26926,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA 10-Q, quarter ended 2026-07-26 (latest 10-Q on file; Q3 FY27 10-Q not yet filed on 2026-11-18)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-10q-2026-07-26_10-Q_nvda-20260726.htm",
+     "status": "full",
+     "bytes": 1517162,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA 8-K (Items 1.01, 2.03, 7.01) on SB Energy/OpenAI PORTS credit support, 2026-08-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-2026-08-17_8-K_nvda-20260817.htm",
+     "status": "full",
+     "bytes": 31533,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Press release exhibit to 2026-08-17 8-K (SB Energy, OpenAI, NVIDIA - PORTS)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-2026-08-17_EX-99.1_sbeoainvidia-portsrelease.htm",
+     "status": "full",
+     "bytes": 21884,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA 8-K (Item 8.01), 2026-09-02",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+     "local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-2026-09-02_8-K_nvda-20260902.htm",
+     "status": "full",
+     "bytes": 29296,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NVIDIA Q3 FY2027 earnings call transcript",
+     "url": "https://www.fool.com/earnings/call-transcripts/",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Call was held 2026-11-17; no transcript was yet published at the Motley Fool URL patterns tried on 2026-11-18 (HTTP 404), and transcripts are not EDGAR exhibits. The filed CFO commentary is the written equivalent."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Our supply commitments increased from $279 billion last quarter to $390 billion, primarily related to the multi-year procurement of memory supply.",
+     "doc_local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "page": 0,
+     "locator": "CFO Commentary - Commitments (as of 2026-10-25)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+     "worldbuilding_use": "NVIDIA locked in $390bn of supply, $111bn added in one quarter, mostly memory."
+    },
+    {
+     "text": "In August 2026, we entered into guarantees to provide credit support on the land, power, and shell buildout to secure approximately 4.25 gigawatts (GW) across nine buildings at SB Energy's PORTS-Pike Technology Campus in Ohio, which will exclusively host NVIDIA infrastructure under 20-year leases to OpenAI, subject to limited exceptions.",
+     "doc_local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "page": 0,
+     "locator": "CFO Commentary - Guarantees (max exposure $105.0bn; first building expected fiscal 2029)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+     "worldbuilding_use": "A 4.25 GW, nine-building OpenAI campus at PORTS-Pike, Ohio, backed by NVIDIA up to $105bn."
+    },
+    {
+     "text": "Our upcoming data center leases have terms up to twenty years and have not commenced. These leases are expected to commence between the fourth quarter of fiscal 2027 and fiscal 2033.",
+     "doc_local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "page": 0,
+     "locator": "CFO Commentary - Commitments ($74bn data center leases not commenced)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+     "worldbuilding_use": "NVIDIA itself becomes a 20-year data-center tenant from late FY2027 to FY2033."
+    },
+    {
+     "text": "Revenue is expected to be $130.0 billion, plus or minus 3%. We are not assuming any Data Center compute revenue from China in our outlook.",
+     "doc_local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "page": 0,
+     "locator": "CFO Commentary - Outlook for Q4 fiscal 2027",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+     "worldbuilding_use": "Quarterly NVIDIA revenue of ~$130bn with zero China data-center compute assumed."
+    },
+    {
+     "text": "Our commitments take effect only if the neoclouds secure financing to purchase the data center infrastructure products and the related compute capacity is deployed, made operational, and accepted by us. The maximum commitment presented assumes these contingencies are satisfactorily resolved.",
+     "doc_local_path": "primary/ai-compute/nvidia-sec-filings/nvda-8k-earnings-2026-11-17_EX-99.2_q3fy27cfocommentary.htm",
+     "page": 0,
+     "locator": "CFO Commentary - Additional Commitments (neocloud agreements $32bn, FY2028-FY2032+)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+     "worldbuilding_use": "Vendor-backstopped neocloud capacity: $32bn of take-back commitments contingent on financing."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-s1",
+   "name": "Anthropic, PBC Form S-1 registration statement (Amendment No. 3) for its IPO",
+   "publisher": "Anthropic, PBC (filed with the U.S. SEC via EDGAR; lead underwriters Goldman Sachs and Morgan Stanley)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)"
+   ],
+   "what_it_forecasts": "A frontier lab's own legally vetted statement of its compute and lease commitments by counterparty and year (about $900.9bn in aggregate, to 2045), its run-rate revenue and the risks of AI automating AI R&D.",
+   "horizon": "contractual obligations by year 2026-2030 and thereafter; commitments incurred through 2045; counterparty contracts to 2029-2036",
+   "latest_edition": {
+    "title": "Form S-1/A (Amendment No. 3), Anthropic, PBC",
+    "date": "2026-11-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm"
+   },
+   "update_cadence": "one-off prospectus with amendments (S-1 filed 2026-10-26; amendments 2026-11-02, 11-10, 11-17); 10-Q/10-K thereafter once listed",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Securities Act Section 11 liability for the issuer, directors and underwriters on any material misstatement (T1); SEC staff review through six DRS rounds, underwriters' due-diligence counsel and IPO investors probe it (T2); payment schedules run to 2030 and on to 2045 (T4) under contracts already signed with Google, Amazon, Microsoft, SpaceXAI, Broadcom, Nscale and Lambda (T5). No track record yet (T3 fails) and an issuer selling stock has an optimism incentive; $186.2bn of the obligations are contingent or terminable, so 4."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Counterparty-by-counterparty contracts with dollar floors, start/end months, cancellation terms and delivery windows; a payments-by-year table; run-rate revenue by date; customer counts; chip mix (Trainium, TPU, NVIDIA, AMD)."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 2026-11-17; the document is about frontier AI itself and quantifies compute spend, revenue run-rate and the 'closing the loop' dynamic of AI accelerating AI research."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We have observed that our models are contributing to the pace of our own research, and these risks will increase as AI systems substantially automate AI research and development if, for example, they accelerate AI progress beyond our ability to evaluate and safeguard new models",
+     "doc_local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "page": 0
+    },
+    "search_note": "searched: compute, commitment, Run-Rate Revenue, recursive, automate, Powerful AI, gigawatt (no GW figures found; commitments are stated in dollars)"
+   },
+   "tier": "top",
+   "why_top_or_not": "The only frontier-lab disclosure made under prospectus liability: it shows the lab side of the build-out (who it owes, how much, until when) and the revenue ramp that has to pay for it.",
+   "primary_docs": [
+    {
+     "title": "Anthropic, PBC Form S-1/A Amendment No. 3 (complete prospectus), filed 2026-11-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+     "local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "status": "full",
+     "bytes": 14896161,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Anthropic S-1 exhibits (credit agreement, note purchase agreements) and free-writing prospectuses of 2026-11-12/18",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130357&type=S-1",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not downloaded (main prospectus only); available on EDGAR under CIK 0002130357."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases not yet commenced, with an aggregate committed spend of approximately $900.9 billion, substantially all of which is related to compute and infrastructure. These commitments include approximately $451.6 billion expected to be incurred before December 31, 2030",
+     "doc_local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "page": 0,
+     "locator": "Prospectus Summary / Risk Factors (as of and subsequent to 2026-09-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+     "worldbuilding_use": "One lab owes ~$900bn for compute; about half falls due before end-2030."
+    },
+    {
+     "text": "In March 2026, we entered into a CSP hosting agreement with Google, which was subsequently amended between May and October 2026, pursuant to which we committed to spend at least approximately $121.3 billion between April 2026 and July 2033, regardless of actual usage.",
+     "doc_local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "page": 0,
+     "locator": "MD&A - Contractual Obligations - Infrastructure Service Arrangements",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+     "worldbuilding_use": "Take-or-pay Google cloud contract: $121.3bn from April 2026 to July 2033."
+    },
+    {
+     "text": "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once all capacity has been delivered, which we expect in December 2026",
+     "doc_local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "page": 0,
+     "locator": "MD&A - Infrastructure Service Arrangements - SpaceXAI Arrangements (NVIDIA GPU compute)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+     "worldbuilding_use": "Anthropic rents xAI/SpaceX GPU capacity at ~$3.1bn a month from December 2026."
+    },
+    {
+     "text": "Further, the table above does not include leases executed and not yet commenced as of September 30, 2026, with total estimated future undiscounted lease obligations of approximately $451.2 billion. Generally, these lease obligations are expected to commence between 2026 and 2028, with lease terms ranging from less than one year to 20 years",
+     "doc_local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "page": 0,
+     "locator": "MD&A - Contractual Obligations (leases not yet commenced)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+     "worldbuilding_use": "$451bn of lab-signed data-center/equipment leases start between 2026 and 2028."
+    },
+    {
+     "text": "From September 30, 2025 to September 30, 2026, we grew customers with $100,000 or more of revenue on a TTM basis from more than 950 to more than 11,900. Additionally, our Run-Rate Revenue was approximately $81 billion as of October 31, 2026, up $10 billion from September 30, 2026.",
+     "doc_local_path": "primary/ai-compute/anthropic-s1/anthropic-s1a3-2026-11-17_S-1-A_anthropicpbc-sx1ax3.htm",
+     "page": 0,
+     "locator": "Business - Significant Revenue Growth",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+     "worldbuilding_use": "Lab revenue run-rate $81bn (Oct 2026), adding ~$10bn in a single month."
+    }
+   ]
+  },
+  {
+   "id": "tsmc-reports",
+   "name": "TSMC quarterly results, earnings call and Board capital appropriations (Form 6-K)",
+   "publisher": "Taiwan Semiconductor Manufacturing Company (6-K filings on EDGAR; call transcript)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031"
+   ],
+   "what_it_forecasts": "Next-quarter guidance, the annual capital budget, Board-approved capital appropriations and a dated schedule of leading-edge fabs (N2, N3, A14, Arizona, Japan) that determines how many AI chips can physically be made through ~2029.",
+   "horizon": "one quarter of guidance; capex direction 2026-2028; fab volume-production dates to 2028; AI accelerator revenue CAGR 2024-2029; High-NA EUV in 2030",
+   "latest_edition": {
+    "title": "3Q26 results and earnings call (2026-10-15); Board resolutions 6-K (2026-11-10); 3Q26 consolidated financial statements 6-K (2026-11-13)",
+    "date": "2026-11-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm"
+   },
+   "update_cadence": "quarterly results and Board meetings; monthly revenue 6-Ks",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T5"
+    ],
+    "why": "TSMC spends $60-64bn a year of its own money on these plans and Board appropriations are binding corporate acts (T1); it is a listed, heavily analysed company whose customers and tool suppliers cross-check the plans (T2); the fabs that will supply 2027-2029 chips are already under construction or tooling (T5). Formal guidance reaches only one quarter and one capex year (T4 only partly), and no error record is published (T3); management has tended to guide conservatively and raise."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named fabs and sites (Tainan 3nm fabs, Arizona fab 2, Japan fab 2, Hsinchu/Kaohsiung N2), volume-production dates, node roadmap (N2, A14, High-NA 2030), capex dollars and platform revenue mix; less detail on customers and wafer volumes."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Editions dated Oct-Nov 2026; AI accelerators are a separately defined revenue line with a stated mid-to-high-50s% CAGR for 2024-2029, and HPC is 68% of revenue."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Thus, AI-related demand is being supported by strong underlying demand for AI accelerators. In addition, the emergence of agentic AI CPUs and the continued demand for networking chips are driving further silicon demand.",
+     "doc_local_path": "primary/ai-compute/tsmc-reports/tsmc_3Q26_earnings_call_transcript_motleyfool_2026-10-15.html",
+     "page": 0
+    },
+    "search_note": "searched: AI accelerator, CAGR, CoWoS, capital budget, Arizona, 2028, 2029, 2030"
+   },
+   "tier": "top",
+   "why_top_or_not": "The physical chokepoint: nearly every leading AI chip passes through fabs whose start dates TSMC states here, and the Board has already appropriated the money.",
+   "primary_docs": [
+    {
+     "title": "TSMC 6-K: Board of Directors resolutions (capital appropriations US$40.9bn; Anthropic/OpenAI investments), 2026-11-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-board-2026-11-10_6-K_tsm-boardx202611xx.htm",
+     "status": "full",
+     "bytes": 37508,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 6-K: 3Q26 earnings release with 4Q26 guidance (EX-99.1), 2026-10-15",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-q3-earnings-2026-10-15_EX-99.1_a3q26e_withguidancexfinal.htm",
+     "status": "full",
+     "bytes": 28010,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 6-K: 3Q26 presentation exhibit (EX-99.2), 2026-10-15",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26presentatione.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-q3-earnings-2026-10-15_EX-99.2_a3q26presentatione.htm",
+     "status": "full",
+     "bytes": 9560,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 6-K cover, 2026-10-15",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/tsm-20261015x6k.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-q3-earnings-2026-10-15_6-K_tsm-20261015x6k.htm",
+     "status": "full",
+     "bytes": 19121,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 6-K: 3Q26 consolidated financial statements (EX-99.1), 2026-11-13",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-fs-2026-11-13_EX-99.1_a2026q3consolidatedreport-.htm",
+     "status": "full",
+     "bytes": 4899121,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 6-K cover, 2026-11-13",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/tsm-fsx20261113x6k.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-fs-2026-11-13_6-K_tsm-fsx20261113x6k.htm",
+     "status": "full",
+     "bytes": 17249,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 6-K: October 2026 monthly revenue report, 2026-11-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm",
+     "local_path": "primary/ai-compute/tsmc-reports/tsm-6k-revenue-2026-11-10_6-K_tsm-revenue20261110.htm",
+     "status": "full",
+     "bytes": 88885,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TSMC 3Q26 earnings call transcript (Motley Fool transcription), 2026-10-15",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+     "local_path": "primary/ai-compute/tsmc-reports/tsmc_3Q26_earnings_call_transcript_motleyfool_2026-10-15.html",
+     "status": "partial",
+     "bytes": 543086,
+     "pages": 0,
+     "note": "Third-party transcription saved in full; the official transcript PDF on investor.tsmc.com (TSMC 3Q26 Transcript.pdf) returned HTTP 403 to curl and to a browser fetch. Wording may differ slightly from the official Refinitiv transcript."
+    },
+    {
+     "title": "TSMC 3Q26 Transcript (official PDF)",
+     "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 (bot protection) via curl with headers and via Playwright request."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "To meet long-term capacity plans based on market demand forecasts and TSMC’s technology development roadmap, the Board approved capital appropriations of approximately US$40,926.70 million for purposes mainly including: (1) Installation and upgrade of advanced technology capacity; (2) Installation and upgrade of advanced packaging, mature and/or specialty technology capacity; (3) Fab construction, and installation of fab facility systems",
+     "doc_local_path": "primary/ai-compute/tsmc-reports/tsm-6k-board-2026-11-10_6-K_tsm-boardx202611xx.htm",
+     "page": 0,
+     "locator": "Board of Directors resolutions, item 3 (2026-11-10)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
+     "worldbuilding_use": "TSMC's board released another $40.9bn for fabs and advanced packaging in November 2026."
+    },
+    {
+     "text": "TSMC is expanding at unprecedented pace with a nearly 20 fabs worldwide in progress. We are building 13 leading-edge and advanced packaging fab in Taiwan over the next several years, and another five to six fabs overseas.",
+     "doc_local_path": "primary/ai-compute/tsmc-reports/tsmc_3Q26_earnings_call_transcript_motleyfool_2026-10-15.html",
+     "page": 0,
+     "locator": "C.C. Wei prepared remarks, 3Q26 call (third-party transcript)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+     "worldbuilding_use": "About 20 fabs in progress: 13 in Taiwan, five or six overseas."
+    },
+    {
+     "text": "In Arizona, we have completed the construction of our second fab and are in the process of tool moving and installation. Volume production will begin in third quarter 2027, slightly ahead of our previous schedule. In Japan, we are progressing well to our plan to utilize 3 nm in our second fab, and volume production is scheduled in 2028.",
+     "doc_local_path": "primary/ai-compute/tsmc-reports/tsmc_3Q26_earnings_call_transcript_motleyfool_2026-10-15.html",
+     "page": 0,
+     "locator": "C.C. Wei prepared remarks, N3 capacity expansion update",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+     "worldbuilding_use": "Arizona fab 2 volume production in Q3 2027; Japan 3nm fab in 2028."
+    },
+    {
+     "text": "we reiterate our full year 2026 capital budget to be between $60 billion and $64 billion. We continue to expect our CapEx investment from 2026 to 2028 to be even more significantly higher than the past three years",
+     "doc_local_path": "primary/ai-compute/tsmc-reports/tsmc_3Q26_earnings_call_transcript_motleyfool_2026-10-15.html",
+     "page": 0,
+     "locator": "Wendell Huang (CFO) prepared remarks, 3Q26 call",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+     "worldbuilding_use": "TSMC capex $60-64bn in 2026 and rising through 2028."
+    },
+    {
+     "text": "grow mid to high 50s percentage from 2024 to 2029. Laura wants to know, do we have any update to that number today? [...] Whether it is a high 50 CAGR, it does not matter. It probably will be higher.",
+     "doc_local_path": "primary/ai-compute/tsmc-reports/tsmc_3Q26_earnings_call_transcript_motleyfool_2026-10-15.html",
+     "page": 0,
+     "locator": "Q&A, Laura Chen question on AI accelerator revenue CAGR; C.C. Wei answer",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+     "worldbuilding_use": "AI accelerator revenue compounding at 55%+ a year through 2029, per the foundry."
+    }
+   ]
+  },
+  {
+   "id": "ai-prediction-markets",
+   "name": "Real-money prediction markets on AI milestones, AI-company events and data-center politics (Kalshi and Polymarket)",
+   "publisher": "Kalshi (CFTC-regulated exchange) and Polymarket",
+   "kind": "market price",
+   "covers_trends": [
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria"
+   ],
+   "what_it_forecasts": "Traded probabilities for dated events: a company announcing AGI by each quarter to 2031, lab IPO timing and valuation, an 'AI bubble burst', lab or neocloud bankruptcy by 2027-2029, state data-center moratoria by 2028, model leaderboards and GPU rental prices.",
+   "horizon": "mostly weeks to 14 months; ladders to 2028-2029 (moratoria, bankruptcies) and to 2031 (Kalshi AGI announcement)",
+   "latest_edition": {
+    "title": "API snapshot of open AI-related markets pulled 2026-11-18 (92 Kalshi markets in 32 series queried; 312 Polymarket events / 3,516 markets)",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXAGICO&status=open"
+   },
+   "update_cadence": "continuous (prices change intraday)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Traders lose money when wrong (T1) and prices are set by many independent participants with arbitrage between venues (T2). Contracts resolve and both venues' calibration is publicly studied, but there is no multi-year error record for 3-5-year AI questions (T3 not met), and only a few thin ladders reach past 2028 (the Kalshi 2031 AGI contract shows about 12k contracts of volume), so T4 is not really met; long-dated, low-liquidity contracts also carry known time-value and favourite-longshot distortions."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Hundreds of named, dated binary events (states, companies, dates, thresholds) but each is a bare probability with resolution rules and no reasoning or mechanism."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Snapshot dated 2026-11-18; AI events are the subject of the contracts and the prices re-set continuously on AI news (e.g. the AGI-announcement ladder steps from 6% for end-2026 to 47% for end-2027)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "KXRSIANNOUNCE-29-29JAN01,\"Will OpenAI or Anthropic announces it has achieved recursive self-improvement before Jan 1, 2029?\",\"Before Jan 1, 2029\",0.8000,0.8400,0.8400",
+     "doc_local_path": "primary/ai-compute/ai-prediction-markets/kalshi_ai_snapshot_2026-11-18.csv",
+     "page": 0
+    },
+    "search_note": "Kalshi: Science and Technology series filtered on AI/AGI/data center/GPU terms; Polymarket: events tagged ai, openai, artificial-intelligence, nvidia, big-tech, tech"
+   },
+   "tier": "top",
+   "why_top_or_not": "The only source in the area that prices the capability timeline, the bubble/bankruptcy tail and local political backlash with real money; chosen as fifth pick for mechanism diversity despite a lower total than some filings-based sources.",
+   "primary_docs": [
+    {
+     "title": "Kalshi AI markets snapshot (CSV: bid/ask/last per market), pulled 2026-11-18T14:39Z",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXAGICO&status=open",
+     "local_path": "primary/ai-compute/ai-prediction-markets/kalshi_ai_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 19198,
+     "pages": 0,
+     "note": "92 open markets; 32 AI-related series queried, 18 had open markets; columns: pulled_at_utc, series, ticker, title, yes_sub_title, yes_bid, yes_ask, last_price, volume, open_interest, close_date."
+    },
+    {
+     "title": "Kalshi AI markets raw API JSON, pulled 2026-11-18",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXAGICO&status=open",
+     "local_path": "primary/ai-compute/ai-prediction-markets/kalshi_ai_markets_raw_2026-11-18.json",
+     "status": "full",
+     "bytes": 195647,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Polymarket AI/tech events snapshot (CSV: yes price per market), pulled 2026-11-18T14:31Z",
+     "url": "https://gamma-api.polymarket.com/events?tag_slug=ai&closed=false",
+     "local_path": "primary/ai-compute/ai-prediction-markets/polymarket_ai_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 766902,
+     "pages": 0,
+     "note": "312 open events / 3,516 markets selected by keyword from tag pulls; includes unpriced placeholder rows (blank price). Columns: pulled_at_utc, event_title, market_question, outcome_yes_price, last_trade_price, market_volume_usd, event_volume_usd, end_date, event_slug."
+    },
+    {
+     "title": "Polymarket AI/tech events raw API JSON, pulled 2026-11-18",
+     "url": "https://gamma-api.polymarket.com/events?tag_slug=ai&closed=false",
+     "local_path": "primary/ai-compute/ai-prediction-markets/polymarket_ai_events_raw_2026-11-18.json",
+     "status": "full",
+     "bytes": 18858595,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "KXAGICO-COMP-30,\"Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jan 1, 2031?\",\"Before Jan 1, 2031\",0.7500,0.7600,0.7700",
+     "doc_local_path": "primary/ai-compute/ai-prediction-markets/kalshi_ai_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Kalshi KXAGICO ladder; columns after title: yes_bid, yes_ask, last_price; as of 2026-11-18T14:39Z",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXAGICO&status=open",
+     "worldbuilding_use": "Market puts ~76% on some company declaring AGI before 2031."
+    },
+    {
+     "text": "KXAGICO-COMP-27Q4,\"Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jan 1, 2028?\",\"Before Jan 1, 2028\",0.4700,0.4900,0.4700",
+     "doc_local_path": "primary/ai-compute/ai-prediction-markets/kalshi_ai_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Kalshi KXAGICO ladder; yes_bid, yes_ask, last_price; as of 2026-11-18T14:39Z",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXAGICO&status=open",
+     "worldbuilding_use": "Roughly coin-flip odds of an AGI announcement during 2027."
+    },
+    {
+     "text": "AI bubble burst by...?,AI bubble burst in 2026?,0.0785,0.079,3145272,3914657,2027-01-01 [...] AI bubble burst by...?,\"AI bubble burst by June 30, 2027?\",0.175,0.18,181390,3914657,2027-07-01",
+     "doc_local_path": "primary/ai-compute/ai-prediction-markets/polymarket_ai_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Polymarket; columns: event_title, market_question, outcome_yes_price, last_trade_price, market_volume_usd, event_volume_usd, end_date; as of 2026-11-18T14:31Z",
+     "url": "https://gamma-api.polymarket.com/events?tag_slug=ai&closed=false",
+     "worldbuilding_use": "Traders price ~8% for an AI bubble burst in 2026 and ~18% by mid-2027."
+    },
+    {
+     "text": "Texas enacts data center moratorium by...?,\"Will Texas enact a data center moratorium by December 31, 2028?\",0.335,0.34,72871,839094,2029-01-01",
+     "doc_local_path": "primary/ai-compute/ai-prediction-markets/polymarket_ai_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Polymarket state moratorium ladder (also Indiana, Louisiana, Missouri, Oklahoma, Ohio at 28-33% for end-2028); as of 2026-11-18T14:31Z",
+     "url": "https://gamma-api.polymarket.com/events?tag_slug=ai&closed=false",
+     "worldbuilding_use": "One-in-three odds Texas legislates a data-center moratorium by end-2028."
+    },
+    {
+     "text": "Anthropic IPO Closing Market Cap,Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?,0.4245,0.423,847950,9551171,2028-01-01",
+     "doc_local_path": "primary/ai-compute/ai-prediction-markets/polymarket_ai_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Polymarket; outcome_yes_price, last_trade_price, volumes, end_date; as of 2026-11-18T14:31Z",
+     "url": "https://gamma-api.polymarket.com/events?tag_slug=ai&closed=false",
+     "worldbuilding_use": "Modal market expectation: Anthropic lists at $1.25-1.5 trillion."
+    }
+   ]
+  },
+  {
+   "id": "coreweave-sec-filings",
+   "name": "CoreWeave 10-Q and earnings release (neocloud backlog and contracted power)",
+   "publisher": "CoreWeave, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria"
+   ],
+   "what_it_forecasts": "Revenue backlog, contracted and active power in GW, year-end active-power target and customer concentration for the largest listed neocloud.",
+   "horizon": "backlog recognised over roughly 2026-2032; active-power guidance to year-end 2026",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended 2026-09-30 and Q3 2026 earnings release",
+    "date": "2026-11-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T5"
+    ],
+    "why": "Signed take-or-pay customer contracts disclosed under securities law (T1), a heavily shorted and lender-scrutinised stock with secured lenders underwriting each GPU facility (T2), and capacity already contracted (T5). Contract terms are mostly shorter than five years and delivery depends on power and financing; no forecast error record (T3); issuer optimism."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Backlog in dollars, active vs contracted GW, international footprint (India, Indonesia, Spain), the OpenAI master services agreement, customer concentration (top two customers 30% and 24% of revenue) and financing facilities; site names are sparse."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 2026-11-12; the business is AI compute, with backlog ($132.5bn) and GW as headline quantified metrics."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Grew total contracted power more than 900 MW to over 4.6 GW, while further diversifying portfolio of providers and expanding powered land footprint",
+     "doc_local_path": "primary/ai-compute/coreweave-sec-filings/crwv-8k-earnings-2026-11-10_EX-99.1_coreweave3q26earningspress.htm",
+     "page": 0
+    },
+    "search_note": "searched: backlog, contracted power, gigawatt, OpenAI"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scores as high as the top filings but is the mirror image of commitments already captured in hyperscaler/lab filings (same mechanism), so kept as corroboration.",
+   "primary_docs": [
+    {
+     "title": "CoreWeave 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+     "local_path": "primary/ai-compute/coreweave-sec-filings/crwv-10q-2026-09-30_10-Q_crwv-20260930.htm",
+     "status": "full",
+     "bytes": 2440229,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CoreWeave Q3 2026 earnings press release (8-K EX-99.1), 2026-11-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+     "local_path": "primary/ai-compute/coreweave-sec-filings/crwv-8k-earnings-2026-11-10_EX-99.1_coreweave3q26earningspress.htm",
+     "status": "full",
+     "bytes": 370907,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CoreWeave 8-K cover, 2026-11-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm",
+     "local_path": "primary/ai-compute/coreweave-sec-filings/crwv-8k-earnings-2026-11-10_8-K_crwv-20261110.htm",
+     "status": "full",
+     "bytes": 28796,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ai-debt-financings",
+   "name": "AI build-out debt and hybrid financings: bond prospectuses and 8-Ks (Meta, Oracle, Alphabet, Amazon, CoreWeave)",
+   "publisher": "Issuers via SEC EDGAR (underwritten public offerings and credit agreements)",
+   "kind": "market price",
+   "covers_trends": [
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031"
+   ],
+   "what_it_forecasts": "Primary-market prices of capital for the AI build-out: coupons, tenors and sizes of new bonds, mandatory convertible preferred and GPU-backed term loans issued Aug-Nov 2026.",
+   "horizon": "instrument tenors 2028 to 2065",
+   "latest_edition": {
+    "title": "Meta USD and EUR senior notes (8-Ks 2026-11-05 and 2026-11-12); Oracle $10bn notes (8-K 2026-11-04); Alphabet 424B2 (2026-11-04)",
+    "date": "2026-11-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm"
+   },
+   "update_cadence": "event-driven (each offering)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Bond buyers and lenders lose principal if the issuers' AI bets fail (T1); coupons are set in book-builds across hundreds of institutional accounts and tracked by rating agencies (T2); tenors run 5-40 years (T4). The price is a verdict on issuer credit, not on AI outcomes specifically, no AI-specific error record exists (T3), and it is not a pipeline measure (T5)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Issuer, size, coupon, maturity and date for each tranche (e.g. Oracle 8.650% Notes due 2046; Meta 6.50% mandatory convertible preferred) but little narrative beyond 'general corporate purposes'."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 editions; AI capex is why the paper is being issued and coupons embed that risk, but the AI component of the price cannot be separated out from rates and issuer credit."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "On November 4, 2026, Oracle consummated the issuance and sale of $2,000,000,000 principal amount of its 7.000% Notes due 2029, $1,750,000,000 principal amount of its 7.450% Notes due 2031, $2,250,000,000 principal amount of its 7.850% Notes due 2033, $2,500,000,000 principal amount of its 8.000% Notes due 2037 and $1,500,000,000 principal amount of its 8.650% Notes due 2046",
+     "doc_local_path": "primary/ai-compute/ai-debt-financings/orcl-8k-2026-11-04_8-K_d131790d8k.htm",
+     "page": 0
+    },
+    "search_note": "searched prospectus supplements for: use of proceeds, artificial intelligence, AI infrastructure, data center; use of proceeds is stated only as general corporate purposes"
+   },
+   "tier": "considered",
+   "why_top_or_not": "A genuine market price with long tenor, and the first runner-up; not top because it prices issuer credit rather than the AI outcome and offers few liftable specifics beyond coupons.",
+   "primary_docs": [
+    {
+     "title": "Meta 8-K: $15bn USD senior notes (5.850% due 2031 to 7.500% due 2056), 2026-11-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/meta-8k-2026-11-05_8-K_d166273d8k.htm",
+     "status": "full",
+     "bytes": 38638,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 8-K: EUR senior notes (4.300% due 2031 to 6.400% due 2065), 2026-11-12",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/meta-8k-2026-11-12_8-K_d177728d8k.htm",
+     "status": "full",
+     "bytes": 34883,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 8-K: 6.50% Series A Mandatory Convertible Preferred depositary shares, 2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/meta-8k-2026-10-29_8-K_d183592d8k.htm",
+     "status": "full",
+     "bytes": 56443,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 424B5 prospectus supplement, filed 2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436405/d133631d424b5.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/meta-424b5-2026-10-28_424B5_d133631d424b5.htm",
+     "status": "full",
+     "bytes": 827193,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta 424B5 prospectus supplement (EUR notes), filed 2026-11-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/meta-424b5-2026-11-06_424B5_d44678d424b5.htm",
+     "status": "full",
+     "bytes": 494978,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 8-K: $10bn notes (7.000% due 2029 to 8.650% due 2046) and common stock offering, 2026-11-04",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/orcl-8k-2026-11-04_8-K_d131790d8k.htm",
+     "status": "full",
+     "bytes": 34794,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 424B2 prospectus supplement, filed 2026-11-04",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445846/d181336d424b2.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/orcl-424b2-2026-11-04_424B2_d181336d424b2.htm",
+     "status": "full",
+     "bytes": 511028,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 8-K (Item 8.01) and press release, 2026-09-14",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/orcl-8k-2026-09-14_8-K_d20034d8k.htm",
+     "status": "full",
+     "bytes": 26973,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Oracle 8-K EX-99.1, 2026-09-14",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034dex991.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/orcl-8k-2026-09-14_EX-99.1_d20034dex991.htm",
+     "status": "full",
+     "bytes": 4884,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Alphabet 424B2 prospectus supplement (EUR notes), filed 2026-11-04",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/goog-424b2-2026-11-04_424B2_d125079d424b2.htm",
+     "status": "full",
+     "bytes": 601353,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon 424B5 prospectus supplement (GBP notes), filed 2026-09-11",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/amzn-424b5-2026-09-11_424B5_tm2624614-3_424b5.htm",
+     "status": "full",
+     "bytes": 664393,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CoreWeave 8-K: $2.6bn DDTL 5.5 Facility, 2026-08-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/crwv-8k-2026-08-10_8-K_crwv-20260807.htm",
+     "status": "full",
+     "bytes": 39123,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CoreWeave press release on DDTL 5.5 (EX-99.1), 2026-08-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/crwv-8k-2026-08-10_EX-99.1_ex991pr.htm",
+     "status": "full",
+     "bytes": 9112,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CoreWeave 8-K: $4.2bn 2.875% convertible senior notes due 2033, 2026-09-22",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/crwv-8k-2026-09-22_8-K_crwv-20260917.htm",
+     "status": "full",
+     "bytes": 56765,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CoreWeave convertible notes pricing release (EX-99.1), 2026-09-17",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/ex991pricing.htm",
+     "local_path": "primary/ai-compute/ai-debt-financings/crwv-8k-2026-09-22_EX-99.1_ex991pricing.htm",
+     "status": "full",
+     "bytes": 20295,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta Hyperion / Blue Owl project bonds and data-center ABS/CMBS offering memoranda",
+     "url": "",
+     "local_path": "",
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "144A/private placements: offering documents are not public. The Meta 10-Q (in hyperscaler-sec-filings) describes the Louisiana and Texas ventures and residual value guarantees instead."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "sb-energy-s1",
+   "name": "SB Energy, Inc. Form S-1/A (developer of OpenAI and SoftBank gigawatt campuses)",
+   "publisher": "SB Energy, Inc. (SoftBank Group company; SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk"
+   ],
+   "what_it_forecasts": "Site-level plans for gigawatt data-center campuses leased to OpenAI and SoftBank (Milam County TX, PORTS-Pike OH, Cosmos), with lease terms, power arrangements and target operation dates.",
+   "horizon": "first phases 2026-2028; 20-year leases",
+   "latest_edition": {
+    "title": "Form S-1/A (Amendment No. 2)",
+    "date": "2026-09-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm"
+   },
+   "update_cadence": "one-off prospectus with amendments (no amendment since 2026-09-21; no pricing prospectus found on EDGAR as of 2026-11-18)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Prospectus liability (T1) and SEC/underwriter review (T2). The 20-year OpenAI lease is signed, but the build is explicitly 'subject to receipt of required regulatory approvals, availability of financing, procurement of long-lead equipment', the IPO meant to fund it has not priced, and there is no track record, so T4/T5 are not credited."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named campuses, counties, transmission lines, the retired DOE Portsmouth plant, lease dates and terms, tenant and guarantor identities and target operation years."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 2026-09-21; the entire plan is AI data-center capacity for named AI tenants."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "SoftBank and OpenAI are strategic investors and customers at our data center campuses – Cosmos (SoftBank), Milam County (OpenAI) and PORTS-Pike Technology Campus (OpenAI) – and NVIDIA is a strategic investor and residual value guarantor at the PORTS-Pike Technology Campus.",
+     "doc_local_path": "primary/ai-compute/sb-energy-s1/sbenergy-s1a2-2026-09-21_S-1-A_sbenergy-sx1a2.htm",
+     "page": 0
+    },
+    "search_note": "searched: OpenAI, PORTS, gigawatt, lease"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best single document for place-level detail, but a single unpriced developer whose key facts (PORTS-Pike, 4.25 GW, 20-year OpenAI leases) already appear in NVIDIA's filing.",
+   "primary_docs": [
+    {
+     "title": "SB Energy, Inc. Form S-1/A Amendment No. 2, filed 2026-09-21",
+     "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm",
+     "local_path": "primary/ai-compute/sb-energy-s1/sbenergy-s1a2-2026-09-21_S-1-A_sbenergy-sx1a2.htm",
+     "status": "full",
+     "bytes": 10989470,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "spacexai-sec-filings",
+   "name": "SpaceX (incl. SpaceXAI, formerly xAI) 10-Q and earnings release",
+   "publisher": "Space Exploration Technologies Corp. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)"
+   ],
+   "what_it_forecasts": "Capitalised data-center infrastructure, cloud-services revenue arrangements (reserved compute capacity sold to third parties) and litigation around the Colossus sites for the fourth frontier-compute owner.",
+   "horizon": "quarterly; debt maturities to 2030",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended 2026-09-30",
+    "date": "2026-10-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Regulated filing of a listed company (T1) with heavy investor scrutiny (T2); but the forward-looking AI content reviewed here is limited (no multi-year commitment schedule was located in a keyword pass), so T4/T5 are not credited. Only partially read."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Segment data ('SI' segment), data-center infrastructure balances, named sites and lawsuits (NAACP suit over Colossus II turbines), merger history; few forward dated quantities found."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Edition dated 2026-10-22; AI ('SI') is a reporting segment with its own capex and revenue, but forward quantification is limited."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "alleging that the mobile gas turbines powering the COLOSSUS II data center with the permission of the Mississippi Department of Environmental Quality are in violation of the Clean Air Act because they allegedly constitute stationary sources without the proper permits",
+     "doc_local_path": "primary/ai-compute/spacexai-sec-filings/spcx-10q-2026-09-30_10-Q_spcx-20260930.htm",
+     "page": 0
+    },
+    "search_note": "searched: xAI, SpaceXAI, Colossus, data center, compute capacity, gigawatt (no GW figures found)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful colour on a fourth compute owner and on local opposition, but thin on forward commitments compared with the top filings.",
+   "primary_docs": [
+    {
+     "title": "SpaceX 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+     "local_path": "primary/ai-compute/spacexai-sec-filings/spcx-10q-2026-09-30_10-Q_spcx-20260930.htm",
+     "status": "full",
+     "bytes": 2366738,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "SpaceX Q3 2026 earnings exhibit (8-K EX-99.1), 2026-10-20",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+     "local_path": "primary/ai-compute/spacexai-sec-filings/spcx-8k-earnings-2026-10-20_EX-99.1_spaceexplorationtechnologi.htm",
+     "status": "full",
+     "bytes": 849262,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "SpaceX 8-K cover, 2026-10-20",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm",
+     "local_path": "primary/ai-compute/spacexai-sec-filings/spcx-8k-earnings-2026-10-20_8-K_spcx-20261020.htm",
+     "status": "full",
+     "bytes": 26274,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "broadcom-sec-filings",
+   "name": "Broadcom 10-Q and earnings release (custom AI accelerators, AI XPV financing platform)",
+   "publisher": "Broadcom Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk"
+   ],
+   "what_it_forecasts": "Next-quarter AI semiconductor revenue guidance and the scale of custom-accelerator (XPU) deployments financed for frontier labs through 2028.",
+   "horizon": "one quarter of guidance; AI XPV platform through 2028",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended 2026-08-02 and Q3 FY2026 earnings release",
+    "date": "2026-09-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+   },
+   "update_cadence": "quarterly (Q4 FY2026 results expected December 2026)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Listed-company disclosure with securities liability (T1) and intense analyst scrutiny (T2); guidance reaches one quarter and the '20 gigawatts through 2028' figure is an enablement ambition of a vendor-arranged financing platform, not a firm order book, so T4/T5 are not credited."
+   },
+   "richness": {
+    "score": 3,
+    "why": "AI revenue by quarter, the AI XPV platform ($35bn first tranche, >1 GW) and lab lease arrangements; customers are not named in the passages reviewed."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated Sept 2026; AI semiconductor revenue is a separately reported and guided line ($16.7bn in Q3, $21.7bn guided for Q4)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We established the AI XPV platform with certain sophisticated financial partners to enable more than 20 gigawatts in compute capacity using our custom AI accelerators or XPUs and networking solutions customized for the leading frontier AI labs through 2028.",
+     "doc_local_path": "primary/ai-compute/broadcom-sec-filings/avgo-10q-2026-08-02_10-Q_avgo-20260802.htm",
+     "page": 0
+    },
+    "search_note": "searched: AI revenue, backlog, gigawatt, OpenAI, Anthropic"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Confirms the custom-silicon leg and vendor financing, but short guidance horizon and overlap with Anthropic's S-1 (Broadcom leases) keep it out of the top tier.",
+   "primary_docs": [
+    {
+     "title": "Broadcom 10-Q, quarter ended 2026-08-02",
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+     "local_path": "primary/ai-compute/broadcom-sec-filings/avgo-10q-2026-08-02_10-Q_avgo-20260802.htm",
+     "status": "full",
+     "bytes": 1729925,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Broadcom Q3 FY2026 earnings release (8-K EX-99.1), 2026-09-02",
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm",
+     "local_path": "primary/ai-compute/broadcom-sec-filings/avgo-8k-earnings-2026-09-02_EX-99.1_avgo-08022026x8kxex99.htm",
+     "status": "full",
+     "bytes": 509788,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Broadcom 8-K cover, 2026-09-02",
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm",
+     "local_path": "primary/ai-compute/broadcom-sec-filings/avgo-8k-earnings-2026-09-02_8-K_avgo-20260902.htm",
+     "status": "full",
+     "bytes": 34957,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "memory-hbm-outlook",
+   "name": "Memory/HBM outlook: Micron 10-K and SK hynix 3Q26 results",
+   "publisher": "Micron Technology (SEC EDGAR); SK hynix Inc. (newsroom press release)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)"
+   ],
+   "what_it_forecasts": "HBM/DRAM supply-demand outlook, share of 2027-2028 output pre-sold under long-term agreements, and memory makers' capex plans.",
+   "horizon": "Micron capex guidance for fiscal 2027; SK hynix LTAs covering 2027-2028 and a shortage view through 2030",
+   "latest_edition": {
+    "title": "SK hynix Announces 3Q26 Financial Results (2026-10-28); Micron Form 10-K for fiscal year ended 2026-09-03 (filed 2026-10-09)",
+    "date": "2026-10-28",
+    "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T5"
+    ],
+    "why": "Both are listed companies (T1, T2) and SK hynix reports LTAs with 14 customers covering more than half of 2027-2028 capacity, i.e. largely in the pipeline (T5). Marked down to 3 because the 'shortage through 2030' call is a vendor's own outlook in a notoriously cyclical industry with a record of over-optimism at peaks, guidance is short (T4) and no error record is published (T3)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Product generations (HBM4, 1c DRAM, 321-layer NAND), fabs (M15X, Yongin Phase 1), LTA counts and coverage, capex dollars by half-year."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Editions dated Oct 2026; AI memory (HBM, server DDR5, eSSD) is the quantified driver of results and outlook."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Given technical difficulty of leading-edge processes and the long lead time required to build new production facilities, it expects the structure in which demand exceeds supply to persist through 2030.",
+     "doc_local_path": "primary/ai-compute/memory-hbm-outlook/skhynix_3Q26_results_pr_2026-10-28.html",
+     "page": 0
+    },
+    "search_note": "searched: HBM, shortage, long-term agreements, capital expenditures"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Important corroboration of the memory bottleneck (also visible in NVIDIA's supply commitments) but vendor outlook in a cyclical sector; same mechanism as the NVIDIA/TSMC picks.",
+   "primary_docs": [
+    {
+     "title": "SK hynix Announces 3Q26 Financial Results (newsroom page), 2026-10-28",
+     "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+     "local_path": "primary/ai-compute/memory-hbm-outlook/skhynix_3Q26_results_pr_2026-10-28.html",
+     "status": "full",
+     "bytes": 162831,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Micron 10-K, fiscal year ended 2026-09-03",
+     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+     "local_path": "primary/ai-compute/memory-hbm-outlook/mu-10k-fy2026_10-K_mu-20260903.htm",
+     "status": "full",
+     "bytes": 2062353,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Micron Q4 FY2026 earnings release (8-K EX-99.1), 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+     "local_path": "primary/ai-compute/memory-hbm-outlook/mu-8k-earnings-2026-09-30_EX-99.1_a2026q4ex991-pressrelease.htm",
+     "status": "full",
+     "bytes": 357006,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Micron 8-K cover, 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
+     "local_path": "primary/ai-compute/memory-hbm-outlook/mu-8k-earnings-2026-09-30_8-K_mu-20260930.htm",
+     "status": "full",
+     "bytes": 28862,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "asml-reports",
+   "name": "ASML quarterly results (6-K) and 2025 annual report (20-F)",
+   "publisher": "ASML Holding N.V. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)"
+   ],
+   "what_it_forecasts": "Lithography demand and ASML's tool capacity plans for 2027-2028, the upstream limit on how fast leading-edge chip capacity can grow.",
+   "horizon": "guidance for 2026; capacity plans for 2027-2028; customers seeking orders for 2029-2030",
+   "latest_edition": {
+    "title": "Q3 2026 financial results press release (Form 6-K)",
+    "date": "2026-10-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+   },
+   "update_cadence": "quarterly; annual report each February",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Listed company with regulated disclosure (T1) and analyst scrutiny (T2); the order book gives some pipeline visibility but the 2027-2028 statements are capacity intentions and the 2030 revenue scenario dates from the November 2024 Investor Day (not re-issued in the documents saved), so T4/T5 are not credited."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Net-sales and margin guidance, capacity increase percentages for low-NA EUV and DUV immersion, order-book commentary; few named customers or sites."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Edition dated 2026-10-14; AI investment is named as the primary driver of customer demand forecasts, with partial quantification (30% capacity increases)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Our customers continue to increase their short- and medium-term equipment demand forecasts with us, driven primarily by their views on the size and duration of AI-related investments. In light of their demand visibility, some customers are expressing an interest in placing orders with us for 2029 and even 2030.",
+     "doc_local_path": "primary/ai-compute/asml-reports/asml-6k-q3-2026-10-14_EX-99.1_pressreleasefinancialresul.htm",
+     "page": 0
+    },
+    "search_note": "searched: AI, 2030, 2027, capacity"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Upstream of TSMC and already reflected in TSMC's fab schedule; thinner on specifics.",
+   "primary_docs": [
+    {
+     "title": "ASML Q3 2026 results press release (6-K EX-99.1), 2026-10-14",
+     "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm",
+     "local_path": "primary/ai-compute/asml-reports/asml-6k-q3-2026-10-14_EX-99.1_pressreleasefinancialresul.htm",
+     "status": "full",
+     "bytes": 41668,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ASML Q3 2026 presentation (6-K EX-99.2)",
+     "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/a2026_10x14xpresentation.htm",
+     "local_path": "primary/ai-compute/asml-reports/asml-6k-q3-2026-10-14_EX-99.2_a2026_10x14xpresentation.htm",
+     "status": "full",
+     "bytes": 20791,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ASML Q3 2026 US GAAP financial statements (6-K EX-99.3)",
+     "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/financial_statementsxusx.htm",
+     "local_path": "primary/ai-compute/asml-reports/asml-6k-q3-2026-10-14_EX-99.3_financial_statementsxusx.htm",
+     "status": "full",
+     "bytes": 28225,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ASML 6-K cover, 2026-10-14",
+     "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/form6-kquarterlyfilings.htm",
+     "local_path": "primary/ai-compute/asml-reports/asml-6k-q3-2026-10-14_6-K_form6-kquarterlyfilings.htm",
+     "status": "full",
+     "bytes": 11276,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ASML Annual Report on Form 20-F for 2025, filed 2026-02-25",
+     "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+     "local_path": "primary/ai-compute/asml-reports/asml-20f-2025_20-F_asml-20251231.htm",
+     "status": "full",
+     "bytes": 24864730,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ASML Investor Day (November 2024) 2030 scenario materials",
+     "url": "https://www.asml.com/en/investors",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted: superseded in practice by 2026 quarterly commentary; whether a newer long-term scenario exists was not confirmed."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "iea-energy-and-ai",
+   "name": "IEA 'Key Questions on Energy and AI' (World Energy Outlook Special Report)",
+   "publisher": "International Energy Agency",
+   "kind": "expert report",
+   "covers_trends": [
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)"
+   ],
+   "what_it_forecasts": "Global data-centre electricity consumption to 2030 (485 TWh in 2025 to 950 TWh), AI-focused share, bottlenecks in grids, turbines, transformers and chips, and regional clustering.",
+   "horizon": "annual to 2030, with post-2030 upside discussion",
+   "latest_edition": {
+    "title": "Key Questions on Energy and AI",
+    "date": "2026-04-16",
+    "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai"
+   },
+   "update_cadence": "roughly annual (2025 'Energy and AI', 2026 update); IEA says it will 'update its projections regularly'",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "An accountable intergovernmental agency that checks itself against outturn (2025 data-centre demand 'grew by 17% in 2025, in line with IEA projections') and builds the outlook from tracked project pipelines and satellite monitoring (T5). No money or licence at stake (T1), no paid adversary (T2), and no binding mechanism (T4)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Regional and technology disaggregation, named bottlenecks (HBM shortage to end-2027, gas turbines, transformers), server power-density trends and annex data tables; few named sites."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 2026-04-16; AI data centres are the subject, with AI-focused consumption separately projected (tripling 2025-2030)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Our updated projections see electricity consumption from data centres roughly doubling from 485 TWh in 2025 to 950 TWh in 2030, accounting for around 3% of global electricity demand by that date.",
+     "doc_local_path": "primary/ai-compute/iea-energy-and-ai/KeyQuestionsonEnergyandAI.pdf",
+     "page": 10
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best independent cross-check on the physical footprint, but unincentivised (A=3) and more conservative than the signed commitments; likely covered in depth by the energy area.",
+   "primary_docs": [
+    {
+     "title": "Key Questions on Energy and AI (full report PDF)",
+     "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+     "local_path": "primary/ai-compute/iea-energy-and-ai/KeyQuestionsonEnergyandAI.pdf",
+     "status": "full",
+     "bytes": 6135548,
+     "pages": 138,
+     "note": "Report landing page on iea.org returned HTTP 403 (bot protection); PDF fetched directly from the IEA asset store."
+    },
+    {
+     "title": "Key questions on energy and AI - IEA slide deck, 2026-06-01",
+     "url": "https://iea.blob.core.windows.net/assets/fcb583db-c3be-4c94-a799-9e42a9d5ba88/KeyQuestionsonEnergyAndAISlides.pdf",
+     "local_path": "primary/ai-compute/iea-energy-and-ai/KeyQuestionsonEnergyAndAISlides_2026-06-01.pdf",
+     "status": "full",
+     "bytes": 421722,
+     "pages": 10,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "stanford-ai-index-2026",
+   "name": "Stanford HAI AI Index Report 2026",
+   "publisher": "Stanford Institute for Human-Centered AI",
+   "kind": "expert report",
+   "covers_trends": [
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031"
+   ],
+   "what_it_forecasts": "Not a forecast: an annual compilation of measured AI trends (compute capacity in H100-equivalents, data-center power, investment, benchmarks) that fixes the 2025 baseline.",
+   "horizon": "backward-looking to 2025 (data snapshot April 2026)",
+   "latest_edition": {
+    "title": "Artificial Intelligence Index Report 2026 (ninth edition)",
+    "date": "2026-04-13",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+   },
+   "update_cadence": "annual (April)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Academic compilation with no stakes, no adversary and no scoring of forecasts because it makes none; its value is that the measured pipeline (compute, power, investment) is documented (T5). Publication day (2026-04-13) is taken from secondary listings; the PDF itself says only 'April 2026'."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Hundreds of charts with named companies, countries, models and dated deals (e.g. OpenAI-Oracle $300bn contract), organised by chapter."
+   },
+   "ai": {
+    "score": 5,
+    "why": "2026 edition entirely about AI; quantifies compute (17.1 million H100-equivalents) and AI data-center power (29.6 GW by Q4 2025)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Total AI data center power capacity reached approximately 29.6 GW by Q4 2025, enough to power all of New York state at peak demand",
+     "doc_local_path": "primary/ai-compute/stanford-ai-index-2026/ai_index_report_2026.pdf",
+     "page": 31
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "A baseline, not a forecast; no incentive structure. Useful for calibrating starting levels only.",
+   "primary_docs": [
+    {
+     "title": "AI Index Report 2026 (full PDF)",
+     "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+     "local_path": "primary/ai-compute/stanford-ai-index-2026/ai_index_report_2026.pdf",
+     "status": "full",
+     "bytes": 41875988,
+     "pages": 425,
+     "note": "PDF metadata creation date is 2026-10-13 (re-export); citation page states April 2026."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "epoch-ai-data",
+   "name": "Epoch AI datasets: Frontier Data Centers and AI Companies",
+   "publisher": "Epoch AI",
+   "kind": "expert report",
+   "covers_trends": [
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)"
+   ],
+   "what_it_forecasts": "Site-by-site tracker of the largest AI data centers (current H100-equivalents, MW, capital cost, owner, users, construction timelines from satellite imagery and permits) plus lab revenue, funding and compute-spend records.",
+   "horizon": "construction timelines to roughly 2028-2029 per site",
+   "latest_edition": {
+    "title": "Frontier Data Centers hub and AI Companies dataset (CSV downloads as of 2026-11-18)",
+    "date": "2026-11-18",
+    "url": "https://epoch.ai/data/frontier-data-centers"
+   },
+   "update_cadence": "continuously updated datasets",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Independent non-profit tracker using satellite imagery and permits, so what it reports is physically in the pipeline (T5); no money at stake, no adversarial process, and no published error record for its timeline estimates. The dataset's own last-updated date was not read off the page; snapshot date is the download date."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named facilities with addresses, MW, chip counts and types, owners, users, investors, construction and energy companies, and dated timeline milestones."
+   },
+   "ai": {
+    "score": 5,
+    "why": "2026 data; AI compute is the measured quantity itself."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Colossus 2,1111672.5618999496,946,35.836372,SpaceXAI #confident",
+     "doc_local_path": "primary/ai-compute/epoch-ai-data/epoch_data_centers.csv",
+     "page": 0
+    },
+    "search_note": "columns: Name, Current H100 equivalents, Current power (MW), Current total capital cost (2025 USD billions), Owner"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Excellent place-level detail to pair with the filings, but an unincentivised tracker rather than a forecast.",
+   "primary_docs": [
+    {
+     "title": "Epoch Frontier Data Centers - data_centers.csv",
+     "url": "https://epoch.ai/data/data_centers/data_centers.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_data_centers.csv",
+     "status": "full",
+     "bytes": 70445,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch Frontier Data Centers - data_center_timelines.csv",
+     "url": "https://epoch.ai/data/data_centers/data_center_timelines.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_data_center_timelines.csv",
+     "status": "full",
+     "bytes": 193527,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch Frontier Data Centers - data_centers_chip_quantities.csv",
+     "url": "https://epoch.ai/data/data_centers/data_centers_chip_quantities.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_data_centers_chip_quantities.csv",
+     "status": "full",
+     "bytes": 98264,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch Frontier Data Centers hub page (HTML)",
+     "url": "https://epoch.ai/data/frontier-data-centers",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_frontier-data-centers_page_2026-11-18.html",
+     "status": "full",
+     "bytes": 852136,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch AI Companies - ai_companies.csv",
+     "url": "https://epoch.ai/data/ai_companies.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_ai_companies.csv",
+     "status": "full",
+     "bytes": 2702,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch AI Companies - revenue reports",
+     "url": "https://epoch.ai/data/ai_companies_revenue_reports.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_ai_companies_revenue_reports.csv",
+     "status": "full",
+     "bytes": 44625,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch AI Companies - compute spend",
+     "url": "https://epoch.ai/data/ai_companies_compute_spend.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_ai_companies_compute_spend.csv",
+     "status": "full",
+     "bytes": 9041,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch AI Companies - funding rounds",
+     "url": "https://epoch.ai/data/ai_companies_funding_rounds.csv",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_ai_companies_funding_rounds.csv",
+     "status": "full",
+     "bytes": 38064,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Epoch AI chip sales dataset (zip)",
+     "url": "https://epoch.ai/data/ai_chip_sales.zip",
+     "local_path": "primary/ai-compute/epoch-ai-data/epoch_ai_chip_sales.zip",
+     "status": "full",
+     "bytes": 27460,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "metr-time-horizons",
+   "name": "METR task-completion time horizons of frontier AI models",
+   "publisher": "METR (Model Evaluation and Threat Research)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)"
+   ],
+   "what_it_forecasts": "Measured 50%- and 80%-reliability task time horizons for frontier models by release date; the doubling trend is widely extrapolated as a capability forecast.",
+   "horizon": "measurements 2019 to April 2026; extrapolation is the reader's",
+   "latest_edition": {
+    "title": "Task-Completion Time Horizons of Frontier AI Models (page 'last updated September 8, 2026')",
+    "date": "2026-09-08",
+    "url": "https://metr.org/time-horizons/"
+   },
+   "update_cadence": "irregular; the page states it 'is no longer actively updated'",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Regularly re-measured with published confidence intervals and methodology (a form of feedback, T3), but no stakes or adversaries and it is a measurement, not a forecast. The latest entry (Claude Mythos Preview, released 2026-04-07) has a 50% horizon of about 1,045 minutes with a CI of 509-3,304, above the 16-hour ceiling beyond which METR calls its suite unreliable, and the page is no longer maintained."
+   },
+   "richness": {
+    "score": 3,
+    "why": "One series (time horizon by model and release date) with CIs and scaffolding notes; named models but no places or money."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Updated September 2026; AI capability is the measured quantity."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "p50_horizon_length: ci_high: 3304.261235 ci_low: 508.876789 estimate: 1044.780145",
+     "doc_local_path": "primary/ai-compute/metr-time-horizons/benchmark_results_1_1.yaml",
+     "page": 0
+    },
+    "search_note": "entry claude_mythos_preview_early_inspect, release_date 2026-04-07; values in minutes"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Famous capability yardstick that has gone stale: the benchmark saturated in 2026 and the page is no longer updated.",
+   "primary_docs": [
+    {
+     "title": "METR time horizons page (HTML snapshot 2026-11-18)",
+     "url": "https://metr.org/time-horizons/",
+     "local_path": "primary/ai-compute/metr-time-horizons/metr_time_horizons_page_2026-11-18.html",
+     "status": "full",
+     "bytes": 686498,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "METR benchmark_results_1_1.yaml (Time Horizon 1.1 raw data)",
+     "url": "https://metr.org/assets/benchmark_results_1_1.yaml",
+     "local_path": "primary/ai-compute/metr-time-horizons/benchmark_results_1_1.yaml",
+     "status": "full",
+     "bytes": 16255,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ai-futures-project",
+   "name": "AI Futures Project: 'AI 2027' scenario and 2026 timelines updates",
+   "publisher": "AI Futures Project (Kokotajlo, Lifland et al.)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)",
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031"
+   ],
+   "what_it_forecasts": "Model-based timelines for a Superhuman AI Researcher and 'top-expert-dominating AI', with a month-by-month scenario of compute, lab behaviour and geopolitics.",
+   "horizon": "2025 to ~2030 (scenario); SAR forecast now centred on 2027",
+   "latest_edition": {
+    "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+    "date": "2026-11-10",
+    "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the"
+   },
+   "update_cadence": "irregular: quarterly-ish timelines updates in 2026 (Apr 2, Aug 16, Nov 10); original scenario 2025-04-03",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "The authors publicly grade their own past predictions ('Grading AI 2027's 2025 Predictions', Feb 2026) and revise quantitatively (weak T3), but nothing is at stake beyond reputation, there is no adversarial price-setting, and the November 2026 update itself says its model assigned under 4% to the acceleration it now reports and that the post was rushed and may contain modelling errors."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dated milestones, named actors and explicit mechanisms (research-taste extrapolation, compute forecasts); specifics are scenario constructs rather than commitments."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 2026-11-10; AI progress is the modelled quantity (1.7x AI-attributable acceleration, SAR in 2027)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "all of us forecast that Superhuman AI Researcher (SAR) will likely arrive at some point in 2027 (assuming no substantial deliberate slowdown)",
+     "doc_local_path": "primary/ai-compute/ai-futures-project/aifutures_2026-11-10_q35-timelines-update-looks-like-the.html",
+     "page": 0
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "The model-based comparator the scenario is meant to be contrasted with; unincentivised and self-described as preliminary.",
+   "primary_docs": [
+    {
+     "title": "Q3.5 Timelines Update (post body via Substack API), 2026-11-10",
+     "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+     "local_path": "primary/ai-compute/ai-futures-project/aifutures_2026-11-10_q35-timelines-update-looks-like-the.html",
+     "status": "full",
+     "bytes": 347734,
+     "pages": 0,
+     "note": "Post body_html retrieved from the public Substack API and wrapped in minimal HTML; embedded charts not included."
+    },
+    {
+     "title": "AI 2027 scenario main page (HTML snapshot), originally published 2025-04-03",
+     "url": "https://ai-2027.com/",
+     "local_path": "primary/ai-compute/ai-futures-project/ai-2027_scenario_page_2026-11-18.html",
+     "status": "partial",
+     "bytes": 1911971,
+     "pages": 0,
+     "note": "Main scenario page only; supplements (compute, timelines, takeoff forecasts) and PDF not downloaded."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "metaculus-agi-questions",
+   "name": "Metaculus community forecast: date of first general AI",
+   "publisher": "Metaculus",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)"
+   ],
+   "what_it_forecasts": "Community median date (with interquartile range) for a strongly general AI system being 'devised, tested, and publicly announced'.",
+   "horizon": "question open to 2080; current estimate June 2030",
+   "latest_edition": {
+    "title": "When will the first general AI system be devised, tested, and publicly announced? (question 5121), page snapshot",
+    "date": "2026-11-18",
+    "url": "https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "About 1.9k forecasters set the estimate independently (T2) and Metaculus scores forecasters and publishes its track record (T3); no money at stake (T1), and a long-dated unresolved question gives little binding discipline (T4), with known drift toward recent news."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A single date distribution plus user-submitted 'key factors' and comments."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Live in November 2026; AGI timing is the subject and the estimate moves with AI news (page lists the 2026-11-10 AI Futures update as a key factor)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "When will the first general AI system be devised, tested, and publicly announced? [...] 08 Jun 2030 [...] (08 Feb 2028 - Feb 2036)",
+     "doc_local_path": "primary/ai-compute/metaculus-agi-questions/metaculus_q5121_2026-11-18.txt",
+     "page": 0
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "A scored crowd forecast worth citing as one number, but it carries no money and almost no liftable detail; the Kalshi ladder covers the same ground with stakes.",
+   "primary_docs": [
+    {
+     "title": "Metaculus question 5121 rendered page text, 2026-11-18",
+     "url": "https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/",
+     "local_path": "primary/ai-compute/metaculus-agi-questions/metaculus_q5121_2026-11-18.txt",
+     "status": "partial",
+     "bytes": 1871,
+     "pages": 0,
+     "note": "Visible page text only (top of page); captured with Playwright."
+    },
+    {
+     "title": "Metaculus question 5121 page HTML, 2026-11-18",
+     "url": "https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/",
+     "local_path": "primary/ai-compute/metaculus-agi-questions/metaculus_q5121_2026-11-18.html",
+     "status": "full",
+     "bytes": 738267,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Metaculus question 3479 (weakly general AI) and API",
+     "url": "https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "API requires an authenticated token; question page returned a Cloudflare verification page (HTTP 403) in Playwright on repeated attempts."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "consultant-capex-forecasts",
+   "name": "Consultant and bank AI-capex forecasts (Bain Technology Report 2026; Goldman Sachs; McKinsey)",
+   "publisher": "Bain & Company; Goldman Sachs; McKinsey & Company",
+   "kind": "expert report",
+   "covers_trends": [
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria"
+   ],
+   "what_it_forecasts": "Top-down estimates of global data-center build-out to 2030-2031 (Bain: $5-6.5 trillion for ~150 GW by 2030; $1.5 trillion a year by 2031) and the revenue needed to fund it.",
+   "horizon": "to 2030-2031",
+   "latest_edition": {
+    "title": "Bain & Company Technology Report 2026",
+    "date": "2026-09-29",
+    "url": "https://www.bain.com/insights/topics/technology-report/"
+   },
+   "update_cadence": "annual (Bain, each September); ad hoc (Goldman, McKinsey)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Built partly from announced project pipelines (T5) but produced by advisers who sell work to the sector, with no stakes, no adversary and no published error record; Bain's own headline moved from 200 GW of incremental compute by 2030 (2025 edition) to ~150 GW and $5-6.5tn (2026 edition)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Capacity by region, cost per campus, constraint-by-constraint analysis (power, chips, labour, permits) and revenue-gap arithmetic; few named sites."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Bain edition dated 2026-09-29; AI infrastructure is the quantified subject."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "In a base case, Bain’s Data Center Model projects approximately $5 trillion to $6.5 trillion of spending to build nearly 150 GW of new compute capacity by 2030 (see Figure 1), almost tripling global capacity in just five years.",
+     "doc_local_path": "primary/ai-compute/consultant-capex-forecasts/bain_report_technology_report_2026.pdf",
+     "page": 19
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Low-incentive comparators included to be scored low explicitly; useful only as a sanity range around the contracted totals.",
+   "primary_docs": [
+    {
+     "title": "Bain & Company Technology Report 2026 (full PDF)",
+     "url": "https://www.bain.com/globalassets/noindex/2026/bain_report_technology_report_2026.pdf",
+     "local_path": "primary/ai-compute/consultant-capex-forecasts/bain_report_technology_report_2026.pdf",
+     "status": "full",
+     "bytes": 9013344,
+     "pages": 81,
+     "note": ""
+    },
+    {
+     "title": "Goldman Sachs: Why AI Companies May Invest More than $500 Billion in 2026 (article, 2025-12-18)",
+     "url": "https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026",
+     "local_path": "primary/ai-compute/consultant-capex-forecasts/goldman_why-ai-companies-may-invest-more-than-500-billion-in-2026_2025-12-18.html",
+     "status": "full",
+     "bytes": 855278,
+     "pages": 0,
+     "note": "Public article page; dated 2025-12-18. Whether Goldman published a newer public update in 2026 was not confirmed."
+    },
+    {
+     "title": "McKinsey: The cost of compute - a $7 trillion race to scale data centers",
+     "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Connection failed/blocked (HTTP 000) with curl; 2025 article, latest edition not confirmed."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "semi-fab-forecast",
+   "name": "SEMI 300mm Fab Outlook / World Fab Forecast (press releases)",
+   "publisher": "SEMI",
+   "kind": "expert report",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)"
+   ],
+   "what_it_forecasts": "Worldwide 300mm fab equipment spending by year to 2029 ($133bn 2026, $151bn 2027, $155bn 2028, $172bn 2029) with logic and memory segment totals.",
+   "horizon": "annual to 2029",
+   "latest_edition": {
+    "title": "SEMI Projects 300mm Memory Equipment Investment to Surpass $50 Billion in 2026 (2Q26 edition of 300mm Fab Outlook)",
+    "date": "2026-06-29",
+    "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026"
+   },
+   "update_cadence": "quarterly database updates (a 3Q26 edition may exist; not confirmed)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Bottom-up from a database of 413 tracked fabs and lines, so largely pipeline-based (T5), but an industry association with no stakes, no adversary and no published error record; the full dataset is subscription-only."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Headline annual totals, segment splits and regional commentary in the press releases; the fab-by-fab detail is paywalled."
+   },
+   "ai": {
+    "score": 4,
+    "why": "2026 editions; AI is named as the driver and memory/HBM spending is separately quantified, but there is no explicit AI scenario."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Worldwide 300mm fab equipment spending is expected to increase 18% to $133 billion in 2026 and 14% to $151 billion in 2027, SEMI reported today in its latest 300mm Fab Outlook. This strong growth reflects surging AI chip demand for data centers and edge devices",
+     "doc_local_path": "primary/ai-compute/semi-fab-forecast/semi_300mm_fab_outlook_pr_2026-04-01.txt",
+     "page": 0
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Trade-association forecast with the detail behind a paywall; the fab pipeline is better evidenced by TSMC's and the memory makers' own filings.",
+   "primary_docs": [
+    {
+     "title": "SEMI press release, 2026-04-01 (text capture)",
+     "url": "https://www.semi.org/en/semi-press-release/semi-projects-double-digit-growth-in-global-300mm-fab-equipment-spending-for-2026-and-2027",
+     "local_path": "primary/ai-compute/semi-fab-forecast/semi_300mm_fab_outlook_pr_2026-04-01.txt",
+     "status": "partial",
+     "bytes": 4522,
+     "pages": 0,
+     "note": "semi.org returned HTTP 403 to curl; press-release text captured with a web fetch tool (boilerplate omitted)."
+    },
+    {
+     "title": "SEMI press release, 2026-06-29 (text capture)",
+     "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+     "local_path": "primary/ai-compute/semi-fab-forecast/semi_300mm_memory_pr_2026-06-29.txt",
+     "status": "partial",
+     "bytes": 2003,
+     "pages": 0,
+     "note": "semi.org returned HTTP 403 to curl; press-release text captured with a web fetch tool (quote paragraph and boilerplate omitted)."
+    },
+    {
+     "title": "SEMI World Fab Forecast / 300mm Fab Outlook database",
+     "url": "https://www.semi.org/en/products-services/market-data/world-fab-forecast",
+     "local_path": "",
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Subscription product."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "bis-export-controls",
+   "name": "U.S. BIS export-control rules on advanced computing chips (binding constraints)",
+   "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria"
+   ],
+   "what_it_forecasts": "Not a forecast: legally binding rules that decide which countries and data centers may receive or remotely use advanced AI chips (China/Macau case-by-case review, UAE upgrade, remote-access restrictions).",
+   "horizon": "in force until amended; no sunset",
+   "latest_edition": {
+    "title": "Interim final rule 'Addressing Remote Access to Advanced Semiconductors' (RIN 0694-AK50), pre-publication text",
+    "date": "2026-11-16",
+    "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+   },
+   "update_cadence": "irregular; three major actions in 2026 (Jan 15, Jul 14, Nov 16)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Rules carry civil and criminal penalties and licence consequences (T1) and are contested through comment periods, industry lobbying and litigation (T2). But they are highly unstable as a 5-year guide: the same rule 'formally rescinds' the never-enforced AI Diffusion Rule and policy toward China flipped to case-by-case review in January 2026, so T4 is not credited."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named country groups, chip thresholds (Nvidia H200 and equivalents), entity conditions, effective dates and section-level requirements."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Latest text dated 2026-11-16; the rules exist because of AI ('SI') compute and define quantitative thresholds for it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau.",
+     "doc_local_path": "primary/ai-compute/bis-export-controls/bis_rin-0694-ak50.pdf",
+     "page": 1
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "A hard constraint to respect in any scenario, but policy has reversed too often to treat the current text as a 5-year forecast.",
+   "primary_docs": [
+    {
+     "title": "BIS interim final rule, RIN 0694-AK50 (pre-publication PDF; Federal Register date placeholders unfilled)",
+     "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+     "local_path": "primary/ai-compute/bis-export-controls/bis_rin-0694-ak50.pdf",
+     "status": "full",
+     "bytes": 710350,
+     "pages": 132,
+     "note": "PDF created 2026-11-16; effective date reads '[INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]'. Edition date taken from PDF metadata and secondary reporting."
+    },
+    {
+     "title": "Federal Register 91 FR 1684 (2026-01-15): Revision to License Review Policy for Advanced Computing Commodities",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm",
+     "local_path": "primary/ai-compute/bis-export-controls/FR-2026-01-15_2026-00789_license-review-advanced-computing.htm",
+     "status": "full",
+     "bytes": 32709,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Federal Register (2026-07-14): Enhanced Favorable Treatment for the United Arab Emirates Under the EAR",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-14/html/2026-14132.htm",
+     "local_path": "primary/ai-compute/bis-export-controls/FR-2026-07-14_2026-14132.htm",
+     "status": "full",
+     "bytes": 37215,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "openai-stargate-disclosures",
+   "name": "OpenAI official posts on Stargate, compute and funding",
+   "publisher": "OpenAI",
+   "kind": "expert report",
+   "covers_trends": [
+    "Capital commitments: how many dollars and gigawatts are already contracted through ~2031",
+    "Where it lands: gigawatt campuses, power, local siting fights and moratoria",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk",
+    "Frontier-lab economics and AI capability trajectory (revenue run-rates, time horizons, AGI timing)"
+   ],
+   "what_it_forecasts": "OpenAI's own statements of secured compute (over 10 GW of U.S. capacity, GW by chip partner) and funding terms ($122bn round at $852bn post-money).",
+   "horizon": "to 2029 (original 10 GW goal), beyond for new sites",
+   "latest_edition": {
+    "title": "Building the compute infrastructure for the Intelligence Age",
+    "date": "2026-04-29",
+    "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/"
+   },
+   "update_cadence": "irregular blog posts",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Press releases from an interested private company with no securities liability; credited only for T5 because the capacity is corroborated by counterparties' filings (Microsoft, Amazon, Oracle, NVIDIA, SB Energy). A later official post may exist; the newest found was 2026-04-29."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named partners, sites (Abilene, Milam County, Saline Township and others), GW figures, investors and round sizes."
+   },
+   "ai": {
+    "score": 5,
+    "why": "2026 posts; AI compute and funding are the subject and are quantified."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "When we announced Stargate in January 2025, we committed to securing 10GW of AI infrastructure in the United States by 2029. Just over a year later, we have already surpassed that milestone, with more than 3GW added in the last 90 days alone",
+     "doc_local_path": "primary/ai-compute/openai-stargate-disclosures/openai_posts_text_capture_2026-11-18.txt",
+     "page": 0
+    },
+    "search_note": "n/a"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Unregulated self-reporting; the binding versions of the same commitments are in the counterparties' SEC filings.",
+   "primary_docs": [
+    {
+     "title": "OpenAI posts (Apr 29, Mar 31, Feb 27, Jan 9, 2026) - excerpt text capture",
+     "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/",
+     "local_path": "primary/ai-compute/openai-stargate-disclosures/openai_posts_text_capture_2026-11-18.txt",
+     "status": "partial",
+     "bytes": 3317,
+     "pages": 0,
+     "note": "openai.com returned HTTP 403 to curl; excerpts captured with a web search/fetch tool, not full pages."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "rating-agency-dc-credit",
+   "name": "Rating-agency and bank credit research on data-center financing (Moody's, S&P, Morgan Stanley)",
+   "publisher": "Moody's Ratings; S&P Global Ratings; Morgan Stanley Research",
+   "kind": "expert report",
+   "covers_trends": [
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk"
+   ],
+   "what_it_forecasts": "How much data-center investment must be debt-funded (Moody's: at least $3 trillion over five years, per secondary reports; Morgan Stanley: a $1.5 trillion financing gap through 2028) and where refinancing risk concentrates.",
+   "horizon": "to 2028-2030",
+   "latest_edition": {
+    "title": "Moody's data-center outlook (January 2026, subscriber report; details from secondary coverage only)",
+    "date": "2026-01-12",
+    "url": "https://www.moodys.com/web/en/us/creditview/blog/data-centers-managing-risk-amid-a-market-boom.html"
+   },
+   "update_cadence": "ad hoc sector reports",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "NRSRO rating agencies have regulatory standing at risk and publish multi-year default and transition studies for their ratings (T1, T3), but sector research notes are not themselves scored, and issuers pay for ratings (known conflict). The latest Moody's report could not be downloaded, so this score rests on the institution rather than the document."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Aggregate dollar needs, instrument mix (ABS, CMBS, private credit) and maturity walls; public teasers carry few specifics."
+   },
+   "ai": {
+    "score": 4,
+    "why": "A January 2026 Moody's report exists per secondary coverage and treats AI capex as the driver with partial quantification; not verified against the primary document. The documents actually saved are from 2025."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Surging growth in hyperscale data center capacity will eventually level off, but identifying that inflection point has become increasingly difficult as AI data center campuses emerge as another key growth driver.",
+     "doc_local_path": "primary/ai-compute/rating-agency-dc-credit/moodys_creditview_data-centers-managing-risk-amid-a-market-boom.html",
+     "page": 0
+    },
+    "search_note": "passage is from the May 2025 public page; 2026 report paywalled"
+   },
+   "tier": "considered",
+   "why_top_or_not": "The professional skeptics' view, but the current reports are behind paywalls; the bond coupons in ai-debt-financings are the incentivised version of the same judgement.",
+   "primary_docs": [
+    {
+     "title": "Moody's CreditView blog: Data centers - managing risk amid a market boom (2025-05-15)",
+     "url": "https://www.moodys.com/web/en/us/creditview/blog/data-centers-managing-risk-amid-a-market-boom.html",
+     "local_path": "primary/ai-compute/rating-agency-dc-credit/moodys_creditview_data-centers-managing-risk-amid-a-market-boom.html",
+     "status": "partial",
+     "bytes": 63657,
+     "pages": 0,
+     "note": "Public teaser page only (May 2025), linking to subscriber reports."
+    },
+    {
+     "title": "Morgan Stanley Research: Bridging a $1.5tr Data Center Financing Gap (2025-07-16)",
+     "url": "https://prod-mssip.morganstanley.com/content/dam/msdotcom/en/assets/pdfs/Research_Bridging-Data-Center-Gap.pdf",
+     "local_path": "primary/ai-compute/rating-agency-dc-credit/morganstanley_Research_Bridging-Data-Center-Gap.pdf",
+     "status": "full",
+     "bytes": 1716091,
+     "pages": 39,
+     "note": "2025 edition; no 2026 update located."
+    },
+    {
+     "title": "Moody's January 2026 data-center report; S&P Global Ratings data-center research",
+     "url": "https://www.moodys.com/",
+     "local_path": "",
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Subscriber research; only secondary press coverage seen."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "equity-implied-expectations",
+   "name": "Equity-market implied expectations for AI suppliers (Nvidia consensus estimates and prices)",
+   "publisher": "Public equity markets; sell-side consensus (e.g. via Nasdaq, FactSet, LSEG)",
+   "kind": "market price",
+   "covers_trends": [
+    "Chip, memory and packaging supply chain as the binding bottleneck (incl. export controls)",
+    "Financing structure and fragility: leases, guarantees, vendor finance, debt costs, bubble risk"
+   ],
+   "what_it_forecasts": "Consensus revenue/EPS for NVIDIA and peers 1-3 years out and the valuations investors pay for them.",
+   "horizon": "1-3 fiscal years (consensus); indefinite (equity price)",
+   "latest_edition": {
+    "title": "No snapshot obtained",
+    "date": "2026-11-18",
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Real money (T1), set by many independent investors with active short-sellers (T2), marked daily with long-studied analyst forecast-error records (T3). Consensus reaches only 1-3 years and analysts' forecasts are known to anchor on company guidance, so no T4/T5."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of headline series (revenue, EPS, price) per company; no narrative."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Continuously updated and demonstrably re-prices on AI news; AI revenue is the dominant driver of the names in question."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": null,
+    "search_note": "No document downloaded: public price/consensus endpoints tried (Stooq CSV returned empty; Yahoo chart API returned HTTP 429). Partial proxies exist in ai-prediction-markets (Polymarket 'Largest Company end of December 2026' and Nvidia market-cap markets)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Would be a strong market-price input but no dated snapshot could be saved; company guidance and prediction markets partly stand in.",
+   "primary_docs": [
+    {
+     "title": "NVDA consensus estimates / price history",
+     "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Stooq CSV endpoint returned empty output; Yahoo Finance chart API returned HTTP 429; no snapshot saved."
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}

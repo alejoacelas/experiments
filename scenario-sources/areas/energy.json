@@ -1,0 +1,2122 @@
+{
+ "area_id": "energy",
+ "area_name": "Energy & the grid",
+ "trends": [
+  {
+   "trend": "AI data centres drive the first sustained US load growth in a generation",
+   "why_it_shapes_daily_life": "Decides where campuses, substations and power lines appear (Northern Virginia, central Ohio, Georgia, Texas, Louisiana), which towns get construction booms, and whether new factories and homes wait in line for a grid connection."
+  },
+  {
+   "trend": "Capacity scarcity and grid capex push household electricity bills up",
+   "why_it_shapes_daily_life": "Capacity prices at the cap in PJM and multi-billion utility capex plans flow into monthly bills; regulators' fights over who pays (data centres vs households) become kitchen-table and election issues."
+  },
+  {
+   "trend": "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission",
+   "why_it_shapes_daily_life": "Named plants with in-service dates (gas CCs for 2029-2033, restarted reactors, offshore wind, batteries) determine local jobs, air permits, land use fights and what the grid mix looks like by 2031."
+  },
+  {
+   "trend": "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules",
+   "why_it_shapes_daily_life": "Auctions clearing thousands of MW short and NERC 'high risk' areas translate into conservation alerts, emergency orders keeping old coal plants open, and rules letting grid operators switch off data centres first."
+  },
+  {
+   "trend": "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull",
+   "why_it_shapes_daily_life": "Brent above $100 in 2026 and a backwardated futures curve set petrol, diesel and heating costs; Henry Hub near $3-4 sets the marginal cost of US power and the profitability of the gas-plant build-out."
+  }
+ ],
+ "sources": [
+  {
+   "id": "pjm-capacity-auction",
+   "name": "PJM Base Residual Auction (capacity market) results + Independent Market Monitor analysis",
+   "publisher": "PJM Interconnection; Monitoring Analytics (IMM)",
+   "kind": "market price",
+   "covers_trends": [
+    "Capacity scarcity and grid capex push household electricity bills up",
+    "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules",
+    "AI data centres drive the first sustained US load growth in a generation"
+   ],
+   "what_it_forecasts": "The price ($/MW-day) every PJM load-serving entity will pay for capacity in delivery year 2028/29, how many MW cleared by zone and fuel, and how far short of the reliability requirement the 13-state grid is.",
+   "horizon": "Delivery year June 2028-May 2029 (auction held ~23 months ahead; next auction for 2029/30 on 9-15 Dec 2026)",
+   "latest_edition": {
+    "title": "2028/2029 Base Residual Auction Report",
+    "date": "2026-07-14",
+    "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf"
+   },
+   "update_cadence": "Normally annual, three years forward; currently on a compressed schedule (Dec 2025, Jul 2026, Dec 2026) plus incremental auctions",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3",
+     "T5"
+    ],
+    "why": "Suppliers take binding delivery obligations with non-performance penalties and load pays $16.4bn (T1); hundreds of offers clear under three-pivotal-supplier mitigation and the IMM is paid to attack the result (T2); every auction is re-marked by incremental auctions and the next BRA, with an 11-year price/reserve-margin table in the report (T3); 2028/29 supply is existing or under-construction plant (T5). T4 fails: tenor is ~2 years, not 5. Known measurable distortion: an administrative cap/floor ($325/$175) binds - PJM's own simulation clears at $554.72 uncapped - so the price understates scarcity."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Clearing prices by LDA, cleared MW by fuel/resource type, new-build and uprate MW, reserve margin vs target, shortfall MW, planning parameters; IMM adds dollar attribution to data-centre load. Few named plants."
+   },
+   "ai": {
+    "score": 5,
+    "why": "July and October 2026 documents; the IMM isolates existing and forecast data-centre load (21,470 MW) as a separately quantified driver worth $6.27bn of the 2028/29 bill, and PJM attributes the requirement increase to 'additional Large Loads'."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "The increase in costs to PJM customers in the 2028/2029 BRA as a result of data center demand was $6,267,819,123 (Scenario 4). The total increase in costs to PJM customers as a result of data center load in the last four BRAs was $29,368,774,465.",
+     "doc_local_path": "primary/energy/pjm-capacity-auction/IMM_Analysis_of_the_20282029_RPM_BRA_Part_A_20261030.pdf",
+     "page": 4
+    },
+    "search_note": ""
+   },
+   "tier": "top",
+   "why_top_or_not": "The only market-cleared price in the area that directly sets a bill component for 67 million people, with AI load separately priced by the market monitor.",
+   "primary_docs": [
+    {
+     "title": "2028/2029 Base Residual Auction Report (14 Jul 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+     "local_path": "primary/energy/pjm-capacity-auction/2028-2029-bra-results-report.pdf",
+     "status": "full",
+     "bytes": 910644,
+     "pages": 20,
+     "note": ""
+    },
+    {
+     "title": "PJM news release: Capacity Auction Procures 138,318 MW (14 Jul 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260714-pjm-capacity-auction-procures-138318-mw-of-generation-resources.pdf",
+     "local_path": "primary/energy/pjm-capacity-auction/20260714-news-release.pdf",
+     "status": "full",
+     "bytes": 206124,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "IMM Analysis of the 2028/2029 RPM Base Residual Auction Part A (30 Oct 2026)",
+     "url": "https://www.monitoringanalytics.com/reports/reports/2026/IMM_Analysis_of_the_20282029_RPM_Base_Residual_Auction_Part_A_20261030.pdf",
+     "local_path": "primary/energy/pjm-capacity-auction/IMM_Analysis_of_the_20282029_RPM_BRA_Part_A_20261030.pdf",
+     "status": "full",
+     "bytes": 395812,
+     "pages": 27,
+     "note": ""
+    },
+    {
+     "title": "2027/2028 Base Residual Auction Report (prior auction, for comparison)",
+     "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/2027-2028-bra-report.pdf",
+     "local_path": "primary/energy/pjm-capacity-auction/2027-2028-bra-results-report.pdf",
+     "status": "full",
+     "bytes": 952518,
+     "pages": 20,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The total procured capacity in the RTO, which includes RPM and FRR, is 149,181.6 MW UCAP or 6,831.3 MW UCAP below the RTO Reliability Requirement. This is very similar to the prior BRA where the shortage was 6,516 MW UCAP.",
+     "doc_local_path": "primary/energy/pjm-capacity-auction/2028-2029-bra-results-report.pdf",
+     "page": 6,
+     "locator": "Executive Summary",
+     "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+     "worldbuilding_use": "PJM enters summer 2028 ~6.8 GW short of its own reliability standard: alerts, emergency procurement."
+    },
+    {
+     "text": "For the 2028/2029 BRA, all prices cleared at the cap ($325.00). In the 2027/2028 BRA, the RTO cleared at the price cap of $333.44.",
+     "doc_local_path": "primary/energy/pjm-capacity-auction/2028-2029-bra-results-report.pdf",
+     "page": 6,
+     "locator": "Executive Summary",
+     "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+     "worldbuilding_use": "Capacity charge on Mid-Atlantic/Midwest bills pinned at the cap through May 2029."
+    },
+    {
+     "text": "RTO Reliability Requirement increase from 152,400 MW to 156,013 MW (UCAP) [...] 1,374.5 MW increase in forecasted load, largely due to additional Large Loads",
+     "doc_local_path": "primary/energy/pjm-capacity-auction/2028-2029-bra-results-report.pdf",
+     "page": 7,
+     "locator": "Planning parameter changes",
+     "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+     "worldbuilding_use": "Shows data-centre load mechanically raising the amount of capacity everyone must buy."
+    },
+    {
+     "text": "The increase in costs to PJM customers in the 2028/2029 BRA as a result of data center demand was $6,267,819,123 (Scenario 4). The total increase in costs to PJM customers as a result of data center load in the last four BRAs was $29,368,774,465.",
+     "doc_local_path": "primary/energy/pjm-capacity-auction/IMM_Analysis_of_the_20282029_RPM_BRA_Part_A_20261030.pdf",
+     "page": 4,
+     "locator": "Introduction / Table 1",
+     "url": "https://www.monitoringanalytics.com/reports/reports/2026/IMM_Analysis_of_the_20282029_RPM_Base_Residual_Auction_Part_A_20261030.pdf",
+     "worldbuilding_use": "Dollar figure for the 'data centres raise my bill' political fight: $29.4bn over four auctions."
+    },
+    {
+     "text": "The longer that the issues associated with the addition of large new data center loads remain unaddressed, the larger will be the irreversible cost impacts on all customers, currently $29,368,774,465. That number will be significantly higher if PJM runs the 2029/2030 BRA in December 2026, prior to the RBP, as currently planned.",
+     "doc_local_path": "primary/energy/pjm-capacity-auction/IMM_Analysis_of_the_20282029_RPM_BRA_Part_A_20261030.pdf",
+     "page": 9,
+     "locator": "Conclusions",
+     "url": "https://www.monitoringanalytics.com/reports/reports/2026/IMM_Analysis_of_the_20282029_RPM_Base_Residual_Auction_Part_A_20261030.pdf",
+     "worldbuilding_use": "Next dated flashpoint: December 2026 auction for 2029/30, before any backstop procurement."
+    }
+   ]
+  },
+  {
+   "id": "pjm-load-forecast",
+   "name": "PJM Long-Term Load Forecast Report (2026) with large-load adjustments, accuracy reports and CRA review",
+   "publisher": "PJM Interconnection (Resource Adequacy Planning); Charles River Associates review for PJM",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "AI data centres drive the first sustained US load growth in a generation",
+    "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules"
+   ],
+   "what_it_forecasts": "Summer/winter peak MW and energy for each of ~21 PJM transmission zones for every year 2026-2046, with data-centre load adjustments itemised by zone.",
+   "horizon": "Annual, 2026-2046 (drives the capacity auction 2-3 years out and transmission planning 5+ years out)",
+   "latest_edition": {
+    "title": "PJM Load Forecast Report - January 2026",
+    "date": "2026-01-14",
+    "url": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf"
+   },
+   "update_cadence": "Annual (January); informational mid-year update; data-centre accuracy report every May from 2026",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "why": "No money at stake for PJM staff (T1 fails), but the forecast is fought over by utilities, states, the IMM and consumer advocates, and PJM hired Charles River Associates to review the data-centre component (Nov 2026) (T2); PJM now publishes forecast-vs-actual data for large loads by zone and vintage - actual July 2025 large-load peak was 8,167 MW vs 6,231/7,939/7,735 MW in the 2023/2024/2025 vintages, i.e. near-term under-, not over-forecast (T3); it is the binding input to capacity obligations and the RTEP (T4). T5 only partly: 'firm' commitments are required near-term but post-2031 load is derated letters of intent, and the 2026 edition cut the 2028 peak by 4,414 MW versus 2025."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Excel tables give MW by zone and year to 2046 (e.g. Dominion zone data-centre adjustment 7,066 MW in 2026 to 17,735 MW in 2032), utility-by-utility submissions (Dominion: 54 GW under contract), methodology and drivers."
+   },
+   "ai": {
+    "score": 5,
+    "why": "January 2026 edition with May, September and November 2026 supplements; data-centre load is a separate line by zone (Tables B-9/B-9b) and the subject of a dedicated accuracy report and consultant review."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "PJM data center demand reaches 30 GW by 2030 and 82 GW by 2047, concentrated in Dominion and AEP",
+     "doc_local_path": "primary/energy/pjm-load-forecast/20261102-cra-review-of-data-center-forecast.pdf",
+     "page": 14
+    },
+    "search_note": ""
+   },
+   "tier": "top",
+   "why_top_or_not": "Best-documented zonal demand forecast in the US, with AI load as an explicit line item and a published forecast-vs-actual record.",
+   "primary_docs": [
+    {
+     "title": "PJM Load Forecast Report - January 2026",
+     "url": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/2026-load-report.pdf",
+     "status": "full",
+     "bytes": 8750526,
+     "pages": 36,
+     "note": "Document dated January 2026; posted 14 Jan 2026 per PJM Inside Lines. Zone pages are chart dashboards; tables are in the Excel file."
+    },
+    {
+     "title": "2026 Load Report tables (Excel, Tables A1-F3)",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-load-report-tables.xlsx",
+     "local_path": "primary/energy/pjm-load-forecast/2026-load-report-tables.xlsx",
+     "status": "full",
+     "bytes": 371564,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "Load Forecast Supplement 2026",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/load-forecast-supplement-2026.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/load-forecast-supplement-2026.pdf",
+     "status": "full",
+     "bytes": 2032385,
+     "pages": 61,
+     "note": ""
+    },
+    {
+     "title": "PJM 2026 Long-Term Load Forecast presentation to Load Analysis Subcommittee (23 Jan 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260123/20260123-item-03---pjm-2026-long-term-load-forecast---presentation.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/20260123-2026-long-term-load-forecast-presentation.pdf",
+     "status": "full",
+     "bytes": 3857564,
+     "pages": 64,
+     "note": ""
+    },
+    {
+     "title": "Load Forecast Accuracy Report - May 2026 (large load adjustments)",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-load-forecast-accuracy-report.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/2026-load-forecast-accuracy-report.pdf",
+     "status": "full",
+     "bytes": 3960785,
+     "pages": 32,
+     "note": ""
+    },
+    {
+     "title": "2026 accuracy report data (Excel)",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-accuracy-report.xlsx",
+     "local_path": "primary/energy/pjm-load-forecast/2026-accuracy-report.xlsx",
+     "status": "full",
+     "bytes": 50175,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "Data Center Accuracy Report slides (LAS, 5 Jun 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-04---load-adjustment-accuracy-report.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/20260605-load-adjustment-accuracy-report.pdf",
+     "status": "full",
+     "bytes": 1648870,
+     "pages": 9,
+     "note": ""
+    },
+    {
+     "title": "Charles River Associates review of data center forecast (LAS, 2 Nov 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261102/20261102-item-03---charles-river-associates-review-of-data-center-forecast.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/20261102-cra-review-of-data-center-forecast.pdf",
+     "status": "full",
+     "bytes": 2116361,
+     "pages": 29,
+     "note": ""
+    },
+    {
+     "title": "Dominion Energy large load adjustment request for 2027 forecast (LAS, 29 Sep 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-item-5ai---dominion_energy.pdf",
+     "local_path": "primary/energy/pjm-load-forecast/20260929-dominion-energy-large-load-request.pdf",
+     "status": "full",
+     "bytes": 532299,
+     "pages": 10,
+     "note": ""
+    },
+    {
+     "title": "2026 mid-year update (informational only, Excel)",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-mid-year-update-informational-only.xlsx",
+     "local_path": "primary/energy/pjm-load-forecast/2026-mid-year-update-informational-only.xlsx",
+     "status": "full",
+     "bytes": 15331,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Summer peak is forecasted to be 222,106 MW in 2036, a 10-year increase of 65,733 MW, and reaches 253,077 MW in 2046, a 20-year increase of 96,704 MW.",
+     "doc_local_path": "primary/energy/pjm-load-forecast/2026-load-report.pdf",
+     "page": 8,
+     "locator": "Summer & Winter Summary",
+     "url": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf",
+     "worldbuilding_use": "Headline scale: PJM peak grows by the equivalent of ~65 large nuclear units in ten years."
+    },
+    {
+     "text": "DOM | 7066 | 8925 | 10615 | 11932 | 13896 | 15829 | 17735",
+     "doc_local_path": "primary/energy/pjm-load-forecast/2026-load-report-tables.xlsx",
+     "page": null,
+     "locator": "Table B-9b, Total Load Associated with Adjustments to Summer Peak Load (MW), Dominion zone, columns 2026-2032 (as of Jan 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-load-report-tables.xlsx",
+     "worldbuilding_use": "Year-by-year Northern Virginia data-centre MW, 2026 to 2032, for dated scenes."
+    },
+    {
+     "text": "PJM RTO | 11469 | 15856 | 21280 | 27361 | 38805 | 46638 | 53949",
+     "doc_local_path": "primary/energy/pjm-load-forecast/2026-load-report-tables.xlsx",
+     "page": null,
+     "locator": "Table B-9b, PJM RTO row, columns 2026-2032 (as of Jan 2026)",
+     "url": "https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-load-report-tables.xlsx",
+     "worldbuilding_use": "PJM-wide large-load MW path: 11.5 GW (2026) to 46.6 GW (2031)."
+    },
+    {
+     "text": "Near-term forecast years need “firm” commitments, such as Electric Service Obligation (ESO)/Construction Commitments (CC), while longer-term projects will be considered “non-firm” and will be derated because of their greater uncertainty.",
+     "doc_local_path": "primary/energy/pjm-load-forecast/2026-load-report.pdf",
+     "page": 6,
+     "locator": "Executive Summary",
+     "url": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf",
+     "worldbuilding_use": "Mechanism: only contract-backed data centres count before ~2031; later years are haircut."
+    },
+    {
+     "text": "Approximately 54GW of capacity under contract (ELOA, CLOA, ESA) [...] Data center billing peak load as of August 2026 is 4.8 GW",
+     "doc_local_path": "primary/energy/pjm-load-forecast/20260929-dominion-energy-large-load-request.pdf",
+     "page": 2,
+     "locator": "Market Overview (Dominion submission to PJM LAS)",
+     "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-item-5ai---dominion_energy.pdf",
+     "worldbuilding_use": "Gap between paper contracts (54 GW) and metered load (4.8 GW) in Virginia, Aug 2026."
+    }
+   ]
+  },
+  {
+   "id": "utility-irps",
+   "name": "State-regulated utility resource plans and large-load dockets: Dominion Energy Virginia 2026 IRP, Georgia Power Q3 2026 Large Load report, NCUC order on Duke's 2025 Carolinas plan",
+   "publisher": "Virginia Electric and Power Co. (filed with Virginia SCC / NCUC); Georgia Power (filed with Georgia PSC); North Carolina Utilities Commission",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission",
+    "Capacity scarcity and grid capex push household electricity bills up",
+    "AI data centres drive the first sustained US load growth in a generation"
+   ],
+   "what_it_forecasts": "For each utility territory: MW of load by year, the named plants and generic resources to be built with in-service years, total plan cost, and the projected monthly residential bill.",
+   "horizon": "Annual to 2046 (Dominion); large-load ramps to mid-2030s (Georgia Power); resource selections with in-service years to 2034 (Duke/NCUC)",
+   "latest_edition": {
+    "title": "Virginia Electric and Power Company 2026 Integrated Resource Plan Update (Case No. PUR-2026-00163)",
+    "date": "2026-10-15",
+    "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103"
+   },
+   "update_cadence": "Dominion IRP annual (full hearing every third year; next trial autumn 2027); Georgia Power large-load report quarterly, IRP triennial; Duke CPIRP biennial with quarterly large-load reports",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Plans are verified filings whose capex is recoverable only if found prudent, and Georgia's stipulation shifts under-materialisation risk to the utility (T1); commission staff and intervenors are paid to attack them - Virginia SCC staff forced a case counting only signed data-centre agreements, which cut the Dominion build by about $25bn (T2); plan periods run 15-20 years and service agreements about a decade (T4); near-term load is contract-backed (Dominion 12.0 GW of ESAs; Georgia Power 16,100 MW committed, 10,600 MW broken ground) (T5). T3 fails: no published scored error record. Known bias: utilities earn on rate base and have historically over-forecast load, and the Dominion IRP is explicitly 'not a request for approval' of projects."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named units with dates (960 MW Chesterfield CTs by 1 Jun 2029; Duke CC4 1,365 MW by 2032), MW by technology and year, plan cost, bill paths in dollars, project-level large-load workbook with county-redacted ramps by year, plus the reasoning and contested alternatives."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Filings dated 15 Oct, 16 Nov and 17 Nov 2026; data-centre load is modelled separately, tested in a staff-directed restriction case, and tracked project by project ('Data Center/Crypto' segment)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Under this scenario, Staff directed the Company to restrict future data center load growth in its modeling assumptions to only those data centers with completed electric service agreements, with all other projected data center load for the DOM Zone removed.",
+     "doc_local_path": "primary/energy/utility-irps/dominion-2026-integrated-resource-plan-update.pdf",
+     "page": 73
+    },
+    "search_note": ""
+   },
+   "tier": "top",
+   "why_top_or_not": "Richest dated, located, named build-and-bill plans, filed under adversarial regulatory scrutiny, with AI load isolated as its own scenario.",
+   "primary_docs": [
+    {
+     "title": "Dominion Energy Virginia 2026 Integrated Resource Plan Update, with appendices (filed 15 Oct 2026)",
+     "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103",
+     "local_path": "primary/energy/utility-irps/dominion-2026-integrated-resource-plan-update.pdf",
+     "status": "full",
+     "bytes": 10412711,
+     "pages": 400,
+     "note": ""
+    },
+    {
+     "title": "Georgia Power Q3 2026 Large Load Economic Development Report, public-disclosure filing package (zip, filed 16 Nov 2026, Dockets 55378/56002)",
+     "url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/229481/110424",
+     "local_path": "primary/energy/utility-irps/georgia-power-large-load-report-q3-2026.zip",
+     "status": "full",
+     "bytes": 867023,
+     "pages": 0,
+     "note": "Zip as filed; report PDF and workbook extracted to georgia-power-q3-2026/"
+    },
+    {
+     "title": "Georgia Power Q3 2026 Large Load Economic Development Report (PDF extracted from filing zip)",
+     "url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/229481/110424",
+     "local_path": "primary/energy/utility-irps/georgia-power-q3-2026/DKT_55378_Lg_Load_Econ_Dev_Report_Q3_2026_PD.pdf",
+     "status": "full",
+     "bytes": 298855,
+     "pages": 33,
+     "note": ""
+    },
+    {
+     "title": "Georgia Power Q3 2026 large-load project workbook (public disclosure; names/locations redacted)",
+     "url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/229481/110424",
+     "local_path": "primary/energy/utility-irps/georgia-power-q3-2026/PD_Lg_Load_Econ_Dev_Report_Q3_2026.xlsx",
+     "status": "full",
+     "bytes": 45876,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "NCUC Order Providing Direction for Carbon Plan and Integrated Resource Plan, Docket E-100 Sub 207 (Duke Energy Carolinas/Progress 2025 CPIRP), 17 Nov 2026",
+     "url": "https://www.selc.org/wp-content/uploads/2026/11/2026-11-17-Carbon-Plan-and-Integrated-Resource-Plan-Order.pdf",
+     "local_path": "primary/energy/utility-irps/ncuc-2026-11-17-carbon-plan-irp-order-E-100-sub-207.pdf",
+     "status": "full",
+     "bytes": 2462809,
+     "pages": 185,
+     "note": "Copy hosted by SELC (an intervenor); official docket is NCUC E-100 Sub 207. PDF metadata created 16 Nov 2026; order dated per file name/host as 17 Nov 2026."
+    },
+    {
+     "title": "Duke Energy Semi-Annual Economic Development Report on Large Load Additions, Spring 2026 (filed with SC PSC)",
+     "url": "https://dms.psc.sc.gov/Attachments/Matters/de0c7c13-0d78-48ab-ac99-0589702ddad9.pdf",
+     "local_path": "primary/energy/utility-irps/duke-spring-2026-large-load-report.pdf",
+     "status": "full",
+     "bytes": 407355,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "Duke Energy 2026 Carolinas Resource Plan (filed in South Carolina 14 Aug 2026)",
+     "url": "https://www.duke-energy.com/our-company/about-us/irp-carolinas",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not downloaded: identified on Duke's IRP page but the filing PDFs were not located in the time available."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Dominion Energy is also advancing a new natural gas-fired resource expected to enter service by June 2029 and soliciting proposals from a competitive request for up to 7.3 GW of dispatchable generation with potential in-service dates through 2036.",
+     "doc_local_path": "primary/energy/utility-irps/dominion-2026-integrated-resource-plan-update.pdf",
+     "page": 5,
+     "locator": "Executive summary",
+     "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103",
+     "worldbuilding_use": "Virginia: Chesterfield gas peakers online mid-2029; 7.3 GW gas/nuclear RFP decisions 2027-2036."
+    },
+    {
+     "text": "10/1/2026 $180.31 $180.31 Year-end 2036 $258.03 4.47% 4.90% 3.56% $320.26 5.81% 6.27% 5.76% Year-end 2046 $283.65 3.15% 3.40% 2.26% $458.22",
+     "doc_local_path": "primary/energy/utility-irps/dominion-2026-integrated-resource-plan-update.pdf",
+     "page": 17,
+     "locator": "Table 3-1: Virginia Residential Bill Projections (1,000 kWh per month); Company vs Directed methodology",
+     "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103",
+     "worldbuilding_use": "Typical Virginia bill: $180 (Oct 2026) to $258 or $320 by end-2036 depending on who pays."
+    },
+    {
+     "text": "Under this scenario, Staff directed the Company to restrict future data center load growth in its modeling assumptions to only those data centers with completed electric service agreements, with all other projected data center load for the DOM Zone removed.",
+     "doc_local_path": "primary/energy/utility-irps/dominion-2026-integrated-resource-plan-update.pdf",
+     "page": 73,
+     "locator": "5.x VA Staff Directed: Data Center Load Growth Restriction",
+     "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103",
+     "worldbuilding_use": "The regulator's 'what if the AI load never shows up' case - basis for a bust branch."
+    },
+    {
+     "text": "As of September 30, 2026, the portfolio of large load customers committed to receiving service from Georgia Power has grown by 600 MW, reaching a total of 16,100 MW across 32 customers. By the winter of 2028/2029, these customers will represent a load of 8,600 MW.",
+     "doc_local_path": "primary/energy/utility-irps/georgia-power-q3-2026/DKT_55378_Lg_Load_Econ_Dev_Report_Q3_2026_PD.pdf",
+     "page": 3,
+     "locator": "Introduction",
+     "url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/229481/110424",
+     "worldbuilding_use": "Georgia: 32 committed large customers, 8.6 GW of new load live by winter 2028/29."
+    },
+    {
+     "text": "That the Commission selects the following resources as part of its 2025 [...] CC4 (approximately 1,365 MW) by 2032; b. CC5 (approximately 1,365 MW) by 2033; c. CT5 (approximately 255 MW) by 2030; and d. CTs 6 and 7 (approximately 856 MW) by 2032.",
+     "doc_local_path": "primary/energy/utility-irps/ncuc-2026-11-17-carbon-plan-irp-order-E-100-sub-207.pdf",
+     "page": 181,
+     "locator": "Ordering paragraph 32",
+     "url": "https://www.selc.org/wp-content/uploads/2026/11/2026-11-17-Carbon-Plan-and-Integrated-Resource-Plan-Order.pdf",
+     "worldbuilding_use": "Carolinas: two more 1,365 MW gas combined cycles ordered for 2032-33, peakers from 2030."
+    }
+   ]
+  },
+  {
+   "id": "utility-sec-filings",
+   "name": "Utility, IPP and turbine-maker SEC filings: Q3 2026 10-Qs, FY2025 10-Ks, earnings 8-Ks and the NextEra-Dominion merger proxy (AEP, Dominion, Southern, NextEra, Entergy, Duke, Vistra, Constellation, GE Vernova)",
+   "publisher": "The registrants, filed with the U.S. Securities and Exchange Commission (EDGAR)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission",
+    "AI data centres drive the first sustained US load growth in a generation",
+    "Capacity scarcity and grid capex push household electricity bills up"
+   ],
+   "what_it_forecasts": "Five-year capital plans in dollars, GW of large-load contracts signed, named plants under construction with in-service dates, equipment backlogs, and management's multi-year earnings/capex projections.",
+   "horizon": "Capex plans and contracted-load ramps to 2030-2031; merger-proxy projections 2026E-2032E; PPAs of 20 years",
+   "latest_edition": {
+    "title": "Q3 2026 reporting cycle (Form 10-Q for quarter ended 30 Sep 2026; latest filers Vistra and Constellation, 9 Nov 2026)",
+    "date": "2026-11-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm"
+   },
+   "update_cadence": "Quarterly (10-Q/8-K), annual (10-K), event-driven (8-K, proxy)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Statements carry Rule 10b-5 and Section 11/14(a) liability and the proxy projections underpin a merger vote (T1); sell-side analysts, short-sellers, rating agencies and merger intervenors (e.g. IEEFA at the Virginia SCC, Nov 2026) attack them (T2); capital plans and contracted-load disclosures run to 2030-31 and PPAs 20 years (T4); the load counted is 'backed by fully executed electric service agreements or letters of agreement' and turbines are ordered with down payments (T5). T3 fails: results are marked quarterly but no multi-year forecast-error record is published. Known bias: issuer optimism; capex plans have been revised up every year since 2023 and letters of agreement can lapse."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named counterparties and plants (Richland Parish Units 1-4 for 2030-31; TeraWulf 1 GW in Kentucky), dollars by year (Dominion capex $11.6bn 2026E to $14.6bn 2030E), GW contracted, turbine backlog in GW, bill-credit amounts."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Filed Oct-Nov 2026; data-centre/large-load contracts are quantified separately (AEP: 84 GW incremental contracted load by 2031) and capital plans are explicitly re-based on them."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "With 15 gigawatts (GW) of new load commitments signed during the third quarter, AEP’s incremental contracted load is expected to grow to 84 GW by 2031. Projects are only included as incremental contracted load if backed by fully executed electric service agreements or letters of agreement.",
+     "doc_local_path": "primary/energy/utility-sec-filings/aep-8k-26000069-a3q20268kpressreleaseex991.htm",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "top",
+   "why_top_or_not": "Money-backed, legally exposed commitments that say who is building what for whom through 2031; complements the regulator-facing IRPs with investor-facing numbers.",
+   "primary_docs": [
+    {
+     "title": "AEP Form 10-Q, Q3 2026 (filed 28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000072/aep-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/aep-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 11210549,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AEP Q3 2026 earnings release, 8-K Ex. 99.1 (28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000069/a3q20268kpressreleaseex991.htm",
+     "local_path": "primary/energy/utility-sec-filings/aep-8k-26000069-a3q20268kpressreleaseex991.htm",
+     "status": "full",
+     "bytes": 323908,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AEP Form 10-K, FY2025 (filed 12 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000013/aep-20251231.htm",
+     "local_path": "primary/energy/utility-sec-filings/aep-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 18321518,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Dominion Energy Form 10-Q, Q3 2026 (filed 30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526440697/d-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/dominion-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 12154374,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Dominion Energy Q3 2026 earnings release, 8-K Ex. 99 (30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526439883/d-ex99.htm",
+     "local_path": "primary/energy/utility-sec-filings/dominion-8k-26439883-d-ex99.htm",
+     "status": "full",
+     "bytes": 1098932,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Dominion Energy Form 10-K, FY2025 (filed 23 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm",
+     "local_path": "primary/energy/utility-sec-filings/dominion-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 18147345,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra Energy / Dominion Energy joint proxy statement/prospectus, DEFM14A (28 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/715957/000110465926087585/tm2621467-2_defm14a.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-dominion-defm14a-2026-07-28.htm",
+     "status": "full",
+     "bytes": 4805281,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra-Dominion merger announcement, 8-K Ex. 99.1 press release (18 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/753308/000110465926063001/tm2614888d1_ex99-1.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-dominion-merger-8k-2026-05-18-ex99-1.htm",
+     "status": "full",
+     "bytes": 63807,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra-Dominion merger announcement, 8-K Ex. 99.2 (18 May 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/753308/000110465926063001/tm2614888d1_ex99-2.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-dominion-merger-8k-2026-05-18-ex99-2.htm",
+     "status": "full",
+     "bytes": 81592,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra Energy Form 10-Q, Q3 2026 (filed 21 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000081/nee-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 3107619,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra Energy Q3 2026 earnings release, 8-K Ex. 99 (21 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000077/neeq32026exhibit99.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-8k-26000077-neeq32026exhibit99.htm",
+     "status": "full",
+     "bytes": 1085842,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra Energy 8-K Ex. 99.2 (5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000084/exhibit992toneedated11x05x.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-8k-2026-11-05-ex99-2.htm",
+     "status": "full",
+     "bytes": 629338,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NextEra Energy Form 10-K, FY2025 (filed 13 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000015/nee-20251231.htm",
+     "local_path": "primary/energy/utility-sec-filings/nextera-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 4642297,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Southern Company Form 10-Q, Q3 2026 (filed 5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000069/so-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/southern-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 7627115,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Southern Company Q3 2026 earnings release, 8-K Ex. 99 (5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000071/ex99-pressreleaseq32026.htm",
+     "local_path": "primary/energy/utility-sec-filings/southern-8k-26000071-ex99-pressreleaseq32026.htm",
+     "status": "full",
+     "bytes": 425339,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Southern Company Form 10-K, FY2025 (filed 19 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000006/so-20251231.htm",
+     "local_path": "primary/energy/utility-sec-filings/southern-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 15639313,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Entergy Form 10-Q, Q3 2026 (filed 2 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000325/etr-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/entergy-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 6983659,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Entergy Q3 2026 earnings release, 8-K Ex. 99.1 (2 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000322/earningsrelease3q26_ex991.htm",
+     "local_path": "primary/energy/utility-sec-filings/entergy-8k-26000322-earningsrelease3q26_ex991.htm",
+     "status": "full",
+     "bytes": 1500366,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Entergy Form 10-K, FY2025 (filed 19 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231.htm",
+     "local_path": "primary/energy/utility-sec-filings/entergy-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 15277713,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Duke Energy Form 10-Q, Q3 2026 (filed 5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/duke-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 9694554,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "GE Vernova Form 10-Q, Q3 2026 (filed 28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm",
+     "local_path": "primary/energy/utility-sec-filings/gevernova-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 3649917,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "GE Vernova Q3 2026 press release, 8-K exhibit (28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gevpressrelease3q26.htm",
+     "local_path": "primary/energy/utility-sec-filings/gevernova-8k-q3-2026-press-release.htm",
+     "status": "full",
+     "bytes": 658122,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Vistra Form 10-Q, Q3 2026 (filed 9 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/vistra-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 4023556,
+     "pages": 0,
+     "note": "Stored under ipp-nuclear-ppas/"
+    },
+    {
+     "title": "Constellation Energy Form 10-Q, Q3 2026 (filed 9 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/constellation-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 3807886,
+     "pages": 0,
+     "note": "Stored under ipp-nuclear-ppas/"
+    },
+    {
+     "title": "Investor earnings slide decks (Q3 2026) for the same companies",
+     "url": "",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted beyond EDGAR: decks are hosted on company IR sites and are not filed as exhibits; the 8-K press releases above carry the headline numbers."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "With 15 gigawatts (GW) of new load commitments signed during the third quarter, AEP’s incremental contracted load is expected to grow to 84 GW by 2031. Projects are only included as incremental contracted load if backed by fully executed electric service agreements or letters of agreement.",
+     "doc_local_path": "primary/energy/utility-sec-filings/aep-8k-26000069-a3q20268kpressreleaseex991.htm",
+     "page": null,
+     "locator": "AEP Q3 2026 earnings release (28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000069/a3q20268kpressreleaseex991.htm",
+     "worldbuilding_use": "AEP (Ohio, Texas, Indiana...) claims 84 GW of signed new load by 2031."
+    },
+    {
+     "text": "AEP is also announcing an expanded $100 billion five-year capital plan through 2031 and a new long-term operating earnings growth outlook as accelerating electricity demand creates significant investment opportunities across the company’s service territory.",
+     "doc_local_path": "primary/energy/utility-sec-filings/aep-8k-26000069-a3q20268kpressreleaseex991.htm",
+     "page": null,
+     "locator": "AEP Q3 2026 earnings release (28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000069/a3q20268kpressreleaseex991.htm",
+     "worldbuilding_use": "Scale of wires-and-plants spending in 11 states: $100bn 2027-2031, up from $72bn."
+    },
+    {
+     "text": "Unaudited Dominion Energy Financial Forecast Provided by Dominion Energy Management ($ in millions) 2026E 2027E 2028E 2029E 2030E [...] Capital Expenditures (2) $ 11,589 $ 11,261 $ 12,176 $ 15,171 $ 14,557",
+     "doc_local_path": "primary/energy/utility-sec-filings/nextera-dominion-defm14a-2026-07-28.htm",
+     "page": null,
+     "locator": "The Mergers - Certain Dominion Energy Unaudited Prospective Financial Information",
+     "url": "https://www.sec.gov/Archives/edgar/data/715957/000110465926087585/tm2621467-2_defm14a.htm",
+     "worldbuilding_use": "Dominion's own year-by-year capex to 2030, as given to merger advisers."
+    },
+    {
+     "text": "Four of the new combined cycle combustion turbine generation resources are to be located near the customer site in north Louisiana (Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). The seven new combined cycle combustion turbine generation resources have various estimated in-service dates in 2030 and 2031.",
+     "doc_local_path": "primary/energy/utility-sec-filings/entergy-10q-2026q3.htm",
+     "page": null,
+     "locator": "Entergy Louisiana - new generation for large customer (Form 10-Q Q3 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000325/etr-20260930.htm",
+     "worldbuilding_use": "Louisiana: seven gas plants for one (Meta) data-centre campus arrive 2030-31."
+    },
+    {
+     "text": "Gas Power equipment backlog and slot reservation agreements grew from 116 to 122 GW; now anticipate reaching at least 130 GW by year-end 2026",
+     "doc_local_path": "primary/energy/utility-sec-filings/gevernova-8k-q3-2026-press-release.htm",
+     "page": null,
+     "locator": "GE Vernova Q3 2026 press release highlights (28 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gevpressrelease3q26.htm",
+     "worldbuilding_use": "Turbine bottleneck: 122 GW of gas turbines already spoken for at one vendor."
+    }
+   ]
+  },
+  {
+   "id": "futures-strip",
+   "name": "NYMEX Henry Hub natural gas and WTI crude oil futures strips, monthly contracts to December 2031",
+   "publisher": "CME Group / NYMEX (prices captured from Investing.com's delayed contract tables)",
+   "kind": "market price",
+   "covers_trends": [
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull"
+   ],
+   "what_it_forecasts": "The price at which gas ($/MMBtu at Henry Hub) and crude oil ($/bbl WTI at Cushing) can be bought today for delivery in each month through 2031 and beyond.",
+   "horizon": "Monthly contracts listed to 2035+; liquid for roughly 2-3 years, thinly traded 2030-31",
+   "latest_edition": {
+    "title": "Settlement prices for trade date 17 Nov 2026 (captured 18 Nov 2026)",
+    "date": "2026-11-17",
+    "url": "https://www.cmegroup.com/markets/energy/natural-gas/natural-gas.settlements.html"
+   },
+   "update_cadence": "Continuous; daily settlement",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Every price is a position with margin at stake (T1), set by producers, utilities, airlines, banks and funds on both sides (T2), marked to market daily with a long published literature on forecast error - futures are roughly unbiased but only modestly better than a no-change forecast, and EIA uses them for its STEO confidence bands (T3). T4 is only partly met: contracts exist to 2031+ but the 17 Nov 2026 capture shows zero volume in most 2030-31 months, and T5 does not apply. Known caveat: backwardation embeds a risk premium during the 2026 Hormuz disruption."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Two monthly price series (about 60 points each to Dec 2031) with seasonal shape; no narrative, places or actors beyond the delivery hubs."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated price: gas-for-power demand from data centres and LNG is embedded in the 2028-31 Henry Hub strip (winter months $4.2-4.7) but cannot be separated from weather, supply and the oil shock."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Price table only; no text to search. AI/data-centre demand is not separately identifiable in a futures price."
+   },
+   "tier": "top",
+   "why_top_or_not": "Lower total than several 'considered' sources because it is thin on detail, but it is the only money-at-stake read on fuel costs to 2031 and the only top pick covering the fuel-price trend.",
+   "primary_docs": [
+    {
+     "title": "Henry Hub natural gas futures contract table, settlements of 17 Nov 2026, Dec 2026-Dec 2031",
+     "url": "https://www.investing.com/commodities/natural-gas-contracts",
+     "local_path": "primary/energy/futures-strip/henry-hub-ng-futures-strip-2026-11-17.txt",
+     "status": "partial",
+     "bytes": 5553,
+     "pages": 0,
+     "note": "Text capture via web fetch tool (exchange site returned HTTP 403/503 to direct download). Rows to Dec 2031 kept verbatim; mix of 17 Nov settlements ('s') and 18 Nov intraday lasts for front months."
+    },
+    {
+     "title": "WTI crude oil futures contract table, settlements of 17 Nov 2026, Dec 2026-Dec 2031",
+     "url": "https://www.investing.com/commodities/crude-oil-contracts",
+     "local_path": "primary/energy/futures-strip/wti-crude-futures-strip-2026-11-17.txt",
+     "status": "partial",
+     "bytes": 5497,
+     "pages": 0,
+     "note": "Text capture via web fetch tool; same caveats as the gas table."
+    },
+    {
+     "title": "EIA Natural Gas Futures Prices (NYMEX) page, release of 12 Nov 2026",
+     "url": "https://www.eia.gov/dnav/ng/ng_pri_fut_s1_d.htm",
+     "local_path": "primary/energy/futures-strip/eia-ng-futures-nymex-daily.html",
+     "status": "full",
+     "bytes": 11759,
+     "pages": 0,
+     "note": "Saved to document that EIA no longer republishes futures: 'Futures prices after April 5, 2024, are not available'; only the Henry Hub spot series is current."
+    },
+    {
+     "title": "CME Group official settlement file (Henry Hub NG / WTI)",
+     "url": "https://www.cmegroup.com/markets/energy/natural-gas/natural-gas.settlements.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 to curl and 503 to the fetch tool; no free official CSV/API obtained. PJM West Hub power forwards likewise not obtained."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "| Dec 26 | 85.55 | -0.46 | 85.75 | 85.95 | 83.58 | 13797 | 06:50 | Q / C / O |",
+     "doc_local_path": "primary/energy/futures-strip/wti-crude-futures-strip-2026-11-17.txt",
+     "page": null,
+     "locator": "WTI crude, Dec 2026 contract, intraday last on 18 Nov 2026 (USD/bbl)",
+     "url": "https://www.investing.com/commodities/crude-oil-contracts",
+     "worldbuilding_use": "Front-month US crude about $85 in Nov 2026, mid-crisis."
+    },
+    {
+     "text": "| Dec 28 | 67.93 | -0.30 | 68.41 | 68.43 | 67.67 | 1657 | 06:32 | Q / C / O |",
+     "doc_local_path": "primary/energy/futures-strip/wti-crude-futures-strip-2026-11-17.txt",
+     "page": null,
+     "locator": "WTI crude, Dec 2028 contract, intraday last on 18 Nov 2026 (USD/bbl)",
+     "url": "https://www.investing.com/commodities/crude-oil-contracts",
+     "worldbuilding_use": "Market prices oil back in the high $60s by end-2028."
+    },
+    {
+     "text": "| Dec 31 | 61.71s | -0.46 | 61.50 | 61.71 | 61.50 | 165 | 11/17/26 | Q / C / O |",
+     "doc_local_path": "primary/energy/futures-strip/wti-crude-futures-strip-2026-11-17.txt",
+     "page": null,
+     "locator": "WTI crude, Dec 2031 contract, settlement of 17 Nov 2026 (USD/bbl)",
+     "url": "https://www.investing.com/commodities/crude-oil-contracts",
+     "worldbuilding_use": "Five-year-out oil at about $62: the shock is priced as temporary."
+    },
+    {
+     "text": "| Jan 29 | 4.661s | +0.003 | 4.660 | 4.661 | 4.658 | 89 | 11/17/26 | Q / C / O |",
+     "doc_local_path": "primary/energy/futures-strip/henry-hub-ng-futures-strip-2026-11-17.txt",
+     "page": null,
+     "locator": "Henry Hub natural gas, Jan 2029 contract, settlement of 17 Nov 2026 (USD/MMBtu)",
+     "url": "https://www.investing.com/commodities/natural-gas-contracts",
+     "worldbuilding_use": "Winter 2028/29 gas near $4.66: cost floor for gas-fired power and heating."
+    },
+    {
+     "text": "| Dec 31 | 4.313s | -0.023 | 4.313 | 4.313 | 4.313 | 0 | 11/17/26 | Q / C / O |",
+     "doc_local_path": "primary/energy/futures-strip/henry-hub-ng-futures-strip-2026-11-17.txt",
+     "page": null,
+     "locator": "Henry Hub natural gas, Dec 2031 contract, settlement of 17 Nov 2026 (USD/MMBtu)",
+     "url": "https://www.investing.com/commodities/natural-gas-contracts",
+     "worldbuilding_use": "Gas for Dec 2031 at $4.31, with zero volume - a thin but real marker."
+    }
+   ]
+  },
+  {
+   "id": "ipp-nuclear-ppas",
+   "name": "Hyperscaler power contracts with nuclear/IPP fleets (Constellation-Microsoft Crane restart, Vistra-Meta, Talen-Amazon) as disclosed in SEC filings",
+   "publisher": "Constellation Energy, Vistra, Talen Energy (SEC EDGAR)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission",
+    "AI data centres drive the first sustained US load growth in a generation"
+   ],
+   "what_it_forecasts": "Which existing or restarted nuclear and gas plants are contractually committed to named tech companies, for how many MW, starting when, for 20 years.",
+   "horizon": "Deliveries starting 2026-2028 and running 17-20 years (to the 2040s)",
+   "latest_edition": {
+    "title": "Vistra and Constellation Form 10-Q for the quarter ended 30 Sep 2026",
+    "date": "2026-11-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm"
+   },
+   "update_cadence": "Quarterly filings; contracts announced ad hoc",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "Signed 20-year PPAs with investment-grade counterparties: the seller loses contracted revenue and faces damages if it fails to deliver (T1), tenor far exceeds five years (T4), and the plants exist or are in restart/uprate programmes (T5). T2 is partial (contested at FERC and in the PJM large-load process, but contract terms are private); T3 fails. Residual risk: restart and uprate dates remain 'subject to certain regulatory approvals'."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named plants, MW and dates: 2,609 MW from Perry, Davis-Besse and Beaver Valley to Meta; up to 1,920 MW from Susquehanna to AWS through 2042; Crane (ex-Three Mile Island 1) restart for Microsoft; $5.0bn DOE loan commitment for uprates."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Filed Nov 2026; the contracts exist only because of AI/data-centre demand and name the hyperscaler buyers and MW."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "In January 2026, Vistra announced it had entered into 20-year PPAs with Meta, pursuant to which the Company has agreed to supply Meta with a total of 2,609 MW of carbon-free power and capacity from the Company's PJM nuclear power plants",
+     "doc_local_path": "primary/energy/ipp-nuclear-ppas/vistra-10q-2026q3.htm",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Scores as high as the top picks but is the same mechanism (SEC-filed contracts) as utility-sec-filings, where the Vistra and Constellation 10-Qs are also listed; kept separate for the nuclear-restart detail.",
+   "primary_docs": [
+    {
+     "title": "Vistra Form 10-Q, Q3 2026 (filed 9 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/vistra-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 4023556,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Vistra Q3 2026 earnings release, 8-K exhibit (6 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/vistra-8k-q3-2026-earnings-release.htm",
+     "status": "full",
+     "bytes": 658072,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Vistra Form 10-K, FY2025 (filed 27 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/vistra-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 5587167,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Constellation Energy Form 10-Q, Q3 2026 (filed 9 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/constellation-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 3807886,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Constellation Q3 2026 earnings release, 8-K Ex. 99.1 (9 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/constellation-8k-26000116-ceg-20261109991.htm",
+     "status": "full",
+     "bytes": 467883,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Constellation 8-K Ex. 99.2 (9 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109992.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/constellation-8k-26000116-ceg-20261109992.htm",
+     "status": "full",
+     "bytes": 46773,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Constellation Energy Form 10-K, FY2025 (filed 24 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/constellation-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 4811333,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Talen Energy Form 10-Q, Q3 2026 (filed 3 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000086/tln-20260930.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/talen-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 2125818,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Talen Energy Q3 2026 earnings release, 8-K exhibit (3 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/a20261103q32026earningsrel.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/talen-8k-q3-2026-earnings-release.htm",
+     "status": "full",
+     "bytes": 321760,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Talen Energy Form 10-K, FY2025 (filed 26 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm",
+     "local_path": "primary/energy/ipp-nuclear-ppas/talen-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 3992897,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Google-Kairos/TVA, Meta-Oklo/TerraPower and other SMR offtake announcements (company press releases)",
+     "url": "",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not downloaded: SMR offtakes are announced by private developers outside EDGAR; not pursued in the time available."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "ercot-load-forecast",
+   "name": "ERCOT Long-Term Load Forecast (2026-2032, preliminary) and large-load interconnection queue reporting",
+   "publisher": "Electric Reliability Council of Texas (filed with the Public Utility Commission of Texas)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "AI data centres drive the first sustained US load growth in a generation",
+    "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules"
+   ],
+   "what_it_forecasts": "Peak demand in the Texas grid for each year 2026-2032 including utility-reported large loads, and GW of large loads (about 90% data centres) seeking interconnection.",
+   "horizon": "Annual to 2032; large-load queue to 2033; CDR reserve margins five years",
+   "latest_edition": {
+    "title": "Preliminary Long-Term Load Forecast for Years 2026-2032 (PUCT Project No. 58777)",
+    "date": "2026-04-15",
+    "url": "https://interchange.puc.texas.gov/Documents/58777_38_1622647.PDF"
+   },
+   "update_cadence": "Annual load forecast; monthly large-load queue updates; Capacity, Demand and Reserves report twice a year (latest found: Dec 2025)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Statute (SB6 / 16 TAC 25.370) obliges ERCOT to include loads reported by transmission providers on the strength of officer letters, producing 367,790 MW for 2032 against an 85,508 MW record peak; ERCOT itself tells the PUCT it 'has concerns' with using the values and seeks an adjustment based on realisation rates. The plan period reaches 2032 (T4) and the numbers are publicly disputed (partial T2), but there is no money at stake, no published long-range error record, and a very large known upward bias. Batch Zero ($50,000/MW security) will firm the pipeline from 2027."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Year-by-year MW with and without large loads, queue GW by study status, Batch Zero milestones and dates, SB6 curtailment rules; individual projects are not named."
+   },
+   "ai": {
+    "score": 5,
+    "why": "April-July 2026 documents; large loads (about 90% data centres) are the separately identified cause of nearly all growth."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "ERCOT is tracking approximately 474 GW of Large Loads seeking interconnection, of which ~90% are data centers.",
+     "doc_local_path": "primary/energy/ercot-load-forecast/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf",
+     "page": 6
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "AI-saturated and current, but the headline numbers are statutorily inflated and disowned by ERCOT itself, so accuracy conditions are weak.",
+   "primary_docs": [
+    {
+     "title": "ERCOT filing of preliminary Long-Term Load Forecast 2026-2032, PUCT Project 58777 (15 Apr 2026)",
+     "url": "https://interchange.puc.texas.gov/Documents/58777_38_1622647.PDF",
+     "local_path": "primary/energy/ercot-load-forecast/puct-58777-ercot-preliminary-LTLF-2026-2032.pdf",
+     "status": "full",
+     "bytes": 950049,
+     "pages": 12,
+     "note": ""
+    },
+    {
+     "title": "ERCOT news release, 15 Apr 2026",
+     "url": "https://www.ercot.com/news/release/04152026-ercot-releases-preliminary",
+     "local_path": "primary/energy/ercot-load-forecast/news-release-2026-04-15.html",
+     "status": "full",
+     "bytes": 54934,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ERCOT CEO Update to the Board (15 Apr 2026)",
+     "url": "https://www.ercot.com/files/docs/2026/04/15/12-CEO-Update.pdf",
+     "local_path": "primary/energy/ercot-load-forecast/ercot-12-CEO-Update-2026-04-15.pdf",
+     "status": "full",
+     "bytes": 1344726,
+     "pages": 8,
+     "note": ""
+    },
+    {
+     "title": "ERCOT update to Texas Senate Business & Commerce Committee (29 Jul 2026)",
+     "url": "https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf",
+     "local_path": "primary/energy/ercot-load-forecast/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf",
+     "status": "full",
+     "bytes": 921086,
+     "pages": 10,
+     "note": ""
+    },
+    {
+     "title": "ERCOT Monthly Operational Overview, June 2026",
+     "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+     "local_path": "primary/energy/ercot-load-forecast/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+     "status": "full",
+     "bytes": 1122925,
+     "pages": 27,
+     "note": ""
+    },
+    {
+     "title": "ERCOT Monthly newsletter, June 2026",
+     "url": "https://www.ercot.com/files/docs/2026/07/10/ERCOT-Monthly-June-2026-FINAL.pdf",
+     "local_path": "primary/energy/ercot-load-forecast/ERCOT-Monthly-June-2026-FINAL.pdf",
+     "status": "full",
+     "bytes": 796910,
+     "pages": 7,
+     "note": ""
+    },
+    {
+     "title": "Report on the Capacity, Demand and Reserves in the ERCOT Region (Dec 2025)",
+     "url": "https://www.ercot.com/files/docs/2025/12/19/CapacityDemandandReservesReport_December2025.pdf",
+     "local_path": "primary/energy/ercot-load-forecast/CapacityDemandandReservesReport_December2025.pdf",
+     "status": "full",
+     "bytes": 8886732,
+     "pages": 88,
+     "note": "Latest CDR linked on ERCOT's resource page on 18 Nov 2026; no 2026 CDR found."
+    },
+    {
+     "title": "Final (adjusted) 2026 Long-Term Load Forecast report",
+     "url": "https://www.ercot.com/gridinfo/load/forecast",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "ERCOT's load forecast page still listed the 2025 LTLF files on 18 Nov 2026; a final adjusted 2026 report was not found."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "nerc-ltra",
+   "name": "NERC Long-Term Reliability Assessment (2025 LTRA, published January 2026) and 2026 Summer Reliability Assessment",
+   "publisher": "North American Electric Reliability Corporation",
+   "kind": "expert report",
+   "covers_trends": [
+    "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules",
+    "AI data centres drive the first sustained US load growth in a generation",
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "Ten-year peak demand, planned resources and reserve margins for 23 assessment areas, and which areas are at high or elevated risk of supply shortfalls in 2026-2030.",
+   "horizon": "2026-2035, with risk categories for the first five years",
+   "latest_edition": {
+    "title": "2025 Long-Term Reliability Assessment (January 2026)",
+    "date": "2026-01-29",
+    "url": "https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_LTRA_2025.pdf"
+   },
+   "update_cadence": "Annual LTRA (December/January); summer and winter seasonal assessments (2026-27 winter assessment not yet found on 18 Nov 2026)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "NERC is the FERC-certified reliability organisation with a ten-year plan horizon (T4) and its supply side is built from tiered planned resources already in queues (T5). It has no money at stake, publishes no scored error record, and is criticised from outside rather than through an adversarial process (Grid Strategies' March 2026 review argues it overstates risk). Known bias: an institutional incentive to warn; demand inputs are the utilities' own mid-2025 forecasts."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Area-by-area narratives with GW and risk years (e.g. MISO 18 GW of data centres by 2035; WECC-Northwest high risk from 2029), retirements, transfer capability; plants rarely named."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Published January 2026; data centres 'for artificial intelligence and the digital economy' are identified as most of the 224 GW ten-year summer peak growth and quantified by area."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Over the 10-year period, aggregated assessment area summer peak demand is forecast to rise by over 224 GW. This is 69% higher than last year’s 10-year growth projection of 132 GW. [...] New data centers for artificial intelligence and the digital economy account for most of the projected increase in North American electricity demand over the next 10 years.",
+     "doc_local_path": "primary/energy/nerc-ltra/NERC_LTRA_2025.pdf",
+     "page": 9
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Best continental map of where shortfalls bite, but an unscored expert assessment built on utilities' own forecasts; the reliability trend is covered with real stakes by the PJM auction.",
+   "primary_docs": [
+    {
+     "title": "NERC 2025 Long-Term Reliability Assessment (January 2026)",
+     "url": "https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_LTRA_2025.pdf",
+     "local_path": "primary/energy/nerc-ltra/NERC_LTRA_2025.pdf",
+     "status": "full",
+     "bytes": 7847418,
+     "pages": 182,
+     "note": "Cover dated January 2026; released 29 Jan 2026 per trade press; PDF metadata 20 Feb 2026 (possibly a corrected reissue)."
+    },
+    {
+     "title": "NERC 2026 Summer Reliability Assessment",
+     "url": "https://prod.nerc.com/globalassets/our-work/assessments/nerc_sra_2026.pdf",
+     "local_path": "primary/energy/nerc-ltra/NERC_SRA_2026.pdf",
+     "status": "full",
+     "bytes": 4193416,
+     "pages": 60,
+     "note": ""
+    },
+    {
+     "title": "NERC 2026-2027 Winter Reliability Assessment",
+     "url": "https://prod.nerc.com/globalassets/our-work/assessments/nerc_wra_2026.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 404 at the expected URL on 18 Nov 2026; not found by search - may not be published yet."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "eia-860m",
+   "name": "EIA Preliminary Monthly Electric Generator Inventory (Form EIA-860M): planned additions and retirements",
+   "publisher": "U.S. Energy Information Administration",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "Every planned U.S. generator of 1 MW or more by owner, plant name, county, technology, MW, construction status and planned first-operation month, plus planned retirements.",
+   "horizon": "Unit-level planned operation dates, mostly 2026-2029, some to 2031+",
+   "latest_edition": {
+    "title": "Preliminary Monthly Electric Generator Inventory, September 2026 (released 23 Oct 2026)",
+    "date": "2026-10-23",
+    "url": "https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx"
+   },
+   "update_cadence": "Monthly (next release 24 Nov 2026); annual final EIA-860",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T3",
+     "T5"
+    ],
+    "why": "Reporting is mandatory under federal law with penalties for non- or false reporting (T1, though nobody pays if a date slips); the file is re-marked monthly with status codes and EIA publishes the history, so slippage is observable (T3); most listed capacity is permitted or under construction (T5). No adversary (T2) and most dates are within three years (T4 partial). Known bias: planned dates slip and some projects are cancelled."
+   },
+   "richness": {
+    "score": 5,
+    "why": "2,363 planned-generator rows with owner, plant name, state, county, coordinates, MW, technology, status and month/year (e.g. Entergy Louisiana 'Richland Parish Power Station 1&2', March 2030)."
+   },
+   "ai": {
+    "score": 3,
+    "why": "October 2026 release; plants built for data centres appear in the pipeline but AI is not a field or driver - the embedded effect cannot be separated."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the text rendering for 'data center', 'artificial intelligence', 'AI': 'data center' appears only in plant names of on-site backup generators (e.g. 'West Group Data Center F'); no attribution of planned plants to AI load."
+   },
+   "why_top_or_not": "Excellent unit-level build pipeline but silent on why plants are built; overlaps the IRP and SEC-filing picks on the 'what gets built' trend.",
+   "primary_docs": [
+    {
+     "title": "EIA-860M generator inventory workbook, September 2026 data (released 23 Oct 2026)",
+     "url": "https://www.eia.gov/electricity/data/eia860m/xls/september_generator2026.xlsx",
+     "local_path": "primary/energy/eia-860m/september_generator2026.xlsx",
+     "status": "full",
+     "bytes": 14013970,
+     "pages": 0,
+     "note": "Text rendering of all sheets saved as .xlsx.txt (about 40,000 rows)."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "lbnl-queued-up",
+   "name": "LBNL 'Queued Up: 2026 Edition' - power plants seeking transmission interconnection as of end-2025",
+   "publisher": "Lawrence Berkeley National Laboratory",
+   "kind": "expert report",
+   "covers_trends": [
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "GW of generation and storage waiting in interconnection queues by region and technology, historical completion rates and time-to-operation.",
+   "horizon": "Queue snapshot at 31 Dec 2025; proposed online dates mostly to 2030",
+   "latest_edition": {
+    "title": "Queued Up: 2026 Edition, Characteristics of Power Plants Seeking Transmission Interconnection As of the End of 2025",
+    "date": "2026-06-22",
+    "url": "https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf"
+   },
+   "update_cadence": "Annual (spring/summer)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "A descriptive census, not a forecast: it documents the pipeline (T5) and publishes the long-run record that only about 19% of projects (13% of capacity) requesting interconnection in 2000-2020 reached operation (T3). No stakes for the authors, no adversary, and the queue itself overstates what gets built."
+   },
+   "richness": {
+    "score": 4,
+    "why": "GW by ISO/region, technology and year, withdrawal and completion rates, months-in-queue; no named projects in the report."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition, but it covers generation and storage only and states that large-load queues are excluded; gas requests up 86% are reported without AI attribution."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "there are separate queues for large loads and those are not included in this report.",
+     "doc_local_path": "primary/energy/lbnl-queued-up/queued_up_2026_edition.pdf",
+     "page": 2
+    },
+    "search_note": "Searched 'data center', 'large load', 'artificial intelligence': only the scope exclusion found."
+   },
+   "why_top_or_not": "Useful base rates for discounting everyone else's pipelines, but backward-looking and silent on AI load.",
+   "primary_docs": [
+    {
+     "title": "Queued Up: 2026 Edition (slide report, June 2026)",
+     "url": "https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf",
+     "local_path": "primary/energy/lbnl-queued-up/queued_up_2026_edition.pdf",
+     "status": "full",
+     "bytes": 18419346,
+     "pages": 71,
+     "note": "Date is PDF metadata (22 Jun 2026); cover says June 2026."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "eia-aeo",
+   "name": "EIA Annual Energy Outlook 2026",
+   "publisher": "U.S. Energy Information Administration",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "AI data centres drive the first sustained US load growth in a generation",
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull",
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission",
+    "Capacity scarcity and grid capex push household electricity bills up"
+   ],
+   "what_it_forecasts": "U.S. energy consumption, fuel and electricity prices, generation mix and capacity additions by year to 2050 under eleven cases, including a High Electricity Demand case for data-centre servers.",
+   "horizon": "Annual to 2050",
+   "latest_edition": {
+    "title": "Annual Energy Outlook 2026",
+    "date": "2026-04-08",
+    "url": "https://www.eia.gov/outlooks/aeo/"
+   },
+   "update_cadence": "Annual (AEO2027 next)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "Statutory, policy-neutral projections from an accountable agency that publishes a retrospective review of past AEO errors (T3) and whose horizon covers the period (T4); no money at stake and no adversary. Known limits: cases are 'not predictions', and inputs were frozen in February 2026 - before the Strait of Hormuz disruption that the November STEO describes."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Hundreds of series by sector, fuel and region across 11 cases with narrated assumptions; no named plants or places."
+   },
+   "ai": {
+    "score": 5,
+    "why": "April 2026 edition; data-centre server electricity is reported separately and a dedicated High Electricity Demand case takes it to 818 billion kWh in 2050."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "These assumptions lead data center server energy use alone to grow to 818 billion kilowatthours in 2050 in the High Electricity Demand case.",
+     "doc_local_path": "primary/energy/eia-aeo/AEO2026_Narrative.pdf",
+     "page": 17
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Strong AI treatment and a published error record, but scenario-based, national in grain and already overtaken on oil by the 2026 supply shock.",
+   "primary_docs": [
+    {
+     "title": "AEO2026 Narrative (April 2026)",
+     "url": "https://www.eia.gov/outlooks/aeo/pdf/AEO_Narrative.pdf",
+     "local_path": "primary/energy/eia-aeo/AEO2026_Narrative.pdf",
+     "status": "full",
+     "bytes": 1737030,
+     "pages": 33,
+     "note": ""
+    },
+    {
+     "title": "AEO2026 Release Presentation",
+     "url": "https://www.eia.gov/outlooks/aeo/pdf/AEO2026_Release_Presentation.pdf",
+     "local_path": "primary/energy/eia-aeo/AEO2026_Release_Presentation.pdf",
+     "status": "full",
+     "bytes": 790048,
+     "pages": 16,
+     "note": ""
+    },
+    {
+     "title": "AEO2026 narrative figure data (Excel)",
+     "url": "https://www.eia.gov/outlooks/aeo/excel/Narrative_Figures.xlsx",
+     "local_path": "primary/energy/eia-aeo/AEO2026_Narrative_Figures.xlsx",
+     "status": "full",
+     "bytes": 1264246,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "AEO2026 Table 3, Energy Prices by Sector and Source",
+     "url": "https://www.eia.gov/outlooks/aeo/excel/aeotab3.xlsx",
+     "local_path": "primary/energy/eia-aeo/aeotab3.xlsx",
+     "status": "full",
+     "bytes": 42478,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "AEO2026 Table 5, Commercial Sector Key Indicators and Consumption",
+     "url": "https://www.eia.gov/outlooks/aeo/excel/aeotab5.xlsx",
+     "local_path": "primary/energy/eia-aeo/aeotab5.xlsx",
+     "status": "full",
+     "bytes": 35732,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "AEO2026 Table 8, Electricity Supply, Disposition, Prices, and Emissions",
+     "url": "https://www.eia.gov/outlooks/aeo/excel/aeotab8.xlsx",
+     "local_path": "primary/energy/eia-aeo/aeotab8.xlsx",
+     "status": "full",
+     "bytes": 28739,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "AEO2026 Table 9, Electricity Generating Capacity",
+     "url": "https://www.eia.gov/outlooks/aeo/excel/aeotab9.xlsx",
+     "local_path": "primary/energy/eia-aeo/aeotab9.xlsx",
+     "status": "full",
+     "bytes": 21901,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "AEO2026 Table 13, Natural Gas Supply, Disposition, and Prices",
+     "url": "https://www.eia.gov/outlooks/aeo/excel/aeotab13.xlsx",
+     "local_path": "primary/energy/eia-aeo/aeotab13.xlsx",
+     "status": "full",
+     "bytes": 20959,
+     "pages": 0,
+     "note": "Text rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "AEO landing page and reference-table index (HTML)",
+     "url": "https://www.eia.gov/outlooks/aeo/",
+     "local_path": "primary/energy/eia-aeo/aeo_index.html",
+     "status": "full",
+     "bytes": 62469,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "eia-steo",
+   "name": "EIA Short-Term Energy Outlook (November 2026)",
+   "publisher": "U.S. Energy Information Administration",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull",
+    "Capacity scarcity and grid capex push household electricity bills up"
+   ],
+   "what_it_forecasts": "Monthly oil, gas, coal and electricity prices, production and demand (including residential electricity prices by region) through December 2027.",
+   "horizon": "Monthly to end-2027 (about 14 months)",
+   "latest_edition": {
+    "title": "Short-Term Energy Outlook, November 2026",
+    "date": "2026-11-10",
+    "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf"
+   },
+   "update_cadence": "Monthly (next 8 Dec 2026)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Statutory forecast from an agency independent by law, issued monthly and scored - EIA publishes forecast-evaluation retrospectives and shows NYMEX-implied confidence bands. No money at stake, no adversary, and the horizon stops at end-2027, well short of five years."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dozens of monthly series with narrated drivers and named events (Hormuz shut-ins by country, Brent $124 in Oct 2026, Brent $77 in 4Q27, retail diesel $5.03 in 2027, regional residential prices)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition, but the full report never mentions data centres or AI; electricity growth is attributed only to 'rising demand from the commercial sector'."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the 58-page PDF text for 'data center', 'datacenter', 'artificial intelligence', 'AI', 'server', 'computing', 'large load': none found. Closest: 'driven by rising demand from the commercial sector'."
+   },
+   "why_top_or_not": "The official near-term read on the 2026 oil shock and on bills, but it ends in 2027 and - surprisingly - is silent on AI in this edition.",
+   "primary_docs": [
+    {
+     "title": "Short-Term Energy Outlook, November 2026 (full report)",
+     "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+     "local_path": "primary/energy/eia-steo/steo_full_2026-11.pdf",
+     "status": "full",
+     "bytes": 6996936,
+     "pages": 58,
+     "note": "Release date 10 Nov 2026 per eia.gov/outlooks/steo; model inputs finalised 5 Nov 2026."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "iea-weo",
+   "name": "IEA World Energy Outlook (2025 edition; WEO-2026 launches 19 Nov 2026)",
+   "publisher": "International Energy Agency",
+   "kind": "expert report",
+   "covers_trends": [
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull",
+    "AI data centres drive the first sustained US load growth in a generation",
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "Global and regional energy demand, supply, prices and investment by fuel to 2050 under Current Policies, Stated Policies and Net Zero scenarios.",
+   "horizon": "Scenario years 2035, 2040, 2050",
+   "latest_edition": {
+    "title": "World Energy Outlook 2025",
+    "date": "2025-11-12",
+    "url": "https://www.iea.org/reports/world-energy-outlook-2025"
+   },
+   "update_cadence": "Annual (November); WEO-2026 scheduled for 19 Nov 2026, one day after this assessment",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Scenarios, not forecasts, from an intergovernmental agency with reputation but no money or licence at stake; no published scored record (outside studies document persistent under-projection of solar). Horizon fits. The edition on hand predates the 2026 Middle East supply shock, which the IEA says WEO-2026 will address with multiple scenarios."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Regional and sectoral disaggregation with narrated drivers and some named specifics (e.g. data-centre investment USD 580 billion in 2025); outputs at 2035/2040/2050 rather than annual."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Edition dated November 2025, so it cannot score higher; within it AI is quantified (data-centre electricity triples by 2035; about half of US demand growth to 2030)."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In China and the European Union, data centres account for 6-10% of the growth in electricity demand to 2030. This is much lower than the comparable figure in the United States – the world’s largest market for data centres – where data centres account around half of the growth in electricity demand in this period.",
+     "doc_local_path": "primary/energy/iea-weo/WorldEnergyOutlook2025.pdf",
+     "page": 52
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Famous but stale by one day short of a year: the 2026 edition (with post-Hormuz scenarios) is due 19 Nov 2026, and scenarios carry no stakes.",
+   "primary_docs": [
+    {
+     "title": "World Energy Outlook 2025 (full report)",
+     "url": "https://iea.blob.core.windows.net/assets/9753df19-0a71-422a-b725-012c555763b3/WorldEnergyOutlook2025.pdf",
+     "local_path": "primary/energy/iea-weo/WorldEnergyOutlook2025.pdf",
+     "status": "full",
+     "bytes": 16004964,
+     "pages": 519,
+     "note": ""
+    },
+    {
+     "title": "World Energy Outlook 2026",
+     "url": "https://www.iea.org/events/world-energy-outlook-2026",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not yet published on 18 Nov 2026: IEA event page lists the launch for 19 Nov 2026 11:00 Paris time."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "iea-electricity",
+   "name": "IEA Electricity 2026 (analysis and forecast to 2030) and IEA AI-energy reports",
+   "publisher": "International Energy Agency",
+   "kind": "expert report",
+   "covers_trends": [
+    "AI data centres drive the first sustained US load growth in a generation",
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "Electricity demand, generation by source and emissions by country/region for each year 2026-2030, with data-centre contributions.",
+   "horizon": "Annual, 2026-2030",
+   "latest_edition": {
+    "title": "Electricity 2026: Analysis and forecast to 2030",
+    "date": "2026-02-06",
+    "url": "https://www.iea.org/reports/electricity-2026"
+   },
+   "update_cadence": "Annual (February) with a mid-year update; companion AI reports ('Energy and AI', Apr 2025; 'Powering Artificial Intelligence', 14 Oct 2026)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "A genuine five-year forecast (the horizon was extended to 2030 this year) from an accountable institution, but with no money at stake, no adversarial review and no published error record."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Country chapters with TWh, growth rates and narrated drivers; grid-queue totals (2,500 GW stalled worldwide); few named projects."
+   },
+   "ai": {
+    "score": 4,
+    "why": "February 2026 edition; data centres are analysed as a material driver with partial quantification (around half of US demand growth to 2030) rather than as a separate table line."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In the United States, electricity demand rose by 2.1% in 2025 and is projected to grow by nearly 2% annually through 2030, with around half of the total increase driven by the rapid expansion of data centres.",
+     "doc_local_path": "primary/energy/iea-electricity/Electricity_2026.pdf",
+     "page": 9
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Useful global context to 2030 but unincentivised; US detail is far thinner than the ISO and utility filings.",
+   "primary_docs": [
+    {
+     "title": "Electricity 2026 (full report, 6 Feb 2026)",
+     "url": "https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf",
+     "local_path": "primary/energy/iea-electricity/Electricity_2026.pdf",
+     "status": "full",
+     "bytes": 5308227,
+     "pages": 225,
+     "note": ""
+    },
+    {
+     "title": "Powering Artificial Intelligence: Strategies for integrating data centres into electricity systems (IEA, 14 Oct 2026)",
+     "url": "https://www.iea.org/reports",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Listed on iea.org/reports; iea.org returns HTTP 403 to automated requests and no direct PDF link was found."
+    },
+    {
+     "title": "Electricity Mid-Year Update 2026",
+     "url": "https://www.iea.org/reports/electricity-mid-year-update-2026",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "iea.org returns HTTP 403 to automated requests; PDF link not found."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "bnef-neo",
+   "name": "BloombergNEF New Energy Outlook 2026 (and 'Powering the Data Center Boom', Nov 2026)",
+   "publisher": "BloombergNEF",
+   "kind": "expert report",
+   "covers_trends": [
+    "AI data centres drive the first sustained US load growth in a generation",
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "Global and country energy and power-sector pathways to 2050 under an Economic Transition Scenario and a Net Zero Scenario, including data-centre electricity demand by market.",
+   "horizon": "Annual to 2050 (emphasis on 2035)",
+   "latest_edition": {
+    "title": "New Energy Outlook 2026",
+    "date": "2026-05-19",
+    "url": "https://about.bnef.com/insights/clean-energy/new-energy-outlook/"
+   },
+   "update_cadence": "Annual (May)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "A subscription research product: the forecaster's stake is reputational and commercial, there is no adversarial review or published error record, and the base case is a least-cost model run rather than a commitment. Horizon fits."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Public executive summary gives headline series and shares (data centres 23% of PJM demand by 2035; 84 GW of global data-centre capacity in 2025); country and annual detail sits behind the paywall."
+   },
+   "ai": {
+    "score": 5,
+    "why": "May and November 2026 documents; data centres are a separately quantified demand driver by market, with capacity and emissions consequences modelled."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We estimate that data center demand by 2035 makes up 23% in the US PJM market, 18% in Malaysia, and 15% in the UK.",
+     "doc_local_path": "primary/energy/bnef-neo/NEO_2026_Executive_Summary.pdf",
+     "page": 7
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Sharp AI quantification but a paywalled, unincentivised model; only the executive summary is public.",
+   "primary_docs": [
+    {
+     "title": "New Energy Outlook 2026 - Executive Summary (19 May 2026)",
+     "url": "https://elettricomagazine.it/wp-content/uploads/2026/07/NEO_2026_Executive_Summary_compressed.pdf",
+     "local_path": "primary/energy/bnef-neo/NEO_2026_Executive_Summary.pdf",
+     "status": "partial",
+     "bytes": 513940,
+     "pages": 20,
+     "note": "Executive summary only (20 pages), retrieved from a third-party mirror because BNEF's own download is form-gated; the full report is client-only."
+    },
+    {
+     "title": "New Energy Outlook 2026 - full report and data viewer",
+     "url": "https://www.bnef.com/insights/39293",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "BNEF client / Bloomberg Terminal access required."
+    },
+    {
+     "title": "Powering the Data Center Boom: How Grid Policy Can Deliver Clean Power Faster (BNEF for Bloomberg Philanthropies, 11 Nov 2026)",
+     "url": "https://assets.bbhub.io/professional/sites/44/BNEF-BP-Powering-the-Data-Center-Boom-How-Grid-Policy-Can-Deliver-Clean-Power-Faster.pdf",
+     "local_path": "primary/energy/bnef-neo/BNEF-Powering-the-Data-Center-Boom-2026-11-11.pdf",
+     "status": "full",
+     "bytes": 1687829,
+     "pages": 78,
+     "note": ""
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "opec-woo",
+   "name": "OPEC World Oil Outlook 2026",
+   "publisher": "Organization of the Petroleum Exporting Countries",
+   "kind": "expert report",
+   "covers_trends": [
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull"
+   ],
+   "what_it_forecasts": "Global oil demand and liquids supply by region, sector and product, refining capacity and trade flows, in five-year steps to 2050.",
+   "horizon": "2030, 2035, ... 2050",
+   "latest_edition": {
+    "title": "World Oil Outlook 2050 (2026 edition)",
+    "date": "2026-06-18",
+    "url": "https://publications.opec.org/ASSETS/assetdb/woo-2026.pdf"
+   },
+   "update_cadence": "Annual (June/July)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Produced by the producers' organisation whose members benefit from a strong-demand narrative; no scored record and no adversary. Horizon fits. Known directional bias: demand projections (113.3 mb/d in 2030, 124 mb/d in 2050, no peak) sit well above IEA and BNEF."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Regional and sectoral tables with narrated assumptions, refinery additions and closures by region, investment needs; a comparator rather than a source of local detail."
+   },
+   "ai": {
+    "score": 4,
+    "why": "June 2026 edition; 'data centres and AI' are a quantified electricity-demand category (about 4,200 TWh by 2050) but do not move the core oil forecast."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Electricity TFC stemming from data centres and AI is projected to grow by around 3,600 TWh over the outlook period, reaching around 4,200 TWh by 2050.",
+     "doc_local_path": "primary/energy/opec-woo/woo-2026.pdf",
+     "page": 118
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Interested-party comparator: scored low on accuracy conditions by design.",
+   "primary_docs": [
+    {
+     "title": "OPEC World Oil Outlook 2026 (full report)",
+     "url": "https://publications.opec.org/ASSETS/assetdb/woo-2026.pdf",
+     "local_path": "primary/energy/opec-woo/woo-2026.pdf",
+     "status": "full",
+     "bytes": 12506774,
+     "pages": 326,
+     "note": ""
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "exxon-global-outlook",
+   "name": "ExxonMobil Global Outlook 2026",
+   "publisher": "Exxon Mobil Corporation",
+   "kind": "expert report",
+   "covers_trends": [
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull",
+    "AI data centres drive the first sustained US load growth in a generation"
+   ],
+   "what_it_forecasts": "Global energy demand by fuel and sector, electricity demand and CO2 emissions to 2050 as the company's single planning view.",
+   "horizon": "To 2050",
+   "latest_edition": {
+    "title": "ExxonMobil Global Outlook: Our view to 2050 (2026 edition)",
+    "date": "2026-09",
+    "url": "https://corporate.exxonmobil.com/energy-and-innovation/outlook-for-energy"
+   },
+   "update_cadence": "Annual (late summer)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "An oil major's planning view doubling as advocacy ('sustained oil and natural gas investment is more critical than ever'); no scoring and no adversary. Horizon fits. Publication month (September 2026) is from secondary coverage and the company page; the exact day was not confirmed."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Headline global series with brief commentary (electricity demand +65% by 2050; oil and gas above 50% of the mix); only the executive summary was captured."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 edition; data centres are named qualitatively as one driver of electricity demand ('commercial incl data centers') without a separate quantified line in the captured text."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Electricity demand will grow ~65% by 2050, driven by improved living standards in developing countries, industrial activity, data centers, and electric vehicles.",
+     "doc_local_path": "primary/energy/exxon-global-outlook/2026-global-outlook-executive-summary.capture.txt",
+     "page": null
+    },
+    "search_note": "Only the first ~6,000 characters of the executive summary were captured."
+   },
+   "why_top_or_not": "Interested-party comparator with thin public detail.",
+   "primary_docs": [
+    {
+     "title": "ExxonMobil 2026 Global Outlook - Executive summary",
+     "url": "https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2026-global-outlook-executive-summary.pdf",
+     "local_path": "primary/energy/exxon-global-outlook/2026-global-outlook-executive-summary.capture.txt",
+     "status": "partial",
+     "bytes": 2642,
+     "pages": 0,
+     "note": "Direct download returned HTTP 403; partial text capture (first ~6,000 characters) via web fetch tool."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "bp-energy-outlook",
+   "name": "bp Energy Outlook (2025 edition - latest available)",
+   "publisher": "BP p.l.c.",
+   "kind": "expert report",
+   "covers_trends": [
+    "Fuel-price shock and normalisation: 2026 Hormuz oil crisis, cheap US gas, LNG pull"
+   ],
+   "what_it_forecasts": "Global energy demand and supply by fuel to 2050 under two scenarios, Current Trajectory and Below 2 degrees.",
+   "horizon": "To 2050",
+   "latest_edition": {
+    "title": "bp Energy Outlook: 2025 edition",
+    "date": "2025-09-26",
+    "url": "https://www.bp.com/en-US/press-and-publications/energy-outlook"
+   },
+   "update_cadence": "Roughly annual; no 2026 edition was listed on bp.com on 18 Nov 2026",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Explicitly 'not predictions of what is likely to happen or what bp would like to happen': unscored scenarios from an interested party with no binding mechanism, adversary or error record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Several global series per scenario with commentary; almost no named, dated specifics."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2025 edition that predates the 2026 load data and oil shock; data centres appear as a short qualitative theme."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "The seemingly exponential growth in data centres to support the increasing use of artificial intelligence (AI) applications provides an important new source of energy demand, especially in some markets such as the US where growth in power demand over the past decade had virtually stalled.",
+     "doc_local_path": "primary/energy/bp-energy-outlook/bp-energy-outlook-2025.pdf",
+     "page": 4
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Stale (2025) scenario exercise from an interested party; included to score it low explicitly.",
+   "primary_docs": [
+    {
+     "title": "bp Energy Outlook 2025",
+     "url": "https://www.bp.com/api/files/6cqieuqhq4no/master/7l87OSav7R0jHuVkT06Zj5/8a914ca3361df9d09627f7a60d11f0dc/bp-energy-outlook-2025.pdf",
+     "local_path": "primary/energy/bp-energy-outlook/bp-energy-outlook-2025.pdf",
+     "status": "full",
+     "bytes": 3237147,
+     "pages": 56,
+     "note": "Date shown is the PDF creation date (26 Sep 2025); the document itself gives only '2025 edition'."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "ferc-doe-large-load",
+   "name": "FERC large-load interconnection orders (June 2026, Docket RM26-4 and show-cause dockets) and DOE grid reliability report (July 2025)",
+   "publisher": "Federal Energy Regulatory Commission; U.S. Department of Energy",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules",
+    "AI data centres drive the first sustained US load growth in a generation"
+   ],
+   "what_it_forecasts": "Not a numeric forecast: the binding federal rules and deadlines for how data centres connect to the transmission grid; DOE's report projects outage risk in 2030 if plants retire while 50 GW of data-centre load arrives.",
+   "horizon": "Compliance filings within 30-60 days of 18 Jun 2026; rules shape interconnection through the decade. DOE analysis to 2030",
+   "latest_edition": {
+    "title": "Order instituting proceeding on large loads and co-located loads (CAISO, Docket EL26-71), issued 18 Jun 2026",
+    "date": "2026-06-18",
+    "url": "https://www.caiso.com/documents/jun-18-2026-order-instituting-proceeding-large-loads-and-co-located-loads-el26-71.pdf"
+   },
+   "update_cadence": "Event-driven (orders, compliance filings, rulemaking)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "FERC orders are legally binding on grid operators (T1) and issued on a docket contested by utilities, hyperscalers, generators and consumer advocates (T2), so the procedural future they describe is reliable; but they contain no scored forecast, and five-year outcomes depend on rules not yet written. The companion DOE report is a one-off executive-order analysis with no stakes or error record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Named operators, tariffs, dockets and dated compliance deadlines; DOE gives regional GW and loss-of-load figures; little that is local or household-level."
+   },
+   "ai": {
+    "score": 5,
+    "why": "June 2026 orders exist because of data-centre load and regulate it directly; DOE's 2025 report adopts 50 GW of data-centre load by 2030 as an explicit input."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Various organizations' projections for incremental data center electricity use by 2030 range widely (35 GW to 108 GW). DOE adopted a national midpoint assumption of 50 GW by 2030",
+     "doc_local_path": "primary/energy/ferc-doe-large-load/doe-grid-reliability-report-2025-07-07.pdf",
+     "page": 9
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Sets the rules of the game rather than forecasting outcomes; essential context but few liftable numbers.",
+   "primary_docs": [
+    {
+     "title": "FERC order instituting show-cause proceeding on large loads and co-located loads, CAISO (EL26-71), issued 18 Jun 2026",
+     "url": "https://www.caiso.com/documents/jun-18-2026-order-instituting-proceeding-large-loads-and-co-located-loads-el26-71.pdf",
+     "local_path": "primary/energy/ferc-doe-large-load/ferc-2026-06-18-order-large-loads-el26-71.pdf",
+     "status": "full",
+     "bytes": 1469580,
+     "pages": 118,
+     "note": "Copy hosted by CAISO; ferc.gov returns HTTP 403 to automated requests. One of a set of parallel orders to each RTO/ISO; the others and the RM26-4 rulemaking documents were not downloaded."
+    },
+    {
+     "title": "DOE Report on Evaluating U.S. Grid Reliability and Security (7 Jul 2025)",
+     "url": "https://www.energy.gov/sites/default/files/2025-07/DOE%20Final%20EO%20Report%20%28FINAL%20JULY%207%29.pdf",
+     "local_path": "primary/energy/ferc-doe-large-load/doe-grid-reliability-report-2025-07-07.pdf",
+     "status": "full",
+     "bytes": 6544556,
+     "pages": 73,
+     "note": ""
+    },
+    {
+     "title": "FERC Docket RM26-4 (large load interconnection rulemaking) documents",
+     "url": "https://www.ferc.gov/rm26-4",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "ferc.gov returns HTTP 403 to automated requests."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  },
+  {
+   "id": "other-iso-forecasts",
+   "name": "Other ISO/RTO load and capacity forecasts: NYISO 2026 Gold Book and Power Trends; MISO 2026 long-term load forecast (via status update); SPP and CAISO not retrieved",
+   "publisher": "New York ISO; Midcontinent ISO",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "AI data centres drive the first sustained US load growth in a generation",
+    "Reliability margins thin: shortfalls against planning standards, large-load curtailment rules",
+    "What gets built where: gas turbines, nuclear restarts/uprates, solar+storage, transmission"
+   ],
+   "what_it_forecasts": "Zonal energy and peak demand by year (NYISO to 2056) with large-load projects itemised, existing and proposed generators and transmission; MISO peak and data-centre load paths.",
+   "horizon": "NYISO: annual 2026-2056 for load, to 2036 for capacity; MISO: to 2046",
+   "latest_edition": {
+    "title": "NYISO 2026 Load & Capacity Data Report (Gold Book), released April 2026",
+    "date": "2026-04",
+    "url": "https://www.nyiso.com/documents/20142/2226333/2026-Gold-Book-Public.pdf/"
+   },
+   "update_cadence": "Annual (Gold Book April; Power Trends June; MISO forecast annual)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "Independent system operators whose forecasts feed binding reliability planning (T4) and are vetted in stakeholder committees with utilities, generators and state agencies (T2). No money at stake, no multi-year error record in the documents reviewed, and large-load inclusion relies on case-by-case judgement about queue projects."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Gold Book lists zone-by-year MW, named existing and proposed generators with dates, and a large-load table; Power Trends narrates drivers (51 large-load projects, 12,670 MW, about 2,880 MW expected by 2040)."
+   },
+   "ai": {
+    "score": 5,
+    "why": "April-August 2026 documents; large loads (data centres, chip fabs) are a separate column in the NYISO baseline forecast and MISO reports a 103% annual data-centre growth rate to 2030."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "As of May 1, 2026, there are 51 large load projects in the queue which would collectively add nearly 12,670 MW of load to the grid.",
+     "doc_local_path": "primary/energy/other-iso-forecasts/2026-Power-Trends.pdf",
+     "page": 26
+    },
+    "search_note": ""
+   },
+   "why_top_or_not": "Same mechanism as the PJM forecast for smaller AI footprints; a near-duplicate, so not selected.",
+   "primary_docs": [
+    {
+     "title": "NYISO 2026 Load & Capacity Data Report (Gold Book)",
+     "url": "https://www.nyiso.com/documents/20142/2226333/2026-Gold-Book-Public.pdf/",
+     "local_path": "primary/energy/other-iso-forecasts/2026-Gold-Book-Public.pdf",
+     "status": "full",
+     "bytes": 2666002,
+     "pages": 166,
+     "note": "'Released April 2026' on the cover; exact day not stated."
+    },
+    {
+     "title": "NYISO Power Trends 2026 (9 Jun 2026)",
+     "url": "https://www.nyiso.com/documents/20142/2223020/2026-Power-Trends.pdf",
+     "local_path": "primary/energy/other-iso-forecasts/2026-Power-Trends.pdf",
+     "status": "full",
+     "bytes": 5327207,
+     "pages": 56,
+     "note": ""
+    },
+    {
+     "title": "MISO Status Update to the Missouri PSC (19 Aug 2026)",
+     "url": "https://psc.mo.gov/CMSInternetData/Agenda%20Presentations/2026%20Presentations/8-19-26%20MISO%20Status%20Update.pdf",
+     "local_path": "primary/energy/other-iso-forecasts/miso-status-update-missouri-psc-2026-08-19.pdf",
+     "status": "partial",
+     "bytes": 1854721,
+     "pages": 26,
+     "note": "Regulator briefing deck summarising the 2026 MISO long-term load forecast; the forecast report itself was not located."
+    },
+    {
+     "title": "SPP and CAISO/CEC long-term demand forecasts",
+     "url": "",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted in the time available; scored only as part of this family."
+    }
+   ],
+   "tier": "considered",
+   "quotes": []
+  }
+ ]
+}

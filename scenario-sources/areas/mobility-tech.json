@@ -1,0 +1,2504 @@
+{
+ "area_id": "mobility-tech",
+ "area_name": "Mobility, robots & everyday technology",
+ "trends": [
+  {
+   "trend": "robotaxis: driverless ride-hailing goes from a few metros to an ordinary urban service",
+   "why_it_shapes_daily_life": "Waymo alone logged about 1.5 million paid driverless trips a month in California by Sept 2026; whether your city has cars with no driver (and what that does to fares, drivers and parking) is one of the most visible changes of 2026-31."
+  },
+  {
+   "trend": "ev-transition: the car market splits by region (China majority-electric, Europe rule-driven, US stalled after credits ended)",
+   "why_it_shapes_daily_life": "Determines what is in showrooms, what a commute costs, where chargers appear and which factories open or are written off."
+  },
+  {
+   "trend": "robots-drones: robots leave the lab - record factory installs, first humanoid production lines, drone delivery waiting on the BVLOS rule",
+   "why_it_shapes_daily_life": "Changes who (or what) works in warehouses and plants, and whether parcels and take-away arrive by air in suburbs."
+  },
+  {
+   "trend": "air-travel-and-space: flying is capped by aircraft supply while launch cadence and air taxis are the wildcards",
+   "why_it_shapes_daily_life": "A decade-long jet backlog and slow rate ramps mean older planes and firm fares into the 2030s; eVTOL and supersonic remain marginal; rockets fly more than a hundred times a year."
+  },
+  {
+   "trend": "connectivity-devices-agents: ambient connectivity and AI-first devices - satellite broadband and direct-to-phone, 6G around 2030, AI glasses, pricier phones, agents that shop and pay",
+   "why_it_shapes_daily_life": "Coverage dead zones close, the main screen starts to move from phone to wearables and assistants, and checkout increasingly happens through an agent."
+  }
+ ],
+ "sources": [
+  {
+   "id": "spacex-filings",
+   "name": "SpaceX (SPCX) IPO prospectus and Form 10-Q — Starlink, Starlink Mobile and Starship disclosures",
+   "publisher": "Space Exploration Technologies Corp. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "connectivity-devices-agents",
+    "air-travel-and-space"
+   ],
+   "what_it_forecasts": "Starlink subscriber base, satellite generations (V3 broadband in H2 2026, V2 Mobile direct-to-cell in 2027), the $19.6bn EchoStar spectrum closing (Nov 2027), Starship pads/payload and orbital-compute timing (2028).",
+   "horizon": "quarterly actuals; dated commitments 2026-2028 (spectrum close Nov 2027, option/loan dates to 2030)",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended September 30, 2026 (plus 424B4 final prospectus, 12 June 2026)",
+    "date": "2026-10-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+   },
+   "update_cadence": "quarterly 10-Q/8-K; annual 10-K",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T5"
+    ],
+    "why": "Prospectus statements carry Securities Act s.11 liability and the 10-Q Exchange Act liability (T1); underwriters, short-sellers and FCC rivals (Amazon, EchoStar creditors) contest them (T2); the 5-year connectivity outcome is largely in the pipeline: ~9,600 satellites in orbit, 13.6m consumer subscribers, a signed $19.6bn spectrum purchase (T5). No published forecast-error record (T3 fails) and the hard dates stop at 2027-28 (T4 partial). Known issuer optimism on Starship/Mars timing keeps it at 4."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named launch pads (LC-39A, SLC-37), satellite counts, subscriber and ARPU tables, countries served, spectrum MHz and payment schedule, launch counts by quarter, with mechanisms explained."
+   },
+   "ai": {
+    "score": 5,
+    "why": "10-Q dated 2026-10-22; AI is a separately reported segment (\"SI\") with its own KPI (nameplate compute 1.7 GW) and the prospectus dates orbital AI compute satellites to 2028."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Our V3 satellite platform already incorporates proprietary chips, providing a strong foundation for the ability to operate AI-focused electronics in space, and we expect to begin deploying our orbital AI compute satellites as early as 2028.",
+     "doc_local_path": "primary/mobility-tech/spacex-filings/spacex-424b4-prospectus-2026-06-12.html",
+     "page": null
+    },
+    "search_note": "searched AI, SI, nameplate compute, Grok"
+   },
+   "tier": "top",
+   "why_top_or_not": "Highest combined score (14): a 2026 liability-bearing prospectus plus quarterly KPIs that pin down satellite broadband and direct-to-cell for 2026-2028.",
+   "primary_docs": [
+    {
+     "title": "SpaceX Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+     "local_path": "primary/mobility-tech/spacex-filings/spacex-10q-2026q3.html",
+     "status": "full",
+     "bytes": 2366738,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "SpaceX 424B4 final IPO prospectus (filed 2026-06-12)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+     "local_path": "primary/mobility-tech/spacex-filings/spacex-424b4-prospectus-2026-06-12.html",
+     "status": "full",
+     "bytes": 11954091,
+     "pages": 0,
+     "note": "primary HTML document only (12 MB); embedded graphics not saved"
+    },
+    {
+     "title": "SpaceX 8-K Ex. 99.1 Q3 2026 results release (2026-10-20)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+     "local_path": "primary/mobility-tech/spacex-filings/spacex-8k-2026-10-20-ex99-1-q3-results.html",
+     "status": "full",
+     "bytes": 849262,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "We calculate Starlink consumer subscribers for a period as the number of unique service lines at the end of the period. As of (in millions) September 30, 2026 September 30, 2025 Starlink consumer subscribers 13.6 7.2",
+     "doc_local_path": "primary/mobility-tech/spacex-filings/spacex-10q-2026q3.html",
+     "page": null,
+     "locator": "Item 2 MD&A, Key Business Metrics - Connectivity (as of 2026-09-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+     "worldbuilding_use": "Satellite broadband base nearly doubled in a year: 13.6m households/businesses on Starlink by autumn 2026."
+    },
+    {
+     "text": "We expect to commence deploying our next-generation V3 satellites, designed to offer one Tbps of downlink capacity per satellite, using Starship in the second half of 2026 and expect that a single Starship launch will be capable of deploying up to 60 V3 satellites to LEO",
+     "doc_local_path": "primary/mobility-tech/spacex-filings/spacex-424b4-prospectus-2026-06-12.html",
+     "page": null,
+     "locator": "Prospectus, Business - Connectivity",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+     "worldbuilding_use": "Capacity step-change for rural/in-flight broadband once Starship-launched V3 satellites arrive (2026-27)."
+    },
+    {
+     "text": "We plan to expand our mobile constellation by deploying our next-generation V2 Mobile satellites in 2027 which, combined with the EchoStar spectrum acquisition and optimized 5G protocols, are expected to increase capacity by orders of magnitude compared to our first-generation constellation.",
+     "doc_local_path": "primary/mobility-tech/spacex-filings/spacex-424b4-prospectus-2026-06-12.html",
+     "page": null,
+     "locator": "Prospectus, Business - Starlink Mobile",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+     "worldbuilding_use": "Phones connect straight to satellites at usable speeds from 2027-28; dead zones shrink."
+    },
+    {
+     "text": "As of March 31, 2026, we provide Starlink Mobile services to approximately 7.4 million monthly unique devices across approximately 30 countries.",
+     "doc_local_path": "primary/mobility-tech/spacex-filings/spacex-424b4-prospectus-2026-06-12.html",
+     "page": null,
+     "locator": "Prospectus, Business - Starlink Mobile (as of 2026-03-31)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+     "worldbuilding_use": "Baseline for direct-to-cell adoption: 7.4m phones a month already using satellite coverage in early 2026."
+    },
+    {
+     "text": "Our V3 satellite platform already incorporates proprietary chips, providing a strong foundation for the ability to operate AI-focused electronics in space, and we expect to begin deploying our orbital AI compute satellites as early as 2028.",
+     "doc_local_path": "primary/mobility-tech/spacex-filings/spacex-424b4-prospectus-2026-06-12.html",
+     "page": null,
+     "locator": "Prospectus, Business - AI/orbital compute",
+     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+     "worldbuilding_use": "Dated claim for first orbital AI compute satellites (2028) - a visible space milestone for the scenario."
+    }
+   ]
+  },
+  {
+   "id": "tesla-filings",
+   "name": "Tesla Form 10-Q, Q3 2026 shareholder update and the 2025 CEO Performance Award milestones",
+   "publisher": "Tesla, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "robotaxis",
+    "robots-drones",
+    "ev-transition"
+   ],
+   "what_it_forecasts": "Capex (>$20bn in 2026), Robotaxi/Cybercab, Optimus, Semi and battery-plant ramps, plus the board-set 10-year pay milestones: 20m vehicles, 10m FSD subscriptions, 1m bots, 1m Robotaxis.",
+   "horizon": "quarterly; current-year capex guidance; incentive milestones measured to 2035",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended September 30, 2026",
+    "date": "2026-10-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+   },
+   "update_cadence": "quarterly 10-Q + shareholder update; annual proxy",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Securities liability is live (the 10-Q itself describes a class action over Autopilot/FSD/Robotaxi statements) (T1); the stock is among the most shorted and litigated (T2); the 2025 CEO award ties ~424m shares to product milestones over 10 years (T4). But there is no published error record and a long, well-documented pattern of missed autonomy/product timelines, so the 3-test score is cut to 3 for directional optimism."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named sites and products with dates and capacities (Cybercab rides in Austin from 3 Sept 2026, Optimus line in Fremont, Megafactory Texas 50 GWh, Austin fab equipment in 2027), plus exact milestone quantities."
+   },
+   "ai": {
+    "score": 5,
+    "why": "10-Q filed 2026-10-22; autonomy (\"SI\") is the stated driver of capex (>$20bn), R&D (+69% y/y) and the incentive plan; compute is quantified (400 MW by year-end)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We plan to reach 400 MW of SI training compute by the end of the year, supporting the development of both vehicle and humanoid robot autonomy software.",
+     "doc_local_path": "primary/mobility-tech/tesla-filings/tesla-8k-2026-10-21-ex99-1-q3-update.html",
+     "page": null
+    },
+    "search_note": "searched SI, AI, Robotaxi, Optimus, FSD"
+   },
+   "tier": "top",
+   "why_top_or_not": "The only source that attaches a formal multi-year financial incentive to explicit robotaxi, humanoid and FSD-subscription quantities; covers three of the five trends.",
+   "primary_docs": [
+    {
+     "title": "Tesla Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+     "local_path": "primary/mobility-tech/tesla-filings/tesla-10q-2026q3.html",
+     "status": "full",
+     "bytes": 1605254,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Tesla 8-K Ex. 99.1 \"Q3 2026 Update\" shareholder deck (2026-10-21)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+     "local_path": "primary/mobility-tech/tesla-filings/tesla-8k-2026-10-21-ex99-1-q3-update.html",
+     "status": "full",
+     "bytes": 49458,
+     "pages": 0,
+     "note": "HTML text of the deck; chart images not saved"
+    },
+    {
+     "title": "Tesla DEF 14A (2025-09-17) describing the 2025 CEO Performance Award",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+     "local_path": "primary/mobility-tech/tesla-filings/tesla-def14a-2025-09-17-ceo-performance-award.html",
+     "status": "full",
+     "bytes": 4673989,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Tesla DEF 14A for the 2026 annual meeting (2026-10-19)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+     "local_path": "primary/mobility-tech/tesla-filings/tesla-def14a-2026-10-19.html",
+     "status": "full",
+     "bytes": 1714720,
+     "pages": 0,
+     "note": "routine proxy (directors, say-on-pay); no new product milestones found"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The four Product Goals are 20 Million Tesla Vehicles Delivered, 10 Million Active FSD Subscriptions, 1 Million Bots Delivered and 1 Million Robotaxis in Commercial Operation.",
+     "doc_local_path": "primary/mobility-tech/tesla-filings/tesla-def14a-2025-09-17-ceo-performance-award.html",
+     "page": null,
+     "locator": "Proposal on 2025 CEO Performance Award - Product Goals",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+     "worldbuilding_use": "The yardsticks the board pays for by 2035: 1m robotaxis and 1m humanoids as the \"success\" case."
+    },
+    {
+     "text": "We currently expect our capital expenditures to be in excess of $20 billion in 2026, driven by our SI initiatives, including investments in compute infrastructure and data centers, the expansion and ramp of our manufacturing and R&D production lines and facilities, and growth in our fleet of company-operated SI-enabled assets and our retail, service and charging footprint.",
+     "doc_local_path": "primary/mobility-tech/tesla-filings/tesla-10q-2026q3.html",
+     "page": null,
+     "locator": "Item 2 MD&A - Cash Flow and Capital Expenditure Trends",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+     "worldbuilding_use": "Scale of money behind robotaxi fleets and robot lines in 2026: over $20bn in one year."
+    },
+    {
+     "text": "We started providing Robotaxi rides using Cybercabs on September 3 in Austin. [...] We reached nearly two million cumulative unsupervised miles for our Robotaxi service as of the end of the quarter.",
+     "doc_local_path": "primary/mobility-tech/tesla-filings/tesla-8k-2026-10-21-ex99-1-q3-update.html",
+     "page": null,
+     "locator": "Q3 2026 Update - Highlights / SI & Other Services",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+     "worldbuilding_use": "Where Tesla driverless service actually stood in autumn 2026: steering-wheel-free cars in Austin, ~2m unsupervised miles."
+    },
+    {
+     "text": "Optimus production began in Fremont on our high-volume lines. The bots coming off this line are the first production-quality bots that we have manufactured. While we will continue to iterate on the hardware and manufacturing process, we have proven that the current manufacturing process for Optimus is suitable for a commercial product.",
+     "doc_local_path": "primary/mobility-tech/tesla-filings/tesla-8k-2026-10-21-ex99-1-q3-update.html",
+     "page": null,
+     "locator": "Q3 2026 Update - Manufacturing & Hardware, Robotics",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+     "worldbuilding_use": "Humanoid robots move from prototype to a production line in Fremont in late 2026."
+    },
+    {
+     "text": "To date, we have received four additional FSD approvals since the end of Q2 (Croatia, Slovenia, Czech Republic and Slovakia) with FSD now available in a total of nine EU countries and used by over 100,000 customers",
+     "doc_local_path": "primary/mobility-tech/tesla-filings/tesla-8k-2026-10-21-ex99-1-q3-update.html",
+     "page": null,
+     "locator": "Q3 2026 Update - FSD (Supervised)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+     "worldbuilding_use": "Supervised self-driving spreading country by country in Europe during 2026."
+    }
+   ]
+  },
+  {
+   "id": "prediction-markets-mobility-tech",
+   "name": "Kalshi and Polymarket contracts on robotaxi cities, EV share, Starlink, Starship, Tesla/Boeing deliveries and AI devices",
+   "publisher": "Kalshi (CFTC-regulated DCM); Polymarket",
+   "kind": "market price",
+   "covers_trends": [
+    "robotaxis",
+    "ev-transition",
+    "connectivity-devices-agents",
+    "robots-drones",
+    "air-travel-and-space"
+   ],
+   "what_it_forecasts": "Probabilities that named, dated events occur: Waymo service in specific cities by end-2026/2027, EV share of light-duty vehicle sales in Jan 2030 (geography not stated in the contract rules), Starlink subscriber counts, Starship flights, Optimus on sale, OpenAI device type.",
+   "horizon": "mostly 1-14 months; a few contracts to 2028, 2030 and 2035",
+   "latest_edition": {
+    "title": "API snapshot of 34 Kalshi events (239 markets) and 19 Polymarket events (76 open markets)",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Traders lose money when wrong (T1), prices are set by many independent participants (T2) and every contract is settled and scoreable (T3). But almost all tenors are far shorter than 5 years (T4 fails), nothing is pipeline-locked (T5 fails), and the long-dated contracts are thin (e.g. EV-share-2030 open interest in the low thousands of contracts; several 2027 Waymo-city markets have zero volume and 15-cent spreads), so the rubric anchor \"real money but much shorter than 5 years\" applies."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Dozens of named cities, companies, thresholds and dates with prices and volumes, but no reasoning or mechanisms."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Snapshot dated 2026-11-18; the contracts are themselves about AI deployment (driverless service by city, humanoid on sale, OpenAI hardware) and reprice continuously on that news."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "KXCOMPANYACTIONWAYMO-27,When will Waymo announce 1 million paid rides per week?,KXCOMPANYACTIONWAYMO-27-27JAN01,Before 2027,0.3000,0.3700,0.3300,9335.98,1823.31,2027-01-01T04:59:00Z,active",
+     "doc_local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.csv",
+     "page": null
+    },
+    "search_note": "AI deployment is the contract subject (Waymo, Optimus, OpenAI device)"
+   },
+   "tier": "top",
+   "why_top_or_not": "The only genuine market price in the area and the only source that spans all five trends with dated, named, falsifiable events; weak beyond 2027.",
+   "primary_docs": [
+    {
+     "title": "Kalshi snapshot CSV (34 events, bid/ask/last/volume/open interest)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/{event_ticker}?with_nested_markets=true",
+     "local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 39117,
+     "pages": 0,
+     "note": "retrieved 2026-11-18T14:32Z via public API; prices in dollars per $1 contract"
+    },
+    {
+     "title": "Kalshi snapshot raw JSON incl. settlement rules",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/{event_ticker}?with_nested_markets=true",
+     "local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 630327,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Polymarket snapshot CSV (19 events)",
+     "url": "https://gamma-api.polymarket.com/events/{id}",
+     "local_path": "primary/mobility-tech/prediction-markets-mobility-tech/polymarket_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 17054,
+     "pages": 0,
+     "note": "retrieved 2026-11-18T14:33Z via Gamma API"
+    },
+    {
+     "title": "Polymarket snapshot raw JSON",
+     "url": "https://gamma-api.polymarket.com/events/{id}",
+     "local_path": "primary/mobility-tech/prediction-markets-mobility-tech/polymarket_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 461152,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Metaculus questions on robotaxis/humanoids (cross-check)",
+     "url": "https://www.metaculus.com/api/posts/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "API returned 403 \"only available to authenticated users\"; site search page also 403"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "KXWAYMOCITY-27DEC,Where will Waymo operate before 2028?,KXWAYMOCITY-27DEC-DET,\"Detroit, MI\",0.7300,0.8600,0.7200,448.00,448.00,2027-12-31T15:00:00Z,active [...] KXWAYMOCITY-27DEC,Where will Waymo operate before 2028?,KXWAYMOCITY-27DEC-NY,\"New York, NY\",0.1000,0.2500,0.0000,0.00,0.00,2027-12-31T15:00:00Z,active",
+     "doc_local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Kalshi KXWAYMOCITY-27DEC, as of 2026-11-18T14:32Z (columns: yes_bid, yes_ask, last, volume, open_interest, close)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/{event_ticker}?with_nested_markets=true",
+     "worldbuilding_use": "Market odds Waymo is carrying paying riders by end-2027: Detroit ~73-86%, New York only ~10-25%."
+    },
+    {
+     "text": "EVSHARE-30JAN,EV market share in 2030?,EVSHARE-30JAN-20,Above 20%,0.5900,0.6200,0.6300,11956.60,3954.08,2030-05-01T15:00:00Z,active [...] EVSHARE-30JAN,EV market share in 2030?,EVSHARE-30JAN-30,Above 30%,0.4200,0.4500,0.4600,15272.78,3644.51,2030-05-01T15:00:00Z,active [...] EVSHARE-30JAN,EV market share in 2030?,EVSHARE-30JAN-50,Above 50%,0.2100,0.2500,0.2100,9604.51,3820.90,2030-05-01T15:00:00Z,active",
+     "doc_local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Kalshi EVSHARE-30JAN (share of electric light-duty vehicles sold, Jan 2030), as of 2026-11-18",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/{event_ticker}?with_nested_markets=true",
+     "worldbuilding_use": "Traders: ~60% odds EV share of light-vehicle sales tops 20% in Jan 2030, ~43% for 30%, ~23% for 50%."
+    },
+    {
+     "text": "KXSPCX-27MAYSUBS,Starlink subscribers in Q1 2027,KXSPCX-27MAYSUBS-16200000,Above 16.2 million,0.7700,0.8600,0.8300,2.18,2.18,2027-09-14T04:00:00Z,active [...] KXSPCX-27MAYSUBS,Starlink subscribers in Q1 2027,KXSPCX-27MAYSUBS-16500000,Above 16.5 million,0.6100,0.7000,0.7000,0.69,0.69,2027-09-14T04:00:00Z,active [...] KXSPCX-27MAYSUBS,Starlink subscribers in Q1 2027,KXSPCX-27MAYSUBS-16800000,Above 16.8 million,0.4100,0.5000,0.0000,0.00,0.00,2027-09-14T04:00:00Z,active",
+     "doc_local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Kalshi KXSPCX-27MAYSUBS, as of 2026-11-18",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/{event_ticker}?with_nested_markets=true",
+     "worldbuilding_use": "Market-implied Starlink consumer base for Q1 2027: ~80% above 16.2m, ~65% above 16.5m, ~45% above 16.8m."
+    },
+    {
+     "text": "1159168,SpaceX becomes a US mobile carrier by ___?,\"SpaceX becomes a US mobile carrier by December 31, 2027?\",\"[\"\"Yes\"\", \"\"No\"\"]\",\"[\"\"0.49\"\", \"\"0.51\"\"]\",0.47,0.51,0.45,26566.490009999998,3030.3401,2028-01-01T04:59:00Z",
+     "doc_local_path": "primary/mobility-tech/prediction-markets-mobility-tech/polymarket_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Polymarket event 1159168, as of 2026-11-18T14:33Z (outcome prices Yes/No)",
+     "url": "https://gamma-api.polymarket.com/events/{id}",
+     "worldbuilding_use": "Coin-flip odds that SpaceX is itself a US mobile carrier by end-2027."
+    },
+    {
+     "text": "TESLAOPTIMUS-26DEC31,Tesla Optimus released this year?,TESLAOPTIMUS-26DEC31,Before 2027,0.0200,0.0300,0.0300,500675.88,176775.22,2026-12-31T04:59:00Z,active [...] KXROBOTMARS-35,Will a humanoid robot walk on Mars before a human does?,KXROBOTMARS-35,Before 2035,0.4860,0.5390,0.4860,57729.93,16868.71,2035-01-01T15:00:00Z,active",
+     "doc_local_path": "primary/mobility-tech/prediction-markets-mobility-tech/kalshi_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Kalshi TESLAOPTIMUS-26DEC31 (humanoid on sale to general public before 2027) and KXROBOTMARS-35, as of 2026-11-18",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/{event_ticker}?with_nested_markets=true",
+     "worldbuilding_use": "~2-3% odds a humanoid is on public sale in 2026; ~50% that a humanoid walks on Mars before humans."
+    }
+   ]
+  },
+  {
+   "id": "iea-global-ev-outlook",
+   "name": "IEA Global EV Outlook 2026",
+   "publisher": "International Energy Agency",
+   "kind": "expert report",
+   "covers_trends": [
+    "ev-transition",
+    "robotaxis"
+   ],
+   "what_it_forecasts": "EV sales, stock, battery demand, charger stock and manufacturing capacity by country/region to 2030 and 2035 under stated-policy (STEPS) and current-policy (CPS) scenarios, plus a 2026 sales nowcast.",
+   "horizon": "2026 nowcast; scenarios to 2030 and 2035",
+   "latest_edition": {
+    "title": "Global EV Outlook 2026: Growing sales amid an energy crisis (revised version, May 2026)",
+    "date": "2026-05-20",
+    "url": "https://www.iea.org/reports/global-ev-outlook-2026"
+   },
+   "update_cadence": "annual (May)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "No money or licence at stake and no published error record (T1-T3 fail), but the scenarios are built on legislated policies and announced plant/charger pipelines that reach 2030-35 (T4, T5): e.g. it marks US cell output at only ~40% of committed nameplate capacity. Known bias: past IEA stated-policy outlooks under-forecast EV uptake in China and over-relied on announced Western capacity."
+   },
+   "richness": {
+    "score": 5,
+    "why": "295 pages naming countries, automakers (targets by OEM, Annex G), plants, chargers, GWh and sales shares by year, with scenario assumptions spelled out."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Published 2026-05-20 with a dedicated chapter on software, autonomous vehicles and AI (robotaxi fleet 8 000 vehicles in ~20 cities; 2035 estimates of 0.7-3 million), but the EV sales/energy projections are not adjusted for autonomy."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Estimates of global robotaxi fleet size in 2035 range from 700 000 to 3 million vehicles, which are likely to remain concentrated in 40 to 80 cities globally.",
+     "doc_local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "page": 167
+    },
+    "search_note": "searched AI, artificial intelligence, autonomous, robotaxi"
+   },
+   "tier": "top",
+   "why_top_or_not": "Richest country-by-country EV and charging outlook, 2026-dated, pipeline-based; the reference for the EV/charging trend despite having no money at stake.",
+   "primary_docs": [
+    {
+     "title": "Global EV Outlook 2026 (full report, revised version May 2026)",
+     "url": "https://iea.blob.core.windows.net/assets/857aa690-2a43-453f-9f12-147cc8f0a1dd/GlobalEVOutlook2026.pdf",
+     "local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "status": "full",
+     "bytes": 20175354,
+     "pages": 295,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Global electric car sales are expected to grow to 23 million in 2026, representing 28% of total car sales.",
+     "doc_local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "page": 11,
+     "locator": "Executive summary",
+     "url": "https://iea.blob.core.windows.net/assets/857aa690-2a43-453f-9f12-147cc8f0a1dd/GlobalEVOutlook2026.pdf",
+     "worldbuilding_use": "More than one in four new cars worldwide is electric in 2026."
+    },
+    {
+     "text": "In the STEPS, US battery cell production reaches less than 350 GWh in 2030 and just over 400 GWh in 2035, primarily serving domestic needs, with the remainder exported to Mexico – equivalent to only about 40% of the nameplate capacity of currently committed projects.",
+     "doc_local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "page": 230,
+     "locator": "Chapter 9, Special focus: manufacturing and trade outlook - United States",
+     "url": "https://iea.blob.core.windows.net/assets/857aa690-2a43-453f-9f12-147cc8f0a1dd/GlobalEVOutlook2026.pdf",
+     "worldbuilding_use": "Half-empty US battery plants through 2030-35: committed capacity runs at ~40%."
+    },
+    {
+     "text": "In the CPS, the European Union’s public charger stock reaches 2 million public charging points by 2030 and roughly 3.5 million by 2035.",
+     "doc_local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "page": 241,
+     "locator": "Chapter 10, Light-duty vehicle charging",
+     "url": "https://iea.blob.core.windows.net/assets/857aa690-2a43-453f-9f12-147cc8f0a1dd/GlobalEVOutlook2026.pdf",
+     "worldbuilding_use": "What EU streets look like: public chargers roughly doubling to 2 million by 2030."
+    },
+    {
+     "text": "In the STEPS, electric car sales in Southeast Asia reach 40% of total car sales by 2030 and approach 60% by 2035, up from close to 20% in 2025.",
+     "doc_local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "page": 210,
+     "locator": "Chapter 9, Vehicle outlook by region",
+     "url": "https://iea.blob.core.windows.net/assets/857aa690-2a43-453f-9f12-147cc8f0a1dd/GlobalEVOutlook2026.pdf",
+     "worldbuilding_use": "Bangkok/Jakarta/Hanoi showrooms: 4 in 10 new cars electric by 2030."
+    },
+    {
+     "text": "Estimates of global robotaxi fleet size in 2035 range from 700 000 to 3 million vehicles, which are likely to remain concentrated in 40 to 80 cities globally.",
+     "doc_local_path": "primary/mobility-tech/iea-global-ev-outlook/GlobalEVOutlook2026.pdf",
+     "page": 167,
+     "locator": "Chapter 8, Autonomous vehicles",
+     "url": "https://iea.blob.core.windows.net/assets/857aa690-2a43-453f-9f12-147cc8f0a1dd/GlobalEVOutlook2026.pdf",
+     "worldbuilding_use": "Ceiling/floor for driverless fleets in 2035 and how geographically concentrated they stay."
+    }
+   ]
+  },
+  {
+   "id": "boeing-airbus-backlog",
+   "name": "Boeing Form 10-Q backlog and production-rate disclosures, Boeing Commercial Market Outlook 2026-2045 and Airbus Global Market Forecast 2026-2045",
+   "publisher": "The Boeing Company (SEC EDGAR; boeing.com); Airbus SE",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "air-travel-and-space"
+   ],
+   "what_it_forecasts": "Contracted commercial-aircraft backlog ($612bn at Boeing), monthly production rates and certification/first-delivery dates (737 at 47/month, 777-9 in 2027, 777-8 not before 2030), and 20-year fleet/delivery demand by region.",
+   "horizon": "backlog and programme dates to ~2030+; market outlooks 2026-2045",
+   "latest_edition": {
+    "title": "Boeing Form 10-Q for the quarter ended September 30, 2026 (CMO published 2026-07-17; Airbus GMF 2026-07-08)",
+    "date": "2026-10-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm"
+   },
+   "update_cadence": "quarterly 10-Q; annual CMO/GMF (July)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Backlog is contracted orders reported under securities law and audited revenue rules (T1); airlines, lessors, the FAA and short-sellers all test it (T2); the order book stretches beyond 5 years (T4) and the aircraft to be flown in 2031 are largely already ordered (T5). No published forecast-error record (T3). Known measurable bias: rate-ramp and certification dates slip (this very 10-Q delays 737 and 787 rate increases; 777X first delivery has moved from 2020 to 2027), so 4 not 5."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Programme-level rates, inventories, certification milestones and dollar backlog in the 10-Q; CMO/GMF give deliveries by region and aircraft type with drivers; few named airline-level facts."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 editions; AI appears only qualitatively as a driver of semiconductor air cargo in the CMO; the Airbus GMF deck and Boeing 10-Q have no AI treatment (searched AI, artificial intelligence, autonom)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Demand for high-value, high-tech goods transported by air will accelerate in the AI-era, where speed, security and reliability will be essential.",
+     "doc_local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-cmo-2026.pdf",
+     "page": 9
+    },
+    "search_note": "10-Q and Airbus GMF: searched AI, artificial intelligence, autonomous, automation - none found"
+   },
+   "tier": "top",
+   "why_top_or_not": "Strongest accuracy conditions in the area (4 tests): what people fly in 2031 is constrained by a contracted backlog and slow, regulator-gated rate ramps.",
+   "primary_docs": [
+    {
+     "title": "Boeing Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+     "local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-10q-2026q3.html",
+     "status": "full",
+     "bytes": 2112545,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Boeing Commercial Market Outlook 2026-2045",
+     "url": "https://www.boeing.com/content/dam/boeing/v2/products/commercial-market-outlook/downloads/2026-cmo-download.pdf",
+     "local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-cmo-2026.pdf",
+     "status": "full",
+     "bytes": 15983930,
+     "pages": 33,
+     "note": ""
+    },
+    {
+     "title": "Airbus Global Market Forecast 2026-2045 presentation (July 2026)",
+     "url": "https://mediaassets.airbus.com/pm_38_916_916404-8waq6egqgj.pdf?fileName=en-presentation-gmf-2026-2045.pdf",
+     "local_path": "primary/mobility-tech/boeing-airbus-backlog/airbus-gmf-2026-2045-presentation.pdf",
+     "status": "full",
+     "bytes": 11932628,
+     "pages": 39,
+     "note": "39-page presentation deck; the GMF Excel workbook and freighter forecast were not downloaded"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "During the second quarter of 2026, the 737 program began to transition from a production rate of 42 to 47 per month with the concurrence of the Federal Aviation Administration (FAA). We continue to work toward stabilizing production at 47 per month and now expect to stabilize in 2027.",
+     "doc_local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-10q-2026q3.html",
+     "page": null,
+     "locator": "Item 2 MD&A - Commercial Airplanes, 737 Program",
+     "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+     "worldbuilding_use": "Narrowbody supply stays tight: Boeing only stabilises at 47 a month in 2027."
+    },
+    {
+     "text": "We continue to expect first delivery of the 777-9 to occur in 2027. We continue to anticipate first delivery of the 777-8 Freighter to occur approximately two years after the first delivery of the 777-9. First delivery of the 777-8 passenger aircraft is not expected to occur before 2030.",
+     "doc_local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-10q-2026q3.html",
+     "page": null,
+     "locator": "Item 2 MD&A - 777 and 777X Programs",
+     "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+     "worldbuilding_use": "When passengers first board a 777X (2027) and how late the ultra-long-range 777-8 arrives (2030+)."
+    },
+    {
+     "text": "BCA total backlog increased from $567,290 million as of December 31, 2025, to $611,833 million at September 30, 2026, reflecting new orders in excess of deliveries.",
+     "doc_local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-10q-2026q3.html",
+     "page": null,
+     "locator": "Item 2 MD&A - Commercial Airplanes backlog",
+     "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+     "worldbuilding_use": "Airlines keep ordering faster than jets are built; fares and fleet age stay elevated."
+    },
+    {
+     "text": "In total, the global commercial fleet will grow by 22,150 airplanes, or nearly 80%, with 43,625 total new deliveries expected through 2045.",
+     "doc_local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-cmo-2026.pdf",
+     "page": 8,
+     "locator": "CMO 2026 - Global Traffic, Fleet & Airplane Demand Outlook",
+     "url": "https://www.boeing.com/content/dam/boeing/v2/products/commercial-market-outlook/downloads/2026-cmo-download.pdf",
+     "worldbuilding_use": "Long-run scale of flying: fleet nearly doubles by 2045."
+    },
+    {
+     "text": "Companies in the region currently generate over 35% of global semiconductor sales. To transport these and other AI-related goods, the region’s freighter fleet is projected to more than double by 2045.",
+     "doc_local_path": "primary/mobility-tech/boeing-airbus-backlog/boeing-cmo-2026.pdf",
+     "page": 24,
+     "locator": "CMO 2026 - Northeast Asia regional forecast",
+     "url": "https://www.boeing.com/content/dam/boeing/v2/products/commercial-market-outlook/downloads/2026-cmo-download.pdf",
+     "worldbuilding_use": "AI hardware trade shows up as more freighters out of Korea/Japan/Taiwan."
+    }
+   ]
+  },
+  {
+   "id": "cpuc-dmv-av-data",
+   "name": "California CPUC AV Program quarterly reports (Waymo, Zoox, others) and DMV driverless permit list",
+   "publisher": "California Public Utilities Commission; California DMV",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "robotaxis"
+   ],
+   "what_it_forecasts": "Not a forecast: verified monthly counts of driverless paid trips, passenger-miles, deadhead miles, chargers and census-tract coverage for each permitted operator, plus the list of approved driverless operating areas.",
+   "horizon": "quarterly actuals (latest Jul-Sep 2026); permits define the near-term expansion envelope",
+   "latest_edition": {
+    "title": "AV Program Quarterly Reporting - 2026 Q3 (Waymo deployment report dated 2 Nov 2026; page last updated 17 Nov 2026)",
+    "date": "2026-11-17",
+    "url": "https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs/quarterly-reporting"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Reports are filed with a signed verification and the operating permit is at stake (T1); CPUC staff, cities and researchers audit the public files (T2); a continuous quarterly record exists since 2021 (T3). But it is measurement, not forecast: no horizon (T4 fails) and only the permit pipeline hints at the future (T5 partial). Scored 3 rather than 4 because nothing in it binds beyond the current quarter."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Month-by-month trips, VMT by period, passengers, charger sites and census tracts for named operators (Waymo 1,528,823 California trips in Sept 2026; Zoox ~14,000 a month), plus narrative responses."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Q3 2026 data filed 2 Nov 2026; the subject is AI-driven service itself, measured monthly."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "PSG0038152,2026,9,\"1,528,823\",\"613,026\",\"4,656,986.54\",\"1,798,646.52\",\"6,666,426.69\",\"13,122,059.75\",\"2,487,227\",\"10,422,324.08\",0,0,0,0",
+     "doc_local_path": "primary/mobility-tech/cpuc-dmv-av-data/extracted/waymo-deployment-2026q3__2026_11_AV_Month_Part0-Deployment.csv",
+     "page": null
+    },
+    "search_note": "data row = Waymo driverless deployment, Sept 2026 (TotalTrips first numeric field)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best ground truth for robotaxi scale (ties the top group on raw score) but backward-looking; use it to calibrate the forecasts rather than as one.",
+   "primary_docs": [
+    {
+     "title": "CPUC AV Program Quarterly Reporting page (index of all operator files)",
+     "url": "https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs/quarterly-reporting",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/cpuc-av-quarterly-reporting-page-2026-11-18.html",
+     "status": "full",
+     "bytes": 113729,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Waymo Driverless Deployment 2026 Q3 - complete public zip",
+     "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/av-programs/waymo-deployment-2026q3.zip",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/waymo-deployment-2026q3.zip",
+     "status": "full",
+     "bytes": 19379528,
+     "pages": 0,
+     "note": "19 MB zip, expands to >1 GB of trip-level CSVs; only summary files kept extracted"
+    },
+    {
+     "title": "AV Pilot programs 2026 Q3 - complete public zip (Waymo pilot, Zoox, WeRide, Nuro, Tensor)",
+     "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/av-programs/av-pilot-2026q3.zip",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/av-pilot-2026q3.zip",
+     "status": "full",
+     "bytes": 7980090,
+     "pages": 0,
+     "note": "8 MB zip; includes Zoox driverless month-level CSV (Jul-Sep 2026: 14,053 / 14,579 / 14,066 trips)"
+    },
+    {
+     "title": "Waymo deployment month-level totals, Jul-Sep 2026 (extracted)",
+     "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/av-programs/waymo-deployment-2026q3.zip",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/extracted/waymo-deployment-2026q3__2026_11_AV_Month_Part0-Deployment.csv",
+     "status": "full",
+     "bytes": 621,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Waymo deployment month-level totals, Apr-Jun 2026 (extracted from Q2 zip)",
+     "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/av-programs/waymo-deployment-2026q2.zip",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/extracted/waymo-deployment-2026q2__2026_08_AV_Month_Part0-Deployment.csv",
+     "status": "full",
+     "bytes": 618,
+     "pages": 0,
+     "note": "Q2 zip (64 MB) downloaded, summary files extracted, zip then deleted to save space"
+    },
+    {
+     "title": "Waymo Q3 2026 narrative responses (2 Nov 2026)",
+     "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/av-programs/waymo-deployment-2026q3.zip",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/extracted/waymo-deployment-2026q3__Waymo_Narrative_Responses_November_2_2026.pdf",
+     "status": "full",
+     "bytes": 211011,
+     "pages": 7,
+     "note": ""
+    },
+    {
+     "title": "Zoox Q3 2026 narrative responses (2 Nov 2026)",
+     "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/av-programs/av-pilot-2026q3.zip",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/extracted/av-pilot-2026q3__Zoox_2026-11-02_Zoox_Q3_2026_CPUC_Quarterly_Report_-_Narrative_Responses.pdf",
+     "status": "full",
+     "bytes": 114633,
+     "pages": 6,
+     "note": ""
+    },
+    {
+     "title": "California DMV autonomous vehicle permit holders (driverless testing/deployment areas; updated 5 Nov 2026)",
+     "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/",
+     "local_path": "primary/mobility-tech/cpuc-dmv-av-data/ca-dmv-av-permit-holders-2026-11-18.html",
+     "status": "full",
+     "bytes": 92420,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "alphabet-waymo",
+   "name": "Alphabet Form 10-Q (Other Bets / Waymo financing) and official Waymo pages",
+   "publisher": "Alphabet Inc. (SEC EDGAR); Waymo LLC",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "robotaxis"
+   ],
+   "what_it_forecasts": "Other Bets revenue/loss and Waymo financing (a $5.0bn secured term loan maturing Oct 2032); Waymo pages give rider-only miles and city roll-out announcements but no numeric guidance.",
+   "horizon": "quarterly actuals; loan tenor to 2032",
+   "latest_edition": {
+    "title": "Alphabet Form 10-Q for the quarter ended September 30, 2026",
+    "date": "2026-10-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Securities liability (T1) and intense analyst/short scrutiny (T2); secured lenders have now priced Waymo credit to 2032 at SOFR+5.25%. But Alphabet gives no Waymo-specific forward targets in filings (fleet, cities and ride counts come from blog posts and interviews with no liability), and there is no error record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Filing gives a few hard numbers (Other Bets loss up $621m y/y; $5.0bn loan terms); Waymo safety hub gives rider-only miles (271.3M through June 2026); city launches are in undated blog posts."
+   },
+   "ai": {
+    "score": 5,
+    "why": "10-Q filed 2026-10-29; Waymo is an AI product and Alphabet capex/AI is quantified throughout; Waymo itself is only visible via Other Bets."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "In October 2026, Waymo entered into a Credit Agreement for a $5.0 billion senior secured term loan that matures in October 2032.",
+     "doc_local_path": "primary/mobility-tech/alphabet-waymo/alphabet-10q-2026q3.html",
+     "page": null
+    },
+    "search_note": "searched Waymo, Other Bets, autonomous"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Liability-bearing but nearly silent on Waymo operations; the concrete Waymo numbers live in CPUC data and prediction markets.",
+   "primary_docs": [
+    {
+     "title": "Alphabet Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+     "local_path": "primary/mobility-tech/alphabet-waymo/alphabet-10q-2026q3.html",
+     "status": "full",
+     "bytes": 2530719,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Alphabet 8-K Ex. 99.1 Q3 2026 earnings release",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+     "local_path": "primary/mobility-tech/alphabet-waymo/alphabet-8k-2026-10-28-ex99-1-q3-earnings.html",
+     "status": "full",
+     "bytes": 370594,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Waymo Safety Impact hub (rider-only miles through June 2026)",
+     "url": "https://waymo.com/safety/impact/",
+     "local_path": "primary/mobility-tech/alphabet-waymo/waymo-safety-impact-hub-2026-11-18.html",
+     "status": "partial",
+     "bytes": 397241,
+     "pages": 0,
+     "note": "static HTML only; interactive dashboard data not captured"
+    },
+    {
+     "title": "Waypoint (official Waymo blog) index page",
+     "url": "https://waymo.com/blog/",
+     "local_path": "primary/mobility-tech/alphabet-waymo/waymo-blog-index-2026-11-18.html",
+     "status": "partial",
+     "bytes": 139907,
+     "pages": 0,
+     "note": "index page only (latest posts 5-10 Nov 2026); individual city-launch posts not downloaded"
+    },
+    {
+     "title": "Swiss Re - Waymo insurance-claims study (Dec 2024)",
+     "url": "https://www.swissre.com/reinsurance/property-and-casualty/solutions/automotive-solutions/study-autonomous-vehicles-safety-collaboration-with-waymo.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "403 (bot challenge); not retried by other means"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "uber-lyft-av-filings",
+   "name": "Uber and Lyft Form 10-Qs - autonomous-vehicle partnership and risk disclosures",
+   "publisher": "Uber Technologies, Inc.; Lyft, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "robotaxis"
+   ],
+   "what_it_forecasts": "How the two ride-hail networks describe AV supply on their platforms (partner launches by city, AV investments, driver-displacement risk); no numeric AV guidance.",
+   "horizon": "quarterly; qualitative outlook",
+   "latest_edition": {
+    "title": "Uber 10-Q (2026-11-04) and Lyft 10-Q (2026-11-06) for the quarter ended September 30, 2026",
+    "date": "2026-11-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026071225/lyft-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Securities liability and short-seller/analyst scrutiny (T1, T2); risk-factor language is lawyered rather than forecast, and neither company commits to AV trip volumes or dates beyond individual city launches."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Named partners and cities (Lyft matching riders to Waymo vehicles in Nashville from Sept 2026) and investment disclosures; mostly qualitative."
+   },
+   "ai": {
+    "score": 4,
+    "why": "November 2026 filings; AVs treated explicitly as a material driver of cost structure and competition, without quantification of AV share of trips."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "For example, use of autonomous vehicles could substantially reduce the cost of providing ridesharing, delivery, or logistics services, which could allow competitors to offer such services at a substantially lower price as compared to the price available to consumers on our platform.",
+     "doc_local_path": "primary/mobility-tech/uber-lyft-av-filings/uber-10q-2026q3.html",
+     "page": null
+    },
+    "search_note": "searched autonomous, Waymo, AV"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful for the labour/price mechanism of robotaxis on existing apps, but no dated quantities.",
+   "primary_docs": [
+    {
+     "title": "Uber Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+     "local_path": "primary/mobility-tech/uber-lyft-av-filings/uber-10q-2026q3.html",
+     "status": "full",
+     "bytes": 2596325,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Lyft Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1759509/000162828026071225/lyft-20260930.htm",
+     "local_path": "primary/mobility-tech/uber-lyft-av-filings/lyft-10q-2026q3.html",
+     "status": "full",
+     "bytes": 1971171,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "china-robotaxi-filings",
+   "name": "Pony AI and Baidu (Apollo Go) Q3 2026 results furnished on Form 6-K",
+   "publisher": "Pony AI Inc.; Baidu, Inc. (SEC EDGAR / HKEX)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "robotaxis"
+   ],
+   "what_it_forecasts": "Robotaxi fleet size and year-end targets (Pony: 2,768 vehicles at 30 Sept 2026, target 3,500 in 20 cities by end-2026), city footprint (Apollo Go: 30 cities), insurance cost per vehicle and overseas launches.",
+   "horizon": "quarterly; targets to end-2026 only",
+   "latest_edition": {
+    "title": "Pony AI Inc. Q3 2026 unaudited results (Form 6-K Ex. 99.1)",
+    "date": "2026-11-18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1969302/000110465926129308/tm2629888d1_ex99-1.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Dual-listed issuers with securities liability (T1) and active short interest (T2); targets are management guidance one quarter out, unaudited, with the usual issuer optimism; no multi-year horizon or error record."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Fleet counts, named cities and airports (Shenzhen Bao an, Zagreb, London, Manchester), km operated, insurance premium ratios and unit-economics claims."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Released November 2026; the business is AI driving and every KPI is an AI-deployment quantity."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Our Robotaxi fleet reached 2,768 vehicles as of September 30, 2026, advancing toward our full-year target of 3,500 vehicles.",
+     "doc_local_path": "primary/mobility-tech/china-robotaxi-filings/pony-6k-2026-11-18-ex99-1.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Concrete and current, but the commitments expire at end-2026; WeRide Q3 results were not yet filed on 2026-11-18.",
+   "primary_docs": [
+    {
+     "title": "Pony AI 6-K Ex. 99.1 - Q3 2026 results (2026-11-18)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1969302/000110465926129308/tm2629888d1_ex99-1.htm",
+     "local_path": "primary/mobility-tech/china-robotaxi-filings/pony-6k-2026-11-18-ex99-1.html",
+     "status": "full",
+     "bytes": 212623,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Baidu 6-K Ex. 99.1 - Q3 2026 results (2026-11-16)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526462286/d767848dex991.htm",
+     "local_path": "primary/mobility-tech/china-robotaxi-filings/baidu-6k-2026-11-16-ex99-1.html",
+     "status": "full",
+     "bytes": 366283,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "WeRide Q3 2026 results",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1867729&type=6-K",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "not yet filed as of 2026-11-18 (latest 6-K of 2026-11-06 is an HKEX notice)"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nhtsa-av-framework",
+   "name": "NHTSA AV Framework actions (AV STEP withdrawal, Part 555 exemption streamlining) and Standing General Order crash data",
+   "publisher": "National Highway Traffic Safety Administration",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "robotaxis"
+   ],
+   "what_it_forecasts": "The federal rules that gate vehicles without steering wheels: which exemption path exists, plus incident-level crash reports for every ADS operator.",
+   "horizon": "rules in force until amended; crash data monthly",
+   "latest_edition": {
+    "title": "ADS-Equipped Vehicle Safety, Transparency, and Evaluation Program; Withdrawal (FR Doc. 2026-12980, scheduled for publication 2026-06-26)",
+    "date": "2026-06-26",
+    "url": "https://public-inspection.federalregister.gov/2026-12980.pdf"
+   },
+   "update_cadence": "irregular rulemaking; SGO data monthly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "Rulemaking is adversarial (notice-and-comment, litigation risk) (T2) and binds for years (T4), but the agency has nothing at stake if deployment lags and it sets conditions rather than forecasting volumes. The interim final rule of 31 July 2026 on Part 555 could not be located on federalregister.gov (403) so it is described only from secondary coverage."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Named programmes, CFR parts and dates; SGO CSV has 1,792 ADS incident rows by operator, city and date."
+   },
+   "ai": {
+    "score": 4,
+    "why": "2026 documents whose subject is automated driving systems; quantification is limited to exemption caps and incident counts."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In addition, several of the key goals of the proposal, such as improving NHTSA’s exemption programs, have been furthered recently through separate initiatives as part of the Automated Vehicle (AV) Framework announced in April 2025.",
+     "doc_local_path": "primary/mobility-tech/nhtsa-av-framework/nhtsa-av-step-nprm-withdrawal-2026-12980.pdf",
+     "page": 2
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Defines the regulatory envelope for purpose-built robotaxis (Cybercab, Zoox) but gives no deployment numbers; key July 2026 rule text not obtained.",
+   "primary_docs": [
+    {
+     "title": "NHTSA withdrawal of the AV STEP NPRM (FR Doc. 2026-12980)",
+     "url": "https://public-inspection.federalregister.gov/2026-12980.pdf",
+     "local_path": "primary/mobility-tech/nhtsa-av-framework/nhtsa-av-step-nprm-withdrawal-2026-12980.pdf",
+     "status": "full",
+     "bytes": 285319,
+     "pages": 7,
+     "note": ""
+    },
+    {
+     "title": "NHTSA Standing General Order 2021-01 incident reports - ADS (CSV)",
+     "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv",
+     "local_path": "primary/mobility-tech/nhtsa-av-framework/SGO-2021-01_Incident_Reports_ADS.csv",
+     "status": "full",
+     "bytes": 3132623,
+     "pages": 0,
+     "note": "downloaded 2026-11-18; 1,792 rows"
+    },
+    {
+     "title": "NHTSA interim final rule amending 49 CFR Part 555 (31 July 2026)",
+     "url": "https://www.nhtsa.gov/press-releases/cutting-red-tape-safely-fast-track-automated-vehicle",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "nhtsa.gov press pages and federalregister.gov API returned 403; document number not confirmed"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "automaker-ev-filings",
+   "name": "GM and Ford Form 10-Qs - EV programme write-downs and capacity realignment",
+   "publisher": "General Motors Company; Ford Motor Company (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "ev-transition"
+   ],
+   "what_it_forecasts": "What legacy US automakers have actually cancelled or impaired in EVs (GM: $3.2bn non-cash + $4.7bn cash charges for EV realignment; Ford: three EVs cancelled, F-150 Lightning ended) and their stated expectation that weak US EV dynamics persist.",
+   "horizon": "quarterly; programme decisions shape model availability to ~2030",
+   "latest_edition": {
+    "title": "GM 10-Q (2026-10-20) and Ford 10-Q (2026-10-29) for the quarter ended September 30, 2026",
+    "date": "2026-10-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000191/f-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T5"
+    ],
+    "why": "Charges are audited cash and asset write-offs - the forecaster has already paid for its changed view (T1); filings face analyst, union and short scrutiny (T2); cancelled programmes and supplier settlements fix which EVs can exist in US showrooms through ~2030 (T5). No error record (T3) and no explicit 5-year volume guidance (T4)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Dollar charges, named programmes (F-150 Lightning, BlueOval SK disposition), regional restructuring; few forward dates or volumes."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Q3 2026 filings; autonomy/AI mentioned qualitatively (GM refocusing Cruise technology on personal vehicles); EV numbers not AI-driven."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "In December 2024, we announced that we would no longer fund Cruise's robotaxi development work and will refocus our autonomous driving strategy on personal vehicles",
+     "doc_local_path": "primary/mobility-tech/automaker-ev-filings/gm-10q-2026q3.html",
+     "page": null
+    },
+    "search_note": "searched AI, autonomous, Super Cruise, BlueCruise"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Money-where-mouth evidence of the US EV retreat, but narrower and less forward-dated than the IEA outlook chosen for the EV slot; VW, Stellantis, Toyota, BYD and Hyundai filings not pulled.",
+   "primary_docs": [
+    {
+     "title": "GM Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/gm-20260930.htm",
+     "local_path": "primary/mobility-tech/automaker-ev-filings/gm-10q-2026q3.html",
+     "status": "full",
+     "bytes": 3046964,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Ford Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000191/f-20260930.htm",
+     "local_path": "primary/mobility-tech/automaker-ev-filings/ford-10q-2026q3.html",
+     "status": "full",
+     "bytes": 3032265,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "bnef-ev-outlook",
+   "name": "BloombergNEF Electric Vehicle Outlook 2026",
+   "publisher": "BloombergNEF",
+   "kind": "expert report",
+   "covers_trends": [
+    "ev-transition",
+    "robotaxis"
+   ],
+   "what_it_forecasts": "Passenger EV sales (21m in 2025 to 35.4m in 2030), EV share by country to 2040, commercial vehicles, battery demand and a robotaxi fleet outlook (above 1 million vehicles in 2032; 15.5 million by 2040).",
+   "horizon": "annual to 2040 (near-term to 2030)",
+   "latest_edition": {
+    "title": "Electric Vehicle Outlook 2026 - Executive Summary",
+    "date": "2026-06-16",
+    "url": "https://assets.bbhub.io/professional/sites/44/EVO2026-Executive-Summary.pdf"
+   },
+   "update_cadence": "annual (June)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Subscription research with reputational stakes only; revisions are visible year to year (US 2030 share cut to 17% from 27%; robotaxi outlook \"significantly reduced\") but no formal error record is published. Near-term numbers lean on model pipelines and policy already enacted (T5)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Country shares, segment splits, battery demand and a market-by-market robotaxi chart with narrated drivers; full report is paywalled."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Dated 2026-06-16; robotaxis are a separately quantified line (fleet, km share, charging impact) and storage demand is raised on data-centre load."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Still, growing the robotaxi fleet takes time, with the number on the road surpassing 1 million vehicles in 2032, at which point they account for just 0.07% of the global passenger vehicle fleet.",
+     "doc_local_path": "primary/mobility-tech/bnef-ev-outlook/EVO2026-Executive-Summary.pdf",
+     "page": 11
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Explicit robotaxi fleet path (a useful foil to Tesla 1m-robotaxi milestone) but an unincentivised forecaster and only the executive summary is public.",
+   "primary_docs": [
+    {
+     "title": "EVO 2026 Executive Summary (18 pp)",
+     "url": "https://assets.bbhub.io/professional/sites/44/EVO2026-Executive-Summary.pdf",
+     "local_path": "primary/mobility-tech/bnef-ev-outlook/EVO2026-Executive-Summary.pdf",
+     "status": "partial",
+     "bytes": 1251835,
+     "pages": 18,
+     "note": "official public executive summary saved in full; the full EVO report and data are client-only"
+    },
+    {
+     "title": "BNEF press release on EVO 2026",
+     "url": "https://about.bnef.com/insights/clean-transport/bloombergnefs-electric-vehicle-outlook-2026-global-ev-sales-set-for-another-record-breaking-year-but-growth-in-some-major-markets-slows/",
+     "local_path": "primary/mobility-tech/bnef-ev-outlook/bnef-evo2026-press-release.html",
+     "status": "full",
+     "bytes": 235876,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "EVO 2026 full report",
+     "url": "https://about.bnef.com/insights/clean-transport/electric-vehicle-outlook/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "BNEF client login required"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "eu-co2-cars-2035",
+   "name": "EU CO2 emission standards for cars and vans (Regulation (EU) 2019/631) and the December 2025 Automotive Package revision",
+   "publisher": "European Commission / European Parliament / Council",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "ev-transition"
+   ],
+   "what_it_forecasts": "Legally binding fleet CO2 targets for new cars: 2030 (-55%) and 2035, where the Commission proposes replacing the 100% cut with 90% plus offsets; Parliament committee backed 87.5% on 4 Nov 2026 and the law is not yet adopted.",
+   "horizon": "2030 and 2035 compliance years",
+   "latest_edition": {
+    "title": "Commission proposal to revise the CO2 standards (Automotive Package, 16 Dec 2025) - Commission summary page",
+    "date": "2025-12-16",
+    "url": "https://climate.ec.europa.eu/eu-action/transport-decarbonisation/road-transport/cars-and-vans_en"
+   },
+   "update_cadence": "legislative; plenary vote on Parliament mandate expected Dec 2026",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Manufacturers pay excess-emissions premiums if they miss (T1), the text is fought over by member states, OEMs and NGOs (T2) and it reaches 2035 (T4). But the target itself is being rewritten mid-flight (100% to 90% to a possible 87.5%; 2025 target already averaged over 2025-27), so as a predictor of 2031 outcomes it is unstable: 3."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Exact percentages, compliance years and flexibilities (super-credits, banking and borrowing 2030-32, vans 2030 target cut from 50% to 40%); no sales volumes."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Proposal dated Dec 2025, legislative steps in 2026; no AI or automation treatment (searched page for AI, autonomous, automation: none found)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "searched EC page for AI, artificial intelligence, autonomous, automation: none found"
+   },
+   "tier": "considered",
+   "why_top_or_not": "The rule that drives Europe EV share, but still in flux; consolidated legal text not obtained (EUR-Lex returned a bot challenge).",
+   "primary_docs": [
+    {
+     "title": "European Commission \"Cars and vans\" CO2 standards page (describes the Dec 2025 proposal)",
+     "url": "https://climate.ec.europa.eu/eu-action/transport-decarbonisation/road-transport/cars-and-vans_en",
+     "local_path": "primary/mobility-tech/eu-co2-cars-2035/ec-cars-and-vans-co2-standards-page-2026-11-18.html",
+     "status": "partial",
+     "bytes": 126269,
+     "pages": 0,
+     "note": "summary page only; captured 2026-11-18"
+    },
+    {
+     "title": "COM(2025) proposal text on EUR-Lex",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0995",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "EUR-Lex returned HTTP 202 bot challenge; CELEX number unverified"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "faa-aerospace-forecast",
+   "name": "FAA Aerospace Forecast Fiscal Years 2026-2046",
+   "publisher": "Federal Aviation Administration",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "air-travel-and-space",
+    "robots-drones"
+   ],
+   "what_it_forecasts": "US airline enplanements, RPMs, fleet, tower/en-route workload, international passengers by country, drones, advanced air mobility and commercial launch/re-entry activity, annually to FY2046.",
+   "horizon": "annual to FY2046",
+   "latest_edition": {
+    "title": "FAA Aerospace Forecast Fiscal Years 2026-2046",
+    "date": "2026-05-18",
+    "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/FY_2026-2046_Full_Forecast_Document_Tables.pdf"
+   },
+   "update_cadence": "annual (spring)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "Publishes its own forecast-accuracy appendix every year (T3) and is the planning basis for FAA staffing and trust-fund budgeting over 20 years (T4); no money at stake and no adversary. Edition date is the PDF creation date (2026-05-18); the public release date was not separately confirmed."
+   },
+   "richness": {
+    "score": 4,
+    "why": "129 pages of tables: enplanements by carrier group, international passengers by country and region (e.g. Dominican Republic 26.1M by CY2046), aircraft fleets, plus drone/AAM and launch sections."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 edition; AI mentioned qualitatively (airline revenue management, autonomy in AAM); traffic numbers come from an econometric GDP/yield model."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "application of artificial intelligence will make these systems more adaptive and pricing more dynamic, leading to even more nuanced segmentation of passengers.",
+     "doc_local_path": "primary/mobility-tech/faa-aerospace-forecast/FY_2026-2046_Full_Forecast_Document_Tables.pdf",
+     "page": 19
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Solid, self-scored baseline for US air-travel volumes, but trend-driven and US-only; Boeing/Airbus backlog chosen for the air-travel slot.",
+   "primary_docs": [
+    {
+     "title": "Full forecast document and tables (129 pp)",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/FY_2026-2046_Full_Forecast_Document_Tables.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/FY_2026-2046_Full_Forecast_Document_Tables.pdf",
+     "status": "full",
+     "bytes": 1225448,
+     "pages": 129,
+     "note": ""
+    },
+    {
+     "title": "FAA Aerospace Forecasts narrative (36 pp)",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/2026_FAA_Aerospace_Forecasts_FY2026-2046-2.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/2026_FAA_Aerospace_Forecasts_FY2026-2046-2.pdf",
+     "status": "full",
+     "bytes": 369080,
+     "pages": 36,
+     "note": ""
+    },
+    {
+     "title": "Appendix B: FAA Forecast Accuracy",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/2026_Appendix_B_FAA_Forecast_Accuracy-1.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/2026_Appendix_B_FAA_Forecast_Accuracy-1.pdf",
+     "status": "full",
+     "bytes": 21083,
+     "pages": 2,
+     "note": ""
+    },
+    {
+     "title": "Emerging Aviation Entrants: UAS and Advanced Air Mobility",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/2026_Emerging_Aviation_Entrants_Unmanned_Aircraft_Systems_Advanced_Air_Mobility-1.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/2026_Emerging_Aviation_Entrants_UAS_AAM-1.pdf",
+     "status": "full",
+     "bytes": 217423,
+     "pages": 19,
+     "note": ""
+    },
+    {
+     "title": "Commercial Space",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/2026_Commercial_Space_2.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/2026_Commercial_Space_2.pdf",
+     "status": "full",
+     "bytes": 152874,
+     "pages": 12,
+     "note": ""
+    },
+    {
+     "title": "Forecast Overview",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/2026_Forecast_Overview.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/2026_Forecast_Overview.pdf",
+     "status": "full",
+     "bytes": 36264,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "Forecast Uncertainties",
+     "url": "https://www.faa.gov/data_research/aviation/aerospace_forecasts/2026_Forecast_Uncertainties-1.pdf",
+     "local_path": "primary/mobility-tech/faa-aerospace-forecast/2026_Forecast_Uncertainties-1.pdf",
+     "status": "full",
+     "bytes": 19455,
+     "pages": 2,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "evtol-filings",
+   "name": "Joby Aviation and Archer Aviation Form 10-Qs and shareholder letters",
+   "publisher": "Joby Aviation, Inc.; Archer Aviation Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "air-travel-and-space"
+   ],
+   "what_it_forecasts": "Air-taxi certification progress and first-passenger timing (Joby: \"targeting carrying our first passengers in 2026\"), manufacturing sites, defence pivots and cash runway.",
+   "horizon": "quarterly; launch targets 0-2 years out",
+   "latest_edition": {
+    "title": "Joby 10-Q (2026-11-05) and Archer 10-Q (2026-11-09) for the quarter ended September 30, 2026",
+    "date": "2026-11-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/achr-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Nominally passes stakes and adversaries (securities liability; both are heavily shorted), but the directional bias is extreme and measurable: commercial-launch dates have slipped every year since the 2021 SPAC decks (2024, then 2025, now 2026) and FAA type certification is outside management control. Graded down to 2."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named cities and sites (Dubai, Dayton, Plano, Fort Worth), test milestones (3,199-mile autonomous flight), partners (Toyota, Anduril, EDGE) and cash figures."
+   },
+   "ai": {
+    "score": 3,
+    "why": "November 2026 filings; autonomy and \"physical AI\" appear as product direction (Superpilot, Archer AI solutions), not as quantified drivers of the passenger forecast."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "During the quarter, we also demonstrated the maturity of our Superpilot™ autonomy technology, completing a 3,199-mile journey across the United States with zero disengagements.",
+     "doc_local_path": "primary/mobility-tech/evtol-filings/joby-8k-2026-11-04-ex99-2.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Colourful and dated, but the issuer optimism record is poor and volumes through 2031 will be tiny.",
+   "primary_docs": [
+    {
+     "title": "Joby Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000533/joby-20260930.htm",
+     "local_path": "primary/mobility-tech/evtol-filings/joby-10q-2026q3.html",
+     "status": "full",
+     "bytes": 1462894,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Joby 8-K Ex. 99.2 Q3 2026 shareholder letter (2026-11-04)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000531/joby-8kx20261104xexx99_2.htm",
+     "local_path": "primary/mobility-tech/evtol-filings/joby-8k-2026-11-04-ex99-2.html",
+     "status": "full",
+     "bytes": 48866,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Joby 8-K Ex. 99.1 press release (2026-11-04)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000531/joby-8kx20261104xexx99_1.htm",
+     "local_path": "primary/mobility-tech/evtol-filings/joby-8k-2026-11-04-ex99-1.html",
+     "status": "full",
+     "bytes": 19322,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Archer Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/achr-20260930.htm",
+     "local_path": "primary/mobility-tech/evtol-filings/archer-10q-2026q3.html",
+     "status": "full",
+     "bytes": 1605579,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Archer 8-K shareholder letter (2026-11-09)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000087/archerlettertoshareholde.htm",
+     "local_path": "primary/mobility-tech/evtol-filings/archer-8k-2026-11-09-shareholder-letter.html",
+     "status": "full",
+     "bytes": 25027,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "faa-part108-drone-delivery",
+   "name": "FAA Part 108 BVLOS rulemaking (drone delivery at scale) and operator expansion plans (Zipline, Wing/Walmart, Amazon Prime Air)",
+   "publisher": "Federal Aviation Administration / TSA",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "robots-drones"
+   ],
+   "what_it_forecasts": "The permit/certificate regime that would let package-delivery drones fly routinely beyond visual line of sight; as of 2026-11-18 only the August 2025 NPRM exists - the final rule has been at OIRA since July 2026 and is unpublished.",
+   "horizon": "rule effective date unknown; operator plans 1-3 years",
+   "latest_edition": {
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations (NPRM, 90 FR 38212)",
+    "date": "2025-08-07",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2025-08-07/pdf/2025-14992.pdf"
+   },
+   "update_cadence": "one-off rulemaking",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "Notice-and-comment rule with industry and labour intervenors (T2) that will govern the market for years once final (T4); but the latest binding text is still a proposal, deadlines set by executive order have already been missed (Feb 2026), and operator expansion plans are unincentivised press statements."
+   },
+   "richness": {
+    "score": 3,
+    "why": "180 pages of specific limits (aircraft up to 1,320 lb, permit vs certificate tiers, population-density categories); no deployment volumes."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Latest edition is August 2025; automation is assumed but AI is not analysed as a driver of volumes."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "This proposed rule is intended to provide a predictable and clear pathway for safe, routine, and scalable UAS operations that include package delivery, agriculture, aerial surveying, civic interest, operations training, demonstration, recreation, and flight testing.",
+     "doc_local_path": "primary/mobility-tech/faa-part108-drone-delivery/faa-part108-bvlos-nprm-2025-14992.pdf",
+     "page": 1
+    },
+    "search_note": "no explicit AI passage; closest is the scalable-operations purpose statement (searched artificial intelligence: none)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Gatekeeper for suburban drone delivery, but stale (2025) and still not final; Zipline/Wing/Prime Air commitments were not downloaded.",
+   "primary_docs": [
+    {
+     "title": "FAA/TSA BVLOS NPRM, Federal Register 7 Aug 2025 (180 pp)",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2025-08-07/pdf/2025-14992.pdf",
+     "local_path": "primary/mobility-tech/faa-part108-drone-delivery/faa-part108-bvlos-nprm-2025-14992.pdf",
+     "status": "full",
+     "bytes": 1106733,
+     "pages": 180,
+     "note": ""
+    },
+    {
+     "title": "Part 108 final rule",
+     "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "not published as of 2026-11-18 per secondary sources (under OIRA review since 2026-07-10); nothing to download"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "amazon-robotics-drones",
+   "name": "Amazon Form 10-Q (Leo satellite network, Zoox, robotics, Globalstar acquisition)",
+   "publisher": "Amazon.com, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "connectivity-devices-agents",
+    "robots-drones",
+    "robotaxis"
+   ],
+   "what_it_forecasts": "Capital committed to the Leo (Kuiper) constellation (launch-service deposits of $7.5bn at 30 Sept 2026), the pending Globalstar acquisition (expected to close in 2027) and aggregate technology/infrastructure spend; warehouse-robot and drone plans are not quantified in filings.",
+   "horizon": "quarterly; commitments 1-3 years",
+   "latest_edition": {
+    "title": "Amazon Form 10-Q for the quarter ended September 30, 2026",
+    "date": "2026-10-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Securities liability and deep analyst coverage; but robotics, Prime Air and Zoox are not broken out, so the filing constrains little about them. Internal automation plans reported by the press (e.g. robots replacing planned hires) carry no liability."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of relevant numbers (launch deposits, Globalstar timing); robots, drones and Zoox appear only as generic expense descriptions."
+   },
+   "ai": {
+    "score": 3,
+    "why": "October 2026 filing; AI capex is quantified company-wide (another agent covers it) but robots/drones/robotaxis are only acknowledged qualitatively."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "the development of a satellite network for global broadband service and autonomous vehicles for ride-hailing services.",
+     "doc_local_path": "primary/mobility-tech/amazon-robotics-drones/amazon-10q-2026q3.html",
+     "page": null
+    },
+    "search_note": "searched robot, drone, Prime Air, Zoox, Kuiper, Leo"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Largest robot fleet operator says almost nothing binding about it in filings; scored low on richness.",
+   "primary_docs": [
+    {
+     "title": "Amazon Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+     "local_path": "primary/mobility-tech/amazon-robotics-drones/amazon-10q-2026q3.html",
+     "status": "full",
+     "bytes": 1646120,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "humanoid-commitments",
+   "name": "Hyundai Motor Group / Boston Dynamics Atlas production plan (30,000 robots a year by 2028) and other humanoid-maker commitments",
+   "publisher": "Hyundai Motor Group (Figure, Agility, Apptronik, 1X, Unitree not downloaded)",
+   "kind": "expert report",
+   "covers_trends": [
+    "robots-drones"
+   ],
+   "what_it_forecasts": "Vendor roadmap: a production system for 30,000 robot units a year by 2028 and Atlas deployment at the Georgia Metaplant from 2028 (parts sequencing), assembly tasks by 2030.",
+   "horizon": "2026-2030",
+   "latest_edition": {
+    "title": "Hyundai Motor Group Announces AI Robotics Strategy to Lead Human-Centered Robotics Era at CES 2026",
+    "date": "2026-01-05",
+    "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-announces-ai-robotics-strategy-to-lead-human-centered-robotics-era-at-ces-2026-0000001100"
+   },
+   "update_cadence": "ad hoc",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "A vendor roadmap more than two years out from an interested party (rubric anchor 2). Partial pipeline credit: Hyundai is both maker and first customer and has announced the US robot plant inside a larger investment programme; no penalty if the 2028 date slips. Edition date taken from press coverage of CES (5 Jan 2026); the page itself was not checked for a dateline."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named robot, plant (HMGMA, Georgia), tasks, annual capacity and years."
+   },
+   "ai": {
+    "score": 4,
+    "why": "January 2026; \"Physical AI\" is the subject and capacity is quantified, but there is no demand or labour-impact forecast."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "By 2028, the Group aims to establish a scalable production system capable of manufacturing 30,000 robot units annually",
+     "doc_local_path": "primary/mobility-tech/humanoid-commitments/hyundai-motor-group-ai-robotics-strategy-ces-2026.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "The most concrete non-Tesla humanoid commitment, but it is a press-release roadmap with no stakes; start-up pre-order claims were not verified.",
+   "primary_docs": [
+    {
+     "title": "Hyundai Motor Group CES 2026 AI Robotics Strategy press release",
+     "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-announces-ai-robotics-strategy-to-lead-human-centered-robotics-era-at-ces-2026-0000001100",
+     "local_path": "primary/mobility-tech/humanoid-commitments/hyundai-motor-group-ai-robotics-strategy-ces-2026.html",
+     "status": "full",
+     "bytes": 383403,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ifr-world-robotics",
+   "name": "IFR World Robotics 2026 (Industrial Robots; Service Robots)",
+   "publisher": "International Federation of Robotics",
+   "kind": "expert report",
+   "covers_trends": [
+    "robots-drones"
+   ],
+   "what_it_forecasts": "Annual industrial-robot installations by country and industry (603,307 in 2025; 655,000 forecast for 2026; 806,000 in 2029) and service-robot sales by application.",
+   "horizon": "annual to 2029",
+   "latest_edition": {
+    "title": "World Robotics 2026 - executive summaries (press release 24 Sep 2026)",
+    "date": "2026-09-24",
+    "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
+   },
+   "update_cadence": "annual (September)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Industry-association statistics from member order books (near-term pipeline, T5) with a three-year extrapolated forecast; no stakes, no adversary, and no published scoring of past forecasts."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Executive summaries give installations by region/country and a few sector notes; the full reports with country tables are paid."
+   },
+   "ai": {
+    "score": 3,
+    "why": "September 2026; AI and humanoids discussed qualitatively as technology trends; the installation forecast is a growth-rate extrapolation."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Artificial intelligence is becoming a fundamental enabling technology across robotics.",
+     "doc_local_path": "primary/mobility-tech/ifr-world-robotics/ifr-wr2026-exec-summary-industrial-robots.pdf",
+     "page": 5
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Standard low-incentive baseline for factory robots; only free summaries available and humanoids are not forecast.",
+   "primary_docs": [
+    {
+     "title": "Executive Summary World Robotics 2026 - Industrial Robots",
+     "url": "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf",
+     "local_path": "primary/mobility-tech/ifr-world-robotics/ifr-wr2026-exec-summary-industrial-robots.pdf",
+     "status": "partial",
+     "bytes": 4674630,
+     "pages": 6,
+     "note": "free executive summary (6 pp); full report is paid"
+    },
+    {
+     "title": "Executive Summary World Robotics 2026 - Service Robots",
+     "url": "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Service_Robots.pdf",
+     "local_path": "primary/mobility-tech/ifr-world-robotics/ifr-wr2026-exec-summary-service-robots.pdf",
+     "status": "partial",
+     "bytes": 2689828,
+     "pages": 7,
+     "note": "free executive summary (7 pp); URL pattern inferred from the industrial-robots file and returned a valid PDF"
+    },
+    {
+     "title": "IFR press release \"Five Million Robots now Operate in Factories Globally\"",
+     "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+     "local_path": "primary/mobility-tech/ifr-world-robotics/ifr-press-release-five-million-robots.html",
+     "status": "full",
+     "bytes": 37027,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "World Robotics 2026 full reports",
+     "url": "https://ifr.org/worldrobotics/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "sold by IFR Statistical Department"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "sellside-humanoid-forecasts",
+   "name": "Sell-side humanoid-robot market forecasts (Morgan Stanley \"Humanoids: A $5 Trillion Global Market\"; Goldman Sachs humanoid TAM)",
+   "publisher": "Morgan Stanley Research; Goldman Sachs Research",
+   "kind": "expert report",
+   "covers_trends": [
+    "robots-drones"
+   ],
+   "what_it_forecasts": "Very long-dated humanoid adoption scenarios: Morgan Stanley more than 1 billion humanoids in use by 2050 and unit prices ($200,000 in 2024 to about $150,000 by 2028); Goldman a $38bn market and 1.4m shipments by 2035.",
+   "horizon": "to 2035 (GS) and 2050 (MS)",
+   "latest_edition": {
+    "title": "Morgan Stanley Insights article on \"A $5 Trillion Global Market\" (report dated 29 Apr 2025; article 14 May 2025)",
+    "date": "2025-05-14",
+    "url": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050"
+   },
+   "update_cadence": "irregular; 2026 updates are client-only",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Unscored scenarios published as research marketing: no money, licence or legal standing at risk on a 2050 unit count, no adversary and no error record. Goldman multiplied its own TAM sixfold within about a year, which illustrates the instability."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A few headline series (units, TAM, unit cost by year, household penetration) with thin public narrative; underlying models are client-only."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Public editions are from April/May 2025 (MS) and February 2024 (GS); AI is the premise, but nothing dated 2026 is publicly available (2026 revisions such as MS doubling its China 2026 shipment estimate to 50,000 are known only from press reports)."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "There could be more than 1 billion humanoids in use by 2050.",
+     "doc_local_path": "primary/mobility-tech/sellside-humanoid-forecasts/morgan-stanley-humanoid-5-trillion-2050.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Included as the explicit low-incentive comparator for humanoid hype; stale public editions.",
+   "primary_docs": [
+    {
+     "title": "Morgan Stanley Insights: humanoid robot market $5 trillion by 2050",
+     "url": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050",
+     "local_path": "primary/mobility-tech/sellside-humanoid-forecasts/morgan-stanley-humanoid-5-trillion-2050.html",
+     "status": "partial",
+     "bytes": 769198,
+     "pages": 0,
+     "note": "public summary article; full report is client-only"
+    },
+    {
+     "title": "Goldman Sachs Insights: global market for humanoid robots could reach $38 billion by 2035",
+     "url": "https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035",
+     "local_path": "primary/mobility-tech/sellside-humanoid-forecasts/goldman-sachs-humanoid-38bn-2035.html",
+     "status": "partial",
+     "bytes": 630861,
+     "pages": 0,
+     "note": "public summary article, datePublished 2024-02-27; full report is client-only"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "china-15fyp-embodied-ai",
+   "name": "China 15th Five-Year Plan outline (2026-2030) - embodied AI / humanoid robot priorities",
+   "publisher": "National People's Congress / State Council of the PRC (official text not obtained; IFR commentary saved)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "robots-drones"
+   ],
+   "what_it_forecasts": "State industrial priorities for 2026-2030: embodied intelligence named among future industries; per IFR reading, commercialisation of humanoids is expected only towards the end of the plan period.",
+   "horizon": "2026-2030",
+   "latest_edition": {
+    "title": "Outline of the 15th Five-Year Plan (adopted by the NPC, March 2026) - as summarised in IFR press release of 5 May 2026",
+    "date": "2026-05-05",
+    "url": "https://ifr.org/ifr-press-releases/news/china-makes-ai-powered-robots-core-of-national-strategy"
+   },
+   "update_cadence": "five-yearly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "A five-year plan is the plan period itself (T4) and is backed by state capital, procurement and provincial targets already being executed (T5); officials are accountable politically but targets here are directional, unscored and not adversarially tested. Scored on the mechanism; I could not read the official text, so treat with caution."
+   },
+   "richness": {
+    "score": 2,
+    "why": "From the secondary source only: priorities and qualitative timing, no quantities. The official outline may contain more."
+   },
+   "ai": {
+    "score": 4,
+    "why": "March 2026 plan in which AI-enabled robotics is an explicit pillar; no quantified targets seen in the material obtained."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Under the new framework, China is shifting its focus from traditional industrial automation to high-end, intelligent robotics integrated with artificial intelligence.",
+     "doc_local_path": "primary/mobility-tech/china-15fyp-embodied-ai/ifr-china-makes-ai-powered-robots-core-of-national-strategy.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Potentially important state commitment, but the primary text was not obtained - only an industry-body summary.",
+   "primary_docs": [
+    {
+     "title": "IFR press release: China makes AI-powered robots core of national strategy (5 May 2026)",
+     "url": "https://ifr.org/ifr-press-releases/news/china-makes-ai-powered-robots-core-of-national-strategy",
+     "local_path": "primary/mobility-tech/china-15fyp-embodied-ai/ifr-china-makes-ai-powered-robots-core-of-national-strategy.html",
+     "status": "partial",
+     "bytes": 32918,
+     "pages": 0,
+     "note": "secondary summary, not the plan itself"
+    },
+    {
+     "title": "Official 15th Five-Year Plan outline (Chinese/English)",
+     "url": "https://english.www.gov.cn/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "official URL not found via search; one guessed gov.cn URL returned 404"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "device-maker-filings",
+   "name": "Apple Form 10-K (FY2026) and Meta Form 10-Q (Reality Labs / AI glasses)",
+   "publisher": "Apple Inc.; Meta Platforms, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Realised device revenue and risk disclosures; Meta contractual commitments ($45.85bn due in 2026, $121.41bn in 2027, including Reality Labs hardware) and Reality Labs losses; neither gives unit forecasts for phones, glasses or wearables.",
+   "horizon": "annual/quarterly actuals; commitments 1-2 years",
+   "latest_edition": {
+    "title": "Apple Form 10-K for the fiscal year ended September 26, 2026",
+    "date": "2026-11-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Securities liability and exhaustive scrutiny (T1, T2); but these filings disclose what was sold, not what will be - Apple gives no product roadmap and Meta no glasses volumes - so they bind little about 2031."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Segment revenues, Reality Labs revenue/loss, purchase commitments by year; AI-glasses sales cited as a revenue driver without units."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Filed Oct-Nov 2026; AI is treated as a material driver (Apple Intelligence investment, Meta AI glasses and AI infrastructure commitments) with partial quantification via commitments."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "The increase was driven by higher sales of AI glasses, partially offset by lower Meta Quest sales.",
+     "doc_local_path": "primary/mobility-tech/device-maker-filings/meta-10q-2026q3.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Authoritative on what devices earn today, silent on future products; supply-chain forecasts (IDC/Counterpoint) carry the unit numbers.",
+   "primary_docs": [
+    {
+     "title": "Apple Form 10-K, fiscal year ended 2026-09-26",
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+     "local_path": "primary/mobility-tech/device-maker-filings/apple-10k-fy2026.html",
+     "status": "full",
+     "bytes": 1650118,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Meta Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "local_path": "primary/mobility-tech/device-maker-filings/meta-10q-2026q3.html",
+     "status": "full",
+     "bytes": 1826165,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "idc-device-forecasts",
+   "name": "IDC Worldwide Quarterly Mobile Phone Tracker and device forecasts (also Counterpoint, Canalys)",
+   "publisher": "International Data Corporation",
+   "kind": "expert report",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Smartphone, PC and wearable shipments and prices: per press coverage IDC cut 2026 smartphone shipments to about 1.09bn (-13.9%) on the memory shortage, with recovery from 2027; the saved page shows Q2 2026 shipments down 7.4%.",
+   "horizon": "quarterly actuals; forecasts to ~2030",
+   "latest_edition": {
+    "title": "IDC Smartphone Market Share page (updated 17 Sep 2026, Q2 2026 data); forecast release of May 2026 not obtained",
+    "date": "2026-09-17",
+    "url": "https://www.idc.com/promo/smartphone-market-share/"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Tracker actuals are published quarterly and forecasts are visibly revised (a -0.9% 2026 call in Dec 2025 became -13.9% by May 2026), giving informal feedback (T3, weakly); vendor-funded, no money at stake, no formal error record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Vendor shares and shipments by quarter with analyst commentary; forecast tables are paywalled."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 edition; AI enters as the cause of the memory shortage and as on-device AI, qualitatively."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "On-device AI is arriving, but the memory it runs on is scarce and expensive, and consumers are covering that cost directly.",
+     "doc_local_path": "primary/mobility-tech/idc-device-forecasts/idc-smartphone-market-share-page-2026-09-17.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Explains why phones get pricier in 2026-27 (AI memory squeeze) but the forecast document itself is behind a paywall.",
+   "primary_docs": [
+    {
+     "title": "IDC Smartphone Market Share page (Q2 2026)",
+     "url": "https://www.idc.com/promo/smartphone-market-share/",
+     "local_path": "primary/mobility-tech/idc-device-forecasts/idc-smartphone-market-share-page-2026-09-17.html",
+     "status": "partial",
+     "bytes": 141584,
+     "pages": 0,
+     "note": "public tracker page; forecast press release and smart-glasses forecast not obtained"
+    },
+    {
+     "title": "IDC Worldwide Quarterly Mobile Phone Tracker forecast (May 2026)",
+     "url": "https://my.idc.com/getdoc.jsp?containerId=prUS54000026",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "guessed press-release ID returned 404; Counterpoint insight page returned 403"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ericsson-mobility-report",
+   "name": "Ericsson Mobility Report, June 2026",
+   "publisher": "Ericsson",
+   "kind": "expert report",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "5G subscriptions (6.4bn by end-2031), 6G (first services around 2030; 180m subscriptions by end-2031), fixed wireless access (350m connections by 2031), satellite broadband (about 33m by end-2031) and mobile data traffic incl. an AI uplink scenario.",
+   "horizon": "annual to 2031",
+   "latest_edition": {
+    "title": "Ericsson Mobility Report June 2026",
+    "date": "2026-06-16",
+    "url": "https://www.ericsson.com/49ce36/assets/local/reports-papers/mobility-report/documents/2026/ericsson-mobility-report-june-2026.pdf"
+   },
+   "update_cadence": "twice a year (June, November); November 2026 edition not yet published on 2026-11-18",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "A network-equipment vendor forecasting demand for its own products (interested party); no stakes, no adversary, no published error record. Subscription paths are largely pipeline-driven (spectrum awarded, networks built), hence one test. Its satellite-broadband path (about 10m at end-2025 to 33m in 2031) already looks low against SpaceX reporting 13.6m consumer subscribers in Sept 2026."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Subscriptions, traffic and FWA by region and technology with narrated drivers and operator case studies."
+   },
+   "ai": {
+    "score": 4,
+    "why": "June 2026 edition; AI is analysed as a traffic driver with a quantified scenario (uplink three times higher in 2031 than 2025), though the baseline traffic forecast is not rebuilt around it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Scenario modeling suggests that additional AI traffic will result in uplink traffic being three times higher in 2031 compared to 2025.",
+     "doc_local_path": "primary/mobility-tech/ericsson-mobility-report/ericsson-mobility-report-june-2026.pdf",
+     "page": 23
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best-known connectivity outlook and good on 6G timing, but a vendor forecast; SpaceX filings were preferred for the connectivity slot.",
+   "primary_docs": [
+    {
+     "title": "Ericsson Mobility Report June 2026 (36 pp)",
+     "url": "https://www.ericsson.com/49ce36/assets/local/reports-papers/mobility-report/documents/2026/ericsson-mobility-report-june-2026.pdf",
+     "local_path": "primary/mobility-tech/ericsson-mobility-report/ericsson-mobility-report-june-2026.pdf",
+     "status": "full",
+     "bytes": 3930156,
+     "pages": 36,
+     "note": "direct curl returned 403; the official PDF was retrieved from the same ericsson.com URL by the web-fetch tool"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "gsma-mobile-economy",
+   "name": "GSMA The Mobile Economy 2026",
+   "publisher": "GSMA / GSMA Intelligence",
+   "kind": "expert report",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Global mobile subscribers and connections by technology to 2030, eSIM uptake (2.5bn eSIM smartphone connections by 2028), and mobile contribution to GDP ($11.3tn by 2030).",
+   "horizon": "annual to 2030",
+   "latest_edition": {
+    "title": "The Mobile Economy 2026",
+    "date": "2026-03-02",
+    "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2026/02/The-Mobile-Economy-2026.pdf"
+   },
+   "update_cadence": "annual (MWC, March)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Operator trade association with an advocacy purpose (spectrum, policy) and no stakes or scoring; connection forecasts rest on GSMA Intelligence operator data and built networks (T5)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Headline series by technology and region plus survey results; few named operators or places."
+   },
+   "ai": {
+    "score": 3,
+    "why": "March 2026; AI treated qualitatively and via operator surveys; forecasts not moved by it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "In a GSMA Intelligence survey, 45% of operators identified AI‑enabled revenue streams as a strategic priority.",
+     "doc_local_path": "primary/mobility-tech/gsma-mobile-economy/The-Mobile-Economy-2026.pdf",
+     "page": 5
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Unincentivised industry overview; included to score low explicitly.",
+   "primary_docs": [
+    {
+     "title": "The Mobile Economy 2026 (44 pp)",
+     "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2026/02/The-Mobile-Economy-2026.pdf",
+     "local_path": "primary/mobility-tech/gsma-mobile-economy/The-Mobile-Economy-2026.pdf",
+     "status": "full",
+     "bytes": 3836106,
+     "pages": 44,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "3gpp-6g-timeline",
+   "name": "3GPP Release 20/21 work plan - the 6G standardisation timeline",
+   "publisher": "3GPP",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Dates on which 6G becomes buildable: Release 20 studies now, Release 21 normative work, ITU IMT-2030 technology proposals due early 2029 and full specifications by mid-2030; Rel-20 5G-Advanced stage-3 freeze targeted March 2027.",
+   "horizon": "to 2030",
+   "latest_edition": {
+    "title": "3GPP Release 20 page (citing the March 2026 Work Plan)",
+    "date": "2026-03-31",
+    "url": "https://www.3gpp.org/specifications-technologies/releases/release-20"
+   },
+   "update_cadence": "rolling work plan (quarterly plenaries)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "A consensus schedule set by rival vendors and operators who all must build to it (T2), reaching 2030 (T4), with study items already under way (T5). No money is lost if a freeze slips and 3GPP releases have historically slipped by quarters, so 3 not 4. Page date approximated from the March 2026 work plan it cites."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of milestone dates and work-item counts; no deployment or device numbers."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 page; AI/ML is listed as a Rel-20 work area but not analysed."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": null,
+    "search_note": "searched AI, artificial intelligence, machine learning: only a list entry \"AI/ML\" among Rel-20 work areas"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Sets the earliest possible date for 6G phones (around 2030) but says nothing about uptake.",
+   "primary_docs": [
+    {
+     "title": "3GPP Release 20 web page",
+     "url": "https://www.3gpp.org/specifications-technologies/releases/release-20",
+     "local_path": "primary/mobility-tech/3gpp-6g-timeline/3gpp-release-20-page-2026-11-18.html",
+     "status": "partial",
+     "bytes": 118260,
+     "pages": 0,
+     "note": "web page only; the underlying Work Plan spreadsheet (SP-260360) not downloaded"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "fcc-ngso-milestones",
+   "name": "FCC satellite-constellation deployment milestones (Amazon Leo / Kuiper Gen1 waiver order DA 26-553)",
+   "publisher": "Federal Communications Commission, Space Bureau",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Licence deadlines for a second LEO broadband network: Amazon Leo had to deploy 1,616 satellites by 30 July 2026 (waived) and must deploy 3,232 by 30 July 2029; satellites launched late lose spectrum priority until 30 March 2028 or the 50% mark.",
+   "horizon": "to July 2029",
+   "latest_edition": {
+    "title": "Amazon Leo (Kuiper Systems LLC) Order, DA 26-553",
+    "date": "2026-06-05",
+    "url": "https://docs.fcc.gov/public/attachments/DA-26-553A1.pdf"
+   },
+   "update_cadence": "ad hoc orders",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Licence authority and a surety bond are forfeit on a missed final milestone (T1); SpaceX formally opposed the request (T2); the binding date is 2029 (T4); launches are contracted and deposits paid (T5; Amazon 10-Q shows $7.5bn of launch deposits). Bias: the regulator has just shown it will waive interim milestones, and Amazon itself projected only about 700 satellites by July 2026, so the deadline is softer than it looks: 4."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Exact satellite counts, dates, spectrum-priority conditions and the applicant own deployment estimate; nothing on service or subscribers."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 order with no AI treatment (searched AI, artificial intelligence: none found)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "searched AI, artificial intelligence, data center: none found"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Hard, adversarially tested dates for the Starlink competitor, but narrow; folded into the connectivity picture alongside SpaceX filings.",
+   "primary_docs": [
+    {
+     "title": "FCC Space Bureau Order DA 26-553 (adopted and released 5 June 2026)",
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-553A1.pdf",
+     "local_path": "primary/mobility-tech/fcc-ngso-milestones/FCC-DA-26-553A1-amazon-leo-waiver-order.pdf",
+     "status": "full",
+     "bytes": 145478,
+     "pages": 10,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "agentic-commerce-payments",
+   "name": "Visa Form 10-K (FY2026) - agentic commerce and tokenisation disclosures (also Mastercard, Stripe/Shopify/Walmart-OpenAI protocols)",
+   "publisher": "Visa Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "How the largest card network frames AI-agent-initiated payments (Visa Intelligent Commerce, network tokens) as a growth driver; payment volumes are reported, agent-initiated volumes are not.",
+   "horizon": "annual actuals; qualitative outlook",
+   "latest_edition": {
+    "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2026",
+    "date": "2026-11-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm"
+   },
+   "update_cadence": "annual/quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Securities liability and heavy analyst and antitrust scrutiny (T1, T2); statements about agentic commerce are strategic framing with no targets, dates or volumes, so nothing binds at 5 years."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Product names and partner categories; no agent-transaction counts, merchant names or dates."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Filed 2026-11-05; agentic commerce named as expanding the addressable market, but not quantified."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "We believe agentic commerce will expand our addressable market and drive future growth.",
+     "doc_local_path": "primary/mobility-tech/agentic-commerce-payments/visa-10k-fy2026.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Confirms the payments plumbing for AI shopping agents is being built, but offers no numbers a writer can date.",
+   "primary_docs": [
+    {
+     "title": "Visa Form 10-K, fiscal year ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+     "local_path": "primary/mobility-tech/agentic-commerce-payments/visa-10k-fy2026.html",
+     "status": "full",
+     "bytes": 3031009,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Mastercard Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "identified on EDGAR (accession 0001141391-26-000124) but not downloaded - time budget"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "adobe-holiday-forecast",
+   "name": "Adobe Digital Insights 2026 US holiday online shopping forecast (AI-referred traffic)",
+   "publisher": "Adobe Inc.",
+   "kind": "expert report",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "US online holiday spend for 1 Nov - 31 Dec 2026 ($275.1bn, +6.7%), by day (Cyber Monday 30 Nov: $15.1bn) and AI-referred traffic to retail sites (+130% y/y).",
+   "horizon": "two months (holiday season 2026)",
+   "latest_edition": {
+    "title": "Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online",
+    "date": "2026-09-28",
+    "url": "https://news.adobe.com/news/downloads/pdfs/2026/09/adi-holiday-forecast-release-9-26.pdf"
+   },
+   "update_cadence": "annual (September) with in-season actuals",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Adobe publishes actuals against its forecast every season from over 1 trillion site visits, so errors are visible (T3); but it is vendor marketing with no stakes, and the horizon is weeks, not years."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Dated shopping days with dollar totals, category discounts, mobile share, BNPL and AI-traffic growth rates; US only."
+   },
+   "ai": {
+    "score": 5,
+    "why": "September 2026; AI-referred traffic is a separately quantified line (+130% y/y, by day)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Adobe expects AI traffic to U.S. retail sites this holiday season (measured by shoppers clicking on a link) to rise 130% YoY.",
+     "doc_local_path": "primary/mobility-tech/adobe-holiday-forecast/adi-holiday-forecast-release-9-26.pdf",
+     "page": 2
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good dated colour for late 2026 and a measurable AI-shopping series, but a one-season vendor forecast.",
+   "primary_docs": [
+    {
+     "title": "Adobe holiday forecast press release (3 pp)",
+     "url": "https://news.adobe.com/news/downloads/pdfs/2026/09/adi-holiday-forecast-release-9-26.pdf",
+     "local_path": "primary/mobility-tech/adobe-holiday-forecast/adi-holiday-forecast-release-9-26.pdf",
+     "status": "partial",
+     "bytes": 289631,
+     "pages": 3,
+     "note": "press release saved in full; the longer Adobe Digital Insights forecast PDF failed (HTTP/2 stream error, then empty reply on retry)"
+    },
+    {
+     "title": "2026 Adobe Digital Insights Holiday Forecast (full report)",
+     "url": "https://business.adobe.com/assets/resources/holiday-shopping-report/2026/pdf/2026-adobe-digital-insights-holiday-forecast.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "curl error 92 then error 52 on two attempts"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "metaculus-mobility-tech",
+   "name": "Metaculus questions on robotaxis, humanoids, Starship and devices",
+   "publisher": "Metaculus",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "robotaxis",
+    "robots-drones",
+    "air-travel-and-space"
+   ],
+   "what_it_forecasts": "Community probability forecasts on dated technology milestones, some reaching 2030 and beyond.",
+   "horizon": "months to 10+ years",
+   "latest_edition": {
+    "title": "not retrieved",
+    "date": "2026-11-18",
+    "url": "https://www.metaculus.com/questions/"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Many independent forecasters (T2) and a public, long-running calibration record (T3); no money at stake and question coverage of this area is patchy. Score is for the platform mechanism - I could not read current question values."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A probability or date distribution per question with comment threads; few located specifics."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Continuously updated and many questions are AI-deployment milestones, but values could not be inspected, so not scored 5."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": null,
+    "search_note": "no document downloaded: API returned 403 (authentication required) and the question search page returned 403"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Structurally sound scored forecasts with longer horizons than the money markets, but inaccessible without an API token.",
+   "primary_docs": [
+    {
+     "title": "Metaculus API / question search",
+     "url": "https://www.metaculus.com/api/posts/?search=waymo",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 \"The API is only available to authenticated users\"; website search also 403; Playwright fallback not permitted in this session"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "gartner-hype-cycle",
+   "name": "Gartner Hype Cycle for Emerging Technologies 2026",
+   "publisher": "Gartner, Inc.",
+   "kind": "expert report",
+   "covers_trends": [
+    "robots-drones",
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Qualitative placement of technologies (humanoid robots, AI agents, autonomous vehicles) on a hype curve with \"years to plateau\" bands.",
+   "horizon": "2 to 10+ year bands",
+   "latest_edition": {
+    "title": "not retrieved (2026 edition presumed published August 2026; not confirmed)",
+    "date": "2026-08-01",
+    "url": "https://www.gartner.com/en/newsroom"
+   },
+   "update_cadence": "annual",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Analyst opinion sold as advisory content: no stakes, no adversary, no scoring of past placements, and plateau bands too coarse to be wrong."
+   },
+   "richness": {
+    "score": 2,
+    "why": "One placement and a time band per technology; minimal narrative in the public release."
+   },
+   "ai": {
+    "score": 3,
+    "why": "If the 2026 edition exists it is AI-heavy but purely qualitative; edition date unconfirmed because the newsroom returned 403."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": null,
+    "search_note": "no document downloaded (gartner.com newsroom 403)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Famous but structurally the weakest source here; included only to score it low.",
+   "primary_docs": [
+    {
+     "title": "Gartner newsroom press release",
+     "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-05-gartner-hype-cycle-for-emerging-technologies-2026",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403; URL was a guess and the edition date is unconfirmed"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "consumer-ai-usage-disclosures",
+   "name": "Official consumer-AI usage numbers (OpenAI/ChatGPT weekly users, Gemini, Meta AI) and app-download data",
+   "publisher": "OpenAI; Google; Meta; app-store trackers",
+   "kind": "survey",
+   "covers_trends": [
+    "connectivity-devices-agents"
+   ],
+   "what_it_forecasts": "Self-reported active-user counts and usage mixes for consumer AI assistants; not forecasts.",
+   "horizon": "point-in-time",
+   "latest_edition": {
+    "title": "not retrieved",
+    "date": "2026-11-18",
+    "url": "https://openai.com/index/how-people-are-using-chatgpt/"
+   },
+   "update_cadence": "irregular",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Company-chosen metrics released for publicity, cross-checked only loosely by app-store and web-traffic trackers (weak T2); no liability outside SEC filers, no forward commitment. Kalshi lists monthly ChatGPT app-download markets (KXGPTAPP) that price the near term."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Headline user counts and a few usage shares."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Continuously updated and AI is the subject, but nothing was retrieved to verify current figures."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": null,
+    "search_note": "no document downloaded (openai.com returned 403)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Needed for the consumer-agent trend but belongs mostly to the AI-labs area; nothing verifiable was downloaded here.",
+   "primary_docs": [
+    {
+     "title": "OpenAI \"How people are using ChatGPT\"",
+     "url": "https://openai.com/index/how-people-are-using-chatgpt/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403"
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}

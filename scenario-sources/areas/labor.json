@@ -895,7 +895,7 @@
      "page": 30,
      "locator": "Item 15, Generative Artificial Intelligence, Article 72.G.2",
      "url": "https://www.wga.org/uploadedfiles/contracts/2026_mba_moa.pdf",
-     "worldbuilding_use": "From May 2026 studios must tell the WGA when they sell scripts as AI training data; payment to writers is only 'discussed'."
+     "worldbuilding_use": "From May 2026 studios must notify the WGA when licensing scripts as AI training data; writer payment is only discussed."
     }
    ]
   },
@@ -943,7 +943,7 @@
     "search_note": "Searched Beige Book, SEP, minutes and six 2026 speeches for AI/artificial intelligence."
    },
    "tier": "top",
-   "why_top_or_not": "Best fully-downloaded macro baseline for labour-market slack with a printed error record, plus current district-level evidence of AI restraining hiring.",
+   "why_top_or_not": "Ties at 10 with several considered sources; chosen as fifth pick because it is the only fully downloaded source covering the macro-slack trend, prints its own error record, and adds district-level evidence of AI restraining hiring (Challenger scores 11 but duplicates the employer-filings mechanism).",
    "primary_docs": [
     {
      "title": "Beige Book, October 14, 2026 (PDF)",
@@ -1349,7 +1349,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "A consistent monthly series since 1993 that markets watch (Kalshi lists a contract on it), but it counts announcements and employer-stated reasons, not verified separations; the firm sells outplacement services and no error record against realised lay-offs is published. AI attribution depends on how employers choose to label cuts."
+    "why": "A consistent monthly series since 1993 that markets watch (Kalshi lists a contract on it), but it counts announcements and employer-stated reasons, not verified separations; the firm sells outplacement services and no error record against realised lay-offs is published. AI attribution depends on how employers choose to label cuts. T3 is only partly met (regular and long-running, but unscored); scored 2 as a survey-type tally."
    },
    "richness": {
     "score": 4,
@@ -1527,7 +1527,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "Repeated yearly so stated expectations can be checked against the next survey (in 2025, 13% of service firms expected AI lay-offs; the 2026 survey found 4% had made them), but it is a regional sample of self-reports with nothing at stake."
+    "why": "Repeated yearly so stated expectations can be checked against the next survey (in 2025, 13% of service firms expected AI lay-offs; the 2026 survey found 4% had made them), but it is a regional sample of self-reports with nothing at stake. T3 is only partly met (informal year-on-year check, no published error record)."
    },
    "richness": {
     "score": 3,
@@ -1584,7 +1584,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "A long-running panel whose respondents forecast their own firms, and whose past expectations can be compared with outcomes, but answers are unincentivised and the AI questions are new, so there is no error record for them."
+    "why": "A long-running panel whose respondents forecast their own firms, and whose past expectations can be compared with outcomes, but answers are unincentivised and the AI questions are new, so there is no error record for them (T3 only partly met)."
    },
    "richness": {
     "score": 3,
@@ -1659,7 +1659,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "Measured telemetry published on a regular cadence with open data, so claims can be checked across editions, but the publisher is an AI vendor with a commercial interest, the sample is its own users, and nothing here is a scored forecast."
+    "why": "Measured telemetry published on a regular cadence with open data, so claims can be checked across editions, but the publisher is an AI vendor with a commercial interest, the sample is its own users, and nothing here is a scored forecast (T3 only partly met: regular and open, but nothing is scored)."
    },
    "richness": {
     "score": 3,
@@ -1738,9 +1738,9 @@
    },
    "update_cadence": "irregular; no 2026 successor was found (openai.com returned 403, so this could not be confirmed on the publisher's site)",
    "accuracy": {
-    "score": 2,
+    "score": 1,
     "tests_passed": [],
-    "why": "Measured usage data from an interested vendor, published once; nothing is forecast or scored. Scored 2 rather than 1 only because it is audited academic work on real logs rather than marketing."
+    "why": "Measured usage data from an interested vendor, published once; nothing is forecast, staked or scored, so it passes none of the five tests. It is careful academic work on real logs, but that is a data-quality point, not a forecasting incentive."
    },
    "richness": {
     "score": 3,
@@ -1936,7 +1936,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "An accountable institution whose short-term projections come from the regularly evaluated OECD Economic Outlook, but the horizon is under two years, nothing is at stake, and the thematic chapters are analysis rather than forecasts."
+    "why": "An accountable institution whose short-term projections come from the regularly evaluated OECD Economic Outlook, but the horizon is under two years, nothing is at stake, and the thematic chapters are analysis rather than forecasts (T3 partly met via the parent Economic Outlook's evaluations)."
    },
    "richness": {
     "score": 4,
@@ -1992,7 +1992,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "Annual modelled estimates from an accountable UN agency that revises its own past numbers each year, but no stakes, a 1-2 year horizon and no formal published error study that I could confirm."
+    "why": "Annual modelled estimates from an accountable UN agency that revises its own past numbers each year, but no stakes, a 1-2 year horizon and no formal published error study that I could confirm (T3 only partly met)."
    },
    "richness": {
     "score": 3,
@@ -2048,7 +2048,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "Employers report their own hiring plans and NACE revisits them in a spring update, giving informal feedback, but the sample is small and self-selected (311 respondents, 133 members), nothing is at stake, and autumn projections have at times been revised sharply by the spring update."
+    "why": "Employers report their own hiring plans and NACE revisits them in a spring update, giving informal feedback, but the sample is small and self-selected (311 respondents, 133 members), nothing is at stake, and autumn projections have at times been revised sharply by the spring update (T3 only partly met: informal, no error record)."
    },
    "richness": {
     "score": 3,
@@ -2266,8 +2266,8 @@
     "why": "Skill- and employer-level detail exists in the paid products; public reports give selected rankings and shares."
    },
    "ai": {
-    "score": 3,
-    "why": "Continuously updated data that embed AI skill demand, but no dated 2026 edition was obtained to verify how AI is treated."
+    "score": 2,
+    "why": "No dated 2026 edition could be obtained or verified, and nothing captured shows how AI is treated; scored low for lack of evidence rather than known absence."
    },
    "ai_evidence": {
     "updated_2026": false,
