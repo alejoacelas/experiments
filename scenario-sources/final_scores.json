@@ -29,6 +29,9 @@
   },
   "mobility-tech": {
    "takeaway": "Filings carry hard dates, such as the first 777-9 delivery in 2027 and Starlink at 13.6 million consumer subscribers. This area also has the widest gap between issuer targets and outside forecasts, so prediction markets do the most work here."
+  },
+  "geopolitics": {
+   "takeaway": "Budgets and order backlogs fix the defence build-up in dollars and delivery years: Lockheed Martin's backlog stood at $292.0bn in September 2026 and the administration's plan lifts base defence from $1.15tn in 2027 to $1.36tn in 2031. Markets cover politics only to about 2028 or 2029. Polymarket puts a Chinese invasion of Taiwan by the end of 2027 at 8.5%."
   }
  },
  "macro/goldman-macro-outlook": {
@@ -125,5 +128,41 @@
     "note": ""
    }
   ]
+ },
+ "geopolitics/eurasia-top-risks-2026": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "geopolitics/wef-global-risks-2026": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "geopolitics/sipri-yearbook-2026": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "geopolitics/iiss-military-balance-2026": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "geopolitics/gpr-index": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "geopolitics/acled-conflict-index": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
  }
 }

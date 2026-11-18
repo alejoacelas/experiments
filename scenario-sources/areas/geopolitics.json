@@ -1,0 +1,2871 @@
+{
+ "area_id": "geopolitics",
+ "area_name": "Geopolitics, security & politics",
+ "trends": [
+  {
+   "trend": "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+   "why_it_shapes_daily_life": "Determines whether the Taiwan Strait stays open (chips, shipping, markets), which countries can buy or rent frontier AI compute, and how much of consumer electronics and cloud capacity is priced with a security premium."
+  },
+  {
+   "trend": "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+   "why_it_shapes_daily_life": "Defence is becoming a top-three budget line across the West: it sets taxes and borrowing, pulls skilled labour into shipyards, missile and drone plants, reshapes regional job markets (Ohio, Barrow, Unterluess, Newport News) and normalises conscription and civil-defence debates."
+  },
+  {
+   "trend": "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+   "why_it_shapes_daily_life": "Ceasefire-or-escalation outcomes in Ukraine and the Gulf drive fuel and food prices, insurance and freight costs, refugee flows, and whether European and Gulf cities live under drone and missile alert regimes."
+  },
+  {
+   "trend": "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions",
+   "why_it_shapes_daily_life": "Who holds the US presidency and Congress after 2028, the French presidency after 2027, and how Xi and Putin handle 2027 and 2030 milestones decides the rule-of-law climate, alliance credibility and the direction of AI, trade and migration policy people actually live under."
+  },
+  {
+   "trend": "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy",
+   "why_it_shapes_daily_life": "Tariffs imposed, struck down and re-imposed under different statutes change shelf prices and supply chains quarter by quarter; an un-renewed USMCA and Section 232 actions put North American car, steel and chip jobs under a standing question mark."
+  }
+ ],
+ "sources": [
+  {
+   "id": "dod-fy2027-budget",
+   "name": "FY2027 Department of Defense (\"Department of War\") budget request and FYDP-based out-year path",
+   "publisher": "Office of the Under Secretary of War (Comptroller) / OMB; line-item digest by Congressional Research Service",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Requested dollars and quantities by weapon programme for FY2027 (ships, munitions, Golden Dome, drones, AI) and the defence topline the Administration plans for each year 2027-2036, based on the five-year Future Years Defense Program.",
+   "horizon": "line items FY2027; FYDP FY2027-2031; OMB topline path to 2036; shipbuilding plan to 2056",
+   "latest_edition": {
+    "title": "FY 2027 Department of War Budget Request (Overview Book, P-1, R-1, Program Acquisition Cost by Weapon System) and Budget of the U.S. Government, Fiscal Year 2027",
+    "date": "2026-04-21",
+    "url": "https://comptroller.war.gov/Budget-Materials/Budget2027/"
+   },
+   "update_cadence": "annual (President's Budget each spring; OMB topline issued 2026-04-03, DoD line-item detail 2026-04-21); CRS digest updated as Congress acts (version 3 dated 2026-09-03)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "No money or licence is lost by the requester if the plan is not enacted (T1 fails) and no systematic error record is published (T3 fails). It passes T2 - the request is attacked line by line by four congressional defence committees, CBO, GAO and CRS - and T4, because the FYDP is a statutory five-year plan. T5 is only half met: legacy programmes are under multi-year contract, but the largest new lines (Golden Dome, the battleship, the $53.6 billion autonomous-warfare request) are not yet in any pipeline. Known optimism bias: $350 billion of the $1.45 trillion depends on a reconciliation bill, House appropriators proposed $3.2 billion less for selected weapons in June 2026, and CBO's August 2026 battleship report (https://www.cbo.gov/publication/62550, read only via USNI News and WorkBoat summaries) puts the lead ship at about $23 billion against an earlier Navy figure of $15.1 billion."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named programmes with FY2027 dollars and quantities (18 battle force ships, Columbia and Virginia submarines, PAC-3 MSE, F-47 first flight year, BBG(X) battleship), named initiatives with dollar lines (Defense Autonomous Warfare Group, AI Arsenal, Golden Dome), pay-raise percentages by rank, and a year-by-year defence topline to 2036."
+   },
+   "ai": {
+    "score": 5,
+    "why": "April 2026 edition; AI and autonomy are separately identified dollar lines - CRS's Table A-1 lists mandatory requests of $53.6 billion for the Defense Autonomous Warfare Group and $29.5 billion for an 'Artificial Intelligence Arsenal' - and OMB's volume has a dedicated AI investment bullet (GenAI.mil, AI infrastructure)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "The United States would sustain and maintain its dominance in AI, which is transforming how the Department [...] and operates. Consistent with America’s AI Action Plan, the Budget makes historic investments to aggressively scale its AI ecosystem and ensure broad adoption throughout the Armed Forces.",
+     "doc_local_path": "primary/geopolitics/dod-fy2027-budget/OMB_BUDGET-2027-BUD.pdf",
+     "page": 67
+    },
+    "search_note": "Searched 'artificial intelligence', 'AI', 'autonom', 'drone'. pdftotext drops the fi-ligature in the OMB volume ('Artifcial', 'fghts'), so the passage skips those words with [...]. Dollar figures for AI lines are in CRS R49023 Table A-1 (quoted)."
+   },
+   "tier": "top",
+   "why_top_or_not": "Highest combined score in the area and the only source that prices the US build-up programme by programme with AI/autonomy as explicit dollar lines.",
+   "primary_docs": [
+    {
+     "title": "Budget of the U.S. Government, Fiscal Year 2027 (main volume; Department of War chapter pp. 59-62; Table S-2 defence path to 2036)",
+     "url": "https://www.govinfo.gov/content/pkg/BUDGET-2027-BUD/pdf/BUDGET-2027-BUD.pdf",
+     "local_path": "primary/geopolitics/dod-fy2027-budget/OMB_BUDGET-2027-BUD.pdf",
+     "status": "full",
+     "bytes": 8869480,
+     "pages": 92,
+     "note": "Official GPO file, issued 2026-04-03. pdftotext drops 'fi' ligatures in body text."
+    },
+    {
+     "title": "Appendix, Budget of the U.S. Government, Fiscal Year 2027 (account-level schedules incl. Department of War)",
+     "url": "https://www.govinfo.gov/content/pkg/BUDGET-2027-APP/pdf/BUDGET-2027-APP.pdf",
+     "local_path": "primary/geopolitics/dod-fy2027-budget/OMB_BUDGET-2027-APP_Appendix.pdf",
+     "status": "full",
+     "bytes": 19401052,
+     "pages": 1340,
+     "note": "Official GPO file; Department of War chapter starts at printed p. 235."
+    },
+    {
+     "title": "CRS R49023, FY2027 Defense Budget: Funding for Selected Weapon Systems (version 3, updated 2026-09-03)",
+     "url": "https://www.everycrsreport.com/files/2026-09-03_R49023_c5b46e7b1fc53a3458223b3cb0e736973b0a9a95.pdf",
+     "local_path": "primary/geopolitics/dod-fy2027-budget/CRS_R49023_2026-09-03.pdf",
+     "status": "full",
+     "bytes": 1026185,
+     "pages": 30,
+     "note": "Complete CRS report obtained from the EveryCRSReport mirror (crsreports.congress.gov returns 403). Tables are built from DoD's P-1/R-1 spreadsheets and Program Acquisition Cost by Weapon System."
+    },
+    {
+     "title": "Center for Arms Control and Non-Proliferation, FY 2027 Defense Budget Request Briefing Book fact sheet (May 2026)",
+     "url": "https://armscontrolcenter.org/wp-content/uploads/2026/05/FY-2027-Defense-Budget-Request-Briefing-Book-Fact-Sheet.pdf",
+     "local_path": "primary/geopolitics/dod-fy2027-budget/ArmsControlCenter_FY2027_Defense_Budget_Request_Fact_Sheet.pdf",
+     "status": "full",
+     "bytes": 280429,
+     "pages": 3,
+     "note": "Secondary three-page summary by an advocacy NGO; kept for cross-checking only."
+    },
+    {
+     "title": "FY2027 Budget Request Overview Book (Comptroller)",
+     "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Budget_Request_Overview_Book.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "comptroller.war.gov returns HTTP 403 (Akamai 'Access Denied') to curl with browser headers and to the web fetch tool; a browser-automation retry was blocked by the session's permission policy, so not downloaded."
+    },
+    {
+     "title": "FY2027 Procurement Programs (P-1)",
+     "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_p1.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Same host, HTTP 403. Line items reach this file set only via CRS R49023."
+    },
+    {
+     "title": "FY2027 RDT&E Programs (R-1)",
+     "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_r1.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Same host, HTTP 403."
+    },
+    {
+     "title": "FY2027 Program Acquisition Cost by Weapon System",
+     "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Weapons.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Same host, HTTP 403. URL taken from CRS R49023 footnote 20."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "For FY2027, the Administration requested a total of $1.45 trillion for DOD, including $1.1 trillion in discretionary and $350.0 billion in mandatory spending. [...] The department’s overall budget requested for FY2027 was $440.9 billion (44%) more than the FY2026 enacted amount of $1.01 trillion.",
+     "doc_local_path": "primary/geopolitics/dod-fy2027-budget/CRS_R49023_2026-09-03.pdf",
+     "page": 4,
+     "locator": "Background: FY2027 DOD Budget Request",
+     "url": "https://www.everycrsreport.com/files/2026-09-03_R49023_c5b46e7b1fc53a3458223b3cb0e736973b0a9a95.pdf",
+     "worldbuilding_use": "Scale of the 2027 US build-up: a 44% one-year jump, a third of it hostage to a reconciliation vote."
+    },
+    {
+     "text": "The Budget requests $65.8 billion in shipbuilding funding to procure 18 battle force ships and 16 non-battle force ships. [...] The 2027 Budget establishes President Trump’s Golden Fleet, including initial funding for the Trump-class battleship and next generation frigates.",
+     "doc_local_path": "primary/geopolitics/dod-fy2027-budget/OMB_BUDGET-2027-BUD.pdf",
+     "page": 66,
+     "locator": "Department of War chapter, 'Shipbuilding' bullet",
+     "url": "https://www.govinfo.gov/content/pkg/BUDGET-2027-BUD/pdf/BUDGET-2027-BUD.pdf",
+     "worldbuilding_use": "Shipyard order book for 2027: 34 hulls, battleship and frigate starts; drives yard hiring scenes."
+    },
+    {
+     "text": "Defense Function 050 [...] Non-Defense [...] 892 710 903 733 1,154 660 1,284 647 1,291 634 1,330 621 1,355 609",
+     "doc_local_path": "primary/geopolitics/dod-fy2027-budget/OMB_BUDGET-2027-BUD.pdf",
+     "page": 82,
+     "locator": "Table S-2, Funding Levels for Appropriated (\"Discretionary\") Programs by Category, $ billions; number pairs are (Defense, Non-Defense) for 2025 actual, 2026 enacted, 2027 request, 2028, 2029, 2030, 2031 - rows are interleaved in the text rendering",
+     "url": "https://www.govinfo.gov/content/pkg/BUDGET-2027-BUD/pdf/BUDGET-2027-BUD.pdf",
+     "worldbuilding_use": "Year-by-year guns-versus-butter path: base defence $1.15T (2027) to $1.36T (2031) while non-defence shrinks."
+    },
+    {
+     "text": "Defense Autonomous Warfare Group $53.6 Artificial Intelligence Arsenal $29.5 Golden Dome for America (IF13115) $17.5",
+     "doc_local_path": "primary/geopolitics/dod-fy2027-budget/CRS_R49023_2026-09-03.pdf",
+     "page": 29,
+     "locator": "Appendix Table A-1, FY2027 DOD Request, Mandatory column, $ billions",
+     "url": "https://www.everycrsreport.com/files/2026-09-03_R49023_c5b46e7b1fc53a3458223b3cb0e736973b0a9a95.pdf",
+     "worldbuilding_use": "AI and autonomy as budget lines: $53.6B autonomous warfare, $29.5B AI Arsenal, $17.5B Golden Dome requested for FY2027."
+    },
+    {
+     "text": "In its FY2027 budget submission to Congress, DOD requested $95.0 billion in discretionary and mandatory procurement and RDT&E funding for missile and munitions programs.",
+     "doc_local_path": "primary/geopolitics/dod-fy2027-budget/CRS_R49023_2026-09-03.pdf",
+     "page": 21,
+     "locator": "Missiles and Munitions",
+     "url": "https://www.everycrsreport.com/files/2026-09-03_R49023_c5b46e7b1fc53a3458223b3cb0e736973b0a9a95.pdf",
+     "worldbuilding_use": "Munitions demand signal behind missile-plant expansions and multi-year interceptor contracts."
+    }
+   ]
+  },
+  {
+   "id": "us-defense-primes-filings",
+   "name": "US defence primes' SEC filings: backlog, remaining performance obligations and conversion schedules",
+   "publisher": "Lockheed Martin, RTX, General Dynamics, Northrop Grumman, Huntington Ingalls Industries, L3Harris (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Dollar value of signed defence orders not yet delivered at each prime and the share management expects to convert to revenue within 12/24 months or by 2027 and 2029, with named programmes and award sizes.",
+   "horizon": "backlog conversion disclosed to 2027 and 2029 with 'balance thereafter'; underlying contracts run into the 2030s",
+   "latest_edition": {
+    "title": "Form 10-Q for the quarter ended September/October 2026 (six companies), plus FY2025 Form 10-K",
+    "date": "2026-10-30",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-Q"
+   },
+   "update_cadence": "quarterly (10-Q) and annual (10-K); 8-K earnings releases",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Officers certify the filings under Sarbanes-Oxley and face securities-fraud liability (T1); auditors, DCAA, sell-side analysts and short-sellers check the numbers (T2); remaining performance obligations are disclosed out to 2029 and beyond (T4) and consist of signed contracts (T5). Capped at 4 for a measurable bias: 'total backlog' includes unfunded portions that depend on future appropriations (GD says so explicitly; HII's unfunded backlog is $48.3 billion of $86.2 billion) and no company publishes a multi-year record of backlog-conversion error (T3 only partly met)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Company- and programme-level specifics with dollars and dates: $52.5 billion PAC-3 MSE multi-year award, $23 billion Tomahawk booking, Virginia/Columbia submarine awards, F-35 delivery counts and backlog of 274 aircraft, conversion percentages by year; little on sites or workforce."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Q3 2026 filings; AI appears qualitatively as a risk factor (Lockheed, Northrop) and in programme descriptions (HII frigates integrating robotic and autonomous systems), but no backlog or revenue line is attributed to it. General Dynamics' 10-Q does not mention AI at all."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "our ability to develop and integrate artificial intelligence and autonomy technologies into our products and operations, our use of third-party AI providers, unintended performance of AI-enabled systems, and evolving laws, regulations and contract requirements governing AI and autonomous weapon systems",
+     "doc_local_path": "primary/geopolitics/us-defense-primes-filings/LMT_10-Q_2026Q3.html",
+     "page": null
+    },
+    "search_note": "Searched each Q3 2026 10-Q for 'artificial intelligence', 'AI', 'autonom': LMT 1 hit (forward-looking-statement risk list), NOC 1 (AI-enabled cyber attacks), HII 1 (frigate/robotic and autonomous systems), LHX 1 (autonomous maritime solutions), RTX and GD none."
+   },
+   "tier": "top",
+   "why_top_or_not": "Legally certified, contract-backed evidence that the build-up is already signed: the six filings show about $1.1 trillion of combined backlog (including $176 billion of RTX commercial aerospace) with dated conversion schedules.",
+   "primary_docs": [
+    {
+     "title": "Lockheed Martin Form 10-Q, quarter ended 2026-09-27 (filed 2026-10-22)",
+     "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/LMT_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 1703058,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "RTX Form 10-Q, quarter ended 2026-09-30 (filed 2026-10-20)",
+     "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/RTX_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 2416408,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "General Dynamics Form 10-Q, quarter ended 2026-10-04 (filed 2026-10-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000038/gd-20261004.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/GD_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 1552813,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Northrop Grumman Form 10-Q, quarter ended 2026-09-30 (filed 2026-10-20)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/NOC_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 1751476,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Huntington Ingalls Industries Form 10-Q, quarter ended 2026-09-30 (filed 2026-10-29)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000056/hii-20260930.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/HII_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 1974142,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "L3Harris Form 10-Q, quarter ended 2026-10-02 (filed 2026-10-29)",
+     "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000087/hrs-20261002.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/LHX_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 1637825,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Lockheed Martin Form 10-K FY2025 (filed 2026-01-29)",
+     "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/LMT_10-K_FY2025.html",
+     "status": "full",
+     "bytes": 2909294,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "RTX Form 10-K FY2025 (filed 2026-02-06)",
+     "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/RTX_10-K_FY2025.html",
+     "status": "full",
+     "bytes": 3685410,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "General Dynamics Form 10-K FY2025 (filed 2026-01-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000006/gd-20251231.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/GD_10-K_FY2025.html",
+     "status": "full",
+     "bytes": 2454438,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Northrop Grumman Form 10-K FY2025 (filed 2026-01-27)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/NOC_10-K_FY2025.html",
+     "status": "full",
+     "bytes": 3035825,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Huntington Ingalls Industries Form 10-K FY2025 (filed 2026-02-05)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+     "local_path": "primary/geopolitics/us-defense-primes-filings/HII_10-K_FY2025.html",
+     "status": "full",
+     "bytes": 3019451,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "As of September 27, 2026, our ending backlog was $292.0 billion. [...] was primarily due to $52.5 billion associated with the multi-year award to produce PAC-3 Missile Segment Enhancement (MSE) interceptors at our MFC business segment.",
+     "doc_local_path": "primary/geopolitics/us-defense-primes-filings/LMT_10-Q_2026Q3.html",
+     "page": null,
+     "locator": "Note - Backlog",
+     "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm",
+     "worldbuilding_use": "Interceptor production locked in for years: one $52.5B PAC-3 order lifts Lockheed backlog to $292B."
+    },
+    {
+     "text": "On October 4, 2026, we had $220.3 billion of remaining performance obligations, which we refer to as total backlog. We expect to recognize approximately 30% of our remaining performance obligations as revenue by year-end 2027, an additional 25% by year-end 2029 and the balance thereafter.",
+     "doc_local_path": "primary/geopolitics/us-defense-primes-filings/GD_10-Q_2026Q3.html",
+     "page": null,
+     "locator": "Note B, Revenue - Performance Obligations",
+     "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000038/gd-20261004.htm",
+     "worldbuilding_use": "Submarine and vehicle work scheduled past 2029: 45% of GD's $220B is post-2029 delivery."
+    },
+    {
+     "text": "As of September 30, 2026, the Company had $86.2 billion of remaining performance obligations. The Company expects to recognize approximately 20% of its remaining performance obligations as revenue through 2027, an additional 30% through 2029, and the balance thereafter.",
+     "doc_local_path": "primary/geopolitics/us-defense-primes-filings/HII_10-Q_2026Q3.html",
+     "page": null,
+     "locator": "Notes to financial statements - Revenue, remaining performance obligations",
+     "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000056/hii-20260930.htm",
+     "worldbuilding_use": "Newport News and Ingalls yards are booked into the 2030s; half the backlog converts after 2029."
+    },
+    {
+     "text": "In the quarter ended September 30, 2026, Raytheon recorded $52 billion in defense bookings. In addition to a number of smaller individual bookings, Raytheon booked $23 billion to provide Tomahawk for the U.S. Navy, $14.3 billion to provide AMRAAM to the U.S. Air Force",
+     "doc_local_path": "primary/geopolitics/us-defense-primes-filings/RTX_10-Q_2026Q3.html",
+     "page": null,
+     "locator": "MD&A - Raytheon segment, Defense Backlog and Bookings",
+     "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm",
+     "worldbuilding_use": "Missile mega-orders of summer 2026: Tomahawk and AMRAAM multi-year buys as named contract events."
+    },
+    {
+     "text": "Frigate is intended to act as the command ship for Tailored Offsets, specifically Robotic and Autonomous Systems (\"RAS\"), and integrate with RAS to lead Tailored Forces into a cohesive warfighting approach. In 2026, we were awarded a lead yard services contract to begin Frigate class baseline design engineering",
+     "doc_local_path": "primary/geopolitics/us-defense-primes-filings/HII_10-Q_2026Q3.html",
+     "page": null,
+     "locator": "MD&A - Glossary of Programs, Frigate class (FF(X)) ships",
+     "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000056/hii-20260930.htm",
+     "worldbuilding_use": "How autonomy shows up in a shipbuilder's filing: the new frigate is designed as a mothership for robotic systems."
+    }
+   ]
+  },
+  {
+   "id": "prediction-markets",
+   "name": "Real-money prediction markets on geopolitics and political control (Polymarket and Kalshi), snapshot 2026-11-18",
+   "publisher": "Polymarket (Gamma API) and Kalshi (CFTC-regulated exchange, public trade API)",
+   "kind": "market price",
+   "covers_trends": [
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Traded probabilities, with fixed resolution dates, for the 2028 US presidential and congressional outcome, the April 2027 French presidency (Marine Le Pen at 0.4865 on Polymarket), a Chinese invasion of Taiwan by end-2027, a Russia-Ukraine ceasefire by date, leader exits, US institutional-stress events and 'AGI by date'.",
+   "horizon": "most liquid contracts resolve by 2027-12-31 or at the November 2028 election / January 2029 inauguration; thin contracts to 2030-2031 (Taiwan travel advisory, China overtaking US GDP, AGI) and a few to 2045",
+   "latest_edition": {
+    "title": "API snapshot of open geopolitics/politics contracts (352 Polymarket events, 200 Kalshi events)",
+    "date": "2026-11-18",
+    "url": "https://polymarket.com/ and https://kalshi.com/"
+   },
+   "update_cadence": "continuous (prices change by the minute; snapshot is a single reading)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Traders lose real money when wrong (T1) and each price is set by many independent participants with arbitrageurs across venues (T2). T4 fails for a five-year view: the deep contracts stop at 2027-2029, and the few 2030+ contracts trade tens of thousands of dollars. T3 is only partly met - both venues resolve and publish outcomes continuously, but calibration evidence is for short-dated contracts; long-dated, low-probability contracts are known to be overpriced by the favourite-longshot bias and by the opportunity cost of locking up capital for years."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Hundreds of named, dated yes/no events (candidates, countries, cities, deadlines) with prices, bid/ask, volume and written resolution rules, but no reasoning or mechanism behind any number."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Live November 2026 prices; AI is the explicit subject of several contracts in the snapshot (Kalshi 'When will any company achieve AGI?' to 2031; Polymarket odds of DeepSeek and Moonshot AI joining the Pentagon's Chinese Military Companies list), but for the war and election contracts the AI component of the price cannot be separated out."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "When will any company achieve AGI?,\"Before Jan 1, 2028\",2028-01-01,0.4700,0.4700,0.4900,33643.61,15742.02,KXAGICO-COMP-27Q4",
+     "doc_local_path": "primary/geopolitics/prediction-markets/kalshi_geopolitics_snapshot_2026-11-18.csv",
+     "page": null
+    },
+    "search_note": "Filtered event titles for 'AGI', 'AI', 'chip', 'Chinese Military Companies'. Kalshi CSV columns: event_title, market_yes_subtitle, close_date, last_price_usd, yes_bid_usd, yes_ask_usd, volume_contracts, open_interest_contracts, ticker."
+   },
+   "tier": "top",
+   "why_top_or_not": "The only money-at-risk probabilities for elections, wars and leader exits; scored down on horizon because liquidity ends around 2028-2029.",
+   "primary_docs": [
+    {
+     "title": "Polymarket geopolitics/politics snapshot, CSV (one row per open market; price of first outcome)",
+     "url": "https://gamma-api.polymarket.com/events?closed=false&active=true&order=volume&ascending=false",
+     "local_path": "primary/geopolitics/prediction-markets/polymarket_geopolitics_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 234835,
+     "pages": 0,
+     "note": "Built from the Gamma API on 2026-11-18 ~14:28 UTC: top 2,100 open events by volume (API offset cap), keyword-filtered to geopolitics/politics with end date >= 2026-12-31; for events with >12 markets, outcomes priced below 1% are omitted from the CSV (all are in the JSON)."
+    },
+    {
+     "title": "Polymarket geopolitics/politics snapshot, JSON (events with markets, prices, volumes, descriptions)",
+     "url": "https://gamma-api.polymarket.com/events?closed=false&active=true&order=volume&ascending=false",
+     "local_path": "primary/geopolitics/prediction-markets/polymarket_geopolitics_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 1986580,
+     "pages": 0,
+     "note": "352 events."
+    },
+    {
+     "title": "Kalshi geopolitics/politics snapshot, CSV (one row per open market)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
+     "local_path": "primary/geopolitics/prediction-markets/kalshi_geopolitics_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 195541,
+     "pages": 0,
+     "note": "Built from Kalshi's public API on 2026-11-18 ~14:32 UTC: all 20,685 open events paged, filtered to geopolitics (close >= 2026-12-31) and long-dated politics (close >= 2027-06-01); prices in dollars per $1 contract; close_date is the contract's latest close, which for election contracts is set about a year after the vote."
+    },
+    {
+     "title": "Kalshi geopolitics/politics snapshot, JSON (events with markets, rules text, prices, volume, open interest)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
+     "local_path": "primary/geopolitics/prediction-markets/kalshi_geopolitics_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 1511511,
+     "pages": 0,
+     "note": "200 events."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Will China invade Taiwan by December 31, 2027?\",2028-01-01,Yes,0.0850,0.08,0.08,0.09,3799049,will-china-invade-taiwan-by-december-31-2027",
+     "doc_local_path": "primary/geopolitics/prediction-markets/polymarket_geopolitics_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row as of 2026-11-18; columns: market_question, end_date, outcome, price_outcome, last_trade, best_bid, best_ask, volume_usd, event_slug",
+     "url": "https://polymarket.com/event/will-china-invade-taiwan-by-december-31-2027",
+     "worldbuilding_use": "Market-implied chance of a Taiwan invasion by end-2027: about 8.5% on $3.8M traded."
+    },
+    {
+     "text": "2028 Presidential Election winner? (Party),Democratic party,2029-11-07,0.6700,0.6700,0.6800,476559.89,226106.23,KXPRESPARTY-2028-D",
+     "doc_local_path": "primary/geopolitics/prediction-markets/kalshi_geopolitics_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row as of 2026-11-18; columns: event_title, market_yes_subtitle, close_date, last_price_usd, yes_bid_usd, yes_ask_usd, volume_contracts, open_interest_contracts, ticker",
+     "url": "https://kalshi.com/markets/kxpresparty",
+     "worldbuilding_use": "Baseline for US political control after 2028: Democrats priced at about two-in-three for the presidency."
+    },
+    {
+     "text": "Russia x Ukraine ceasefire agreement by December 31, 2027?\",2028-01-01,Yes,0.6750,0.68,0.67,0.68,71343,russia-x-ukraine-ceasefire-agreement-by",
+     "doc_local_path": "primary/geopolitics/prediction-markets/polymarket_geopolitics_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row as of 2026-11-18; same columns as above",
+     "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
+     "worldbuilding_use": "War-termination timing: roughly two-in-three odds of a formal ceasefire agreement by end-2027."
+    },
+    {
+     "text": "Will the US issue a Level 4 travel advisory for Taiwan?,\"Before Jan 1, 2030\",2030-01-01,0.3300,0.3300,0.3800,25226.20,8554.12,KXTAIWANLVL4-30JAN01",
+     "doc_local_path": "primary/geopolitics/prediction-markets/kalshi_geopolitics_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row as of 2026-11-18; thin contract (about 25,000 contracts traded)",
+     "url": "https://kalshi.com/markets/kxtaiwanlvl4",
+     "worldbuilding_use": "Longest-dated Taiwan crisis proxy: one-in-three odds of a 'Do Not Travel' advisory before 2030."
+    },
+    {
+     "text": "When will any company achieve AGI?,\"Before Jan 1, 2028\",2028-01-01,0.4700,0.4700,0.4900,33643.61,15742.02,KXAGICO-COMP-27Q4",
+     "doc_local_path": "primary/geopolitics/prediction-markets/kalshi_geopolitics_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row as of 2026-11-18; columns: event_title, market_yes_subtitle, close_date, last_price_usd, yes_bid_usd, yes_ask_usd, volume_contracts, open_interest_contracts, ticker; thin contract",
+     "url": "https://kalshi.com/markets/kxagico",
+     "worldbuilding_use": "How the market treats AI directly: 47% that some company is judged to have reached AGI before 2028."
+    }
+   ]
+  },
+  {
+   "id": "china-15th-fyp",
+   "name": "Outline of the 15th Five-Year Plan (2026-2030) for National Economic and Social Development of the PRC",
+   "publisher": "National People's Congress / State Council of the PRC (English translation by the EU-funded EUCLERA project)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "China's own binding and anticipatory targets for 2030 (R&D growth, digital-economy share of GDP, unemployment ceiling, energy and grain capacity, carbon intensity) and its stated programme for AI, chips, military modernisation and Taiwan policy.",
+   "horizon": "2026-2030, with 2035 goals restated",
+   "latest_edition": {
+    "title": "Outline of the 15th Five-Year Plan (2026-2030) for National Economic and Social Development of the People's Republic of China",
+    "date": "2026-03-13",
+    "url": "https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html"
+   },
+   "update_cadence": "every five years; implementation reported annually to the NPC, with a formal mid-term assessment",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "The plan period is exactly the horizon (T4) and its 20 headline indicators are scored: the document itself reports 2025 outcomes against the previous plan, and its final chapter commits to dynamic monitoring, a mid-term assessment reported to the NPC Standing Committee and a final assessment submitted to the NPC (T3). No money or licence is at stake for the author and nobody is paid to attack it (T1, T2 fail). Known bias: 'binding' targets are usually met or redefined, 'anticipatory' ones are aspirational, and statistics are produced by the body being graded."
+   },
+   "richness": {
+    "score": 4,
+    "why": "181 pages with a 20-indicator target table (2025 base, 2030 goal, binding/anticipatory), named corridors, provinces and programme boxes (frontier S&T, 'AI+' Action Initiative), military and Taiwan chapters; quantities are plentiful but dated milestones inside the period are rare."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Adopted March 2026; AI is an explicit pillar (a dedicated 'AI+' initiative box, AI chips, 'pathways towards general AI') and is partly quantified through the target to raise core digital-economy industries from 10.5% to 12.5% of GDP, but there is no AI-specific numeric line."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "encouraged in technologies such as multimodal AI, AI agents, embodied intelligence, and swarm intelligence, while actively exploring pathways towards general AI.",
+     "doc_local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "page": 50
+    },
+    "search_note": "Searched 'AI', 'artificial intelligence', 'AI+', 'computing power', 'intelligent'. Dozens of hits concentrated in Part Four (Digital China) and Boxes 8 and 10."
+   },
+   "tier": "top",
+   "why_top_or_not": "The counterpart plan to the US budget: a scored, period-matched statement of what Beijing commits to by 2030 on technology, security and Taiwan, with AI as a named pillar.",
+   "primary_docs": [
+    {
+     "title": "Outline of the 15th Five-Year Plan (2026-2030), full English translation (EUCLERA, PDF dated 2026-03-17)",
+     "url": "https://www.wko.at/oe/aussenwirtschaft/euclera-translation-15th-five-year-plan-2026-2030-.pdf",
+     "local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "status": "full",
+     "bytes": 1010519,
+     "pages": 181,
+     "note": "Complete 181-page English translation produced by the EU-funded EUCLERA project and hosted by the Austrian Federal Economic Chamber; not an official PRC translation. PDF created 2026-03-17."
+    },
+    {
+     "title": "Official Chinese full text as released by Xinhua, 2026-03-13 (新华社受权发布)",
+     "url": "https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html",
+     "local_path": "primary/geopolitics/china-15th-fyp/Xinhua_2026-03-13_15th_FYP_outline_zh.html",
+     "status": "full",
+     "bytes": 204267,
+     "pages": 0,
+     "note": "Complete official Chinese text (all 18 parts on one page), timestamped 2026-03-13 22:38. Quotes are taken from the English translation because the verifier cannot match Chinese characters."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "We will improve the overall performance of the national innovation system markedly with R&D expenditure across society growing by over seven percent annually.",
+     "doc_local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "page": 13,
+     "locator": "Part One, Chapter 3 Main Objectives",
+     "url": "https://www.wko.at/oe/aussenwirtschaft/euclera-translation-15th-five-year-plan-2026-2030-.pdf",
+     "worldbuilding_use": "China's R&D spending compounding at 7%+ a year to 2030; pace-setter for the tech race."
+    },
+    {
+     "text": "reach around 1.45 trillion jin (725 million tonnes), and comprehensive energy production capacity will reach 5.8 billion tonnes of standard coal. [...] We will work to realize the Centenary Goal of the People’s Liberation Army (PLA) on schedule",
+     "doc_local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "page": 15,
+     "locator": "Part One, Chapter 3 Main Objectives (national security barrier)",
+     "url": "https://www.wko.at/oe/aussenwirtschaft/euclera-translation-15th-five-year-plan-2026-2030-.pdf",
+     "worldbuilding_use": "Self-sufficiency targets (grain, energy) paired with the PLA's 2027 centenary goal: siege-proofing by design."
+    },
+    {
+     "text": "We will strengthen our strategic deterrence forces to ensure global strategic balance and stability. [...] We will fast-track the development of unmanned, intelligent combat forces and counter-capabilities.",
+     "doc_local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "page": 167,
+     "locator": "Part Fifteen, Chapter 55, Section 1 Building of Advanced Combat Capabilities",
+     "url": "https://www.wko.at/oe/aussenwirtschaft/euclera-translation-15th-five-year-plan-2026-2030-.pdf",
+     "worldbuilding_use": "PLA priorities to 2030 in Beijing's words: bigger nuclear deterrent, drone and AI-enabled forces."
+    },
+    {
+     "text": "We will develop high-performance AI chips and highly available basic software stacks, accelerate exploration and innovation in model infrastructures",
+     "doc_local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "page": 38,
+     "locator": "Box 8: Breakthroughs in Frontier Science and Technology, 01 AI",
+     "url": "https://www.wko.at/oe/aussenwirtschaft/euclera-translation-15th-five-year-plan-2026-2030-.pdf",
+     "worldbuilding_use": "State-backed domestic AI-chip push as the answer to US export controls."
+    },
+    {
+     "text": "We will support Fujian Province in building a high-quality demonstration zone for integrated cross-Strait development, promote Pingtan, Kunshan, Dongguan, and other areas to establish key cross-Strait cooperation platforms",
+     "doc_local_path": "primary/geopolitics/china-15th-fyp/euclera-translation-15th-five-year-plan-2026-2030.pdf",
+     "page": 174,
+     "locator": "Part Seventeen, Chapter 60 Peaceful Development of Cross-Strait Relations and Advancement of National Reunification, Section 1",
+     "url": "https://www.wko.at/oe/aussenwirtschaft/euclera-translation-15th-five-year-plan-2026-2030-.pdf",
+     "worldbuilding_use": "Named places for the 'integration' track of Taiwan policy: Fujian, Pingtan, Kunshan, Dongguan."
+    }
+   ]
+  },
+  {
+   "id": "us-export-control-tariff-regime",
+   "name": "US AI-chip export-control rules and tariff actions with dated legal effect (BIS interim final rule, Section 232 semiconductor proclamation, Section 122/301 tariffs, USMCA joint review)",
+   "publisher": "Bureau of Industry and Security (Commerce); the White House; status digests by Congressional Research Service",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy"
+   ],
+   "what_it_forecasts": "Not a forecast but the binding rule set: which countries need licences for advanced AI chips and remote compute, the compute thresholds, the tariff rates and statutes in force, grace periods, review dates and the USMCA expiry clock.",
+   "horizon": "rules effective on publication with 90-day grace periods and 2027 parameter steps; Section 122 tariffs limited to 150 days; USMCA runs to 2036 unless renewed",
+   "latest_edition": {
+    "title": "Addressing Remote Access to Advanced Semiconductors (BIS interim final rule, RIN 0694-AK50)",
+    "date": "2026-11-16",
+    "url": "https://www.federalregister.gov/d/2026-23529"
+   },
+   "update_cadence": "irregular and frequent: chip-control rules changed in May 2025 (AI Diffusion rescission announced), January 2026 and November 2026; tariff authority changed in February and July 2026",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "As a guide to 2031 it passes only the adversaries test: every action is litigated or lobbied (the Supreme Court invalidated the IEEPA tariffs on 2026-02-20; rules carry comment periods). The government loses nothing when it rewrites a rule (T1 fails), there is no scoring (T3), and the instruments are short-lived by design - Section 122 duties lapse after 150 days and the chip rules were rewritten in May 2025, January 2026 and November 2026 (T4, T5 fail). What is reliable is the direction and the dated mechanics, not the level."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named countries (Indonesia, Malaysia, Singapore, Thailand, Brazil; Country Group D:5 and Macau), numeric thresholds (12,000,000 aggregate TPP; 25% duty; 10% or 12.5% on 60 economies), effective dates, grace periods and Federal Register citations; CRS tables list every active tariff action."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Dated 16 November 2026 and AI compute is the subject itself: the rule regulates who may train advanced models on US chips, including by remote access, and formally rescinds the AI Diffusion Rule. (BIS's text writes 'Super Intelligence (SI)' where earlier rules said 'artificial intelligence'.)"
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced.",
+     "doc_local_path": "primary/geopolitics/us-export-control-tariff-regime/BIS_IFR_2026-23529_remote_access_advanced_semiconductors.pdf",
+     "page": 2
+    },
+    "search_note": "Searched 'artificial intelligence', 'AI', 'super intelligence', 'SI', 'TPP', 'data center'. The IFR uses 'Super Intelligence (SI)' 3 times and 'AI' mainly in 'AI Diffusion Rule'."
+   },
+   "tier": "top",
+   "why_top_or_not": "Weak as a forecast but indispensable scaffolding: it is the law that actually allocates AI compute and tariff costs between countries, with thresholds and dates a writer can use directly.",
+   "primary_docs": [
+    {
+     "title": "BIS interim final rule 'Addressing Remote Access to Advanced Semiconductors' (public-inspection copy, FR Doc. 2026-23529, scheduled for publication 2026-11-19)",
+     "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/BIS_IFR_2026-23529_remote_access_advanced_semiconductors.pdf",
+     "status": "full",
+     "bytes": 527146,
+     "pages": 117,
+     "note": "Complete 117-page public-inspection PDF; the Federal Register page itself (federalregister.gov) returns 403 to scripted requests."
+    },
+    {
+     "title": "BIS press release, 'BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology' (2026-11-16), HTML",
+     "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/BIS_press_release_remote_access_rule.html",
+     "status": "full",
+     "bytes": 51200,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Same press release, PDF",
+     "url": "https://media.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/BIS_press_release_2026-11-16.pdf",
+     "status": "full",
+     "bytes": 131613,
+     "pages": 1,
+     "note": ""
+    },
+    {
+     "title": "Presidential proclamation 'Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products into the United States' (January 2026; 91 FR 2443)",
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/WhiteHouse_2026-01_Proclamation_Section232_semiconductors.html",
+     "status": "full",
+     "bytes": 315132,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CRS R49481, Active Presidential Tariff Actions in 2026: Fact Sheet (2026-10-08)",
+     "url": "https://www.everycrsreport.com/files/2026-10-08_R49481_1c8e009891a819567af7b8fc2bbaf870cc618687.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_R49481_2026-10-08.pdf",
+     "status": "full",
+     "bytes": 668404,
+     "pages": 7,
+     "note": ""
+    },
+    {
+     "title": "CRS R48787, USMCA Joint Review: Process and Role of Congress (2026-09-29)",
+     "url": "https://www.everycrsreport.com/files/2026-09-29_R48787_fc0701978cfa6ebc5216a16a56f8307069f8e1ac.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_R48787_2026-09-29.pdf",
+     "status": "full",
+     "bytes": 627273,
+     "pages": 9,
+     "note": ""
+    },
+    {
+     "title": "CRS R48964, USMCA Joint Review: Background on Prior Negotiations and Selected Issues for Congress (2026-06-02)",
+     "url": "https://www.everycrsreport.com/files/2026-06-02_R48964_595b569426dc03cb1adc6103002f406ca0d9a46b.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_R48964_2026-06-02.pdf",
+     "status": "full",
+     "bytes": 889330,
+     "pages": 27,
+     "note": ""
+    },
+    {
+     "title": "CRS IF12990, U.S.-China Tariff Actions Since 2018: An Overview (2026-08-18)",
+     "url": "https://www.everycrsreport.com/files/2026-08-18_IF12990_14ccd12da67621f43a5900d120708a96758b9735.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_IF12990_2026-08-18.pdf",
+     "status": "full",
+     "bytes": 538909,
+     "pages": 3,
+     "note": ""
+    },
+    {
+     "title": "CRS IF13006, Section 232 of the Trade Expansion Act of 1962 (2026-09-02)",
+     "url": "https://www.everycrsreport.com/files/2026-09-02_IF13006_5663b6669389c452ec328b4044e0f50a8ed0e30d.pdf",
+     "local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_IF13006_2026-09-02.pdf",
+     "status": "full",
+     "bytes": 413312,
+     "pages": 3,
+     "note": ""
+    },
+    {
+     "title": "BIS final rule of January 2026 revising licence review policy for advanced chips to China and Macau",
+     "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "federalregister.gov returns 403 to scripted requests and the document number was not identified; rule known only from law-firm summaries."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "a license will be required to export, reexport, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil",
+     "doc_local_path": "primary/geopolitics/us-export-control-tariff-regime/BIS_IFR_2026-23529_remote_access_advanced_semiconductors.pdf",
+     "page": 1,
+     "locator": "Summary",
+     "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+     "worldbuilding_use": "Five named transit countries put under AI-chip licensing from November 2026: Southeast Asia's data-centre boom meets a gate."
+    },
+    {
+     "text": "Any data center providing significant volume of compute power to companies headquartered, or with an ultimate parent headquartered, in Macau or Country Group D:5 prior to the publication date of this rule that wishes to continue providing these services must obtain a license with 90 days of the effective date of this IFR or face future export restrictions.",
+     "doc_local_path": "primary/geopolitics/us-export-control-tariff-regime/BIS_IFR_2026-23529_remote_access_advanced_semiconductors.pdf",
+     "page": 4,
+     "locator": "Preamble, overview of new controls",
+     "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+     "worldbuilding_use": "A 90-day clock (to about mid-February 2027) for overseas clouds already serving Chinese AI labs."
+    },
+    {
+     "text": "imports of Covered Products will be subject to a 25 percent ad valorem duty rate. This tariff shall be effective with respect to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern standard time on January 15, 2026",
+     "doc_local_path": "primary/geopolitics/us-export-control-tariff-regime/WhiteHouse_2026-01_Proclamation_Section232_semiconductors.html",
+     "page": null,
+     "locator": "Proclamation clause (3)",
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/",
+     "worldbuilding_use": "The 25% chip tariff and its start date; exemptions for US data centres make it a re-export toll."
+    },
+    {
+     "text": "At the July 2026 joint review, the United States declined to renew USMCA in its current form. The agreement is to remain in force until all parties agree to extend it or it expires in 2036.",
+     "doc_local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_R48787_2026-09-29.pdf",
+     "page": 3,
+     "locator": "Introduction",
+     "url": "https://www.everycrsreport.com/files/2026-09-29_R48787_fc0701978cfa6ebc5216a16a56f8307069f8e1ac.pdf",
+     "worldbuilding_use": "North American trade pact left on a ten-year countdown after July 2026: annual-review limbo for autos."
+    },
+    {
+     "text": "As of July 2026, average tariff rates on the other country’s goods were about 36.5% (U.S.) and 31% (PRC), after the Section 122 tariff expired and a 12.5% tariff was imposed under Section 301.",
+     "doc_local_path": "primary/geopolitics/us-export-control-tariff-regime/CRS_IF12990_2026-08-18.pdf",
+     "page": 1,
+     "locator": "Escalating Tariff Rates",
+     "url": "https://www.everycrsreport.com/files/2026-08-18_IF12990_14ccd12da67621f43a5900d120708a96758b9735.pdf",
+     "worldbuilding_use": "Where the US-China tariff wall stood in mid-2026 after the Supreme Court ruling: 36.5% versus 31%."
+    }
+   ]
+  },
+  {
+   "id": "european-defence-primes",
+   "name": "European defence primes' interim reports and plans: order backlog and 2030 targets (Rheinmetall, BAE Systems, Saab, Leonardo)",
+   "publisher": "Rheinmetall AG, BAE Systems plc, Saab AB, Leonardo S.p.A. (regulated issuer disclosures)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Signed and framework order backlog per company, current-year guidance, and (Leonardo) orders, revenue and headcount targets for 2030.",
+   "horizon": "backlog and frame contracts into the 2030s; Leonardo plan 2026-2030; guidance one year",
+   "latest_edition": {
+    "title": "Rheinmetall Quarterly Statement Q3 2026 (latest of the set; Saab Q3 2026-10-23, BAE half-year 2026-07-30, Leonardo Industrial Plan 2026-03-12)",
+    "date": "2026-11-05",
+    "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Investor%20Relations/Ver%C3%B6ffentlichungen/2026/Q3/Rheinmetall-Quarterly-Statement-2026-Q3.pdf"
+   },
+   "update_cadence": "quarterly / half-yearly; capital-markets plans roughly annual",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Issuer disclosures under EU/UK market-abuse and transparency rules with auditor review and heavy analyst and short-seller scrutiny (T1, T2); backlog is contracted work reaching past 2030 (T4, T5). Issuer optimism is visible in the latest edition itself: Rheinmetall cut 2026 sales guidance from EUR 13.7-14.2 billion to about EUR 13.2 billion on 2026-11-05, and its headline 'Rheinmetall Backlog' counts framework agreements whose call-offs 'may vary'."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Company, segment and programme detail with currency amounts and some dates (Arminius delay into 2027, Typhoon deliveries to Tuerkiye from 2030, Leonardo headcount 75,500 by 2030), mostly without plant-level specifics."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 editions; Leonardo names AI/HPC as strategic pillars and Saab reports an order for sovereign AI capability, both without numbers; Rheinmetall's 32-page statement does not mention AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "By 2030, Leonardo aims to be a global security player, with cyber security, HPC, AI and data as its strategic pillars.",
+     "doc_local_path": "primary/geopolitics/european-defence-primes/Leonardo_Industrial_Plan_2026-2030_press_release_2026-03-12.pdf",
+     "page": 1
+    },
+    "search_note": "Searched 'artificial intelligence', 'AI', 'autonom': Rheinmetall Q3 statement 0 AI hits (1 'autonomous' re NVL), Saab 2 AI hits, Leonardo 5."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scores level with the US filings but duplicates their mechanism; kept as the European leg of the same evidence rather than a separate top pick.",
+   "primary_docs": [
+    {
+     "title": "Rheinmetall Quarterly Statement Q3 2026 (English)",
+     "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Investor%20Relations/Ver%C3%B6ffentlichungen/2026/Q3/Rheinmetall-Quarterly-Statement-2026-Q3.pdf",
+     "local_path": "primary/geopolitics/european-defence-primes/Rheinmetall-Quarterly-Statement-2026-Q3_EN.pdf",
+     "status": "full",
+     "bytes": 2234492,
+     "pages": 32,
+     "note": ""
+    },
+    {
+     "title": "Rheinmetall press release on Q3 2026 (PDF)",
+     "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2026/11/2026-11-05-Rheinmetall-News-Quarterly-Statement-Q3.pdf",
+     "local_path": "primary/geopolitics/european-defence-primes/Rheinmetall_2026-11-05_News_Quarterly_Statement_Q3_EN.pdf",
+     "status": "full",
+     "bytes": 395172,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "Rheinmetall press release on Q3 2026 (HTML)",
+     "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/11/2026-11-05-rheinmetall-news-quarterly-statement-q3",
+     "local_path": "primary/geopolitics/european-defence-primes/Rheinmetall_2026-11-05_Q3_press_release.html",
+     "status": "full",
+     "bytes": 293698,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Saab interim report January-September 2026",
+     "url": "https://www.saab.com/globalassets/cision/documents/2026/20261023-saab-q3-results-2026positioned-to-capture-growing-demand-en-0-5449176.pdf",
+     "local_path": "primary/geopolitics/european-defence-primes/Saab_Q3_2026_interim_report.pdf",
+     "status": "full",
+     "bytes": 2955578,
+     "pages": 31,
+     "note": ""
+    },
+    {
+     "title": "Leonardo 2026-2030 Industrial Plan update, press release (2026-03-12)",
+     "url": "https://www.leonardo.com/documents/15646808/0/COM_LDO_Plan_2026_2030_ENG_12_03_2026.pdf/24b91d5a-0100-b51a-875d-e92ec6f26229?t=1773297067793",
+     "local_path": "primary/geopolitics/european-defence-primes/Leonardo_Industrial_Plan_2026-2030_press_release_2026-03-12.pdf",
+     "status": "full",
+     "bytes": 335766,
+     "pages": 6,
+     "note": "Press release only; the plan presentation, annex and 9M 2026 results were not downloaded."
+    },
+    {
+     "title": "BAE Systems Half-yearly Report 2026 (RNS text via Investegate, 2026-07-30)",
+     "url": "https://www.investegate.co.uk/announcement/rns/bae-systems--ba./half-year-financial-report/9694659",
+     "local_path": "primary/geopolitics/european-defence-primes/BAE_Systems_Half-year_report_2026_RNS_investegate.html",
+     "status": "partial",
+     "bytes": 986627,
+     "pages": 0,
+     "note": "Regulatory-news-service text of the half-year report captured from Investegate; the official PDF on investors.baesystems.com returned HTTP 403."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "As at 30 September 2026, Rheinmetall Backlog increased by 37.7% to €78,012 million (previous year: €56,660 million).",
+     "doc_local_path": "primary/geopolitics/european-defence-primes/Rheinmetall-Quarterly-Statement-2026-Q3_EN.pdf",
+     "page": 11,
+     "locator": "Rheinmetall Backlog",
+     "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Investor%20Relations/Ver%C3%B6ffentlichungen/2026/Q3/Rheinmetall-Quarterly-Statement-2026-Q3.pdf",
+     "worldbuilding_use": "Europe's rearmament in one number: Rheinmetall's order pipeline at EUR 78 billion, up 38% in a year."
+    },
+    {
+     "text": "The Rheinmetall Group now expects sales of around €13.2 billion, rather than the previous guidance of €13.7 billion to €14.2 billion.",
+     "doc_local_path": "primary/geopolitics/european-defence-primes/Rheinmetall-Quarterly-Statement-2026-Q3_EN.pdf",
+     "page": 22,
+     "locator": "Current annual guidance",
+     "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Investor%20Relations/Ver%C3%B6ffentlichungen/2026/Q3/Rheinmetall-Quarterly-Statement-2026-Q3.pdf",
+     "worldbuilding_use": "Friction in the ramp-up: delayed orders (Arminius) push revenue from 2026 into 2027."
+    },
+    {
+     "text": "The evolution 1 of financial KPIs forecasts, by 2030, orders at €32 billion (compared to €23.8 billion in 2025); revenues at €30 billion (compared to €19.5 billion in 2025)",
+     "doc_local_path": "primary/geopolitics/european-defence-primes/Leonardo_Industrial_Plan_2026-2030_press_release_2026-03-12.pdf",
+     "page": 1,
+     "locator": "Headline bullets",
+     "url": "https://www.leonardo.com/documents/15646808/0/COM_LDO_Plan_2026_2030_ENG_12_03_2026.pdf/24b91d5a-0100-b51a-875d-e92ec6f26229?t=1773297067793",
+     "worldbuilding_use": "A named 2030 endpoint for an Italian prime: revenue up from EUR 19.5 billion to EUR 30 billion."
+    },
+    {
+     "text": "the Plan targets 67,300 employees by 2026 and 75,500 by 2030. After having hired 20,000 people between 2023 and 2025, over the 2026–2030 period, a further 28,000 hires are planned",
+     "doc_local_path": "primary/geopolitics/european-defence-primes/Leonardo_Industrial_Plan_2026-2030_press_release_2026-03-12.pdf",
+     "page": 3,
+     "locator": "The Value of People",
+     "url": "https://www.leonardo.com/documents/15646808/0/COM_LDO_Plan_2026_2030_ENG_12_03_2026.pdf/24b91d5a-0100-b51a-875d-e92ec6f26229?t=1773297067793",
+     "worldbuilding_use": "Defence as a jobs engine: 28,000 hires at one company by 2030."
+    },
+    {
+     "text": "The order backlog amounted to SEK 364,223 million, compared to SEK 274,532 million at the beginning of the year. In total, 79 per cent (73) of the backlog is attributable to international markets.",
+     "doc_local_path": "primary/geopolitics/european-defence-primes/Saab_Q3_2026_interim_report.pdf",
+     "page": 4,
+     "locator": "Orders",
+     "url": "https://www.saab.com/globalassets/cision/documents/2026/20261023-saab-q3-results-2026positioned-to-capture-growing-demand-en-0-5449176.pdf",
+     "worldbuilding_use": "Sweden's Saab booked into the 2030s, four-fifths for export customers."
+    }
+   ]
+  },
+  {
+   "id": "nato-defence-expenditure",
+   "name": "Defence Expenditure of NATO Countries (2014-2026) and the Hague 5% commitment",
+   "publisher": "NATO (Defence Policy and Planning Division); Hague Summit Declaration by Heads of State and Government",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Each ally's core defence spending in national currency, real terms and % of GDP through a 2026 estimate, against a political commitment of 3.5% core plus 1.5% related spending by 2035, reviewed in 2029.",
+   "horizon": "data to 2026 (estimate); commitment to 2035 with a 2029 review",
+   "latest_edition": {
+    "title": "Defence Expenditure of NATO Countries (2014-2026)",
+    "date": "2026-07-07",
+    "url": "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2026-en.pdf"
+   },
+   "update_cadence": "annual figures with mid-year update; annual national plans under the Hague commitment",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "An accountable institution that scores every ally every year against a public target and publishes the full history (T3), under a commitment that runs to 2035 with a 2029 review (T4). Nothing but reputation is lost by missing it (T1), definitions are negotiated by the members being graded, and the report itself only estimates the current year."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Country-by-year tables (spending, % of GDP, equipment share, personnel) with almost no narrative; no programmes or places."
+   },
+   "ai": {
+    "score": 2,
+    "why": "July 2026 edition with no AI treatment; the tables are accounting returns that cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the XLSX text rendering and the Hague declaration for 'AI', 'artificial intelligence', 'autonom', 'innovation': only 'unleash innovation' in the declaration. The PDF press release is image-only (no extractable text; no OCR tool available), so its prose could not be searched."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Authoritative scoreboard for the European build-up but backward-looking beyond 2026 and silent on AI; the 2035 commitment is political, not binding.",
+   "primary_docs": [
+    {
+     "title": "Defence Expenditure of NATO Countries (2014-2026), data tables (XLSX)",
+     "url": "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2026-en.xlsx",
+     "local_path": "primary/geopolitics/nato-defence-expenditure/def-exp-2026-en.xlsx",
+     "status": "full",
+     "bytes": 69931,
+     "pages": 0,
+     "note": "Text rendering saved as def-exp-2026-en.xlsx.txt (values rounded to two decimals)."
+    },
+    {
+     "title": "Defence Expenditure of NATO Countries (2014-2026), press release PDF",
+     "url": "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2026-en.pdf",
+     "local_path": "primary/geopolitics/nato-defence-expenditure/def-exp-2026-en.pdf",
+     "status": "full",
+     "bytes": 10177392,
+     "pages": 15,
+     "note": "Official 15-page PDF saved, but it is image-only: pdftotext yields no text. Date taken from PDF metadata (created 2026-07-07)."
+    },
+    {
+     "title": "The Hague Summit Declaration (2025-06-25)",
+     "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
+     "local_path": "primary/geopolitics/nato-defence-expenditure/hague-summit-declaration-2025-06-25.html",
+     "status": "full",
+     "bytes": 313444,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NATO topic page 'Defence expenditures and NATO's 5% commitment'",
+     "url": "https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment",
+     "local_path": "primary/geopolitics/nato-defence-expenditure/nato-defence-expenditures-and-5pct-commitment-topic-page.html",
+     "status": "full",
+     "bytes": 342740,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CRS R49018, NATO: Issues for the July 2026 Ankara Summit (2026-07-02)",
+     "url": "https://www.everycrsreport.com/files/2026-07-02_R49018_36b5027ccd45ed7627059a87f7eb70c21b46b299.pdf",
+     "local_path": "primary/geopolitics/nato-defence-expenditure/CRS_R49018_2026-07-02.pdf",
+     "status": "full",
+     "bytes": 851767,
+     "pages": 17,
+     "note": "The Ankara summit declaration itself (July 2026) was not located on nato.int."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Allies will allocate at least 3.5% of GDP annually based on the agreed definition of NATO defence expenditure by 2035 to resource core defence requirements, and to meet the NATO Capability Targets. Allies agree to submit annual plans showing a credible, incremental path to reach this goal.",
+     "doc_local_path": "primary/geopolitics/nato-defence-expenditure/hague-summit-declaration-2025-06-25.html",
+     "page": null,
+     "locator": "Paragraph 3",
+     "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
+     "worldbuilding_use": "The 2035 spending rule every European budget fight to 2031 is measured against."
+    },
+    {
+     "text": "Poland | 1.86 | 2.21 | 1.99 | 1.88 | 2 | 1.96 | 2.21 | 2.19 | 2.21 | 3.26 | 3.75 | 4.25 | 4.68",
+     "doc_local_path": "primary/geopolitics/nato-defence-expenditure/def-exp-2026-en.xlsx",
+     "page": null,
+     "locator": "Table 3, core defence expenditure as share of real GDP (%), 2014-2026e (text rendering of XLSX)",
+     "url": "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2026-en.xlsx",
+     "worldbuilding_use": "Front-line state trajectory: Poland at 4.68% of GDP in 2026, more than double 2021."
+    }
+   ]
+  },
+  {
+   "id": "odni-ata-2026",
+   "name": "2026 Annual Threat Assessment of the U.S. Intelligence Community",
+   "publisher": "Office of the Director of National Intelligence",
+   "kind": "expert report",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers"
+   ],
+   "what_it_forecasts": "The intelligence community's unclassified judgments on adversary intent and capability for the coming year, including whether China plans to invade Taiwan in 2027.",
+   "horizon": "about one year, with some multi-year judgments",
+   "latest_edition": {
+    "title": "Annual Threat Assessment of the U.S. Intelligence Community (March 2026)",
+    "date": "2026-03-18",
+    "url": "https://www.dni.gov/"
+   },
+   "update_cadence": "annual (statutory, presented to Congress each spring)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "A statutory product questioned in open hearings by two intelligence committees (T2), but no stakes beyond reputation, no published scoring of past judgments, a one-year horizon, and outside commentators have criticised what the unclassified version omits."
+   },
+   "richness": {
+    "score": 3,
+    "why": "34 pages organised by actor and theme with probability language; few numbers, dates or named programmes."
+   },
+   "ai": {
+    "score": 3,
+    "why": "March 2026 edition with a dedicated AI subsection, entirely qualitative."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "AI is a defining technology for the 21st century, enabling computers and machines to simulate human learning, comprehension, problem solving, creativity, and autonomy.",
+     "doc_local_path": "primary/geopolitics/odni-ata-2026/ATA-2026-unclassified.pdf",
+     "page": 12
+    },
+    "search_note": "Searched 'AI', 'artificial intelligence', 'quantum'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful official baseline on intent (notably Taiwan 2027) but unscored, short-horizon and thin on specifics.",
+   "primary_docs": [
+    {
+     "title": "ATA 2026, unclassified (Senate Select Committee on Intelligence copy)",
+     "url": "https://www.intelligence.senate.gov/wp-content/uploads/2026/03/ATA-2026-unclassified-16-Mar-FINAL.pdf",
+     "local_path": "primary/geopolitics/odni-ata-2026/ATA-2026-unclassified.pdf",
+     "status": "full",
+     "bytes": 1788697,
+     "pages": 34,
+     "note": "dni.gov returns 403 to scripted requests; identical unclassified PDF taken from the Senate committee site."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The IC assesses that Chinese leaders do not currently plan to execute an invasion of Taiwan in 2027, nor do they have a fixed timeline for achieving unification.",
+     "doc_local_path": "primary/geopolitics/odni-ata-2026/ATA-2026-unclassified.pdf",
+     "page": 22,
+     "locator": "China-Taiwan",
+     "url": "https://www.intelligence.senate.gov/wp-content/uploads/2026/03/ATA-2026-unclassified-16-Mar-FINAL.pdf",
+     "worldbuilding_use": "Official US read on the '2027 window': capability deadline, not an invasion date."
+    }
+   ]
+  },
+  {
+   "id": "dod-china-military-power-report",
+   "name": "Military and Security Developments Involving the People's Republic of China 2025 (China Military Power Report)",
+   "publisher": "U.S. Department of Defense / Department of War",
+   "kind": "expert report",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "US government estimates of PLA force structure and goals: nuclear warhead count by 2030, carrier fleet by 2035, readiness for a Taiwan campaign by 2027.",
+   "horizon": "2027, 2030 and 2035 milestones",
+   "latest_edition": {
+    "title": "Annual Report to Congress: Military and Security Developments Involving the People's Republic of China 2025",
+    "date": "2025-12-23",
+    "url": "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/annual-report-to-congress-military-and-security-developments-involving-the-peoples-republic-of-china-2025.pdf"
+   },
+   "update_cadence": "annual (statutory); the 2026 edition had not appeared by 2026-11-18",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Statutory report scrutinised by Congress and outside PLA specialists (T2); the 2025 edition itself notes warhead production slowed against earlier expectations while keeping the 1,000-by-2030 projection; there is no formal scoring, no stakes, and an institutional interest in the threat picture it describes."
+   },
+   "richness": {
+    "score": 4,
+    "why": "100 pages with named systems, units, exercises, ranges, counts and milestone years (warheads, carriers, DF-series missiles, exercises around Taiwan)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Latest edition is December 2025 (mostly 2024 data); AI is discussed qualitatively (military AI, AI-assisted wargaming) and does not move the force projections."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "The PLA is almost certainly working to further augment its wargaming capabilities with artificial intelligence.",
+     "doc_local_path": "primary/geopolitics/dod-china-military-power-report/China-Military-Power-Report_20251223.pdf",
+     "page": 19
+    },
+    "search_note": "Searched 'artificial intelligence', 'AI', 'autonomous', 'large language'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Rich on PLA hardware milestones but a 2025 edition from an interested party; superseded on intent by the 2026 ATA.",
+   "primary_docs": [
+    {
+     "title": "China Military Power Report 2025 (full PDF)",
+     "url": "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/annual-report-to-congress-military-and-security-developments-involving-the-peoples-republic-of-china-2025.pdf",
+     "local_path": "primary/geopolitics/dod-china-military-power-report/China-Military-Power-Report_20251223.pdf",
+     "status": "full",
+     "bytes": 7719900,
+     "pages": 100,
+     "note": "media.defense.gov returns 403; the identical 100-page public-domain PDF was taken from the mirror at andrewerickson.com/wp-content/uploads/2025/12/China-Military-Power-Report_20251223.pdf."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "While this report assessed in 2020 that China’s nuclear warhead would double from a stockpile of the low 200s over the next decade, the PLA remains on track to have over 1,000 warheads by 2030.",
+     "doc_local_path": "primary/geopolitics/dod-china-military-power-report/China-Military-Power-Report_20251223.pdf",
+     "page": 28,
+     "locator": "Developments in PLA Nuclear Capabilities",
+     "url": "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/annual-report-to-congress-military-and-security-developments-involving-the-peoples-republic-of-china-2025.pdf",
+     "worldbuilding_use": "Nuclear backdrop for 2030: a 1,000-warhead Chinese arsenal."
+    },
+    {
+     "text": "The PLAN aims to produce six aircraft carriers by 2035 for a total of nine.",
+     "doc_local_path": "primary/geopolitics/dod-china-military-power-report/China-Military-Power-Report_20251223.pdf",
+     "page": 22,
+     "locator": "PLA Navy modernization",
+     "url": "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/annual-report-to-congress-military-and-security-developments-involving-the-peoples-republic-of-china-2025.pdf",
+     "worldbuilding_use": "Chinese carrier fleet tripling: six more carriers in about a decade, nine by 2035."
+    }
+   ]
+  },
+  {
+   "id": "cbo-navy-shipbuilding",
+   "name": "CBO analyses of the Navy's FY2027 shipbuilding plan (and the Navy's 30-year plan itself)",
+   "publisher": "Congressional Budget Office; Department of the Navy",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Independent cost and industrial-capacity estimates for the Navy's 2027-2056 shipbuilding plan, including the 15-ship nuclear battleship programme and shipyard tonnage required by 2035.",
+   "horizon": "2027-2056",
+   "latest_edition": {
+    "title": "The Navy's New Battleship Program: Costs and Implications for the Shipbuilding Industrial Base",
+    "date": "2026-08-05",
+    "url": "https://www.cbo.gov/publication/62550"
+   },
+   "update_cadence": "annual CBO analysis of each 30-year plan (10 U.S.C. 231), plus ad hoc reports",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "Non-partisan scorekeeper with a long public record of comparing its ship-cost estimates with Navy estimates and outcomes (T3) over a 30-year plan period (T4); no money at stake and it estimates a plan it does not control. Its estimates have historically run above the Navy's and closer to actual costs."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Per-class costs, tonnage by year, named shipyards (Bath Iron Works, Ingalls, Newport News) and delivery years, judging from the report summary; not verified against the full PDF."
+   },
+   "ai": {
+    "score": 3,
+    "why": "August 2026 edition; according to press quotation of the report it mentions AI and automation only as a possible cost reducer, without quantification. Not verified from the primary PDF (download blocked)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": null,
+    "search_note": "No primary document could be saved, so no verbatim passage is recorded. Secondary coverage (WorkBoat, 2026-08-10) quotes the report as listing 'automation, modular construction, artificial intelligence' among possible cost reducers."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Would be the natural check on the Navy's plan, but cbo.gov and navy.mil blocked every download route, so nothing here is verifiable from a saved document.",
+   "primary_docs": [
+    {
+     "title": "CBO, The Navy's New Battleship Program: Costs and Implications for the Shipbuilding Industrial Base (August 2026)",
+     "url": "https://www.cbo.gov/system/files/2026-08/62550-battleships.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "cbo.gov serves a JavaScript challenge (HTTP 403) to curl with browser headers and to both web-fetch tools; USNI News mirror page also 403."
+    },
+    {
+     "title": "Department of the Navy, Fiscal Year 2027 Shipbuilding Plan (released 2026-05-11)",
+     "url": "https://www.navy.mil/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "navy.mil / secnav.navy.mil unreachable (403 or no response); no public mirror of the PDF found. Existence and date from press coverage only."
+    },
+    {
+     "title": "CBO long-term implications of the Future Years Defense Program",
+     "url": "https://www.cbo.gov/topics/defense-and-national-security",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Could not confirm whether a 2026 edition exists; search surfaced only the edition for the 2025 FYDP."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "metaculus",
+   "name": "Metaculus community forecasts on Taiwan, nuclear use, great-power war and AI geopolitics",
+   "publisher": "Metaculus",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions"
+   ],
+   "what_it_forecasts": "Aggregated probabilities and date distributions on long-horizon questions (e.g. full-scale Chinese invasion of Taiwan before 2030 or 2035, nuclear detonation, US-China war).",
+   "horizon": "question-specific; many resolve 2030-2050",
+   "latest_edition": {
+    "title": "Live community predictions (not retrieved)",
+    "date": "2026-11-18",
+    "url": "https://www.metaculus.com/questions/11480/china-launches-invasion-of-taiwan/"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Many independent forecasters set each number (T2) and the platform publishes its own calibration and Brier-score track record (T3). No money is at stake (T1), and although questions run to 2030 and beyond, the published track record is dominated by short-dated questions, so horizon fit is unproven."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A probability or date distribution per question with resolution criteria and free-form comments; few liftable specifics."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Continuously updated with a large body of AI-timeline questions that feed into geopolitical ones; AI is explicit in question design but its effect on the Taiwan or war probabilities is not separately quantified."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": null,
+    "search_note": "No document saved: the API (/api/posts/, /api2/questions/) and question pages returned HTTP 403 to curl and to the web-fetch tool, so current values are not recorded here."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best long-horizon complement to the markets, but no data could be retrieved, so it cannot supply verifiable inputs in this pass.",
+   "primary_docs": [
+    {
+     "title": "Metaculus API / question pages (Taiwan invasion question 11480 and related)",
+     "url": "https://www.metaculus.com/api/posts/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on API and HTML via curl (browser UA and headers) and via the web-fetch tool; a browser-automation retry was not permitted in this session."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "good-judgment-open",
+   "name": "Good Judgment Open challenges / Good Judgment Inc superforecasts",
+   "publisher": "Good Judgment Inc",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions"
+   ],
+   "what_it_forecasts": "Crowd and superforecaster probabilities on dated questions about elections, conflicts, energy and AI, mostly resolving within 6-14 months.",
+   "horizon": "months to about 14 months (open challenges close between 2026-12 and 2028-01)",
+   "latest_edition": {
+    "title": "Open challenges list as of 2026-11-18 (e.g. 2027 World Elections Challenge, Iran & Energy Challenge)",
+    "date": "2026-11-18",
+    "url": "https://www.gjopen.com/challenges"
+   },
+   "update_cadence": "continuous; superforecast reports are subscription products",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Many independent forecasters and Brier-scored resolution with a long published accuracy record from the IARPA ACE tournaments onward (T2, T3); no money at stake and question horizons are far shorter than five years."
+   },
+   "richness": {
+    "score": 2,
+    "why": "One probability per question with brief crowd rationales; the paid superforecast reports that carry reasoning were not accessible."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Live 2026 questions including an 'Artificial Intelligence in 2026 and Beyond' challenge, but AI is a question topic rather than a driver of the geopolitical forecasts."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "AI holds the promise to fundamentally change the daily lives of every person on Earth, both for good and for bad.",
+     "doc_local_path": "primary/geopolitics/good-judgment-open/gjopen_challenges_2026-11-18.html",
+     "page": null
+    },
+    "search_note": "Searched challenge list for 'AI', 'artificial'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Well-scored but short-horizon and, in its public form, thin; the valuable superforecast reports are paywalled.",
+   "primary_docs": [
+    {
+     "title": "GJ Open challenges page (snapshot 2026-11-18)",
+     "url": "https://www.gjopen.com/challenges",
+     "local_path": "primary/geopolitics/good-judgment-open/gjopen_challenges_2026-11-18.html",
+     "status": "partial",
+     "bytes": 56645,
+     "pages": 0,
+     "note": "Listing page only; individual question probabilities not captured."
+    },
+    {
+     "title": "Good Judgment Inc superforecasts",
+     "url": "https://www.goodjudgment.com/superforecasts/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Site returned 403 to scripted access; full reports are a subscription product."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "rand-forecasting-initiative",
+   "name": "RAND Forecasting Initiative (formerly INFER / Foretell)",
+   "publisher": "RAND (platform by Cultivate Labs)",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers"
+   ],
+   "what_it_forecasts": "Crowd probabilities on geopolitical, technology and policy questions for US government consumers - now discontinued.",
+   "horizon": "was months to about two years",
+   "latest_edition": {
+    "title": "Read-only archive; programme concluded (page captured 2026-11-18)",
+    "date": "2026-11-18",
+    "url": "https://www.randforecastinginitiative.org/"
+   },
+   "update_cadence": "none - the site states the programme has concluded and forecasting is closed",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Forecasts were scored and leaderboards are archived (T3), but there are no stakes, the crowd was small, horizons were short and nothing is being updated any longer."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Archived probabilities and question text only."
+   },
+   "ai": {
+    "score": 2,
+    "why": "No live forecasts in 2026; archived AI and semiconductor questions cannot reflect current conditions."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Overview page searched for 'AI', 'artificial': none. The page states: programme concluded, permanent read-only archive."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Stale: the programme has shut down.",
+   "primary_docs": [
+    {
+     "title": "RAND Forecasting Initiative archive overview (snapshot 2026-11-18)",
+     "url": "https://www.randforecastinginitiative.org/",
+     "local_path": "primary/geopolitics/rand-forecasting-initiative/rand-forecasting-initiative-archive-overview_2026-11-18.html",
+     "status": "partial",
+     "bytes": 4326,
+     "pages": 0,
+     "note": "Overview page only."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "swift-centre",
+   "name": "Swift Centre for Applied Forecasting",
+   "publisher": "Swift Centre",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers"
+   ],
+   "what_it_forecasts": "Panel forecasts and scenario analysis by track-record forecasters on AI and great-power conflict.",
+   "horizon": "mostly one to three years",
+   "latest_edition": {
+    "title": "Website home page describing current products (captured 2026-11-18)",
+    "date": "2026-11-18",
+    "url": "https://www.swiftcentre.org/"
+   },
+   "update_cadence": "irregular reports and 'situation monitors'",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Uses forecasters selected on measured track records, but panels are small, there is no money at stake, the output is commissioned, and no consolidated multi-year error record of the Centre's own forecasts was found."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Probabilities with short rationales; little named, dated detail on the public site."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 site positions AI and great-power conflict as its core subject, qualitatively."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Independent, scenario-based foresight on AI, power concentration and geopolitical risk, applied to the decisions and risks that matter.",
+     "doc_local_path": "primary/geopolitics/swift-centre/swiftcentre_home_2026-11-18.html",
+     "page": null
+    },
+    "search_note": "Home page only; no dated forecast report was downloaded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Niche and unverifiable at scale; no dated edition retrieved.",
+   "primary_docs": [
+    {
+     "title": "Swift Centre home page (snapshot 2026-11-18)",
+     "url": "https://www.swiftcentre.org/",
+     "local_path": "primary/geopolitics/swift-centre/swiftcentre_home_2026-11-18.html",
+     "status": "partial",
+     "bytes": 63314,
+     "pages": 0,
+     "note": "Home page only; no specific report identified as the latest edition."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "eurasia-top-risks-2026",
+   "name": "Eurasia Group Top Risks 2026",
+   "publisher": "Eurasia Group (Ian Bremmer, Cliff Kupchan)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Ten ranked political risks expected to play out during 2026 (US political revolution, 'Donroe Doctrine', Europe under siege, Russia's second front, zombie USMCA, AI business models) plus 'red herrings'.",
+   "horizon": "one year",
+   "latest_edition": {
+    "title": "Top Risks 2026",
+    "date": "2026-01-05",
+    "url": "https://www.eurasiagroup.net/issues/top-risks-2026"
+   },
+   "update_cadence": "annual (first week of January)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Passes none of the five tests cleanly; scored 2 on the rubric's 'unscored expert panel' anchor. A commercial political-risk firm whose calls are debated by clients and press and which reviews its own prior-year list, but there is no formal scoring, no money at stake on the calls, and a one-year horizon."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Ten narrated risks with named leaders, countries and mechanisms and a few statistics; few dated or quantified predictions."
+   },
+   "ai": {
+    "score": 3,
+    "why": "January 2026 edition; one of ten risks ('AI eats its users') is about AI business models, argued qualitatively; a second ('Overpowered') lists AI among the electricity-hungry technologies China is positioned to win."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Under pressure to generate revenue and unconstrained by guardrails, a number of leading AI companies will adopt business models in 2026 that threaten social and political stability",
+     "doc_local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-8-ai-eats-its-users.html",
+     "page": null
+    },
+    "search_note": "Searched all ten risk pages for 'AI'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best-known low-incentive comparator: vivid framing, no scoring, one-year horizon, and already ten months old.",
+   "primary_docs": [
+    {
+     "title": "Top Risks 2026 overview page",
+     "url": "https://www.eurasiagroup.net/issues/top-risks-2026",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/top-risks-2026-overview.html",
+     "status": "partial",
+     "bytes": 45328,
+     "pages": 0,
+     "note": "Web version; the full-report PDF sits behind an email form and was not downloaded."
+    },
+    {
+     "title": "Top Risks 2026 - risk-1-us-political-revolution",
+     "url": "https://www.eurasiagroup.net/live-post/risk-1-us-political-revolution",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-1-us-political-revolution.html",
+     "status": "partial",
+     "bytes": 26081,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-2-overpowered",
+     "url": "https://www.eurasiagroup.net/live-post/risk-2-overpowered",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-2-overpowered.html",
+     "status": "partial",
+     "bytes": 24607,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-3-the-donroe-doctrine",
+     "url": "https://www.eurasiagroup.net/live-post/risk-3-the-donroe-doctrine",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-3-the-donroe-doctrine.html",
+     "status": "partial",
+     "bytes": 25510,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-4-europe-under-siege",
+     "url": "https://www.eurasiagroup.net/live-post/risk-4-europe-under-siege",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-4-europe-under-siege.html",
+     "status": "partial",
+     "bytes": 24843,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-5-russias-second-front",
+     "url": "https://www.eurasiagroup.net/live-post/risk-5-russias-second-front",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-5-russias-second-front.html",
+     "status": "partial",
+     "bytes": 25421,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-6-state-capitalism-with-american-characteristics",
+     "url": "https://www.eurasiagroup.net/live-post/risk-6-state-capitalism-with-american-characteristics",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-6-state-capitalism-with-american-characteristics.html",
+     "status": "partial",
+     "bytes": 26375,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-7-chinas-deflation-trap",
+     "url": "https://www.eurasiagroup.net/live-post/risk-7-chinas-deflation-trap",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-7-chinas-deflation-trap.html",
+     "status": "partial",
+     "bytes": 26305,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-8-ai-eats-its-users",
+     "url": "https://www.eurasiagroup.net/live-post/risk-8-ai-eats-its-users",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-8-ai-eats-its-users.html",
+     "status": "partial",
+     "bytes": 26005,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-9-zombie-usmca",
+     "url": "https://www.eurasiagroup.net/live-post/risk-9-zombie-usmca",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-9-zombie-usmca.html",
+     "status": "partial",
+     "bytes": 25149,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    },
+    {
+     "title": "Top Risks 2026 - risk-10-the-water-weapon",
+     "url": "https://www.eurasiagroup.net/live-post/risk-10-the-water-weapon",
+     "local_path": "primary/geopolitics/eurasia-top-risks-2026/risk-10-the-water-weapon.html",
+     "status": "partial",
+     "bytes": 25055,
+     "pages": 0,
+     "note": "Public web page for this risk."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "wef-global-risks-2026",
+   "name": "WEF Global Risks Report 2026 (21st edition)",
+   "publisher": "World Economic Forum",
+   "kind": "survey",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Expert-survey rankings of 33 global risks by perceived severity over 2-year and 10-year horizons (geoeconomic confrontation, state-based armed conflict, adverse outcomes of AI).",
+   "horizon": "2 years (to 2028) and 10 years (to 2036)",
+   "latest_edition": {
+    "title": "The Global Risks Report 2026 (cover date January 2026; day of release not confirmed, date field set to the first of the month)",
+    "date": "2026-01-01",
+    "url": "https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf"
+   },
+   "update_cadence": "annual (January, before Davos)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Passes none of the five tests cleanly; scored 2 on the rubric's 'survey' anchor. A perception survey: published every year so rankings can be compared with what happened, but respondents lose nothing when wrong, nobody is paid to attack it, and rankings track the previous year's headlines."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Ranked risk lists by horizon, region and stakeholder group with thematic chapters; few named, dated or quantified events."
+   },
+   "ai": {
+    "score": 3,
+    "why": "January 2026 edition; 'Adverse outcomes of AI technologies' is a ranked risk with a chapter ('AI at large'), but the treatment is survey rank plus narrative, and the geopolitical rankings are not adjusted for it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "creating anxiety about the potentially adverse long-term outcomes of AI, a risk that sees the sharpest increase in rank between the short term and the long term across all 33 risks covered.",
+     "doc_local_path": "primary/geopolitics/wef-global-risks-2026/WEF_Global_Risks_Report_2026.pdf",
+     "page": 4
+    },
+    "search_note": "Searched 'AI', 'artificial intelligence', 'autonomous weapons'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Explicitly low-incentive: a mood survey, useful only to show what elites say they worry about.",
+   "primary_docs": [
+    {
+     "title": "The Global Risks Report 2026 (full PDF)",
+     "url": "https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf",
+     "local_path": "primary/geopolitics/wef-global-risks-2026/WEF_Global_Risks_Report_2026.pdf",
+     "status": "full",
+     "bytes": 19683367,
+     "pages": 102,
+     "note": "Cover says January 2026; the release day is not printed and was not confirmed; PDF metadata shows the file was regenerated on 2026-02-02."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "munich-security-report-2026",
+   "name": "Munich Security Report 2026: Under Destruction",
+   "publisher": "Munich Security Conference",
+   "kind": "expert report",
+   "covers_trends": [
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers"
+   ],
+   "what_it_forecasts": "An interpretive account of the erosion of the post-1945 order plus the Munich Security Index survey of risk perceptions in G7 and BICS countries; no explicit forecasts.",
+   "horizon": "none stated (diagnosis of the present)",
+   "latest_edition": {
+    "title": "Under Destruction - Munich Security Report 2026",
+    "date": "2026-02-06",
+    "url": "https://securityconference.org/assets/02_Dokumente/01_Publikationen/2026/MSR2026/Under_Destruction%E2%80%93Munich_Security_Report_2026.pdf"
+   },
+   "update_cadence": "annual (February)",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Agenda-setting essay and opinion survey for a conference; makes no scoreable predictions and carries no stakes."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Well-sourced narrative with charts and survey tables by country; diagnosis rather than dated events."
+   },
+   "ai": {
+    "score": 3,
+    "why": "February 2026 edition; AI appears as a perceived-risk item in the Munich Security Index ('Autonomous robots/artificial intelligence') and in passing in the text."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "according to the AI-driven conflict forecasting system of the Peace Research Institute Oslo, the highest battle-related death tolls this year will be witnessed in precisely the conflicts that Trump had promised to end",
+     "doc_local_path": "primary/geopolitics/munich-security-report-2026/Under_Destruction-Munich_Security_Report_2026.pdf",
+     "page": 26
+    },
+    "search_note": "Searched 'AI', 'artificial intelligence', 'autonomous'. Date is the PDF creation date; cover says February 2026."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored low explicitly: analysis and survey, not a forecast.",
+   "primary_docs": [
+    {
+     "title": "Munich Security Report 2026 (full PDF)",
+     "url": "https://securityconference.org/assets/02_Dokumente/01_Publikationen/2026/MSR2026/Under_Destruction%E2%80%93Munich_Security_Report_2026.pdf",
+     "local_path": "primary/geopolitics/munich-security-report-2026/Under_Destruction-Munich_Security_Report_2026.pdf",
+     "status": "full",
+     "bytes": 9998746,
+     "pages": 123,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "sipri-yearbook-2026",
+   "name": "SIPRI Yearbook 2026 (summary)",
+   "publisher": "Stockholm International Peace Research Institute",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers"
+   ],
+   "what_it_forecasts": "Not a forecast: audited-style data for 2025 on military expenditure, arms transfers, nuclear forces and armed conflicts that serve as the baseline for any projection.",
+   "horizon": "backward-looking (data year 2025)",
+   "latest_edition": {
+    "title": "SIPRI Yearbook 2026: Armaments, Disarmament and International Security - Summary",
+    "date": "2026-06-02",
+    "url": "https://www.sipri.org/sites/default/files/2026-06/yb26_summary_en_1.pdf"
+   },
+   "update_cadence": "annual (June), with separate data releases in March-April",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Not a forecast, so the tests barely apply; scored 2 as an accountable data institution without stakes. Long-running, transparent data series that are revised and externally used as a reference (T3 in the sense of a published record), but it makes no forward claims and has no stakes."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Country and category data (spending, warhead counts, conflict fatalities) with short commentary; the summary is 28 pages and the full yearbook is a paid book."
+   },
+   "ai": {
+    "score": 3,
+    "why": "June 2026 edition with a chapter on AI and international security; qualitative."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Precision-strike weapons, artificial intelligence-assisted targeting, autonomous weapon systems, swarms of uncrewed aerial vehicles (UAVs, or drones) and cyber operations are now being routinely used in",
+     "doc_local_path": "primary/geopolitics/sipri-yearbook-2026/yb26_summary_en.pdf",
+     "page": 4
+    },
+    "search_note": "Searched 'artificial intelligence', 'AI', 'autonomous'. Date is PDF creation date."
+   },
+   "tier": "considered",
+   "why_top_or_not": "A baseline, not a forecast; full yearbook paywalled.",
+   "primary_docs": [
+    {
+     "title": "SIPRI Yearbook 2026 summary (English)",
+     "url": "https://www.sipri.org/sites/default/files/2026-06/yb26_summary_en_1.pdf",
+     "local_path": "primary/geopolitics/sipri-yearbook-2026/yb26_summary_en.pdf",
+     "status": "partial",
+     "bytes": 1605684,
+     "pages": 28,
+     "note": "Official 28-page summary; the full yearbook is a paid Oxford University Press volume."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "iiss-military-balance-2026",
+   "name": "IISS The Military Balance 2026",
+   "publisher": "International Institute for Strategic Studies",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Not a forecast: country-by-country inventories of forces, equipment and defence budgets used as the reference order of battle.",
+   "horizon": "backward-looking",
+   "latest_edition": {
+    "title": "The Military Balance 2026 (assumed February 2026; not verified)",
+    "date": "2026-02-01",
+    "url": "https://www.iiss.org/publications/the-military-balance/"
+   },
+   "update_cadence": "annual (February)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Not a forecast, so the tests barely apply; scored 2 as an accountable data institution without stakes. Reference data set with a decades-long published record and specialist scrutiny, no stakes and no forward claims."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Unit- and equipment-level tables for about 170 countries (by reputation of prior editions); the 2026 volume was not inspected."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Could not be inspected; inventories are structurally unresponsive to AI. Score is provisional."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document obtained (iiss.org returned 403; book is paywalled), so AI treatment and the exact 2026 publication date are unverified."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Paywalled inventory; not forward-looking.",
+   "primary_docs": [
+    {
+     "title": "The Military Balance 2026",
+     "url": "https://www.iiss.org/publications/the-military-balance/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "iiss.org returned HTTP 403 to scripted access and the volume is sold by Routledge; edition date not confirmed."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "gpr-index",
+   "name": "Geopolitical Risk (GPR) Index (Caldara-Iacoviello)",
+   "publisher": "Dario Caldara and Matteo Iacoviello (Federal Reserve Board economists; hosted at matteoiacoviello.com)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Not a forecast: a monthly and daily index of the share of newspaper articles discussing geopolitical threats and acts, overall and for 44 countries - a calibrated thermometer of realised tension.",
+   "horizon": "none (nowcast); history from 1900",
+   "latest_edition": {
+    "title": "GPR data export, monthly through October 2026 and daily through 2026-11-16",
+    "date": "2026-11-16",
+    "url": "https://www.matteoiacoviello.com/gpr.htm"
+   },
+   "update_cadence": "monthly (daily series updated continuously)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Not a forecast, so the tests barely apply; scored 2 as a transparent measurement series without stakes. Transparent, replicable text-count method with a 125-year published series and wide use by central banks, but it measures news coverage of the present, has no stakes and says nothing about five years ahead."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of index series (overall, threats, acts, country shares) with no narrative."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Updated to November 2026, but the method counts war- and threat-related newspaper phrases and has no channel for AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Column list of the export searched for AI-related series: none (series are GPR, GPRT, GPRA, GPRH and country shares GPRC_xxx)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful for calibrating 'how tense is it now' against history; not a forecast.",
+   "primary_docs": [
+    {
+     "title": "GPR monthly data export (XLS)",
+     "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_export.xls",
+     "local_path": "primary/geopolitics/gpr-index/data_gpr_export.xls",
+     "status": "full",
+     "bytes": 2718208,
+     "pages": 0,
+     "note": "CSV rendering of selected columns from 2015 saved as data_gpr_export_monthly_2015-2026.csv."
+    },
+    {
+     "title": "GPR monthly data, CSV rendering (2015-01 to 2026-10, selected series)",
+     "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_export.xls",
+     "local_path": "primary/geopolitics/gpr-index/data_gpr_export_monthly_2015-2026.csv",
+     "status": "full",
+     "bytes": 14350,
+     "pages": 0,
+     "note": "Derived from the XLS; values rounded to two decimals."
+    },
+    {
+     "title": "GPR daily data, recent (XLS)",
+     "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+     "local_path": "primary/geopolitics/gpr-index/data_gpr_daily_recent.xls",
+     "status": "full",
+     "bytes": 3279360,
+     "pages": 0,
+     "note": "CSV rendering of the last 400 days saved as data_gpr_daily_recent_last400.csv."
+    },
+    {
+     "title": "GPR daily data, CSV rendering (last 400 days to 2026-11-16)",
+     "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+     "local_path": "primary/geopolitics/gpr-index/data_gpr_daily_recent_last400.csv",
+     "status": "full",
+     "bytes": 17991,
+     "pages": 0,
+     "note": "Derived from the XLS."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "acled-conflict-index",
+   "name": "ACLED Conflict Index and Watchlist",
+   "publisher": "Armed Conflict Location & Event Data (ACLED)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers"
+   ],
+   "what_it_forecasts": "Ranks every country by conflict deadliness, danger to civilians, diffusion and fragmentation over the past 12 months and names a watchlist of crises expected to worsen in the coming year.",
+   "horizon": "one year (watchlist)",
+   "latest_edition": {
+    "title": "Conflict Index & 2026 Watchlist (page captured 2026-11-18; edition date not confirmed, usually December)",
+    "date": "2025-12-01",
+    "url": "https://acleddata.com/conflict-index/"
+   },
+   "update_cadence": "annual index (December) with mid-year update; event data weekly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Passes none of the five tests cleanly; scored 2 on the 'unscored expert panel' anchor. Event data are public and continuously checked by researchers, giving a record against which each watchlist can be compared, but the watchlist is expert judgement with no stakes and a one-year view."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Country rankings with event counts and short country narratives; named places and groups, few forward dates."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Latest index appears to be the December 2025 edition; no AI treatment found on the page."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Index landing page searched for 'AI', 'artificial intelligence', 'drone': no AI discussion on the page; underlying report PDFs not downloaded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good map of where conflict is, weak on where it is going.",
+   "primary_docs": [
+    {
+     "title": "ACLED Conflict Index landing page (snapshot 2026-11-18)",
+     "url": "https://acleddata.com/conflict-index/",
+     "local_path": "primary/geopolitics/acled-conflict-index/acled-conflict-index-page.html",
+     "status": "partial",
+     "bytes": 91020,
+     "pages": 0,
+     "note": "Landing page only; edition date not printed in the captured text, so the latest_edition date is an assumption."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "defense-tech-palantir-anduril",
+   "name": "Defence-tech contract disclosures: Palantir Form 10-Q and Anduril Arsenal-1 commitment",
+   "publisher": "Palantir Technologies (SEC filing); Anduril Industries (company announcement)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Palantir's US-government revenue run-rate and remaining deal value; Anduril's stated plan for a 5-million-square-foot autonomous-weapons factory in Columbus, Ohio.",
+   "horizon": "Palantir contract durations of roughly 1-5 years; Anduril facility build-out over several years",
+   "latest_edition": {
+    "title": "Palantir Form 10-Q for the quarter ended 2026-09-30",
+    "date": "2026-11-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+   },
+   "update_cadence": "quarterly (Palantir); ad hoc press releases (Anduril, private company)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Palantir's numbers carry securities liability and intense short-seller and analyst attention (T1, T2), but its filing warns that 'We historically have not realized all of the revenue from the full deal value of our customer contracts' and most contracts are far shorter than five years; Anduril's Arsenal-1 figures are an unaudited private-company announcement."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Revenue by customer type and quarter, deal-value totals, named site and job numbers for Arsenal-1; little programme-level detail."
+   },
+   "ai": {
+    "score": 5,
+    "why": "November 2026 filing in which AI software sold to governments is the product itself: US-government revenue of $953 million in Q3 2026 against $486 million a year earlier is a direct, quantified reading of military AI adoption."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "In 2023, we began deploying our newest offering, AIP, which is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in artificial intelligence",
+     "doc_local_path": "primary/geopolitics/defense-tech-palantir-anduril/PLTR_10-Q_2026Q3.html",
+     "page": null
+    },
+    "search_note": "Searched 'artificial intelligence', 'AIP', 'U.S. government'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The clearest quantified signal of AI entering defence budgets, but two companies with short contract tenors are too narrow for a top slot.",
+   "primary_docs": [
+    {
+     "title": "Palantir Form 10-Q, quarter ended 2026-09-30 (filed 2026-11-03)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+     "local_path": "primary/geopolitics/defense-tech-palantir-anduril/PLTR_10-Q_2026Q3.html",
+     "status": "full",
+     "bytes": 1808628,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Anduril, 'Anduril Building Arsenal-1 Hyperscale Manufacturing Facility in Ohio'",
+     "url": "https://www.anduril.com/article/anduril-building-arsenal-1-hyperscale-manufacturing-facility-in-ohio/",
+     "local_path": "primary/geopolitics/defense-tech-palantir-anduril/Anduril_Arsenal-1_announcement.html",
+     "status": "partial",
+     "bytes": 294141,
+     "pages": 0,
+     "note": "Page is JavaScript-rendered: the article text is present only inside embedded JSON, so it is not quotable by the verifier; publication date not confirmed."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Revenue from U.S. government customers was $953 million for the three months ended September 30, 2026 compared to $486 million for the same period in 2025.",
+     "doc_local_path": "primary/geopolitics/defense-tech-palantir-anduril/PLTR_10-Q_2026Q3.html",
+     "page": null,
+     "locator": "MD&A - Results of Operations, Revenue",
+     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+     "worldbuilding_use": "Speed of military AI uptake: Palantir's US-government revenue doubling year on year."
+    }
+   ]
+  },
+  {
+   "id": "germany-finanzplan-2026-2030",
+   "name": "Finanzplan des Bundes 2026 bis 2030 and draft 2027 federal budget (defence path)",
+   "publisher": "German Federal Government / Federal Ministry of Finance (Bundestag printed paper 21/7301)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Germany's planned federal spending by year to 2030, including defence borrowing under the constitutional exemption and the year the NATO ratio reaches 3.5% of GDP.",
+   "horizon": "2027 budget plus plan years 2028-2030",
+   "latest_edition": {
+    "title": "Finanzplan des Bundes 2026 bis 2030 (Drucksache 21/7301)",
+    "date": "2026-08-14",
+    "url": "https://dserver.bundestag.de/btd/21/073/2107301.pdf"
+   },
+   "update_cadence": "annual (cabinet decision in summer, Bundestag adoption in late November)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "A statutory medium-term plan reaching 2030 (T4), contested by the Bundestag opposition, the Bundesrechnungshof and the Stability Council (T2). Plan years are not binding appropriations, the plan carries acknowledged financing gaps, and outturns versus earlier Finanzplaene are not scored in the document."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Year-by-year euro amounts by budget chapter, borrowing under the defence exemption, Ukraine support lines and named programmes; in German."
+   },
+   "ai": {
+    "score": 3,
+    "why": "August 2026 edition; AI is treated qualitatively in the digital-policy section and does not enter the defence numbers."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Künstliche Intelligenz ist dabei einer der Schlüssel für zukünftiges Wachstum und Wohlstand. Deutschland soll zu einem führenden KI-Standort werden.",
+     "doc_local_path": "primary/geopolitics/germany-finanzplan-2026-2030/BT-Drs_21-7301_Finanzplan_2026-2030.pdf",
+     "page": 38
+    },
+    "search_note": "Searched 'Künstliche Intelligenz', 'KI'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The most concrete European national path (3.5% by 2029) but one country and politically revisable each year.",
+   "primary_docs": [
+    {
+     "title": "Finanzplan des Bundes 2026 bis 2030, BT-Drucksache 21/7301 (2026-08-14)",
+     "url": "https://dserver.bundestag.de/btd/21/073/2107301.pdf",
+     "local_path": "primary/geopolitics/germany-finanzplan-2026-2030/BT-Drs_21-7301_Finanzplan_2026-2030.pdf",
+     "status": "full",
+     "bytes": 6991645,
+     "pages": 80,
+     "note": ""
+    },
+    {
+     "title": "BMF press release on the cabinet draft of the 2027 budget (2026-07-06)",
+     "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/07/2026-07-06-regierungsentwurf-bundeshaushalt-2027.html",
+     "local_path": "primary/geopolitics/germany-finanzplan-2026-2030/BMF_2026-07-06_Regierungsentwurf_Bundeshaushalt_2027.html",
+     "status": "full",
+     "bytes": 240471,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Die NATO-Quote wird bis 2029 ansteigen und dann die Zielquote von 3,5 % des BIP erreichen.",
+     "doc_local_path": "primary/geopolitics/germany-finanzplan-2026-2030/BT-Drs_21-7301_Finanzplan_2026-2030.pdf",
+     "page": 23,
+     "locator": "Section on Verteidigung einschliesslich NATO-Quote",
+     "url": "https://dserver.bundestag.de/btd/21/073/2107301.pdf",
+     "worldbuilding_use": "Germany's dated promise: 3.5% of GDP on core defence by 2029, six years ahead of NATO's deadline."
+    },
+    {
+     "text": "Diese belaufen sich im Jahr 2027 auf rd. 85,4 Mrd. € und steigen auf rd. 151,8 Mrd. € in 2030 an. Der Anstieg der Ausgaben der Bereichsausnahme bildet im Wesentlichen den Hochlauf der Verteidigungsausgaben ab.",
+     "doc_local_path": "primary/geopolitics/germany-finanzplan-2026-2030/BT-Drs_21-7301_Finanzplan_2026-2030.pdf",
+     "page": 13,
+     "locator": "3.3 Haushaltskonsolidierung",
+     "url": "https://dserver.bundestag.de/btd/21/073/2107301.pdf",
+     "worldbuilding_use": "Debt-financed rearmament by year: EUR 85 billion of exempt borrowing in 2027 rising to EUR 152 billion in 2030."
+    }
+   ]
+  },
+  {
+   "id": "taiwan-special-defence-budget",
+   "name": "Taiwan's eight-year special defence budget (passed May 2026) and defence-spending pledges",
+   "publisher": "Legislative Yuan / Executive Yuan of Taiwan; summarised by Congressional Research Service",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "An enacted eight-year special appropriation for US arms purchases (about US$24.8 billion, 38% below the cabinet's proposal) and the government's GDP-share targets for defence.",
+   "horizon": "2026-2033",
+   "latest_edition": {
+    "title": "Special budget passed by the Legislative Yuan, May 2026 (as described in CRS IF12481, 2026-06-18)",
+    "date": "2026-06-18",
+    "url": "https://www.everycrsreport.com/files/2026-06-18_IF12481_ed16d648a140bc3c85f8c644455cbf67a14847d2.pdf"
+   },
+   "update_cadence": "one-off special act; annual defence budgets",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "A law passed after open partisan contest in an opposition-controlled legislature (T2) with an eight-year term (T4); execution depends on US delivery schedules and on arms packages the US President has said he is holding 'in abeyance', and no primary Taiwanese text was obtained."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Totals, duration, vote politics and US arms-package values; item-level procurement lists were not obtained."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 material with no AI treatment in the documents saved."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched both CRS In Focus documents for 'AI', 'artificial intelligence', 'drone', 'unmanned': no AI discussion."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Important and binding, but only secondary (CRS) documentation was retrievable and the amounts are small next to the US and Chinese plans.",
+   "primary_docs": [
+    {
+     "title": "CRS IF12481, Taiwan: Defense and Military Issues (2026-06-18)",
+     "url": "https://www.everycrsreport.com/files/2026-06-18_IF12481_ed16d648a140bc3c85f8c644455cbf67a14847d2.pdf",
+     "local_path": "primary/geopolitics/taiwan-special-defence-budget/CRS_IF12481_2026-06-18.pdf",
+     "status": "partial",
+     "bytes": 290493,
+     "pages": 3,
+     "note": "Secondary source; the special act and budget documents on Taiwanese government sites were not located."
+    },
+    {
+     "title": "CRS IF10275, Taiwan: Background and U.S. Relations (2026-10-20)",
+     "url": "https://www.everycrsreport.com/files/2026-10-20_IF10275_122aababdc488ff6b3c8ebd6e50d8c86b61bc62c.pdf",
+     "local_path": "primary/geopolitics/taiwan-special-defence-budget/CRS_IF10275_2026-10-20.pdf",
+     "status": "partial",
+     "bytes": 482987,
+     "pages": 3,
+     "note": "Secondary source."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "In May 2026, Taiwan’s legislature passed a $24.8 billion, eight-year “special budget” to procure arms from the United States. Taiwan’s president has said he intends to increase defense spending to around 3.3% of GDP in 2026.",
+     "doc_local_path": "primary/geopolitics/taiwan-special-defence-budget/CRS_IF12481_2026-06-18.pdf",
+     "page": 1,
+     "locator": "Paragraph on Taiwan's defence budget",
+     "url": "https://www.everycrsreport.com/files/2026-06-18_IF12481_ed16d648a140bc3c85f8c644455cbf67a14847d2.pdf",
+     "worldbuilding_use": "Taiwan's own committed money to 2033 and the domestic fight that cut it by 38%."
+    }
+   ]
+  },
+  {
+   "id": "allied-multiyear-defence-plans",
+   "name": "Other allied multi-year defence plans: Japan Defense Buildup Program, Australia's AUKUS/Integrated Investment Program, Poland's defence budget",
+   "publisher": "Japan Ministry of Defense; Australian Department of Defence / Australian Submarine Agency; Polish Ministry of National Defence",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "National multi-year procurement and spending schedules (Japan's five-year buildup, AUKUS submarine pathway milestones, Polish equipment contracts).",
+   "horizon": "Japan FY2023-FY2027 (successor plan pending); AUKUS milestones into the 2030s-2040s",
+   "latest_edition": {
+    "title": "Not retrieved - latest editions could not be confirmed (Japan Defense Buildup Program of 2022-12-16 is the last edition known to this compiler)",
+    "date": "2022-12-16",
+    "url": "https://www.mod.go.jp/en/d_act/d_budget/index.html"
+   },
+   "update_cadence": "Japan: five-year programme with annual budgets; Australia: biennial National Defence Strategy; Poland: annual",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "Cabinet-approved multi-year plans debated in parliaments and audited (T2) with five-year or longer terms (T4); delivery depends on foreign suppliers and exchange rates, and none of the current editions could be inspected here, so the score is provisional."
+   },
+   "richness": {
+    "score": 4,
+    "why": "By reputation these plans list quantities by system and year; not verified for the current editions."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Unverified: no current document was retrieved, and the last confirmed Japanese edition predates 2025."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No documents saved; AI treatment not assessed."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Could not be downloaded or dated, so nothing here is verified; listed so the gap is explicit.",
+   "primary_docs": [
+    {
+     "title": "Japan MOD budget and Defense Buildup Program pages",
+     "url": "https://www.mod.go.jp/en/d_act/d_budget/index.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "mod.go.jp returned HTTP 403 to scripted access."
+    },
+    {
+     "title": "Australia 2026 National Defence Strategy / Integrated Investment Program and AUKUS pathway",
+     "url": "https://www.defence.gov.au/about/strategic-planning/2026-national-defence-strategy-2026-integrated-investment-program",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "defence.gov.au and asa.gov.au closed the connection (empty reply); URL and 2026 edition not confirmed."
+    },
+    {
+     "title": "Poland Ministry of National Defence",
+     "url": "https://www.gov.pl/web/national-defence",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Landing page reachable but no multi-year plan document identified in the time available."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "lloyds-jwc-listed-areas",
+   "name": "Lloyd's/IUA Joint War Committee Listed Areas (Hull War, Piracy, Terrorism and Related Perils)",
+   "publisher": "Joint War Committee (Lloyd's Market Association and International Underwriting Association)",
+   "kind": "market price",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Which waters London underwriters treat as war-risk zones requiring notice and additional premium - a market judgement of where ships are in danger now.",
+   "horizon": "current; amended ad hoc with days of notice (three circulars in 2026: JWLA-033 in March, -034 in July, -035 in September)",
+   "latest_edition": {
+    "title": "JWLA-035 (Black Sea amendment), 16 September 2026",
+    "date": "2026-09-16",
+    "url": "https://lmalloyds.com/wp-content/uploads/2026/09/JWLA-035-Black-Sea.pdf"
+   },
+   "update_cadence": "irregular, event-driven",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Set by a committee of underwriters whose own capital is exposed (T1) and applied through contract-by-contract negotiation among many insurers, brokers and owners (T2). It is a statement about present danger, not a multi-year forecast, has no published hit-rate, and can change within a week."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Named countries and sea areas with coordinates; no premium rates (those are private quotes) and no reasoning."
+   },
+   "ai": {
+    "score": 2,
+    "why": "September 2026 edition; a list of waters with no channel for AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Four-page circular searched for 'AI', 'autonomous', 'drone', 'cyber': none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Money-backed and concrete but purely current-state; note the Taiwan Strait and South China Sea are not listed as of September 2026.",
+   "primary_docs": [
+    {
+     "title": "JWC circular JWLA-035, Listed Areas as amended 2026-09-16",
+     "url": "https://lmalloyds.com/wp-content/uploads/2026/09/JWLA-035-Black-Sea.pdf",
+     "local_path": "primary/geopolitics/lloyds-jwc-listed-areas/JWLA-035-Black-Sea_2026-09-16.pdf",
+     "status": "full",
+     "bytes": 187465,
+     "pages": 4,
+     "note": "Complete current list. Marine war-risk premium rates for the Red Sea, Black Sea or Gulf are broker quotes and were not obtained."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Middle East Bahrain Iran Iraq, including all Iraqi offshore oil terminals Israel Kuwait Lebanon Oman Qatar Saudi Arabia Syria United Arab Emirates Yemen",
+     "doc_local_path": "primary/geopolitics/lloyds-jwc-listed-areas/JWLA-035-Black-Sea_2026-09-16.pdf",
+     "page": 2,
+     "locator": "JWC Listed Areas, Middle East (list as of 16 September 2026)",
+     "url": "https://lmalloyds.com/wp-content/uploads/2026/09/JWLA-035-Black-Sea.pdf",
+     "worldbuilding_use": "By autumn 2026 every Gulf state's waters are a listed war-risk area: baseline for shipping and fuel-cost scenes."
+    }
+   ]
+  },
+  {
+   "id": "election-calendar",
+   "name": "Scheduled elections 2027-2031 (constitutional calendars) as fixed scaffolding",
+   "publisher": "National constitutions and election laws, compiled by Wikipedia editors and IFES ElectionGuide",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions"
+   ],
+   "what_it_forecasts": "Dates on which national elections are legally due: French presidential 18 April 2027, Taiwan 15 January 2028, US 7 November 2028, Russian presidential March 2030, and others.",
+   "horizon": "to 2031",
+   "latest_edition": {
+    "title": "List of next general elections (Wikipedia, snapshot 2026-11-18) and IFES ElectionGuide upcoming elections",
+    "date": "2026-11-18",
+    "url": "https://en.wikipedia.org/wiki/List_of_next_general_elections"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "Fixed-term dates are set by constitutions and statutes years ahead (T4, T5), so the schedule itself is highly reliable for presidential systems; it carries no stakes or scoring, parliamentary systems can call early elections, and the compilation is crowd-edited (the US row had not yet rolled over after the 3 November 2026 midterms)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Country, office, last and next election dates and governing parties in one table; no forecasts of outcomes."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Live 2026 snapshot, but a legal calendar cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Not applicable to a calendar; pages searched for 'AI', 'artificial intelligence': no relevant content. The CCP's 21st Party Congress (expected autumn 2027) is not an election and does not appear in these tables."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Indispensable as a fixed timeline to hang scenes on, but it is a calendar, not a forecast.",
+   "primary_docs": [
+    {
+     "title": "Wikipedia, List of next general elections (snapshot 2026-11-18)",
+     "url": "https://en.wikipedia.org/wiki/List_of_next_general_elections",
+     "local_path": "primary/geopolitics/election-calendar/wikipedia_List_of_next_general_elections_2026-11-18.html",
+     "status": "full",
+     "bytes": 775452,
+     "pages": 0,
+     "note": "Crowd-edited secondary compilation."
+    },
+    {
+     "title": "Wikipedia, 2027 national electoral calendar",
+     "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+     "local_path": "primary/geopolitics/election-calendar/wikipedia_2027_national_electoral_calendar.html",
+     "status": "full",
+     "bytes": 216784,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Wikipedia, List of elections in 2027",
+     "url": "https://en.wikipedia.org/wiki/List_of_elections_in_2027",
+     "local_path": "primary/geopolitics/election-calendar/wikipedia_List_of_elections_in_2027.html",
+     "status": "full",
+     "bytes": 277524,
+     "pages": 0,
+     "note": "Equivalent pages for 2028-2031 did not exist yet (HTTP 404)."
+    },
+    {
+     "title": "IFES ElectionGuide, upcoming elections (snapshot 2026-11-18)",
+     "url": "https://www.electionguide.org/elections/type/upcoming/",
+     "local_path": "primary/geopolitics/election-calendar/IFES_ElectionGuide_upcoming_2026-11-18.html",
+     "status": "partial",
+     "bytes": 86540,
+     "pages": 0,
+     "note": "First page of the listing only."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Taiwan 4 13 Jan 2024 15 Jan 2028 4 13 Jan 2024 15 Jan 2028 DPP",
+     "doc_local_path": "primary/geopolitics/election-calendar/wikipedia_List_of_next_general_elections_2026-11-18.html",
+     "page": null,
+     "locator": "Asia table row: country, parliamentary term, last, next; presidential term, last, next; governing party",
+     "url": "https://en.wikipedia.org/wiki/List_of_next_general_elections",
+     "worldbuilding_use": "Taiwan votes for president and legislature on 15 January 2028, inside the PLA's post-2027 readiness window."
+    },
+    {
+     "text": "Russia 5 18 Sep 2026 Sep 2031 6 15 Mar 2024 Mar 2030",
+     "doc_local_path": "primary/geopolitics/election-calendar/wikipedia_List_of_next_general_elections_2026-11-18.html",
+     "page": null,
+     "locator": "Europe table row: parliamentary term, last, next; presidential term, last, next",
+     "url": "https://en.wikipedia.org/wiki/List_of_next_general_elections",
+     "worldbuilding_use": "Putin's current term ends with a presidential election due March 2030."
+    }
+   ]
+  },
+  {
+   "id": "us-nss-nds",
+   "name": "US National Security Strategy (2025) and National Defense Strategy (2026)",
+   "publisher": "The White House; Department of War",
+   "kind": "expert report",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy"
+   ],
+   "what_it_forecasts": "Declared US priorities - Western Hemisphere first ('Trump Corollary'), burden-shifting to allies under the Hague 5% pledge, technology advantage - rather than predictions.",
+   "horizon": "the presidential term (to January 2029)",
+   "latest_edition": {
+    "title": "National Security Strategy of the United States of America (dated November 2025)",
+    "date": "2025-12-03",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf"
+   },
+   "update_cadence": "once per administration (NSS); NDS follows",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "A statement of intent by the party that benefits from it; unscored, no stakes, routinely overtaken by events (the Iran war began three months after publication)."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Regional priorities and principles in prose; almost no numbers, dates or programmes."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2025 edition; AI is named among decisive technologies without analysis or figures."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "AI, quantum computing, and autonomous systems, plus the energy necessary to fuel these domains.",
+     "doc_local_path": "primary/geopolitics/us-nss-nds/2025-National-Security-Strategy.pdf",
+     "page": 25
+    },
+    "search_note": "Searched 'AI', 'artificial intelligence', 'autonomous'. Date field is the PDF creation date; the cover reads November 2025."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored low explicitly: declaratory policy, not a forecast.",
+   "primary_docs": [
+    {
+     "title": "National Security Strategy of the United States of America (November 2025)",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
+     "local_path": "primary/geopolitics/us-nss-nds/2025-National-Security-Strategy.pdf",
+     "status": "full",
+     "bytes": 512469,
+     "pages": 33,
+     "note": ""
+    },
+    {
+     "title": "2026 National Defense Strategy",
+     "url": "https://www.war.gov/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "war.gov / media.defense.gov return HTTP 403; publication date and URL of the NDS not confirmed."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "crs-reports-2026",
+   "name": "Congressional Research Service reports on current conflicts and defence policy (autumn 2026)",
+   "publisher": "Congressional Research Service (Library of Congress)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale",
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime"
+   ],
+   "what_it_forecasts": "Not forecasts: dated, sourced status reports for Congress on the US-Iran conflict, Russia-Ukraine talks, Golden Dome, the NDAA and the Pentagon-Anthropic dispute, sometimes with scenario lists.",
+   "horizon": "current status; scenario sketches of months to a year",
+   "latest_edition": {
+    "title": "Golden Dome: Potential Strategic Stability Considerations for Congress (IN12568) - latest of the set",
+    "date": "2026-11-04",
+    "url": "https://www.everycrsreport.com/files/2026-11-04_IN12568_1c94baaaabab9018b536fb37e15694803c74a5ed.pdf"
+   },
+   "update_cadence": "continuous; individual reports updated every few weeks or months",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Non-partisan staff work read and challenged by members of both parties (T2) and carefully sourced, but it deliberately avoids predictions, is unscored and has no stakes."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dense with dated events, dollar figures, statutes, court rulings and named actors (e.g. $38 billion Iran-operations cost, ceasefire and MoU dates, district- and circuit-court decisions)."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 products; AI enters as subject matter (the Pentagon-Anthropic dispute over autonomous weapons, AI budget lines) but qualitatively."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "On February 27, 2026, President Donald Trump directed federal agencies to “IMMEDIATELY CEASE all use of [American AI company] Anthropic’s technology.”",
+     "doc_local_path": "primary/geopolitics/crs-reports-2026/CRS_IN12669_2026-10-05.pdf",
+     "page": 1
+    },
+    "search_note": "Searched the six saved reports for 'AI', 'artificial intelligence', 'autonomous'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Excellent factual scaffolding for 2026 events but explicitly not a forecast.",
+   "primary_docs": [
+    {
+     "title": "CRS R48887, U.S. Conflict with Iran (2026-09-18)",
+     "url": "https://www.everycrsreport.com/files/2026-09-18_R48887_bfd76010a42a6c04dd7691ebd96d44b2dcb54418.pdf",
+     "local_path": "primary/geopolitics/crs-reports-2026/CRS_R48887_2026-09-18.pdf",
+     "status": "full",
+     "bytes": 855750,
+     "pages": 20,
+     "note": ""
+    },
+    {
+     "title": "CRS IN12534, Russia's War Against Ukraine: Diplomatic Talks and U.S. Policy (2026-08-07)",
+     "url": "https://www.everycrsreport.com/files/2026-08-07_IN12534_ba69bd8b7f9f6fb269a222593943d5afcfdc9a3e.pdf",
+     "local_path": "primary/geopolitics/crs-reports-2026/CRS_IN12534_2026-08-07.pdf",
+     "status": "full",
+     "bytes": 544634,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "CRS IN12669, Pentagon-Anthropic Dispute over Autonomous Weapon Systems (2026-10-05)",
+     "url": "https://www.everycrsreport.com/files/2026-10-05_IN12669_7a44e0aea070fe962383fee036b729459f440fe0.pdf",
+     "local_path": "primary/geopolitics/crs-reports-2026/CRS_IN12669_2026-10-05.pdf",
+     "status": "full",
+     "bytes": 436198,
+     "pages": 3,
+     "note": ""
+    },
+    {
+     "title": "CRS IN12568, Golden Dome: Potential Strategic Stability Considerations for Congress (2026-11-04)",
+     "url": "https://www.everycrsreport.com/files/2026-11-04_IN12568_1c94baaaabab9018b536fb37e15694803c74a5ed.pdf",
+     "local_path": "primary/geopolitics/crs-reports-2026/CRS_IN12568_2026-11-04.pdf",
+     "status": "full",
+     "bytes": 506496,
+     "pages": 3,
+     "note": ""
+    },
+    {
+     "title": "CRS IF13264, The U.S. Army and the Golden Dome Program (2026-08-18)",
+     "url": "https://www.everycrsreport.com/files/2026-08-18_IF13264_a437f3e8bee9f995065d44404506160002b61483.pdf",
+     "local_path": "primary/geopolitics/crs-reports-2026/CRS_IF13264_2026-08-18.pdf",
+     "status": "full",
+     "bytes": 442819,
+     "pages": 3,
+     "note": ""
+    },
+    {
+     "title": "CRS IN12703, FY2027 NDAA: Summary of Funding Authorizations (2026-07-24)",
+     "url": "https://www.everycrsreport.com/files/2026-07-24_IN12703_6ad0b76227cad5933e2acaada4c0532aab5a1880.pdf",
+     "local_path": "primary/geopolitics/crs-reports-2026/CRS_IN12703_2026-07-24.pdf",
+     "status": "full",
+     "bytes": 478844,
+     "pages": 3,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The United States and Iran agreed to an April ceasefire and signed a June 2026 Memorandum of Understanding (MoU) to end the conflict and negotiate a broader settlement, but the MoU collapsed weeks later amid renewed fighting and formally expired in August 2026.",
+     "doc_local_path": "primary/geopolitics/crs-reports-2026/CRS_R48887_2026-09-18.pdf",
+     "page": 2,
+     "locator": "Summary",
+     "url": "https://www.everycrsreport.com/files/2026-09-18_R48887_bfd76010a42a6c04dd7691ebd96d44b2dcb54418.pdf",
+     "worldbuilding_use": "State of the Gulf war going into 2027: ceasefire, failed MoU, renewed limited strikes."
+    },
+    {
+     "text": "Two rounds of U.S.-mediated talks followed, but formal peace talks have not resumed since U.S.-Israeli military operations against Iran began in late February 2026.",
+     "doc_local_path": "primary/geopolitics/crs-reports-2026/CRS_IN12534_2026-08-07.pdf",
+     "page": 1,
+     "locator": "Aspects of Negotiations",
+     "url": "https://www.everycrsreport.com/files/2026-08-07_IN12534_ba69bd8b7f9f6fb269a222593943d5afcfdc9a3e.pdf",
+     "worldbuilding_use": "Why Ukraine diplomacy stalled in 2026: Washington's attention moved to Iran."
+    }
+   ]
+  },
+  {
+   "id": "chips-fab-commitments",
+   "name": "CHIPS-era fab commitments (TSMC, Micron, Intel, Samsung) - project status",
+   "publisher": "Company announcements and Commerce Department awards, tracked by Congressional Research Service",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy"
+   ],
+   "what_it_forecasts": "Where and when leading-edge chip fabs are being built outside Taiwan and China, with award amounts, company capital commitments and slipped opening dates.",
+   "horizon": "fab openings scheduled through about 2030",
+   "latest_edition": {
+    "title": "CRS R49031, Semiconductor Fabrication Facilities Funded by the CHIPS Act: Project Status and Considerations for Congress",
+    "date": "2026-07-14",
+    "url": "https://www.everycrsreport.com/files/2026-07-14_R49031_675b3cd8ca28d6335629bb2c9388706d5b2cdffc.pdf"
+   },
+   "update_cadence": "irregular (company announcements; CRS update)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "Companies commit their own capital under award agreements with clawbacks (T1), construction takes four to six years (T4) and most projects are physically under way (T5). Known bias: announced dollar totals are headline maxima and schedules slip - Intel's Ohio fab moved from 2026 to 2030."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named companies, sites (New Albany OH; Phoenix AZ; Austin and Taylor TX), dollar awards and opening years."
+   },
+   "ai": {
+    "score": 4,
+    "why": "July 2026 report; AI demand is cited as the reason for expanded commitments (TSMC's US$165 billion 'to power the future of AI', Intel-Nvidia AI infrastructure deal) but the report does not model it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In September 2025, Intel agreed to collaborate with technology company Nvidia Corporation to manufacture products that can integrate into Nvdia’s artificial intelligence (AI) infrastructure and products.",
+     "doc_local_path": "primary/geopolitics/chips-fab-commitments/CRS_R49031_2026-07-14.pdf",
+     "page": 12
+    },
+    "search_note": "Searched 'AI', 'artificial intelligence'. Scored from a secondary digest; individual company filings were not collected under this area."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored on request; strong pipeline evidence, but it belongs to the technology/industry area and only a secondary digest was collected here.",
+   "primary_docs": [
+    {
+     "title": "CRS R49031, Semiconductor Fabrication Facilities Funded by the CHIPS Act (2026-07-14)",
+     "url": "https://www.everycrsreport.com/files/2026-07-14_R49031_675b3cd8ca28d6335629bb2c9388706d5b2cdffc.pdf",
+     "local_path": "primary/geopolitics/chips-fab-commitments/CRS_R49031_2026-07-14.pdf",
+     "status": "partial",
+     "bytes": 871753,
+     "pages": 21,
+     "note": "Secondary digest of company and Commerce disclosures; covers US-sited fabs only."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "For example, Intel announced in February 2025 that it would delay the opening of its planned fab in New Albany, OH, from 2026 to 2030.",
+     "doc_local_path": "primary/geopolitics/chips-fab-commitments/CRS_R49031_2026-07-14.pdf",
+     "page": 12,
+     "locator": "Customer Demand",
+     "url": "https://www.everycrsreport.com/files/2026-07-14_R49031_675b3cd8ca28d6335629bb2c9388706d5b2cdffc.pdf",
+     "worldbuilding_use": "Reshoring timelines slip: Ohio's flagship fab opens in 2030, not 2026."
+    }
+   ]
+  },
+  {
+   "id": "market-geopolitical-risk-pricing",
+   "name": "Financial-market pricing of geopolitical risk (sovereign CDS incl. Taiwan, gold, defence-equity indices, FX)",
+   "publisher": "OTC CDS dealers; futures and equity exchanges",
+   "kind": "market price",
+   "covers_trends": [
+    "US-China rivalry: Taiwan risk and the AI-chip/compute control regime",
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Implied default and tail risk for exposed sovereigns over five years, the safe-haven premium in gold, and the equity market's capitalised expectation of defence-company earnings.",
+   "horizon": "5-year CDS tenor; equities discount all future years",
+   "latest_edition": {
+    "title": "Live prices (snapshot not obtained)",
+    "date": "2026-11-18",
+    "url": "https://www.worldgovernmentbonds.com/sovereign-cds/"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Real money, many informed participants and five-year instruments (T1, T2, T4). Kept at 4 because the prices blend geopolitical risk with rates, liquidity and sector fundamentals and cannot be read as clean probabilities, and Taiwan CDS in particular is thinly traded."
+   },
+   "richness": {
+    "score": 1,
+    "why": "A spread or price per instrument with no reasoning."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated prices that embed AI expectations (Taiwan's risk premium is inseparable from its chip role; defence equities price autonomy programmes) but the AI component cannot be isolated."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No data saved, so no reading is recorded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Structurally strong but no snapshot could be obtained, and a single spread gives a writer little to work with.",
+   "primary_docs": [
+    {
+     "title": "Sovereign CDS table (World Government Bonds)",
+     "url": "https://www.worldgovernmentbonds.com/sovereign-cds/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Page loads its table by JavaScript; static fetch returned no data."
+    },
+    {
+     "title": "Gold, defence ETF and FX price history (Yahoo Finance chart API; Stooq CSV)",
+     "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC=F",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Yahoo returned HTTP 429 (Too Many Requests) on two attempts; stooq.com connection was reset by the egress proxy."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "credit-rating-agencies-sovereign",
+   "name": "Sovereign credit ratings and country-risk commentary (S&P, Moody's, Fitch)",
+   "publisher": "S&P Global Ratings, Moody's Ratings, Fitch Ratings",
+   "kind": "expert report",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions",
+    "Rearmament super-cycle: US $1.5T budgets, NATO 3.5%/5%, munitions, ships and autonomy at scale"
+   ],
+   "what_it_forecasts": "Ordinal default-risk ratings and outlooks for sovereigns over a medium-term horizon, with geopolitical risk as one rating factor.",
+   "horizon": "outlooks 1-2 years; ratings intended through the cycle",
+   "latest_edition": {
+    "title": "Not retrieved (ratings actions are continuous; reports are subscriber-only)",
+    "date": "2026-11-18",
+    "url": "https://www.spglobal.com/ratings/en/"
+   },
+   "update_cadence": "scheduled semi-annual sovereign reviews plus ad hoc actions",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "Regulated entities that can lose registration and face liability (T1) and that publish annual default and transition studies scoring their ratings over decades (T3); they are issuer-paid, slow to move, and geopolitical judgements are a small, qualitative part of the rating."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Country reports with fiscal projections and risk narratives by reputation; not inspected here."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Not inspected; sovereign methodologies have no explicit AI factor as far as this compiler knows. Provisional."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document obtained; AI treatment unverified."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Listed for completeness and scored provisionally; nothing was downloadable without a subscription.",
+   "primary_docs": [
+    {
+     "title": "Sovereign rating reports (S&P / Moody's / Fitch)",
+     "url": "https://www.spglobal.com/ratings/en/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Full reports require subscription or login; not attempted beyond landing pages."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "eiu-risk-outlook",
+   "name": "Economist Intelligence Unit country-risk and global risk outlook",
+   "publisher": "Economist Intelligence Unit (EIU)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Hot wars and their settlement: Russia-Ukraine, Iran/Hormuz, with shipping and energy spillovers",
+    "Political control and legitimacy: the 2027-2030 election cycle and leadership transitions",
+    "Trade-regime fragmentation: tariffs by rotating statute, USMCA limbo, state-directed industrial policy"
+   ],
+   "what_it_forecasts": "Analyst-assigned probabilities and impact scores for a set of global risk scenarios, plus country risk ratings and five-year macro forecasts.",
+   "horizon": "risk scenarios 1-2 years; country forecasts five years",
+   "latest_edition": {
+    "title": "Not retrieved - current edition and date could not be confirmed",
+    "date": "2026-11-18",
+    "url": "https://www.eiu.com/"
+   },
+   "update_cadence": "monthly country reports; periodic risk-outlook white papers",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Commercial analyst judgement with a five-year forecast window but no stakes on individual calls, no adversarial review and no published scoring of its risk scenarios."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Scenario write-ups and country narratives by reputation; not inspected."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Not inspected; provisional."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document obtained (guessed 2026 risk-outlook URL returned 404; reports are gated)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Low-incentive comparator that could not be retrieved; scored provisionally.",
+   "primary_docs": [
+    {
+     "title": "EIU risk outlook / country reports",
+     "url": "https://www.eiu.com/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Gated behind registration/subscription; a guessed 2026 risk-outlook URL returned 404."
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}
