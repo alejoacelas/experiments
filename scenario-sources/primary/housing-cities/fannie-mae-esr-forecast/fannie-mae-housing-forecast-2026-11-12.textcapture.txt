@@ -1,0 +1,42 @@
+[Text capture via Exa web fetch on 2026-11-18 of https://www.fanniemae.com/media/58571/display (official PDF returned HTTP 403 to curl). Status: partial - text only, table layout flattened.]
+
+# Housing Forecast - November 2026
+URL: https://www.fanniemae.com/media/58571/display
+Author: Fannie Mae
+
+## Housing Forecast: November 2026
+
+26.1 26.2 26.3 26.4 27.1 27.2 27.3 27.4 28.1 28.2 28.3 28.4 2025 2026 2027 2028
+
+SAAR, Thous. Units 
+Total Housing Starts 1,418 1,345 1,293 1,269 1,287 1,272 1,274 1,274 1,273 1,276 1,283 1,287 1,356 1,331 1,277 1,279 
+Percent Change: YoY -0.8 -1.8 -4.1 0.2 
+Single-Family (1 Unit) 945 902 878 862 874 881 891 899 905 911 917 921 940 897 886 914 
+Percent Change: YoY -7.2 -4.6 -1.2 3.1 
+Multifamily (2+ Units) 473 443 415 407 413 392 383 376 367 364 367 366 416 434 391 366 
+Percent Change: YoY 17.5 4.4 -10.0 -6.4 
+Total Home Sales 4,675 4,772 4,654 4,519 4,594 4,613 4,659 4,715 4,775 4,834 4,881 4,925 4,741 4,655 4,645 4,854 
+Percent Change: YoY -0.2 -1.8 -0.2 4.5 
+New Single-Family 622 652 668 665 656 650 657 662 665 668 670 670 679 652 656 668 
+Percent Change: YoY -1.1 -4.0 0.7 1.8 
+Existing (Single-Family, Condos/Co-Ops) 4,053 4,120 3,987 3,854 3,938 3,963 4,002 4,053 4,110 4,166 4,211 4,255 4,062 4,003 3,989 4,185 
+Percent Change: YoY 0.0 -1.4 -0.4 4.9 
+
+### Percent Change: Quarterly YoY, Annual Q4/Q4 Fannie Mae HPI 2.1 2.8 3.4 2.7 1.9 1.2 0.6 0.6 0.6 0.6 0.9 1.1 1.9 2.7 0.6 1.1
+
+### Percent: Quarterly Avg, Annual Avg 30-Year Fixed Rate Mortgage 6.1 6.4 6.7 7.2 7.2 7.2 7.2 7.2 7.2 7.2 7.2 7.2 6.6 6.6 7.2 7.2
+
+NSA, Bil. $, 1-4 Units 
+Single-Family Mortgage Originations 571 553 511 438 374 507 493 486 407 544 525 516 1,992 2,073 1,860 1,993 
+Purchase 286 412 382 341 269 391 382 355 281 413 404 375 1,414 1,422 1,398 1,472 
+Refinance 284 141 129 97 105 115 111 131 127 131 121 141 578 652 462 520 
+Refinance Share (Percent) 50 26 25 22 28 23 22 27 31 24 23 27 29 31 25 26 
+November 12, 2026 
+Note: The Fannie Mae HPI forecast is updated on the first month of every quarter (January, April, July, and October). Note: Interest rate forecasts are based on rates from October 30, 2026; all other forecasts are based 
+on the date above. 
+
+Opinions, analyses, estimates, forecasts, beliefs, and other views of Fannie Mae's Economic and Strategic Research (ESR) Group included in these materials should not be construed as indicating Fannie Mae's business prospects or expected results, are based on a number of assumptions, and are subject to change without notice. How this information affects Fannie Mae will depend on many factors. Although the ESR Group bases its opinions, analyses, estimates, forecasts, beliefs, and other views on information it considers reliable, it does not guarantee that the information provided in these materials is accurate, current, or suitable for any particular purpose. Changes in the assumptions or the information underlying these views could produce materially different results. The analyses, opinions, estimates, forecasts, beliefs, and other views published by the ESR Group represent the views of that group as of the date indicated and do not necessarily represent the views of Fannie Mae or its management.
+
+--------------- 2027 --------------- --------------- 2028 ---------------
+
+Note: All mortgage originations data are Fannie Mae estimates as there is no universal source for market-wide originations data. Note: Unshaded areas denote actuals. Shaded areas denote forecasts. Sources: Actuals: Census Bureau, National Association of REALTORS®, Freddie Mac. Forecasts: Fannie Mae Economic and Strategic Research

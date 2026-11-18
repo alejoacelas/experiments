@@ -1,0 +1,2801 @@
+Working Papers
+
+RESEARCH DEPARTMENT
+
+Predicting College Closures
+and Financial Distress
+Robert Kelchen
+University of Tennessee – Knoxville and
+Federal Reserve Bank of Philadelphia
+Consumer Finance Institute Visiting Scholar
+Dubravka Ritter
+Federal Reserve Bank of Philadelphia
+Consumer Finance Institute
+Douglas Webber
+Board of Governors of the Federal
+Reserve and Federal Reserve Bank
+of Philadelphia Consumer Finance
+Institute Visiting Scholar
+
+ISSN: 1962-5361
+Disclaimer: This Philadelphia Fed working paper represents preliminary research that is being
+circulated for discussion purposes. The views expressed in these papers are solely those of
+the authors and do not necessarily reflect the views of the Federal Reserve Bank of Philadelphia
+or the Federal Reserve System. Any errors or omissions are the responsibility of the authors.
+Philadelphia Fed working papers are free to download at: https://philadelphiafed.org/researchand-data/publications/working-papers.
+DOI: https://doi.org/10.21799/frbp.wp.2024.20
+
+WP 24-20
+PUBLISHED
+
+December 2024
+
+Predicting College Closures and Financial Distress
+Robert Kelchen*
+University of Tennessee – Knoxville
+Dubravka Ritter†
+Federal Reserve Bank of Philadelphia
+Douglas Webber§
+Board of Governors of the Federal Reserve
+November 22, 2024
+ABSTRACT
+In this paper, we assemble the most comprehensive dataset to date on the characteristics of colleges and
+universities, including dates of operation, institutional setting, student body, staff, and finance data from
+2002 to 2023. We provide an extensive description of what is known and unknown about closed colleges
+compared with institutions that did not close. Using this data, we first develop a series of predictive
+models of financial distress, utilizing factors like operational revenue/expense patterns, sources of
+revenue, metrics of liquidity and leverage, enrollment/staff patterns, and prior signs of significant
+financial strain. We benchmark these models against existing federal government screening mechanisms
+such as financial responsibility scores and heightened cash monitoring. We document a high degree of
+missing data among colleges that eventually close and show that this is a key impediment to identifying at
+risk institutions. We then show that modern machine learning techniques, combined with richer data, are
+far more effective at predicting college closures than linear probability models, and considerably more
+effective than existing accountability metrics. Our preferred model, which combines an off-the-shelf
+machine learning algorithm with the richest set of explanatory variables, can significantly improve
+predictive accuracy even for institutions with complete data, but is particularly helpful for predicting
+instances of financial distress for institutions with spotty data. Finally, we conduct simulations using our
+estimates to contemplate likely increases in future closures, showing that enrollment challenges resulting
+from an impending demographic cliff are likely to significantly increase annual college closures for
+reasonable scenarios.
+Keywords: higher education, college, university, enrollment, tuition, revenue, budget, closure, fiscal
+challenge, demographic cliff
+JEL Codes: I2, I22, I23
+* A325 Jane and David Bailey Education Complex, 1126 Volunteer Boulevard, Knoxville, TN 37996; e-mail:
+rkelchen@utk.edu.
+† Federal Reserve Bank of Philadelphia, Ten Independence Mall, Philadelphia, PA 19106-1574; email:
+dubravka.ritter@phil.frb.org.
+§ Board of Governors of the Federal Reserve, 1850 K St. NW, Washington, DC; e-mail: douglas.a.webber@frb.gov.
+Disclaimer: The views expressed here are those of the authors and do not necessarily reflect the views of the Board
+of Governors of the Federal Reserve, the Federal Reserve Bank of Philadelphia, or the Federal Reserve System. No
+statements here should be treated as legal advice. We thank John Campbell, Julia Cheney, Robert Hunt, and Jeff
+Larimore for helpful comments. We also gratefully acknowledge excellent research support by Akash Banerjee and
+Jacob Goldsmith. All remaining errors are our own.
+
+I. Introduction
+College closures, mergers, and other forms of financial distress can have profound effects
+not only on students and employees of the affected institutions but also on local economics —
+particularly in areas where the institution of postsecondary education serves as an anchor of local
+economic activity. The postsecondary education sector is facing serious financial headwinds,
+both due to long-term trends and to the post-pandemic recovery. For this reason, measuring and
+predicting financial distress for these institutions is more important than ever. Yet this endeavor
+is difficult owing to the complexity of their financial structures and the limited availability of
+suitable data.
+One key challenge is declines in enrollment, as the number of students enrolled in
+degree-granting colleges and universities fell by 15 percent from 2010 to 2021 (National Center
+for Education Statistics, 2023). Enrollment declines were particularly stark during the height of
+the pandemic, as individuals chose to participate in a strong labor market over taking classes that
+were primarily offered online, but participation in higher education was already falling prior to
+the pandemic. This trend may have finally reversed during the fall 2023 semester, which saw the
+first across-the-board increase in enrollment in many years (National Student Clearinghouse
+Research Center, 2024).
+Part of these recent enrollment declines is frequently blamed on what is referred to as the
+“demographic cliff” in higher education, or the decline in the number of high school graduates in
+parts of the country that is spreading across more states (Bransberger et al., 2020; Grawe, 2018).
+This has undoubtedly contributed to enrollment declines and explains a sizeable portion of the
+observed enrollment trends. The effect is amplified by low graduation rates and the declining
+share of high schoolers enrolling in college immediately after graduation, which has fallen from
+70 percent to 62 percent over the last decade (National Center for Education Statistics, 2023).
+This decline, which also began before the pandemic, could reflect growing skepticism among the
+public about the value of higher education (e.g., Brenan, 2023).
+The other primary source of students — adult learners — has also seen substantial
+declines over the last decade. The enrollment of adult learners has traditionally been
+countercyclical, as potential students seek out community colleges and broad-access private
+institutions when recessions hit (Barr & Turner, 2015; Hillman & Orians, 2013). The number of
+students over the age of 25 has fallen by nearly half since the Great Recession (authors’
+2
+
+calculations using Integrated Postsecondary Education Data System data), meaning that colleges
+do not have as large of an alternative market of students to consider when the labor market is
+strong.
+Growing competition for students, along with an increasing number of states limiting the
+tuition-setting authority of public colleges (Kelchen & Pingel, 2024), has limited institutions’
+ability to increase tuition revenue from existing students. Listed prices for tuition and fees have
+increased at or below the rate of inflation since 2018 following decades of substantial real
+increases (Ma & Pender, 2023). Tuition discount rates have steadily risen over time, surpassing
+50 percent at private nonprofit colleges in 2022 (National Association of College and University
+Business Officers, 2023). At the same time, operating costs have also risen quickly owing to the
+pandemic-era inflationary shock and a longer trend of rising benefits expenses (Commonfund
+Institute, 2023).
+These financial pressures on higher education have elevated financial distress — up to
+and including closures — as a major higher education policy issue. While there have been
+predictions of a wave of closures for the last decade (e.g., Eide, 2018; Horn, 2018), most colleges
+survived the pandemic thanks to timely federal support and emergency actions taken to freeze or
+reduce personnel costs (Natow, 2021). However, the withdrawal of pandemic-era federal
+funding, along with existing stressors, likely resulted in an increase in closures during 2023
+(Sanchez, 2024) and into 2024. There has also been a wave of colleges declaring financial
+exigency, eliminating academic programs and employees in an effort to cut costs and to avoid
+potential closures (Ambrose & Nietzel, 2024). Even flagship universities such as West Virginia
+University and Pennsylvania State University have pursued sizable reductions in the number of
+academic programs as they face budget deficits (Burke, 2024; Povich, 2023).
+Considerable attention has been given to the plight of students attending colleges that
+close, as it negatively affects the likelihood of students eventually earning a credential (Burns et
+al., 2023). But the potential effects of closures and significant budget cuts can also spill over into
+the broader communities, as colleges often serve as anchor institutions — economic and cultural
+engines of their local communities (Birch et al., 2013; Harris & Holley, 2016). Research on the
+effects of mass layoffs in other sectors has found declines in total regional employment as some
+workers either move to a new region or drop out of the labor market entirely (Celli et al., 2023;
+Foote et al., 2019).
+3
+
+In this study, we combine rich data on higher education institutions’ students, staff, and
+financial circumstances with county-level data on economic activity to explore various forms of
+fiscal challenges — including full closure — facing institutions of postsecondary education. We
+focus most closely on strong predictors of closures as the most extreme form of financial distress
+and one that both college administrators and sector regulators spend considerable resources
+preventing and addressing. More specifically, we answer the following research questions:
+1) To what extent can college financial distress (substantial downsizing or closures) be
+predicted based on institutional characteristics, enrollment/staff metrics, financial
+indicators, and local economic conditions in preceding years?
+2) What types of institutions may be at risk of financial distress in the future based on
+reasonable scenarios of enrollment changes and broader economic conditions?
+We assemble the most comprehensive dataset to date on the characteristics of closed
+institutions compared with institutions that did not close. This paper begins with an extensive
+description of what is known and unknown about these colleges. The current monitoring solution
+to predicting the financial distress and closure of institutions — at least at the federal level — is
+to provide straightforward and intuitive financial performance metrics that are correlated with
+closure. These federal performance metrics represent helpful but suboptimal measures for
+purposes of predicting closures for two reasons: data availability and predictive accuracy. We
+document a high degree of missing data among colleges that eventually close, show that this is a
+key impediment to identifying institutions at risk of closure, and also show how modern machine
+learning algorithms can provide a concrete solution to this problem. These same algorithms
+greatly improve the predictive accuracy even for institutions with complete data but can only
+deliver on their predictive accuracy promises if used judiciously and with the full set of available
+data instead of selected (key) metrics.
+For instance, consider three distinct models predicting closure: (1) an OLS model that
+includes only federal accountability metrics combined with sector and year controls, (2) an OLS
+model that includes a broader set of financial data and other controls in binned form (to
+accommodate missing values), and (3) a machine learning model that has the capability of
+addressing missing data while utilizing the maximum number of variables. To provide but one
+4
+
+illustration of improvement in predictive accuracy analysts can expect with carefully employed
+machine learning methods, consider the 100 institutions with the highest predicted closure
+probabilities according to each model. Some 47 percent of the 100 institutions with the highest
+predicted likelihood of closing actually closed within three years using the federal metrics model,
+whereas 61 percent of institutions actually closed within three years using the OLS model with
+additional binned controls and 84 percent of institutions actually closed within three years using
+the machine learning model. We further illustrate the benefits of using our models and data to
+assess closure predictions in more local geographic areas, like states, while urging analysts to
+carefully consider measures of predictive accuracy before doing so. Finally, we also provide
+some back-of-the-envelope calculations showing the range of possible future increases in
+closures if predictions about the severity of the so-called “demographic cliff” are realized.
+II. Postsecondary Education Landscape and Fiscal Challenges
+In this section, we motivate our study by reviewing the history of financial distress and
+college closures, as well as consider extant research on factors associated with college closures.
+We then discuss the relationship between postsecondary education, the labor market, and
+regional economic growth; examine the role that colleges and universities play as anchor
+institutions in their local communities; and summarize the current landscape of postsecondary
+education revenue and expenditure sources.
+A. Financial Distress and College Closures
+Financial challenges have long played an important role in the history of American
+postsecondary education. For example, Harvard was able to continue operating in the 1640s and
+1650s through fundraising one-quarter of a bushel of corn (“colledge corne”) from each local
+family (Curti & Nash, 1965). While college closures have a long history in America (Tewksbury,
+1932), many colleges are resilient and manage to avoid closure against difficult odds. An
+analysis of nearly 500 private nonprofit colleges that were identified as having limited resources
+in 1972 found that nearly 85 percent of the institutions continued to operate in some form four
+decades later (Tarrant et al., 2018). Public higher education systems, in particular, rarely suffer
+closures because of local and state financial support, but do sometimes face mergers and
+
+5
+
+consolidations (which are more difficult to observe and outside of the scope of the present study,
+but a fruitful area for future research).
+A number of analysts and consulting firms have identified factors that they view as being
+indicative of college closures without empirically testing their accuracy (e.g., Denneen &
+Dretler, 2012; Parthenon-EY, 2017; Zemsky et al., 2020). There is much less research that
+examines factors associated with a higher risk of closure using econometric or statistical
+frameworks. Institutional characteristics that are related to closure in statistical analyses include
+being a Historically Black College or University (HBCU) or a women’s college, while being an
+urban college reduces the likelihood of closure (Britton et al., 2023; Zapp & Dahmen, 2023).
+Financial characteristics associated with closures include lower faculty salaries, lower tuition,
+smaller endowments, and higher shares of instructional spending (Bates & Santerre, 2000;
+Britton et al., 2023; Porter & Ramirez, 2009). Yet many of the factors identified in these studies
+are not necessarily causing colleges financial distress in and of themselves, but rather are
+correlated with institutional characteristics and financial indicators predictive of institutional
+financial distress.
+We take inspiration for our study from Kelchen (2020), who used linear probability
+models to predict college closures within two and four years separately for private nonprofit and
+for-profit institutions. Some of the key variables associated with closures in that study included
+declines in enrollment, increases in the tuition discount rate, a decline in endowment values, and
+triggering the Department of Education’s monitoring metrics for Title IV eligibility: failing the
+federal financial responsibility test or being on the more serious level 2 of heightened cash
+monitoring. While models in Kelchen (2020) were able to identify colleges at the highest risk of
+closures, only a small fraction of the riskiest institutions closed in the short term.
+B. Postsecondary Education, the Labor Market, and Economic Growth
+While postsecondary education serves numerous purposes, including personal growth,
+fostering civic engagement, and advancing society, students and policymakers often focus on
+colleges’ role in preparing students for the labor market. Students rate economic factors among
+the most important reasons for going to college (e.g., Stolzenberg et al., 2020), and a growing
+number of states explicitly tie public funding for higher education to workforce-related metrics
+(Kelchen et al., 2024b). And the sizable economic returns for college completers — albeit with
+6
+
+significant variation by field of study, student ability, and the price tag of the credential —
+highlight the importance of higher education in the labor market (Webber, 2016; Zhang et al.,
+2024).
+A sizable body of research shows a strong relationship between the availability of higher
+education opportunities in a local community and economic health, emphasizing the importance
+of colleges as anchor institutions along with medical institutions (e.g., Birch et al., 2013;
+Harkavy & Zuckerman, 1999; Harker et al., 2022; Harris & Holley, 2016). Much of the
+relationship is due to increased employment because many graduates (particularly at less
+selective colleges) stay in the area (Conzelmann et al., 2023) and because of the service-related
+jobs that are associated with having colleges in the area (Lee, 2019). The presence of colleges
+leads to higher levels of educational attainment and employment in human capital-intensive
+industries, more patents, increased economic mobility, and increased local economic output
+(Andrews, 2023; Carlino & Hunt, 2009; Howard et al., 2022; Lehnert et al., 2024; Russell &
+Andrews, 2022; Russell et al., 2022).
+It is also important to emphasize that colleges serve as more than economic engines of
+local communities. Particularly in more rural and isolated areas, higher education institutions
+have the potential to function as the cultural hub of communities by supporting civic
+engagement, the arts, and providing entertainment and educational opportunities (Ashley et al.,
+2023; Howard, 2014). An important activity of many colleges is noncredit courses, which can
+serve to develop individuals’ skills for the labor market or to simply promote lifelong learning
+(Arena, 2013; Xu & Ran, 2020). The proximity to colleges has even been a factor in the
+retirement decisions of some Americans, as they seek out a stimulating environment in their
+golden years (Smith et al., 2014).
+Put together, colleges have the ability to attract individuals to local communities and to
+better the overall quality of life. For those reasons, struggles of higher education institutions —
+through closures or cutbacks caused by severe financial distress — are of particular interest to
+college leaders, researchers, policymakers, and others. They also represent a large part of the
+motivation behind our analysis to examine the factors associated with closures or severe declines
+in institutional health.
+
+7
+
+C. College Funding Metrics and Patterns
+The American postsecondary education system today consists of approximately 6,000
+colleges and universities that receive federal financial aid under Title IV of the federal Higher
+Education Act. There is also a substantial number of very small colleges, particularly in the forprofit sector, that operate without receiving federal financial aid (e.g., Cellini & Goldin, 2014)
+and are outside the scope of this chapter because of a lack of available data. As an industry,
+American higher education directly produces approximately $700 billion in expenditures, enrolls
+nearly 25 million students, and has approximately 3 million employees. In the following section,
+we discuss key revenue and expenditure categories and the implications for institutional
+finances.
+a. Revenues
+Table 1 highlights key revenue categories by institutional sector from the most recent
+year comprehensive data (Integrated Postsecondary Education Data System, or IPEDS) is
+available, the 2021-22 academic year. Owing to both the business cycle and the pandemic, this
+year is not necessarily representative of a “typical” year in each category, e.g., investment
+revenue. We discuss each revenue category individually in this section, as well as provide
+historical trends to put the 2021–2022 figures into perspective.
+Figures 1a–1c depict trends in key revenue categories by institutional sector from 2002
+to 2022. Figure 1a considers public colleges and universities and shows a clear upward trend in
+inflation-adjusted revenue, with the total increasing from $333 billion in 2002 to $472 billion in
+2022. Revenue from tuition, auxiliaries, and gifts steadily increased during most of the panel.
+However, revenue from both tuition and auxiliaries declined in real terms beginning in 2020
+owing to the coronavirus pandemic and enrollment declines. Investment revenue is generally a
+modest portion of total revenue and is highly dependent on stock market performance, while
+appropriations dipped following the Great Recession before recovering.
+Figure 1b is for private nonprofit colleges, with gift revenue only being available
+separate from grants and contracts beginning in 2010. Total revenue in this sector over time has
+been highly dependent on investment returns, with real revenue falling by half from 2008 to
+2009 and again from 2021 to 2022. However, the long-term trend has been toward increased
+revenues for the sector. Other variables have been more consistent, with tuition and auxiliary
+8
+
+revenue generally following the same path as public institutions. Gift revenue is about twice as
+high compared with public colleges, while investment returns are far more influential owing to a
+relatively small number of colleges with massive endowments.
+Finally, Figure 1c shows two key trends about the finances of for-profit colleges. The
+first is that for-profit colleges have consistently derived approximately 90 percent of their
+funding from tuition and fees over the past two decades. Second, revenue tripled from $15
+billion to $46 billion from 2002 to 2011 as the for-profit sector grew dramatically. Following
+enrollment declines and the collapse of some large for-profit chains, total revenue fell to just
+over $20 billion by 2018.
+Tuition Revenue
+The most important revenue source for private nonprofit and for-profit colleges, and the
+second-most important primary revenue source for public colleges, is revenue from tuition and
+fees. Between the early 1970s and mid-2010s, listed real tuition and fee rates more than tripled at
+public and private nonprofit colleges, as strong demand for higher education allowed colleges to
+continue increasing their prices. But since 2018, tuition increases have consistently been below
+the rate of inflation (Ma & Pender, 2023), and tuition discount rates have continued to rise
+(National Association of College and University Business Officers, 2023), contrary to public
+perception of skyrocketing college prices.
+Public universities can face particularly challenging situations because a majority of
+states explicitly restrict how much institutions can increase tuition (Kelchen & Pingel, 2024), and
+legislatures and governors can pressure colleges to limit tuition increases even without a formal
+tuition control mechanism being in place (Kelchen, 2018). This has led public universities to
+prioritize recruiting and enrolling out-of-state students (Jaquette & Curs, 2015), although these
+efforts often fail to generate additional revenue for colleges (Kelchen, 2021). At selective public
+universities, these efforts to recruit out-of-state students have crowded out in-state students —
+particularly underrepresented minority students (Curs & Jaquette, 2017; Jaquette et al., 2016).
+Government Appropriations
+The single most important source of revenue for public institutions is appropriations,
+which primarily consists of local and state funding to support general operations. At least some
+community colleges in nearly 30 states receive local funding, which makes up roughly 21
+percent of total revenue for community colleges in those states (Ortagus et al., 2022). State
+9
+
+support for public higher education is much larger (approximately $106 billion in fiscal year
+2022, compared with $12 billion in local funding) and is spread across two-year and four-year
+institutions (Kunkle & Laderman, 2023). There is a strong relationship between state funding
+and improved completion rates and post-college outcomes alike (Chakrabarti et al., 2020).
+However, the mechanism used to allocate funding (such as by enrollment or performance)
+matters far less than the amount of funding (Kelchen et al., 2024a; Ortagus et al., 2020).
+States allocate approximately 90 percent of support for public higher education to
+institutions, with financial aid to students — a category that is rapidly growing — making up the
+remainder of support (Kunkle & Laderman, 2023). State funding for public higher education is
+highly volatile, with implications both for students and colleges (Delaney, 2023). Much of this
+volatility is driven by higher education’s function as a balancing wheel in state budgets (Delaney
+& Doyle, 2018; Hovey, 1999), as states make sharp cuts in appropriations during recessions in
+order to fund other priorities that do not have alternative revenue sources such as tuition. This
+leaves public colleges, particularly those that have been heavily reliant on state funding,
+especially vulnerable to declines in resources and tuition increases as enrollment increases during
+recessionary periods of reduced state funding (Barr & Turner, 2013; Rosinger et al., 2022).
+Research by Webber (2017) has also shown a relationship between state funding cuts and tuition
+increases, although tuition increases only backfill a portion of lost appropriations.
+Research and Hospital Revenue
+For a relatively small number of large public and private nonprofit universities, research
+(represented primarily through grants and contracts) and hospitals make up a majority of total
+revenue reported to the U.S. Department of Education. An example of this is the University of
+Michigan at Ann Arbor, which generated $5.6 billion in hospital revenue and $1.3 billion in
+grants and contracts in fiscal year 2022, compared with $1.4 billion in tuition revenue (authors’
+calculations using IPEDS data). Only 89 universities contributed to the nearly $67 billion in
+hospital revenue, as not all university-connected hospitals report financials in conjunction with
+universities.
+Research funding is distributed across a larger group of institutions, although the vast
+majority of dollars flows to the 146 institutions that are designated as Research I universities in
+the Carnegie classifications. Research grants and contracts frequently come with indirect cost
+allowances that help fund the infrastructures of personnel and facilities that are needed to support
+10
+
+a research enterprise. These indirect cost rates tend to be higher for grants received from federal
+agencies compared with nonprofit foundations, creating strong pressures to seek federal research
+funds (Graddy-Reed et al., 2021).
+Auxiliary Enterprise Revenue
+Auxiliary enterprises consist of activities that are not directly tied to instruction, research,
+and student services. Some of these activities, such as housing, food service, and parking, are
+typically expected to break even or potentially help support other campus activities through
+generating a profit. Other activities, such as athletics, may be allowed to operate at a loss in order
+to help achieve other institutional priorities. Auxiliary revenues reflect a modest share of overall
+revenue across higher education but are particularly important at residential liberal arts colleges
+and large research universities with sizable on-campus populations and prominent intercollegiate
+athletics programs.
+Because housing, dining, and parking generate consistent revenue streams, a growing
+number of public universities have sought capital to upgrade their facilities in these areas. This
+can take the form of issuing bonds to finance improvements (Denison et al., 2014) or through
+using public-private partnerships that leverage private capital to make improvements and then
+lease the assets back to universities (McClure et al., 2017; Storms et al., 2017). Private
+universities typically issue bonds on their own, which helps explain higher debt burdens among
+private than public institutions because some debt associated with public universities is held
+outside of balance sheets (Ward et al., 2022).
+The vast majority of revenue from intercollegiate athletics comes from the approximately
+360 universities in Division I of the National Collegiate Athletic Association (NCAA), and much
+of this revenue is concentrated among the approximately 60 institutions in the most powerful
+athletic conferences. Forty-nine public universities brought in more than $100 million in athletics
+revenue in the 2021–22 fiscal year (USA Today, 2024), but many Division I institutions still rely
+on student fees and institutional contributions to fund athletics. Total student fees for athletics
+are in excess of $1 billion per year and can exceed $2,000 per student per year at some
+universities (Enright et al., 2020). Meanwhile, smaller institutions view athletics as a way to
+recruit tuition-paying students who want to continue their athletic careers and thus are willing to
+operate athletics with little direct revenue (Knox, 2023).
+
+11
+
+Investment and Gift Revenue
+Like research and hospital revenue, the vast majority of support from private donors is
+concentrated in a small number of colleges. Just 136 colleges or university systems in the United
+States had endowments of more than $1 billion in fiscal year 2023, but they account for more
+than 80 percent of all endowment assets in American higher education. Going further, five
+institutions held 25 percent of all endowment assets, and 25 institutions held half of all assets
+(Redd, 2024). Private institutions are far more reliant on endowments and investment income
+than public institutions, as private institutions hold the majority of assets and tend to have
+smaller student bodies to support (Baum et al., 2018).
+A college’s endowment does not consist of one single piggy bank that leaders can use in
+any way they see fit. Rather, endowments are made up of numerous accounts that frequently
+have restrictions placed on their usage by donors. Common categories for giving include student
+financial aid, funding the building and maintenance of facilities, and supporting faculty
+positions. Institutional leadership can petition a court to remove restrictions in the case of
+financial distress (e.g., Moody, 2024), but those efforts tend to be expensive to undertake and can
+damage relationships with donors. In general, colleges are expected to spend approximately 4
+percent to 5 percent of a rolling average value of the endowment each year. This is below the
+long-term rate of return, which allows endowments to keep growing (American Council on
+Education, 2014). It also helps smooth out year-over-year changes in the value of the
+endowment, which have been considerable over the last decade.
+b. Expenditures
+One of the key challenges facing colleges and universities is that operating costs have
+increased faster than general inflation for decades, driven by rising expenses for health insurance
+and administrative support (Commonfund Institute, 2023). To provide an extreme example of
+rising costs, the University of Delaware announced in early 2024 a freeze on all nonessential
+spending, in large part owing to skyrocketing health insurance costs driven by the popular weight
+loss drug Ozempic (Greene, 2024; Owens, 2024). This is a particular concern for public
+institutions, which often have limited control over benefits costs compared with private
+institutions.
+
+12
+
+Postsecondary education suffers from Baumol’s (1967) cost disease as an industry that
+relies on highly educated labor and is unable to incorporate technological efficiencies as well as
+many other fields; this has explained the majority of rising operating costs over time (Archibald
+& Feldman, 2008). However, Bowen’s rule, in which colleges seek to raise as much money as
+possible in order to spend it on educationally worthwhile pursuits, likely also plays a role in
+rising expenditures as institutions try to keep up with their peers (Bowen, 1980; Kolpin & Stater,
+2024).
+As a labor-intensive industry, expenses related to personnel are by far the single largest
+expenditure category in most institutions’ budgets. While the share of faculty members who are
+tenured or are on the tenure track has steadily declined over time (Colby, 2023), even a move to
+contingent faculty does not eliminate the need for individuals to teach classes. The two other
+primary drivers of institutional expenses are maintaining facilities and debt service. Both these
+categories also tend to be difficult to change in the short or medium term, as there is often little
+ability to sell off assets that are on an existing college campus and bonds are often paid off over a
+period of several decades. As a result, it is difficult for colleges to make meaningful reductions to
+budgets without eliminating a broad range of academic programs.
+Table 2 highlights key functional expenses by institutional sector in the 2021-22
+academic year. More money was spent on instruction than any single other category across both
+public and private nonprofit institutions, but this only included between 26 percent and 30
+percent of all spending. This low share of spending on instruction often raises concerns regarding
+so-called administrative bloat, which is a rare argument that unites faculty members, with
+advocates from across the ideological spectrum (e.g., American Council of Trustees and Alumni,
+2021; Ginsberg, 2011; Whistle & Erickson, 2019).
+The construction of the instructional expenditures category in IPEDS is relatively narrow,
+excluding key functions such as advising (classified under academic support), student services,
+and information technology (which can fall under multiple functional categories, depending on
+how an institution allocates expenses). These three categories represent just under one-fourth of
+all spending at public institutions but 60 percent of spending at for-profit colleges. Research has
+shown that spending in these areas has been shown to significantly improve student outcomes
+(Griffith & Rask, 2016; Webber & Ehrenberg, 2010). Spending on other categories, such as
+
+13
+
+research, auxiliary enterprises, and hospitals tends to be more closely aligned with the associated
+revenue categories and is less driven by tuition dollars and state appropriations.
+III. Data Sources
+A.
+
+Institutional Characteristics (IPEDS and College Scorecard)
+We obtain information on the historical features of colleges and universities
+
+(organizational structure, location, and finances) and on the characteristics of their students and
+staff primarily from the Department of Education’s Integrated Postsecondary Education Data
+System (IPEDS) data. The panel we assemble spans from 2002 to 2022 and is based on data that
+is collected annually on the academic year calendar for each UnitID (an IPEDS ID for an
+individual institution). Some of the IPEDS data we collect are available prior to 2002, but data
+elements collected frequently changed during the 1990s and are missing for a large share of
+institutions either because the institution’s sector was not asked a particular module or because
+reporting was optional for the type of institution in a particular year. We focus on institutions in
+the 50 states and Washington, DC in this analysis.
+We use the predominant degree from the College Scorecard and IPEDS to classify
+institutions into public two-year (or less), public four-year (or more), private nonprofit two-year
+(or less), private nonprofit four-year (or more), private for-profit two-year (or less), and private
+for-profit four-year (or more). Considering the predominant degree classification better reflects
+the institutions’ focus, since the highest degree offered would often classify community colleges
+that offer a single, small B.A. program as four-year institutions. About one-fifth of colleges are
+missing information on the predominant degree level variable, so we supplement with Carnegie
+classifications where available and counted the rest as two-year colleges (confirmed by visual
+inspection of the data for the missing predominant degree level).
+The rich IPEDS data include hundreds of variables, with many of them only available for
+certain institution types or enrollment/revenue thresholds. We consider a range of variables that
+could potentially be associated with college closures based on prior research, economic theory,
+and our experiences in the field of higher education finance. The main variables drawn from
+IPEDS that are of focus for this study include:
+•
+
+Enrollment: total enrollment; change in enrollment; share full-time enrollment; share
+undergraduate enrollment
+14
+
+•
+
+Staff: total staff; change in staff; share full-time staff; share instructional staff
+
+•
+
+Revenues: total revenue; change in revenue; shares of revenue from tuition, auxiliary
+enterprises, investments, and gifts/grants/contracts
+
+•
+
+Expenses: total expenses; percent change in expenses; shares of expenses on instruction,
+scholarships, interest, depreciation, and salaries
+
+•
+
+Assets and debt: Unrestricted net assets; debt; endowment
+
+•
+
+Derived financial metrics: operating margin; change in operating margin; days cash on
+hand (liquidity); change in days cash on hand; earnings before interest, debt,, and
+amortization (EBIDA); debt to EBIDA; debt to assets (leverage); change in debt to assets
+
+•
+
+Other derived measures: 10 percent decline in revenue relative to high in the last five
+years; persistent negative operating margin (at least three of the past five years); 10
+percent decline in enrollment relative to high in the last five years; 5 percent or more
+decline in enrollment each year for the last three years
+
+We adjust financial values such as total revenue, assets, and debt into 2023 dollars using the
+Consumer Price Index but leave year-over-year percent change metrics as nominal values. For
+variables with skewed distributions in our analyses (generally, dollar values and measure of
+students/staff counts), we use logs of nominal values, and winsorize outliers at the 2.5 percent
+level.
+As mentioned previously, most data fields have considerable coverage. That said, data
+are missing for a variety of reasons, both idiosyncratic and systematic. For example, institutions
+that only grant certificates frequently do not report detailed asset or other financial data. Given
+the low risk of bias due to a correlation between the (systematically) missing values and
+likelihood of closure after conditioning on covariates such as sector or degree level, we include
+indicators for reasons data is missing (e.g., an institution type such that detailed financial data is
+unavailable) in certain models in order to maximize sample size; we discuss this process in more
+detail in the next section. The variables most susceptible to missing values are virtually all
+measures of debt, assets, and leverage.
+In addition to the enumerated variables, the IPEDS data contain a wealth of institutional,
+financial, student, and staff fields that we consider potentially marginally informative for
+purposes of predicting financial distress of institutions of higher education. When possible, we
+15
+
+assess how much incremental explanatory value these metrics hold, but the covariates selected
+above are expected to be and empirically are the relatively stronger predictors.
+B.
+
+College Closures (PEPS)
+To consider college closures in the context of this study, we draw on the Closed School
+
+Weekly Reports from the Federal Student Aid’s (FSA’s) Postsecondary Education Participants
+System (PEPS) database. FSA data classify institutions based on their Office of Postsecondary
+Education identification number (OPEID), which is based on the unit of analysis under which a
+program participation agreement is entered upon with the Department of Education (Office of
+Federal Student Aid, 2017). We restrict the sample of institutions in the PEPS data to those
+where the main campus (FSA OPEID ending in “00”), as opposed to a branch/satellite campus,
+closed. 1 We made this decision because colleges frequently close branch campuses that may only
+offer one or two programs of study; fully 90 percent of closures in PEPS in the 2010s were of
+branch campuses. 2 The PEPS data includes a precise date of closure as reported by the U.S.
+Department of Education, which can be months or even years after the closure was initially
+announced. A small number of colleges closed, reopened, and then closed again during the
+period of analysis, but we considered the first closure only in our analyses. PEPS data as of the
+writing of this paper were only available through November 2023, so 2023 is an incomplete year
+of data.
+Combining data at the IPEDS UnitID and the FSA OPEID levels is a complex endeavor
+as the relationship between the two classifications is not one-to-one. College and university
+systems often operate under the same program participation agreement with the FSA, and thus
+all report data together under what is often called a “parent-child” agreement (Jaquette & Parra,
+2014). However, seemingly similar university systems differ in whether institutions report
+separately or jointly to the FSA. For example, Indiana University and University of Wisconsin
+Some colleges have hundreds of branches listed in PEPS, and PEPS creates a new OPEID by adding 10, 20, 30, or
+40 to the original OPEID. In about 10 cases, this new OPEID had a branch campus ending in 00, but we dropped
+those observations because they are not main campuses. An example is OPEID 10224300, which is Central
+Michigan University’s former branch campus at Schoolcraft College.
+
+1
+
+An example of this is Georgia’s Piedmont College, which closed 32 branch campuses in 2020 alone. All these
+campuses were in local school buildings. A similar dynamic occurred at Oregon’s Concordia University, which
+closed its main campus in 2020. However, it closed multiple branch campuses in area school buildings in 2014,
+which was near the peak of its enrollment and years before any financial challenges. Additionally, there are no data
+available on the size of these branch campuses or their financial characteristics.
+
+2
+
+16
+
+campuses report separately, while Ohio State University and Rutgers University report as
+systems. Further complicating this data merge is that colleges that share the same program
+participation agreement can report certain IPEDS data elements (such as finance and
+completions) at the OPEID level while reporting other elements (such as enrollment and staffing)
+at the UnitID level (National Center for Education Statistics, 2018).
+We meticulously aggregate all our data to the OPEID level to reduce this complication,
+although it comes at the expense of focusing on only main campus closures. If there were twoyear and four-year institutions within the same OPEID, we consider the resulting overall
+institution to be a four-year college. This results in a final analytic sample of 8,633 institutions
+that operated and were eligible to receive federal financial aid at some point during the panel;
+more than one in 10 closed during our sample period, as we will show below. We were unable to
+match 55 closures in the PEPS data to IPEDS UnitIDs, with all but nine of those non-matches
+occurring between 1996 and 1998. These relatively few institutions are therefore excluded from
+our analyses.
+C.
+
+Federal Accountability Metrics and County Characteristics
+To flag institutions perceived by sector observers to be in precarious financial condition,
+
+we use the College Scorecard data on colleges placed on Heightened Cash Monitoring (HCM)
+level 2, the most serious level of federal monitoring that requires a college to get reimbursed
+after the fact for federal financial aid disbursed to students instead of receiving those funds in
+advance. In other words, HCM2 places scrutiny on each student’s aid package to minimize the
+risk of lost funds to taxpayers (Office of Federal Student Aid, 2019). We also use data from
+Federal Student Aid on whether private colleges failed the government’s Financial
+Responsibility Composite (FRC) score, which places colleges on HCM level 1.
+Cohort default rates (CDRs) are another accountability tool available to the federal
+government and represent the share of an institution’s student loan borrowers who are in default.
+Historically, CDRs have tended to flag many low-value programs (especially in the private
+sector) somewhat accurately but retain relatively less value from a prediction perspective going
+forward. This is due to the availability of increasingly generous reduced payment plans
+(including automatic enrollment in case of 90+ days late payments) and debt cancellation
+available to federal student loan borrowers. These recent policy changes are likely to
+17
+
+dramatically reduce default rates to a point where they are no longer informative. Although we
+collected CDR data, we exclude this metric from our analyses, given that the most likely context
+for a real-life application of our methodology is predictions of future college financial distress
+based on most recent data.
+We also collect measures of population and income per capita received by local residents
+at the county level from 1967 to 2022 from the U.S. Bureau of Economic Analysis. Finally, we
+collect estimates of the poverty rate at the county level from the Small Area Income and Poverty
+Estimates survey from the U.S. Census Bureau for 1997–2022. The county-level unemployment
+rate is obtained from the Bureau of Labor Statistics’ Local Area Unemployment Statistics
+program for 1990–2022.
+D.
+
+Analytical Sample – Closure Predictions
+Appendix Table A1 shows summary statistics of the analytic panel, divided between
+
+observations with closed colleges (using data from two years prior to closure) and observations
+for colleges that never closed during our sample period of 2002–2023. Colleges that closed were
+smaller, more tuition-driven, and saw larger declines in enrollment and revenue than colleges
+that remained open. For example, more than one-fourth of colleges that closed posted operating
+losses in at least three of the five years prior to closure. This was twice the rate of colleges that
+remained open. However, there is a substantial overlap in the distributions of variables between
+open and closed colleges, highlighting the need for multivariate predictions.
+Figure 2 highlights the number of colleges that closed in each year from 1996 to 2023,
+broken down by institutional type and level based on the predominant degree offered. As the
+previous literature shows, the majority of institutions that closed were for-profit two-year
+colleges with relatively few students. Table 3 shows the number of colleges that ever existed
+and/or closed during our panel by institutional type and level. Overall, a total of 1,671 colleges
+closed during the period of analysis, with the number of closures peaking from 2016 to 2018.
+A striking fact emerges from our data: Public institutions hardly ever close. Only two
+four-year public institutions (one tribal college and one graduate health sciences–focused
+institution) closed during the panel, and nearly all the 45 two-year public institutions that closed
+were career and technical centers run by local school districts. This shows that despite
+challenging operational metrics, public institutions under financial pressure tend to remain open,
+18
+
+particularly if there is a dearth of public education options in the local area. If more drastic
+measures are required to address financial distress among public institutions, more often than
+not, it will be mergers or consolidations that are presented as the remedy, not closure. This is in
+part because closing a public college is a deeply political decision, similar to closing a military
+base. As a result, less drastic steps are typically taken that preserve an educational option in the
+local community. In future work, we hope to collect data on these mergers and consolidations,
+but they are not available for the present study. As a result, we focus our closure-related analyses
+on private institutions; however, we consider public institutions when estimating the likelihood
+of facing significant financial distress.
+The vast majority of closures have been among private for-profit colleges, which is
+intuitive because for-profit colleges are much more likely to exit the marketplace if they do not
+see the opportunity to make a profit in the future. They are, as Deming et al. (2012) famously
+posed, nimble critters. Nearly three-fourths of closures in the dataset are two-year for-profit
+colleges, and almost one-third of the 3,732 institutions observed in this sector closed at some
+point between 1996 and 2023. On the other hand, while private nonprofit four-year colleges get
+the lion’s share of attention regarding college closures, closure rates are relatively modest (just
+over 7 percent during this time period).
+Table 4 shows the share of colleges in operation by sector in 1996 that were still in
+operation in 2006, 2016, and 2023, as this highlights the longevity (or lack thereof) of colleges
+that were in the panel in the very beginning. Nearly 40 percent of the two-year for-profit colleges
+open in 1996 closed by 2023, with many of them closing in the late 1990s. Most of the closures
+among four-year for-profits closed in the 2010s and early 2020s, while closures in the nonprofit
+sector were relatively more evenly distributed over time.
+Figure 3 shows the number of students affected by college closures each year between
+2001 and 2023 by institution classification. Median full-time equivalent (FTE) enrollment two
+years prior to closure (for example, 2017–18 enrollment for a 2019 closure) was 219 students at
+nonprofit colleges and 162 students at for-profit colleges. Most colleges in the sample were
+small, with median enrollment among nonprofit colleges being 1,015 students and just 192
+students at for-profit colleges, such that closed schools are somewhat smaller than average (but
+not dramatically so). However, a few prominent closures in the for-profit sector (such as the Art
+Institutes and ITT Tech) resulted in just over 1 million students during our panel who attended
+19
+
+colleges that closed two years later. The vast majority of students affected by closures were
+enrolled in the 2010s.
+Figure 4 plots the number of staff affected by college closures each year by institution
+classification, again using staff data from two years prior to the closure date. Again, the vast
+majority of colleges that closed had relatively few employees. The median for-profit college that
+closed had 20 employees, compared with 48 employees at the typical private nonprofit college.
+Yet there were approximately 100,000 employees across all affected institutions between 2003
+and 2023, with about 70 percent of affected employees working at for-profit colleges. Just over
+200 closures had more than 100 employees, reflecting a potentially sizable impact on the local
+economy.
+Finally, Figure 5 examines the total revenue generated by institutions that closed two
+years later. The median total revenue was $2.18 million two years prior to closure, with the
+median nonprofit college having total revenue of $5.06 million, and the median for-profit college
+having total revenue of $1.84 million. Nearly one-fifth of all closed colleges generated at least
+$10 million in revenue two years before closing, and the total amount of revenue generated by
+closing colleges exceeded $13 billion over the last two decades. Again, the large for-profit
+college closures explain the substantial revenue values in the mid-to-late 2010s.
+IV. Methodology
+A.
+
+Identifying Predictors of Financial Distress
+We implement a supervised machine learning classification algorithm using a distributed
+
+gradient boosting decision tree methodology, and specifically the XGBoost algorithm (Chen and
+Guestrin, 2016). We do this in order to make the most out of the rich data we have assembled
+and because the IPEDS data that forms the basis of our panel exhibits considerable gaps. Our
+work builds on the analysis in Kelchen (2020), which examined the extent to which institutional
+and local economic conditions two years or four years earlier were associated with a college
+closing in a given year.
+Classification algorithms such as XGBoost are designed to handle large amounts of
+incomplete data and are capable of incorporating complex interactions and nonlinear
+relationships. They are thus likely to be better suited for predicting rare events like college
+closures or financial distress compared with traditional linear probability estimation or compared
+20
+
+with extant score-based accountability metrics (we directly test this hypothesis below). 3
+XGBoost is particularly well suited for predictive analytics and builds upon traditional gradient
+boosting methods while introducing several enhancements that make it particularly efficient and
+tractable compared with other machine learning algorithms. Because public institutions rarely
+close, we restrict our sample to private colleges and universities and consider the time period
+between 2001 and 2023, when the majority of our preferred covariates have at least some
+coverage.
+We then compare the performances of the XGBoost algorithm to several alternative
+models. First, we estimate a linear probability model using continuous controls consistent with
+the equation:
+𝑌𝑌𝑖𝑖𝑖𝑖 = 𝛼𝛼 + 𝛽𝛽𝑋𝑋𝑖𝑖,𝑡𝑡−2 + 𝛾𝛾𝑋𝑋𝑖𝑖,𝑡𝑡−𝑛𝑛 … + 𝛿𝛿𝑊𝑊𝑖𝑖 … + 𝜃𝜃𝑡𝑡 + 𝜀𝜀𝑖𝑖𝑖𝑖 ,
+
+(1)
+
+-
+
+where 𝑌𝑌𝑖𝑖𝑖𝑖 is an outcome variable denoting either closure or a measure of financial distress (10
+
+percent enrollment decline relative to five-year high, 10 percent revenue decline relative to fiveyear high, three consecutive years of a negative operating margin, or Heightened Cash
+
+Monitoring Level 2 status) as of time t. 𝑋𝑋𝑖𝑖,𝑡𝑡−𝑛𝑛 represent lags of varying lengths of time-varying
+
+institutional characteristics (e.g., revenue, enrollment), 𝑊𝑊𝑖𝑖 represents time-invariant institutional
+characteristics (e.g., sector or predominant degree level), and 𝜃𝜃𝑡𝑡 represents year fixed effects.
+
+To increase the number of colleges for which we can generate predicted probabilities (in
+
+other words, to increase the sample size), we produce a series of least absolute shrinkage and
+
+selection operator (LASSO) estimates for each of our outcome variables as part of a data-driven
+covariate selection process. The LASSO procedure allows us to focus our attention on the set of
+covariates that produces the smallest out-of-sample mean squared error of the predictions, which
+allows us to reduce the dimensionality of the prediction problem while simultaneously
+identifying the strongest predictors of financial distress for colleges. This is important, given the
+high prevalence of missing values in our data. To put it differently, we can reduce the number of
+covariates in the linear probability models, which allows us to use more observations and
+therefore produce predictions of financial distress for more institutions. Once we identify the
+For simplicity, much of the discussion in this section references closures, but we estimate our models for the full
+set of derived outcome variables enumerated previously. The modeling choices and the proposed principles for
+using/interpreting the model output translate for all the other metrics of financial distress, as well.
+
+3
+
+21
+
+optimal set of covariates for our sample using the LASSO procedure, we then estimate the
+equation (1) using standard OLS regression.
+We also estimate a linear probability model using binned versions of the continuous
+controls. We do so because we are necessarily restricted to the sample with non-missing
+covariates if we use continuous values and because linear relationships between the likelihood of
+closures and measures such as enrollment, staff, or revenue are not necessarily reasonable to
+assume. With binned controls, we can include observations in “expected missing” bins for each
+covariate when the field in question is expected to be missing; for example, if a particular
+institution type was not fielded a particular module in a given year. To put it differently, we can
+derive predicted closure probabilities for institution-year observations with one or more expected
+missing values in our sample, which is important in our setting, given that some two-thirds of
+institution-year observations have at least one expected missing value among covariates most
+likely to be predictive of closures. We refer to the larger sample (which includes one or more
+covariates with missing values for a given institution-year) as the “full sample” and to the
+smaller sample where each covariate is populated for each institution-year as the “nonmissing
+sample.”
+For an alternate version of the XGBoost algorithm, we also include richer covariates,
+including additional lags of variables included in the model and a host of additional institutional
+characteristics that did not rise high enough in the priority list for the limited controls (either
+continuous or binned) models but might be helpful for increasing predictive accuracy for
+XGBoost. One set of these additional variables includes lags of county-level covariates (poverty
+rate, unemployment rate, log of population, and income per capita) to ascertain whether the local
+economic environment might be contributing to college financial distress.
+To compare the performance of these predictive models, we split our observations into 75
+percent training data and 25 percent evaluation data, then estimate the different models on the
+two described samples of our training data. This results in a total of six model-data pairs, which
+we can then compare in terms of goodness-of-fit measures (such as the area under the curve, or
+AUC, considering acceptable true positive rates, or TPR, and false positive rates, or FPR). 4
+The AUC is the area under the ROC curve, which is created by plotting the true positive rate (TPR) against the
+false positive rate (FPR) at various thresholds. The ROC curve compares the models’ TPR and FPR to a random
+assignment. A higher AUC implies that the model is more successful at correctly classifying the binary outcome. An
+
+4
+
+22
+
+The model-data pairs are:
+A. Linear probability model using select continuous variables – non-missing sample,
+B. Linear probability model with LASSO selection using select continuous variables –
+non-missing sample,
+C. Linear probability model using select binned variables – full sample,
+D. Gradient boosting algorithm using select binned variables – full sample,
+E. Gradient boosting algorithm using select continuous variables – full sample, and
+F. Gradient boosting algorithm using all continuous variables – full sample.
+In theory, each subsequent model could improve upon predictive ability, either by improving
+accuracy conditional on sample (e.g., E  F) or by improving sample size and therefore the set
+of institutions for which prediction can be generated (e.g., A  B).
+B.
+
+Assessing Potential Screening Models for Detecting Closures
+The focus of this analysis is on predicting college closures, rather than causally
+
+identifying the effect of particular covariates on the probability of closure. For this reason, we
+focus much of the discussion on the predictive accuracy of the models, rather than the direction
+or magnitude of individual coefficients. That said, we also analyze our model output to ascertain
+feature importance and identify covariates that contribute most to predictive accuracy, while
+cautioning the reader that prediction models that do not take into account causation are
+inherently unstable. Analysts should take care to monitor model performance carefully,
+especially with respect to evolution over time.
+We use the predicted probabilities of closure from the models to derive metrics of
+predictive precision. This allows us to examine the relationship between model choice and the
+accuracy of closure predictions, and to consider ways in which predictions like ours can be
+interpreted and used for monitoring the higher education sector. This includes both the
+possibility of false positive and of false negative predictions when transforming predicted
+probabilities into binary classifiers.
+The output from our models can be used in at least two commonly accepted ways. First,
+the predicted probabilities can be used in their continuous form to consider relative risks,
+AUC of 0.5 essentially means that the model is no better than random chance, while models with AUCs in excess of
+0.8 or 0.9 are considered highly effective at correctly classifying the outcome.
+
+23
+
+including by rank-ordering institutions. The predicted probabilities serve a “distance to default”
+sort of purpose, similar to the FRC score calculated by the Department of Education, which may
+be particularly helpful in sorting institutions into “zones of danger,” as well as in monitoring risk
+of financial distress over time. They can also be used to prioritize additional data collection or
+examination, along the lines of Internal Revenue Service audits; an economical auditor will
+know to stratify their examinations, selecting higher shares of institutions with higher predicted
+risk and no institutions with very low predicted risk.
+Second, the predictions can be translated into binary classifiers, akin to government
+metrics such as HCM2, meant to serve as a warning sign for institutions that could be at risk. For
+any such metric, there is a tradeoff between false positives (institutions included in the list that
+will not ultimately close) and false negatives (institutions at moderate risk of closure that are not
+placed on the list). In illustrative examples, we show how the models estimated in this paper can
+be used in conjunction with threshold selection methodologies in ways that perform better than
+currently used metrics of financial risk. To formalize this, we estimate both XGBoost and linear
+probability models using the two key federal accountability metrics — HCM2 and the FRC score
+— and compare the predictions from these models to predictions from our preferred full models
+with the richest controls. These estimates can serve as a useful benchmark for the predictive
+accuracy of our models.
+C.
+
+Simulating Changes in Closures
+With a model predicting college closures in hand, we can use the estimated coefficients
+
+to simulate aggregate predicted closures under different potential fiscal paths for institutions of
+higher education. In other words, what types of institutions may be at risk of financial distress in
+the future given reasonable and extreme scenarios on enrollment, revenue, and expense trends?
+Still on the horizon for many schools is the so-called “demographic cliff,” which might see
+overall higher education enrollment drop by as much as 15 percent from 2025 to 2029. These
+effects would be concentrated locally and regionally based on declines in college-age
+populations resulting from changes in migration and fertility rates, such that some institutions of
+higher education (e.g., those in the Northeast and Midwest) could see even larger downturns,
+while others (e.g., those serving Hispanic students) would be largely unaffected.
+
+24
+
+To start, we use 2019 as a baseline, and estimate the change (increase) in closures
+suggested by our estimated coefficients for the following scenarios:
+a) The enrollment declines institutions have experienced since 2019 persist into the future
+(with no recovery or further decline), or
+b) The predicted “demographic cliff” style (e.g., Grawe, 2018) aggregate enrollment
+declines of 15 percent from 2025 to 2029 come to pass, considering two potential
+manifestations:
+a. A one-time 15 percent drop in enrollment, with no further declines but a
+permanently lower level of enrollment, and
+b. An annual enrollment decline such that the aggregate enrollment decline reaches
+15 percent by 2029.
+We make certain assumptions to approximate a more realistic scenario, since it is unlikely that
+enrollment would change in isolation. Instead, we assume that revenues and expenses scale with
+enrollment, and that institutions maintain the same revenue and expense shares when this occurs.
+This likely results in a conservative estimate of the number of closures because of the presence
+of fixed costs such as facilities and tenured faculty at many institutions.
+V. Results – Predictive Accuracy
+A.
+
+Closures Predictions – Overall Accuracy
+Consistent with our methodology discussion in the previous section, we estimate linear
+
+probability (including classic OLS and LASSO-informed OLS) and XGBoost models with
+different sets of controls: (a) selected continuous covariates, selected binned covariates, and a
+full set of available covariates. We do so for two samples: 2002–2023 (full sample) and for
+2006–2020 (sample for which federal accountability metrics are more consistently available).
+We define our closure outcome in two ways: as “closed in year t” and as “closed within 3 years
+of year t.” The two measures are complementary; one can imagine circumstances in which
+predicting the specific year of closure may be desirable, but “closing soon” may be sufficient in
+others. Ex ante, we suspect that our models may perform better in predicting closures that are
+coming “soon” without being required to predict the specific year of those closures as well.
+Again, owing to missing values, sample sizes vary considerably, being by far the lowest
+for the linear probability models with continuous covariates and no help from LASSO. We
+25
+
+compare AUC metrics for each of the models, samples, covariates, and outcome measures we
+consider in Table 5, below, in order to arrive at our preferred model. For all specifications other
+than “All Controls,” we use two-year and three-year lags of all time-variant control variables,
+which we identify as the optimal number of lags based on a comparison of AUCs for models
+with increasingly larger numbers of lags of the same set of covariates. Once we bring in a fuller
+set of covariates in “All Controls,” we allow up to five lags in the XGBoost model; the linear
+probability models perform quite poorly for this larger set of covariates, so we omit those results
+from the table.
+As shown in Table 5, with AUCs approaching or in excess of 80 percent, most of the
+models can be considered highly predictive, especially on more well-populated data. But the
+XGBoost model outperforms the linear probability models consistently on the evaluation dataset
+(25 percent of observations). This can be surmised using the combined objectives of predictive
+accuracy (informed by the AUC) and the ability to consider a fuller set of institutions (informed
+by the sample size). To illustrate this, it is instructive to follow the progression of predicted
+closures and AUCs across the rows of the upper panel of Table 5, which use the full 2002–2023
+sample.
+Beginning with the linear probability model using continuous controls, the sample size is
+only 2,990 institution-year observations, which represents only 15 percent of the available
+sample, owing to the prevalence of the missing data. So, although the AUC is a respectable 78.7
+percent, the model predicts only 16 closures because it is unable to generate predictions for the
+vast majority of institutions. In the next row, we employ the LASSO procedure to restrict the
+number of covariates to only the most predictive ones, still using continuous controls like in the
+previous specification. This increases the sample size slightly, improves the AUC to a magnitude
+comparable to the XGBoost models (83.4 percent), and increases the number of predicted
+closures to 35, yet this is still far from the actual number of closed institutions of 335 in the
+evaluation dataset. Finally, when we use binned controls that include a category for expected
+missing values for each covariate, we are able to consider most institution-year observations
+using OLS (20,596, because some observations still get dropped owing to unexpected missing
+values), such that the model predicts a more on-target 327 closures. However, the predictive
+accuracy drops to 75.6 percent, meaning that the model discriminates less well because of the
+implicit imputation inherent in using the binning method. We also note that the OLS-based
+26
+
+AUCs are more unstable and vary more — often significantly outperforming XGBoost, even
+with the use of LASSO — with relatively minor changes in the sample period than XGBoost
+AUCs.
+In the row that follows, we show that using the XGBoost model on the same binned
+controls as the OLS improves predictive accuracy to an AUC of 76.9 percent and allows us to
+consider the full sample of 20,596 institution-year observations in the evaluation data. For that
+same sample, XGBoost does even better using continuous versions of the binned controls (an
+AUC of 80.6 percent), and better still using the fullest available set of covariates including 4th
+and 5th lags, county controls, institutional features, and even richer financial metrics (an AUC of
+81.8 percent).
+In other words, the missing data in our assembled institution-level dataset is costly in
+terms of predictive power, but the machine learning model can account for the missing data
+much more effectively than a linear probability model. Conditional on targeting the same AUC
+of about 79–80 percent, there are benefits to using XGBoost compared with binned OLS because
+researchers can estimate closure probabilities for the full sample of institutions, thereby
+considering institutions with and without missing data. In other words, machine learning
+compared with linear probability models can buy researchers either accuracy (a higher AUC for
+same sample relative to linear probability) or reliability when some of the data is missing (the
+same AUC on a larger sample of institutions). The tradeoff is that these methods can be rather
+data-intensive and may require more training for the analyst, which may limit their use in certain
+contexts.
+Also, in the upper panel of Table 5, we provide comparable estimates considering
+“closed within three years” as the closure outcome variable in the last three columns. As before,
+the relative performance of XGBoost compared with linear probability using the various forms
+of our covariates is unchanged relative to the point-in-time definition of closure. The peak
+predictive accuracy we can achieve is considerably better using this definition of “closure,”
+reaching an AUC of 86.8 percent in our preferred specification with the richest controls. For
+simplicity of interpretation, we focus on the predicted probability of closure at a point in time in
+some of the following sections, while generally preferring a definition of closure with a longer
+time window because of its promising improvement in predictive performance.
+
+27
+
+To benchmark our models against existing methods, in the lower panel of Table 5, we
+provide estimates of predicted number of closures and AUCs for the same models as before, but
+considering the 2006–2020 period, when we have better coverage for the key federal
+accountability metrics. This allows us to estimate both XGBoost and linear probability models
+using the two key federal accountability metrics — HCM2 and the FRC score — as key
+predictors, along with sector and year fixed effects. We can then compare the predictions from
+these models to predictions from our preferred full models with the richest controls, using the
+federal metrics models as a useful benchmark for the predictive power of our own models. In the
+first two rows of the bottom panel of Table 5, we show that XGBoost outperforms OLS even on
+the model with federal metrics, both in terms of AUCs and in terms of number of institutions
+with predictions (and therefore total number of predicted closures), and especially for the
+definition of closure as “closed within three years.”
+With an AUC of 88.6 percent, the XGBoost with the richest controls significantly
+outperforms even the 79.5 percent AUC of the XGBoost on the federal metrics. That said, we
+note that the FRC score does have predictive power, even controlling for all the richest financial,
+student, and staff data. But as a standalone measure, it significantly underperforms the full
+machine learning model. What is more, the FRC score’s usefulness is limited in the broader
+context of predicting severe financial distress for all institutions since it is only available for
+private colleges, while our preferred models can be easily estimated for all institutions. Finally,
+because they are designed as a point-in-time measure, the federal metrics do not benefit from the
+alternate definition of closure (within three years), while the XGBoost model performs much
+better with the alternate closure definition on the better populated 2006–2020 data than on the
+2002–2023 data. Our preferred model is most predictive for institutions whose closures are likely
+to be more impactful to their local economies, namely larger institutions (featuring near-perfect
+predictive accuracy for institutions with more than 5,000 students) and four-year institutions.
+Next, we turn to an analysis of actual and predicted closure probabilities in Figures 6a6b, sorting our predicted values for each model into deciles. We present the share of institutions
+that actually closed within three years by prediction decile in Figure 6a. As expected, given our
+relatively high AUCs, the share of institutions that actually closed increases with the predicted
+probability decile, reaching a high of 34 percent of institutions closed in the top decile for the
+XGBoost model with all controls. The XGBoost model with federal metrics and the binned OLS
+28
+
+model follow somewhat behind, while the LASSO OLS model performs rather poorly along this
+dimension. Then in Figure 6b, we give a sense of the alignment between predicted and actual
+closures with the share of institutions that actually closed within three years against the share
+predicted to close in each of our models, for each model’s prediction deciles. Once more,
+XGBoost significantly outperforms the other models. In fact, the model does especially well
+among the riskiest institutions (not shown in the figures). Some 84 percent of the 100 institutions
+with the highest predicted probability of closure actually closed within three years, compared
+with 47 percent for the federal metrics model and 61 percent for OLS with binned controls.
+Next, we consider the performance of our models under simple binary sorting
+mechanisms, displaying the implied false positive/negative rates conditional on a chosen
+threshold of “predicted closure.” In other words, we show the false positive/negative rates based
+on the threshold at which an institution would be predicted to close for each of the models in
+Figures 7a-7b, below. All models have relatively low false positive rates, even at low
+thresholds, although the XGBoost false positive rates are a little lower (Figure 7a). Yet Figure
+7b shows that false negative rates, conversely, are quite high, even at low thresholds. This is
+because the distributions of predicted probabilities are skewed strongly to the left, as shown in
+Figure 8. This is to be expected, given that closure is a rather rare event.
+Consistent with our AUC measures, the machine learning model has lower false negative
+rates at moderate thresholds, as shown in Figure 7b. This is because the right tail of the
+distribution of predicted closure probabilities is thicker and longer for this model relative to any
+of the three linear probability models. The sector-specific predicted closure probability
+distributions, included in Appendix Figures A1a-A1d, show that the improvement in accuracy
+in the right tail for the machine learning model comes predominantly from more accurately
+predicting closures of for-profit institutions. This is partially an artifact of the larger share of true
+positives that come from this segment, yet it might be an appealing feature for regulatory or
+accrediting agencies.
+Overall, the XGBoost algorithm performs considerably better in predicting institutions
+with very high probabilities of closure. To provide further insights regarding the accuracy of the
+models, we compare the ability of multiple models to correctly predict closures in the cases that
+were viewed as having the highest likelihood of closure within three years. Restricting our
+attention to the subset of the evaluation datasets for which there are complete data (over 16,000
+29
+
+institution-year observations), 83 of the 100 observations with the highest predicted closure
+probabilities and 278 of the 500 observations with the highest predicted closure probabilities
+from the XGBoost model with all available controls closed within three years. Meanwhile, our
+OLS models with binned controls had insufficient data to estimate data on 1,240 observations
+(including 79 closures) and only saw 46 of the 100 highest predictions and 177 of the 500
+highest predictions closed within three years.
+B.
+
+Feature Importance Across Models
+As noted above, the majority of our analysis focuses on predictive power and accuracy of
+
+the overall models. This is done for two related reasons. First, without a causal research design,
+the interpretation of individual coefficients is correlational, at best. Second, the fact that many
+variables are highly correlated with one another, and in many cases functions of one another,
+makes any interpretation of magnitude very difficult. For instance, the Financial Responsibility
+Composite Score is a function of a number of different financial metrics. These metrics are either
+directly or indirectly in our models (or at least at risk of being selected by the LASSO
+procedure). These metrics themselves are then functions of other key variables such as
+enrollment and the recent change in enrollment. In other words, it is difficult to interpret even the
+magnitude of any given coefficient because it is nonsensical to discuss the partial effect (e.g.,
+holding all other variables constant), when that cannot conceivably happen in most cases. Having
+these various classes of variables in the model is still very important for predictive reasons,
+particularly because non-linearity is of outsized importance for predicting rare and extreme
+events such as the closure of an institution.
+However, while the magnitude of coefficients is difficult (in the case of OLS) or
+impossible (in the case of some machine learning models) to quantify, this does not mean that we
+cannot provide evidence on the relative importance of different covariates. Table 6 presents
+measures of relative importance for variables in five of the predictive models on which we
+focused. For each of the three XGBoost models, relative importance is measured by the gain in
+predictive power from models that include the variable compared with models that do not
+include it, averaged over every version of each model estimated. For the two OLS models
+
+30
+
+presented in Table 6, variables are ranked based on their p-values, and standardized coefficients
+are included. 5
+While we don’t want to focus on any given variable for the reasons discussed above,
+there are still some broad takeaway messages from Table 6 that may be useful for researchers
+and policymakers. First, reassuringly, the variables that should have a strong theoretical impact
+on the likelihood of closure (e.g., measures of financial distress) are well-represented across all
+models. Second, particularly for the XGBoost models, variables measuring ratios of financial
+metrics and those measuring changes in covariates are generally more important than those
+measuring the level of those covariates. This is an intuitive finding, and it argues for the
+inclusion of recent trajectory as an important metric that should be considered by monitoring
+agencies in addition to absolute levels, but it is not currently part of federal accountability policy.
+Comparing the classes of variables that are identified as influential in the XGBoost
+compared with OLS models, we can again find support for the utility of machine learning
+methodology in predicting closures. First, year fixed effects are much more important predictors
+in the OLS models; our preferred models do not include year fixed effects because of their
+limited utility in this context. 6 Nevertheless, we estimated our models with year fixed effects (not
+shown) and found them to be marginal contributors to predictive accuracy only for the linear
+models but not predictive in the machine learning models. For the XGBoost models, which allow
+for more complex interactions and nonlinear relationships, it is the underlying metrics (e.g.,
+financial conditions) that are of greater relative importance. In OLS models, it is more common
+for the model to imply “there is something about a particular year that is important, but we don’t
+know what it is,” while machine learning models can better identify which underlying metrics
+are actually important. That said, even XGBoost models indicate that a portion of closure
+propensity for private nonprofit four-year institutions cannot be captured very well by the
+observables. 7 This speaks to idiosyncratic, unobservable factors — like governance — likely
+For the most part, the variables with the strongest p-values also happen to be those with the highest standardized
+coefficients in the OLS models.
+
+5
+
+6
+In any predictive model, future time fixed effects (e.g., the knowledge of whether a given year had many or few
+aggregate closures, all else equal) are unknown. To put it differently, year effects may be useful in predicting past
+closures, but not future ones.
+
+For the most recent years of data, the CARES Act funding to colleges and universities affected smaller PNFP fouryear institutions in particular, so the sector dummy is likely picking up some of the effect of that funding on
+7
+
+31
+
+having a role in closures of these institutions. On the other hand, the machine learning models —
+especially those with the richest covariates — generally perform quite well in explaining
+financial distress among for-profit institutions using available historical data. Importantly, this
+increase in performance is due to richer institution-level covariates and not county-level controls;
+county-level covariates appear quite low in the feature importance lists for the XGBoost model
+with the richest controls. XGBoost models omitting those county-level controls perform just as
+well as those considered in Table 5.
+We note that these key predictors are intended to be illustrative and should not be used
+outside of this methodology with the expectation of comparable predictive accuracy. They are
+helpful in understanding the qualitative differences between the models and the performance
+improvements machine learning methodologies brings to the table by using a longer time series
+of richer data with a more flexible estimation. In other words, the improvements in predictive
+power we present are only possible because we (1) assembled a long time series, (2) collected
+and synchronized a large number of variables, and (3) used a machine learning model. We
+recognize that this combination of data and methodological choices renders our methodology
+more complex and time-consuming to adopt compared with focusing on a small number of
+commonly used metrics.
+C.
+
+Closure Predictions – Targeting Annual Closures
+
+Next, we consider the potential performance of a screening mechanism targeting the predicted
+number of closures (i.e., the sum of predicted closure probabilities) comparable in magnitude
+with the actual number of closures. In other words, with the predicted probabilities in hand, what
+would happen if we selected the “optimal” screening method for detecting institutions likely to
+close by selecting the optimal prediction threshold such that we predict approximately the correct
+number of closures in our evaluation dataset (again, the 25 percent of data withheld from the
+training models)? Since closure is such a low-probability event, setting the target threshold low
+enough to only predict the relatively few closures that actually occur implies rates of false
+positives and true negatives that leave much to be desired. Of the actual closures in the 2002–
+2023 evaluation dataset, the XGBoost model predicts very few institutions accurately, and the
+financial solvency of smaller institutions. This might mean that enrollment changes are a better harbinger of doom
+for those types of institutions than financials because financials effectively have an error term incorporated in certain
+circumstances.
+
+32
+
+binned linear probability model even fewer; the remaining institutions flagged as “likely to
+close” based on the implied threshold are all false positives.
+Because of the missing data, the linear probability model with binned covariates detects
+only 35 closed institutions, or some one in 10 closures in the evaluation dataset. The false
+positive rate appears relatively low only because the models are unable to provide any prediction
+for the vast majority of institutions, including the vast majority of institutions that closed. This
+exercise illustrates a key feature of prediction models on low-probability outcomes: They are not
+terribly good at simultaneously predicting the correct number of closures and predicting the
+timing of those few closures very accurately.
+D.
+
+Closures Predictions – Targeting True Positive Rates
+
+To illustrate the predictive capabilities of the models, we use each of them in a simple screening
+methodology based on a target true positive rate. We consider: What would be the true/false
+positive/negative rates if, for each model, we selected the threshold such that we detect at least
+50 percent, 60 percent, 70 percent, or 80 percent of true positives? 8 In other words, how many
+institutions would a regulatory or accrediting agency have to monitor in order to “catch” most of
+the real closures? As we discussed previously, the predicted closure probabilities our models
+output can be used in a variety of ways, including many more complex than what we consider
+here. For example, an economical auditor will know to rank order institutions and then select the
+share to audit in a stratified manner, sampling a higher share of institutions with higher predicted
+closure probabilities. We are not suggesting that the exercise we conduct here is in any way
+prescriptive as to the optimal screening technology, but rather illustrative of the tradeoffs
+between the models and the clear improvement in performance of the XGBoost model with all
+controls.
+The results of this illustrative example are presented in Table 7. The clear tradeoff
+between the target true positive rate and the false positive rate with a prediction algorithm that
+has any power to discriminate, as ours do, is evident here. The false positive rate (the percent of
+total institutions that did not close but were predicted to close) for the best-performing model,
+
+In our application, targeting a true positive rate of 90 percent would cause the optimal threshold to be close to 0,
+such that nearly 100 percent of institutions that did not close to be predicted to close, so we omit the results for
+brevity.
+
+8
+
+33
+
+XGBoost, ranges from 12 percent in the full sample with a true positive rate of 51 percent, to 51
+percent when the true positive rate is 92 percent. In other words, a regulator would have to
+screen only one-tenth of institutions in order to detect half of true closures, but a full half of
+institutions in order to detect 92 percent of true closures — even for institutions with (some)
+missing data. Screening about one-third of institutions (a false positive rate of 33 percent) with
+XGBoost would detect over 80 percent of true closures (a true positive rate of 82 percent), and so
+forth.
+While the binned OLS model appears to have generally similar false positive rates to
+XGBoost, this is the case only because it is unable to produce any prediction at all for 18 percent
+of institutions owing to unexpected missing values. And XGBoost with the full set of controls
+consistently outperforms the model with federal metrics, especially at higher target thresholds for
+true positives. For example, if a regulator wanted to detect 90 percent or more closures, the
+model with all controls would have a false positive rate of 51 percent and the federal metrics
+model 55 percent. Finally, using the LASSO OLS produces clearly inferior results in this
+exercise. Because the model cannot provide a prediction of any kind for the 92 percent of
+observations with at least one missing covariate, the calculated false positive rates out of the full
+sample are misleadingly low. In fact, the upper bound on a true positive rate is 8 percent, even if
+screening all the 2,950 institutions in the relevant sample.
+To summarize, Table 7 suggests that lower false positive rates (in other words, fewer
+institutions requiring screening for a given true positive rate) using the target threshold method
+are associated with (a) the full sample compared with the non-missing sample, and (b) the
+XGBoost algorithm compared with the linear probability models, and (c) the full available
+metrics compared with the federal metrics.
+E.
+
+Case Studies of College Closures
+To provide some context for our predictions, we examined a few case studies using the
+
+results from our models predicting closure within the next three years. The XGBoost models
+predicted an average likelihood of closure of about .058, while the linear regression models
+predicted an average likelihood of about .068.
+Our first case study is Birmingham-Southern College, which closed after the spring 2024
+semester following years of very public financial stress and a failed effort to get a bond from the
+34
+
+state of Alabama (Korn, 2024). None of the models accurately reflected the risk that the college
+faced, with the closure probability being at the median of private nonprofit colleges. This could
+be because it did not have concerns with federal accountability metrics and had a relatively
+strong balance sheet owing to its historic endowment, even as net operating losses were
+common. This reinforces the limitation of the models in accurately predicting idiosyncratic
+closures of private nonprofit four-year institutions, where unobservable (to the researcher)
+governance and specialized reasons leading to closure are concealed by financial performance
+that does not necessarily give rise to concerns.
+On the other hand, the models strongly predicted the closure of Judson College in
+Alabama in 2021. Our XGBoost models had predicted probabilities of as high as 0.25 in 2019
+and 0.29 in 2020, including being rated as the seventh most likely private nonprofit college to
+close in 2020. Meanwhile, closure probabilities in the XGBoost models using only federal data
+remained below average. Closure risks in the OLS models also remained near or below the
+sample average for Judson, although some years were not calculable owing to missing data
+(highlighting the value of XGBoost models). Overall, 52 of the 100 riskiest private nonprofit
+observations and 120 of the 500 predicted as most likely to close in the XGBoost models closed
+within three years. Only 70 of the other 7,034 observations closed, suggesting that focusing on
+the riskiest cases would capture most closures, even if some recent closures such as
+Birmingham-Southern, Iowa Wesleyan, and the University of the Arts would be missed.
+The models generally had stronger predictive power in the for-profit sector. An example
+is the Marinello School of Beauty chain, which closed in 2016. Between 2011 and 2016, the
+predicted probability of closure rose from nearly the sample mean to over 0.50, while there was
+generally too much missing data to generate a closure prediction using OLS models. Similar
+successful flagging of closures using XGBoost models while frequently having insufficient data
+for OLS predictions occurred at Everest Colleges (closed in 2017) and the Art Institutes (closed
+in 2018). Overall, the XGBoost models correctly identified 84 of the riskiest 100 observations
+and 266 of the riskiest 500 observations as closing within three years, while the closure rate
+among observations outside of the top 500 was about 7 percent.
+
+35
+
+F.
+
+Predicting Closures in Smaller Geographic Areas
+While producing national-level estimates of predicted closures is a worthwhile exercise,
+
+it may be in the interest of regional, state, and other authorities to monitor closures more locally.
+To do this effectively, the analyst must be sure to assess the predictive accuracy of the model(s)
+in the specific geographic area studied. To illustrate the potential benefits — and to warn of
+potential pitfalls — associated with predicting college closures at sub-national levels, we use our
+predicted closure probabilities to assess predictive accuracy of our preferred model for each of
+the states in the U.S. In Figure 9, below, we display the AUCs at the state level, calculated from
+a model that pools observations across states. We note that the state-level AUC values range
+from effectively a coin toss (an AUC of 51 percent in Montana) to near-perfection predictions
+(an AUC of 99 percent in Connecticut). Of the states with at least one closure during our sample
+period that are included in Figure 9 (i.e., for which it is possible to test the model’s accuracy),
+about two-thirds have an AUC in excess of 70 percent, which is generally considered strong.
+Those states with the weakest AUCs are typically either quite small (so it is difficult to achieve
+predictive accuracy for sample size reasons) or have particularly idiosyncratic private higher
+education environments (e.g., Wisconsin). Comparable methodology could be used — again,
+with appropriate precautions and after carefully evaluating the predictive power of the models
+for the selected sample — to study specific sub-sectors or institutions of special interest.
+To further illustrate the potential usefulness of our methodology for state-level closure
+predictions, we compare time-specific measures of actual closures and predicted closures
+(calculated as a sum of college-level predicted probabilities in each state and year) in Figure 10.
+Not surprisingly, our predictions match actual closures best in states with higher AUCs and
+perform reasonably well in nearly all states with large numbers of closures (e.g., California,
+Florida, Illinois, Missouri, New York, Pennsylvania, Tennessee, Texas). Notably, our model
+predicted an increase in closures within three years in the post-pandemic period, which is
+consistent with the recently observed uptick in the number of institutions announcing or
+considering closure or other severe fiscal measures.
+Theoretically, analysts could develop predictive models that are specific to a particular
+segment or geography, assuming data availability and sample sizes allow such a pursuit. We note
+that our prior caution regarding using college-and-year level predicted probabilities to identify
+individual institutions at risk of closure remains, even if the model is developed specifically for a
+36
+
+particular segment or local area. In most cases, the majority of institutions with elevated
+predicted probabilities for closure represent false negatives.
+VI. Simulated Increases in Closures Due to Potential Enrollment Changes
+In addition to using model output to identify institutions at risk of closure, we can also
+simulate the impact of recent and projected future enrollment declines. For simplicity and
+interpretability, we do so using the continuous covariates OLS model using LASSO-determined
+optimal controls (including enrollment). The parameters from this model are scaled up to the
+most recent population of all private nonprofit and for-profit colleges. In other words, we are
+making the assumption that no public institutions will (be allowed to) close. Table 8 presents the
+predicted number of students, faculty, staff, and expenses that would be predicted to be affected
+by the continuous LASSO model, should these additional closures occur.
+Using 2019 as a baseline (to avoid contamination by COVID-19 induced disruptions), if
+the enrollment declines that colleges have experienced since then persisted into the future (no
+recovery or further decline), column (1) shows that we can expect to see an additional 1.0
+closures per year (an increase of 2 percent over the average annual closures). To assess how the
+demographic cliff might impact closures, we consider two types of potential enrollment changes
+— a one-time 15 percent drop (with permanently lower enrollment), presented in column (2),
+and a “downward-sloping hill” of enrollment in column (3). In other words, under the last
+scenario, enrollments would decline gradually over time as large, older cohorts of students are
+successively replaced by smaller, younger cohorts. This process may take a decade or more to
+fully play out in reality, but we consider a worst-case scenario of it materializing over five years
+in our analysis. The thought exercise we conduct here with respect to the prospective enrollment
+changes due to external factors such as the demographic cliff is how many additional annual
+closures we might expect once the demographic changes have fully phased in; the cumulative
+effect would represent a multiple of these additional annual closures.
+Assuming the worst-case scenario predictions come to pass from the upcoming
+demographic cliff (or a 15 percent decline in enrollment), there could be as many as 80 (142
+percent of the average annual closures) additional closures. On the other hand, a gradual decrease
+in enrollment equivalent to the demographic cliff would result in a predicted annual increase in
+the rate of closures of 4.6 (an increase of 8.1 percent over the average annual closures). Looking
+37
+
+instead at a measure of severe financial distress (not reported), such as a persistently negative
+operating margin, the analogous numbers would be an addition 21 institutions annually if current
+trends persist, and an additional 99 under the worst-case predictions following the demographic
+cliff.
+These simulations point to the precarious potential situation facing postsecondary
+education in the coming years, especially if the demographic cliff materializes in a moderate to
+severe fashion. While some of these estimated increases might seem small at the national level,
+they would be significant for the handful of localities predicted to experience college closures in
+a given year. It is important to reiterate that most institutions that close are somewhat smaller
+than average, with the median closed school enrolling a student body of about 1,389 full-time
+equivalent students several years prior to closure, although the distribution is skewed. This
+means that, even if our projections are accurate, many (if not all) of these additional predicted
+closures are unlikely to be institutions known outside of their local communities or states, yet
+their closures could be quite disruptive to those communities. Some institutions can be
+considered significant employers even in small and medium-size communities, and often act as
+anchor institutions in those communities.
+Even ignoring the potential negative effects due to reduced training capacity in a county
+that loses a college, the immediate employment effects as a share of the labor force might be
+large. This includes not only the loss in employment coming directly from the college but also
+the immediate spillovers from establishments that provide goods/services to schools (most
+notably, retail, healthcare, and food services). Moreover, most students work while attending
+college, so any working students who are either attracted to or kept from leaving the community
+because of the presence of the educational institution will also contribute to local economic
+effects.
+VII.
+
+Discussion
+Colleges and universities are facing unprecedented fiscal challenges in today’s economic
+
+climate. The cost of education is rising, while many colleges have faced enrollment challenges
+over the last decade. The COVID-19 pandemic did not directly result in the anticipated increase
+in college closures because of a timely and substantial influx of federal funds. However, the
+resulting enrollment decline and period of relatively high inflation has exacerbated many
+38
+
+institutions’ liquidity, and even solvency, concerns. Moreover, many funding streams —
+exemplified, perhaps, by federal financial aid — are active areas of public policy and
+administration. Yet both the precursors to colleges’ fiscal challenges are an understudied area in
+higher education finance, even as the economic importance of institutions of higher education
+has grown significantly over the past century as college attendance rates have steadily climbed.
+Our study contributes to this literature by examining the extent to which college financial
+distress — exemplified, in its most severe form, by full institution closures — can be predicted in
+advance based on publicly available data. We assemble the most comprehensive dataset to date
+on the characteristics of colleges and universities, including dates of operation, institutional
+setting, student body, staff, and finance data from 2002 to 2023. We provide an extensive
+description of what is known and unknown about closed colleges compared with institutions that
+did not close. Then we develop a series of predictive models of severe financial distress for
+colleges and universities, incorporating a range of predictors, from operational revenue and
+expense patterns, to sources of revenue, to metrics of liquidity and leverage, to declining
+enrollment patterns, to prior signs of significant financial strain. Our preferred model using
+modern tools of machine learning significantly outperforms models based on existing federal
+accountability metrics, as well as linear probability models with richer covariates. We highlight
+the significant concern of missing data that can render more traditional estimation methods less
+effective than machine learning algorithms, which accommodate missing data more flexibly than
+even elaborate binning or other linear imputation methods.
+We then use our predictions to document our estimated increase in the likelihood of
+future closures due to commonly predicted scenarios. In particular, we focus on enrollment
+declines — both temporary, such as those that arose during the COVID-19 pandemic, and
+systemic, like those resulting from predicted future demographic changes — that are often
+accompanied by fiscal challenges and represent one of the strongest explanatory variables in our
+predictive models. We conclude that the demographic cliff is predicted to significantly increase
+the number of institutions at risk of severe financial distress, including closure.
+As future research, it would be valuable to estimate the impact of college closures and
+severe financial stress on county-level measures of employment and wages, and population. This
+would be an important addition to the literature because of the role that higher education
+institutions, particularly in the nonprofit sector, play as anchor institutions in the local
+39
+
+community. We are particularly interested in the effect of these college-induced disruptions on
+temporary or permanent reallocations of human capital and employment within and across local
+and regional economic areas.
+We caution that our earlier emphasis of negative effects of college financial distress and
+closures should not be taken to suggest that regulators or localities should seek to prevent college
+closures. A comprehensive welfare analysis is likely to show that institutions of higher education
+(and particularly those in the for-profit sector) do not close randomly or without cause. If these
+institutions are unable to produce outcomes that students, employers, or society at large find
+valuable, then they should not be artificially sustained by governments absent significant
+evidence of significant positive externalities. Indeed, extending the existence of an educational
+institution destined for failure may actually compound the locality’s fiscal problems if the
+college is never able to survive on its own.
+While our predictive models of college financial distress and closure may not be able to
+accurately predict the eventual failure of each individual institution, they are certainly effective
+at capturing the riskiest institutions. For example, of the 100 institutions with the highest
+predicted probability of closure for our preferred model, 84 percent of colleges actually closed
+within three years. The methods we outline may also be useful to various levels of government
+preparing for sector-level disruptions and their subsequent economic fallout, but we caution that
+our data and models should be used cautiously for more localized geographic areas (the state
+level or smaller), with due attention paid to metrics of predictive accuracy like AUCs and
+false/negative rates for the specific area studied. Indeed, our results suggest that local
+communities may be able to anticipate and prepare for labor market and infrastructure
+disruptions if an increase in aggregate college closings appears imminent and be prepared to use
+whatever levers available to support affected community members and businesses during the
+transition.
+
+40
+
+REFERENCES
+Ambrose, C. M., & Nietzel, M. T. (2024). Colleges on the brink: The case for financial exigency.
+Rowman & Littlefield.
+American Council of Trustees and Alumni (2021). The cost of excess: Why colleges and
+universities must control runaway spending.
+American Council on Education (2014). Understanding college and university endowments.
+Andrews, M. J. (2023). How do institutions of higher education affect local invention? Evidence
+from the establishment of US colleges. American Economic Journal: Economic Policy, 15(2), 141. https://doi.org/10.1257/pol.20200320.
+Archibald, R. B., & Feldman, D. H. (2008). Explaining increases in higher education costs.
+Journal of Higher Education, 79(3), 268-295. https://doi.org/10.1080/00221546.2008.11772099.
+Arena, M. L. (2013). The crisis in credit and the rise of non-credit. Innovative Higher Education,
+38, 369-381. https://doi.org/10.1007/s10755-012-9249-5.
+Ashley, A., Loh, C. G., Durham, L., Kim, R., & Bubb, K. (2023). Identifying plan perceptions:
+Higher education institutions as arts and cultural anchors. Urban Affairs Review, 59(5), 14961529. https://doi.org/10.1177/10780874221108103.
+Barr, A., & Turner, S. E. (2013). Expanding enrollments and contracting state budgets: The
+effect of the Great Recession on higher education. ANNALS of the American Academy of
+Political and Social Science, 650(1), 168-193.
+https://psycnet.apa.org/doi/10.1177/0002716213500035.
+Barr, A., & Turner, S. (2015). Out of work and into school: Labor market policies and college
+enrollment during the Great Recession. Journal of Public Economics, 124, 63-73.
+https://doi.org/10.1016/j.jpubeco.2014.12.009.
+Bates, L. J., & Santerre, R. E. (2000). A time series analysis of private college closures and
+mergers. Review of Industrial Organization, 17, 267-276.
+https://doi.org/10.1023/A:1007898402967.
+Baum, S., & Lee, V. (2018). Understanding endowments. Urban Institute.
+Baumol, W. J. (1967). Macroeconomics of unbalanced growth: The anatomy of urban crisis.
+American Economic Review, 57(3), 415-426. https://www.jstor.org/stable/1812111.
+Birch, E., Perry, D. C., & Taylor, Jr., H. L. (2013). Universities as anchor institutions. Journal of
+Higher Education Outreach and Engagement, 17(3), 7-15.
+Bowen, H. R. (1980). The costs of higher education: How much do colleges and universities
+spend per student and how much should they spend? Jossey-Bass.
+
+41
+
+Bransberger, P., Falkenstern, C., & Lane, P. (2020). Knocking at the college door: Projections of
+high school graduates. Western Interstate Commission for Higher Education.
+Brenan, M. (2023, July 11). Americans’ confidence in higher education down sharply. Gallup.
+https://news.gallup.com/poll/508352/americans-confidence-higher-education-down-sharply.aspx.
+Britton, T., Rall, R. M., & Commodore, F. (2023). The keys to endurance: An investigation of
+the institutional factors related to the persistence of historically Black colleges and universities.
+Journal of Higher Education, 94(3), 310-332. https://doi.org/10.1080/00221546.2022.2082786.
+Burke, L. (2024, January 24). Penn State plans nearly $100M in cuts for FY26 budget. Higher
+Ed Dive. https://www.highereddive.com/news/penn-state-cuts-budget-2026/705542/.
+Burns, R., Brown, L., Heckert, K., Weeden, D., Kim, H. S., Randolph, B., Pevitz, A.,
+Karamarkovich, S., & Causey, J. (2023). A dream derailed? Investigating the impacts of college
+closures on student outcomes. State Higher Education Executive Officers Association.
+Carlino, G., & Hunt, R. (2009). What explains the quantity and quality of local inventive
+activity? Brookings Papers on Economic Activity, 2009, 65-123.
+Celli, V., Cerqua, A., & Pellegrini, G. (2023). The long-term effects of mass layoffs: Do local
+economies (ever) recover? Journal of Economic Geography, 23(5), 1121-1144.
+https://doi.org/10.1093/jeg/lbad012.
+Cellini, S. R., & Goldin, C. (2014). Does federal student aid raise tuition? New evidence on forprofit colleges. American Economic Journal: Economic Policy, 6(4), 174-206.
+https://doi.org/10.1257/pol.6.4.174.
+Chakrabarti, R., Gorton, N., & Lovenheim, M. F. (2020). State investment in higher education:
+Effects on human capital formation, student debt, and long-term financial outcomes of students.
+Federal Reserve Bank of New York Staff Reports 941.
+Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. In Proceedings of
+the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+(pp. 785–794). Association for Computing Machinery. https://doi.org/10.1145/2939672.2939785
+Colby, G. (2023). Data snapshot: Tenure and contingency in US higher education. American
+Association of University Professors.
+Commonfund Institute (2023). Commonfund higher education price index.
+Conzelmann, J. G., Hemelt, S. W., Hershbein, B. J., Martin, S., Simon, A., Stange, K. M. (2023).
+Grads on the go: Measuring college-specific labor markets for graduates. Journal of Policy
+Analysis and Management. https://doi.org/10.1002/pam.22553.
+Curs, B. R., & Jaquette, O. (2017). Crowded out? The effect of nonresident enrollment on
+resident access to public research universities. Educational Evaluation and Policy Analysis,
+39(4), 644-669. https://doi.org/10.3102/0162373717704719.
+42
+
+Curti, M., & Nash, R. (1965). Philanthropy in the shaping of American higher education.
+Rutgers University Press.
+Delaney, J. A. (Ed.) (2023). Volatility in state spending for higher education. American
+Educational Research Association.
+Delaney, J. A., & Doyle, W. R. (2018). Patterns and volatility in state funding for higher
+education, 1951-2006. Teachers College Record, 120(6), 1-42.
+https://doi.org/10.1177/016146811812000605.
+Deming, D. J., Goldin, C., & Katz, L. F. (2012). The for-profit postsecondary school sector:
+Nimble critters or agile predators? Journal of Economic Perspectives, 26(1), 139-164.
+https://doi.org/10.1257/jep.26.1.139.
+Denison, D., Fowles, J., & Moody, M. J. (2014). Borrowing for college: A comparison of longterm debt financing between public and private, nonprofit institutions of higher education. Public
+Budgeting & Finance, 34(2), 84-104. https://doi.org/10.1111/pbaf.12034.
+Denneen, J., & Dretler, T. (2012). The financially sustainable university. Bain & Company.
+Eide, S. (2018). Private colleges in peril. Education Next, 18(4), 34-41.
+https://www.educationnext.org/private-colleges-peril-financial-pressures-declining-enrollmentclosures/.
+Enright, M., Lehren, A. W., & Longoria, J. (2020, March 8). Hidden figures: College students
+may be paying thousands in athletic fees and not know it. NBC News.
+https://www.nbcnews.com/news/education/hidden-figures-college-students-may-be-payingthousands-athletic-fees-n1145171.
+Foote, A., Grosz, M., & Stevens, A. (2019). Locate your nearest exit: Mass layoffs and local
+labor market response. ILR Review, 72(1), 101-126. https://doi.org/10.1177/0019793917753095.
+Ginsberg, B. (2011). The fall of the faculty: The rise of the all-administrative university and why
+it matters. Oxford University Press.
+Graddy-Reed, A., Feldman, M., Bercovitz, J., & Langford, W. S. (2021). The distribution of
+indirect cost recovery in academic research. Science and Public Policy, 48(3), 364-386.
+https://doi.org/10.1093/scipol/scab004.
+Grawe, N. D. (2018). Demographics and the demand for higher education. Johns Hopkins
+University Press.
+Greene, S. (2024, February 7). University of Delaware issues hiring freeze, cites rising health
+care costs. WDEL. https://www.wdel.com/news/university-of-delaware-issues-hiring-freezecites-rising-health-care-costs/article_ad710c74-c63b-11ee-ae84-8b2eab190c36.html.
+Griffith, A. L., & Rask, K. N. (2016). The effect of institutional expenditures on employment
+outcomes and earnings. Economic Inquiry, 54(4), 1931-1945. https://doi.org/10.1111/ecin.12336.
+43
+
+Harkavy, I., & Zuckerman, H. (1999). Eds and meds: Cities’ hidden assets. Brookings
+Institution.
+Harker, P. T., Diamond, D., & Reed, D. (2022). Anchor impact: Understanding the role of
+higher education and hospitals in regional economies. Federal Reserve Bank of Philadelphia.
+Harris, M. S., & Holley, K. (2018). Universities as anchor institutions: Economic and social
+potential for urban development. In M. B. Paulsen (Ed.), Higher education: Handbook of theory
+and research (Vol. 31) (pp. 393-439). Springer.
+Hillman, N. W., & Orians, E. L. (2013). Community colleges and labor market conditions: How
+does enrollment demand change relative to local unemployment rates? Research in Higher
+Education, 54, 765-780. https://doi.org/10.1007/s11162-013-9294-7.
+Horn, M. B. (2018, December 13). Will half of all colleges really close in the next decade?
+Christensen Institute. https://www.christenseninstitute.org/blog/will-half-of-all-colleges-reallyclose-in-the-next-decade/.
+Hovey, H. A. (1999). State spending for higher education in the next decade: The battle to
+sustain current support. California State Policy Research, Inc.
+Howard, G., Weinstein, R., & Yang, Y. (2022). Do universities improve local economic
+resilience? Review of Economics and Statistics. https://doi.org/10.1162/rest_a_01212.
+Howard, T. (2014, January 9). How communities can make the most of their anchor institutions.
+Governing. https://www.governing.com/gov-institute/voices/col-communities-local-governmentanchor-institutions-democracy-collaborative-dashboard.html.
+Jaquette, O., & Curs, B. R. (2016). Creating the out-of-state university: Do public universities
+increase nonresident freshman enrollment in response to declining state appropriations?
+Research in Higher Education, 56(6), 535-565. https://doi.org/10.1007/s11162-015-9362-2.
+Jaquette, O., Curs, B. R., & Posselt, J. R. (2016). Tuition rich, mission poor: Nonresident
+enrollment growth and the socioeconomic and racial composition of public research universities.
+Journal of Higher Education, 87(5), 635-673. https://doi.org/10.1080/00221546.2016.11777417.
+Kelchen, R. (2018). Higher education accountability. Johns Hopkins University Press.
+Kelchen, R. (2020). Examining the feasibility of empirically predicting college closures.
+Brookings Institution.
+Kelchen, R. (2021). An exploration of nonresident student enrollment and institutional finances
+at public universities. Journal of Postsecondary Student Success, 1(1), 81-105.
+https://doi.org/10.33009/fsop_jpss121539.
+Kelchen, R., Ortagus, J., Rosinger, K., Baker, D., & Lingo, M. (2024a). The relationships
+between state higher education funding strategies and college access and success. Educational
+Researcher, 53(2), 100-110. https://doi.org/10.3102/0013189X231208964.
+44
+
+Kelchen, R., Ortagus, J., Rosinger, K., & Cassell, A. (2024b). Investing in the workforce: The
+impact of performance-based funding on student earnings outcomes. Journal of Higher
+Education, 95(2), 172-199. https://doi.org/10.1080/00221546.2023.2171201.
+Kelchen, R., & Pingel, S. (2024). Examining the effects of tuition controls on student enrollment.
+Research in Higher Education, 65, 70-91. https://doi.org/10.1007/s11162-023-09748-5.
+Knox, L. (2023, December 4). Seeking an enrollment Hail Mary, small colleges look to athletics.
+Inside Higher Ed. https://www.insidehighered.com/news/admissions/traditionalage/2023/12/04/small-colleges-bet-new-sports-boost-enrollment.
+Kolpin, V., & Stater, M. (2024). The perverse equilibrium effects of state and federal student aid
+in higher education. Journal of Economic Behavior & Organization, 217, 679-691.
+https://doi.org/10.1016/j.jebo.2023.11.022.
+Korn, M. (2024, January 20). This private college has been on its deathbed—for 15 years. The
+Wall Street Journal. https://www.wsj.com/us-news/education/birmingham-southern-collegealabama-aef0fcb7.
+Kunkle, K., & Laderman, S. (2023). State higher education finance: FY 2022. State Higher
+Education Executive Officers Association.
+Lee, J. (2018). The local economic impact of a large research university: Evidence from UC
+Merced. Economic Inquiry, 57(1), 316-332. https://doi.org/10.1111/ecin.12734.
+Lehnert, P., Dell, M., Backes-Gellner, U., & Bettinger, E. (2024). The effect of postsecondary
+educational institutions on local economies: A birds-eye view. Swiss Leading House Economics
+of Education Working Paper No. 210.
+Ma, J., & Pender, M. (2023). Trends in college pricing and student aid 2023. College Board.
+McClure, K., R., Ryder, A. J., & DeVita, J. M. (2017). Public-private partnerships in college
+student housing: Lessons from three institutions. Journal of College & University Student
+Housing, 43(2), 72-93.
+Moody, J. (2024, March 4). Judge allows Webster to lift endowment restrictions. Inside Higher
+Ed. https://www.insidehighered.com/news/quick-takes/2024/03/04/judge-allows-webster-liftendowment-restrictions.
+National Association of College and University Business Officers (2023). 2022 NACUBO tuition
+discounting study.
+National Center for Education Statistics (2023). The condition of education. U.S. Department of
+Education.
+National Student Clearinghouse Research Center (2024, January 24). Current term enrollment
+estimates: Fall 2023. https://nscresearchcenter.org/current-term-enrollment-estimates/.
+Natow, R. S. (2021, March 1). Why haven’t more colleges closed? Chronicle of Higher
+Education. https://www.chronicle.com/article/why-havent-more-colleges-closed.
+45
+
+Ortagus, J., Kelchen, R., Rosinger, K., & Voorhees, N. (2020). Performance-based funding in
+American higher education: A systematic synthesis of the intended and unintended
+consequences. Educational Evaluation and Policy Analysis, 42(4), 520-550.
+https://doi.org/10.3102/0162373720953128.
+Owens, J. (2024, February 2). Cost of weight-loss drugs for state employees hits taxpayers.
+Delaware Live. https://delawarelive.com/cost-of-weight-loss-drugs-hits-taxpayers/.
+Parthenon-EY (2017). Strength in numbers: Strategies for collaborating for a new era in higher
+education.
+Porter, S. R., & Ramirez, T. J. (2009). Why do colleges fail? An analysis of college and
+university closings and mergers, 1975-2005. Working paper.
+Povich, E. S. (2023, December 15). Flagship public universities likely to cut more humanities,
+staff—especially in rural areas. Stateline. https://stateline.org/2023/12/15/flagship-publicuniversities-likely-to-cut-more-humanities-staff-especially-in-rural-states/.
+Redd, K. (2024). 2023 NACUBO-Commonfund study of endowments. National Association of
+College and University Business Officers.
+Rosinger, K., Kelchen, R., Baker, D. J., Ortagus, J., & Lingo, M. D. (2022). State higher
+education funding during COVID-19: Lessons from prior recessions and implications for equity.
+AERA Open, 8. https://doi.org/10.1177/23328584221091277.
+Russell, L. C., & Andrews, M. J. (2022). Not the great equalizer? Local economic mobility and
+inequality effects for the establishment of U.S. universities. EdWorkingPaper No. 22-634.
+Russell, L. C., Yu, L., & Andrews, M. J. (2022). Higher education and local educational
+attainment: Evidence from the establishment of U.S. colleges. Review of Economics and
+Statistics. https://doi.org/10.1162/rest_a_01214.
+Sanchez, O. (2024, January 12). Experts predicted dozens of colleges would close in 2023 – and
+they were right. The Hechinger Report. https://hechingerreport.org/experts-predicted-dozens-ofcolleges-would-close-in-2023-and-they-were-right/.
+Smith, E. K., Rozek, E. K., & Moore, K. D. (2014). Creating SPOTs for successful aging:
+Strengthening the case for developing university-based retirement communities using socialphysical place over time theory. Journal of Housing for the Elderly, 28(1), 21-40.
+https://doi.org/10.1080/02763893.2013.858091.
+Stolzenberg, E. B., Aragon, M. C., Romo, E., Couch, V., McLennan, D., Eagan, M. K., & Kang,
+N. (2020). The American freshman: National norms fall 2019. Higher Education Research
+Institute, University of California, Los Angeles.
+Storms, K., Miller, S. E., & Hall, B. (2017). P4: The role of planning in successful public-private
+partnerships (P3s). Planning for Higher Education, 45(3), 1-13.
+
+46
+
+Tarrant, M., Bray, N., & Katsinas, S. (2018). The invisible colleges revisited: An empirical
+review. Journal of Higher Education, 89(3), 341-367.
+https://doi.org/10.1080/00221546.2017.1390971.
+Tewksbury, D. G. (1932). The founding of American colleges and universities before the Civil
+War, with particular reference to the religious influences bearing upon the college movement.
+Teachers College, Columbia University.
+USA Today (2024, March 14). NCAA finances: Revenue and expenses by school.
+https://sports.usatoday.com/ncaa/finances.
+Ward, J. D., Haynes, M., & Gusakova, S. (2022). Borrowing during a time of crisis: Examining
+institutional debt during the Great Recession and COVID-19. Ithaka S&R.
+https://doi.org/10.18665/sr.317442.
+Webber, D. A. (2016). Are college costs worth it? How ability, major, and debt affect the returns
+to schooling. Economics of Education Review, 53, 296-310.
+https://doi.org/10.1016/j.econedurev.2016.04.007.
+Webber, D. A. (2017). State divestment and tuition at public institutions. Economics of
+Education Review, 60, 1-4. https://doi.org/10.1016/j.econedurev.2017.07.007.
+Webber, D. A., & Ehrenberg, R. A. (2010). Do expenditures other than instructional
+expenditures affect graduation and persistence rates in American higher education? Economics of
+Education Review, 29(6), 947-958. https://doi.org/10.1016/j.econedurev.2010.04.006.
+Whistle, W., & Erickson, L. (2019, April 18). Using instructional spending to test for value in
+higher ed. Third Way. https://www.thirdway.org/memo/using-instructional-spending-to-test-forvalue-in-higher-ed.
+Xu, D., & Ran, F. X. (2020). Noncredit enrollment in community college: Students, course
+enrollments, and academic outcomes. Community College Review, 48(1), 77-101.
+https://doi.org/10.1177/0091552119876039.
+Zapp, M., & Dahmen, C. (2023). Live and (let) die—shifting legitimacies and organizational
+mortality in American higher education, 1944-2018. Social Problems.
+https://doi.org/10.1093/socpro/spad001.
+Zemsky, R., Shaman, S., & Baldridge, S. C. (2020). The college stress test: Tracking
+institutional futures across a crowded market. Johns Hopkins University Press.
+Zhang, L., Liu, X., & Hu, Y. (2024). Degrees of return: Estimating internal rates of return for
+college majors using quantile regression. American Educational Research Journal.
+https://doi.org/10.3102/00028312241231512.
+
+47
+
+Table 1: Revenues by Institutional Sector, 2021–2022
+Public
+
+Private nonprofit
+
+Private for-profit
+
+$
+
+%
+
+$
+
+%
+
+$
+
+%
+
+Total revenue
+
+460.97
+
+100.0
+
+220.42
+
+100.0
+
+18.06
+
+100.0
+
+Tuition and fees
+
+79.84
+
+17.3
+
+81.62
+
+37.0
+
+16.66
+
+92.3
+
+Appropriations
+
+102.17
+
+22.2
+
+1.36
+
+0.6
+
+0.03
+
+0.2
+
+Grants and contracts
+
+66.27
+
+14.4
+
+39.75
+
+18.0
+
+0.40
+
+2.2
+
+Auxiliary enterprises
+
+28.00
+
+6.1
+
+17.91
+
+8.1
+
+0.11
+
+0.6
+
+Hospitals
+
+66.86
+
+14.5
+
+39.43
+
+17.9
+
+0.00
+
+0.0
+
+Investment revenue
+
+-11.32
+
+-2.5
+
+-26.40
+
+-12.0
+
+0.04
+
+0.2
+
+Gifts
+
+11.66
+
+2.5
+
+26.40
+
+12.0
+
+0.00
+
+0.0
+
+Other
+
+117.48
+
+25.5
+
+40.36
+
+18.3
+
+0.82
+
+4.5
+
+Source: IPEDS Data Explorer, Table 5, 2021–2022
+Notes: Values are in billions of dollars. Approximately $15 billion in revenues from 17 FASB-reporting public
+institutions is excluded from this table.
+
+Table 2: Expenses by Institutional Sector, 2021–22
+Public
+
+Private nonprofit
+
+Private for-profit
+
+$
+
+%
+
+$
+
+%
+
+$
+
+%
+
+Total expenses
+
+439.79
+
+100.0
+
+246.08
+
+100.0
+
+15.80
+
+100.0
+
+Instruction
+
+116.14
+
+26.4
+
+68.48
+
+27.8
+
+4.77
+
+30.2
+
+Research
+
+44.64
+
+10.2
+
+26.66
+
+10.8
+
+0.01
+
+0.1
+
+Academic support
+
+34.49
+
+7.8
+
+20.84
+
+8.5
+
+1.54
+
+9.7
+
+Student services
+
+24.00
+
+5.5
+
+21.14
+
+8.6
+
+3.07
+
+19.4
+
+Institutional support
+
+40.93
+
+9.3
+
+30.51
+
+12.4
+
+4.99
+
+31.6
+
+Auxiliary enterprises
+
+33.51
+
+7.6
+
+18.18
+
+7.4
+
+0.22
+
+1.4
+
+Hospitals
+
+64.33
+
+14.6
+
+39.81
+
+16.2
+
+0.00
+
+0.0
+
+Other
+
+81.74
+
+18.6
+
+20.45
+
+8.3
+
+1.21
+
+7.7
+
+Source: IPEDS Data Explorer, Table 5, 2021–2022
+Notes: Values are in billions of dollars. Approximately $15 billion in expenditures from 17 FASB-reporting public
+institutions is excluded from this table.
+
+48
+
+Table 3: Number of Institutions that Ever Closed, by Institution Type, 1996–2023
+Sector
+
+Number of
+
+Number of
+
+Closure rate
+
+institutions
+
+closures
+
+Public 4-year
+
+850
+
+2
+
+0.2%
+
+Public 2-year
+
+1,682
+
+45
+
+2.7%
+
+For-profit 4-year
+
+473
+
+100
+
+21.1%
+
+For-profit 2-year
+
+3,732
+
+1,222
+
+32.7%
+
+Nonprofit 4-year
+
+2,002
+
+142
+
+7.1%
+
+Nonprofit 2-year
+
+732
+
+152
+
+20.8%
+
+Total
+
+8,633
+
+1,661
+
+19.2%
+
+Source: Authors’ calculations based on PEPS Closed School Reports and College Scorecard, 1996–2023
+Note: A small number of colleges changed sectors during the panel, and they are reported in both sectors.
+
+Table 4: Trends in Closures by Institution Type Among Colleges Open in 1996
+Sector
+
+Open in 1996
+
+Closed by 2006
+
+Closed by 2016
+
+Closed by 2023
+
+Public 4-year
+
+778
+
+0.3%
+
+0.3%
+
+0.3%
+
+Public 2-year
+
+1,389
+
+1.1%
+
+1.6%
+
+1.9%
+
+For-profit 4-year
+
+332
+
+1.8%
+
+10.8%
+
+24.1%
+
+For-profit 2-year
+
+2,339
+
+17.5%
+
+29.4%
+
+38.3%
+
+Nonprofit 4-year
+
+1,715
+
+1.7%
+
+4.3%
+
+7.3%
+
+Nonprofit 2-year
+
+548
+
+10.9%
+
+18.1%
+
+21.2%
+
+Total
+
+6,411
+
+8.1%
+
+12.7%
+
+19.4%
+
+Source: Authors’ calculations based on PEPS Closed School Reports and College Scorecard, 1996–2023
+Note: A small number of colleges changed sectors during the panel, and they are reported in both sectors.
+
+49
+
+Table 5 – Predictive Accuracy for Linear Regression and XGBoost Models, 2002–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Models estimated or trained on 75 percent of institution-year observations. Predictions and area under the
+curve (AUC) reported for remaining evaluation observations (25 percent). Closure is measured both as point-in-time
+(closed in given year) and in a three-year window (closed within three years of current year). There were 342 actual
+closures (1,091 within three years) in the 2002–2021 sample and 305 (945 within three years) in the 2006–2020
+sample.
+
+50
+
+Table 6 – Key Predictors of Closure and Contribution to Prediction, Select Models, 2002–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Key predictors identified from models where closure is defined as within three years of evaluation year.
+
+51
+
+Table 7 – Predictive Power Based on Target True Positive Rate, by Model, 2002–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student Aid, U.S. Bureau of Economic Analysis, U.S.
+Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Models estimated or trained on 75 percent of institution-year observations; predictions reported for remaining 25 percent of observations. Closure is
+measured within three years of evaluation year.
+
+52
+
+Table 8: Predicted Additional Annual Closures under Selected Scenarios, 2019
+(1)
+
+(2)
+
+(3)
+
+2019 Enrollment
+
+Demographic Cliff
+
+Demographic Cliff
+
+Patterns Continue
+
+(one-time, worst-case)
+
+(annual, worst-case)
+
+Institutions
+
+1.0
+
+80
+
+4.6
+
+Students
+
+1,263
+
+101,040
+
+7,337
+
+Staff
+
+261
+
+20,880
+
+1,200
+
+$15.4m
+
+$1,231m
+
+$70.8m
+
+Expenses
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, and College Scorecard, 2002–2023
+Notes: Predictions are based on the outlined scenarios and predictions from the continuous OLS model with
+LASSO-selected covariates, scaled up to the full sample of private institutions in the IPEDS data.
+
+53
+
+Figure 1a: Trends in Sources of College Revenues, Public Institutions, 2002–2022
+
+Amount of revenue (billions, 2023$)
+
+600
+500
+400
+300
+200
+100
+0
+
+2002
+
+2004
+
+2006
+
+2008
+
+2010
+
+-100
+
+2012
+
+2014
+
+2016
+
+2018
+
+2020
+
+2022
+
+Year
+Tuition
+
+Auxiliaries
+
+Gifts
+
+Investments
+
+Appropriations
+
+Other
+
+Source: Authors’ calculations based on IPEDS data, 2002–2022
+
+Figure 1b: Trends in Sources of College Revenues, Private Nonprofit Institutions, 2002–
+2022
+
+Amount of revenue (billions, 2023$)
+
+500
+400
+300
+200
+100
+0
+
+2002
+
+2004
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+2016
+
+2018
+
+-100
+-200
+
+Year
+Tuition
+
+Auxiliaries
+
+Gifts
+
+Investments
+
+Source: Authors’ calculations based on IPEDS data, 2002–2022
+
+54
+
+Other
+
+2020
+
+2022
+
+Figure 1c: Trends in Sources of College Revenues, Private For-Profit Institutions, 2002–
+
+Amount of revenue (billions, 2023$)
+
+2022
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+
+2002
+
+2004
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+Year
+Tuition
+
+Other
+
+Source: Authors’ calculations based on IPEDS data, 2002–2022
+
+55
+
+2016
+
+2018
+
+2020
+
+2022
+
+Figure 2 – Number of Closed Institutions by Institution Type and Year, 1996–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports and College Scorecard, 1996–2023
+
+Figure 3 – Number of Students Enrolled in Closed Institutions Two Years Prior to
+Closure, by Institution Type and Year, 2001–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports and College Scorecard, 2001–2023
+
+56
+
+Figure 4 – Number of Staff Employed by Closed Institutions Two Years Prior to Closure,
+by Institution Type and Year, 2003–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, and College Scorecard, 2001–2023
+
+Figure 5 – Total Revenue at Closed Institutions Two Years Prior to Closure,
+by Institution Type and Year, 2001–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, and College Scorecard, 2001–2023
+
+57
+
+Figure 6a – Relationship between Predicted and Actual Closures,
+Share Institutions Closed by Prediction Decile, 2006–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+
+58
+
+Figure 6b – Relationship between Predicted and Actual Closures,
+Actual v. Predicted Closures for Each Prediction Decile, 2006–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Dashed line represents the line where share of institutions predicted to close within three years would equal
+share actually closed within that time period.
+
+59
+
+Figure 7a – False Positive Rates for Closure Predictions, by Model, 2002–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+
+Figure 7b – False Negative Rates for Closure Predictions, by Model, 2002–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+
+60
+
+Figure 8 – Distribution of Predicted Closure Probabilities by Model, 2002–2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Lines represent kernel density functions, concentrating on the portion of the distribution where the vast
+majority of the institutions’ predicted closure probabilities (predicted closure probability of 0.5 or less) lie.
+
+61
+
+Figure 9 – Predictive Accuracy by State, Preferred Model, 2002–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Model is our preferred specification (XGBoost model with all controls) from Table 5. Model is trained on 75
+percent of institution-year observations; predictions calculated for remaining 25 percent of observations. Closure is
+measured within three years of evaluation year.
+
+62
+
+Figure 10 – Actual v. Predicted Closures by State, Preferred Model, 2002–2021
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Model is our preferred specification (XGBoost model with all controls) from Table 5. Model is trained on 75
+percent of institution-year observations; predictions calculated for remaining 25 percent of observations. Closure is
+measured within three years of evaluation year.
+
+63
+
+Appendix A
+Figure A1a - Distributions of Closure Predictions by Model, Private For-Profit Two-Year, 20022023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 1996–2023
+Notes: Notes: Models estimated or trained on 75 percent of institution-year observations; distribution of predicted
+values reported for remaining evaluation observations (25 percent).
+
+64
+
+Figure A1b - Distributions of Closure Predictions by Model, Private For-Profit Four-Year, 2002–
+2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 1996–2023
+Notes: Notes: Models estimated or trained on 75 percent of institution-year observations; distribution of predicted
+values reported for remaining evaluation observations (25 percent).
+
+65
+
+Figure A1c - Distributions of Closure Predictions by Model, Private Nonprofit Two-Year, 2002–
+2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 1996–2023
+Notes: Notes: Models estimated or trained on 75 percent of institution-year observations; distribution of predicted
+values reported for remaining evaluation observations (25 percent).
+
+66
+
+Figure A1d - Distributions of Closure Predictions by Model, Private Nonprofit Four-Year, 2002–
+
+2023
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 1996–2023
+Notes: Notes: Models estimated or trained on 75 percent of institution-year observations; distribution of predicted
+values reported for remaining evaluation observations (25 percent).
+
+67
+
+Table A1 – Descriptive Statistics, 2002–2023
+Never-Closed Institutions
+Covariate Type
+
+Accountability Metrics
+
+Financial Performance
+
+Revenue
+
+Expenses
+
+Staff
+
+Enrollment
+
+County Controls
+
+Covariate
+
+Mean
+
+Heightened Cash Monitoring (Level 2)
+Financial responsibility composite score
+Operating margin
+Persistently negative operating margin
+YOY change, operating margin
+Days cash on hand (DCOH)
+YOY change, DCOH
+Debt ($mil)
+EBIDA ($mil)
+Debt to EBIDA
+Debt to assets
+YOY change, debt to assets
+Unrestricted net assets ($mil)
+Total revenue ($mil)
+YOY change, total revenue
+Revenue 10% lower than 5-year high
+Tuition/total revenue
+Auxiliary/total revenue
+Investment revenue/total revenue
+Gifts, grants, contracts/total revenue
+Total expenses ($mil)
+Instructional/total expenses
+Scholarships/total expenses
+Interest/total expenses
+Depreciation/total expenses
+Total staff
+YOY change, total staff
+Instructional/total staff
+Full-time/total staff
+Total enrollment (12-month)
+YOY change, 12-month enrollment
+Undergraduate/total enrollment
+Enrollment 10% lower than 5-year high
+3 consecutive years of >5% enrollment drops
+Population (mil)
+Personal income per capita ($)
+Unemployment rate
+Poverty rate
+# of Observations
+
+1%
+2.3
+4.1%
+15.7%
+0%
+170.3
+-339%
+94.9
+19.0
+-123.2
+2399.7
+-1%
+72.2
+138.8
+5%
+40%
+48%
+7%
+3%
+4%
+130.5
+40%
+16%
+1%
+5%
+689.0
+3%
+50%
+66%
+5190.0
+3%
+87%
+41%
+3%
+1.1
+46670.8
+1%
+15%
+
+Median % w/ Data
+No
+2.5
+9.2%
+No
+0%
+11.4
+0%
+5.4
+1.7
+0.9
+0.0
+0%
+2.1
+23.3
+2%
+No
+45%
+4%
+0%
+0%
+22.6
+37%
+13%
+1%
+5%
+195.0
+1%
+50%
+68%
+1257.0
+0%
+100%
+0%
+0%
+0.4
+42450.0
+0%
+14%
+
+100%
+37%
+79%
+69%
+77%
+100%
+99%
+59%
+79%
+54%
+75%
+74%
+93%
+93%
+92%
+92%
+93%
+75%
+93%
+82%
+93%
+93%
+93%
+79%
+79%
+94%
+91%
+89%
+94%
+95%
+92%
+93%
+94%
+94%
+92%
+92%
+95%
+93%
+110,559
+
+Closed Institutions
+(2 yrs Earlier)
+Mean
+1%
+1.8
+-44.8%
+35.5%
+-2%
+10.1
+-2158%
+2.3
+0.2
+-4.6
+0.0
+-2%
+2.7
+6.1
+-13%
+86%
+77%
+3%
+1%
+1%
+6.5
+45%
+6%
+1%
+3%
+33.7
+-8%
+52%
+75%
+214.2
+-38%
+97%
+93%
+21%
+1.5
+52095.9
+0%
+14%
+
+Median % w/ Data
+No
+2.0
+3.0%
+No
+0%
+0.0
+0%
+0.0
+0.0
+0.0
+0.0
+0%
+0.0
+1.5
+-2%
+Yes
+86%
+0%
+0%
+0%
+1.5
+38%
+0%
+0%
+2%
+11.0
+0%
+50%
+77%
+0.0
+-58%
+100%
+100%
+0%
+0.8
+47541.0
+0.1
+0.1
+
+100%
+5%
+10%
+28%
+10%
+100%
+100%
+4%
+10%
+4%
+12%
+12%
+16%
+16%
+16%
+16%
+16%
+8%
+16%
+16%
+16%
+16%
+16%
+10%
+10%
+18%
+18%
+13%
+17%
+99%
+94%
+44%
+99%
+93%
+96%
+96%
+99%
+97%
+1,263
+
+Source: Authors’ calculations based on IPEDS, PEPS Closed School Reports, College Scorecard, Federal Student
+Aid, U.S. Bureau of Economic Analysis, U.S. Census Bureau, and U.S. Bureau of Labor Statistics data, 2002–2023
+Notes: Number of observations reflects the 2002–2023 sample; many covariates are missing at much lower rates for
+the subsample used for some of the analysis (2006–2020). Examples include the financial responsibility composite
+score and financial data. Never-closed institutions are included in the sample each year they reported being in
+operation. The 1,263 closed institutions are observed once, two years before closure, because the data is
+predominantly missing in the year of actual closure.
+
+68
+
+

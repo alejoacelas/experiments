@@ -1,0 +1,4337 @@
+2026
+
+Power
+Trends
+
+Annual Grid & Markets Report
+
+New York ISO
+THE NEW YORK INDEPENDENT SYSTEM OPERATOR (NYISO)
+is a not-for-profit corporation responsible for operating the state’s bulk electricity grid,
+administering New York’s competitive wholesale electricity markets, conducting
+comprehensive long-term planning for the state’s electric power system, and advancing
+the technological infrastructure of the electric system serving the Empire State.
+
+FOR MORE INFORMATION, VISIT:
+www.nyiso.com/power-trends
+FOLLOW US:
+bluesky social/@nyiso
+X-Twitter/@NewYorkISO
+linkedin.com/company/nyiso
+www.nyiso.com/podcast
+www.nyiso.com/blog
+
+POWER TRENDS 2026 DATA
+is from the 2026 Load and Capacity Data Report
+(also known as the Gold Book), unless otherwise noted.
+Published annually by the NYISO, the Gold Book presents
+New York Control Area system, transmission and generation data
+and NYISO load forecasts of peak demand, energy requirements,
+energy efficiency, and emergency demand response; existing and
+proposed resource capability; and existing and proposed
+transmission facilities.
+The Gold Book and other NYISO publications are available
+on the NYISO website, visit www.nyiso.com/publications
+
+© COPYRIGHT 2026 NEW YORK INDEPENDENT SYSTEM OPERATOR, INC.
+Permission to use for fair use purposes, such as educational, political, public policy or news coverage, is granted.
+Proper attribution is required: “Power Trends 2026, published by the New York Independent System Operator.” All rights expressly reserved.
+
+2026 POWER TRENDS
+
+A letter
+
+From
+the CEO
+The transformation now underway in New York’s electric system stands alongside two defining
+periods in our history: the original buildout of the grid during the turn of the last century, and the
+sweeping expansion that followed World War II. In each of those moments, the Empire State met a
+surge in economic growth and technological change with vision, investment, and a commitment to
+reliability.
+
+Early planners recognized the importance of building a system that could support industry,
+communities, and long-term prosperity. New York benefited from a remarkable diversity of energy
+resources, including the development of the Niagara Power Project, which harnessed one of the state’s
+most abundant natural assets to deliver reliable, low-cost electricity at scale. Later, investments in
+safe, advanced nuclear generation helped provide power that supported decades of industrial growth,
+strengthened the state’s manufacturing base, and improved the quality of life for millions of New
+Yorkers.
+
+Those decisions were not made in response to immediate needs alone. They reflected foresight
+about the demands of future generations. As a result, New York built one of the most robust and reliable
+electric systems in the nation, enabling sustained economic expansion and supporting the health, safety,
+and prosperity of its residents.
+Today, we face another moment of comparable significance.
+
+New York’s grid is once again being reshaped by the convergence of technological advancements,
+evolving public policy, and changing patterns of supply and demand. The transition to a cleaner energy
+system, combined with rapid electrification and new energy-intensive economic development, is
+creating both opportunity and risk at a scale not seen in decades.
+The NYISO’s recent planning studies and operational experiences tell an emerging and consistent
+story: reliability margins are tightening, and the system is becoming more sensitive to uncertainty.
+
+Across the state, longstanding generation resources are retiring or aging, while new supply is not
+being added at the pace or with the characteristics necessary to fully replace them. As a result, the
+electric system is operating with narrower margins for error, increasing exposure to extreme weather,
+fuel constraints, and variability in both supply and demand.
+1
+
+New Y
+
+2026 POWER TRENDS
+
+At the same time, electricity demand is rising and becoming more difficult to forecast.
+Electrification of buildings and transportation, combined with rapid growth in large energy-intensive
+projects such as data centers and advanced semiconductor manufacturing, is placing additional
+pressure on the system. These trends are reshaping how and when electricity is needed, shifting risk
+toward winter months and increasing the need for resources that can respond flexibly and perform
+reliably under sustained stress.
+
+A central challenge is the growing gap between the operational capabilities required to maintain
+reliability and those provided by the evolving resource mix. Conventional generating units, many of
+which are 50 to 70 years old, continue to supply critical reliability services, including dispatchable
+output, voltage support, and dependable multi-hour performance. Yet these units face increasing risks
+of outages, maintenance constraints, and retirement pressures.
+
+These conditions underscore a fundamental need: New York requires additional new generation
+and infrastructure, especially resources that are flexible, dependable, and capable of operating through
+extended periods of high demand.
+The good news is that New York has a strong foundation to meet such challenges. Competitive
+wholesale electricity markets remain one of the state’s most effective tools for maintaining reliability
+and attracting necessary investment while minimizing costs to consumers.
+
+The competitive electric markets administered by the NYISO reward operational excellence,
+incentivize flexibility, and encourage innovation across all resource types. They guide investment
+toward the resources and locations on the electric system where they are needed most. All while
+allocating investment risk to private developers rather than consumers and shielding ratepayers from
+the cost of uneconomic or underperforming investments.
+In this way, wholesale electricity markets serve multiple essential functions at once: they support
+reliability, reduce costs through competition, protect consumers from financial risk, and enable the
+system to adapt to changing conditions.
+Yet the system must be supported by policies that recognize these present and emerging risks
+while taking necessary action toward solutions that align with operational needs.
+
+Electricity is foundational to New York’s economy, public health, and quality of life. It powers
+homes and businesses, supports critical services, and enables continued economic growth. Ensuring
+that electricity remains reliable at reasonable cost is essential to every New Yorker.
+
+The challenges before us are real, but so too are the tools available to address them. By aligning
+market structures, policy objectives, and investment decisions, New York has the opportunity, once
+again, to evolve our electric system to support economic growth, protect public health and safety, and
+strengthen the Empire State for generations to come.
+Sincerely,
+
+Rich Dewey
+Rich Dewey
+President and CEO
+
+New
+York ISO
+2
+
+2026 POWER TRENDS
+
+Contents
+1
+4
+
+A letter from the CEO
+New York's grid of the future overview
+Reliability margins are declining - 5
+An aging generation fleet - 6
+Enhancing the interconnection process - 8
+
+43
+
+Appendix
+Additional figures
+and charts
+
+	
+Large energy‑intensive economic
+development projects - 8
+Winter reliability is a growing concern - 9
+	
+What an “all-of-the-above” energy strategy
+looks like and why it’s essential - 12
+ ompetitive electricity markets: the role of
+C
+state policy in enabling market efficiency - 14
+	
+The value of independence: why NYISO governance
+matters for reliability and consumers - 15
+
+17 Planning for a reliable future grid
+Reliability planning process - 18
+
+Short-Term Assessment of Reliability (STAR) - 19
+	
+Reliability Needs Assessment (RNA)
+and Comprehensive Reliability Plan (CRP) - 20
+The case for scenario planning - 21
+Large load growth and reliability planning - 23
+System and Resource Outlook (The Outlook) - 26
+	
+Interconnecting new resources: ensuring safe
+and reliable integration - 27
+Beyond planning - 30
+
+31 Wholesale electricity markets
+Strengthening market signals - 35
+
+How New York’s wholesale markets function - 35
+	The Energy Market: real-time efficiency across
+a changing resource mix - 35
+	The Capacity Market: ensuring resources are
+available when needed - 36
+	Ancillary Services: essential reliability functions
+procured efficiently - 37
+	Key market enhancements underway to meet
+emerging challenges - 39
+
+50
+
+Glossary
+Definitions and explanations
+
+	Capacity Market Structure Review - 42
+3
+
+New Y
+
+2026 POWER TRENDS
+
+New York's
+grid of the future
+
+Overview
+New York’s electric system is in the midst of a historic transformation driven by simultaneous
+changes in supply, demand, and infrastructure. Public policy is accelerating the transition of the
+generation mix, resulting in the retirement of long‑serving fossil‑fueled resources and growth in
+renewable generation and energy storage. At the same time, electricity demand is increasing and
+becoming more uncertain, shaped by electrified heating and transportation, emerging technologies,
+and large energy‑intensive economic development projects.
+
+These changes are occurring on a grid originally designed to serve more predictable demand with
+conventional generation located close to load. Today, the system must support a resource mix that
+is more geographically dispersed, increasingly weather‑dependent, and operationally complex. As a
+result, the way the grid is planned and operated is being fundamentally reshaped.
+
+Maintaining reliability through this transition depends not only on the quantity of resources
+connected to the system, but on whether the evolving resource mix can provide the operational
+capabilities required under real‑world conditions. Seasonal risk profiles are shifting, with winter
+conditions emerging as a defining reliability challenge. At the same time, the system’s reliance on an aging
+generation fleet introduces additional uncertainty around resource availability during periods of stress.
+Disciplined planning, timely investment, and market structures that can adapt to growing
+uncertainty will be essential to pursuing clean‑energy goals in a reliable and affordable manner. As load
+growth, resource development, and transmission expansion increasingly unfold on different timelines,
+the electric system must be capable of performing across a wide range of plausible futures, not just a
+single expected set of conditions.
+
+Markets and planning processes play a central role in managing these risks by aligning investment
+with system needs, valuing operational performance during stressed conditions, and limiting reliance
+on potentially costly and less efficient emergency actions to preserve reliability. Public policy also plays a
+decisive role. Policies that recognize emerging risks and enable flexible, risk‑aware solutions will support
+a smoother transition. How New York navigates this period will shape not only grid reliability, but also
+the cost, certainty, and sustainability of electricity service for households and businesses statewide.
+
+New
+York ISO
+4
+
+2026 POWER TRENDS
+
+Reliability margins are declining
+New York’s electric system is operating with the
+narrowest reliability margins in recent years. Multiple factors
+are converging to reshape these margins, collectively exposing
+the system to greater risks from extreme weather, fuel supply
+uncertainties, and rapid shifts in supply and demand.
+
+A key reason for tightening margins is that generator
+deactivations are outpacing new supply additions. As aging
+fossil‑fuel plants deactivate or experience performance
+declines, the system loses assets that provided dependable,
+multi‑hour output and operational flexibility. New resources,
+primarily wind, solar, and shorter‑duration storage, offer
+benefits but currently lack the full range of capabilities needed
+to sustain essential grid services during extended stress
+events. This creates a widening gap between what operators
+require and what the evolving fleet can reliably deliver.
+FIGURE 1: ADDITIONS AND DEACTIVATIONS SINCE 2019
+
+Additions
+& Uprates
+
+2.9 GW
+
+Deactivations
+
+4.4 GW
+
+At the same time, shifting load patterns are increasing
+operational risks. Electrification of buildings and
+transportation, along with growth in large load facilities,
+is driving greater peak load uncertainty and steeper
+hour‑to‑hour ramps. Under extreme winter conditions,
+demand can surpass forecasts significantly, leaving little
+room for contingencies. As demand grows and becomes
+more unpredictable, the system needs more dispatchable and
+flexible resources to maintain adequate reserves and adapt to
+real‑time supply changes.
+
+Trends
+shaping system
+conditions
+> Aging generation is a growing and
+measurable risk. Improved analytical tools
+highlight rising outage risks among older
+fossil‑fueled units that continue to provide
+essential reliability services, elevating
+aging infrastructure as a key planning
+consideration.
+> Winter conditions now drive key
+reliability stress cases. Fuel constraints
+affecting gas‑only generation, combined
+with rising winter demand, have shifted
+critical risk considerations from summer
+to winter, increasing reliance on demand
+response and emergency measures during
+cold weather events.
+> Potential demand from large loads
+is growing and less predictable. While
+electrification of the housing and building
+sectors continues to drive demand
+upward, potential demand from large
+loads — including data centers — is rising.
+This growth is difficult to forecast due to
+uncertainty with construction timelines,
+permitting, and evolving state policies.
+It also increases the need for flexible,
+dispatchable generation capability.
+> System uncertainty is widening.
+Electrification trends, renewable
+output variability, extreme weather,
+fuel constraints, and large load
+development have expanded uncertainty
+ranges, reinforcing the importance of
+scenario‑based, risk‑aware planning
+frameworks.
+> Reliability assessments indicate that
+transmission security concerns could arise
+as early as summer 2026 in New York City
+and summer 2027 on Long Island. System
+reliability is increasingly dependent on the
+timely completion and performance of a
+small number of major future projects.
+5
+
+New Y
+
+2026 POWER TRENDS
+
+These risks are no longer hypothetical. Recent operations
+show that extreme weather quickly erodes already slim
+reliability margins, forcing operators to take extraordinary
+measures beyond traditional planning assumptions. In the
+past two winters, sustained cold spells pushed the system near
+its limits, requiring frequent emergency actions, including
+activation of demand response, to stabilize operations.
+Emergency procedures were used far more often than in
+previous years, highlighting that the grid is under increasing
+strain. The 2025–2034 Comprehensive Reliability Plan
+(CRP) warns that growing reliance on emergency measures
+underscores the urgent need for timely integration of flexible,
+dispatchable resources and expanded transmission capacity.
+Fuel availability is another critical aspect of reliability.
+During severe cold, gas‑fired generators that are essential for
+winter reliability face fuel availability constraints as natural
+gas is prioritized for heating customers. Even with robust
+planning and operational practices, fuel security limitations
+can reduce dispatchable capability just as demand peaks.
+
+FIGURE 2: SUMMER BASELINE
+CAPACITY MARGINS
+2,400
+MW
+
+2,227
+MW
+
+2,000
+
+1,600
+
+1,200
+
+800
+
+400
+
+417
+MW
+
+0
+2018
+
+2020
+
+2022
+
+2024
+
+2026
+
+Looking ahead, the reliability outlook depends on the timely completion and proven performance
+of major transmission projects and new resource additions, as well as progress toward integrating
+technologies that can provide longer‑duration and/or weather‑independent reliability services.
+Until these projects are operational and effective, the system will continue to operate with shrinking
+safeguards, leaving less room for unexpected events.
+
+An aging generation fleet
+
+New York’s fossil‑fuel generation fleet continues to provide many of the essential reliability
+attributes that keep the grid stable, including fast ramping capability, multi‑hour performance, inertia,
+voltage support, and dispatchable, dependable supply. However, a significant share of this fleet is now
+more than 50 years old, with some units approaching or exceeding the end of the typical economic and/
+or mechanical life of similar generation facilities across the nation. As units age, the likelihood of forced
+outages and more frequent and extended maintenance periods increases, reducing the certainty that
+these resources can be counted on during periods of system stress.
+Aging generation also has important implications for emissions. Many older steam and simple cycle
+combustion turbine units operate with significantly higher Nitrogen Oxide (NOx) emissions rates than
+modern generation technologies. An analysis of the June 2025 heatwave that occurred over three days
+found significant potential for lowering emissions during such events by replacing aging equipment.
+Old gas turbines contributed only about 2.5% of the energy generated from New York City-based
+power plants during that period but caused 28% of NOx emissions. Aging steam turbines were another
+source of high emissions. Comparing the output of older units with newer combined cycle or gas
+turbine resources shows that repowering or replacing aging facilities can materially reduce emissions,
+
+New
+York ISO
+6
+
+2026 POWER TRENDS
+
+potentially lowering NOx by more than 85%, with concurrent reductions in Carbon Dioxide (CO₂) over
+time. Conversely, continued reliance on an aging fleet, especially during peak operating conditions,
+tends to result in higher emissions intensity for the electricity produced.
+
+FIGURE 3: NEW YORK CITY EMISSIONS VS. ENERGY REPLACEMENT SCENARIOS DURING JUNE 23-25, 2025 HEATWAVE
+
+120
+Tons
+102
+
+100
+80
+60
+
+Old GT
+Newer GT
+CC
+
+89%
+
+87%
+
+Reduction
+in NOx
+emissions
+
+Reduction
+in NOx
+emissions
+
+40
+Old ST
+
+20
+
+11
+
+0
+Actual
+Emissions Profile
+June 23-25, 2025
+Heatwave
+
+Newer GT
+CC
+
+Expanded CC
+Production Scenario
+Replaces old ST and GT
+energy production with
+expanded CC production
+
+13
+
+Expanded GT
+Production Scenario
+Replaces old ST and GT energy
+production with expanded
+production from newer GT units
+
+As public policy accelerates the retirement of fossil‑fuel units, the system is losing resources that
+historically supplied the full suite of dispatchable reliability services. New renewable and storage
+resources, while critically important for decarbonization, do not yet provide comparable attributes
+at scale, especially for long‑duration or severe‑weather conditions. This widening gap between the
+capabilities needed and the capabilities entering the system contributes to shrinking reliability
+margins, increasing uncertainty in long‑term planning. This uncertainty is amplified by the growth in
+demand from electrification and new large load projects.
+
+NYISO planning studies are beginning to reflect this exposure by incorporating retirement risk
+based on unit age into reliability assessments. Many older units face regulatory, economic, and
+operational pressures simultaneously, making their continued availability less certain year-to-year.
+This elevates the importance of strategic repowering, life extension projects, or technology upgrades
+at existing sites, particularly in downstate regions. Such investments can preserve essential reliability
+services while also lowering emissions relative to continued operation of older equipment.
+In short, the aging fleet remains a critical but increasingly vulnerable component of the system.
+Aging resources create uncertainty that can introduce cost pressures if replacements do not
+come online in time. Managing this transition effectively will require careful planning, well‑timed
+replacement, and continued investment in resources with the attributes needed to keep the system
+reliable under both normal and extreme operating conditions.
+
+7
+
+New Y
+
+2026 POWER TRENDS
+
+Enhancing the interconnection process
+The volume of clean energy and storage projects seeking to connect to New York’s grid remains at
+historically high levels. To manage this momentum and ensure projects progress efficiently, the NYISO
+has implemented significant reforms to the interconnection process. These enhancements are designed
+to better align study timelines with developer needs, strengthen coordination with transmission owners,
+and improve transparency for stakeholders.
+In recent years, the NYISO has overhauled its interconnection study structure, most notably through
+the transition to an improved “cluster study” process consistent with federal reforms. This approach
+evaluates groups of projects together rather than individually, reducing redundancy, shortening study
+cycles, and creating a more predictable path for developers. At the same time, improvements to the
+NYISO’s interconnection portal have made it easier for applicants to track progress, access study
+materials, and engage with the NYISO and transmission owner staff throughout the process.
+Even with faster studies, the speed at which a project proceeds can be impacted by factors that lie
+outside the interconnection process. State and local siting requirements, environmental permitting
+schedules, financing, and project locations all influence how quickly a project moves from the study
+phase into construction and ultimately commercial operation.
+
+Despite these challenges, the enhanced interconnection process is already delivering meaningful
+improvements. Developers have clearer expectations, the study process is more structured and
+transparent, and coordination across utilities and stakeholders continues to strengthen. These steps are
+essential to supporting both the pace and scale of New York’s clean energy transition and ensuring that
+new projects can reliably deliver energy where and when it is needed.
+
+Large energy‑intensive economic development projects
+
+Rapid growth in large, energy-intensive economic development projects is significantly changing
+future electricity demand. While data centers are often highlighted, the NYISO’s interconnection queue
+includes a variety of proposals, such as semiconductor fabrication, advanced manufacturing, hydrogen
+production, and other high demand uses. These projects are a major source of potential statewide load
+growth, introducing new challenges for grid planning, infrastructure, and near-term reliability margins.
+
+The number and diversity of large load proposals are rising, representing several thousand megawatts
+(MW) of possible new and incremental demand over the next decade. Many facilities will operate
+continuously, influencing local peaks and shifting traditional load patterns. In some regions, industrial
+growth may significantly affect both winter and summer system risks as electrification increases.
+The NYISO studies the impact of these projects on the bulk power system but does not approve, site,
+or develop them. After completing its studies, the NYISO continues to monitor their progress for future
+reliability implications. Utilities conduct similar reviews for local distribution impacts.
+This rapid load growth is occurring as reliability margins tighten. The 2025–2034 CRP notes that
+large loads increase system sensitivity to infrastructure delays. Combined with extreme weather,
+renewable uncertainty, and aging thermal units, load growth reduces margins for unexpected events.
+Risks to winter resource adequacy can rise quickly, and transmission capability becomes more critical,
+especially where infrastructure needs reinforcement.
+
+Not all large loads are alike. Some industries can be flexible, curtailing demand during system stress.
+Even small amounts of flexibility help maintain margins and reduce emergency actions. However,
+
+New
+York ISO
+8
+
+2026 POWER TRENDS
+
+mission-critical operations like semiconductor fabrication and many data centers may have limited
+operational flexibility to support load reductions, so their full impact must be considered in planning.
+
+As large load proposals increase, coordination among developers, utilities, regulators, and the
+NYISO is crucial. Efficient interconnection, timely information sharing, and alignment of upgrades
+and supply additions are needed to reliably accommodate growth. Without proper alignment, the system
+may need to rely more on expensive resources and emergency actions, placing upward pressure on
+electricity costs statewide.
+
+Winter reliability is a growing concern
+
+Winter conditions are emerging as one of the most significant reliability challenges facing New
+York’s electric system. As electrification continues across the heating, building, and transportation
+sectors, winter peaks are rising more quickly than summer peaks, signifying New York’s transition
+toward a winter‑peaking system. This shift places new demands on both planning and operations,
+particularly as more households rely on electric heat during extended cold weather.
+
+During periods of severe cold, system conditions can tighten quickly. Recent assessments show
+that while resources are sufficient under expected winter conditions, extreme cold weather events
+can push peak demand significantly higher than forecasted, narrowing operating margins and limiting
+the system’s ability to absorb additional stress. Under these conditions, dual‑fuel generators play an
+increasingly critical reliability role, as natural gas availability for power generation becomes constrained
+when residential heating demand surges. Even well‑prepared generators can face fuel logistics
+challenges during prolonged cold snaps, underscoring the importance of fuel assurance and the need for
+accurate representation of winter fuel availability constraints in long‑term models.
+The state’s aging fleet introduces additional risk. As older units contend with higher forced outage
+rates during periods of extreme weather, the system must rely more heavily on resources that can start
+quickly, run for extended durations, and remain available across consecutive days of high demand. This
+challenge is compounded by variability in renewable output during winter, when solar production is
+lower and wind patterns can fluctuate, affecting the system’s ability to meet high, sustained load.
+The 2025–2034 CRP highlights how these pressures have already begun to manifest in real‑time
+operations. In the winter of 2024-2025, a cold spell required operators to take multiple actions to
+maintain system stability, including increased reliance on demand response and other emergency
+measures typically used only sparingly. The growing reliance on demand response in the winter to
+avoid reliability concerns underscores the interplay between winter weather, fuel availability, and
+system reliability.
+
+The planning outlook is clear: winter reliability risks will continue to grow without timely
+additions of firm, flexible, and fuel‑secure capability. Ensuring adequate winter preparedness will
+require a system that can reliably serve demand across sustained cold weather events, maintain fuel
+availability for critical generators, and integrate resources that can deliver consistent performance when
+weather‑dependent output dips. The combination of rising winter loads, fuel supply limitations, and
+the operational realities of a changing resource mix means that winter considerations now stand at the
+center of long‑term reliability planning.
+In this environment, New York’s ability to maintain a reliable grid depends on continued investment
+in resources and infrastructure designed to withstand winter’s most demanding conditions, ensuring
+that the grid remains reliable throughout the deep winter peaks expected in the decade ahead.
+
+9
+
+New Y
+
+2026 POWER TRENDS
+
+Summer and winter extremes present unique
+reliability challenges
+Two recent weather events exemplify how shrinking supply margins, growing demand, and
+increased seasonal volatility are already impacting New York’s electric grid.
+A June 2025 heatwave pushed electricity demand to its highest level in nearly a decade, while Winter
+Storm Fern in late-January 2026 brought sustained cold that elevated winter demand and constrained
+fuel supplies.
+In both cases, NYISO grid operators had to manage narrow margins and navigate challenges affecting
+generator availability, transmission flows, and fuel supply logistics.
+While the grid has historically been a summer peaking system, Winter Storm Fern and similar
+prolonged cold-weather events underscore the need to better bolster the grid against extreme winter
+conditions.
+A growing reliance on emergency tools
+The NYISO has warned of this moment in recent years, with reliability reports identifying near- and
+long-term potential shortfalls.
+FIGURE 4: DEMAND RESPONSE EVENTS, 2010-2025
+A growing reliance on
+emergency operating procedures,
+25
+22
+including demand response
+20
+activations and emergency imports,
+has emerged during periods of
+15
+extreme weather stress.
+10
+While these tools are essential
+10
+8
+7
+7
+for maintaining reliability in real
+5
+4
+4
+5
+time, their more routine use signals
+3
+3
+2
+1
+1
+tightening operating margins
+0
+0
+0
+0
+and reduced system flexibility.
+2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+As documented in NYISO planning
+assessments, frequent activation of emergency measures limits the options available when conditions
+further deteriorate and highlights structural challenges associated with generation availability, fuel
+availability constraints, demand growth, and increasing weather volatility.
+A side-by-side comparison
+
+Seasonal extremes stress the grid in distinct but overlapping ways, requiring different operational
+responses to maintain reliability. While summer conditions primarily tested the grid’s ability to meet
+peak load, winter conditions tend to expose fuel availability and transmission limitations.
+During the summer June 2025 heatwave, high temperatures drove electricity demand to near
+record levels, while variability in renewable output and reduced availability of conventional generators
+narrowed operating margins.
+Winter Storm Fern produced sustained increase in winter demand alongside fuel supply constraints,
+particularly for natural gas, and snow-covered solar panels hampered renewable output.
+The storm further demonstrated how transmission constraints can compound these challenges.
+
+New
+10 York ISO
+
+2026 POWER TRENDS
+
+During the prolonged cold weather event, available
+generating capacity on Long Island could not be fully
+delivered to downstate load centers due to transmission
+bottlenecks, forcing operators to rely on more costly
+resources despite adequate capacity being available within
+the region.
+The NYISO has identified the future Propel NY Energy
+transmission project as a key solution to address these
+limitations by expanding transfer capability by at least
+3,000 MW between Long Island and the rest of the state.
+By strengthening the transmission system, projects like
+Propel NY Energy can reduce reliance on emergency
+operations, improve access to available generation during
+extreme conditions, and support a more reliable and efficient
+grid across seasons.
+
+FIGURE 5: JUNE 2025 HEATWAVE BEHIND-THE-METER (BTM)
+SOLAR AND WIND ENERGY PERFORMANCE
+4,500
+MW
+4,000
+3,500
+
+BTM Solar
+
+3,000
+2,500
+2,000
+
+1,000
+
+0
+
+June
+24
+
+June
+25
+
+Storm Fern
+drops 10-18”
+of snowfall
+across NYS
+
+Wind Energy
+
+750
+500
+
+0
+
+BTM Solar
+
+Jan 23
+
+Jan 24
+
+Jan 25
+
+> Dependence on imports, with generally
+higher cost emergency purchases needed
+as neighboring systems curtailed lowercost exports to New York to manage their
+own peak conditions.
+
+> Increased reliance on oil-fired generation,
+reflecting gas availability limitations and
+highlighting energy-security considerations.
+
+1,000
+
+250
+
+> Reduced availability of conventional
+generation, including aging units that were
+forced offline during periods of highest
+demand.
+
+> Reduced renewable performance,
+including minimal solar output due to snow
+covered panels and highly variable wind
+generation during the event.
+
+2,250
+MW
+2,000
+
+1.250
+
+> Variability in renewable output,
+particularly a sharp drop in wind generation
+during peak conditions, increasing reliance
+on dispatchable resources.
+
+> Fuel supply constraints, particularly for
+natural gas, as cold weather tightened
+regional fuel markets and limited generator
+flexibility.
+
+FIGURE 6: WINTER STORM FERN BTM SOLAR AND
+WIND ENERGY PERFORMANCE
+
+1,500
+
+> Tight operating reserves, requiring the
+issuance of Energy Watches and an Energy
+Warning as reserve margins declined.
+
+> Sustained high winter demand over
+multiple days as extreme cold increased
+heating load across the state.
+
+500
+
+1,750
+
+> Elevated peak electricity demand driven
+by sustained high temperatures, reaching
+the highest summer load observed in New
+York since 2016.
+
+Winter: Storm Fern
+operational challenges
+
+Wind Energy
+
+1,500
+
+June
+23
+
+Summer: June 2025
+heatwave operational
+challenges
+
+Jan 26
+
+Jan 27
+
+Jan 28
+
+Jan 29
+
+Jan 30
+
+Jan 31
+
+Feb 1
+
+Feb 2
+
+Feb 3
+
+> Stress on aging infrastructure, with
+unavailability of transmission-constrained
+generation requiring sustained operator
+intervention to maintain reliability.
+
+11
+
+New Y
+
+2026 POWER TRENDS
+
+The growing
+value of
+Behind-the-Meter
+(BTM) solar
+> New York has long relied on a
+diverse mix of power resources.
+That mix is increasingly supported
+by BTM solar, including rooftop
+systems and community solar
+projects. Since 2019, nearly 6,000 MW
+of BTM solar has been added
+across the state.
+> By lowering and shifting peak
+demand, BTM solar reduces the need
+for higher-cost generation and helps
+lower emissions and consumer costs.
+The NYISO reflects these resources
+in its long-term and daily forecasts
+and estimates their real-time output
+using sampled solar data and detailed
+weather information.
+> Solar output is higher in the summer,
+when it helps reduce mid-day demand.
+In winter, it can still provide value by
+reducing the need for fossil-fueled
+generation and helping conserve
+limited resources such as oil and
+stored hydro for higher-demand
+hours after sunset. Overall, BTM solar
+provides clear environmental and
+economic benefits while supporting
+grid operations.
+
+What an “all-of-the-above” energy strategy looks
+like and why it’s essential
+New York must deliver an energy system that is reliable,
+affordable, and clean, all while maintaining the diversity of
+resources needed to achieve those goals. The reality is that no
+single resource can meet all of these objectives on its own. As
+the 2025 New York State Energy Plan makes clear, the state must
+pursue a balanced, disciplined, “all-of-the-above” strategy to
+resource development.
+
+Renewable energy remains at the center of this transition,
+both for its economic and environmental value. Wind and solar
+resources have a defining advantage: their fuel is free. Once built,
+they produce electricity at low marginal cost, which allows them
+to be dispatched first in competitive markets and place downward
+pressure on wholesale electricity prices. Over time, this reduces
+exposure to volatile fuel markets and helps stabilize costs for
+consumers. Additionally, these resources are indispensable to
+achieving New York’s climate goals. Continued and accelerated
+deployment of renewables is essential to reducing emissions and
+advancing the state’s clean energy targets. Simply put, New York
+needs more renewable generation.
+FIGURE 7: BTM SOLAR SEASONAL ENERGY PRODUCTION
+26,000
+MW
+24,000
+22,000
+20,000
+18,000
+16,000
+14,000
+
+Summer demand
+served by the grid
+
+Winter demand
+served by the grid
+
+12,000
+10,000
+
+MIDNIGHT
+
+6:00
+AM
+
+NOON
+
+6:00
+PM
+
+MIDNIGHT
+
+MIDNIGHT
+
+6:00
+AM
+
+NOON
+
+6:00
+PM
+
+MIDNIGHT
+
+Average Hourly BTM Solar Production
+
+At the same time, affordability and sustainability must be matched by reliability. The grid
+must perform every hour of every day, across all seasons and under a wide range of conditions.
+Today, reliability is being challenged by a fundamental shift in the resource mix. As generator
+retirements outpace the addition of new supply, reliability margins are narrowing as demand is
+growing. Without timely action, the risk of stress events and service interruptions increases.
+
+Maintaining reliability requires resources that can respond to the system’s needs in real time.
+Dispatchable, flexible generation remains essential to balancing variability in renewable output and
+
+New
+12 York ISO
+
+2026 POWER TRENDS
+
+ensuring that electricity is available when it is needed most. In the near term, this means continued
+investment in cleaner, more efficient natural gas technologies and the repowering and modernization of
+existing facilities.
+These cutting-edge gas-fired resources are not only critical for reliability, they also play an
+important role in controlling costs. Modern, high-efficiency units convert fuel to electricity more
+effectively, requiring less fuel per unit of output and lowering overall production costs. By reducing
+fuel consumption and improving operational performance, they can help limit upward pressure on
+wholesale electricity prices while providing the flexibility the system requires.
+
+In this way, advanced gas technologies and repowering old units can ensure the system remains
+reliable and cost-effective as it transitions.
+
+The urgency of this moment cannot be overstated. New York’s system is operating with less margin
+for error than in the past, and the imbalance between retiring dispatchable resources and slower
+replacement by new supply is increasing risk. Investment must occur now, not some time in the future,
+to reverse declining reserve margins and ensure adequate supply is in place before additional resources
+retire or demand rises further. Delaying these investments would increase system costs, drive greater
+reliance on emergency measures, and heighten risks to reliability and economic activity.
+
+Looking to the future, New York is also taking steps to add new forms of zero-emission, reliable
+supply. The state’s direction to pursue advanced nuclear development marks an important recognition
+of the need for firm, emissions-free baseload power. Nuclear energy operates regardless of weather
+conditions and can complement renewable resources by providing consistent supply when intermittent
+resources cannot. While nuclear development represents a longer-term solution, it will be an important
+component of a future system that must balance reliability, affordability, and decarbonization as
+traditional resources retire.
+
+At the same time, the path forward must remain open to innovation. Emerging technologies such
+as advanced storage, hydrogen, and other new approaches to delivering dispatchable and flexible
+energy may play a critical role in the years ahead. These technologies have the potential to lower costs,
+improve system performance, and support climate goals, but they must be evaluated based on their
+ability to deliver real-world reliability and economic value. Maintaining flexibility in planning and policy
+will be essential to incorporating these solutions as they mature.
+An all-of-the-above strategy is about ensuring the system has the right resources available at
+the right time. There is no single resource that can deliver affordability, reliability, and emissions
+reductions on its own. An all-of-the-above strategy recognizes that each resource plays a distinct and
+complementary role. Renewable energy lowers costs and reduces emissions. Flexible, dispatchable
+resources maintain reliability and efficiency during the transition. Advanced nuclear provides a
+long-term source of firm, zero-emission power. Emerging technologies like battery storage offer new
+pathways to strengthen the system over time. Together, these investments form a balanced portfolio
+capable of meeting New York’s evolving needs.
+
+As discussed in the 2025 State Energy Plan, New York must continue to invest across a diverse set
+of resources and do so with urgency. A balanced, all-of-the-above approach is the most practical and
+effective way to ensure that the state can deliver a clean, reliable, and affordable energy future.
+13
+
+New Y
+
+2026 POWER TRENDS
+
+Competitive electricity markets: the role of state policy in enabling
+market efficiency
+New York’s competitive wholesale electricity markets remain one of the most effective tools for
+maintaining reliability while limiting costs to consumers. By promoting efficient investment and
+rewarding dependable performance, markets help align resource development with system needs,
+guide operational behavior during both normal and stressed conditions, and protect consumers from
+the risk of bad investment decisions. As energy affordability becomes an increasingly prominent policy
+priority, well‑functioning markets play a central role in protecting consumers while supporting New
+York’s clean‑energy transition.
+At the same time, markets are operating in an environment of growing strain. Policies designed to
+advance clean energy goals have accelerated generator retirements and, in some cases, discouraged
+investment in dispatchable generation capability. Concurrently, electrification and economic
+development initiatives are driving significant and often uncertain load growth. Together, these forces
+are reducing operational safeguards during periods of system stress.
+
+Markets are a proven construct to attract needed investment, but they must work in alignment
+with public policies. As the resource mix becomes more weather dependent, demand grows due
+to electrification measures and large load growth, and generation capability becomes increasingly
+constrained during winter peaks, the role of markets as a reliability engine is growing. Transparent,
+locational price signals produced by the markets administered by the NYISO continue to guide
+investment decisions, support dependable operations, and enable the system to respond effectively
+under a wide range of conditions. Realizing the full value of these signals depends on market structures
+operating in alignment with state policy.
+
+The NYISO continues to evolve its market design to better reflect the system’s changing needs. This
+includes strengthening capacity accreditation to more accurately represent the reliability contribution of
+all resource types including limited‑duration and weather-dependent resources, refining how resource
+adequacy requirements account for seasonal risk, and enhancing reserve and ancillary service products
+to value faster response, flexibility, and operational readiness. These efforts are intended to ensure that
+the services most critical during stressed hours are appropriately recognized and compensated.
+Recent operations have underscored the growing importance of fuel security, particularly during
+extreme winter conditions when natural gas constraints can limit generator availability. Market
+incentives play a central role in encouraging operational preparedness across the fleet and shaping
+both supply‑ and demand‑side behavior during critical hours. When properly integrated, flexible loads
+and price‑responsive demand can help mitigate peak demand and reduce reliability risk.
+
+Markets also play an important role in managing long‑term uncertainty tied to the pace of renewable
+development, siting challenges, and the timing of major transmission upgrades. Strong market designs
+help ensure that investment decisions are driven by operational performance and system value. When
+market mechanisms are disrupted, investment decisions may be based on policy mandates rather
+than operational requirements. Mandates that prioritize certain technologies or impose additional
+requirements can discourage investment in reliable, dispatchable generation and hasten the retirement
+of existing resources, resulting in increased consumer costs and reduced system reliability.
+
+New
+14 York ISO
+
+2026 POWER TRENDS
+
+When allowed to function without unnecessary constraints, competitive markets deliver tangible
+benefits for consumers and the grid. Efficient market designs encourage investment in resources
+that perform reliably during critical hours, regardless of technology type. Transparent price signals
+reward flexibility, support dependable operations, and foster innovation. This approach not only
+saves consumers money by limiting unnecessary costs, but also promotes emissions reductions by
+incentivizing clean, efficient generation. At a time when investment is urgently needed to meet cleanenergy targets and ensure grid reliability, markets provide the best path forward for achieving these
+goals at the lowest possible cost.
+
+The urgency for investment to address these challenges underscores the importance of markets as
+both a reliability engine and a shield for consumers against investment risk. When allowed to function
+effectively, market-driven solutions enhance reliability by ensuring that the right mix of resources
+remain available when needed. By valuing operational attributes and encouraging cost-effective
+participation from all resource types, markets can adapt to evolving risks such as weather dependence,
+electrification, and seasonal peaks.
+Given the immediate need for new infrastructure, markets provide an optimal platform for timely,
+efficient investment that benefits consumers and the entire system. As New York transitions to a
+cleaner electricity system, the partnership between competitive markets and supportive state policy
+is increasingly vital. Markets provide a level playing field, foster innovation, and drive investment in
+resources that deliver when reliability is most needed.
+
+By minimizing mandates and avoiding interference with market rules, policymakers can ensure
+that consumers benefit from a grid that is affordable, reliable, and clean. A coordinated approach will
+sustain New York’s leadership in energy transformation, delivering lasting value to consumers and the
+broader economy, especially at this urgent time for investment.
+
+The value of independence: why NYISO governance matters for
+reliability and consumers
+
+When the NYISO was established in 1999, state and federal policymakers recognized that operating
+the electric grid and administering competitive electric markets required neutral, fact-based decisionmaking that is insulated from commercial and political pressures.
+That foundational principle remains at the core of how NYISO operates today.
+
+The NYISO was designed as an independent, not-for-profit entity overseen by the Federal Energy
+Regulatory Commission (FERC) with a mission to serve the public interest through reliable grid
+operations and competitive wholesale markets.
+
+To protect the consumer, the NYISO was built upon a critical premise that no single entity, whether
+a utility, generator, large customer, advocate or government actor, should be able to influence grid
+operations or shape market outcomes to its own advantage.
+The NYISO is a not‑for‑profit organization governed by an independent Board of Directors with no
+financial ties to market participants. The NYISO is overseen by state and federal regulators, beholden
+to the rules set by state and regional electric system reliability organizations, and supported by a
+transparent stakeholder process.
+
+15
+
+New Y
+
+2026 POWER TRENDS
+
+Together, these features ensure that no single entity or group of entities, whether commercial or
+political, can unduly influence how the electric system operates. The mandate is simple and strong: grid
+reliability at efficient cost.
+The New York electric grid is not a political system. It is a physical and economic system built to
+support the economy and the health and safety of every New Yorker. Reliability decisions must be
+based on engineering standards, data, and evidence. Market outcomes must reflect real-time supply
+and demand and send signals for investment where and when it is needed. Long-term planning must
+consider decades of evolving system conditions. Introducing political pressure into that framework
+risks distorting decisions in ways that can increase costs, reduce efficiency, and undermine reliability.
+
+The independent system operator model was created specifically to avoid these outcomes. Public
+policy at the time recognized that separating grid operation from ownership and political control is
+essential to ensure open access, fair competition, and consumer benefits. When the operator is neutral,
+wholesale markets function more efficiently, and investment signals are unbiased.
+
+The NYISO’s shared governance process brings together investor-owned utilities, public power
+authorities, generators, consumer advocates, environmental organizations, state and federal agencies
+and various other public interest groups to develop rules through open, transparent debate and
+technical review. Decisions require broad agreement, ensuring that proposals are vetted from multiple
+perspectives and grounded in evidence, not driven by a single interest or viewpoint. The NYISO’s
+governance process enjoys a robust system of checks and balances, which has proven effective over
+time. Most changes to market rules are developed through stakeholder consensus and the vast majority
+obtain acceptance by FERC without the need for administrative or civil litigation.
+At a time when the grid is facing rapid change, growing demand, and increasing complexity, the
+need for objective, data-driven decision-making and vigilant, independent market oversight to promote
+competition has never been greater. The NYISO governance model has proven its ability to deliver
+timely reliability solutions and competitive wholesale markets that benefit consumers.
+That structure continues to serve the public interest today. Preserving this independence is
+essential to ensuring that the grid remains reliable, efficient, and fair for all New Yorkers.
+
+NYISO Independence and Transparency
+
+Regulatory and reliability
+organization oversight
+> The NYISO serves New Yorkers under
+the oversight of the Federal Energy
+Regulatory Commission, the New York
+Public Service Commission, the North
+American Electric Reliability Corp.,
+the Northeast Power Coordinating
+Council, and the New York State
+Reliability Council.
+
+New
+16 York ISO
+
+Shared governance
+
+Independence
+
+> This process engages
+suppliers, transmission owners,
+consumers, environmental and
+environmental justice interests,
+and state organizations to
+facilitate the development of the
+rules and processes for a reliable
+and economically-efficient grid in
+New York.
+
+> The NYISO is transparent, open,
+and independent of its stakeholders.
+We are a registered 501(c)3 not-forprofit corporation. NYISO and its
+directors, executives, and employees
+are prohibited from having financial
+interests in any company participating
+in New York wholesale competitive
+electricity markets.
+
+2026 POWER TRENDS
+
+Planning
+for electric system reliability in
+an increasingly uncertain future
+
+Planning for electric reliability has entered a new era. New York’s power system is no longer
+shaped by a stable set of assumptions about demand growth, resource availability, or infrastructure
+development. Instead, planners must properly account for accelerating electrification, rapid large load
+growth, an evolving resource mix, the impacts of geopolitical upheaval, and increasing exposure to
+extreme weather, often unfolding simultaneously and at different speeds across the system.
+
+In this era of rapid change and uncertainty, reliability cannot be determined based on a single
+forecast or assumed outcome. Small changes in assumptions for the forward planning horizon can
+materially alter projected system conditions and reliability margins. The question of when new
+resources enter service, how quickly demand grows, or whether key transmission projects proceed as
+scheduled, can factor heavily on planning and maintaining reliability. As a result, the range of plausible
+future grid conditions has widened considerably, highlighting the benefits of a planning approach that
+relies on multiple potential future cases.
+
+The resource mix itself is shifting. As older dispatchable generation retires and new renewable
+and energy-limited resources are added, the operational characteristics of the system are changing.
+Reliability is now influenced not only by how much capacity exists, but by where resources are located,
+how they perform under stress, the duration over which they can supply the grid, and whether they are
+available during the conditions when the system is most constrained. These dynamics require planners
+to evaluate interactions across demand, generation, transmission, and policy in more integrated and
+forward looking ways.
+The NYISO’s reliability planning framework has evolved in response to these changing conditions,
+but more changes are necessary. Greater emphasis on scenario-based analysis reflects the need to
+understand not just what is expected to happen, but how reliability outcomes could change if key
+assumptions evolve differently year over year.
+
+Ultimately, planning must provide the clarity needed to support timely and durable decisions in
+the face of uncertainty. As New York works to meet growing electricity demand, advance clean energy
+goals, and maintain reliability through a period of unprecedented transition, a planning framework that
+accounts for changing dynamics, uncertainties, and a shifting resource mix is essential to ensuring the
+grid remains reliable — today and in the decades ahead.
+17
+
+New Y
+
+2026 POWER TRENDS
+
+Higher-Demand
+Forecast
+
+38,000
+36,000
+
+Baseline
+Forecast
+
+34,000
+32,000
+
+Lower-Demand
+Forecast
+
+30,000
+28,000
+26,000
+
+Actual Peak
+
+31,405 MW
+
+24,000
+
+2039
+
+2040
+
+2037
+
+2038
+
+2035
+
+2036
+
+2033
+
+2034
+
+2031
+
+2032
+
+2029
+
+2030
+
+20,000
+
+2027
+
+22,000
+
+2028
+
+The NYISO’s reliability planning processes are
+designed to reasonably account for these changes
+and identify emerging risks before they affect the
+reliable delivery of electricity.
+
+40,000
+MW
+
+2025
+
+Planning for a reliable electric grid
+has become increasingly complex as New
+York’s power system undergoes rapid and
+overlapping change, with demand growing,
+supply diminishing, and numerous transmission
+developments underway across the state at the
+same time. Ensuring reliability now requires
+more than forecasting demand and evaluating
+infrastructure needs; it requires planning tools
+that can account for a widening range of plausible
+future system conditions shaped by policy-driven
+electrification, evolving resource availability, and
+heightened exposure to disruptive events.
+
+FIGURE 8: ACTUAL AND FORECAST
+ANNUAL PEAK DEMAND, 2025-2040
+
+2026
+
+Reliability planning process
+
+The NYISO has been working with stakeholders to evolve those processes to place greater emphasis
+on scenario-based analysis, recognizing that reliance on a single baseline forecast is no longer sufficient.
+Small changes in key assumptions, such as the pace of electrification, the timing of large load additions,
+generator availability, or the in-service dates of major transmission projects, can materially alter
+reliability outcomes.
+In the most recent planning cycle, a reliability need identified in the 2024 Reliability Needs Assessment
+(RNA) under one set of assumptions was subsequently mitigated once those assumptions were updated
+with more current data in the 2025-2034 CRP. The NYISO subsequently found different, but related,
+needs associated with the proposed deactivation of generators in its short-term quarterly assessments of
+reliability. Even prior to the 2024-2025 planning cycle, reliability modeling results were identifying rising
+concerns. The 2022 RNA, for instance, preliminarily identified a reliability need that was subsequently
+mitigated by updates in demand assumptions as part of the process of finalizing the study.
+The fluctuations in assumed future system conditions and associated risks across studies illustrate
+the need to advance the NYISO’s planning approach to better capture the growing range of uncertainty
+around demand growth trajectories, the pace of resource additions and retirements, and the timing
+of critical infrastructure projects. As assumptions evolve, planning outcomes can shift repeatedly,
+making it more difficult to distinguish transient modeling results from underlying system risks and
+complicating the ability to plan and coordinate solutions that are timely, efficient, durable, and aligned
+with long development timelines.
+
+Through its Comprehensive System Planning Process, the NYISO evaluates how forecasted changes
+in demand, generation, and transmission affect the reliability of the bulk electric system.
+
+New
+18 York ISO
+
+2026 POWER TRENDS
+
+As highlighted in the 2025–2034 CRP, public policy mandates, advancing technologies, and more
+frequent extreme weather events have expanded the range of plausible futures that planners must
+consider. Policies aimed at reducing emissions and accelerating electrification can drive rapid load
+growth and resource deactivations, while development schedules for new generation, large load
+customers, and transmission system upgrades have become increasingly difficult to predict. Scenario
+analysis allows planners to examine how different combinations of these factors could interact and
+result in reliability needs, even when baseline assumptions suggest the future system may be adequate.
+In response to this changing environment, the NYISO is working to modify its planning framework
+to better account for the growing range of potential changes to future system conditions. By examining
+a range of future conditions, planning studies can identify where the reliability of the system is most
+vulnerable to shifts in demand, resource availability, or project timing. This approach helps distinguish
+between outcomes that appear adequate under baseline assumptions and those that could trigger
+reliability needs under alternative scenarios, providing a more informed foundation for planning
+decisions in an increasingly uncertain system.
+
+Short-Term Assessment of Reliability (STAR)
+
+Each quarter, the NYISO issues a Short Term Assessment of Reliability (STAR) to assess reliability
+over the next five years, reflecting changes such as generator deactivations, revised transmission plans,
+and updated demand forecasts.
+Recent STAR findings underscore the importance of this
+short term reliability planning framework. The 2025 Quarter
+3 STAR identified reliability violations in New York City
+beginning in 2026 and on Long Island beginning in 2027, driven
+by a combination of proposed generator deactivations and
+rising consumer demand, transmission limitations, and risks
+associated with the availability of key future planned projects.
+The recently issued 2026 Quarter 1 STAR reaffirmed these
+findings, concluding that near-term reliability risks in New York
+City continue to be observed. The identified needs are based on
+deficiencies in transmission security margins, or the system’s
+ability to withstand disturbances such as short circuits or the
+unexpected loss of key system elements while continuing to
+deliver electricity during peak demand.
+
+Champlain
+Hudson Power
+Express (CHPE)
+update
+
+> May 2026: CHPE began delivering
+energy to the New York system in
+May 2026, with its full reliability
+contribution dependent on completing
+testing, market integration, and
+demonstrated performance during
+peak demand periods.
+
+With respect to New York City, the 2026 Quarter 1 STAR
+found that reliability margins remain deficient through the
+five-year horizon absent permanent solutions, with the need now beginning as early as summer 2026.
+While the Champlain Hudson Power Express (CHPE) transmission project is expected to materially
+improve delivery into New York City once fully in service and operationally integrated, the 2026 Quarter
+1 STAR found that energizing CHPE alone does not fully resolve the identified deficiency in New York
+City over the longer-term horizon. Instead, the assessment reflects that near-term reliability remains
+closely tied to the availability of resources.
+19
+
+New Y
+
+2026 POWER TRENDS
+
+The DEC
+peaker rule
+> In 2019, New York took a bold
+step towards cleaner air and public
+health with the introduction of the
+“Peaker Rule” by the New York
+State Department of Environmental
+Conservation (DEC). This regulation
+targets the state's oldest, most
+inefficient power plants, requiring
+that they meet stringent emissions
+standards. These plants generally
+provide electricity during peak
+demand times — think sweltering
+summer days or frigid winter
+nights. The DEC rule mandated that
+these units make a choice: invest
+in cleaner technologies, cease
+operations for certain times of the
+year, or shut down.
+> Cost challenges: As power
+plants navigate stricter emissions
+standards, the transition is steering
+New York towards a cleaner energy
+future but also bringing its share of
+cost challenges. Since the rule went
+into effect and affected units have
+shut down, noticeable increases
+in costs have been observed,
+particularly during the peak demand
+periods of winter and summer. The
+energy sector's adaptation to a
+cleaner mix of generation sources
+is introducing a period of market
+volatility as we move towards
+sustainability.
+
+Consistent with these findings, the 2026 Quarter 1 STAR
+concluded that continued operation of certain existing peaker
+resources seeking to retire, including the Gowanus and Narrows
+units, is necessary to maintain reliability. The 2026 Quarter 1 STAR
+indicated that retaining these resources as planned projects enter
+service, including CHPE and other planned projects, improves
+margins in New York City substantially over the short-term
+horizon, but margins diminish again over the longer-term with
+demand growth and the risk of aging generation.
+
+As it relates to Long Island, the 2026 Quarter 1 STAR continued
+to find that bulk power system reliability margins would be
+deficient beginning in summer 2027 and continuing through the
+remainder of the five-year study horizon, driven primarily by
+the proposed deactivation of generators identified as necessary
+to serve reliability. The NYISO determined that the solutions
+proposed by Long Island Power Authority (LIPA) were viable and
+sufficient to address the identified needs. However, the solutions
+still need to be completed and, as with New York City, the 2026
+Quarter 1 STAR noted that interim measures may be required if
+permanent solutions are not available.
+
+Beyond its formal five-year planning horizon, the 2026 Quarter
+1 STAR projects that, even under the planned system assumptions
+that include CHPE, reliability margins continue to erode and grow
+deficient in the outer years, with deficiencies exacerbated and
+accelerated under high-demand forecast conditions. These results
+reinforce the longer-term risks if the system does not evolve
+beyond currently planned resources.
+
+Reliability Needs Assessment (RNA) and
+Comprehensive Reliability Plan (CRP)
+
+The NYISO’s RNA and CRP together assess the bulk power
+system over a ten‑year horizon through a two‑step cycle. In even
+years, the RNA identifies any actionable reliability needs, and in
+odd years, the CRP sets forth the plan to maintain reliability over
+the planning horizon, including resolving any actionable needs
+and evaluating key system risks.
+
+The most recent planning cycle illustrates how this process must adapt to increasing uncertainty.
+The 2024 RNA identified a reliability need in New York City that was expected to materialize later in
+the planning horizon, driven by forecasted demand growth, anticipated generator retirements, and
+constrained delivery into a dense load pocket.
+
+New
+20 York ISO
+
+2026 POWER TRENDS
+
+In developing the subsequent 2025–2034 CRP, the NYISO
+incorporated updated system assumptions, including a revised
+demand forecast for New York City. These updated assumptions
+mitigated the identified reliability need, obviating the need
+to issue a solicitation for solutions to resolve the previously
+identified need.
+Importantly, the 2025–2034 CRP did not treat this outcome
+as a signal that underlying risks had disappeared. Instead,
+it emphasized that reliability margins remain sensitive to
+changes in demand growth, resource availability, and future
+project timing. In particular, the 2025–2034 CRP highlights
+that reliability needs are more likely to result from growing
+range and interaction of potential future conditions, such
+as accelerated load growth occurring alongside delayed
+transmission upgrades, reduced generator availability within
+constrained load pockets, or the clustering of resource
+retirements in areas with limited import capability. The
+reliability need identified by the 2024 RNA remains an
+important marker of the pressures facing the system.
+
+Planning reports
+and studies
+> Short-Term Assessment of
+Reliability (STAR): Conducted every
+quarter to assess reliability needs
+within a five-year horizon to determine
+whether the grid will be able to supply
+enough power to meet demand.
+> Reliability Needs Assessment (RNA):
+Evaluates the reliability of the New
+York bulk electric system considering
+forecasts of peak power demand,
+planned upgrades to the transmission
+system, and changes to the generation
+mix over the next 10 years.
+> Comprehensive Reliability Plan
+(CRP): Integrates STAR reports and
+the most recent RNA, resolves any
+identified reliability needs and develops
+a 10-year reliability plan.
+
+Most importantly, the 2025–2034 CRP concluded that the
+NYISO must evolve its reliability planning methodology to allow
+> System and Resource Outlook
+for the identification of reliability needs under a broader range
+(Outlook): The Outlook will provide a
+of system conditions as opposed to a single deterministic case.
+comprehensive overview of system
+As long-range demand forecasts become more dependent on
+resources and transmission constraints
+the pace of electrification and the timing of large load additions,
+throughout New York, highlighting
+and as project timelines for future generation and transmission
+opportunities for transmission
+projects become less predictable, the range of plausible future
+investment driven by economics and
+public policy over a 20-year period.
+system outcomes has expanded. Examining how these factors
+interact, rather than evaluating them in isolation, allows
+planners to identify the conditions under which reliability
+margins erode and actionable needs may arise, even when baseline projections suggest adequate
+system performance. The 2025–2034 CRP therefore placed greater emphasis on examining plausible
+combinations of demand, resource availability, and project timing to understand the range of future
+reliability outcomes.
+
+The case for scenario planning
+
+Given the pace and complexity of change now shaping New York’s power grid, reliability planning
+must account for a widening range of plausible system conditions driven by uncertain demand growth,
+evolving resource mixes, shifting infrastructure timelines, and increasing exposure to extreme weather.
+In this environment, scenario‑based planning is a practical tool for ensuring that the grid remains reliable
+and capable of supporting public health, safety, and economic activity across a range of future outcomes.
+21
+
+New Y
+
+2026 POWER TRENDS
+
+Growing risks
+that threaten
+grid reliability
+> Reliance on aging generation: New
+York’s generation fleet is among the
+oldest in the country. Many fossil-fuel
+units that provide essential reliability
+services are nearing retirement. If these
+retirements outpace the addition of
+new resources, reliability margins could
+further decline, reducing operational
+flexibility and availability of essential
+grid services.
+> Large loads and future demand:
+Electrification of heating and
+transportation, combined with new
+industrial projects, such as data
+centers and hydrogen production, will
+drive demand up significantly. The
+system is also expected to shift from
+summer-peaking to winter-peaking,
+adding complexity to planning and
+operations.
+> Reliance on imports: New York has
+historically depended on imports
+from neighboring regions. As those
+systems also face significant changes,
+surplus energy for export will decline,
+increasing the need for in-state
+resources.
+> Extreme weather and seasonal peaks:
+Weather-driven demand spikes and
+renewable energy production variability
+will challenge system operations.
+The expected transition to a winterpeaking system adds new reliability
+risks during cold-weather extremes.
+> Delays in planned projects: New
+transmission and generation projects
+are essential to meeting policy goals.
+Delays in permitting or construction
+could create congestion and
+reliability shortfalls.
+
+New
+22 York ISO
+
+Reliability planning has traditionally evaluated the system
+under a defined set of expected conditions to determine whether
+there is a violation of reliability criteria. While that objective
+remains important, it is no longer sufficient on its own. As the
+system becomes more dynamic, plausible deviations from baseline
+assumptions, such as faster‑than‑expected electrification, delayed
+transmission projects, reduced generator availability, or the early
+arrival of large loads, can materially alter reliability outcomes.
+Planning for only a single expected future risks overlooking
+conditions under which reliability margins could erode quickly,
+leaving limited time and few options to respond.
+Scenario‑based planning addresses this challenge by explicitly
+examining multiple plausible futures rather than relying on a
+single expected future. By testing how the power system performs
+across different combinations of demand growth, resource
+availability, future project timing, and operational conditions,
+planners can better understand where reliability margins are
+most sensitive to uncertainty. This approach improves situational
+awareness by distinguishing between futures in which the
+system remains robust and those in which reliability becomes
+increasingly vulnerable.
+
+Importantly, scenario planning does not assume that all
+modeled outcomes will occur, nor does it predetermine the need
+for specific solutions. Instead, it provides a structured framework
+for identifying risks early, when more mitigation options remain
+available, and for understanding the conditions under which those
+risks emerge. Early identification allows planners, policymakers,
+and stakeholders to evaluate trade‑offs deliberately rather than
+reactively, reducing the likelihood that reliability challenges
+will need to be addressed through emergency measures or
+compressed timelines.
+
+Scenario planning also reflects the realities of a shifting
+resource mix. As the system relies more heavily on renewable and
+energy‑limited resources, reliability depends not only on installed
+capacity but on resource performance under stress, locational
+constraints, seasonal risk profiles, and fuel availability during
+extreme conditions. These factors interact in ways that cannot be
+fully captured through a single baseline case. Examining multiple
+scenarios allows planners to assess how different resource portfolios
+perform under a variety of conditions, providing insight into the
+reliability attributes that matter most as the grid modernizes.
+
+2026 POWER TRENDS
+
+From an economic and consumer protection perspective, scenario‑based planning is equally
+important. Reliable electricity is foundational to public health and safety, economic development, and
+consumer confidence. Planning that anticipates a range of future conditions helps reduce the likelihood
+of unplanned outages, sudden infrastructure needs, or costly emergency interventions. By highlighting
+where reliability margins are most exposed to uncertainty, scenario analysis supports more orderly
+investment, better coordination across planning processes, and more efficient use of resources over time.
+In an electric system characterized by accelerating change and incomplete information, careful
+planning means acknowledging uncertainty rather than attempting to eliminate it. Scenario‑based
+analysis provides a disciplined way to do so, strengthening the reliability planning framework,
+improving transparency around system risk, and supporting informed decisions that protect
+consumers while enabling the grid to evolve.
+
+As New York works to modernize its power system, support economic growth, and advance clean
+energy objectives, scenario planning is an essential element of responsible and forward‑looking
+reliability planning.
+
+Large load growth and reliability planning
+
+One of the most significant sources of uncertainty shaping future reliability outcomes is the rapid
+growth of large, energy‑intensive electricity customers.
+
+Recent planning studies reflect a marked increase in proposed large loads associated with data
+centers, advanced manufacturing, and other industrial uses whose scale, timing, and operating
+characteristics differ substantially from traditional demand growth. The size and pace of development
+of these projects present new challenges for reliability planning, particularly when they materialize
+on shorter timelines than the development
+FIGURE 9: IMPACT OF ELECTRIFICATION AND
+of new generation or transmission
+LARGE LOADS ON WINTER PEAK DEMAND
+infrastructure.
+31,000
+29,000
+
+Large Load Projects
+
+27,000
+25,000
+
+Building Electrification
+
+23,000
+
+EV Charging
+
+21,000
+19,000
+
+Base Winter Peak Demand
+
+17,000
+
+2040-41
+
+2038-39
+
+2036-37
+
+2034-35
+
+2032-33
+
+2030-31
+
+15,000
+2028-29
+
+The uncertainty surrounding large load
+development further complicates planning.
+
+35,000
+MW
+33,000
+
+2026-27
+
+From a reliability perspective, large loads
+affect the system in ways that extend beyond
+their aggregate contribution to peak demand.
+Many proposed facilities are designed for
+continuous or near‑continuous operation,
+increasing base load levels and reducing the
+system’s ability to rely on load diversity to
+absorb stress during extreme conditions.
+In constrained areas, even a small number
+of large facilities can materially alter local
+reliability margins, heightening sensitivity to
+generator availability, transmission outages,
+or delays in planned infrastructure upgrades.
+
+23
+
+New Y
+
+2026 POWER TRENDS
+
+Potential growth
+of large loads
+The number of new interconnection
+requests from large loads has grown
+dramatically in just a few years.
+
+1,045 MW
+In 2022, six large load projects
+in the interconnection queue
+accounted for 1,045 MW.
+
+12,670 MW
+As of May 1, 2026, there are 51
+large load projects in the queue
+which would collectively add nearly
+12,670 MW of load to the grid.
+
+Not all proposed projects ultimately proceed, and those
+that do may advance more quickly or slowly than initially
+anticipated depending on permitting, financing, or commercial
+considerations. As a result, planning studies must account for
+a wide range of plausible load trajectories, including scenarios
+in which multiple large projects advance concurrently or
+enter service earlier than expected. When combined with
+uncertainties in resource availability and timing of future
+infrastructure upgrades, large loads can amplify reliability risks
+under certain conditions even if baseline assumptions suggest
+adequate system performance.
+
+Large load growth also interacts with seasonal risk profiles.
+In several regions, projected industrial demand is large enough
+to influence the balance between summer and winter reliability
+risk, particularly as electrification takes root and winter peak
+load levels increase. Under cold‑weather conditions, when
+generation availability and fuel supply may be constrained,
+additional large loads can reduce operating headroom and
+increase reliance on emergency actions if mitigating solutions
+are not yet in place.
+
+Importantly, large loads are not uniform in their impact
+on reliability. Some facilities demonstrate the potential
+for operational flexibility, including the ability to reduce
+consumption during periods of system stress. Planning
+analyses show that even modest levels of load flexibility
+Our load forecasters anticipate
+can help preserve reliability margins and limit the need for
+that as much as roughly 2,880 MW
+emergency procedures. However, load flexibility varies widely
+of that new demand will be on the
+across sectors, and many of these facilities must be treated as
+system by 2040.
+firm demand for planning purposes. Distinguishing between
+flexible and inflexible load characteristics is therefore an
+increasingly important component of reliability assessments.
+
+2,880 MW
+
+Taken together, the growth of large loads reinforces the need for reliability planning
+frameworks that evaluate a range of plausible future conditions rather than a single expected case.
+Scenario‑based analysis allows planners to examine how different combinations of load growth,
+resource availability, and future infrastructure timing could interact, providing earlier visibility
+into conditions under which reliability margins may erode. As large load development continues,
+integrating these considerations into long‑term planning will be essential to maintaining reliability
+while accommodating economic growth and an evolving demand profile.
+
+New
+24 York ISO
+
+2026 POWER TRENDS
+
+Interconnecting large loads
+Rapid growth in large, energy‑intensive facilities such as data centers and advanced manufacturing
+has become an increasingly important consideration in system planning. While these projects interconnect
+to the grid through NYISO‑administered processes, large load interconnection differs fundamentally from
+generator interconnection.
+FIGURE 10: LARGE LOAD INTERCONNECTION STATUS
+Generator interconnection
+focuses on how new resources inject
+power into the grid and is evaluated
+primarily through a cluster study
+3,022 MW
+process, in which multiple projects
+are studied together to identify
+system impacts and required
+upgrades.
+Project status
+# of proposals
+Project Scoping
+1
+By contrast, large load requests
+SIS Pending
+20
+are studied through individual
+2,363
+SIS in Progress
+12
+System Impact Studies, reflecting the
+SIS Approved
+14
+Facilities Study Pending
+2
+localized reliability and transmission
+6,526
+Facilities Study in Progress 1
+impacts created by adding demand
+Under Construction
+1
+in a particular location on the grid.
+110
+as of May 1, 2026
+In light of the increasing volume and
+200
+300
+size of proposed large load projects,
+150
+the NYISO has begun evaluating such
+
+requests in groupings based on their
+electrical proximity. The NYISO’s role
+in this process is limited to assessing
+bulk system reliability impacts.
+Responsibility for identifying specific
+project proposals seeking
+of new demand as of
+needed upgrades, cost assignment
+interconnection by 2030
+May 1, 2026
+for those upgrades, and construction
+rests with the connecting utility company and load developer.
+As with generation, not all large loads applying for interconnection ultimately proceed to construction,
+introducing uncertainty around timing and scale. Given the size and rapid development timelines of
+recent large load proposals, anticipating which projects are most likely to advance to construction is now
+a critical factor in reliability planning. Large loads introduce additional complexity for planners, requiring
+project‑specific judgment, ongoing coordination, and scenario‑based analysis rather than reliance on a
+single demand forecast.
+Even before interconnection studies are complete, NYISO reliability planning studies must evaluate on
+a case-by-case basis which projects are sufficiently mature to be incorporated into planning scenarios, how
+rapidly their demand will grow, and to what degree they will be flexible (i.e., capable and willing to reduce
+demand) under strained system conditions.
+
+51
+
+12,670 MW
+
+25
+
+New Y
+
+2026 POWER TRENDS
+
+Maximizing
+transmission
+> To fully leverage the transmission
+system’s capability as fossil
+generation retires, additional
+dynamic reactive power must be
+added to the grid.
+> Dynamic reactive power will
+improve the delivery of electricity
+from renewable resources and help
+alleviate congestion.
+> Potential technology options
+include various “grid-enhancing
+technologies” (GETs), such as
+power flow control devices,
+static synchronous compensators,
+and synchronous condensers.
+
+System and Resource Outlook (The Outlook)
+In addition to reliability planning, the NYISO biennially
+produces the System and Resource Outlook (the Outlook), a long‑term
+assessment designed to examine how New York’s power system
+could evolve over multi‑decade horizons under different assumptions.
+While not a reliability assessment, the Outlook provides
+insight into structural trends, emerging risks, and the range of
+potential future outcomes that could influence investment and
+policy discussions. Previous Outlook studies found that meeting
+future demand while achieving state policy goals would require
+on the order of 100 to 130 gigawatts (GW) of installed capacity
+statewide by 2040. However, past Outlooks have consistently
+shown that long‑term system outcomes are highly sensitive to
+assumptions about demand growth, technology availability,
+transmission development, and policy implementation.
+
+Building on that foundation, the 2025-2044 Outlook to be
+issued in summer 2026, strengthens the planning framework
+> This is especially important to the
+through expanded use of scenario‑based analysis. The study
+Central East Interface which plays
+examines 18 distinct scenarios, each producing different system
+a key role in moving energy from
+outcomes based on varying assumptions about demand, resource
+upstate generation pockets
+availability, and policy attainment. Many of these scenarios are
+to downstate load centers.
+aligned with modeling efforts undertaken as part of the State
+Energy Plan, providing consistency across statewide planning
+efforts while enabling comparison across alternative futures.
+The scenarios span a range of outcomes, from full compliance with state policy goals to varying
+levels of partial compliance. For benchmarking purposes, the 2025-2044 Outlook also includes a
+“policy‑limited” scenario, which assumes no additional policy‑driven resource development beyond
+what has already been achieved. Examining this range of scenarios allows the NYISO, policymakers,
+and industry stakeholders to better understand how differing levels of policy attainment could shape
+future resource mixes, transmission needs, and system costs. These scenarios reveal a wide range of
+future capacity needs, from 10 to 30 GW of new generating capacity needed for scenarios that assume
+no further development of policy‑driven resources to achieve compliance with the 2019 Climate
+Leadership and Community Protection Act (CLCPA) targets, to more than 100 GW of new resources
+needed by 2044 to realize full compliance with the CLCPA’s zero-emissions grid requirements.
+
+For all scenarios that assume full compliance with various CLCPA goals, the study deploys either
+nuclear capacity or hydrogen-based generation as zero‑emissions technologies to support emissions
+reduction objectives. These resources are assumed to provide the dispatchability and flexibility needed
+to replace the energy and reliability services fossil-fuel based generation currently delivers to the grid.
+But the 2025-2044 Outlook modeling highlights important economic trade-offs as well. In scenarios
+that allow fossil‑fuel resources to operate beyond 2040, the models used in the study tend to select
+
+New
+26 York ISO
+
+2026 POWER TRENDS
+
+fossil generation over hydrogen‑based alternatives, reflecting the higher relative costs associated with
+hydrogen under current assumptions. While all scenarios reinforce the need for resources that can
+deliver firm, flexible supply to the grid, these results help clarify the conditions under which emerging
+technologies may become competitive and the implications for long‑term resource development
+pathways.
+
+The 2025-2044 Outlook continues the approach for prior Outlooks in evaluating a range of potential
+futures to identify, among other things, opportunities for transmission investment driven by economics
+and public policy in New York. This approach strengthens the ability to gain insights into uncertainty,
+evaluate tradeoffs, and inform long‑term discussions about how reliability, affordability, and policy
+objectives may interact over time.
+
+Interconnecting new resources: ensuring safe and reliable integration
+
+Interconnecting new resources to the bulk electric system is a foundational responsibility of
+the NYISO and a critical component of maintaining reliability as the grid evolves. At its core, the
+interconnection process seeks to ensure that new facilities, whether they consume or produce electricity,
+do not create operating conditions that compromise the reliability of the grid, or shift inappropriate costs
+and risks onto consumers.
+On the supply side, most proposed generation resources are required to undergo NYISOadministered interconnection studies. Large-scale generation in particular has the potential to
+significantly affect system operations, power flows, and fault levels across the bulk power system.
+At this scale, new generation can alter how electricity moves across the transmission network, influence
+reliability margins, and affect neighboring facilities.
+The NYISO’s interconnection studies for generation assess whether proposed facilities can connect
+and operate without creating reliability risks, and they identify any transmission upgrades needed to
+accommodate them safely. This includes evaluating:
+∎ Thermal and voltage impacts under normal and contingency conditions.
+∎ Short circuit contributions and protection system coordination.
+∎ Interactions with other proposed and existing generation.
+
+∎ The cumulative effects of multiple projects seeking to interconnect in the same area.
+
+In recent years, the interconnection queue has been dominated by renewable and energy-limited
+resources aligned with New York’s clean energy goals. While this reflects strong investor interest,
+experience has shown that many projects that successfully complete interconnection studies do not
+ultimately reach commercial operation. Development headwinds, including rising construction costs,
+supply chain constraints, financing challenges, and permitting delays, can significantly alter project
+viability after studies are complete.
+This dynamic has important implications for reliability planning. A large interconnection queue
+does not guarantee near-term capability to support continued reliability, particularly when retiring
+resources provide services — such as fuel assurance, dispatchability, inertia, or sustained output —
+that new resources may not replace on a one-for-one basis. As a result, planners must distinguish
+between proposed projects and those that are likely to materialize and perform as needed.
+
+27
+
+New Y
+
+2026 POWER TRENDS
+
+Preparing the grid for a period of great change
+Both load and generation interconnection processes are time intensive. They require detailed
+engineering analysis, coordination with transmission owners and developers, and evaluation of
+multiple operating conditions to ensure that new facilities do not create adverse reliability impacts
+to the system. These studies cannot rely on simplified assumptions without risking future operating
+problems that could manifest during periods of peak demand or system stress.
+Importantly, the interconnection framework also serves a consumer protection function. The
+process generally allocates the cost of required system upgrades to project developers rather than
+spreading those costs broadly across ratepayers. This ensures that consumers are not asked to
+subsidize infrastructure needed solely to accommodate individual projects, while still enabling
+development to proceed when it can be achieved reliably.
+
+Taken together, the interconnection of large loads and new generation reflects the scale and
+complexity of the transition underway in New York’s electric system. On one side, demand is rising and
+becoming less certain and more dynamic. On the other, supply is changing in composition, location,
+and operational characteristics. Managing both pathways through a disciplined, reliability focused
+interconnection process is essential to ensuring that today’s investment decisions do not become
+tomorrow’s reliability challenges.
+
+As the pace of change accelerates, interconnection studies provide a critical checkpoint — ensuring
+that the grid is prepared to accommodate new development while preserving reliability, shielding
+consumers from unnecessary costs, and supporting a modernized electric system capable of meeting
+future economic, environmental, and public health needs.
+
+A new, improved interconnection process
+
+Recognizing the need to advance projects more efficiently while maintaining rigorous reliability
+review, the NYISO implemented an improved “cluster study” framework for interconnection studies
+consistent with evolving federal expectations. This approach evaluates large groups of interconnection
+requests collectively rather than individually, which reduces study time and workload while preserving
+the thoroughness required to identify system upgrades and protect reliability.
+
+Under the cluster study framework, the NYISO conducts a two-phase study process supported
+by a customer engagement window, including a physical infeasibility screen, to identify early in the
+interconnection process whether there are known issues that would prevent a potential project from
+feasibly connecting at its proposed location. The process also limits mid-stream modifications, includes
+commercial readiness deposits and withdrawal penalties to encourage viable projects to remain in
+the queue and speculative projects to withdraw, and establishes tariff-mandated study deadlines and
+associated consequences — features that are designed to accelerate timelines without sacrificing the
+completeness of the study work.
+
+The inaugural cluster study advanced approximately 240 generation projects through Phase 1
+as a key milestone toward integrating new generation facilities onto the grid. The NYISO currently
+anticipates completion of the ongoing cluster study work in August 2026, with the final decision period
+for interconnection customers running to October 2026, positioning projects to move to subsequent
+steps, such as interconnection agreement negotiation, which is critical to positioning the projects to
+commence final engineering, procurement and construction.
+
+New
+28 York ISO
+
+2026 POWER TRENDS
+
+What's delaying the completion of energy projects
+in New York?
+New York urgently needs incremental electric generation capability to meet rising demand. While
+the NYISO has made progress in streamlining its interconnection process, data shows that clearing
+interconnection studies does not guarantee projects move forward to construction.
+
+Since 2019, more than 100 projects representing more than 14,000 MW of clean energy supply have
+completed the NYISO’s interconnection process.
+
+Of those approved projects, 14, accounting for 4,561 MW of capacity, are in active construction, reflecting
+the reality that many of the most significant challenges facing developers arise after interconnection
+requirements have already been resolved.
+Interconnection studies evaluate how new resources interact with the transmission system during peak
+demand and other stressed operating scenarios.
+The NYISO has recently streamlined its interconnection process, updating the interconnection portal,
+improving the application process and launching an enhanced “cluster study” framework that evaluates
+projects in groups to improve efficiency and transparency for all parties involved.
+
+Reaching an executed interconnection agreement is a critical milestone that establishes how a project
+can reliably and safely connect to the bulk power system, including what system upgrades are required,
+how costs are allocated, and how the resource is expected to perform under a range of system conditions.
+As developers advance projects through the NYISO’s interconnection process, they must also pursue project
+permits, financing, and negotiate arrangements for the equipment and labor necessary to build and operate
+FIGURE 11: COMPLETED NYISO INTERCONNECTION QUEUE REQUESTS SINCE 2019
+
+Resource Type
+
+Capacity (MW)
+
+Projects
+
+780
+
+4
+
+Energy Storage
+
+2,059
+
+24
+
+Offshore Wind
+
+1,740
+
+3
+
+Solar
+
+5,461
+
+64
+
+Wind
+
+1,695
+
+8
+
+DC Transmission
+
+2,550
+
+3
+
+Total
+
+14,285
+
+106
+
+Combined Storage/Solar
+
+29
+
+New Y
+
+2026 POWER TRENDS
+
+projects. Recent experience shows that many of these factors outside of the scope of the interconnection
+process are ultimately dictating when or whether projects get built.
+
+Developers must also navigate challenges associated with supply chain disruptions, access to project
+capital, and economic forces that can drive up the costs and extend development timelines.
+
+State agencies are taking note of these challenges. In recent Clean Energy Standard (CES) Annual
+Progress Reports, the New York State Energy Research and Development Authority (NYSERDA) has noted
+that inflationary pressures, global supply‑chain disruptions, elevated interest rates, permitting timelines,
+and transmission availability have contributed to slower‑than‑anticipated progress in advancing contracted
+renewable energy projects into construction.
+Similar state reviews recognize that while interconnection is an essential prerequisite, delays are
+increasingly driven by forces outside of the interconnection process, particularly during later development
+and construction phases.
+
+Rising tension between state and federal energy and environmental policies is adding further uncertainty
+for developers. Changes to federal trade policy, tax incentives, and regulatory frameworks are influencing
+equipment procurement, project economics, and long‑term investment decisions. These cross‑currents
+introduce additional risk at a point when projects are already navigating complex permitting, financing, and
+construction challenges, increasing the likelihood of delay even after interconnection milestones have been
+reached.
+While interconnection constraints are often cited as a cause of project delays, the number of approved
+but unbuilt projects suggests that other factors play a significant role. Addressing these broader challenges
+will be essential to advancing new generation in New York.
+
+Interconnection portal
+The NYISO has also continued to improve its interconnection portal to streamline information
+sharing and increase transparency for developers and utilities. Enhancements are intended to make it
+easier to submit and track requests, provide improved visibility into project status, and support more
+efficient engagement during key decision periods in the cluster study process.
+
+Beyond planning
+
+Together, these planning efforts provide a disciplined framework for identifying emerging
+reliability risks and understanding how a wide range of plausible future system conditions could
+challenge the grid. Identifying those needs is only the first step. Ensuring that the resources required to
+maintain reliability are developed, retained, and operated when needed depends on how effectively the
+wholesale electricity markets translate planning insights into operational and investment signals.
+As the system becomes more dynamic and uncertainty increases, competitive wholesale markets
+play an increasingly important role in responding to the conditions highlighted through planning.
+
+New
+30 York ISO
+
+2026 POWER TRENDS
+
+Wholesale Electricity
+
+Markets
+supporting reliable power on a changing
+system and efficiency for consumers
+
+Competitive wholesale electricity markets are the
+operational brains of New York’s electric system, translating
+real-time and future system needs into operational decisions
+and price signals for private investment. Markets are
+sophisticated frameworks designed to protect reliability and
+inform investments that place financial risk on developers
+rather than consumers.
+Recent periods of higher prices and volatility are
+not indicative of flaws in market design. They are the
+consequences of the conditions under which markets are
+increasingly being asked to operate: strict environmental
+requirements and policy objectives, tightening supply
+margins, rising demand from electrification and economic
+growth, and policies that deter needed investment in new or
+repowered dispatchable generation.
+
+When the system is stressed, markets identify and surface
+those stresses. System performance during summer 2025
+and winter 2025-2026 illustrates this dynamic clearly. Over
+the past several years, generator retirements have outpaced
+the entry of new resources, narrowing reserve margins and
+reducing operational flexibility. Despite these conditions, the
+system has remained reliable because wholesale markets
+accurately reflected periods of scarcity and sent clear signals
+about the need for new supply to maintain reliability. Higher
+prices during peak hours appropriately reflect the operational
+realities of the current grid — a system operating with less
+supply and reduced flexibility.
+
+Protecting
+consumers
+> The NYISO has a team of engineers
+and economists that review market
+performance to make sure that prices
+reflect market conditions, such as
+fuel costs to produce energy. The
+NYISO can modify market participant
+offers if they do not meet competitive
+market rules that require that offers
+appropriately reflect suppliers' costs.
+> An independent market monitor
+evaluates the performance of the
+NYISO's markets each day to make sure
+market outcomes reflect strict market
+rules driving competition to serve
+customers. The market rules and how
+they are administered are also subject
+to review by the independent market
+monitor to make sure our market
+design is as efficient as possible.
+> FERC’s Office of Enforcement and the
+New York State Department of Public
+Service are active in evaluating markets
+and how they are administered. FERC
+can issue penalties to entities that
+violate wholesale market rules.
+
+31
+
+New Y
+
+2026 POWER TRENDS
+
+Winter 2025-2026 further underscored the value and limits of markets operating under
+constraint. Severe cold weather exposed fuel availability limitations and generator unavailability,
+requiring frequent operator intervention, activation of emergency demand response programs, and
+increased reliance on aging generation.
+
+Wholesale prices rose sharply in response to limited supply, high natural gas prices, and the
+increased use of emergency tools to balance load with supply and maintain adequate energy reserves.
+These price outcomes accurately reflected actual system conditions and underlying supply constraints.
+$12
+
+$90
+
+$74.40 $10
+
+$80
+$70
+
+$8
+
+$60
+$50
+
+$4.64
+
+$40
+
+$6
+$4
+
+$30
+$20
+
+$2
+
+$10
+2025
+
+2020
+
+2015
+
+2010
+
+$0
+2005
+
+$0
+2000
+
+Average Annual Electricity Price ($/MWH)
+
+$100
+
+Average Annual Natural Gas Price ($/MMBtu)
+
+FIGURE 12: HISTORICAL NATURAL GAS AND WHOLESALE ELECTRICITY PRICES, 2000-2025
+
+Rising wholesale prices over this period are best understood as the predictable result of current
+grid conditions as shaped in response to policies and other factors. The retirement of the Indian Point
+nuclear facility and large volumes of dispatchable generation, including peaking resources retired
+under DEC emissions regulations, combined with permitting impediments to repowering and new
+entry of fossil-based generation, has reduced available supply faster than it has been replaced. Markets
+do not create scarcity; they reveal it. When dispatchable capacity exits faster than it is replaced, prices
+rise to reflect increasing reliability risk and the cost of maintaining system security.
+In recent years, several proposed repowering projects that would have preserved or upgraded
+existing dispatchable capacity have not advanced due to permitting outcomes shaped by state climate
+policy considerations. In 2019, Eastern Generation proposed to repower the Gowanus and Narrows
+generating stations in New York City with newer natural gas–fired technology but withdrew its
+application in 2021 after state air permit determinations concluded the project would be inconsistent
+with statewide greenhouse gas emission limits established under the CLCPA. Danskammer Energy
+similarly advanced a repowering proposal in 2018 for an approximately 536 MW natural gas–fired
+
+New
+32 York ISO
+
+2026 POWER TRENDS
+
+combined‑cycle plant at its Newburgh facility. The required air
+permits were denied in 2021 on comparable CLCPA consistency
+grounds, and the company ultimately withdrew its permit
+applications in 2024. These cases illustrate how energy and
+environmental policies are shaping resource development
+outcomes and can result in impediments to the development of
+new generating capacity to help ease the current constrained
+supply conditions faced by the grid.
+Competitive wholesale markets remain the most
+effective platform for:
+
+∎ Balancing reliability, affordability, and emissions goals.
+
+∎ Rewarding operating efficiency, dependable performance,
+and flexibility.
+∎ Attracting private capital.
+
+∎ Protecting consumers by allocating investment risk to
+those best positioned to manage it.
+
+As the grid becomes more weather dependent, winter
+peaking, and operationally complex, the NYISO continues to
+strengthen market signals through targeted enhancements to
+reserve procurement, price formation, storage participation,
+and Capacity Market design.
+
+Market prices
+reveal system
+conditions
+> Higher wholesale prices are
+reflections of actual grid conditions
+and not market design flaws or
+inadequacies. Such pricing outcomes
+underscore the constrained nature
+of supply availability in New York.
+> The policy driven clean energy
+transition has accelerated supply
+retirements while limiting avenues
+for replacement, resulting in generator
+retirements outpacing new entry.
+Key state policies that have impacted
+supply in recent years include:
+
+• The retirement of Indian Point,
+eliminating a significant amount
+of zero-emission, round the clock
+generation.
+
+However, markets cannot deliver their full value if policies
+• Accelerated retirement of
+operate in a contradictory rather than complementary fashion.
+fossil generation (including peak
+Securing reliability, protecting consumers, lowering emissions,
+supply resources) in response to
+and attracting the investment required for New York’s future
+emissions regulations.
+grid depends on a clear division of roles: policymakers
+set objectives, and markets determine the most efficient,
+• Permitting and policy barriers
+economical way to meet them. This ensures that markets
+that limit investment interest in
+new or repowered dispatchable
+serve to complement the achievement of policy objectives
+fossil resources.
+and deliver additive benefits of maintained reliability at the
+lowest cost available to consumers. Such a framework unlocks
+the full power of markets to drive the most efficient and costeffective response to achieving policy objectives while maintaining grid reliability.
+The experience of summer 2025 and winter 2025-2026 makes clear that competitive markets
+are still working but are being asked to do so within a policy framework that constrains solutions,
+contributing to increased costs over time. The question for New York is no longer whether markets
+work, but whether they will be allowed to succeed as a complement to achieving policy objectives
+while preserving reliability critical to successful transformation of the grid.
+
+33
+
+New Y
+
+2026 POWER TRENDS
+
+		
+
+The benefits of repowering
+To realize a reliable zero-emissions grid as envisioned
+by the CLCPA, the state must replace its fossil-fuel generation
+fleet with dispatchable, emissions-free generating
+technologies. But such technologies do not yet exist on a
+commercial scale, meaning the essential reliability services
+provided by fossil-fuel resources cannot be easily replaced
+if these resources leave the system.
+Waiting for technologies with such capabilities to
+materialize is not a viable option for the state given the
+forecasted pace and growth in demand from proposed
+investments in data centers and economic development
+projects, as well as electrification. While uncertainty exists
+around the timing and magnitude of these new large loads,
+they can develop under much quicker timeframes than
+the generation or transmission investments that might be
+needed to support them.
+
+In the short-term, repowering existing, older fossil-fuel
+power plants, or upgrading existing renewable generating
+facilities with new technologies offers a compelling solution.
+
+FIGURE 13: 2025 AGING FOSSIL
+GENERATION ENERGY PRODUCTION
+8,000
+GWh
+7,000
+
+10%
+
+of total
+in-state
+energy
+production
+
+7,233
+
+6,000
+5,000
+
+4,407
+
+4,000
+3,000
+2,000
+1,000
+0
+
+1,175
+50-59
+Years Old
+
+60-69
+Years Old
+
+70+
+Years Old
+
+Repowering is the process of retrofitting and
+modernizing existing power plants, often focusing on replacing older components with cleaner, more efficient
+and powerful equipment. This strategy can help stabilize the grid during this period of transition, support
+economic development, and achieve deep emissions reductions.
+
+With many power plants in New York already beyond industry standards for their expected useful life, the
+NYISO has raised concerns about future reliability. Upgrading the existing fossil fleet not only can help with a
+stepped approach to carbon reductions by replacing older, higher emitting turbines with new, cleaner cuttingedge technology, it also holds the potential for helping avoid future generator breakdowns, thereby bolstering
+grid reliability.
+Examples of repowering
+
+• Fossil plants: Replacing older boilers or turbines with newer, cleaner, more efficient, cutting-edge
+technology.
+
+• Hydro power: Replacing turbines, generators, automation systems, and hydraulic components to enhance
+the plant's performance.
+• Solar power: Replacing older photovoltaic equipment and inverters with newer, more efficient generating
+equipment.
+• Wind power: Replacing turbines with greater capacity or upgrading older blades with more efficient
+technology can improve energy yield.
+
+The latest State Energy Plan, finalized in December 2025, echoes the NYISO’s call for repowering to extend
+the lifespan of existing power plants, lower emissions, and enhance grid stability during the clean energy
+transition. At the time of this publication, power producers are considering repowering select aging fossilfuel generators in New York City and Long Island. The generators in questions have a combined capacity of
+approximately 3,500 MW.
+
+New
+34 York ISO
+
+2026 POWER TRENDS
+
+Strengthening market signals
+As the resource mix shifts and operational uncertainty
+grows, the NYISO continues to strengthen market signals
+through targeted enhancements, including:
+∎ Dynamic and risk-responsive reserve procurement.
+
+∎ Improved modeling and participation for storage and
+hybrid resources.
+∎ Enhanced shortage pricing and congestion valuation.
+
+∎ Capacity Market refinements that better reflect winter
+performance and reliability contribution.
+
+These efforts improve price formation and investment
+clarity. But markets cannot perform optimally if policy
+constraints limit the range of investment opportunities and
+solutions. Securing reliability and affordability requires letting
+markets produce signals reflecting actual system conditions and
+allowing investors, developers, and consumers to determine
+and pursue the most efficient responses to such price signals.
+
+Investment
+challenge ahead
+> New York faces rising demand from
+electrification, economic development,
+and large new loads at the same time
+that older resources are retiring and
+facing increased risk of age-related
+outages and unavailability. Meeting
+these needs will require massive
+private investment.
+> Competitive markets can:
+
+• Attract capital at the
+necessary scale.
+• Allocate risk away
+from consumers.
+• Adjust rapidly to changing
+technologies and
+system needs.
+
+Competitive markets naturally reward efficiency. Resources
+that use less fuel or otherwise produce lower-cost electricity,
+perform reliably, and operate flexibly are scheduled more often and earn revenue based on performance.
+
+How New York’s wholesale markets function
+
+The NYISO administers three interdependent markets that together balance load with supply and
+maintain reliability at least cost, based on system conditions and available resources:
+∎ The Energy Market commits and dispatches the lowest-cost set of resources, every five
+minutes, to meet changing demand while respecting security constraints.
+
+∎ The Capacity Market secures resource adequacy by compensating suppliers for being
+available to perform during peak and stressed conditions, complementing the Energy Market’s
+production payments.
+
+∎ The Ancillary Services Markets procure services that maintain the frequency, voltage, ramping
+capability, and reserves needed to manage variability and contingencies.
+
+The Energy Market: real-time efficiency across a changing resource mix
+
+The Energy Market is designed to maintain reliability and cost discipline amid an increasingly
+dynamic resource mix. It continuously evaluates resource availability, transmission constraints, and
+forecasted conditions to select the least-cost portfolio of resources every five minutes. By valuing and
+procuring energy and operating reserves based on actual system conditions, the Energy Market provides:
+∎ Transparent operational signals that guide developer decisions and inform long-term planning.
+∎ Efficient dispatch outcomes that minimize uplift and reduce systemwide operational costs.
+
+35
+
+New Y
+
+2026 POWER TRENDS
+
+∎ Improved alignment between market prices and underlying reliability needs, ensuring
+consumers pay for the services necessary to maintain a stable, reliable grid.
+
+When natural gas prices rise, the cost of generation
+increases, and those higher fuel costs are reflected
+directly in energy prices. As a result, the Energy
+Market is where consumers experience the effects of
+higher fuel prices, particularly during cold weather
+periods that elevate demand. However, to provide
+greater price stability for retail customers during the
+winter months, utilities procure about 70% of their
+supply through fixed-price contracts that are not
+impacted by volatile fuel costs. This reduces retail
+consumer exposure to fuel-driven price fluctuations
+while allowing the wholesale market to respond to
+real-time system conditions.
+
+FIGURE 14: RESIDENTIAL RETAIL AND
+WHOLESALE PRICE TRENDS, 2021-2025
+30
+
+25
+Utility
+Retail Rate
+
+20
+Cents/KWh
+
+Wholesale energy prices reflect the marginal cost
+of serving demand, including fuel costs, operations
+and maintenance expenses, costs associated with
+emissions credits or allowances, and the operational
+constraints of the transmission system. Because
+natural gas–fired resources frequently set marginal
+prices in New York, the cost for this fuel is a primary
+driver of Energy Market outcomes.
+
+15
+
+10
+
+Total Wholesale
+Supply Cost
+
+5
+
+0
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Source: Potomac Economics, NYISO 2025 State of Market Highlights
+
+As weather-dependent resources grow and operational uncertainty rises, the Energy Market
+serves as an essential mechanism for maintaining both efficiency and reliability. The market
+increasingly must account for rapid swings in renewable output, steeper load ramps and changing
+demand patterns, regional forecast errors, and emerging winter risks.
+
+Real-time prices reflect a broader set of system attributes, including flexibility, locational
+deliverability, and supply limitations, so operators and stakeholders receive clear indicators of when
+and where reliability services are most needed.
+
+The Capacity Market: ensuring resources are available when needed
+
+Reliability requires that enough supply be available to meet peaks under stressed conditions.
+New York’s Capacity Market provides the financial and operational foundation necessary to ensure
+that enough resources are available to meet reliability needs under all expected conditions. As the grid
+evolves toward a more weather-dependent, policy-driven resource mix, the Capacity Market plays an
+increasingly important role in signaling the amount, location, and performance attributes needed to
+maintain resource adequacy.
+
+A framework designed for reliability under stress
+
+The Capacity Market secures a sufficient margin of resources above forecasted peak load. The
+Installed Reserve Margin (IRM) is established annually by the New York State Reliability Council
+
+36
+
+New
+36 York ISO
+
+2026 POWER TRENDS
+
+through rigorous reliability studies that evaluate expected
+load patterns, resource performance, and transmission
+capability. The IRM ensures that the system maintains
+sufficient capacity to comply with reliability criteria.
+
+Besides the overall requirements for the state, certain
+regions have special rules to make sure enough electricity
+is available locally when transmission lines cannot bring
+in power from elsewhere. These locational requirements
+help focus investments in areas that need increased
+reliance on local resources.
+As New York integrates higher levels of renewable
+generation and consumer demand rises in winter, the
+Capacity Market is adapting to reflect new operational
+challenges. Key areas of focus include:
+
+FIGURE 15: SUMMER 2026 STATEWIDE
+CAPACITY ASSESSMENT
+
+Installed
+reserve
+margin
+
+3,168
+7,737
+
+Import
+capability
+Demand
+response
+
+927
+
+DER
+capability
+
+343
+
+Load
+forecast
+
+31,578
+
+37,420
+
+In-state
+generation
+
+∎ Winter reliability capabilities. With
+electrification driving significant winter load
+Required
+Available
+Resources
+Resources
+growth, the Capacity Market is being evaluated
+39,315 MW
+41,858 MW
+for enhancements that more accurately reflect the
+ability of resources to perform during prolonged cold-weather events, when facing winter fuel
+availability constraints, and during other extended stress periods.
+∎ Performance-based accreditation. The growing diversity of the resource mix, incorporating
+renewables, storage, and conventional units, requires updated approaches to valuing resource
+availability and dependability. Accreditation reforms aim to ensure that each resource type is
+compensated according to its expected contribution during critical hours.
+
+∎ Durable and predictable investment signals. By providing transparent forward price signals,
+the Capacity Market supports financeable pathways for new entry while ensuring that consumers
+pay only for the level of reliability they need. This predictability is essential as developers face
+supply-chain pressures, evolving permitting processes, and increased cost uncertainty.
+
+Ancillary Services: essential reliability functions procured efficiently
+
+New York’s Ancillary Services Markets provide the operational foundation needed to maintain
+reliability in a system increasingly shaped by variable renewables, shifting load patterns, and more
+frequent periods of operational uncertainty. Ancillary Services Markets ensure that adequate reserves,
+frequency response, and voltage support are available in real-time. These capabilities remain
+indispensable even as the energy supply becomes cleaner and more distributed.
+
+Supporting real-time system stability
+
+Ancillary Services, such as reserves and regulation service, are procured through the NYISO’s
+markets to maintain grid stability during normal operations and unexpected system events. As New York
+integrates large quantities of weather-dependent generation, these services have grown in importance.
+Variability and forecast error associated with wind and solar output increase the need for rapid, flexible
+resources that can respond to abrupt changes in supply or demand.
+
+37
+
+New Y
+
+2026 POWER TRENDS
+
+A critical component of New York’s clean energy transition
+As the grid becomes more dependent on variable resources and more sensitive to weatherdriven conditions, Ancillary Services remain essential to maintaining system reliability. By evolving
+procurement methods, improving modeling of new technologies, and enhancing price formation, the
+NYISO ensures that the system can respond quickly to unexpected changes in supply or demand. It
+also ensures new technologies, especially storage and hybrid resources, are integrated effectively and
+compensated for their reliability contributions and that consumers benefit from transparent, efficient
+market outcomes that reduce reliance on manual operational interventions.
+
+California's experience with resource adequacy reform
+Not all regions around the country rely on Capacity Markets to establish resource adequacy.
+California’s approach to maintaining resource adequacy requires that utilities and other load serving
+entities procure sufficient resources to meet forecasted system, local, and flexible reliability needs.
+Compliance is demonstrated through bilateral contracts and regulatory filings. The California grid
+operator (CAISO) assesses deliverability and operates the system in real time but does not conduct a
+forward auction that produces a single, transparent capacity price.
+This structure has presented operational and reliability challenges, particularly as the resource
+mix has shifted toward intermittent and energy-limited technologies. Because reliability obligations
+are met through bilateral procurement, the system operator may have limited advance visibility into
+the specific resources that will be available and capable of performing during stressed conditions.
+This can complicate real-time operations and increase reliance on manual or administrative
+interventions.
+In response to these challenges, CAISO has pursued market enhancements such as the
+Extended Day Ahead Market (EDAM) to improve regional coordination and provide greater day
+ahead visibility into resource availability and system readiness. While EDAM enhances operational
+awareness and improves scheduling across a broader footprint, it does not replace a structured
+Capacity Market that produces transparent, long term investment signals to help ensure sufficient
+resources are developed to meet future reliability needs.
+California’s experience has included repeated use of Reliability Must Run (RMR) contracts —
+out-of-market agreements used to keep specific generating resources online when existing
+procurement mechanisms have not ensured their retention or development of sufficient
+replacements, and such resources are still needed for local or system reliability. RMRs have been
+used to address transmission-constrained areas, short-term procurement gaps, and mismatches
+between contracted portfolios and operational needs.
+
+These outcomes illustrate key tradeoffs of procurement-based frameworks: while they offer
+policymakers greater control over resource selection, they can reduce transparency, weaken
+performance signals, and increase the likelihood of required reliance on administrative backstops
+when planning, procurement, and operations are not fully aligned.
+
+New
+38 York ISO
+
+2026 POWER TRENDS
+
+The NYISO is working hard to evolve the markets to
+support a cleaner, lower-cost and more reliable future. To
+accomplish this, the NYISO’s Market Design team is focused
+on the following:
+
+∎ Enhancing flexibility procurement. As steeper load
+ramps appear in both morning and evening hours, the
+NYISO is evaluating opportunities to better signal and
+procure flexible ramping capability.
+∎ Integrating storage and hybrid resources. There
+is a need for improved modeling of storage state-ofcharge, duration, and performance characteristics
+to ensure these resources can effectively provide
+regulation and reserves. As storage participation
+expands, ensuring accurate compensation for their
+reliability value is essential.
+
+∎ Strengthening frequency control. As inverter-based
+resources (IBRs), such as solar, wind, and battery
+storage, continue to displace conventional generators,
+the NYISO anticipates an increased need for fast
+frequency response and improved mechanisms for
+recognizing IBR contributions to system stability.
+∎ Addressing seasonal reliability needs. With
+winter becoming the critical planning season,
+ancillary service requirements must ensure sufficient
+availability of resources capable of performing during
+cold-weather events, fuel supply constraints, and
+prolonged stress periods
+
+Key market enhancements underway
+to meet emerging challenges
+
+Inverter-based
+resources
+> Inverter-based resources are
+technologies such as: wind, solar,
+and battery storage that connect to
+the grid through power electronic
+inverters rather than through
+traditional rotating generators.
+While these resources can provide
+energy efficiently, they do not
+inherently supply system inertia or
+the same voltage and frequency
+support traditionally provided by
+conventional generation, and their
+performance during disturbances
+depends heavily on software
+settings, standards, and system
+conditions.
+> At high penetration levels, this
+can increase sensitivity to faults,
+reduce system strength in certain
+locations, and complicate voltage
+and frequency management during
+stressed conditions.
+> Following an April 2025 blackout
+affecting Portugal and Spain,
+system operators identified that high
+reliance on inverter-based resources,
+combined with limited availability
+of conventional generation,
+contributed to voltage instability
+and reduced the system’s ability
+to stop a cascading event once
+disturbances began.
+
+The NYISO continues to lead the pivotal evolution to
+New York’s wholesale electricity markets as system
+conditions become more dynamic, winter demand risks
+intensify, large loads enter the grid, and renewable penetration accelerates. The NYISO is advancing
+a suite of market enhancements that more precisely reflect operational realities, seek to strengthen
+reliability margins, and provide transparent, durable investment signals. These initiatives focus
+on enhancing flexibility, improving price formation, integrating limited-duration and intermittent
+resources more effectively, and ensuring that new generation and transmission can be effectively
+interconnected.
+
+39
+
+New Y
+
+2026 POWER TRENDS
+
+Energy efficiency
+and DSM
+> Energy efficiency and Demand-Side
+Management (DSM) play a key role in
+reducing energy consumption, lowering
+costs, and mitigating environmental
+impacts.
+> Energy efficiency programs offer
+customers incentives to decrease overall
+electricity demand. DSM focuses on
+managing energy use through various
+strategies to optimize grid operations
+during times of peak demand. By
+promoting energy-efficient technologies
+and behaviors, DSM initiatives help
+reduce overall energy consumption,
+which in turn lowers electricity demand.
+> Energy efficiency measures and
+demand response programs can help
+individuals and businesses save money
+on energy bills. Reducing energy demand
+can lead to lower emissions.
+> DSM also helps manage the flow of
+electricity on the grid, ensuring a stable
+and efficient power supply, especially with
+the increasing integration of renewable
+energy sources. By proactively managing
+demand, DSM can also minimize the need
+for costly infrastructure upgrades and
+promote a more efficient and sustainable
+energy system.
+
+Key market initiatives include:
+
+Dynamic reserves: managing uncertainty in real-time
+As weather-driven variability, steep ramps, and resource
+uncertainty increase, static reserve requirements may no
+longer optimally capture the full spectrum of real-time
+operational risk. Dynamic Reserves introduce a framework in
+which reserve procurement adjusts based on shifting system
+conditions, including active generating resources, contingency
+exposure, and transmission constraints. This risk-responsive
+design ensures reserves are procured where and when they
+are needed, reflecting regional constraints and real-time grid
+conditions. It also strengthens incentives for flexible and
+fast-responding resources and improves price formation by
+aligning reserve demand with system conditions, reducing
+uplift and enhancing transparency. Dynamic Reserves help
+operators manage system conditions with sharper precision,
+supporting both reliability and economic efficiency.
+
+Advanced storage modeling: optimizing limited duration
+resources
+
+Energy storage will become central to managing
+renewable intermittency and evening ramps, but its finite
+duration and state-of-charge characteristics require
+sophisticated modeling. The NYISO is implementing advanced
+day-ahead and real-time storage modeling that more
+accurately represents:
+∎ State-of-charge and charging/discharging limitations.
+
+∎ Duration constraints under sustained stress conditions.
+∎ Cycling costs and performance metrics.
+
+Improved modeling enables storage to be deployed in
+the hours and locations where its reliability value is highest,
+supporting contingency coverage, ramping needs, frequency control, and balancing renewable
+output. These enhancements also help avoid inefficient or uneconomic dispatch, lowering overall
+system costs for consumers.
+
+Shortage pricing and congestion valuation: strengthening price signals
+
+Accurate price formation ensures that market outcomes reflect underlying system conditions.
+
+New
+40 York ISO
+
+2026 POWER TRENDS
+
+NYISO DER program: A modern market innovation
+As New York advances toward an ambitious clean energy future, the NYISO continues to adapt
+the state’s wholesale electricity markets to reflect a rapidly evolving power system. One of the most
+significant recent milestones is the launch of NYISO’s Distributed Energy Resources (DER) program,
+which is the first market of its kind in the nation to fully integrate aggregated DERs into competitive
+wholesale electricity markets.
+What are Distributed Energy Resources
+
+DERs are typically small, behind-the-meter assets that provide electricity production and/or load
+reduction close to where energy is consumed. These resources can, for example, include rooftop and
+community solar, battery energy storage systems, fuel cells, and demand response. Individually, these
+assets are modest in size. Aggregated together, they can function as a virtual power plant, capable of
+responding to grid needs in real-time.
+The nation’s first comprehensive DER market
+
+In April 2024, following approval from the FERC, the NYISO launched the nation’s first market
+allowing aggregations of DERs greater than 10 kilowatts (kW) to participate directly in wholesale
+Energy, Capacity, and Ancillary Services Markets.
+
+This market design allows multiple DER technologies, such as solar, storage, and demand
+response participants, to be combined within a single aggregation and bid into the wholesale markets
+as one resource. By doing so, the NYISO can see, forecast, and rely on these resources in a similar
+manner as conventional generation, strengthening real-time grid operations and long-term planning.
+Why the DER program matters
+
+The growth of DERs is accelerating statewide as New York pursues its clean energy targets. The
+NYISO forecasts that distributed generation will roughly double over the coming decades, driven by
+electrification, renewable deployment, and customer investment in energy technologies.
+
+The NYISO’s DER program ensures this growth enhances grid reliability. Aggregated DERs
+provide operators with greater visibility, advanced telemetry, and performance data. This enables
+more precise forecasting, improves coordination with utility-scale resources, and supports efficient
+commitment and dispatch decisions — particularly during periods of high demand. At the same time,
+the opportunity for wholesale market participation creates new revenue streams for DER owners.
+Instead of being limited to a single market or service, eligible DERs can simultaneously provide
+energy, capacity, and ancillary services, creating stronger incentives for investment in flexible and
+responsive technologies.
+Looking ahead
+
+The NYISO views the DER program as a critical first step in a broader evolution of market design.
+Currently, approximately 350 MW of DERs are participating in the market. As participation grows
+and technologies mature, the program will continue to adapt — informed by operational experience,
+stakeholder engagement, and system needs. By integrating distributed resources into wholesale
+markets, the NYISO is building a platform that supports innovation, reliability, and reduced emissions.
+
+41
+
+New Y
+
+2026 POWER TRENDS
+
+Refinements to shortage pricing and congestion valuation strengthen the alignment between
+operational need and market incentives by:
+∎ Making shortage-driven price outcomes more consistent with actual reliability risk.
+∎ Highlighting locational differences in system conditions and deliverability.
+
+∎ Improving incentives for investment in flexible capacity, transmission upgrades, and congestion
+relief projects.
+
+These changes help direct new entry toward areas where reliability risks are most pronounced
+and ensure that prices more accurately reflect the cost of maintaining system security.
+
+Capacity Market Structure Review
+
+The Capacity Market Structure Review (CMSR) is part of the NYISO’s broader efforts to ensure
+the Capacity Market continues to support resource adequacy as New York’s power system undergoes
+significant change. In this effort, the NYISO and stakeholders
+are examining whether the existing Capacity Market framework
+should be enhanced to continue delivering transparent, efficient
+price signals that support bulk system reliability. Analysis
+conducted by Potomac Economics and FTI Consulting found
+> The NYISO and its stakeholders utilize
+that a competitive Capacity Market offers a cost effective way
+a shared governance process to establish
+to ensure sufficient resources are available to meet reliability
+wholesale market rules and processes
+needs, compared to less market-driven approaches. The
+associated with grid planning and
+guiding objective of this effort is to ensure the Capacity Market
+operations.
+accurately values resources based on their contribution to
+> This process engages suppliers,
+reliability, produces predictable and economically efficient
+transmission owners, consumers,
+outcomes, and works cohesively with energy and Ancillary
+environmental and environmental justice
+Services Markets as the resource mix becomes more diverse
+interests, and state organizations to
+and energy limited. The CMSR initiative has identified targeted
+facilitate the development of the rules and
+enhancements to the current structure, rather than a wholesale
+processes for a reliable and economically
+efficient grid in New York.
+redesign, to meet the grid’s evolving needs over the coming
+decade.
+
+NYISO shared
+governance
+
+> As compared to the pre-NYISO years,
+when eight transmission utilities exercised
+near-exclusive control over the system,
+over 450 entities are now involved in an
+open process of shaping policies and
+protocols of the NYISO. Through an open
+governance process, market participants,
+regulators, policymakers, and consumer
+and environmental advocates help shape
+the rules that support the provision of
+efficient, reliable and clean electric service.
+
+A market framework positioned for the future
+
+New York’s competitive wholesale electricity markets are
+evolving to meet the demands of a cleaner, more electrified,
+and more dynamic grid. By refining price formation, advancing
+dynamic reserves, optimizing storage participation, expanding
+Ancillary Services, modernizing the Capacity Market design,
+streamlining interconnection, and aligning with transmission
+planning, the market framework remains focused on delivering
+reliability and consumer value.
+
+As these enhancements progress, competitive markets will
+continue to attract the right mix of resources, support innovation, and manage the uncertainties of the
+transition, keeping power reliable and less expensive for New Yorkers while incentivizing progress
+towards the state’s long term climate and economic objectives.
+
+New
+42 York ISO
+
+2026 POWER TRENDS
+
+Appendix
+NYISO by the numbers
+
+Demand Trends
+FIGURE 16: ACTUAL AND FORECAST LOAD, 2025-2040
+
+220,000
+GWh
+
+> This figure presents three
+
+Higher-Demand
+Forecast
+
+200,000
+
+Baseline
+Forecast
+
+180,000
+
+Lower-Demand
+Forecast
+
+160,000
+
+scenario forecasts: a baseline
+forecast that the NYISO
+assumes is the most likely
+outcome based on current
+observations and assumptions,
+and two scenarios that include
+differing assumptions about
+key inputs in the forecast,
+including economic activity
+and the adoption of
+electrification. These
+High-Demand and Low-Demand
+scenarios provide bounds
+around the baseline forecast.
+
+140,000
+Actual Load
+
+151,059 GWh
+120,000
+
+2040
+
+2039
+
+2038
+
+2037
+
+2036
+
+2035
+
+2034
+
+2033
+
+2032
+
+2031
+
+2030
+
+2029
+
+2028
+
+2027
+
+2026
+
+2025
+
+100,000
+
+43
+
+New Y
+
+2026 POWER TRENDS
+
+Demand Trends
+FIGURE 17: SUMMER AND WINTER PEAK DEMAND FORECASTS
+> While electrification will drive
+
+40,000
+MW
+38,000
+36,000
+34,000
+
+growth in winter peak demand,
+summer peak demand is not
+expected to grow as significantly,
+due largely to the saturation of
+electric-based air conditioning
+for cooling needs. The impact of
+large loads is expected to drive
+near-term demand increases while
+electrification measures will have
+more impact on longer-range
+forecasts.
+
+Summer Peaking System
+Actual
+
+31,405 MW
+
+32,000
+30,000
+28,000
+
+Winter Peaking System
+
+26,000
+24,000
+
+2055
+
+2053
+
+2051
+
+2049
+
+2047
+
+2045
+
+2043
+
+2041
+
+2039
+
+2037
+
+2035
+
+2033
+
+2031
+
+2029
+
+24,250 MW
+2025
+
+20,000
+
+Actual
+
+2027
+
+22,000
+
+FIGURE 18: LARGE LOAD SUMMER DEMAND FORECAST UNCERTAINTY
+40,000
+MW
+
+> There is significant
+
+Potential additional
+large load demand
+
+uncertainty about large loads
+seeking to connect to the
+grid, including the timing and
+operational characteristics of
+the new load. The NYISO base
+case forecasts include large
+loads that are expected to
+connect to the grid. However,
+numerous additional large
+load proposals could quickly
+advance and come online
+within the next 10 years,
+creating uncertainty about
+their impact
+on demand.
+
+35,000
+
+Expected large load demand
+30,000
+
+25,000
+
+Baseline forecast without
+large load demand
+
+20,000
+
+15,000
+2026
+
+New
+44 York ISO
+
+2028
+
+2030
+
+2032
+
+2034
+
+2036
+
+2038
+
+2040
+
+2026 POWER TRENDS
+
+Demand Trends
+FIGURE 19: IMPACT OF ELECTRIFICATION AND LARGE LOADS ON SUMMER PEAK DEMAND
+35,000
+MW
+33,000
+
+> While electrification will drive
+
+Large Load Projects
+
+31,000
+
+Building Electrification
+
+29,000
+
+EV Charging
+
+27,000
+25,000
+23,000
+
+growth in winter peak demand,
+summer peak demand is not
+expected to grow as significantly,
+due largely to the saturation of
+electric-based air conditioning
+for cooling needs. The impact of
+large loads is expected to drive
+near-term demand increases while
+electrification measures will have
+more impact on longer-range
+forecasts.
+
+Base Summer Peak Demand
+
+21,000
+19,000
+17,000
+
+2040
+
+2038
+
+2036
+
+2034
+
+2032
+
+2030
+
+2028
+
+2026
+
+15,000
+
+Supply Trends
+FIGURE 20: HISTORICAL SOLAR GENERATING CAPACITY
+10,000
+MW
+
+> New York’s policy incentives
+
+571
+573
+
+8,000
+
+Grid-Connected Solar Capacity
+254
+
+BTM Solar Capacity
+
+6,000
+
+FORECASTED
+
+154
+32
+
+4,000
+
+32
+32
+32
+
+2026 8,759
+
+2025 7,590
+
+2024 6,387
+
+2023 5,169
+
+2022 4,297
+
+2021 3,457
+
+2020 2,705
+
+2019 2,160
+
+32
+
+2018 1,642
+
+32
+
+2017 1,283
+
+32
+
+2016 967
+
+32
+223 384
+
+32
+
+2015 655
+
+32
+
+2014
+
+0
+
+2013
+
+2,000
+
+have driven significant investment
+in BTM solar resources. By the
+end of 2025 there were more than
+7,590 MW of BTM solar capacity
+supplying customers. BTM solar
+energy production reduces the
+amount of energy the NYISO must
+dispatch to supply the grid and has
+contributed significantly towards
+reducing peak demand in the state.
+More recently, the NYISO is seeing
+growth in grid-connected solar
+that the NYISO dispatches to
+supply the grid whenever the
+resource is available.
+
+45
+
+New Y
+
+2026 POWER TRENDS
+
+Supply Trends
+FIGURE 21: HISTORICAL WIND AND OFFSHORE WIND ENERGY PRODUCTION
+8,000
+GWh
+
+> 2024 marked the
+536
+
+7,000
+
+Offshore Wind
+191
+
+6,000
+Land-based Wind
+
+5,000
+
+inaugural year for
+offshore wind energy
+production in New
+York State, with the
+integration of the
+136 MW South Fork
+Wind project off
+the coast of
+Long Island.
+
+4,000
+3,000
+2,000
+
+2025 6,549
+
+2024 5,821
+
+2023 4,893
+
+2022 4,825
+
+2021 4,111
+
+2020 4,162
+
+2019 4,454
+
+2018 3,985
+
+2017 4,219
+
+2016 3,943
+
+2015 3,984
+
+2014 3,986
+
+2013 3,541
+
+2012 3,060
+
+2011 2,787
+
+2009 2,108
+2010 2,533
+
+2008 1,282
+
+2007 873
+
+2005
+
+112 101
+
+2004
+
+0
+
+2006 518
+
+1,000
+
+FIGURE 22: HISTORICAL WIND AND OFFSHORE WIND NAMPLATE CAPACITY
+3,500
+MW
+
+> Now starting to see
+136 136
+
+3,000
+
+Offshore Wind
+Land-based Wind
+
+2,500
+
+2,000
+
+1,500
+
+1,000
+
+New
+46 York ISO
+
+2026 2,858
+
+2025 2,858
+
+2024 2,748
+
+2023 2,424
+
+2022 2,192
+
+2021 4,985
+
+2020 1,985
+
+2019 1,985
+
+2018 1,827
+
+2017 1,827
+
+2016 1,754
+
+2015 1,746
+
+2014 1,730
+
+2013 1,634
+
+2012 1,414
+
+2011 1,348
+
+2009 1,274
+2010 1,274
+
+2008 1,162
+
+2007 425
+
+2005
+
+48 48
+
+2004
+
+0
+
+2006 279
+
+500
+
+wind farms built in the
+early 2000s retiring or
+repowering.
+
+2026 POWER TRENDS
+
+Supply Trends
+FIGURE 23: HISTORICAL GENERATING CAPACITY FUEL MIX IN NEW YORK STATE, 2005-2025
+100%
+
+Other Renewables
+
+Wind
+
+90%
+
+Solar
+
+Hydro
+
+80%
+70%
+60%
+
+Nuclear
+
+Oil
+
+50%
+
+Gas
+
+40%
+30%
+20%
+10%
+
+Dual Fuel
+Coal
+
+0%
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+> The fuel mix of the resources powering New York’s grid has become cleaner over time, including
+the elimination of coal-fired power plants, the growth of wind, and the emergence of solar.
+
+0.45
+
+4.0
+
+0.40
+
+3.5
+
+0.35
+
+CO2
+
+3.0
+
+0.30
+
+2.5
+
+0.25
+SO2
+
+2.0
+
+0.20
+
+1.5
+
+0.15
+
+1.0
+
+0.10
+
+0.5
+
+> Sulfur dioxide (SO2)
+
+CO2 Emissions Rate (tons/net MWh)
+
+4.5
+
+dropped 99%. Nitrogen
+oxides (NOx) dropped
+89%. Carbon dioxide (CO2)
+dropped 38%. Recent CO2
+increases coincident with
+closure of Indian Point.
+
+0.05
+
+NOx
+
+0.0
+2025
+
+2023
+
+2021
+
+2019
+
+2017
+
+2015
+
+2013
+
+2011
+
+2009
+
+2007
+
+2005
+
+2003
+
+2001
+
+0.00
+1999
+
+NOx and SO2 Emissions Rate (lbs/net MWh)
+
+FIGURE 24: NYS POWER PLANT EMISSIONS, 1999-2025
+
+Sources: U.S. EPA, U.S. EIA, RGGI
+
+47
+
+New Y
+
+2026 POWER TRENDS
+
+Supply Trends
+FIGURE 25: SUMMER 2026 INSTALLED CAPACITY BY FUEL SOURCE
+NYCA Summer Installed Capacity, 2026
+<1%
+<1%
+2%
+<1%
+
+Zero-Emission
+s
+29%
+
+5%
+4%
+
+7%
+
+11%
+
+9%
+
+MW
+
+Oil
+Dual Fuel (Gas/Oil)
+Gas
+Nuclear
+Hydro
+Wind
+Offshore Wind
+Solar
+Waste Energy
+Hydro Pumped Storage
+Energy Storage
+
+1,909
+18,337
+4,624
+3,302
+4,211
+2,578
+132
+571
+324
+1,409
+23
+
+TOTAL
+
+37,420
+
+49%
+
+12%
+
+Upstate Summer Installed Capacity, 2026
+(Zones A-E)
+
+Downstate Summer Installed Capacity, 2026
+(Zones F-K)
+
+<1% 1% 2%
+1%
+
+72%
+
+6%
+12%
+
+-Emissions
+Zero
+%
+9
+6
+
+18%
+Nuclear
+Hydro
+Wind
+Solar
+Energy Storage
+Waste Energy
+Hydro Pumped Storage
+Oil
+Dual Fuel (Gas/Oil)
+Gas
+
+27%
+
+TOTAL
+
+MW
+
+MW
+
+3,302
+3,886
+2,578
+217
+20
+116
+240
+801
+1,734
+1,512
+
+14,406
+
+10%
+
+23%
+
+16,603
+3,112
+1,109
+325
+1,169
+354
+132
+3
+208
+
+TOTAL
+
+23,015
+
+5%
+2%
+1%
+
+New
+48 York ISO
+
+Dual Fuel (Gas/Oil)
+Gas
+Oil
+Hydro
+Hydro Pumped Storage
+Solar
+Offshore Wind
+Energy Storage
+Waste Energy
+
+5%
+13%
+
+on
+<1% 4% Z
+ero-Emissi
+
+s
+
+2026 POWER TRENDS
+
+Supply Trends
+FIGURE 26: 2025 ENERGY PRODUCTION BY FUEL SOURCE
+NYCA Energy Production, 2025
+1%
+
+<1%
+2%
+
+Zero-Emissions
+%
+6
+4
+
+5%
+
+18%
+
+Dual Fuel (Gas/Oil)
+Gas
+Oil
+Nuclear
+Hydro
+3%
+Wind
+Offshore Wind
+Solar
+2%
+Waste Energy
+
+TOTAL
+
+GWh
+
+54,845
+15,170
+137
+28,408
+24,271
+6,549
+536
+982
+2,295
+
+41%
+
+133,193
+
+21%
+11%
+
+Upstate Energy, 2025 (Zones A-E)
+
+1%
+
+1%
+
+<1%
+
+Downstate Energy, 2025 (Zones F-K)
+
+2%
+
+10%
+
+82%
+
+4%
+Ze
+roEm
+s
+ion
+iss
+
+10%
+
+Zero-Emissions
+87%
+
+GWh
+
+34%
+
+Nuclear
+Hydro
+Wind
+Solar
+Waste Energy
+Gas
+Oil
+Dual Fuel (Gas/Oil)
+
+28,408
+23,124
+6,549
+375
+790
+6,996
+37
+1,348
+
+TOTAL
+
+67,627
+
+GWh
+
+42%
+5%
+
+Dual Fuel (Gas/Oil)
+Gas
+Oil
+Hydro
+Solar
+Offshore Wind
+Waste Energy
+
+53,497
+8,174
+101
+1,147
+607
+536
+1,505
+
+TOTAL
+
+65,567
+
+2%
+
+1%
+
+2%
+
+12%
+
+<1%
+
+49
+
+New Y
+
+2026 POWER TRENDS
+
+Glossary
+Definitions and explanations
+of terms and phrases
+
+Ancillary Services: Services that support
+the reliable operation of the power system,
+which can include voltage support, frequency
+regulation, operating reserves, and blackstart
+capabilities.
+Behind-the-Meter Generation: A generation
+unit that supplies electric energy to an end
+user onsite. An example is a rooftop solar
+photovoltaic system that primarily supplies
+electricity to the facility on which it is located.
+Bulk Power System: The transmission network
+over which electricity flows from suppliers
+to local distribution systems that serve endusers. New York’s bulk power system includes
+electricity-generating plants, high-voltage
+transmission lines, and interconnections with
+neighboring electric systems located in the
+New York Control Area (NYCA). Also referred to
+as “Bulk Electric system”, “grid”, or “power grid.”
+Capability Period: Lasting six months, the
+Summer Capability Period runs from May 1
+through October 31. The Winter Capability
+Period runs November 1 through April 30 of the
+following year. A Capability Year begins May 1
+and runs through April 30 of the following year.
+Capacity: The electric output that a generator
+can produce. It is measured in megawatts (MW).
+
+New
+50 York ISO
+
+Climate Leadership and Community Protection
+Act (CLCPA): A law that requires New York
+to reduce economy-wide greenhouse gas
+emissions 40% by 2030 and no less than 85%
+by 2050 from 1990 levels. The law establishes
+technology-specific mandates for deploying
+clean energy technologies as well as a Climate
+Action Council charged with developing a
+scoping plan of recommendations to meet
+these requirements.
+Cluster Study: is a streamlined approach to
+evaluating interconnection requests for new
+generation projects. Instead of assessing each
+project individually, it groups multiple requests
+into clusters, allowing for collective evaluation.
+This method improves efficiency, reduces study
+timelines, and ensures better coordination
+among developers, utilities, and stakeholders.
+Comprehensive Reliability Plan (CRP): A
+study undertaken by the NYISO that evaluates
+projects offered to meet New York’s future
+electric power needs, as identified in the
+Reliability Needs Assessment (RNA). The CRP
+may trigger electric utilities to pursue regulated
+solutions to meet reliability needs if marketbased solutions will not be available to supply
+needed resources.
+
+2026 POWER TRENDS
+
+Distributed Energy Resource (DER): A broad
+category of resources that includes distributed
+generation, energy storage technologies,
+combined heat and power systems, and
+demand response. A DER is generally
+customer-sited, but may sell excess energy
+production and/or load reduction capability
+in wholesale energy, capacity and/or Ancillary
+Services Markets.
+Electrification: Adopting technologies that
+support the transition of fossil-fuel-intensive
+sectors of the economy to electricity.
+Sometimes referred to as “beneficial
+electrification” due to its underlying goals of
+promoting societal benefits through emissions
+reductions.
+Energy: Energy is the amount of electricity
+a generator produces over a specific period
+of time. It is measured in megawatt-hours
+(MWh). For example, a generating unit with a
+1-megawatt capacity operating at full capacity
+for one hour will produce 1 megawatt-hour of
+electricity.
+
+of the bulk power system, wholesale electricity
+markets, and planning and interconnection
+processes. The NYISO’s tariffs and foundational
+agreements are overseen and approved by
+FERC.
+Gigawatt (GW): A unit of power or capacity
+equal to one billion watts.
+Gigawatt-Hour (GWh): Equal to one gigawatt of
+power produced or consumed continuously for
+one hour.
+Installed Capacity (ICAP): The capability of a
+qualifying resource to supply and/or reduce
+demand when directed by the NYISO.
+Installed Reserve Margin (IRM): The level of
+capacity that must be secured, above projected
+system peak demand, to maintain resource
+adequacy after accounting for unplanned and
+scheduled outages as well as transmission
+capability limitations and load forecast
+uncertainties. The IRM requirement can be met
+through a combination of installed generation,
+import capabilities, and demand response.
+The IRM is established by the New York State
+Reliability Council (NYSRC) and designed to
+maintain specific resource adequacy criteria.
+Interconnection Queue: A queue of load,
+transmission, and generation projects that
+have submitted a request to the NYISO to be
+interconnected to the state’s electric system.
+
+Energy Storage Resources (ESRs): Devices
+used to capture energy produced at one
+time for use at a later time. ESRs include
+technologies like batteries and pumped hydro
+resource.
+
+Intermittent Resource: An electric energy
+supply resource whose output varies due to
+the fluctuating nature of its weather-dependent
+energy inputs. Examples include solar energy
+which is dependent upon sunlight intensity, or
+wind turbines where output is dependent on
+wind speeds.
+
+Federal Energy Regulatory Commission
+(FERC): The federal agency responsible for
+regulatory oversight of the NYISO’s operation
+
+Load: A consumer of electrical energy, or the
+amount of electrical energy consumed. Load
+can also be referred to as demand.
+
+51
+
+V1- PT2026 - 06.09.26 - ACCUPRINT
+
+Dispatchable Emissions-Free Resource
+(DEFR): A resource designed to provide reliable,
+on-demand electricity without emitting carbon.
+Unlike intermittent renewable sources like
+wind and solar, DEFRs can be dispatched as
+needed to meet demand. Many of the potential
+technologies are still in development and may
+face challenges in terms of economic viability
+and scalability.
+
+New Y
+
+2026 POWER TRENDS
+
+Locational Capacity Requirement: A portion
+of the statewide installed capacity that must
+be physically located within a locality to meet
+reliability standards. Locational requirements
+have been established for the New York City
+(Load Zone J), Long Island (Load Zone K), and
+lower Hudson Valley (Load Zones G-J) capacity
+regions.
+Megawatt (MW): A measure of electrical
+power that is the equivalent of 1 million watts.
+It is generally estimated that one megawatt
+provides enough electricity to supply the power
+needs of 800 to 1,000 homes.
+Megawatt-Hour (MWh): Equal to one megawatt
+of electrical power produced or consumed
+continuously for one hour.
+New York Control Area (NYCA): The area under
+the electrical control of the NYISO. It includes
+the entire state of New York, divided into 11
+load zones.
+North American Electric Reliability Corporation
+(NERC): The not-for-profit international
+regulatory authority whose mission is to
+assure the effective and efficient reduction of
+risks to the reliability and security of the grid.
+NERC is the Electric Reliability Organization
+for North America, subject to oversight by
+FERC and governmental authorities in Canada.
+NERC’s jurisdiction includes users, owners, and
+operators of the bulk power system.
+Peak Load: The maximum average hourly load
+on the electric grid measured in megawatts
+(MW). Peak load, also known as peak demand.
+Peakers: Fossil fuel-fired power plants, also
+known as peaker plants, that generally run only
+during periods of high demand and stressed
+system conditions.
+Public Policy Transmission Planning: Part of
+the NYISO’s Comprehensive System Planning
+
+New
+52 York ISO
+
+Process. Public Policy Transmission Planning
+consists of two steps: (1) identification of
+transmission needs driven by Public Policy
+Requirements that should be evaluated by the
+NYISO; and (2) requests for specific proposed
+transmission solutions to address those needs,
+and the evaluation of those specific solutions.
+The NYPSC identifies transmission needs
+driven by Public Policy Requirements and
+warranting evaluation, and the NYISO requests
+and evaluates specific proposed transmission
+solutions to address such needs.
+Reliability Needs Assessment (RNA): A
+report that evaluates resource adequacy and
+transmission system security over years four
+through 10 of a 10-year planning horizon
+and identifies future needs of the New York
+electricity grid.
+Resource Adequacy: The ability of the electric
+system to supply electrical demand and energy
+requirements at all times, taking into account
+scheduled and unscheduled outages of system
+elements. A system is considered adequate if
+the probability of having sufficient resources
+to meet expected demand is greater than the
+minimum standard.
+Short-Term Assessment of Reliability (STAR):
+The NYISO’s quarterly process to examine
+reliability needs over a 5-year period, with a
+focus on the first three years, including the
+impact of generator deactivations.
+Transmission Constraints: Limitations on the
+ability of a transmission facility to transfer
+electricity.
+Transmission Security: The ability of the
+electric system to withstand disturbances, such
+as electric short-circuits or unanticipated loss
+of system elements.
+
+ABOUT THE ISO
+The NYISO is governed by a 10-member, independent Board of Directors and a committee structure composed of diverse stakeholder representatives. It is subject to the oversight of the Federal
+Energy Regulatory Commission (FERC) and regulated in certain aspects by the New York State
+Public Service Commission (NYSPSC). NYISO operations are also overseen by electric system
+reliability regulators, including the North American Electric Reliability Corporation (NERC), Northeast Power Coordinating Council (NPCC), and the New York State Reliability Council (NYSRC).
+The members of the NYISO’s Board of Directors have backgrounds in electricity systems, finance,
+information technology, communications, and public service. The members of the Board, as well
+as all employees, have no business, financial, operating, or other direct relationship to any market
+participant. The NYISO does not own power plants or transmission lines.
+The NYISO’s independence means that its actions and decisions are not based on profit motives,
+but on how best to enhance the reliability and efficiency of the power system, and safeguard the
+transparency and fairness of the markets. The NYISO is committed to transparency and trust in
+how it carries out its duties, in the information it provides, and in its role as the impartial broker of
+the state’s wholesale electricity markets.
+Power Trends is the NYISO’s annual analysis of factors influencing New York State’s power grid
+and wholesale electricity markets. Begun in 2001 as Power Alert, the report provides a yearly
+review of key developments and emerging issues.
+
+10 Krey Boulevard, Rensselaer, NY 12144
+518.356.6000 | www.nyiso.com
+
+

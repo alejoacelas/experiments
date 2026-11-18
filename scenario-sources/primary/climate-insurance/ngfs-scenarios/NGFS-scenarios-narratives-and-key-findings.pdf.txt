@@ -1,0 +1,6509 @@
+Network for Greening the Financial System
+
+NGFS long-term scenarios,
+narratives and key findings:
+Net Zero 2050,
+Current Policies
+and Fragmented World
+November 2025
+
+Authors list
+Léa Hayez1, Fabrice Lécuyer1, Mel George2, Yiyi Ju3, Meghal Arora4, Miodrag Stevanović1, Jacob Anz5, Christoph Bertram2, 1,
+Jae Edmonds2, *, Allen Fawcett2, *, Jay Fuhrman2, *, Gunnar Luderer1, 6, Franziska Piontek1, Carl-Friedrich Schleussner3, 5,
+Bas van Ruijven3, Anne Zimmer5, Elmar Kriegler1, 7.
+
+1 Potsdam Institute for Climate Impact Research (PIK), member of the Leibniz Association, Potsdam, Germany.
+2 Center for Global Sustainability, School of Public Policy, University of Maryland, College Park, Maryland, USA.
+3 International Institute for Applied Systems Analysis (IIASA), Laxenburg, Austria.
+4 Office of the Superintendent of Financial Institutions, Canada.
+5 Climate Analytics, Berlin, Germany.
+6 Global Energy Systems Analysis, Technische Universität Berlin, Berlin, Germany.
+7 Faculty of Economics and Social Sciences, University of Potsdam, Potsdam, Germany
+* J.E., A.F., and J.F., are also affiliated with Pacific Northwest National Laboratory, which did not provide specific support
+for this report.
+
+Suggested citation: Hayez, L., Lécuyer, F., George, M., Ju, Y., Arora, M., Stevanović, M., Anz, J., Bertram, C., Edmonds, J., Fawcett, A.,
+Fuhrman, J., Luderer, G., Piontek, F., Schleussner, C., van Ruijven, B., Zimmer, A., Kriegler, E. (2025). NGFS long-term scenarios,
+narratives and key findings: Net Zero 2050, Current Policies and Fragmented World. Network for Greening the Financial System.
+https://www.ngfs.net/en/publications-and-statistics/publications/explanatory-notes-ngfs-long-term-climate-scenarios.
+
+Acknowledgements: The note is a collaborative effort of the members of the Workstream on Scenarios Design and Analysis
+and was prepared under the auspices of Livio Stracca (European Central Bank), Chair of the Workstream with support
+from the NGFS Secretariat. The NGFS Workstream on Scenarios Design and Analysis has been working in partnership
+with an academic consortium from the Potsdam Institute for Climate Impact Research (PIK), International Institute
+for Applied Systems Analysis (IIASA), University of Maryland (UMD), Climate Analytics (CA) and the National Institute
+of Economic and Social Research (NIESR). Special thanks are given to: Mario Morelli, Agnieszka Trzcinska, Lucy Hager,
+Tina Emambakhsh, Benedikt Scheid (European Central Bank, Chair’s team), Paul Champey, Léopold Gosset, Tess Teuliere,
+Léa Grisey, Laurent Carlino, Charles Grison, Hadrien Marquant (Banque de France, NGFS Secretariat), Helena Herber
+(Deutsche Bundesbank, NGFS Secretariat), Lukasz Krebel (Bank of England), Sha Yu (International Monetary Fund).
+
+2
+
+NGFS REPORT
+
+Notice to readers on physical risk estimates in Phase V of NGFS long-term scenarios
+The NGFS long-term climate scenarios are a set of forward-looking pathways designed to explore how the global
+economy and financial system might evolve under different levels of climate policy ambition and physical climate
+impacts over the rest of the 21st century. They were developed by the Network for Greening the Financial System (NGFS)
+to provide a consistent analytical basis for assessing climate-related financial risks and opportunities. The academic
+paper underpinning the physical risk estimates in Phase V of NGFS long-term scenarios (released in November 2024),
+Kotz et al. (2024), has received academic critiques (see first and second Matters Arising) as part of the post-publication
+review process at Nature.
+Therefore, users should be aware of this academic debate pertaining specifically to the Phase V physical risk methodology
+when interpreting and applying Phase V results, alongside the broader limitations of physical risk estimates already
+detailed in NGFS documentation.
+It should be noted that the long-term scenarios outputs which do not incorporate physical loss estimates from
+Kotz et al. (2024) remain unaffected.1 Also, the outputs of NGFS short-term scenarios are not impacted, as they do not
+rely on the Kotz et al. (2024) paper.
+It cannot be excluded that the economic effects of climate change might turn out to be more severe than anticipated in the
+NGFS scenarios, for instance, if certain tipping points are reached. Thus, users should also take into account the tail
+risks of climate change, along with other risks such as nature-related ones, which are not necessarily captured by
+these scenarios.
+The NGFS is constantly working to further improve the scenarios, including with regard to physical risks. Users are
+reminded that neither the NGFS, nor its member institutions, nor any person acting on their behalf, is responsible or
+liable for any reliance on, or for any use of the NGFS scenarios and/or supplementary documentation. This also applies
+to the use of the data produced under the scenarios – see section 5 in https://data.ene.iiasa.ac.at/ngfs/#/license.
+Thus, while the NGFS climate scenarios are certainly a helpful tool, they do not alleviate the responsibility of users,
+including banks and other (financial) organisations, to design and implement their own risk management frameworks.
+
+1 The affected variables are those reflecting physical loss estimates from Kotz et al. (2024) in Phase V of NGFS long-term scenarios.
+This includes: all outputs of “Integrated Physical Damages” scenarios by REMIND-MAgPIE, all “physical” and “combined” (i.e. combined physical
+and transition damages) outputs by NiGEM, as well as post-processed or downscaled outputs for GDP damages from the damage function
+(i.e. GDP change and Net GDP variables referring to “Kotz-Wenz”). All other variables from Phase V, the physical risk estimates as presented in
+the “https://climate-impact-explorer.climateanalytics.org/” Climate Impact Explorer, as well as outputs from previous phases of NGFS long-term
+scenarios, remain unaffected.
+
+NGFS REPORT
+
+3
+
+Table of Contents
+
+Authors list
+
+2
+
+Executive summary
+
+6
+
+1. Introduction
+
+8
+
+1.1 Purpose of this report
+
+8
+
+1.2 Note on physical risks and upcoming updates
+
+9
+
+2. Net Zero 2050: narrative and key findings
+
+10
+
+2.1 Narrative of the Net Zero 2050 scenario
+
+10
+
+2.2 Narrative quantification
+
+12
+
+2.3 Transition risks
+
+13
+
+2.3.1 Emissions trajectory
+
+13
+
+2.3.2 Primary energy mix
+
+14
+
+2.3.3 Electricity and final energy mix 
+
+14
+
+2.3.4 Carbon sequestration 
+
+16
+
+2.3.5 Carbon, energy and agricultural prices 
+
+16
+
+2.4 Macroeconomic effects from transition risks
+
+18
+
+2.4.1 GDP damages from transition risks
+
+19
+
+2.4.2 Inflationary strain and unemployment
+
+20
+
+2.4.3 Policy interest rates and long-term interest rates
+
+22
+
+2.4.4 Equity market disruptions
+
+23
+
+2.5 Key findings: transition to Net Zero 2050
+
+23
+
+2.5.1 International climate policy implications and related transition risks 
+
+23
+
+2.5.2 Energy transition dynamics
+
+26
+
+2.5.3 Role of carbon dioxide removal and carbon capture and storage
+
+29
+
+2.6 Conclusions on the Net Zero 2050 scenario
+
+33
+
+3. Current Policies: narrative and key findings
+
+34
+
+3.1 Narrative of the Current Policies scenario
+
+34
+
+3.2 Narrative quantification
+
+35
+
+4
+
+NGFS REPORT
+
+3.3 Transition risks
+
+36
+
+3.3.1 Emissions trajectory
+
+36
+
+3.3.2 Primary energy 
+
+37
+
+3.3.3 Final energy and electricity mix 
+
+37
+
+3.3.4 Carbon storage and land use
+
+39
+
+3.3.5 Carbon, energy and agricultural prices 
+
+40
+
+3.4 Macroeconomic effects
+
+42
+
+3.5 Key findings: ineffective and unsustainable current policies
+
+42
+
+3.5.1 Ineffectiveness of current policies to bend the emissions curve
+
+42
+
+3.5.2 Unsustainable trends in the short- and long-term
+
+42
+
+3.5.3 Near and long-term risks in a 3 °C world
+
+45
+
+3.6 Conclusions on Current Policies scenario
+
+4. Fragmented World: narrative and key findings
+
+47
+48
+
+4.1 Narrative of the Fragmented World Scenario
+
+48
+
+4.2 Narrative quantification
+
+50
+
+4.3 Transition risks
+
+51
+
+4.3.1 Emissions trajectory
+
+51
+
+4.3.2 Primary energy mix
+
+51
+
+4.3.3 Final energy and electricity mix
+
+52
+
+4.3.4 Carbon storage and land use
+
+53
+
+4.3.5 
+Carbon, energy and agricultural prices 
+
+54
+
+4.4 Macroeconomic effects from transition risks
+
+56
+
+4.4.1 GDP damages from transition risks
+
+56
+
+4.4.2 Inflationary strain and unemployment
+
+58
+
+4.4.3 Policy interest rates and long-term interest rates
+
+59
+
+4.4.4 Equity market disruptions
+
+60
+
+4.5 Key findings: uncoordinated and delayed climate transition
+
+61
+
+4.5.1 Effects of fragmentation: large divergence between regions in terms
+of carbon pricing, energy and land use leads to international distortions
+
+62
+
+4.5.2 Global emissions and climate change remain high 
+
+68
+
+4.6 
+Conclusions on Fragmented World
+
+71
+
+Annex A: Shared socioeconomic assumptions
+
+72
+
+Annex B: NiGEM neutral forecast baseline
+
+73
+
+NGFS REPORT
+
+5
+
+Executive summary
+In November 2024, the Network for Greening the
+Financial System (NGFS) published its fifth vintage of
+long-term scenarios, providing financial institutions with
+key information to assess and manage climate-related
+transition and physical risks. The scenarios stem from
+the integration of an ensemble of models including
+three Integrated Assessment Models (REMIND-MAgPIE,
+GCAM and MESSAGEix-GLOBIOM), the macroeconomic
+model NIGEM and climate-impact projection tools.
+This report provides important context to NGFS scenario
+users for the assessment of financial and macroeconomic
+risks associated with three of the NGFS scenarios:
+Net Zero 2050, Current Policies and Fragmented World.
+For these scenarios, the report describes the underlying
+narratives and selected quantitative features, including
+model comparison.
+
+1. NGFS Net Zero 2050 scenario
+Among the NGFS scenarios, the Net Zero 2050 scenario
+showcases the benefits of an immediate transition for
+long-term socio-economic stability and reduced damages.
+The Net Zero 2050 scenario limits global warming to
+1.5 °C by 2100 through stringent climate policies and
+innovation, reaching global net zero CO2 emissions around
+2050. This scenario assumes that ambitious climate
+policies are introduced immediately. Carbon sequestration
+technologies are used to accelerate the decarbonisation
+but kept limited and broadly in line with sustainable levels
+of bioenergy production. The scenario gives at least a 50 %
+chance of limiting global warming to below 1.5 °C by the end
+of the century, with a temporary overshoot of up to 0.2 °C
+around mid-century. The overshoot has increased compared
+to previous vintages of the Net Zero 2050 scenario due to
+continued high global emissions in recent years. Physical risks
+are relatively low but transition risks are medium to high.
+The Net Zero 2050 scenario represents a transition
+“as orderly as still possible”: ambitious climate
+policies are introduced early and effectively, however
+these are not sufficient to avoid a 0.2 °C overshoot.
+In fact, the annual vintages of the NGFS Net Zero 2050
+scenario from Phase I (2020) to Phase V (2024) have grown
+
+less orderly, as the continued high emissions are followed
+by ever more disruptive emissions reductions to still achieve
+the mid-century target. In comparison, the Low Demand
+scenario features a more orderly transition in the energy
+sector, as a significant behavioural change in terms of
+energy consumption alleviates the decarbonisation efforts.
+Reaching net-zero global CO2 emissions by 2050 will
+require an ambitious transition across all sectors of
+the economy. In consequence, transition risks result
+from fast technological change required to accelerate
+the decarbonisation, steep penalties for emission intensive
+production and resulting price increases for emission
+intensive goods exerting inflationary pressure, and changes
+in business and consumer preferences leading to substantial
+shifts in investment and consumption patterns.
+The physical risks are substantially reduced compared
+to the Current Policies scenario thanks to the ambitious
+mitigation strategy. However, given that global warming
+has already progressed and emission reductions take time,
+substantial residual risks are considered unavoidable, and
+will require adaptation efforts. These are the main drivers
+of climate risks in the future.
+
+2. NGFS Current Policies scenario
+The Current Policies scenario demonstrates the
+lack of stringency on a global scale of implemented
+policies to mitigate climate change, and the associated
+macroeconomic risks and instability. The Current Policies
+scenario belongs to the Hot House World category of the
+NGFS framework, assuming that only currently implemented
+policies are preserved, leading to high physical risks.
+CO2 emissions remain high, leading to about 3 °C of
+warming at the of century and severe physical risks, as
+well as irreversible biophysical changes.
+The Current Policies scenario is the least ambitious
+scenario of the NGFS Scenario framework. It is a valuable
+tool for central banks and supervisors to consider the
+long-term physical risks to the economy and financial
+system if the World remains on the current path towards
+a “hot house world”.
+
+6
+
+NGFS REPORT
+
+In the Current Policies scenario, the transition is
+limited and occurs gradually. The power sector remains
+fossil-fuel reliant and continues to drive emissions up.
+The integration of renewable technologies is slow, and
+energy consumption increases. Consequently, socioeconomic systems face relatively few short-term disruptions,
+while the long-term economic consequences, including the
+aggregate GDP loss driven by climate change impacts, are
+more unprecedented.
+High long-term costs are expected, due to increasing
+gradual climate shifts, climate-related disasters and
+economic instability. This scenario projects increased
+likelihood of irreversible impacts, and an increasing
+exposure in many regions to hazards such as drought,
+heat and heavy precipitation.
+
+3. NGFS Fragmented World scenario
+The Fragmented World scenario underscores the
+systemic inefficiencies and inequities of a delayed
+and regionally divergent climate policy action.
+The Fragmented World scenario belongs to the
+‘Too little, too late’ category of the NGFS Scenario Framework,
+which encompasses scenarios with a late and globally
+uncoordinated transition that fails to limit physical risks.
+
+The Fragmented World scenario assumes delayed and
+divergent climate policy ambition globally, leading to
+high physical and transition risks. Countries with net zero
+targets achieve these only partially (80% of the target),
+while the other countries follow current policies.
+The Fragmented World scenario faces both short-term
+and long-term disruptions, due to uneven climate
+action. Fragmented climate action is more costly, more
+carbon-intensive, and less equitable across regions
+than in more coordinated transitions. The delayed and
+uncoordinated action leads to emissions lock-ins, and
+divergent carbon and fossil fuel prices put global energy
+security at risk.
+The lack of stringent emission reduction despite costly,
+but ineffective climate policy action in some regions
+results in a strong increase in physical risks in the
+medium to long run, albeit still reduced compared to
+a Current Policy scenario.
+Finally, while fragmentation and lower ambition may
+reduce policy costs, particularly in the short term, it
+also leads to higher residual damages and therefore
+lower benefits of climate policy. These trends underscore
+the systemic inefficiencies and inequities of a piecemeal
+global response.
+
+NGFS REPORT
+
+7
+
+1. Introduction
+1.1 Purpose of this report
+The Network for Greening the Financial System has
+developed long-term climate scenarios for financial
+institutions, aligned with latest climate impact and
+climate transition science. The scenarios – stemming
+from an ensemble of models including three Integrated
+Assessment Models, the macroeconomic model NiGEM,
+and tools for climate impact projections – provide a
+carefully designed set of climate transition pathways
+describing the interaction between the economy,
+energy, land and climate systems (Box 1). With a
+time horizon up to 2100, they allow users to analyse the
+near-term implications of long-term climate change and
+climate policy goals. The NGFS long-term scenarios are
+specifically designed for central banks and supervisors
+to assess and quantify both transition and physical risks
+related to various climate policy ambitions2. The risk
+assessments can be tailored to stress-test the financial
+system, to inform macro-economic policy and to explore
+alignment of investment strategies with long-term climate
+goals and climate impacts. The long-term scenarios include
+a granular description of system transitions provided by
+Integrated Assessment Models (IAMs). These descriptions
+provide the backbone to bridge climate research with
+climate impact and nature-related risk analysis as well as
+macro-economic and finance models. They provide critical
+information on “how energy, land-use, water and climate
+
+systems could transform” and “how much climate change
+could impact the economy” under a variety of climate policy
+ambitions and climate change futures.
+This report aims to provide important context to
+NGFS members and scenario users for the assessment
+of financial and macroeconomic risks associated
+with three of the NGFS Phase V3 scenarios: Net Zero
+2050 (Section 2), Current Policies (Section 3) and
+Fragmented World (Section 4). Each scenario section
+is divided into: 1) scenario narrative, 2) narrative
+quantification, 3) transition risks, 4) macroeconomic
+effects, 5) key findings and 6) conclusions. The narrative
+(Section 2.1, 3.1 and 4.1) provide a high-level description
+of the projected world future that aims to allow users
+to contextualise the scenario in terms of climaterelated risks and alignment with climate policy goals.
+The narrative quantification describes important aspects
+on how IAMs translate qualitative scenario narratives
+into quantitative model inputs. This is followed by a
+description of key quantitative features of the scenario
+that critically determine the level of transition risks
+(Section 2.3, 3.3 and 4.3), as well as macroeconomic
+implications for the economy and the financial sector
+(Section 2.4, 3.4 and 4.4). The quantitative presentation
+of key variables on transition risks is augmented by a
+discussion around findings of particular relevance for
+each of the analysed scenarios (Section 2.5, 3.5 and 4.5).
+
+2 See NGFS Guide to climate scenario analysis.
+3 NGFS Scenarios results version 5.0 were released in November 2024.
+
+8
+
+NGFS REPORT
+
+Box 1
+
+NGFS Scenario framework
+The NGFS scenarios have been designed to provide a
+common reference framework for analysing the impacts
+of climate change on the economy and financial sector.
+The set of seven scenarios available in the NGFS phase 5
+are categorised in four categories: orderly transition,
+
+disorderly transition, hot world and too little, too late.
+Figure 1.1 represents a range of levels of policy ambition,
+coordination and timeline for the policy implementation,
+and technology choices. Read more in the NGFS Phase V
+Technical documentation.
+
+Figure 1.1 Matrix of transition and physical risks in the NGFS scenario framework
+
+1.2 Note on physical risks
+and upcoming updates
+The NGFS long-term scenarios framework provides
+estimates of physical risks from climate change and their
+relative macroeconomic impacts. The NGFS framework
+to assess physical risks includes: direct aggregate GDP
+impacts assessed with econometric damage estimates, the
+biophysical risk indicators provided in the Climate Impact
+Explorer (CIE) and the economic assessment of selected
+extreme events with NiGEM.
+A key resource for analysing physical risks and climate
+change impacts is the Climate Impact Explorer (CIE), which
+has been updated in October 2025. The CIE explores
+projected climate impacts across climate scenarios, and
+in particular the NGFS scenarios. It features a large range
+of climate and biophysical indicators on country level,
+covering both slow-onset as well as extreme events.
+
+The “report on physical risks in the updated Climate Impact
+Explorer” is dedicated to describing the tool updates and
+results, and thus are not discussed in details in this report. The
+NiGEM assessment of extremes was not updated in Phase V,
+but selected new estimates will be made available in Phase VI.
+The NGFS informs users that the academic paper
+underpinning the economic damage estimates
+from physical risks in Phase V, Kotz et al. (2024), has
+received critiques post-publication in Nature (for more detail,
+please refer to the notice at the start of this document).
+The next vintage of the NGFS long-term scenarios will be
+released in 2026, as the 2-year NGFS scenario design cycle
+allows for implementation of modelling improvements for
+the next phases. NGFS Phase VI will include the update
+of physical risks estimates and related macroeconomic
+damages, as well as updated climate policy and recent
+geopolitical developments.
+
+NGFS REPORT
+
+9
+
+2. Net Zero 2050: narrative and key findings
+2.1 Narrative of the Net Zero 2050 scenario
+Short summary: The Net Zero 2050 scenario limits global warming to 1.5 °C by 2100 through stringent climate policies and
+innovation, reaching global net zero CO2 emissions around 2050. This scenario assumes that ambitious climate policies are
+introduced immediately. Carbon sequestration technologies are used to accelerate the decarbonisation but kept limited and
+broadly in line with sustainable levels of bioenergy production. The scenario gives at least a 50% chance of limiting global
+warming to below 1.5 °C by the end of the century, with a temporary overshoot of up to 0.2 °C around mid-century. The overshoot
+has increased compared to previous vintages of the Net Zero 2050 scenario due to continued high global emissions in recent
+years. Physical risks are relatively low but transition risks are medium to high.
+
+Warming
+at end of
+century4
+
+Peak warming
+
+Policy reaction
+
+Technology
+change
+
+CDR
+
+Regional policy
+variation
+
+Physical risks
+
+1.35-1.45 °C
+in 2100
+
+1.65-1.70 °C
+in peak year
+2040-2050
+
+Immediate as of
+2025, as smooth
+as possible
+
+Fast change
+
+Medium-high
+use
+
+Medium variation
+
+Substantially
+reduced
+
+Climate policy ambition and action
+The Net Zero 2050 scenario assumes that ambitious
+climate policies are introduced immediately and
+worldwide to achieve the long-term goal of limiting
+warming to below 1.5 °C by 2100. The transition to
+net-zero emissions by 2050 relies on coordinated and
+collective effort, political stability and on prioritisation
+of the climate policies on the global and national
+policy agendas. The Net Zero 2050 scenario describes a
+World in which international cooperation and geopolitics
+allows for implementation of Net Zero pledges in some
+countries, while the level of commitment remains
+uneven across regions. Countries that made a political
+commitment to a net zero target (defined before end
+of March 2024) meet this target before or after 20505.
+As a result of this worldwide policy push, the scenario
+reaches global net zero CO2 emissions around 2050
+and moves to net negative CO2 emissions thereafter.
+Existing national emission reduction targets for 2030 and
+mid-century are also reached in the scenario. The global
+policy push is reflected in an immediate sharp increase of
+the carbon price (reaching globally 100-260 US$2010/t CO2
+
+in 2030, and 500-1,250 US$2010/t CO2 in 2050). The
+carbon price serves as a proxy for the strength of a set
+of well-balanced set technology and sector policies to
+achieve the desired emissions reductions. Given this
+rapid increase, the scenario provides information on the
+economic and financial stress that would be imposed by
+immediate global action on the long-term goal of limiting
+warming 1.5 °C.
+
+Socio-economic developments
+Like all other NGFS scenarios, the Net Zero 2050 scenario
+assumes social, economic, and technological developments
+thatreflecttrendsobservedduringthefirsttwodecadesofthe
+21st century, following the assumptions of the Shared Socioeconomic Pathway 2 (SSP2)6. Countries and international
+relations are relatively stable, markets are globally connected,
+although some barriers remain, development and economic
+growth proceed unevenly (with a global annual average growth
+rate of 4% for 2020-2030 and 3% for 2030-2050), and global
+population growth is moderate and levels off at 10 billion
+people in the second half of the 21st century. Multilateral
+institutions make only slow progress towards achieving
+
+4 End-of-century and peak warming values represent the results range across IAMs, and the 50th percentile of the surface temperature variation
+(AR6 Surface Temperature (GSAT)|MAGICCv7.5.3|50.0th Percentile).
+5 Net-zero targets as published by the UNFCCC as of March 2024 for the following countries: Argentina, Australia, Brazil, Canada, Colombia, EU + UK,
+Japan, New Zealand, South Africa, South Korea and USA in 2050; China, Indonesia and Russia in 2060; and India in 2070. Some jurisdictions such as
+the US, EU, UK, Canada, Australia, and Japan reach net zero for all GHGs.
+6 Riahi et al., 2017, O’Neill et al., 2017.
+
+10
+
+NGFS REPORT
+
+the sustainable development goals and environmental
+systems continue to degrade gradually. Technological
+development is moderate. The collective and ambitious
+action on climate change and associated transformation of
+energy and land use constitutes a break from these moderate
+and uneven trends, but such trends persist in other sectors.
+
+Energy transition and technology trends
+Net Zero 2050 relies strongly on decarbonising the
+electricity supply, increasing electricity use, increasing
+energy efficiency, and developing new technologies to
+tackle hard-to-abate emissions. Reducing dependencies
+to fossil fuels drives the future of energy systems and
+services in industrialised countries which have defined net
+zero commitment. The use of carbon dioxide removal (CDR)
+is significant, however CDR is constrained to remain broadly
+in line with sustainable levels of bioenergy production.
+
+Food systems and land use transition
+Economic development and population growth are
+transforming global food systems and land use,
+creating complex trade-offs between nutrition, energy
+production, and climate goals. In developed countries,
+continuing diet patterns and trends of overconsumption
+and food waste strain resources, while in many emerging
+economies, rising incomes are driving higher calorie
+consumption – especially from meat and dairy products –
+which in turn increases demand for feed crops and
+puts greater pressure on agricultural land. Under the
+Net Zero 2050 scenario, arable land is also diverted to
+bioenergy crops and afforestation for carbon removal,
+intensifying competition between food security, energy
+production, and carbon dioxide removal strategies. To
+navigate these competing demands, agriculture becomes
+more productive through sustainable intensification and
+innovative technologies that boost yields without further
+expanding cropland.
+
+Physical risks and climate change impacts
+Most regions are projected to experience increased
+exposure to climate hazards such as heat stress, drought
+and heavy precipitation risks. However, the physical
+risks and related economic climate damages remain
+substantially reduced compared to any less ambitious
+pathway, given the immediate and steep reduction
+in emissions. A certain level of residual damages is already
+
+locked in in the near-to-medium term and also remains in
+the long run. This requires adaptation measures and policies
+in parallel to mitigation efforts, which together can place
+a burden on development. Climate impacts might also
+affect mitigation measures, e.g. through water availability,
+disruptions of grids from extremes or increasing energy
+demand for cooling. Finally, the emission pathway leads to
+a mid-century temperature peak above 1.5 °C with a decline
+afterwards. This raises the question of reversibility of some
+impacts after the peak, for example locked-in sea-level rise,
+impacts in biodiversity or health.
+
+Economic transition
+Immediate and worldwide climate action – implemented
+via rapidly increasing (shadow) carbon pricing – raises
+energy costs in the short term which causes an initial
+strain on the economy through decreased demand and
+market losses. This is accompanied by modest increases in
+inflation and unemployment before returning to previous
+trends. Carbon revenue recycling can offset some of
+the negative impacts on economic growth and reduce
+unemployment. Inflationary pressure and employment
+effects differ across countries. Policy interest rates spike
+initially, and long-term interest rates tend to increase,
+reflecting the inflationary pressure created by mitigation
+policies.
+
+A transition as orderly as still possible
+The Net Zero 2050 scenario belongs to the orderly
+transition category in the NGFS scenario framework,
+assuming that ambitious climate policies are
+introduced early and effectively on a global scale
+so that climate change and associated physical and
+transition risks are relatively limited. The scenario
+is characterised by medium-to-high transition risks.
+Global greenhouse gas emissions, and in particular
+CO 2 emissions, have remained stubbornly high over
+the past five years after rebounding from a 6% drop in
+2020 due to the COVID-19 pandemic. As a result, the
+annual vintages of the NGFS Net Zero 2050 scenario
+from Phase I (2020) to Phase V (2024) have grown less
+orderly, as the continued high emission trajectories
+have to be followed by ever more disruptive emissions
+reductions to still achieve the mid-century target.
+To achieve these emission reductions, (shadow) carbon
+prices have to reach higher levels than those projected
+in previous vintages – especially from 2030 onwards.
+
+NGFS REPORT
+
+11
+
+In consequence, this scenario shows a peak warming
+around 1.65-1.7 °C (exceeding by 0.1 °C the peak
+warming in the Net Zero 2050 scenario of NGFS Phase
+IV), before returning to below 1.5 °C by the end of
+the century.
+A fully orderly transition is no longer available. The Net
+Zero 2050 scenario is therefore not only relevant for the
+assessment of policy and investment alignment, but
+also for stress testing. In comparison, the Low Demand
+scenario features a more orderly transition, as a significant
+behavioural change in terms of energy consumption
+alleviates the decarbonisation efforts.
+
+2.2 Narrative quantification
+Robust SSP and scenario frameworks allow the translation
+of the qualitative narrative into quantitative assumptions to
+the Integrated Assessments Models7. The implementation
+of the following parameters are essential to the Net
+Zero 2050 scenario.
+• SSP2 assumptions on population and GDP baseline
+are reflected as exogenous parameters in IAMs.
+The GDP then changes (semi-)endogenously when
+affected by energy transition costs, and by integrated
+damages when they are included. SSP2 assumptions
+enforce moderate rates of socio-economic development
+
+on average globally, and moderate convergence
+between low and high income countries (Annex A).
+• Policy commitments are translated into constraints
+on the emissions and technology targets, and are
+reflected in the shadow carbon price. A carbon budget
+is set to reflect the policy ambition, and in the case
+of Net Zero 2050, is aligned with the goal of limiting
+global warming to 1.5 °C by 2100 (with 50% likelihood)
+(Figure 2.1).
+• Climate change directly affects physical risks and
+impacts on natural and human systems, and therefore
+socioeconomic developments.
+• Collaboration between countries impacts how
+smoothly the transition can occur. The Net Zero
+2050 scenario has moderate regional differences in
+policy ambition, which alters the coordination, as some
+countries will implement a faster transition (at higher
+transition risks), and others will take less or slower
+mitigation action (causing higher physical risks globally).
+• Ambitious assumptions on innovation together
+with growth constraints define the technology
+deployment: the Net Zero 2050 scenario exhibits set
+with fast technological change (for both land use and
+energy-related innovations). Additionally, CDR is an
+important technology lever to reach emission goals.
+The Net Zero 2050 allows for medium-to-high use and
+fast deployment of CDR.
+
+Figure 2.1 Surface Temperature Variation
+(MAGICCv7.5.3, 50.0th Percentile)
+
+7 Fricko et al., 2017.
+
+12
+
+NGFS REPORT
+
+However, modelling exercises show there are many ways to
+reflect complex systems, and many strategies to implement
+a transition. IAMs characteristics and assumptions influence
+their future projections and pathway towards reaching
+emission targets. Key assumptions are summarised in the
+“NGFS Note on Key assumptions, 2025”, and more technical
+details on the models are available in the “NGFS Technical
+documentation, 2025”. Where relevant, this report highlights
+how model results compare and what drives the differences.
+
+2.3 Transition risks
+This section highlights key characteristics of the climate
+transition in the Net Zero 2050 scenario, that are of particular
+relevance for describing the scenario implications in various
+sectors, as well as for using this scenario for risk assessments.
+NGFS long-term scenarios offer a multi-model study that
+is needed to derive robust insights in long-term scenarios.
+In this section, results from the three IAMs are shown
+and compared. Key similarities and differences between
+IAMs are highlighted and crossed with the models own
+characteristics and assumptions.
+
+2.3.1 Emissions trajectory
+With stringent and immediate policy action for climate
+neutrality, all three models show that global CO2 emissions are
+very quickly reduced in the first half of the century, from around
+40Gt/year in 2020 to around 20Gt/year in 2035 (Figure 2.2).
+The emission reduction curve and timing of reaching
+neutral emissions varies across models: REMIND-MAgPIE
+follows a quick plunge and reaches net-zero around 2045,
+while MESSAGEix-GLOBIOM takes a more gradual approach
+and reaches neutrality in 2060. A driver to this timing difference
+is due to how models implement net-zero emission constraints,
+and specifically the flexibility window around the target year.
+Most CO2 emissions from the energy sector are avoided or
+captured by 2050, and negative emissions in the AFOLU
+sector (agriculture, forestry and other land use) compensate
+for residual emissions after 2050. All three models assume that
+yearly emissions will remain constant in the second half of the
+century. Major decarbonisation efforts are implemented by
+2050 across all energy demand and supply sectors. Sectoral
+and regional variations are discussed further in this report
+(Section 2.5.2), as well as the role of carbon sequestration to
+achieve emissions reductions (Section 2.5.3).
+
+Figure 2.2 Yearly Net Emissions|CO2 (Mt CO2 /yr)8
+
+8 Gross CO2 emissions would allow for better specification of the sectoral transition, in particular to represent the share of carbon capture and storage
+in energy and industry sectors. These variables will be reported in the next NGFS phase, following the IAM community initiative of aligning their
+common variables definitions.
+
+NGFS REPORT
+
+13
+
+2.3.2 Primary energy mix
+Globally, the Net Zero 2050 scenario shows an immediate
+and rapid decrease of fossil fuel consumption (oil, coal
+and gas), and subsequent increase in renewable energy
+use (mostly solar and wind resources) (Figure 2.3).
+The deployment of renewables and increasing
+electrification leads to higher energy efficiency, which
+causes a temporary decline in primary energy in the
+near-term despite increasing GDP and service provision,
+as reflected by all three IAMs.
+All models align on renewables becoming a dominant
+share of the total primary energy by mid-century: the
+combined share of solar, wind and biomass reaches
+60-70%. The use of biomass steadily increases to 100EJ/
+year for all models9. REMIND-MAgPIE and MESSAGEixGLOBIOM project up to 50EJ/year from geothermal
+resources in 2100, while GCAM observes a similar
+production from nuclear energy. All models show a
+residual use of conventional and unconventional oil
+and gas, to the range of 30-100 EJ/year by 2050. GCAM
+
+generally uses a higher amount of primary energy, due to
+optimistic assumptions on renewable technology costs
+and a high income elasticity.
+
+2.3.3 Electricity and final energy mix
+Under the Net Zero 2050 scenario, the transformation of
+the global electricity production system is particularly fast
+and profound. Electrification becomes a major measure for
+decarbonisation, as (i) electricity supply decarbonises and
+grows considerably (multiplied by a factor 2.3 to 4 between
+2025 and 2050, see Figure 2.4) and (ii) electricity assumes
+the largest share of final energy by 2050 (Figure 2.5). As the
+installation of renewable capacity accelerates globally, solar,
+wind and hydro power technologies supply more than half
+of the total production already by 2030. Nuclear electricity
+remains steady, while fossil-fuel electricity generation reduces
+dramatically by 2040. Such rapid technology shift comes with
+transition risks, due to decreasing revenues for fossil generators,
+a substantial reallocation of employment within the energy
+sector and high investment needs for the transition. The impact
+on energy prices is discussed in Section 2.3.5.
+
+Figure 2.3 Primary energy, World
+
+9 When produced in a sustainable way, biomass is renewable on a short time scale. Bioenergy accounts for zero emission because the carbon that it
+releases has been previously absorbed during the growth of the biomass. CCS applied on bioenergy therefore leads to negative emissions.
+
+14
+
+NGFS REPORT
+
+Figure 2.4 Sources of Electricity, World
+
+Figure 2.5 Final Energy per Carrier, World
+
+NGFS REPORT
+
+15
+
+2.3.4 Carbon sequestration
+Carbon sequestration includes processes to capture CO2,
+either at the outlet of a plant or through biomass growth,
+and to store the CO2 into geological deposits (such as
+in depleted oil and gas fields) or through land-based
+sinks (such as afforestation). In the Net Zero 2050 scenario,
+carbon capture and storage (CCS) contributes to compensate
+for residual CO2 emissions after 2050: all three models agree
+on a similar increase until 2040, and on a range of 2-6Gt CO2
+per year in 2050 (Figure 2.6). From land-based sinks, models
+project a continuous decrease in net CO2 emissions, albeit at
+different paces. Models combine different shares of carbon
+
+storage solutions to compensate for residual CO2 emissions
+(see 3.2.1). GCAM takes more optimistic assumptions on CCS
+deployment, while MESSAGEix-GLOBIOM tends to rather
+compensate residual emissions with land-use carbon sinks.
+In total, land-based and technological carbon sequestration
+sums to around 9Gt of CO2 per year in the second half of
+the century. This represents a medium-high use compared
+to less ambitious NGFS scenarios (e.g. the Current Policies
+scenario sees CCS capacities to only 0-1.2Gt CO2 /year
+in 2050). Section 2.5.3 of this report discusses in more
+detail the role of carbon dioxide removal and CCS in a
+global net zero context.
+
+Figure 2.6 Carbon Sequestration|CCS (left), Emissions|CO2|AFOLU (right)
+
+2.3.5 Carbon, energy and agricultural prices
+Carbon prices
+The main policy lever driving the transition is a (shadow)
+carbon price that (i) represents the marginal cost of
+abatement of carbon emissions and (ii) is a proxy for overall
+climate policy ambition and effectiveness, accounting
+for a variety of real-world climate policies (carbon tax,
+subsidies, environmental standards, etc.). Under the Net
+
+Zero scenario, the carbon prices lead to achievement
+of climate policy goals defined in the scenario: net-zero
+emissions for countries that have made such commitments,
+as well as a global net-zero target around 2050. All three
+IAMs show a sharp increase of the shadow carbon price
+from 2025 (immediate action), reaching 100 to 250US$/t CO2
+in 2030, and 320 to 430US$/t CO2 in 2040 (Figure 2.7).
+Section 2.4 and 2.5.1 of this report will explore the
+regional differences.
+
+16
+
+NGFS REPORT
+
+Figure 2.7 (Shadow) Price|Carbon in scenario Net Zero 2050
+
+The IAMs expect a global carbon price of around 1,000 USD
+in 2070, but the steepness of the price curve varies across
+models. IAMs take different approaches to interpolate the
+curve, and to consider the effects of marginal abatement
+costs and technology changes. To reach emissions targets,
+REMIND-MAgPIE assumes the carbon price to follow an
+exponential growth from 2020 to the target year, and
+increases linearly after. With MESSAGEix-GLOBIOM, once
+net-zero targets are met, regional carbon prices tend to
+decline (after India’s net zero target in 2070).
+
+Energy prices
+Secondary energy prices represent energy costs as the gross
+price paid by large scale consumers, such as industrial actors
+
+or energy suppliers. All IAMs provide price information
+with a 5-year timestep, indicating the trend for energy
+prices until the end of the century. The price at the second
+energy level (i.e. Price|Secondary Energy|Oil) includes the
+costs of extraction, transport and transformation as well
+as the carbon tax (applied when converting from primary
+to secondary energy).10
+Under the Net Zero 2050 scenario, significant investments
+must be channelled to renewable energy infrastructure to
+decarbonise the energy system, while fossil assets phase
+out. REMIND-MAgPIE and GCAM see the effect of such
+investments on secondary electricity prices (Figure 2.8, left),
+as a temporary increase until 2030. The models follow a
+decreasing trend for electricity prices, as renewable energy
+
+Figure 2.8 Secondary Electricity (left) and Oil (right) index prices
+
+10 Secondary energy prices provided by IAMs are based on economics fundamentals and driven by extraction costs. They may differ from prices
+provided by the NiGEM macro-economic model (in particular in the short-term), which takes different assumptions to represent demand and supply
+dynamics. The use of either results depends on the case study and its assumptions. More information on the market assumptions of IAMs and the
+NiGEM model can be found in the Note on Key assumptions and in the Technical documentation.
+
+NGFS REPORT
+
+17
+
+Figure 2.9 Price|Agriculture|Non-Energy Crops|Index in scenario Net 2050
+
+is low-carbon and has low operational costs compared
+to fossils. MESSAGEix-GLOBIOM prices behaviour in the
+near-term is due to its region-specific assumptions of coal
+availability after COVID (slight revival) in 2025.
+Fossil energy price trends vary across models, as they
+depend on fossil extraction assumptions and carbon
+price defined by each model (Figure 2.8, right). REMINDMAgPIE expects carbon-intensive energy prices (oil, coal
+and natural gas) to increase. For instance, oil prices increase
+by 60% between 2020 and 2050 due to carbon pricing
+and depletion of oil fields that have lower extraction
+cost. MESSAGEix-GLOBIOM oil prices show an increasing
+trend in the second half of the century, due to the model’s
+sensitivity to increasing carbon prices in the dominant
+oil-exporting regions.
+
+Agricultural prices
+As the Net Zero 2050 scenario projects non-negligeable
+land use changes, it is important to consider the potential
+impacts on agriculture prices. The models project notably
+different trends in crops commodity prices (excluding
+energy crops): REMIND-MAgPIE and MESSAGEix-GLOBIOM
+both anticipate relatively stable prices – implying muted
+inflationary pressure from food – whereas GCAM projects
+the agricultural price index to roughly double in 2035 and
+more than triple in 2050.
+In the context of the Net Zero 2050 scenario, GHG pricing
+plays a key role in shaping the agricultural commodity prices.
+Deforestation and related CO2 emissions are effectively
+prevented even through moderate GHG tax levels, which
+
+restricts the further expansion of arable land. This intensifies
+competition of existing agricultural land, which must now
+meet growing food and feed demand while also purposing
+carbon sequestration through afforestation and bioenergy
+crops production. Emissions from crop production (e.g. from
+nitrogen fertiliser use) can be reduced at relatively moderate
+cost though improved practice of plant nitrogen uptake
+efficiency. In contrast, non-CO2 emissions from livestock
+production systems (e.g. methane from enteric fermentation
+in cattle) remain difficult and costly to mitigate amid growing
+global (region-specific) demand for meat and dairy products.
+To balance land constraints and rising demands, sustainable
+investments in agricultural productivity are needed – such
+as improving crop yield levels, expanding irrigation, and
+enhancing agricultural management more efficiently. The
+modeling assumptions about how these investment costs
+are repaid (i.e. though annuity rates over time) help buffer
+their impact on food prices, contributing to price stability
+(c.f. Figure 2.9, REMIND-MAgPIE and MESSAGEix-GLOBIOM
+projections). GCAM, however, assumes a direct effect of
+emission prices onto costs for agricultural production, leading
+to much higher projected increases in the agricultural price
+index for crop commodities under the same scenario.
+
+2.4 Macroeconomic effects
+from transition risks
+The following section presents results and trends for key
+macroeconomic variables from the model NIGEM. Regional
+GDP damages from transition risks are discussed and
+compared with other scenarios from the NGFS framework.
+
+18
+
+NGFS REPORT
+
+Figure 2.10 World GDP losses due to transition risks wrt baseline levels in 2050 (NiGEM output)
+
+NIGEM: World GDP (transition), % difference
+in 2050, 2017 PPP ; US$ Bn
+0.0
+-0.5
+-1.0
+-1.5
+-2.0
+
+REMIND
+Net Zero 2050
+
+In the Net Zero 2050 scenario, another important component
+of macroeconomic impacts is due to the physical damages
+associated with the emissions trajectory and global
+temperature rise (see Sections 1.2 and 2.2).
+For the calibration of climate scenarios, NiGEM takes
+inputs from different modules of the NGFS modelling
+framework. The trends for all macroeconomic variables
+(from NiGEM) in this section are presented relative to a
+climate neutral forecast baseline (see Annex B). The IAMs
+provide data for a new baseline forecast and climate
+transition risk scenarios.
+
+2.4.1 GDP damages from transition risks
+The Net Zero 2050 scenario presents relatively low
+physical risks but medium to high transition risks as
+compared to a disorderly transition scenario such as
+Fragmented World11. As shown in Figure 2.10, GDP losses
+due to transition risk are projected to be relatively higher
+in Net Zero reaching up to -1.6% by 2050, but only remain
+below -1% in the Fragmented World scenario.
+
+GCAM
+
+MESSAGE
+
+Fragmented World
+
+GDP impact across jurisdictions
+GDP impact of transition risk varies across jurisdictions
+depending on how ambitious the climate transition
+policy is or how stringent the carbon prices are,
+compared to the current policy environment. Figure 2.11
+shows carbon prices and GDP impacts from transition
+across key regions. Across the three models, R5 OECD+EU
+region experiences one of the steepest increases in carbon
+prices, ranging from $450 to $1,500 per ton of CO2 by
+2050, while Asia, the Middle East and Africa show relatively
+lower increases in carbon price ($450 to $1,200 per ton
+of CO212). As a result, Asian economies such as China and
+India face one of the lowest declines in GDP, ranging from
+-0.5% to 1% across the models by 2050. While the US and
+Europe experience a relatively higher decline with GDP
+impacts ranging from -1% to 0.3% across the three IAMs.
+The Middle East and Africa being net exporters of fossil fuels
+are impacted by the decline in demand for fossil fuels, thus
+experiencing one of the highest declines in GDP despite
+having one of least stringent carbon prices.
+
+11 The Fragmented World scenario assumes delayed and divergent climate policy ambition globally, leading to high physical and transition risks.
+Countries with net-zero targets achieve these only partially (80% of the target), while the other countries follow current policies (see Section 4).
+12 Carbon prices figures quoted in this section are IAMs outputs, and represent the range across regions and models.
+
+NGFS REPORT
+
+19
+
+Figure 2.11 Regional carbon prices (IAM outputs) and GDP losses from transition risks (NiGEM output)
+1,600
+1,400
+1,200
+1,000
+800
+600
+400
+200
+
+IAM, REMIND: Price|Carbon, US$2010�t CO2
+Asia (R5)
+Latin America (R5)
+Middle East & Africa (R5)
+OECD & EU (R5)
+Reforming Economies (R5)
+World
+
+0
+
+IAM, GCAM: Price|Carbon, US$2010�t CO2
+1,600
+1,400
+
+Asia (R5)
+
+NIGEM, REMIND: GDP (transition); % difference, 2017 PPP; US$ Bn
+
+1
+-1
+-3
+-5
+-7
+-9
+-11
+-13
+-15
+
+NIGEM, GCAM: GDP (transition); % difference, 2017 PPP; US$ Bn
+1
+
+-1
+
+1,200
+
+Middle East & Africa (R5)
+
+-3
+
+1,000
+
+Latin America (R5)
+
+-5
+
+800
+
+OECD & EU (R5)
+
+600
+400
+200
+
+Reforming Economies (R5)
+World
+
+0
+
+-7
+-9
+-11
+-13
+-15
+
+IAM, MESSAGE: Price|Carbon, US$2010�t CO2
+1,600
+1,400
+1,200
+1,000
+800
+600
+400
+
+Asia (R5)
+Latin America (R5)
+Middle East & Africa (R5)
+OECD & EU (R5)
+Reforming Economies (R5)
+World
+
+NIGEM, MESSAGE: GDP (transition); % difference, 2017 PPP; US$ Bn
+-1
+-3
+-5
+-7
+-9
+-11
+-13
+
+0
+
+-15
+
+Regions face an initial cost-push inflationary strain due
+to immediate transition policy action as carbon pricing
+raises energy costs in the short term. These inflationary
+effects, combined with the aforementioned GDP losses,
+are also accompanied by a rise in unemployment.
+Inflation and unemployment trends vary across regions.
+Inflationary pressures across regions depend on the
+amount of carbon tax revenue collected and recycled13
+into the economy through government investment
+and debt. On the other hand, as final energy demand
+declines in Net Zero (relative to current policies), this
+could potentially offset inflationary pressures. Finally,
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+1
+
+200
+
+2.4.2 Inflationary strain and unemployment
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+the decline in the demand for fossil fuels and energy mix
+shifts over time cause fossil fuel primary energy prices to
+decline in the Net Zero 2050 scenario relative to current
+policies. For regions such as China and India that are
+net importers of fossil fuel primary energy, this could
+further offset inflation. Figure 2.12 shows the inflation
+and unemployment trends across regions. The Middle
+East faces the maximum initial spike in inflation (3 to 7pp
+above baseline across the three IAMs in 2024, while in
+comparison the initial spike is lower in Europe and the US
+(0.05 to 2pp). This is primarily because the Middle East is
+projected to experience the highest increase in carbon
+tax revenue in 2020-2025 over current policies, while
+the US and Europe have one of the lowest increases.
+
+13 In the Net Zero scenario and other orderly scenarios, taxes are recycled and split evenly between government investment and government debt.
+
+20
+
+NGFS REPORT
+
+While India and China also have a similar increase in
+carbon tax revenues as the Middle East, the initial
+inflationary impact is lower for them14. The decline in
+fossil fuel primary energy prices offsets the inflationary
+impact for India and China as they are net fossil fuel
+importers. After the initial spike in 2025, even though
+carbon tax revenues in the net zero scenario continue
+to increase, the pace of growth slows down relative to
+
+current policies. As final energy demand also continues
+to decline, this eases inflationary pressures over time.
+Unemployment spikes in 2025 across the US, Europe and
+key Asian economies such as India. The US faces the highest
+spike ranging from 0.3pp to 0.7pp above the baseline
+levels, while China sees a decline in unemployment, but
+it increases in the medium term.
+
+Figure 2.12 Inflation and unemployment rates impacts due to transition risks (NiGEM output)
+
+8
+7
+6
+5
+4
+3
+2
+1
+0
+-1
+-2
+
+8
+7
+6
+5
+4
+3
+2
+1
+0
+-1
+-2
+
+8
+7
+6
+5
+4
+3
+2
+1
+0
+-1
+-2
+
+NIGEM, REMIND: Inflation rate, % (transition) Abs. difference
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+0.8
+
+NIGEM, REMIND: Unemployment rate; % (transition) Abs. difference
+China
+
+0.6
+
+Europe
+
+0.4
+
+India
+
+0.2
+
+United States
+
+0.0
+-0.2
+-0.4
+
+NIGEM, GCAM: Inflation rate, % (transition) Abs. difference
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+0.8
+0.6
+
+0.4
+0.2
+
+NIGEM, GCAM: Unemployment rate; % (transition) Abs. difference
+
+China
+Europe
+India
+United States
+
+0.0
+-0.2
+-0.4
+
+NIGEM, MESSAGE: Inflation rate, % (transition) Abs. difference
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+0.8
+0.6
+0.4
+0.2
+
+NIGEM, MESSAGE: Unemployment rate; % (transition) Abs. difference
+China
+
+Europe
+
+India
+United States
+
+0.0
+-0.2
+-0.4
+
+14 Under the Net Zero 2050 scenario, government tax revenue from carbon pricing increases drastically between 2020 and 2025 – by nearly 3,000%
+in the Middle East, 2,400% in India, and 1,200% in China, compared to current policies.
+
+NGFS REPORT
+
+21
+
+2.4.3 Policy interest rates and long-term
+interest rates
+Policy interest rates spike initially to curtail the sharp
+initial inflationary pressures. The US, Middle East, Africa
+and Latin America face the steepest spike in policy rates,
+ranging from 0.8pp to 2.5pp above baseline levels in 2023,
+while the spike is relatively lower across regions such as
+Europe and India. This trend is consistent with the initial
+inflationary spike across regions where Europe and India
+face a relatively lower spike in inflation.
+
+As a result of the increase in policy interest rates,
+long-term interest rates also rise, reflecting the
+inflationary pressure created by shadow carbon price
+as well as the increased investment demand that the
+transition spurs on. As shown in the plots below, the
+regional variation in the trends of long-term interest rates
+is consistent with that of policy rates, with Europe and India
+reflecting the lowest increase in policy rates.
+
+Figure 2.13 Long-term and policy interest rates impacts due to transition risks (NiGEM output)
+
+2.4
+2.2
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+-0.2
+
+2.4
+2.2
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+-0.2
+
+2.4
+2.2
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+-0.2
+
+NIGEM, REMIND: Central bank Intervention rate
+(policy interest rate); % (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+NIGEM, GCAM: Central bank Intervention rate
+(policy interest rate); % (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+NIGEM, MESSAGE: Central bank Intervention rate
+(policy interest rate); % (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+
+NIGEM, REMIND: Long term interest rate;
+% (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+NIGEM, GCAM: Long term interest rate;
+% (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+NIGEM, MESSAGE: Long term interest rate;
+% (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+22
+
+NGFS REPORT
+
+2.5 Key findings: transition
+to Net Zero 2050
+
+2.4.4 Equity market disruptions
+Carbon pricing also introduces policy uncertainty, leading
+to sudden disruptions in equity markets. This is reflected
+in a sharp initial decline in equity prices in 2023 when carbon
+pricing is introduced, followed by a gradual but continuous
+decline as investors continue to form their expectations.
+As shown in Figure 2.14, the equity market drop is more severe
+in the US (ranging from -6% to -15% across the three models)
+compared to China (-4% to -10%), consistent with the trend
+of carbon prices applied in these regions. For the US, the drop
+in equity prices is primarily driven by its heavy reliance on
+energy. Despite becoming a net exporter of oil, the non-oil
+producing sectors dominate, causing the US economy to
+be heavily impacted by the reduction in overall energy use.
+Figure 2.14 Equity prices impacts due to transition risks
+(NiGEM output)
+
+3.0
+1.0
+-1.0
+-3.0
+-5.0
+-7.0
+-9.0
+-11.0
+-13.0
+-15.0
+-17.0
+
+3.0
+1.0
+-1.0
+-3.0
+-5.0
+-7.0
+-9.0
+-11.0
+-13.0
+-15.0
+-17.0
+
+3.0
+1.0
+-1.0
+-3.0
+-5.0
+-7.0
+-9.0
+-11.0
+-13.0
+-15.0
+-17.0
+
+NIGEM, REMIND: Equity prices (transition) % difference, index; 2017=100
+
+China
+United States
+
+NIGEM, GCAM: Equity prices (transition) % difference, index; 2017=100
+
+China
+United States
+
+This section provides a detailed analysis of the Net Zero 2050
+scenario key findings using projections from three leading
+Integrated Assessment Models (IAMs) – GCAM, MESSAGEixGLOBIOM, and REMIND-MAgPIE. This scenario demonstrates
+how reaching net-zero emissions by 2050 is possible through
+immediate and coordinated climate action. The resulting
+emissions trajectory limits climate change impacts on natural
+and human systems, a necessary effort to secure liveable
+conditions this century and for future generations.
+The Net Zero 2050 scenario projects a global response
+to climate change with ambitious and internationally
+coordinated action towards a low-carbon economy. The
+transition risks associated with mitigation action include:
+the timing and speed of policy and regulation, technological
+development, market changes and changes in consumer
+preferences. Transition risks affect the profitability of
+businesses and wealth of households, creating financial
+risks for lenders and investors. They also affect the broader
+economy through investment, productivity, and relative price
+channels, particularly if the transition leads to stranded assets.
+As global climate action comes with important transition risks
+for socio-economic developments, Section 2.5.1 analyses
+these risks by discussing impact on fossil-dependent sectors
+and financial institutions. To reach net zero emissions, the
+energy sector transition is characterised by an early uptake
+of mitigation technologies. The energy and power sectors
+undergo a deep and rapid transformation in the next 20
+to 30 years, shifting from fossil-based to low-carbon and
+carbon removal technologies (Section 2.5.2 and 2.5.3).
+
+2.5.1 International climate policy
+implications and related
+transition risks
+NIGEM, MESSAGE: Equity prices (transition) % difference, index; 2017=100
+
+Global response and high transition
+risks associated with ambitious
+and fast policy action
+
+China
+United States
+
+According to the UNFCCC, as of June 2024, around
+100 countries had committed to reduce their emissions to net
+zero by mid-century15. These long-term strategies are crucial
+to achieve the Paris Agreement goals, and represent the most
+ambitious international effort put in place to address climate
+
+15 https://www.un.org/en/climatechange/net-zero-coalition.
+
+NGFS REPORT
+
+23
+
+change mitigation16. However, these long-term strategies
+combined with NDC 2030 targets are not sufficient to remain
+below 1.5 °C by 2100, and more stringent climate policies are
+needed. The Net Zero 2050 scenario limits global temperature
+rise to 1.5 °C in 2100, by setting a global net-zero CO2 emissions
+constraint around 2050. While the scenario ensures the
+countries that committed to NDC 2030 targets and net-zero
+pledges reach them timely, the scenario projects a higher
+global ambition for climate action and innovation, in order to
+respect the end-of-century 1.5 °C goal. Moreover, while these
+additional policies to achieve net zero by 2050 are necessary to
+limit temperature rise to 1.5 °C on the longer-term, they are still
+not ambitious enough to remain strictly below the temperature
+threshold. In fact, the Net Zero 2050 scenario expects that
+global temperature will increase 1.7 °C (low overshoot, with
+50% chance) by mid-century and stabilise to 1.5 °C by 2100.
+Therefore, successful climate mitigation depends on all
+governments, and specifically in industrialised countries,
+and all public and private sectors reinforcing their climate
+policy ambitious and respecting their commitment in time.
+
+Moderate regional differences
+in policy action
+
+Time-pressured transitions to low-carbon economies are
+typically associated with high transition risks. To transition
+to net zero in the next 25 years, all governing institutions
+and actors need to take legal, market and technological
+risks due to the deep policy changes that are required.
+As this immediate action is possible with cost-effective
+policies such as carbon taxes, the carbon price17 is a key
+IAM indicator to analyse policy transition risks. A high and
+fast-increasing carbon price means stringent and robust
+climate mitigation policies and socio-economic changes
+must be in place. The Net Zero 2050 scenario pictures a
+steep increase of carbon prices in all regions (see Figure 2.11
+in Section 2.4.1), which acts as an immediate strong signal
+to the entire economy, in particular through energy prices.
+Due to slow implementation of climate policies in recent
+years, global emissions remain high, which has increased
+pressure on countries to reach their climate commitments
+for mid-century. This pressure translates into higher carbon
+prices compared to previous NGFS phases, as progress in
+emission reduction has not been sufficient. To avoid further
+challenges in achieving net-zero pledges and fulfilling the
+Paris Agreement goals, global collaboration and immediate
+coordinated action must be taken with a long-term vision.
+
+Transition risks for the fossil fuel
+and power sector
+
+In all R5 regions, the pattern of shadow carbon prices
+projected by all three IAMs (GCAM, MESSAGEix-GLOBIOM,
+and REMIND-MAgPIE) reflects a consistent and significant
+mitigation effort, as it reaches at least 150$US/t CO2 by
+2030 and 450$US/t CO2 by 2050, with a continued increase
+afterwards (see Figure 2.11 in Section 2.4.1). GCAM’s regional
+difference in carbon prices in 2050 reflects how some regions
+are further from their emission goals than others. For instance,
+the R5 OECD+EU region (reaching 1,500$US/t CO2 in 2050)
+encompasses GHG-intensive industrialised countries, some of
+which had committed to net-zero emissions as of March 2024
+(e.g, Australia, Canada, EU28, USA, Japan, New Zealand). While
+carbon price differences between R5 regions are small, national
+differences are expected due to the ambition gap between
+countries that are only following their NDC targets, and those
+with additional net-zero pledges. These variations may cause
+inequality in mitigation costs and market distortions.
+
+A major consequence of international mitigation actions
+towards a low-carbon global economy is the reduction
+of fossil fuel use, which puts the fossil fuel investments
+and fossil-dependent end-sectors at risk. Technological
+shifts towards renewable energy production and increasing
+carbon prices will inevitably affect the role of fossil resources
+and assets for the global economy. In the Net Zero 2050
+scenario, all three IAMs foresee a strong reduction of coal, oil
+and gas use by 2050 (Figure 2.15), enabled by carbon pricing,
+regulation measures and consumer behaviour change. Coal
+sees the strongest declining trend, and only minor use after
+2050. Oil and gas are likely to still play a two-fold role: in
+hard-to-abate sub-sectors of industry and transportation
+(see section 2.5.2), and in developing economies for which
+total final energy demand (Figure2.16) is expected to keep
+increasing (mostly gas, in Asia, Latin America, Middle East and
+Africa). As fuel demand decreases, the fossil fuel sector will see
+its investments put at risk and revenues become uncertain.
+Industries must therefore decarbonise their operations, invest
+in clean technologies, and adopt circular economy practices.
+
+16 As the NGFS Nationally Determined Contributions (NDC) 2030 scenario has shown, NDC targets are not sufficient to mitigate climate change,
+and lead to 2.3 °C temperature rise at the end of the 21st century. https://www.ngfs.net/ngfs-scenarios-portal/explore.
+17 In the NGFS scenarios, the main policy lever driving the transition is a (shadow) carbon price that (i) represents the marginal cost of abatement
+of carbon emissions and (ii) is a proxy for overall climate policy ambition and effectiveness, accounting for a variety of real-world climate policies
+(carbon tax, subsidies, environmental standards, etc.).
+
+24
+
+NGFS REPORT
+
+Figure 2.15 Primary Energy|Coal (left), Oil (center) and Gas (right)
+
+Figure 2.16 Final Energy per region in the Net zero 2050 scenario
+
+Mitigation ambition consistent with Net Zero 2050 results
+in an accelerated decarbonisation of electricity production,
+characterised by a rapid ramping-up of renewable
+power (mostly from solar and wind, see section 2.3.3),
+combined with a rapid phase-out of fossil fuels. As fossil
+power generation becomes increasingly less competitive
+in electricity markets with a high carbon price and high
+renewable energy penetration, this transition poses
+
+significant transition risks to the producers of coal and
+gas, as well as the fossil power generation assets. At the
+same time, the power sector faces a rapid transformation
+and significant technology change. Therefore, to enable
+a smooth transition, the renewable electricity transition
+needs sufficient capital investments, and the challenge of
+resource scarcity for the production of renewable assets
+must be sustainably addressed.
+
+NGFS REPORT
+
+25
+
+In the section on the energy transition dynamics (2.5.1),
+the use of the non-abated fossil fuel in different end-use
+sectors will be discussed. An in-depth analysis into the
+required energy investments of the Net Zero 2050 scenario
+is provided in the NGFS Report on Energy investments.
+
+Economic transition: near-term economic
+adjustments, for long-term stability
+As climate action advances and carbon prices increase,
+all actors of the economy must collectively adapt:
+governments implement robust policies and clean
+investments, industries decarbonise and contribute
+to a sustainable and circular economy, consumers
+prefer more sustainable consumption, and financial
+institutions redirect investment to sustainable projects.
+In their strategic planning and risks management, financial
+organisations should consider both near-term and long-term
+transition risks and opportunities. Transition risks can be
+analysed through the effect of the steep increase of carbon
+price of the Net Zero 2050 scenario, which may cause
+rising energy and food prices, inflationary pressure, and
+increases in long-term interest rates. Long-term shifts in
+demand and cost structure of assets in all economic sectors
+will require a redirection of investments and change in
+capital management. Adopting a forward-looking approach
+would enable financial organisations to avoid losses and
+to take a key role in facilitating the transition by scaling up
+low-carbon technologies and innovations.
+
+2.5.2 Energy transition dynamics
+The Net Zero 2050 scenario depicts an ambitious mitigation
+pathway of rapid and deep decarbonisation. Achieving
+carbon neutrality requires transformations towards
+low-carbon and efficient technologies in all sectors, ranging
+from production and conversion of energy to end-uses
+in industry, transportation and buildings. Transitioning
+towards net zero also requires a fundamental re-alignment
+of investments18. The Net Zero 2050 pathways harness the
+potential of increasingly cheap renewable energy and
+electrification, in particular in land transport. Mitigation
+challenges are dominated by the decarbonisation of
+non-electric energy demands for aviation, shipping and
+base material industries, as well as the scale-up of carbon
+dioxide removal.
+
+Decarbonisation in all sectors
+Emission reduction is steep in energy supply largely
+due to a switch from coal and gas power plants to
+variable renewable energy (VRE, see Section 2.3.3). In the
+Net Zero 2050 scenario, all models reach zero net CO2
+emissions globally between 2040 and 2060 (Section 2.3.1).
+As the main contributor to current emissions, the energy
+sector experiences a fast decline in emissions. The fastest
+transformation happens on the supply side (which includes
+power generation and other energy supply), with yearly
+emissions dropping from 14-17 Gt to 2-4 Gt over a fifteen
+year period (2025-2040). These numbers and the chart below
+represent gross fossil emissions; they do not include the
+negative emissions achieved from BECCS, the combination
+of bioenergy with carbon capture and storage (CCS). Such
+negative emissions of the energy supply together with
+CDR and AFOLU (Section 2.5.3) compensate for remaining
+emissions in the demand sectors.
+Decarbonisation patterns differ between end-use sectors,
+with a full decarbonisation in buildings, residual emissions
+in transportation, and more uncertainty in industry.
+Residential and Commercial buildings are only responsible for
+3 Gt in 2020, an amount that steadily diminishes until 2050 to
+reach 544 Mt in MESSAGEix-GLOBIOM and as low as 80-90 Mt
+in the other models. The trajectory of industry emissions from
+9-12 Gt in 2020 to 1-4 Gt in 2050 differs more across models:
+direct emissions (like fossil combustion for heat) and process
+emissions (like cement calcination) depend on material
+demand and the carbon intensity of production, the evolution
+of which remains highly uncertain. The transportation sector
+follows a more consensual trajectory from 7-8 Gt in 2020
+to 1-2 Gt in 2050 with residual fossil use in international
+aviation and shipping.
+
+Uncertainty for future demand in materials
+and energy services
+Two factors determine final energy demand: the consumption
+of materials and energy services, and the energy intensity
+of these activities. The demand per capita shows different
+patterns in different sub-sectors, and the global population
+increases slightly throughout the century. As many regions
+reach a saturation of infrastructure, per-capita demand
+decreases for materials (like steel and cement) but keeps
+
+18 Investments in the energy transition for the Net Zero 2050 scenario are extensively discussed in the dedicated Report on Investments, 2025.
+
+26
+
+NGFS REPORT
+
+increasing for other energy services (such as floor space
+and passenger transport). Cement is an important source
+of CO2 emissions; mitigation efforts and increasing material
+efficiency reduce the per-capita demand in 2050 by 9%
+relative to 2020 values for MESSAGEix-GLOBIOM and by
+50-60% for the other models. Improving living standards
+lead to an increase in per-capita floor space by 14-30% and
+
+travelled distance by 11-27%. The final energy required
+to provide the service or produce the material generally
+reduces over time (due to electrification and other efficiency
+gains), with the exception of cement where it decreases
+by 37% in REMIND-MAgPIE but increases by 6-21% in the
+other models.
+
+Figure 2.17 CO2 Emissions in energy sectors
+
+Figure 2.18 Per capita demand and energy intensity of materials and energy service provision, World
+(index with reference 2020 =1, note that the impact of the pandemic is limited since the model year 2020 represents a five-year time span)
+
+NGFS REPORT
+
+27
+
+Low-carbon electrification
+and fuel substitution
+Three complementary steps are necessary to reach
+net-zero CO2 emissions: decarbonising electricity,
+electrifying end uses, and replacing fossil fuels in
+other carriers. Following a trend that started in the 2010s,
+solar and wind power play an increasingly dominant role
+in electricity production, reaching 45-54% in 2030 on
+their way to 83-89% in 2050. Other decarbonised sources
+like hydro-, nuclear and geothermal power cover the rest
+of the mix (Section 2.3.3), but their contribution remains
+close to current levels because of limited potential or high
+cost. This fast first step decarbonises the energy supply
+and facilitates a second step: the electrification of end
+uses. The remaining non-electric final energy relies on
+other carriers: solid, liquid or gaseous hydrocarbons, heat
+or hydrogen (Section 2.3.3). While most of these currently
+stem from fossil hydrocarbons, they can in principle
+be substituted with biomass, hydrogen, hydrogenbased electrofuels (produced from captured carbon
+and hydrogen from electrolysis), or renewable heat (e.g.
+from geothermal sources). The third step entails a partial
+replacement of fossil fuels with these alternative fuels, as
+they account for minimal CO2 emissions if the biomass
+is produced in a sustainable way (not aggravating
+deforestation) and if carbon-free electricity is available
+for the electrolysis.
+
+The trade-off between electrification and fuel
+substitution is still subject to a large uncertainty. Models
+diverge in their preference for step two or three: from the
+20-21% of electrification in 2020, they offer a range of
+pathways leading to 50-73%. In consequence, the non-fossil
+share in other carriers, representing 7-12% in 2020, is as
+diverse as 27-50%. GCAM shows high electrification and
+low fuel replacement; the opposite happens in REMINDMAgPIE and MESSAGEix-GLOBIOM. The lower electrification
+in MESSAGEix-GLOBIOM explains its higher remaining
+emissions in 2050. These differences partly originate from
+variation in model assumptions, such as the availability of
+biomass or the costs, efficiency and upscaling of emerging
+technologies like carbon capture and large-scale electrolysis.
+They also reflect real-world uncertainties around the
+scale-up and commercial viability of these technologies.
+Electrification plays a key role in all end-use sectors
+but substantial uncertainty remains around the share
+of electricity in final energy since some sub-sectors are
+hard to electrify. All sectors undergo a deep electrification,
+but the shares in 2050 reflect model differences and
+real-world uncertainty. The residential and commercial
+sector is relatively easy to electrify: electric heat pumps can
+provide inexpensive heating and cooling, and most home
+appliances use electricity. The rate is already 36-38% in 2020
+and reaches 72-88% in 2050. In the industry, electricity can
+provide mechanical work and low- to medium-temperature
+
+Figure 2.19 Share of VRE, electricity and non-fossil fuels, World
+(non-electric carriers are solid, liquid and gaseous hydrocarbon fuels, heat and hydrogen)
+
+28
+
+NGFS REPORT
+
+Figure 2.20 Electrification of final energy in demand sectors, World
+
+heat, but its use for high-temperature heat is more uncertain.
+Besides, electricity cannot replace hydrocarbons used as
+feedstock in materials like plastic, steel or fertilisers. Models
+describe an industry electrification of 20-23% in 2020 and a
+wide range of 41-69% in 2050. The same diversity arises in
+transportation: electrification is only 1% in 2020 as electric
+vehicles are just phasing in, but the models project 32-60%
+in 2050 for the Net Zero scenario, subject to assumptions
+and uncertainty around future battery costs and autonomy,
+feasibility of electric trucks, fleet lifetime etc.
+
+2.5.3 Role of carbon dioxide removal
+and carbon capture and storage
+Carbon dioxide removal has an important role to reach
+emission reduction goals in ambitious climate mitigation
+scenarios. The energy demand and agricultural sectors are
+responsible for the majority of GHG emissions, despite the
+technological shifts and drastic reduction of fossil fuels.
+As described in Section 2.3.5, the Net Zero 2050 scenario
+projects around 10 Gt CO2 per year to be sequestrated in
+the second half of the century to avoid further emissions
+and to compensate for residual CO2 emissions that are not
+abated. Diverse natural and technology-based solutions
+exist, though at various stages of maturity, and they are
+central to the achievement of a global net-zero emissions
+target (see Figure 2.21, UNEP Emission Gap Report 2017).
+
+It is important to distinguish emissions that are effectively
+removed from the atmosphere – therefore contributing to
+negative emissions -, and those that are emitted but not
+released in the atmosphere. Carbon dioxide removal (CDR)19
+refers to a wide set of solutions that aim at removing CO2
+from the atmosphere, and storing it durably in geological,
+terrestrial or ocean reservoirs. Carbon capture and storage
+(CCS) and usage (CCU) refer to technologies capturing
+emissions at their source (e.g., at the outlet of a power plant)
+and are either i) stored permanently, or ii) used in a different
+process and released at a later stage. Carbon capture and
+storage (CCS) and usage (CCU) are not considered CDR
+methods, unless a net-positive amount of CO2 has been
+removed from the atmosphere, for instance through
+direct air capture (DACCS) or biomass growth (BECCS,
+bioenergy CCS).
+Fitting energy generation and industrial facilities
+(e.g., cement manufacturing) with Carbon Capture and
+Storage (CCS) can help avoid a substantial portion of their
+CO₂ emissions. In contrast, Carbon Dioxide Removal (CDR)
+technologies (several of which are underpinned by CCS)
+can compensate for emissions from hard-to-abate sectors
+such as aviation and shipping by removing carbon from
+the atmosphere and locking it into storages (e.g. forests,
+rocks, geological reservoirs). Current technologies have
+varying degrees of maturity and face several hurdles
+
+19 Carbon dioxide removal (CDR) is defined by the IPCC AR6 WGIII as: “anthropogenic activities removing carbon dioxide from the atmosphere and durably
+storing it in geological, terrestrial, or ocean reservoirs, or in products. It includes existing and potential anthropogenic enhancement of biological or
+geochemical CO2 sinks and direct air carbon dioxide capture and storage (DACCS), but excludes natural CO2 uptake not directly caused by human activities”.
+
+NGFS REPORT
+
+29
+
+Figure 2.21 Major strategies for negative emission technologies
+(UNEP Emissions Gap report, 201720)
+
+(e.g. public acceptance and policy support), so their
+deployment at scale remains subject to uncertainties.
+Therefore, DACCS (direct air carbon capture and storage)
+and enhanced weathering of rocks were switched off in
+the NGFS scenarios.
+
+Land-based CDR
+The AFOLU sector (agriculture, forestry and other land
+use) accounts for more than 20% of total anthropogenic
+greenhouse gas emissions presently. The largest component of
+carbon emissions comes from land clearing and deforestation.
+In a Net Zero world, IAMs estimate the role of the AFOLU
+sector to absorb 1500-6000 Mt of CO2 per year by the end of
+the century (see Section 2.3.5), and the sector to become net
+zero before 2045. Therefore, reversing the global deforestation
+trend and increasing forest cover is essential to meet net-zero
+targets. Moreover, to effectively compensate for residual
+emissions from other sectors, land-based sinks (e.g., forests,
+
+wetlands) need to be protected and restored to be able to play
+their key natural roles of atmospheric carbon sequestration.
+Adopting sustainable land management practices that
+ensure both food security and emissions reduction is of
+paramount importance. To avoid further releasing fossil
+carbon dioxide into the atmosphere, using biomass as fuel
+enables remaining within a faster, biogenic carbon cycle.
+The carbon emitted in the atmosphere should either be
+reabsorbed by land-based sinks (through afforestation) or
+technologically captured and stored (with bioenergy carbon
+capture and storage, BECCS). The use of bioenergy is expected
+to increase significantly (tripling globally, Figure 2.23), which
+puts additional pressure on availability of land for ecosystems
+and food production. Although this is not considered in this
+scenario, shifting towards ecological agricultural practices
+and reduction of meat and dairy consumption is also key to
+lower human pressure on ecosystems and limit trade-offs
+in the land use sector.
+
+20 The Emissions Gap Report 2017. United Nations Environment Programme (UNEP), Nairobi http://uneplive.unep.org/theme/index/13#egr.
+
+30
+
+NGFS REPORT
+
+Figure 2.22 Land cover|Forest change in Net Zero 2050 scenario
+
+Figure 2.23 Primary Energy|Biomass|Modernin Net Zero 2050 scenario
+
+NGFS REPORT
+
+31
+
+CDR and CCS technologies
+In the Net Zero 2050 scenario, CCS technologies scale-up in
+sectors that cannot be decarbonised otherwise. In addition
+to BECCS, IAMs expect an important role of CCS in the fossil
+and bioenergy-powered sectors, and industrial processes
+(Figure 2.24). In ambitious scenarios, CCS technologies allow
+for carbon-intensive industrial processes to remain powered
+by fossil fuels while limiting their CO2 emissions. Retrofitting
+of cement and steel factories are the most common in
+mitigation scenarios, due to their energy intensive nature.
+
+IAMs show different pathways for which primary energy type
+CCS will play the largest role (Figure 2.25). Because of the
+coal phase out, GCAM expects an increasing role for gas-CCS.
+CCS retrofits in REMIND-MAgPIE rather help capturing
+emissions from biomass fuels, while MESSAGEix-GLOBIOM
+rather serve the coal-powered plants. Proportionally to
+total primary energy, CCS retrofits are limited to specific
+applications, as these technologies remain expensive and
+energy intensive.
+
+Figure 2.24 Carbon Sequestration|CCS per carrier, World
+
+Figure 2.25 Primary Energy with CCS, World
+
+32
+
+NGFS REPORT
+
+2.6 Conclusions on the Net Zero
+2050 scenario
+In the Net Zero 2050 scenario, climate action is
+immediate as of 2025, ambitious and globallycoordinated, and breaks from the current mixed trends
+in socio-economic development. Due to continued high
+emissions until 2025, even the immediate and cost-effective
+implementation of measures to limit warming to below
+1.5 °C by 2100 is no longer a fully orderly transition.
+Climate ambition increases sharply until 2030, and keeps
+its momentum thereafter. This stringency is reflected in
+steeply increasing shadow carbon prices, causing rising
+energy prices, inflationary pressure, and resulting increases
+in long-term interest rates.
+The global transition towards a net-zero economy is only
+possible with coordinated effort and immediate action
+to accelerate technology change and adjust investment
+flows for the transition. There is a rapid transformation
+of energy and land use systems and a substantial role
+for new technologies and markets that remove carbon
+dioxide from the atmosphere. However, the future use
+of bioenergy and land-based CDR solutions is uncertain,
+
+puts pressure on ecosystems and areas available for food
+production. Reducing these risks could be achieved with
+additional behavioural changes, both on food and energy
+consumption. Fossil fuel sectors are at risk as demand
+falls dramatically, in reaction to robust climate policy
+implementation, leading to higher economic risks for
+fossil-dependent industries and for countries with a high
+share of fossil-fuel dependent income.
+Physical risks are strongly reduced under the Net
+Zero 2050 scenario, but remain a major component of
+the unavoidable GDP losses. Major adaptation efforts
+would still be needed to address these risks. An updated
+quantification of these impact and damage estimates will
+be available in NGFS Phase VI, 2026.
+Finally, physical and transition risks might be underestimated
+as some compounding socio-economic factors are not
+considered. This includes geopolitical and political economy
+factors and socio-economic disruptions in the medium-to
+long term (shocks to GDP, the labor force, and consumption).
+An exception to these caveats is energy demand, which is
+reduced substantially in response to climate policy in the
+Net Zero 2050 scenario.
+
+NGFS REPORT
+
+33
+
+3. Current Policies: narrative and key findings
+3.1 Narrative of the Current Policies scenario
+Short summary: The Current Policies scenario assumes that only currently implemented policies are preserved, leading to high
+physical risks. CO2 emissions remain high, leading to about 3 °C of warming and severe physical risks, as well as irreversible
+changes. This scenario can help central banks and supervisors consider the long-term physical risks to the economy and financial
+system if we continue on our current path to a “hot house world”.
+Warming at end
+of century21
+
+Policy reaction
+
+Technology change
+
+CDR
+
+Regional policy
+variation
+
+Physical risks
+
+2.75-3 °C in 2100
+
+None – current policies
+
+Slow change
+
+Low use
+
+Low variation
+
+High
+
+Climate policy ambition and action
+
+Socio-economic developments
+
+The Current Policies scenario assumes that only
+currently implemented policies are preserved,
+which leads to high physical risks and to a non-linear
+increase in severe and irreversible climate impact.
+The Current Policies scenario draws a world in which
+climate policy action is not prioritised, despite the
+experience and predictions of climate impacts on
+society. While many countries have started to introduce
+climate policies, they are not yet sufficient to achieve
+official commitments and targets. Under the NGFS
+Current Policies Scenario, global warming of 1.5 °C could
+be reached around 2030, 2 °C around 2050 and 3 °C
+around 2100. Such global warming is projected to lead
+to a non-linear increase in severe and irreversible climate
+impacts. This would likely result in deteriorating living
+conditions in many parts of the world and lead to some
+irreversible impacts22. This policy strategy leads to high
+physical risks, while transition risks are low. The shadow
+carbon price – which serves as a proxy for the various
+policy instruments for emissions reduction – only sees
+a slight increase globally until 2100 (up to 10 US$2010/t
+CO2 by 2030, and 28 US$2010/t CO2 by 2100), which
+explains the low transition risks of this scenario.
+
+Like all other NGFS scenarios, the Current Policies
+scenario assumes social, economic, and technological
+developments that reflect trends observed during
+the first two decades of the 21st century, following the
+assumptions of the Shared Socio-economic Pathway 2
+(SSP2)23. Countries and international relations are relatively
+stable, markets are globally connected, although some
+barriers remain, development and economic growth
+proceed unevenly (with a global annual average growth
+rate of 4% for 2020-2030 and 3% for 2030-2050), and global
+population growth is moderate and levels off at 10 billion
+people in the second half of the 21st century. Multilateral
+institutions make only slow progress towards achieving
+the sustainable development goals and environmental
+systems continue to degrade gradually. Technological
+development is moderate.
+
+Energy transition and technology trends
+Current policies and investments lead to a continued fossil
+fuel reliance. Renewables continue to be scaled up, but
+only fast enough to cover the growth in global demand
+and not cutting decisively into fossil fuel use at the
+global level. The use of CDR technologies remains low, as
+the current policy strategies do not promote such
+mitigation measures.
+
+21 End-of-century and peak warming values represent the results range across IAMs, and the 50th percentile of the surface temperature variation
+(AR6 Surface Temperature (GSAT)|MAGICCv7.5.3|50.0th Percentile).
+22 Irreversible changes may include higher sea level rise, which are not yet included in the NGFS scenarios (see Tipping Points note, report on physical
+risks in the updated Climate Impact Explorer).
+23 Riahi et al., 2017, O’Neill et al., 2017.
+
+34
+
+NGFS REPORT
+
+Food systems and land-use transition
+
+A low-ambition, Hot House World scenario
+
+In the Current Policies scenario, global food systems
+and land use continue to shift in response to growing
+populations and GDP – but without additional policy
+measures to guide these transitions toward sustainability.
+In developed countries, persistent trends of overconsumption
+and food waste remain, while in the emerging economics
+higher incomes drive increased consumption of animal-based
+products – intensifying demand for feed crops and expanding
+pressure on agricultural land expansion. With no incentives
+for bioenergy crop production, no afforestation targets for
+carbon removal and no land-use mitigation goals in NDCs,
+land-use change remains driven solely by food demand,
+missing critical opportunities for climate mitigation and
+ecosystem restoration.
+
+The Current Policies scenario belongs to the Hot House
+World category of the NGFS framework (see Box 1). Hot
+House World scenarios assume that some climate policies
+are implemented in some jurisdictions, but global
+efforts are insufficient to halt significant global warming.
+By definition, the transition risks associated with this scenario
+are low, and in consequence to climate inaction, the physical
+risks are high. The Current Policies scenario is the least
+ambitious scenario of the NGFS Scenario framework,
+reaching 3 °C of warming at the end of century.
+It could be taken as a reference point to analyse the effect
+of different climate action strategies with respect to both
+physical risk and transition risk. However, it does not
+necessarily mean it is the most likely scenario, as continued
+development of climate policies can be expected, both
+due to evolving technology opportunities, but also due to
+pressure from experiencing increasing impacts. The Current
+Policy scenario is a policy baseline scenario that slightly
+deviates from a “no policy” baseline by taking into account
+currently legislated policies.
+
+Physical risks and climate change impacts
+Most regions are projected to experience increased
+exposure to climate hazards such as heat stress, drought
+and heavy precipitation risks. Physical risks to the
+economy increase steadily with advancing climate change.
+A 3 °C World will significantly impact key driving forces
+of economic growth, including impacts on land and
+agricultural productivity, labor productivity and destruction
+of capital and infrastructure. While not quantified in
+this analysis, it will see increasing impacts of sea-level
+rise, on biodiversity and ecosystems or health systems.
+The changing frequency and strength in extreme events
+might push societies beyond their limits of adaptive
+capacity, unprecedented event cascades might lead to
+larger socioeconomic disruptions which cannot be captured
+with current modeling approaches. Unabated climate
+change will furthermore set in motion shifts which may
+not be reversible at all or not for long time scales, including
+the risk of tipping points.
+
+Economic transition
+As there is no new climate policy change, no economic
+impact is accounted for due to the transition. Policy and
+long-term interest rates are assumed to not experience
+any changes compared to baseline trends. All GDP and
+unemployment losses are stemming from physical risks.
+
+3.2 Narrative quantification
+Robust SSP and scenario frameworks allow the translation
+of the qualitative narrative into quantitative assumptions to
+the Integrated Assessments Models24. The implementation
+of the following parameters are essential to the Current
+Policies scenario.
+• SSP2 assumptions on population and GDP baseline
+are reflected as exogenous parameters in IAMs.
+The GDP then changes semi-endogenously when
+affected by energy transition costs, and by integrated
+damages when they are included. SSP2 assumptions
+enforce moderate rates of socio-economic development
+on average globally, and moderate convergence between
+low and high income countries (see Annex A).
+• Policy commitments are translated into constraints on
+the emissions or technology targets and are reflected
+in the shadow carbon price. In the Current Policies
+scenario no additional policies or carbon budgets are
+implemented, leading to 3 °C of warming at the end of
+century (Figure 3.1).
+
+24 Fricko et al., 2017.
+
+NGFS REPORT
+
+35
+
+Figure 3.1 Surface Temperature Variation
+(MAGICCv7.5.3, 50.0th Percentile)
+
+• Climate change directly affects physical risks and
+impacts on natural and human systems, and therefore
+socioeconomic developments.
+• Collaboration between countries impacts how
+smoothly the transition can occur. The Current Policies
+scenario has low regional differences, as policy ambitions
+are low across the board.
+• Current Policies scenario takes moderate assumptions
+on innovation and growth constraints, which only
+allow for slow technology change and deployment.
+Specifically, only low use of CDR is applied in this scenario.
+However, modelling exercises show there are many ways to
+reflect complex systems, and many strategies to implement
+a transition. IAMs characteristics and assumptions influence
+their future projections and pathway towards reaching
+emission targets. Key assumptions are summarised in
+the “NGFS Note on Key assumptions, 2025”, and more
+technical details on the models are available in the
+“NGFS Technical documentation, 2025”. When relevant,
+this report will highlight how model results compare and
+the drivers behind potential differences.
+
+3.3 Transition risks
+This section highlights key characteristics of the climate
+transition in the Current Policies scenario, that are of
+particular relevance for describing the scenario implications
+in various sectors, as well as for using this scenario for
+risk assessments. NGFS long-term scenarios offer a multimodel study that is needed to derive robust insights
+in long-term scenarios. In this section, results from the
+three IAMs are shown and compared. Key similarities and
+differences between models are highlighted and crossed
+with characteristics and assumptions of IAMs.
+
+3.3.1 Emissions trajectory
+Under current policies, the yearly global CO2 emissions show
+a constant trend around 40Gt/year for all three models.
+However, how emissions would evolve without new
+legislation is uncertain, as the dynamics of technologies
+deployments are uncertain (Figure 3.2). For example,
+REMIND-MAgPIE sees decreasing emissions in the power
+energy sector, while they continue to increase in the other
+models. Further discussion in Section 3.5 of this report.
+
+36
+
+NGFS REPORT
+
+Figure 3.2 Yearly Net Emissions|CO225
+(Mt CO2 /yr)
+
+3.3.2 Primary energy
+
+3.3.3 Final energy and electricity mix
+
+If all regions were to follow their current climate policies
+without introducing new ones, the IAMs expect the global
+primary energy use to keep increasing by around 20%
+by 2050 compared to 2025. All models expect a steady
+reliance on fossil fuels, with even some increase of gas
+resources according to GCAM and MESSAGE. The share
+of renewable resources (solar, wind, hydro and biomass)
+gradually increases to around 25-30% in 2050 for all models.
+
+Electrification follows the growth in energy demand that
+characterises the Current Policies scenario. Renewable
+electricity outcompetes carbon-intensive technologies
+by mid-century. In consequence to the absence of
+technology shift in the end-use-sectors, the transition
+risks are low.
+
+25 Differences in emissions accounting, especially in the AFOLU sector, can cause discrepancies across models. Gross CO2 emissions data would also
+allow for better specification of the sectoral transition, in particular to represent the share of carbon capture and storage in energy and industry
+sectors. Additional emissions variables will be reported in the next NGFS phase, following the IAM community initiative of aligning their common
+variables definitions.
+
+NGFS REPORT
+
+37
+
+Figure 3.3 Primary energy, World
+
+Figure 3.4 Sources of Electricity, World
+
+38
+
+NGFS REPORT
+
+Figure 3.5 Final Energy, World
+
+3.3.4 Carbon storage and land use
+Carbon sequestration includes processes to capture CO2,
+either at the outlet of a plant or through biomass growth,
+and to store the CO2 into geological deposits (such as in
+depleted oil and gas fields) or through land-based sinks
+(such as afforestation). In the Current Policies scenario,
+CDR availability is constrained to low use, given the
+challenges associated with deployment of these technologies.
+The projection of carbon sequestration potentials remain
+
+different across models, as they take different assumptions
+on carbon capture and storage (CCS) costs and adoption
+assumptions. While REMIND-MAgPIE and MESSAGEixGLOBIOM don’t consider CCS to ramp-up in the Current
+Policies scenario, GCAM takes more optimistic assumptions
+and CCS allows for some minimal emission reduction.
+In the AFOLU sector (agriculture, forestry and other land
+use) REMIND-MAgPIE and GCAM expect little changes while
+MESSAGEix-GLOBIOM expects its net emissions to become
+negative in the second half of the century.
+
+Figure 3.6 Carbon Sequestration|CCS (left), Emissions|CO2|AFOLU (right), World
+AFOLU C02 Emissions
+in scenario Current policies
+World
+
+6000
+
+4000
+
+i2000
+
+0
+
+0
+N
+0
+N
+
+0
+
+'<t
+
+0
+N
+
+0
+
+0
+
+0
+N
+
+0
+N
+
+CO
+
+CO
+
+0
+0
+N
+
+NGFS REPORT
+
+39
+
+3.3.5 Carbon, energy
+and agricultural prices
+Shadow carbon price
+The main policy lever driving the transition is a (shadow)
+carbon price that (i) represents the marginal cost of
+abatement of carbon emissions and (ii) is a proxy for overall
+climate policy ambition and effectiveness, accounting for a
+variety of real-world climate policies (carbon tax, subsidies,
+environmental standards, etc.). In the Current Policies
+narrative, REMIND-MAgPIE, MESSAGEix-GLOBIOM and
+
+GCAM models consider the most important climate policies
+that have been listed as binding legislation and backed
+with instruments. All three models assume the carbon
+price remains low across the century, relatively to orderly
+scenarios. This approach translates the insufficient action
+to address climate risks, and the low transition risks in the
+Current Policies scenario. REMIND-MAgPIE assumes a global
+convergence of the carbon price to 25US$/t CO2, while
+GCAM translates that no additional policies are considered
+by keeping the carbon price to 0US$/t CO226. Section 3.4 of
+this report will explore the important regional differences.
+
+Figure 3.7 (Shadow) Price|Carbon, World
+
+Energy prices
+Secondary energy prices represent energy costs as
+the gross price paid by large scale consumers, such as
+industrial actors or energy suppliers. All IAMs provide
+price information with a 5-year timestep, indicating
+the trend for energy prices until the end of the century.
+The price at the second energy level (i.e. Price|Secondary
+Energy|Oil) includes the costs of extraction, transport and
+transformation as well as the carbon tax (applied when
+converting from primary to secondary energy).27
+
+Under the Current Policies scenario, the transition towards
+low-carbon energy supply and investments is slow and
+dependence on fossil fuels remains. A slow gradual
+decrease of the secondary electricity price is expected
+until the end of the century, as renewable energy is less
+subject to carbon tax and has low operational costs
+compared to fossil fuels. MESSAGEix-GLOBIOM prices
+behaviour in the near-term is due to its region-specific
+assumptions of coal availability after COVID (slight revival)
+in 2025.
+
+26 GCAM’s current policy carbon price acts as a reference for the other scenarios. GCAM has a non-zero carbon price in some regions for calibration
+purposes, and thus reports the difference to that carbon price for all scenarios as the scenario carbon price (resulting in a zero carbon price in
+Current Policies).
+27 Secondary energy prices provided by IAMs are based on economics fundamentals and driven by extraction costs. They may differ from prices
+provided by the NiGEM macro-economic model (in particular in the short-term), which takes different assumptions to represent demand and supply
+dynamics. The use of either results depends on the case study and its assumptions. More information on the IAM and NiGEM models can be found
+in the Note on Key assumptions and Technical documentation.
+
+40
+
+NGFS REPORT
+
+Figure 3.8 Secondary Electricity and Oil index prices, World
+(USD$2010/tCO2)
+
+Fossil energy price trends vary across models, as they depend
+on fossil extraction assumptions and carbon price trends
+defined by each model. According to REMIND-MAgPIE, as
+the oil supply is modelled via supply-cost curves, carbonintensive secondary energy prices (oil, coal and natural
+gas) are expected to increase until 2050 up to 2.2 times
+its value in 2020. This is due to both remaining high
+demand, increasing costs of extraction and carbon taxes.
+
+Agricultural prices
+The Current Policy scenario assumes a continuation of
+existing agricultural practices without introducing additional
+measures to halt deforestation or promote afforestation.
+Under these conditions, there is limited pressure to expand
+arable land, as food and feed demands are also met through
+intensification and improved productivity. This dynamic is
+
+reflected in the global projections of all IAMs, which show
+a stable agricultural price index over time in this scenario.
+Such price stability carries important implications
+for both economic performance and food security.
+From an economic perspective, stable food prices contribute
+to macroeconomic stability and foster investment.
+Price volatility, by contrast, tends to harm the most
+vulnerable populations – especially low-income consumers
+who spend a large share of their income on food.
+However, it is important to note that the IAM’s transition
+scenarios projections do not account for the potential
+effects of climate change and extreme weather events
+on crop yields, or impacts from broader land degradation
+processes. These factors could significantly disrupt the
+projected stability in agricultural prices and pose serious risks
+to food systems and economic resilience (see Section 3.4).
+
+Figure 3.9 Price | Agriculture | Non-Energy Crops | Index in scenario Current policies
+
+NGFS REPORT
+
+41
+
+3.4 Macroeconomic effects
+The macroeconomic model NiGEM is used in the NGFS
+framework to derive impacts from transition and physical
+risks at the economic and financial level. Unlike the other
+NGFS scenarios, the Current Policies scenario assumes
+countries do not implement any new policies and carbon
+prices remain subdued. Therefore, this scenario does
+not result in any transition impacts to GDP, inflation, or
+interest rates in NiGEM. In the Current Policies scenario, the
+main component of macroeconomic effects is due to the
+physical damages associated with the emissions trajectory
+and global temperature rise (see Section 1.2 and 3.2).
+The estimates for both aggregate GDP damages and impact
+from climate extremes will be updated in the sixth phase
+of the NGFS scenarios in 2026.
+More on macroeconomic effects from transition risks
+can be explored in the case of the Net Zero 2050 (Section 2.4)
+and Fragmented World scenarios (Section 4.4).
+
+3.5 Key findings: ineffective and
+unsustainable current policies
+This section provides a detailed analysis of the Current
+Policies scenario key findings using projections from three
+leading Integrated Assessment Models (IAMs) – GCAM,
+MESSAGEix-GLOBIOM, and REMIND-MAgPIE. This scenario
+demonstrates how current policies are insufficient to limit
+climate change impacts on natural and human systems,
+as the conditions for their liveability is jeopardised by the
+trajectory of greenhouse gas emissions.
+Below, Section 3.5.1 describes the ineffectiveness of current
+policies to mitigate greenhouse gas emissions. Section 3.5.2
+demonstrates the slowness of technology shifts, as a cause
+of projected emissions: renewables are expected to become
+ever more competitive, while the preserved role of fossil
+fuels in all sectors will lock emissions for decades to come.
+
+3.5.1 Ineffectiveness of current policies
+to bend the emissions curve
+
+Figure 3.10 Emissions | CO2 | Energy and Industrial
+Processes in scenario Current Policies,
+World
+
+Figure 3.10) provide a realistic picture of where the world
+is headed without additional action, making them a crucial
+benchmark for assessing ambition gaps. Unlike total CO2,
+which includes land-use change and may be influenced
+by relatively higher long-term uncertainties, CO2-FFI is
+more directly tied to energy infrastructure, making it a
+more reliable indicator of near-term risks. High CO2-FFI
+emissions in the near term can lock in long-term warming
+and significantly increase the difficulty of meeting global
+climate targets. All three IAMs show that the world 2025
+level may keep around 38 Mt CO2-FFI/yr in 2025, though they
+show different expectations on near-term green recovery
+(trend from 2020 to 2025, REMIND-MAgPIE increasing,
+GCAM and MESSAGEix-GLOBIOM decreasing).
+The 2025-2035 emissions are higher than in previous NGFS
+phases (e.g. NGFS phase II or III), reflecting the fact that
+emissions have remained high despite the climate policies
+being implemented. It is also notable that, all models
+assume that once a policy is implemented, it remains in
+place indefinitely, although in reality climate policies can be
+weakened or even backslide. Therefore, the CO2 emissions
+levels in IAMs could be underestimated, considering
+enacted policies lose strength over time, even under a
+scenario without stringent climate policies.
+
+3.5.2 Unsustainable trends
+in the short- and long-term
+Slow technology shift: supply-side
+
+The near-term CO2 projections suggest that current
+policies are still not sufficient to bend the global
+emission curve. Near-term CO2 emissions from fossil fuels
+and industry (CO2-FFI) under Current Policies (shown in
+
+Looking at both the energy supply side and demand
+side gives a full system perspective of what lies behind
+the near-term and long-term CO2 emission trajectories.
+
+42
+
+NGFS REPORT
+
+Figure 3.11 Slow technology shift in Current Policy scenarios: share of fossil fuels in power generation mix
+Variable: Secondary Energy|Electricity|technology
+GCAM 6.0 NGFS
+
+MESSAGEix−GLOBIOM 2.0
+
+REMIND−MAgPIE 3.3−4.8
+
+Variable
+Wind|Offshore
+150
+
+Wind|Onshore
+Solar|PV
+Solar|CSP
+
+Unit: EJ/yr
+
+Biomass|w/o CCS
+
+100
+
+Biomass|w/ CCS
+Nuclear
+Hydro
+Geothermal
+
+50
+
+Gas|w/o CCS
+Gas|w/ CCS
+Coal|w/o CCS
+Coal|w/ CCS
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2020
+
+2025
+
+2030
+
+2035
+
+Figure 3.11 illustrates the global power generation under
+the Current Policy scenario across models. All three models
+project a steady increase in total electricity generation from
+2020 to 2040, highlighting a rising demand for electricity
+that aligns with trends such as population growth, economic
+growth, and electrification of end-use sectors.
+Even without stringent climate policy goals, these
+near-term trends show that low-carbon electricity
+generation becomes cost-competitive and experiences
+a significant scale-up (most fast growth in REMINDMAgPIE, medium in GCAM, slow but steady growth in
+MESSAGEix-GLOBIOM). The substantial growth in the power
+generation from renewable energy technologies is a key
+observation. Specifically, solar technologies ramp up at
+a fast rate (although not as fast as under an ambitious
+mitigation scenario). Similar trends can be observed in the
+wind power sector (particularly offshore wind), reflecting
+current expectations of improved cost competitiveness
+in renewables.
+However, despite the progress in renewables
+deployment, fossil fuel-based power generation
+continues to dominate a large share of the mix through
+2040 in all three models. Coal and gas without carbon
+capture and storage (CCS) retain significant capacities and
+
+2040
+
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+contribute heavily to power output. Fossil fuel capacities
+do not experience early retirement. Therefore, the energy
+transition driven by current policies would only be
+partial and gradual.
+The future of fossil fuels in the power generation mix
+varies across IAMs. These differences highlight the
+large uncertainties of where the current policies may
+lead the world to. While the overall share of fossil fuels
+in the power generation mix remains high across all three
+models, their trajectories diverge significantly. In GCAM,
+total fossil-based power generation remains relatively
+stable from 2020 to 2040. Although renewables grow
+substantially, they largely meet the increase in electricity
+demand rather than displacing existing fossil capacity.
+In contrast, MESSAGEix-GLOBIOM shows a revival of
+fossil generation, particularly in gas-fired power, over the
+same period. This trend suggests a reliance on fossil fuels,
+potentially as a backup to intermittent renewables, given
+the slower progress in clean energy deployment under
+current policy assumptions. On the other hand, REMINDMAgPIE projects a clear decline in total fossil generation,
+especially in unabated coal, by 2040. The renewables will not
+only meet demand growth but also actively displace fossil
+power, signaling a faster technology diffusion compared
+to the other two models.
+
+NGFS REPORT
+
+43
+
+Finally, it is worth noting that fossil fuel investments
+remain high in all models, and two of the three models
+exhibit higher near-term fossil power investments
+(2016-2030). This suggests a high probability of fossil
+lock-in under the current policy scenario. This continued
+financial commitment to fossil fuel capacities in the
+near term (2016-2030) highlights the unsustainable
+incomplete nature of current policy frameworks.
+Such an inertia standing in the way of the decarbonisation
+transition might be driven by multiple factors: a renewed
+prioritisation of energy security, the current context of a
+polycrisis28, and financial strategies of fossil fuel investors.
+The relative investments are discussed in detail in the Report
+on energy investments (2025).
+
+Slow technology shift: demand-side
+Demand-side mitigation options, such as electrification,
+are also essential, as the mild clean transition in the
+energy supply cannot compensate for unchecked
+growth in consumption. However, electrification
+can only contribute to emission reductions if the
+electricity used is generated from low-carbon sources.
+Figure 3.12 shows the structure of final energy in industry,
+transportation, and buildings (A), as well as the shares of
+electricity and fossil fuels there (B). The electricity share
+(in yellow) grows slowly and unevenly across sectors and
+models, with buildings again showing the most visible
+shift, but still leaving fossil fuels (dark brown) with a large
+
+Figure 3.12 Slow technology shift : electrification rate in end-use sectors
+
+Variable: Final Energy|sector|type
+100%
+
+GCAM 6.0 NGFS
+
+MESSAGEix−GLOBIOM 2.0
+
+Building
+
+75%
+
+REMIND−MAgPIE 3.3−4.8
+
+50%
+25%
+0%
+
+Type
+Electricity
+
+75%
+
+Hydrogen
+
+Industry
+
+Share (%)
+
+100%
+
+50%
+25%
+
+Heat
+Biomass
+Fossil
+
+0%
+100%
+Transportation
+
+75%
+50%
+25%
+0%
+
+2020 2025 2030 2035 20402020 2025 2030 2035 20402020 2025 2030 2035 2040
+
+(A)
+
+28 IMF. (2023). Gardes-Landolfini, C., Grippa, P., Oman, W., & Yu, S. Energy transition and geoeconomic fragmentation: implications for climate scenario
+design. International Monetary Fund, 2023, https://doi.org/10.5089/9798400258220.066.
+
+44
+
+NGFS REPORT
+
+Figure 3.13 Share of electricity and fossil fuels
+
+Slow technology shift: electrification rate in end−use sectors
+Variable: Final Energy|sector|type on Final Energy|sector
+Electricity
+
+Fossil
+
+1.00
+
+Sector
+Building
+
+0.75
+
+Industry
+
+100%
+
+Transportation
+
+0.50
+
+Model
+GCAM 6.0 NGFS
+
+0.25
+
+MESSAGEix−GLOBIOM 2.0
+REMIND−MAgPIE 3.3−4.8
+
+0.00
+2020
+
+2025
+
+2030
+
+2035
+
+20402020
+
+2025
+
+share of the energy mix in 2040. Industrial energy remains
+heavily fossil-based, with only minor contributions from
+electricity, biomass, or heat. Transportation shows the
+slowest transformation, with fossil fuels overwhelmingly
+dominant in all three models and minimal penetration of
+alternative energy sources.
+Decarbonising end-use sectors requires stronger
+demand-side policy intervention, as well as the fast
+scaling-up of low-carbon demand-side technologies.
+A modest rise in electricity share can be observed across
+all sectors, particularly in buildings where electrification
+increases to just above 50% by 2040 across most models.
+In contrast, the electrification rate in industries only
+increases by about 4% between 2020 and 2040. Up to 12%
+of the transportation sector could be electrified by 2040.
+Fossil fuel reliance remains dominant in transportation,
+staying above 95% in 2030 and declining only marginally
+by 2040. In the industrial sector, fossil fuel use stays above
+68% even in 2030 and remains the primary energy source
+across all scenarios.
+
+2030
+
+2035
+
+2040
+
+3.5.3 Near and long-term risks
+in a 3 °C world
+Transition risks: manageable
+but non-negligeable
+Low carbon prices are characteristic of low transition
+risk scenarios: the change in carbon price is negligible
+as current policies continue without upgrading their
+ambition. Figure 3.14 shows the carbon price trajectory
+and primary energy price index under the Current Policy
+scenario. In the near term, transition risks associated with
+fluctuations in primary energy use remain relatively modest.
+Coal price shows minimal variation, reflecting its continued
+role in the energy mix under current policy trajectories.
+For gas and oil, the transition risk index increases up to
+1.4 in 2040 (Figure 3.15), with the rise driven mostly by
+extraction costs rather than carbon pricing, suggesting that
+changes may be underway but are not being disruptive.
+All these indicate a slow and incremental shift in the energy
+system, with short-term risks appearing manageable in the
+absence of stringent policy interventions.
+
+NGFS REPORT
+
+45
+
+Figure 3.14 Near-term and long-term transition risk: carbon price
+
+900
+
+Model
+
+Uni: US$2010/t CO2
+
+GCAM 6.0 NGFS
+MESSAGEix−GLOBIOM 2.0
+
+600
+
+REMIND−MAgPIE 3.3−4.8
+
+Scenario
+
+300
+
+Current policies
+Net zero
+
+0
+2020
+
+2040
+
+2060
+
+(A)
+
+2080
+
+2100
+
+Figure 3.15 Near-term and long-term transition risk: primary energy price index
+2.00
+
+Variable
+
+Uni: US$2010/t CO2
+
+1.75
+
+Price|Primary Energy|Coal|Index
+Price|Primary Energy|Gas|Index
+Price|Primary Energy|Oil|Index
+
+1.50
+
+Scenario
+
+1.25
+
+Current policies
+
+1.00
+2020
+
+2030
+
+2040
+
+(B)
+
+However, the longer-term economic consequences are
+more concerning. The further increase of fossil primary
+energy signals an economic strain, and emphasises the
+urgency of measures on both energy supply side and
+demand side. Under a Current Policy scenario, the most
+serious longer-term economic effects stem from increasing
+physical risks due to high global warming, which are
+explored in the next section.
+
+Physical risks
+The Current Policies scenario shows much higher levels of
+climate impacts, illustrating the severe consequences of
+delayed or insufficient mitigation. For example, high heat
+
+2050
+
+2060
+
+risk days over Western Europe may be three times more
+frequent by the end of the century than in a Net Zero 2050
+scenario29.
+Societies already today experience an increase in the
+frequency and intensity of climate extremes, such as heat
+waves. While “median” projections for climate impacts for
+the near-term may appear small at first sight, one needs
+to be aware that the world at atmospheric greenhouse
+gas concentration levels that are unprecedented in
+human history30, and under the Current Policies Scenario
+emission levels would continue to rise steeply, pushing
+the world further into unknown territory. The response
+of our climate system to this is subject to considerable
+
+29 Explore climate impacts under NGFS scenarios on the Climate Impact Explorer: https://climate-impact-explorer.climateanalytics.org/.
+30 World Meteorological Organization https://wmo.int/news/media-centre/greenhouse-gas-concentrations-surge-again-new-record-2023,
+Royal Society https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/question-7/.
+
+46
+
+NGFS REPORT
+
+uncertainty. These large uncertainty ranges are especially
+relevant for projections on tail risks, i.e. rare high impact
+extreme events.
+The Climate Impact Explorer features a wide range
+of indicators for both slow-onset and extreme events.
+Additionally, the report on physical risks in the updated
+Climate Impact Explorer, 2025, provides a detailed overview
+of the projected changes in exposure and intensity for
+drought, heat and extreme precipitation. It moreover
+explores the questions how projected impacts change when
+our climate system responds more strongly to greenhouse
+gas emissions than currently assumed.
+
+3.6 Conclusions
+on Current Policies scenario
+In the Current Policy scenario, the world is assumed to
+keep its current level of policy action for addressing climate
+change. The scenario results depict an unsustainable
+and uncertain future: the current policies are shown
+to be insufficient to limit global warming, and energy
+consumption trends and investments in fossil fuels are a
+promise for further pollution for several decades. Regarding
+
+the emissions and temperature outcomes, the uncertainty
+range is large but is definitely disastrous (from 2 °C to 4.4 °C
+in 2100). Due to this lack of mitigation effort, societies
+will experience economic instability and unprecedented
+physical impacts in the long-term.
+Further deprioritisation of the climate agenda would have
+clear negative consequences globally. Past emissions have
+locked societies to already experience a 1.3 °C World today,
+with increased frequency and severity of climate extremes.
+Near-term emissions are decisive for the long-term
+temperature increase: if they are not mitigated, they will
+impact ecosystems and livelihood of present and future
+generations dramatically.
+For the financial sector, these scenario findings reveal
+that the Current Policies scenario leads to the global
+temperature increase and highest physical risks relative
+to the other NGFS scenarios. An updated quantification
+of these impact and damage estimates will be available
+in NGFS Phase 6, 2026. In case of policy backsliding, these
+impacts may become greater. The financial sector can
+support the transition to a greener economy globally
+by incorporating the long-term costs of inaction in risk
+management decisions.
+
+NGFS REPORT
+
+47
+
+4. Fragmented World: narrative and key findings
+4.1 Narrative of the Fragmented World Scenario
+Short summary: The Fragmented World scenario assumes delayed and divergent climate policy ambition globally, leading
+to high physical and transition risks. Countries with net zero targets achieve these only partially (80% of the target), while the
+other countries follow current policies.
+Warming at end
+of century31
+
+Policy reaction
+
+Technology
+change
+
+CDR
+
+Regional policy
+variation
+
+Physical risks
+
+2.1-2.4 °C in 2100
+
+Delayed to 2030,
+fragmented
+
+Slow until 2030,
+then fragmented
+
+Low-medium use
+
+High variation
+
+High in medium-term,
+increased in the long-term
+
+Climate policy ambition and action
+
+Socio-economic developments
+
+Fragmented World assumes a delayed and divergent
+climate policy response among countries globally,
+and a weak international cooperation, leading to
+heterogeneous pathways across regions. Countries
+with net zero targets32 achieve these only partially
+(80% of the target), while the other countries follow
+current policies. As some countries will move towards
+net-zero emissions with decarbonisation, others will
+remain dependent on traditional fossil fuels use. This
+lack of global coordination leads to high variation across
+regions for modernisation of the energy sector and
+dependency on international trade of fossil fuel. Due
+to countries implementing climate neutrality targets,
+the scenario assumes an increased CO 2 price from
+2030, reflecting the delayed implementation of policy
+instruments for emissions reduction. Globally, the shadow
+carbon price could reach 60-130 US$2010/t CO2 by 2050,
+and shows high regional variation. This response is shown
+to be ineffective, as global warming could reach 2.0 °C in
+the second half of the century, and 2.4 °C by 2100. The
+delayed and divergent policy response leads to both
+high transition risks due to a rapid and uncoordinated
+transition, and high physical risks due to ineffective global
+response to climate change impacts.
+
+Like all other NGFS scenarios, the Fragmented World
+scenario assumes social, economic, and technological
+developments that reflect trends observed during
+the first two decades of the 21st century, following the
+assumptions of the Shared Socio-economic Pathway 2
+(SSP2)33. Countries and international relations are relatively
+stable, markets are globally connected, although some
+barriers remain, development and economic growth
+proceed unevenly (with a global annual average growth
+rate of 4% for 2020-2030 and 3% for 2030-2050), and global
+population growth is moderate and levels off at 10 billion
+people in the second half of the 21st century. Multilateral
+institutions make only slow progress towards achieving
+the sustainable development goals and environmental
+systems continue to degrade gradually. Technological
+development is moderate. The fragmented action on climate
+change and associated transformation of energy and land
+use constitutes a break from these moderate and uneven
+trends, but such trends persist in other sectors. See also
+Box 2 on alternative SSP.
+
+Energy transition and technology trends
+Regions face heterogeneous deployment of technologies,
+in particular in the energy sector. As countries with net-zero
+
+31 End-of-century and peak warming values represent the results range across IAMs, and the 50th percentile of the surface temperature variation
+(AR6 Surface Temperature (GSAT)|MAGICCv7.5.3|50.0th Percentile).
+32 Net-zero targets as published by the UNFCCC as of March 2024 for the following countries: Argentina, Australia, Brazil, Canada, Colombia, EU + UK,
+Japan, New Zealand, South Africa, South Korea and USA in 2050; China, Indonesia and Russia in 2060; and India in 2070. Some jurisdictions such as
+the US, EU, UK, Canada, Australia, and Japan reach net zero for all GHGs.
+33 Riahi et al., 2017, O’Neill et al., 2017.
+
+48
+
+NGFS REPORT
+
+targets experience a fast technological shift to decarbonise
+their energy sector and other countries follow current policy
+trends, the world experiences unbalanced technology
+markets across regions.
+
+Food systems and land-use transition
+Delayed and uneven policy actions lead to fragmented
+progress in transforming food systems and land use,
+as rising global agricultural demand and regional
+disparities continue to strain land resources and limit the
+effectiveness of climate action. The late implementation
+of climate mitigation measures slows the adoption of more
+sustainable land management practice and emissions
+reduction in the land use sector. In developed countries,
+patterns of overconsumption and food waste persist, while
+in many developing economies converge towards Westernstyled diets. Regional differences in climate policy ambition
+result in uneven incentives for bioenergy production and
+land-based carbon removal.
+
+Physical risks and climate change impacts
+Most regions are projected to experience increased
+exposure to climate hazards such as heat stress, drought
+and heavy precipitation risks. The lack of stringent
+emission reduction despite costly, but ineffective climate
+
+policy action in some regions results in a strong increase in
+physical risks in the medium to long run, albeit still reduced
+compared to a Current Policy scenario.
+
+Economic transition
+Economic impacts due to the transition increase from 2030,
+adding on existing damages due to physical impacts, as
+regions with net-zero targets implement further climate
+policy instruments. Transition impacts begin in 2030 and
+are considered unanticipated until this point. Policy and
+long-term interest rates tend to increase in 2030 to curtail
+the initial spike in inflation in some regions, and settle to
+higher value compared to baseline in the longer-term.
+
+Too little, too late
+The Fragmented World scenario belongs to the
+‘Too little, too late’ category of the NGFS Scenario
+Framework, which encompasses scenarios with a late
+and uncoordinated transition that fails to limit physical
+risks. The Fragmented World scenario faces both short-term
+and long-term disruptions, due to uneven climate action.
+This scenario could be used to assess the impacts of a
+delayed transition and the cost of inaction. It also shows
+the decrease in efficiency of the transition, when society
+does not align behind ambitious climate goals.
+
+Box 2
+
+Note on alternative SSP for the Fragmented World scenario
+Scenarios built on the assumptions from a chosen SSP
+can lead to diverse outcomes. For instance, different
+global warming levels, defined by the end-of-century
+forcing levels (RCPs), can coherently be attributed to
+SSP2 scenarios. Indeed, while remaining under the SSP2
+assumptions, a wide range of additional assumptions
+can be made on social, technological and political
+developments. This broadens the range of possible
+outcomes within the SSP narrative, as demonstrated by
+the diversity of trajectories among the NGFS scenarios.
+While all NGFS scenarios follow the SSP2, the Fragmented
+World scenario narrative has some resemblance with the
+world described in SSP3 “A Rocky Road” narrative. However,
+overall socio-economic trends of SSP3 remain different from
+
+the“Middle of the road”assumptions made in the Fragmented
+World scenario. The severe fragmentation as described in SSP3
+would have severe consequences on regional economies,
+substantively weaken climate policy ambition and inevitably
+increase social inequality, and therefore lead to scenarios
+with less ambitious outcomes. Compared to SSP2, the SSP3
+trajectories show a slower GDP increase, energy efficiency
+improvements, and higher population.
+The SSP2 narrative is by definition neither optimistic nor
+pessimistic, and it is important to compare a wide range of
+possible outcomes within its limits. However, it would also
+be relevant to consider recent geopolitical developments
+(e.g., shift in dominant power and social preferences)
+within other SSP narratives, such as SSP3 or SSP4.
+
+NGFS REPORT
+
+49
+
+4.2 Narrative quantification
+Robust SSP and scenario frameworks allow the translation
+of the qualitative narrative into quantitative assumptions to
+the Integrated Assessments Models34. The implementation
+of the following parameters are essential to the Fragmented
+World scenario.
+• SSP2 assumptions on population and GDP baseline
+are reflected as exogenous parameters in IAMs. The
+GDP then changes semi-endogenously when affected
+by energy transition costs, and by integrated damages
+when they are included. SSP2 assumptions enforce
+moderate rates of socio-economic development on
+average globally, and moderate convergence between
+low and high income countries (Annex A).
+• Policy commitments are translated into constraints on
+the emissions or technology targets and are reflected
+in the shadow carbon price. A carbon budget is set to
+reflect the policy ambition, leading to warming level
+above 2 °C at the end of the century (Figure 4.1). In the
+case of Fragmented World, the carbon price varies highly
+between regions, and reflects the timing for action – which
+is delayed to 2030.
+
+• Climate change directly affects physical risks and
+impacts on natural and human systems, and therefore
+socioeconomic developments.
+• Collaboration within countries impacts how smoothly
+the transition can occur. The Fragmented World scenario
+has high regional differences in policy ambition, which
+implies a fragmented transition. The scenario also
+assumes hindered global learning effects on low-carbon
+technologies.
+• The Fragmented World scenario takes moderate
+assumptions on innovation and growth constraints,
+which only allow for slow technology change and
+deployment. Specifically, low-to-medium use of CDR is
+allowed in this scenario.
+However, modelling exercises show there are many ways to
+reflect complex systems, and many strategies to implement
+a transition. IAMs characteristics and assumptions influence
+their future projections and pathway towards reaching
+emission targets. Key assumptions are summarised in the
+“NGFS Note on Key assumptions, 2025”, and more technical
+details on the models are available in the “NGFS Technical
+documentation, 2025”. When relevant, this report will
+highlight how model results compare and the drivers
+behind potential differences.
+
+Figure 4.1 Surface Temperature Variation
+(MAGICCv7.5.3, 50.0th Percentile)
+
+34 Fricko et al., 2017.
+
+50
+
+NGFS REPORT
+
+4.3 Transition risks
+This section highlights key characteristics of the climate
+transition in the Fragmented World scenario, that are of
+particular relevance for describing the scenario implications
+in various sectors, as well as for using this scenario for
+risk assessments. NGFS long-term scenarios offer a multimodel study that is needed to derive robust insights
+in long-term scenarios. In this section, results from the
+three IAMs are shown and compared. Key similarities and
+differences between models are highlighted and crossed
+with characteristics and assumptions of IAMs.
+
+4.3.1 Emissions trajectory
+Under the Fragmented World scenario, all three IAMs
+observe a moderate reduction of global yearly CO 2
+emissions by the end of the century. The yearly emissions
+decline strongly from 2030, and at most are divided by
+two by 2060 compared to 2030. Emissions stabilise at the
+end of the century, around 22Gt/year in REMIND-MAgPIE
+and GCAM, and at 12Gt/year in MESSAGEix-GLOBIOM
+
+thanks to larger negative emissions in the AFOLU sector
+(agriculture, forestry and other land use). Figure 4.2 shows
+that despite a decline in CO2 emissions in the energy sector
+(including some carbon sequestration), total global CO2
+emissions remain net positive. Divergent national climate
+policies result in strong regional variations. These variations
+in terms of emissions are explored in the Key findings
+section of this report 4.5.2 “Global emissions and climate
+change remain high”. CO 2 emissions in the energy
+demand sectors (residential and commercial buildings,
+industry, transportation) only show a slight decline, and
+the supply-side emissions highlight the importance of
+electricity decarbonisation.
+
+4.3.2 Primary energy mix
+In the Fragmented World scenario, the use of primary energy
+sees a rather constant trend, despite the mitigation efforts
+in some jurisdictions. The use of fossil fuel only decreases
+slightly and remains significant, as new renewable capacities
+are added to the mix.
+
+Figure 4.2 Yearly Emissions|CO2 (Mt CO2/yr)35
+
+35 Gross CO2 emissions would allow for better specification of the sectoral transition, in particular to represent the share of carbon capture and storage
+in energy and industry sectors. These variables will be reported in the next NGFS phase, following the IAM community initiative of aligning their
+common variables definitions.
+
+NGFS REPORT
+
+51
+
+Figure 4.3 Primary energy, World
+
+4.3.3 Final energy and electricity mix
+Renewable electricity is the main component of the
+energy sector decarbonisation. Solar and wind capacities
+quickly ramp up and become between 50% and 80% of
+
+the total mix. However, gas and coal-based electricity
+remains in the portfolios, which causes electricity to
+remain a source of high emissions (see Section 4.3.1).
+All three IAMs project a climbing final energy demand,
+mostly driven by electricity demand.
+
+Figure 4.4 Sources of Electricity, World
+
+52
+
+NGFS REPORT
+
+Figure 4.5 Final Energy, World
+
+4.3.4 Carbon storage and land use
+Carbon sequestration includes processes to capture CO2,
+either at the outlet of a plant or through biomass growth,
+and to store the CO2 into geological deposits (such as in
+
+depleted oil and gas fields) or through land-based sinks
+(such as afforestation). In the Fragmented World scenario,
+the use of carbon sequestration to limit emissions play a
+varied role across models, depending on their CCS cost and
+deployment assumptions. GCAM takes more optimistic
+
+Figure 4.6 Carbon Sequestration|CCS (left), Emissions|CO2|AFOLU (right)
+
+NGFS REPORT
+
+53
+
+assumptions on CCS costs and adoption rates, while
+MESSAGEix-GLOBIOM rather complements residual
+emissions with higher negative emissions in the AFOLU
+sector. In total, land-based and technological carbon
+sequestration could sum to 2-8Gt of CO2 per year in the
+second half of the century. This represents a low-medium use
+compared to less ambitious NGFS scenarios (e.g. the Current
+Policies scenario sees CCS capacities to only 0-1.2Gt CO2/
+year in 2050). Section 4.5.1 of this report discusses in more
+detail the opportunity of land-based mitigation.
+
+4.3.5 
+Carbon, energy
+and agricultural prices
+Shadow carbon price
+The main policy lever driving the transition is a (shadow)
+carbon price that (i) represents the marginal cost of
+abatement of carbon emissions and (ii) is a proxy for overall
+climate policy ambition and effectiveness, accounting for a
+variety of real-world climate policies (carbon tax, subsidies,
+
+environmental standards, etc.). In the Fragmented World
+scenario, the global carbon price remains relatively low
+(55-130$US/t CO2 in 2050) compared to orderly scenarios
+as most countries follow a low-ambition current policy
+trajectory (translating into low carbon prices <10$US/t CO2
+in 2030). Section 4.4 of this report will explore the important
+regional differences.
+Under the Fragmented World scenario, the MESSAGEixGLOBIOM model exhibits a fluctuating long-term trajectory
+for the global carbon price (which is derived as a weighted
+average of regional prices). The scenario narrative assumes
+that each region achieves its climate targets according
+to its own timeline, without a coordinated and phased
+implementation strategy. Moreover, with MESSAGEixGLOBIOM, once net-zero targets are met, regional carbon
+prices tend to decline. As a result of regionally fragmented
+efforts, elevated carbon prices emerge in different regions
+at different periods, leading to a fluctuating trend in the
+global carbon price trajectory.
+
+Figure 4.7 Shadow Price|Carbon in scenario Fragmented World
+
+150
+Models
+
+N
+
+0
+
+u
+
+...
+
+- GCAM
+
+=>
+
+- MESSAGEix-GLOBIOM
+
+�
+0 100
+
+REMIND-MAgPIE
+
+50
+
+0
+
+Energy prices
+Secondary energy prices represent energy costs as the gross
+price paid by large scale consumers, such as industrial actors
+or energy suppliers. All IAMs provide price information
+with a 5-year timestep, indicating the trend for energy
+
+prices until the end of the century. The price at the second
+energy level (i.e. Price|Secondary Energy|Oil) includes the
+costs of extraction, transport and transformation as well as
+the carbon price (applied when converting from primary
+to secondary energy).36
+
+36 Secondary energy prices provided by IAMs are based on economics fundamentals and driven by extraction costs. They may differ from prices
+provided by the NiGEM macro-economic model (in particular in the short-term), which takes different assumptions to represent demand and supply
+dynamics. The use of either results depends on the case study and its assumptions. More information on the IAM and NiGEM models can be found
+in the Note on Key assumptions and Technical documentation.
+
+54
+
+NGFS REPORT
+
+Figure 4.8 Secondary Electricity and Oil index prices (USD$2010/tCO2)
+
+Under the Fragmented World scenario, the transition
+towards decarbonised energy production is delayed,
+and fossil fuels remain a large share of the global
+primary energy consumption. As electricity production
+is mostly decarbonised by 2050, secondary electricity
+prices fall, as renewable energy is low-carbon and has
+low operational costs compared to fossils. Fossil energy
+price trends vary across models, as they depend on fossil
+extraction assumptions and carbon price trends defined
+by each model. REMIND-MAgPIE expects carbon-intensive
+energy prices (oil, coal and natural gas) to increase up to
+2 times the 2020-value by the end of century, due to both
+remaining high demand, increasing costs of extraction and
+carbon taxes. MESSAGEix-GLOBIOM prices behaviour in the
+near-term is due to its region-specific assumptions of coal
+availability after Covid (slight revival) in 2025.
+
+Agricultural prices
+Under the Fragmented World scenario, GCAM projects a
+more pronounced increase in agricultural prices compared
+
+to MESSAGEix-GLOBIOM and REMIND-MAgPIE. While
+GCAM shows steadily rising prices through mid-century,
+mainly driven by regional disparities in productivity, land
+availability, trade barriers, and emissions pricing, REMINDMAgPIE and MESSAGEix-GLOBIOM display relatively stable
+global agricultural price indices over time. This price stability
+reflects their more flexible treatment of cropland expansion,
+yield improvements and trade flows to meet food and
+feed and bioenergy demand at minimum cost, thereby
+smoothing price spikes.
+Although the narrative of Fragmented World includes
+delayed and uncoordinated climate action, weak
+international cooperation, and regionalised policy
+responses, these assumptions do not disrupt global food
+price trends equally across models. However, in such a
+fragmented policy landscape, small and trade-dependent
+economies could be especially exposed to agricultural
+price volatility, even if global averages remain relatively
+contained due to offsetting effects between constrained
+supply and ongoing demand growth.
+
+NGFS REPORT
+
+55
+
+Figure 4.9 PricelAgriculturelNon-Energy Cropsllndex in scenario Fragmented World
+
+1.0
+
+-----�-----------�...--
+
+�
+
+Models
+- GCAM
+
+0
+N
+0
+
+!::!.
+
+REMIND-MAgPIE
+
+-=
+
+- MESSAGEix-GLOBIOM
+
+)(
+
+�0.5
+
+0.
+N
+0
+N
+
+(')
+0
+N
+
+4.4 Macroeconomic effects
+from transition risks
+The following section presents results and trends for key
+macroeconomic variables from the model NIGEM. Regional
+GDP damages from transition risks are discussed and
+compared with other scenarios from the NGFS framework.
+Another important component of macroeconomic changes
+is due to the physical damages associated with the emissiondriven climate change and global mean temperature
+increase (see Section 1.2 and 4.2).
+For the calibration of climate scenarios, NiGEM takes
+inputs from different modules of the NGFS modelling
+framework. The trends for all macroeconomic variables
+(from NiGEM) in this section are presented relative to a
+climate neutral forecast baseline (see Annex B). The IAMs
+provide data for a new baseline forecast and climate
+transition risk scenarios.
+
+....
+
+LO
+0
+N
+
+0
+N
+
+4.4.1 GDP damages from transition risks
+The Fragmented World scenario assumes a delayed and
+divergent climate policy action globally, resulting in
+one of the highest peak warming temperatures among
+NGFS scenarios by the end of the century (2.4 °C).
+This higher warming leads to higher physical risks not
+just in comparison to the orderly Net Zero 205037 scenario
+but also the disorderly Delayed Transition38 scenario.
+Figure 4.10 World GDP losses (%) due to transition risks
+wrt baseline levels in 2050 (NiGEM output)
+NIGEM: Global GDP impact from transition risk
+in 2050
+0.0
+-0.5
+-1.0
+-1.5
+-2.0
+
+REMIND
+Net Zero 2050
+
+GCAM
+Fragmented World
+
+MESSAGE
+Delayed Transition
+
+37 The Net Zero 2050 scenario limits global warming to 1.5 °C by 2100, with a peak warming up to 1.7 °C, through stringent climate policies and
+innovation, reaching global net zero CO2 emissions around 2050. This scenario assumes that ambitious climate policies are introduced immediately
+(see Section 2).
+38 Delayed Transition assumes global annual emissions do not decrease until 2030. Strong policies are then needed to limit warming to below 2 °C.
+Negative emissions are limited. This scenario assumes new climate policies are not introduced until 2030 and the level of action differs across
+countries and regions based on currently implemented policies.
+
+56
+
+NGFS REPORT
+
+Figure 4.11 Global carbon prices (IAM outputs)
+IAM-REMIND: Global carbon price (US$2010/t CO2)
+
+1500
+
+Delayed Transition
+
+1200
+
+Fragmented World
+
+900
+
+Net Zero 2050
+
+600
+300
+
+20
+50
+
+20
+45
+
+20
+40
+
+20
+35
+
+20
+30
+
+20
+20
+
+20
+25
+
+0
+
+IAM-GCAM: Global carbon price (US$2010�t CO2)
+
+1,500
+
+Delayed Transition
+
+1,200
+
+Fragmented World
+
+900
+
+Net Zero 2050
+
+600
+300
+
+20
+50
+
+20
+45
+
+20
+40
+
+20
+35
+
+20
+30
+
+20
+20
+
+20
+25
+
+0
+
+IAM-MESSAGE: Global carbon price (US$2010�t CO2)
+
+1,500
+
+Delayed Transition
+
+1,200
+
+Fragmented World
+
+900
+
+Net Zero 2050
+
+600
+300
+
+Transition risk, however, remains more contained in
+Fragmented World since the scenario assumes limited
+climate policy action as compared to Net Zero and
+Delayed transition. As shown in Figure 4.11, carbon prices
+in Fragmented World remain consistently lower as compared
+to Net Zero 2050 and Delayed Transition, right until 2050.
+Therefore, the resulting GDP losses due to transition risk are
+slightly lower in the Fragmented world scenario, ranging
+from 0.7% to 0.9% by 2050 among the three models, while
+in Net Zero and Delayed transition GDP losses are projected
+to increase to 2% by 2050 (Figure 4.10).
+
+GDP impact across jurisdictions
+
+20
+50
+
+20
+45
+
+20
+40
+
+20
+35
+
+20
+30
+
+20
+25
+
+20
+20
+
+0
+
+and GDP impacts from transition across key regions.
+Across the three models, R5 OECD + EU region shows a
+meaningful increase in carbon prices, ranging from $90 to
+$260 per ton of CO2 by 2050. In Asia, Latin America, Middle
+East and Africa carbon prices either remain flat or show a
+minimal increase until 2050, ranging from $6 to $230 per ton
+of CO2 among the three regions and models, even though
+these regions remain most vulnerable to physical risks.
+As a result, Asian economies such as China and India face
+one of the lowest impacts on GDP, ranging from -1% to
+0.2% across the models by 2050. In contrast, the United
+States sees higher GDP impacts, ranging from -2% to -0.3%
+by 2050 across the three models.
+
+The GDP impact of transition risks varies across
+jurisdictions depending on how ambitious the climate
+transition policy is, meaning how stringent the carbon
+prices are. Figure 4.12 below shows the carbon prices
+
+NGFS REPORT
+
+57
+
+Figure 4.12 Regional carbon prices (IAM outputs) and GDP losses from transition risks (NiGEM output)
+in the Fragmented World scenario
+IAM, REMIND: Price|Carbon, US$2010�t CO2
+
+NIGEM, REMIND: GDP (transition); % difference, 2017 PPP; US$ Bn
+1
+
+300
+
+Asia (R5)
+
+250
+
+Latin America (R5)
+
+200
+
+Middle East & Africa (R5)
+
+150
+
+OECD & EU (R5)
+
+-3
+
+100
+
+Reforming Economies (R5)
+
+-4
+
+World
+
+-5
+
+50
+0
+
+250
+200
+150
+100
+
+50
+
+-2
+
+-6
+-7
+
+IAM, GCAM: Price|Carbon, US$2010�t CO2
+300
+
+0
+-1
+
+Asia (R5)
+
+NIGEM, GCAM: GDP (transition); % difference, 2017 PPP; US$ Bn
+1
+0
+
+Latin America (R5)
+
+-1
+
+Middle East & Africa (R5)
+
+-2
+
+OECD & EU (R5)
+Reforming Economies (R5)
+World
+
+0
+
+-3
+-4
+
+-5
+-6
+-7
+
+IAM, MESSAGE: Price|Carbon, US$2010�t CO2
+300
+250
+200
+150
+100
+50
+0
+
+Asia (R5)
+
+NIGEM, MESSAGE: GDP (transition); % difference, 2017 PPP; US$ Bn
+0
+-1
+
+Middle East & Africa (R5)
+
+-2
+
+Reforming Economies (R5)
+World
+
+4.4.2 Inflationary strain and unemployment
+Regions face an initial inflationary strain as carbon
+policies are suddenly implemented in 2030. This is
+accompanied by an increase in unemployment. Inflation
+and unemployment trends vary across regions. Figure 4.13
+shows the inflation and unemployment trends across
+regions for the three models. Most regions face an initial
+inflationary spike in 2031-2032 driven by the increase in
+carbon taxes that are collected and subsequently recycled
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+1
+
+Latin America (R5)
+OECD & EU (R5)
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+-3
+-4
+-5
+-6
+-7
+
+Africa
+China
+Europe
+India
+Latin America
+Middle East
+United States
+World
+
+into the economy39. Inflationary pressures subside in
+subsequent years as final energy demand declines in
+Fragmented World (relative to baseline). As shown in
+Figure 4.13, central banks raise policy rates to tame
+inflation, despite signals of weakening labour markets.
+As a result, inflation tempers down and converges to
+baseline in later years. For regions such as China and
+India that are net importers of fossil fuel primary energy,
+a decline in fossil fuel primary energy prices could
+potentially offset inflation further.
+
+39 In the Fragmented World scenario, revenues are recycled entirely through tax reductions.
+
+58
+
+NGFS REPORT
+
+Figure 4.13 Inflation and unemployment rates impacts due to transition risks (NiGEM output)
+
+0.6
+
+NIGEM, REMIND: Inflation rate, % (transition) Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+0.4
+
+China
+India
+Middle East
+World
+
+0.20
+0.15
+
+NIGEM, REMIND: Unemployment rate; % (transition) Abs. difference
+China
+Europe
+
+0.10
+
+India
+
+0.0
+
+0.05
+
+United States
+
+-0.2
+
+0.00
+
+-0.4
+
+-0.05
+
+-0.6
+
+-0.10
+
+0.2
+
+0.6
+
+NIGEM, GCAM: Inflation rate, % (transition) Abs. difference
+
+0.20
+
+NIGEM, GCAM: Unemployment rate; % (transition) Abs. difference
+China
+
+0.4
+
+0.15
+
+0.2
+
+0.10
+
+India
+
+0.0
+
+0.05
+
+United States
+
+-0.2
+-0.4
+-0.6
+
+0.6
+
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+World
+
+NIGEM, MESSAGE: Inflation rate, % (transition) Abs. difference
+
+Europe
+
+0.00
+-0.05
+-0.10
+
+0.20
+
+NIGEM, MESSAGE: Unemployment rate; % (transition) Abs. difference
+China
+
+0.4
+
+0.15
+
+Europe
+
+0.2
+
+0.10
+
+India
+
+0.0
+
+0.05
+
+-0.2
+-0.4
+-0.6
+
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+World
+
+Unemployment spikes in 2033 across US, Europe and key
+Asian economies such as India. The US faces the highest
+spike, reaching as high as 0.2 pp above the baseline levels,
+while China sees a decline in unemployment initially, but
+it increases in the later years. As Central banks respond by
+raising interest rates, inflation and unemployment temper
+down in the late years. It is also notable that both inflation
+and unemployment impacts from transition risk remain
+lower in the Fragmented World scenario as compared
+to the more ambitious Net Zero 2050 scenario.
+
+United States
+
+0.00
+-0.05
+-0.10
+
+4.4.3 Policy interest rates and long-term
+interest rates
+The Middle East, Africa, Latin America, and China see
+a slight initial jump in policy interest rates (ranging
+from 0.05 pp to 0.1 pp above baseline levels in 2031)
+to curtail the initial spike in inflation in these regions.
+Policy rates then decline briefly 2032 to 2035, and then
+increase until 2050 (Figure 4.14). On the other hand, policy
+rates decline initially in Europe and India, consistent with
+the initial decline in inflation in 2031 for these regions.
+
+NGFS REPORT
+
+59
+
+Figure 4.14 Long-term and policy interest rates impacts due to transition risks (NiGEM output)
+
+0.5
+0.4
+0.3
+0.2
+
+NIGEM, REMIND: Central bank Intervention rate
+(policy interest rate); % (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+0.00
+
+-0.1
+
+-0.10
+
+-0.2
+
+0.3
+
+0.2
+
+0.30
+
+NIGEM, GCAM: Central bank Intervention rate
+(policy interest rate); % (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+0.50
+0.40
+0.30
+
+-0.1
+
+0.00
+
+-0.2
+
+-0.10
+
+0.3
+0.2
+
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+0.10
+
+0.0
+
+0.4
+
+NIGEM, GCAM: Long term interest rate; % (transition) Abs. difference
+
+0.20
+
+0.1
+
+0.5
+
+China
+India
+Middle East
+
+0.10
+
+0.0
+
+0.4
+
+Africa
+Europe
+Latin America
+United States
+
+0.40
+
+0.20
+
+0.1
+
+0.5
+
+0.50
+
+NIGEM, REMIND: Long term interest rate; % (transition) Abs. difference
+
+NIGEM, MESSAGE: Central bank Intervention rate
+(policy interest rate); % (transition) - Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+0.1
+0.0
+
+0.50
+0.40
+0.30
+
+NIGEM, MESSAGE: Long term interest rate; % (transition) Abs. difference
+Africa
+Europe
+Latin America
+United States
+
+China
+India
+Middle East
+
+0.20
+0.10
+
+-0.1
+
+0.00
+
+-0.2
+
+-0.10
+
+As a result of the increase in policy interest rates,
+long-term interest rates also rise, reflecting the
+inflationary pressure created by shadow carbon prices.
+As shown in the plots below, the regional variation in
+the trends of long-term interest rates is consistent with
+that of policy rates, with Europe and India reflecting the
+lowest increase in policy rates. Similarly to GDP, inflation
+and unemployment, the impacts on interest rates under
+the Fragmented World scenario are milder as compared
+to the Net Zero scenario.
+
+4.4.4 Equity market disruptions
+Carbon pricing also introduces policy uncertainty,
+leading to sudden disruptions in equity markets.
+This is reflected in an initial decline in equity prices
+in 2030 when carbon pricing is finally introduced.
+The initial shock is followed by a gradual decline and
+subsequently a gradual rebound as investors continue
+to form and revise their expectations. As shown in
+Figure 4.15 below, the equity market drop is more severe
+in the US (ranging from -2% to -5% across the three
+
+60
+
+NGFS REPORT
+
+Figure 4.15 Equity prices impacts due to transition
+risks (NiGEM output)
+
+2.0
+
+NIGEM, REMIND: Equity prices (transition) - % difference,
+index; 2017=100
+
+1.0
+0.0
+
+into the long-term rate. Accordingly, equity market
+reactions in both regions are relatively muted under
+the Fragmented World scenario, in contrast to the
+Net Zero scenario, where market impacts are more
+pronounced, declining by as much as 15% in the US
+and 10% in China.
+
+-1.0
+-2.0
+-3.0
+-4.0
+
+China
+
+-5.0
+
+United States
+
+-6.0
+
+2.0
+
+NIGEM, GCAM: Equity prices (transition) - % difference,
+index; 2017=100
+
+1.0
+0.0
+-1.0
+
+-2.0
+-3.0
+-4.0
+
+China
+
+-5.0
+
+United States
+
+-6.0
+
+2.0
+
+NIGEM, MESSAGE: Equity prices (transition) - % difference,
+index; 2017=100
+
+1.0
+0.0
+-1.0
+-2.0
+-3.0
+-4.0
+-5.0
+
+China
+United States
+
+-6.0
+
+models) compared to China (-0.3% to -2%), consistent
+with the trend of carbon prices applied in these regions.
+As investors revise their expectations, the subsequent
+recovery is also much sharper in the US as compared to
+China. Equity shocks are also driven by the energy tax
+rate which impacts profits and the long-term interest
+rate which is derived as a forward convolution of the
+short-term rates. Consistent with its more ambitious
+policy objectives, the Net Zero scenario features
+substantially higher energy tax rates. Inflationary impacts
+are also higher which feeds through short-term rates
+
+4.5 Key findings: uncoordinated
+and delayed climate transition
+This section of the report provides a detailed analysis of
+the Fragmented World scenario. Using projections from
+three leading Integrated Assessment Models (IAMs) –
+GCAM, MESSAGEix-GLOBIOM, and REMIND-MAgPIE – it
+examines energy demand, carbon pricing, forest area
+change, fossil fuel trade, carbon sequestration, and primary
+energy mix under conditions of delayed and regionally
+inconsistent climate ambition. While some countries
+partially implement net-zero targets, others stagnate
+under current policies, resulting in a world that fails to meet
+the goals of the Paris Agreement. This analysis underscores
+the risks of partial transition, the inefficiencies of delayed
+action, and the uneven burden of decarbonisation across
+global regions.
+In this “Too Little, Too Late” future, countries pursue
+climate action unevenly, with partial achievement of
+net-zero targets and continued reliance on existing
+policies. IAM projections reveal a consistent story: energy
+demand grows, emissions persist, and decarbonisation
+unfolds slowly and inefficiently. While some progress
+occurs, especially in the OECD + EU, the global
+energy system remains dominated by fossil fuels, and
+carbon sequestration remains regionally constrained.
+Carbon pricing signals are too weak to trigger systemic
+change, and land-based mitigation plays only a
+marginal role.
+This scenario illustrates not the absence of transition,
+but the costs and the dual risks of an uncoordinated,
+delayed one. The energy and land systems evolve –
+but not quickly or widely enough to avoid a 2.4 °C
+warming trajectory, bringing heightened physical and
+transition risks.
+
+NGFS REPORT
+
+61
+
+4.5.1 Effects of fragmentation:
+large divergence between regions
+in terms of carbon pricing,
+energy and land use leads
+to international distortions
+
+technology diffusion, land use competition, and feedback
+loops between the macroeconomic structure and energy
+system transformations assumed in each model. All models
+agree on the direction of change: global energy demand
+does not fall; instead, it continues to climb. That consensus
+underscores the central conclusion that delayed ambition
+does not significantly suppress energy needs, even if
+mitigation ambition is weak or fragmented.
+
+Fossil-fuel dependant, climbing energy demand
+In the context of climate scenarios, changes in final energy
+demand help illuminate not only efficiency improvements
+and technology shifts, but also the broader impact of policy
+ambition, economic structure, and behavioural change.
+In the Fragmented World scenario, final energy demand
+trajectories offer a window into the implications of delayed
+and regionally inconsistent climate action. Because this
+scenario assumes only partial implementation of net-zero
+targets (80%) in some countries, and a continuation of
+current policies in others, final energy trajectories provide
+insight into how ambition asymmetries shape global and
+regional energy use over time.
+
+The R5 regional disaggregation highlights stark contrasts
+in energy demand trends. Whether due to demographic
+momentum (population growth and the expanding number
+of households and urban residents), industrial expansion,
+or incomplete energy efficiency uptake, Asia continues
+to see rising final energy use, even as some countries
+only partially implement net-zero goals. China, India,
+and Southeast Asia dominate this trend, especially under
+assumptions of limited behavioural shifts or electrification
+progress. R5 LAM (Latin America) and R5 MAF (Middle East
+& Africa) show modest but persistent increases, although
+MESSAGEix-GLOBIOM flattens demand significantly in later
+decades. R5 OECD + EU, representing advanced industrial
+economies, sees flat or slightly declining demand across
+all three models. This reflects greater historical investment
+in energy efficiency, market saturation in major end-use
+sectors, and some mitigation progress despite incomplete
+
+All three IAMs project that global final energy demand
+continues to rise steadily through 2050 under the
+Fragmented World scenario. However, the pace, shape,
+and implied consequences of that growth differ subtly
+between models depending on service growth assumptions,
+
+Figure 4.16 Final energy demand to 2050
+Final Energy by Region (2020−2050) − Fragmented World Scenario
+LAM
+
+44
+
+MAF
+120
+
+230
+
+42
+
+220
+
+40
+
+110
+
+38
+
+100
+
+36
+
+60
+
+REF
+
+30
+20
+
+25
+
+20
+
+20
+
+Year
+
+MESSAGEix−GLOBIOM
+REMIND−MAgPIE
+
+20
+
+420
+
+50
+
+22
+
+45
+
+440
+
+20
+
+50
+20
+
+45
+20
+
+40
+20
+
+35
+20
+
+30
+20
+
+25
+20
+
+20
+
+105
+
+24
+
+40
+
+110
+
+460
+
+20
+
+115
+
+26
+
+35
+
+120
+
+480
+
+30
+
+125
+
+28
+
+20
+
+130
+
+500
+
+25
+
+135
+
+30
+
+20
+
+140
+
+20
+
+145
+
+32
+
+520
+
+20
+
+150
+
+GCAM
+
+WORLD
+
+20
+
+OECD+
+
+20
+
+Model
+
+50
+
+20
+
+EJ/yr
+
+26
+
+50
+
+170
+
+70
+
+28
+
+20
+
+180
+
+80
+
+30
+
+45
+
+32
+
+20
+
+190
+
+90
+
+40
+
+34
+
+20
+
+200
+
+35
+
+210
+
+20
+
+ASIA
+
+62
+
+NGFS REPORT
+
+Regionally divergent and underwhelming
+mitigation efforts
+
+net-zero implementation. However, the decline is not steep,
+confirming that even these regions do not transform their
+energy systems quickly enough to meaningfully reduce
+global demand. Reforming Economies (including Russia
+and Eastern Europe) shows sluggish but positive demand
+growth, hinting at economic inertia and fossil-fuel path
+dependence.
+
+Shadow carbon prices are a central diagnostic output of
+IAMs. Unlike explicit policy-based carbon prices (such as
+those observed in real-world emissions trading systems),
+shadow prices represent the implied marginal cost of
+abatement – the cost of reducing one additional tonne
+of CO₂ within the model’s internal optimisation, under
+the given scenario constraints. These prices indicate the
+level of policy stringency: higher values suggest more
+aggressive emissions reductions or more costly marginal
+mitigation measures. In the Fragmented World scenario,
+shadow carbon prices serve as a proxy for the efficiency
+and reach of climate mitigation.
+
+The continued rise in final energy demand, even in
+a fragmented and under-ambitious climate world,
+suggests that energy infrastructure investment will
+remain high across most regions, especially in Asia
+and Africa. If this investment favors fossil systems,
+it risks locking in emissions for decades to come.
+Additionally, the inefficiency of the transition becomes
+more pronounced in this scenario. Instead of a smooth or
+optimised decarbonisation pathway, final energy demand
+grows in ways that are more costly, more carbon-intensive,
+and less equitable than in more coordinated transitions.
+Regional inequalities in demand growth mirror
+disparities in policy ambition and institutional capacity.
+Without significant efforts to mobilise clean technologies
+in high-growth regions, global emissions will continue to
+climb regardless of progress made in OECD + EU or other
+high-capacity jurisdictions. The Fragmented World scenario
+ultimately underscores the limits of partial ambition.
+
+Across all three IAMs (GCAM, MESSAGEix-GLOBIOM,
+and REMIND-MAgPIE), shadow carbon price trajectories
+are consistently low and regionally divergent. The
+general pattern reflects underwhelming mitigation
+effort, with carbon prices rising modestly in some
+high-capacity regions and remaining negligible
+elsewhere. R5 OECD + EU is the only region where all models
+project a meaningful increase in shadow prices by 2050.
+In R5 ASIA, LAM, MAF, and REF, shadow prices either remain
+flat or rise only marginally, indicating weaker mitigation
+
+Figure 4.17 Regional carbon price to 2050 across 3 models
+Carbon Price by Region (2020−2050) − Fragmented World Scenario
+ASIA
+
+LAM
+300
+
+70
+
+250
+
+60
+
+200
+
+50
+
+150
+
+40
+30
+
+100
+
+20
+
+50
+
+10
+
+50
+
+GCAM
+
+MESSAGEix−GLOBIOM
+REMIND−MAgPIE
+
+100
+
+300
+
+20
+
+20
+
+REF
+
+20
+
+OECD+EU
+
+350
+
+Model
+
+0
+45
+
+0
+
+20
+
+0
+
+40
+
+20
+
+20
+
+40
+
+35
+
+60
+
+20
+
+80
+
+30
+
+100
+
+20
+
+120
+
+(2020)$/tCO2
+
+80
+
+25
+
+140
+
+MAF
+
+90
+
+20
+
+160
+
+80
+
+250
+60
+
+200
+150
+
+40
+
+100
+
+20
+
+50
+
+50
+
+45
+
+20
+
+40
+
+20
+
+Year
+
+20
+
+35
+
+30
+
+20
+
+20
+
+25
+20
+
+20
+20
+
+50
+20
+
+45
+20
+
+40
+20
+
+35
+20
+
+30
+20
+
+20
+
+20
+
+25
+
+0
+20
+
+0
+
+NGFS REPORT
+
+63
+
+ambition. While the direction of price trends is consistent
+across models, the size and steepness of price increases vary
+depending on how each model handles marginal abatement
+costs and technology substitution. Shadow prices remain
+low not because emissions are under control, but because
+the system faces insufficient policy constraints.
+
+ineffective. This fragmentation not only delays progress –
+it fundamentally distorts it, leaving carbon prices too low
+in too many places, and where they do rise, the signal often
+arrives too late to steer meaningful change.
+
+The regional divergence in carbon prices both reflects
+and reinforces inequalities in mitigation costs and
+opportunities. High-income countries may take on
+more expensive decarbonisation strategies, while
+low- and middle-income countries remain locked
+into low-effort, high-carbon pathways – even as
+these same regions often face the greatest physical
+climate risks. Weak carbon pricing signals also imply that
+fossil fuels remain cost-competitive, making the clean
+energy transition harder to justify on purely economic
+grounds in the absence of strong policy support. This
+dynamic means that partial ambition does not simply
+slow global decarbonisation; it also makes the transition
+more inefficient and costly. Furthermore, the failure to
+generate meaningful shadow prices even where partial
+net-zero targets exist points to a deeper governance
+gap. Without stronger institutional capacity, financing,
+and international trust, the pricing frameworks needed
+for effective climate action will remain fragmented and
+
+Forest area change, often used as a proxy for afforestation,
+reforestation, or land-use conversion, is a critical component
+of climate mitigation strategies. Expanding forest cover not
+only sequesters carbon but also supports biodiversity, water
+regulation, and rural livelihoods. In IAMs, changes in forest
+area reflect the interplay of land-use policy, carbon pricing,
+institutional strength, and competition with agriculture
+or bioenergy. In the Fragmented World scenario, forest
+area change indicates how much and where land-based
+mitigation efforts can be mobilised in a context of delayed
+and uneven climate ambition. Since some countries partially
+pursue net-zero targets while others maintain current
+policies, forest change is expected to be uneven, limited,
+and highly dependent on regional governance capacity.
+
+Land-based mitigation as a lost opportunity
+
+All three IAMs agree that forest area increases only modestly
+at the global level, with limited regional ambition and
+weak governance beyond a few high-capacity regions.
+This reflects a world in which land-based mitigation exists but
+
+Figure 4.18 Forest area changes indicating afforestation & reforestation across R5
+Forest Area Change by Region (2020−2050) − Fragmented World Scenario
+ASIA
+
+LAM
+
+80
+
+30
+40
+
+70
+
+20
+20
+
+10
+
+0
+
+0
+
+−20
+
+−10
+
+−40
+
+−20
+
+REF
+
+100
+
+−4
+
+80
+
+−6
+
+60
+
+−8
+
+40
+
+−10
+
+20
+
+−12
+
+0
+20
+5
+
+20
+4
+
+0
+
+5
+
+20
+5
+
+0
+
+20
+4
+
+20
+4
+
+5
+20
+3
+
+0
+
+5
+
+20
+3
+
+0
+
+20
+2
+
+20
+2
+
+0
+20
+5
+
+5
+
+0
+
+20
+4
+
+5
+
+20
+4
+
+20
+3
+
+0
+20
+3
+
+5
+
+0
+
+20
+2
+
+20
+2
+
+Year
+
+5
+
+0
+
+−14
+
+0
+
+0
+
+10
+
+5
+
+20
+
+REMIND−MAgPIE
+
+120
+
+0
+−2
+
+30
+
+MESSAGEix−GLOBIOM
+
+140
+
+2
+
+40
+
+GCAM
+
+WORLD
+
+160
+
+4
+
+50
+
+Model
+
+−60
+
+−30
+
+OECD+
+
+20
+4
+
+−10
+
+0
+
+0
+
+20
+3
+
+10
+
+5
+
+20
+
+20
+3
+
+30
+
+20
+2
+
+40
+
+0
+
+50
+
+20
+2
+
+60
+
+Forest Area Change (Mha)
+
+MAF
+
+60
+
+64
+
+NGFS REPORT
+
+remains significantly underutilised. OECD + EU and parts of
+Asia see moderate gains in forest cover, while Latin America
+and Africa show sharp divergence across models. Only GCAM
+projects meaningful reforestation in these latter regions, driven
+by more optimistic assumptions around policy incentives and
+institutional capacity. MESSAGEix-GLOBIOM and REMINDMAgPIE, in contrast, are more conservative, reflecting tighter
+land competition and lower policy effectiveness.
+Globally, land-sector mitigation fails to scale, hindered
+by policy shortfalls and competition with food or
+bioenergy production. This highlights the limited
+effectiveness of voluntary or partial land-sector climate
+action. In a fragmented world, forests are not mobilised as a
+coordinated global carbon sink, weakening one of the most
+cost-effective climate mitigation pathways. Without stronger
+incentives, institutional support, and safeguards for land
+
+rights, forest-sector mitigation becomes an afterthought
+rather than a central pillar of climate strategy. For financial
+actors, this limits the viability of land-based offsets.
+For policymakers, it signals an urgent need to invest in rural
+development, secure land tenure, and develop equitable
+frameworks for carbon finance that go beyond headline
+net-zero pledges.
+
+Unstable fossil fuel trades and global energy
+security at risk
+Fossil fuel trade volumes capture the international
+movement of oil, gas, and coal, flows that are central to
+global energy security, geopolitical stability, and balanceof-payments positions. Changes in trade volumes reflect
+shifts in energy demand, domestic production, pricing,
+infrastructure development, and policy alignment.
+
+Figure 4.19 Fossil fuel trade, including current level
+Fossil Fuel Trade by Region and Model (2020−2050)
+
+Fragmented World Scenario — Exports above, Imports below (free Y−axis)
+GCAM 6.0 NGFS
+
+MESSAGEix−GLOBIOM 2.0−M−R12−NGFS
+
+REMIND−MAgPIE 3.3−4.8
+ASIA
+
+0
+−50
+−100
+
+LAM
+
+10
+5
+0
+−5
+
+MAF
+
+0
+
+Fuel
+coal
+
+−50
+60
+
+OECD+
+
+Net Trade Flow (EJ/yr)
+
+50
+
+30
+
+oil
+gas
+
+0
+−30
+REF
+
+50
+40
+30
+20
+10
+0
+
+WORLD
+
+5
+4
+3
+2
+1
+0
+2020
+
+2030
+
+2040
+
+2050 2020
+
+2030
+
+Year
+
+2040
+
+2050 2020
+
+2030
+
+2040
+
+2050
+
+NGFS REPORT
+
+65
+
+All three IAMs project a steady contraction in global fossil
+fuel trade, but with fuel-specific variations. Coal trade sees
+the sharpest and most consistent decline across all models.
+This is driven by a combination of regulatory disincentives,
+falling global demand, and reduced infrastructure
+investment. Oil trade declines more slowly, reflecting
+persistent transport-sector demand and existing
+infrastructure, especially in Asia and OECD + EU. Gas trade
+trends diverge slightly: GCAM and REMIND-MAgPIE allow
+gas to play a bridging role through mid-century, while
+MESSAGEix-GLOBIOM curtails gas trade earlier due to
+infrastructure constraints and delayed investment.
+Asia (R5 ASIA) remains a key importer of oil and gas
+through 2040 in GCAM and REMIND-MAgPIE, though
+MESSAGEix-GLOBIOM projects a plateau as domestic
+production expands and electrification picks up. MAF and
+REF (Middle East & Africa and Reforming Economies) face
+major trade contraction risks. As net fossil exporters, they
+are exposed to price volatility, stranded asset risk, and
+declining fiscal revenues. OECD + EU imports decline across
+all fuels, driven by modest decarbonisation and declining
+energy demand.
+In a world with partial net-zero implementation,
+fossil trade becomes unstable. Exporters are especially
+vulnerable to fiscal collapse, balance-of-payments crises, and
+asset stranding, while importers face energy security risks.
+For financial institutions and regulators, this highlights
+the need for transition stress-testing in fossil-exposed
+economies and attention to geopolitical energy risks.
+For governments, it underscores the need for diversification,
+regional energy self-sufficiency, and strategic clean
+infrastructure investment.
+
+Partial and uncoordinated decarbonisation
+The primary energy mix describes the composition
+of a region’s total energy supply, including fossil fuels
+(coal, oil, gas) and non-fossil sources (nuclear, hydro,
+
+renewables, bioenergy). It is one of the clearest indicators
+of an energy transition’s depth and pace. In climate
+scenarios, shifts in the mix signal whether economies are
+decarbonising or remaining reliant on carbon-intensive
+energy systems. In the Fragmented World scenario, the
+mix reflects partial and uncoordinated decarbonisation.
+The picture is not one of stasis, but of slow, regionally
+uneven transformation, insufficient to prevent warming
+from exceeding 2 °C.
+At the global level, all models show fossil fuels maintaining
+a dominant role in the energy mix through 2050, despite
+modest increases in renewables. Coal and oil use decline
+slowly, especially in OECD + EU, but remain strong in Asia
+and REF. Natural gas shows some resilience, especially
+in GCAM and REMIND-MAgPIE, as a transitional fuel.
+Renewables (wind, solar, hydro) grow, but not quickly or
+broadly enough to achieve deep decarbonisation. Nuclear
+and modern bioenergy are stable or growing in OECD
+regions but remain marginal elsewhere.
+OECD + EU shows the strongest transition, with renewables
+gaining share and coal nearly phased out in some model
+trajectories. R5 ASIA) sees growth in renewables, but fossil
+fuels – especially coal and oil – remain deeply embedded.
+LAM, REF and MAF exhibit entrenched fossil-heavy energy
+systems with slow renewable penetration, indicating policy
+inertia and low policy ambition.
+This scenario demonstrates that even partial climate
+ambition fails to meaningfully reconfigure global
+energy systems. Fossil fuels remain entrenched, and
+renewables are concentrated in already-wealthy
+regions. The risk is twofold: countries that act too
+slowly face infrastructure lock-in, and those that
+act alone face competitive imbalances and higher
+transition costs. Without robust global coordination,
+the world ends up with inefficient, inequitable
+transitions that miss the opportunity for systemic
+transformation.
+
+66
+
+NGFS REPORT
+
+Figure 4.20 Stacked area chart primary energy mix by region
+Primary Energy Mix by Region − GCAM − Fragmented World Scenario (2020−2050)
+WORLD
+
+ASIA
+
+LAM
+
+300
+600
+40
+200
+400
+
+Primary Energy (EJ/yr)
+
+20
+
+100
+
+200
+
+0
+
+0
+
+0
+
+MAF
+
+OECD+
+
+REF
+50
+
+125
+
+100
+
+40
+
+150
+
+30
+
+75
+100
+
+20
+
+50
+50
+
+10
+
+25
+
+0
+
+0
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+2050
+
+2020
+
+2025
+
+2030
+
+2035
+
+Biomass
+
+Coal
+
+Gas
+
+Geothermal
+
+Nuclear
+
+Oil
+
+Solar
+
+Wind
+
+Year
+
+2040
+
+2045
+
+2050
+
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+2050
+
+2040
+
+2045
+
+2050
+
+2040
+
+2045
+
+2050
+
+Fuel Type
+Hydro
+
+Primary Energy Mix by Region − MESSAGEix − Fragmented World Scenario (2020−2050)
+WORLD
+
+ASIA
+
+LAM
+
+40
+
+600
+
+30
+
+200
+400
+
+20
+100
+
+200
+
+Primary Energy (EJ/yr)
+
+10
+
+0
+
+0
+
+0
+
+MAF
+
+OECD+
+
+REF
+
+200
+40
+90
+
+150
+30
+
+60
+
+100
+
+30
+
+20
+
+50
+
+0
+
+10
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+2050
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+Year
+
+2040
+
+2045
+
+2050
+
+2020
+
+2025
+
+2030
+
+2035
+
+Fuel Type
+Biomass
+
+Coal
+
+Gas
+
+Geothermal
+
+Nuclear
+
+Oil
+
+Solar
+
+Wind
+
+Hydro
+
+Primary Energy Mix by Region − REMIND − Fragmented World Scenario (2020−2050)
+WORLD
+
+ASIA
+
+LAM
+
+300
+
+50
+
+600
+
+40
+200
+
+400
+
+30
+
+20
+
+100
+
+200
+
+Primary Energy (EJ/yr)
+
+10
+
+0
+
+0
+
+0
+
+MAF
+
+OECD+
+
+200
+
+REF
+
+150
+40
+150
+30
+
+100
+100
+
+20
+50
+
+50
+
+10
+
+0
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+2050
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+Year
+
+2040
+
+2045
+
+2050
+
+2020
+
+2025
+
+2030
+
+2035
+
+Fuel Type
+Biomass
+
+Coal
+
+Gas
+
+Geothermal
+
+Nuclear
+
+Oil
+
+Solar
+
+Wind
+
+Hydro
+
+NGFS REPORT
+
+67
+
+4.5.2 Global emissions and climate change remain high
+Emission reduction efforts in some regions are offset in others
+Figure 4.21 Stacked area chart of emissions to 2100
+CO2 Emissions by Sector and Region — Fragmented World Scenario
+Includes land use (AFOLU) and net−negative contributions
+
+GCAM
+
+MESSAGEix
+
+ReMIND
+
+20
+15
+
+Asia
+
+10
+5
+0
+2.5
+
+Latin America
+
+2
+1.5
+1
+0.5
+0
+
+5
+
+Middle East & Africa
+
+4
+3
+
+Gt CO2/year
+
+2
+1
+0
+10
+7.5
+
+OECD & EU
+
+5
+2.5
+0
+
+Reforming Economies
+
+2
+
+1
+
+0
+
+30
+
+World
+
+20
+10
+0
+
+2020
+
+2030
+
+2040
+
+2050
+
+2020
+
+2030
+
+2040
+
+2050
+
+2020
+
+2030
+
+2040
+
+2050
+
+Year
+
+Sector
+
+AFOLU
+
+Energy Supply
+
+Industry
+
+Buildings
+
+Industrial Processes
+
+Transportation
+
+68
+
+NGFS REPORT
+
+Global greenhouse gas emissions remain persistently
+high, not because no action is taken, but because
+action is partial, delayed, and unevenly distributed.
+This fractured mitigation effort leads to a global
+temperature rise of approximately 2.4 °C by 2100,
+well beyond the limits established in the Paris
+Agreement. The scenario captures a sobering dynamic:
+while a few economies do make progress in reducing
+
+emissions – particularly parts of Europe and North America –
+those gains are largely offset by increasing emissions in
+other regions, especially in parts of Asia, Africa, and the
+reforming economies of Eastern Europe. These disparities
+are driven not only by differences in policy ambition,
+but also by structural realities: fossil fuel dependency,
+limited access to clean technologies, and the absence of
+international support mechanisms.
+
+CCS: a theoretical lever rather than a practical tool
+Figure 4.22 Carbon capture & sequestration
+Carbon Sequestration by Region (2020−2050) − Fragmented World Scenario
+ASIA
+
+LAM
+
+600
+
+2000
+
+MAF
+200
+
+500
+1500
+
+400
+
+150
+
+300
+
+1000
+
+100
+
+500
+
+50
+
+100
+
+0
+
+0
+
+Model
+
+0
+
+OECD+
+
+REF
+
+GCAM
+
+WORLD
+
+MESSAGEix−GLOBIOM
+REMIND−MAgPIE
+
+2500
+
+5000
+
+200
+
+2000
+
+4000
+
+150
+1500
+
+3000
+100
+
+1000
+
+2000
+50
+
+At the global level, sequestration grows slowly and modestly,
+with all three models projecting limited net removals
+
+50
+20
+
+45
+
+40
+
+20
+
+20
+
+35
+20
+
+30
+20
+
+20
+
+50
+20
+
+45
+
+40
+
+Carbon sequestration in IAMs typically refers to engineered
+removals of CO₂ from the atmosphere. These strategies are
+often seen as critical for offsetting hard-to-abate emissions
+and for achieving net-zero goals. In more ambitious
+scenarios, sequestration scales rapidly; in fragmented
+or delayed-action scenarios, its role becomes far less
+transformative. In the Fragmented World scenario, carbon
+sequestration levels reflect how delayed ambition and
+institutional fragmentation constrain the deployment of
+negative emissions technologies (NETs). It reveals whether
+nations can still “clean up after the fact” – and the answer
+appears to be: only modestly and unevenly.
+
+20
+
+20
+
+35
+20
+
+30
+
+25
+
+20
+
+20
+
+20
+20
+
+50
+
+45
+
+20
+
+20
+
+40
+20
+
+35
+
+30
+
+20
+
+20
+
+25
+20
+
+20
+
+Year
+
+25
+
+0
+
+0
+20
+
+0
+
+1000
+
+20
+
+500
+
+20
+
+Sequestration (MtCO2/yr)
+
+200
+
+by 2050. The trends underscore that even partial net-zero
+ambition is insufficient to drive a scaled-up carbon removal
+agenda. GCAM projects the highest global sequestration,
+consistent with its flexible treatment of land use and
+technology access assumptions.
+OECD + EU leads across all models in sequestration
+deployment, owing to greater institutional capacity,
+availability of capital, and policy continuity. R5 ASIA shows
+some CCS deployment in GCAM and REMIND-MAgPIE,
+but MESSAGEix-GLOBIOM suggests minimal contribution.
+LAM and MAF are potentially rich in land and biomass and
+hence see little CCS in MESSAGEix-GLOBIOM and REMINDMAgPIE. REF remains largely absent from the sequestration
+narrative in all models.
+
+NGFS REPORT
+
+69
+
+The modest levels of CCS in this scenario indicate that
+NETs cannot be treated as a fallback or delay tactic.
+Without coordinated finance, land governance, and
+technological trust, negative emissions remain a theoretical
+
+lever rather than a practical tool. Policymakers banking on
+post-2050 cleanup mechanisms will find little to rely on
+unless stronger action is taken early – especially in regions
+outside the OECD + EU.
+
+Insufficient efforts to avoid global physical risks
+Figure 4.23 Temperature rise across all 3 models
+Warming relative to pre−industrial levels, model ensemble comparison
+Global Mean Temperature Rise − Fragmented World Scenario
+
+3.0
+
+2.64°C
+2.53°C
+
+2.5
+
+2.31°C
+
+Temperature Rise (°C)
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+2020
+
+GCAM
+
+2040
+
+MESSAGEix−GLOBIOM
+
+2060
+
+Year
+
+REMIND−MAgPIE
+
+The scenario underscores that piecemeal decarbonisation,
+even if real, is insufficient to limit global risk exposure.
+The failure to coordinate robust action in the near term
+could hardwire systemic vulnerability into the climate
+system for the long term. Temperature outcomes in
+the Fragmented World scenario reflect the delayed and
+insufficient nature of global climate ambition. Across all
+three IAM implementations, global mean temperatures
+overshoot 1.5 °C by the early 2030s and cross the 2 °C
+
+1.5°C threshold
+
+2080
+
+2.0°C threshold
+
+2100
+
+Paris target range
+
+Above 2.0°C
+
+threshold well before mid-century, despite partial mitigation
+efforts in high-income regions. This trajectory stabilises
+around 2.3 to 2.5 °C of warming by 2100, with slight
+variations depending on the model’s sensitivity to emissions
+and feedback. Crucially, this level of warming places the
+world on a path of significantly elevated physical risks,
+including more intense and frequent extreme weather
+events, irreversible ecosystem damage, and chronic stress
+on food and water systems.
+
+70
+
+NGFS REPORT
+
+4.6 Conclusions on Fragmented World
+The NGFS Fragmented World scenario models a future where
+global climate ambition is delayed, regionally inconsistent,
+and ultimately insufficient. Across all three IAMs, the analysis
+reveals a world in which fossil fuels remain entrenched,
+clean energy diffusion is uneven, and land-based mitigation
+remains underutilised. Final energy demand continues to
+rise, driven by growth in Asia and developing economies,
+while mature economies flatten or slightly reduce demand –
+an offset that proves insufficient. Shadow carbon prices
+remain uneven, offering divergent cost signals for deep
+decarbonisation. Afforestation and carbon removal efforts
+remain modest and regionally concentrated. Fossil fuel
+trade declines, particularly coal, exposing exporters to
+stranded asset risks and importers to transition volatility.
+Meanwhile, the primary energy mix remains fossil-heavy,
+with renewables growing too slowly outside the OECD + EU
+to shift the system trajectory.
+
+Fragmented World pathway reinforces regional inequalities
+in mitigation costs and opportunities, compared to a
+more ambitious and coordinated Net Zero 2050 scenario.
+The Fragmented World’s reduced policy costs must be
+weighted out with climate damages under a 2.4 °C by end
+of century. An updated quantification of these impact and
+damage estimates will be available in NGFS Phase 6.
+For the NGFS, central banks, and the financial sector,
+these findings emphasise that fragmentation amplifies
+financial and systemic risks. As mitigation pathways
+diverge, so too does regional exposure to stranded assets,
+climate-linked volatility, and investment uncertainty.
+Diverging carbon pricing signals in different regions of
+the world and scattered land-sector responses undermine
+investor confidence, further slowing down the green
+transition and the reduction of global emissions. In such
+a world, climate risk supervision is faced with both high
+transition risk and high physical risk.
+
+NGFS REPORT
+
+71
+
+Annex A: Shared socioeconomic assumptions
+The assumptions on key socio-economic drivers, such as
+population and economic developments, are common to
+all NGFS scenarios. These assumptions are aligned with the
+Shared Socioeconomic Pathways SSP2 (updated version 3.0
+of the SSP scenarios). Population trajectory (Figure A1)
+
+and GDP baseline (Figure A2), as well as the country-level
+growth rate, are equal across IAMs. The variation in trends
+in the Figures below is due the difference in regional
+aggregation (R5) across three IAMs.
+
+Figure A1 Population (billion), including World Development Indicators (WDI, World Bank)
+
+Figure A2 GDP (PPP) (billion US$2010/yr), including World Development Indicators (WDI, World Bank)
+
+72
+
+NGFS REPORT
+
+Annex B: NiGEM neutral forecast baseline
+The trends for all macroeconomic variables (from NiGEM)
+are presented relative to a climate neutral forecast
+baseline. The combination of transition and physical risk
+shocks, when executed as NiGEM scenarios, provide the
+output for the NGFS macro-economic variables. The various
+climate scenarios often use the same economic channels in
+the model, and therefore, cannot be imposed as a singular
+shock. Instead, individual scenarios are run as a “stacked”
+series, which ensures the output of the stack provides the
+same output as though all shocks being considered were
+run simultaneously.
+
+To ensure NiGEM and the IAMs are using an equivalent
+starting point for their investigations into climate risk,
+particularly in the energy sector, we use a combination
+of the NIESR v1.24-2 forecast coupled with IAM data from
+the NGFS current policies scenario to create a climate
+neutral forecast baseline. Climate neutral refers to the
+fact that projected data values do not reflect any climate
+transition or physical risks. More information on the NiGEM
+integration into the NGFS scenarios in the NGFS Phase V
+Technical Documentation.
+
+NGFS REPORT
+
+73
+
+NGFS
+
+Secretariat
+
+

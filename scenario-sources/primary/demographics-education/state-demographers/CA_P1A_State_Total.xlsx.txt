@@ -1,0 +1,21 @@
+##### SHEET: About
+Report P-1A: Total Population Projections, 2020-2070
+California
+2024 Baseline
+About the Data:
+This document reports the total population for the state of California for years 2020-2070
+Methodology:
+https://dof.ca.gov/forecasting/demographics/projections/
+Published by:
+Demographic Research Unit
+California Department of Finance
+Suggested Citation:
+California Department of Finance. Demographic Research Unit. Report P-1A: Total Population Projections, California, 2020-2070 (Baseline 2024 Population Projections; Vintage 2026 Release). Sacramento: California. March 2026.
+Release Notes:
+2026.03.13: Updated to reflect latest published July 1 population estimates. No change to 2024 Baseline assumptions
+2025.09.20: Initial Release
+##### SHEET: Data
+Report P-1A: Total Population Projections for California, July 1 2020-2070
+FIPS	Geography	Age	Sex	Race-Ethnicity Recode	2020	2021	2022	2023	2024	2025	2026	2027	2028	2029	2030	2031	2032	2033	2034	2035	2036	2037	2038	2039	2040	2041	2042	2043	2044	2045	2046	2047	2048	2049	2050	2051	2052	2053	2054	2055	2056	2057	2058	2059	2060	2061	2062	2063	2064	2065	2066	2067	2068	2069	2070
+6000	CALIFORNIA	ALL AGES	ALL SEXES	ALL RACES	39541742	39260048	39220037	39279899	39509657	39528899	39567317	39625898	39700141	39780004	39879496	39987811	40099750	40213883	40317228	40410843	40499318	40581880	40656029	40724862	40790825	40853343	40910344	40960959	41005875	41045038	41076147	41101064	41114465	41120338	41118423	41107852	41090166	41065199	41031750	40990142	40941952	40886849	40827212	40762818	40696283	40623966	40547557	40468461	40388037	40305089	40219197	40130054	40039679	39947599	39853687
+Projections Prepared by Demographic Research Unit, California Department of Finance, March 2026

@@ -1,0 +1,1170 @@
+### SHEET: RTO
+Zone | Year | Metric | Load MW
+RTO | 2014 | Historical July Peak | 750.82645915
+RTO | 2015 | Historical July Peak | 852.42255215
+RTO | 2016 | Historical July Peak | 1021.84494445
+RTO | 2017 | Historical July Peak | 1242.2287998
+RTO | 2018 | Historical July Peak | 1458.3378292
+RTO | 2019 | Historical July Peak | 1988.9635876
+RTO | 2020 | Historical July Peak | 2479.8642842
+RTO | 2021 | Historical July Peak | 3202.0967247
+RTO | 2022 | Historical July Peak | 4022.4413571
+RTO | 2023 | 2023 Load Forecast July Peak | 3894.0098242229
+RTO | 2023 | Historical July Peak | 5036.9076625
+RTO | 2024 | 2023 Load Forecast July Peak | 5015.929774708
+RTO | 2024 | 2024 Load Forecast July Peak | 5968.295093455999
+RTO | 2024 | Historical July Peak | 6135.6272438
+RTO | 2025 | 2023 Load Forecast July Peak | 6230.83410168
+RTO | 2025 | 2024 Load Forecast July Peak | 7939.180212517
+RTO | 2025 | 2025 Load Forecast July Peak | 7735
+RTO | 2025 | Historical July Peak | 8167.1738136
+RTO | 2026 | 2023 Load Forecast July Peak | 8149.77807016
+RTO | 2026 | 2024 Load Forecast July Peak | 10822.28115422
+RTO | 2026 | 2025 Load Forecast July Peak | 12560
+RTO | 2026 | 2026 Load Forecast July Peak | 11479
+RTO | 2027 | 2023 Load Forecast July Peak | 9871.2872984
+RTO | 2027 | 2024 Load Forecast July Peak | 13349.13982393
+RTO | 2027 | 2025 Load Forecast July Peak | 17726
+RTO | 2027 | 2026 Load Forecast July Peak | 15866
+RTO | 2028 | 2023 Load Forecast July Peak | 11456.69632069
+RTO | 2028 | 2024 Load Forecast July Peak | 16002.41106924
+RTO | 2028 | 2025 Load Forecast July Peak | 23382
+RTO | 2028 | 2026 Load Forecast July Peak | 21290
+RTO | 2029 | 2023 Load Forecast July Peak | 12937.81056469
+RTO | 2029 | 2024 Load Forecast July Peak | 18150.57821985
+RTO | 2029 | 2025 Load Forecast July Peak | 29291
+RTO | 2029 | 2026 Load Forecast July Peak | 27371
+RTO | 2030 | 2023 Load Forecast July Peak | 14351.15315669
+RTO | 2030 | 2024 Load Forecast July Peak | 19915.11089265
+RTO | 2030 | 2025 Load Forecast July Peak | 36815
+RTO | 2030 | 2026 Load Forecast July Peak | 38815
+RTO | 2031 | 2023 Load Forecast July Peak | 15853.15712169
+RTO | 2031 | 2024 Load Forecast July Peak | 21320.41111135
+RTO | 2031 | 2025 Load Forecast July Peak | 45125
+RTO | 2031 | 2026 Load Forecast July Peak | 46648
+RTO | 2032 | 2023 Load Forecast July Peak | 17215.58041669
+RTO | 2032 | 2024 Load Forecast July Peak | 22589.97387446
+RTO | 2032 | 2025 Load Forecast July Peak | 52531
+RTO | 2032 | 2026 Load Forecast July Peak | 53958
+RTO | 2033 | 2023 Load Forecast July Peak | 18520.88742669
+RTO | 2033 | 2024 Load Forecast July Peak | 23791.26960237
+RTO | 2033 | 2025 Load Forecast July Peak | 55448
+RTO | 2033 | 2026 Load Forecast July Peak | 60267
+RTO | 2034 | 2023 Load Forecast July Peak | 19723.32215569
+RTO | 2034 | 2024 Load Forecast July Peak | 24935.28880157
+RTO | 2034 | 2025 Load Forecast July Peak | 57586
+RTO | 2034 | 2026 Load Forecast July Peak | 65050
+RTO | 2035 | 2023 Load Forecast July Peak | 20831.98199769
+RTO | 2035 | 2024 Load Forecast July Peak | 25976.23178048
+RTO | 2035 | 2025 Load Forecast July Peak | 59176
+RTO | 2035 | 2026 Load Forecast July Peak | 68977
+RTO | 2036 | 2023 Load Forecast July Peak | 21903.91022869
+RTO | 2036 | 2024 Load Forecast July Peak | 26933.47368748
+RTO | 2036 | 2025 Load Forecast July Peak | 60433
+RTO | 2036 | 2026 Load Forecast July Peak | 72608
+RTO | 2037 | 2023 Load Forecast July Peak | 23003.99489769
+RTO | 2037 | 2024 Load Forecast July Peak | 27940.12936589
+RTO | 2037 | 2025 Load Forecast July Peak | 61443
+RTO | 2037 | 2026 Load Forecast July Peak | 77029
+RTO | 2038 | 2023 Load Forecast July Peak | 24211.24487169
+RTO | 2038 | 2024 Load Forecast July Peak | 29001.1079615
+RTO | 2038 | 2025 Load Forecast July Peak | 62313
+RTO | 2038 | 2026 Load Forecast July Peak | 79982
+RTO | 2039 | 2024 Load Forecast July Peak | 30083.3106362
+RTO | 2039 | 2025 Load Forecast July Peak | 63002
+RTO | 2039 | 2026 Load Forecast July Peak | 81527
+RTO | 2040 | 2025 Load Forecast July Peak | 63686
+RTO | 2040 | 2026 Load Forecast July Peak | 82656
+RTO | 2041 | 2025 Load Forecast July Peak | 64310
+RTO | 2041 | 2026 Load Forecast July Peak | 83609
+RTO | 2042 | 2025 Load Forecast July Peak | 64857
+RTO | 2042 | 2026 Load Forecast July Peak | 84416
+RTO | 2043 | 2025 Load Forecast July Peak | 65414
+RTO | 2043 | 2026 Load Forecast July Peak | 85128
+RTO | 2044 | 2025 Load Forecast July Peak | 65997
+RTO | 2044 | 2026 Load Forecast July Peak | 85818
+RTO | 2045 | 2025 Load Forecast July Peak | 66574
+RTO | 2045 | 2026 Load Forecast July Peak | 86511
+RTO | 2046 | 2026 Load Forecast July Peak | 87194
+### SHEET: AEP
+Zone | Year | Metric | Load MW
+AEP | 2023 | 2023 Load Forecast July Peak | 89.923
+AEP | 2024 | 2023 Load Forecast July Peak | 247.923
+AEP | 2025 | 2023 Load Forecast July Peak | 247.923
+AEP | 2026 | 2023 Load Forecast July Peak | 247.923
+AEP | 2027 | 2023 Load Forecast July Peak | 247.923
+AEP | 2028 | 2023 Load Forecast July Peak | 247.923
+AEP | 2029 | 2023 Load Forecast July Peak | 247.923
+AEP | 2030 | 2023 Load Forecast July Peak | 247.923
+AEP | 2031 | 2023 Load Forecast July Peak | 247.923
+AEP | 2032 | 2023 Load Forecast July Peak | 247.923
+AEP | 2033 | 2023 Load Forecast July Peak | 247.923
+AEP | 2034 | 2023 Load Forecast July Peak | 247.923
+AEP | 2035 | 2023 Load Forecast July Peak | 247.923
+AEP | 2036 | 2023 Load Forecast July Peak | 247.923
+AEP | 2037 | 2023 Load Forecast July Peak | 247.923
+AEP | 2038 | 2023 Load Forecast July Peak | 247.923
+AEP | 2024 | 2024 Load Forecast July Peak | 889.16218836
+AEP | 2025 | 2024 Load Forecast July Peak | 1849.4844073
+AEP | 2026 | 2024 Load Forecast July Peak | 2523.2862039
+AEP | 2027 | 2024 Load Forecast July Peak | 2995.6668375
+AEP | 2028 | 2024 Load Forecast July Peak | 3349.5561932
+AEP | 2029 | 2024 Load Forecast July Peak | 3535.8954758
+AEP | 2030 | 2024 Load Forecast July Peak | 3658.3429416
+AEP | 2031 | 2024 Load Forecast July Peak | 3743.8406643
+AEP | 2032 | 2024 Load Forecast July Peak | 3749.6172014
+AEP | 2033 | 2024 Load Forecast July Peak | 3749.3170943
+AEP | 2034 | 2024 Load Forecast July Peak | 3749.0712885
+AEP | 2035 | 2024 Load Forecast July Peak | 3748.5448814
+AEP | 2036 | 2024 Load Forecast July Peak | 3747.9710124
+AEP | 2037 | 2024 Load Forecast July Peak | 3748.3496518
+AEP | 2038 | 2024 Load Forecast July Peak | 3749.1596394
+AEP | 2039 | 2024 Load Forecast July Peak | 3749.7513491
+AEP | 2025 | 2025 Load Forecast July Peak | 1761
+AEP | 2026 | 2025 Load Forecast July Peak | 3936
+AEP | 2027 | 2025 Load Forecast July Peak | 5093
+AEP | 2028 | 2025 Load Forecast July Peak | 6134
+AEP | 2029 | 2025 Load Forecast July Peak | 7280
+AEP | 2030 | 2025 Load Forecast July Peak | 10346
+AEP | 2031 | 2025 Load Forecast July Peak | 14252
+AEP | 2032 | 2025 Load Forecast July Peak | 18002
+AEP | 2033 | 2025 Load Forecast July Peak | 18028
+AEP | 2034 | 2025 Load Forecast July Peak | 18021
+AEP | 2035 | 2025 Load Forecast July Peak | 18017
+AEP | 2036 | 2025 Load Forecast July Peak | 18011
+AEP | 2037 | 2025 Load Forecast July Peak | 18010
+AEP | 2038 | 2025 Load Forecast July Peak | 18008
+AEP | 2039 | 2025 Load Forecast July Peak | 18009
+AEP | 2040 | 2025 Load Forecast July Peak | 18009
+AEP | 2041 | 2025 Load Forecast July Peak | 18011
+AEP | 2042 | 2025 Load Forecast July Peak | 18012
+AEP | 2043 | 2025 Load Forecast July Peak | 18020
+AEP | 2044 | 2025 Load Forecast July Peak | 18024
+AEP | 2045 | 2025 Load Forecast July Peak | 18026
+AEP | 2026 | 2026 Load Forecast July Peak | 2699
+AEP | 2027 | 2026 Load Forecast July Peak | 4191
+AEP | 2028 | 2026 Load Forecast July Peak | 5496
+AEP | 2029 | 2026 Load Forecast July Peak | 7051
+AEP | 2030 | 2026 Load Forecast July Peak | 8665
+AEP | 2031 | 2026 Load Forecast July Peak | 10031
+AEP | 2032 | 2026 Load Forecast July Peak | 11393
+AEP | 2033 | 2026 Load Forecast July Peak | 13023
+AEP | 2034 | 2026 Load Forecast July Peak | 14649
+AEP | 2035 | 2026 Load Forecast July Peak | 16276
+AEP | 2036 | 2026 Load Forecast July Peak | 17894
+AEP | 2037 | 2026 Load Forecast July Peak | 19896
+AEP | 2038 | 2026 Load Forecast July Peak | 20729
+AEP | 2039 | 2026 Load Forecast July Peak | 20727
+AEP | 2040 | 2026 Load Forecast July Peak | 20725
+AEP | 2041 | 2026 Load Forecast July Peak | 20722
+AEP | 2042 | 2026 Load Forecast July Peak | 20724
+AEP | 2043 | 2026 Load Forecast July Peak | 20723
+AEP | 2044 | 2026 Load Forecast July Peak | 20724
+AEP | 2045 | 2026 Load Forecast July Peak | 20725
+AEP | 2046 | 2026 Load Forecast July Peak | 20726
+AEP | 2019 | Historical July Peak | 16.5
+AEP | 2020 | Historical July Peak | 97.9
+AEP | 2021 | Historical July Peak | 187.6
+AEP | 2022 | Historical July Peak | 277.7
+AEP | 2023 | Historical July Peak | 485.5
+AEP | 2024 | Historical July Peak | 839.4
+AEP | 2025 | Historical July Peak | 1726.1
+### SHEET: APS
+Zone | Year | Metric | Load MW
+APS | 2023 | 2023 Load Forecast July Peak | 1.1528756229
+APS | 2024 | 2023 Load Forecast July Peak | 85.261009708
+APS | 2025 | 2023 Load Forecast July Peak | 408.53327518
+APS | 2026 | 2023 Load Forecast July Peak | 596.61304176
+APS | 2027 | 2023 Load Forecast July Peak | 785.1618356
+APS | 2028 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2029 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2030 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2031 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2032 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2033 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2034 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2035 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2036 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2037 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2038 | 2023 Load Forecast July Peak | 856.47078169
+APS | 2024 | 2024 Load Forecast July Peak | 73.378514589
+APS | 2025 | 2024 Load Forecast July Peak | 213.1
+APS | 2026 | 2024 Load Forecast July Peak | 565.85862069
+APS | 2027 | 2024 Load Forecast July Peak | 803.1
+APS | 2028 | 2024 Load Forecast July Peak | 803.1
+APS | 2029 | 2024 Load Forecast July Peak | 803.1
+APS | 2030 | 2024 Load Forecast July Peak | 803.1
+APS | 2031 | 2024 Load Forecast July Peak | 803.1
+APS | 2032 | 2024 Load Forecast July Peak | 803.1
+APS | 2033 | 2024 Load Forecast July Peak | 803.1
+APS | 2034 | 2024 Load Forecast July Peak | 803.1
+APS | 2035 | 2024 Load Forecast July Peak | 803.1
+APS | 2036 | 2024 Load Forecast July Peak | 803.1
+APS | 2037 | 2024 Load Forecast July Peak | 803.1
+APS | 2038 | 2024 Load Forecast July Peak | 803.1
+APS | 2039 | 2024 Load Forecast July Peak | 803.1
+APS | 2025 | 2025 Load Forecast July Peak | 8
+APS | 2026 | 2025 Load Forecast July Peak | 170
+APS | 2027 | 2025 Load Forecast July Peak | 412
+APS | 2028 | 2025 Load Forecast July Peak | 649
+APS | 2029 | 2025 Load Forecast July Peak | 998
+APS | 2030 | 2025 Load Forecast July Peak | 1214
+APS | 2031 | 2025 Load Forecast July Peak | 1490
+APS | 2032 | 2025 Load Forecast July Peak | 1810
+APS | 2033 | 2025 Load Forecast July Peak | 2027
+APS | 2034 | 2025 Load Forecast July Peak | 2196
+APS | 2035 | 2025 Load Forecast July Peak | 2239
+APS | 2036 | 2025 Load Forecast July Peak | 2240
+APS | 2037 | 2025 Load Forecast July Peak | 2240
+APS | 2038 | 2025 Load Forecast July Peak | 2240
+APS | 2039 | 2025 Load Forecast July Peak | 2240
+APS | 2040 | 2025 Load Forecast July Peak | 2240
+APS | 2041 | 2025 Load Forecast July Peak | 2240
+APS | 2042 | 2025 Load Forecast July Peak | 2239
+APS | 2043 | 2025 Load Forecast July Peak | 2240
+APS | 2044 | 2025 Load Forecast July Peak | 2240
+APS | 2045 | 2025 Load Forecast July Peak | 2240
+APS | 2026 | 2026 Load Forecast July Peak | 165
+APS | 2027 | 2026 Load Forecast July Peak | 276
+APS | 2028 | 2026 Load Forecast July Peak | 319
+APS | 2029 | 2026 Load Forecast July Peak | 590
+APS | 2030 | 2026 Load Forecast July Peak | 1213
+APS | 2031 | 2026 Load Forecast July Peak | 1557
+APS | 2032 | 2026 Load Forecast July Peak | 1929
+APS | 2033 | 2026 Load Forecast July Peak | 2197
+APS | 2034 | 2026 Load Forecast July Peak | 2610
+APS | 2035 | 2026 Load Forecast July Peak | 2626
+APS | 2036 | 2026 Load Forecast July Peak | 2624
+APS | 2037 | 2026 Load Forecast July Peak | 2625
+APS | 2038 | 2026 Load Forecast July Peak | 2624
+APS | 2039 | 2026 Load Forecast July Peak | 2624
+APS | 2040 | 2026 Load Forecast July Peak | 2624
+APS | 2041 | 2026 Load Forecast July Peak | 2775
+APS | 2042 | 2026 Load Forecast July Peak | 2775
+APS | 2043 | 2026 Load Forecast July Peak | 2775
+APS | 2044 | 2026 Load Forecast July Peak | 2776
+APS | 2045 | 2026 Load Forecast July Peak | 2776
+APS | 2046 | 2026 Load Forecast July Peak | 2776
+### SHEET: APS - FirstEnergy
+Zone | Year | Metric | Load MW
+APS - FirstEnergy | 2023 | 2023 Load Forecast July Peak | 1.1528756229
+APS - FirstEnergy | 2024 | 2023 Load Forecast July Peak | 85.261009708
+APS - FirstEnergy | 2025 | 2023 Load Forecast July Peak | 408.53327518
+APS - FirstEnergy | 2026 | 2023 Load Forecast July Peak | 596.61304176
+APS - FirstEnergy | 2027 | 2023 Load Forecast July Peak | 785.1618356
+APS - FirstEnergy | 2028 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2029 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2030 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2031 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2032 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2033 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2034 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2035 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2036 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2037 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2038 | 2023 Load Forecast July Peak | 856.47078169
+APS - FirstEnergy | 2024 | 2024 Load Forecast July Peak | 73.378514589
+APS - FirstEnergy | 2025 | 2024 Load Forecast July Peak | 213.1
+APS - FirstEnergy | 2026 | 2024 Load Forecast July Peak | 565.85862069
+APS - FirstEnergy | 2027 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2028 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2029 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2030 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2031 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2032 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2033 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2034 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2035 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2036 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2037 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2038 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2039 | 2024 Load Forecast July Peak | 803.1
+APS - FirstEnergy | 2026 | 2025 Load Forecast July Peak | 149.6
+APS - FirstEnergy | 2027 | 2025 Load Forecast July Peak | 365
+APS - FirstEnergy | 2028 | 2025 Load Forecast July Peak | 581.2
+APS - FirstEnergy | 2029 | 2025 Load Forecast July Peak | 900.6
+APS - FirstEnergy | 2030 | 2025 Load Forecast July Peak | 1116.7
+APS - FirstEnergy | 2031 | 2025 Load Forecast July Peak | 1393
+APS - FirstEnergy | 2032 | 2025 Load Forecast July Peak | 1713.1
+APS - FirstEnergy | 2033 | 2025 Load Forecast July Peak | 1930.2
+APS - FirstEnergy | 2034 | 2025 Load Forecast July Peak | 2099.4
+APS - FirstEnergy | 2035 | 2025 Load Forecast July Peak | 2142.4
+APS - FirstEnergy | 2036 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2037 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2038 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2039 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2040 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2041 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2042 | 2025 Load Forecast July Peak | 2142.4
+APS - FirstEnergy | 2043 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2044 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2045 | 2025 Load Forecast July Peak | 2143.4
+APS - FirstEnergy | 2026 | 2026 Load Forecast July Peak | 165
+APS - FirstEnergy | 2027 | 2026 Load Forecast July Peak | 276
+APS - FirstEnergy | 2028 | 2026 Load Forecast July Peak | 319
+APS - FirstEnergy | 2029 | 2026 Load Forecast July Peak | 590
+APS - FirstEnergy | 2030 | 2026 Load Forecast July Peak | 1176.7
+APS - FirstEnergy | 2031 | 2026 Load Forecast July Peak | 1516.5
+APS - FirstEnergy | 2032 | 2026 Load Forecast July Peak | 1829.1
+APS - FirstEnergy | 2033 | 2026 Load Forecast July Peak | 2055.9
+APS - FirstEnergy | 2034 | 2026 Load Forecast July Peak | 2425.5
+APS - FirstEnergy | 2035 | 2026 Load Forecast July Peak | 2424.3
+APS - FirstEnergy | 2036 | 2026 Load Forecast July Peak | 2422.3
+APS - FirstEnergy | 2037 | 2026 Load Forecast July Peak | 2423.3
+APS - FirstEnergy | 2038 | 2026 Load Forecast July Peak | 2422.3
+APS - FirstEnergy | 2039 | 2026 Load Forecast July Peak | 2422.3
+APS - FirstEnergy | 2040 | 2026 Load Forecast July Peak | 2422.3
+APS - FirstEnergy | 2041 | 2026 Load Forecast July Peak | 2573.3
+APS - FirstEnergy | 2042 | 2026 Load Forecast July Peak | 2573.3
+APS - FirstEnergy | 2043 | 2026 Load Forecast July Peak | 2573.3
+APS - FirstEnergy | 2044 | 2026 Load Forecast July Peak | 2574.3
+APS - FirstEnergy | 2045 | 2026 Load Forecast July Peak | 2574.3
+APS - FirstEnergy | 2046 | 2026 Load Forecast July Peak | 2574.3
+### SHEET: APS - REC
+Zone | Year | Metric | Load MW
+APS - REC | 2025 | 2025 Load Forecast July Peak | 8
+APS - REC | 2026 | 2025 Load Forecast July Peak | 20.4
+APS - REC | 2027 | 2025 Load Forecast July Peak | 47
+APS - REC | 2028 | 2025 Load Forecast July Peak | 67.8
+APS - REC | 2029 | 2025 Load Forecast July Peak | 97.4
+APS - REC | 2030 | 2025 Load Forecast July Peak | 97.3
+APS - REC | 2031 | 2025 Load Forecast July Peak | 97
+APS - REC | 2032 | 2025 Load Forecast July Peak | 96.9
+APS - REC | 2033 | 2025 Load Forecast July Peak | 96.8
+APS - REC | 2034 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2035 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2036 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2037 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2038 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2039 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2040 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2041 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2042 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2043 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2044 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2045 | 2025 Load Forecast July Peak | 96.6
+APS - REC | 2030 | 2026 Load Forecast July Peak | 36.3
+APS - REC | 2031 | 2026 Load Forecast July Peak | 40.5
+APS - REC | 2032 | 2026 Load Forecast July Peak | 99.9
+APS - REC | 2033 | 2026 Load Forecast July Peak | 141.1
+APS - REC | 2034 | 2026 Load Forecast July Peak | 184.5
+APS - REC | 2035 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2036 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2037 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2038 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2039 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2040 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2041 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2042 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2043 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2044 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2045 | 2026 Load Forecast July Peak | 201.7
+APS - REC | 2046 | 2026 Load Forecast July Peak | 201.7
+### SHEET: ATSI
+Zone | Year | Metric | Load MW
+ATSI | 2025 | 2025 Load Forecast July Peak | 56
+ATSI | 2026 | 2025 Load Forecast July Peak | 161
+ATSI | 2027 | 2025 Load Forecast July Peak | 307
+ATSI | 2028 | 2025 Load Forecast July Peak | 506
+ATSI | 2029 | 2025 Load Forecast July Peak | 859
+ATSI | 2030 | 2025 Load Forecast July Peak | 1477
+ATSI | 2031 | 2025 Load Forecast July Peak | 2060
+ATSI | 2032 | 2025 Load Forecast July Peak | 2499
+ATSI | 2033 | 2025 Load Forecast July Peak | 2722
+ATSI | 2034 | 2025 Load Forecast July Peak | 2791
+ATSI | 2035 | 2025 Load Forecast July Peak | 2792
+ATSI | 2036 | 2025 Load Forecast July Peak | 2790
+ATSI | 2037 | 2025 Load Forecast July Peak | 2790
+ATSI | 2038 | 2025 Load Forecast July Peak | 2790
+ATSI | 2039 | 2025 Load Forecast July Peak | 2790
+ATSI | 2040 | 2025 Load Forecast July Peak | 2791
+ATSI | 2041 | 2025 Load Forecast July Peak | 2791
+ATSI | 2042 | 2025 Load Forecast July Peak | 2790
+ATSI | 2043 | 2025 Load Forecast July Peak | 2791
+ATSI | 2044 | 2025 Load Forecast July Peak | 2792
+ATSI | 2045 | 2025 Load Forecast July Peak | 2793
+ATSI | 2026 | 2026 Load Forecast July Peak | 132
+ATSI | 2027 | 2026 Load Forecast July Peak | 165
+ATSI | 2028 | 2026 Load Forecast July Peak | 299
+ATSI | 2029 | 2026 Load Forecast July Peak | 431
+ATSI | 2030 | 2026 Load Forecast July Peak | 1129
+ATSI | 2031 | 2026 Load Forecast July Peak | 1302
+ATSI | 2032 | 2026 Load Forecast July Peak | 1538
+ATSI | 2033 | 2026 Load Forecast July Peak | 1823
+ATSI | 2034 | 2026 Load Forecast July Peak | 2020
+ATSI | 2035 | 2026 Load Forecast July Peak | 2169
+ATSI | 2036 | 2026 Load Forecast July Peak | 2211
+ATSI | 2037 | 2026 Load Forecast July Peak | 2210
+ATSI | 2038 | 2026 Load Forecast July Peak | 2210
+ATSI | 2039 | 2026 Load Forecast July Peak | 2209
+ATSI | 2040 | 2026 Load Forecast July Peak | 2210
+ATSI | 2041 | 2026 Load Forecast July Peak | 2209
+ATSI | 2042 | 2026 Load Forecast July Peak | 2209
+ATSI | 2043 | 2026 Load Forecast July Peak | 2209
+ATSI | 2044 | 2026 Load Forecast July Peak | 2209
+ATSI | 2045 | 2026 Load Forecast July Peak | 2210
+ATSI | 2046 | 2026 Load Forecast July Peak | 2211
+### SHEET: BGE
+Zone | Year | Metric | Load MW
+BGE | 2025 | 2025 Load Forecast July Peak | 12
+BGE | 2026 | 2025 Load Forecast July Peak | 20
+BGE | 2027 | 2025 Load Forecast July Peak | 27
+BGE | 2028 | 2025 Load Forecast July Peak | 36
+BGE | 2029 | 2025 Load Forecast July Peak | 80
+BGE | 2030 | 2025 Load Forecast July Peak | 124
+BGE | 2031 | 2025 Load Forecast July Peak | 168
+BGE | 2032 | 2025 Load Forecast July Peak | 208
+BGE | 2033 | 2025 Load Forecast July Peak | 245
+BGE | 2034 | 2025 Load Forecast July Peak | 282
+BGE | 2035 | 2025 Load Forecast July Peak | 318
+BGE | 2036 | 2025 Load Forecast July Peak | 354
+BGE | 2037 | 2025 Load Forecast July Peak | 355
+BGE | 2038 | 2025 Load Forecast July Peak | 354
+BGE | 2039 | 2025 Load Forecast July Peak | 354
+BGE | 2040 | 2025 Load Forecast July Peak | 354
+BGE | 2041 | 2025 Load Forecast July Peak | 354
+BGE | 2042 | 2025 Load Forecast July Peak | 354
+BGE | 2043 | 2025 Load Forecast July Peak | 354
+BGE | 2044 | 2025 Load Forecast July Peak | 354
+BGE | 2045 | 2025 Load Forecast July Peak | 354
+BGE | 2026 | 2026 Load Forecast July Peak | 18
+BGE | 2027 | 2026 Load Forecast July Peak | 25
+BGE | 2028 | 2026 Load Forecast July Peak | 43
+BGE | 2029 | 2026 Load Forecast July Peak | 110
+BGE | 2030 | 2026 Load Forecast July Peak | 176
+BGE | 2031 | 2026 Load Forecast July Peak | 243
+BGE | 2032 | 2026 Load Forecast July Peak | 307
+BGE | 2033 | 2026 Load Forecast July Peak | 355
+BGE | 2034 | 2026 Load Forecast July Peak | 355
+BGE | 2035 | 2026 Load Forecast July Peak | 355
+BGE | 2036 | 2026 Load Forecast July Peak | 355
+BGE | 2037 | 2026 Load Forecast July Peak | 354
+BGE | 2038 | 2026 Load Forecast July Peak | 354
+BGE | 2039 | 2026 Load Forecast July Peak | 354
+BGE | 2040 | 2026 Load Forecast July Peak | 354
+BGE | 2041 | 2026 Load Forecast July Peak | 354
+BGE | 2042 | 2026 Load Forecast July Peak | 354
+BGE | 2043 | 2026 Load Forecast July Peak | 354
+BGE | 2044 | 2026 Load Forecast July Peak | 354
+BGE | 2045 | 2026 Load Forecast July Peak | 354
+BGE | 2046 | 2026 Load Forecast July Peak | 355
+### SHEET: COMED
+Zone | Year | Metric | Load MW
+COMED | 2025 | 2025 Load Forecast July Peak | 546
+COMED | 2026 | 2025 Load Forecast July Peak | 906
+COMED | 2027 | 2025 Load Forecast July Peak | 1226
+COMED | 2028 | 2025 Load Forecast July Peak | 1651
+COMED | 2029 | 2025 Load Forecast July Peak | 2135
+COMED | 2030 | 2025 Load Forecast July Peak | 2664
+COMED | 2031 | 2025 Load Forecast July Peak | 3194
+COMED | 2032 | 2025 Load Forecast July Peak | 3708
+COMED | 2033 | 2025 Load Forecast July Peak | 4182
+COMED | 2034 | 2025 Load Forecast July Peak | 4568
+COMED | 2035 | 2025 Load Forecast July Peak | 4822
+COMED | 2036 | 2025 Load Forecast July Peak | 4940
+COMED | 2037 | 2025 Load Forecast July Peak | 4989
+COMED | 2038 | 2025 Load Forecast July Peak | 4991
+COMED | 2039 | 2025 Load Forecast July Peak | 4991
+COMED | 2040 | 2025 Load Forecast July Peak | 4992
+COMED | 2041 | 2025 Load Forecast July Peak | 4993
+COMED | 2042 | 2025 Load Forecast July Peak | 4992
+COMED | 2043 | 2025 Load Forecast July Peak | 4991
+COMED | 2044 | 2025 Load Forecast July Peak | 4990
+COMED | 2045 | 2025 Load Forecast July Peak | 4991
+COMED | 2026 | 2026 Load Forecast July Peak | 885
+COMED | 2027 | 2026 Load Forecast July Peak | 1275
+COMED | 2028 | 2026 Load Forecast July Peak | 2058
+COMED | 2029 | 2026 Load Forecast July Peak | 3504
+COMED | 2030 | 2026 Load Forecast July Peak | 5176
+COMED | 2031 | 2026 Load Forecast July Peak | 6850
+COMED | 2032 | 2026 Load Forecast July Peak | 8496
+COMED | 2033 | 2026 Load Forecast July Peak | 9892
+COMED | 2034 | 2026 Load Forecast July Peak | 10537
+COMED | 2035 | 2026 Load Forecast July Peak | 10789
+COMED | 2036 | 2026 Load Forecast July Peak | 10846
+COMED | 2037 | 2026 Load Forecast July Peak | 10854
+COMED | 2038 | 2026 Load Forecast July Peak | 10860
+COMED | 2039 | 2026 Load Forecast July Peak | 10866
+COMED | 2040 | 2026 Load Forecast July Peak | 10866
+COMED | 2041 | 2026 Load Forecast July Peak | 10865
+COMED | 2042 | 2026 Load Forecast July Peak | 10866
+COMED | 2043 | 2026 Load Forecast July Peak | 10865
+COMED | 2044 | 2026 Load Forecast July Peak | 10868
+COMED | 2045 | 2026 Load Forecast July Peak | 10870
+COMED | 2046 | 2026 Load Forecast July Peak | 10870
+COMED | 2014 | Historical July Peak | 178.701
+COMED | 2015 | Historical July Peak | 190.401
+COMED | 2016 | Historical July Peak | 215.62
+COMED | 2017 | Historical July Peak | 231.237
+COMED | 2018 | Historical July Peak | 239.555
+COMED | 2019 | Historical July Peak | 264.153
+COMED | 2020 | Historical July Peak | 269.755
+COMED | 2021 | Historical July Peak | 299.143
+COMED | 2022 | Historical July Peak | 315.219
+COMED | 2023 | Historical July Peak | 396.883
+COMED | 2024 | Historical July Peak | 496.952
+COMED | 2025 | Historical July Peak | 622.665
+### SHEET: DAYTON
+Zone | Year | Metric | Load MW
+DAYTON | 2027 | 2025 Load Forecast July Peak | 297
+DAYTON | 2028 | 2025 Load Forecast July Peak | 335
+DAYTON | 2029 | 2025 Load Forecast July Peak | 335
+DAYTON | 2030 | 2025 Load Forecast July Peak | 335
+DAYTON | 2031 | 2025 Load Forecast July Peak | 334
+DAYTON | 2032 | 2025 Load Forecast July Peak | 334
+DAYTON | 2033 | 2025 Load Forecast July Peak | 334
+DAYTON | 2034 | 2025 Load Forecast July Peak | 334
+DAYTON | 2035 | 2025 Load Forecast July Peak | 334
+DAYTON | 2036 | 2025 Load Forecast July Peak | 334
+DAYTON | 2037 | 2025 Load Forecast July Peak | 334
+DAYTON | 2038 | 2025 Load Forecast July Peak | 334
+DAYTON | 2039 | 2025 Load Forecast July Peak | 334
+DAYTON | 2040 | 2025 Load Forecast July Peak | 334
+DAYTON | 2041 | 2025 Load Forecast July Peak | 334
+DAYTON | 2042 | 2025 Load Forecast July Peak | 334
+DAYTON | 2043 | 2025 Load Forecast July Peak | 334
+DAYTON | 2044 | 2025 Load Forecast July Peak | 334
+DAYTON | 2045 | 2025 Load Forecast July Peak | 334
+DAYTON | 2027 | 2026 Load Forecast July Peak | 144
+DAYTON | 2028 | 2026 Load Forecast July Peak | 277
+DAYTON | 2029 | 2026 Load Forecast July Peak | 411
+DAYTON | 2030 | 2026 Load Forecast July Peak | 954
+DAYTON | 2031 | 2026 Load Forecast July Peak | 1392
+DAYTON | 2032 | 2026 Load Forecast July Peak | 1821
+DAYTON | 2033 | 2026 Load Forecast July Peak | 2144
+DAYTON | 2034 | 2026 Load Forecast July Peak | 2242
+DAYTON | 2035 | 2026 Load Forecast July Peak | 2242
+DAYTON | 2036 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2037 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2038 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2039 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2040 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2041 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2042 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2043 | 2026 Load Forecast July Peak | 2241
+DAYTON | 2044 | 2026 Load Forecast July Peak | 2242
+DAYTON | 2045 | 2026 Load Forecast July Peak | 2243
+DAYTON | 2046 | 2026 Load Forecast July Peak | 2244
+### SHEET: DOM
+Zone | Year | Metric | Load MW
+VEPCO | 2023 | 2023 Load Forecast July Peak | 3802.9339486
+VEPCO | 2024 | 2023 Load Forecast July Peak | 4682.745765
+VEPCO | 2025 | 2023 Load Forecast July Peak | 5574.3778265
+VEPCO | 2026 | 2023 Load Forecast July Peak | 7305.2420284
+VEPCO | 2027 | 2023 Load Forecast July Peak | 8838.2024628
+VEPCO | 2028 | 2023 Load Forecast July Peak | 10352.302539
+VEPCO | 2029 | 2023 Load Forecast July Peak | 11833.416783
+VEPCO | 2030 | 2023 Load Forecast July Peak | 13246.759375
+VEPCO | 2031 | 2023 Load Forecast July Peak | 14748.76334
+VEPCO | 2032 | 2023 Load Forecast July Peak | 16111.186635
+VEPCO | 2033 | 2023 Load Forecast July Peak | 17416.493645
+VEPCO | 2034 | 2023 Load Forecast July Peak | 18618.928374
+VEPCO | 2035 | 2023 Load Forecast July Peak | 19727.588216
+VEPCO | 2036 | 2023 Load Forecast July Peak | 20799.516447
+VEPCO | 2037 | 2023 Load Forecast July Peak | 21899.601116
+VEPCO | 2038 | 2023 Load Forecast July Peak | 23106.85109
+VEPCO | 2024 | 2024 Load Forecast July Peak | 4712.3021905
+VEPCO | 2025 | 2024 Load Forecast July Peak | 5538.1436052
+VEPCO | 2026 | 2024 Load Forecast July Peak | 7350.6841296
+VEPCO | 2027 | 2024 Load Forecast July Peak | 9096.9207864
+VEPCO | 2028 | 2024 Load Forecast July Peak | 11330.302676
+VEPCO | 2029 | 2024 Load Forecast July Peak | 13226.130544
+VEPCO | 2030 | 2024 Load Forecast July Peak | 14816.215751
+VEPCO | 2031 | 2024 Load Forecast July Peak | 16121.018247
+VEPCO | 2032 | 2024 Load Forecast July Peak | 17356.804473
+VEPCO | 2033 | 2024 Load Forecast July Peak | 18529.400308
+VEPCO | 2034 | 2024 Load Forecast July Peak | 19644.665313
+VEPCO | 2035 | 2024 Load Forecast July Peak | 20657.134699
+VEPCO | 2036 | 2024 Load Forecast July Peak | 21586.950475
+VEPCO | 2037 | 2024 Load Forecast July Peak | 22564.227514
+VEPCO | 2038 | 2024 Load Forecast July Peak | 23595.396122
+VEPCO | 2039 | 2024 Load Forecast July Peak | 24649.007087
+VEPCO | 2025 | 2025 Load Forecast July Peak | 4970
+VEPCO | 2026 | 2025 Load Forecast July Peak | 6415
+VEPCO | 2027 | 2025 Load Forecast July Peak | 8185
+VEPCO | 2028 | 2025 Load Forecast July Peak | 10351
+VEPCO | 2029 | 2025 Load Forecast July Peak | 12524
+VEPCO | 2030 | 2025 Load Forecast July Peak | 14646
+VEPCO | 2031 | 2025 Load Forecast July Peak | 17051
+VEPCO | 2032 | 2025 Load Forecast July Peak | 19096
+VEPCO | 2033 | 2025 Load Forecast July Peak | 20766
+VEPCO | 2034 | 2025 Load Forecast July Peak | 22213
+VEPCO | 2035 | 2025 Load Forecast July Peak | 23464
+VEPCO | 2036 | 2025 Load Forecast July Peak | 24574
+VEPCO | 2037 | 2025 Load Forecast July Peak | 25535
+VEPCO | 2038 | 2025 Load Forecast July Peak | 26406
+VEPCO | 2039 | 2025 Load Forecast July Peak | 27094
+VEPCO | 2040 | 2025 Load Forecast July Peak | 27754
+VEPCO | 2041 | 2025 Load Forecast July Peak | 28371
+VEPCO | 2042 | 2025 Load Forecast July Peak | 28920
+VEPCO | 2043 | 2025 Load Forecast July Peak | 29466
+VEPCO | 2044 | 2025 Load Forecast July Peak | 30044
+VEPCO | 2045 | 2025 Load Forecast July Peak | 30616
+VEPCO | 2026 | 2026 Load Forecast July Peak | 7066
+VEPCO | 2027 | 2026 Load Forecast July Peak | 8925
+VEPCO | 2028 | 2026 Load Forecast July Peak | 10615
+VEPCO | 2029 | 2026 Load Forecast July Peak | 11932
+VEPCO | 2030 | 2026 Load Forecast July Peak | 13896
+VEPCO | 2031 | 2026 Load Forecast July Peak | 15829
+VEPCO | 2032 | 2026 Load Forecast July Peak | 17735
+VEPCO | 2033 | 2026 Load Forecast July Peak | 19311
+VEPCO | 2034 | 2026 Load Forecast July Peak | 20734
+VEPCO | 2035 | 2026 Load Forecast July Peak | 22426
+VEPCO | 2036 | 2026 Load Forecast July Peak | 24224
+VEPCO | 2037 | 2026 Load Forecast July Peak | 26618
+VEPCO | 2038 | 2026 Load Forecast July Peak | 28724
+VEPCO | 2039 | 2026 Load Forecast July Peak | 30258
+VEPCO | 2040 | 2026 Load Forecast July Peak | 31350
+VEPCO | 2041 | 2026 Load Forecast July Peak | 32157
+VEPCO | 2042 | 2026 Load Forecast July Peak | 32957
+VEPCO | 2043 | 2026 Load Forecast July Peak | 33669
+VEPCO | 2044 | 2026 Load Forecast July Peak | 34348
+VEPCO | 2045 | 2026 Load Forecast July Peak | 35010
+VEPCO | 2046 | 2026 Load Forecast July Peak | 35686
+VEPCO | 2014 | Historical July Peak | 572.12545915
+VEPCO | 2015 | Historical July Peak | 662.02155215
+VEPCO | 2016 | Historical July Peak | 806.22494445
+VEPCO | 2017 | Historical July Peak | 1010.9917998
+VEPCO | 2018 | Historical July Peak | 1218.7828292
+VEPCO | 2019 | Historical July Peak | 1503.3605876
+VEPCO | 2020 | Historical July Peak | 1901.3692842
+VEPCO | 2021 | Historical July Peak | 2493.0937247
+VEPCO | 2022 | Historical July Peak | 3193.7223571
+VEPCO | 2023 | Historical July Peak | 3908.1446625
+VEPCO | 2024 | Historical July Peak | 4534.0152438
+VEPCO | 2025 | Historical July Peak | 5563.1688136
+### SHEET: DOM - Dominion Energy
+Zone | Year | Metric | Load MW
+DOM Energy | 2024 | 2024 Load Forecast July Peak | 3562.123495017454
+DOM Energy | 2025 | 2024 Load Forecast July Peak | 3764.349693761136
+DOM Energy | 2026 | 2024 Load Forecast July Peak | 4481.777926252006
+DOM Energy | 2027 | 2024 Load Forecast July Peak | 4847.344596610776
+DOM Energy | 2028 | 2024 Load Forecast July Peak | 5269.851713204782
+DOM Energy | 2029 | 2024 Load Forecast July Peak | 5715.502546209384
+DOM Energy | 2030 | 2024 Load Forecast July Peak | 6164.902167171419
+DOM Energy | 2031 | 2024 Load Forecast July Peak | 6608.782843648625
+DOM Energy | 2032 | 2024 Load Forecast July Peak | 7146.506353006498
+DOM Energy | 2033 | 2024 Load Forecast July Peak | 7701.206261655951
+DOM Energy | 2034 | 2024 Load Forecast July Peak | 8328.652917055031
+DOM Energy | 2035 | 2024 Load Forecast July Peak | 9005.285622878744
+DOM Energy | 2036 | 2024 Load Forecast July Peak | 9711.017805450689
+DOM Energy | 2037 | 2024 Load Forecast July Peak | 10494.74207764146
+DOM Energy | 2038 | 2024 Load Forecast July Peak | 11332.30857980198
+DOM Energy | 2039 | 2024 Load Forecast July Peak | 12178.70597952083
+DOM Energy | 2025 | 2025 Load Forecast July Peak | 3382.8
+DOM Energy | 2026 | 2025 Load Forecast July Peak | 3823.9
+DOM Energy | 2027 | 2025 Load Forecast July Peak | 4286.7
+DOM Energy | 2028 | 2025 Load Forecast July Peak | 4772.6
+DOM Energy | 2029 | 2025 Load Forecast July Peak | 5279.1
+DOM Energy | 2030 | 2025 Load Forecast July Peak | 5807.2
+DOM Energy | 2031 | 2025 Load Forecast July Peak | 6366.3
+DOM Energy | 2032 | 2025 Load Forecast July Peak | 6950.8
+DOM Energy | 2033 | 2025 Load Forecast July Peak | 7564
+DOM Energy | 2034 | 2025 Load Forecast July Peak | 8178.5
+DOM Energy | 2035 | 2025 Load Forecast July Peak | 8819.8
+DOM Energy | 2036 | 2025 Load Forecast July Peak | 9479.9
+DOM Energy | 2037 | 2025 Load Forecast July Peak | 10129.4
+DOM Energy | 2038 | 2025 Load Forecast July Peak | 10750.3
+DOM Energy | 2039 | 2025 Load Forecast July Peak | 11238.8
+DOM Energy | 2040 | 2025 Load Forecast July Peak | 11743.2
+DOM Energy | 2041 | 2025 Load Forecast July Peak | 12256.4
+DOM Energy | 2042 | 2025 Load Forecast July Peak | 12790.2
+DOM Energy | 2043 | 2025 Load Forecast July Peak | 13329.9
+DOM Energy | 2044 | 2025 Load Forecast July Peak | 13905.5
+DOM Energy | 2045 | 2025 Load Forecast July Peak | 14481.2
+DOM Energy | 2026 | 2026 Load Forecast July Peak | 4386.2
+DOM Energy | 2027 | 2026 Load Forecast July Peak | 4869.2
+DOM Energy | 2028 | 2026 Load Forecast July Peak | 5368.8
+DOM Energy | 2029 | 2026 Load Forecast July Peak | 5882.2
+DOM Energy | 2030 | 2026 Load Forecast July Peak | 6412.6
+DOM Energy | 2031 | 2026 Load Forecast July Peak | 6965.2
+DOM Energy | 2032 | 2026 Load Forecast July Peak | 7528.7
+DOM Energy | 2033 | 2026 Load Forecast July Peak | 8104.7
+DOM Energy | 2034 | 2026 Load Forecast July Peak | 8689.6
+DOM Energy | 2035 | 2026 Load Forecast July Peak | 9292.2
+DOM Energy | 2036 | 2026 Load Forecast July Peak | 9903.2
+DOM Energy | 2037 | 2026 Load Forecast July Peak | 10525.9
+DOM Energy | 2038 | 2026 Load Forecast July Peak | 11153.4
+DOM Energy | 2039 | 2026 Load Forecast July Peak | 11783
+DOM Energy | 2040 | 2026 Load Forecast July Peak | 12418
+DOM Energy | 2041 | 2026 Load Forecast July Peak | 13058.3
+DOM Energy | 2042 | 2026 Load Forecast July Peak | 13714.3
+DOM Energy | 2043 | 2026 Load Forecast July Peak | 14376.2
+DOM Energy | 2044 | 2026 Load Forecast July Peak | 15044.1
+DOM Energy | 2045 | 2026 Load Forecast July Peak | 15706.8
+DOM Energy | 2046 | 2026 Load Forecast July Peak | 16380
+DOM Energy | 2017 | Historical July Peak | 872.13796705
+DOM Energy | 2018 | Historical July Peak | 1030.9533127
+DOM Energy | 2019 | Historical July Peak | 1258.8615876
+DOM Energy | 2020 | Historical July Peak | 1603.3032842
+DOM Energy | 2021 | Historical July Peak | 2058.0527247
+DOM Energy | 2022 | Historical July Peak | 2586.337357116
+DOM Energy | 2023 | Historical July Peak | 3018.156662488
+DOM Energy | 2024 | Historical July Peak | 3349.266950471
+DOM Energy | 2025 | Historical July Peak | 3944.52632052
+### SHEET: DOM - NOVEC
+Zone | Year | Metric | Load MW
+NOVEC | 2024 | 2024 Load Forecast July Peak | 978.4882400019693
+NOVEC | 2025 | 2024 Load Forecast July Peak | 1416.75192359042
+NOVEC | 2026 | 2024 Load Forecast July Peak | 2203.587668031116
+NOVEC | 2027 | 2024 Load Forecast July Peak | 3176.73962407076
+NOVEC | 2028 | 2024 Load Forecast July Peak | 4601.788975211179
+NOVEC | 2029 | 2024 Load Forecast July Peak | 5842.425708385333
+NOVEC | 2030 | 2024 Load Forecast July Peak | 6759.662232312858
+NOVEC | 2031 | 2024 Load Forecast July Peak | 7354.386531726569
+NOVEC | 2032 | 2024 Load Forecast July Peak | 7847.350500672526
+NOVEC | 2033 | 2024 Load Forecast July Peak | 8244.27034735027
+NOVEC | 2034 | 2024 Load Forecast July Peak | 8563.932725908584
+NOVEC | 2035 | 2024 Load Forecast July Peak | 8755.99807739954
+NOVEC | 2036 | 2024 Load Forecast July Peak | 8842.848799892226
+NOVEC | 2037 | 2024 Load Forecast July Peak | 8919.869643880336
+NOVEC | 2038 | 2024 Load Forecast July Peak | 9008.563268223415
+NOVEC | 2039 | 2024 Load Forecast July Peak | 9096.86399322604
+NOVEC | 2025 | 2025 Load Forecast July Peak | 1290.5
+NOVEC | 2026 | 2025 Load Forecast July Peak | 2057.3
+NOVEC | 2027 | 2025 Load Forecast July Peak | 2985.9
+NOVEC | 2028 | 2025 Load Forecast July Peak | 4245.7
+NOVEC | 2029 | 2025 Load Forecast July Peak | 5567.8
+NOVEC | 2030 | 2025 Load Forecast July Peak | 6887.6
+NOVEC | 2031 | 2025 Load Forecast July Peak | 8457.4
+NOVEC | 2032 | 2025 Load Forecast July Peak | 9690.5
+NOVEC | 2033 | 2025 Load Forecast July Peak | 10523.5
+NOVEC | 2034 | 2025 Load Forecast July Peak | 11114.9
+NOVEC | 2035 | 2025 Load Forecast July Peak | 11462.5
+NOVEC | 2036 | 2025 Load Forecast July Peak | 11633.3
+NOVEC | 2037 | 2025 Load Forecast July Peak | 11728.8
+NOVEC | 2038 | 2025 Load Forecast July Peak | 11809.4
+NOVEC | 2039 | 2025 Load Forecast July Peak | 11878.3
+NOVEC | 2040 | 2025 Load Forecast July Peak | 11932.4
+NOVEC | 2041 | 2025 Load Forecast July Peak | 11958.8
+NOVEC | 2042 | 2025 Load Forecast July Peak | 11974
+NOVEC | 2043 | 2025 Load Forecast July Peak | 11980.3
+NOVEC | 2044 | 2025 Load Forecast July Peak | 11982.7
+NOVEC | 2045 | 2025 Load Forecast July Peak | 11979
+NOVEC | 2026 | 2026 Load Forecast July Peak | 1995.4
+NOVEC | 2027 | 2026 Load Forecast July Peak | 2987.5
+NOVEC | 2028 | 2026 Load Forecast July Peak | 3717.8
+NOVEC | 2029 | 2026 Load Forecast July Peak | 4269.3
+NOVEC | 2030 | 2026 Load Forecast July Peak | 4887.5
+NOVEC | 2031 | 2026 Load Forecast July Peak | 5681.5
+NOVEC | 2032 | 2026 Load Forecast July Peak | 6552.8
+NOVEC | 2033 | 2026 Load Forecast July Peak | 7291.1
+NOVEC | 2034 | 2026 Load Forecast July Peak | 7998.7
+NOVEC | 2035 | 2026 Load Forecast July Peak | 8729.1
+NOVEC | 2036 | 2026 Load Forecast July Peak | 9467.7
+NOVEC | 2037 | 2026 Load Forecast July Peak | 10625
+NOVEC | 2038 | 2026 Load Forecast July Peak | 11711.8
+NOVEC | 2039 | 2026 Load Forecast July Peak | 12514.2
+NOVEC | 2040 | 2026 Load Forecast July Peak | 12880
+NOVEC | 2041 | 2026 Load Forecast July Peak | 13017.5
+NOVEC | 2042 | 2026 Load Forecast July Peak | 13077.5
+NOVEC | 2043 | 2026 Load Forecast July Peak | 13102.9
+NOVEC | 2044 | 2026 Load Forecast July Peak | 13114
+NOVEC | 2045 | 2026 Load Forecast July Peak | 13113.3
+NOVEC | 2046 | 2026 Load Forecast July Peak | 13116.1
+NOVEC | 2014 | Historical July Peak | 90.394
+NOVEC | 2015 | Historical July Peak | 103.669
+NOVEC | 2016 | Historical July Peak | 112.284
+NOVEC | 2017 | Historical July Peak | 147.742
+NOVEC | 2018 | Historical July Peak | 191.472
+NOVEC | 2019 | Historical July Peak | 245.041
+NOVEC | 2020 | Historical July Peak | 301.617
+NOVEC | 2021 | Historical July Peak | 435.65
+NOVEC | 2022 | Historical July Peak | 570.013
+NOVEC | 2023 | Historical July Peak | 808.824
+NOVEC | 2024 | Historical July Peak | 1059.455
+NOVEC | 2025 | Historical July Peak | 1392.726
+### SHEET: DOM - ODEC
+Zone | Year | Metric | Load MW
+ODEC | 2024 | 2024 Load Forecast July Peak | 161.515053530618
+ODEC | 2025 | 2024 Load Forecast July Peak | 274.3208873277023
+ODEC | 2026 | 2024 Load Forecast July Peak | 436.2429180040474
+ODEC | 2027 | 2024 Load Forecast July Peak | 616.227417507604
+ODEC | 2028 | 2024 Load Forecast July Peak | 780.9388421041007
+ODEC | 2029 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2030 | 2024 Load Forecast July Peak | 778.1740092785542
+ODEC | 2031 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2032 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2033 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2034 | 2024 Load Forecast July Peak | 778.1740092785544
+ODEC | 2035 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2036 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2037 | 2024 Load Forecast July Peak | 778.1740092785544
+ODEC | 2038 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2039 | 2024 Load Forecast July Peak | 778.1740092785543
+ODEC | 2025 | 2025 Load Forecast July Peak | 252.4
+ODEC | 2026 | 2025 Load Forecast July Peak | 398
+ODEC | 2027 | 2025 Load Forecast July Peak | 665.9
+ODEC | 2028 | 2025 Load Forecast July Peak | 956.3
+ODEC | 2029 | 2025 Load Forecast July Peak | 1154.5
+ODEC | 2030 | 2025 Load Forecast July Peak | 1264.3
+ODEC | 2031 | 2025 Load Forecast July Peak | 1355.7
+ODEC | 2032 | 2025 Load Forecast July Peak | 1380.8
+ODEC | 2033 | 2025 Load Forecast July Peak | 1382
+ODEC | 2034 | 2025 Load Forecast July Peak | 1384.1
+ODEC | 2035 | 2025 Load Forecast July Peak | 1389.6
+ODEC | 2036 | 2025 Load Forecast July Peak | 1390.6
+ODEC | 2037 | 2025 Load Forecast July Peak | 1395.3
+ODEC | 2038 | 2025 Load Forecast July Peak | 1397.1
+ODEC | 2039 | 2025 Load Forecast July Peak | 1394.8
+ODEC | 2040 | 2025 Load Forecast July Peak | 1397.3
+ODEC | 2041 | 2025 Load Forecast July Peak | 1402.7
+ODEC | 2042 | 2025 Load Forecast July Peak | 1402.7
+ODEC | 2043 | 2025 Load Forecast July Peak | 1402.7
+ODEC | 2044 | 2025 Load Forecast July Peak | 1402.7
+ODEC | 2045 | 2025 Load Forecast July Peak | 1402.7
+ODEC | 2026 | 2026 Load Forecast July Peak | 384.9
+ODEC | 2027 | 2026 Load Forecast July Peak | 488.5
+ODEC | 2028 | 2026 Load Forecast July Peak | 555.1
+ODEC | 2029 | 2026 Load Forecast July Peak | 617.1
+ODEC | 2030 | 2026 Load Forecast July Peak | 682.6
+ODEC | 2031 | 2026 Load Forecast July Peak | 803.9
+ODEC | 2032 | 2026 Load Forecast July Peak | 948.8
+ODEC | 2033 | 2026 Load Forecast July Peak | 1051.4
+ODEC | 2034 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2035 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2036 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2037 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2038 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2039 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2040 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2041 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2042 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2043 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2044 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2045 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2046 | 2026 Load Forecast July Peak | 1075.5
+ODEC | 2021 | Historical July Peak | 14.021
+ODEC | 2022 | Historical July Peak | 43.102
+ODEC | 2023 | Historical July Peak | 82.281
+ODEC | 2024 | Historical July Peak | 137.214
+ODEC | 2025 | Historical July Peak | 243.705
+### SHEET: DOM - REC
+Zone | Year | Metric | Load MW
+REC | 2024 | 2024 Load Forecast July Peak | 9.56089787184805
+REC | 2025 | 2024 Load Forecast July Peak | 81.70221817761059
+REC | 2026 | 2024 Load Forecast July Peak | 225.1156862553314
+REC | 2027 | 2024 Load Forecast July Peak | 450.2313725106627
+REC | 2028 | 2024 Load Forecast July Peak | 670.1320235631679
+REC | 2029 | 2024 Load Forecast July Peak | 880.4717767438251
+REC | 2030 | 2024 Load Forecast July Peak | 1105.587462999156
+REC | 2031 | 2024 Load Forecast July Peak | 1372.423430877098
+REC | 2032 | 2024 Load Forecast July Peak | 1577.548148854928
+REC | 2033 | 2024 Load Forecast July Peak | 1797.448799907433
+REC | 2034 | 2024 Load Forecast July Peak | 1965.199098931676
+REC | 2035 | 2024 Load Forecast July Peak | 2108.612567009397
+REC | 2036 | 2024 Load Forecast July Peak | 2246.810999884292
+REC | 2037 | 2024 Load Forecast July Peak | 2361.541774346469
+REC | 2038 | 2024 Load Forecast July Peak | 2462.365788267775
+REC | 2039 | 2024 Load Forecast July Peak | 2577.096562729952
+REC | 2025 | 2025 Load Forecast July Peak | 40.4
+REC | 2026 | 2025 Load Forecast July Peak | 131.9
+REC | 2027 | 2025 Load Forecast July Peak | 242.6
+REC | 2028 | 2025 Load Forecast July Peak | 372.5
+REC | 2029 | 2025 Load Forecast July Peak | 518.7
+REC | 2030 | 2025 Load Forecast July Peak | 683
+REC | 2031 | 2025 Load Forecast July Peak | 867.7
+REC | 2032 | 2025 Load Forecast July Peak | 1070
+REC | 2033 | 2025 Load Forecast July Peak | 1292.6
+REC | 2034 | 2025 Load Forecast July Peak | 1531.6
+REC | 2035 | 2025 Load Forecast July Peak | 1788.2
+REC | 2036 | 2025 Load Forecast July Peak | 2066.3
+REC | 2037 | 2025 Load Forecast July Peak | 2277.6
+REC | 2038 | 2025 Load Forecast July Peak | 2445.3
+REC | 2039 | 2025 Load Forecast July Peak | 2578.2
+REC | 2040 | 2025 Load Forecast July Peak | 2677.2
+REC | 2041 | 2025 Load Forecast July Peak | 2749.2
+REC | 2042 | 2025 Load Forecast July Peak | 2749.2
+REC | 2043 | 2025 Load Forecast July Peak | 2749.2
+REC | 2044 | 2025 Load Forecast July Peak | 2749.2
+REC | 2045 | 2025 Load Forecast July Peak | 2749.2
+REC | 2026 | 2026 Load Forecast July Peak | 299.5
+REC | 2027 | 2026 Load Forecast July Peak | 579.8
+REC | 2028 | 2026 Load Forecast July Peak | 973.3
+REC | 2029 | 2026 Load Forecast July Peak | 1163.4
+REC | 2030 | 2026 Load Forecast July Peak | 1913.3
+REC | 2031 | 2026 Load Forecast July Peak | 2378.4
+REC | 2032 | 2026 Load Forecast July Peak | 2704.7
+REC | 2033 | 2026 Load Forecast July Peak | 2863.8
+REC | 2034 | 2026 Load Forecast July Peak | 2970.2
+REC | 2035 | 2026 Load Forecast July Peak | 3329.2
+REC | 2036 | 2026 Load Forecast July Peak | 3777.6
+REC | 2037 | 2026 Load Forecast July Peak | 4391.6
+REC | 2038 | 2026 Load Forecast July Peak | 4783.3
+REC | 2039 | 2026 Load Forecast July Peak | 4885.3
+REC | 2040 | 2026 Load Forecast July Peak | 4976.5
+REC | 2041 | 2026 Load Forecast July Peak | 5005.7
+REC | 2042 | 2026 Load Forecast July Peak | 5089.7
+REC | 2043 | 2026 Load Forecast July Peak | 5114.4
+REC | 2044 | 2026 Load Forecast July Peak | 5114.4
+REC | 2045 | 2026 Load Forecast July Peak | 5114.4
+REC | 2046 | 2026 Load Forecast July Peak | 5114.4
+### SHEET: DQE
+Zone | Year | Metric | Load MW
+DQE | 2030 | 2026 Load Forecast July Peak | 46
+DQE | 2031 | 2026 Load Forecast July Peak | 75
+DQE | 2032 | 2026 Load Forecast July Peak | 87
+DQE | 2033 | 2026 Load Forecast July Peak | 87
+DQE | 2034 | 2026 Load Forecast July Peak | 87
+DQE | 2035 | 2026 Load Forecast July Peak | 87
+DQE | 2036 | 2026 Load Forecast July Peak | 87
+DQE | 2037 | 2026 Load Forecast July Peak | 87
+DQE | 2038 | 2026 Load Forecast July Peak | 87
+DQE | 2039 | 2026 Load Forecast July Peak | 87
+DQE | 2040 | 2026 Load Forecast July Peak | 87
+DQE | 2041 | 2026 Load Forecast July Peak | 87
+DQE | 2042 | 2026 Load Forecast July Peak | 87
+DQE | 2043 | 2026 Load Forecast July Peak | 87
+DQE | 2044 | 2026 Load Forecast July Peak | 87
+DQE | 2045 | 2026 Load Forecast July Peak | 87
+DQE | 2046 | 2026 Load Forecast July Peak | 87
+### SHEET: JCPL
+Zone | Year | Metric | Load MW
+JCPL | 2029 | 2026 Load Forecast July Peak | 1
+JCPL | 2030 | 2026 Load Forecast July Peak | 77
+JCPL | 2031 | 2026 Load Forecast July Peak | 80
+JCPL | 2032 | 2026 Load Forecast July Peak | 112
+JCPL | 2033 | 2026 Load Forecast July Peak | 193
+JCPL | 2034 | 2026 Load Forecast July Peak | 245
+JCPL | 2035 | 2026 Load Forecast July Peak | 245
+JCPL | 2036 | 2026 Load Forecast July Peak | 245
+JCPL | 2037 | 2026 Load Forecast July Peak | 245
+JCPL | 2038 | 2026 Load Forecast July Peak | 245
+JCPL | 2039 | 2026 Load Forecast July Peak | 245
+JCPL | 2040 | 2026 Load Forecast July Peak | 245
+JCPL | 2041 | 2026 Load Forecast July Peak | 245
+JCPL | 2042 | 2026 Load Forecast July Peak | 245
+JCPL | 2043 | 2026 Load Forecast July Peak | 245
+JCPL | 2044 | 2026 Load Forecast July Peak | 245
+JCPL | 2045 | 2026 Load Forecast July Peak | 245
+JCPL | 2046 | 2026 Load Forecast July Peak | 245
+### SHEET: METED
+Zone | Year | Metric | Load MW
+METED | 2029 | 2026 Load Forecast July Peak | 10
+METED | 2030 | 2026 Load Forecast July Peak | 75
+METED | 2031 | 2026 Load Forecast July Peak | 75
+METED | 2032 | 2026 Load Forecast July Peak | 126
+METED | 2033 | 2026 Load Forecast July Peak | 187
+METED | 2034 | 2026 Load Forecast July Peak | 234
+METED | 2035 | 2026 Load Forecast July Peak | 234
+METED | 2036 | 2026 Load Forecast July Peak | 233
+METED | 2037 | 2026 Load Forecast July Peak | 233
+METED | 2038 | 2026 Load Forecast July Peak | 233
+METED | 2039 | 2026 Load Forecast July Peak | 233
+METED | 2040 | 2026 Load Forecast July Peak | 234
+METED | 2041 | 2026 Load Forecast July Peak | 233
+METED | 2042 | 2026 Load Forecast July Peak | 233
+METED | 2043 | 2026 Load Forecast July Peak | 234
+METED | 2044 | 2026 Load Forecast July Peak | 234
+METED | 2045 | 2026 Load Forecast July Peak | 234
+METED | 2046 | 2026 Load Forecast July Peak | 234
+### SHEET: PECO
+Zone | Year | Metric | Load MW
+PECO | 2026 | 2025 Load Forecast July Peak | 18
+PECO | 2027 | 2025 Load Forecast July Peak | 71
+PECO | 2028 | 2025 Load Forecast July Peak | 125
+PECO | 2029 | 2025 Load Forecast July Peak | 178
+PECO | 2030 | 2025 Load Forecast July Peak | 232
+PECO | 2031 | 2025 Load Forecast July Peak | 285
+PECO | 2032 | 2025 Load Forecast July Peak | 338
+PECO | 2033 | 2025 Load Forecast July Peak | 391
+PECO | 2034 | 2025 Load Forecast July Peak | 427
+PECO | 2035 | 2025 Load Forecast July Peak | 427
+PECO | 2036 | 2025 Load Forecast July Peak | 427
+PECO | 2037 | 2025 Load Forecast July Peak | 427
+PECO | 2038 | 2025 Load Forecast July Peak | 427
+PECO | 2039 | 2025 Load Forecast July Peak | 427
+PECO | 2040 | 2025 Load Forecast July Peak | 427
+PECO | 2041 | 2025 Load Forecast July Peak | 427
+PECO | 2042 | 2025 Load Forecast July Peak | 427
+PECO | 2043 | 2025 Load Forecast July Peak | 427
+PECO | 2044 | 2025 Load Forecast July Peak | 428
+PECO | 2045 | 2025 Load Forecast July Peak | 428
+PECO | 2026 | 2026 Load Forecast July Peak | 17
+PECO | 2027 | 2026 Load Forecast July Peak | 88
+PECO | 2028 | 2026 Load Forecast July Peak | 281
+PECO | 2029 | 2026 Load Forecast July Peak | 517
+PECO | 2030 | 2026 Load Forecast July Peak | 824
+PECO | 2031 | 2026 Load Forecast July Peak | 1146
+PECO | 2032 | 2026 Load Forecast July Peak | 1414
+PECO | 2033 | 2026 Load Forecast July Peak | 1560
+PECO | 2034 | 2026 Load Forecast July Peak | 1664
+PECO | 2035 | 2026 Load Forecast July Peak | 1698
+PECO | 2036 | 2026 Load Forecast July Peak | 1697
+PECO | 2037 | 2026 Load Forecast July Peak | 1698
+PECO | 2038 | 2026 Load Forecast July Peak | 1698
+PECO | 2039 | 2026 Load Forecast July Peak | 1698
+PECO | 2040 | 2026 Load Forecast July Peak | 1698
+PECO | 2041 | 2026 Load Forecast July Peak | 1698
+PECO | 2042 | 2026 Load Forecast July Peak | 1699
+PECO | 2043 | 2026 Load Forecast July Peak | 1699
+PECO | 2044 | 2026 Load Forecast July Peak | 1700
+PECO | 2045 | 2026 Load Forecast July Peak | 1701
+PECO | 2046 | 2026 Load Forecast July Peak | 1702
+### SHEET: PEPCO
+Zone | Year | Metric | Load MW
+PEPCO | 2030 | 2026 Load Forecast July Peak | 142
+PEPCO | 2031 | 2026 Load Forecast July Peak | 229
+PEPCO | 2032 | 2026 Load Forecast July Peak | 437
+PEPCO | 2033 | 2026 Load Forecast July Peak | 642
+PEPCO | 2034 | 2026 Load Forecast July Peak | 799
+PEPCO | 2035 | 2026 Load Forecast July Peak | 946
+PEPCO | 2036 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2037 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2038 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2039 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2040 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2041 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2042 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2043 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2044 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2045 | 2026 Load Forecast July Peak | 1064
+PEPCO | 2046 | 2026 Load Forecast July Peak | 1064
+### SHEET: PEPCO - Exelon
+Zone | Year | Metric | Load MW
+PEPCO - Exelon | 2031 | 2026 Load Forecast July Peak | 24.8
+PEPCO - Exelon | 2032 | 2026 Load Forecast July Peak | 172.3
+PEPCO - Exelon | 2033 | 2026 Load Forecast July Peak | 317.7
+PEPCO - Exelon | 2034 | 2026 Load Forecast July Peak | 463.6
+PEPCO - Exelon | 2035 | 2026 Load Forecast July Peak | 610.3
+PEPCO - Exelon | 2036 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2037 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2038 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2039 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2040 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2041 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2042 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2043 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2044 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2045 | 2026 Load Forecast July Peak | 729.6
+PEPCO - Exelon | 2046 | 2026 Load Forecast July Peak | 729.6
+### SHEET: PEPCO - SMECO
+Zone | Year | Metric | Load MW
+SMECO | 2030 | 2026 Load Forecast July Peak | 142
+SMECO | 2031 | 2026 Load Forecast July Peak | 204.2
+SMECO | 2032 | 2026 Load Forecast July Peak | 264.7
+SMECO | 2033 | 2026 Load Forecast July Peak | 324.3
+SMECO | 2034 | 2026 Load Forecast July Peak | 335.4
+SMECO | 2035 | 2026 Load Forecast July Peak | 335.7
+SMECO | 2036 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2037 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2038 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2039 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2040 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2041 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2042 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2043 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2044 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2045 | 2026 Load Forecast July Peak | 334.4
+SMECO | 2046 | 2026 Load Forecast July Peak | 334.4
+### SHEET: PL
+Zone | Year | Metric | Load MW
+PL | 2025 | 2025 Load Forecast July Peak | 93
+PL | 2026 | 2025 Load Forecast July Peak | 484
+PL | 2027 | 2025 Load Forecast July Peak | 1528
+PL | 2028 | 2025 Load Forecast July Peak | 2753
+PL | 2029 | 2025 Load Forecast July Peak | 3955
+PL | 2030 | 2025 Load Forecast July Peak | 4650
+PL | 2031 | 2025 Load Forecast July Peak | 5104
+PL | 2032 | 2025 Load Forecast July Peak | 5328
+PL | 2033 | 2025 Load Forecast July Peak | 5529
+PL | 2034 | 2025 Load Forecast July Peak | 5529
+PL | 2035 | 2025 Load Forecast July Peak | 5528
+PL | 2036 | 2025 Load Forecast July Peak | 5526
+PL | 2037 | 2025 Load Forecast July Peak | 5525
+PL | 2038 | 2025 Load Forecast July Peak | 5525
+PL | 2039 | 2025 Load Forecast July Peak | 5525
+PL | 2040 | 2025 Load Forecast July Peak | 5526
+PL | 2041 | 2025 Load Forecast July Peak | 5525
+PL | 2042 | 2025 Load Forecast July Peak | 5525
+PL | 2043 | 2025 Load Forecast July Peak | 5526
+PL | 2044 | 2025 Load Forecast July Peak | 5527
+PL | 2045 | 2025 Load Forecast July Peak | 5528
+PL | 2026 | 2026 Load Forecast July Peak | 189
+PL | 2027 | 2026 Load Forecast July Peak | 394
+PL | 2028 | 2026 Load Forecast July Peak | 1274
+PL | 2029 | 2026 Load Forecast July Peak | 1876
+PL | 2030 | 2026 Load Forecast July Peak | 4996
+PL | 2031 | 2026 Load Forecast July Peak | 5906
+PL | 2032 | 2026 Load Forecast July Peak | 6241
+PL | 2033 | 2026 Load Forecast July Peak | 6285
+PL | 2034 | 2026 Load Forecast July Peak | 6284
+PL | 2035 | 2026 Load Forecast July Peak | 6282
+PL | 2036 | 2026 Load Forecast July Peak | 6279
+PL | 2037 | 2026 Load Forecast July Peak | 6278
+PL | 2038 | 2026 Load Forecast July Peak | 6279
+PL | 2039 | 2026 Load Forecast July Peak | 6280
+PL | 2040 | 2026 Load Forecast July Peak | 6281
+PL | 2041 | 2026 Load Forecast July Peak | 6279
+PL | 2042 | 2026 Load Forecast July Peak | 6279
+PL | 2043 | 2026 Load Forecast July Peak | 6278
+PL | 2044 | 2026 Load Forecast July Peak | 6281
+PL | 2045 | 2026 Load Forecast July Peak | 6283
+PL | 2046 | 2026 Load Forecast July Peak | 6284
+### SHEET: PS
+Zone | Year | Metric | Load MW
+PS | 2024 | 2024 Load Forecast July Peak | 293.452200007
+PS | 2025 | 2024 Load Forecast July Peak | 338.4522000170001
+PS | 2026 | 2024 Load Forecast July Peak | 382.4522000300001
+PS | 2027 | 2024 Load Forecast July Peak | 453.4522000300001
+PS | 2028 | 2024 Load Forecast July Peak | 519.4522000400001
+PS | 2029 | 2024 Load Forecast July Peak | 585.4522000500001
+PS | 2030 | 2024 Load Forecast July Peak | 637.4522000500001
+PS | 2031 | 2024 Load Forecast July Peak | 652.4522000500001
+PS | 2032 | 2024 Load Forecast July Peak | 680.45220006
+PS | 2033 | 2024 Load Forecast July Peak | 709.4522000700001
+PS | 2034 | 2024 Load Forecast July Peak | 738.4522000700001
+PS | 2035 | 2024 Load Forecast July Peak | 767.45220008
+PS | 2036 | 2024 Load Forecast July Peak | 795.45220008
+PS | 2037 | 2024 Load Forecast July Peak | 824.4522000900001
+PS | 2038 | 2024 Load Forecast July Peak | 853.4522001
+PS | 2039 | 2024 Load Forecast July Peak | 881.4522001
+PS | 2025 | 2025 Load Forecast July Peak | 289
+PS | 2026 | 2025 Load Forecast July Peak | 450
+PS | 2027 | 2025 Load Forecast July Peak | 580
+PS | 2028 | 2025 Load Forecast July Peak | 842
+PS | 2029 | 2025 Load Forecast July Peak | 947
+PS | 2030 | 2025 Load Forecast July Peak | 1127
+PS | 2031 | 2025 Load Forecast July Peak | 1187
+PS | 2032 | 2025 Load Forecast July Peak | 1208
+PS | 2033 | 2025 Load Forecast July Peak | 1224
+PS | 2034 | 2025 Load Forecast July Peak | 1225
+PS | 2035 | 2025 Load Forecast July Peak | 1235
+PS | 2036 | 2025 Load Forecast July Peak | 1237
+PS | 2037 | 2025 Load Forecast July Peak | 1238
+PS | 2038 | 2025 Load Forecast July Peak | 1238
+PS | 2039 | 2025 Load Forecast July Peak | 1238
+PS | 2040 | 2025 Load Forecast July Peak | 1259
+PS | 2041 | 2025 Load Forecast July Peak | 1264
+PS | 2042 | 2025 Load Forecast July Peak | 1264
+PS | 2043 | 2025 Load Forecast July Peak | 1265
+PS | 2044 | 2025 Load Forecast July Peak | 1264
+PS | 2045 | 2025 Load Forecast July Peak | 1264
+PS | 2026 | 2026 Load Forecast July Peak | 308
+PS | 2027 | 2026 Load Forecast July Peak | 383
+PS | 2028 | 2026 Load Forecast July Peak | 628
+PS | 2029 | 2026 Load Forecast July Peak | 938
+PS | 2030 | 2026 Load Forecast July Peak | 1446
+PS | 2031 | 2026 Load Forecast July Peak | 1933
+PS | 2032 | 2026 Load Forecast July Peak | 2322
+PS | 2033 | 2026 Load Forecast July Peak | 2568
+PS | 2034 | 2026 Load Forecast July Peak | 2590
+PS | 2035 | 2026 Load Forecast July Peak | 2602
+PS | 2036 | 2026 Load Forecast July Peak | 2608
+PS | 2037 | 2026 Load Forecast July Peak | 2626
+PS | 2038 | 2026 Load Forecast July Peak | 2634
+PS | 2039 | 2026 Load Forecast July Peak | 2641
+PS | 2040 | 2026 Load Forecast July Peak | 2677
+PS | 2041 | 2026 Load Forecast July Peak | 2680
+PS | 2042 | 2026 Load Forecast July Peak | 2683
+PS | 2043 | 2026 Load Forecast July Peak | 2685
+PS | 2044 | 2026 Load Forecast July Peak | 2686
+PS | 2045 | 2026 Load Forecast July Peak | 2709
+PS | 2046 | 2026 Load Forecast July Peak | 2710
+PS | 2019 | Historical July Peak | 204.95
+PS | 2020 | Historical July Peak | 210.84
+PS | 2021 | Historical July Peak | 222.26
+PS | 2022 | Historical July Peak | 235.8
+PS | 2023 | Historical July Peak | 246.38
+PS | 2024 | Historical July Peak | 265.26
+PS | 2025 | Historical July Peak | 255.24

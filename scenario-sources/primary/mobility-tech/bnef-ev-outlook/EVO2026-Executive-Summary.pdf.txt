@@ -1,0 +1,1956 @@
+Electric
+Vehicle
+Outlook 2026
+June 16, 2026
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+EV Outlook 2026 Global Summary - Economic Transition Scenario
+Electric vehicle share of sales
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+1
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Executive summary
+Electric vehicles are still in their adolescence. Growth is uneven, with some markets accelerating
+at a rapid rate, while others have slowed to a near stall. Globally, electric vehicles are still on track
+for another record-breaking year, driven by falling lithium-ion battery prices, the introduction of
+more affordable models and a surge of EV interest in emerging markets, often buoyed by their
+openness to competitively priced models from Chinese automakers. Electric vehicles – batteryelectric and plug-in hybrid vehicles combined – are set to account for 27% of all passenger
+vehicles sold globally this year, a remarkable increase from just six years ago when EVs
+represented under 5% of global new vehicle sales. Nearly 60% of the 2026 global car market is
+set to be in countries where the electric vehicle share of new car sales has passed the 10% mark,
+often regarded as an inflection point at which organic consumer demand overtakes policy as the
+main adoption driver.
+The Iran war and the resulting increase in prices at the pump has boosted consumer interest in
+buying an electric vehicle, which could translate into higher EV sales over the near-term if the
+conflict keeps pump prices high long enough. But new electric vehicles are still more expensive to
+buy and own than comparable internal combustion engine vehicles in many markets, as
+automakers balance higher drivetrain costs, return on investment and market pricing strategies
+aimed at preserving margins.
+However, there is scope for battery-electric vehicle prices to fall further, with affordable batteries
+essential to achieving these reductions. In most markets apart from China, lithium-ion batteries
+still remain too costly, despite significant price reductions recorded in BNEF’s survey since 2010.
+China’s cost advantage stems from numerous factors, spanning a mature supply chain to
+favorable financing conditions. This 2026 report delves deeper into the upfront prices and total
+cost of ownership for EVs, focusing on how both can be reduced. It also unpacks China’s battery
+advantage and how other markets are catching up.
+Road transport electrification is quickly spreading beyond passenger cars. Electric commercial
+vehicles are now a million-unit market, but the next phase of growth shows divergence, with
+electric vans scaling across more markets while trucks remain concentrated in China. At the same
+time, more than half of city bus sales in 20 global markets are now electric, while electric twowheelers, including scooters, motorcycles, and mopeds, continue to gain share in markets such
+as China, India and Vietnam. The use of shared mobility is also rising, and autonomous-vehicle
+services have been successfully commercialized in several cities.
+This is the second consecutive year where we have reduced both our near-term and long-term
+passenger EV adoption outlook. Full withdrawal of federal regulatory support for electrification in
+the US is the biggest factor, with national fuel-economy targets rolled back, the end of supportive
+elements of the Inflation Reduction Act, and the removal of California’s ability to set its own airquality standards. A slowdown in China also plays a role this year, as the market matures rapidly
+and competition intensifies. Rising trade tensions and increased tariffs continue to shake up
+decades of closer integration across global automotive markets. The Iran war has the potential to
+impact EV sales in numerous ways, most clearly by making EVs more attractive relative to
+internal combustion vehicles through increased oil prices. However, the conflict could also raise
+friction in the automotive supply chain and force changes in inflation and interest rates that will
+impact consumer interest in purchasing new vehicles.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+2
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Against this increasingly complex backdrop, we are proud to present our 2026 Electric Vehicle
+Outlook, which examines each of the trends outlined above. The report also provides two updated
+scenarios for the future of road transport, drawing on BNEF's team of sectoral and regional
+experts around the world.
+Our Economic Transition Scenario is the main scenario described in this report. It assumes no
+new policies or regulations are enacted that impact the market. It also does not assume any longterm climate targets are met, or that any combustion vehicle phase-out targets that have been
+announced by countries, states, cities or companies are achieved. Instead, adoption is primarily
+driven by techno-economic trends and market forces. The Net Zero Scenario investigates what a
+potential route to net-zero emissions by 2050 might look like for the road transport sector. It looks
+primarily at economics as the deciding factor for which drivetrain technologies are implemented to
+reach the 2050 target.
+This report includes analysis of EV adoption in passenger vehicles, commercial vans and trucks,
+two- and three-wheeled vehicles, and buses globally. It also looks at other drivetrains, including
+hybrids, natural gas and fuel cells, and explores the resulting impacts on demand for electricity,
+oil, batteries and materials, as well as CO2 emissions.
+The key findings of this report are as follows:
+•
+
+Global EV sales are heading for another record year, but growth in major markets is
+slowing. BNEF expects over 23 million passenger EV sales this year, up 11% from 2025.
+Over 27% of cars sold globally in 2026 are electric, according to our outlook, up from just 9%
+five years ago. Yet, passenger electric vehicle sales in China increase only 10% in 2026,
+compared to 16% in 2025 and 39% in 2024. China has extended its EV purchase tax
+exemption and scrappage and trade-in subsidies into 2026. However, it has also halved the
+tax benefits and tightened eligibility requirements. Sales in the US fall 19% in our outlook, as
+automakers reassess their EV plans following removal of supportive regulations.
+
+Figure 1: Global near-term passenger EV sales and EV share of new passenger-vehicle sales by market
+Million vehicles
+40
+30
+20
+10
+
+2.0 2.2 3.2
+
+6.5
+
+35.4
+32.2
+29.2
+26.1
+23.3
+21.0
+17.6
+13.9
+10.4
+
+0
+
+2018
+China
+Australia
+
+20
+
+22
+
+24
+
+Europe
+India
+
+26
+US
+Brazil
+
+28
+
+30
+
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+Japan
+Mexico
+
+2018
+
+20
+
+22
+
+Canada
+Rest of World
+
+24
+
+26
+
+South Korea
+Global
+
+28
+
+30
+
+Southeast Asia
+
+Source: BloombergNEF. Note: Europe includes the EU, the UK and European Free Trade Association (EFTA) countries. Electric
+vehicles include battery-electric and plug-in hybrid vehicles.
+•
+
+China continues to lead over Europe and the US. With nearly 64% of all cars sold in 2026
+in China being electric, there is no catching up in the near-term for Europe or the US. Global
+passenger EV sales rise from 21 million in 2025 to over 35.4 million in 2030. China accounted
+for 63% of electric cars sold globally in 2025 and by 2030 continues to account for more than
+half (52%) of the global EV market. The EV share of global new passenger vehicle sales
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+3
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+jumps to 38% in 2030, from 27% in 2026. Among core modeled markets (Tier 1), only China
+(at 76%), the UK (at 67%), Germany (at 58%), Australia (at 54%), France (at 51%), and
+South Korea (at 40%) exceed that global average by then.
+•
+
+Attention turns to Southeast Asia, Latin America and the Rest of World group where,
+despite being some of the most price sensitive markets, EV demand entered the steep
+part of the adoption curve. Nearly half of all cars sold in Singapore in 2025 were electric,
+followed by Vietnam at 39% and Thailand at 27% – well above global adoption of 25%. In just
+one year, passenger EV sales in Turkey more than doubled, from 108,000 in 2024 to 238,000
+in 2025, with 22% of all cars sold in the country being electric. Governments in the emerging
+EV markets support electrification through various subsidies and tax incentives, often linked
+to encouraging domestic manufacturing. Helped by Chinese automakers ramping up sales
+outside of their home country, Indonesia now has higher EV adoption rates than the US,
+while Brazil and Mexico are comfortably ahead of Japan.
+
+•
+
+Chinese automakers are not the only force behind growth in emerging markets, despite
+underpinning the EV success in Brazil and Thailand. Some 96% and 88% of total EV sales in
+those markets in 2025, respectively, came from Chinese brands. Vietnam or Turkey,
+however, plow ahead propelled by domestic players. Nearly all EVs sold in Vietnam in
+2025 – 175,000 out of the total 179,000 – came from the domestic automaker VinFast.
+Similarly, in Turkey, brand loyalty and a tax structure benefiting domestic production have
+helped make domestic manufacturer Togg the market’s second-largest EV brand in 2025,
+after BYD. This indicates that high levels of electrification and domestic EV industries can be
+achieved with government support and limited exposure to China.
+
+Figure 2: Automakers’ share of total passenger EV sales in 2025, by automaker headquarters
+Indonesia
+
+Thailand
+
+Brazil
+
+4%
+
+4%
+
+12%
+
+Total:
+180,180
+
+Total:
+132,000
+
+96%
+
+10%
+
+Vietnam
+
+24%
+
+Total:
+238,000
+
+60%
+
+Total:
+179,000
+
+86%
+
+Vietnam
+
+2%
+
+16%
+
+Total:
+107,000
+
+88%
+
+China
+
+Turkey
+
+98%
+Turkey
+
+Others
+
+Source: BloombergNEF, MarkLines, Jato Dynamics. Note: Electric vehicles include battery-electric and plug-in hybrid vehicles.
+•
+
+Affordability matters too. China is still the only large market where EVs are on average
+cheaper to buy than comparable combustion cars. EVs in Europe and the US, however, are
+getting cheaper. In the major European markets of Germany, Italy and the UK, batteryelectric vehicles were still 17% more expensive on average to buy than competing ICE cars.
+Yet, the average BEV price premium over ICE dropped from 34% observed in 2024. Similarly
+in the US, for all segments except electric SUVs, the BEV premium observed in 2025 was on
+average 12 percentage points lower than in 2024.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+4
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Figure 3: Battery-electric vehicle price premium over combustion cars and percentage point change, 2024 and 2025
+Germany
+65%
+
+UK
+65%
+
+US
+65%
+
+China
+35%
+
+40%
+
+40%
+
+40%
+
+10%
+
+15%
+
+15%
+
+15%
+
+-15%
+
+-10%
+
+-10%
+
+-10%
+
+-40%
+
+-35%
+S
+
+M
+
+L
+
+SUV
+
+-35%
+
+-35%
+S
+
+M
+
+BEV price premium over ICE (2024)
+
+L
+
+S
+
+SUV
+
+M
+
+L
+
+SUV
+
+BEV price premium over ICE (2025)
+
+-65%
+S
+
+M
+
+L
+
+SUV
+
+Percentage point change
+
+Source: BloombergNEF, MarkLines, China Automotive Technology and Research Centre. Note: ‘S’ is small segment, ‘M’ is medium
+segment, ‘L’ is large segment. ‘BEV’ is battery-electric vehicle. ‘ICE’ is internal combustion engine vehicle.
+•
+
+The manufacturing cost of BEV powertrains is closing in on that of ICE vehicles,
+though the gap varies across countries and vehicle segments. China has the narrowest cost
+premium for BEV powertrains (including batteries and electric drivetrain), averaging around
+3%, thanks to its battery supply chain advantages and manufacturing scale. This compares
+with roughly 10% in Europe and 25% in the US. The costs of BEV powertrain manufacturing
+are closest to and in some cases lower than ICE powertrains for large car segments,
+according to BNEF modeling. These cost patterns are reflected in market pricing, with BEVs
+already cheaper than ICE equivalents in China and showing the smallest sticker price
+premium in large segments elsewhere. This suggests that price parity can emerge before
+margin parity, particularly where powertrain cost gaps are already narrow.
+
+Figure 4: Estimated internal combustion engine and battery-electric vehicle powertrain all-in factory-gate price
+comparison in 2025, by market
+$
+US
+25,000
+
+$
+China
+25,000
+
+$
+Europe
+25,000
+
+20,000
+
+20,000
+
+20,000
+
+15,000
+
+15,000
+
+15,000
+
+10,000
+
+10,000
+
+10,000
+
+5,000
+
+5,000
+
+5,000
+
+0
+
+0
+
+0
+S
+
+M
+
+L
+
+SUV
+
+Battery
+
+PU
+
+S
+
+M
+
+Electric drivetrain
+
+L
+
+SUV
+
+S
+
+M
+
+L
+
+SUV
+
+ICE powertrain
+
+Source: BloombergNEF, National Academies of Sciences, Engineering and Medicine, automaker websites, CATARC. Note: ‘S,’ ‘M,’
+‘L,’ ‘SUV’ and ‘PU’ represent small, medium, large, sport utility vehicle and pickup segments. ICE refers to internal combustion
+engine. All-in factory- gate price refers to at-scale manufacturing costs, including production, corporate overheads, research and
+development, and selling, general and administrative expenses. Battery costs are based on BNEF’s 2025 volume-weighted
+average price of $111 per kilowatt-hour (kWh) for the US, $120/kWh for Europe and $77/kWh for China.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+5
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+•
+
+Regional differences in battery pack prices create large differences in the economics
+of electrification across markets and segments. Higher battery prices and larger battery
+packs make some segments particularly expensive to electrify, such as pickup trucks in the
+US. Battery costs remain the primary barrier to price parity in these segments, where
+automakers have limited room for margin compression to reach parity and substantial battery
+cost declines are needed to close the gap.
+
+Figure 5: Estimated operating margins for comparable segment-level battery-electric vehicles (BEV) and internal
+combustion engine (ICE) vehicles at different battery prices
+Operating margin
+15%
+10%
+5%
+
+Modeled medium ICE
+car price at $33,121 BEV
+price
+
+0%
+
+$35,000
+$34,000
+$33,000
+$32,000
+
+-5%
+
+-10%
+
+Operating margin
+10%
+Modeled ICE pickup price at $59,633
+5%
+BEV
+price
+
+0%
+
+-5%
+-10%
+-15%
+
+-15%
+80
+
+90
+100
+110
+Battery price ($/kWh)
+
+120
+
+80
+
+90
+100
+110
+Battery price ($/kWh)
+
+$62,000
+$61,000
+$60,000
+$59,000
+120
+
+Source: BloombergNEF, US Environmental Protection Agency (EPA), automaker websites. Note: Assumes a medium-segment car
+with a 78-kilowatt-hour battery pack and 180-kilowatt electric motor, and a pickup with a 125kWh battery pack and 401kW electric
+motor. Production overhead, including depreciation and maintenance, accounts for 7-8% of manufacturer's suggested retail price
+(MSRP); research and development (R&D) 4%; selling, general and administrative (SG&A) and other corporate overhead 12-13%;
+warranty 2%; and dealer margin 4-5%. ‘kWh’ is kilowatt-hour.
+•
+
+On average, EVs remain more expensive on a total cost of ownership (TCO) basis for
+most car segments and markets outside of China. Although high EV upfront price is
+currently a dominating factor, other factors, like insurance costs or high electricity prices in
+some markets add to the higher total. As lithium-ion battery prices decline in our outlook, so
+do EVs’ upfront prices and their TCO.
+
+•
+
+There are markets and use cases where the total cost of ownership of EVs is already
+lower than that of ICE vehicles today. One example is Denmark, where EV drivers enjoy
+favorable electricity-to-gasoline pricing. Taxi drivers running vehicles over long distances can
+recoup the extra capital cost in some markets, such as the UK. Some electric vehicle models
+have already fallen below the TCO of ICE competition. For example, Tesla models can be up
+to 20% cheaper to own per kilometer than comparable ICE models in Germany and the US.
+
+•
+
+© Bloomberg Finance L.P.2026
+
+The internal combustion vehicle fleet is only a few years away from peaking. While
+internal combustion vehicle sales peaked in 2017, the fleet takes slightly longer to peak given
+the average global vehicle replacement rate of 3.7%. The internal combustion vehicle fleet
+reaches a plateau for the next few years before peaking in 2028, at a little under 1.4 billion
+vehicles on the road.
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+6
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Figure 6: Global passenger-vehicle fleet by drivetrain – Economic Transition Scenario
+Million vehicles
+1,500
+1,000
+
+Global ICE fleet
+
+500
+
+Global EV fleet
+
+0
+2020
+
+24
+
+28
+
+32
+
+36
+
+40
+
+Source: BloombergNEF. Note: EV fleet includes battery-electric and plug-in hybrid vehicles. ICE
+fleet includes hybrid vehicles.
+•
+
+The long-term outlook for EVs remains bright, although this year’s outlook is slightly lower
+than the previous outlook. Batteries continue to get better and cheaper, leading to improved
+economics. This underpins long-term growth in EV adoption. EVs reach 52% of global
+passenger vehicle sales by 2035 and 66% by 2040, under BNEF’s Economic Transition
+Scenario, down from 70% in the previous outlook. The main hit to our global outlook comes
+from the US, where the regulatory U-turn on support for road transport electrification pushes
+US passenger EV adoption down to 57% by 2040, compared to 71% in the previous outlook.
+Nearly 20 million fewer passenger EVs are sold in the US over 2026-2040 in this outlook,
+equivalent to all of China’s new passenger EV sales in 2033.
+
+Figure 7: Global long-term passenger EV sales by market –
+Economic Transition Scenario
+
+Figure 8: Global long-term EV share of passenger vehicle
+sales by market – Economic Transition Scenario
+
+Million vehicles
+70
+
+Rest of World
+
+100%
+
+60
+
+Australia
+
+50
+
+Brazil
+
+Mexico
+
+South Korea
+
+40
+
+Japan
+Canada
+
+30
+
+Southeast Asia
+
+20
+
+India
+
+10
+
+US
+Europe
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+Source: BloombergNEF
+
+© Bloomberg Finance L.P.2026
+
+2040
+
+China
+
+90%
+80%
+70%
+60%
+
+50%
+40%
+30%
+
+20%
+10%
+0%
+
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+China
+Europe
+Australia
+South Korea
+Canada
+Southeast Asia
+Global
+Mexico
+Brazil
+US
+India
+Japan
+Rest of World
+
+Source: BloombergNEF
+•
+
+Despite rapid EV adoption, only 35% of the global passenger-vehicle fleet is electric by
+2040 in our Economic Transition Scenario. The fleet electrification rate is higher in
+markets, such as the Nordics (76%), China (64%), and the UK (58%), but some of the biggest
+car markets, such as the US and Japan, lag behind. The significant slowdown in US EV sales
+means only 24% of the country’s fleet is electric by 2040 – behind India, and above only
+Mexico, Japan and ‘Rest of World’ category.
+
+•
+
+Electric van sales reach one third of global sales in the segment by 2030. In China,
+Europe and South Korea, electric vans account for more than 45% of sales by then, while
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+7
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+electric van adoption elsewhere remains between 10% and just over 20%. In some markets,
+such as in Brazil and India, electric van sales are currently low, but end up accounting for
+15% to 20% of total volume in the next five years.
+•
+
+Medium- and heavy-duty electric trucks lag vans, reaching about 17% of global sales
+in 2030, with adoption still heavily concentrated in China, where almost 45% of sales are
+electric in 2030. Policy reversals and slow development of the supply chain hold back faster
+growth. Electric truck adoption reaches 17% in Europe in 2030 but remains less than 12% of
+sales in other countries, with many markets experiencing low levels of electric truck adoption.
+
+Figure 9: Global electric and fuel-cell van, truck and bus near-term sales outlook
+Light duty
+Million vehicles
+5
+34% of total sales
+4
+
+Medium and heavy duty
+Million vehicles
+1.0
+17% of total sales
+0.8
+
+3
+
+0.6
+
+0.12
+
+2
+
+0.4
+
+0.08
+
+1
+
+0.2
+
+0.04
+
+0
+
+0.0
+2020 2022 2024 2026 2028 2030
+
+Million vehicles
+0.20
+0.16
+
+Buses
+
+60% of total sales
+
+0.00
+2020 2022 2024 2026 2028 2030
+
+2020 2022 2024 2026 2028 2030
+
+Source: BloombergNEF. Note: Electric vehicles include battery-electric and plug-in hybrid vehicles. Buses include city buses apart
+from China, which also includes coaches and intercity buses.
+•
+
+City buses (excluding non-municipal buses in China) continue to lead electrification
+across all vehicle segments. Over half of total municipal bus sales were already electric in
+more than 20 countries in 2025. Most markets could reach fully zero-emission city bus sales
+by 2040, with some regions like the Nordics achieving that within this decade. China still
+captures the largest share of the global electric bus market going forward, supported by a big
+domestic market and mature local supply chain.
+
+•
+
+Battery-electric trucks remain expensive in the US, but lower-priced models could
+make even long-haul electrification economic and create upside to the outlook. The
+Tesla Semi could jump-start the sluggish US electric truck market: if priced around $300,000,
+it could make electric heavy-duty trucks the cheapest option on a total cost of ownership
+basis for about 40% of miles in long-haul operations, even without purchase subsidies. The
+scale and timing of any upside will depend on how quickly Tesla scales production toward its
+annual production target of 50,000 units.
+
+•
+
+Electrification of two- and three-wheelers is ahead of other road transport segments,
+but future growth is slower than in BNEF's previous outlook. About 46% of global twoand three-wheeler sales were electric in 2025, with China and India making up 98% of the
+market. Government incentives, demand for urban mobility and a wide range of available
+models continue to boost EV sales in the two markets, while adoption in other markets
+progresses slowly. Only 6% of two- and three-wheelers sold outside of China and India in
+2029 are electric, according to our outlook. EV adoption could rise as policy support
+strengthens, new models become more widely available and cost competitiveness improves.
+By 2040, global electric two- and three-wheeler sales exceed 101 million, or 68% of total
+sales. Still, this is down 11% from BNEF's 2025 outlook. The slow uptake of electric
+motorcycles remains a major constraint across most markets.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+8
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+•
+
+Stationary storage is becoming a key growth market for the battery industry and is
+attracting increasing interest from automakers. Between 2025 and 2035, BNEF increased
+its stationary storage battery demand outlook by 27% compared with last year's view, more
+than offsetting lower expectations for EV battery demand. The stronger outlook for energy
+storage is prompting automakers including General Motors, Ford and Volkswagen to expand
+into the sector and repurpose EV battery manufacturing capacity, viewing energy storage as
+an opportunity to improve battery manufacturing plant utilization and diversify beyond EVs.
+
+Figure 10: Change in annual battery demand by segment compared to BNEF’s 2025 LongTerm Electric Vehicle Outlook
+Gigawatt-hours
+400
+200
+
+Stationary storage
+
+0
+
+Transport
+
+-200
+
+Total
+
+-400
+2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035
+
+Source: BloombergNEF. Note: Transport based on the Economic Transition Scenario and
+stationary storage based on energy storage forecasts in BNEF’s Energy Storage Market Outlooks
+(web | terminal). Transport includes passenger electric vehicles (EVs), commercial EVs, e-buses,
+and two- and three-wheelers.
+•
+
+The push for battery supply chain localization is accelerating globally, but matching
+China's battery manufacturing costs remains a significant challenge. China continues to
+benefit from a mature manufacturing supply chain, lower input costs, favorable financing
+conditions and intense competition, resulting in the world's lowest EV battery prices. While
+battery manufacturing capacity is expanding in regions like North America and Europe,
+structural differences in manufacturing scale and supply-chain integration mean regional price
+premiums are likely to persist even as costs converge toward the global average.
+
+Figure 11: Regional EV battery pack prices
+
+Figure 12: Ratio of regional EV battery pack prices
+compared to global prices
+
+$ (real, 2025) per kilowatt-hour
+250
+Outlook
+200
+
+1
+
+150
+
+1
+
+100
+
+0
+
+50
+
+0
+
+0
+
+0
+
+1
+
+China
+
+North
+America
+Europe
+South
+Korea
+India
+Global
+
+Ratio compared to global prices
+1.6
+Outlook
+1.2
+
+1
+
+China
+
+1
+
+North
+America
+Europe
+
+1
+
+0.8
+0
+
+0.4
+0.0
+
+0
+
+0
+
+South
+Korea
+India
+Global
+
+2019 22
+25
+28
+31
+34
+2019
+22
+25
+28
+31
+34
+Source: BloombergNEF. Note: Historical prices for regions are estimated based on data from BNEF’s 2025 Lithium-ion Battery
+Price Survey (web | terminal). Cumulative battery demand based on 2025 data. Historical regional battery pack prices are
+estimated by applying a region’s premium or discount across all sectors on observed average global EV pack prices. Price outlook
+for regions is based on 16% learning rate and the region’s cumulative demand, with curves starting in 2025. Prices for India follow
+
+global prices from 2030 onward due to lower market maturity. Historical prices for South Korea follow North America’s curve.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+9
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+•
+
+Shared autonomous vehicles (referred to here as robotaxis) are still in the early stages of
+commercialization but are traveling far greater distances per vehicle than human-driven
+shared vehicles. Waymo’s vehicles, operating in the US, have steadily increased the annual
+run-rate kilometers per vehicle, reaching a run-rate of nearly 110,000 kilometers per year in
+December 2025.
+
+•
+
+Still, growing the robotaxi fleet takes time, with the number on the road surpassing 1
+million vehicles in 2032, at which point they account for just 0.07% of the global passenger
+vehicle fleet. By 2040, robotaxis reach 15.5 million units and account for nearly 1% of the
+global passenger vehicle fleet. The outlook for the number of robotaxis on the road is
+significantly reduced from previous outlooks due to updated assumptions on annual distance
+traveled per vehicle.
+
+Figure 13: Outlook for driverless robotaxis on the road by market
+Thousand vehicles
+450
+400
+
+Other
+
+350
+
+South
+Korea
+Japan
+
+300
+
+250
+200
+
+Europe
+
+150
+100
+
+China
+
+50
+
+US
+
+0
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+Source: BloombergNEF.
+•
+
+We estimate that shared mobility services accounted for about 4.4% of total kilometers
+traveled by the global passenger-vehicle fleet in 2025. Yet, that contribution is much
+higher in countries with low levels of private vehicle ownership and inadequate public transit,
+like India, where shared vehicles accounted for about 23% of total kilometers traveled by the
+passenger vehicle fleet in 2025. The share of kilometers traveled by shared mobility in our
+outlook rises to 8% globally by 2040. Robotaxis surpass 1% of global kilometers in 2033.
+From 2038, shared and autonomous vehicles make enough progress to halt the growth of
+human-driven forms of mobility.
+
+•
+
+EVs can be a meaningful source of electricity demand. The electric vehicle fleet
+consumed 367 terawatt-hours in 2025, which rises to over 2,700TWh by 2040. While this is a
+sevenfold increase in demand in fifteen years, electric vehicles account for just 6% of global
+electricity demand by 2040. Still, this is much higher in some markets. In the UK, they reach
+almost 20% of electricity demand by 2040 and exceed 12% of demand in Germany and
+Brazil.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+10
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Figure 14: Global electricity demand by category – Economic Transition Scenario
+Terawatt-hours
+
+6%
+
+50,000
+
+Electric
+vehicle
+demand
+
+40,000
+30,000
+20,000
+
+General
+demand
+
+10,000
+
+0
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+Source: BloombergNEF
+•
+
+The grid will require over $800 billion of investment globally to accommodate electric
+vehicles by 2040. While EVs are a major driver of grid investment, they account for just 14%
+of total annual investment at peak. Additionally, electric vehicles provide flexibility to the
+energy system through smart charging and vehicle-to-grid technology that will help reduce
+electricity system costs. Co-located energy storage could also enable smoother connections
+for charging stations and can pay back in a few years in certain markets.
+
+•
+
+Over $635 billion is required from 2025 to 2040 for the buildout of the EV charging
+network. While home chargers paid for by drivers account for the majority of the 260 million
+connectors installed by 2040, more than half the total investment comes from companies
+building fast chargers in depots and public locations.
+
+•
+
+It will be the survival of the fittest for companies operating public EV chargers. Even
+currently successful charging station operators could be usurped by new competing sites
+offering lower prices, better locations or faster charging. The mass adoption of megawatt
+charging for passenger vehicles, as launched by BYD, would significantly reduce the size of
+the required network. The growing number of electric trucks and robotaxis will also be a
+major factor in the evolution of the charging network in the 2030s.
+
+Figure 15: Global annual grid investment by main driver
+
+Figure 16: Global cumulative investment in the charging
+network, from 2025 – Economic Transition Scenario
+
+$ billion
+
+Electric vehicles
+
+700
+
+Data centers
+
+600
+
+Smart meters
+
+500
+
+Renewable energy
+
+400
+300
+200
+100
+0
+2025
+
+2030
+
+Source: BloombergNEF
+
+© Bloomberg Finance L.P.2026
+
+2035
+
+2040
+
+638
+
+600
+500
+300
+
+Other demand
+growth
+Aging assets
+
+200
+
+Rest of
+World
+North
+America
+
+414
+
+400
+
+Other generation
+
+Historic
+2020
+
+$ billion
+700
+
+Europe
+
+198
+
+China
+
+100
+0
+2030
+
+2035
+
+2040
+
+Source: BloombergNEF. Note: Includes hardware, installation
+and maintenance investment.
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+11
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+•
+
+Road transport remains the single largest source of future oil displacement among all
+major end-use sectors. The combined impact of vehicle electrification and fuel efficiency
+improvements displaced 3.2 million barrels a day (m b/d) of road fuel use in 2025, roughly
+equivalent to the daily oil consumption of South Korea. Under BNEF’s Economic Transition
+Scenario, avoided volumes rise to almost 26m b/d by 2040 as EV adoption spreads across
+vehicle segments and regions. This is nearly four times larger than the combined oil
+displacement from aviation, marine and petrochemicals, underlining the central role of road
+transport in shaping the future trajectory of global oil demand.
+
+Figure 17: Global oil displacement by segment
+Million barrels per day
+0
+-5
+
+-1.3
+
+-3.2
+
+-10
+
+-2.6
+
+-4.4
+
+-6.5
+
+-7.6
+
+Aviation
+Marine
+
+-15
+-15.6
+
+-20
+
+Petrochemical
+Road
+
+-25
+-25.8
+
+-30
+Road
+
+Others
+
+2025
+
+Road
+
+Others
+
+2030
+
+Road
+
+Others
+
+2035
+
+Road
+
+Others
+
+2040
+
+Source: BloombergNEF
+•
+
+What follows peak demand is a plateau rather than a cliff. Global road fuel consumption
+enters a prolonged period of stability after peaking in 2029, as continued growth in mobility
+and freight activity offsets much of the impact from increased vehicle electrification and
+efficiency gains. This gradual transition provides some near-term support for refiners and oil
+markets, particularly in developing economies where fuel demand continues to expand.
+However, the longer-term decline in road-fuel consumption will eventually force fuel-makers
+to reassess their strategies, increasing the importance of more resilient growth areas such as
+aviation fuels, petrochemicals and renewable fuels.
+
+•
+
+Supply chain diversification has become the biggest driver for battery metals refining
+capacity additions outside China. China can meet its domestic demand for refined battery
+metals thanks to its early development of refining capacity and proactive efforts to secure
+upstream feedstock. In Europe and the US, domestic supply can meet demand for a narrow
+set of materials. Both regions are heavily reliant on battery metal imports. In the US, the
+Trump administration is providing direct incentives to domestic mining and refining projects,
+while using tariffs to restrict imports. In Europe, the EU is prioritizing recycling of battery
+materials as its pathway to achieve supply-chain security.
+
+•
+
+Despite various regulatory and trade headwinds, demand for battery metals grows by
+11% to 10.1 million metric tons in 2026. Battery metals demand will continue to rise over
+the next decade. This is driven by increased EV adoption as well as the rapid uptake of
+stationary energy storage. In 2026, about 2.5 million metric tons of metals will be used in
+stationary energy storage applications, representing about 20% of overall battery metals
+demand, up from 15% in 2025. Battery metals demand from stationary energy storage will
+grow to 5.6 million tons in 2035.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+12
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Figure 18: Demand for metals from lithium-ion batteries – Economic Transition Scenario
+Million metric tons
+25
+
+Silicon
+Cobalt
+
+20
+
+Manganese
+
+15
+
+Nickel
+
+10
+
+Lithium
+
+Graphite
+
+5
+
+Aluminum
+0
+2021
+
+2026
+
+2030
+
+Copper
+
+2035
+
+Source: BloombergNEF. Note: Demand from both electric vehicle and energy storage
+applications is considered. Lithium is expressed in metric tons lithium carbonate equivalent.
+•
+
+The Net Zero Scenario outlined in this report would require significant policy
+intervention in the years ahead. The rapid acceleration of EV deployment required for the
+net-zero trajectory also comes with significant supply-chain challenges. Reaching a net-zero
+fleet requires 423 million more zero-emission cars on the road by 2050 than in the Economic
+Transition Scenario, along with 515 million additional electric two- and three-wheelers, 73
+million additional electric light commercial vehicles, 40 million additional electric medium
+commercial vehicles and nearly 28 million additional zero-emission heavy-duty trucks.
+
+Figure 19: Global electric vehicle fleet in the Economic Transition Scenario and the gap to meet Net Zero Scenario
+
+Passenger
+
+Million vehicles
+1,800
+1,500
+1,200
+900
+600
+300
+0
+2026 30 35 40 45 50
+ZEV ETS
+Gap to NZS
+
+Light commercial vehicles
+
+Two- and three-wheelers
+
+Million vehicles
+1,800
+1,500
+1,200
+900
+600
+300
+0
+2026 30 35 40 45 50
+ZEV ETS
+Gap to NZS
+
+Buses
+
+Million vehicles
+6
+4
+2
+0
+
+2026 30
+35
+ZEV ETS
+
+Heavy commercial vehicles
+
+Medium commercial vehicles
+
+Million vehicles
+300
+
+Million vehicles
+60
+
+Million vehicles
+60
+
+200
+
+40
+
+40
+
+100
+
+20
+
+20
+
+0
+2026 30 35 40 45 50
+ZEV ETS
+Gap to NZS
+
+0
+
+40
+45
+50
+Gap to NZS
+
+0
+
+2026 30 35 40 45 50
+ZEV ETS
+Gap to NZS
+
+2026 30 35
+ZEV ETS
+
+40 45 50
+Gap to NZS
+
+Source: BloombergNEF. Note: ‘ZEV’ refers to zero-emission vehicles. ‘ETS’ is BNEF’s Economic Transition Scenario and ‘NZS’ is
+BNEF’s Net Zero Scenario.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+13
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Contents
+Section 1.
+
+Executive summary
+
+1
+
+Section 2.
+
+About the report
+2.1. What’s new in EVO 2026
+2.2. EVO 2026 facts and results
+2.3. Scenarios and outlooks at BloombergNEF
+
+13
+13
+14
+15
+
+Section 3.
+
+Comparison with last year’s outlook
+3.1. Passenger vehicles
+3.2. Commercial vehicles and buses
+3.3. Two- and three-wheelers
+
+17
+18
+20
+22
+
+Section 4.
+
+Passenger vehicles
+4.1. Global passenger vehicle kilometers, fleet and sales
+4.2. The EV market today
+4.3. Policy and regulatory environment
+4.4. War in Iran
+4.5. Passenger EV outlook
+4.6. Thematic Highlight: Closing the EV Price Gap
+4.7. Hybrids and other drivetrains
+
+23
+24
+28
+35
+43
+46
+60
+71
+
+Section 5.
+
+Commercial vehicles and buses
+5.1. Near-term outlook for vans and trucks
+5.2. Near-term outlook for buses
+5.3. Long-term outlook for commercial vehicles and buses to 2040
+
+75
+77
+83
+85
+
+Section 6.
+
+Two-wheelers
+88
+6.1. Two-wheeler market today
+88
+6.2. Total sales and fleet outlook
+89
+6.3. Electric two-wheeler adoption outlook – Economic Transition Scenario 90
+
+Section 7.
+
+Three-wheelers
+96
+7.1. Three-wheeler market today
+96
+7.2. Total sales and fleet outlook
+97
+7.3. Electric three-wheeler adoption outlook – Economic Transition Scenario
+97
+
+Section 8.
+
+Impacts on batteries and materials
+8.1. Battery demand: Economic Transition Scenario
+8.2. Battery pricing and manufacturing outlook
+8.3. Battery technology outlook
+8.4. Impact on battery metals supply and demand
+8.5. Thematic Highlight: The Race For Local, Low-Cost Batteries
+
+100
+101
+102
+108
+122
+131
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+14
+
+© Bloomberg Finance L.P.2026
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Section 9.
+
+Impact on oil demand
+9.1. Combined impact on oil demand
+
+143
+143
+
+Section 10.
+
+Electricity demand
+10.1. Grid investment
+10.2. Home electric vehicle charging patterns
+
+149
+150
+151
+
+Section 11.
+
+Charging infrastructure
+11.1. Hardware sales
+11.2. Locations of charging
+11.3. Thematic Highlight: The True Cost of Owning an EV
+
+159
+160
+163
+178
+
+Section 12.
+
+Emissions and Net Zero Scenario
+12.1. Road transport emissions outlook
+12.2. Vehicle uptake in the Net Zero Scenario
+12.3. Impact of the Net Zero Scenario
+
+192
+192
+194
+195
+
+Appendices
+
+198
+
+Appendix A.
+
+Glossary
+
+198
+
+Appendix B.
+
+Market coverage by vehicle type
+
+199
+
+Appendix C.
+
+Drive cycle definitions and market segmentation for commercial vehicles
+
+201
+
+Appendix D.
+
+Two- and three-wheeler vehicle definitions
+
+203
+
+Appendix E.
+
+Table of figures
+
+205
+
+Appendix F.
+
+Table of tables
+
+216
+
+About us
+
+© Bloomberg Finance L.P.2026
+
+218
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+15
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+Authors
+Aleksandra
+O’Donovan
+Co-lead author
+
+Andrew Grant
+Co-lead author
+
+Dr. Nikolas
+Soulopoulos
+Commercial
+vehicles and
+freight
+
+Ryan Fisher
+Charging
+infrastructure
+and electricity
+demand
+
+Jinghong Lyu
+Modeling and
+autonomous
+vehicles
+
+Siyi Mi
+Two and three
+wheelers
+
+Siong-Hu
+Wong
+Two and three
+wheelers
+
+Maynie Yang
+Commercial
+vehicles and
+buses
+
+Huiling Zhou
+Vehicle
+economics
+
+Sada Wachche
+Electric vehicles
+
+Shananthan
+Kalaichelvan
+Electric vehicles
+
+Claudio Lubis
+Oil
+
+Luxi Hong
+Oil
+
+Madeleine
+Brolly
+Charging
+infrastructure
+
+Ash Wang
+Charging
+infrastructure
+
+Evelina
+Stoikou
+Batteries
+
+Dr. Andy
+Leach
+Batteries
+
+Jiayan Shi
+Batteries
+
+Yayoi Sekine
+Batteries
+
+Dr. Kwasi
+Ampofo
+Metals and
+mining
+
+Peng Xu
+Metals and
+mining
+
+Komal Kareer
+India and
+Southeast Asia
+
+Leonard
+Quong
+Australia
+
+Vinicius Nunes
+Brazil
+
+Rafael
+Rabioglio
+Latin America
+
+Stephan Mothe
+Mexico
+
+Takehiro
+Kawahara
+Japan and
+South Korea
+
+Taishin Noble
+Japan and
+South Korea
+
+David Kang
+Japan and
+South Korea
+
+Antoine
+Vagneur-Jones
+Trade and
+supply chains
+
+Matthew Hales
+Trade and
+supply chains
+
+Nick Wang
+Electric vehicles
+
+Andrew Logan
+Editorial
+
+Dr. Ali IzadiNajafabadi
+Head of Global
+Transition
+Analysis
+
+Colin
+McKerracher
+Head of Clean
+Transport and
+
+© Bloomberg Finance L.P.2026
+
+Storage
+Research
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+16
+
+Electric Vehicle Outlook 2026
+June 16, 2026
+
+About us
+Contact details
+Client enquiries:
+• Bloomberg Terminal: press <Help> key twice
+• Email: support.bnef@bloomberg.net
+
+Copyright
+© Bloomberg Finance L.P. 2026. This publication is the copyright of Bloomberg Finance L.P. in connection
+with BloombergNEF. No portion of this document may be photocopied, reproduced, scanned into an
+electronic system or transmitted, forwarded or distributed in any way without prior consent of BloombergNEF.
+
+Disclaimer
+The BloombergNEF ("BNEF"), service/information is derived from selected public sources. Bloomberg
+Finance L.P. and its affiliates, in providing the service/information, believe that the information it uses comes
+from reliable sources, but do not guarantee the accuracy or completeness of this information, which is subject
+to change without notice, and nothing in this document shall be construed as such a guarantee. The
+statements in this service/document reflect the current judgment of the authors of the relevant articles or
+features, and do not necessarily reflect the opinion of Bloomberg Finance L.P., Bloomberg L.P. or any of their
+affiliates (“Bloomberg”). Bloomberg disclaims any liability arising from use of this document, its contents
+and/or this service. Nothing herein shall constitute or be construed as an offering of financial instruments or as
+investment advice or recommendations by Bloomberg of an investment or other strategy (e.g., whether or not
+to “buy”, “sell”, or “hold” an investment). The information available through this service is not based on
+consideration of a subscriber’s individual circumstances and should not be considered as information
+sufficient upon which to base an investment decision. You should determine on your own whether you agree
+with the content. This service should not be construed as tax or accounting advice or as a service designed to
+facilitate any subscriber’s compliance with its tax, accounting or other legal obligations. Employees involved in
+this service may hold positions in the companies mentioned in the services/information.
+The data included in these materials are for illustrative purposes only. The BLOOMBERG TERMINAL service
+and Bloomberg data products (the “Services”) are owned and distributed by Bloomberg Finance L.P. (“BFLP”)
+except (i) in Argentina, Australia and certain jurisdictions in the Pacific islands, Bermuda, China, India, Japan,
+Korea and New Zealand, where Bloomberg L.P. and its subsidiaries (“BLP”) distribute these products, and (ii)
+in Singapore and the jurisdictions serviced by Bloomberg's Singapore office, where a subsidiary of BFLP
+distributes these products. BLP provides BFLP and its subsidiaries with global marketing and operational
+support and service. Certain features, functions, products and services are available only to sophisticated
+investors and only where permitted. BFLP, BLP and their affiliates do not guarantee the accuracy of prices or
+other information in the Services. Nothing in the Services shall constitute or be construed as an offering of
+financial instruments by BFLP, BLP or their affiliates, or as investment advice or recommendations by BFLP,
+BLP or their affiliates of an investment strategy or whether or not to “buy”, “sell” or “hold” an investment.
+Information available via the Services should not be considered as research analysis or research
+recommendation or an opinion concerning any financial products or securities or entity or as information
+sufficient upon which to base an investment decision. Bloomberg makes no claims or representations, or
+provides any assurances, about the sustainability characteristics, profile or data points of any underlying
+issuers, products or services, and users should make their own determination on such issues. The following
+are trademarks and service marks of BFLP, a Delaware limited partnership, or its subsidiaries: BLOOMBERG,
+BLOOMBERG ANYWHERE, BLOOMBERG MARKETS, BLOOMBERG NEWS, BLOOMBERG
+PROFESSIONAL, BLOOMBERG TERMINAL and BLOOMBERG.COM. Absence of any trademark or service
+mark from this list does not waive Bloomberg's intellectual property rights in that name, mark or logo. All rights
+reserved. © 2026 Bloomberg.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 17 applies throughout.
+
+17
+
+

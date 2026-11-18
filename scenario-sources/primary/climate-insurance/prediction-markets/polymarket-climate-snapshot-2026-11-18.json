@@ -1,0 +1,398 @@
+{
+ "source": "https://gamma-api.polymarket.com/events?slug=...",
+ "retrieved_utc": "2026-11-18T14:34:11.498745Z",
+ "events": [
+  {
+   "slug": "where-will-2026-rank-among-the-hottest-years-on-record",
+   "title": "Where will 2026 rank among the hottest years on record?",
+   "endDate": "2027-03-02T04:59:00Z",
+   "volume": 3935254.08507,
+   "markets": [
+    {
+     "question": "Will 2026 be the hottest year on record?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.9245\", \"0.0755\"]",
+     "volume": "793427.7310670001",
+     "closed": false,
+     "lastTradePrice": 0.929
+    },
+    {
+     "question": "Will 2026 be the second-hottest year on record?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.076\", \"0.924\"]",
+     "volume": "504116.24268499983",
+     "closed": false,
+     "lastTradePrice": 0.07
+    },
+    {
+     "question": "Will 2026 be the third-hottest year on record?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+     "volume": "555963.1796290001",
+     "closed": false,
+     "lastTradePrice": 0.001
+    },
+    {
+     "question": "Will 2026 be the fourth-hottest year on record?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+     "volume": "565463.269403",
+     "closed": false,
+     "lastTradePrice": 0.002
+    },
+    {
+     "question": "Will 2026 be the fifth-hottest year on record?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+     "volume": "909315.8593309999",
+     "closed": false,
+     "lastTradePrice": 0.002
+    },
+    {
+     "question": "Will 2026 rank as the sixth-hottest year on record or lower?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+     "volume": "606967.8029550001",
+     "closed": false,
+     "lastTradePrice": 0.001
+    }
+   ]
+  },
+  {
+   "slug": "will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027",
+   "title": "Will any Category 4 hurricane make landfall in the US in before 2027?",
+   "endDate": "2027-01-01T04:59:00Z",
+   "volume": 353333.752231,
+   "markets": [
+    {
+     "question": "Will any Category 4 hurricane make landfall in the US in before 2027?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0345\", \"0.9655\"]",
+     "volume": "353333.752231",
+     "closed": false,
+     "lastTradePrice": 0.019
+    }
+   ]
+  },
+  {
+   "slug": "will-the-us-break-its-record-for-billion-dollar-weather-and-climate-disasters-in-2026-1787153419673",
+   "title": "Will the US break its record for billion-dollar weather and climate disasters in 2026?",
+   "endDate": "2027-07-01T03:59:00Z",
+   "volume": 3545.714513,
+   "markets": [
+    {
+     "question": "Will the US break its record for billion-dollar weather and climate disasters in 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.2\", \"0.8\"]",
+     "volume": "3545.714513",
+     "closed": false,
+     "lastTradePrice": 0.13
+    }
+   ]
+  },
+  {
+   "slug": "what-will-the-peak-roni-be-for-the-2026-27-el-nino-1786975502957",
+   "title": "What will the peak RONI be for the 2026\u201327 El Ni\u00f1o?",
+   "endDate": "2027-04-01T03:59:00Z",
+   "volume": 180050.151842,
+   "markets": [
+    {
+     "question": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be below 1.5?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0\", \"1\"]",
+     "volume": "1703.31447",
+     "closed": true,
+     "lastTradePrice": 0.001
+    },
+    {
+     "question": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be at least 1.5 but below 2.0?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0\", \"1\"]",
+     "volume": "6381.019831",
+     "closed": true,
+     "lastTradePrice": 0.002
+    },
+    {
+     "question": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be at least 2.0 but below 2.25?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.039\", \"0.961\"]",
+     "volume": "11388.547941",
+     "closed": false,
+     "lastTradePrice": 0.042
+    },
+    {
+     "question": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be at least 2.25 but below 2.5?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.385\", \"0.615\"]",
+     "volume": "85928.617622",
+     "closed": false,
+     "lastTradePrice": 0.4
+    },
+    {
+     "question": "Will the peak RONI for the 2026\u201327 El Ni\u00f1o be 2.5 or above?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.56\", \"0.44\"]",
+     "volume": "74648.651978",
+     "closed": false,
+     "lastTradePrice": 0.56
+    }
+   ]
+  },
+  {
+   "slug": "will-the-2026-27-el-nino-be-the-strongest-on-record",
+   "title": "Will the 2026\u201327 El Ni\u00f1o be the strongest on record?",
+   "endDate": "2027-04-01T03:59:00Z",
+   "volume": 21061.580077000002,
+   "markets": [
+    {
+     "question": "Will the 2026\u201327 El Ni\u00f1o be the strongest on record?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.57\", \"0.43\"]",
+     "volume": "21061.580077000002",
+     "closed": false,
+     "lastTradePrice": 0.59
+    }
+   ]
+  },
+  {
+   "slug": "natural-disaster-in-2026",
+   "title": "Natural Disaster in 2026?",
+   "endDate": "2027-03-01T04:59:00Z",
+   "volume": 255718.271325,
+   "markets": [
+    {
+     "question": "Natural Disaster in 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.041\", \"0.959\"]",
+     "volume": "255718.271325",
+     "closed": false,
+     "lastTradePrice": 0.026
+    }
+   ]
+  },
+  {
+   "slug": "where-will-a-hurricane-make-landfall-in-the-us-during-the-2026-hurricane-season",
+   "title": "Where will a hurricane make landfall in the US during the 2026 hurricane season?",
+   "endDate": "2026-12-08T04:59:00Z",
+   "volume": 48966.466419,
+   "markets": [
+    {
+     "question": "Will a hurricane make landfall in Texas by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.016\", \"0.984\"]",
+     "volume": "1671.424022",
+     "closed": false,
+     "lastTradePrice": 0.011
+    },
+    {
+     "question": "Will a hurricane make landfall in Louisiana by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0165\", \"0.9835\"]",
+     "volume": "2983.4348100000007",
+     "closed": false,
+     "lastTradePrice": 0.04
+    },
+    {
+     "question": "Will a hurricane make landfall in Mississippi by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.015\", \"0.985\"]",
+     "volume": "1487.2069139999999",
+     "closed": false,
+     "lastTradePrice": 0.015
+    },
+    {
+     "question": "Will a hurricane make landfall in Alabama by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0115\", \"0.9885\"]",
+     "volume": "3751.596425",
+     "closed": false,
+     "lastTradePrice": 0.001
+    },
+    {
+     "question": "Will a hurricane make landfall in Florida by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"1\", \"0\"]",
+     "volume": "4258.697792999999",
+     "closed": true,
+     "lastTradePrice": 0.999
+    },
+    {
+     "question": "Will a hurricane make landfall in Georgia by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0585\", \"0.9415\"]",
+     "volume": "3271.603725",
+     "closed": false,
+     "lastTradePrice": 0.011
+    },
+    {
+     "question": "Will a hurricane make landfall in South Carolina by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.029\", \"0.971\"]",
+     "volume": "2092.320865",
+     "closed": false,
+     "lastTradePrice": 0.119
+    },
+    {
+     "question": "Will a hurricane make landfall in North Carolina by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0605\", \"0.9395\"]",
+     "volume": "3427.829323000001",
+     "closed": false,
+     "lastTradePrice": 0.06
+    },
+    {
+     "question": "Will a hurricane make landfall in Virginia by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.027\", \"0.973\"]",
+     "volume": "1965.2697329999999",
+     "closed": false,
+     "lastTradePrice": 0.007
+    },
+    {
+     "question": "Will a hurricane make landfall in Maryland by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0205\", \"0.9795\"]",
+     "volume": "1948.131156",
+     "closed": false,
+     "lastTradePrice": 0.017
+    },
+    {
+     "question": "Will a hurricane make landfall in Delaware by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0215\", \"0.9785\"]",
+     "volume": "2349.877824",
+     "closed": false,
+     "lastTradePrice": 0.017
+    },
+    {
+     "question": "Will a hurricane make landfall in New Jersey by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.032\", \"0.968\"]",
+     "volume": "1603.7258020000002",
+     "closed": false,
+     "lastTradePrice": 0.008
+    },
+    {
+     "question": "Will a hurricane make landfall in New York by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0235\", \"0.9765\"]",
+     "volume": "2403.275915",
+     "closed": false,
+     "lastTradePrice": 0.007
+    },
+    {
+     "question": "Will a hurricane make landfall in Connecticut by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0255\", \"0.9745\"]",
+     "volume": "462.00789999999995",
+     "closed": false,
+     "lastTradePrice": 0.002
+    },
+    {
+     "question": "Will a hurricane make landfall in Rhode Island by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.022\", \"0.978\"]",
+     "volume": "2104.253231",
+     "closed": false,
+     "lastTradePrice": 0.022
+    },
+    {
+     "question": "Will a hurricane make landfall in Massachusetts by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.015\", \"0.985\"]",
+     "volume": "3421.77391",
+     "closed": false,
+     "lastTradePrice": 0.016
+    },
+    {
+     "question": "Will a hurricane make landfall in New Hampshire by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.028\", \"0.972\"]",
+     "volume": "2063.7642",
+     "closed": false,
+     "lastTradePrice": 0.056
+    },
+    {
+     "question": "Will a hurricane make landfall in Maine by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.016\", \"0.984\"]",
+     "volume": "2678.8792789999998",
+     "closed": false,
+     "lastTradePrice": 0.007
+    },
+    {
+     "question": "Will a hurricane make landfall in Hawaii by November 30, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.04\", \"0.96\"]",
+     "volume": "5021.393591999999",
+     "closed": false,
+     "lastTradePrice": 0.05
+    }
+   ]
+  },
+  {
+   "slug": "how-many-hurricanes-will-form-during-the-atlantic-hurricane-season-in-2026-20260728201848339",
+   "title": "How many hurricanes will form during the Atlantic Hurricane Season in 2026?",
+   "endDate": "2026-12-01T04:59:00Z",
+   "volume": 77854.72961699999,
+   "markets": [
+    {
+     "question": "Will there be 0 hurricanes during the Atlantic Hurricane Season in 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0\", \"1\"]",
+     "volume": "34211.50995899999",
+     "closed": true,
+     "lastTradePrice": 0.001
+    },
+    {
+     "question": "Will there be 1-3 hurricanes during the Atlantic Hurricane Season in 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.9925\", \"0.0075\"]",
+     "volume": "18957.595356",
+     "closed": false,
+     "lastTradePrice": 0.974
+    },
+    {
+     "question": "Will there be 4-6 hurricanes during the Atlantic Hurricane Season in 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+     "volume": "17826.365158",
+     "closed": false,
+     "lastTradePrice": 0.003
+    },
+    {
+     "question": "Will there be 7+ hurricanes during the Atlantic Hurricane Season in 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+     "volume": "6859.259144000001",
+     "closed": false,
+     "lastTradePrice": 0.001
+    }
+   ]
+  },
+  {
+   "slug": "will-the-climate-clocks-1pt5c-deadline-change-byptptpt",
+   "title": "Will the Climate Clock's 1.5\u00b0C deadline change by...?",
+   "endDate": "2027-04-01T03:59:00Z",
+   "volume": 17695.212674,
+   "markets": [
+    {
+     "question": "Will the Climate Clock's 1.5\u00b0C deadline change by December 31, 2026?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.0195\", \"0.9805\"]",
+     "volume": "17695.212674",
+     "closed": false,
+     "lastTradePrice": 0.022
+    },
+    {
+     "question": "Will the Climate Clock's 1.5\u00b0C deadline change by March 31, 2027?",
+     "outcomes": "[\"Yes\", \"No\"]",
+     "outcomePrices": "[\"0.5\", \"0.5\"]",
+     "volume": null,
+     "closed": false,
+     "lastTradePrice": null
+    }
+   ]
+  }
+ ]
+}

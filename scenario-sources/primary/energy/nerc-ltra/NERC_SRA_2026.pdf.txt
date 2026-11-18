@@ -1,0 +1,5924 @@
+2026 Summer Reliability Assessment
+
+May 2026
+
+RELIABILITY | RESILIENCE | SECURITY
+POWERING TODAY. PROTECTING TOMORROW.
+
+Table of Contents
+Preface ..............................................................................................................................................iii
+
+SERC-Florida Peninsula ............................................................................................................... 28
+
+About This Assessment ..................................................................................................................... iv
+
+SERC-Southeast........................................................................................................................... 29
+
+Key Findings ...................................................................................................................................... 1
+
+Texas RE-ERCOT ........................................................................................................................... 30
+
+Resource Adequacy Assessment and Energy Risk Analysis .......................................................... 2
+
+WECC-Alberta ............................................................................................................................. 31
+
+Other Key Reliability Highlights..................................................................................................... 4
+
+WECC-Basin................................................................................................................................. 32
+
+Recommendations ........................................................................................................................ 6
+
+WECC-British Columbia............................................................................................................... 33
+
+Risk Highlights................................................................................................................................... 7
+
+WECC-California .......................................................................................................................... 34
+
+Summer Temperature and Drought Forecasts .............................................................................. 7
+
+WECC-Mexico ............................................................................................................................. 35
+
+Demand and Resource Trends ...................................................................................................... 8
+
+WECC-Northwest ........................................................................................................................ 36
+
+Risk Assessment Discussion ........................................................................................................ 10
+
+WECC-Rocky Mountain ............................................................................................................... 37
+
+Regional Assessments Dashboards................................................................................................. 15
+
+WECC-Southwest ........................................................................................................................ 38
+
+MISO ........................................................................................................................................... 16
+
+Data Concepts and Assumptions .................................................................................................... 39
+
+MRO-Manitoba Hydro................................................................................................................. 17
+
+Resource Adequacy ........................................................................................................................ 42
+
+MRO-SaskPower.......................................................................................................................... 18
+
+Changes from Year to Year ............................................................................................................. 43
+
+MRO-SPP ..................................................................................................................................... 19
+
+Net Internal Demand...................................................................................................................... 44
+
+NPCC-Maritimes.......................................................................................................................... 20
+
+Demand and Resource Tables ........................................................................................................ 45
+
+NPCC-New England ..................................................................................................................... 21
+
+Variable Energy Resource Contributions ....................................................................................... 51
+
+NPCC-New York ........................................................................................................................... 22
+
+Review of 2025 Capacity and Energy Performance ....................................................................... 52
+
+NPCC-Ontario .............................................................................................................................. 23
+
+Eastern Interconnection–Canada and Québec Interconnection ................................................ 52
+
+NPCC-Québec .............................................................................................................................. 24
+
+Eastern Interconnection–United States ..................................................................................... 53
+
+PJM .............................................................................................................................................. 25
+
+Texas Interconnection–ERCOT ................................................................................................... 53
+
+SERC-Central ............................................................................................................................... 26
+
+Western Interconnection ........................................................................................................... 53
+
+SERC-East .................................................................................................................................... 27
+
+2026 Summer Reliability Assessment
+ii
+
+Preface
+Electricity powers our modern life and is the bedrock of our economic wellbeing. The Electric Reliability Organization (ERO) Enterprise—comprised of NERC and the six Regional Entities—is firmly committed to
+assuring a highly reliable, resilient, and secure bulk power system (BPS) in North America. The ERO Enterprise enables collaborative engagement with industry, regulators, and stakeholders, embracing innovation
+and supporting the needs of nearly 400 million people.
+RELIABILITY | RESILIENCE | SECURITY
+POWERING TODAY. PROTECTING TOMORROW.
+
+The North American BPS is made up of six Regional Entities as shown on the map and in the corresponding table below. The multicolored area denotes overlap as some load-serving entities participate in one
+Regional Entity while associated Transmission Owners/Operators participate in another.
+
+MRO
+NPCC
+RF
+SERC
+Texas RE
+WECC
+
+2026 Summer Reliability Assessment
+iii
+
+Midwest Reliability Organization
+Northeast Power Coordinating Council
+ReliabilityFirst
+SERC Reliability Corporation
+Texas Reliability Entity
+WECC
+
+About This Assessment
+NERC’s 2026 Summer Reliability Assessment (SRA) identifies, assesses, and reports on areas of concern regarding the reliability of the North American BPS for the upcoming summer season. In addition,
+the SRA presents peak electricity demand and supply changes and highlights any unique regional challenges or expected conditions that might affect the reliability of the BPS. The reliability assessment
+process is a coordinated evaluation between the NERC Reliability Assessment Subcommittee, the Regional Entities, and NERC staff with demand and resource projections obtained from the assessment
+areas. This report reflects an independent assessment by NERC and the ERO Enterprise and is intended to inform industry leaders, planners, operators, and regulatory bodies so that they are better prepared
+to take necessary actions to ensure BPS reliability. This report also provides an opportunity for industry to discuss plans and preparations to ensure reliability for the upcoming summer period.
+
+2026 Summer Reliability Assessment
+iv
+
+Key Findings
+NERC’s annual SRA covers the upcoming four-month (June–September) summer period. This assessment evaluates generation resource and transmission system adequacy as well as energy sufficiency to
+meet projected summer peak demands and operating reserves. This includes a deterministic evaluation of data submitted for peak demand hour and risk hours as well as results from recently updated
+probabilistic analyses. Additionally, this assessment identifies potential reliability issues of interest and regional topics of concern. While the scope of this seasonal assessment is focused on the upcoming
+summer, the key findings are consistent with risks and issues that NERC highlighted in the 2025 Long-Term Reliability Assessment (LTRA), which covers a 10-year horizon, and other earlier reliability
+assessments and reports. 1
+The 2026 Summer risk profile is marked by rising demand, significant generation growth in many areas, the prospect of challenging hydrological conditions, and the unpredictability of large loads, from
+both a forecasting and operational perspective. Multiple assessment areas have revised load forecasts downward from mid-2025 projections to account for the observed rate of completion for large load
+interconnections and the slower-than-expected pace at which some of those loads are coming on-line. Still, aggregated peak demand across all assessment areas has increased by over 11 GW from Summer
+2025 projections that were set earlier in 2025. That level of growth exceeds the year-on-year rise of 10 GW that preceded Summer 2025. As important as the demand growth itself is the timing of the
+demand. The early arrival of summer heat and high demand in March has highlighted the risks associated with potential overlaps between spring maintenance outages and high demand. The importance
+of shoulder season supply-demand analysis continues to grow. The BPS has added slightly more than 58 GW of new resources year on year heading into the coming summer. This large resource addition
+has partly contributed to the improved risk outlook for some areas. The resource additions continue to include a high proportion of variable energy resources, supporting the prioritization of low-wind
+event preparation and probabilistic analysis of available energy at peak and risk hours.
+The following findings are derived from NERC and the ERO Enterprise’s independent evaluation of electricity generation and transmission capacity as well as potential operational concerns that may need
+to be addressed for Summer 2026.
+
+1 NERC’s long-term, seasonal, and special reliability assessments are published on the Reliability Assessments webpage.
+
+2026 Summer Reliability Assessment
+1
+
+Resource Adequacy Assessment and Energy Risk Analysis
+
+All areas are assessed as having adequate anticipated resources for normal summer peak load conditions (see Figure 1). However, the following areas face elevated risks of electricity supply shortfalls during
+periods of more extreme summer conditions or are subject to localized constraints that raise the risk levels of certain small areas within the broader system. This determination of elevated risk is based on
+analysis of plausible scenarios, including 90/10 demand forecasts and historical high outage rates as well as low wind or solar photovoltaic (PV) energy conditions:
+•
+
+•
+
+NPCC-New England: The New England area expects to have sufficient resources to meet
+the 2026 Summer peak demand forecast for normal conditions with an Anticipated
+Reserve Margin of 14%, just above the Reference Margin Level of 13%. New England may
+rely on non-firm imports to cover shortfalls even as the region has lowered its projected
+net firm imports by 836 MW from the previous year’s projections to just 409 MW for the
+coming summer season. The decline in firm transfers is the main driver of the 2.6% yearon-year drop in anticipated resources. Non-firm imports, however, received a boost in
+January with the addition of New England Clean Energy Connect (NECEC), a symmetric
+monopole +/- 320 HVdc line from the Appalaches substation in Québec to a new
+substation in Lewiston, Maine. NECEC will be used as an “import-only” tie with Hydro
+Québec and can import up to 1,200 MW into New England. Total internal demand for the
+50/50 peak summer demand forecast is 25,228 MW, up marginally from the demand
+projections in the 2025 SRA of 25,202 MW. Expected increases in electrification are the
+biggest driver in the region’s demand forecast as well as slight weather normalization
+changes. Other resource types have slightly increased from last year within the region.
+Based on NPCC’s most recent energy assessment, some use of New England’s operating
+procedures for mitigating resource shortages is anticipated during Summer 2026 for the
+base case (50/50 normal demand). For the scenario with the highest peak load and
+reduced resources, the results were a cumulative loss of load expectation (LOLE) of <0.35
+days/period, loss of load hours (LOLH) of <1.2 hours and expected unserved energy (EUE)
+of 628 MWh/period.
+MRO-SaskPower: SaskPower was at elevated risk in the 2025 SRA, and resource adequacy
+metrics have declined slightly year on year for the upcoming summer period. Reserves
+have tightened from 34% to 29% due to a ~1.9% demand growth and no substantial
+change in resources. While SaskPower does not anticipate capacity constraints or
+reliability issues under normal conditions, extreme summer conditions may cause
+SaskPower to require maintenance rescheduling, short-term power transfers from
+neighboring utilities, and/or available demand-response programs. SaskPower’s
+probabilistic in-house model showed an LOLH for an elevated risk scenario for the 2026
+
+Summer season to be 0.09 hours; the month with the highest LOLH is September (0.05
+hours).
+•
+
+WECC-Northwest: The coming summer brings challenging hydrological conditions for
+regions in which hydropower makes up half or more of the supply fleet. Almost the entire
+Western Interconnection is in the grips of a persistent drought or in an area where drought
+development has a greater likelihood through the end of July. In Washington, for example,
+the snow water equivalent was at 52% of normal levels as of April 1 this year, 2 when
+snowpack typically reaches its peak. While the total water year supply is forecast to be
+nearly average in the Columbia River Basin, snowpack peaked at low elevation and melted
+early in the year. This has implications for the expected resources available to the
+Northwest, the generation mix for which is 55% hydropower. The region is contending with
+a nearly 5% increase in net internal demand from the 2025 SRA and a nearly 2% drop in
+existing resources as well as a roughly 43% drop in expected Tier 1 resources. Though
+higher modeled net transfers are projected to contribute double what they were projected
+to last year (albeit with the increase largely attributable to a modeling change that
+accounts for economic transfers), this was not enough to prevent the drop in the
+Anticipated Reserve Margin from 32% last year to 27% this year. For this summer’s
+assessment, WECC’s study for the Northwest region resulted in small amounts of EUE,
+increasing from zero in the previous probabilistic assessment. The study also indicated an
+LOLH of >0.1 hours/period. The hour of greatest risk occurs around 6:00 p.m. in early
+September.
+
+•
+
+Texas RE: The Texas Interconnection is widely at a normal risk level for Summer 2026 due
+to a 12% jump in anticipated resources for the summer period and a 4.5% decline in
+projected net internal demand. The lower demand forecast is the result of updated load
+modeling that reflects the observed behavior of load during peak periods and more
+demand response from large computational loads. The results of ERCOT’s Probabilistic
+Reserve Risk Model (PRRM) simulation indicate a low risk of declaring an energy
+emergency alert (EEA) during the risk hour (9:00 p.m. local time). However, the PRRM does
+not capture the pre-contingency load shedding risk in the Far West region of ERCOT’s
+footprint resulting from rapid growth in both load and resources in this zone. Operational
+
+2 WSOR-WA
+
+2026 Summer Reliability Assessment
+2
+
+Key Findings
+
+challenges could arise in Far West Texas during periods of high demand combined with
+low wind output and absence of solar generation. Under these conditions, transmission
+constraints in the Far West Texas zone may become binding. Price-responsive demand is
+expected to help reduce transmission congestion and maintain balance with supply during
+tight conditions. In addition, ERCOT and transmission service providers have developed
+mitigation measures to address these constraints by incorporating dynamic line ratings
+that account for solar irradiance along with ambient temperatures. Operating procedures
+that include involuntary load curtailment are in place to maintain system operating limits
+when needed. In September 2025, two new thermal cascading Interconnection reliability
+operating limits (IROL) became effective in the Far West region of ERCOT’s footprint.
+
+Seasonal Risk Assessment Summary
+
+High
+
+Potential for insufficient operating reserves in normal peak conditions
+
+Elevated
+
+Potential for insufficient operating reserves in above-normal conditions
+
+Normal
+
+Sufficient operating reserves expected
+
+Figure 1: Summer Reliability Risk Area Summary
+
+2026 Summer Reliability Assessment
+3
+
+Key Findings
+
+Other Key Reliability Highlights
+•
+
+•
+
+•
+
+Weather services are expecting an El Niño weather pattern to influence the weather
+outlook for the 2026 Summer period. 3 El Niño weather patterns can suppress Atlantic
+hurricanes, which are a major reliability consideration for the Gulf Coast and Southeast
+United States. Temperature and precipitation forecasts for the coming summer show a
+higher likelihood of hotter-than-normal temperatures in the U.S. South and West and
+cooler-than-normal temperatures in the upper Midwest and parts of the Northeast (see
+Figure 2). Wetter-than-normal conditions could alleviate drought severity in the Gulf
+Coast, but the U.S. Northwest is still expected to see drier-than-normal conditions, 4
+starting with sub-average snowpack 5 heading into spring that can impact the availability
+of hydropower units in a region that relies heavily on hydro-fueled electricity generation.
+In Canada, higher-than-normal temperatures are expected across the country, with the
+greatest likelihood residing in northeast and southwest Canada. Snowpack in Canada is
+generally in average conditions. British Columbia has experienced below-average
+snowpack in the southwest part of the province and above-average snowpack in the
+Columbia and Peace regions. The Review of 2025 Capacity and Energy Performance
+section describes actual demand and resource levels in comparison with NERC’s 2025 SRA
+and summarizes 2025 resource adequacy events.
+A large influx of BPS resources over the past year has outpaced demand and is boosting
+reserves. BPS resources for the upcoming summer have jumped by over 58.5 GW with the
+addition of substantial amounts of solar PV and battery resources and some new naturalgas-fired generators. Sixteen of the 23 assessment areas have increased available capacity
+ahead of summer. Solar PV is the leading type of new resource (+30.5 GW nameplate
+additions, contributing an additional 16.4 GW of capacity at peak demand). The addition
+of solar and batteries, which perform well under more hours of the day during summer
+than they do in winter, is helping to meet escalating demand and increase reserves in many
+assessment areas.
+Strong load growth continues in nearly all assessment areas. Load growth from data
+centers and large loads continues to propel North American electricity demand forecasts
+higher, with an increase in peak demand since Summer 2025 exceeding the change
+observed from the prior summer. Aggregated peak demand across all assessment areas
+
+3 Climate Prediction Center: ENSO Diagnostic Discussion
+
+6 Incident Review: Considering Simultaneous Voltage-Sensitive Load Reductions, NERC, January 2025. Available:
+
+https://www.nerc.com/pa/rrm/ea/Documents/Incident_Review_Large_Load_Loss.pdf
+
+•
+
+Large computational and other large loads pose operational challenges for the upcoming
+summer. Recent events of unexpected disconnections underscore the need for
+operational readiness for the upcoming summer. For example, the Eastern and ERCOT
+Interconnections have observed load-reduction events with each Interconnection
+experiencing approximately 1,500 MW of voltage-sensitive load reduction. 6 The event in
+the Eastern Interconnection was primarily attributed to data centers and other power
+electronic loads (PEL) transferring load to backup generation, which caused frequency
+overshoot and high voltages. The ERCOT Interconnection event involved many different
+types of loads of varying sizes reducing consumption during an extended low-voltage
+period in West Texas due to a protection system misoperation. These load-reduction
+events highlight some of the potential risks posed by large loads utilizing the BPS and why
+NERC is closely examining this issue. NERC issued a Level 3 essential actions alert related
+to large loads 7 as well as a reliability guideline regarding risk mitigation for emerging large
+loads. 8
+
+•
+
+Battery resource additions help maintain stable frequency on the grid. Since last summer,
+over 16 GW of nameplate battery storage capacity has been added to the grid. Texas and
+the Western Interconnection continue to have the strongest growth in these resources.
+The 2025 State of Reliability report noted an upward trend in frequency response
+capability that can be attributed to the addition of battery storage resources. 9 Charged
+battery storage resources can respond quickly to the abrupt decline in system frequency
+that occurs during disturbances and sudden imbalances, helping to maintain the nominal
+60 Hz system frequency and prevent equipment damage and system instability. NERC’s
+2026 State of Reliability report, to be published in June, will report on this continuing trend
+of improved grid frequency response.
+
+7 NERC Level 3 Alert: Computational Load Modeling, Studies, Instrumentation, Commissioning, Operations, Protection,
+
+4 Climate Prediction Center: Seasonal Drought Outlook
+5 WSOR-WA
+
+has increased by over 11 GW since 2025. The level of growth exceeds the year-on-year rise
+of 10 GW that preceded Summer 2025. The largest increases are in parts of the U.S. West.
+WECC-Southwest saw the largest year-on-year increase in net internal demand at +9.5%,
+followed by WECC-Northwest with +4.6% and WECC-Basin with 3.8%. Overall, 19 out 23
+assessment areas saw demand increases from the 2025 SRA projections.
+
+and Control
+8 Risk Mitigation for Emerging Large Loads
+9 NERC State of Reliability reports
+
+2026 Summer Reliability Assessment
+4
+
+Key Findings
+
+•
+
+The overlap of early summer heat and spring maintenance outages can lower operating
+reserves in the shoulder season and early summer. March 2026 was the warmest March
+in the 132 years of recordkeeping in the contiguous United States. 10 The average
+temperature across the country was 9.4⁰F above the 20th-century average. Raising the
+average were at least 10 states in the U.S. West that had their warmest March on record.
+The widespread heat-dome bled across the border and infused unseasonably warm
+temperatures into British Columbia as well, with at least five communities in the southern
+part of the province recording their warmest overnight low temperatures ever observed
+for the month of March. 11 Some assessment areas in the West have reported that
+extended lead times for hydro unit overhauls and the limited availability of engineering,
+procurement, and construction contractors are contributing to longer outage durations
+that complicate maintenance planning. Longer-than anticipated maintenance periods, in
+turn, can lead to higher-than-expected calls on electricity imports from neighboring
+regions. In other areas, there are older sites that may require extensive overhauls, such as
+
+10 Assessing the U.S. Temperature and Precipitation Analysis in March 2026 | News | National Centers for
+
+Environmental Information (NCEI)
+11 Blazing hot: 1,000+ records fall in brutal March heat wave - The Weather Network
+
+generator rewinds that can keep resources out of service for extended periods of time,
+potentially longer than planned, as discovery work manifests into additional maintenance.
+•
+
+Impacts of wind drought (i.e., low wind periods) pose a risk to reliability. Areas of the
+North American electric grid continue to experience periods of wind drought or steep wind
+down-ramping, and installed wind capacity across the BPS is up by 3% year on year. It is
+critical that areas experiencing these events continue to maintain operational awareness,
+including accurate forecasts and appropriate operating procedures to mitigate these
+periods. Additionally, the impact of wind ramp events—particularly down ramp—must be
+anticipated and planned for such that appropriate resources are ready to replace the
+energy lost during these conditions. It is not uncommon for areas to experience several
+thousands of megawatts of wind energy coming off-line during these events. For example,
+in January 2025, MISO experienced a wind reduction event of 1,600 MW per hour, which
+also coincided with a solar ramping down and evening load ramp up. 12
+
+12 Incident Review: Preparing the Grid for Wind Energy Droughts and Down-Ramps,
+
+https://www.nerc.com/globalassets/our-work/reports/event-reports/incident_review_low_wind_event.pdf
+
+2026 Summer Reliability Assessment
+5
+
+Recommendations
+
+To reduce the risk of electricity shortfalls on the BPS this summer, NERC recommends the following:
+•
+
+Reliability Coordinators (RC), Balancing Authorities (BA), and Transmission Operators (TOP)
+in the elevated-risk areas identified in the key findings should take the following actions:
+
+•
+
+BAs should consider the following steps to reduce risks to system balance from conditions
+that could affect resources or demand for the upcoming summer:
+•
+
+Consider the potential for higher-than-anticipated forced generator outage rates in
+operating plans due to plant age, operating patterns, or limited pre-seasonal
+maintenance availability.
+
+Wind energy: In areas with ample wind resources, employ proactive operating plans
+for low-wind events and wind down-ramping events when weather conditions are
+developing or are uncertain.
+
+•
+
+Employ conservative generation and transmission outage coordination procedures
+and operate conservatively commensurate with long-range weather forecasts to
+ensure adequate resource availability. Past system performance reviews noted that
+early declaration of conservative operations in advance of extreme conditions helped
+reduce grid congestion and enhance transfer capability. 13
+
+Hydro availability and output: In areas with a predominance of hydro generation in
+the supply stack, consider in operating plans the potential for low water conditions to
+affect hydro generation. Coordinate a sufficient supply of alternative resource types
+and ready necessary demand-side management mechanisms if needed.
+
+•
+
+Large computational load disconnects: Be aware of the potential for load reductions
+from large computational loads in response to system conditions and include
+conservative practices in operating plans. Refer to NERC’s incident reviews for details
+of recent events involving voltage-sensitive data centers and cryptocurrency mining
+facilities. 14
+
+•
+
+Review seasonal operating plans and protocols for communicating and resolving
+potential supply shortfalls in anticipation of above-normal demand levels.
+
+•
+
+•
+
+•
+
+•
+
+Engage state or provincial regulators and policymakers to prepare for efficient
+implementation of demand-side management mechanisms called for in operating
+plans.
+
+RCs, TOPs, and BAs should review outage coordination processes and policies and consider
+if adjustments are needed to account for potential above-normal temperatures to extend
+beyond the traditional summer season. Those same entities should also be prepared to
+adjust operating plans in early summer for delayed return-to-service of BPS generation
+and transmission elements.
+
+13 See notable operations practices in Appendix 2 of the January 2025 Arctic Events System Performance Review |
+
+FERC, NERC, and its Regional Entities: A Joint Staff Report, April 2025.
+
+14 See Incident Review section of NERC Event Analysis page.
+
+2026 Summer Reliability Assessment
+6
+
+Risk Highlights
+Summer Temperature and Drought Forecasts
+
+During the summer season, heat drives peak electricity demand as consumers use more electricity to cool their homes and businesses. March of this year brought record heat for the month and exacerbated
+concerns over persisting or worsening drought, concerns that gained even more traction following an underwhelming snowpack peak in the Pacific Northwest in April. Assessment area load forecasts
+account for many years of historical demand data, often up to 30 years, to predict summer peak demand and prepare for more extreme conditions. Peak demand hours may not coincide with the highest
+risk hours in the summer as the resource mix shifts during a 24-hour cycle, particularly when there are prolonged periods of above-normal temperatures. Coordinating pre-season preparations and
+maintenance remains critical to avoiding forced outages where possible and mitigating risks to BPS reliability.
+
+Figure 2: United States and Canada Summer Temperature Outlook 15
+
+15 Seasonal forecasts obtained from U.S. National Weather Service and Natural Resources Canada: https://www.cpc.ncep.noaa.gov/products/predictions/long_range/ and https://weather.gc.ca/saisons/prob_e.html
+
+2026 Summer Reliability Assessment
+7
+
+Risk Highlights
+
+Demand and Resource Trends
+
+Strong load growth from data centers and large loads continues to propel North American
+electricity demand forecasts higher, with an increase in peak demand since Summer 2025
+exceeding the change observed from the prior summer. Resource additions over the past year have
+outpaced demand growth, contributing to higher reserves.
+
+Summer Electricity Demand Continues to Rise
+
+More Resources Available for Summer
+
+BPS resources for the upcoming summer have jumped by over 58.5 GW with the addition of
+substantial amounts of solar PV and battery resources and some new natural gas-fired generators
+(see Figure 4). Sixteen of the 23 assessment areas have increased available capacity ahead of
+summer. Solar PV is the leading type of new resource (+30.5 GW nameplate additions, contributing
+an additional 16.4 GW of capacity at peak demand). Battery additions account for 14.7 GW in
+increased on-peak capacity. These resources also help balance variability in solar PV and wind
+resources, as well as demand fluctuations. Other capacity changes since 2025 amounting to 19
+GW are attributed to resource additions of other types as well as changes to generator availability
+(e.g., completion of extended nuclear generator outages, changes to maintenance plans). The
+addition of solar and batteries, which perform well under more hours of the day during summer
+than they do in winter, is helping to meet escalating demand and increase reserves in many
+assessment areas.
+1,200
+1,180
++19.0 GW
++1.6
+GW
+1,160
++6.7 GW
++14.7 GW
+1,140
+1,115 GW +16.4 GW
+1,120
+1,100
+1,080
+1,060
+1,040
+1,020
+1,000
+2025 SRA
+Solar
+Battery
+Natural Gas
+Wind
+Other
+Anticipated Additions
+Additions
+Additions
+Additions
+Capacity
+Resources
+Change
+Capacity (GW)
+
+Aggregated peak demand across all assessment areas has increased by over 11 GW since 2025,
+comparing forecasted net internal demand (NID). This measure of peak demand is inclusive of the
+benefits from demand response, which offset total internal demand (TID) (see Figure 3). NID
+continues to accelerate. The year-on-year increase in peak demand for Summer 2025 was 10 GW—
+more than double the increase in peak demand from 2023 to 2024.
+
+forecasting a 1% decline in peak demand. Texas RE-ERCOT is a notable exception to the growth
+trend this summer. TID in ERCOT declined by 1.9 GW (2.3%), largely driven by updated forecasting
+that accounts for observed behavior of large computational loads at peak demand. NID, which
+includes demand response, is 3.7 GW lower (4.6%) compared to last summer because more data
+centers can be curtailed by grid operators when needed to prevent grid emergencies. A summary
+of assessment area demand changes is provided in the Net Internal Demand section.
+
+Figure 3: BPS Total and Net Internal Demand
+Aggregated Peak Demand from All Assessment Areas
+Nearly all assessment areas are experiencing demand growth. Peak demand forecasts have risen
+since 2025 in 19 of the 23 assessment areas. The largest increases are in parts of the U.S. West. In
+Canada, all provinces are forecasted to have increases of 2% or more except for Québec, which is
+
+Figure 4: Summer BPS Resource Capacity Change Since 2025
+
+2026 Summer Reliability Assessment
+8
+
+Risk Highlights
+
+Generators Extended by Federal Power Act Emergency Authority
+
+Starting in 2025, the Department of Energy (DOE) issued emergency orders, pursuant to section 202(c) of the Federal Power Act, requiring that six different power plants maintain operational availability.
+Thermal generators with diverse fuel sources can be an important electricity resource, especially during winter when solar PV and battery resources are less capable compared to summer months. The DOE
+has since renewed those emergency orders, extending availability requirements into late May and early June (see Table 1). These plants and units were not incorporated into the anticipated resources of
+their corresponding assessment areas for Summer 2026 but may be called upon within the orders’ time frames.
+Assessment Area
+
+Table 1: Power Plants Impacted by Department of Energy 202(c) Orders in 2025 and 2026
+Plant Name
+Nameplate Capacity (MW)
+Summer Capacity (MW)
+
+DOE 202(c) Order Expiration
+
+MISO
+
+J.H. Campbell
+
+782
+
+760
+
+5/18/2026
+
+MISO
+
+F.B. Culley Generating Station
+
+104
+
+90
+
+6/21/2026
+
+MISO
+
+Schahfer Generating Station
+
+847
+
+722
+
+6/21/2026
+
+PJM
+
+Eddystone Generating Station
+
+782
+
+760
+
+5/24/2026
+
+WECC-NW
+
+Centralia Generating Station
+
+730
+
+670
+
+6/14/2026
+
+WECC-RM
+
+Craig Station
+
+446
+
+427
+
+6/28/2026
+
+2026 Summer Reliability Assessment
+9
+
+Risk Highlights
+
+Risk Assessment Discussion
+
+NERC assesses the risk of electricity supply shortfall in each assessment area for the upcoming
+season by considering Planning Reserve Margins, seasonal risk scenarios, probability-based risk
+assessments, and other available risk information. NERC provides an independent assessment of
+the potential for each assessment area to have sufficient operating reserves under normal
+conditions as well as above-normal demand and low-resource output conditions selected for the
+assessment. A summary of the assessment approach is provided in Table 2.
+Category
+High
+
+Potential for
+insufficient
+operating reserves in
+normal peak
+conditions
+Elevated
+Potential for
+insufficient
+operating reserves in
+above-normal
+conditions
+Normal
+
+Sufficient
+operating reserves
+expected
+
+Table 2: Seasonal Risk Assessment Summary
+Criteria1
+•
+•
+
+•
+
+•
+•
+
+•
+
+•
+•
+
+Planning Reserve Margins do not meet Reference Margin Levels
+Probabilistic indices exceed benchmarks (e.g., LOLH of 2 hours or higher
+across the season)
+Analysis of the risk hour(s) indicates resources will not be sufficient to meet
+operating reserves under normal peak-day demand with normal resource
+scenarios2
+Probabilistic indices are low but not negligible (e.g., LOLH above 0.1 hours
+across the season)
+Analysis of the risk hour(s) indicates resources will not be sufficient to meet
+operating reserves under extreme peak-day demand with normal resource
+scenarios2 (i.e., typical or expected outage and derate scenarios for
+conditions)
+Analysis of the risk hour(s) indicates resources will not be sufficient to meet
+operating reserves under normal peak-day demand with reduced resource
+scenarios3 (i.e., extreme outage and derate scenarios)
+Probabilistic indices are negligible (e.g., LOLH below 0.1 hours across the
+season)
+Analysis of the risk hour(s) indicates resources will be sufficient to meet
+operating reserves under normal and extreme peak-day demand and
+outage scenarios4
+
+Table Notes:
+1 The table provides general criteria. Other factors may influence a higher or lower risk assessment.
+2 Normal resource scenarios include planned and typical forced outages as well as outages and derates that are
+closely correlated to the peak demand.
+3 Reduced resource scenarios include planned and typical forced outages and low-likelihood resource scenarios,
+such as extreme low-wind scenarios, low-hydro scenarios during drought years, or high thermal outages when such
+a scenario is warranted.
+4 Even in normal risk assessment areas, extreme demand and extreme outage scenarios that are not closely linked
+may indicate risk of operating reserve shortfall.
+
+Assessment of Planning Reserve Margins and Operational Risk Analysis
+
+Anticipated Reserve Margins, which provide the Planning Reserve Margins for normal peak
+conditions, as well as reserve margins for seasonal risk scenarios of more extreme conditions are
+provided in Table 3.
+Table 3: Seasonal Risk Scenario On-Peak Reserve Margins
+Anticipated Reserve Margin
+Anticipated
+Anticipated Reserve
+with Higher Demand,
+Assessment Area
+Reserve
+Margin with Typical
+Outages, Derates in Extreme
+Margin
+Outages
+Conditions
+MISO
+31.1%
+21.6%
+3.8%
+MRO-Manitoba
+13.2%
+9.5%
+4.3%
+MRO-SaskPower
+29.2%
+23.2%
+7.3%
+MRO-SPP
+26.8%
+21.4%
+3.8%
+NPCC-Maritimes
+83.8%
+73.4%
+53.3%
+NPCC-New England
+14.0%
+4.0%
+-0.9%
+NPCC-New York
+34.2%
+15.0%
+7.5%
+NPCC-Ontario
+32.4%
+32.4%
+12.3%
+NPCC-Québec
+34.5%
+16.4%
+7.3%
+PJM
+26.2%
+16.1%
+3.8%
+SERC-C
+18.9%
+13.9%
+5.6%
+SERC-E
+26.3%
+17.4%
+10.3%
+SERC-FP
+25.8%
+20.7%
+13.6%
+SERC-SE
+36.9%
+33.1%
+24.7%
+TRE-ERCOT
+67.9%
+60.2%
+20.4%
+WECC-AB
+32.3%
+28.2%
+9.1%
+WECC-Basin
+37.6%
+34.9%
+11.5%
+WECC-BC
+40.5%
+40.0%
+9.6%
+WECC-Cal
+55.6%
+54.3%
+17.0%
+WECC-Mex
+32.5%
+25.5%
+11.0%
+WECC-NW
+26.9%
+25.2%
+8.8%
+WECC-RM
+51.9%
+49.2%
+21.5%
+WECC-SW
+48.1%
+44.7%
+25.2%
+Seasonal risk scenarios for each assessment area are presented in the Regional Assessments
+Dashboards section. The on-peak reserve margin and seasonal risk scenario charts in each
+
+2026 Summer Reliability Assessment
+10
+
+Risk Highlights
+
+dashboard provide potential summer peak demand and resource condition information, as well as
+risk hour resource condition information for areas where the risk hour differs from the peak
+demand hour. The reserve margins on the right side of the dashboard pages provide a comparison
+to the previous year’s assessment. The seasonal risk scenario charts present deterministic
+scenarios for further analysis of different demand and resource levels with adjustments for normal
+and extreme conditions. The assessment areas determined the adjustments to capacity and peak
+demand based on methods or assumptions that are summarized in the seasonal risk scenario
+charts; more information about these dashboard charts is provided in the Data Concepts and
+Assumptions section.
+The seasonal risk scenario charts can be expressed in terms of reserve margins: In Table 3, each
+assessment area’s Anticipated Reserve Margins are shown alongside the reserve margins for a
+typical generation outage scenario (where applicable) and the extreme demand and resource
+conditions in their seasonal risk scenario.
+Highlighted in orange are the areas identified as having resource adequacy or energy risks for the
+summer in the Key Findings section. The typical outage reserve margin includes anticipated
+resources minus the capacity that is likely to be on maintenance or forced outage during peak
+demand conditions. If the typical maintenance or forced outage margin is the same as the
+Anticipated Reserve Margin, it is because an assessment area has already factored typical outages
+into the anticipated resources. The extreme conditions margin includes all components of the
+scenario and represents the most severe operating conditions of an area’s summer risk scenario.
+Note that any reserve margin below zero indicates that the resources fall below demand in the
+scenario.
+In addition to the peak demand and seasonal risk hour scenario charts, the assessment areas
+provided a resource adequacy risk assessment that was probability-based for the summer season.
+Results are summarized in Table 4. The risk assessments account for the hour(s) of greatest risk of
+resource shortfall. For most areas, the hour(s) of risk coincides with the time of forecasted peak
+demand; however, some areas incur the greatest risk at other times based on the varying demand
+and resource profiles. Various risk metrics are provided and include LOLE, LOLH, EUE, and the
+probabilities of an EEA occurrence.
+
+Energy Emergency Alerts
+Extreme generation outages, low resource output, and peak loads similar to those experienced
+in wide-area heat events and the heat domes experienced in western parts of North America
+during the last three summers are ongoing reliability risks in certain areas for Summer 2026.
+When forecasted resources in an area fall below expected demand and operating reserve
+requirements, BAs may need to employ operating mitigations or EEAs to obtain the capacity
+and energy necessary for reliability. A description of each EEA level is provided below.
+
+EEA Level
+
+EEA1
+
+EEA2
+
+EEA3
+
+2026 Summer Reliability Assessment
+11
+
+Description
+
+EEA Levels
+
+•
+
+The BA is experiencing conditions in which all
+available generation resources are committed
+to meet firm load, firm transactions, and
+reserve commitments and is concerned about
+sustaining its required contingency reserves.
+
+•
+
+Non-firm wholesale energy sales (other than
+those that are recallable to meet reserve
+requirements) have been curtailed.
+
+•
+
+The BA is no longer able to provide its
+expected energy requirements and is an
+energy-deficient BA.
+
+•
+
+An energy-deficient BA has implemented its
+operating plan(s) to mitigate emergencies.
+
+•
+
+An energy-deficient BA is still able to maintain
+minimum contingency reserve requirements.
+
+•
+
+The energy-deficient BA is unable to meet
+minimum contingency reserve requirements.
+
+All available generation
+resources in use
+
+Load management
+procedures in effect
+
+Firm load interruption
+is imminent or in
+progress
+
+Circumstances
+
+Risk Highlights
+
+Assessment Area
+
+Type of Assessment
+
+MISO
+
+Planning Year 2026–2027 LOLE
+Study Report
+
+MRO-Manitoba
+
+2024 and 2025 NERC
+Probabilistic
+Assessment (ProbA)
+
+MRO-SaskPower
+
+Probability-based capacity
+adequacy
+assessment Summer 2026
+
+MRO-SPP
+
+NPCC
+
+SPP East Assessment Area and
+2024 NERC Probabilistic
+Assessment (ProbA)
+NPCC conducted an all-hour
+probabilistic assessment that
+consisted of a base case and
+several more severe scenarios
+examining low resources and
+higher loads. The highest peak
+load scenario has a 7%
+probability of occurring.
+
+NPCC-Maritimes
+
+NPCC-New
+England
+
+Table 4: Probability-Based Risk Assessment
+Results and Insight from Assessment
+MISO’s values for LOLH and EUE are taken from the noted assessment report, where the annual LOLE was set at 1 day in 10 years or 0.1 LOLE but
+equated to 0.076 LOLE for the summer. For Summer 2026, LOLH is 0.235 hrs/year and EUE is 983.8 MWH/year for the Reference Margin Level.
+Expectations for load loss and unserved energy are less than these amounts because MISO’s resources are above the Reference Margin Level.
+Manitoba Hydro’s probability-based resource adequacy risk assessments for the summer season display risk when hydro flow conditions are low
+and load is higher than expected. Based on the analysis that was conducted for the 2024 and 2025 ProbA, this risk was considered low as
+normalized EUE was less than 2 parts per million and LOLH was less than 0.2 hrs/year.
+SaskPower conducted a probability-based capacity adequacy assessment for the 2026 Summer season. This assessment considered uncertainties
+in load forecasts, wind forecasts, and forced generation outages to calculate the expected number of hours with energy deficiencies (LOLH). LOLH
+equated to 0.09 hrs/season, and the month of highest risk has shifted from June to September, when the system experiences the largest
+uncertainties in load and generator availability forecasts. September risk makes up over 50% of summer season risk within this assessment area.
+SaskPower indicated that in extreme conditions, it may have to use short-term power transfers from neighboring utilities, maintenance
+rescheduling, and/or demand-response programs to prevent energy shortfall.
+Based on SPP East’s probabilistic assessment and the 2024 NERC ProbA, risk observed in summer 2026 was minimal. Risk hours that materialized
+during simulations occurred during late afternoon and early evening periods and were driven by high demand and low wind conditions.
+
+NPCC Regional Entity assesses that there will be an adequate supply of electricity across the Regional Entity this summer. Necessary strategies
+and procedures are in place to deal with operational challenges and emergencies as they may develop. Preliminary results of the probabilistic
+analysis by assessment area are below. NPCC anticipates releasing the assessment in May.
+
+The preliminary results of NPCC’s probabilistic assessment indicate that the Maritimes Area is not expected to require use of its established
+operating procedures designed to mitigate resource shortages during Summer 2026 based on a probabilistic-based assessment. The Maritimes
+Area did not demonstrate any measurable amounts of cumulative LOLE, LOLH, or EUE risks, and established operating procedures were sufficient
+to maintain a balance over the May–September summer period for all the scenarios modeled.
+The preliminary results 16 of NPCC’s probabilistic assessment indicate that use of New England’s established operating procedures are sufficient
+to maintain a balance between electricity supply and expected 50/50 demand if needed to mitigate resource shortages. Preliminary cumulative
+LOLE (days/season), LOLH (hours/season), and EUE (MWh/season) risks were reported as negligible over the summer May to September period
+for the expected load with expected resources scenario. Under an extreme scenario, the estimated cumulative LOLE risk is 0.343 days/period,
+with associated LOLH of1.178 hours/period and EUE of 628 MWh/period with the highest risk occurring in June, with some in July and August.
+
+16 Based on preliminary runs from March 31, 2026
+
+2026 Summer Reliability Assessment
+12
+
+Risk Highlights
+
+Assessment Area
+NPCC-New York
+
+NPCC-Ontario
+
+NPCC-Québec
+
+PJM
+
+SERC
+SERC-Central
+SERC-East
+SERC-Florida
+Peninsula
+SERC-Southeast
+Texas RE-ERCOT
+
+Table 4: Probability-Based Risk Assessment
+Type of Assessment
+Results and Insight from Assessment
+The preliminary results of NPCC’s probabilistic assessment indicate that use of New York’s established operating procedures are sufficient to
+maintain a balance between electricity supply and expected 50/50 demand if needed to mitigate resource shortages during Summer 2026 with
+less than 0.017 days of LOLE, 0.042 hours of LOLH, and 20 MWh of EUE, which is below elevated risk criteria under the scenario of highest peak
+load and reduced resource conditions; the estimated cumulative risk reached 0.655 days of LOLE, 2.004 hours of LOLH, and 1,262 MWh of EUE,
+with the greatest risks occurring in July and August.
+The preliminary results of NPCC’s probabilistic assessment indicate that operating procedures are not needed to maintain a balance between
+electricity supply and demand. Even under peak load and low-resource conditions, the risk of LOLE remained negligible. This stability is supported
+by nearly 1,100 MW of new capacity from recent gas facility upgrades and storage projects. Consequently, no emergency operating procedures
+were required to maintain the balance between supply and demand.
+The preliminary results of NPCC’s probabilistic assessment indicate that Québec area is not expected to require use of its operating procedures
+designed to mitigate resource shortages during Summer 2026 based on a probabilistic-based assessment. Québec did not demonstrate any
+measurable amounts of cumulative LOLE, LOLH, or EUE risks over the May–September summer period for all the scenarios modeled since the
+system is winter peaking. The Québec area expects to be able to help other areas if needed.
+The RRS analyzed a wide range of load scenarios (low, regular, and extreme) as well as multiple scenarios for system-wide unavailable capacity
+due to forced outages, maintenance outages, and ambient derations. During extreme high temperatures that can cause record demand, PJM
+2023 PJM Reserve Requirement
+anticipates the need for demand-response resources to help reduce load at times this summer. PJM is forecasting 26% installed reserves (including
+Study (RRS)
+expected committed demand response), which is above the reserve requirement margin of 18.6% necessary to meet the 1-day-in-10-years LOLE
+criterion.
+SERC performed a probabilistic resource adequacy assessment for the summer season (June–September) using the PowerGEM SERVM model.
+Probabilistic resource adequacy
+The analysis is based on an 8,760 hourly model with 5,375 Monte Carlo simulations per hour and incorporates data across 43 historical weather
+assessment for the 2026
+years (1980–2022), load forecast uncertainty, generator forced outages, power transfer between SERC assessment areas, and variable energy
+Summer season
+resource performance.
+Results from the summer 2026 probabilistic risk assessment indicate that resources will be sufficient to meet projected demand and do not
+exhibit any EUE or LOLH.
+Simulations performed show that small amounts of EUE materialized in a single summer evening hour under a high-stress scenario involving
+elevated load, reduced solar output during the evening ramp, and coincident generator outages. The magnitude and frequency of the event are
+low and do not indicate a broader resource adequacy concern.
+No EUE or LOLH materialized within SERC-Florida Peninsula across all simulations, which resulted in an implied LOLE of approximately zero. These
+results indicate that available resources are sufficient to meet projected demand under modeled conditions.
+The probabilistic assessment did not identify any loss of load events for SERC-Southeast during the Summer 2026 season. EUE and LOLH were
+both zero across all simulation hours.
+The simulation indicates low risk of having to declare an EEA for hour 21, the highest risk hour for the peak load day in August (which is also the
+ERCOT probabilistic assessment
+expected summer peak load day) with a probability of declaring an EEA of 0.43%. This is categorized by ERCOT as “low risk” per its criteria of
+using the PRRM
+hourly EEA probability that is equal to or less than 10%. For the 2025 SRA, ERCOT reported EEA declaration probability for hour ending 21 of
+3.1%. The large decrease in EEA probabilities is due to the addition of 8,780 MW of BESS capacity in 2025 and 2,677 MW more as of March 2026.
+2026 Summer Reliability Assessment
+13
+
+Risk Highlights
+
+Assessment Area
+
+Type of Assessment
+
+WECC
+
+Probabilistic resource adequacy
+assessment for the 2026
+Summer season
+
+Table 4: Probability-Based Risk Assessment
+Results and Insight from Assessment
+For the 2026 SRA, WECC, for the first time, performed a probabilistic resource adequacy assessment using the PowerGEM SERVM model based
+on an 8,760 hourly model that incorporates data across 43 historical weather years, load forecast uncertainty, generator forced outages, power
+transfers, and variable energy resources shapes. With this shift, WECC opted to default to the NERC defined Reference Margin Level and change
+its reporting to reflect the different data construct and reporting of results.
+
+WECC-AB
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+WECC–Basin
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+WECC-BC
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+WECC-CA
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+WECC-Mex
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+WECC-RM
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+WECC-NW
+
+WECC’s probabilistic analysis showed EUE at 2.7 MWh and LOLH of 0.1 hours weighted average under a range of weather scenarios for demand
+and energy availability conditions.
+
+WECC-SW
+
+WECC’s probabilistic analysis showed no LOLH or EUE under a range of demand and energy availability conditions.
+
+2026 Summer Reliability Assessment
+14
+
+Regional Assessments Dashboards
+The following assessment area dashboards and summaries were developed based on data and narrative information collected by NERC from the six Regional Entities on an assessment area basis. Guidelines
+and definitions are in the Data Concepts and Assumptions table. On-peak reserve margin bar charts show the Anticipated Reserve Margin compared to a Reference Margin Level that is established for the
+areas to meet resource adequacy criteria. Prospective Reserve Margins can give an indication of additional on-peak capacity but are not used for assessing adequacy. The operational risk analysis shown in
+the following regional assessments dashboard pages provides a deterministic scenario for understanding how various factors that affect resources and demand can combine to impact overall resource
+adequacy. For each assessment area, there is a risk-period scenario graphic; the left blue column shows anticipated resources (from the Demand and Resource Tables section), and the orange column at
+the right shows the two demand scenarios of the normal peak net internal demand (from the Demand and Resource Tables section) and the extreme summer peak demand determined by the assessment
+area. The middle red or green bars show adjustments that are applied cumulatively to the anticipated resources. Adjustments may include reductions for typical generation outages (maintenance and
+forced not already accounted for in anticipated resources) and additions that represent the quantified capacity from operational tools (if any) that are available during scarcity conditions but have not been
+accounted for in the SRA reserve margins. Resources throughout the scenario are compared against expected operating reserve requirements that are based on peak load and normal weather. The
+cumulative effects from extreme events are also factored in through additional resource derates or low-output scenarios. In addition, results from a probability-based resource adequacy assessment are
+shown in the Highlights section of each dashboard. Methods varied by assessment area and provided further insights into the risk conditions forecasted for the summer period.
+
+2026 Summer Reliability Assessment
+15
+
+Regional Assessments Dashboards
+
+MISO
+
+The Midcontinent Independent System Operator, Inc. (MISO) is a not-for-profit, member-based organization that administers wholesale electricity markets that provide customers with valued
+service; reliable, cost-effective systems and operations; dependable and transparent prices; open access to markets; and planning for long-term efficiency. MISO manages energy, reliability, and
+operating reserve markets that consist of 36 local Balancing Authority and 394 market participants, serving approximately 42 million customers. Although parts of MISO fall in three Regional
+Entities, MRO is responsible for coordinating data and information submitted for NERC’s reliability assessments.
+
+Highlights
+• Although MISO’s peak load has increased by 2.5 GW from the 2025 SRA, MISO is not anticipating operational or reliability issues for the 2026 Summer season. Load growth is driven
+by increased projections of data center load and is expected to accelerate in 2027 and beyond, which may lead to increased reliability risk in the future if resource additions cannot
+keep pace with rising load forecasts.
+• MISO’s capacity resources have improved since Summer 2025, and new additions are made up of predominantly solar resource installations, along with smaller amounts of natural
+gas, wind, and battery storage resources. Solar resources are helping the system serve peak load but are shifting risk hours to later in the day where intermittent resource capabilities
+are low and temperatures are above expected conditions.
+• MISO benefits from transmission connections with neighbors to meet extreme weather conditions, and reliance may increase when extreme conditions arise.
+Risk Scenario Summary
+Expected resources meet operating reserve requirements for assessed scenarios. Above-normal summer peak load combined with low resource conditions could result in the need to employ
+operating mitigations (e.g., load-modifying resources) and EEAs. Emergency declarations that can only be called upon when available generation is at maximum capability are necessary to
+access demand-response resources when operating reserve shortfalls are projected.
+
+Fuel Mix
+100%
+
+Risk Period Scenario
+Other
+
+90%
+
+40%
+30%
+20%
+10%
+0%
+
+2025
+2026
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+Demand Scenarios: Net internal demand forecast (50/50) plus transmission losses.
+
+80%
+70%
+60%
+50%
+
+Nuclear
+
+Maintenance Outages: Rolling three-year average of maintenance outages that occurred during the summer
+(June-September) peak hour.
+
+Solar
+
+Forced Outages: Rolling three-year average of forced outages that occurred during the summer (June–
+September) peak hour.
+
+40%
+Natural
+Gas
+
+30%
+20%
+10%
+0%
+
+On-Peak Reserve Margin
+
+Coal
+On-Peak
+
+Extreme Derates: Rolling three-year average of maintenance and planned outages that occurred across
+thermal resources during the summer (June-September) peak hour, plus a reduction in solar resource
+performance during the risk hour.
+Operational Mitigations: A total of 2.4 GW capacity resources available during extreme conditions.
+2026 Summer Reliability Assessment
+16
+
+Regional Assessments Dashboards
+
+MRO-Manitoba Hydro
+
+Manitoba Hydro provides electricity to approximately 601,000 electric customers in Manitoba and provides approximately 291,000 customers with natural gas in Southern Manitoba. The service
+area is the province of Manitoba, which is 251,000 square miles. Manitoba Hydro is a provincial crown corporation and one of the largest integrated electricity and natural gas distribution utilities in
+Canada. Manitoba Hydro is winter peaking. Manitoba Hydro is its own Planning Coordinator (PC) and BA. Manitoba Hydro is a coordinating member of MISO. MISO is the RC for Manitoba Hydro.
+
+Highlights
+• Manitoba Hydro is not anticipating any operational challenges or emerging reliability issues in its assessment area for Summer 2026.
+• Manitoba Hydro’s demand increase of 2.5% is driven primarily by population and economic growth, including electrification of a large industrial customer to reduce carbon emissions.
+Currently, new cryptocurrency operations cannot connect in Manitoba due to a moratorium.
+• The 2024 ProbA for the 2026 load year shows an EUE of 4 MWh and an LOLH of 0.05 hours.
+• Manitoba Hydro’s reservoir storage conditions are below average, but winter snowfall has been above average, which should favorably impact spring runoff. The Manitoba Hydro
+system is designed and operated such that reliable operations can be maintained under extreme drought. Manitoba Hydro expects to reliably supply its internal demand and export
+obligations, even if extreme drought develops through 2026–2027.
+• Manitoba Hydro continues to monitor summer resource adequacy in the MISO area but does not believe that there are significant seasonal reliability issues in MISO or in other
+neighboring assessment areas that have potential to impact Manitoba Hydro operations for Summer 2026.
+• The Anticipated Reserve Margin for Summer 2026 exceeds the 12% Reference Margin Level.
+
+On-Peak Reserve Margin
+16%
+14%
+12%
+10%
+8%
+6%
+4%
+2%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Fuel Mix
+100%
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+90%
+80%
+60%
+
+Conventional
+Hydro
+
+50%
+
+Wind
+
+70%
+
+40%
+30%
+
+Natural Gas
+
+20%
+10%
+0%
+
+Risk Period Scenario
+
+On-Peak
+
+Demand Scenarios: 50/50 Demand with allowance for extreme demand based on a 90th percentile extreme
+weather scenario of 36.0 C (96.8 F).
+Forced Outages: Typical forced outages.
+Extreme Derates: Summer wind capacity accreditation of 18.2% of nameplate rating based on MISO seasonal
+analysis. No further wind output derates based on experience; wind farms constitute less than 1% of
+Manitoba Hydro’s available capacity.
+Operational Mitigations: Utilize Curtailable Rate Program to manage peak demand; assume 100 MW of
+non-firm imports available.
+
+2026 Summer Reliability Assessment
+17
+
+Regional Assessments Dashboards
+
+MRO-SaskPower
+
+MRO-SaskPower is an assessment area that covers the Canadian province of Saskatchewan. The province has a geographic area of 651,900 square kilometers (251,700 square miles) and a population
+of just over 1.1 million people. The Saskatchewan Power Corporation (SaskPower) is the PC and RC for the province of Saskatchewan and is the principal supplier of electricity in the province. SaskPower
+is a provincial Crown corporation and, under provincial legislation, is responsible for the reliability oversight of the Saskatchewan BES and its interconnections. Overall, SaskPower operates nearly
+14,816 circuit-km of transmission lines, 65 high-voltage switching stations, and 191 distribution substations. Peak electricity demand on the SaskPower system currently occurs during the winter
+season.
+Highlights
+• Although Saskatchewan is mainly a winter-peaking region, summer can also bring high electricity demand due to extreme heat.
+• There is a 1.9% increase in TID from the 2025 SRA projection. This growth is mainly driven by population growth in the province, expansion projects, reduced self-generation in the
+industrial sector, and increased electrification.
+• SaskPower conducted a probability-based capacity adequacy assessment for the 2026 Summer season. This assessment considered uncertainties in load forecasts, wind forecasts, and
+forced generation outages to calculate the expected number of hours with energy deficiencies (LOLH). According to probabilistic in-house model, the LOLH for an elevated risk scenario
+for the 2026 Summer season is 0.09 hours, which is nearly in line with the 0.1 LOLH risk criteria NERC sets for the elevated-risk level. The month with the highest LOLH is September
+(0.05 hours).
+• Based on the planned maintenances, typical forced outages from historical data, and expected renewable generation under the normal and extreme demand conditions, SaskPower
+does not anticipate any reliability issues during Summer 2026. Under extreme conditions, however, SaskPower may have to use short-term power transfers from neighboring utilities,
+maintenance outage deferrals, and/or demand-response programs to maintain sufficient supplies.
+
+On-Peak Reserve Margin
+40%
+30%
+20%
+10%
+0%
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under normal peak demand and outage conditions. During extreme summer conditions causing above-normal demand or generator
+outages, SaskPower can experience operating reserve shortfalls that it would mitigate using rescheduled planned maintenance, short-term power transfers from neighboring utilities, and/or
+available demand-response programs.
+Fuel Mix
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+Risk Period Scenario
+Other
+Conventional
+Hydro
+Wind
+Natural Gas
+
+On-Peak
+
+Coal
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+Demand Scenarios: Net internal demand (50/50) and above-normal scenario based on peak demand with
+lighting and all consumer loads.
+Forced Outages: Based on historic generation stats and SaskPower’s forced outage rate models.
+Extreme Derates: Based on the wind turbines datasheet and the percentage of the total available wind that
+will be cut off when the temperature is extremely high (40 degrees and higher).
+Operational Mitigations: Estimated non-firm imports and standby generators on 2–7 days’ notice. In
+addition, 176 MWs of demand response can be called upon during operating emergencies.
+
+2026 Summer Reliability Assessment
+18
+
+Regional Assessments Dashboards
+
+MRO-SPP
+
+The Southwest Power Pool (SPP) PC footprint covers 546,000 square miles and encompasses all or parts of Arkansas, Iowa, Kansas, Louisiana, Minnesota, Missouri, Montana, Nebraska, New Mexico,
+North Dakota, Oklahoma, South Dakota, Texas, and Wyoming. The SPP long-term assessment is reported based on the PC footprint, which touches parts of the MRO Regional Entity and the WECC
+Regional Entity. The SPP assessment area footprint has approximately 61,000 miles of transmission lines, 756 generating plants, and 4,811 transmission-class substations, and it serves a population
+of more than 18 million.
+Highlights
+• At this time, SPP does not anticipate any operational challenges that would result in reliability risk under normal conditions.
+• SPP has operational procedures in place to manage generation outages taken over the summer to ensure appropriate generation is in place for high load. These procedures utilize
+probabilistic forecasts on factors such as load, generation, and outages to prepare for upcoming peak conditions.
+• With heavy reliance on wind generation, SPP’s greatest summer risk periods are when wind availability is low. If these low wind periods correspond to peak load conditions, then the
+combination presents extra risk for the area.
+• SPP is projecting a 1.5% increase in forecasted 2026 Summer peak load vs. 2025 Summer peak actuals. Solar PV and energy storage continue to grow rapidly.
+Risk Scenario Summary
+Expected resources are sufficient to meet operating reserve requirements under normal peak-demand and outage scenarios. A combination of higher-than-average demand or lower-thanexpected wind generation could result in the need for operating mitigations (e.g., demand response and transfers from neighboring systems), including resource advisories and EEAs, where
+appropriate.
+
+On-Peak Reserve Margin
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Fuel Mix
+120%
+
+Risk Period Scenario
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+100%
+
+Other
+
+Demand Scenarios: Net internal demand (50/50) and extreme demand is a 4.9% increase from net internal
+demand.
+
+80%
+
+Conventional
+Hydro
+
+Maintenance and Forced Outages: Represent five-year historical averages; calculated from SPP’s generation
+assessment process.
+
+60%
+
+Wind
+
+Extreme Derates: Additional unavailable capacity from operational data at high-demand periods.
+
+40%
+
+Natural Gas
+
+20%
+0%
+
+Low Wind Scenario: Derates reflecting an average low-wind day in the summer.
+
+Coal
+On-Peak
+2026 Summer Reliability Assessment
+19
+
+Regional Assessments Dashboards
+
+NPCC-Maritimes
+
+NPCC-Maritimes is an assessment area that covers the Canadian Maritime provinces—New Brunswick, Nova Scotia, and Prince Edward Island—and the northernmost portion of the U.S. state of
+Maine. The area covers approximately 150,000 square kilometers (58,000 square miles) and has a total population of nearly 1.9 million people. The New Brunswick Power Corporation (NB Power) is
+the BA for New Brunswick, Prince Edward Island, and the northern portion of Maine. Nova Scotia Power Inc. (NSPI) is the BA for Nova Scotia. NB Power’s system is electrically interconnected with
+NPCC-Québec and NPCC-New England, and the electric systems in the provinces of Nova Scotia and Prince Edward Island have ties with New Brunswick but no direct ties with other assessment
+areas. Peak electricity demand in NPCC-Maritimes occurs during the winter season.
+Highlights
+• There are no anticipated issues for the Maritimes in the upcoming summer assessment period with sufficient firm capacity to meet the forecast peak demand.
+• The Maritimes has not identified any operational issues that are expected to impact system reliability. Emergency operations and planning procedures are in place to mitigate
+operational events.
+• Maritimes summer on-peak reserve margin is largely driven by resource maintenance outages. As a result of fewer planned outages (~1,000 MW) at peak, the 2026 on-peak reserve
+margin doubled from the 2025 SRA (84% compared to 42%).
+• The preliminary results of NPCC’s probabilistic assessment indicate that the Maritimes area is not expected use their operating procedures during the Summer of 2026 to maintain
+sufficient supply. The Maritimes area did not demonstrate any measurable amounts of cumulative LOLE, LOLH, or EUE risks, and established operating procedures were sufficient to
+maintain an energy balance over the May–September summer period for all the scenarios.
+• Although margins can go negative in May under the high load (above 90:10) scenario, there are opportunities to purchase non-firm energy through the interconnections with
+neighboring control areas as this scenario does not coincide with either the Maritimes or the NPCC summer peaks.
+• Dual-fueled units will have sufficient supplies of heavy fuel oil (HFO) on site to enable sustained operation in the event of natural gas supply interruptions.
+
+On-Peak Reserve Margin
+100%
+80%
+60%
+40%
+20%
+0%
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+
+Other
+
+90%
+80%
+70%
+60%
+50%
+40%
+20%
+
+On-Peak
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+Demand Scenarios: Net internal demand (50/50) and above 90/10 extreme demand forecast.
+Forced Outages: Based on historic operating experience.
+
+Hydro
+
+Extreme Derates: A low-likelihood scenario comprising a 100% derate of solar and storage, a 50% derate of
+wind (calm weather), and a 50% derate to natural gas (fuel supply issue).
+
+Petroleum
+
+10%
+
+2026
+
+Nuclear
+
+Natural Gas
+
+30%
+
+0%
+
+Risk Period Scenario
+
+2025
+
+Operational Mitigations: Changes to system operating conditions in the Maritimes area (i.e., transmission
+and/or generator outages) will be managed using short-term operating procedures (STOP), which would
+outline any special operating conditions for the operators.
+
+Coal
+
+2026 Summer Reliability Assessment
+20
+
+Regional Assessments Dashboards
+
+NPCC-New England
+
+NPCC-New England is an assessment area consisting of the states of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont that is served by ISO New England (ISO-NE) Inc.
+ISO-NE is a regional transmission organization that is responsible for the reliable day-to-day operation of New England’s bulk power generation and transmission system, administration of the area’s
+wholesale electricity markets, and management of the comprehensive planning of the regional BPS.
+The New England BPS serves approximately 14.5 million customers over 68,000 square miles.
+Highlights
+• The New England area Anticipated Reserve Margin of 14% marginally exceeds the Reference Margin Level of 13%, avoiding a shortfall between anticipated resources and the reference
+level for reserves. There is, however, a 41 MW shortfall if resource additions are not included.
+• ISO-NE assumes a net interchange of 409 MW, which is capacity-backed; however, ISO-NE typically imports around 3,000 MW during summer peak load conditions.
+• ISO-NE does not anticipate any operational challenges or reliability issues for the upcoming 2026 Summer assessment period and forecasts adequate transmission capability and
+manageable capacity margins to meet the expected peak demand and operating reserves.
+• Since January 2026, New England has added NECEC, a symmetric monopole +/- 320kV HVdc line from the 735 kV Appalaches substation in Québec to a new 345 kV substation, Merrill
+Road in Lewiston, Maine. NECEC will be used as an “import-only” tie with Hydro Québec and is capable of importing up to 1,200 MW into New England, but only on a non-firm basis
+for the coming summer.
+• A probabilistic assessment was conducted for New England, modeling both NPCC and its neighboring regions. The analysis simulated a base case (50/50 normal demand) alongside a
+highest peak load scenario, which has a 7% probability of occurrence. The preliminary results of the probabilistic assessment indicate that use of New England’s established operating
+procedures is sufficient to maintain a balance between electricity supply and expected 50/50 demand if needed to mitigate resource shortages during Summer 2026. Under the
+scenario of highest peak load levels and reduced resource conditions, the estimated cumulative risk reached 0.343 days of LOLE, 1.178 hours of LOLH, and 628 MWh of EUE, with the
+greatest risks occurring in June and July. The final NPCC 2026 Summer Reliability Assessment will be approved in May 2026.
+
+On-Peak Reserve Margin
+18%
+16%
+14%
+12%
+10%
+8%
+6%
+4%
+2%
+0%
+
+Risk Scenario Summary
+The New England area expects to have sufficient resources to meet the 2026 summer peak demand forecast through the use of its established operating procedures and significant imports
+over its many ties to its neighbors that have historically been able to provide up to 3,000 MW during summer peak load conditions.
+
+GW
+
+Fuel Mix
+
+Risk Period Scenario
+
+2025
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+
+100%
+
+Other
+
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+80%
+
+Nuclear
+
+Demand Scenarios: Forecasted risk hour demand (50/50) and (90/10) extreme demand adder.
+
+60%
+40%
+
+Pumped
+Storage
+Solar
+
+20%
+
+Natural Gas
+
+0%
+
+On-Peak
+
+2026
+
+Maintenance Outages: Historical average of maintenance outages.
+Typical Forced Outages: Based on historical average of forced outages for summer period.
+Operational Mitigations: Based on load and capacity relief assumed available from invocation of ISO-NE
+operating procedures.
+
+Petroleum
+
+2026 Summer Reliability Assessment
+21
+
+Regional Assessments Dashboards
+
+NPCC-New York
+
+NPCC-New York is an assessment area consisting of the New York ISO (NYISO) service territory. NYISO is responsible for operating New York’s BPS, administering wholesale electricity markets, and
+conducting system planning. NYISO is the only BA within the state of New York. The BPS in New York encompasses over 11,000 miles of transmission lines and 760 power generation units and serves
+20.2 million customers. For this SRA, the established Reference Margin Level is 15%. Wind, grid-connected solar PV, and run-of-river totals were derated for this calculation. However, New York
+requires load-serving entities to procure capacity for their loads equal to their peak demand plus an installed reserve margin (IRM). The IRM requirement represents a percentage of capacity above
+peak load forecast and is approved annually by the New York State Reliability Council. The council approved the 2026–2027 IRM at 24.5%.
+Highlights
+• NYISO is not anticipating any operational issues in the New York control area for the upcoming summer.
+• Adequate capacity margins are projected for the summer peak, and prospective transactions with neighbors should mitigate reliability concerns. Operating procedures should be
+sufficient to handle any issues that may occur.
+• The preliminary results of the NPCC probabilistic assessment indicate that use of New York’s established operating procedures is sufficient to maintain a balance between electricity
+supply and expected 50/50 demand if needed to mitigate resource shortages during Summer 2026. The expected load and resource scenario resulted in negligible risks over the May
+to September summer period, with less than 0.017 days of LOLE, 0.042 hours of LOLH, and 20 MWh of EUE.
+• In contrast, under the scenario of highest peak load and reduced resources, the estimated cumulative risk reached 0.655 days of LOLE, 1.996 hours of LOLH, and 1,255 MWh of EUE,
+with the greatest risks occurring in July and August.
+• to coordinate extensively with neighboring RCs and BAs to improve situational awareness and vet needs for firm or non-firm transfers to address extreme system conditions
+
+On-Peak Reserve Margin
+40%
+30%
+20%
+10%
+0%
+
+Risk Scenario Summary
+The preliminary results of NPCC’s probabilistic assessment indicate that New York’s established operating procedures are sufficient to maintain a balance between electricity supply and expected
+demand, if needed, to mitigate shortages during Summer 2026.
+Fuel Mix
+100%
+90%
+80%
+70%
+
+Risk Period Scenario
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+
+Other
+
+Risk Period: The risk period is at the time of peak demand.
+
+Nuclear
+
+Demand Scenarios: Net internal demand (50/50) and (90/10) extreme demand forecast. Maintenance
+Outages: Based on historical performance and the new NYISO capacity accreditation process.
+
+60%
+
+Forced Outages: Based on historical five-year averages.
+
+50%
+40%
+30%
+20%
+
+Conventional
+Hydro
+
+Extreme Derates: Estimated resources unavailable in extreme conditions.
+
+Natural Gas
+
+Operational Mitigations: A total of 3.2 GW based on operational/emergency procedures in area emergency
+operations manual.
+
+10%
+0%
+
+2025
+
+On-Peak
+
+Petroleum
+
+2026 Summer Reliability Assessment
+22
+
+Regional Assessments Dashboards
+
+NPCC-Ontario
+
+NPCC-Ontario is an assessment area that covers the Canadian province of Ontario. The province of Ontario covers more than 1 million square kilometers (415,000 square miles) and has a population
+of over 16 million people. The Independent Electricity System Operator (IESO) is the BA for the province of Ontario. NPCC-Ontario is electrically interconnected with NPCC-Québec, MRO-Manitoba,
+MISO, and NPCC-New York. Peak electricity demand in NPCC-Ontario occurs during the summer season.
+
+Highlights
+• Ontario is well prepared for Summer 2026, and the IESO expects that the electricity system will remain reliable.
+• Demand increased 2.7% over last year, driven in part by a rise in certain economic indicators, such as higher total employment, across the forecast horizon. However, uncertainty
+persists in the current economic environment with Ontario’s largest trading partner.
+• Existing-certain capacity is 8.4% higher than last year, reflecting the addition of new units. Established resource adequacy policy sets out a competitive strategy for securing new
+resources in the short, medium, and long terms. Also, Darlington G4 nuclear refurbishment was completed early and will be available for the summer period.
+• Net firm capacity transfers increased 30.6% from Summer 2025. Although the capacity auction secured fewer imports for Summer 2026 compared to Summer 2025, IESO has chosen
+to utilize 300 MW of the 2015 Capacity Sharing Agreement with Hydro-Québec for the period commencing June 1, 2026, and ending September 30, 2026.
+• Anticipated resources are projected 9% higher than Summer 2025 due to upgrades at existing natural gas facilities and new energy storage facilities anticipated to be coming on-line
+this summer.
+• The preliminary results of NPCC’s probabilistic assessment indicate that operating procedures were not needed to maintain a balance between electricity supply and demand. Even
+under peak load and low-resource conditions, the risk of LOLE remained negligible. This stability is supported by nearly 1,100 MW of new capacity from recent gas facility upgrades
+and storage projects. Consequently, no emergency operating procedures were required to maintain the balance between supply and demand.
+
+On-Peak Reserve Margin
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+
+Risk Period Scenario
+
+40%
+
+0%
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+
+Nuclear
+
+Demand Scenarios: Net internal demand (50/50 forecast) and highest weather-adjusted daily demand based
+on 31 years of demand history, and extreme weather represents a 97/3 distribution of probabilistically
+modeled data.
+
+Natural Gas
+On-Peak
+
+Anticipated Reserve Margin
+
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+Conventional
+Hydro
+
+20%
+
+2026
+
+Other
+
+80%
+60%
+
+2025
+
+Extreme Derates: Derived from weather-adjusted temperature ratings of thermal units and adjustments to
+expected hydro production for low water conditions.
+Operational Mitigations: The operational procedures used to mitigate extreme conditions total
+approximately 2,100 MW for the On-Peak Risk Scenario, consisting of Imports, Public Appeals, and voltage
+reductions.
+2026 Summer Reliability Assessment
+23
+
+Regional Assessments Dashboards
+
+NPCC-Québec
+
+NPCC-Québec is an assessment area that covers the Canadian province of Québec. The province of Québec covers over 1.5 million square kilometers (nearly 600,000 square miles) and has a
+population of nearly 9 million people. Hydro-Québec is the BA for the province of Québec. The Québec BPS is one of the four electric Interconnections in North America. It is a predominantly
+hydroelectric-generation-based system that is electrically interconnected with NPCC-Ontario, NPCC-New York, NPCC-New England, and NPCC-Maritimes. Peak electricity demand in NPCC-Québec
+occurs during the winter season.
+Highlights
+• Québec is a winter-peaking hydroelectric system. Despite reduced generation because of reduced runoff in northern Québec since 2023, the Québec area expects no issues in meeting
+its operational needs this summer.
+• Load (NID) is projected to decrease by 1% with respect to 2025.
+• Net firm capacity exports have significantly increased (+1,018 MW) this year, as the CHPE is positioned to provide firm capacity to New York for the summer.
+• There is a significant change to existing-certain capacity (3.7% or +1,192 MW). Hydro-Québec includes its planned outages in its certain capacity. This year, Hydro-Québec improved its
+modeling of its outages partially to account for its flexibility in managing outages; notably, the ability to recall certain outages to improve margins during peak events is highlighted.
+• The preliminary results of NPCC’s probabilistic assessment indicate that Québec area is not expected to require use of operating procedures designed to mitigate resource shortages
+during Summer 2026. Québec did not demonstrate any measurable amounts of cumulative LOLE, LOLH, or EUE risks over the May–September summer period for all the scenarios
+modeled since the system is winter peaking. The Québec area expects to be able to help other areas if needed.
+
+On-Peak Reserve Margin
+40%
+30%
+20%
+10%
+0%
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+
+Fuel Mix
+100%
+
+Risk Period Scenario
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+90%
+
+Demand Scenario: Net internal demand (50/50) and (90/10) demand forecast.
+
+80%
+
+Forced Outages: Based on historical data and trending.
+
+70%
+60%
+
+Other
+
+50%
+40%
+
+Conventional
+Hydro
+
+30%
+
+Extreme Derates: Estimated resources unavailable in extreme conditions.
+Operational mitigations: An operational procedure used to mitigate extreme conditions and not already
+included in margins is the depletion of some operating reserves by 750 MW.
+
+20%
+10%
+0%
+
+2025
+
+On-Peak
+
+2026 Summer Reliability Assessment
+24
+
+Regional Assessments Dashboards
+
+PJM
+
+PJM Interconnection is a regional transmission organization that coordinates the movement of wholesale electricity in all or parts of Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New
+Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, West Virginia, and the District of Columbia. PJM’s footprint covers approximately 369,054 square miles and serves more than 67 million
+people. PJM is the area’s BA, Transmission and Resource Planner, Interchange Authority, TOP, Transmission Service Provider, and RC. PJM is electrically interconnected with MISO, NPCC-New York,
+SERC-Central, and SERC-East. Peak electricity demand in PJM occurs during the summer season.
+Highlights
+• PJM is expecting a low risk of resources falling below the required reserve requirement during Summer 2026.
+• PJM is forecasting ~26% installed reserves (including expected committed demand resources), which is above the PJM reserve requirement margin of 18.6% that is necessary to meet
+the 1-day-in-10-years LOLE criterion. The highest risk for unserved energy is at peak demand hour.
+• If extreme high temperatures are experienced, PJM anticipates the need for demand-response resources to help reduce load.
+• New and better load forecasts and advancement of planned resources have improved PJM’s reserve margin looking into this summer over previous assessments.
+• The LOLH and EUE values reported in the 2024 LTRA for 2026 were 0.12 hours/year and 537.52 MWh/year, respectively. These values corresponded to a 17.8% operable margin (also
+reported in the 2024 LTRA). Since the expected actual reserve margin for the PJM system is 26% in 2026, the LOLH and EUE values associated with a 26% reserve margin are expected
+to be lower than those reported in the 2024 LTRA.
+
+On-Peak Reserve Margin
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+
+Risk Period Scenario
+
+100%
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+90%
+80%
+
+Other
+
+70%
+
+Nuclear
+
+60%
+50%
+
+Solar
+
+40%
+
+Natural Gas
+
+30%
+
+Petroleum
+
+20%
+
+Demand Scenarios: Net internal demand (50/50) and (90/10) demand forecast.
+Forced Outages: Based on historical data and trending.
+Extreme Derates: Accounts for thermal capacity contributions due to performance in extreme conditions.
+Operational Mitigations: A total of 3.6 GW estimated based on operational/emergency procedures. This
+includes 500 MWs of additional demand response that can be called upon during operating emergencies.
+
+Coal
+
+10%
+0%
+
+Reference Margin Level
+
+On-Peak
+
+2026 Summer Reliability Assessment
+25
+
+Regional Assessments Dashboards
+
+SERC-Central
+
+SERC-Central is an assessment area within the SERC Regional Entity and includes all or portions of Alabama, Georgia, Iowa, Kentucky, Mississippi, Missouri, North Carolina, Oklahoma, Tennessee, and
+Virginia. SERC-Central is a dual-peaking assessment area, experiencing peak electricity demand during both the summer and winter seasons. The PCs in this subregion include Associated Electric
+Cooperative Inc., Louisville Gas & Electric/Kentucky Utilities, Owensboro, KY Municipal Utilities, and the Tennessee Valley Authority. Other SERC member entities in this subregion include
+Brookfield/Smoky Mountain, Memphis Light, Gas and Water Division, and Nashville Electric Service.
+Highlights
+• No significant reliability concerns were identified.
+• Modest load growth (~1–3%) is driven by residential, industrial, and emerging data center demand.
+• Increased demand response (DR) results from new demand-side management (DSM) programs and large industrial load enrollments.
+• Adequate capacity, transfers, resource assumptions and reserve margins remain sufficient to support reliability.
+• Robust operational planning and coordination, with DSM/DR programs providing additional flexibility during peak conditions.
+• ProbA results show negligible risk for this summer.
+
+On-Peak Reserve Margin
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+Nuclear
+
+Demand Scenarios: Net internal demand (50/50) and extreme demand forecast based on extreme summer
+weather (equals or exceeds the (90/10) demand forecast).
+
+Run of River
+Hydro
+
+Maintenance Outages: Adjusted for higher outages resulting from extreme summer temperatures and
+aggregated on a SERC subregional level.
+
+Conventional
+Hydro
+
+20%
+
+Natural Gas
+
+10%
+On-Peak
+
+Reference Margin Level
+
+Other
+
+30%
+
+0%
+
+Risk Period Scenario
+
+Prospective Reserve Margin
+
+Forced Outages: Accounts for reduced thermal capacity contributions due to performance in extreme
+conditions.
+Operational Mitigations: 1.9 GW based on operational/emergency procedures.
+
+Coal
+
+2026 Summer Reliability Assessment
+26
+
+Regional Assessments Dashboards
+
+SERC-East
+
+SERC-East is an assessment area within the SERC Regional Entity and includes North Carolina and South Carolina. SERC-East is a winter-peaking assessment area. The PCs in this subregion include
+Cube Hydro Carolinas LLC, Dominion Energy South Carolina Inc., Duke Energy Carolinas LLC, Duke Energy Progress LLC, and the South Carolina Public Service Authority (Santee Cooper). Other SERC
+member entities in this subregion include the Cube Hydro Carolinas-Yadkin Division and Southeastern Power Administration.
+
+Highlights
+• No significant operational challenges or emerging reliability issues were identified; system conditions remain adequate for Summer 2026.
+• Fuel supply, generation availability, and transmission operations are expected to be adequate, with no major outages anticipated to impact reliability.
+• Minimal changes are expected in demand and resource mix; reserve margins remain above planning targets despite updated solar/storage accreditation.
+• Strong coordination processes and established operating procedures support reliable peak demand management.
+• ProbA results show negligible risk for this summer.
+
+On-Peak Reserve Margin
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+100%
+
+Risk Period Scenario
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+
+Fuel Mix
+
+2025
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+
+Other
+
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+Nuclear
+
+Demand Scenarios: Net internal demand (50/50) and extreme demand forecast based on extreme summer
+weather (equals or exceeds the (90/10) demand forecast).
+
+50%
+
+Pumped
+Storage
+
+40%
+
+Solar
+
+Maintenance Outages: Adjusted for higher outages resulting from extreme summer temperatures and
+aggregated on a SERC subregional level.
+
+90%
+80%
+70%
+60%
+
+30%
+10%
+
+Natural
+Gas
+
+0%
+
+Coal
+
+20%
+
+Forced Outages: Accounts for reduced thermal capacity contributions due to performance in extreme
+conditions.
+Operational Mitigations: A total of 728 MW based on operational/emergency procedures.
+
+On-Peak
+
+2026 Summer Reliability Assessment
+27
+
+Regional Assessments Dashboards
+
+SERC-Florida Peninsula
+
+SERC-Florida Peninsula is an assessment area within the SERC Regional Entity and includes all of Florida. SERC-Florida Peninsula is a summer-peaking assessment area. The PCs in this subregion
+include Duke Energy Florida LLC, the Florida Municipal Power Agency, Florida Power & Light Company, Florida Reliability Coordinating Council Inc., Gainesville Regional Utilities, the City of Homestead,
+JEA, Lakeland Electric, the Orlando Utilities Commission, Seminole Electric Cooperative, the City of Tallahassee, and Tampa Electric Company.
+
+Highlights
+• No significant operational challenges or emerging reliability issues were identified; system conditions remain stable for Summer 2026.
+• There is an adequate demand and capacity outlook, with minimal year-over-year changes and no significant operational risks.
+• There is strong resource adequacy, with projected reserve margins (~26%) well above the 15% reference margin.
+• DR (~3,350 MW available) and established coordination practices support peak demand and emergency preparedness.
+• ProbA results show negligible risk for this summer.
+
+On-Peak Reserve Margin
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+90%
+80%
+70%
+
+Risk Period Scenario
+
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+Nuclear
+
+Demand Scenarios: Net internal demand (50/50) and extreme demand forecast based on extreme summer
+weather (equals or exceeds the (90/10) demand forecast).
+
+Solar
+
+Maintenance Outages: Adjusted for higher outages resulting from extreme summer temperatures and
+aggregated on a SERC subregional level.
+
+40%
+30%
+20%
+
+Natural
+Gas
+
+10%
+
+Coal
+
+0%
+
+Scenario Description (See Data Concepts and Assumptions)
+
+Other
+
+60%
+50%
+
+Reference Margin Level
+
+Forced Outages: Accounts for reduced thermal capacity contributions due to performance in extreme
+conditions.
+Operational Mitigations: A total of 2.5 GW based on operational/emergency procedures.
+
+On-Peak
+2026 Summer Reliability Assessment
+28
+
+Regional Assessments Dashboards
+
+SERC-Southeast
+
+SERC-Southeast is an assessment area within the SERC Regional Entity and includes all or portions of Alabama, Florida, Georgia, and Mississippi. SERC-Southeast is a summer-peaking assessment
+area. The PCs in this subregion include Georgia Transmission Corporation, the Municipal Electric Authority of Georgia, PowerSouth Energy Cooperative, and Southern Company Services, Inc. - Trans.
+
+Highlights
+• No significant reliability risks were identified; fuel supply and generation portfolios remain diverse and adequate.
+• Natural gas pipeline constraints and increasing solar penetration present manageable operational considerations, not reliability threats.
+• Moderate load growth (~1–3%), driven by economic conditions, residential and commercial expansion, and emerging data center load.
+• Limited reliance on DR; existing operating practices and planning processes are sufficient to meet peak demand.
+• ProbA results show negligible risk for this summer.
+
+On-Peak Reserve Margin
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+
+Risk Period Scenario
+
+100%
+
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+90%
+80%
+70%
+60%
+50%
+
+Other
+
+Demand Scenarios: Net internal demand (50/50) and extreme demand forecast based on extreme summer
+weather (equals or exceeds the (90/10) demand forecast).
+
+Nuclear
+
+Maintenance Outages: Adjusted for higher outages resulting from extreme summer temperatures and
+aggregated on a SERC subregional level.
+
+Solar
+
+Forced Outages: Accounts for reduced thermal capacity contributions due to performance in extreme
+conditions.
+
+40%
+Natural
+Gas
+
+30%
+20%
+
+Coal
+
+10%
+0%
+
+Prospective Reserve Margin
+
+Extreme Derates: Estimated resources unavailable in extreme conditions.
+Operational Mitigations: A total of 2.1 GW based on operational/emergency procedures.
+
+On-Peak
+2026 Summer Reliability Assessment
+29
+
+Regional Assessments Dashboards
+
+Texas RE-ERCOT
+
+The Electric Reliability Council of Texas (ERCOT) is the independent system operator (ISO) for the ERCOT Interconnection and is located entirely in the state of Texas; it operates as a single BA. It also performs financial
+settlement for the competitive wholesale bulk power market and administers retail switching for nearly 8 million premises in competitive choice areas. ERCOT is governed by a board of directors and subject to oversight
+by the Public Utility Commission of Texas and the Texas Legislature. ERCOT is summer peaking, and the forecasted summer peak load month is August. It covers approximately 200,000 square miles, connects over 54,100
+miles of transmission lines, has over 1,460 generation units, and serves more than 26 million customers. Texas RE is responsible for the Regional Entity functions described in the Energy Policy Act of 2005 for ERCOT. On
+November 3, 2022, the Public Utility Commission of Texas issued an order directing ERCOT to assume the duties and responsibilities of the reliability monitor for the Texas grid.
+
+Highlights
+• Given an Anticipated Reserve Margin of 67.9% and Reference Reserve Margin of 13.75%, ERCOT expects to have sufficient operating reserves for the August peak load hour given
+expected normal system summer conditions.
+• Continued growth in load and intermittent resources drives a higher risk of emergency conditions in the evening hours when solar generation ramps down and loads are high.
+• The probability of an EEA during the expected August (and summer) peak load day continues to drop relative to previous SRAs due to continued robust growth in battery energy storage
+capacity (up 2,677 MW year-on-year as of March 2026). The EEA probability for the highest-risk hour—hour ending 9:00 p.m.—is 0.43%, down from 3.1% previously.
+• The projected EEA risk does not account for regional constraints in Far West Texas, which may lead to a reliance on price-responsive demand in certain low-generation scenarios.
+• An identified risk is the potential of newly interconnected large loads (mainly data centers and crypto-mining facilities) to trip and potentially cause grid stability problems. ERCOT has
+implemented mandatory ride-through capabilities and requires dynamic model submissions, among other solutions, to address this risk.
+• The risk assessment process for this SRA will be the same as ERCOT’s upcoming August 2026 Monthly Outlook of Resource Adequacy (MORA) to be released on June 5.
+
+On-Peak Reserve Margin
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+The risk of having to declare an EEA for hour 21 is low (0.43%), according to ERCOT’s probabilistic reserve risk model (PRRM) simulation results. The highest risk hour for the peak load day in
+August (which is also the expected summer peak load day).
+Fuel Mix
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+Risk Period Scenario
+Other
+Battery
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Hour: The highest risk hour, HE 2100 (9:00 pm CDT).
+Demand Scenarios: Net internal demand, and an adjustment to extreme demand based on the 95th
+percentile of the PRRM’s distribution of load simulation outcomes for the highest-risk hour (HE 2100).
+
+Wind
+
+Forced Outages: The adjustment is the 95th percentile of 10,000 daily thermal forced outage values
+generated by the PRRM, less the 50th percentile value.
+
+Solar
+
+Low-Wind Scenario: The adjustment is the 50th percentile of 10,000 wind generation values for hour ending
+2100 generated by the PRRM, less the 0th percentile value.
+
+Natural
+Gas
+
+Extreme Derates: The adjustment is the 50th percentile of 10,000 solar generation values for hour ending
+2100 generated by the PRRM, less the 0th percentile value.
+Operational Mitigations: Additional capacity from switchable generation and additional imports.
+
+Coal
+
+2026 Summer Reliability Assessment
+30
+
+Regional Assessments Dashboards
+
+WECC-Alberta
+
+WECC-Alberta is an assessment area that covers the Canadian province of Alberta. The province has a geographic area of 661,848 square kilometers (255,541 square miles) and a population of almost
+5 million people. The Alberta Electric System Operator (AESO) is the province’s planning entity and RC responsible for safe, reliable, and economic operation of the Alberta Interconnected Electric
+System. AESO is a non-profit corporation that operates a system that includes approximately 26,000 kilometers of transmission lines and connects approximately 426 qualified generating units and
+nearly 250 market participants through a wholesale market. Alberta’s transmission system has three interties with neighboring areas—Saskatchewan (see MRO-SaskPower), British Columbia (see
+WECC-British Columbia), and Montana (see WECC-Northwest). Peak electricity demand on the AESO system currently occurs during the winter season.
+Highlights
+• Anticipated Reserve Margins for the summer exceed the NERC-prescribed Reference Margin Level. Additionally, WECC’s probabilistic analysis shows no LOLH or EUE under a range of
+demand and energy availability conditions.
+• Peak demand is projected to increase by 2.1% over last summer’s forecast.
+• Wide-area heat events and wildfires that affect resource and transmission availability across the Western Interconnection are a reliability concern. Firm imports may be limited at this
+time if neighboring areas are also experiencing peak loads, limiting energy availability.
+
+On-Peak Reserve Margin
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+
+Other
+
+90%
+80%
+
+Run of River
+Hydro
+
+70%
+60%
+50%
+
+Conventional
+Hydro
+
+40%
+
+Wind
+
+Risk Period Scenario
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+Demand Scenarios: Net internal demand (50/50) and (90/10) demand forecast.
+Forced Outages: Average seasonal outages.
+Extreme Derates: (90/10) resource performance distribution at peak hour.
+
+30%
+Solar
+
+20%
+10%
+0%
+
+Natural Gas
+On-Peak
+2026 Summer Reliability Assessment
+31
+
+Regional Assessments Dashboards
+
+WECC-Basin
+
+WECC-Basin is a summer-peaking assessment area in the WECC Regional Entity that includes Utah, southern Idaho, and a portion of western Wyoming, covering Idaho Power and PacifiCorp’s eastern
+Balancing Authority Area. The population of this area is approximately 5.4 million. It has 15,910 miles of transmission. WECC is responsible for coordinating and promoting BES reliability in the
+Western Interconnection. WECC’s 329 members include 40 BAs, representing a wide spectrum of organizations with an interest in the BES. Serving an area of nearly 1.8 million square miles and
+more than 84.5 million customers, it is geographically the largest and most diverse Regional Entity.
+
+Highlights
+• WECC-Basin has established a 15% Reference Margin Level for the 2026 Summer assessment period.
+• Wildfires remain a reliability concern for the region, particularly in areas with remote generation such as remotely located hydro. Mitigation programs such as hardening and public
+safety shutoff programs are in place.
+• Extreme temperatures pose a risk to the area, impacting load levels and renewable variability. WECC-Basin is positioned to rely on imports during such conditions, which also poses a
+risk of concurrent impacts should neighbors experience similar conditions.
+• Load forecasts for the area are projected to be 2.5% higher than 2025 Summer actuals.
+• Wind, solar, and energy storage resources continue to grow.
+• Reserve margins are not anticipated to fall below the 15% Reference Margin Level for 2026 Summer. Both Anticipated and Prospective Reserve Margins are expected to be adequate
+at 37.6%
+
+On-Peak Reserve Margin
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios with imports.
+Fuel Mix
+100%
+
+Other
+
+90%
+80%
+
+Conventional
+Hydro
+
+70%
+60%
+50%
+
+Risk Period Scenario
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+Demand Scenarios: Net internal demand (50/50) and (90/10) demand forecast.
+Forced Outages: Average seasonal outages.
+Extreme Derates: (90/10) resource performance distribution at peak hour.
+
+Solar
+
+40%
+30%
+
+Natural Gas
+
+20%
+10%
+0%
+
+Coal
+On-Peak
+2026 Summer Reliability Assessment
+32
+
+Regional Assessments Dashboards
+
+WECC-British Columbia
+
+WECC-British Columbia is an assessment area that covers the Canadian province of British Columbia. The province has a geographic area of 944,735 square kilometers (364,764 square miles) and a population of just over
+5 million people. BC Hydro is the Planning Entity and RC for the province of British Columbia and is the principal supplier of electricity for the province. BC Hydro is a provincial Crown corporation and, under provincial
+legislation, is responsible for the oversight of the British Columbia BES and its interconnections. BC Hydro operates an integrated system supported by 32 hydroelectric plants, approximately 80,000 kilometers of
+transmission and distribution lines, and 125 contracts with independent power producers. BC Hydro’s transmission system has two interties with neighboring areas—the U.S. state of Washington (see WECC-Northwest)
+and Alberta (see WECC-Alberta). Peak electricity demand on the BC Hydro system currently occurs during the winter season.
+
+Highlights
+• Anticipated Reserve Margins for the summer exceed the NERC-recommended Reference Margin Level.
+• WECC’s probabilistic analysis shows no LOLH nor EUE under a range of demand and energy availability conditions.
+• Peak net internal demand is projected to increase 2.4% over last summer’s forecast while anticipated resources increase by 15.7%.
+• Wide-area heat events or wildfires that affect resource and transmission availability across the Western Interconnection are a reliability concern. Energy imports may be limited at this
+time if neighboring areas are also experiencing peak loads, limiting energy availability.
+• Supply chain constraints and economic uncertainty may impact Tier 1 resources.
+
+On-Peak Reserve Margin
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+Other
+
+90%
+80%
+
+Run of River
+Hydro
+
+70%
+60%
+50%
+40%
+
+Conventional
+Hydro
+
+30%
+
+Biomass
+
+Risk Period Scenario
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+Demand Scenarios: Net internal demand (50/50) and (90/10) demand forecast.
+Forced Outages: Average seasonal outages.
+Extreme Derates: (90/10) resource performance distribution at peak hour.
+
+20%
+10%
+0%
+
+Natural Gas
+On-Peak
+2026 Summer Reliability Assessment
+33
+
+Regional Assessments Dashboards
+
+WECC-California
+
+WECC-California is a summer-peaking assessment area in the Western Interconnection that includes most of California and a small section of Nevada. The assessment area has a population of over
+42.5 million people. The area includes the California ISO, the Los Angeles Department of Water and Power, the Turlock Irrigation District, and the Balancing Area of Northern California. It has 32,712
+miles of transmission. WECC is responsible for coordinating and promoting BES reliability in the Western Interconnection. WECC’s 329 members include 40 BAs, representing a wide spectrum of
+organizations with an interest in the BES. Serving an area of nearly 1.8 million square miles and more than 84.5 million customers, it is geographically the largest and most diverse Regional Entity.
+
+Highlights
+• Anticipated Reserve Margins for the summer exceed the NERC-prescribed Reference Margin Level. WECC’s probabilistic analysis shows no LOLH or EUE under a range of demand and
+energy availability conditions.
+• Extreme heat and wildfires exacerbated by continued climate change may impact generation and transmission resources and remain a reliability concern.
+• Cyber attacks pose significant reliability concerns for the area.
+• Supply chain constraints and economic uncertainty may impact Tier 1 resources.
+• Inverter-based resource (IBR) output variability remains a concern, such as from the evening ramp requirements from declining solar and Santa Ana winds, which can overspeed wind
+turbines, requiring them to curtail.
+
+On-Peak Reserve Margin
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+100%
+90%
+80%
+70%
+60%
+40%
+
+Battery
+
+Demand Scenarios: 50/50 and 90/10. Significant difference in delta from 2025. May be from switch to SERVM
+and weather year adjustment taken out.
+
+20%
+10%
+0%
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: On-peak risk scenario.
+
+Solar
+
+30%
+
+Reference Margin Level
+
+Other
+
+Conventional
+Hydro
+
+50%
+
+Risk Period Scenario
+
+Prospective Reserve Margin
+
+Natural Gas
+
+Forced Outages: Based on historical average of forced outages for a specified period/conditions (e.g., average
+of forced outages for June through September weekdays, over the past three years), or area-specific
+methodology for determining anticipated forced outages for non-intermittent resources (e.g., thermal,
+hydro).
+Extreme Derates: Capacity derate for resources for extreme conditions. The derate accounts for reduced
+capacity contributions due to performance in extreme conditions for thermal, wind, PV, storage, and other.
+
+On-Peak
+
+2026 Summer Reliability Assessment
+34
+
+Regional Assessments Dashboards
+
+WECC-Mexico
+
+WECC-Mexico is a summer-peaking assessment area in the Western Interconnection that includes the northern portion of the Mexican state of Baja California, which has a population of 3.8 million
+people and includes Centro Nacional de Control de Energía (CENACE). It has 1,568 miles of transmission. WECC is responsible for coordinating and promoting BES reliability in the Western
+Interconnection. WECC’s 329 members include 40 BAs, representing a wide spectrum of organizations with an interest in the BES. Serving an area of nearly 1.8 million square miles and more than
+84.5 million customers, it is geographically the largest and most diverse Regional Entity.
+
+Highlights
+• WECC-Mexico has added an additional 1 GW of natural-gas-fired resources since last summer, greatly improving its outlook from the 2025 SRA.
+• Anticipated Reserve Margins for the summer exceed the NERC-prescribed Reference Margin Level. WECC’s probabilistic analysis shows no LOLH or EUE under a range of demand and
+energy availability conditions. Anticipated resources are projected to be 15.5% higher.
+• Operating reserves are a concern in this region during periods of extreme heat and elevated demand. High loading on Path 45 (See: WECC Path Rating Catalog) coupled with outages
+or derates to large thermal assets in this region can result in the declaration of an EEA and a request for assistance from RC West.
+• Some generating units have reached advanced operational age, resulting in an observable increase in the forced outage rate. This condition increases the risk of capacity shortfalls and
+may compromise system reliability during peak seasonal demand.
+
+On-Peak Reserve Margin
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+
+Risk Period Scenario
+
+100%
+
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy at peak demand hour.
+
+90%
+
+Other
+
+80%
+
+Demand Scenarios: Net internal demand (50/50) and (90/10) demand forecast.
+Forced Outages: Average seasonal outages.
+
+70%
+60%
+
+Geothermal
+
+Extreme Derates: Using (90/10) resource performance distribution at peak hour.
+
+50%
+40%
+Natural Gas
+
+30%
+20%
+10%
+0%
+
+Petroleum
+On-Peak
+2026 Summer Reliability Assessment
+35
+
+Regional Assessments Dashboards
+
+WECC-Northwest
+
+WECC-Northwest is a winter-peaking assessment area in the WECC Regional Entity. The area includes Montana, Oregon, and Washington and parts of northern California and northern Idaho. The
+population of the area is approximately 13.6 million. It has 32,751 miles of transmission. WECC is responsible for coordinating and promoting BES reliability in the Western Interconnection. WECC’s
+329 members include 40 BAs, representing a wide spectrum of organizations with an interest in the BES. Serving an area of nearly 1.8 million square miles and more than 84.5 million customers, it
+is geographically the largest and most diverse Regional Entity.
+
+Highlights
+• Anticipated Reserve Margins for the summer exceed the NERC-prescribed Reference Margin Level. WECC’s probabilistic analysis shows EUE at 2.7 MWh and LOLH of 0.1 hours weighted
+average under a range of weather scenarios for demand and energy availability conditions.
+• The EUE and LOLH occurs in hours 17 and 18 in August and September, with the vast majority September hour 18.
+• Peak net internal demand is projected to grow 4.6% over last summer’s forecasts; however, anticipated resources are showing just a 1.5% increase in energy availability, leading to
+tighter margins.
+• Wide-area heat events, wildfires, and low snow-water equivalents due to a changing climate impact generation resource and transmission availability and remain a continued reliability
+concern. Firm imports may be limited at this time if neighboring areas are also experiencing peak loads or derates, limiting energy availability.
+• Supply chain constraints and economic uncertainty may impact Tier 1 resources.
+• There have been instances where operators had difficulty maintaining frequency due to sudden disconnection of large loads necessitating additional regulation capability.
+
+On-Peak Reserve Margin
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+Risk Scenario Summary
+Expected resources do not meet operating reserve requirements under the assessed extreme scenarios. WECC’s probabilistic analysis showed EUE at 2.7 MWh and LOLH of 0.1 hours weighted
+average under a range of weather scenarios for demand and energy availability conditions, placing the area at risk of shortfall during extreme conditions.
+Fuel Mix
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+Risk Period Scenario
+Other
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Modeled output depicting load-loss event from the probabilistic model.
+Risk Period: Off-peak highest risk hour is primarily 6 p.m. in September.
+
+Run of River
+Hydro
+
+Demand Scenarios: Modeled load for the risk hour during load-loss event.
+
+Conventional
+Hydro
+
+Extreme Derates: Modeled outage and derates to account for underperformance of resources at the risk
+hour.
+
+Natural Gas
+
+Typical Forced Outages: Based on historical average of forced outages for the period.
+
+Operational Mitigations: An operational procedure used to mitigate extreme conditions not already
+included in the margins is the depletion of operating reserves by 1.7 GW. WECC did not use an operational
+model prior to this year's report, and it the first time the model includes operating reserves of 6% withheld
+through unserved energy.
+
+2026 Summer Reliability Assessment
+36
+
+Regional Assessments Dashboards
+
+WECC-Rocky Mountain
+
+WECC-BC (British Columbia) is a winter-peaking assessment area in the WECC Regional Entity that consists of the province of British Columbia, Canada. WECC is responsible for coordinating and
+promoting BES reliability in the Western Interconnection. WECC’s 329 members include 39 Balancing Authorities, representing a wide spectrum of organizations with an interest in the BES. Serving an
+area of nearly 1.8 million square miles and more than 82 million customers, it is geographically the largest and most diverse Regional Entity. WECC’s service territory extends from Canada to Mexico. It
+includes the provinces of Alberta and British Columbia in Canada, the northern portion of Baja California in Mexico as well as all or portions of the 14 Western United States in between.
+
+Highlights
+• WECC-Rocky Mountain has established a 15% Reference Margin Level for the 2026 Summer assessment period.
+• Anticipated Reserve Margins for the summer exceed the NERC-recommended Reference Margin Level.
+• Wildfires in the region, along with extreme heat conditions for the summer, pose the greatest reliability risk scenario for the Rocky Mountains. These conditions can impact rural coops disproportionately.
+• The existing certain and Anticipated Reserve Margins are projected to be at 43% and 52%, respectively, above the established 15% for the summer. Projections for summer load indicate
+minimal growth from 2025 and are 0.6% higher than 2025 Summer peak load conditions.
+
+On-Peak Reserve Margin
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025
+
+2026
+
+Anticipated Reserve Margin
+Prospective Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under assessed scenarios with imports.
+Fuel Mix
+100%
+
+Other
+
+90%
+80%
+70%
+
+Conventional
+Hydro
+
+60%
+
+Wind
+
+50%
+40%
+
+Risk Period Scenario
+
+Reference Margin Level
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy occurs at the hour of peak demand.
+Demand Scenarios: Net internal demand (50/50) and (90/10) demand forecast.
+Forced Outages: Average seasonal outages.
+Extreme Derates: (90/10) resource performance distribution at peak hour.
+
+Solar
+
+30%
+20%
+
+Natural Gas
+
+10%
+0%
+
+On-Peak
+
+Coal
+
+2026 Summer Reliability Assessment
+37
+
+Regional Assessments Dashboards
+
+WECC-Southwest
+
+WECC-Southwest is a summer-peaking assessment area in the Western Interconnection that includes all of Arizona and New Mexico, most of Nevada, and small parts of California and Texas. The area
+has a population of approximately 13.6 million. It has 23,084 miles of transmission. WECC is responsible for coordinating and promoting BES reliability in the Western Interconnection. WECC’s 329
+members include 40 BAs, representing a wide spectrum of organizations with an interest in the BES. Serving an area of nearly 1.8 million square miles and more than 84.5 million customers, it is
+geographically the largest and most diverse Regional Entity.
+
+Highlights
+• Anticipated Reserve Margins for the summer exceed the NERC-prescribed Reference Margin Level. WECC’s probabilistic analysis shows no LOLH or EUE under a range of demand and
+energy availability conditions.
+• Peak net internal demand is projected to grow 9.5% over last summer’s forecasts. DR availability has also increased from 199 MW to 364 MW.
+• Anticipated resource capacity is expected to be 32.5% higher than last summer, mostly due to methodological changes to capacity of incoming future resources. Supply chain constraints
+and economic uncertainty may impact Tier 1 resources.
+• Elevated forced outage rates due to the amount of aging generation capacity along with extensive overhaul requirements can keep resources out of service for extended periods of
+time.
+• Extreme heat events can result in prolonged periods of elevated demand, derates to thermal generation, and—given the large area that heat waves cover—drastically reduced import
+capability from neighboring areas. The area also faces significant wildland fire potential this summer. Wildfires have the potential to interrupt large numbers of customers by damaging
+generation, transmission, and distribution assets.
+
+On-Peak Reserve Margin
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+100%
+
+Other
+
+90%
+80%
+
+Battery
+
+70%
+60%
+
+Nuclear
+
+50%
+40%
+20%
+
+Scenario Description (See Data Concepts and Assumptions)
+Risk Period: Highest risk for unserved energy occurs at the hour of peak demand (5:00 p.m. local).
+Demand Scenarios: Net internal demand (50/50) at risk hour and (90/10) demand forecast.
+Forced Outages: Average seasonal outages.
+Extreme Derates: Using (90/10) scenario.
+
+Natural
+Gas
+
+10%
+On-Peak
+
+Anticipated Reserve Margin
+Reference Margin Level
+
+Solar
+
+30%
+
+0%
+
+Risk Period Scenario
+
+2026
+
+Prospective Reserve Margin
+
+Risk Scenario Summary
+Expected resources meet operating reserve requirements under the assessed scenarios.
+Fuel Mix
+
+2025
+
+Coal
+2026 Summer Reliability Assessment
+38
+
+Data Concepts and Assumptions
+The table below explains data concepts and important assumptions used throughout this assessment.
+General Assumptions
+•
+
+Reliability of the interconnected BPS is comprised of both adequacy and operating reliability:
+
+
+Adequacy is the ability of the electric system to supply the aggregate electric power and energy requirements of the electricity consumers at all times while taking into account scheduled and
+reasonably expected unscheduled outages of system components.
+
+
+
+Operating reliability is the ability of the electric system to withstand sudden disturbances, such as electric short-circuits or unanticipated loss of system components.
+
+•
+
+The reserve margin calculation is an important industry planning metric used to examine future resource adequacy.
+
+•
+
+All data in this assessment is based on existing federal, state, and provincial laws and regulations.
+
+•
+
+Differences in data collection periods for each assessment area should be considered when comparing demand and capacity data between year-to-year seasonal assessments.
+
+• A positive net transfer capability would indicate a net importing assessment area; a negative value would indicate a net exporter.
+Demand Assumptions
+•
+
+Electricity demand projections, or load forecasts, are provided by each assessment area.
+
+•
+
+Load forecasts include peak hourly load 17 or total internal demand for the summer and winter of each year. 18
+
+•
+
+Total internal demand projections are based on normal weather (50/50 distribution) 19 and are provided on a coincident 20 basis for most assessment areas.
+
+•
+
+Net internal demand is used in all reserve margin calculations, and it is equal to total internal demand then reduced by the amount of controllable and dispatchable demand response projected to
+be available during the peak hour.
+
+17 https://www.nerc.com/pa/Stand/Glossary%20of%20Terms/Glossary_of_Terms.pdf used in NERC Reliability Standards
+18 The summer season represents June–September and the winter season represents December–February.
+
+19 Essentially, this means that there is a 50% probability that actual demand will be higher and a 50% probability that actual demand will be lower than the value provided for a given season/year.
+
+20 Coincident: This is the sum of two or more peak loads that occur in the same hour. Noncoincident: This is the sum of two or more peak loads on individual systems that do not occur in the same time interval; this is meaningful only when
+considering loads within a limited period of time, such as a day, a week, a month, a heating or cooling season, and usually for not more than one year. SERC calculates total internal demand on a noncoincidental basis.
+
+2026 Summer Reliability Assessment
+39
+
+Data Concepts and Assumptions
+
+Resource Assumptions
+Resource planning methods vary throughout the North American BPS. NERC uses the categories below to provide a consistent approach for collecting and presenting resource adequacy. Because the
+electrical output of VERs (e.g., wind, solar PV) depends on weather conditions, their contribution to reserve margins and other on-peak resource adequacy analysis is less than their nameplate capacity.
+Anticipated Resources:
+•
+
+Existing-Certain Capacity: Included in this category are commercially operable generating units or portions of generating units that meet at least one of the following requirements when examining
+the period of peak demand for the summer season: unit must have a firm capability and have a power purchase agreement with firm transmission that must be in effect for the unit; unit must be
+classified as a designated network resource; and/or, where energy-only markets exist, unit must be a designated market resource eligible to bid into the market.
+
+•
+
+Tier 1 Capacity Additions: This category includes capacity that either is under construction or has received approved planning requirements.
+
+•
+
+Net Firm Capacity Transfers (Imports minus Exports): This category includes transfers with firm contracts.
+
+Prospective Resources: Includes all anticipated resources plus the following:
+Existing-Other Capacity: Included in this category are commercially operable generating units or portions of generating units that could be available to serve load for the period of peak demand for the
+season but do not meet the requirements of existing-certain.
+Reserve Margin Descriptions
+Planning Reserve Margin: This is the primary metric used to measure resource adequacy; it is defined as the difference in resources (anticipated or prospective) and net internal demand then divided by
+net internal demand and shown as a percentage.
+Reference Margin Level: The assumptions and naming convention of this metric vary by assessment area. The Reference Margin Level can be determined using both deterministic and probabilistic (based
+on a 0.1/year loss-of-load study) approaches. In both cases, this metric is used by system planners to quantify the amount of reserve capacity in the system above the forecasted peak demand that is needed
+to ensure sufficient supply to meet peak loads. Establishing a Reference Margin Level is necessary to account for long-term factors of uncertainty involved in system planning, such as unexpected generator
+outages and extreme weather impacts that could lead to increase demand beyond what was projected in the 50/50 load forecast. In many assessment areas, a Reference Margin Level is established by a
+state, provincial authority, ISO/Regional Transmission Organization (RTO), or other regulatory body. In some cases, the Reference Margin Level is a requirement. Reference Margin Level s may be different
+for the summer and winter seasons. If a Reference Margin Level is not provided by an assessment area, NERC applies 15% for predominantly thermal systems and 10% for predominantly hydro systems.
+
+2026 Summer Reliability Assessment
+40
+
+Data Concepts and Assumptions
+
+Seasonal Risk Scenario Chart Description
+Each assessment area performed an operational risk analysis that was used to produce the seasonal risk scenario charts in the Regional Assessments Dashboards. The chart presents deterministic scenarios
+for further analysis of different resource and demand levels: The left blue column shows anticipated resources, and the two orange columns at the right show the two demand scenarios of the normal peak
+net internal demand and the extreme summer peak demand—both determined by the assessment area. The middle red or green bars show adjustments that are applied cumulatively to the anticipated
+resources, such as the following:
+•
+
+Reductions for typical generation outages (i.e., maintenance and forced outages that are not already accounted for in anticipated resources)
+
+•
+
+Reductions that represent additional outage or performance derating by resource type for extreme, low-probability conditions (e.g., drought condition impacts on hydroelectric generation, lowwind scenario affecting wind generation, fuel supply limitations, or extreme temperature conditions that result in reduced thermal generation output)
+
+•
+
+Additional capacity resources that represent quantified capacity from operational procedures, if any, that are made available during scarcity conditions
+
+Not all assessment areas have the same categories of adjustments to anticipated resources. Furthermore, each assessment area determined the adjustments to capacity based on methods or assumptions
+that are summarized below the chart. Methods and assumptions differ by assessment area and may not be comparable.
+The chart enables evaluation of resource levels against levels of expected operating reserve requirement and the forecasted demand. Furthermore, the effects from extreme events can also be examined
+by comparing resource levels after applying extreme scenario derates and/or extreme summer peak demand.
+
+2026 Summer Reliability Assessment
+41
+
+Resource Adequacy
+The Anticipated Reserve Margin, which is based on available resource capacity, is a metric used to evaluate resource adequacy by comparing the projected capability of anticipated resources to serve
+forecast peak demand. 21 Large year-to-year changes in anticipated resources or forecast peak demand (net internal demand) can greatly impact Planning Reserve Margin calculations. All assessment areas
+have sufficient Anticipated Reserve Margins to meet or exceed their Reference Margin Level for Summer 2026 as shown in Figure 5.
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+Anticipated Reserve Margin (%)
+
+Prospective Reserve Margin (%)
+
+Reference Margin Level (%)
+
+Figure 5: Summer 2026 Anticipated/Prospective Reserve Margins Compared to Reference Margin Level
+
+21 Generally, anticipated resources include generators and firm capacity transfers that are expected to be available to serve load during electrical peak loads for the season. Prospective resources are those that could be available but do not meet
+
+criteria to be counted as anticipated resources. Refer to the Data Concepts and Assumptions section for additional information on Anticipated/Prospective Reserve Margins, anticipated/prospective resources, and Reference Margin Levels.
+2026 Summer Reliability Assessment
+42
+
+Changes from Year to Year
+Figure 6 provides the relative change in the forecast Anticipated Reserve Margins from the 2025 Summer to the 2026 Summer. A significant decline can signal potential operational issues for the upcoming
+season. Additional details for each assessment area are provided in the Data Concepts and Assumptions and Regional Assessments Dashboards sections.
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+2025 Anticipated Reserve Margin %
+
+2026 Anticipated Reserve Margin %
+
+2025 Reference Margin Levels
+
+2026 Reference Margin Level
+
+Figure 6: Summer 2025 and Summer 2026 Anticipated Reserve Margins Year-to-Year Change
+2026 Summer Reliability Assessment
+43
+
+Net Internal Demand
+The changes in forecasted net internal demand for each assessment area are shown in Figure 7. 22 Assessment areas develop these forecasts based on historic load and weather information as well as
+other long-term projections.
+12%
+10%
+
+9.5%
+
+8%
+6%
+
+4.6%
+
+4%
+
+3.8%
+
+2.8%
+
+2.8%
+
+2.6%
+
+2.5%
+
+2.4%
+
+2.4%
+
+2%
+
+2.2%
+
+2.1%
+
+2.1%
+
+1.9%
+
+1.5%
+
+1.1%
+
+0.6%
+
+0.6%
+
+0.3%
+
+0%
+
+0.3%
+-0.5%
+
+-2%
+
+-1.0%
+-2.6%
+
+-4%
+
+22 The lower demand forecast in Texas RE-ERCOT is the result of updated load modeling that reflects the observed behavior of load during peak periods and more demand response from large computational loads.
+
+2026 Summer Reliability Assessment
+44
+
+WECC-RM
+
+NPCC-Québec
+
+WECC-Mex
+
+SERC-C
+
+NPCC-New England
+
+NPCC-New York
+
+WECC-Cal
+
+MRO-SPP
+
+PJM
+
+MRO-SaskPower
+
+WECC-AB
+
+MISO
+
+SERC-E
+
+WECC-BC
+
+NPCC-Ontario
+
+MRO-Manitoba Hydro
+
+SERC-FP
+
+SERC-SE
+
+NPCC-Maritimes
+
+WECC-Basin
+
+WECC-NW
+
+WECC-SW
+
+Figure 7: Changes in Net Internal Demand—Summer 2025 Forecast Compared to Summer 2026 Forecast
+
+TRE-ERCOT
+
+-4.6%
+
+-6%
+
+Demand and Resource Tables
+The tables in this section contain peak demand and supply capacity data (i.e., resource adequacy data) for each assessment area.
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+MISO
+
+2025 SRA
+MW
+125,313
+9,004
+116,309
+MW
+142,793
+0
+2,280
+145,073
+1,190
+148,543
+Percent (%)
+24.7%
+27.7%
+15.7%
+
+2026 SRA
+MW
+127,824
+9,100
+118,725
+MW
+152,382
+0
+3,259
+155,641
+0
+158,900
+Percent (%)
+31.1%
+33.8%
+15.0%
+
+MRO-SaskPower
+2025 SRA
+MW
+3,620
+50
+3,570
+MW
+4,477
+0
+290
+4,767
+0
+4,767
+Percent (%)
+33.5%
+33.5%
+15.0%
+
+2026 SRA
+MW
+3,688
+50
+3,638
+MW
+4,409
+0
+290
+4,699
+0
+4,699
+Percent (%)
+29.2%
+29.2%
+15.0%
+
+MRO-Manitoba Hydro
+
+2025 vs. 2026 SRA
+Net Change (%)
+2.0%
+1.1%
+2.1%
+Net Change (%)
+6.7%
+42.9%
+7.3%
+-100.0%
+7.0%
+Annual Difference
+6.4
+6.1
+-0.7
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2025 SRA
+MW
+3,377
+0
+3,377
+MW
+5,583
+0
+-1,714
+3,869
+21
+3,890
+Percent (%)
+14.6%
+15.2%
+12.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+1.9%
+0.0%
+1.9%
+Net Change (%)
+-1.5%
+0.0%
+-1.4%
+-1.4%
+Annual Difference
+-4.4
+-4.4
+0.0
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2025 SRA
+MW
+56,168
+1,408
+54,760
+MW
+70,549
+0
+-201
+70,348
+0
+69,801
+Percent (%)
+28.5%
+27.5%
+19.0%
+
+2026 Summer Reliability Assessment
+45
+
+MRO-SPP
+
+2026 SRA
+MW
+3,611
+151
+3,460
+MW
+5,631
+0
+-1,714
+3,917
+46
+3,963
+Percent (%)
+13.2%
+14.5%
+12.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+6.9%
+2.5%
+Net Change (%)
+0.9%
+0.0%
+1.2%
+114.6%
+1.9%
+Annual Difference
+-1.4
+-0.7
+0.0
+
+2026 SRA
+MW
+57,122
+1,772
+55,350
+MW
+69,317
+0
+851
+70,168
+0
+69,621
+Percent (%)
+26.8%
+25.8%
+10.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+1.7%
+25.8%
+1.1%
+Net Change (%)
+-1.7%
+-524.0%
+-0.3%
+-0.3%
+Annual Difference
+-1.7
+-1.7
+-9.0
+
+Demand and Resource Tables
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+NPCC-Maritimes
+2025 SRA
+MW
+3,584
+327
+3,257
+MW
+4,348
+220
+63
+4,631
+0
+4,631
+Percent (%)
+42.2%
+42.2%
+20.0%
+
+NPCC-New England
+2025 SRA
+MW
+25,202
+399
+24,803
+MW
+27,054
+0
+1,245
+28,299
+668
+28,967
+Percent (%)
+14.1%
+16.8%
+12.7%
+
+2026 SRA
+MW
+3,691
+342
+3,349
+MW
+5,721
+280
+153
+6,154
+0
+6,154
+Percent (%)
+83.8%
+83.8%
+20.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+3.0%
+4.6%
+2.8%
+Net Change (%)
+31.6%
+27.3%
+142.9%
+32.9%
+32.9%
+Annual Difference
+41.6
+41.6
+0.0
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 SRA
+MW
+25,228
+346
+24,882
+MW
+27,667
+295
+409
+28,371
+0
+28,371
+Percent (%)
+14.0%
+14.0%
+13.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+0.1%
+-13.3%
+0.3%
+Net Change (%)
+2.3%
+-67.1%
+0.3%
+-100.0%
+-2.1%
+Annual Difference
+-0.1
+-2.8
+0.3
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 Summer Reliability Assessment
+46
+
+NPCC-New York
+2025 SRA
+MW
+31,471
+1,487
+29,984
+MW
+37,682
+0
+1,769
+39,451
+0
+39,451
+Percent (%)
+31.6%
+31.6%
+15.0%
+
+NPCC-Ontario
+2025 SRA
+MW
+21,955
+998
+20,957
+MW
+24,760
+413
+689
+25,862
+0
+25,862
+Percent (%)
+23.4%
+23.4%
+20.5%
+
+2026 SRA
+MW
+31,578
+1,415
+30,163
+MW
+37,324
+210
+2,941
+40,475
+0
+40,475
+Percent (%)
+34.2%
+34.2%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+0.3%
+-4.8%
+0.6%
+Net Change (%)
+-1.0%
+66.3%
+2.6%
+2.6%
+Annual Difference
+2.6
+2.6
+0.0
+
+2026 SRA
+MW
+22,545
+1,088
+21,457
+MW
+26,837
+670
+900
+28,407
+0
+28,407
+Percent (%)
+32.4%
+32.4%
+26.3%
+
+2025 vs. 2026 SRA
+Net Change (%)
+2.7%
+9.1%
+2.4%
+Net Change (%)
+8.4%
+62.2%
+30.6%
+9.8%
+9.8%
+Annual Difference
+9.0
+9.0
+5.9
+
+Demand and Resource Tables
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+NPCC-Québec
+2025 SRA
+MW
+23,283
+1,020
+22,263
+MW
+32,132
+0
+-2,582
+29,550
+0
+29,550
+Percent (%)
+32.7%
+32.7%
+11.9%
+
+PJM
+
+2025 SRA
+MW
+154,144
+7,898
+146,246
+MW
+186,638
+0
+-4,200
+182,438
+0
+178,238
+Percent (%)
+24.7%
+21.9%
+17.7%
+
+2026 SRA
+MW
+22,490
+450
+22,040
+MW
+33,324
+0
+-3,670
+29,655
+0
+29,655
+Percent (%)
+34.5%
+34.5%
+11.9%
+
+2025 vs. 2026 SRA
+Net Change (%)
+-3.4%
+-55.9%
+-1.0%
+Net Change (%)
+3.7%
+42.1%
+0.4%
+0.4%
+Annual Difference
+1.8
+1.8
+0.0
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 SRA
+MW
+156,373
+7,864
+148,509
+MW
+188,854
+0
+-1,427
+187,427
+0
+187,427
+Percent (%)
+26.2%
+26.2%
+18.6%
+
+2025 vs. 2026 SRA
+Net Change (%)
+1.4%
+-0.4%
+1.5%
+Net Change (%)
+1.2%
+-66.0%
+2.7%
+5.2%
+Annual Difference
+1.5
+4.3
+0.9
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 Summer Reliability Assessment
+47
+
+SERC-Central
+2025 SRA
+MW
+42,765
+864
+41,900
+MW
+46,949
+592
+2,554
+50,095
+2,475
+52,570
+Percent (%)
+19.6%
+25.5%
+15.0%
+
+SERC-East
+2025 SRA
+MW
+44,015
+1,558
+42,457
+MW
+54,665
+17
+150
+54,832
+2,628
+57,459
+Percent (%)
+29.1%
+35.3%
+15.0%
+
+2026 SRA
+MW
+44,369
+2,354
+42,016
+MW
+47,603
+202
+2,158
+49,962
+4,546
+54,508
+Percent (%)
+18.9%
+29.7%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+3.8%
+172.3%
+0.3%
+Net Change (%)
+1.4%
+-66.0%
+-15.5%
+-0.3%
+83.7%
+3.7%
+Annual Difference
+-0.6
+4.3
+0.0
+
+2026 SRA
+MW
+44,765
+1,387
+43,378
+MW
+54,637
+23
+119
+54,780
+3,890
+58,670
+Percent (%)
+26.3%
+35.3%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+1.7%
+-11.0%
+2.2%
+Net Change (%)
+0.0%
+36.9%
+-20.7%
+-0.1%
+48.1%
+2.1%
+Annual Difference
+-2.8
+0.0
+0.0
+
+Demand and Resource Tables
+
+SERC-Florida Peninsula
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2025 SRA
+MW
+52,987
+3,158
+49,829
+MW
+59,395
+102
+381
+59,878
+3,482
+63,360
+Percent (%)
+20.2%
+27.2%
+15.0%
+
+SERC-Southeast
+2025 SRA
+MW
+47,049
+1,338
+45,711
+MW
+64,111
+0
+489
+64,600
+1,077
+65,676
+Percent (%)
+41.3%
+43.7%
+15.0%
+
+2026 SRA
+MW
+54,477
+3,335
+51,142
+MW
+64,163
+58
+131
+64,352
+2,481
+66,833
+Percent (%)
+25.8%
+30.7%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+2.8%
+5.6%
+2.6%
+Net Change (%)
+8.0%
+-43.4%
+-65.6%
+7.5%
+-28.7%
+5.5%
+Annual Difference
+5.7
+3.5
+0.0
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 SRA
+MW
+48,625
+1,642
+46,983
+MW
+64,391
+375
+-467
+64,299
+1,277
+65,576
+Percent (%)
+36.9%
+39.6%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+3.3%
+22.7%
+2.8%
+Net Change (%)
+0.4%
+-195.5%
+-0.5%
+18.7%
+-0.2%
+Annual Difference
+-4.5
+-4.1
+0.0
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 Summer Reliability Assessment
+48
+
+Texas RE-ERCOT
+2025 SRA
+MW
+85,151
+3,292
+81,859
+MW
+112,321
+4,854
+20
+117,195
+0
+117,770
+Percent (%)
+43.2%
+43.9%
+13.75%
+
+WECC-AB
+2025 SRA
+MW
+12,246
+0
+12,246
+MW
+17,176
+281
+0
+17,457
+0
+17,457
+Percent (%)
+42.6%
+42.6%
+9.4%
+
+2026 SRA
+MW
+83,224
+5,100
+78,124
+MW
+125,975
+5,189
+20
+131,184
+0
+131,903
+Percent (%)
+67.9%
+68.8%
+13.75%
+
+2025 vs. 2026 SRA
+Net Change (%)
+-2.3%
+54.9%
+-4.6%
+Net Change (%)
+12.2%
+6.9%
+0.0%
+11.9%
+12.0%
+Annual Difference
+24.8
+25.0
+0.0
+
+2026 SRA
+MW
+12,499
+0
+12,499
+MW
+16,179
+323
+40
+16,542
+0
+16,542
+Percent (%)
+32.3%
+32.3%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+2.1%
+2.1%
+Net Change (%)
+-5.8%
+15.1%
+-5.2%
+-5.2%
+Annual Difference
+-10.2
+-10.2
+5.6
+
+Demand and Resource Tables
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+WECC-BC
+2025 SRA
+MW
+9,309
+0
+9,309
+MW
+11,313
+260
+0
+11,573
+0
+11,573
+Percent (%)
+24.3%
+24.3%
+14.9%
+
+WECC-Southwest
+2025 SRA
+MW
+35,321
+199
+35,122
+MW
+40,300
+1,966
+695
+42,961
+0
+42,961
+Percent (%)
+22.3%
+22.3%
+13.3%
+
+2026 SRA
+MW
+
+12,307
+469
+612
+13,388
+0
+13,388
+Percent (%)
+40.5%
+40.5%
+10.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+2.4%
+2.4%
+Net Change (%)
+8.8%
+80.3%
+15.7%
+15.7%
+Annual Difference
+16.2
+16.2
+-4.9
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 SRA
+MW
+38,814
+364
+38,451
+MW
+46,476
+6,667
+3,791
+56,934
+0
+56,934
+Percent (%)
+48.1%
+48.1%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+9.9%
+82.9%
+9.5%
+Net Change (%)
+15.3%
+239.1%
+445.4%
+32.5%
+32.5%
+Annual Difference
+25.8
+25.8
+1.7
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+MW
+
+9,529
+0
+9,529
+
+2026 Summer Reliability Assessment
+49
+
+WECC-California
+2025 SRA
+MW
+54,797
+746
+54,051
+MW
+75,726
+8,470
+598
+84,794
+0
+84,794
+Percent (%)
+56.9%
+56.9%
+19.2%
+
+WECC-Northwest
+2025 SRA
+MW
+29,157
+30
+29,127
+MW
+36,388
+844
+1,249
+38,481
+0
+38,481
+Percent (%)
+32.1%
+32.1%
+23.1%
+
+2026 SRA
+MW
+55,073
+685
+54,388
+MW
+78,788
+2,085
+3,751
+84,623
+0
+84,623
+Percent (%)
+55.6%
+55.6%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+0.5%
+-8.2%
+0.6%
+Net Change (%)
+4.0%
+-75.4%
+527.2%
+-0.2%
+-0.2%
+Annual Difference
+-1.3
+-1.3
+-4.2
+
+2026 SRA
+MW
+30,479
+2
+30,477
+MW
+35,708
+477
+2,483
+38,668
+0
+38,668
+Percent (%)
+26.9%
+26.9%
+10.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+4.5%
+-93.3%
+4.6%
+Net Change (%)
+-1.9%
+-43.5%
+98.8%
+0.5%
+0.5%
+Annual Difference
+-5.2
+-5.2
+-13.1
+
+Demand and Resource Tables
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+WECC-Basin
+2025 SRA
+MW
+14,214
+620
+13,594
+MW
+14,923
+704
+1,274
+16,901
+0
+16,901
+Percent (%)
+24.3%
+24.3%
+14.0%
+
+WECC-Mexico
+2025 SRA
+MW
+3,770
+0
+3,770
+MW
+4,303
+0
+0
+4,303
+0
+4,303
+Percent (%)
+14.1%
+14.1%
+9.6%
+
+2026 SRA
+MW
+14,564
+448
+14,116
+MW
+16,759
+1,382
+1,288
+19,429
+0
+19,429
+Percent (%)
+37.6%
+37.6%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+2.5%
+-27.7%
+3.8%
+Net Change (%)
+12.3%
+96.3%
+1.1%
+15.0%
+15.0%
+Annual Difference
+13.3
+13.3
+1.0
+
+2026 SRA
+MW
+3,750
+0
+3,750
+MW
+4,761
+765
+-557
+4,969
+0
+4,969
+Percent (%)
+32.5%
+32.5%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+-0.5%
+-0.5%
+Net Change (%)
+10.6%
+15.5%
+15.5%
+Annual Difference
+18.4
+18.4
+5.4
+
+WECC-Rocky Mountain
+
+Demand, Resource, and Reserve Margins
+Demand Projections
+Total Internal Demand (50/50)
+Demand Response: Available
+Net Internal Demand
+Resource Projections
+Existing-Certain Capacity
+Tier 1 Planned Capacity
+Net Firm Capacity Transfers
+Anticipated Resources
+Existing-Other Capacity
+Prospective Resources
+Reserve Margins
+Anticipated Reserve Margin
+Prospective Reserve Margin
+Reference Margin Level
+
+2026 Summer Reliability Assessment
+50
+
+2025 SRA
+MW
+13,848
+284
+13,564
+MW
+17,312
+104
+0
+17,416
+0
+17,415
+Percent (%)
+28.4%
+28.4%
+16.7%
+
+2026 SRA
+MW
+13,516
+310
+13,206
+MW
+18,363
+1,206
+495
+20,063
+0
+20,063
+Percent (%)
+51.9%
+51.9%
+15.0%
+
+2025 vs. 2026 SRA
+Net Change (%)
+-2.4%
+9.1%
+-2.6%
+Net Change (%)
+6.1%
+1059.6%
+15.2%
+15.2%
+Annual Difference
+23.5
+23.5
+-1.7
+
+Variable Energy Resource Contributions
+Because the electrical output of variable energy resources (VER) (e.g., wind, solar PV) depends on weather conditions, on-peak capacity contributions are less than nameplate capacity. The following table
+shows the capacity contribution (MW) of existing wind and solar PV resources at the peak demand hour for each assessment area. Resource contributions are also aggregated by Interconnection and
+across the entire BPS. For NERC’s analysis of risk periods after peak demand (e.g., U.S. assessment areas in WECC), lower contributions of solar PV resources are used because output is diminished during
+evening periods.
+BPS Variable Energy Resources by Assessment Area
+Wind
+
+Solar PV
+
+Hydro
+
+Assessment Area /
+Nameplate
+Expected
+Expected Share of
+Nameplate
+Expected
+Expected Share of Nameplate Run-of- Expected Run-ofInterconnection
+Wind
+Wind
+Nameplate (%)
+Solar PV
+Solar PV
+Nameplate (%)
+River Hydro
+River Hydro
+MISO
+32,066
+5,611
+17%
+20,419
+12,322
+60%
+1,294
+770
+MRO-Manitoba Hydro*
+259
+47
+18%
+0%
+202
+MRO-SaskPower
+816
+319
+39%
+30
+9
+28%
+121
+74
+MRO-SPP
+35,760
+8,114
+23%
+3,926
+2,139
+54%
+113
+66
+NPCC-Maritimes
+1,341
+423
+32%
+148
+80
+54%
+1,316
+1,316
+NPCC-New England
+2,431
+424
+17%
+3,609
+1,728
+48%
+584
+287
+NPCC-New York
+2,598
+417
+16%
+661
+283
+43%
+914
+354
+NPCC-Ontario*
+4,943
+735
+15%
+478
+66
+14%
+NPCC-Québec*
+4,024
+885
+22%
+10
+1
+12%
+444
+444
+PJM
+13,855
+4,570
+33%
+16,852
+9,951
+59%
+2,505
+2,505
+SERC-Central
+1,324
+370
+28%
+2,303
+1,446
+63%
+4,979
+3,213
+SERC-East
+0%
+7,843
+4,205
+54%
+3,096
+3,033
+SERC-Florida Peninsula
+0%
+13,502
+6,276
+46%
+SERC-Southeast
+0%
+9,412
+8,087
+86%
+3,326
+3,374
+Texas RE-ERCOT
+40,586
+9,450
+23%
+40,279
+29,682
+74%
+579
+447
+WECC-AB
+5,684
+455
+8%
+1,870
+1,271
+68%
+896
+481
+WECC-Basin
+5,959
+360
+6%
+3,773
+2,605
+69%
+884
+386
+WECC-BC*
+753
+60
+8%
+17
+12
+71%
+1,871
+888
+WECC-Cal
+7,985
+907
+11%
+27,495
+14,278
+52%
+1,120
+628
+WECC-Mexico
+296
+3
+1%
+350
+35
+10%
+WECC-NW*
+9,941
+1,016
+10%
+1,729
+1,051
+61%
+14,086
+8,303
+WECC-RM
+5,684
+1,034
+18%
+2,920
+1,551
+53%
+117
+61
+WECC-SW
+4,848
+1,473
+30%
+11,112
+4,868
+44%
+376
+270
+EASTERN INTERCONNECTION
+94,474
+21,180
+22%
+78,714
+46,528
+59%
+18,892
+15,435
+QUÉBEC INTERCONNECTION
+4,024
+885
+22%
+10
+1
+12%
+444
+444
+TEXAS INTERCONNECTION
+40,586
+9,450
+23%
+40,279
+29,682
+74%
+579
+447
+WECC INTERCONNECTION 23
+41,150
+5,308
+13%
+49,266
+25,670
+52%
+19,350
+11,017
+All INTERCONNECTIONS
+181,153
+36,673
+20%
+168,736
+101,946
+60%
+38,822
+26,899
+*On peak contributions from conventional hydro are not represented in this table, and in certain areas those contributions are significant.
+
+23 Some areas in the Western Interconnection re-categorized their hydro resources for the 2026 SRA from run-of-river hydro to conventional hydro
+
+2026 Summer Reliability Assessment
+51
+
+Expected Share of
+Nameplate (%)
+60%
+0%
+61%
+59%
+100%
+49%
+39%
+0%
+100%
+100%
+65%
+98%
+0%
+101%
+77%
+54%
+44%
+47%
+56%
+0%
+59%
+52%
+72%
+82%
+100%
+77%
+57%
+69%
+
+Energy Storage Systems (ESS)
+
+Nameplate
+ESS
+3,560
+1,318
+162
+723
+23
+451
+256
+100
+323
+1,177
+164
+21,979
+261
+655
+16,711
+547
+342
+3,691
+7,805
+21,979
+22,207
+52,442
+
+Expected Expected Share of
+ESS
+Nameplate (%)
+3,457
+97%
+0%
+0%
+1,113
+84%
+106
+65%
+686
+95%
+0%
+226
+50%
+0%
+238
+93%
+100
+100%
+235
+73%
+1,145
+97%
+141
+86%
+20,688
+94%
+222
+85%
+557
+85%
+0%
+14,204
+85%
+0%
+461
+84%
+291
+85%
+3,137
+85%
+7,220
+92%
+0%
+20,688
+94%
+18,872
+85%
+47,005
+90%
+
+Review of 2025 Capacity and Energy Performance
+The summer of 2025 was the 12th hottest on record for the contiguous United States 24 during the meteorological summer period (June–August) and the 11th warmest summer in Canada. 25 Cooler-thannormal temperatures were observed in the eastern U.S., whereas most of Canada experienced slightly above-normal temperatures. Despite the comparatively temperate 2025 Summer (summer of 2024
+was the fourth-hottest on record in both the United States 26 and Canada 27), U.S. electricity generation reached a record high for the assessment summer period (June – September) at 1,628 TWh 28, topping
+the prior year’s summer electricity generation total of 1,603 TWh. The month of July in the U.S. set a new monthly generation record at 446 TWh. In Canada, the comparatively cooler summer appears to
+have brought electricity generation down from the 2024 summer high of 192 TWh to the 2025 total of 188 TWh 29. Actual peak demand exceeded normal demand forecasts across 19 assessment areas
+and exceeded extreme demand projections from the 2025 SRA in three assessment areas. Despite a lower average summer temperature in 2025, a widespread heatwave 30 in early summer impacted much
+of the central and eastern U.S., bringing record-setting temperatures across several hundred counties.
+Canada experienced its second-worst wildfire year on record 31 (2023 being the worst) with fires burning an area larger than New Brunswick and Prince Edward Island combined. Saskatchewan and Manitoba
+comprised nearly half of the total area impacted by the fires. Drought that began in 2021 has also deepened across Canada, resulting in reduced hydroelectric power generation for a third straight year in
+British Columbia.
+
+Eastern Interconnection–Canada and Québec Interconnection
+
+In Ontario, grid operators utilized demand response resources on 10 different occasions during the summer period, 32 culminating in demand reductions of 316 MW during the time of peak demand (24,862
+MW) on June 24, 2025, the single highest peak in 12 years. Other demand-side management programs further reduced peak demand by 1,800 MW, contributing to 7% total reduction in demand stemming
+from consumer programs.
+Québec saw electricity generation of roughly 52 TWh during the summer period, 33 down from 56 TWh for Summer 2024 amid relatively cooler temperatures and a year beset by low runoff levels that have
+persisted since 2023. 34 The Maritimes saw a slight increase in electricity generation to 5.8 TWh for Summer 2025, up from 5.3 TWh the prior summer. Nova Scotia Power realized nearly a 20% reduction
+in annual 2025 power outages from the year before but still fell short of targets set by the Nova Scotia Energy Board relating to power-outage duration and frequency.
+Saskatchewan saw severe storms and large hail in late August that damaged infrastructure, triggering emergency operating conditions and power outages. 35
+
+24 Assessing the U.S. Temperature and Precipitation Analysis in August 2025 | News | National Centers for Environmental Information (NCEI)
+25 Climate Trends and Variations Bulletin - summer 2025 - Canada.ca
+
+26 U.S. sweltered through its 4th-hottest summer on record | National Oceanic and Atmospheric Administration
+27 Climate Trends and Variations Bulletin - Summer 2024 - Canada.ca
+
+28 U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+29 Electric power generation, monthly generation by type of electricity
+
+30 Assessing the U.S. Climate in June 2025 | News | National Centers for Environmental Information (NCEI)
+31 Canada’s top 10 weather stories of 2025 - Canada.ca
+32 2025 Year in Review
+
+33 Electric power generation, monthly generation by type of electricity
+34 Hydro-Québec - Quarterly Bulletin - Third Quarter 2025
+
+35 SaskPower crews still working to restore power after weekend outages - WestCentralOnline: West Central Saskatchewan's latest news, sports, weather, community events.
+
+2026 Summer Reliability Assessment
+52
+
+Review of 2025 Capacity and Energy Performance
+
+Eastern Interconnection–United States
+
+New York and New England saw region-wide heat waves in June and July. ISO-NE saw peak-hour demand in June exceed its extreme demand projections from the 2024 SRA, a significant step up from the
+prior year’s summer peak (+7%). Heat and humidity, high demand, and some unexpected generation reductions and outages left the region short of the resources needed to maintain required operating
+reserves for more than three hours around the evening peak on June 24, 36 though electricity supply was not interrupted. NYISO declared an EEA Level 1 on June 24, June 25, and July 29 due to limited
+capacity availability, 37 resulting in the deployment of emergency DR programs and other special-case resources. Both the New York and New England ISOs saw peak loads that exceeded their demand
+projections.
+PJM saw their third-highest all-time summer peak 38 of more than 160 GW. This exceeded extreme demand projections for the summer (159 GW). The system operator was able to manage load by calling
+on customers who were enrolled in financially incentivized DR programs.
+MISO declared an EEA Level 1 39 on June 23 to access emergency capacity. At the time of the event, more than 4 GW of generation was trapped in the south due to transmission constraints. MISO was able
+to dispatch 565 MW of emergency capacity in the Midwest, but only 45% performed. MISO has been engaged in efforts to highlight the need for non-performance penalties. On June 24, when neighboring
+areas were experiencing peak demand, MISO had to curtail non-firm exports to avoid going into EEA. In late July, MISO experienced a shortage of operating reserves due to errors in forecasting load and
+renewables. This was one of 24 total instances of operating reserve shortage, double the amount from the previous year.
+In SERC, an EEA Level 2 was declared in the Carolinas amid high load conditions and generation resources that were unavailable 40 during the peak of the June heat wave affecting the broader Eastern
+Interconnection – a precautionary reliability measure to support system operations during peak demand and generation outages. During this event, the affected service territory recorded a new all-time
+peak demand of 21,931 MW on June 25.
+
+Texas Interconnection–ERCOT
+
+Texas saw a relatively mild summer and above-average rainfall in 2025 with the June–July period ranking as the 43rd hottest out of 131 historical years. But even so, Summer 2025 load levels were
+comparable to the 2023 Summer load levels when the summer was far hotter. 41 Forced outages of thermal resources outstripped such forced outages from the summer of 2024, prompting a larger
+discharge of energy storage resources (ESR) some evenings. Texas set a new solar generation record in July at 29.3 GW, and solar contributed just under 17 GW at the hour of peak demand on August 18
+(hour ending at 6:00 pm). Wind generation was relatively high at the peak demand hour and also set records in the spring. Energy storage also reached a new discharge record at 7.2 GW on August 20.
+
+Western Interconnection
+
+The Western Interconnection saw summer peak demand decrease slightly from the previous year’s summer peak, reaching 163,140 MW in 2025, down from 168,206 MW the prior summer. Operators
+and RCs were able to maintain the flow of electricity through the summer months.
+
+36 Summer 2025 recap: Reliability maintained as grid sees highest peak in over a decade - ISO Newswire
+37 NYISO Summer 2025
+
+38 2025 in Review: Operations Improvements See PJM Through Record Peaks, Growing Demand | PJM Inside Lines
+39 Microsoft PowerPoint - IMM Quarterly Report, Summer 2025
+
+40 DOE grants Duke Energy authority to exceed power plant permit limits during extreme heat | Utility Dive
+41 12 Summer 2025 Operational and Market Review.pptx
+
+2026 Summer Reliability Assessment
+53
+
+Review of 2025 Capacity and Energy Performance
+
+Western Interconnection–Canada
+
+Western Canada experienced a heat wave from late August and through early September, breaking daily records in British Columbia and the Yukon and exacerbating the ongoing drought in western
+Canada. Wildfire activity also increased due to heat and dry conditions. The same period brought generation outages that triggered emergency operations in parts of western Canada.
+
+Western Interconnection–United States
+
+The western United States overall navigated last summer with the BPS experiencing relatively few emergency events, and demand in western assessment areas never reached or exceeded the projections
+for extreme demand from the 2025 SRA. Variable resources performed as expected with the exception of California seeing much less solar generation than anticipated, 65% less solar than was projected
+ahead of the prior year’s assessment. California’s lower-than-expected solar did not result in energy shortfalls.
+In Mexico, generation losses in late August triggered Level 3 EEAs, but the overall number of Level 3 EEAs was down year-on-year and on par with the number of Level 3 EEAs triggered in 2023 for the
+same seasonal period.
+Despite the moderation in summer heat when compared to 2024, certain Rocky Mountain states saw record temperatures with Utah and Nevada recording their warmest years on record. The Rocky
+Mountain region saw peak demand surpass the projected normal demand conditions but remained under extreme demand projections.
+
+2026 Summer Reliability Assessment
+54
+
+Review of 2025 Capacity and Energy Performance
+
+Assessment Area
+
+Actual Peak Demand1
+(GW)
+
+MISO
+
+121.6
+
+MRO-Manitoba Hydro
+
+3.5
+
+MRO-SaskPower
+
+3.6
+
+MRO-SPP
+
+54.5
+
+NPCC-Maritimes
+
+3.6
+
+NPCC-New England
+
+26.6
+
+NPCC-New York
+
+32
+
+NPCC-Ontario
+
+24.9
+
+NPCC-Québec
+
+23.0
+
+PJM
+
+160.7
+
+SERC-C
+
+43.2
+
+SERC-E
+
+44.8
+
+SERC-FP
+
+54.6
+
+SERC-SE
+
+46.4
+
+TRE-ERCOT
+
+83.7
+
+WECC-AB
+
+12.5
+
+WECC-BC
+
+9.8
+
+WECC-CA
+
+54
+
+2025 Summer Demand and Generation Summary at Peak Demand
+
+SRA Peak Demand
+Scenarios2 (GW)
+116.3
+121.6
+3.4
+3.6
+3.6
+3.8
+54.8
+57.5
+3.3
+3.5
+24.7
+26.4
+30.0
+31.7
+21.0
+24.5
+22.3
+23.3
+146.2
+158.7
+41.9
+45.7
+42.5
+45.7
+49.8
+50.8
+45.7
+55.9
+85.25
+91.35
+12.2
+12.7
+9.3
+10.0
+54.1
+64.3
+
+Wind – Actual1 (MW)
+
+Wind – Expected3 (MW)
+
+Solar – Actual1 (MW)
+
+Solar – Expected3 (MW)
+
+Forced Outages
+Summary4 (MW)
+
+1,105
+
+6,039
+
+12,323
+
+9,123
+
+8,856
+
+0
+
+48
+
+0
+
+0
+
+252
+
+232
+
+310
+
+26
+
+9
+
+0
+
+8,130
+
+5,556
+
+810
+
+492
+
+4,370
+
+151
+
+314
+
+69
+
+0
+
+33
+
+566
+
+142
+
+180
+
+1,412
+
+1,963
+
+1,256
+
+446
+
+164
+
+243
+
+1,372
+
+607
+
+742
+
+39
+
+66
+
+1,532
+
+790
+
+885
+
+0
+
+0
+
+5,029
+
+4,515
+
+1,855
+
+7,730
+
+6,244
+
+15,945
+
+84
+
+370
+
+714
+
+1,053
+
+701
+
+0
+
+0
+
+3,200
+
+5,022
+
+2,407
+
+0
+
+0
+
+8,035
+
+5,749
+
+1,599
+
+0
+
+0
+
+3,366
+
+7,728
+
+1,380
+
+14,509
+
+9,396
+
+16,961
+
+22,962
+
+11,095
+
+2,870
+
+796
+
+32
+
+1,480
+
+**
+
+293
+
+149
+
+4.8
+
+0
+
+**
+
+1,744
+
+1,207
+
+5,064
+
+14,756
+
+1,063
+
+2026 Summer Reliability Assessment
+55
+
+Review of 2025 Capacity and Energy Performance
+
+Assessment Area
+
+Actual Peak Demand1
+(GW)
+
+WECC-MX
+
+3.5
+
+WECC-NW
+
+29.8
+
+WECC-RM
+
+13.4
+
+WECC-Basin
+
+13.8
+
+WECC-SW
+
+36.9
+
+Highlighting Notes
+
+Actual peak demand in
+the highlighted areas
+met or exceeded
+extreme scenario levels.
+
+2025 Summer Demand and Generation Summary at Peak Demand
+
+SRA Peak Demand
+Scenarios2 (GW)
+3.8
+4.1
+29.1
+32.7
+13.8
+15.0
+13.6
+15.0
+35.1
+39.0
+
+Wind – Actual1 (MW)
+
+Wind – Expected3 (MW)
+
+Solar – Actual1 (MW)
+
+Solar – Expected3 (MW)
+
+Forced Outages
+Summary4 (MW)
+
+2.5
+
+50
+
+296
+
+227
+
+**
+
+1,054
+
+3,107
+
+1,398
+
+666
+
+1,825
+
+2,313
+
+1,359
+
+1,571
+
+1,669
+
+1,954
+
+931
+
+911
+
+2,660
+
+2,231
+
+0
+
+1,230
+
+1,091
+
+4,472
+
+4,293
+
+2,323
+
+Actual wind output in
+highlighted areas was
+significantly below
+seasonal forecast.
+
+Actual solar output in
+highlighted areas was
+significantly below
+seasonal forecast.
+
+Actual forced outages
+above or below forecast
+by factor of two
+
+Table Notes:
+1
+Actual demand, wind, and solar values for the hour of peak demand in U.S. areas were obtained from the assessment areas.
+2
+See NERC 2025 SRA demand scenarios for each assessment area (pp. 14–33). Values represent the normal summer peak demand forecast and an extreme peak demand forecast that represents a 90/10, or once-per-decade, peak
+demand. Some areas use other basis for extreme peak demand.
+3
+Expected values of wind and solar resources from the 2025 SRA.
+4
+Values from NERC Generator Availability Data System for the 2025 summer hour of peak demand in each assessment area. Highlighted areas had actual forced outages that were more than twice the value for typical forced
+outage rates used in the 2024 summer risk period scenarios in the 2025 SRA.
+5
+Texas RE-ERCOT peak demand scenarios are obtained by adding expected demand response (3.2 GW) to the demand scenarios found on p. 30 of the 2025 SRA.
+**Data unavailable - Canadian assessment areas report to the NERC Generator Availability Data System on a voluntary basis, which can contribute to the absence of some values in certain assessment areas.
+
+2026 Summer Reliability Assessment
+56
+
+

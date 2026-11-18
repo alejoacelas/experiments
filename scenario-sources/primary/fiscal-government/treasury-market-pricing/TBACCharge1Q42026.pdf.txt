@@ -1,0 +1,2374 @@
+Charge
+
+SI-related issuance:
+-
+
+Please summarize recent trends in corporate bond issuance related to super intelligence and
+associated businesses.
+
+-
+
+How much of such issuance has occurred to date and is projected for the future?
+
+-
+
+What types of investors are the primary buyers of such debt?
+
+-
+
+To what extent does such debt issuance compete with Treasury securities for investor demand?
+
+-
+
+What other potential effects on fixed income markets should Treasury be monitoring?
+
+1
+
+Executive summary
+We observe a large tech financing cycle, but no clear evidence of broad crowding out to date.
+Higher Treasury yields primarily reflect growth, policy expectations and energy, not an
+issuance-driven supply shock.
+
+Financing needs are large and broadening.
+
+Nearly $600 billion of tech-related debt is projected in
+2026 and more than $700 billion in 2027, with upside risk
+and a growing role for equity.
+
+Tech borrowers retain capacity and incentive to invest.
+
+Aggregate net leverage for the tech ecosystem is 0.28x
+versus 1.3x for the S&P excluding financials; expected
+returns support continued spending, although individual
+borrowers remain vulnerable.
+
+Capital is becoming selective, not broadly unavailable.
+
+Lenders are demanding stronger terms and secured
+structures within tech; Treasury auction results and
+resilient non-tech spreads show no clear evidence of
+broader crowding out.
+
+4
+
+The investor base can expand.
+
+Insurers, pensions, households and foreign investors
+provide multiple sources of demand; modest reallocations
+from cash and equities could finance a meaningful share
+of projected borrowing.
+
+5
+
+Capex-driven growth has been the principal transmission
+channel to rates, not overwhelming supply.
+
+Growth, policy expectations and energy best explain higher
+Treasury yields; the analysis finds little independent
+explanatory power from tech issuance.
+
+1
+
+2
+3
+
+2
+
+- How much tech-related issuance has occurred to
+date and is projected for the future?
+- Please summarize recent trends in corporate bond
+issuance related to super intelligence and
+associated businesses.
+
+3
+
+An accounting of the capital raising to date and forecasts through
+2027.
+2025
+Actual
+
+2026E
+
+2027E
+
+Tech Ecosystem Capex
+Cash Flow from Operations
+
+514
+607
+
+1,000
+804
+
+1,700
+1,078
+
+Debt Issuance ($bn)
+
+2025
+Actual
+
+2026E
+
+2027E
+
+327
+20
+107
+454
+100
+32
+586
+787
+
+360
+50
+200
+610
+50
+75
+735
+1,522
+
+2026E
+
+2027E
+
+130
+61
+60
+250
+501
+603
+
+100
+200
+60
+200
+560
+1,163
+
+Capex & Cash Flow ($bn)
+
+Hyperscaler Unsecured
+Other Tech IG
+IG GPU Financing
+Total IG
+HY & Loans
+Securitized
+Total Debt Issuance
+Cumulative Debt Issuance
+
+Equity Issuance ($bn)
+Total Hyperscaler Equity
+Other Public Equity
+Convertibles
+Private Equity
+Total Equity Issuance
+Cumulative Equity Issuance
+
+136
+20
+156
+17
+28
+201
+201
+
+2025
+Actual
+2
+30
+70
+102
+102
+
+Total Issuance ($bn)
+
+2025
+Actual
+
+2026E
+
+2027E
+
+Total Issuance
+Total Cumulative Issuance
+
+303
+303
+
+1,087
+1,390
+
+1,295
+2,685
+
+➢
+
+Demonstrable shortage of contracted compute is
+fueling upward revisions for 2027 capex.
+
+➢
+
+Tech-related free cash flow (FCF) turned negative in
+2026; the expected 2027 funding gap is over $600
+billion.
+
+➢
+
+2027 tech debt issuance estimated at $735 billion.
+
+➢
+
+Total 2027 capital raising estimated at ~$1.3 trillion.
+
+➢
+
+Secured financing is becoming an increasingly
+important funding tool.
+
+➢
+
+Equity raising (particularly IPOs) remains an integral
+part of ecosystem financing plans.
+
+➢
+
+Planned capital raising that exceeds estimated
+funding gap, plus large existing cash balances,
+suggests concern exists about ongoing capital
+availability.
+
+Source: Company Filings, Presenter’s Calculations.
+
+4
+
+Tech debt issuance is broadening beyond long-dated corporate
+bonds, as secured and asset-backed structures increasingly bring
+financing inside 10 years.
+Hyperscaler issuance has relied on the back-end of the curve but
+short and intermediate borrowing for the tech ecosystem as a
+whole, has been notionally larger than in longer tenors.
+
+While issuance has recently shifted toward shorter maturities,
+additional long-dated borrowing is forecast.
+GPU-backed and other project debt is becoming a larger part of
+the mix, which has shortened the tenor of more recent issuance.
+
+Tech Issuance by Tenor since 2025
+
+Share of Total Tech Issuance
+
+39.8%
+
+$250
+
+100%
+90%
+28%
+80%
+
+$200
+
+43%
+
+60.2%
+
+$150
+
+Share of Total
+
+Face Issuance ($bn)
+
+70%
+
+$100
+
+60%
+50%
+52%
+40%
+
+39%
+
+30%
+$50
+
+20%
+10%
+
+$0
+1-5y
+
+5-10y
+
+10y+
+
+Property Project Finance
+
+Securitized
+
+GPU/Equipment Backed
+
+Hyperscaler corporate
+
+18%
+
+20%
+
+Jan 2025 - Jun 2026
+
+Jul 2026 Onwards
+
+0%
+
+1-5y
+
+5-10y
+
+10y+
+
+Source: Bloomberg, Securities and Exchange Commission, Dealers.
+
+5
+
+Viewed as a single ecosystem, the technology sector has both the
+capacity and the incentive to continue borrowing and investing.
+ROIC vs Net Leverage
+(Size of Bubbles = 5Y Net Debt Growth, $bn)
+
+ROIC vs WACC
+(Size of Bubbles = 5Y Cumulative Capex Spend, $bn)
+
+40%
+
+40%
+
+35%
+
+35%
+IT
+
+IT
+
+30%
+
+30%
+
+25%
+
+Hyperscalers
+
+20%
+
+ROIC (%)
+
+ROIC (%)
+
+25%
+
+Industrials
+Consumer
+Staples
+
+15%
+
+Utilities
+
+0%
+-1x
+
+0x
+
+1x
+
+2x
+
+3x
+Net Leverage
+
+4x
+
+5x
+
+Health Care
+Materials
+
+MaterialsHealth Care
+
+5%
+
+Consumer
+Staples
+Energy
+
+10%
+
+Communication
+Services
+
+Energy
+
+Consumer
+Discretionary
+
+15%
+
+Consumer
+Discretionary
+
+10%
+
+20%
+
+Hyperscalers
+
+Communication
+Services
+
+6x
+
+7x
+
+Industrials
+
+5%
+
+0%
+-5%
+
+Utilities
+
+0%
+
+5%
+
+10%
+
+15%
+
+20%
+
+25%
+
+Spread: ROIC - WACC
+
+Source: Bloomberg, Company Filings, Presenter’s Calculations.
+
+6
+
+A deeper dive within the broader cohort reveals a much greater
+rate sensitivity for many of the constituents.
+ROIC vs WACC
+(Size of Bubbles = 5Y Cumulative Capex Spend, $bn)
+
+120%
+
+120%
+
+100%
+
+100%
+
+80%
+
+80%
+
+60%
+
+60%
+
+ROIC (%)
+
+ROIC (%)
+
+ROIC vs Net Leverage
+(Size of Bubbles = 5Y Net Debt Growth, $bn)
+
+40%
+
+40%
+
+20%
+
+20%
+
+0%
+
+0%
+
+-20%
+-5x
+
+0x
+
+5x
+Net Leverage
+
+10x
+
+15x
+
+-20%
+-40%
+
+-20%
+
+0%
+
+20%
+
+40%
+
+60%
+
+80%
+
+100%
+
+Spread: ROIC - WACC
+
+Some of the constituents are already constrained by leverage, and many are far more sensitive to rising capital
+costs than the largest members of the cohort.
+Source: Bloomberg, Company Filings, Presenter’s Calculations.
+
+7
+
+The balance sheet of the broader ecosystem provides important support for the existing and
+incremental compute infrastructure.
+A strong ecosystem balance sheet and structural compute deficit create incentive to sustain existing compute infrastructure while new capacity
+comes online. While some individual compute operators might not remain viable, the physical infrastructure will continue to find demand.
+
+Circular Financing is a feature
+Tech 25 Totals
+
+Q2 2026
+
+Change Since
+9/1/2025
+
+EBITDA ($bn)
+
+1,334
+
+407
+
+Cash & marketable
+securities
+
+998
+
+313
+
+Net Debt ($bn)
+
+373
+
+152
+
+Net Debt / EBITDA
+
+0.3x
+
+0.04x
+
+Net Debt / EBITDA for
+S&P 500 ex Fins
+
+1.3x
+
+-0.26x
+
+GPU Vendor
+Hardware supplier / support
+GPU buys
+
+Capital
+Providers
+
+Debt
+
+Banks / private
+credit / bonds
+
+Compute hardware
+
+Neo Cloud
+GPU cloud
+operator
+
+Offtake
+
+Compute
+
+IG Compute
+Buyer
+Long-term compute
+customer
+
+Despite the strength of the broader ecosystem, the market’s increasingly discerning capital
+provisioning instincts are a healthy signal.
+Project / Market
+Large data center IPO
+candidate
+APAC
+Data center REIT IPO
+APAC
+
+Technology index
+1Y Forward P/E Ratio
+
+Withdrawn
+30x
+
+26x
+25x
+
+25x
+
+-32% day one
+
+Listed data center operator
+APAC
+
+-42% share price
+
+19x
+
+20x
+
+Unsecured debt trading at
+“distressed” levels
+
+Semiconductor Index
+1Y Forward P/E Ratio
+30x
+
+29x
+
+Postponed
+
+Tech infrastructure IPO
+APAC
+
+HY neocloud
+
+Equity valuations have rerated lower
+
+October 2026 Outcome
+
+23x
+
+24x
+
+20x
+17x
+15x
+
+15x
+Q1
+2025
+
+Q1
+2026
+
+Current
+
+Q1
+2025
+
+Q1
+2026
+
+Current
+
+Source: Bloomberg, Company Filings and Press Releases.
+
+8
+
+As credit markets become more selective, issuance is adjusting in structure,
+maturity, and price to better align with lenders’ demands.
+Rapid spread widening of new deals in the secondary market is
+driving larger new issue concessions in a recurring cycle.
+Lenders are not only demanding more yield they’re demanding
+more attractive structures as well.
+
+Current spread (bp)
+
+Recent Tech Credit Spreads: At Issuance vs
+Current
+
+Recent chip-backed deals introduce a different financing model,
+converting contracted compute demand into investment-grade
+debt backed by physical assets.
+IG Compute Customer
+
+Secured Lenders
+
+800
+
+Signs a long-term compute
+capacity / offtake agreement.
+
+Debt backed by contracted
+revenue and physical collateral
+with rapid principal repayment.
+
+600
+
+Contracted payments
+
+Debt proceeds
+
+Project Company (SPV)
+Owns the hardware (10,000+ GPUs) and receives contracted
+customer payments. Funded through debt and equity.
+
+400
+
+Buys equipment
+
+Repayment waterfall
+
+200
+
+0
+0
+
+200
+
+400
+
+600
+
+800
+
+Spread at issuance (bp)
+Corporate bonds
+
+Project finance debt
+
+Chip-backed & Securitized debt
+
+Hard asset Collateral
+Leading-edge GPUs/TPUs,
+physical servers, equipment
+and related contractual
+rights.
+
+Debt Service & Equity Incentive
+Contracted revenue funds
+operating costs, debt service,
+and reserves; equity receives
+residual distributions.
+
+$100+ billion of chip deals moved to close during the week
+of October 26, 2026. Each was indicated at a significant
+concession to existing indebtedness.
+
+Chip-backed structures account for 60% of the forecast increase in 2027 investment-grade tech borrowing, signaling a meaningful change in the
+composition of forward supply. These structures expand the investor base while allowing borrowers to continue financing investment, without
+relying exclusively on traditional corporate debt markets.
+Source: Bloomberg, Dealers, Company Filings.
+
+9
+
+A traded market for compute could unlock new sources of
+financing, much as hedging markets did for merchant power.
+In response to private sector calls for a liquid tradable market for compute, the Commodity Futures Trading Commission is
+exploring a regulatory compute trading framework, while exchanges are proposing standardized futures linked to GPU rental
+prices.
+
+Share of US generating capacity owned by
+independent power producers
+60%
+
+Why this matters for compute financing
+Why it worked for power:
+47%
+39%
+
+40%
+
+Liquid hedging markets made future revenues more
+predictable, allowing lenders to finance independent power
+projects.
+How does it work for compute today?
+GPU lenders rely heavily on creditworthy offtakers given
+uncertain utilization, compute prices and hardware
+depreciation.
+
+26%
+20%
+
+What could change?
+10%
+
+Standardized pricing and liquid, longer-dated hedges could
+reduce revenue risk and broaden the pool of willing lenders.
+
+0%
+1996
+
+2000
+
+2014
+
+2024
+
+The opportunity is not simply cheaper financing, but a broader investor base able to underwrite compute assets independently.
+
+Source: US Energy Information Administration, Congressional Research Service report RL32728, Bloomberg.
+
+10
+
+- What types of investors are the primary buyers of
+such debt?
+
+11
+
+Who are the main investors in US corporate credit securities?
+Who owns the market today?
+
+Who is buying the tech debt?
+
+% Ownership Share by Investor Type:
+Treasuries and Corporate Credit Outstanding
+
+% Disclosed Ownership Share by Investor Type*:
+Tech bonds issued since September 2025
+
+US Treasuries
+
+US Corporate Credit
+
+Rest of World
+
+32%
+
+29%
+
+Insurance
+
+2%
+
+27%
+
+Mutual funds & ETFs
+
+9%
+
+24%
+
+Pension
+
+4%
+
+9%
+
+Insurance (22%)
+
+Banks & Credit Unions
+
+7%
+
+6%
+
+Bank (6%)
+
+Other Financial Companies
+
+4%
+
+3%
+
+State & Local government
+
+6%
+
+2%
+
+Households & Nonprofits
+
+10%
+
+1%
+
+Fed
+
+14%
+
+0%
+
+Money market funds
+
+11%
+
+0%
+
+Non-fin businesses
+
+1%
+
+0%
+
+89%
+
+Investment Advisor (63%)
+
+Hedge Fund (6%)
+
+Corporation (1%)
+Other (2%)
+
+Where could incremental demand come from?
+
+Insurers
+have the lowest allocation to
+fixed income in 50 years.
+
+Pensions
+are overfunded, which
+incentivizes shifting from
+equities to fixed income.
+
+Households
+have the lowest allocation to
+fixed income since 1973. Active
+ETFs are broadening access.
+
+Foreign Investors
+have sought the depth and
+breadth of US debt markets.
+
+Source: Federal Reserve (Z1 data), Bloomberg, Company Filings, Presenter’s Calculations.
+*Note: % Disclosed ownership share represents the share of identified bond holdings attributable to each investor type, based on publicly available CUSIP-level holdings disclosures compiled by Bloomberg and aggregated
+by Presenter. Data do not capture holdings of investors that do not publicly disclose CUSIP-level positions. Classification of investor type is based on the reporting firm, which may not reflect the ultimate end-investors.
+
+12
+
+Foreign buyers of US fixed-income assets have accelerated
+purchases this year. Buyers are choosing higher-yielding credit
+securities over Treasuries at the margin.
+Annual net purchase of US fixed income by foreign investors ($bn)
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+292
+
+182
+
+-225
+
+544
+
+1222
+
+1100
+
+877
+
+877
+
+2026
+YTD
+(as of
+8/31)
+671
+
+2026
+YTD
+annual
+-ized
+1006
+
+Foreign net purchases of US fixed income are accelerating in 2026.
+
+This is consistent with other periods of strong growth
+and likely reflects a reaction to recent performance
+more than issuance.
+
+Rolling 12-month net purchase by foreign investors
+US Treasury coupon securities
+
+We are seeing a 2026 reduction of Treasury purchases
+against an increase in corporate bond purchases from
+foreign investors.
+
+US corporate bonds
+
+We saw this same type of flow in the 1990s, the 2000s,
+and the mid-2010s briefly, alongside a concurrent rise
+in risk-free rates.
+
+$1000bn
+$800bn
+$600bn
+$400bn
+
+Return since 12/31/2020 (through 9/30/26)
+
+$200bn
+
+7-10Y US Treasury Index
+
+-12.3%
+
+$0bn
+
+1-5Y US Treasury Index
+
++6.9%
+
+1-5Y US IG Credit
+
++12.6%
+
+1-10Y US IG Credit
+
++6.6%
+
+US HY Credit
+
++24.8%
+
+-$200bn
+
+-$400bn
+-$600bn
+-$800bn
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+2025
+
+Source: Bloomberg, US Department of the Treasury (TIC data), Presenter’s Calculations.
+Note: Net purchase of US fixed income securities comprises Treasury notes and bonds, US government corporations and Federal agency bonds, and US corporate bonds.
+
+13
+
+Foreign investors seek the breadth and depth of US fixed-income
+opportunities that simply do not exist elsewhere.
+The scale of US fixed income markets is unmatched globally, with individual corporate credit segments larger than entire sovereign bond markets.
+US IG A
+US HY
+Mkt. Size ($T)
+
+Canada
+
+1.5
+
+>>
+
+Mkt. Size ($T)
+
+4.9
+
+UK
+>>
+
+US IG BBB
+
+3.7
+
+Mkt. Size ($T)
+
+4.1
+
+US IG
+
+Germany
+>>
+
+Mkt. Size ($T)
+
+2.4
+
+10.5
+
+China*
+>>
+
+5.0
+
+1.0
+US HY
+Mkt. Size ($T)
+
+
+Canada
+
+UST
+
+$31.8 T
+
+US IG
+
+$10.5 T
+
+US HY
+
+$1.5 T
+
+1.4
+
+Korea*
+>>
+
+0.7
+
+United Kingdom
+
+ Germany
+South Korea
+
+
+
+United States
+
+
+China
+
+US Corp $12.0 T
+
+US IG
+Mkt. Size ($T)
+
+10.5
+
+8.1
+
+
+Japan
+
+India Hong Kong 
+
+
+
+Mexico
+
+Japan
+>>
+
+Singapore 
+
+US HY B
+ Philippines
+
+Mkt. Size ($T)
+
+0.5
+
+HK
+>>
+
+0.2
+
+ Malaysia
+
+US HY B
+US HY BB
+Mkt. Size ($T)
+
+0.9
+
+Mexico*
+>>
+
+ Indonesia
+
+
+Brazil
+
+US HY
+Mkt. Size ($T)
+
+0.9
+
+1.5
+
+India
+>>
+
+1.4
+
+
+Australia
+
+
+Chile
+
+Mkt. Size ($T)
+
+4.5
+
+1.7
+
+Mkt. Size ($T)
+
+0.9
+
+Chile*
+>>
+
+South
+Africa
+
+US HY B
+
+0.1
+Mkt. Size ($T)
+
+0.4
+
+0.5
+
+>>
+
+0.4
+
+Singapore
+>>
+
+0.2
+
+Malaysia
+>>
+
+US HY BB
+US CMBS
+Mkt. Size ($T)
+
+US HY BB
+
+>>
+
+US CMBS
+
+Brazil
+>>
+
+0.5
+
+Mkt. Size ($T)
+
+
+South Africa
+
+Municipal
+
+Mkt. Size ($T)
+
+Philippines
+
+Mkt. Size ($T)
+
+0.9
+
+0.3
+
+Indonesia
+>>
+
+0.4
+
+0.2
+
+US HY BB
+Mkt. Size ($T)
+
+0.9
+
+Australia
+>>
+
+0.7
+
+0.2
+
+Source: Bloomberg, S&P, SIFMA.
+
+14
+
+Pensions and insurance companies together hold $32 trillion in
+liquid assets.
+Insurance companies hold $10 trillion in
+liquid assets.
+
+Private pension plans hold $14 trillion in
+liquid assets.
+
+Public pension plans hold $8 trillion in
+liquid assets.
+
+Insurance companies have the lowest
+allocation to fixed income in a generation.
+
+For private defined benefit pension plans,
+an improved funded ratio may encourage
+a higher fixed income allocation.
+
+Public pension plans’ fixed income
+allocation is also near the low end of the
+observations over the past decade.
+
+Insurance: Fixed Income Allocation %
+of Liquid Assets
+
+Private Pension: Fixed Income
+Allocation % of Liquid Assets
+
+Public Pension Asset Allocation
+
+90%
+
+60%
+
+60%
+50%
+
+50%
+
+40%
+85%
+
+40%
+
+30%
+20%
+1956 1966 1976 1986 1996 2006 2016 2026
+
+80%
+
+Private Defined Benefit Pensions:
+Funded Status
+
+27%
+
+30%
+
+20%
+
+22%
+
+120%
+10%
+
+110%
+75%
+
+100%
+
+0%
+2013
+
+90%
+
+70%
+2006
+
+2017
+
+2019
+
+2021
+
+2023
+
+2025
+
+Equities (%)
+
+80%
+70%
+1956 1966 1976 1986 1996 2006 2016 2026
+
+2015
+
+Private Equity, Real Estate, etc. (%)
+Fixed Income (%)
+2010
+
+2014
+
+2018
+
+2022
+
+2026
+
+Cash (%)
+
+Source: Federal Reserve (Z1 data), Milliman, Presenter’s Calculations.
+Note: Liquid assets include cash, deposits, money market holdings, debt securities, corporate equities, and investment fund shares. Investment fund holdings are allocated proportionally between fixed income and equities
+based on the relative value of reported debt securities and corporate equity holdings.
+
+15
+
+The Household liquid balance sheet is another potential funding
+source for large future fixed income issuance.
+Share of Household Liquid Assets
+80%
+
+US Household Liquid Assets are $95 trillion
+(relative to a $10 trillion US IG market).
+
+70%
+60%
+
+Share
+
+50%
+40%
+
+Fixed Income is 8% of Liquid Assets,
+the lowest since 1973. It was around 24% in
+1994 and the early 2010s; the 1990s and
+2010s averaged around 15%.
+
+30%
+20%
+10%
+
+Equities are 71%, a record high.
+
+0%
+1956
+
+1966
+
+1976
+
+1986
+
+1996
+
+2006
+
+2016
+
+2026
+
+Fixed income allocation as % of total liquid assets
+Equity allocation as % of total liquid assets
+
+Source: Federal Reserve (Z1 data), Presenter’s Calculations.
+Note: Liquid assets include cash, deposits, money market holdings, debt securities, corporate equities, and investment fund shares based on Z1 data (Table S1M.s). Investment fund holdings are allocated proportionally
+between fixed income and equities based on the relative value of reported debt securities and corporate equity holdings. This does not include the look-through from households’ pension and insurance assets.
+
+16
+
+A reallocation of liquid assets from cash and equities into bonds
+could be impactful on borrowing costs. Interest received is another
+potential source of wherewithal.
+A 1% reallocation of assets from cash and/or equities and
+into bonds would raise $2 trillion.
+
+Assets
+
+US Households
+
+$95 tn
+
+Annual coupon received by debt investors has doubled since the
+2010s.
+
+Pro-Forma
+Hypothetical $
+Fixed Income
+Demand from a
+Allocation for a
+1% Incremental
+1% Incremental
+Allocation to
+Allocation to
+Fixed Income
+Fixed Income
+
+$1.0 tn
+
+Total Global Deposit / Money Market & Multiverse
+$ Coupon to be Reinvested
+3.5
+
+3.0
+
+9%
+
+Rest of OECD*
+
+$70 tn
+
+$0.7 tn
+
+22%
+
+$ tn
+
+2.5
+
+2.0
+
+US Pension &
+Insurance
+
+$32 tn
+
+$0.3 tn
+
+42%
+1.5
+
+Total
+
+$197 tn
+
+$2.0 tn
+
+19%
+1.0
+2010
+
+2013
+
+2016
+
+2019
+
+2022
+
+2025
+
+Source: Federal Reserve, Bloomberg.
+*Note: 2024 OECD data use look-through. 2024 OECD household financial assets, excluding the US. Pension entitlements, life insurance/annuities and investment fund shares are allocated 60% to equities and 40%
+to fixed income. Non-life insurance is excluded to avoid double counting.
+
+17
+
+Household access to credit markets has improved dramatically.
+Before 2002 there were no public trade prints; even after, the odd-lot buyer still paid an onerous
+toll to invest directly in this sector.
+
+1.4%
+
+0.66%
+
+<1%
+
+$0.56 vs
+$0.18
+
+round-trip cost on a $20,000
+corporate bond trade vs 0.08%
+on $5 million block (2003-05)
+
+median dealer markup on
+retail-size IG trades, 95th
+percentile 2.15% (2014)
+
+of 21,000 registered
+corporate bonds trade on a
+given day (2019)
+
+Odd-lot vs block effective bidoffer spreads (2023-24)
+
+Jul 2002
+TRACE begins public
+reporting of corporate bond
+trades; first bond ETFs list
+
+2007
+
+May 2018
+
+First high-yield ETFs
+
+FINRA Rule 2232:
+dealers must disclose
+retail markups
+
+Sep 2003
+
+2009-12
+
+AGG launches: the
+whole Aggregate
+index in one ticker
+
+First active bond
+ETFs
+
+Mar 2020
+LQD trades ~90,000 times in
+a day while its top five
+holdings trade 37 times each
+
+Households have dramatically reduced their direct corporate bond holdings: direct holdings fell from 8.5% of corporate
+bonds outstanding in 2000 to 1.2% in 2025, while ETFs went from zero to 8.0% and mutual funds from 7.4% to 15.1%.
+Active ETFs have broadened access to non-benchmark assets that sit at the heart of the contemporary financing.
+Source: FINRA, Bloomberg, Federal Reserve.
+
+18
+
+- To what extent does such debt issuance compete
+with Treasury securities for investor demand?
+
+19
+
+Putting the pace and scale of issuance in perspective.
+Tech accounts for 70% of the increase in IG
+issuance since 2024 and may exceed 50%
+of total notional IG issuance in 2027.
+
+By the end of 2027, outstanding tech debt
+will be larger than the entire US HY index
+market cap.
+
+Even after large 2027 tech debt issuance,
+overall tech debt will be a small fraction of
+broader global Fixed-Income markets.
+
+Tech-related Debt Outstanding
+relative to Corporate Markets
+
+Trailing 1Y Average Monthly US IG
+Issuance DV01
+10.0
+
+130
+
+New Tech-related Debt relative to
+Broader Markets
+120
+
+9.5
+
+103.5
+
+9.0
+120
+
+100
+
+8.0
+7.0
+
+100
+
+90
+
+80
+
+6.0
+
+Trillions, USD
+
+Trillions, USD
+
+$mm/bp
+
+110
+
+5.0
+
+4.0
+3.0
+
+60
+
+40
+
+2.7
+
+31.8
+
+80
+2.0
+70
+
+1.5
+
+1.3
+
+20
+
+1.0
+1.5
+0.0
+
+60
+2024
+Other USD IG
+
+2025
+Non-Hyperscaler Tech
+
+2026
+Hyperscalers
+
+0
+All Other All Other Debt End All Other
+Indexed Indexed of 2027 Indexed
+US IG High Yield
+US High
+Debt
+Debt
+Yield Debt
+
+Par Value of US Treasury
+All Global
+Marketable
+Indexed Fixed
+Debt
+Income
+
+Debt End of
+2027
+
+Source: Bloomberg, Dealers.
+
+20
+
+Treasury auction results do not show 2026 tech-related issuance
+crowding out Treasury demand at the long-end.
+
+All nominal coupon Treasuries:
+auction tail vs through
+3 bp
+
+3 bp
+Monthly
+
+2 bp
+
+10-30Y nominal Treasuries:
+auction tail vs through
+
+Rolling 6M avg
+
+Monthly
+
+Rolling 6M avg
+
+2-7Y nominal Treasuries:
+auction tail vs through
+3 bp
+
+2 bp
+
+2 bp
+
+1 bp
+
+1 bp
+
+1 bp
+
+0 bp
+
+0 bp
+
+0 bp
+
+-1 bp
+
+-1 bp
+
+-1 bp
+
+-2 bp
+
+-2 bp
+
+-3 bp
+
+-3 bp
+
+-2 bp
+
+-3 bp
+
+Tail
+(weak demand)
+
+Through
+(strong demand)
+
+Monthly
+
+Rolling 6M avg
+
+Source: Bloomberg.
+Note: Bars show the DV01-weighted average auction result (bp of tail vs through) for auctions that occurred during each month
+
+21
+
+Tech issuance has little independent explanatory power for
+Treasury yield movements.
+A regression analysis of 10y Treasury yield moves suggests tech issuance does not have a statistically significant effect on
+daily moves of Treasury yields after accounting for front-end yield moves, oil price moves, and Treasury supply.
+Regression of 3-day change in 10y Treasury yield against the following variables. Sample is January 2026 to present.
+Statistical significance*
+3-day change in 2-year Treasury yield
+
+Highly
+Significant
+
+T = 14
+
+Growth and Fed expectations are clearly the
+dominant drivers of yield moves. These
+explain the majority of the yield moves.
+
+3-day change in Oil price
+
+Significant
+
+T = 2.0
+
+Energy market volatility is also a relevant
+factor.
+
+US Treasury issuance dv01 (3-day sum)
+
+Marginally
+Significant
+
+T = 1.8
+
+Treasury auctions marginally impact postauction valuations.
+
+Tech credit issuance dv01 (3-day sum)
+
+Not
+Significant
+
+T = -0.5
+
+Tech credit issuance does not explain a
+statistically significant move in Treasury
+yields beyond the above-mentioned factors.
+
+Source: Bloomberg, US Department of the Treasury, Presenter’s Calculations.
+*Note: Characterization of statistical significance is based on the absolute value of t-stat: highly significant (greater than 2.58), significant (1.96–2.58), marginally significant (1.65–1.96), and not significant (less than 1.65).
+
+22
+
+Treasury duration supply has not increased since 2024; 20+ year
+marketable Treasury debt is $2.4 trillion. Technicals in long-dated
+Treasuries are structurally sound.
+Annual duration net supply from Treasuries
+that the market needs to absorb*
+(in 10-year Treasury equivalents)
+
+Marketable Treasuries outstanding excluding Fed's
+holdings by years-to-maturity buckets
+8 tn
+
+3.5 tn
+
+7 tn
+
+3.0 tn
+
+6 tn
+
+2.5 tn
+
+5 tn
+
+2.0 tn
+4 tn
+
+$2.4 tn,
+9% of total
+
+1.5 tn
+3 tn
+1.0 tn
+
+2 tn
+
+0.5 tn
+
+1 tn
+
+0.0 tn
+2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026E
+
+0 tn
+Bills &
+FRN
+
+0-2
+years
+
+2-5
+years
+
+5-10
+years
+
+10-20
+years
+
+20-30
+years
+
+Years to Maturity
+
+Source: US Department of the Treasury, Federal Reserve, Presenter’s Calculations.
+*Note: 2026 estimate assumes the following for the remainder of the year: 1) a continuation of roughly $6bn per long-end buyback operation; 2) no change in auction sizes of Treasury coupon securities.
+
+23
+
+Duration supply has increased in IG and MBS, which is where we
+have seen re-pricing (in spreads).
+Annual duration net supply (in 10-year equivalents)
+that the market needs to absorb
+Treasuries
+
+IG corporate
+
+Agency MBS
+
+Duration supply from the US fixed income market (in 10-year
+Treasury equivalents): 5.1tn in 2026 versus 4.0tn in 2025.
+
+Sum
+
+6 tn
+5 tn
+
+4.3
+
+4.2
+3.7
+
+4 tn
+
+3.0
+3 tn
+
+5.1
+
+4.8
+
+2.8
+
+2.9
+
+2.7
+
+-1 tn
+
+-
+
+This duration supply might have put some marginal upward
+pressure on Treasury yields but it hasn’t been the primary
+driver of the rates selloff YTD.
+Fixed Income Spread / Curve YTD Changes
+
+2.5
+
+bps
+0 tn
+
+Tech IG and MBS accounted for the entirety of the
+increase - this is where we’ve seen spread widening.
+
+4.0
+
+2 tn
+1 tn
+
+-
+
+170
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+60
+
+158
+137
+121
+103
+
+101
+
+75
+64
+MBS Spread
+
+Long Tech IG
+OAS
+
+31 December 2025
+
+US Treasury
+2Y30Y Curve
+
+64
+ACM 10Y Term
+Premium
+
+23 October 2026
+
+Source: Bloomberg, US Department of the Treasury, Dealers, Presenter’s Calculations.
+*Note: Treasuries and Agency MBS numbers adjust for Fed’s holdings as well as Treasury’s buybacks so they represent the supply that the market needs to absorb. Treasury supply estimates for 2026 assume no changes
+to current policy: approximately $6bn buyback per long-end buyback operation and unchanged Treasury coupon auction sizes through year-end. Agency MBS numbers include organic supply as well as duration
+extension/contraction from agency MBS held by convexity-hedgers (assume 40% of agency MBS is held by convexity-hedgers ex Fed), and do not adjust for GSE purchases.
+
+24
+
+There are no clear signs yet of crowding out within the broader
+credit market from tech issuance.
+Long US IG Spreads: Index vs. Tech
+200
+
+450
+
+OAS (bp)
+
+OAS (bps)
+
+US HY
+
+500
+
+150
+
+100
+
+400
+350
+300
+250
+
+50
+2021
+
+2022
+
+2023
+
+Long IG OAS
+
+2024
+
+2025
+
+Long Tech IG OAS
+
+Non-Tech
+
+Tech
+
+15
+10
+5
+
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+
+0
+
+2025
+
+Secondary spread widening has been
+mostly contained to tech debt, with some
+residual widening in rate-sensitive credits.
+
+Order Book/Issuance Size
+
+IG New issue concession
+
+20
+
+bp
+
+200
+Jun-26
+Jul-26
+Aug-26
+Sep-26
+Oct-26
+HY Tech
+HY ex-Tech
+HY ex-Tech & Distressed (<$60)
+
+2026
+
+Median Oversubscription Rates:
+Tech vs Non-Tech IG Issuance
+
+6.0x
+5.0x
+4.0x
+3.0x
+2.0x
+1.0x
+Jan-25
+
+May-25
+
+2026
+
+Unusually large new issue concessions
+have been largely contained within the
+tech sector.
+
+Sep-25
+Core Tech
+
+Jan-26
+
+May-26
+
+Sep-26
+
+Non-Tech
+
+Demand for non-tech credit new issuance
+as measured by order book-to-deal-size
+ratios has been steady throughout 2026.
+
+Source: Bloomberg, Dealers.
+
+25
+
+- What other potential effects on fixed income
+markets should Treasury be monitoring?
+
+26
+
+The tech impact on rates is from higher growth, not crowding out.
+The repricing has been in policy expectations and real rates, not an
+isolated long-end supply shock.
+Tech investment is contributing disproportionately to economic growth, lifting real rates and financing costs through the
+growth channel rather than direct crowding out. Repricing of rates has come primarily at the front-end and looks
+consistent with stronger growth alongside anchored inflation expectations.
+Non-Residential Investment Share of GDP Growth
+
+90%
+
+77%
+
+10%
+
+68%
+
+70%
+
+8%
+
+60%
+
+6%
+
+50%
+40%
+
+4%
+
+26%
+
+30%
+
+2%
+
+20%
+
+0%
+1985
+
+10%
+0%
+Q1 2026
+
+6%
+
+Q2 2026
+
+1y1y Nominal Policy Pricing vs Neutral
+Real Rate Proxy
+
+5%
+4%
+
+30-Year Median
+
+2.5%
+
+0%
+Oct-22
+
+2.80%
+
+2.0%
+
+2.70%
+
+1.5%
+
+2.60%
+
+1.0%
+
+2.50%
+
+0.5%
+
+1%
+
+2.40%
+2.30%
+
+Oct-23
+
+Oct-24
+
+1y1y Policy Rate (LHS)
+
+Oct-25
+
+1995
+
+0.0%
+Oct-26
+
+5y1m Real Rate (RHS)
+
+2.20%
+
+2000
+
+US 10Y
+
+US 5yr 5yr Inflation swap
+
+3%
+2%
+
+1990
+
+ATM Implied Volatility (bps)
+
+Share of GDP Growth
+
+80%
+
+US 10Y Yield vs US Nominal GDP
+
+12%
+
+160
+
+2005
+
+2010
+
+2015
+
+2020
+
+2025
+
+Nominal GDP YoY
+
+Implied interest rate volatility is elevated at
+the front-end
+
+140
+120
+100
+80
+60
+40
+2024
+
+2025
+3M2Y
+
+2026
+3M30Y
+
+Source: BEA, Bloomberg.
+
+27
+
+Conclusions
+The capex financing cycle is large, accelerating, and broadening. Tech-related debt issuance is projected to rise from
+approximately $586 billion in 2026 to $735 billion in 2027, with upside risk and an increasing role for secured
+borrowing and equity. Intentions to raise excess capital above projected funding gaps may suggest concern over
+eventual capital scarcity.
+The technology ecosystem retains both the capacity and the incentive to invest. Low aggregate leverage and
+expected returns above the cost of capital support continued borrowing and spending, but the strength of the overall
+cohort should not obscure the vulnerabilities of individual borrowers.
+Capital provisioning is becoming more discerning, not yet broadly unavailable. Lenders are demanding more
+favorable terms and secured structures, while lower-rated borrowers face greater scrutiny; crowding out is most
+evident within the technology ecosystem rather than across the broader Fixed Income markets.
+The investor base has capacity to finance the next phase. Insurers, pensions, households, and foreign investors
+provide multiple sources of demand, while even modest reallocations from cash and equities into fixed income could
+finance a meaningful share of projected borrowing.
+There is no clear evidence to date that tech issuance is crowding out Treasuries or non-tech credit. Treasury
+auction results and resilient non-tech credit spreads suggest that markets are absorbing the financing wave, with
+supply-related repricing concentrated within the technology ecosystem rather than impairing access to capital more
+broadly.
+Higher Treasury yields are primarily a growth, policy-expectations, and energy story, not an issuance-driven
+supply shock. The analysis finds little independent explanatory power from tech issuance; the durability of capex-led
+growth remains more important for the rates outlook than financing volumes alone.
+
+28
+
+

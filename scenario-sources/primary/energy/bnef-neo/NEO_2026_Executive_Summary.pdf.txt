@@ -1,0 +1,2115 @@
+New Energy
+
+Outlook 2026
+Energy and climate scenarios 
+that connect the dots.
+
+New Energy Outlook
+May 19, 2026
+
+Summary findings
+How the world produces, delivers, consumes and ultimately pays for energy is
+the focus of much attention today, but not always for the right reasons. So far
+this decade, the world has suffered three substantial shocks to the energy
+system – the Covid-19 pandemic, the war in Ukraine and, most recently, the
+conflict in the Persian Gulf. Each shock has highlighted the inherent volatility
+and insecurity of our energy system. Meanwhile, the world has become
+increasingly unsettled, with longstanding friendships and alliances between
+nations shifting or at least being questioned.
+This is the backdrop against which we proudly release the 2026 BloombergNEF
+New Energy Outlook, our collective view on credible pathways the energy world
+may be headed for over the next decade and then through 2050. The scenarios
+in this report are grounded in BNEF’s assessment of current and future
+technologies and energy system costs, drawing on more than 20 years of
+primary research across new energy technologies, including wind, solar,
+batteries, nuclear power, and electric vehicles, alongside proprietary research of
+fossil-fuel production trends and costs. They reflect extensive bottom-up
+modeling and thousands of people-hours of economic analysis to construct
+internally consistent, plausible transition pathways.
+Backed by expert insight and high-granularity data at a global, country and
+sectoral level, this work is designed to support companies, financial institutions
+and policymakers in their long-term planning. It provides the narratives needed
+to navigate energy security, economic development and climate mitigation
+challenges.
+
+Understanding this report
+•
+
+For this year’s report, BloombergNEF updates its Economic Transition Scenario (ETS), our
+base case for how the energy system is most likely to evolve over the next decade and
+through 2050. The ETS is technology-led and makes no major assumptions about new
+climate policy. Instead, it reflects a world where technologies compete on cost to meet rising
+energy demand, with the most efficient, least-cost technologies scaling and higher-cost,
+legacy options declining.
+
+•
+
+Much has changed since last year’s edition and this year’s update explores the energy
+security implications of the transition in greater depth. Our analysis shows technologies that
+enable net fossil-fuel importing countries to decouple from geoeconomic uncertainty may gain
+added impulse.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+1
+
+New Energy Outlook
+May 19, 2026
+
+•
+
+NEO 2026 also includes our first update in two years to the Net Zero Scenario (NZS), a wellbelow 2C climate scenario that meets the goals of the Paris Agreement. The NZS explores
+how energy supply and demand would evolve if nations collectively adjusted policies to put us
+on a net-zero CO2 emissions pathway. While policy focus has shifted in some regions,
+climate risks are already material and growing. For long-term investors, such scenarios
+remain essential to understanding transition pathways and informing portfolio strategy.
+
+High-level findings
+High-level findings from NEO 2026 are below followed by more complete discussions of each:
+The transition to new energy technologies improves resilience to fossil-fuel price shocks.
+As adoption of solar modules, batteries, heat pumps, electric vehicles (EVs), and other
+technologies accelerates, fossil-fuel dependent nations stand to improve their energy security
+under our base case. This can happen faster under the NZS.
+Oil and gas part ways. Global demand growth for crude oil slows then declines as EV adoption
+rises under the ETS, while gas use rises to meet electricity demand. Oil and gas demand both
+drop if countries get serious about CO2 emissions in the NZS.
+Coal’s moment fades but never entirely disappears. Energy security concerns are prompting
+coal-rich nations to re-emphasize coal use, but the fuel cannot compete on cost over the long
+term. It slips to half of current levels of power generation use by 2050 (ETS).
+Many, many things get electrified. Rising demand from EVs, data centers, buildings, industry,
+air conditioning units and heat pumps makes electricity the top supplier of final energy by 2047
+(ETS). It comes a decade earlier under the NZS.
+Solar becomes the power-generation leader by 2032. Propelled by manufacturers’ massive
+over-capacity and collapsing prices, solar is the world’s largest zero-carbon power source by the
+end of this decade and then becomes the largest generator overall by 2032 (ETS).
+Batteries step into the breach. BNEF has substantially increased its outlook for battery
+deployment. Storage jumps 17-fold to 3.8 terawatts by 2050 from 223 gigawatts in 2025 but
+adoption rates vary, with China and the US poised to go slower than many other nations.
+More flexibility comes to both supply and demand. A larger, more dynamic power system
+requires increased flexibility from both supply and demand. By 2035, some 11% of megawatthours generated are shifted, up from 3% today. This includes storage technologies such as
+batteries, but also flexible demand-side measures, such as smart electric-vehicle charging.
+The current suite of technologies remains insufficient. Despite $0.5 trillion in corporate equity
+and billions in government support over five years for startups and other firms, the next great lowcost energy technology has yet to emerge. Hopes are high for new nuclear, geothermal or
+storage technologies, but none has been proven sufficiently at scale – yet.
+Electrifying transport reduces gasoline demand, but the power sector still contributes
+most to CO2 emissions cuts. EVs are now denting demand for oil-based products, but the
+power sector – namely, switching from coal-fired power generation to renewables/batteries and
+gas – makes the single greatest contribution to curbing emissions under ETS.
+China leads on emissions reductions starting from a very high base. The country, which
+emits twice as much annually as any other nation, by 2030 cuts its emissions 17% from their 2023
+peak under the ETS (faster than the government has pledged). By 2050, China’s emissions fall by
+50% from their peak but still land well above where the US or Europe are today.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+2
+
+New Energy Outlook
+May 19, 2026
+
+A well-below 2C climate scenario is still possible. While energy security has dominated
+headlines, climate change is not going away. The window for a 1.5C outcome has passed, but
+BNEF still sees a credible technology pathway to keep peak temperature rises at 1.81C.
+Global energy-transition investment is tracking the ETS but addressing climate change will
+require much, much more. A record $2.3 trillion flowed to energy transition companies, projects
+and technologies in 2025, generally in line with the ETS. Addressing climate change as outlined
+under the NZS requires $4.8 trillion per year in clean energy investment for 2026-2030 and $7.7
+trillion for 2031-2035.
+
+The transition to new energy technologies improves resilience to fossilfuel price shocks
+•
+
+Whether the global economic order is fracturing or merely shuddering remains to be seen.
+That said, the fragility of today’s fossil energy-delivery system is not in doubt. In March 2026,
+countries heavily reliant on Persian Gulf fuels saw energy costs surge and the risk of physical
+shortages rise, setting off energy security alarm bells in capitals across the globe.
+
+Figure 1: Energy commodity import dependence for selected markets, 2025-2035-2050
+Economic Transition Scenario
+
+Net Zero Scenario
+
+Energy imports as share of GDP ($, real 2025)
+
+Energy imports as share of GDP ($, real 2025)
+Australia
+
+Australia
+Vietnam
+
+Vietnam
+
+US
+
+US
+Saudi Arabia
+
+Saudi Arabia
+Japan
+
+Japan
+India
+
+India
+
+Indonesia
+
+Indonesia
+
+UK
+
+UK
+
+EU
+
+EU
+
+China
+
+China
+
+Brazil
+
+Brazil
+-7%
+
+-6%
+
+-5%
+
+-4%
+2025
+
+-3%
+2035
+
+-2%
+2050
+
+-1%
+
+0%
+
+-7%
+
+-6%
+
+-5%
+
+-4%
+2025
+
+-3%
+2035
+
+-2%
+
+-1%
+
+0%
+
+2050
+
+Source: BloombergNEF Trade Transition Scenario Tool, Sinoimex Global Trade Flow (GTF), GCAM. Note: Energy commodity
+imports based on observed 2024 trade data from relevant custom codes for coal, lignite, crude, petroleum oil and gas products, and
+renewable fuels. Negative values indicate imports. Future imports scaled forward based on domestic demand for related products
+and services under different scenarios. This projection assumes relative trade patterns remain static and uses the same GDP
+projections under both scenarios.
+•
+
+© Bloomberg Finance L.P.2026
+
+Over the long term, the shift to new energy technologies can strengthen individual nations’
+resilience to future price shocks. Under both the ETS and NZS, most major markets reduce
+reliance on imported oil, coal, gas and energy products. Asian economies with high import
+liabilities stand to gain the most when looking at energy imports as a share of GDP. Vietnam,
+Japan, Indonesia and India – where energy imports accounted for between 3% and 6% of
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+3
+
+New Energy Outlook
+May 19, 2026
+
+GDP in 2025 – can reduce this exposure significantly by 2035 and further by 2050. Rapidly
+downshifting fossil fuel consumption would accelerate gains in energy resilience. Under the
+NZS, most nations have the potential to all but eliminate energy imports as a share of GDP.
+Some of this might be offset by imports of clean energy technologies such as solar modules
+and batteries. While China currently dominates the production of much of this equipment
+today, manufacturing could become more diversified. Crucially, clean-tech imports carry
+lower energy security risk; once the kit is on your soil, it’s yours.
+
+Oil and gas part ways under the ETS, head south together under the
+NZS
+•
+
+Global oil demand and gas demand historically moved in tandem, with gas often a byproduct
+of oil extraction. However, the two fuels have arrived at a crossroads and part ways in the
+coming decade under the ETS.
+
+•
+
+Recent headlines and concerns about price spikes notwithstanding, global oil demand
+plateaus into the mid-2030s, driven largely by electrification in road transport. By 2050, oil
+demand falls from its peak around 2029 to levels last seen in the early 2000s. EVs are
+already crimping gasoline demand in leading markets such as China and are set to expand
+their impact across Southeast Asia and Latin America.
+
+•
+
+By contrast, gas becomes a go-to fuel in the ETS. Demand grows strongly, driven by power
+generation, including for rapidly rising data center load, as well as industry and transport. By
+the middle of the 2040s, gas surpasses oil as the largest share of primary energy. In
+geopolitical terms, this shift strengthens the strategic position of nations with large, low-cost
+gas reserves. It is already driving a “dash to gas”, with an increasingly heterogeneous
+collection of nations expanding production – including Argentina, Brazil, Canada, Guyana,
+Israel, Mozambique and others. In the US, President Donald Trump has sought to encourage
+more gas (and oil) production to establish “energy dominance” as a low-cost producer.
+
+Figure 2: Fossil-fuel demand by sector, Economic Transition Scenario and Net Zero Scenario
+Coal
+
+Oil
+
+Million metric tons
+7,000
+6,000
+
+Gas
+Billion cubic meters
+6,000
+
+Million barrels per day
+120
+ETS
+
+5,000
+
+ETS
+
+100
+80
+
+5,000
+
+ETS
+
+4,000
+
+4,000
+3,000
+
+1,000
+
+2025
+
+NZS
+
+NZS
+
+2,000
+
+0
+2000
+
+3,000
+
+60
+
+NZS
+
+2050
+
+40
+
+2,000
+
+20
+
+1,000
+
+0
+2000
+
+2025
+
+2050
+
+0
+2000
+
+2025
+
+2050
+
+Energy industry
+Power
+Non-energy use
+Other sectors
+Rail
+Aviation
+ShippingN
+Road Z
+S
+Commercial
+20 b.
+Residential
+24 b.
+Other industry
+Chemicals
+Cement
+Aluminum
+Steel
+
+Source: BloombergNEF. Note: ETS is Economic Transition Scenario, NZS is Net Zero Scenario. Coal assumes a
+6,000kcal/kilogram energy content. “b.” refers to buildings.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+4
+
+New Energy Outlook
+May 19, 2026
+
+•
+
+Under the NZS, the outlook for gas weakens significantly. Overall, oil demand plateaus then
+plummets, while gas peaks in the early 2030s, then quickly joins oil in structural decline
+through 2050.
+
+Coal’s moment fades but it never entirely disappears
+•
+
+A renewed emphasis on energy security has seemingly put coal back in the spotlight,
+especially in Asian nations most affected by the latest crisis. In the US, the Trump
+administration has ordered existing, uneconomic coal-fired power plants to continue operating
+and there remains potential for gas-to-coal switching in some parts of Europe, if gas prices
+remain elevated. But coal is unlikely to stage a sustained comeback as it cannot compete
+with cheaper alternatives in most parts of the world.
+
+•
+
+In power, coal’s share in generation already peaked in 2011 at 41%. By 2050, coal
+generation accounts for around 8% of output. Rather than supplying baseload power, it is
+increasingly displaced by cheaper renewables and runs fewer hours, serving a more limited,
+residual role in systems where alternatives are constrained. Its persistence reflects existing
+asset bases and cost advantages in some markets, but its structural decline in the power
+sector is clear.
+
+•
+
+Still, coal does not get easily squeezed out of the global energy system, given its importance
+in delivering around-the-clock power and its continued role as direct fuel in certain industrial
+processes and in non-energy applications. Under the NZS, unabated coal without carbon
+capture and storage in the power system disappears.
+
+Figure 3: Electricity generation by technology, Economic Transition Scenario
+Thousand Terawatt-hours
+
+Offshore wind
+
+60
+
+2025
+
+2035
+
+Onshore wind
+
+Small-scale PV
+50
+
+Utility-scale PV
+Geothermal
+
+40
+
+Hydro
+Bioenergy
+Nuclear
+
+30
+
+Oil
+
+Gas peaker
+
+20
+
+CCGT with CCS
+CCGT
+
+10
+
+Coal with CCS
+0
+2000
+
+Coal
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Source: BloombergNEF. Note: CCS is carbon capture and storage, CCGT is combined cycle gas
+turbine. See New Energy Outlook 2026: Data Viewer (web | terminal) for full results and
+about.bnef.com/new-energy-outlook for an abridged public benchmark dataset.
+
+Many, many things get electrified
+•
+
+Electricity demand is now rising almost everywhere, driven by population growth, rising
+incomes, new loads such as data centers, and the electrification of end-use sectors. This is
+good news for energy productivity, security and emissions reductions. Electrification improves
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+5
+
+New Energy Outlook
+May 19, 2026
+
+system efficiency, reduces waste and shifts emissions into the power sector, where demand
+can increasingly be met by low-cost clean technologies. Electric technologies such as motors
+and heat pumps are more efficient than combustion-based alternatives, lowering primary
+energy use even as useful energy demand grows. Across transport, buildings and industry,
+electrification reduces reliance on oil, coal and gas while strengthening energy security.
+•
+
+Electricity accounted for 21% of final energy – that is, the energy delivered to end users for
+consumption – in 2025, second only to oil products at 38%. In our base case, electricity
+becomes the dominant source of final energy by 2047. It all happens faster under the NZS,
+with the cross-over occurring as soon as 2037.
+
+Figure 4: Global final energy consumption by fuel and scenario
+Economic Transition Scenario
+Final energy
+60%
+
+Net Zero Scenario
+Final energy
+60%
+
+2025 2035
+
+50%
+
+50%
+
+40%
+
+40%
+
+30%
+
+30%
+
+20%
+
+20%
+
+10%
+
+10%
+
+0%
+2000
+
+2025 2035
+
+Electricity
+
+Oil
+Gas
+Coal
+
+2025
+
+2050
+
+0%
+2000
+
+Bioenergy
+Other
+renewables
+Heat
+
+Hydrogen
+
+2025
+
+2050
+
+Source: BloombergNEF. Note: “Other renewables” includes all other non-combustible renewable
+energy, such as hydro and geothermal.
+•
+
+Global electricity demand has more than doubled since 2000, driven primarily by rising
+consumption in buildings and industry as populations grow and incomes increase. In the
+Economic Transition Scenario, demand rises a further 29% by 2035 and 69% by 2050.
+However, the composition of that growth is shifting.
+
+•
+
+Electrification in road transport and a rapid expansion of data centers are emerging as major
+new drivers of load. At the same time, buildings remain a structural driver as rising incomes
+increase appliance ownership and cooling demand. Air-conditioning uptake is accelerating in
+warmer climates, while in temperate regions it is increasingly contributing to summer peak
+demand.
+
+•
+
+Energy-intensive data centers supporting the rise of generative artificial intelligence (AI) are
+now a major and fast-growing driver of global power demand, with few signs of slowing. Their
+electricity use more than triples by 2035, reaching 5.4% of global demand. The share can be
+much greater in high-growth markets. We estimate that data center demand by 2035 makes
+up 23% in the US PJM market, 18% in Malaysia, and 15% in the UK.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+6
+
+New Energy Outlook
+May 19, 2026
+
+Figure 5: Drivers of electricity demand growth, Economic Transition Scenario
+Absolute growth
+Thousand terawatt-hours
+50
+
+Relative growth from 2025
+Thousand terawatt-hours
+
+2035
+
+2025
+
+5
+
++69%
+
+2035
+
+Electric vehicles
+
+40
+
+Data centers
+
++29%
+
+Heat pumps
+
+30
+
+4
+3
+
+Air conditioning
+
+Buildings
+
+20
+
+High-heat industry
+Other sectors
+
+0
+2000
+
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Buildings
+Air
+conditioning
+Other sectors
+
+2
+
+Low-heat industry
+10
+
+Electric
+vehicles
+Data centers
+
+1
+0
+2025 2030 2035 2040 2045 2050
+
+Low-heat
+industry
+High-heat
+industry
+Heat pumps
+
+Source: BloombergNEF
+•
+
+Our least-cost modeling suggests data-center demand could drive a major capacity
+expansion by 2050, requiring roughly 1,000GW of utility-scale solar, 400GW of batteries,
+370GW of gas and 110GW of coal capacity. While thermal power plants collectively account
+for about 500GW (20%) of new capacity additions, they have a much higher share of
+generation. Some 51% of incremental generation to serve data centers by 2050 comes from
+new and existing fossil-fuel generators. This includes new-build gas plants, but also coal
+plants that delay economic closures compared to a world without this demand.
+
+•
+
+While there are regional nuances, data centers are generally well matched with the high,
+around-the-clock load profile of fossil-fuel plants as opposed to variable renewables with
+back-up. Data-center growth raises global power-sector emissions by about 6% by 2035,
+relative to a scenario without this demand. Their build-out therefore carries major emissions
+risk if not accompanied by concerted clean energy efforts.
+
+Solar becomes the power-generation leader by 2032
+•
+
+The surge of solar deployment over the past decade has been nothing short of remarkable
+with annual capacity installations rising nearly ninefold from 75GW in 2016 to 655GW in
+2025. Solar is now neck-and-neck with nuclear and wind as the world’s second biggest
+source of zero-carbon power generation. It is also being deployed in ever widening
+applications, from micro-systems providing citizens in least-developed countries with their first
+energy access, to large-scale plants that power the world’s most advanced AI data centers.
+
+•
+
+BNEF anticipates solar build will stay at its current, record-high build rate but not grow
+dramatically for at least several years. By the end of this decade under ETS, solar becomes
+the largest zero-carbon source. By 2032 it emerges as the single largest source of power
+generation of any kind. China today is home to the vast majority of photovoltaic
+manufacturing, but other nations have begun to ramp up module assembly in recent years,
+including India, Southeast Asian countries, Egypt, Ethiopia and the US.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+7
+
+New Energy Outlook
+May 19, 2026
+
+Figure 6: Share of global electricity generation by technology/fuel
+
+Share of total generation
+50%
+
+2032
+Coal
+
+40%
+
+Gas
+
+30%
+
+Oil
+Nuclear
+
+20%
+
+Other renewables
+
+10%
+0%
+2000
+
+Solar
+Wind
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Source: BloombergNEF. Note: “Other renewables” includes all other non-combustible renewable
+energy, including hydro, bioenergy, geothermal and solar thermal.
+
+Batteries step into the breach
+•
+
+In markets where penetration has been highest to date, solar has already proven to be a
+disruptive force, creating “duck curves” of depressed power prices – and depressed
+incumbent power generators who see their revenues fall. This “missing money” problem has
+prompted dozens of white papers, symposia, and reform proposals aimed at ensuring all
+stakeholders are treated fairly, particularly ratepayers. But in many cases, power market
+reform is immensely complex, time consuming and might not produce optimal results.
+
+•
+
+A far simpler potential option: use batteries at scale to shift midday generation to evening
+hours. Already, batteries are being deployed in a wide variety of shapes and sizes, in front of
+and behind the meter, to provide greater system flexibility to grids. The stationary battery
+industry in 2026 is roughly where the solar industry was in 2020, in gigawatts installed and in
+terms of being a highly fragmented manufacturing industry breaking free of dependence on
+subsidy. In China, the country’s top 10 lithium iron phosphate (LFP) battery suppliers have a
+combined market share of just 47% in their domestic market. Battery products are
+increasingly commoditized, and this is driving down prices faster than BNEF previously
+expected.
+
+•
+
+Projected lower costs have prompted BNEF to substantially increase its outlook for battery
+deployment over the next 10 and 25 years. Storage jumps 17-fold to 3.8 terawatts by 2050
+from 223 gigawatts in 2025, but adoption rates vary substantially by country. In our modeling,
+China scales back its ambitions as pumped hydro and other system characteristics absorb
+part of the flexibility need. In the US, a new law makes it more challenging for utility-scale
+project developers to deploy the lowest-cost batteries (from China) while still qualifying for
+key tax-credit subsidies.
+
+•
+
+Batteries have their limitations, and their deployment faces economic limits as renewable
+penetration rises. As solar and wind expand, battery utilization declines, particularly in
+seasonal systems, thus reducing project economics. Once storage is no longer fully cycled
+daily, returns weaken, constraining further scale without new flexibility solutions.
+
+•
+
+New, longer-duration energy storage technologies are making important progress toward cost
+competitiveness and are attracting investment but they have yet to achieve sufficient scale for
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+8
+
+New Energy Outlook
+May 19, 2026
+
+BNEF to model their impact on the grid over the next 10 to 25 years. We will continue to
+monitor these closely.
+Figure 7: Forecast capex for a 4-hour turnkey energy
+
+Figure 8: Battery stationary storage cumulative installed
+
+storage system using LFP batteries, by region
+
+capacity, Economic Transition Scenario
+
+$ per kilowatt-hour, usable (real 2025)
+450
+
+Global
+benchmark
+(high)
+
+400
+
+300
+
+US
+(Chinese
+batteries)
+
+250
+
+Europe
+
+350
+
+Terawatts
+4
+
+2025
+
+2035
+Rest of world
+Latin America
+
+3
+
+US
+Middle East & Africa
+
+Europe
+
+2
+
+200
+
+Other Asia
+
+100
+
+Global
+benchmark
+(low)
+
+50
+
+China
+
+150
+
+0
+2022 2024 2026 2028 2030 2032 2034
+
+Australia
+
+1
+
+Japan & S. Korea
+India
+China
+
+0
+
+2020
+
+2030
+
+2040
+
+2050
+
+Source: BloombergNEF. Note: “LFP” stands for lithium iron
+
+Source: BloombergNEF. Note: Includes residential and utility-
+
+phosphate battery. Pricing based on usable capacity.
+
+scale batteries.
+
+More flexibility on both sides of the supply/demand equation
+•
+
+How energy is being produced, stored, and consumed is becoming more heterogeneous and
+decentralized. In response to price shocks, Pakistan added 25GW of solar in just two years.
+In California, over 260,000 residential battery systems have been installed since 2020 to
+improve resilience. Globally, EV sales reached a record 20.7 million in 2025, bringing the fleet
+to more than 50 million vehicles.
+
+•
+
+The diffusion of new technologies accelerates over the next 10 and 25 years, supported by a
+larger and more flexible grid that employs cutting-edge technology and human ingenuity to
+manage a more complex supply/demand balance. Power systems operate with higher shares
+of variable renewables and flexible assets, often larger than historical standards but
+optimized for reliability under a more dynamic load profile.
+
+•
+
+Accepting curtailment – or megawatt-hours that go unused – as a feature of a highrenewables system may seem counterintuitive. But it is often more rational and technically
+easier than ramping down fossil fuel or nuclear plants to match fluctuations from more
+variable forms of generation. It can make sense to build solar plants in the face of curtailment
+risks – so long as output during shoulder hours is valuable enough to the system. In addition,
+the share of megawatt-hours that are shifted using energy storage solutions or flexible
+demand also rises.
+
+•
+
+Different markets exploit flexible system resources to different degrees. Brazil today meets
+most of its generation and flexibility needs though large-scale hydro power. By 2035, some
+4% of megawatt-hours generated are shifted via batteries, pumped hydro and smart EV
+charging, rising to 11% by 2050. Another 10% of energy produced goes unused in 2050.
+
+•
+
+By contrast, the Iberian Peninsula, which already shifts 4% of its demand today via pumped
+hydro and battery storage, shifts 25% of its power generated and curtails 18% in 2050.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+9
+
+New Energy Outlook
+May 19, 2026
+
+Figure 9: Power generation and power flexibility in Brazil,
+Economic Transition Scenario
+
+Figure 10: Power generation and power flexibility in Spain
+and Portugal, Economic Transition Scenario
+
+Generation
+
+Generation
+
+140%
+
+140%
+120%
+
+120%
+MWh
+shifted
+MWh
+unused
+
+100%
+Wind and solar
+
+80%
+
+100%
+
+MWh
+unused
+
+80%
+
+Other
+renewables
+
+60%
+
+MWh
+shifted
+
+40%
+
+Other
+renewables
+
+60%
+
+MWh
+generated
+and used
+
+MWh
+generated
+and used
+
+40%
+
+20%
+
+20%
+
+Bulk fossil
+fuels
+
+Fossil fuels
+0%
+2015
+
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+Wind and solar
+
+0%
+2015
+
+2050
+
+2020
+
+Gas peakers
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+2050
+
+Storage - pumped hydro
+
+Storage - battery
+
+Flexible demand - hydrogen production
+
+Flexible demand - time of use power pricing
+
+Flexible demand - electric vehicles
+
+Curtailment
+
+Source: BloombergNEF. Note: “Other renewables” includes geothermal, hydro, bioenergy and marine. “MWh shifted” shows how
+many megawatt-hours were stored or deferred, as a share of total generation that year.
+•
+
+In the NZS, grid flexibility requirements until 2030 resemble those under the ETS, but then
+increase sharply thereafter. By 2040, a larger electric vehicle fleet supplies 60% more
+flexibility than in ETS, while batteries deliver nearly twice as much shifted energy. Electrolyzer
+capacity is also higher, reaching 192GW by 2035 compared with 40GW in the ETS.
+
+Figure 11: Global power system flexibility in the Net Zero Scenario
+Terawatt-hours of flexibility provided
+12,000
+10,000
+
+Pumped hydro
+
+8,000
+
+Peaker gas plants
+Batteries
+
+6,000
+
+Hydrogen production
+
+4,000
+
+General demand response
+
+2,000
+
+Smart EV charging
+
+2020
+
+2030
+
+2040
+
+Electrolyzer
+
+Supply
+
+Demand
+
+Electrolyzer
+
+Supply
+
+Demand
+
+Electrolyzer
+
+Supply
+
+Demand
+
+Electrolyzer
+
+Supply
+
+Demand
+
+0
+
+2050
+
+Source: BloombergNEF. Note: “EV” is electric vehicles.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+10
+
+New Energy Outlook
+May 19, 2026
+
+The current suite of energy technologies remains insufficient to meet
+rising demand or address the climate challenge
+•
+
+The best prospects for clean energy technology deployment continue to come from electric
+vehicles, wind, solar and batteries. Despite the current political headwinds, we broadly hold
+our outlook from the previous iteration.
+
+•
+
+We now anticipate heat pumps to grow slightly faster and are also somewhat more positive
+about nuclear power – though this largely reflects a lower assumed closure rate for existing
+plants and not a major vote of confidence in small modular reactors or large new-build
+deployment outside the Asia Pacific region. We’ve also lowered our expectations for lowemissions hydrogen production as costs in key markets have gone up while policy support
+has waned.
+
+Figure 12: Key technology drivers in the Economic Transition Scenario, 2020-2050
+Passenger electric vehicle fleet
+Million vehicles
+1,200
+
+Wind capacity
+Gigawatts
+8,000
+
+2035
+
+ETS
+2025
+
+900
+
+600
+
+ETS
+2026
+
+300
+0
+2020
+
+2030
+
+2040
+
+2035
+
+6,000
+
+15,000
+
+4,000
+
+10,000
+
+2,000
+
+5,000
+
+0
+2020
+
+2050
+
+Battery storage capacity
+Gigawatts
+4,000
+
+Solar capacity
+Gigawatts
+20,000
+
+2030
+
+2040
+
+0
+2020
+
+2050
+
+Heat pumps installed
+Million units
+400
+
+2035
+
+2035
+
+600
+
+2,000
+
+200
+
+400
+
+1,000
+
+100
+
+200
+
+2040
+
+0
+2020
+
+2050
+
+Hydrogen demand
+Thousands
+
+2035
+
+150
+
+100
+50
+0
+2020
+
+2030
+
+2040
+
+2050
+
+0
+2020
+
+Sustainable aviation fuel demand
+
+Million metric tons of hydrogen
+200
+
+2030
+
+2040
+
+2050
+
+Billion gallons
+12
+
+2035
+
+6
+
+200
+
+3
+
+100
+
+2040
+
+2035
+
+2030
+
+2040
+
+2050
+
+CO2 sequestered with CCS
+
+300
+
+2030
+
+2050
+
+Million tons of CO2 per year
+400
+2035
+
+9
+
+0
+2020
+
+2040
+
+Nuclear capacity
+
+300
+
+2030
+
+2030
+
+Gigawatts
+800
+
+3,000
+
+0
+2020
+
+2035
+
+2050
+
+0
+2020
+
+2030
+
+2040
+
+2050
+
+Source: BloombergNEF. Note: Wind includes offshore and onshore. Solar and storage include small-scale and utility-scale. CCS is
+carbon capture and storage, the ETS shows our base case forecast to 2032 (as of November 2025) plus modeled results.
+•
+
+© Bloomberg Finance L.P.2026
+
+Beyond today’s suite of mature clean technologies, the next generation of scalable solutions
+has yet to emerge. Since 2021, climate-tech firms have raised over $500 billion in new
+capital, including $225 billion in venture capital and private equity targeting early-stage
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+11
+
+New Energy Outlook
+May 19, 2026
+
+innovation. Governments have chipped in with billions more through grants, loans, and direct
+equity. Recent attention has focused on next generation nuclear, including companies
+developing small modular reactors, and next-generation geothermal. While many show
+promise, none has yet demonstrated the cost competitiveness or scale required to play a
+material role in BNEF’s modeling to 2050. The next several years could prove critical with
+new geothermal and nuclear companies planning to deploy their technologies at scale by the
+end of the decade.
+
+Electrifying transport reduces CO2 emissions, but the power sector
+makes the deepest cuts
+•
+
+If policy-makers pursue an energy transition based on historical efficiency trends and deploy
+economically-competitive, commercially at-scale technologies, our modeling shows global
+emissions fall by 21% between now and 2050, when they are about 40% below what they
+would have been in a counterfactual “no-transition” scenario. This trajectory is likely to limit
+global warming to 2.4C by 2100 (67th percentile). By contrast, the no-transition scenario
+assumes no further decarbonization progress while maintaining economic growth and energy
+demand, resulting in at least 3.6C of warming by 2100 – a highly detrimental outcome for the
+planet and humankind.
+
+Figure 13: CO2 emissions reductions from fuel combustion by measures adopted, Economic Transition Scenario versus
+“no transition” scenario and Net Zero Scenario
+Gigatons of CO2
+45
+
+9% energy efficiency
+
+No transition (3.6C)
+
+40
+
+60% clean power
+
+35
+
+Energy efficiency
+
+30
+
+25% electrification
+3% bioenergy
+4% hydrogen
+
+Oil
+
+25
+
+ETS (2.4C)
+
+20
+
+Recycling
+Fuel switching
+Heat
+Clean power
+
+Gas
+
+15
+
+NZS (1.81C)
+
+Electrification
+Bioenergy
+
+10
+
+Hydrogen
+
+Coal
+5
+0
+2000
+
+Carbon removals
+
+CCS
+
+2005
+
+2010
+
+2015
+
+2020
+
+2025
+
+2030
+
+2035
+
+2040
+
+2045
+
+2050
+
+Source: BloombergNEF. Note: The “no transition” scenario is a hypothetical counterfactual that models no further improvement in
+decarbonization and energy efficiency. In this scenario, clean tech build for power is capped at historical limits, with costs fixed at
+2026 levels and no further decline; in buildings and transport, the fuel mix remains unchanged from 2026; in industry, the uptake of
+recycling and alternative primary production processes is limited. “Clean power” includes renewables and nuclear, and excludes
+carbon capture and storage (CCS), hydrogen and bioenergy, which are accounted for separately. “Energy efficiency” covers
+demand-side efficiency improvements and reductions in demand. “NZS” is the Net Zero Scenario, “ETS” is Economic Transition
+Scenario.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+12
+
+New Energy Outlook
+May 19, 2026
+
+•
+
+The power sector is the single largest driver of emissions reductions. The shift from coal to
+renewables, supported by storage and, to a lesser extent, gas, accounts for 60% of
+emissions abatement by 2050 versus a no-transition pathway.
+
+•
+
+Electrification is the second major vector of decarbonization. Replacing direct fossil-fuel use
+in transport, industry and buildings delivers 60% of emissions reductions by 2050. Energy
+efficiency contributes a further 9%, while bioenergy and hydrogen account for 3% and 4% of
+emissions abatement, respectively.
+
+China is poised to lead on emissions cuts from a very high base
+•
+
+China remains the world’s largest emitter, with annual CO2 emissions roughly twice those of
+any other country. Having long resisted absolute reduction targets, it now aims to peak
+emissions before 2030 and reach carbon neutrality by 2060. Our modeling suggests its
+energy-related CO2 emissions peaked in 2023-2024 at over 11 gigatons and plateaued or
+slipped slightly since. By 2030, China emissions drop to 9GtCO2, or 17% below their peak,
+under the ETS. By 2050, they fall by nearly 50% from peak.
+
+Figure 14: Energy-related CO2 emissions by region, Economic Transition Scenario
+Gigatons of CO2
+12
+
+China peak,
+2024-25
+
+China
+India
+
+10
+
+Japan & S. Korea
+
+8
+
+Australia
+
+Other Asia
+
+6
+
+Europe
+US
+
+4
+
+Latin America
+2
+
+Middle East & Africa
+
+0
+2000
+
+Rest of World
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Source: BloombergNEF
+•
+
+Europe and the US (the world’s top emitter on a per-capita basis), which peaked their CO2
+emissions in 2006 and 2007, respectively, also see their emissions slide but not nearly as
+steeply. Notably, these reductions are collectively nowhere near sufficient to adequately
+address climate change.
+
+A well-below 2C scenario is still possible
+•
+
+The window to limit global warming to 1.5C by 2100 using currently available, credible
+technologies has effectively closed. However, BNEF has not anchored its long-term climate
+scenario to a specific temperature outcome, instead focusing on what is technically and
+economically feasible. This year’s updated NZS therefore remains central to NEO as a
+normative, Paris-aligned benchmark against which real-world progress can be assessed. It is
+consistent with a peak temperature rise of 1.81C by 2049 and 1.73C by 2100 (67th
+percentile).
+
+•
+
+© Bloomberg Finance L.P.2026
+
+For investors with longer time horizons, the NZS provides a decision-useful framework to
+navigate this complexity. It offers a consistent benchmark to assess transition risk, identify
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+13
+
+New Energy Outlook
+May 19, 2026
+
+misalignment with net-zero pathways, and structure portfolios accordingly in an environment
+where short-term signals understate long-term climate exposure.
+•
+
+The 2026 NZS reflects a material recalibration of carbon budgets and the role of key
+technologies. Carbon budgets are expanded and reprofiled, with the total allowance rising to
+around 500GtCO2 over 2024–2050 (up 44% versus 2024 NZS) and the power-sector budget
+more than doubling. This reflects delayed action and slower near-term decarbonization, with
+emissions trajectories tracking closer to the ETS through the early 2030s before declining
+more gradually thereafter.
+
+•
+
+As a result, the NZS shifts toward a larger, more electrified energy system, where renewables
+and storage carry a greater share of abatement, compensating for slower progress in other
+technologies and a less stringent near-term carbon constraint.
+
+•
+
+Compared to our last NZS, the role carbon capture and storage (CCS) plays in reducing
+emissions is lower in cumulative terms by around one-third, reflecting greater infrastructure
+and cost constraints. But the technology remains critical for hard-to-abate sectors and
+reaches around 7GtCO2 of annual capture by 2050. Hydrogen is also further rationalized in
+the new NZS, with demand reaching around 290Mt by 2050 (around one-third lower than
+previously) reflecting weaker economics, slower scale-up, and a more targeted role in hardto-abate sectors.
+
+Global energy-transition investment is tracking the ETS, but a major stepchange is needed to address climate
+•
+
+In 2025, a record $2.3 trillion went into energy transition investment – BNEF’s term for money
+spent to deploy clean technologies such as clean energy, batteries EVs, heat pumps,
+hydrogen and carbon capture. That figure is largely consistent with the capital requirements
+under the ETS and not far short of the annual capital needs through the balance of this
+decade. Average annual 2026-2030 investment tracks at $3.1 trillion under the ETS, and
+energy transition investment expanded at a 12% compound annual growth rate in 2021-2025
+(real terms). Extending this trajectory to 2030 yields an annual spend of around $3.3 trillion,
+broadly in line with the ETS.
+
+•
+
+Energy transition investment rises a further 19% over 2031-2035, driven by electrified
+transport (+58%) and industry (+53%). Electrified transport becomes the dominant segment,
+approaching 61% of total low-carbon investment by 2035. Over the same period, renewable
+investment moderates, while grid spending rises 7% to support system integration.
+
+•
+
+© Bloomberg Finance L.P.2026
+
+By contrast, getting on a path to address climate change in a meaningful manner requires a
+major step-change in investment. Under the NZS, annual low-carbon investment averages
+$4.8 trillion 2026-2030 – more than double 2025 levels – and rises to $7.7 trillion between
+2031 and 2035. The largest absolute gap is in electrified transport, while early-stage
+technologies such as CCS enjoy the fastest relative growth.
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+14
+
+New Energy Outlook
+May 19, 2026
+
+Figure 15: Energy transition investment, 2025 actuals versus required annualized levels in NEO scenarios
+Economic Transition Scenario
+
+Net Zero Scenario
+
+$ trillion (real 2025)
+9
+
+$ trillion (real 2025)
+9
+
+8
+
+8
+
+7
+
+7
+
+6
+
+6
+
+5
+
++19%
+
+4
+
+3
+
++34%
+
+3.7
+
+3.1
+
++62%
+
+7.7
+
+CCS
++106%
+
+Power grids
+
+4.8
+
+Nuclear
+
+4
+
+2
+
+2
+
+1
+
+1
+
+Electrified heat
+Hydrogen
+
+5
+
+3
+
+2.3
+
+Clean industry
+
+Energy storage
+
+2.3
+
+Renewable energy
+Electrified transport
+
+0
+
+0
+2025 actual
+
+2026-2030
+
+2031-2035
+
+2025 actual
+
+2026-2030
+
+2031-2035
+
+Source: BloombergNEF. Note: 2025 actuals are from Energy Transition Investment Trends 2026 (web | terminal). “CCS” is carbon
+capture and storage.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+15
+
+New Energy Outlook
+May 19, 2026
+
+Contents of full report
+Section 1.
+
+Executive Summary
+1.1. Summary findings
+1.2. Acknowledgements
+
+1
+1
+16
+
+Section 2.
+
+The new energy landscape
+2.1. The route to 2035 and beyond
+2.2. Impact on energy security
+2.3. Turbocharging electricity demand
+2.4. Data centers and the power grid
+2.5. Unlocking new sources of flexibility
+2.6. The pivotal role of gas
+2.7. A new well-below 2C scenario
+2.8. Investment
+
+17
+17
+21
+25
+27
+34
+44
+49
+50
+
+Section 3.
+
+What’s new in NEO 2026
+3.1. Notable updates and improvements
+
+56
+56
+
+Section 4.
+
+Economic Transition Scenario
+4.1. Overview
+4.2. Energy balances
+4.3. Emissions and climate outcomes
+4.4. Fuel demand
+4.5. Power
+4.6. Grids
+4.7. Industry
+4.8. Transport
+4.9. Buildings
+4.10. Metals and materials demand
+
+59
+59
+61
+62
+66
+69
+80
+82
+86
+91
+93
+
+Section 5.
+
+Net Zero Scenario
+5.1. A new well-below 2C scenario
+5.2. Emissions and climate outcome
+5.3. Abatement
+5.4. Fuel demand
+5.5. Technology drivers under the NZS
+5.6. Electrification
+5.7. Renewables
+5.8. Hydrogen
+5.9. Carbon capture and storage
+5.10. Nuclear
+5.11. Industry
+5.12. Power grids
+5.13. Electric vehicles
+
+94
+94
+97
+101
+102
+103
+106
+107
+109
+113
+117
+118
+123
+124
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+16
+
+New Energy Outlook
+May 19, 2026
+
+Appendices
+
+128
+
+Appendix A.
+
+Modeling methodology
+Scenario design
+Geographic coverage
+Sectoral coverage
+Power
+Transport
+Industry
+Buildings
+Power grids
+Metals and materials
+Investment
+Climate modeling and temperature outcomes
+Additional modeling
+
+128
+128
+133
+135
+136
+140
+147
+149
+152
+154
+155
+158
+159
+
+Appendix B.
+
+Glossary and country groupings
+
+160
+
+Appendix C.
+
+Input and Output Data
+
+162
+
+Appendix D.
+
+Corrections and Amendments
+
+163
+
+About us
+
+© Bloomberg Finance L.P.2026
+
+164
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+17
+
+New Energy Outlook
+May 19, 2026
+
+Authors
+New Energy Outlook 2026 team:
+David Hostert Chief Economist, Lead author
+Matthias Kimmel Head of Energy Economics
+Dr. Ian Berryman Head of Energy Systems Modeling
+Seohee Song Energy Economics
+Anushka Verma Energy Economics
+Kostas Pegios Energy Systems Modeling
+Alice He Energy Systems Modeling
+Amar Vasdev Energy Economics
+Rodrigo Quintero Energy Economics
+
+Co-authors:
+Allen Tom Abraham Industry, Jenny Chase Flexibility, Caroline Chua Scenarios, Helen Kou
+Data centers, Fauziah Marzuki Gas, Ethan Zindler Summary findings.
+
+With support from:
+Estella Agyepong Trade, Abdullah Alkattan Middle East, Meredith Annex Clean Power,
+Adithya Bhashyam Europe, Tifenn Brandily Trade, Tomas Butelman Energy Economics
+Forbes Chanthorn Southeast Asia, Albert Cheung Strategy, Claire Curry, Industry, Mark Daly
+Data centers, Anastacia Davies, Renewable fuels, Dr. Kyle Disselkoen, Industry, David
+Doherty Oil, Shannon Dong China, Mbongeni Dube Europe, Ryan Fisher Electric vehicle
+charging, Laura Foroni Power data, Chris Gadomski Nuclear, Philip Geurts Petrochemicals,
+Enrique Gonzalez Gas, Andrew Grant Electric vehicles, Alaina Hay Communications, Lara
+Hayim Solar, Julia Hung Other Asia Pacific, Dr. Ali Izadi-Najafabadi Asia Pacific, Shantanu
+Jaiswal India and Southeast Asia, Shananthan Kalaichelvan Electric vehicles, David Kang
+Japan and South Korea, Isshu Kikuma Batteries, Felix Kosasih Southeast Asia, Nannan Kou
+China, Reed Landberg Editorial, Nathalie Limandibhratha Data centers, Andrew Logan
+Editorial, Claudio Lubis Road and aviation fuels, Jinghong Lyu Data centers, Sofia Maia Power
+data, Oktavia Catsaros Communications, Colin McKerracher Transport, Tushna Mehta
+Australia, Oliver Metcalfe Wind, Stephan Mothe Latin America, Kristi Norgaard Design,
+Nelson Nsitem Africa, Vinicius Nunes Latin America, Rose Oates Renewable fuels, Shige
+Ogawa Japan, Kokona Ota Japan, Sofia Perelli-Rocco Europe, Hanh Phan Southeast Asia,
+Isabella Philip Marketing, Kate Power Europe, Leonard Quong Australia, Rafael Rabioglio
+Latin America, Pietro Radoia Solar, Dr, Peter Richard Wall Grids, Daisy Robinson Renewable
+fuels, Abhishek Rohatgi Gas, Dr. Thomas Rowlands-Rees North America, Umer Sadiq Japan,
+Kesavarthiniy Savarimuthu Europe, Dr. Kamala Schelling Editorial, Yayoi Sekine Batteries,
+Iryna Sereda Gas, Ashish Sethia Commodities, Siddharth Shetty India, Sahaj Sood Australia,
+Dr. Nikolas Soulopoulos Commercial transport, Analeigh Suh South Korea, Arhnue Tan
+Europe, Sisi Tang China, Dr. Yara van Ingen Heat pumps, Mohith Velamala Shipping, Ben
+Vickers Editorial, Leo Wang China, Nick Wang Other Asia Pacific, Trina White US, William
+Young Financial institutions, Tianyi Zhao China.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+18
+
+New Energy Outlook
+May 19, 2026
+
+About us
+Contact details
+Client enquiries:
+• Bloomberg Terminal: press <Help> key twice
+• Email: support.bnef@bloomberg.net
+David Hostert
+
+Chief Economist, BNEF
+
+dhostert@bloomberg.net
+
+Matthias Kimmel
+
+Head of Energy Economics
+
+mkimmel6@bloomberg.net
+
+Dr. Ian Berryman
+
+Head of Energy Systems Modeling
+
+iberryman@bloomberg.net
+
+Copyright
+© Bloomberg Finance L.P. 2026. This publication is the copyright of Bloomberg Finance L.P. in connection
+with BloombergNEF. No portion of this document may be photocopied, reproduced, scanned into an
+electronic system or transmitted, forwarded or distributed in any way without prior consent of BloombergNEF.
+
+Disclaimer
+The BloombergNEF ("BNEF"), service/information is derived from selected public sources. Bloomberg
+Finance L.P. and its affiliates, in providing the service/information, believe that the information it uses comes
+from reliable sources, but do not guarantee the accuracy or completeness of this information, which is subject
+to change without notice, and nothing in this document shall be construed as such a guarantee. The
+statements in this service/document reflect the current judgment of the authors of the relevant articles or
+features, and do not necessarily reflect the opinion of Bloomberg Finance L.P., Bloomberg L.P. or any of their
+affiliates (“Bloomberg”). Bloomberg disclaims any liability arising from use of this document, its contents
+and/or this service. Nothing herein shall constitute or be construed as an offering of financial instruments or as
+investment advice or recommendations by Bloomberg of an investment or other strategy (e.g., whether or not
+to “buy”, “sell”, or “hold” an investment). The information available through this service is not based on
+consideration of a subscriber’s individual circumstances and should not be considered as information
+sufficient upon which to base an investment decision. You should determine on your own whether you agree
+with the content. This service should not be construed as tax or accounting advice or as a service designed to
+facilitate any subscriber’s compliance with its tax, accounting or other legal obligations. Employees involved in
+this service may hold positions in the companies mentioned in the services/information.
+The data included in these materials are for illustrative purposes only. The BLOOMBERG TERMINAL service
+and Bloomberg data products (the “Services”) are owned and distributed by Bloomberg Finance L.P. (“BFLP”)
+except (i) in Argentina, Australia and certain jurisdictions in the Pacific islands, Bermuda, China, India, Japan,
+Korea and New Zealand, where Bloomberg L.P. and its subsidiaries (“BLP”) distribute these products, and (ii)
+in Singapore and the jurisdictions serviced by Bloomberg's Singapore office, where a subsidiary of BFLP
+distributes these products. BLP provides BFLP and its subsidiaries with global marketing and operational
+support and service. Certain features, functions, products and services are available only to sophisticated
+investors and only where permitted. BFLP, BLP and their affiliates do not guarantee the accuracy of prices or
+other information in the Services. Nothing in the Services shall constitute or be construed as an offering of
+financial instruments by BFLP, BLP or their affiliates, or as investment advice or recommendations by BFLP,
+BLP or their affiliates of an investment strategy or whether or not to “buy”, “sell” or “hold” an investment.
+Information available via the Services should not be considered as research analysis or research
+recommendation or an opinion concerning any financial products or securities or entity or as information
+sufficient upon which to base an investment decision. Bloomberg makes no claims or representations, or
+provides any assurances, about the sustainability characteristics, profile or data points of any underlying
+issuers, products or services, and users should make their own determination on such issues. The following
+are trademarks and service marks of BFLP, a Delaware limited partnership, or its subsidiaries: BLOOMBERG,
+BLOOMBERG ANYWHERE, BLOOMBERG MARKETS, BLOOMBERG NEWS, BLOOMBERG
+PROFESSIONAL, BLOOMBERG TERMINAL and BLOOMBERG.COM. Absence of any trademark or service
+mark from this list does not waive Bloomberg's intellectual property rights in that name, mark or logo. All rights
+reserved. © 2026 Bloomberg.
+
+© Bloomberg Finance L.P.2026
+
+No portion of this document may be reproduced, scanned into an electronic system, distributed, publicly
+displayed or used as the basis of derivative works without the prior written consent of Bloomberg Finance
+L.P. For more information on terms of use, please contact sales.bnef@bloomberg.net. Copyright and
+Disclaimer notice on page 18 applies throughout.
+
+19
+
+

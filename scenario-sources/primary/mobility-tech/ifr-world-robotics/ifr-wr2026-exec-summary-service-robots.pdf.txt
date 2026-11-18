@@ -1,0 +1,231 @@
+World
+
+Robotics
+Service Robots
+incl. Mobile and Medical Robots
+2026
+
+Statistics, Market Analysis, List of Manufacturers and
+Case Studies
+
+World
+
+Robotics
+
+2026
+
+–
+
+Service
+
+Robots
+
+Produced by VDMA Services GmbH, Lyoner Str. 18, 60528 Frankfurt,
+Germany.
+The service robot statistics is carried out by the IFR Statistical
+Department.
+Chapters 2, 3, 4 and 5 are co-edited by Dr. Werner Kraus, Head of the
+Research Division “Automation and Robotics”, Dr. Birgit Graf and Kevin
+Bregler, in cooperation with other scientists, all at Fraunhofer Institute for
+Manufacturing Engineering and Automation IPA, Stuttgart (Germany).
+The cover and the editorial are sponsored by Innok Robotics.
+Statistics data collection, text, data and charts processing: Dr. Anne
+Jurkat, IFR Statistical Department
+We express our most sincere gratitude to all partners!
+Dr. Christopher Müller
+Director
+IFR Statistical Department
+Tel:
+E-Mail:
+Internet:
+
++49 69 66 03-11 91
+statistics@ifr.org
+http://www.worldrobotics.org
+
+Copyright ©2026 by International Federation of Robotics (IFR) Statistical Department
+All rights reserved.
+Suggested citation: Jurkat, Anne; Müller, Christopher; Kraus, Werner, Graf, Birgit; Bregler, Kevin (Eds.):
+World Robotics 2026 – Service Robots, IFR Statistical Department, VDMA Services GmbH, Frankfurt am
+Main, Germany, 2026.
+Short citation: World Robotics 2026 – Service Robots
+No part of this publication may, for sales purposes, be reproduced, stored in a retrieval system or transmitted
+in any form or by any means, electronic, electrostatic, magnetic tape, mechanical, photocopying or
+otherwise, without prior permission in writing from VDMA Services GmbH (contact via IFR Statistical
+Department).
+
+ISBN 978-3-8163-0779-2
+
+Executive Summary World Robotics 2026 - Service Robots
+
+13
+
+Executive Summary World Robotics 2026 - Service Robots
+The service robot industry continues to be highly diverse, with applications ranging from
+logistics and professional cleaning to agriculture, healthcare, hospitality, and emerging
+humanoid robots. The IFR Statistical Department is currently aware of more than 1,000
+service robot producers worldwide. This excludes integrators and prototyping services.
+In 2025, worldwide sales of professional service robots (excluding medical robots)
+increased by 24%. At the same time, Robotics-as-a-Service (RaaS) continued to gain
+importance with a high double-digit growth rate. Economic uncertainty, high upfront
+investment costs, and the need for greater operational flexibility are supporting the
+adoption of subscription- and usage-based business models. RaaS makes automation
+more accessible, particularly for small and medium-sized enterprises, while allowing
+companies to scale robotic operations according to demand.
+
+Top applications for professional service robots
+The five largest application groups for professional service robots in 2025 were
+transportation and logistics (AP5), hospitality (AP8), professional cleaning (AP2),
+agriculture (AP1), and inspection and maintenance (AP3).
+
+Service robots for professional use. Top 5 applications
+Unit sales 2024 and 2025
+'000 of units
+
+117
+97
+
+56
+
+47
+
+45
+32
+
+2025
+
+Agriculture
+AP1
+
+Professional
+cleaning
+AP2
+
+Hospitality
+AP8
+
+Transportation
+and logistics
+AP5
+
+2024
+
+4
+
+6
+
+Inspection and
+maintenance
+AP3
+
+17
+
+14
+
+Source: World Robotics 2026
+
+Transportation and logistics remained by far the largest professional application
+group. Nearly every second professional service robot sold in 2025 was built for the
+transportation of goods or cargo. Mobile robot-based order fulfillment solutions are
+accelerating installations worldwide, while emerging applications such as truck loading
+
+14
+
+Executive Summary World Robotics 2026 - Service Robots
+
+and unloading, outdoor transportation, and cleanroom logistics provide additional
+opportunities for future growth.
+Demand for hospitality robots (AP8) also increased strongly. Mobile guidance,
+information, and telepresence robots continue to account for most sales, while food and
+drink preparation is emerging as a promising new field. Labor shortages, rising operating
+costs, and increasing demand for consistent food production are expected to accelerate
+robot adoption in corporate cafeterias, hospitals, airports, convenience retail, quickservice restaurants, and other professional environments. Social interaction robots for
+professional use are also becoming increasingly viable as advances in generative AI and
+large language models (LLMs) improve their capabilities.
+Demand for professional cleaning robots (AP2) expanded particularly strongly.
+Growth was driven mainly by floor cleaning robots, reflecting the strong potential for
+automation and scalability in this application. At the same time, new products are
+entering the market, including outdoor sweepers and professional robotic lawn mowers.
+These solutions are particularly attractive for municipalities seeking to maintain parks
+and public spaces while facing a shrinking workforce. Declining product prices and the
+increasing availability of RaaS models are expected to further lower adoption barriers.
+Agricultural robots (AP1) also returned to solid growth in 2025. Labor shortages and
+climate change continue to be major drivers of automation, while advances in intelligent
+vision systems are expected to accelerate the adoption of robots for precision farming.
+Current growth is increasingly supported by barn cleaning and feeding robots in addition
+to the established markets for cultivation and milking robots. High upfront capital
+expenditure, difficult outdoor environments, and gaps in rural connectivity nevertheless
+remain important barriers to broader adoption.
+The market for inspection and maintenance robots (AP3) recorded another year of
+exceptionally strong expansion. Recent advances in artificial intelligence, sensor
+technology, and autonomous navigation are enabling robots to perform inspection tasks
+in hazardous and hard-to-access environments with increasing autonomy. The need to
+maintain and modernize critical infrastructure is expected to continue driving demand in
+this market.
+
+Medical robots
+The market for medical robots continued to offer attractive growth opportunities in 2025.
+Surgical robotics was a particularly important driver, while exoskeletons also recorded a
+substantial increase in unit sales. Demographic change is expected to remain one of the
+most important long-term market drivers. Population aging simultaneously reduces the
+availability of healthcare personnel and increases demand for medical treatment and
+support. Robotics applications are therefore expanding beyond traditional surgical
+systems into laboratory automation, rehabilitation, elderly care, and other healthcarerelated services.
+
+Executive Summary World Robotics 2026 - Service Robots
+
+15
+
+Consumer use robots
+Service robots for consumer use continued to represent a mass market and recorded
+strong growth in 2025. Robots for domestic tasks remain by far the largest category, led
+by robotic vacuum cleaners. Window cleaning robots also developed dynamically, while
+robotic lawn mowers and pool cleaning robots serve smaller but well-established
+consumer markets. Advances in functionality are supporting demand, although
+cybersecurity requirements, trade restrictions, sustainability considerations, and
+increasing product complexity are becoming important challenges for manufacturers.
+Artificial intelligence is also revitalizing the market for social interaction robots. While
+many earlier social robots struggled to achieve widespread adoption because of high
+costs and limited functionality, recent progress in generative AI and especially large
+language models is creating new opportunities for AI-powered social companions. The
+education robot market remains promising as parents and teachers worldwide place
+increasing emphasis on STEM education.
+
+Humanoid robots
+A major new area covered by World Robotics is the emerging market for humanoid
+robots. Almost 6,900 humanoids were reported sold globally in 2025, with the
+overwhelming majority originating from companies headquartered in Asia. The market is
+still at a very early stage: many companies offer humanoids primarily for testing,
+research, and pilot projects rather than for broad commercial deployment. The IFR
+Statistical Department is currently aware of 171 humanoid robot manufacturers,
+illustrating the considerable entrepreneurial activity surrounding this technology.
+Humanoid robotics is also one of the youngest parts of the robotics industry. A large
+share of identified manufacturers was established only in recent years, with a
+pronounced wave of new company formation emerging alongside advances in
+generative artificial intelligence. Whether all of today's developers will achieve market
+readiness remains uncertain, making humanoids one of the most dynamic fields to watch
+over the coming years.
+
+Outlook
+Across service robotics, the underlying drivers remain powerful. Demographic change,
+persistent labor shortages, rising labor costs, advances in artificial intelligence and
+sensor technology, and the need to improve productivity are creating opportunities for
+automation across an expanding range of applications. At the same time, geopolitical
+uncertainty, trade restrictions, cybersecurity requirements, regulation, and high
+investment costs can slow down adoption. Flexible business models such as RaaS can
+help overcome some of these barriers and are expected to gain further importance.
+
+16
+
+Executive Summary World Robotics 2026 - Service Robots
+
+The service robotics market therefore combines established high-volume applications
+with a growing number of specialized and emerging solutions. Some application groups
+have already reached considerable scale, while others are only beginning to transition
+from technological development to commercial deployment. World Robotics Service
+Robots 2026 provides detailed statistics by application, region, and business model,
+complemented by market assessments and outlooks for the major segments. The report
+also provides an in-depth analysis of the global service robotics industry and the
+companies shaping its future.
+
+

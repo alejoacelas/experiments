@@ -1,0 +1,54 @@
+TEXT CAPTURE (partial) made 2026-11-18 via a web fetch tool because cbo.gov returned HTTP 403 to direct download.
+Sources: (1) https://www.cbo.gov/system/files/2026-02/61882-Executive-Summary.pdf  "The Budget and Economic Outlook: 2026 to 2036 Executive Summary" (CBO, February 11, 2026)
+         (2) https://www.cbo.gov/publication/62050  "Director's Statement on the Budget and Economic Outlook for 2026 to 2036" (Phill Swagel, February 11, 2026)
+         (3) https://www.cbo.gov/publication/61882  landing-page summary
+Only the excerpts below were captured; the full 5.35 MB report was NOT downloaded.
+
+===== (1) Executive Summary — excerpts =====
+The budget projections are based on CBO's economic forecast, which reflects trade policy as of November 20, 2025, and economic developments and laws in place as of December 3, 2025.
+
+The Economic Outlook
+Outlook for 2026–2036
+The growth of real GDP accelerates this year and slows thereafter. Inflation slows, and the federal funds rate falls.
+
+Output Growth and the Labor Market
+In CBO's projections, the 2025 reconciliation act and the rebound in economic activity following last fall's lapse in discretionary appropriations boost output growth in calendar year 2026, but that growth is partially offset by the effects of last year's increases in tariffs and increased immigration enforcement. Growth of real GDP (that is, GDP adjusted to remove the effects of changes in prices) moderates in later years of the projection period, reflecting various offsetting factors, including faster productivity growth as generative artificial intelligence (AI) is more widely adopted and continued slow growth of the labor supply as the population ages.
+Employment growth is projected to rebound from its 2025 dip with the pickup in overall economic activity. The unemployment rate reaches 4.6 percent in 2026 and then declines to 4.2 percent in 2032.
+
+Inflation and Interest Rates
+In CBO's projections, the Federal Reserve reduces the federal funds rate (the rate financial institutions charge each other for overnight loans) in 2026 to address downside risks to the labor market. Longer-term interest rates, such as the rate on 10-year Treasury notes, rise gradually in 2027 and remain relatively stable in later years.
+
+The Economic Outlook, by Calendar Year
+Columns: Estimated, 2025 | 2026 | 2027 | 2028 | Annual average 2029–2030 | Annual average 2031–2036
+Change from fourth quarter to fourth quarter (percent)
+Real (inflation-adjusted) GDP 1.9 2.2 1.8 1.8 1.8 1.8
+Inflation
+PCE price index 2.8 2.7 2.3 2.1 2.0 2.0
+Consumer price index 3.0 2.8 2.4 2.3 2.3 2.3
+Payroll employment (average monthly change, in thousands) 70 105 31 42 43 45
+Annual average (percent)
+Unemployment rate 4.3 4.6 4.5 4.5 4.3 4.2
+Interest rates
+Effective federal funds rate 4.2 3.5 3.4 3.4 3.4 3.4
+3-month Treasury bills 4.1 3.3 3.2 3.2 3.2 3.1
+10-year Treasury notes 4.3 4.1 4.3 4.3 4.3 4.4
+Tax bases (percentage of GDP)
+Wages and salaries 42.3 42.0 42.0 42.1 42.1 42.1
+Domestic corporate profits 11.3 11.1 10.8 10.4 10.0 10.0
+See Chapter 2 and Appendix D. Payroll employment and interest rates show actual values for 2025. PCE = personal consumption expenditures.
+
+Growth of Business Fixed Investment
+In CBO's projections, real business fixed investment, which consists of purchases of new equipment, nonresidential structures, and intellectual property products by private businesses and nonprofit institutions, grows by 3.9 percent in 2026. That growth is driven by investments in generative AI and the investment incentives in the 2025 reconciliation act. Real business fixed investment growth slows in later years.
+
+Growth of Real Potential GDP
+Real potential GDP (the amount of real GDP that could be produced if labor and capital were employed at their maximum sustainable rates) grows by an average of 2.1 percent per year from 2026 to 2030 and by an average of 1.8 percent per year from 2031 to 2036 in CBO's projections. Growth slows in the second half of the projection period because potential labor force productivity grows more slowly in those years.
+
+Outlook for Employment
+From 2028 to 2036, payroll employment grows at an average rate of 44,000 jobs per month, which is slower than its growth in recent years.
+Employment
+In 2026, employment growth is projected to rebound as overall economic activity increases. In later years, fewer jobs are added to payrolls per month, on average, in CBO's projections, because of the aging population and weaker demand for labor.
+
+===== (2) Director's Statement — excerpts =====
+The 2025 reconciliation act increases CBO's projections of deficits from 2026 to 2035 by $4.7 trillion, higher tariffs reduce deficits by about $3 trillion, and lower immigration increases deficits by $0.5 trillion.
+We project stronger real GDP growth in 2026 as the positive effects of the 2025 reconciliation act on growth outweigh the drag from higher tariffs and lower immigration. (Real GDP is nominal GDP that has been adjusted to remove the effects of changes in prices.)
+Real GDP growth then slows to 1.8 percent from 2027 on, reflecting several factors that roughly offset each other. Stronger incentives to work and invest under the 2025 reconciliation act boost economic growth, while larger deficits and slower labor force growth from reduced immigration attenuate it. Our projections of economic growth incorporate a positive effect of generative artificial intelligence (AI) on productivity growth, amounting to an increase of about 10 basis points per year, on average. That faster growth from AI increases the level of output in the nonfarm business sector by 1 percent in 2036.

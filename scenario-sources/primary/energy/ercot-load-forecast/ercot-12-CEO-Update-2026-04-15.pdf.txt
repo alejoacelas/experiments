@@ -1,0 +1,564 @@
+PUBLIC
+
+Purpose
+This presentation highlights ERCOT’s planning activities and
+strategic areas of focus.
+For information only
+No action is requested; for discussion only.
+
+Item 12: CEO Update
+Pablo Vegas
+ERCOT President and CEO
+
+Key Takeaways
+•
+
+The preliminary 2026 Long-Term Load Forecast from
+Transmission Service Providers has been published.
+Discussions are underway regarding needed adjustments
+to effectively utilize the forecast.
+
+•
+
+The Large Load Batch Study process is on track for June
+board review. Seven workshops have been held to date.
+
+•
+
+The 2025 State of the Grid report, published last month,
+highlights a year of reliability initiatives, innovation, and
+continued growth.
+
+•
+
+The Innovation Summit gathered more than 800 industry
+leaders and experts to discuss the future of innovation in
+ERCOT and grids around the world.
+
+Board of Directors Meeting
+April 21, 2026
+
+Item 12
+
+Preliminary Long-Term Load Forecast Peak Demand plus Transmission
+Service Providers (TSPs) Request for Information (RFI) Submissions
+
+PUBLIC
+
+400,000
+
+350,000
+
+300,000
+
+The “Forecast” bar represents the core components of the
+long-term outlook: base economic growth, EV adoption, PV
+adoption, crypto growth within existing facilities, and known
+operational Large Load capacity.
+The “Forecast + Large Loads + Medium Loads” bar includes
+the RFI results, which include new Medium (25 MW to 74.9 MW )
+and Large (75 MW and above) Loads that were reported by
+TSPs and added to the base forecast.
+
+MW
+
+250,000
+
+367,790
+
+346,715
+319,650
+278,003
+
+221,379
+
+200,000
+
+152,882
+
+150,000
+
+100,000
+
+98,087
+
+112,371
+
+102,420
+
+100,855
+
+105,383
+
+107,287
+
+111,318
+
+108,023
+
+90,500
+50,000
+
+0
+
+2026
+
+2027
+
+2028
+Forecast
+
+2029
+2030
+Forecast + Large Loads + Medium Loads
+
+2031
+
+2032
+
+Key Takeaway: This forecast should be considered preliminary, and adjustments are expected as the information is
+further studied, reviewed, and finalized to support its use in planning.
+MW= megawatt
+
+EV=electric vehicle
+
+PV=photovoltaic
+
+2
+
+Item 12
+PUBLIC
+
+TSP Large Load RFI Submissions by Load Type (MW)
+Load Type
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+2032
+
+Cryptocurrency
+Mining
+
+2,475
+
+3,518
+
+5,611
+
+7,126
+
+7,676
+
+8,576
+
+9,076
+
+Data Center
+(non-crypto)
+
+7,401
+
+39,719
+
+99,350
+
+149,258
+
+186,958
+
+211,624
+
+228,420
+
+Industrial
+(including Hydrogen/ E-Fuels)
+
+650
+
+1,080
+
+1,805
+
+2,259
+
+2,721
+
+2,919
+
+2,996
+
+Oil and Gas
+(Chemical Refining,
+Production, & Processing)
+
+917
+
+1,214
+
+1,650
+
+2,017
+
+2,187
+
+2,347
+
+2,507
+
+Total
+
+11,443
+
+45,531
+
+108,416
+
+160,660
+
+199,542
+
+225,466
+
+242,999
+
+Key Takeaway: Data submitted by the Transmission Service Providers (TSPs) in the recent RFIs shows
+continued growth and interest in Texas and the ERCOT grid, with data centers leading the way.
+
+TSP=Transmission Service Provider
+
+RFI=Request for Information
+
+MW=megawatt
+
+3
+
+Item 12
+PUBLIC
+
+Evolution of Large Load Interconnection in ERCOT: from Ad Hoc to
+Batch-Based Planning
+Pre-2022:
+Decentralized, TDSPled
+ Large loads worked
+
+directly with TDSPs; no
+ERCOT-wide coordination
+ Limited need for systemlevel assessment
+
+ Growing demand created
+risk that system-wide
+reliability impacts were
+not fully evaluated
+
+1. March 2022 Market Notice
+
+2022–2025: Interim
+ERCOT-led
+ ERCOT introduced interim
+
+2025: PGRR115 –
+Unified but sequential
+
+2026: PGRR145 –
+Batch Zero (transition)
+
+Future: Ongoing
+batch process (TBD)
+
+ Single interconnection
+
+ Regular batch studies with
+
+ Focused on near-term
+
+study process (LLIS) for all
+large loads
+ Applied regardless of
+energization timeline
+
+ One-time, system-wide
+
+ Multiple pathways and
+
+ High volume of requests
+
+ Objective of stabilizing the
+
+ Scalable, predictable,
+
+interconnection process1
+
+loads (~2 years)
+ Longer-term impacts
+handled through
+transmission planning
+(RTP/RPG)
+
+fragmented studies led to
+no single view of system
+impact
+
+drove frequent restudies
+and increasing
+uncertainty
+
+batch study to address
+backlog
+ Aligns interconnection with
+coordinated transmission
+planning
+ Target: June Board
+endorsement, Summer
+2026 start
+
+pipeline and enabling
+transition to a scalable
+process
+
+defined entry criteria
+ Fully integrated with
+transmission planning
+(RTP/RPG)
+
+system-wide planning
+framework
+
+4
+
+Item 12
+PUBLIC
+
+Spring Maintenance Period (March 15 – May 15)
+
+Spring 2026 RPOL Combined
+*Data Snapshot 4/13/26
+
+Aprv PL Outage
+
+Aprv PL Outage IRR
+
+Rcvd PL Outage
+
+Rcvd PL Outage IRR
+
+5/14/2026
+
+5/12/2026
+
+5/10/2026
+
+5/8/2026
+
+5/6/2026
+
+5/4/2026
+
+5/2/2026
+
+4/30/2026
+
+4/28/2026
+
+4/26/2026
+
+4/24/2026
+
+4/22/2026
+
+4/20/2026
+
+4/18/2026
+
+4/16/2026
+
+4/14/2026
+
+4/12/2026
+
+0
+
+4/10/2026
+
+5000
+
+4/8/2026
+
+5000
+
+4/6/2026
+
+10000
+
+4/4/2026
+
+10000
+
+4/2/2026
+
+15000
+
+3/31/2026
+
+15000
+
+3/29/2026
+
+20000
+
+3/27/2026
+
+20000
+
+3/25/2026
+
+25000
+
+3/23/2026
+
+ERCOT has a generation outages
+dashboard on ERCOT.com that
+provides a graphical representation of
+planned and forced outages.
+
+25000
+
+3/21/2026
+
+•
+
+Information and available slots are
+posted on ERCOT.com for review and
+scheduling.
+
+30000
+
+3/19/2026
+
+•
+
+In some cases, concurrent outages
+are limited to ensure reliable grid
+operations.
+
+30000
+
+3/17/2026
+
+•
+
+This spring, ERCOT is applying the
+new Resource Planned Outage Limit
+(RPOL) methodology to determine the
+resource planned outage limit used to
+reliably support the resource planned
+outage requests.
+
+3/15/2026
+
+•
+
+0
+
+Combined RPOL
+
+Key Takeaway: ERCOT partners with Qualified Scheduling Entities
+and Transmission Owners to accommodate planned maintenance
+outages within designated windows, ensuring operational needs and
+grid reliability go hand in hand.
+
+5
+
+Item 12
+PUBLIC
+
+2026 Innovation Summit
+
+Panel sessions can be
+viewed on our YouTube
+channel by searching:
+ERCOTISO
+
+6
+
+Item 12
+PUBLIC
+
+ERCOT State of the Grid 2025 Report
+
+7
+
+Item 12
+PUBLIC
+
+ERCOT Employee Recognition
+2026 Innovation Summit
+Project Managers
+Venkat Tirupati
+Prashant Kansal
+Bishnu Bhattarai
+Charlotte Schuster
+Support
+Sreenivas Badri
+Aaron Ballew
+Caleb Carroll
+Shad Chancey
+Penney Christian
+Bernie Corpus
+Laura Cortez
+Olga Finneran
+Weihui Fu
+Julia Hariharan
+John Hazelwood
+Julie House
+Ray Landry
+Sly Luna
+
+Olha Lyakhovets
+Nitika Mago
+Mark Miner
+Thinesh Devadhas Mohanadhas
+Sai Moorty
+Bharati Nepal
+Rachel Overbay
+Sherwin Parayno
+Priyanka Parthasarathy
+Vamsi Paruchuri
+Christy Penders
+Marshall Rimmer
+Emanuelle Romero
+Anwarul Islam Sifat
+Stacy Skrhak
+Amy Starnes
+Steven Trent
+Trudi Webster
+Gates Yager
+Michelle Zulaica
+
+Moderators/Speakers
+Shri Abhyankar
+Jeff Billo
+Keith Collins
+Gordon Drake
+Fred Huang
+Joel Koepke
+Nitika Mago
+Matt Mereness
+Woody Rickerson
+Chad Seely
+Agee Springer
+Dan Woodfin
+Pablo Vegas
+
+8
+
+

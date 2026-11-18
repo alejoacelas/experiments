@@ -1,0 +1,45 @@
+[Text capture via web fetch tool on 2026-11-18 of https://www.ssa.gov/OACT/TR/2026/II_A_highlights.html and https://www.ssa.gov/OACT/TR/2026/V_B_econ.html (2026 OASDI Trustees Report; direct download returned HTTP 403). Excerpts only.]
+
+=== II. OVERVIEW — A. HIGHLIGHTS (excerpts) ===
+
+Key Results
+Table II.A1 presents the key results of this year’s report. These results are explained in more detail later in this report; terms are defined in the Glossary. The intermediate (best estimate) assumptions were set in February 2026.
+
+Notable Changes Since Last Year’s Report
+
+Since last year’s report, the Trustees have reassessed their expectations and have made changes to the intermediate assumptions in three primary areas.
+
+Fertility: The ultimate total fertility rate is 1.75 children per woman for this report. This rate is lower than the rate of 1.90 children per woman used in last year’s report.
+
+Immigration: (1) The assumed levels of temporary or unlawfully present immigrants entering the country in 2022-25 were lowered; (2) the assumed ultimate level of temporary or unlawfully present immigrant entrants for years 2035 and later was lowered from 1.35 million to 1.20 million, with a gradually increasing transition path between 2025 and 2035; and (3) the rates of emigration from the unlawfully present population in years 2025-30 were increased.
+
+Near-term economics: Real GDP per hour worked (labor productivity) and average real earnings are assumed to grow faster in this year’s report. In particular, the average annual growth in real GDP per hour worked from 2025 to 2035 is 0.05 percentage points higher than in last year’s report, and the average annual growth in average real earnings from 2025 to 2035 is 0.28 percentage points higher than in last year’s report.
+
+2025 In Review
+During 2025, an estimated 185 million people paid payroll taxes on earnings covered by Social Security.
+In December 2025, Social Security paid benefits to 70 million people:
+56 million retired workers and their dependents
+8 million disabled workers and their dependents
+6 million survivors of deceased workers
+
+Trust Fund Reserves and Reserve Depletion
+The OASI Trust Fund is projected to become depleted in the fourth quarter of 2032, one quarter earlier than projected in last year’s report. Upon reserve depletion in 2032, projected income is sufficient to pay 78 percent of scheduled benefits. This percentage declines gradually to 62 percent by 2100.
+The combined OASDI fund is projected to become depleted in the third quarter of 2034, the same quarter as in last year’s report. Upon reserve depletion in 2034, projected income is sufficient to pay 83 percent of scheduled benefits. This percentage declines gradually to 65 percent by 2100.
+
+The OASDI actuarial deficit for the 75-year projection period (2026-2100) is 4.42 percent of taxable payroll, or about 1.5 percent of GDP. In last year’s report, the OASDI actuarial deficit was 3.82 percent of taxable payroll, or about 1.3 percent of GDP. Section IV.B.4 explains these concepts. Section IV.B.6 explains why the actuarial balance estimates changed from last year’s report. The change to the ultimate fertility rate assumption is the largest contributor to the significantly increased deficit.
+
+In 2026, Social Security will play a critical role in the lives of 71 million beneficiaries and 185 million covered workers and their families.
+
+=== V.B ECONOMIC ASSUMPTIONS AND METHODS (excerpts) ===
+
+1. Productivity
+The assumed ultimate annual increase in total-economy productivity is 1.93, 1.63, and 1.33 percent for the low-cost, intermediate, and high-cost assumptions, respectively. These rates of increase are unchanged from the 2025 report.
+
+The average annual rate of change in total-economy productivity from 2019 (the end of the last complete economic cycle) to 2025 is estimated to be 1.80 percent. For the intermediate assumptions, the annual rate of change in productivity is assumed to average 1.61 percent from 2025 to 2031 and to reach its ultimate value of 1.63 percent for 2032 and thereafter.
+
+5. Labor Force, Employment, and Unemployment
+From 2019 to 2025, during the current (incomplete) economic cycle, labor force growth averaged 0.7 percent per year. Under the intermediate assumptions, labor force growth is projected to average 0.3 percent per year from 2025 to 2035. The long-term growth rate in the labor force is expected to remain subdued due to a slowing of growth in the working-age population. Under the intermediate assumptions, the labor force is projected to increase by an average of 0.1 percent per year from 2035 to 2100.
+
+The assumed ultimate age-sex-adjusted unemployment rate is 3.5, 4.5, and 5.5 percent for the low-cost, intermediate, and high-cost assumptions, respectively. These values are unchanged from the 2025 report. Under the intermediate assumptions, as economic growth slows to approach the sustainable long-term trend, the unemployment rate increases from 4.3 percent for 2025 to 4.6 percent for 2027 and stabilizes at 4.5 percent for 2028 and thereafter.
+
+[Note by capturer: the full text of sections II.A and V.B as fetched contained no occurrence of "artificial intelligence", "AI", "automation" or "technology".]

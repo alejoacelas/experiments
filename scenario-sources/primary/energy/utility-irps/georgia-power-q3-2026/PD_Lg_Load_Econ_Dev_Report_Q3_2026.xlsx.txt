@@ -1,0 +1,210 @@
+### SHEET: Main
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Change in |  |  | 
+ | Project Name | City | County | GPS Coordinates | Facility Type | Segment | Territory | Project Stage | Announced Load | Initial In Service Date | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | New Project? | Announced Load | Load Ramp | Project Stage | Initial Service Date
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 3500 | 2031-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 0 | 2187 | 3500 | 3500 | 3500 | 3500 | 3500 | 3500 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 3210 | 2028-12-31 00:00:00 | 0 | 0 | 0 | 1200 | 1300 | 2300 | 2700 | 3210 | 3210 | 3210 | 3210 | 3210 | 3210 |  |  |  | Y | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 3000 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 380 | 760 | 1140 | 1500 | 1880 | 2260 | 2640 | 3000 | 3000 | 3000 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 2000 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 250 | 500 | 750 | 1000 | 1250 | 1500 | 1750 | 2000 | 2000 | 2000 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 2000 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 400 | 800 | 1200 | 1600 | 2000 | 2000 | 2000 | 2000 | 2000 | 2000 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 2000 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 1000 | 2000 | 2000 | 2000 | 2000 | 2000 | 2000 | 2000 | 2000 | 2000 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1600 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 400 | 900 | 1300 | 1600 | 1600 | 1600 | 1600 | 1600 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1520 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 140 | 280 | 560 | 1040 | 1520 | 1520 | 1520 | 1520 | 1520 | 1520 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1500 | 2027-12-01 00:00:00 | 0 | 0 | 10 | 505 | 755 | 1005 | 1255 | 1500 | 1500 | 1500 | 1500 | 1500 | 1500 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 1500 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 20 | 500 | 1000 | 1500 | 1500 | 1500 | 1500 | 1500 | 1500 | 1500 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1463 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 250 | 500 | 800 | 1200 | 1463 | 1463 | 1463 | 1463 |  |  | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1440 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 250 | 750 | 1440 | 1440 | 1440 | 1440 | 1440 | 1440 | 1440 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Contract for Electric Service | 1429 | 2024-04-26 00:00:00 | 400 | 768 | 1146 | 1290 | 1429 | 1429 | 1429 | 1429 | 1429 | 1429 | 1429 | 1429 | 1429 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1400 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1400 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 400 | 700 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 1400 | 2027-12-01 00:00:00 | 0 | 0 | 150 | 150 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1400 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 300 | 900 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Contract for Electric Service | 1400 | 2027-10-01 00:00:00 | 0 | 0 | 90 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 | 1400 |  |  |  |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1236 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 36 | 517 | 998 | 1236 | 1236 | 1236 | 1236 | 1236 | 1236 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 1200 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 300 | 600 | 900 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1200 | 2027-12-01 00:00:00 | 0 | 0 | 90 | 450 | 810 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1200 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 75 | 375 | 675 | 975 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1200 | 2027-12-01 00:00:00 | 0 | 0 | 100 | 300 | 450 | 650 | 850 | 1050 | 1200 | 1200 | 1200 | 1200 | 1200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1200 | 2027-12-01 00:00:00 | 0 | 0 | 150 | 200 | 400 | 600 | 800 | 1000 | 1200 | 1200 | 1200 | 1200 | 1200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1200 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 80 | 325 | 610 | 910 | 1170 | 1200 | 1200 | 1200 | 1200 | 1200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1200 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 600 | 900 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 | 1200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1130 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 500 | 500 | 1e-14 | 790 | 1130 | 1130 | 1130 | 1130 | 1130 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 1115 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 450 | 450 | 1115 | 1115 | 1115 | 1115 | 1115 | 1115 | 1115 | 1115 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 1000 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 250 | 650 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 910 | 2027-12-01 00:00:00 | 0 | 0 | 100 | 370 | 550 | 730 | 910 | 910 | 910 | 910 | 910 | 910 | 910 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 901 | 2027-10-01 00:00:00 | 0 | 0 | 120 | 342 | 588 | 823 | 901 | 901 | 901 | 901 | 901 | 901 | 901 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 900 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 80 | 80 | 160 | 320 | 560 | 800 | 900 | 900 | 900 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 900 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 200 | 400 | 800 | 800 | 800 | 800 | 900 | 900 | 900 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 860 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 860 | 860 | 860 | 860 | 860 | 860 | 860 | 860 | 860 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 800 | 2027-01-01 00:00:00 | 0 | 0 | 600 | 800 | 800 | 800 | 800 | 800 | 800 | 800 | 800 | 800 | 800 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 750 | 2027-12-01 00:00:00 | 0 | 0 | 400 | 750 | 750 | 750 | 750 | 750 | 750 | 750 | 750 | 750 | 750 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 750 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 25 | 100 | 200 | 300 | 400 | 500 | 600 | 750 | 750 | 750 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 725 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 77 | 245 | 365 | 485 | 605 | 725 | 725 | 725 | 725 | 725 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 725 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 77 | 245 | 365 | 485 | 605 | 725 | 725 | 725 | 725 | 725 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 693 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 1 | 50 | 250 | 450 | 650 | 693 | 693 | 693 | 693 | 693 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 651 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 651 | 651 | 651 | 651 | 651 | 651 | 651 | 651 | 651 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 648 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 150 | 450 | 648 | 648 | 648 | 648 | 648 | 648 | 648 | 648 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 612 | 2027-12-01 00:00:00 | 0 | 0 | 2 | 72 | 360 | 612 | 612 | 612 | 612 | 612 | 612 | 612 | 612 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 600 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 200 | 400 | 600 | 600 | 600 | 600 | 600 | 600 | 600 | 600 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 600 | 2027-12-01 00:00:00 | 0 | 0 | 1 | 60 | 102 | 204 | 300 | 414 | 510 | 558 | 600 | 600 | 600 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 600 | 2027-12-01 00:00:00 | 0 | 0 | 50 | 250 | 450 | 600 | 600 | 600 | 600 | 600 | 600 | 600 | 600 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 600 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 204.2 | 454.2 | 600 | 600 | 600 | 600 | 600 | 600 | 600 | 600 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 580 | 2030-03-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 250 | 400 | 580 | 580 | 580 | 580 | 580 | 580 |  | Y | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 576 | 2027-12-01 00:00:00 | 0 | 0 | 2 | 40 | 240 | 336 | 576 | 576 | 576 | 576 | 576 | 576 | 576 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 567 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 2 | 81 | 162 | 243 | 324 | 567 | 567 | 567 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 550 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 100 | 310 | 500 | 550 | 550 | 550 | 550 | 550 | 550 | 550 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 550 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 400 | 550 | 550 | 550 | 550 | 550 | 550 | 550 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 550 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 162.5 | 312.5 | 500 | 550 | 550 | 550 | 550 | 550 | 550 | 550 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 540 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 200 | 200 | 540 | 540 | 540 | 540 | 540 | 540 |  | Y | Y | Y | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 534 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 100 | 200 | 300 | 400 | 534 | 534 | 534 | 534 | 534 | 534 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Contract for Electric Service | 523 | 2026-12-01 00:00:00 | 0 | 53 | 485 | 523 | 523 | 523 | 523 | 523 | 523 | 523 | 523 | 523 | 523 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 502 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 184 | 253 | 502 | 502 | 502 | 502 | 502 | 502 | 502 | 502 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 500 | 2027-12-01 00:00:00 | 0 | 0 | 2 | 10 | 216 | 432 | 500 | 500 | 500 | 500 | 500 | 500 | 500 |  | Y | Y |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 500 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 500 |  | Y | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 500 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 100 | 100 | 200 | 300 | 400 | 500 | 500 | 500 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 500 | 2027-12-01 00:00:00 | 0 | 0 | 200 | 250 | 350 | 450 | 500 | 500 | 500 | 500 | 500 | 500 | 500 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Manufacturing | Inside | Technical Review | 500 | 2027-12-01 00:00:00 | 0 | 0 | 20 | 20 | 20 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 500 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 480 | 2027-12-01 00:00:00 | 0 | 0 | 10 | 10 | 143 | 244 | 345 | 447 | 480 | 480 | 480 | 480 | 480 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 455 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 95 | 365 | 455 | 455 | 455 | 455 | 455 | 455 | 455 | 455 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 455 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 100 | 250 | 455 | 455 | 455 | 455 | 455 | 455 |  |  | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 455 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 95 | 185 | 275 | 365 | 455 | 455 | 455 | 455 | 455 | 455 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 455 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 95 | 365 | 455 | 455 | 455 | 455 | 455 | 455 | 455 | 455 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 450 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 5 | 150 | 300 | 450 | 450 | 450 | 450 | 450 | 450 | 450 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 450 | 2027-12-01 00:00:00 | 0 | 0 | 75 | 150 | 225 | 300 | 375 | 450 | 450 | 450 | 450 | 450 | 450 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 432 | 2027-12-01 00:00:00 | 0 | 0 | 1 | 1 | 1 | 67.5 | 144 | 211 | 288 | 355.5 | 432 | 432 | 432 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 432 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 55 | 154 | 229 | 328 | 432 | 432 | 432 | 432 | 432 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 420 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 100 | 300 | 420 | 420 | 420 | 420 | 420 | 420 | 420 | 420 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 400 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 10 | 100 | 250 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 400 | 2027-12-01 00:00:00 | 0 | 0 | 2.5 | 100 | 150 | 210 | 270 | 330 | 390 | 400 | 400 | 400 | 400 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 400 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 10 | 100 | 250 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 377.5 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 57 | 86 | 191 | 275 | 347 | 377.5 | 377.5 | 377.5 |  | Y | Y |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 365 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 125 | 245 | 365 | 365 | 365 | 365 | 365 | 365 | 365 | 365 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 365 | 2027-12-01 00:00:00 | 0 | 0 | 10 | 124 | 196 | 269 | 341 | 365 | 365 | 365 | 365 | 365 | 365 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 360 | 2027-12-01 00:00:00 | 0 | 0 | 72 | 120 | 168 | 216 | 288 | 360 | 360 | 360 | 360 | 360 | 360 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 360 | 2031-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 0 | 360 | 360 | 360 | 360 | 360 | 360 | 360 |  |  | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 350 | 2027-12-01 00:00:00 | 0 | 0 | 1.2 | 86.5 | 155.2 | 224 | 292.7 | 350 | 350 | 350 | 350 | 350 | 350 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 350 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 24 | 64 | 104 | 144 | 184 | 224 | 264 | 350 | 350 | 350 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 325 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 95 | 185 | 325 | 325 | 325 | 325 | 325 | 325 | 325 | 325 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 324 | 2026-06-01 00:00:00 | 0 | 94 | 159 | 213 | 256 | 324 | 324 | 324 | 324 | 324 | 324 | 324 | 324 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 311 | 2026-03-01 00:00:00 | 2 | 6 | 104 | 208 | 311 | 311 | 311 | 311 | 311 | 311 | 311 | 311 | 311 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 300 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 200 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 |  | Y | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 300 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 150 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Manufacturing | Inside | Technical Review | 300 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 5 | 100 | 200 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 300 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 75 | 150 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 300 | 2028-07-01 00:00:00 | 0 | 0 | 0 | 200 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 |  | Y | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 300 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 34 | 74 | 114 | 154 | 194 | 234 | 274 | 300 | 300 | 300 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 300 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 100 | 200 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 300 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 10 | 160 | 300 | 300 | 300 | 300 | 300 | 300 |  |  | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 288 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 288 | 288 | 288 | 288 | 288 | 288 | 288 | 288 | 288 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 250 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 250 |  |  | Y |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 250 | 2027-12-01 00:00:00 | 0 | 0 | 25 | 200 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 250 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 240 | 2025-01-01 00:00:00 | 21 | 50 | 96 | 155 | 214 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 240 | 2027-12-01 00:00:00 | 0 | 0 | 40 | 80 | 120 | 160 | 200 | 240 | 240 | 240 | 240 | 240 | 240 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Contract for Electric Service | 240 | 2025-11-01 00:00:00 | 15 | 155 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 | 240 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Manufacturing | Inside | Request for Service | 237 | 2029-01-01 00:00:00 | 0 | 0 | 4 | 4 | 45 | 131 | 189 | 237 | 237 | 237 | 237 | 237 | 237 |  | Y | Y |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 233 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 10 | 107 | 233 | 233 | 233 | 233 | 233 | 233 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 225 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 45 | 135 | 225 | 225 | 225 | 225 | 225 | 225 | 225 | 225 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 216 | 2025-08-31 00:00:00 | 12 | 90 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 216 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 144 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 216 | 2028-01-01 00:00:00 | 0 | 0 | 0 | 72 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 | 216 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Request for Service | 216 | 2031-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 0 | 144 | 216 | 216 | 216 | 216 | 216 | 216 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 216 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 72 | 144 | 204 | 216 | 216 | 216 | 216 | 216 | 216 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Technical Review | 200 | 2027-12-01 00:00:00 | 0 | 0 | 0.5 | 0.5 | 0.5 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 200 | 2027-12-01 00:00:00 | 0 | 0 | 50 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Contract for Electric Service | 192 | 2024-01-01 00:00:00 | 22 | 50 | 96 | 155 | 192 | 192 | 192 | 192 | 192 | 192 | 192 | 192 | 192 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 182 | 2026-06-01 00:00:00 | 0 | 72 | 128 | 182 | 182 | 182 | 182 | 182 | 182 | 182 | 182 | 182 | 182 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Outside | Contract for Electric Service | 180 | 2026-03-01 00:00:00 | 0 | 40 | 110 | 175 | 180 | 180 | 180 | 180 | 180 | 180 | 180 | 180 | 180 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 180 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 90 | 180 | 180 | 180 | 180 | 180 | 180 | 180 | 180 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 180 | 2026-12-01 00:00:00 | 0 | 15 | 72 | 180 | 180 | 180 | 180 | 180 | 180 | 180 | 180 | 180 | 180 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Clean Energy Tech | Outside | Contract for Electric Service | 168 | 2025-12-01 00:00:00 | 97 | 131 | 148 | 154 | 161 | 168 | 168 | 168 | 168 | 168 | 168 | 168 | 168 |  | Y | Y |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 150 | 2024-12-31 00:00:00 | 140 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 | 150 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Technical Review | 145 | 2029-06-01 00:00:00 | 0 | 0 | 0 | 0 | 14 | 25 | 58 | 120 | 145 | 145 | 145 | 145 | 145 |  | Y | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 145 | 2028-11-01 00:00:00 | 0 | 0 | 0 | 97 | 104 | 145 | 145 | 145 | 145 | 145 | 145 | 145 | 145 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Clean Energy Tech | Inside | Contract for Electric Service | 126 | 2025-12-01 00:00:00 | 71 | 87 | 95 | 106 | 115 | 126 | 126 | 126 | 126 | 126 | 126 | 126 | 126 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Commercial | Data Center/Crypto | Inside | Contract for Electric Service | 120 | 2027-06-01 00:00:00 | 0 | 0 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 |  |  | Y |  | Y
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Clean Energy Tech | Inside | Technical Review | 115 | 2027-12-01 00:00:00 | 0 | 0 | 5 | 5 | 5 | 20 | 65 | 75 | 75 | 75 | 75 | 75 | 115 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Manufacturing | Inside | Technical Review | 100 | 2030-06-01 00:00:00 | 0 | 0 | 0 | 0 | 0 | 75 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Manufacturing | Inside | Technical Review | 100 | 2028-06-01 00:00:00 | 0 | 0 | 0 | 60 | 60 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Clean Energy Tech | Inside | Contract for Electric Service | 90 | 2025-12-01 00:00:00 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 |  |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Clean Energy Tech | Inside | Technical Review | 50 | 2027-12-01 00:00:00 | 0 | 0 | 10 | 20 | 20 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | Y |  |  |  | 
+ | REDACTED | REDACTED | REDACTED | REDACTED | Industrial | Manufacturing | Outside | Technical Review | 45 | 2027-12-01 00:00:00 | 0 | 0 | 0.1 | 0.9 | 1.2 | 7.5 | 13.7 | 18.5 | 21.2 | 22.6 | 28.2 | 28.2 | 45 | Y |  |  |  | 
+ | *Subsequent to the close of Q3 2026, the Company filed with the Public Service Commission for review a combination of contract amendments and new contracts representing approximately 2,200 MW of incremental load. Subject to Commission approval, the Company expects to provide additional details in its Q4 2026 report. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+### SHEET: Load Change
+ | Project Name | Q3 2026 | Q2 2026 | Change
+ | REDACTED | 237 | 105 | 132
+ | REDACTED | 300 | 200 | 100
+ | REDACTED | 300 | 200 | 100
+ | REDACTED | 145 | 175 | -30
+ | REDACTED | 168 | 207 | -39
+ | REDACTED | 377.5 | 500 | -122.5
+ | REDACTED | 500 | 648 | -148
+ | REDACTED | 500 | 700 | -200
+ | REDACTED | 580 | 880 | -300
+ | REDACTED | 540 | 840 | -300
+ | Total |  |  | -807.5
+### SHEET: Ramp Change
+ |  | Q3 2026 |  |  |  |  |  |  |  |  |  |  |  |  | Q2 2026 |  |  |  |  |  |  |  |  |  |  |  |  | Change |  |  |  |  |  |  |  |  |  |  | 
+ | Project Name | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 |  | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 |  | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037
+ | REDACTED | 0 | 0 | 0 | 0 | 250 | 500 | 800 | 1200 | 1463 | 1463 | 1463 | 1463 | 0 | 0 | 150 | 400 | 1200 | 1463 | 1463 | 1463 | 1463 | 1463 | 1463 | 1463 | 1463 |  | 0 | -150 | -400 | -1200 | -1213 | -963 | -663 | -263 | 0 | 0 | 0 | 0
+ | REDACTED | 0 | 0 | 0 | 0 | 250 | 400 | 580 | 580 | 580 | 580 | 580 | 580 | 0 | 0 | 0 | 0 | 300 | 880 | 880 | 880 | 880 | 880 | 880 | 880 | 880 |  | 0 | 0 | 0 | -300 | -630 | -480 | -300 | -300 | -300 | -300 | -300 | -300
+ | REDACTED | 0 | 0 | 0 | 0 | 200 | 200 | 540 | 540 | 540 | 540 | 540 | 540 | 0 | 0 | 0 | 0 | 200 | 500 | 500 | 840 | 840 | 840 | 840 | 840 | 840 |  | 0 | 0 | 0 | -200 | -300 | -300 | -300 | -300 | -300 | -300 | -300 | -300
+ | REDACTED | 0 | 2 | 10 | 216 | 432 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 0 | 0 | 2 | 10 | 216 | 432 | 648 | 648 | 648 | 648 | 648 | 648 | 648 |  | 0 | 0 | 0 | 0 | 0 | -148 | -148 | -148 | -148 | -148 | -148 | -148
+ | REDACTED | 0 | 0 | 0 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 500 | 0 | 0 | 100 | 700 | 700 | 700 | 700 | 700 | 700 | 700 | 700 | 700 | 700 |  | 0 | -100 | -700 | -200 | -200 | -200 | -200 | -200 | -200 | -200 | -200 | -200
+ | REDACTED | 0 | 0 | 0 | 0 | 100 | 250 | 455 | 455 | 455 | 455 | 455 | 455 | 0 | 0 | 0 | 0 | 5 | 95 | 185 | 275 | 365 | 455 | 455 | 455 | 455 |  | 0 | 0 | 0 | -5 | 5 | 65 | 180 | 90 | 0 | 0 | 0 | 0
+ | REDACTED | 0 | 0 | 0 | 0 | 57 | 86 | 191 | 275 | 347 | 377.5 | 377.5 | 377.5 | 0 | 0 | 0 | 0 | 0 | 100 | 200 | 350 | 400 | 500 | 500 | 500 | 500 |  | 0 | 0 | 0 | 0 | -43 | -114 | -159 | -125 | -153 | -122.5 | -122.5 | -122.5
+ | REDACTED | 0 | 0 | 0 | 0 | 0 | 360 | 360 | 360 | 360 | 360 | 360 | 360 | 0 | 0 | 0 | 0 | 288 | 360 | 360 | 360 | 360 | 360 | 360 | 360 | 360 |  | 0 | 0 | 0 | -288 | -360 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+ | REDACTED | 0 | 0 | 0 | 200 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 0 | 0 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 |  | 0 | -200 | -200 | 0 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100
+ | REDACTED | 0 | 0 | 200 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 0 | 0 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 | 200 |  | 0 | -200 | 0 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100
+ | REDACTED | 0 | 0 | 0 | 0 | 10 | 160 | 300 | 300 | 300 | 300 | 300 | 300 | 0 | 0 | 50 | 150 | 250 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 |  | 0 | -50 | -150 | -250 | -290 | -140 | 0 | 0 | 0 | 0 | 0 | 0
+ | REDACTED | 0 | 0 | 0 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 250 | 0 | 0 | 0 | 0 | 10 | 150 | 250 | 250 | 250 | 250 | 250 | 250 | 250 |  | 0 | 0 | 0 | 240 | 100 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+ | REDACTED | 0 | 4 | 4 | 45 | 131 | 189 | 237 | 237 | 237 | 237 | 237 | 237 | 0 | 0 | 5 | 91.4 | 105 | 105 | 105 | 105 | 105 | 105 | 105 | 105 | 105 |  | 0 | -1 | -87.4 | -60 | 26 | 84 | 132 | 132 | 132 | 132 | 132 | 132
+ | REDACTED | 131 | 148 | 154 | 161 | 168 | 168 | 168 | 168 | 168 | 168 | 168 | 168 | 0 | 131.6 | 148 | 184 | 196 | 207 | 207 | 207 | 207 | 207 | 207 | 207 | 207 |  | -0.5999999999999943 | 0 | -30 | -35 | -39 | -39 | -39 | -39 | -39 | -39 | -39 | -39
+ | REDACTED | 0 | 0 | 0 | 14 | 25 | 58 | 120 | 145 | 145 | 145 | 145 | 145 | 0 | 0 | 0 | 40 | 64 | 88 | 112 | 136 | 150 | 175 | 175 | 175 | 175 |  | 0 | 0 | -40 | -50 | -63 | -54 | -16 | -5 | -30 | -30 | -30 | -30
+ | REDACTED | 0 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 0 | 0 | 60 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 | 120 |  | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+### SHEET: Stage Change
+ | Project Name | Q3 2026 | Q2 2026 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | REDACTED | Contract for Electric Service | Request for Service |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | REDACTED | Request for Service | Technical Review |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+### SHEET: Removed Projects
+ | Project Name | Announced Load (MW) in Q2 2026 | Reason for Removal
+ | REDACTED | 1020 | Other
+ | REDACTED | 910 | Withdrawn
+ | REDACTED | 751 | Withdrawn
+ | REDACTED | 144 | See Note 1
+ | REDACTED | 79.479 | Other
+ | REDACTED | 50 | See Note 1
+ | Total | 2954.479 | 
+ | Note 1 - Project still active but load now falls below the threshhold to be a large load customer |  | 
+### SHEET: Initial Service Change
+ | Project Name | Q3 2026 | Q2 2026 | Change (Months) | 
+ | REDACTED | Q4 2027 | Q2 2028 | 6 | 
+ | REDACTED | Q4 2028 | Q2 2028 | -6 | 
+ | REDACTED | Q1 2030 | Q2 2029 | -9 | 
+ | REDACTED | Q3 2028 | Q4 2027 | -9 | 
+ | REDACTED | Q2 2027 | Q3 2026 | -9 | 
+ | REDACTED | Q2 2030 | Q2 2029 | -12 | 
+ | REDACTED | Q2 2030 | Q2 2029 | -12 | 
+ | REDACTED | Q2 2029 | Q2 2028 | -12 | 
+ | REDACTED | Q2 2029 | Q4 2027 | -18 | 
+ | REDACTED | Q2 2029 | Q4 2027 | -18 | 
+ | REDACTED | Q2 2031 | Q2 2029 | -24 | 
+ | REDACTED | Q2 2030 | Q4 2027 | -30 | 
+ | REDACTED | Q2 2030 | Q4 2027 | -30 | 
+### SHEET: Projects Added
+ | Project Name | Announced Load* | Created Date
+ | REDACTED | 1440 | 2026-08-06 00:00:00
+ | REDACTED | 1400 | 2026-09-30 00:00:00
+ | REDACTED | 1200 | 2026-08-05 00:00:00
+ | REDACTED | 1130 | 2026-09-30 00:00:00
+ | REDACTED | 900 | 2026-07-16 00:00:00
+ | REDACTED | 500 | 2026-08-20 00:00:00
+ | REDACTED | 400 | 2026-07-23 00:00:00
+ | REDACTED | 400 | 2026-07-23 00:00:00
+ | REDACTED | 300 | 2026-07-15 00:00:00
+ | REDACTED | 300 | 2026-08-05 00:00:00
+ | REDACTED | 300 | 2026-08-13 00:00:00
+ | REDACTED | 100 | 2026-08-19 00:00:00
+ | REDACTED | 50 | 2026-09-29 00:00:00
+ | REDACTED | 45 | 2026-08-12 00:00:00
+ | Total | 8465 | 
+ | *Announced load as of 2037 |  | 

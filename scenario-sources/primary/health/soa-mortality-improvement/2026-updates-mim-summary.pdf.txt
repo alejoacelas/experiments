@@ -1,0 +1,326 @@
+Mortality and Longevity
+
+MIM Advisory Group
+
+June 2026
+
+Overview of the 2026 Updates to the
+Mortality Improvement Model (MIM)
+Contents
+Overview ...................................................................................................................................................................... 2
+Data Updates to the Retrospective Workbook ......................................................................................................... 3
+Data Updates to the Prospective Workbook ............................................................................................................ 3
+Impact of the Data Updates on MIM’s “Jumping-off” Point .................................................................................. 4
+Acknowledgments ....................................................................................................................................................... 6
+About The Society of Actuaries Research Institute .................................................................................................. 7
+
+Caveat and Disclaimer
+The opinions expressed and conclusions reached by the authors are their own and do not represent any official position or opinion of the
+Society of Actuaries Research Institute, the Society of Actuaries or its members. The Society of Actuaries Research Institute makes no
+representation or warranty to the accuracy of the information.
+Copyright © 2026 by the Society of Actuaries Research Institute. All rights reserved.
+
+2
+
+Overview
+The Mortality Improvement Model (MIM) is a framework developed by the MIM Advisory Group
+to provide actuaries with a consistent starting point for projecting mortality improvement across
+applications and practice areas.
+MIM-2026 incorporates newly available mortality data through 2023 for both general and
+insured populations, as well as enhancements to the graphing functionality to improve data
+visualization. A video tutorial describing the new graphing features is available on the MIM-2026
+web page.
+This update does not affect the MP-2021 mortality projection scale. As explained in its October
+2025 report, the Retirement Plan Experience Committee (RPEC) concluded that post-pandemic
+data remains insufficient to support publication of a new MP scale. 1 Accordingly, like the prior
+version of MIM, the updated version retains the ability to reproduce MP-2021.
+While the MIM-2026 update does not affect the MP scale (which uses historical population
+mortality data, including data published by the Social Security Administration, to estimate recent
+mortality trends), updates to the NCHS dataset bring its historical trends into closer alignment
+with those observed in the SSA dataset, as explained subsequently in this report.
+Like prior releases of MIM, the updated version includes two workbooks:
+•
+•
+
+A retrospective workbook for analyzing historical data.
+A prospective workbook (the “MIM Application Tool”) for constructing mortality
+projection scales.
+
+In prior MIM releases, the retrospective workbook was called the “MIM Data Analysis Tool,”
+while the prospective workbook was called the “MIM Application Tool.” This naming convention
+may have implied a closer relationship between the two tools than intended. Although both
+workbooks draw from similar data sources, their datasets differ in important ways (described
+later in this report). To better reflect this distinction, the retrospective workbook has been
+renamed the “Mortality Trends Explorer.”
+To summarize, the highlights of the MIM-2026 update are as follows:
+•
+•
+•
+•
+
+Incorporates newly available mortality data through 2023.
+Leaves MP-2021 unchanged.
+Includes enhanced graphing capabilities.
+Updated NCHS dataset brings its historical trends into closer alignment with those
+observed in the SSA dataset.
+
+1
+Society of Actuaries Research Institute, RPEC 2025 Mortality Improvement Update (Chicago: Society of Actuaries Research Institute, October
+2025), https://www.soa.org/resources/research-reports/2025/rpec-mort-improvement-update/.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+3
+
+Data Updates to the Retrospective Workbook
+The retrospective workbook (now referred to as the “Mortality Trends Explorer”) contains three
+separate datasets:
+•
+
+NCHS dataset: General population mortality data segmented by socioeconomic decile,
+constructed using National Center for Health Statistics death counts and U.S. Census
+population data.
+
+•
+
+SSA dataset: National-level general population mortality data produced by the Social
+Security Administration.
+
+•
+
+MIB/NAIC dataset: Insured population mortality data segmented by policy characteristics
+such as face amount, plan type, and risk class.
+
+The 2026 update extends the coverage period for each dataset as outlined in Table 1.
+Table 1
+Extension of Data in the Retrospective Workbook
+Dataset
+NCHS
+SSA
+MIB/NAIC
+
+1
+2
+3
+
+Population
+General, segmented into deciles
+General, national level
+Insured
+
+Period Covered in
+Prior Version
+
+Period Covered in
+Updated Version
+
+1982 to 2019
+1982 to 2021
+2009 to 2019
+
+1982 to 2023
+1982 to 2023
+2011 to 2023
+
+All three datasets now extend through 2023. However:
+•
+•
+
+The 2023 SSA data is provisional.
+The MIB/NAIC dataset now begins in 2011 because data from 2009–2010 was deemed
+insufficiently credible for trend estimation and has therefore been removed.
+
+In the retrospective workbook, the SSA data is smoothed by age (via a process performed by the
+SSA), while the NCHS and MIB/NAIC datasets are unsmoothed. The retrospective workbook
+includes an optional age-smoothing mechanism that users may apply to the raw data.
+
+Data Updates to the Prospective Workbook
+The prospective workbook includes only the NCHS and SSA datasets. The MIB/NAIC dataset is
+excluded because its shorter time span makes it less suitable for estimating mortality trends.
+Users who wish to analyze insured population mortality trends can do so using the retrospective
+workbook.
+To prepare the NCHS and SSA datasets for use in the prospective workbook, they were
+smoothed using two-dimensional Whittaker-Henderson graduation applied across calendar
+years and single ages. The smoothed data is used to estimate recent mortality trends, which in
+turn serve as the starting point for projecting mortality improvement forward in time.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+4
+At present, post-pandemic data is too limited in duration to support reliable trend estimation.
+As a result:
+•
+•
+
+Data from 2020 onward is excluded from the smoothing process.
+The final year of smoothed data remains 2019, consistent with prior versions of MIM.
+
+Although the smoothed historical data extends through 2019, MIM begins its projection process
+in 2018 by default. As a result, the historical data for 2018 and 2019 is replaced with projected
+values. This two-year step-back reduces sensitivity near the boundary of the graduated data.
+
+Impact of the Data Updates on MIM’s “Jumping-off” Point
+The jumping-off point refers to the estimated mortality improvement rates in the year
+immediately preceding the start of the projection. These estimates determine the starting
+position for forward projections. Changes in historical data can affect the jumping-off point and,
+in turn, the projected mortality improvements. The SSA updates its mortality estimates annually
+by adding new data and revising previously published values. Similarly, MIM’s NCHS data is
+updated annually and may include revisions to prior years. In this MIM update, revisions to pre2020 SSA data are minimal and do not materially affect the jumping-off point, but updates to
+the NCHS data have a material impact on the jumping-off point, as illustrated in Figure 1.
+Figure 1
+Estimated Mortality Improvement Rates in 2017
+Female
+
+Male
+
+2.0%
+
+2.0%
+NCHS
+Prior
+
+1.5%
+
+NCHS
+Prior
+
+1.5%
+
+SSA
+1.0%
+
+1.0%
+
+0.5%
+
+0.5%
+NCHS Updated
+
+0.0%
+
+SSA
+
+NCHS Updated
+
+0.0%
+
+-0.5%
+
+-0.5%
+
+-1.0%
+
+-1.0%
+50
+
+60
+
+70
+
+80
+
+90
+
+50
+
+60
+
+70
+
+80
+
+90
+
+The vertical axis shows the rate of improvement in the “jumping-off year” (2017), while the horizontal axis shows age from 50 to 95. The
+results for ages 20–49 are nearly identical across the three datasets and are therefore excluded to provide a clearer view of ages 50+.
+
+Figure 1 compares estimated mortality improvement rates in 2017 (the “jumping-off” year)
+using the prior NCHS dataset (from the previous version of MIM), the revised NCHS dataset
+(from the updated version of MIM), and SSA data (materially unchanged across the prior and
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+5
+updated versions of MIM). For this exhibit, the ten NCHS deciles are combined, thereby yielding
+national-level data.
+The prior NCHS improvement rates diverge materially from the SSA rates, particularly above age
+80. In contrast, the updated NCHS data aligns more closely with the SSA experience, with
+substantially smaller differences at advanced ages. As additional data becomes available over
+time, the reliability of NCHS mortality estimates for prior years improves. Therefore, the updated
+NCHS dataset provides a more reliable set of estimates than the prior dataset.
+The closer alignment between the NCHS and SSA datasets reduces divergence between mortality
+improvement estimates derived from NCHS and SSA data, particularly at advanced ages,
+resulting in more consistent projection starting points across the two datasets.
+Because both NCHS data and SSA data capture the national-level U.S. population, one might
+expect these two datasets to exhibit similar or identical mortality trends. It is therefore notable
+that differences persist between the two datasets. Identifying the cause(s) of these differences is
+worthwhile research, but such an exercise is beyond the scope of this short report. Readers
+seeking more information on this issue are encouraged to read “Investigating the Difference in
+Mortality Estimates between the Social Security Administration Trustees’ Report and the Human
+Mortality Database,” a research paper written in 2018 by Dr. Magali Barbieri, which is relevant
+due to similarities in data sources and methodology. 2
+
+2
+
+Magali Barbieri, “Investigating the Difference in Mortality Estimates between the Social Security Administration Trustees’ Report and the
+Human Mortality Database,” Research Brief 394 (Ann Arbor, MI: University of Michigan Retirement Research Center, September 2018),
+https://mrdrc.isr.umich.edu/wp-content/uploads/2024/04/rb394.pdf.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+6
+
+Acknowledgments
+The Society of Actuaries Research Institute’s deepest gratitude goes to those without whose
+efforts this project could not have come to fruition: the MIM Advisory Group and others for their
+diligent work overseeing developing of the model and reviewing this report for accuracy and
+relevance.
+MIM Advisory Group members:
+Larry N. Stern, FFSA, MAAA (Chairperson)
+Jean-Marc Fix, FSA, MAAA
+Sam Gutterman, FFSA, CERA, MAAA, FCAS, FCA, HonFIA
+Thomas A. Jones, ASA, MAAA
+Mark Spong, FSA, CERA, MAAA
+Haofeng Yu, FSA, MAAA, CERA
+
+At the Society of Actuaries Research Institute:
+Kara L. Clark, FSA, Sr. Practice Research Actuary
+Barbaras Scott, Sr. Research Administrator
+Patrick Wiese, ASA, Modeling Researcher
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+7
+
+About The Society of Actuaries Research Institute
+Serving as the research arm of the Society of Actuaries (SOA), the SOA Research Institute
+provides objective, data-driven research bringing together tried and true practices and futurefocused approaches to address societal challenges and your business needs. The Institute
+provides trusted knowledge, extensive experience and new technologies to help effectively
+identify, predict and manage risks.
+Representing the thousands of actuaries who help conduct critical research, the SOA Research
+Institute provides clarity and solutions on risks and societal challenges. The Institute connects
+actuaries, academics, employers, the insurance industry, regulators, research partners,
+foundations and research institutions, sponsors and non-governmental organizations, building an
+effective network which provides support, knowledge and expertise regarding the management
+of risk to benefit the industry and the public.
+Managed by experienced actuaries and research experts from a broad range of industries, the
+SOA Research Institute creates, funds, develops and distributes research to elevate actuaries as
+leaders in measuring and managing risk. These efforts include studies, essay collections,
+webcasts, research papers, survey reports, and original research on topics impacting society.
+Harnessing its peer-reviewed research, leading-edge technologies, new data tools and
+innovative practices, the Institute seeks to understand the underlying causes of risk and the
+possible outcomes. The Institute develops objective research spanning a variety of topics with its
+strategic research programs: aging and retirement; actuarial innovation and technology;
+mortality and longevity; diversity, equity and inclusion; health care cost trends; and catastrophe
+and climate risk. The Institute has a large volume of topical research available, including an
+expanding collection of international and market-specific research, experience studies, models
+and timely research.
+
+Society of Actuaries Research Institute
+8770 Bryn Mawr Ave, Suite 1000
+Chicago, IL 60631
+www.SOA.org
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+

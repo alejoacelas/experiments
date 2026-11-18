@@ -1,0 +1,29 @@
+[Text capture via web fetch tool on 2026-11-18; semi.org returned HTTP 403 to direct download. Source URL: https://www.semi.org/en/semi-press-release/semi-projects-double-digit-growth-in-global-300mm-fab-equipment-spending-for-2026-and-2027 ]
+
+Apr 1, 2026
+
+SEMI Projects Double-Digit Growth in Global 300mm Fab Equipment Spending for 2026 and 2027
+
+Strong AI and Advanced Node Demand to Propel Semiconductor Equipment Investments Beyond $150 Billion for the First Time
+
+MILPITAS, Calif. – April 1, 2026 – Worldwide 300mm fab equipment spending is expected to increase 18% to $133 billion in 2026 and 14% to $151 billion in 2027, SEMI reported today in its latest 300mm Fab Outlook. This strong growth reflects surging AI chip demand for data centers and edge devices, as well as the growing commitment to semiconductor self-sufficiency across key regions through localized industrial ecosystems and supply chain restructuring.
+
+Looking further out, the report projects investment will continue to increase 3% to $155 billion in 2028 and another 11% to $172 billion in 2029, respectively.
+
+“AI is resetting the scale of semiconductor manufacturing investment,” said Ajit Manocha, President and CEO of SEMI. “With global 300mm fab equipment spending projected to exceed $150 billion in 2027 for the first time, the industry is making historic, sustained commitments to the advanced capacity and resilient supply chains needed to power the AI era.”
+
+Segment Growth
+
+The Logic & Micro segment is expected to spearhead equipment expansion with $228 billion in total investments from 2027 to 2029 mainly due to strong foundry sector demand, driven by sub-2nm cutting-edge capacity investments. Advanced node technology is essential to enhance chip performance and power efficiency to meet rigorous chip design requirements for various AI applications. More advanced node technology is expected to enter volume production from 2027 to 2029. Additionally, AI performance improvements are anticipated to drive massive growth in various edge AI devices. Beyond advanced nodes, demand across all nodes and various electronics devices is anticipated to grow moderately, supporting investment in mature nodes as well.
+
+The memory segment is projected to rank second in equipment spending, totaling $175 billion from 2027 to 2029. This period marks the start of a new growth cycle for the segment. Within the memory category, DRAM equipment spending is expected to reach $111 billion cumulatively from 2027 to 2029, while 3D NAND equipment spending is estimated to be $62 billion during the same time frame.
+
+The demand for memory has significantly increased due to AI training and inference. AI training has notably driven up the demand for High Bandwidth Memory (HBM), while model inference has created substantial demand for storage capacity, thus boosting the growth of NAND Flash applications in data centers. This strong demand has led to sustained high levels of investment in the memory supply chain over the near and long term, helping to cushion potential downturns from traditional memory cycle fluctuations.
+
+Regional Investment Trends
+
+Global 300mm fab equipment investment is expected to remain broadly distributed across the major semiconductor manufacturing regions from 2027 to 2029, reflecting a mix of advanced-node expansion, memory capacity additions, and policy-supported supply chain localization. China, Taiwan, Korea, and the Americas are each expected to see substantial levels of spending during the period, while Japan, Europe & Middle East, and Southeast Asia also continue to expand investment from a smaller base.
+
+In China, investment is expected to remain supported by ongoing domestic capacity expansion and national initiatives aimed at strengthening semiconductor manufacturing capabilities. In the Taiwan region, spending is projected to be driven primarily by continued expansion of leading-edge foundry capacity, including 2nm and sub-2nm technologies. Korea’s investment outlook remains closely tied to the memory sector, where AI-related demand is supporting another cycle of capacity and technology upgrades. In the Americas, spending is expected to be underpinned by advanced process expansion and broader efforts to strengthen domestic manufacturing ecosystems.
+
+Part of the SEMI Fab Forecast database, the SEMI 300mm Fab Outlook lists 404 facilities and lines globally. The report reflects 198 updates and 9 new fabs/lines projects since its last publication in December 2025.

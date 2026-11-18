@@ -1,0 +1,972 @@
+ <!DOCTYPE html> <html class="no-js" lang="en"> <head> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta charset="utf-8" /> <title>
+	Analysis: GLP-1s and Mortality Risk | RGA
+</title> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png"> <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png"> <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png"> <link rel="manifest" href="/assets/icons/site.webmanifest"> <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5"> <link rel="shortcut icon" href="/favicon.ico"> <meta name="msapplication-TileColor" content="#00aba9"> <meta name="msapplication-config" content="/assets/icons/browserconfig.xml"> <meta name="theme-color" content="#ffffff"> <link rel="preload" as="style"
+		href="/ResourcePackages/Talon/assets/dist/css/critical.min.css?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy"> <link rel="preload" as="style" href="https://use.typekit.net/djp0gjp.css"
+		onload="this.onload=null;this.rel='stylesheet'"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="preload" as="style"
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:wght@300;400;500;600;700&display=fallback"
+		onload="this.onload=null;this.rel='stylesheet'"> <noscript> <link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:wght@300;400;500;600;700&display=fallback"
+			rel="stylesheet"> <link href="https://use.typekit.net/djp0gjp.css" rel="stylesheet"> </noscript> <link href="/ResourcePackages/Talon/assets/dist/css/critical.min.css?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" rel="stylesheet" type="text/css" /><link href="/ResourcePackages/Talon/assets/dist/css/tools/algolia/header-search.min.css?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" rel="stylesheet" type="text/css" /><link href="/ResourcePackages/Talon/assets/dist/css/components/knowledgecenter/detail.min.css?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" rel="stylesheet" type="text/css" /> <script>(function () { "use strict"; var el = document.getElementsByTagName('html')[0], nojsClass = "no-js", jsClass = "js"; if (el.classList) { el.classList.remove(nojsClass); el.classList.add(jsClass); } else { el.className = el.className.replace(new RegExp('(^|\\b)' + nojsClass.split(' ').join('|') + '(\\b|$)', 'gi'), ' '); el.className += ' ' + jsClass; } }());</script> <meta data-sj-field="authors" content=""><script type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-55MKJCZ');
+</script><script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('803-LAW-040');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+
+
+</script><script type="text/javascript">
+// Inject OneLink script 
+(function (){
+  var id = 'onelink-moxie';
+  if (document.getElementById(id)) return; // avoid duplicates
+  
+  var s = document.createElement('script');
+  s.id = id;
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = 'https://www.onelink-edge.com/moxie.min.js'; //https
+  s.setAttribute('data-oljs', 'P4197-2482-2548-5A99'); //site id
+  
+document.head.appendChild(s);
+   })();
+</script><script type="text/javascript">
+
+
+  // Helper: Get cookie value by name
+  function getCookie(name) {
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    return match ? match[2] : null;
+  }
+
+  // Polyfill for startsWith
+  function startsWith(str, prefix) {
+    return str.indexOf(prefix) === 0;
+  }
+
+  // Polyfill for closest
+  function closest(el, selector) {
+    while (el && el.nodeType === 1) {
+      if (el.matches(selector)) return el;
+      el = el.parentNode;
+    }
+    return null;
+  }
+
+  // On page load: check cookie and redirect if needed
+  (function enforceLanguageRedirect() {
+    var savedLang = getCookie('language') || localStorage.getItem('language') || 'en-US';
+    var currentPath = window.location.pathname;
+
+    if (savedLang !== 'en-US' && !startsWith(currentPath, '/' + savedLang)) {
+      var newPath = '/' + savedLang + currentPath.replace(/^\/[a-z]{2}-[A-Z]{2}\//, '/');
+      window.location.replace(newPath);
+    }
+  })();
+
+  document.addEventListener('click', function (event) {
+    var langLink = closest(event.target, '.utility-menu__sub-link[data-lang]');
+    if (langLink) {
+      event.preventDefault();
+      var langCode = langLink.getAttribute('data-lang');
+      try {
+        document.cookie = 'language=' + langCode + '; path=/; max-age=' + (30 * 24 * 60 * 60) + '; Secure; SameSite=Strict';
+      } catch (e) {}
+      localStorage.setItem('language', langCode);
+
+      var currentPath = window.location.pathname.replace(/^\/[a-z]{2}-[A-Z]{2}\//, '/');
+      var newUrl = (langCode === 'en-US') ? currentPath : '/' + langCode + currentPath;
+      window.location.href = newUrl;
+    }
+
+    var navLink = closest(event.target, '.utility-menu__link');
+    if (navLink) {
+      var savedLang = getCookie('language') || localStorage.getItem('language') || '';
+      if (savedLang && savedLang !== 'en-US') {
+        event.preventDefault();
+        var href = navLink.getAttribute('href');
+        var newHref = '/' + savedLang + href.replace(/^\/[a-z]{2}-[A-Z]{2}\//, '/');
+        window.location.href = newHref;
+      }
+    }
+  });
+
+
+</script><meta data-sj-field="articledate" content="1779371151" /><meta data-sj-field="image" content="/images/default-source/kc-article-images/woman-holding-glp-1-pen.jpg?sfvrsn=cc6d7e1c_1" /><meta data-sj-field="imagealt" content="A woman holding a GLP-1 pen" /><meta data-sj-field="publishyear" content="2026" /><meta data-sj-field="solutionareas" content="Life &amp; Health Risk" /><meta data-sj-field="solutionareas" content="" /><meta data-sj-field="region" content="US" /><meta data-sj-field="region" content="UK" /><meta data-sj-field="region" content="Latin America" /><meta data-sj-field="region" content="Global Accounts" /><meta data-sj-field="region" content="EMEA" /><meta data-sj-field="region" content="Canada" /><meta data-sj-field="region" content="Asia Pacific" /><meta data-sj-field="categories" content="Actuarial" /><meta data-sj-field="categories" content="" /><meta property="og:image" content="https://www.rgare.com/images/default-source/kc-article-images/woman-holding-glp-1-pen.jpg?sfvrsn=cc6d7e1c_1" /><meta data-sj-field="contenttype" content="Articles" /><meta data-sj-field="authors" content="" /><meta data-sj-field="authors" content="Richard Russell" /><meta data-sj-field="authors" content="Andrew Gaskell" /><meta data-sj-field="authors" content="Chris Falkous" /><meta property="og:title" content="Analysis: GLP-1s and Mortality Risk" /><meta property="og:description" content="A summary of RGA’s modeling for how GLP-1s and other incretin-based therapies may shape future mortality by comparing outcomes with and without anti-obesity medications." /><meta property="og:type" content="website" /><meta property="og:url" content="https://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk" /><meta property="og:site_name" content="Default" /><style type="text/css" media="all">.solutions__content { z-index: 2; }</style><meta name="Generator" content="Sitefinity 15.4.8624.0 DX" /><link rel="canonical" href="https://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk" /><meta name="description" content="A summary of RGA’s modeling for how GLP-1s and other incretin-based therapies may shape future mortality by comparing outcomes with and without anti-obesity medications." /></head> <body> <header id="site-header" class="site-header" role="banner">  
+
+
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55MKJCZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div class="header__container" data-sf-element="Container" data-placeholder-label="Header Container">
+  <div id="Header_T2734BF3E001_Col00" class="sf_colsIn header__logo" data-placeholder-label="Logo">
+<a class="header__logo-link" href="/"><img src="/images/default-source/header-logos/rga_logo_rgb_red_wht.png?sfvrsn=bc15e6b3_2" alt="Red RGA Logo" class="logo-red" sf-size="32240" sfref="[images%7COpenAccessDataProvider]b61fa7fb-350a-413b-affd-3f2f8730a673" data-sf-ec-immutable="" /><img src="/images/default-source/header-logos/rga_logo_rgb_wht_red.png?sfvrsn=b049774b_2" alt="White RGA Logo" class="logo-white" sf-size="31933" sfref="[images%7COpenAccessDataProvider]9d313eae-2278-49e0-8abf-0f1f5a38c905" data-sf-ec-immutable="" /></a></div>
+  <div class="header__utility">
+    <div id="Header_T2734BF3E001_Col01" class="sf_colsIn header__search" data-placeholder-label="Utility Navigation">
+    <div id="searchContainer" class="site-search search-bar-container">
+        <div id="searchbox-4cec38ac-377c-444e-844e-32b33ed77c95">
+            <div id="algolia-searchbox" 
+                data-page="/search" 
+                data-placeholder="Enter Search Keywords…" 
+                data-api-key="e32eb078506dc53d3e0849384ccf4e88" 
+                data-app-id="7VK58VVKD1" 
+                data-index-name="crawler_rga" 
+                data-suggestions-index-name="crawler_rga_query_suggestions"
+            >
+            </div>
+            <div id="suggestions"></div>
+        </div>
+    </div>
+
+
+    <button type="button" class="search-box-toggle" data-toggle data-target="searchContainer" data-hold="true">
+      <svg class="icon icon-search" focusable="false" aria-hidden="true">
+          <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-search"></use>
+      </svg>
+                  <svg class="icon icon-clear" focusable="false" aria-hidden="true">
+          <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-clear"></use>
+      </svg>
+      <span class="search-box-toggle__text">Search</span>
+    </button>
+<nav class="utility-menu" aria-label="Utility Navigation">
+    
+    <ul class="utility-menu__list" id='navbar-1'>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+<nav class="utility-menu" aria-label="Utility Navigation">
+    <ul class="utility-menu__list">
+
+        <li class="utility-menu__item">
+			<span class="utility-menu__icon"><svg class="icon icon-profile" focusable="false" aria-hidden="true">
+            <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-profile"></use>
+        </svg></span>
+           <button type="button"
+        class="utility-menu__link utility-menu__link--toggle"
+        onclick="
+            this.nextElementSibling.classList.toggle('is-open');
+            this.classList.toggle('active');
+        ">
+    Portal Login
+</button>
+
+            <ul class="utility-menu__sub">
+                <li class="utility-menu__sub-item">
+                    <a class="utility-menu__sub-link" href="https://clientpath.rgare.com/">ASAP</a>
+                </li>
+
+                <li class="utility-menu__sub-item">
+                    <a class="utility-menu__sub-link" href="https://central.rgare.com/">RGA Central</a>
+                </li>
+
+                <li class="utility-menu__sub-item">
+                 <button type="button"
+        class="utility-menu__sub-link utility-menu__sub-toggle"
+        onclick="
+            this.nextElementSibling.classList.toggle('is-open');
+            this.classList.toggle('active');
+        ">
+    Gateway
+</button>
+
+
+                    <ul class="utility-menu__sub-list">
+                        <li class="utility-menu__sub-item">
+                            <a class="utility-menu__sub-link" href="https://gatewaytk.rgare.com/login.aspx">Gateway TK</a>
+                        </li>
+
+                        <li class="utility-menu__sub-item">
+                            <a class="utility-menu__sub-link" href="https://gatewayuk.rgare.com/login.aspx">Gateway UK</a>
+                        </li>
+
+                        <li class="utility-menu__sub-item">
+                            <a class="utility-menu__sub-link" href="https://gatewayus.rgare.com/login.aspx">Gateway US</a>
+                        </li>
+                    </ul>
+                </li>
+
+        
+
+                <li class="utility-menu__sub-item">
+                    <a class="utility-menu__sub-link" href="https://www.fac-exchange.com/">FAC Exchange</a>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+
+<style>
+.utility-menu__sub,
+.utility-menu__sub-list {
+    display: none;
+}
+
+.utility-menu__sub.is-open,
+.utility-menu__sub-list.is-open {
+    display: block;
+}
+</style>
+
+<script>
+document.addEventListener('click', function (e) {
+
+    if (!e.target.closest('.utility-menu')) {
+
+        document.querySelectorAll('.utility-menu__sub.is-open, .utility-menu__sub-list.is-open')
+            .forEach(function (menu) {
+                menu.classList.remove('is-open');
+            });
+
+        document.querySelectorAll('.utility-menu__link--toggle.active, .utility-menu__sub-toggle.active')
+            .forEach(function (btn) {
+                btn.classList.remove('active');
+            });
+    }
+
+});
+</script>
+<div class="utility-menu" >
+    <div class="sfContentBlock sf-Long-text" ><ul class="utility-menu__list" style="border-left: 1px solid rgba(204, 204, 204, 1); margin-left: 1em"><li class="utility-menu__item "><span class="utility-menu__icon"><svg class="icon icon-document" aria-hidden="true"><use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-document"></use></svg></span>
+ <a class="utility-menu__link" href="/our-company/media">Media</a>
+ </li><li class="utility-menu__item "><span class="utility-menu__icon"><svg class="icon icon-chat" aria-hidden="true"><use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-chat"></use></svg></span>
+ <a class="utility-menu__link" href="/contact">Contact</a>
+ </li></ul></div>
+</div>
+<nav class="utility-menu" aria-label="Utility Navigation">
+    <ul class="utility-menu__list" id='navbar-2'>
+        <li class="utility-menu__item ">
+            <button type="button" class="utility-menu__link utility-menu__link--toggle" data-toggle data-target="6babb7f5-84b1-4536-a17f-740effaa1539">
+                    <span class="utility-menu__icon"><img src="https://www.rgare.com/docs/default-source/globe-icon/globe_gray1e5b01d9d-0b92-44ea-ae86-bf7cf0d9dcea.png?sfvrsn=22e84c73_3" class="icon-globe" style="margin-right:.5em;"></span>
+                Language
+            </button>
+            <ul id="6babb7f5-84b1-4536-a17f-740effaa1539" class="utility-menu__sub" aria-labelledby='navbarDropdownMenuLink-1'>
+                            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="#" data-lang="en-US">English</a>
+            </li>
+            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="#" data-lang="es-LA">Espa&#241;ol (Spanish)</a>
+            </li>
+            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="#" data-lang="ja-JP">日本語 (Japanese)</a>
+            </li>
+
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+<button type="button" class="main__toggle" data-toggle data-target="mainMenu">
+        <svg class="icon icon-menu" focusable="false" aria-hidden="true">
+          <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-menu"></use>
+      </svg>
+                    <svg class="icon icon-clear" focusable="false" aria-hidden="true">
+          <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-clear"></use>
+      </svg>
+  </button></div>
+    <div id="mainMenu" class="header__navigation">
+      <div id="Header_T2734BF3E001_Col02" class="sf_colsIn header__navigation-wrapper" data-placeholder-label="Main Navigation">
+<!--googleoff: all-->
+
+<div class="visually-hidden focusable instructions" tabindex="0">
+    <p>The site navigation utilizes arrow, enter, escape, and space bar key commands. Left and right arrows move across top level links and expand / close menus in sub levels. Up and Down arrows will open main level menus and toggle through sub tier links. Enter and space open menus and escape closes them as well. Tab will move on to the next part of the site rather than go through menu items.</p>
+</div>
+
+<!--googleon: all-->
+
+<nav class="main" aria-label="Main Navigation">
+    
+    <ul class="main__list" id='navbar-3'>
+        <li class="main__list-item ">
+            <button type="button" class="main__list-link main__list-link--toggle" data-toggle data-target="35938dea-87f7-4a4f-a633-b81832826b59">Risk Solutions</button>
+            <ul id="35938dea-87f7-4a4f-a633-b81832826b59" class="main__submenu" aria-labelledby='navbarDropdownMenuLink-2'>
+                            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/solutions/risk-solutions" target="_self">Risk Solutions</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/solutions/biometric-solutions" target="_self">Biometric Solutions</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/solutions/financial-solutions-rga" target="_self">Financial Solutions</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/solutions/all-products-and-services" target="_self">All Products and Services</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="main__list-item ">
+            <button type="button" class="main__list-link main__list-link--toggle" data-toggle data-target="9d47e1a3-e260-4c1e-8469-16aa3b729647">Enabling Solutions</button>
+            <ul id="9d47e1a3-e260-4c1e-8469-16aa3b729647" class="main__submenu" aria-labelledby='navbarDropdownMenuLink-2'>
+                            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/enabling-solutions/enabling" target="_self">Enabling Solutions</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/enabling-solutions/investment-capabilities" target="_self">Investment Capabilities</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/enabling-solutions/underwriting" target="_self">Underwriting</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/enabling-solutions/claims" target="_self">Claims</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/enabling-solutions/product-creation" target="_self">Product Creation</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="main__list-item ">
+            <button type="button" class="main__list-link main__list-link--toggle" data-toggle data-target="54b0d281-0184-46d3-82a7-ff3a19d47602">Global Presence</button>
+            <ul id="54b0d281-0184-46d3-82a7-ff3a19d47602" class="main__submenu" aria-labelledby='navbarDropdownMenuLink-2'>
+                            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/global-presence/global-presence-landing" target="_self">Global Presence</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/global-presence/americas" target="_self">Americas</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/global-presence/asia-pacific" target="_self">Asia Pacific</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/global-presence/emea" target="_self">EMEA</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/global-presence/global-accounts" target="_self">Global Accounts</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="main__list-item active">
+            <button type="button" class="main__list-link main__list-link--toggle" data-toggle data-target="4acd24c0-f482-4f15-9c6f-0050c7554270">Knowledge Center</button>
+            <ul id="4acd24c0-f482-4f15-9c6f-0050c7554270" class="main__submenu" aria-labelledby='navbarDropdownMenuLink-2'>
+                            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/knowledge-center/knowledge-center-landing" target="_self">Knowledge Center</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/knowledge-center/knowledge-center-library" target="_self">Knowledge Center Library</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/feeds/article-rss-feed" target="_self">RSS Feed</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/knowledge-center/turn-biometric-insights-into-business-results" target="_self">Biometric Insights</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="main__list-item ">
+            <button type="button" class="main__list-link main__list-link--toggle" data-toggle data-target="e8c751c6-d14c-4d95-b1e3-bc31a51a9448">Company</button>
+            <ul id="e8c751c6-d14c-4d95-b1e3-bc31a51a9448" class="main__submenu" aria-labelledby='navbarDropdownMenuLink-2'>
+                            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/our-company/our-company-landing" target="_self">Company</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/our-company/about-rga" target="_self">About RGA</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/our-company/responsibility" target="_self">Responsibility</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/our-company/media" target="_self">Media</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/our-company/leadership" target="_self">Leadership</a>
+            </li>
+            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/our-company/financial-strength" target="_self">Financial Strength&#160;</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="main__list-item ">
+            <button type="button" class="main__list-link main__list-link--toggle" data-toggle data-target="5b2a3106-a1ac-4f54-a319-f737969ec882">Investors</button>
+            <ul id="5b2a3106-a1ac-4f54-a319-f737969ec882" class="main__submenu" aria-labelledby='navbarDropdownMenuLink-2'>
+                            <li class="main__submenu-item">
+                <a class="main__submenu-link " href="/investors/investors" target="_blank">Investors&#160;</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="main__list-item ">
+          <a class="main__list-link" href="https://www.rgarecareers.com/us/en/" target="_blank">Careers</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+<nav class="utility-menu" aria-label="Utility Navigation">
+    
+    <ul class="utility-menu__list" id='navbar-4'>
+        <li class="utility-menu__item ">
+            <button type="button" class="utility-menu__link utility-menu__link--toggle" data-toggle data-target="52be71ba-9351-45f3-aa76-b9946f5a8427">
+                <span class="utility-menu__icon"><svg class="icon icon-profile" focusable="false" aria-hidden="true">
+            <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-profile"></use>
+        </svg></span>
+              Portal Login
+            </button>
+            <ul id="52be71ba-9351-45f3-aa76-b9946f5a8427" class="utility-menu__sub" aria-labelledby='navbarDropdownMenuLink-3'>
+                            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="/portal-login/asap" target="_blank">ASAP</a>
+            </li>
+            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="/portal-login/rga-central" target="_blank">RGA Central</a>
+            </li>
+            <li class="utility-menu__sub-item">
+                <button type="button" class="utility-menu__sub-link utility-menu__sub-toggle  " data-toggle data-target="c602b42a-c5b2-4b3e-9456-76973d85e415">
+                    Gateway
+                </button>
+                <ul id="c602b42a-c5b2-4b3e-9456-76973d85e415" class="utility-menu__sub-list">
+                                <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="/portal-login/gateway/gateway-tk" target="_blank">Gateway TK</a>
+            </li>
+            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="/portal-login/gateway/gateway-uk" target="_blank">Gateway UK</a>
+            </li>
+            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="/portal-login/gateway/gateway-us" target="_blank">Gateway US</a>
+            </li>
+
+                </ul>
+            </li>
+            <li class="utility-menu__sub-item">
+                <a class="utility-menu__sub-link " href="/portal-login/fac-exchange" target="_blank">FAC Exchange</a>
+            </li>
+
+            </ul>
+        </li>
+        <li class="utility-menu__item ">
+          <a class="utility-menu__link" href="/view-media" target="_self">
+              <span class="utility-menu__icon"><svg class="icon icon-document" focusable="false" aria-hidden="true">
+            <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-document"></use>
+        </svg></span>
+            Media
+            </a>
+        </li>
+        <li class="utility-menu__item ">
+          <a class="utility-menu__link" href="/contact" target="_self">
+              <span class="utility-menu__icon"><svg class="icon icon-chat" focusable="false" aria-hidden="true">
+            <use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-chat"></use>
+        </svg></span>
+            Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+      </div>
+    </div>    
+  </div>
+
+</div>
+
+
+
+
+
+
+ </header> <main id="site-main" class="site-main" tabindex="-1" role="main"> 
+<div id="Main_C005_Col00" class="sf_colsIn background lightgrey-background no-padding" data-sf-element="Container" data-placeholder-label="Light Grey Background"><div id="Main_C006_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+
+
+<nav class="breadcrumbs" aria-label="Full path to the current page">
+    <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__item-link">Home</a></li>
+                <li class="breadcrumbs__item"><a href="/knowledge-center" class="breadcrumbs__item-link">Knowledge Center</a></li>
+                <li class="breadcrumbs__item"><a href="/knowledge-center/article" class="breadcrumbs__item-link">Article</a></li>
+                <li class="breadcrumbs__item breadcrumbs__item--active" aria-current="page">Analysis: GLP-1s and Mortality Risk</li>
+    </ul>
+</nav>
+
+	<script type="application/ld+json">
+			{
+			"@context": "http://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement":[{ "@type":"ListItem", "position":1, "item":{"@id":"/", "name":"Home"} },{ "@type":"ListItem", "position":2, "item":{"@id":"/knowledge-center", "name":"Knowledge Center"} },{ "@type":"ListItem", "position":3, "item":{"@id":"/knowledge-center/article", "name":"Article"} },{ "@type":"ListItem", "position":4, "item":{"@id":"http://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk", "name":"Analysis: GLP-1s and Mortality Risk"} }]
+			}
+	</script>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="kc-detail" >
+	<div class="container kc-detail__container">
+		<div class="kc-detail__header">
+				<div class="kc-detail__type">
+					<span class="kc-detail__type-label">Actuarial</span>
+				</div>
+			<ul class="kc-detail__info">
+					<li class="kc-detail__info-category">Articles</li>
+
+					<li class="kc-detail__info-date">
+						May 2026
+					</li>
+
+				<li class="kc-detail__info-time" article-read-time></li>
+
+			</ul>
+			<h1 class="kc-detail__title" >
+				Analysis: GLP-1s and Mortality Risk
+			</h1>
+				<h2 class="kc-detail__subtitle" >
+					Implications for insurers and long-term trend assumptions</h2>
+			<div class="kc-detail__meta">
+					<div class="kc-detail__meta-list">
+						<svg class="icon icon-profile" focusable="false" aria-hidden="true">
+							<use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-profile"></use>
+						</svg>
+						<span>By</span>
+					</div>
+					<ul class="kc-detail__meta-authors">
+							<li class="kc-detail__meta-person">Richard Russell</li>
+							<li class="kc-detail__meta-person">Andrew Gaskell</li>
+							<li class="kc-detail__meta-person">Chris Falkous</li>
+
+					</ul>
+					<a href="#kcAuthors" class="kc-detail__anchor">
+						<svg class="icon icon-arrow_downward" focusable="false" aria-hidden="true">
+							<use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-arrow_downward"></use>
+						</svg>
+						<span class="visually-hidden">Skip to Authors and Experts</span>
+					</a>
+			</div>
+			<div class="kc-detail__media">
+
+					<div class="kc-detail__image kc-detail__image--brief">
+						<img src="/images/default-source/kc-article-images/woman-holding-glp-1-pen.jpg?sfvrsn=cc6d7e1c_1" class="kc-detail__img"
+							alt="A woman holding a GLP-1 pen" />
+					</div>
+
+
+
+
+
+					<div class="kc-detail__media-brief red-border-right" >
+						<div class="kc-detail__media-title">In Brief</div>
+						<p>This article summarizes RGA’s modeling of how GLP-1s and other incretin-based therapies may shape future mortality by comparing outcomes with and without anti-obesity medications across major insurance markets and scenarios.</p><p>This article was originally published in <em><a href="https://www.theactuarymagazine.org/analysis-glp-1s-and-mortality-risk/" target="_blank" data-sf-ec-immutable="">The Actuary</a></em>.</p>
+
+					</div>
+
+
+			</div>
+		</div>
+
+		<div class="kc-detail__left" article-content>
+			<div class="kc-detail__content">
+					<div class="kc-detail__main">
+						<div style="background-color: rgba(210, 232, 244, 1); padding: 30px"><h2>Key takeaways</h2><ul><li>Incretin-based anti-obesity medications – including GLP-1 receptor agonists – could meaningfully improve population mortality over the next two decades, but the size of the effect will differ by market and age group based on obesity prevalence, access, and cardiovascular risk.</li><li>The mortality impact on insured populations is expected to be lower than in the general population, largely because insured lives tend to have lower average BMI and less scope for medication-driven risk reduction.</li><li>Outcomes remain highly uncertain and hinge on uptake, effectiveness, persistency, and any benefits beyond BMI reduction – so insurers should monitor this fast-moving landscape and consider implications for trend assumptions, lapse/anti-selection risk, underwriting, and claims.</li></ul></div><p>&nbsp;</p><p class="featured-text">The intense interest surrounding glucagon-like peptide-1 (GLP-1) and other incretin-based medications, given significant public and media attention and their potential implications for obesity and related conditions, is impossible to ignore. Some commentators have touted them as “everything drugs” that will rewrite the trajectory of human mortality and reverse stagnating life expectancy trends.</p><p>Amid all the hype, a key question for our industry remains unanswered: How will these medications affect (re)insurers writing long-term mortality and longevity business?</p><p>Reinsurance Group of America, Incorporated (RGA) analyzed the potential mortality impacts of incretin-based drugs, including GLP-1s, as treatments for obesity and diabetes in four key insurance markets: U.S., Canada, UK and Hong Kong. This article summarizes key takeaways from RGA's&nbsp;<a href="/knowledge-center/article/rga-glp-1-study--weighing-the-evidence">GLP-1 Study: Weighing the Evidence</a>.</p><p>These results are based on RGA's proprietary assumptions and illustrate three potential scenarios (central, pessimistic, and optimistic). Different assumptions or modeling approaches may produce different results.</p><h2>The obesity epidemic</h2><p>These new drugs have generated substantial attention in large part because of their potential to help reduce the “<a data-sf-ec-immutable="" target="_blank" href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight">obesity epidemic</a>,” a major global public health issue that has increased over many decades.</p><p><a data-sf-ec-immutable="" target="_blank" href="https://www.cdc.gov/obesity/php/about/consequences.html?utm">Obesity</a> is associated with numerous health complications, including type 2 diabetes, cardiovascular disease, metabolic dysfunction-associated steatotic liver disease (MASLD), and certain cancers. Higher body mass index (BMI) is associated with increased mortality risk compared to “normal weight” (BMI 18.5-25 kg/m²).</p><blockquote><a data-sf-ec-immutable="" target="_blank" href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)02750-2/fulltext">As reports show</a>, from 1990 to 2022, the worldwide rate of obesity more than doubled in women, nearly tripled in men, and quadrupled among children and adolescents.</blockquote><p>The increase in obesity is a headwind to mortality improvements. A 2018 study using National Health and Nutrition Examination Survey (NHANES) data modeled the impact of obesity on mortality improvement between 1988 and 2011 and found that rising BMI levels reduced mortality improvement in the U.S. by more than 0.5% per annum.</p><p>The economic burden of obesity is also substantial, helping drive higher health care costs and lost productivity.</p><h2>Incretin-based anti-obesity medications</h2><p>The development of next-generation anti-obesity medications (AOMs), such as incretin-based GLP-1 receptor agonists, offers promising potential to reduce the health impacts of obesity and improve overall public health outcomes, according to <a data-sf-ec-immutable="" target="_blank" href="https://www.sciencedaily.com/releases/2018/01/180115154603.htm?utm">reports</a>.</p><p>Incretin-based drugs are medications that mimic or enhance the action of incretin hormones, which, after eating, are naturally released by the gut to help regulate blood sugar and appetite. The two most significant incretin hormones are GLP-1 and glucose-dependent insulinotropic polypeptide (GIP). Together, these hormones stimulate insulin release in response to food; GLP-1 suppresses glucagon when blood glucose is elevated and slows gastric emptying to promote satiety (feeling full) while GIP enhances GLP-1 by creating a synergistic dual agonist effect.</p><blockquote>GLP-1 receptor agonists were originally developed to treat type 2 diabetes mellitus and have been FDA-approved for this indication since 2005. Incretin-based therapies, including GLP-1 drugs, have since expanded their therapeutic indications beyond diabetes care to weight management.</blockquote><p>The first incretin-based drug specifically for weight loss was approved by the FDA in 2014 for adults with obesity or who were overweight with at least one weight-related condition.</p><p>Since then, more potent GLP-1 and dual agonists (targeting both GLP-1 and GIP) have been approved, including for weight loss in those living with obesity. Semaglutide (Wegovy) was approved in 2021 and tirzepatide (Zepbound) in 2023.</p>
+					</div>
+
+			</div>
+
+<div class="kc-detail__speedbump">
+	<div class="kc-detail__speedbump-wrapper">
+			<div class="kc-detail__speedbump-media">
+				<img src="https://www.rgare.com/images/default-source/speedbump/btd_round-table-2026_dsc0817_thumb_200px-x-200px.jpg?sfvrsn=944b2cab_1" class="kc-detail__speedbump-img" alt="People sitting at conference table" />
+			</div>
+		<div class="kc-detail__speedbump-content">
+
+				<div class="kc-detail__speedbump-long">RGA’s research into GLP-1s is one part of where we excel at quantifying human health, behavior, and longevity – biometrics – with a precision that sets the standard. Our expert teams give insurers the intelligence to price risk, build new business, optimize in-force performance, and achieve long-term growth.<br><a data-sf-ec-immutable="" href="https://www.rgare.com/knowledge-center/article/inside-glp-1-data--an-expert-roundtable-on-mortality--morbidity--and-risk">Watch the roundtable video</a></div>
+
+		</div>
+	</div>
+</div>
+
+			<div class="kc-detail__content kc-detail__second">
+					<div class="kc-detail__second-content">
+						<h2>Population mortality impact</h2><p>To understand the future impact of AOMs on mortality rates, RGA developed a model comparing outcomes with and without the benefits of AOMs for obesity and diabetes. The findings show that AOMs could have a meaningful impact to population mortality. However, the degree of benefit varies across markets and age groups.</p><div class="flourish-embed flourish-chart" data-src="visualisation/28614731?1218811"></div><p>&nbsp;</p><p>Market differences stem mainly from variations in obesity prevalence and the accessibility of AOMs. Countries with higher obesity rates and better access to these therapies will likely experience greater improvements in mortality.</p><p>Age group differences are driven by two opposing factors. Younger people are predicted to have higher uptake of AOMs, which boosts the effect among these age groups. Conversely, AOMs are particularly powerful in reducing deaths from cardiovascular disease, a condition that becomes increasingly relevant at older ages. As shown in Table 1, the greatest mortality improvement is expected in the middle-aged group (45–59 years), where both uptake and cardiovascular risk intersect. In contrast, the impact is smallest in the oldest age group (85+), where uptake falls and the scope for benefit narrows.</p><h2>Insured impact</h2><p>For a given age group, the modelled impact on an insured population is lower than that on the general population.</p><p>This is mainly due to two factors that work in opposite directions:</p><ol><li>Insured groups are generally of higher socioeconomic status, which should increase access to AOMs. All else being equal, this should increase the impact of AOMs for an insured group. Access disparities may have public policy implications and could evolve over time as pricing and coverage change.</li><li>Insured groups, on average, have a lower BMI than the general population, and so lower scope to reduce BMI. All else being equal, this should reduce the impact of AOMs for an insured group.</li></ol><p>RGA’s model suggests that the second factor is the most important, leading insured groups to experience a lower mortality impact from AOMs than the general population.</p><h2>Key assumptions and uncertainties</h2><p>The results discussed earlier depend on several key assumptions and how they may change over time:</p><ul><li>How many people take the drug</li><li>How effective the drug is at reducing BMI</li><li>How much the drugs reduce mortality risk beyond their impact on BMI</li><li>How long people persist in taking the drug</li><li>How much and how quickly weight is put back on for those who stop taking the drug</li></ul><p>How many eligible people take the drug and for how long depends mainly on cost, including insurance coverage, side effects, and how much and how quickly weight is lost. Emerging evidence also suggests that women currently see higher uptake than men.</p><p>Effectiveness depends on which of the available drugs are taken, with tirzepatide seeing higher weight loss than semaglutide and older GLP-1s. Emerging evidence also shows that women currently lose more weight than men.</p><p>The exact mechanism by which these drugs work is not known, but they may have mortality benefits beyond those associated with weight loss. RGA’s results make allowance for this by assuming those on the drugs see a reduction in mortality risk that is slightly greater than the reduction that would be associated with weight loss alone.</p><h2>Understanding risk</h2><p>Flexing these assumptions to plausible higher and lower values gives a pessimistic-optimistic range within which future outcomes may be expected to lie, which may help insurers understand the risks associated with AOMs.</p><div class="flourish-embed flourish-chart" data-src="visualisation/28614923?1218811"></div><p>&nbsp;</p><h2>A fast-moving space</h2><p>We anticipate new drugs coming online in the short- and medium-term that may improve uptake, persistency, and effectiveness.</p><ul><li>New drugs that reduce negative side effects may improve persistency</li><li>Competition, generics, and pill versions of the drugs might reduce cost, in turn improving uptake and persistency.</li><li>More effective drugs may increase the proportion of the population that can achieve significant weight loss.</li></ul><p>These drugs are also being approved for new indications, such as treatment for cardiovascular disease in overweight populations. We expect this to continue, which may increase the proportion of the population eligible to take these drugs, thereby increasing the population's health benefits.</p><p>Recent developments have underlined both the momentum and the complexity of the AOM landscape. In early November 2025, The White House announced a planned expansion of Medicare coverage for AOMs to treat obesity through a formal pilot program beginning in 2026, and the availability of Medicare’s negotiated price for some AOMs in 2027. In contrast, some U.S. commercial insurers have moved to restrict or withdraw coverage of AOMs.</p><p><a href="https://www.benefitsandpensionsmonitor.com/benefits/pharma/canada-to-become-first-major-market-for-generic-ozempic/392227?utm" target="_blank" data-sf-ec-immutable="">As reports show</a>, with the expiry of Novo Nordisk’s semaglutide exclusivity on January 4, 2026, Canada has emerged as the first major Western market where generic semaglutide can be legally produced and sold, subject to Health Canada approval.</p><p>In late November 2025, Novo Nordisk reported topline results from the EVOKE and EVOKE+ Phase 3 trials evaluating oral semaglutide in early Alzheimer’s disease.</p><blockquote>While the studies did not meet their primary cognitive endpoints, they demonstrated favorable safety and biomarker effects, reinforcing interest in incretin‑based therapies beyond obesity and diabetes, even as clinical benefits outside metabolic disease remain uncertain.</blockquote><p>December 2025 brought additional milestones with global implications. The World Health Organization issued its first global <a href="https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity?utm" target="_blank" data-sf-ec-immutable="">guideline on the use of AOMs for the treatment of obesity</a>, formally recognizing obesity as a chronic, relapsing disease and conditionally recommending AOMs as part of long‑term, comprehensive care. Later in the month, the FDA approved the oral Wegovy pill, which launched in January at a notably lower introductory price point. A different oral therapy, Orforglipron, is expected to receive a regulatory decision later this year. Results published on December 18, 2025 (reported here), from the ATTAIN‑MAINTAIN Phase 3 trial suggest that oral AOMs could play a meaningful role in sustaining weight loss after initial treatment with injectable agents.</p><p>While clinical trials demonstrate benefits, GLP-1 therapies are also associated with adverse events. Substantial long‑term safety experience exists from their use in type 2 diabetes over more than 20 years, though long‑term outcomes for newer agents, higher doses, and obesity‑only use remain less well established. Further, persistency, efficacy and other key therapeutic attributes are known to differ between controlled clinical trial environments and real-world clinical practice.</p>
+					</div>
+
+			</div>
+
+<div class="kc-detail__speedbump">
+	<div class="kc-detail__speedbump-wrapper">
+			<div class="kc-detail__speedbump-media">
+				<img src="https://www.rgare.com/images/default-source/speedbump/btd-intro-summary-1125-speedbump3.png?sfvrsn=2707506c_1" class="kc-detail__speedbump-img" alt="GLP1 shots and a tape measure" />
+			</div>
+		<div class="kc-detail__speedbump-content">
+				<div class="kc-detail__speedbump-summary">Learn more about a key driver: RGA’s research explores the potential mortality and morbidity impacts of anti-obesity medications.</div>
+
+
+				<div class="kc-detail__speedbump-action">
+					<a href="https://www.rgare.com/knowledge-center/article/rga-glp-1-study--weighing-the-evidence" class="kc-detail__speedbump-link">
+						Read the report
+						<svg class="icon icon-arrow_forward" focusable="false" aria-hidden="true">
+							<use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-arrow_forward"></use>
+						</svg>
+					</a>
+				</div>
+		</div>
+	</div>
+</div>
+
+			<div class="kc-detail__content kc-detail__third">
+					<div class="kc-detail__third-content">
+						<h2>Potential implications for insurers</h2><p>Insurers may want to consider the implications of AOMs for their business:</p><ul><li>Review trend assumptions to identify whether changes are needed</li><li>Consider new lapse risks</li><li>Assess how AOMs might affect underwriting and claims</li><li>Establish processes to keep on top of this fast-moving space</li></ul><h2>Reviewing mortality improvement assumptions</h2><p>An insurer's current mortality trend assumptions likely include anticipated improvements from drivers such as medical advances. It may be too early to make material adjustments to those assumptions for AOMs, but AOMs may increase confidence in future mortality improvements.</p><p>Insurers may want to consider adjustments to their specific mortality improvement assumptions to reflect AOMs. Accounting for specific drivers in future improvement projections, in RGA’s experience, can be difficult and requires a careful blend of analysis and judgment.</p><p>“<a target="_blank" href="/docs/default-source/knowledge-center-articles/evaluating-biometric-trend-drivers.pdf?sfvrsn=bfe2e693_10">Evaluating Biometric Trend Drivers: How to reflect medical breakthroughs and other drivers in forward-looking assumptions</a>” explores the practicalities of maintaining an up-to-date view of emerging drivers such as AOMs and provides one framework for incorporating insured impacts into insured improvement bases.</p><h2>New lapse risks</h2><p>The use of AOMs introduces potential risk of anti-selective policyholder behavior, as individuals who have lost considerable weight may lapse their rated policies and re-enter with better terms. As such, insurers may not capture the full economic benefit of improved mortality. Insurers may need to consider how this anti-selection risk may affect their lapse assumptions.</p><blockquote>From a public health perspective, improved health outcomes are a positive. However, from a pricing and product management standpoint, insurers may also want to consider behavioral responses and contract dynamics.</blockquote><h2>Underwriting</h2><p>RGA believes AOMs have the potential to significantly influence underwriting risk assessment. Despite experiencing metabolic and cardiovascular improvements, many individuals using these drugs might retain underlying conditions such as diabetes, hypertension, dyslipidemia, sleep apnea, or fatty liver disease (MASLD). Underwriters may need to continue reviewing and assessing medical evidence for associated side effects and potential comorbidities, including cardiovascular status, renal and hepatic function, and mental health or cognitive concerns.</p><p>People who have experienced medication-driven weight loss may also present new underwriting risks. The weight gain that occurs if treatment is stopped may be dramatic compared to what might be expected from individuals not taking the medication, with associated increases in mortality risk throughout the duration of the policy. Weight at underwriting might also mask accumulated harms and previous high-risk weight status. Addressing these issues may require insurers to consider an applicant’s BMI history rather than simply BMI at the time of application.</p><h2>Conclusion</h2><p>AOMs have the potential to meaningfully impact population mortality.</p><p>The impact on insured groups is likely to be somewhat lower, and RGA believes it may be too early to make material adjustments to insured trend assumptions, but the efficacy of AOMs to date increases confidence in future mortality improvements.</p><p>This is a fast-moving space with significant uncertainties, so monitoring developments closely will be vital to responsible and successful insurance practices. Model assumptions may need continual refinement as new evidence emerges and as new indications for incretin and hormone-based medications are approved.</p><hr><p class="featured-text">RGA health insurance experts are actively engaging with insurers to help determine optimal paths forward with the GLP-1 impact and other emerging issues. Ready to join the conversation? <a target="_blank" href="mailto:publications@rgare.com">Contact RGA</a>.</p>
+					</div>
+
+			</div>
+
+
+			<div class="kc-detail__content kc-detail__fourth">
+
+			</div>
+
+		</div>
+
+			<div class="kc-detail__right">
+					<div class="kc-detail__articles">
+						<h3 class="kc-detail__section">More Like This...</h3>
+						<ul>
+								<li class="kc-detail__article">
+									<div class="kc-detail__article-meta">
+											<div class="kc-detail__article-cat">Research and White Papers</div>
+										<div>January 2025</div>
+									</div>
+									<div class="kc-detail__article-title">
+										GLP-1 Receptor Agonists: Changing the scales of human health
+									</div>
+									<div class="kc-detail__article-action">
+										<a href='https://www.rgare.com/knowledge-center/article/glp-1-receptor-agonists--changing-the-scales-of-human-health' class="red-arrow-link">
+											Read More <span class="visually-hidden"> about GLP-1 Receptor Agonists: Changing the scales of human health</span>
+										</a>
+									</div>
+
+								</li>
+								<li class="kc-detail__article">
+									<div class="kc-detail__article-meta">
+											<div class="kc-detail__article-cat">Research and White Papers</div>
+										<div>November 2025</div>
+									</div>
+									<div class="kc-detail__article-title">
+										RGA GLP-1 Study: Weighing the Evidence
+									</div>
+									<div class="kc-detail__article-action">
+										<a href='https://www.rgare.com/knowledge-center/article/rga-glp-1-study--weighing-the-evidence' class="red-arrow-link">
+											Read More <span class="visually-hidden"> about RGA GLP-1 Study: Weighing the Evidence</span>
+										</a>
+									</div>
+
+								</li>
+								<li class="kc-detail__article">
+									<div class="kc-detail__article-meta">
+											<div class="kc-detail__article-cat">Articles</div>
+										<div>November 2025</div>
+									</div>
+									<div class="kc-detail__article-title">
+										Reframing Obesity as a Treatable Condition
+									</div>
+									<div class="kc-detail__article-action">
+										<a href='https://www.rgare.com/knowledge-center/article/reframing-obesity-as-a-treatable-condition' class="red-arrow-link">
+											Read More <span class="visually-hidden"> about Reframing Obesity as a Treatable Condition</span>
+										</a>
+									</div>
+
+								</li>
+							<li><a href="/knowledge-center" class="red-arrow-link">View All RGA Articles</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+	</div>
+
+		<div id="kcAuthors" class="kc-detail__people">
+			<div class="container">
+				<h3 class="kc-detail__people-title">Meet the Authors & Experts</h3>
+				<div class="kc-detail__people-wrapper">
+							<div class="kc-detail__person">
+									<div class="kc-detail__person-media">
+										<img src="https://www.rgare.com/images/default-source/people/richard-russell0925c213-0e95-4a91-960d-c95345635341.png?sfvrsn=6ed83d23_1" class="kc-detail__person-img" alt="Richard Russell" />
+									</div>
+
+								<div class="kc-detail__person-label">
+									Author
+								</div>
+
+								<a href="https://www.rgare.com/our-company/people/detail/richard-russell" class="kc-detail__name">
+										<span>Richard</span>
+
+										<span>Russell</span>
+
+									<svg class="icon icon-arrow_forward kc-detail__person-arrow" focusable="false" aria-hidden="true">
+										<use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-arrow_forward"></use>
+									</svg>
+								</a>
+
+									<div class="kc-detail__person-info">
+										Vice President, <span lang="EN-GB" style="font-size: 12pt; line-height: 115%; font-family: &quot;Aptos&quot;, sans-serif">Biometric Research</span>,&nbsp;Global Research and Development
+									</div>
+
+
+							</div>
+							<div class="kc-detail__person">
+									<div class="kc-detail__person-media">
+										<img src="https://www.rgare.com/images/default-source/individuals/andrew-gaskell.png?sfvrsn=b5c4e3ce_3" class="kc-detail__person-img" alt="Andrew Gaskell" />
+									</div>
+
+								<div class="kc-detail__person-label">
+									Author
+								</div>
+
+								<a href="https://www.rgare.com/our-company/people/detail/andrew-gaskell" class="kc-detail__name">
+										<span>Andrew</span>
+
+										<span>Gaskell</span>
+
+									<svg class="icon icon-arrow_forward kc-detail__person-arrow" focusable="false" aria-hidden="true">
+										<use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-arrow_forward"></use>
+									</svg>
+								</a>
+
+									<div class="kc-detail__person-info">
+										Vice President and Senior Actuary, Enterprise Pricing
+									</div>
+
+
+							</div>
+							<div class="kc-detail__person">
+									<div class="kc-detail__person-media">
+										<img src="https://www.rgare.com/images/default-source/acquisition-timeline/chris-falkous-professional-headshot.jpg?sfvrsn=e4dc16cd_1" class="kc-detail__person-img" alt="Chris Falkous Professional Headshot" />
+									</div>
+
+								<div class="kc-detail__person-label">
+									Author
+								</div>
+
+								<a href="https://www.rgare.com/our-company/people/detail/chris-falkous" class="kc-detail__name">
+										<span>Chris</span>
+
+										<span>Falkous</span>
+
+									<svg class="icon icon-arrow_forward kc-detail__person-arrow" focusable="false" aria-hidden="true">
+										<use href="/ResourcePackages/Talon/assets/dist/sprites/svgdefs.svg#icon-arrow_forward"></use>
+									</svg>
+								</a>
+
+									<div class="kc-detail__person-info">
+										<p>Vice President, Senior Biometric Insights Actuary, Global Research and Development</p>
+									</div>
+
+
+							</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "article",
+"@id": "https://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk",
+"mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk"
+},
+"headline": "Analysis: GLP-1s and Mortality Risk",
+"datePublished": "May 21, 2026, 08:48 AM",
+"dateModified": "May 21, 2026, 08:48 AM",
+
+
+"description": "&lt;p&gt;This article summarizes RGA’s modeling of how GLP-1s and other incretin-based therapies may shape future mortality by comparing outcomes with and without anti-obesity medications across major insurance markets and scenarios.&lt;/p&gt;&lt;p&gt;This article was originally published in &lt;em&gt;&lt;a href=&quot;https://www.theactuarymagazine.org/analysis-glp-1s-and-mortality-risk/&quot; target=&quot;_blank&quot; data-sf-ec-immutable=&quot;&quot;&gt;The Actuary&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;"
+}
+</script>
+
+		<script type="application/ld+json">
+		{
+		"@context": "http://schema.org",
+		"@id": "https://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk",
+		"image": "https://www.rgare.com/images/default-source/kc-article-images/woman-holding-glp-1-pen.jpg?sfvrsn=cc6d7e1c_1"
+		}
+		    </script>
+ </main> <footer id="site-footer" class="site-footer" role="contentinfo"> 
+<div class="footer__container" data-sf-element="Container" data-placeholder-label="Footer Container">
+  <div class="footer__top">
+    <div id="Footer_T2734BF3E002_Col00" class="sf_colsIn footer__top-left" data-sf-element="Container" data-placeholder-label="Footer Left">
+<div >
+    <div class="sfContentBlock sf-Long-text" ><h3>Connect With Us</h3><br><p>Curious? So are we. Let's connect and come up with better solutions together.&nbsp;<br><br></p><a href="https://www.linkedin.com/company/248599" data-sf-ec-immutable=""><img src="/images/default-source/acquisition-timeline/social-icons_black-03.png?sfvrsn=a72f53d_1" alt="linkedin icon" sf-size="100"></a>&nbsp; &nbsp;&nbsp; <a href="https://www.facebook.com/RGAGlobal/" data-sf-ec-immutable=""><img src="/images/default-source/acquisition-timeline/social-icons_black-02.png?sfvrsn=804bc080_1" alt="facebook icon" sf-size="1633"></a></div>
+</div>
+    </div>
+    <div id="Footer_T2734BF3E002_Col01" class="sf_colsIn footer__top-middle" data-sf-element="Container" data-placeholder-label="Footer Middle">
+<div >
+    <div class="sfContentBlock sf-Long-text" ><h3>RGA Central</h3><br><p>RGA Central is a convenient client portal that provides a single point of access to exclusive applications and insights.<br></p><a class="red-arrow-link" href="/our-company/about-rga/rga-central-portal">Learn More</a></div>
+</div>
+    </div>
+    <div id="Footer_T2734BF3E002_Col02" class="sf_colsIn footer__top-right" data-sf-element="Container" data-placeholder-label="Footer Right">
+<div >
+    <div class="sfContentBlock sf-Long-text" ><h3>Contact Us</h3><br><p>At RGA, we are eager to speak with clients and counterparties. Contact us to learn more about the resources, solutions, and services available.<br></p><a class="red-arrow-link" href="/contact?id=43343c70-17b0-47b7-9b1a-0e41508198f5">Contact Us</a></div>
+</div>
+    </div>
+  </div>
+  <div class="footer__bottom" data-sf-element="Container" data-placeholder-label="Footer Bottom">
+    <div id="Footer_T2734BF3E002_Col03" class="sf_colsIn footer__bottom-nav" data-sf-element="Container" data-placeholder-label="Footer Menu"><div id="Footer_T2734BF3E036_Col00" class="sf_colsIn container container--small" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="Footer_T2734BF3E037_Col00" class="sf_colsIn col-lg-2" data-sf-element="Column 1" data-placeholder-label="Column 1">
+    </div>
+    <div id="Footer_T2734BF3E037_Col01" class="sf_colsIn col-lg-8" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div >
+    <div class="sfContentBlock sf-Long-text" ><center><div style="display: flex; align-items: center; flex-wrap: wrap; padding: 10px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a href="/" style="flex-shrink: 0; text-decoration: none">
+ &nbsp;&nbsp;&nbsp; <img src="/images/default-source/header-logos/rga_logo_rgb_red_wht.png?sfvrsn=2edaadcb_1" height="92" style="width: auto" alt="Red RGA Logo">&nbsp; </a>
+ &nbsp; <div style="margin-left: 20px; flex: 1; text-align: left">&nbsp;&nbsp;&nbsp; <h3 style="margin: 0; color: rgba(0, 0, 0, 1)">Trusted partner. Proven results.</h3>&nbsp; </div></div></center></div>
+</div>
+    </div>
+    <div id="Footer_T2734BF3E037_Col02" class="sf_colsIn col-lg-2" data-sf-element="Column 3" data-placeholder-label="Column 3">
+    </div>
+</div>
+<div id="Footer_T2734BF3E015_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<nav class="horizontal" aria-label="Horizontal Footer Navigation">
+    
+    <ul class="horizontal__list" id='navbar-5'>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="/solutions/all-products-and-services" target="_self">All Products and Services</a>
+        </li>
+        <li class="horizontal__list-item active">
+          <a class="horizontal__list-link" href="/knowledge-center" target="_self">Knowledge Center</a>
+        </li>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="/our-company/responsibility/policies-and-governance-center/rights-requests" target="_self">Rights Requests</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+    </div>
+    <div id="Footer_T2734BF3E002_Col04" class="sf_colsIn footer__bottom-sub" data-sf-element="Container" data-placeholder-label="Footer Submenu"><div id="Footer_T2734BF3E025_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<nav class="horizontal" aria-label="Horizontal Footer Navigation">
+    
+    <ul class="horizontal__list" id='navbar-6'>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="/investors" target="_blank">Investors</a>
+        </li>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="/our-company/responsibility/policies-and-governance-center/policy-and-rights" target="_self">Privacy and Rights</a>
+        </li>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="/our-company/responsibility/policies-and-governance-center" target="_self">Policies and Governance Center</a>
+        </li>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="https://www.rgare.com/our-company/responsibility/policies-and-governance-center/corporate-governance/speaking-up/" target="_blank">Speak-Up</a>
+        </li>
+        <li class="horizontal__list-item ">
+          <a class="horizontal__list-link" href="/our-company/responsibility/policies-and-governance-center/policy-and-rights/legal-notice-and-terms-of-use" target="_self">Legal Notice and Terms of Use</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+</div>
+
+    </div>
+    <div id="Footer_T2734BF3E002_Col05" class="sf_colsIn footer__bottom-copyright" data-sf-element="Container" data-placeholder-label="Footer Copyright"><div id="Footer_T2734BF3E017_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<!-- OneTrust Cookies Settings button start -->
+<button type="button" id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+<!-- OneTrust Cookies Settings button end -->
+
+<div >
+    <div class="sfContentBlock sf-Long-text" >Copyright © 2026 RGA Reinsurance Company. All Rights Reserved.</div>
+</div>
+</div>
+
+    </div>
+  </div>
+</div>
+ </footer> <link href="/ResourcePackages/Talon/assets/dist/css/main.min.css?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" rel="stylesheet" type="text/css" /> <script src="/ScriptResource.axd?d=6DQe8ARl7A9TiuWej5ttCjArO0CgP3wfNK974SuPGjV3hRjx1hWrezy7jNdcRW0hMZ9EBA7lE0ELdTrvYMoTgmL27nOLSMxqx2JBzMpwPWnH1YIzmb-fbaA72h6Qq1fqSLlqGAQBpyHtIVtxixSUPd1GoneofWurL2SoUI_-hIPAL_0wttsXknoN6qbPe9IJ0&amp;t=ffffffffe65956ab" type="text/javascript"></script><script src="/ScriptResource.axd?d=74FHISOx3fOPKwLxL0RMYhl-GYE18Q8eREVFVgdpbD-oUgiVSEu2o9lBcTx7Casa7XVQFlhh-dXtaZ7pyv1dudlsrA0ryrMEEsC8hVEmnbzn34QzDE9kapAO-cMbc0WVtUraaO2UJDOgQF1Us-hdaAcLlPp7iomgzUioJNZjiXThtMdfy72xSuTTqf90i97D0&amp;t=ffffffffe65956ab" type="text/javascript"></script> <script defer="" src="/ResourcePackages/Talon/assets/dist/js/all.min.js?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" type="text/javascript"></script> <script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "WebPage",
+				"name": "Article",
+				"description": "Explore RGA insights, research, and expert perspectives on life and health insurance, risk management, underwriting, longevity, and industry trends.",
+				"url": "http://www.rgare.com/knowledge-center/article/analysis--glp-1s-and-mortality-risk",
+				"publisher": {
+					"@type": "Organization",
+					"name": "Reinsurance Group of America, Incorporated",
+					"url": "http://www.rgare.com"
+					}
+			}
+		</script>  
+
+
+  <script src="/algolia-apps/dist/algoliaSearchbox.js?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" type="module"></script><script src="/ResourcePackages/Talon/assets/dist/js/swiper.min.js?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" type="text/javascript"></script><script src="/ResourcePackages/Talon/assets/dist/js/kcsliders.min.js?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" type="text/javascript"></script><script src="/ResourcePackages/Talon/assets/dist/js/kc-detail.min.js?package=Talon&amp;v=MTQuMi43OTI3LjM4MDcy" type="text/javascript"></script><script type="application/json" id="PersonalizationTracker">
+	{"IsPagePersonalizationTarget":false,"IsUrlPersonalizationTarget":false,"PageId":"cfb14d98-8da6-4bd6-86aa-25237d56aaeb"}
+</script><script type="text/javascript" src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPt5bjXlnT3nifOYAI1uxGx0e5X9u_rOntoHkkPh71uFYTbr8viwEGPKIayQI75q1r_wd93ZGM55rOYYy_bcEN9-YhocgHQKMIkTd5OP4JrN_af5KCiGNPg9LCswTWz7WKWBqZKR3Jj7ioiJ3vrBDfA4O4wUnNm2DL77jnzirXHVkcHyBvCAbbORz2t1eD44aTJFxhQCmUv-Ex_5TOqRm_UE1&amp;t=639059738540000000">
+
+</script><script type="text/javascript" src="https://public.flourish.studio/resources/embed.js"></script> </body> </html>

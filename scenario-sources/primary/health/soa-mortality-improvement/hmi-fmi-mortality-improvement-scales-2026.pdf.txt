@@ -1,0 +1,350 @@
+1
+
+Individual Life Insurance Mortality
+Improvement Scale Recommendation
+– for Use with AG38/VM20 - 2026
+Society of Actuaries Research Institute’s
+MI Life Working Group of the Mortality
+and Longevity Oversight Advisory Council
+
+September 2026
+
+Purpose
+This document describes the 2026 individual life insurance historical mortality improvement
+(HMI) and future mortality improvement (FMI) recommendations approved by the National
+Association of Insurance Commissioners (NAIC) Life Actuarial Task Force (LATF) on a call on
+September 17, 2026.
+For U.S. statutory reserves under VM20 or AG38 using the 2008 Valuation Basic Table (2008 VBT)
+or the 2015 Valuation Basic Table (2015 VBT) other than limited underwriting business, the HMI
+and FMI scales discussed herein are applicable.
+For all limited underwriting business, the HMI and FMI mortality improvement assumptions are
+zero for all years.
+
+Background
+As part of the work conducted by the American Academy of Actuaries’ Life Work Group and the
+Society of Actuaries Research Institute to develop the 2015 Valuation Basic Table, the Mortality
+Improvement Life Working Group (MILWG) (a subgroup of the Mortality and Longevity Oversight
+Advisory Council (MLOAC)) was tasked with reviewing recent mortality improvement levels
+based on available data for the individual life insurance policyholder population.
+Since year-end 2014, the MILWG has been tasked with studying and recommending updates to
+mortality improvement scales for use with AG38 and VM20 (specific to the individual life
+insurance product lines). Each year, the MILWG presents a recommendation for a set of HMI
+factors and, starting in 2022, a set of FMI factors to be used in conjunction with the 2015
+Copyright © 2026 Society of Actuaries Research Institute
+
+2
+
+Valuation Basic table. Both the HMI and FMI scales vary by attained age and sex. The FMI scale
+also varies by calendar year of projection.
+The HMI and FMI scales presented in this document were accepted for use for the 2026
+valuation year in conjunction with AG38 and VM20. See Appendix A of this document for
+background on the development of the current methodology for producing these scales. See
+Appendix B for a discussion of the considerations of the impact of COVID-19.
+
+Recommendation
+It is recommended that the HMI and FMI rates provided in the accompanying spreadsheet be
+used for 2026.
+
+2026 Historical Mortality Improvement (HMI) Scale Methodology
+The raw, unsmoothed HMI rates are equal to the average of a historical component and a
+future-looking component as discussed below.
+Historical Component
+The historical component is represented by the geometric average of the most recent 10 years
+(2013-2023) of annual mortality improvement data implied from individual life insured
+population mortality data. The source of the data is NAIC and Kansas mandatory data calls. The
+methodology for deriving the mortality improvement rates and the associated analysis tool is
+examined in detail in the following SOA report: https://www.soa.org/resources/researchreports/2024/ind-life-mort-tools/.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+3
+
+Figure 1
+Male HMI Rates 2025 and 2026
+
+2.0%
+1.5%
+1.0%
+0.5%
+0.0%
+-0.5%
+-1.0%
+-1.5%
+-2.0%
+
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
+44
+48
+52
+56
+60
+64
+68
+72
+76
+80
+84
+88
+92
+96
+100
+
+Historical MI Rates
+
+Male HMI by Attained Age
+
+Attained Age
+
+Male Smoothed HMI 2026
+
+Male Smoothed HMI 2025
+
+Figure 2
+Female HMI Rates 2025 and 2026
+
+96
+
+100
+
+92
+
+88
+
+84
+
+80
+
+76
+
+72
+
+68
+
+64
+
+60
+
+56
+
+52
+
+48
+
+44
+
+40
+
+36
+
+32
+
+28
+
+24
+
+20
+
+16
+
+12
+
+8
+
+2.0%
+1.5%
+1.0%
+0.5%
+0.0%
+-0.5%
+-1.0%
+-1.5%
+-2.0%
+
+4
+
+Historical MI Rates
+
+Female HMI by Attained Age
+
+Attained Age
+
+Female Smoothed HMI 2026
+
+Female Smoothed HMI 2025
+
+The recommendation for the historical component of HMI for 2026 reflects the use of the insured
+data directly for most adult ages, the exceptions being ages under 20 ages and ages over 80. At
+ages under 20 where there is insufficient credible insured data, the U.S. general population data
+continues to be used as the basis for the historical component. For ages over 80, HMI rates have
+been calculated by grading from age 80 insured mortality improvement levels to zero MI at age
+92, then remaining at zero for all ages above 92.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+4
+
+Future-looking Component
+The future component continues to be represented by the 20-year geometric average annual
+mortality improvement level (for 2026, this covers the period from 2023 to 2043 – beginning at
+the end of the historical period of data for insured MI and based on the most recent SSA
+Trustees report (2026) intermediate assumption). At this time, there is insufficient data to form
+the basis of a future projection of MI results directly from insured data.
+The 20-year period was chosen for future component averaging because it results in smoother
+patterns by age and calendar year, as well as allowing for greater weight being given to the
+long-term average.
+The average annual rates calculated as above are then manually smoothed to produce final
+scales by sex and age.
+
+2025 Future Mortality Improvement (FMI) Scale Methodology
+The calculation of FMI has not changed with the 2026 scale with the exception of rates for
+attained ages 22-44 as described below. The starting point for FMI is the 2026 HMI scale. The
+FMI rates are calculated as follows:
+•
+
+•
+•
+•
+
+The FMI rates grade from the 2026 HMI level to a long-term MI assumption that is based
+on the arithmetic average of years 10-15 of the SSA 2026 Trustee’s Report intermediate
+projected mortality assumption.
+The FMI rates grade to the long-term MI assumption level over the first 10 years of the
+projection.
+The FMI rates then remain level at the long-term rate from 2036-2041 (five years).
+The FMI rates then grade to zero at year 20 (2046).
+
+For ages between 26 and 40 where there has been significant mortality deterioration, current
+general population trends show a continued improving trend over the most recent years beyond
+the end of the insured data period available. Therefore, at these ages, and similar to the 2025
+scale, the FMI recommendation assumes a return to zero MI levels in 2028, continuation of zero
+MI until 2031, then grading to the long-term MI rate assumption in 2036. FMI rates then remain
+level at the long-term assumption until 2041 and then grade to zero in 2046 and later.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+5
+
+Appendix A Development of HMI and FMI Factors – Scale Years 2013-2026
+This appendix contains the considerations in developing mortality improvement factors for
+application with VM38 and VM20.
+• Recent Historical Experience Impact – The desire for a methodology that weights the
+impact of recent historical rates of improvement with a longer-term assumption (i.e., SSA
+intermediate mortality projections) in determining projected improvement rates. This
+approach is (at a high level) consistent with the current U.K. Continuous Mortality
+Investigation (“CMI”) projection models, as well as methods commonly used to develop
+other insured mortality projection scales, including the SOA Mortality Improvement Model
+(https://www.soa.org/resources/research-reports/2023/mortality-improvement-model/).
+These methods project rates based on past experience, but trend toward a long-term
+assumed average annual improvement level.
+• Insured Data – For scale years 2025 and forward, insured data is being used directly in the
+determination of HMI rates and, therefore, the resulting FMI rates. Insured data is sourced
+from the annual NAIC VM51 mandatory data calls.
+• MI Long-Term Rate for developing FMI Scales – The MILWG continues to use general
+population mortality as the basis for developing the MI long-term rate used for the
+standard FMI scale determination. At this time, it is not possible to develop a projection of
+mortality improvement using insurance industry data. The MILWG examined several
+sources of general population data, including data from U.S. Vital Statistics, the Human
+Mortality Database (HMD), and the SSA. The SSA data was selected as the source for
+general population analysis for several reasons, including the fact that it is strongly vetted,
+that it may be based on better data regarding age at death for the oldest ages than HMD,
+and that it includes projections of future estimated mortality.
+• In addition to data sources discussed above, the subgroup also researched and considered
+additional factors that could impact future mortality improvement experience, including
+the following:
+o Recent trends in opioid-related deaths
+o GLP-1 impacts
+o Lifestyle
+o Cancer incidence at younger ages
+o Impact of changes in health care – availability and treatment
+o Technology advances (medical devices to help disabled and elderly – self-driving
+cars)
+o Alzheimer’s and Dementia impacts
+o Vaccinations
+o Climate-related mortality impacts – longer term issue – SOA research
+o Synthetics (PFAS) – “forever chemicals”
+o Microplastics
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+6
+
+These items were reviewed based on recent research – both governmental studies and
+actuarial studies from the SOA and reinsurers.
+These issues were also reviewed based on the 2026 Social Security Administration (SSA)
+Trustees Report intermediate projection documentation to determine whether adjustments
+should be made for insured population potential differences as the SSA intermediate
+projection forms the basis for the 2026 scale FMI long-term rate.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+7
+
+Appendix B Considerations for Impact of COVID-19 – Scale Years 2022-2026
+In 2022, the MILWG, as well as other industry groups working on valuation mortality and
+mortality improvement rates, considered appropriate methods to reflect the impact of a shock
+mortality event like COVID-19. To ensure consistency in thinking about how to reflect the impact
+of a shock mortality event, an industry group was formed in January 2022 to discuss and
+develop a set of principles to reflect the impacts of COVID-19 on life insurance and annuity
+valuation mortality. This group included representatives from the life insurance industry,
+American Academy of Actuaries, Society of Actuaries, and NAIC. A key principle agreed upon by
+the group was that the initial shock impact of the COVID-19 event should be reflected in
+valuation mortality only to the extent it is expected to continue in the future.
+In practice, this principle was reflected in the recommendations by implementing a revised
+methodology for HMI and FMI for years 2022 through 2026. The revised methodology is outlined
+below.
+Revised Methodology
+For HMI, for 2022 and 2023 scale years, under the principle of not including the initial shock
+impact of COVID-19 to develop the HMI or FMI scales, the historical average component was
+calculated as the 10-year average from 2010-2020 and from 2011-2021, respectively. However,
+for purposes of this calculation, it was assumed that 2020 and 2021 mortality remained at the
+same level as 2019. For 2026, the 10-year average calculation returned to the standard
+methodology using a geometric average over the period 2013-2023, respectively.
+For FMI, for the first three reserve projection years for all ages where HMI rates were negative,
+the FMI rates were adjusted to show continued deterioration in mortality, followed by a zero MI
+level. After year 3, FMI continues grading to the long-term rate.
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+8
+
+About The Society of Actuaries Research Institute
+Serving as the research arm of the Society of Actuaries (SOA), the SOA Research Institute
+provides objective, data-driven research bringing together tried and true practices and futurefocused approaches to address societal challenges and your business needs. The Institute
+provides trusted knowledge, extensive experience and new technologies to help effectively
+identify, predict and manage risks.
+Representing the thousands of actuaries who help conduct critical research, the SOA Research
+Institute provides clarity and solutions on risks and societal challenges. The Institute connects
+actuaries, academics, employers, the insurance industry, regulators, research partners,
+foundations and research institutions, sponsors and non-governmental organizations, building an
+effective network which provides support, knowledge and expertise regarding the management
+of risk to benefit the industry and the public.
+Managed by experienced actuaries and research experts from a broad range of industries, the
+SOA Research Institute creates, funds, develops and distributes research to elevate actuaries as
+leaders in measuring and managing risk. These efforts include studies, essay collections,
+webcasts, research papers, survey reports, and original research on topics impacting society.
+Harnessing its peer-reviewed research, leading-edge technologies, new data tools and
+innovative practices, the Institute seeks to understand the underlying causes of risk and the
+possible outcomes. The Institute develops objective research spanning a variety of topics with its
+strategic research programs: aging and retirement; actuarial innovation and technology;
+mortality and longevity; diversity, equity and inclusion; health care cost trends; and catastrophe
+and climate risk. The Institute has a large volume of topical research available, including an
+expanding collection of international and market-specific research, experience studies, models
+and timely research.
+
+Society of Actuaries Research Institute
+8770 W Bryn Mawr Ave, Suite 1000
+Chicago, IL 60631
+www.SOA.org
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+

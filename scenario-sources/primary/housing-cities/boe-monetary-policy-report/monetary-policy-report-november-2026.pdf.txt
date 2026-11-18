@@ -1,0 +1,3547 @@
+Page 1
+
+Bank of England
+
+Monetary Policy Report
+Monetary Policy Committee
+November 2026
+
+Bank of England
+
+Page 1
+
+Monetary policy at the Bank of England
+The objectives of monetary policy
+The Monetary Policy Committee (MPC) sets monetary policy to keep inflation low and stable,
+which supports growth and jobs. Subject to maintaining price stability, the MPC is also
+required to support the Government’s economic policy.
+The Government has set the MPC a target for the 12-month increase in the Consumer Prices
+Index of 2%. The 2% inflation target is symmetric and applies at all times. The MPC’s remit
+recognises, however, that the actual inflation rate will depart from its target as a result of
+shocks and disturbances, and that attempts to keep inflation at target in these circumstances
+may cause undesirable volatility in output.
+
+The Monetary Policy Report
+The MPC is committed to clear, transparent communication. The Monetary Policy Report is a
+key part of that.
+In November 2025 we made some changes to the structure and content of the Report so that
+it reflects better the wide range of inputs that are informing monetary policy, as explained in
+this Quarterly Bulletin article. The purpose of the document is to set out the analysis that
+informed policy discussions.
+The Report is produced quarterly by Bank staff under the guidance of the members of the
+MPC. It has been prepared and published by the Bank of England in accordance with section
+18 of the Bank of England Act 1998.
+
+The Monetary Policy Committee
+•
+•
+
+Andrew Bailey, Chair
+Sarah Breeden
+
+•
+•
+•
+
+Swati Dhingra
+Megan Greene
+Clare Lombardelli
+
+•
+•
+
+Catherine L Mann
+Huw Pill
+
+•
+•
+
+Dave Ramsden
+Alan Taylor
+
+Bank of England
+
+Page 2
+
+PowerPoint™ versions of the Monetary Policy Report charts and Excel spreadsheets of the
+data underlying most of them are available at www.bankofengland.co.uk/monetary-policyreport/2026/november-2026. The ‘Projections Databank’ is an additional Excel spreadsheet
+containing a wide range of information relating to the central projection, as well as projections
+for the scenarios. An additional CSV file also contains the latest and historical central
+projections. This is intended as a machine-readable version of the core series included in the
+Projections Databank Excel tables.
+
+© Bank of England 2026
+ISSN 2633-7819
+
+Bank of England
+
+Page 3
+
+Contents
+Monetary Policy Summary
+
+4
+
+Monetary Policy Overview
+
+5
+
+1: Current economic conditions
+1.1: Inflation
+1.2: Activity
+1.3: Global and financial conditions
+
+8
+8
+18
+25
+
+2: Topical policy issues
+
+31
+
+Box A: An update on evidence for second-round effects from the rise
+in energy prices
+
+31
+
+Box B: The outlook for food price inflation
+
+41
+
+Box C: Recent resilience in UK economic activity
+
+47
+
+Box D: Developments in UK productivity growth
+
+53
+
+Box E: The speed of monetary policy transmission to inflation
+
+59
+
+Box F: Budget 2026 and the impact of fiscal policy on the economy
+
+65
+
+3: Outlook, scenarios and risks
+3.1: Key risks and uncertainties
+3.2: Central projection and scenarios
+3.3: Central projection and scenarios under alternative monetary policy stances
+
+69
+70
+72
+81
+
+Annex 1: Central projection tables
+Annex 2: Monetary policy since the July 2026 Report
+
+85
+89
+
+Glossary and other information
+
+90
+
+Bank of England
+
+Page 4
+
+Monetary Policy Summary
+At its meeting ending on 4 November 2026, the Monetary Policy Committee (MPC) voted by a
+majority of 8–1 to increase Bank Rate by 0.25 percentage points, to 4%. One member voted
+to increase Bank Rate by 0.5 percentage points, to 4.25%.
+The conflict in the Middle East is now in its ninth month. Global energy prices have continued
+to rise from an already elevated level. UK CPI inflation increased to 3.5% in September. It is
+now expected to rise to around 5% by the middle of next year. It is then projected to fall as the
+impact of rising energy prices on 12-month inflation rates fades, and still restrictive monetary
+policy bears down on inflation.
+While the direct effects of higher energy prices are clear, and will continue to feed into firm
+and household energy bills, there remains limited evidence of knock-on effects on other prices
+and wages. However, the degree of inflationary pressure in the pipeline is now sufficient to
+warrant an increase in Bank Rate. Activity data in recent months have generally been stronger
+than expected, adding to the case for modestly tighter monetary policy.
+Monetary policy is not on a pre-set path. The Committee will continue to assess the evidence
+at each meeting, in particular how likely high energy prices are to feed through to other prices
+and the economy more broadly, by monitoring the evolution of underlying pay, pricing
+behaviour, and slack. The Committee will adjust Bank Rate as necessary to ensure CPI
+inflation returns to the 2% target in the medium term.
+
+Bank of England
+
+Page 5
+
+Monetary Policy Overview
+Global energy prices have risen materially further since July from already high levels and are
+continuing to have a large effect on the outlook for UK inflation.
+CPI inflation was 3.5% in September and is set to rise further in coming months. That is
+mostly because of the direct effects of higher global energy prices on fuel and household
+utility prices.
+The MPC is setting monetary policy to make sure that the effects of higher energy prices do
+not become embedded in inflation, so that inflation returns to the 2% target and stays there.
+At this meeting, the MPC voted to raise Bank Rate by 0.25 percentage points to 4%. The
+MPC’s approach to setting interest rates, including today’s decision, is based on two key
+judgements.
+
+Key policy judgement 1
+Despite limited evidence so far of knock-on effects from higher energy prices, the
+degree of inflationary pressure in the pipeline is now sufficient to warrant an increase
+in Bank Rate.
+While the direct effects of higher energy prices are already clear in UK consumer prices, and
+will continue to feed through into households’ and companies’ energy bills, there remains
+limited evidence of knock-on effects on other prices or wages. Indirect effects arising from
+companies at home and abroad passing on increases in their energy costs through supply
+chains have been limited, including for food (Box B: The outlook for food price inflation). And
+there are few signs yet of changes in wage or price-setting behaviour that would feed through
+into broad-based inflationary pressures – often referred to as second-round effects (Box A: An
+update on evidence for second-round effects from the rise in energy prices).
+But the further rise in energy prices since July means that, all else equal, it is likely that
+inflationary pressures will be stronger and more persistent than previously expected. With
+companies facing bigger increases in their costs, and households facing a larger reduction in
+the purchasing power of their pay, companies are more likely to respond to higher energy
+prices by raising wages and prices.
+Companies and households may be particularly responsive to higher energy prices at
+present, which could amplify the impact on other prices and wages. Energy prices are highly
+visible, and headline inflation is already around levels at which responsiveness has increased
+
+Bank of England
+
+Page 6
+
+in the past. Companies’ and households’ experience of high inflation over the past five years
+may also have made them more likely to raise prices and bargain for higher wages in
+response to the current energy price shock.
+In July, the MPC judged that weakness in economic activity and the labour market would help
+contain the knock-on impacts of higher energy prices by limiting companies’ pricing power
+and workers’ ability to bargain for higher wages. Since then, economic activity has been more
+resilient than expected and there have been signs of stabilisation in the labour market (Box C:
+Recent resilience in UK economic activity). That has increased the risk that higher energy
+prices will feed through into broad-based inflationary pressures.
+Setting aside the effects of higher energy prices, the latest data suggest that domestic
+inflationary pressures may have stopped easing. Several measures of services price inflation
+and wage growth, which had been falling since before the start of the conflict in the Middle
+East, have flattened off in recent months.
+Taking all of the evidence together, the MPC judges that the degree of inflationary pressure in
+the pipeline is now sufficient to warrant an increase in Bank Rate.
+
+Key policy judgement 2
+Where Bank Rate goes from here will depend on how the likely strength of inflationary
+pressures evolves.
+As higher energy prices continue to work their way through the economy, inflation is expected
+to rise to around 5% by the middle of 2027 before starting to fall back towards the MPC’s 2%
+target.
+How quickly inflation will fall is uncertain and depends on a range of factors that will affect the
+strength of inflationary pressures (Section 3.1). These include the scale and duration of the
+rise in energy prices, how wage and price-setting behaviour respond, and how resilient
+demand is in the face of higher energy prices and tighter financial conditions – as well as on
+the response of monetary policy.
+To help illustrate some of the uncertainties around the likely strength of inflationary pressures,
+the Report contains two scenarios alongside a central projection that is judged to provide a
+reasonable baseline for the economic outlook (Section 3.2).
+The adverse inflation scenario assumes that energy prices rise sharply again and remain
+elevated for a prolonged period. This higher path for energy prices is assumed to lead to
+much stronger second-round effects than in the central projection.
+The weaker demand scenario assumes that the recent resilience in activity does not
+continue in the face of high energy prices, for example because there are limits to how
+
+Bank of England
+
+Page 7
+
+much households can maintain spending by cutting saving, or because businesses
+become less able to absorb higher costs as their financial resources are depleted. In this
+scenario, demand is assumed to be weak enough to prevent any second-round effects
+from emerging.
+Monetary policy will need to adjust depending on the likely strength of inflationary pressures.
+For example, if substantial second-round effects appear likely to emerge, monetary policy
+would have to be tighter than otherwise. But if evidence continues to indicate that secondround effects will be limited, then monetary policy would be looser.
+The model-based policy simulations in Section 3.3 of the Report help illustrate how monetary
+policy may need to respond depending on the degree of inflationary pressure. These rules
+inform the MPC’s assessment, but do not translate mechanically into the Committee’s
+decisions.
+For the central projection, the illustrative policy rules overall are broadly similar to the
+market curve in the near team but somewhat lower after that.
+For the adverse inflation scenario, inflationary pressures are stronger than in the central
+projection and the illustrative policy rules are materially tighter than those for the central
+projection.
+And for the weaker demand scenario, inflationary pressures are weaker than in the central
+projection, mainly in the second half of the forecast period. As a result, the illustrative policy
+rules are similar to those for the central projection in the first part of the forecast but looser
+further out.
+The Committee will continue to assess the evidence on how the likely strength of inflationary
+pressures is evolving at each meeting and will adjust Bank Rate as necessary to ensure CPI
+inflation returns to the 2% target in the medium term.
+
+Bank of England
+
+Page 8
+
+1: Current economic conditions
+1.1: Inflation
+CPI inflation rose to 3.5% in September, with the direct effects of higher energy prices
+accounting for much of the increase since June.
+CPI inflation has risen from 2.6% in June to 3.5% in September (Chart 1.1), partly owing to
+higher household electricity and gas prices (Chart 1.2). Motor fuel prices have also risen over
+that period following the re-escalation of the conflict in the Middle East. Diesel and petrol
+pump prices are around 40% and 30% higher, respectively, than prior to the start of the
+conflict.
+CPI inflation has been somewhat higher than projected in the July Report. Inflation in
+September was 0.4 percentage points higher than anticipated (Chart 1.1), mainly reflecting
+motor fuel prices rising rather than easing as had been projected.
+Household utility bills and motor fuel prices accounted for around 60% of the overshoot of CPI
+inflation relative to the 2% target in September, with services prices accounting for most of the
+remainder.
+
+Chart 1.1: CPI inflation rose to 3.5% in September and is projected to reach around 5%
+in 2027 Q2
+CPI inflation and projections (a)
+
+Sources: ONS and Bank calculations.
+(a) The solid aqua line shows CPI data to September 2026, the dashed aqua line shows Bank staff near-term projections
+from October 2026 to March 2027, and the aqua diamond shows the central projection for 2027 Q2. The dashed gold, orange
+and purple lines show the near-term projections in the February 2026, April 2026 and July 2026 Reports, respectively.
+
+Bank of England
+
+Page 9
+
+Chart 1.2: Direct energy effects have driven recent increases in CPI inflation, and they
+are projected to build further in the near term
+Contributions to CPI inflation (a)
+
+Sources: Bloomberg Finance L.P., Department for Energy Security and Net Zero (DESNZ), ONS and Bank calculations.
+(a) Figures in parentheses are CPI basket weights in 2026. Data are shown to September 2026. Bank staff projections of
+component-level contributions are shown from October 2026 to March 2027. The food component is defined as food and
+non-alcoholic beverages. The fuels and lubricants estimates use weekly DESNZ petrol and diesel price data which cover the
+first half of October 2026 and are then projected based on petrol and diesel futures curves. The electricity and gas bars also
+include liquid fuels. Direct energy effects are the combined contribution from electricity and gas, and fuels and lubricants (the
+orange and green bars). Inflation rates for the CPI components shown are included in the accompanying spreadsheet
+published online.
+
+Evidence of indirect energy effects has so far been limited.
+Indirect effects arise as higher energy costs are passed through supply chains to consumer
+prices (Box A of the July 2026 Monetary Policy Report). These effects have been smaller
+than anticipated in the July Report (Chart 1.3, orange bars in left panel) and recent data
+suggest little impact on CPI inflation so far. Some of this appears to reflect limited passthrough of higher wholesale energy prices to firms’ costs (Chart 1.3, right panel). Measures of
+the prices of electricity and gas paid by firms have not yet risen significantly. Contacts of the
+Bank’s Agents suggest that this may be partly explained by greater use of fixed-price
+contracts and hedging arrangements than ahead of the energy shock following the Russian
+invasion of Ukraine. Where firms have faced cost increases, evidence from the latest DMP
+survey suggests that they have absorbed some of the rise by accepting lower margins (Box
+A).
+
+Bank of England
+
+Page 10
+
+It remains uncertain whether fuller pass-through of costs along the supply chain will occur
+later, or if the smaller than expected indirect effects to date could be consistent with a smaller
+eventual impact from the initial rise in energy prices between March and July. Earlier steers
+from business surveys and intelligence from the Bank’s Agents pointed to significant
+disruption to supply chains and energy-intensive sectors, but subsequent evidence suggests
+that this has been less severe than initially expected. Smaller than anticipated indirect effects
+have been most apparent in food prices (Box B).
+
+Chart 1.3: Indirect effects have been smaller than projected in the July Report, with
+firms’ electricity and gas costs not having yet risen significantly
+CPI inflation relative to the projection in the July Report; (a) weighted-average electricity and gas
+producer input prices (b)
+
+Sources: ONS and Bank calculations.
+(a) The bars show contributions to CPI inflation relative to the projection in the July Report. The bars to September 2026 are
+based on CPI outturns. The bars from October 2026 to March 2027 are based on Bank staff projections. As Bank staff’s July
+2026 short-term inflation projection covered only six months, the expected direct energy contribution for 2027 Q1 at the time
+of the July Report has been estimated using wholesale energy prices averaged over the 15 UK working days to 20 July 2026.
+The light aqua, orange, purple and gold bars for 2027 Q2 compare the November 2026 and July 2026 central projections.
+The orange bars capture both domestic and imported indirect effects. The gold bars show the estimated impacts of the
+extension to the VAT cut on household electricity bills until 2027 Q2 and the postponement of the rise in fuel duty until July
+2027, announced in Budget 2026. The aqua bars show the projected change in direct effects since the July Report, excluding
+the impact of Budget 2026.
+(b) Electricity and gas input producer price indices (PPIs), excluding the Climate Change Levy, are weighted by their share in
+firms’ intermediate costs over time. The weights for 2021–23 are calculated using ONS input-output supply and use tables
+and are then projected forward for 2024–26 using industry output deflators. More details on the construction of these weights
+are provided in Box A of the November 2025 Monetary Policy Report. The latest data point is for September 2026.
+
+Domestic price pressures remain somewhat elevated.
+
+Bank of England
+
+Page 11
+
+Services consumer price inflation rose to 3.7% in September, partly reflecting recent volatility
+in airfares inflation. Having fallen gradually over recent years, measures of underlying
+services price inflation have been flatter over recent months at around 4% (Chart 1.4). A
+granular measure of underlying inflationary pressures, which puts more weight on prices that
+take a relatively central position in the UK’s production network and are normally quite rigid,
+has also been stable over that period (Munday et al (2026)).
+Core goods inflation has picked up a little over recent months. Demand for AI-related products
+such as memory chips has placed upward pressure on export prices, particularly in China and
+advanced Asian economies (Box D of the July 2026 Monetary Policy Report), which is likely
+to have contributed to some of this rise. All else equal, persistently higher UK import price
+inflation means that the prices of domestically produced goods and services must rise more
+slowly for overall inflation to remain at the 2% target (Box A of the February 2026 Monetary
+Policy Report).
+Although direct energy effects have driven much of the recent rise in headline inflation,
+services price inflation continues to account for a material share of the inflation overshoot.
+There is so far only limited evidence that indirect effects from higher energy are feeding
+through to services price inflation. Overall, recent price data suggest that domestic inflationary
+pressures remain somewhat above levels consistent with the 2% inflation target.
+
+Bank of England
+
+Page 12
+
+Chart 1.4: Measures of underlying services price inflation were broadly flat over 2026
+Q3
+Measures of annual services price inflation (a)
+
+Sources: ONS and Bank calculations.
+(a) The low-variance measure is calculated by weighting each component of services inflation by the inverse variance of the
+change in 12-month inflation of that component from 12 months previously. The maximum adjusted weight is capped at twice
+its original value. Details of the components that have been included in the services excluding indexed and volatile
+components, rents and foreign holidays measure are provided in the accompanying spreadsheet published online. The
+trimmed-mean measure excludes the 10% largest and 10% smallest price changes. The latest data points are for September
+2026.
+
+Wholesale energy prices have risen significantly since the July Report.
+Global crude oil and natural gas markets have tightened following the re-escalation of conflict
+in the Middle East and because of fears of further escalation over the coming months. While
+flows through the Strait of Hormuz have increased since the summer, attacks on shipping
+have raised shipping costs, including through increases in insurance premia. Attacks on
+energy infrastructure in the region have also disrupted supply through alternative export
+routes at times. Industry intelligence suggests that lower global demand and a pre-planned
+increase in global liquefied natural gas (LNG) capacity have only partly mitigated these
+disruptions. Meanwhile, European gas storage is below its 2018–25 average for this time of
+year and the US Strategic Petroleum Reserve has fallen to its lowest level in several decades.
+With lower inventories providing a limited buffer against further disruption, energy prices may
+be more sensitive to additional supply shocks, or stronger-than-expected natural gas demand
+in the event of a colder than average winter.
+Wholesale energy futures prices have risen significantly since the July Report, reflecting both
+tighter current supply conditions and upside risks from potential further disruption. In the 15
+UK working days to 27 October, the front-month Brent crude oil futures price averaged $108
+
+Bank of England
+
+Page 13
+
+per barrel, around 70% higher than in the run-up to the February Report, before the conflict
+began (Chart 1.5, left panel). Based on futures curves averaged over the same 15 UK
+working days, UK wholesale gas futures prices over the forecast period were, on average,
+around 65% higher than ahead of the July Report and around 120% above their levels in the
+run-up to the February Report (right panel).
+
+Chart 1.5: Wholesale energy prices have risen significantly since the July Report
+Wholesale Brent crude oil and UK natural gas prices (a)
+
+Sources: Bloomberg Finance L.P., LSEG Workspace and Bank calculations.
+(a) Oil prices are Brent crude in dollars per barrel, and gas prices are Bloomberg UK NBP Natural Gas Forward prices. In the
+left panel, the solid aqua line shows historical spot oil prices and the dashed aqua, orange and purple lines show futures
+curves based on forward prices averaged over the 15 UK working day periods to 27 October, 20 July 2026 and 26 January
+2026, respectively. In the right panel, the solid aqua line shows the historical evolution of the 12-month ahead natural gas
+futures price. The dashed aqua, orange and purple lines show 12-month ahead average gas futures curves, averaged over
+the same 15-day periods as the oil curves. The final data points for the November 2026 oil and gas futures curves are
+December 2029 and December 2028, respectively. The December 2028 gas futures data point is calculated as the average
+futures price between January 2029 and December 2029.
+
+Crack spreads – the difference between refined petroleum product prices and crude oil prices
+– have remained very elevated for jet fuel and diesel but have eased for petrol (Chart 1.6).
+Refinery outages in the Middle East, restrictions on Chinese oil product exports, reduced
+Russian oil product exports and limited spare refining capacity outside Asia have constrained
+the supply of some refined petroleum products. These pressures have been only partly offset
+by co-ordinated releases of strategic oil product (including diesel) reserves by G7 countries.
+Higher crude oil shipping costs have also raised refiners’ costs and compressed margins. If
+sustained, that could lead to lower refining activity and place further upward pressure on
+refined product prices.
+
+Bank of England
+
+Page 14
+
+Chart 1.6: Crack spreads remain very elevated for jet fuel and diesel
+Jet fuel, diesel and petrol crack spreads (a)
+
+Sources: LSEG Workspace and Bank calculations.
+(a) The aqua, orange and purple bars show the spread between spot Northwest Europe (NWE) jet fuel, ultra-low sulphur
+diesel and regular unleaded petrol prices, and front-month Brent crude oil futures prices, using a conversion of 7.88, 7.45 and
+8.33 barrels per tonne, respectively. The February 2026, April 2026, July 2026 and November 2026 bars are averages over
+the 15 UK working day periods to 26 January 2026, 22 April 2026, 20 July 2026 and 27 October 2026, respectively.
+
+Higher energy prices are projected to drive a further increase in CPI inflation.
+Household energy prices are expected to rise further in the near term, following recent rises in
+wholesale prices. The Ofgem price cap rose to £1,723 in 2026 Q4 from £1,663 in Q3 and
+£1,477 in Q2. It is expected to increase to around £2,150 in 2027 Q1. Both the 2026 Q4 and
+2027 Q1 figures include the temporary removal of VAT on household electricity bills from
+October. These rises in the Ofgem price cap are expected to increase the contribution of
+household energy prices to CPI inflation over the coming quarters, while the contribution from
+motor fuel prices is expected to remain elevated over that period (Chart 1.2).
+Taken together, direct energy effects are projected to contribute around 1.4 percentage points
+to CPI inflation in 2027 Q1 (Chart 1.2), significantly more than anticipated in the July Report,
+after accounting for the effects of measures announced in Budget 2026. In 2027 Q2, the
+direct impact of higher energy prices is projected to be 1.1 percentage points larger than
+expected in the July Report, after accounting for Budget 2026 measures, which are expected
+to reduce CPI inflation directly by around ¼ percentage point in that quarter (Chart 1.3, left
+panel and Box F).
+
+Bank of England
+
+Page 15
+
+CPI inflation is projected to rise to around 5% in 2027 Q2.
+As fixed-price contracts and hedging arrangements expire, the impact of higher energy prices
+on firms’ costs is expected to become more widespread. Indirect effects are expected to
+contribute around ½ percentage point to CPI inflation, on average, in 2027 Q1. Although that
+is less than expected at the time of the July Report (Chart 1.3, left panel), increases in
+wholesale energy prices since then will raise firms’ costs by more than previously anticipated
+over the coming quarters. As a result, indirect effects are expected to be larger than projected
+in the July Report by 2027 Q2 (Chart 1.3, left panel).
+As the indirect effects of higher energy prices build, inflation in a range of non-energy CPI
+components is expected to rise. Food price inflation could pick up to around 4¾% by mid2027, largely reflecting pass-through of higher energy costs along food production and
+distribution chains. The current El Niño event, and to a lesser extent this summer’s European
+droughts and heatwaves, are estimated to push up food prices later in the forecast period
+(Box B).
+Core goods inflation could increase to over 2½% in 2027 Q2, partly reflecting building indirect
+effects. Contacts of the Bank’s Agents report that higher prices for energy-intensive inputs,
+alongside rising transportation costs for some firms, will push up core goods prices.
+Stronger import price inflation is also expected to push up core goods inflation, given the
+relatively high import intensity of these goods. Higher energy prices are expected to raise
+costs for firms abroad, while strong demand for AI-related products from China and advanced
+Asian economies is expected to put further upward pressure on import prices. Together, these
+effects are expected to keep UK import price inflation elevated over the coming quarters.
+CPI inflation is projected to average 4.9% in 2027 Q2 (Chart 1.1) as the contribution from
+direct energy effects remains elevated while indirect effects build further. The near-term
+outlook remains highly uncertain, and sensitive to developments in the Middle East and their
+resulting impact on wholesale energy prices (Section 3).
+
+Domestic wage and inflationary pressures
+Domestic inflationary pressures are expected to remain somewhat elevated in the
+near term.
+Although higher energy prices are expected to drive the near-term rise in headline inflation,
+underlying domestic inflationary pressures are expected to remain somewhat elevated. This
+continues the recent trend in these indicators.
+The latest Annual Survey of Hours and Earnings indicates that median private sector gross
+weekly earnings grew by 4.1% in the year to April 2026, higher than private sector regular
+average weekly earnings (AWE) growth of 3% but broadly in line with several other measures
+
+Bank of England
+
+Page 16
+
+of pay growth at that time (Chart 1.7).
+Timelier measures of pay growth have changed little over recent months. Private sector
+regular AWE growth was 3% in August and is projected to remain around that level over the
+remainder of 2026 (Chart 1.7). Meanwhile, other indicators continue to point to somewhat
+stronger private sector wage growth. The DMP survey and Indeed Wage Tracker continue to
+suggest pay growth of around 4%. A private sector pay proxy derived from HMRC RTI data is
+also stronger than the official measure. However, part of the gap between headline AWE
+growth and other measures continues to reflect compositional shifts towards lower-paid
+industries. Overall, Bank staff judge that underlying wage growth remains a little above its
+target-consistent rate, although there is uncertainty around that estimate (Box A of the
+February 2026 Monetary Policy Report).
+Higher energy and food prices are expected to increase non-labour costs for many firms in
+the services sector, including airlines, hospitality and leisure services. Taken together with
+underlying wage growth remaining somewhat elevated, these cost pressures are expected to
+keep services price inflation around its current rate over the coming months. As indirect
+effects build, services inflation will become a less clear indicator of underlying domestic
+inflationary pressures. Nevertheless, given the expected pickup in core goods inflation,
+domestically generated inflation is likely to remain above the level consistent with the 2%
+inflation target in the near term.
+
+Bank of England
+
+Page 17
+
+Chart 1.7: Private sector wage growth is expected to be little changed over the coming
+months
+Measures of private sector wage growth (a)
+
+Sources: DMP survey, HMRC, Indeed, ONS and Bank calculations.
+(a) The private sector regular pay growth line shows the ONS measure of private sector regular AWE growth, measured as
+the three-month average on the same period a year earlier. The DMP line shows average realised pay growth from the DMP
+survey on the same basis, while the HMRC RTI line shows a proxy of growth in median pay in the private sector, also
+measured as the three-month average on the same period a year earlier. Bank staff construct the HMRC RTI measure by
+taking median pay for each industry – excluding public administration and defence, education, health and social work – and
+weighting them by industry shares in payrolled employment. Annual growth is then calculated using the Laspeyres formula,
+holding industry weights fixed at their levels a year earlier to reduce the effect of changes in workforce composition. The
+Indeed Wage Tracker line shows annual average job title matched pay growth for UK job vacancies. The latest data points
+are for the three months to August 2026 for private sector regular pay, September 2026 for the HMRC RTI private sector
+median and the Indeed Wage Tracker, and October 2026 for the DMP survey. The private sector regular pay growth
+projection diamonds are for the three months to September and December 2026.
+
+Short-term inflation expectations remain elevated.
+The energy shock could generate more persistent inflationary pressures if higher prices lead
+households and firms to revise up their inflation expectations, which then feed through to
+wage and price-setting decisions (Box A).
+Short and medium-term household inflation expectations remain above their pre-conflict
+levels, although they have fallen from their peaks earlier in the year (Chart 1.8, left panel).
+Households’ attentiveness to inflation-related news continues to be high (Box A). Businesses’
+short-term inflation expectations also remain slightly above their pre-conflict levels, while
+medium-term expectations have been broadly stable (Chart 1.8, middle panel).
+Short-term market-based measures of inflation compensation have increased since the July
+Report, likely reflecting higher near-term inflation expectations following the rise in energy
+prices. Medium-term measures, such as the five-year, five-year forward inflation swap rate,
+
+Bank of England
+
+Page 18
+
+have increased by less (Chart 1.8, right panel). The latest Market Participants Survey (MaPS),
+which may provide a cleaner read of inflation expectations than market-based measures
+(Section 1.1 of the July 2026 Monetary Policy Report), points to an increase in respondents’
+inflation expectations since the July Report. The median respondent expected CPI inflation to
+be 3% one year ahead and just above the 2% target at the three-year horizon.
+
+Chart 1.8: Short-term inflation expectations remain elevated
+Survey-based measures of household (a) and business inflation expectations (b) and market-based
+measures of inflation compensation (c)
+
+Sources: Citigroup, DMP survey, LSEG Workspace, YouGov and Bank calculations.
+(a) The data are from the Citi/YouGov survey and are based on responses to the questions: ‘How do you expect consumer
+prices of goods and services will develop in the next 12 months?’, and ‘And what do you think will happen to the prices of
+goods and services, on average, over the longer term – say five to ten years?’. The dashed lines represent the series
+averages over 2010–19. The latest data points are for October 2026, with the survey conducted between 21–22 October.
+(b) The data are from the DMP survey and show three-month averages. The data are in response to the question: ‘What do
+you think the annual CPI inflation rate will be in the UK, one year from now and three years from now?’. The latest data points
+are for October 2026, with the survey conducted between 2–16 October. The DMP survey data have a short back-run, so no
+historical averages are shown.
+(c) The data show cumulative changes in market-based measures of inflation compensation since 31 December 2025. The
+orange line shows the one-year inflation swap rate, and the aqua line shows the five-year, five-year forward inflation swap
+rate. The final data points are for 27 October 2026.
+
+1.2: Activity
+Domestic demand
+GDP growth has been more resilient than expected…
+
+Bank of England
+
+Page 19
+
+GDP growth was 0.5% in 2026 Q2 and is expected to have picked up further to 0.7% in Q3
+(Chart 1.9, aqua line). This is much stronger than the July projection, which expected growth
+of 0.3% and 0.1% in Q2 and Q3 respectively, despite higher inflation and elevated economic
+uncertainty. Revisions to historic data in Blue Book 2026 have also raised the level of GDP
+by 0.5% in Q2, largely reflecting stronger growth between 2010 and 2019.
+The collective steer from business survey indicators also suggests economic activity has
+picked up to some degree. This metric, which informs Bank staff’s view of momentum in GDP,
+points towards growth of 0.2% in 2026 Q3 (Chart 1.9, orange line). The range of factors
+explaining the resilience in activity is assessed further in Box C.
+The headwinds to activity from higher inflation, tighter financial conditions and ongoing fiscal
+consolidation are expected to offset support from AI-related activity and business investment.
+GDP growth is projected to slow in 2026 Q4 and 2027, closer to growth rates implied by
+recent business surveys.
+
+Chart 1.9: GDP growth has been strong in recent quarters
+Quarterly growth in headline GDP and growth implied by business surveys (a)
+
+Sources: Bank of England Agents, BCC, CBI, Lloyds Business Barometer, ONS, S&P Global and Bank calculations.
+(a) The final data point for quarterly headline GDP growth is for 2026 Q2. The diamonds for 2026 Q3 and Q4 show Bank staff
+projections. Growth implied by business surveys is from a survey indicator model, based on a staggered-combination mixeddata sampling (MIDAS) approach (Moreira (2025)). The orange diamonds to 2026 Q2 show in-sample fitted values of the
+survey indicator model, and the diamond for Q3 shows an out-of-sample projection. The orange swathe shows the
+interquartile range of estimates from individual survey indicators in the model, and values have been interpolated between
+quarters.
+
+… reflecting strength in business-to-business services.
+
+Bank of England
+
+Page 20
+
+Recent strength in GDP has been accounted for primarily by growth in the services sector,
+particularly among business-to-business services such as information and communications
+services. Growth in business-to-business services contributed around 0.4 percentage points
+to quarterly GDP growth in 2026 Q2. More recent data suggest that this momentum has
+continued into Q3. GDP grew by 0.7% in the three months to August, compared to the
+previous three months, of which business-to-business services contributed 0.6 percentage
+points.
+Business investment has been robust in recent quarters.
+Across the expenditure components of GDP, business investment has been one of the main
+drivers of stronger-than-expected GDP growth. Although these data are volatile and can be
+subject to large revisions, business investment grew by 1.8% in 2026 Q2, following growth of
+3% in Q1. This was the fastest growth over two quarters since 2022. That strength is
+expected to have carried over into Q3 when business investment is projected to have risen by
+around a further 1%. The strength in business investment and business-to-business services
+partly reflects strength in AI-related demand (Box C). While some measures of business
+confidence and investment intentions have picked up in recent months, they remain below
+their historical averages. Some moderation in business investment growth is expected in the
+near term following its recent strength, with continued uncertainty around the economic
+outlook also weighing on investment.
+Household consumption growth has been somewhat stronger than expected in the
+July Report but is projected to ease in the near term as real incomes fall.
+Consumption grew by 0.3% in 2026 Q2 and growth is projected to have edged up to 0.4% in
+Q3. Within consumption, retail spending has been relatively robust. Retail sales volumes grew
+by 0.7% in the three months to September relative to the three months prior, although a fall on
+the month may point to easing momentum. A modest pickup in real household incomes in the
+first half of 2026 is likely to have supported consumption through the initial phase of the
+energy shock (Chart 1.10).
+Consumption growth is projected to ease to 0.2% in 2026 Q4. Real household incomes are
+expected to fall in the coming quarters (Chart 1.10) as higher energy prices continue to feed
+through to CPI inflation. Higher interest rates since the start of the conflict in the Middle East
+will also raise mortgage payments (Section 1.3). The GfK consumer confidence index fell
+sharply in October, reversing improvements in recent months and returning to around its level
+in April, shortly after the conflict began.
+
+Bank of England
+
+Page 21
+
+Chart 1.10: Aggregate household real income is projected to decline in 2026 H2
+Contributions to four-quarter growth in real post-tax household income (a)
+
+Sources: ONS and Bank calculations.
+(a) The diamonds show Bank staff projections for 2026 Q3 and Q4. The bars may not sum to the total due to rounding.
+Income includes non-profit institutions serving households and is defined as total available household resources, deflated by
+the consumer expenditure deflator. Growth in real post-tax household income is calculated using the following ONS codes:
+RPQK/((ABJQ+HAYE)/(ABJR+HAYO)).
+
+Housing market activity has weakened, and house prices have fallen.
+Mortgage approvals for house purchase fell by 8% in the three months to September relative
+to the three months prior and reached their lowest monthly level since 2023. Much of this
+weakness is likely to reflect the rise in mortgage rates since the start of the conflict (Section
+1.3). Contacts of the Bank’s Agents also report that higher quoted mortgage rates have
+weighed on demand (Agents' Summary of Business Conditions – October 2026).
+Heightened uncertainty may also have played a role, with respondents to the September
+RICS survey attributing some of the weakness in demand to uncertainty associated with the
+economic outlook and upcoming policy announcements. House prices have also fallen, with
+the ONS UK House Price Index falling by 0.8% in the three months to August relative to the
+three months prior. Forward-looking indicators point to continued weakness in the near term.
+New buyer enquiries in the September RICS survey remained in contractionary territory, while
+house price expectations remained weak. Agents’ contacts also expect house price inflation to
+remain subdued in the near term.
+
+Labour market
+The labour market has been resilient, as employment growth has picked up and
+unemployment has fallen.
+
+Bank of England
+
+Page 22
+
+LFS employment growth rose to 0.3% in the three months to August relative to the three
+months prior. Bank staff’s estimate of underlying employment growth also improved slightly to
+0.2% in the three months to October (Chart 1.11, left panel). This reflects a modest
+improvement in employment intentions indicated by a range of surveys. The KPMG/REC
+survey pointed to stronger hiring in August and September, while the employment growth
+indicator from the S&P Global UK PMI survey has improved in recent months. HMRC RTI
+data nevertheless continued to point to some weakness in private sector payrolled
+employees. More broadly, output growth has outpaced employment growth since early 2024,
+implying a pickup in productivity growth (Box D).
+The LFS unemployment rate fell to 4.7% in the three months to August (Chart 1.11, right
+panel). This is lower than the July projection and partly reflects a very sharp fall in the latest
+single month unemployment estimate, which has been notably volatile in recent months.
+There have also been few signs of a pick-up in redundancies across a range of indicators.
+The unemployment rate is projected to remain broadly flat at 4.8% in 2026 Q4 (Chart 1.11,
+right panel). Despite only a modest improvement in underlying employment growth, lower
+projected population growth owing to lower net migration means that employment indicators
+are now more consistent with a stabilisation in unemployment.
+
+Bank of England
+
+Page 23
+
+Chart 1.11: Underlying employment growth has improved a little andunemployment is
+projected to stabilise
+Measures of underlying and LFS employment growth; (a) unemployment rate and near-term
+projections (b)
+
+Sources: Bank of England Agents, DMP survey, HMRC, KPMG/REC UK Report on Jobs, Lloyds Business Barometer, ONS,
+S&P Global and Bank calculations.
+(a) Bank staff’s indicator-based measure of underlying employment growth is constructed using a dynamic factor model
+following the approach of Doz et al (2011). The model extracts a common component from monthly survey indicators,
+capturing comovements across series. The common component is scaled to align with LFS employment growth between
+2000–19. The shaded area represents the 95% confidence interval. The latest data are for October 2026 for the estimate of
+underlying employment based on survey data and for the three months to August 2026 for the LFS.
+(b) The latest data are for the three months to August 2026. The diamonds show Bank staff projections for the three months
+to September 2026 and December 2026, respectively. Although LFS unemployment data have been reinstated by the ONS,
+they are badged as official statistics in development and the LFS continues to suffer from low response rates, which can
+introduce volatility and potentially non-response bias (Box D of the May 2024 Monetary Policy Report).
+
+Indicators of underutilisation also suggest that the margin of slack in the labour market has
+remained stable. The vacancies to unemployment ratio (V/U) remains below its estimated
+equilibrium and has been broadly unchanged in recent months (Chart 1.12, left panel).
+Consistent with that, overall staff availability in the September KPMG/REC survey rose at its
+slowest pace in three years. The net additional hours desired by workers as a percentage of
+average hours worked (middle panel), a measure of underemployment, has also stabilised,
+while the marginal attachment rate (right panel), which captures the share of people not
+currently looking for work but who would like a job, has eased slightly in recent months.
+
+Bank of England
+
+Page 24
+
+Chart 1.12: Indicators of underutilisation in the labour market have stabilised
+Indicators of labour market slack (a)
+
+Sources: Advertising Association/World Advertising Research Centre Expenditure Report, ONS and Bank calculations.
+(a) The equilibrium V/U ratio in the left panel is estimated using an error-correction model over the period 1982–2025. The
+real cost of vacancy posting and hourly labour productivity are included as long-run determinants for the level of vacancies.
+The model also includes controls for short-term movements in these variables (Stelmach et al (2025)). The latest data are
+for 2026 Q2. The 2026 Q3 data points are projections based on data to the three months to August. The middle panel shows
+the number of net additional hours that the currently employed report they would like to work, on average, per week,
+expressed as a share of average weekly hours. The latest data are to 2026 Q2 and the vertical axis is inverted. The data in
+the right panel are three-month averages of the share of people aged 16–64 who report that they are not in work or not
+actively looking for work but would like a job. The latest data are for the three months to July 2026 and the vertical axis is
+inverted.
+
+The economy continues to operate with a margin of spare capacity, which is judged
+to have stabilised.
+Surveys of capacity utilisation suggest spare capacity within firms remains below its historical
+average, but that it has been broadly stable over the past year (Chart 1.13). Contacts of the
+Bank’s Agents also continue to report a modest degree of spare capacity (ASBC – October
+2026).
+Overall, Bank staff judge that the economy continues to operate with a margin of spare
+capacity, and that this margin has remained broadly stable at around 1% of potential GDP in
+recent quarters. This is consistent with the recent strength in GDP growth and the stabilisation
+of employment growth indicators.
+
+Bank of England
+
+Page 25
+
+Chart 1.13: Capacity utilisation in firms is consistent with a stable margin of slack
+Survey indicators of capacity utilisation (a)
+
+Sources: Bank of England Agents, BCC, CBI, S&P Global and Bank calculations.
+(a) Standard deviations from averages between 2000–19. The measures included in the swathe are from the Bank’s Agents,
+the BCC (non-services and services), the CBI (manufacturing (output relative to capacity); and financial services,
+business/consumer/professional services and distributive trade (business relative to normal)) and S&P Global (manufacturing
+(backlogs) and services (outstanding business)). Sectors are weighted using their shares in annual gross value added. The
+BCC data are not seasonally adjusted. The data are shown to 2026 Q3.
+
+1.3: Global and financial conditions
+Global economic activity
+Global activity growth has been stronger than expected but is projected to slow.
+The conflict in the Middle East has continued to disrupt the global supply of energy. Although
+some factors have mitigated this disruption, the protracted conflict has led to significantly
+higher wholesale energy prices since the July Report (Section 1.1). Growth in the UK’s trading
+partners has proven resilient to the initial effects of the energy shock. This is likely to reflect a
+combination of factors, including support for global demand from strong AI-related investment
+in the US, strong AI-related exports in Asia, and increased fiscal spending on defence and
+infrastructure in the euro area (Box C). Four-quarter UK-weighted world GDP growth was
+2.3% in 2026 Q2 and is estimated to have been 2.1% in Q3 (Chart 1.14), 0.4 and 0.3
+percentage points higher than expected at the time of the July Report.
+
+Bank of England
+
+Page 26
+
+Global growth is projected to remain broadly stable in the near term before slowing in 2027 as
+the effects of the energy shock build and as some of the factors that have supported activity
+are expected to fade.
+
+Chart 1.14: GDP growth in the UK’s trading partners has been resilient in 2026
+Four-quarter UK-weighted global GDP growth with contributions by region (a)
+
+Sources: LSEG Workspace and Bank calculations.
+(a) The figures for 2026 Q3 and 2026 Q4 are Bank staff projections. The preliminary flash estimate for 2026 Q3 euro-area
+GDP growth and the advance estimate for 2026 Q3 US GDP growth were published after the cut-off for incorporation into the
+forecast so the data points for that quarter are projections. UK-weighted world GDP growth is constructed using real GDP
+growth rates of 188 countries weighted according to their shares in UK exports.
+
+Financial conditions
+The UK forward OIS curve is higher compared with the July Report.
+Based on the 15-day average to 27 October, the UK forward OIS curve (hereafter market
+curve) was around 60 basis points higher than at the time of the July Report (Chart 1.15), and
+around 120 basis points higher than prior to the conflict in the Middle East, on average over
+the next three years. The market curve rises to around 4.9% at the end of 2027 before
+gradually falling to around 4.7% by late 2029.
+
+Bank of England
+
+Page 27
+
+The market curve captures both expectations for the future path of Bank Rate and risk
+premia. The median of responses to the November 2026 Market Participants Survey
+expected Bank Rate to increase to 4% in November and to 4.25% in February, and for Bank
+Rate to be 3.5% two and three years ahead. The difference between the market curve and
+market participants’ expected path for Bank Rate suggests that risk premia continue to
+contribute to the upward slope of the market curve. Risk premia increased following the
+outbreak of the conflict in the Middle East, likely reflecting uncertainty around the scale and
+duration of the conflict, and associated upside risks around interest rates and inflation (Box F
+of the July 2026 Monetary Policy Report).
+Since the July Report, central banks in the euro area and US have raised their respective
+policy rates. In September, the ECB announced a hike to its deposit facility rate by 25 basis
+points to 2.50% and the Federal Reserve raised the target range for the federal funds rate by
+25 basis points to 3.75%–4.00%. Euro area and US market curves have risen since the July
+Report and were around 50 basis points and 65 basis points higher respectively, on average
+over the next three years.
+
+Chart 1.15: The UK forward OIS curve is higher compared with the July Report
+Policy rates and instantaneous forward curves for the UK, US and euro area (a)
+
+Sources: Bloomberg Finance L.P. and Bank calculations.
+(a) The November 2026 curves are estimated based on the 15 UK working days to 27 October 2026. The July 2026 curves
+are estimated based on the 15 UK working days to 20 July 2026. The federal funds rate is the upper bound of the announced
+target range. The market-implied path for US policy rates is the expected effective federal funds rate. The ECB deposit rate is
+based on the date from which changes in policy rates are effective. The final data points are forward rates for December
+2029.
+
+UK financial conditions have tightened since the July Report.
+
+Bank of England
+
+Page 28
+
+UK financial conditions have continued to tighten since the July Report. This primarily reflects
+a further increase in market interest rates. Alongside the increase in short-term rates (Chart
+1.15), 10-year UK government bond yields have also risen.
+Long-term government bond yields have also risen in the US and in the euro area. Common
+global factors, including global geopolitical uncertainty, have likely driven much of the moves
+in yields, alongside concerns around fiscal sustainability. This has been accompanied by an
+increase in some market-based measures of volatility. In September, option-implied volatility
+in US Treasury yields rose to levels seen during the early stages of the conflict in the Middle
+East. French government bond yields have been particularly volatile and have risen sharply.
+
+Domestic credit conditions
+Interest rates faced by households have risen further since the July Report.
+UK mortgage rates and their reference rates have risen further since the July Report. Quoted
+rates on 75% and 90% loan to value (LTV) mortgages have increased by around 60 basis
+points on average (Chart 1.16, left panel), as increases in reference rates in early September
+passed through relatively quickly to mortgage rates.
+Higher mortgage rates are expected to feed through gradually to the effective rate on the
+stock of mortgages. By the end of 2029, average annual mortgage payments are projected to
+be around £700 higher than at the time of the July Report and around £1,500 higher than
+before the conflict in the Middle East, which would be expected to weigh on household
+consumption.
+Rates on instant access deposits and new bank lending to corporates have remained largely
+flat since the July Report, as they tend to move more closely with Bank Rate (Chart 1.16, right
+panel). Corporate bond yields have risen, largely reflecting moves in risk-free rates.
+
+Bank of England
+
+Page 29
+
+Chart 1.16: Most household and corporate interest rates have tracked reference rates
+Household and corporate interest rates and their corresponding reference rates (a)
+
+Sources: Bank of England, Bloomberg Finance L.P. and Bank calculations.
+(a) Household loan and deposit rates are based on average quoted rates and business loan rates are based on average
+effective rates on new lending. The Bank’s quoted rates series are weighted monthly average rates advertised by all UK
+banks and building societies with products meeting the specific criteria. Introduction of new Quoted Rates data provides
+more information. The 75% and 90% LTV mortgage rates are for two-year fixed-rate products. The reference rate for these
+and fixed-rate savings bonds is the two-year OIS rate. The reference rate for £10,000 personal loan rates is the five-year OIS
+rate, but this is not shown. The two-year OIS rate shows monthly averages. Household quoted rates data are not seasonally
+adjusted. The provisional October 2026 data are shown as diamonds. For quoted rate series and the two-year OIS rate,
+these are based on average values to 27 October 2026. The provisional data point for Bank Rate is based on the rate as of
+27 October 2026. The final business loan rate data are for September 2026.
+
+Credit growth has remained robust despite higher interest rates, while broad money
+growth has been stable.
+Net lending has remained relatively strong since the start of the conflict, although there are
+some signs of weakening credit demand. Real net lending to households and non-financial
+private corporations in the year to September has been higher than during the same period
+last year. This suggests that the transmission of higher market rates to borrowing has so far
+been limited. However, the latest Credit Conditions Survey – 2026 Q3 suggests credit
+demand from households and small and medium-sized businesses weakened in 2026 Q3,
+pointing to weaker momentum in near-term credit growth.
+Aggregate broad money grew by 4% in the year to September, broadly in line with growth
+rates in 2025. The ratio of aggregate broad money to nominal GDP remains close to the Bank
+staff’s estimated equilibrium level. The absence of a materially positive money gap is not
+
+Bank of England
+
+Page 30
+
+currently suggesting additional risks to the activity and inflation outlook. It could also imply a
+smaller risk of second-round effects from the energy shock (Box E of the July 2026 Monetary
+Policy Report).
+
+Bank of England
+
+Page 31
+
+2: Topical policy issues
+The boxes in this section highlight some of the key pieces of analysis that informed the
+MPC’s discussions.
+
+Box A: An update on evidence for second-round effects from
+the rise in energy prices
+Global energy prices have risen sharply since the onset of the Middle East conflict
+and are now materially higher than at the time of the July Report. It will take time for
+this rise in energy prices to affect domestic wages and prices. This box uses the set
+of indicators laid out in Box A of the July 2026 Monetary Policy Report to examine
+how any second-round effects from higher energy prices are evolving. The MPC will
+continue to monitor closely the evidence as it relates to underlying pay, pricing
+behaviour and slack. There continues to be little evidence of second-round effects
+in the available data, but that does not rule out the possibility of stronger secondround effects in the future. The risk of larger second-round effects emerging has
+increased, particularly due to the recent rise in energy prices, but also partly due to
+the stabilisation in labour market slack.
+When might second-round effects from higher energy prices become visible in
+price and wage data?
+An energy shock raises CPI inflation directly through higher motor fuel and household
+energy bills, and indirectly as higher costs pass through supply chains. Second-round
+effects tend to emerge later, as inflation feeds into wage and price-setting, adding to
+persistent inflationary pressure (Lombardelli (2026)).
+Second-round effects can materialise through different channels. Changes in firms’
+and households’ price and wage expectations, changes in firms’ price and wagesetting behaviour, and the interaction between them, shape the persistence of
+inflationary pressure following a rise in energy prices. Second-round effects also
+depend on the initial conditions of the economy when the energy price shock occurs
+(Box A of the July 2026 Monetary Policy Report).
+There is a range of indicators which can assess the size of second-round effects,
+though some will provide a stronger signal than others. For instance, pay settlements
+data are expected to provide good evidence of the extent of any second-round effects
+
+Bank of England
+
+Page 32
+
+from wage-setting, especially alongside reports from firms on whether inflation has
+been a key driver of settlements. But the signal from these indicators will only become
+clear once firms make changes to their wage-setting behaviour.
+Policymakers need to make a judgement on the outlook for second-round effects,
+ahead of their effects emerging clearly, since monetary policy works with a lag. But the
+timelier data that inform this judgement can be noisy. If timelier indicators are not
+currently signalling large second-round effects, policymakers need to decide whether
+this means that these effects will ultimately be small, or that they are delayed and
+stronger effects are still a possibility.
+The assessment of prospective second-round effects is complicated by the path of
+energy prices in recent months (Section 1.1). After falling back somewhat over the
+course of May and June, prices have risen substantially again in recent months.
+Therefore, it will take time for that most recent increase to show up in consumer prices,
+even as the initial increase continues to work its way through the economy. Since
+second-round effects are likely to depend in part on the size and persistence of the
+energy shock, their ultimate effect is likely to materialise later than initially thought.
+How will initial and current economic conditions influence the strength of
+second-round effects?
+The initial conditions in the economy when an energy shock hits are likely to affect the
+size of second-round effects. This includes the prevailing rate of inflation, the
+attentiveness of households and firms to inflation, and the extent of slack in the
+economy (Table A.1). For example, weak demand, consistent with a margin of slack,
+would make it harder for workers to bargain for higher wages and limit firms’ pricing
+power. This would dampen the increase in firms’ costs and limit the ability of firms to
+pass those costs on, thus limiting the extent of second-round effects.
+The MPC judges that there was a degree of slack in the economy when the conflict in
+the Middle East started earlier in the year, and that spare capacity had been increasing
+prior to that. However, over recent months, the margin of slack is no longer judged to
+be widening, reflecting the recent resilience in demand and employment indicators
+(Box C and Section 1.2). If this resilience is sustained, to a greater degree than
+anticipated in the central projection (Section 3), that could mean that there is less
+overall slack. This could impact wage and price-setting in the future, increasing the risk
+of larger second-round effects.
+A further way to assess the implications of the energy shock is to use the self-exciting
+threshold Bayesian vector autoregression (SET-BVAR) (Gaffney et al (2026)),
+presented in Box C of the April 2026 Monetary Policy Report. This model allows the
+effects of oil price rises to vary depending on the state of the economy when the shock
+
+Bank of England
+
+Page 33
+
+hits. Bank staff have extended this model to capture oil price shocks associated
+specifically with geopolitical events, using an AI-based measure of newspaper
+coverage developed by Iacoviello and Tong (2026) and Verduzco-Bustos and
+Zanetti (2026). The model allows staff to compare developments since the US-Iran
+conflict with what typically happened after similar shocks in the past, depending on the
+amount of slack in the labour market and the prevailing rate of inflation when the shock
+occurred.
+The results suggest that slack in the labour market has so far helped contain
+inflationary pressures, with inflation and wage growth behaving more like the model’s
+relatively benign historical episodes. But inflation was already elevated when the shock
+hit. CPI inflation was 3% in February, close to the model’s estimated 3.1%–3.5% range
+above which geopolitical oil price shocks have historically been associated with more
+persistent inflation. Inflation expectations have also risen by more than would normally
+be expected when inflation is low and labour market slack is present. This may in part
+reflect households paying more attention to price rises when inflation is already
+elevated.
+When prevailing inflation is elevated, households and firms tend to be more attentive
+to inflation. This means that their inflation expectations are more likely to rise, which
+can in turn affect wage and price-setting decisions (Greene (2026) and Mann (2023)).
+Measures of attentiveness, such as the frequency of Google searches for inflation
+related terms, remain elevated and well above historical norms. References to
+inflation-related terms in earnings call transcripts, which can capture firm attentiveness
+to inflation, have also risen slightly but remain close to historical norms.
+What is the current evidence for the strength of second-round effects from
+price-setting?
+Price-setting indicators are not currently signalling large second-round effects. Firms’
+own-price expectations for the year ahead from the DMP survey rose to 4.0% in
+October, up 0.3 percentage points from July, although the less volatile three-month
+average was lower at 3.8% over the same period. The rise in own-price expectations
+has been concentrated among more energy-intensive firms, which could mean it
+reflects firms expecting to pass through the indirect effects of higher energy costs
+rather than signalling the emergence of second-round effects (Chart A.1). On a threemonth average basis, firms’ own-price expectations have increased by 0.4 percentage
+points since the conflict began, similar to Bank staff’s forecast of the indirect effect of
+energy on CPI inflation in the year ahead. This suggests that firms are not currently
+anticipating raising prices more than implied by these indirect effects, which would be
+consistent with limited second-round effects.
+
+Bank of England
+
+Page 34
+
+Chart A.1: Higher energy-intensive firms have reported higher expected ownprice growth
+DMP realised and expected own-price growth by energy intensity (a)
+
+Sources: DMP survey and Bank calculations.
+(a) Data shown are from the DMP survey and are three-month averages. The solid lines represent firms’ realised
+own-price growth and the diamonds represent firms’ expected price growth 12 months ahead. The diamonds are
+shifted 12 months ahead from when the survey question was asked. The latest data points are for October 2026,
+conducted between 2–16 October.
+
+Signs that firms are rebuilding their margins over and above increases in costs in
+response to the energy shock could also indicate the possibility of second-round
+effects. But firms responding to the DMP survey have reported little margins rebuild
+since the onset of the conflict, with more firms reporting that margins have decreased
+than increased over the past year. Lower margins continue to be the most commonly
+cited response by firms to the energy shock, though higher prices are also commonly
+cited and the share of firms citing this has increased in recent months.
+Granular CPI-based indicators may also give an early signal of the emergence of
+second-round effects, although these indicators can be hard to interpret as they may
+also capture some indirect effects on inflation. The aqua lines in Chart A.2 show the
+evolution of specific CPI components that in the past have tended both to react quickly
+to higher oil prices and to have exhibited second-round effects. The right-hand panel
+shows that these components on average appear to be evolving more closely to the
+2011 energy shock, when second-round effects were modest, than the 2022 episode
+
+Bank of England
+
+Page 35
+
+when second-round effects were rapid and large. An alternative measure seeks to
+identify second-round effects via the common component of inflation across sectors
+(Box B of the July 2026 Monetary Policy Report). CPI inflation outturns have risen in
+the most recent data a little more than what can be explained by the direct effect of the
+changes in the relative prices of energy goods and services, although by less than in
+2022–23.
+
+Chart A.2: The prices of CPI components associated with fast and strong
+second-round effects appear to be rising gradually, similar to the 2011 energy
+shock
+Cumulative price growth relative to the pre-shock level (a)
+
+Sources: ONS and Bank staff calculations.
+(a) The figure shows cumulative price growth relative to the pre-shock level for CPI components historically
+associated with strong and weak second-round effects. The above average lines represent responses of CPI
+components which have historically quickly and strongly exhibited second-round effects, while the below average
+lines represent CPI components which have historically responded quickly and weakly. Results are for sectors
+where second-round effects materialised (according to the model) within the first year following an oil price shock
+(0–11 months). This classification is based on estimated sector-level responses to historical oil shocks. The latest
+data are for September 2026. The data are not seasonally adjusted.
+
+What is the current evidence for the strength of second-round effects from
+wage-setting?
+Wage indicators are not currently signalling large second-round effects, though that
+does not rule out the possibility of greater effects in the near future. Firms responding
+to the DMP survey expect wage growth to fall from the current realised rate of 3.9% in
+the three months to October to 3.4% in a year’s time. Expectations for 2027 pay
+settlements from the Agents’ contacts are stable at 3.6% in 2027, a broadly similar rate
+to 2026 and a slight uptick in expectations relative to recent months (ASBC – October
+
+Bank of England
+
+Page 36
+
+2026). These expectations remain elevated, however, and if realised, would leave
+wage growth slightly above its target-consistent rate (Box A of the February 2026
+Monetary Policy Report). It is likely that wage growth expectations would have fallen
+by more had the conflict not occurred.
+Inflation is increasingly cited as an important factor in driving wage growth
+expectations, as shown by LLM-based analysis of comments by DMP respondents
+(Chart A.3), although the share of firms citing inflation is lower than in 2023. And far
+fewer firms are citing the labour market as a driver of wage growth expectations in
+recent months. Firm performance has been the most commonly cited factor since 2024
+however, and firms who cite this tend to report lower realised and expected wage
+growth than average. The risk of higher inflation influencing wage-setting is likely to be
+greater if firms place weight on current inflation when forming their inflation
+expectations. The sharp rise in inflation expected in the near term may therefore start
+to more materially affect wage expectations and wage setting in the coming months.
+The Agents’ pay survey will help to assess more fully expected pay settlements for
+2027. An initial estimate of the average 2027 settlement should be available in time for
+the MPC’s December meeting. It is also possible that firms provide one-off cost of
+living payments after early 2027 settlements are decided, as inflation continues to rise,
+as was the case following the 2022 energy shock. The 2028 settlement round is also
+likely to be important, as the direct and indirect effects of higher energy prices raise
+CPI inflation next year.
+
+Bank of England
+
+Page 37
+
+Chart A.3: The share of firms mentioning inflation as a driver of expected wage
+growth has increased
+Share of firms’ comments in the DMP survey mentioning economic effects on expected
+wage growth (a)
+
+Sources: DMP survey and Bank calculations.
+(a) The results are based on application of a LLM to the DMP survey open-text question: ‘In your own words, what
+are the main factors that will affect average wage growth per employee in your business over the next 12 months?’.
+The model categorised comments depending on if they mentioned a range of factors, which have been aggregated
+to the broad groupings shown on the chart. A sample of the responses was validated by a researcher performing
+the same categorisation – the LLM provided a very high degree of accuracy in the sample. Comparing category
+shares over time may not be a perfect signal as some firms may have mentioned inflation in the context of falling
+inflation in 2024 and 2025 leading to slower wage growth while mentioning inflation in the context of rising wage
+growth in 2023. Relative to Chart B.3 in the July Report, this chart excludes the pay demands line as it represented
+a small share of comments with little variation over time. Data over 2023–25 have been averaged within years to
+improve chart clarity. The latest data are for October 2026.
+
+Inflation expectations of households and firms are also important for the wage-setting
+process. Short-term household inflation expectations as measured by the Citi/YouGov
+survey have risen slightly since July, while medium-term measures are broadly stable
+(Section 1.1). But the extent to which these expectations feed into wage-setting
+decisions will depend on underlying conditions including the amount of economic
+slack. Firms’ CPI expectations, as measured by the DMP survey, have ticked up
+slightly in recent months but remain below April peaks and well below levels seen in
+the 2022–23 episode.
+Table A.1 provides a summary of how all the indicators outlined in Box A of the July
+2026 Monetary Policy Report are evolving. Judgements around the likely size of any
+second-round effects will need to continue to draw on the combined signal across
+
+Bank of England
+
+Page 38
+
+indicators, none of which individually can precisely capture second-round effects. That
+signal will become clearer as evidence accumulates across the range of indicators.
+Collectively, these indicators will help the MPC to assess the evolution of underlying
+pay, pricing behaviour and slack as it relates to second-round effects.
+
+Bank of England
+
+Page 39
+
+Table A.1: Monitoring indicators for second-round effects
+Category
+
+Example indicators
+
+Level relative to historical
+average
+
+Initial
+conditions
+
+Spare capacity in the labour market and within firms
+(eg level and deviation from equilibrium of the
+vacancies to unemployment ratio).
+
+Greater spare capacity (but
+spare capacity is no longer
+increasing).
+
+Demand conditions and firm profit margins (eg the
+average level of profit margins compared with
+historical norms).
+
+Slightly below (but demand
+growth has strengthened).
+
+Pre-existing inflation conditions (eg the level and
+duration of inflation prior to the shock).
+
+Above. (a)
+
+Firms’ approach to resetting prices (eg the share of
+firms using state-contingent pricing relative to those
+setting prices at fixed time intervals).
+
+Slightly above.
+
+Household and business attentiveness to inflation
+(eg internet search frequency for inflation terms).
+
+Above.
+
+Pricesetting
+
+Change since onset of the
+shock
+Firm price expectations (eg change in DMP survey
+CPI inflation and own-price expectations relative to
+energy cost changes).
+
+Slightly higher.
+
+Firm price responses to the energy shock (eg DMP
+survey comments mentioning energy affecting the
+business).
+
+Slightly higher.
+
+Changes in firm profit margins (eg DMP survey
+Reported margins slightly
+measure of the share of firms reported and expected lower.
+margins to rise or fall due to higher energy costs).
+
+Expected margins broadly
+unchanged.
+
+Evolution of consumer prices (eg change in prices
+for products driven by second-round effects in the
+past).
+
+Slightly higher.
+
+Distribution of price changes (eg the share of the
+CPI increase, which is common across products).
+
+Slightly higher.
+
+Bank of England
+
+Page 40
+
+Category
+
+Example indicators
+
+Level relative to historical
+average
+
+Wage-
+
+Realised wage growth (eg observed changes in the
+
+Slightly lower.
+
+setting
+
+patterns of bonus payments).
+Firm wage responses to the energy shock (eg DMP
+survey comments mentioning inflation affecting
+
+Slightly higher.
+
+wage growth).
+Expected wage growth (eg Agents’ intelligence
+mentioning energy affecting future wage growth).
+
+Stable.
+
+Coincidence of wage and price expectations (eg
+
+Stable.
+
+change in correlation between rising inflation and
+wage expectations in DMP survey).
+Household inflation expectations (eg average
+
+Higher.
+
+inflation expectations for working people).
+(a) This refers to the proximity to the estimated inflation threshold described in this box and previously described in
+Box C of the April 2026 Monetary Policy Report.
+
+Bank of England
+
+Page 41
+
+Box B: The outlook for food price inflation
+Food consumer price inflation has slowed over 2026, as domestic cost and
+agricultural price pressures have eased, but could rise to around 4¾% by mid-2027
+as firms pass some of their higher energy costs through to consumers. The impact
+of this summer’s extreme weather in Europe is expected to be modest. However,
+further ahead, the current El Niño event is expected to place persistent upward
+pressure on food price inflation. These weather shocks could push up UK food price
+inflation by around 2 percentage points later in the MPC’s forecast period, although
+this estimate is highly uncertain. The impact on headline CPI inflation would be
+more modest, reflecting the weight of food in the inflation basket. Households’
+attentiveness to food prices could increase the risk of more material second-round
+effects through higher inflation expectations.
+Why has food price inflation eased over 2026 and what is the outlook?
+Annual food and non-alcoholic beverage consumer price inflation (hereafter food price
+inflation) was 1.3% in September, well below its average of 3½% over 2024–25 and
+the double-digit rates recorded during 2022–23 (Chart B.1). The slowing had not been
+anticipated in the April Report, when contacts of the Bank’s Agents had expected
+higher energy prices to feed through to food price inflation quickly. Food price inflation
+is expected to rise to a little under 2% by end-2026, significantly below the projection in
+the July Report.
+
+Bank of England
+
+Page 42
+
+Chart B.1: Food price inflation has eased in 2026 but is projected to rise over
+the coming months
+Annual food price inflation and near-term projections (a)
+
+Sources: ONS and Bank calculations.
+(a) The solid aqua line shows food and non-alcoholic beverage price inflation to September 2026, and the dashed
+aqua line shows Bank staff projections from October 2026 to March 2027. The dashed gold, purple and orange lines
+show the corresponding near-term projections from the February 2026, April 2026 and July 2026 Reports.
+
+Easing domestic cost pressures have contributed to the slowdown in food price
+inflation this year. Wage growth in the food manufacturing and retail sectors was
+significantly higher than the private sector average over 2024–25, partly reflecting the
+relatively high share of workers paid at or close to the NLW, which increased materially
+over that period (Box E of the August 2025 Monetary Policy Report). A smaller
+increase in the NLW in April 2026, alongside a broader moderation in underlying wage
+growth, has reduced labour cost pressures in these sectors over the past year. The
+effects of changes to employer NICs from April 2025, including the lower threshold that
+disproportionately affected supermarkets given the relatively high share of their staff
+employed part-time, are also judged to have faded. Increases in food packaging costs
+associated with the introduction of the Extended Producer Responsibility framework
+also appear to have moderated this year.
+Easing pressure from some agricultural commodity prices has also weighed on food
+price inflation. Global agricultural commodity prices materially affect UK food prices
+because many food items are internationally traded and the UK imports large
+quantities of products that cannot be produced domestically. Prices of several
+agricultural commodities, including beef and cocoa, rose sharply over 2024–25
+
+Bank of England
+
+Page 43
+
+because of poor weather and stronger global demand (Box E of the August 2025
+Monetary Policy Report). Those pressures have since reversed, weighing on
+producer prices and subsequently UK food price inflation.
+Higher wholesale energy prices have so far fed through to food prices by less than
+expected in the April Report. Contacts of the Bank’s Agents report greater use of fixing
+and hedging arrangements for energy and some commodities than before Russia’s
+invasion of Ukraine, which may have delayed the transmission of higher energy prices
+to firms’ costs.
+Other factors may also have limited the impact on food prices. Contacts of the Bank’s
+Agents report that highly price-sensitive demand and intense competition have
+constrained supermarkets’ ability to raise prices, leading many to make procurement
+savings and efficiency improvements or to accept lower margins. In addition, earlier
+steers from business surveys and Agents’ contacts may partly have reflected firms’
+experience following Russia’s invasion of Ukraine, when large increases in energy
+costs passed through rapidly to food prices. Although there has been some disruption
+from the current energy shock, including to shipping and jet fuel supplies, it has been
+less severe than many firms initially feared. Companies in the food supply chain have
+consequently revised down their expectations for food price inflation at the end of 2026
+(ASBC – October 2026).
+It remains uncertain how much of the smaller than expected impact of indirect energy
+effects from the initial rise in energy prices is consistent with delayed pass-through
+rather than a smaller eventual impact. Wholesale energy prices have risen further
+since July, however, so as firms’ hedges expire and new purchasing cycles for fertiliser
+and other agricultural inputs begin, input costs are expected to rise more materially
+(Section 1.1). As a result, the eventual indirect effects of the energy shock are
+expected to be larger than in the July Report (Chart 1.3, orange bars in left panel). As
+higher costs are passed into consumer prices, Bank staff expect food price inflation to
+rise to a little under 3% in 2027 Q1 (Chart B.1) and then to around 4¾% by mid-2027.
+However, contacts of the Bank’s Agents in the supermarket sector expect that
+competitive pressures may limit the rise in food price inflation in 2027 (ASBC –
+October 2026), which could present downside risks to Bank staff’s projections.
+What are the risks to food price inflation from climate-related events?
+Extreme weather events around the world can have significant effects on global
+agricultural commodities and, ultimately, UK food price inflation (Copeland et al
+(2026)). This year has seen droughts and heatwaves in Europe, while the current El
+Niño event is expected to be stronger than most previous episodes.
+
+Bank of England
+
+Page 44
+
+This summer’s European droughts and heatwaves are expected to have only a modest
+impact on UK food price inflation, despite around 60% of UK food imports coming from
+the region. The timing of the extreme weather limited the damage to winter cereals
+such as wheat and barley, although yields of some summer crops have been more
+significantly affected (Joint Research Centre (2026)). Pressures on meat and dairy
+prices could also emerge with a lag if lower crop yields and grass growth increase
+animal feed costs. Evidence from the similarly timed European heatwaves in 2022
+points to a modest impact on food price inflation in northern European countries,
+including the UK, although as these events intensify due to climate change, their
+inflationary effects may increase (Kotz et al (2023)).
+Further ahead, the current El Niño event is expected to place upward pressure on UK
+food price inflation. El Niño is a periodic warming of sea surface temperatures in the
+tropical Pacific that can affect weather patterns across major agricultural-producing
+regions. The resulting changes in weather patterns could reduce crop yields in some
+regions, while increasing them elsewhere. Overall, however, the current El Niño is
+expected to place upward pressure on global agricultural commodity prices and, in
+turn, UK food prices. Around a quarter of UK food imports, equivalent to around 10% of
+total food supply, comes from El Niño-exposed regions (Redmond-King (2026)). El
+Niño could also add to pressures in global energy markets by reducing biofuel
+production, constraining hydroelectric and nuclear power generation, and increasing
+demand for cooling and energy-intensive irrigation. Lower water levels in inland
+waterways could also disrupt transport networks.
+The effects on UK food price inflation are likely to emerge gradually. Disruption
+associated with El Niño can take time to feed through global commodity markets and
+into consumer prices (Adolfsen and Lappe (2023)). Intelligence from contacts of the
+Bank’s Agents suggests that the current event could begin affecting UK food price
+inflation from early 2027, initially through prices of fresh products, such as fruit and
+vegetables, with broader effects then building over several quarters.
+Bank staff have extended the model in Copeland et al (2026) to estimate the
+combined effects of this summer’s European droughts and heatwaves and the current
+El Niño event on UK inflation. This model suggests that their combined impact could
+increase UK food price inflation notably, potentially by around 2 percentage points at
+its peak in 2028 H2 (Chart B.2, aqua line). This estimate is based on historical
+relationships between global weather events, agricultural commodity prices and food
+consumer price inflation. By then, the contribution of indirect effects from the current
+energy shock is expected to have largely faded. The estimated impact on headline CPI
+inflation from this model is more modest, at 0.3 percentage points at the same horizon,
+reflecting the weight of food in the inflation basket (orange line).
+
+Bank of England
+
+Page 45
+
+These model-based estimates should not be interpreted as additional to the central
+projection, as some of the anticipated effects may already be reflected in the global
+agricultural commodity futures prices on which it is conditioned. The peak estimated
+impacts are broadly consistent with those in the stylised scenario on El Niño-linked
+droughts from the Network for Greening the Financial System.
+There is considerable uncertainty around these estimates, mainly reflecting the
+evolution of El Niño and its effects on global commodity markets. Bank staff judge that
+risks around these model-based estimates are tilted to the upside, as historical
+relationships may not be applicable to this unusually strong episode. Although the
+estimated impact on headline inflation is relatively modest, higher food price inflation
+could nevertheless raise household inflation expectations and lead to associated
+second-round effects, given households’ attentiveness to food prices (Box A and
+Anesti et al (2025)).
+The current El Niño event could raise UK CPI inflation by more than is captured in the
+model-based estimates in Chart B.2 through its effects on global energy markets. The
+coincidence of weather and energy shocks over recent years also makes it difficult to
+disentangle the effects of weather events on energy prices and inflation. The estimates
+in Chart B.2 only capture the indirect effects of weather-related increases in energy
+costs on food prices. Higher energy costs could also raise inflation directly and
+indirectly through other CPI components.
+More broadly, physical climate impacts are expected to become more frequent and
+severe over time. A sequence of individually transitory shocks could interact and
+compound, and greater coincidence of shocks may magnify disruptions to supply,
+leading to more persistent effects on inflation.
+
+Bank of England
+
+Page 46
+
+Chart B.2: Climate-related shocks are projected to push up UK food price
+inflation over coming years
+Estimated impact of the current El Niño event and recent European droughts and
+heatwaves on UK food price and headline CPI inflation (a)
+
+Sources: National Oceanic and Atmospheric Administration (NOAA) and Bank calculations.
+(a) The solid aqua line shows the estimated median impact of the identified 2026–27 global weather shocks on UK
+food price inflation, based on an extension of the model in Copeland et al (2026), estimated using monthly data
+from January 2006 to June 2026, and observed and projected climate anomalies from NOAA. The estimate should
+not be interpreted as an addition to the central projection, as some anticipated effects may already be reflected in
+global agricultural commodity futures prices. The light aqua swathe shows the 80% confidence interval. The orange
+line shows the corresponding contribution to CPI inflation.
+
+Bank of England
+
+Page 47
+
+Box C: Recent resilience in UK economic activity
+The global energy price shock stemming from the continued conflict in the Middle
+East has already resulted in higher UK inflation, increased uncertainty, and tighter
+financial conditions. Despite these headwinds, UK GDP growth has so far been
+resilient in 2026 and much stronger than anticipated at the start of the conflict. This
+reflects a combination of factors including stronger global growth, support from
+domestic AI-related activity, and potentially a greater than expected waning of the
+impact of monetary policy tightening in previous years. The combination of these
+factors has so far offset the drag from higher energy prices. However, this support is
+expected to wane going forward and growth is expected to weaken in coming
+quarters, as higher inflation, tighter financial conditions, and the ongoing fiscal
+consolidation increasingly weigh on domestic economic activity.
+Activity growth has been resilient in the year to date.
+UK economic growth has been resilient in 2026 and notably stronger than expected at
+the time of the April Report following the onset of the conflict in the Middle East. Bank
+staff now expect four-quarter GDP growth in 2026 Q4 to be around 2.2%, up from a
+little below 1.0% a year earlier and over 1 percentage point stronger than the
+scenarios presented in the April Report.
+The pickup in GDP growth this year is partly corroborated by private sector
+surveys and does not appear to reflect one-off or volatile factors.
+Unlike over 2022–25, when GDP growth was supported to a larger extent by rising
+public sector output, resilience this year has been primarily driven by the private
+sector, and in particular private sector services (Chart C.1). This is corroborated by
+surveys of private sector activity, which have also picked up, although they remain
+somewhat weaker than headline GDP growth (Section 1.2). In recent years, GDP
+growth has also tended to be stronger in the first half of the year, before slowing in the
+second half. However, this year, strength has persisted into the second half of the year,
+suggesting any one-off or volatile factors affecting the pattern of activity recently have
+not been as evident this year.
+Higher energy prices will weigh somewhat on activity, but their impact is not
+likely to have been large so far.
+Lessons from previous energy shocks suggest that the effect of higher energy prices
+on activity is relatively small (Forecast Evaluation Report (2026)). For instance, the
+experience of high energy prices after 2022 demonstrated households and firms’
+
+Bank of England
+
+Page 48
+
+greater ability to substitute away from energy consumption over recent years. This
+meant the impact on activity of high energy prices then was smaller than first
+expected, which has been incorporated into Bank staff’s improved modelling of the
+impact of energy on economic activity (Albuquerque et al (2025)). In light of this,
+higher energy prices from the conflict in the Middle East are expected to weigh on
+activity, but their impact would only have been expected to be relatively modest so far
+this year. As energy prices have risen significantly further since the July Report, Bank
+staff expect the drag from energy on the level of GDP to increase to around ¼ of a per
+cent by mid-2027. These impacts are uncertain and there is a risk that demand
+weakens more than expected due to higher energy prices (Section 3).
+
+Chart C.1: Output growth has been resilient in the year to date, helped
+somewhat by AI-related activity
+Average quarterly (left panel) and three-month-on-three-month (right panel) GDP growth
+and contributions by sector (a)
+
+Sources: ONS and Bank calculations.
+(a) The left panel shows the average quarterly GDP growth and sectoral contributions over the selected periods.
+The right panel shows 2026 data for rolling three-month-on-three-month growth and sectoral contributions.
+Government, health and education includes public administration and defence, education, and human health and
+social work activities. Other services are services not included in Government, health and education or the AI
+activity proxy. The AI activity proxy is comprised of SIC 58 (publishing activities) which includes developing
+generative AI agents and AI application software, SIC 62 (computer programming, consultancy and related
+activities) which includes consulting on AI model selection and systems and SIC 63 (information service activities)
+which includes AI data processing and data centres services.
+
+Global growth has been more resilient than expected, which has supported UK
+demand growth.
+
+Bank of England
+
+Page 49
+
+Global activity was stronger than expected in the first half of 2026, despite the conflict
+in the Middle East, higher energy prices and continued trade tensions. The resilience
+of activity to the energy shock may partly reflect structural changes, including the lower
+energy intensity of the global economy than in previous decades. Among firms, greater
+operational flexibility may have temporarily limited near-term cost pressures (IMF
+World Economic Outlook, October 2026). This resilience within firms internationally
+is illustrated by the JP Morgan Global Composite PMI, in which respondents report
+output growing despite elevated input price pressures. However, firms’ expectations of
+future output in this survey remain subdued.
+Among households across economies, some may have absorbed part of the initial fall
+in real incomes through lower saving, while global consumer sentiment has remained
+robust. The OECD Consumer Confidence index has recovered close to its level prior to
+the conflict. Global activity has also been supported by strong AI-related investment in
+the US, strong AI-related exports in Asia, and increased fiscal spending on defence
+and infrastructure in the euro area.
+This relative strength in global demand has supported UK export growth and
+manufacturing activity. Agency intelligence suggests that growth is being supported by
+manufactured exports and that there is still only limited evidence of an impact on the
+export sector from the conflict in the Middle East. Manufacturing output grew solidly in
+the first half of the year and has strengthened further in July and August.
+Some of the recent strength in global demand is expected to persist over the
+remainder of 2026. However, global growth is expected to slow somewhat in 2027 as
+the effects of higher energy prices begin to weigh more heavily.
+Domestic AI-related activity appears to have supported growth in 2026…
+Since the start of 2026, services related to domestic AI activity have grown strongly,
+contributing to the strength in business-to-business services (Section 1.2). Bank staff
+have developed an AI activity proxy (Chart C.1, light aqua bars) to help monitor the
+effects of AI on the economy. This measure combines the output of computer
+programming and consulting, information services, and publishing activities, the latter
+of which includes developing AI agents and application software, although not all the
+output of these sectors will capture AI activity. Although the precise contribution of AI is
+difficult to quantify, the ONS notes that many of the businesses reporting the strongest
+turnover growth within these industries are involved in AI-related and cloud-computing
+activities. Nonetheless, some of the growth captured by this proxy measure may also
+reflect the longer-run expansion of technology-related activity. Adjusting for this trend
+suggests that novel AI-related activity accounts for just under a fifth of GDP growth
+since the start of 2026.
+
+Bank of England
+
+Page 50
+
+The contribution to growth from AI to date appears to reflect activity in the upstream
+development and implementation of AI technologies rather than broader gains from
+their adoption elsewhere in the economy. This is consistent with the impact on
+productivity having been relatively small so far (Box D).
+…including through strength in business investment.
+Business investment growth has outpaced overall GDP growth since the start of 2025
+and has grown by nearly 5% in the first half of 2026 alone, although the data can be
+volatile and subject to large revisions. Within that, investment in the information and
+communication sector has also grown strongly, some of which likely reflects AI-related
+investment. Intelligence from the Bank’s Agents also points to AI-related spending as
+having been a driver of recent business investment growth. Part of the strength in
+business investment growth also reflects investment in utilities.
+Given the observable AI-related activity in the data so far, the roll out appears to
+primarily reflect a boost to demand within the economy. However, should AI investment
+start to feed through more strongly to UK productivity growth, that should support
+potential supply growth over coming years (Box D).
+Household spending has been supported by real income growth and survey
+responses suggest lower saving has also played a role.
+Consumption growth has been supported by somewhat stronger than expected growth
+in household real incomes over the first half of the year. The saving ratio is expected to
+fall by a little over 2 percentage points over 2026, suggesting that households are, at
+least in part, smoothing their consumption in response to the energy shock rather than
+sharply curtailing spending (Box E of the April 2026 Monetary Policy Report).
+Consistent with that, respondents to the latest Bank of England/NMG survey who
+increased their spending predominantly accommodated this by saving less from
+current income or drawing down on accumulated savings, to a similar degree as during
+the 2022 energy shock (Chart C.2).
+However, consumer confidence, which had picked up from its recent trough in April, fell
+sharply in the latest data for October. Headwinds to consumption are expected to
+increase in coming quarters. As higher wholesale energy prices feed through to CPI
+inflation, real household incomes are expected to fall in the coming quarters (Section
+1.2). Meanwhile tighter financial conditions are also expected to weigh on household
+consumption. Consumption growth is therefore expected to slow in the first half of
+2027, before recovering somewhat from the latter half of the year onwards.
+
+Bank of England
+
+Page 51
+
+Chart C.2: Households who have increased spending have mainly funded this
+through lower saving
+Share of respondents answering how they have funded additional spending (a)
+
+Sources: Bank of England, NMG Consulting and Bank calculations.
+(a) The figures refer to the share of respondents answering how they have funded additional spending following the
+increase in the cost of living. The 2022 H2 survey was conducted between 30 August to 17 September 2022, with
+2,844 responses to this question. The 2026 H2 survey was conducted between 11 August and 2 September 2026,
+with 6,118 respondents.
+
+The resilience in activity may reflect the impact of past monetary tightening
+waning, but the more recent tightening in financial conditions means this is
+unlikely to continue.
+The drag on activity growth from previous monetary policy tightening from 2021–23
+has faded over time. The recent unexpected resilience in activity may then partly
+reflect that drag dissipating more quickly or to a greater extent than expected. This
+could be consistent with the monetary transmission mechanism operating somewhat
+quicker than usual in the recent past. However, since the onset of the conflict there has
+been a significant tightening in financial conditions (Section 1.3). Higher shorter-term
+market rates are being passed onto household mortgage rates and indicators of
+housing activity such as transactions and mortgage approvals have weakened in
+recent months (Section 1.2). This means that any boost from past monetary tightening
+waning is unlikely to continue, although the full impact of the recent tightening in
+financial conditions will take time to emerge.
+The pickup in activity growth has occurred alongside a stabilisation in
+measures of labour market tightness.
+
+Bank of England
+
+Page 52
+
+While indicators point to spare capacity remaining in the labour market, the margin of
+slack in the labour market has stabilised as activity growth picked up (Section 1.2). The
+stabilisation in labour market activity appears to have been supported by a waning
+impact on hiring sentiment from the increase in employer NICs as well as a lower NLW
+increase this year. A firming in the labour market will have supported household
+incomes and spending.
+Although GDP growth has been resilient in 2026, it is likely to slow in the year
+ahead.
+The resilience shown this year reflects a combination of stronger than expected global
+growth, support from AI-related activity, and stability in household consumption aided
+by lower savings. While the boost from the AI roll-out may prove more durable, the
+support to UK activity from other factors is expected to wane. Global growth is
+expected to slow in the coming year and headwinds to domestic consumption will
+increase, as higher inflation reduces households’ real incomes. In addition, the
+continuing fiscal consolidation (Box F) and tighter financial conditions are expected to
+weigh increasingly on UK activity. As a result, GDP growth is expected to slow in 2027
+(Table 3.B).
+
+Bank of England
+
+Page 53
+
+Box D: Developments in UK productivity growth
+Productivity growth matters for monetary policy because it affects the speed at
+which the economy can grow without generating excess inflationary pressures. The
+ONS recently announced a new approach for measuring productivity, which
+indicates that productivity has grown more, and hours worked have grown less,
+between 1997 and 2024 than previously estimated. While these revisions alter the
+composition of the economy’s supply capacity over the past, they do not affect its
+overall size and have limited implications for past estimates of the output gap. New
+revised data beyond 2024 are not yet available, but proxy measures suggest that
+productivity growth has been relatively strong over the past two years. Much of this
+recent strength is likely to reflect cyclical factors which are unlikely to be sustained.
+But there is also some evidence that AI adoption has contributed to the recent
+pickup. Overall, significant uncertainties remain around the productivity outlook, with
+material upside risks if the benefits from AI adoption increase.
+The ONS has announced significant upward revisions to UK productivity
+growth since the 2008 financial crisis.
+In September the ONS announced a new method for measuring labour inputs in its
+productivity statistics. The current ‘direct approach’ takes estimates of whole-economy
+jobs and hours worked from the Labour Force Survey (LFS). But the LFS suffers from
+low response rates, which can introduce volatility as well as biases. In particular, the
+LFS appears to have overstated hours worked. For example, people on holiday are
+less likely to respond to the survey. Imputing their hours based on previous responses
+may overestimate actual hours worked. As response rates fell, the upward bias in
+hours worked may have increased. Previous LFS data implausibly suggest that leave
+taken has fallen below statutory minimums over the past 20 years, despite an increase
+in leave allowances (Taylor and Martin (2026)).
+The new ‘component approach’ estimates labour inputs using a broader range of
+surveys and administrative data, drawing on different sources for jobs, workers, and
+hours where they provide the strongest evidence. Hours worked are adjusted for
+estimated annual leave and other absences, using alternative data sources where
+these provide more reliable evidence than direct survey measures.
+Annual productivity growth estimates based on the new component approach up to
+2024 have been published. The ONS will publish quarterly estimates of labour
+productivity under the component approach up to 2026 Q3 on 17 November. The MPC
+
+Bank of England
+
+Page 54
+
+welcomes these improvements to economic measurement, which bring UK productivity
+statistics in line with international best practice.
+The revisions up to 2024 suggest that productivity growth has been materially stronger
+since the 2008 financial crisis than previously estimated (Chart D.1). Output per job
+and output per worker are little changed under the new approach, but output per hour
+worked is now estimated to have increased by an average annual rate of close to 1%
+over 2009–24, compared to around 0.5% prior to the measurement changes. This
+suggests UK productivity growth since the financial crisis has been somewhat stronger
+than in many European peer countries, though still weaker than in the US.
+
+Chart D.1: UK labour productivity growth has been stronger than previously
+estimated
+Output per hour worked under the current direct approach and the new component
+approach (a)
+
+Source: ONS.
+(a) The dashed lines show trend paths based on 1997–2007 growth rates. The latest data shown are for 2024.
+
+The revisions change the composition of the economy’s supply capacity over the past,
+but not its overall size. Past GDP growth has not been revised, and past productivity
+growth now appears stronger only because past growth in labour supply, and in
+particular average hours worked per person, has been weaker than previously thought.
+Since supply capacity in the past is unchanged, the implications for historical estimates
+of the output gap are also modest.
+The revisions could, however, affect the outlook for productivity growth and its
+assumed underlying trend. A succession of shocks, including the financial crisis and
+Brexit, are likely to have weighed on productivity growth between 2007 and 2024, so
+the underlying productivity growth rate may have been even higher than the new data
+
+Bank of England
+
+Page 55
+
+indicate. If sustained, this could suggest upside risks to the MPC’s judgment of 1%
+trend productivity growth. But it is also possible that the effects of some past shocks on
+productivity growth were smaller than previously thought.
+How has UK productivity evolved since 2024?
+The ONS has not yet released productivity data under its new method for 2025 and
+2026. Due to known issues with the LFS, Bank staff have used a range of alternative
+measures to assess recent productivity trends (Box C of the February 2026 Monetary
+Policy Report). For example, the ONS has recommended using HMRC payrolls data
+adjusted for LFS self-employment as a proxy for the number of workers and jobs in the
+context of productivity measurement. These measures suggest that output per job and
+output per worker have recently grown at an annual pace of around 1.5% (Chart D.2).
+Bank staff analysis indicates that the new quarterly productivity statistics to be
+released by the ONS later this month are likely to show a similar pattern of strong
+recent growth in output per hour worked, based on the new method. Overall,
+productivity growth appears to have been somewhat above the MPC’s assumption of
+1% trend productivity growth in the past two years.
+
+Chart D.2: UK labour productivity growth may have been stronger since 2024
+than the current LFS-based output per hour measure suggests
+Measures of annual productivity growth (a)
+
+Sources: HMRC, ONS and Bank calculations.
+(a) Output per hour worked is the current ONS measure based on the direct approach, using the LFS to estimate
+hours worked. Output per job is a proxy measure based on Workforce Jobs (WFJ). Output per worker is a proxy
+measure based on an estimate of workers using RTI payrolls adjusted for ONS measures of self-employment. The
+data for output per job are not seasonally adjusted. The latest data are for 2026 Q2.
+
+The apparent pickup in productivity growth since early 2024 is accounted for by a
+slowing in measures of underlying employment growth while output has continued to
+expand (Section 1.2). What has driven these developments matters for the productivity
+
+Bank of England
+
+Page 56
+
+outlook. There are three main potential explanations, summarised in Table D.A.
+Table D.A: Potential explanations for the pickup in productivity growth since
+early 2024
+Potential
+
+Mechanism
+
+explanation
+
+Implications for the productivity
+outlook
+
+Cyclical
+adjustment
+
+Firms unwind post-pandemic labour
+hoarding
+
+Likely no material persistent effect on
+productivity growth
+
+Rise in labour
+
+Firms reduce employment in lower-
+
+Likely no material persistent effect on
+
+costs
+
+paid occupations
+
+productivity growth
+
+Artificial
+intelligence
+
+AI raises productivity, and firms may
+reduce hiring as a result
+
+Structural and likely persistent
+increase in productivity growth
+
+Much of the recent strength in productivity growth appears to reflect cyclical
+adjustments. The dispersion of productivity growth across industries is currently no
+higher than its pre-Covid average, and employment growth has weakened across
+many sectors since 2024. These patterns are indicative of cyclical developments,
+which tend to affect many sectors in a similar way.
+A cyclical rise in productivity growth could have been driven by an unwind of labour
+hoarding since 2024. When the labour market was tight in 2022–23, the Bank’s Agents
+reported that many firms were hoarding labour due to hiring and retention difficulties,
+expecting demand to pick up. Retaining more workers than strictly needed weighed on
+productivity growth at the time. Since early 2024, firms have been hiring fewer
+workers, which, as demand and output growth have picked up, has been reflected in
+higher measured productivity. But this process cannot continue indefinitely and is not
+expected to materially support productivity growth further. The Bank’s Agents report
+that some contacts have reached their lower bound for headcount, and spare capacity
+within firms now generally reflects slack in physical capacity rather than in labour
+(Agents’ summary of business conditions – July 2026 (ASBC)).
+
+Bank of England
+
+Page 57
+
+Chart D.3: Productivity growth has picked up in sectors less exposed to AI as
+well as in more exposed sectors
+Average annual growth rates of output, jobs, and productivity in less AI-exposed sectors
+(wholesale, retail, accommodation, and food services) (left panel) and in more AI-exposed
+sectors (information and communication) (right panel) (a)
+
+Sources: ONS and Bank calculations.
+(a) The chart shows average compound annual growth rates for output, jobs, and output per job, which is a
+measure of labour productivity. Jobs are based on ONS Workforce Jobs data. The start and end points for each bar
+are averaged over two quarters to mitigate the effects of data volatility. These are 2010 Q4–2011 Q1, 2019 Q3–Q4,
+2021 Q4–2022 Q1, 2023 Q4–2024 Q1, and 2026 Q1–Q2. The latest available data are for 2026 Q2.
+
+Higher labour costs at the lower end of the pay distribution, driven by increases in the
+NLW and employer NICs, may also have reduced lower-paid employment. These jobs
+are typically associated with lower measured productivity. This means that a reduction
+in their number can mechanically push up average productivity, though it also reduces
+the economy’s overall supply capacity. Employment growth has fallen and productivity
+growth has picked up in some sectors with many low-paid jobs but less exposure to AI,
+including wholesale and retail trade, and accommodation and food services (Chart
+D.3, left panel). Higher labour costs may have contributed to this, consistent with
+reports from the Bank’s Agents that more firms than initially expected have reduced
+headcount in response to changes in the NLW and employer NICs (ASBC – February
+2026). However, there is uncertainty around the size of this effect. And unless there
+are further large increases in the NLW or employer NICs, any persistent effects on
+productivity growth through this channel are likely to be limited.
+AI investment appears to be contributing somewhat to current demand strength (Box
+C), but so far there is only evidence of a modest AI-driven rise in UK productivity
+growth. While productivity growth has picked up in some sectors heavily exposed to AI,
+such as information and communication (Chart D.3, right panel), it has not risen above
+
+Bank of England
+
+Page 58
+
+pre-Covid averages. Firms responding to the DMP survey estimate that AI has
+increased productivity by around 0.5% over the past three years, in line with similar
+impacts reported in other countries. This would point to AI contributing about 0.1–0.2
+percentage points to annual productivity growth since early 2024.
+Firms adopting AI may be able to produce more output with the same number of
+workers or maintain output with fewer workers. In aggregate, firms responding to the
+DMP survey report close to zero impact of AI on employment so far. This is consistent
+with a range of empirical studies, which have not found clear evidence that AI has
+weighed on aggregate employment to date (eg Bick et al (2026), Brynjolfsson et al
+(2026), Serôdio (2026)). Meanwhile, the Bank’s Agents’ contacts report that AI
+adoption is reducing the likelihood of firms hiring or replacing workers, but not
+materially increasing the likelihood of firing workers so far.
+What is the outlook for UK productivity growth?
+Most of the recent strength in productivity growth appears to have been driven by
+cyclical factors, although there may also have been some rise in structural productivity
+growth due to early effects of AI adoption. The factors underpinning the cyclical
+strength in productivity growth are unlikely to be sustained. In the central projection,
+productivity growth is expected to fall back over the forecast period towards its
+assumed trend rate of 1%.
+But there are increasing upside risks to productivity growth from AI. AI adoption may
+accelerate and could lift potential productivity growth over the forecast period and
+beyond, although uncertainty around the size and timing of this effect remains large
+(Bailey (2026)). Contacts of the Bank’s Agents increasingly report that firms using AI
+proficiently and at sufficient scale can automate routine administrative work and
+accelerate knowledge tasks. Firms responding to the DMP survey expect AI to boost
+productivity growth by about 0.9 percentage points per year on average over the next
+three years, split roughly equally between slower employment growth and faster output
+growth (Yotzov et al (2026)).
+The MPC will continue to monitor carefully developments in UK productivity growth,
+including evidence on the impacts of AI adoption. The MPC will continue to review its
+judgments for trend productivity growth and trend labour supply, also taking into
+account the ONS publication of industry-level data using the new component method
+in February.
+
+Bank of England
+
+Page 59
+
+Box E: The speed of monetary policy transmission to
+inflation
+Monetary policy is traditionally thought to work with long and variable lags. But the
+speed of transmission of policy to inflation is likely to vary over time and may
+depend for example on the level of inflation, the attentiveness of households and
+firms to inflation and interest rates, and the scale of policy responses. This box
+reviews evidence on the length of monetary policy lags and considers the
+implications of potentially faster transmission for current policy strategy.
+Transmission appears to have been relatively fast in the tightening cycle of 2021–
+23. While transmission may be slower currently than during the previous cycle, it
+could still be slightly faster than on average in the past due to elevated
+attentiveness after the recent experience of high inflation. Uncertainty over the
+length of monetary policy lags is high, however, and there is a range of views
+among the MPC.
+How long are the lags of monetary policy?
+The strength and speed with which changes in Bank Rate affect the economy matter
+for the economic outlook and for formulating monetary policy. Bank staff have
+previously set out their views on the monetary policy transmission mechanism in Burr
+and Willems (2024), and the MPC monitors the transmission of its policies on an
+ongoing basis (eg Box E in the February 2026 Monetary Policy Report, Box A in the
+August 2025 Monetary Policy Report, and Box C of the August 2024 Monetary
+Policy Report). This box outlines updated analysis on the speed of monetary policy
+transmission to inflation and discusses potential implications for current policy strategy.
+Estimating the effects of monetary policy on the economy is challenging. Observed
+policy rate changes and subsequent inflation movements cannot be directly linked, as
+monetary policy often tightens in response to rising inflation. But higher interest rates
+do not cause higher inflation. To estimate the effect of monetary policy on inflation,
+researchers try to identify exogenous policy shocks that are not systematic responses
+to economic developments.
+The academic literature that uses monetary policy shocks yields a wide range of
+estimates for the speed of transmission (Chart E.1). Some studies find peak inflation
+effects after about nine months, while others suggest that it takes up to four years.
+Estimates based on UK data are not systematically faster or slower than US or euroarea estimates.
+
+Bank of England
+
+Page 60
+
+Chart E.1: There is a wide range of estimates for the speed of monetary policy
+transmission
+Time from monetary policy shock to peak response of annual CPI inflation (a)
+
+Sources: Miranda-Agrippino and Ricco (2021), Altavilla et al (2026), Cesa-Bianchi et al (2020), Jarociński and
+Karadi (2020), Ramey (2016) update of Christiano et al (1999), Braun et al (2025), Gertler and Karadi (2015),
+Ramey (2016) update of Romer and Romer (2004), Ellis et al (2014) which was previously updated in internal
+Bank staff analysis to cover the period 1975–2014, Cloyne and Hürtgen (2016), Champagne and Sekkel (2018),
+Willems (2020), Jordà et al (2020), and Aruoba and Drechsel (2024).
+(a) The monetary policy shocks considered here are shocks to policy rates or short-term market interest rates,
+rather than shocks to the medium-term path of interest rates. Bank staff have reproduced these results where
+replication materials were available. For other studies, lags were read off charts and stated to the nearest year.
+Many of these studies focus on estimating the overall strength of transmission, so they may not always be best
+suited to assess the speed of transmission. Note that Willems (2020) and Jordà et al (2020) use annual data,
+which could bias results towards longer lags (Jacobson et al (2025)).
+
+Studies based on recent UK samples tend to find shorter lags than older studies (Chart
+E.1). Bank staff have updated the analysis of Cesa-Bianchi et al (2020) and explored
+the robustness of Braun et al (2025) across a wide range of local projections. Both
+exercises include policy shocks between 1997 and 2026 and point to peak effects on
+inflation after around 12 months, shorter than the lags found in Cloyne and Hürtgen
+(2016) and staff’s previous update of Ellis et al (2014), which are, respectively, based
+on samples spanning 1974–2007 and 1975–2014.
+
+Bank of England
+
+Page 61
+
+The transmission mechanism may have changed over time, so newer studies could be
+a better guide to current policy lags than older studies. But estimated UK monetary
+policy shocks have also become much smaller over time. This may reflect policy being
+set more systematically since inflation targeting began in 1992. And shocks were
+particularly small in 2010–19, when Bank Rate was near the lower bound and only
+changed three times in nine years. Smaller shocks are more likely to be contaminated
+by other effects or noise, increasing estimation uncertainty. On balance, policymakers
+may therefore want to continue to place some weight on studies based on older
+samples with larger shocks, which tend to find longer lags.
+More generally, policy shock studies may understate the transmission lags most
+relevant for setting policy. The policy shocks identified in most studies shown in Chart
+E.1 tend to be short-lived, often fading or reversing within a few quarters. This
+contrasts with typically more persistent policy responses to demand or supply shocks.
+Short-lived shocks may be less likely to transmit via some slower-paced channels. For
+example, small and short-lived policy shocks may not fully pass through to the twoyear and five-year fixed mortgage rates set by banks. This means that the true lags of
+systematic and persistent policy changes may be longer than the lags found in
+monetary policy shock studies (Manuel and Wolf (2026)).
+Why do monetary policy lags vary over time?
+Different studies may find different policy lags in part because the speed of the
+transmission mechanism varies over time. The first stage of monetary policy
+transmission to financial market interest rates and broader financial conditions tends to
+be quick. But lags in the second stage of transmission to demand and inflation are
+longer and variable. They can differ depending on the state of the economy and the
+shocks that monetary policy is responding to. Lags will be shorter if households and in
+particular firms are forward-looking and anticipate the effects of monetary policy on
+demand. Such expectations effects may be stronger when attentiveness to monetary
+policy is high, which will tend to be the case when inflation is elevated and changes to
+Bank Rate are frequent and large.
+Staff analysis building on Di Pace et al (2025) finds that monetary policy can affect
+inflation quickly via firms’ expectations. Firms’ own-price expectations in the DMP
+survey adjust quickly to monetary policy news (Chart E.2). That quick response
+appears to reflect in part changing expectations of demand owing to changes in
+monetary policy, with sales expectations also responding quickly. But the analysis
+indicates that expected prices move less than realised prices, suggesting that firms
+may not fully anticipate the eventual impact of monetary policy on prices through
+demand.
+
+Bank of England
+
+Page 62
+
+The firm expectations channel will tend to be stronger the more attentive firms are to
+monetary policy. This channel may have contributed to the relatively fast policy
+transmission during the 2021–23 tightening cycle documented in several studies (eg
+Ascari et al (2026) and the Bank’s first Forecast Evaluation Report (2026)). Firms
+may have paid particularly close attention to monetary policy over that period due the
+size and speed of changes to inflation and Bank Rate. And changes in firms’ own-price
+expectations in the DMP survey appear to have affected realised prices more quickly.
+Because aggregate inflation was high, firms adjusted their own prices more frequently
+to keep up with changes in input prices and competitors’ prices. For example, the
+share of firms responding to the DMP survey who changed prices monthly rose from
+22% in 2019 to 36% in 2022 (Bunn et al (2023)).
+
+Chart E.2: Monetary policy can quickly affect firms’ expected own-price
+growth, while impacts on realised price growth are somewhat slower
+Estimated impacts of a contractionary monetary policy shock on expected annual ownprice growth (left panel) and realised annual own-price growth (right panel) (a)
+
+Sources: Braun et al (2025), DMP survey and Bank calculations.
+(a) This chart shows the effect of a 25 basis point contractionary monetary policy shock on expected annual yearahead own-price growth and realised annual own-price growth, both from the DMP survey, as well as 95%
+confidence intervals. The estimation period is 2017 Q2 to 2025 Q4.
+
+Changes in monetary policy may also act more quickly when they are associated with
+larger movements in the exchange rate. Higher UK rates can lead sterling to
+appreciate, which can lower import prices and UK CPI inflation within a year as well as
+reduce demand for UK exports. And exchange rate pass-through tends to be stronger
+in response to domestic monetary policy shocks than after domestic demand shocks
+(Forbes et al (2018)). But the exchange rate channel did not contribute materially to
+
+Bank of England
+
+Page 63
+
+fast monetary policy transmission in 2021–23. That is because other central banks
+also tightened policy in response to the global shocks at the time. This limited changes
+to interest rate differentials and exchange rates, though it weighed on global demand,
+including the demand for UK exports, in the medium term.
+What would be the implications of faster transmission for setting monetary
+policy?
+Policy transmission is currently unlikely to be as fast as in 2021–23 but could still be
+somewhat faster than on average in previous cycles. Inflation is projected to remain
+well below its 2022 peak, but firms are still attentive to inflation and interest rates due
+to the recent experience of high inflation (Box A). And while the frequency of price
+setting has fallen back somewhat, it remains higher than before 2022.
+A somewhat faster transmission mechanism could at the margin motivate a more
+activist policy strategy. Long policy lags are one reason for looking through the direct,
+and partially looking through the indirect, effects of the current energy shock on CPI
+inflation (Box G in the April 2026 Monetary Policy Report). If lags are long, the
+impact of tighter policy may peak after the energy shock has faded. If instead lags
+were shorter, policy may be able to at least partly offset the near-term inflation impact
+of the energy shock.
+But while faster transmission would improve policymakers’ ability to stabilise inflation in
+the near term, it does not remove the trade-off between the speed with which inflation
+is returned to target and the consideration that should be placed on the variability of
+output. UK monetary policy cannot affect global energy prices, so offsetting the direct
+and indirect effects of higher energy prices would require pushing down domestic price
+and wage inflation. This would create a larger output gap and an increase in
+unemployment. It could also hinder the economy’s adaption to the higher relative price
+of energy, delaying the efficient reallocation of resources across sectors and leading to
+reductions in aggregate production (Box G in the April 2026 Monetary Policy
+Report).
+Shorter lags may generally suggest a more activist policy approach, but they may also
+reduce the need to take pre-emptive action against the risk of large second-round
+effects. Faster policy transmission could allow policymakers to wait longer for evidence
+on second-round effects, as shorter lags would make it easier to squeeze out secondround effects once they appear. This approach could reduce the risk of overly tight
+policy weighing on activity and pushing inflation below target in the medium term.
+But when there remains uncertainty about the length of monetary policy lags, leaning
+against the risk of second-round effects early may be a more robust strategy than
+assuming that monetary policy could squeeze out second-round effects quickly after
+
+Bank of England
+
+Page 64
+
+they arise. Policymakers must also consider to what extent the likelihood of large
+second-round effects may depend on the conduct of monetary policy, including on the
+near-term inflation outlook which monetary policy may be able to affect if lags are
+short. Looking through direct effects, partially looking through indirect effects, and only
+responding to second-round effects as they appear could raise the likelihood that large
+second-round effects arise. To mitigate this risk, it may be appropriate to respond
+quickly to rising risks of second-round effects, rather than wait for conclusive evidence,
+even if lags were shorter.
+
+Bank of England
+
+Page 65
+
+Box F: Budget 2026 and the impact of fiscal policy on the
+economy
+Measures announced in Budget 2026 are expected to reduce CPI inflation by ¼ of a
+percentage point in 2027 Q2 next year, which unwinds the following year, and have
+only a limited effect on demand over the MPC’s forecast period. Public sector net
+borrowing as a share of GDP has fallen since early 2025. Bank staff judge that this
+tightening in the fiscal stance is currently weighing on the output gap. The further
+planned consolidation is expected to increase the drag from fiscal policy on activity
+and the output gap in the coming years.
+What will be the impact of the policy measures announced in Budget 2026 on
+inflation and demand?
+The Government set out its tax and spending plans in Budget 2026, published on 28
+October 2026. The fiscal measures announced in the Budget have been incorporated
+into the central projection and scenarios (Section 3).
+The plans outlined in Budget 2026 imply a broadly similar pace of expected fiscal
+consolidation compared to previous plans. The Office for Budget Responsibility (OBR)
+forecasts that public sector net borrowing (PSNB) will decline from 4.2% of GDP in the
+2026–27 fiscal year to 1.8% of GDP in 2031–32 (Chart F.1, left panel). The OBR’s
+borrowing forecast is around 0.5 percentage points higher on average between 2026–
+27 and 2028–29, with the upward revision narrowing to 0.2 percentage points by the
+end of the five-year forecast period. The largest factors behind the upward revision are
+higher expected current and debt interest spending, which is partly offset by higher
+projected tax receipts.
+Bank staff judge that the combined effects of the new measures announced in Budget
+2026 on demand are expected to be small. Fiscal policy announcements are expected
+to boost demand by 0.1% in 2026–27, before dragging on demand by a little over 0.1%
+by 2029–30.
+The measures announced in Budget 2026 are expected to directly reduce CPI inflation
+by ¼ of a percentage point in 2027 Q2 (Chart F.1, right panel). This reflects a further
+freeze on fuel duty and an extension of the removal of VAT on electricity bills, both until
+July 2027. The impact of these measures on four-quarter inflation is expected to
+unwind the following year, pushing up on CPI inflation by ¼ of a percentage point in
+
+Bank of England
+
+Page 66
+
+2028 Q2. The Government has also committed to the removal of gas standing charges
+in 2027 and to reform electricity standing charges. These could also have direct effects
+on CPI inflation when the changes come into effect.
+The Government has accepted the recommendation of the Low Pay Commission
+regarding the 2027 uplift of the National Living Wage (NLW). In line with this, it has
+announced a 3.9% increase in the NLW rate from April 2027. This is a touch lower than
+the 4.1% increase in April 2026.
+
+Chart F.1: In Budget 2026, public sector net borrowing is expected to be a little
+higher and the announced policies are expected to slightly reduce near-term
+inflation
+Public sector net borrowing (PSNB) as a percentage of GDP (left panel) (a) and estimated
+marginal impacts of Budget 2026 on CPI inflation (right panel) (b)
+
+Sources: OBR, ONS and Bank calculations.
+(a) These projections are from the October 2026 OBR economic and fiscal outlook. The data and October
+forecasts are consistent with the ONS Public sector finances (PSF) release on 21 August, including ONS estimates
+of revisions that would arise in the 22 September release, as well as management information on tax receipts for
+August.
+(b) The green bars in the right panel capture the estimated impact of the extension of the electricity VAT cut to July
+2027. The gold bars capture the estimated impacts of the measures taken to stagger and delay the reversal of the
+temporary five pence cut to fuel duty until July 2027, and to cancel this year’s uprating of fuel duty by RPI inflation.
+
+How has the fiscal stance evolved?
+The fiscal stance takes into account the cumulative impact of government tax and
+spending decisions, over successive fiscal events. The latest data show that PSNB
+has started to fall since early 2025, consistent with a tightening in the fiscal stance.
+This follows a period since 2022 in which borrowing had been broadly flat and in
+contrast to planned falls (Forecast Evaluation Report (2026)). Since then, PSNB has
+fallen from a recent high of 5.4% of GDP in 2025 Q2 to 4.1% in 2026 Q2. The primary
+
+Bank of England
+
+Page 67
+
+deficit, which more closely tracks underlying borrowing by removing debt interest, has
+also fallen by a similar amount. Bank staff judge that the drag from fiscal policy on the
+output gap has increased over this period.
+How is the fiscal stance expected to evolve over the forecast horizon?
+Government plans are for a further fiscal consolidation over the coming years. The
+OBR project that the largest driver of this is higher tax receipts (Chart F.2, left panel),
+which are expected to reduce borrowing by 1.5% of GDP over the next five years. As a
+result, in the MPC’s central projection, the fiscal stance is expected to weigh further on
+demand and the output gap, increasing to a drag of a little over one percentage point
+by the end of the forecast period (Chart F.2, right panel).
+As noted in Box D of the February 2026 Monetary Policy Report, there are
+significant uncertainties about the impact of fiscal policy on the economy, particularly
+for tax measures. Differences in modelling choices for multipliers could have a notable
+effect on how large the impact of the fiscal stance is on the output gap currently, as
+demonstrated by the sensitivities shown in Chart D.2 of the February Report. This
+uncertainty emanating from the fiscal stance contributes to wider uncertainty around
+the level of the output gap. However, all else equal, planned fiscal consolidation over
+the forecast is expected to increase the drag from fiscal policy on the output gap.
+Following a review of the evidence, Bank staff now use a tax multiplier that is
+somewhat larger than previously, but whose effects take somewhat longer to build.
+This tax multiplier sits in the middle of the fairly large range suggested by the literature,
+having previously been towards the lower end of that range. The more gradual impact
+of tax policies on the economy reflects evidence that households and firms take time to
+adjust their spending to changes in disposable income that are due to changes in
+taxation. This gradual impact is also evident in large scale structural models of the
+economy such as the UK HANK model (Albuquerque et al (2026)).
+
+Bank of England
+
+Page 68
+
+Chart F.2: Tax receipts are expected to increase significantly over the coming
+years, reducing public sector net borrowing and weighing on the output gap
+OBR projections for cumulative changes in public sector net borrowing as a percentage of
+real GDP from 2024–25 (a) and Bank staff estimates of the contribution of the fiscal stance
+to the level of the output gap (b)
+
+Sources: OBR, ONS and Bank calculations.
+(a) The estimates are based on the OBR’s October 2026 forecast and are calculated from the EFO-consistent
+public finances databank. There may be small differences to other instances of PSNB in the databank to two
+decimal places due to rounding. Negative values indicate a fall in expected public sector net borrowing.
+(b) After each fiscal event, Bank staff estimate the effects of discretionary policy changes on the level of real GDP
+by applying separate demand multipliers to changes in tax and different types of spending from their implementation
+dates. These effects are then converted into changes in the output gap by using an impulse response function that
+accounts for endogenous supply effects from changes in demand, for example through capital deepening.
+
+Bank of England
+
+Page 69
+
+3: Outlook, scenarios and risks
+The UK economy continues to face high and volatile global energy prices resulting from
+conflict in the Middle East; oil and gas prices have risen further in recent weeks. This will
+lead to inflation rising further above the 2% target in the near term. But there is significant
+uncertainty around the length of time energy prices will remain elevated, the extent to
+which high energy prices will generate persistent inflationary pressures, and their impact
+on demand.
+This section presents a central projection that the majority of the MPC agree is a
+reasonable baseline for the economic outlook, with energy prices conditioned on current
+futures curves that decline over time. Conditioned on the market path for interest rates,
+second-round effects are judged likely to occur in this projection, contributing to inflation
+remaining above the 2% target over much of the forecast period, before declining below it
+as the impact of rising energy prices on 12-month inflation reverses, and monetary policy
+lowers inflation. Second-round effects are assumed to contribute, on average, a little over
+0.5 percentage points to inflation over the second half of the forecast period. This is around
+0.3 percentage points larger than the assessment in the July Report, reflecting the rise in
+energy prices since then.
+The central projection is complemented by two scenarios that explore some of the key
+risks currently shaping the UK economic outlook. An ‘adverse inflation’ scenario assumes
+that energy prices are persistently higher than in the central projection and that those are
+associated with stronger second-round effects. As a result, CPI inflation is persistently
+above the inflation target, conditioned on the market path for interest rates. A ‘weaker
+demand’ scenario assumes that energy prices follow the path implied by futures prices and
+explores the possibility that demand is materially less resilient to elevated energy prices.
+Weaker demand increases the existing spare capacity in the economy and limits
+inflationary pressure, with no second-round effects assumed to emerge.
+Illustrative policy rules suggest that, in the central projection, a more restrictive monetary
+policy stance is required than in July to return inflation to the 2% target. Policy rules
+suggest that the adverse inflation scenario requires a more restrictive stance than the
+central projection, partly reflecting greater second-round effects. The weaker demand
+scenario requires a less restrictive stance, as inflation falls below target in the medium term
+and spare capacity increases.
+
+Bank of England
+
+Page 70
+
+3.1 Key risks and uncertainties
+Energy prices and second-round effects
+The UK economy is facing a continued energy price shock, which has worsened since the
+July Report as prices of oil, gas and many related products have risen materially (Section
+1.1). While estimates suggest oil exports from the Middle East have recovered recently and
+are close to the levels seen following the US-Iran ceasefire in June, a combination of other
+factors has pushed up oil prices. These include higher transport costs for oil, a risk of
+intensification of the conflict, and low global oil inventories. Higher oil prices have also pushed
+up the prices of refined products, for example diesel, which continue to include an elevated
+crack spread due to a reduction in Middle Eastern and Russian refining capacity. Gas prices
+have risen by more than oil prices since the July Report (Chart 1.5). The evolution of all these
+factors is uncertain: energy prices could rise if, for example, conflict in the Middle East
+worsens but could fall faster than futures curves suggest, for example if there were to be a
+durable resolution to the conflict.
+The impact of higher energy prices on economic activity is uncertain. Higher energy prices
+could weaken demand by undermining some of the factors that have supported the recent
+resilience in activity. There is uncertainty around how long households can draw on savings or
+save less to smooth through the hit to real incomes as energy prices feed through to higher
+inflation, and to what extent companies can absorb higher costs before their financial
+resources are depleted.
+The impact of higher energy prices on UK inflation is also uncertain, particularly via indirect
+and second-round effects. There is limited signal from the available data that second-round
+effects have already started to emerge (Box A). But the MPC continues to judge that the risk
+of these effects emerging is greater the longer the energy shock persists, for example as a
+result of greater attentiveness by households and businesses to prices which leads to rising
+inflation expectations.
+
+Global goods prices
+The outlook for non-energy import prices for the UK is another important source of uncertainty
+about the UK inflation outlook at present. One important known factor is the current El Niño
+weather event. Agricultural and commodity prices likely incorporate some anticipation of the
+impact of El Niño, but its impact could prove larger than anticipated or captured by current
+futures curves, particularly for global food prices (Box B). There is also uncertainty over the
+outlook for Chinese export prices, which have historically been a source of disinflation for the
+UK. Chinese export prices have risen over recent months, with increases in the prices of AIrelated exports the largest factor. There is a risk that Chinese export prices continue to rise,
+
+Bank of England
+
+Page 71
+
+increasing external inflationary pressure for the UK economy. This risk is balanced by the
+potential for trade diversion resulting from changes to global tariffs, which could lower
+Chinese export prices to the UK (Box D of the July 2026 Monetary Policy Report).
+There is also a risk of further global negative supply shocks, particularly given their increased
+frequency in recent years. One pertinent example, which could amplify the effects of El Niño,
+is a disruption to fertiliser supply. Global fertiliser prices remain above levels typical of the
+2010s, although well below the peaks reached in 2022. Disruptions to fertiliser supply, for
+example if some countries were to impose export restrictions, could raise food prices, with
+effects that could be persistent. There also remains a risk of more general disruptions to
+supply chains given broader geopolitical risks, which would also put upward pressure on CPI
+inflation.
+
+Monetary policy restrictiveness
+Although assessments of the degree to which the stance of monetary policy is restrictive or
+accommodative to the economy vary, overall evidence is consistent with the current stance of
+monetary policy being restrictive.
+Nevertheless, there are several significant uncertainties over the current impact monetary
+policy is having on the economy. One example is the speed at which past changes in Bank
+Rate are feeding through to inflation (Box E). If the impact of monetary policy on the economy
+has been faster than historical norms, increases in Bank Rate between 2021–23 may now be
+providing less of a drag than some models suggest, which could explain some of the recent
+resilience in GDP growth.
+Another important uncertainty is around the extent to which increases in the market curve for
+interest rates have resulted in a more restrictive stance of monetary policy. Nominal interest
+rates have risen, which is feeding through into nominal lending costs. This impact may be
+larger for households than for some businesses given that household bank lending rates tend
+to be linked to the market curve whereas corporate bank lending rates often reference Bank
+Rate.
+However, nominal interest rates and measures adjusted for expected inflation – real financial
+conditions – can give different signals (Mann (2026)). Some measures of real rate gaps, for
+example those derived from the Bank’s Market Participants Survey, suggest smaller changes
+in real financial conditions than changes in nominal conditions. These measures are highly
+uncertain in part because the equilibrium real interest rate r* – the time-varying real interest
+rate that, if the economy started from a position of no output gap and inflation at target, would
+sustain output at potential and inflation at target – is not observable and estimates vary.
+
+Bank of England
+
+Page 72
+
+3.2: Central projection and scenarios
+To help explore the span of some of the key risks, the MPC considers a number of projections
+for the economic outlook. The central projection is based on a staff proposal that the majority
+of the MPC agrees is a reasonable baseline. This section also sets out two complementary
+scenarios: an ‘adverse inflation’ scenario and a ‘weaker demand’ scenario. These explore
+impacts of plausible alternative assumptions for energy prices, demand growth and secondround effects (Table 3.A and Chart 3.1). The central projection and scenarios collectively in
+this Report represent a broader range of outcomes than the scenarios published in the July
+Report.
+The adverse inflation scenario explores the risk of higher energy prices and the higher
+second-round effects which might occur as a consequence. The path for energy prices
+assumed in this scenario is higher than in the analogous adverse scenario in July. This
+reflects the rise in global energy prices since the July Report and is consistent with persistent
+disruption to global energy markets.
+The weaker demand scenario assumes the same path for future energy prices as the central
+projection but assumes that GDP growth slows materially and that widening spare capacity in
+the economy reduces the scope for businesses to raise prices or grant higher pay, such that
+no second-round effects emerge. This could be consistent with the lack of evidence for
+second-round effects currently.
+Table 3.B sets out how key economic variables evolve across the central projection and
+scenarios, conditioned on the market curve for interest rates. The fan charts around the
+central projection in Chart 3.2 continue to be based only on the distribution of historical
+forecast errors, and do not attempt to represent the skew of risks around the current outlook.
+
+Bank of England
+
+Page 73
+
+Table 3.A: Summary of assumptions and judgements in the central projection and
+scenarios
+Central projection
+
+Weaker
+
+Adverse inflation scenario
+
+demand
+scenario
+Energy prices
+
+Energy prices for wholesale oil and gas follow the
+
+Energy prices rise above the
+
+market futures curves over the 15 UK working days to
+27 October.
+
+central projection and remain
+persistently higher over the
+forecast period. This is
+consistent with persistent
+disruption to global energy
+markets, limiting the supply of
+oil and gas. Compared to the
+central projection, the price of
+oil is assumed to be around
+30% higher on average and
+natural gas is a little over 50%
+higher over the forecast
+period.
+
+Second-round
+effects from
+this year’s
+energy prices
+on inflation
+
+Fairly strong second-round effects. No secondThe calibration of the impact is
+round effects.
+informed by the model in Bernanke Spare capacity
+and Blanchard (2025), applied to
+in the scenario is
+the UK and estimated over a period assumed
+when household attentiveness to
+sufficient to limit
+inflation was elevated, as was the
+firms’ pricing
+case in the July Report. This
+power and
+
+Stronger second-round effects
+than in the central projection.
+This reflects both the higher
+path of energy prices and a
+greater effect from persistently
+elevated energy prices on
+long-run inflation expectations
+and hence wages and prices.
+
+estimate has been revised up from
+the July central projection to reflect
+
+workers’ wage
+bargaining
+
+These estimates reflect the
+same mechanisms explored in
+
+higher energy prices pushing up
+near-term inflation and inflation
+expectations, but the mechanism it
+
+power.
+
+the analogous adverse
+scenario in the July Report.
+
+captures remains the same.
+Assumptions
+that are
+
+Projections use the market curve for short-term interest rates in the 15 UK working
+days to 27 October and incorporate government policies announced at Budget 2026
+
+consistent
+across
+
+(Box F).
+
+projections
+
+Bank of England
+
+Page 74
+
+Chart 3.1: Energy price paths are higher in the adverse scenario relative to the central
+projection and weaker demand scenario
+Brent crude oil and natural gas price paths in the central projection, the weaker demand scenario,
+and the adverse scenario (a)
+
+Sources: Bloomberg Finance L.P., LSEG Workspace and Bank calculations.
+(a) Historical spot prices are monthly averages. For oil, they are Brent crude prices and are in US dollars. For natural gas
+they are Bloomberg UK NBP Natural Gas Forward prices using the historical evolution of the 12-month ahead natural gas
+futures price, and are in sterling. The dashed lines refer to the conditioning assumptions for the central projection and the
+adverse scenarios, as outlined in Table 3.A. The weaker demand scenario uses the same paths for energy as the central
+projection. The final data are for 2029 Q4.
+
+Bank of England
+
+Page 75
+
+Table 3.B: Summary of outputs of the central projection and scenarios (a)
+2026 Q4
+
+2027 Q4
+
+2028 Q4
+
+2029 Q4
+
+CPI inflation (b)
+
+3.8 (3.2)
+
+4.0 (2.1)
+
+2.0 (1.9)
+
+1.8
+
+GDP (c)
+
+2.2 (1.2)
+
+1.0 (1.4)
+
+1.4 (1.7)
+
+1.6
+
+Excess supply/excess demand (d)
+
+-1.0 (-1.3)
+
+-1.2 (-0.9)
+
+-1.3 (-0.7)
+
+-1.1
+
+Unemployment rate (e)
+
+4.8 (5.1)
+
+5.0 (5.3)
+
+5.1 (5.2)
+
+5.0
+
+Private sector regular average weekly earnings (f)
+
+3.2 (3.0)
+
+3.5 (3.1)
+
+3.4 (3.1)
+
+3.1
+
+Energy prices – direct contribution to CPI inflation (g)
+
+1.1 (0.4)
+
+0.3 (-0.1)
+
+-0.5 (-0.2)
+
+0.0
+
+World export prices (h)
+
+8.0 (4.3)
+
+1.2 (0.5)
+
+-0.7 (-0.2)
+
+-0.7
+
+Bank Rate (i)
+
+3.9 (3.9)
+
+4.9 (4.2)
+
+4.9 (4.1)
+
+4.7
+
+CPI inflation (b)
+
+4.0
+
+5.5
+
+3.0
+
+2.2
+
+GDP (c)
+
+2.2
+
+0.8
+
+1.3
+
+1.6
+
+Excess supply/excess demand (d)
+
+-1.1
+
+-1.4
+
+-1.5
+
+-1.4
+
+Unemployment rate (e)
+
+4.8
+
+5.1
+
+5.3
+
+5.1
+
+Private sector regular average weekly earnings (f)
+
+3.5
+
+4.5
+
+4.6
+
+4.1
+
+Energy prices – direct contribution to CPI inflation (g)
+
+1.2
+
+1.1
+
+-0.5
+
+-0.3
+
+World export prices (h)
+
+8.8
+
+3.5
+
+0.0
+
+-0.7
+
+Bank Rate (i)
+
+3.9
+
+4.9
+
+4.9
+
+4.7
+
+CPI inflation (b)
+
+3.8
+
+3.6
+
+1.2
+
+1.2
+
+GDP (c)
+
+2.2
+
+0.3
+
+1.3
+
+1.6
+
+Excess supply/excess demand (d)
+
+-1.0
+
+-1.8
+
+-1.7
+
+-1.6
+
+Unemployment rate (e)
+
+4.8
+
+5.3
+
+5.5
+
+5.3
+
+Private sector regular average weekly earnings (f)
+
+3.2
+
+2.8
+
+2.2
+
+2.0
+
+Central projection
+
+Adverse inflation scenario
+
+Weaker demand scenario
+
+Bank of England
+
+Page 76
+
+2026 Q4
+
+2027 Q4
+
+2028 Q4
+
+2029 Q4
+
+Energy prices – direct contribution to CPI inflation (g)
+
+1.1
+
+0.3
+
+-0.5
+
+0.0
+
+World export prices (h)
+
+8.0
+
+1.2
+
+-0.7
+
+-0.7
+
+Bank Rate (i)
+
+3.9
+
+4.9
+
+4.9
+
+4.7
+
+(a) The numbers shown in this table are conditioned on the assumptions described in Table 3.A and the Projections
+Databank accompanying this Report. All three scenarios are conditioned on the same market curve for Bank Rate. The
+numbers in parentheses show the equivalent projections at the time of the July 2026 Monetary Policy Report.
+(b) Four-quarter inflation rate. Based on ONS series D7BT.
+(c) Four-quarter growth in real GDP. Based on ONS series ABMI.
+(d) Per cent of potential GDP. A negative figure implies output is below potential and a positive that it is above.
+(e) International Labour Organization (ILO) definition of unemployment. Based on ONS series MGSX.
+(f) Private sector average weekly earnings excluding bonuses and arrears of pay. Based on ONS series KAJ2.
+(g) Contribution of fuels and lubricants and gas and electricity prices to four-quarter CPI inflation.
+(h) Four-quarter growth in UK-weighted world export prices excluding the direct effect of oil prices.
+(i) Per cent. The path for Bank Rate implied by forward market interest rates. The curves are based on OIS rates.
+
+Bank of England
+
+Page 77
+
+Chart 3.2: CPI inflation in the central projection is expected to return to the 2% target
+in 2028. GDP growth falls and then recovers, while the unemployment rate is
+projected to rise slightly
+Annual CPI inflation, GDP growth and unemployment rate (a)
+
+Sources: ONS and Bank calculations.
+(a) The fan charts depict the probability of various outcomes for GDP growth, the International Labour Organization (ILO)
+definition of unemployment and CPI inflation in the central projection. The uncertainty parameters determining the width of
+
+Bank of England
+
+Page 78
+
+the fan charts have been calibrated to match the historical forecast errors since 2004 and up to 2026 Q2 for each variable at
+different horizons but exclude errors during the pandemic given its exceptional nature. The fan charts are constructed so that
+outturns are expected to lie within each pair of lighter areas on 30 occasions, with outturns expected to lie within the fan on
+90 out of 100 occasions. On the remaining 10 out of 100 occasions, outturns can fall outside the respective aqua, orange and
+purple areas of the fan chart, depicted by the blue background. For GDP growth, the distribution reflects uncertainty around
+past data revisions and future evolution, so that the mature estimate would lie within the darkest central band on only 30 out
+of 100 occasions. The Committee no longer uses the calibration of the fan chart skew to reflect judgements on the balance of
+risks to the central projection.
+
+Central projection
+In the central projection, conditioned on the market curve for interest rates, CPI inflation is
+expected to remain well above the 2% target throughout 2027 and the first half of 2028,
+before returning to the target in 2028 Q3 (Chart 3.3, left panel).
+
+Chart 3.3: Conditioned on the market curve for interest rates, inflation is expected to
+rise into 2027 before falling back in the second half of 2028
+Annual CPI inflation and the contribution of second-round effects to CPI inflation in the central
+projection and scenarios (a)
+
+Sources: ONS and Bank calculations.
+(a) The central projection and scenarios shown here are conditioned on the same market curve for Bank Rate. Further details
+on conditioning assumptions can be found in Table 3.A and the Projections Databank accompanying this Report. The final
+projections are for 2029 Q4.
+
+The projected rise in inflation over the next year is largely accounted for by rising direct and
+indirect energy effects; thereafter second-round effects become larger (Chart 3.3, right panel).
+Direct energy effects are the largest contributor to the rise in inflation at the start of the
+forecast. Indirect effects are now expected to build slightly more slowly but are projected to
+push up the CPI level by around 1% in mid-2027. Disinflation occurs as downward sloping
+
+Bank of England
+
+Page 79
+
+energy futures curves result in negative direct energy effects on inflation in 2028. A degree of
+spare capacity in the economy throughout the forecast period reduces inflation and results in
+inflation falling slightly below target by the end of the forecast. Second-round effects are
+assumed to build over the forecast period, pushing up inflation throughout, contributing on
+average 0.5 percentage points to CPI inflation in the second half of the forecast period. These
+effects materialise in part because households’ inflation expectations rise and workers resist
+falling real wages, leading to faster nominal wage growth and firms’ passing these costs
+through to prices. Second-round effects could also be consistent with firms’ price-setting
+responding to higher inflation expectations.
+The inflation projection is materially higher than in July due to the increase in energy prices
+since then. In the July Report, inflation was expected to rise to 3.2% around the turn of this
+year before falling back, whereas the latest projection is for inflation to reach around 5% in
+mid-2027. The higher path of energy prices increases the size of direct and indirect effects
+and feeds through into larger second-round effects, which are around 0.3 percentage points
+higher over the second half of the forecast period than in the July projection.
+Measures included in Budget 2026 are expected to reduce CPI inflation in the first half of
+2027 by around ¼ percentage point before unwinding in 2028 (Box F).
+GDP growth is projected to slow in the coming quarters. UK economic activity has been
+resilient in 2026 but some of the drivers of that resilience are not expected to continue to
+support GDP growth over the forecast period (Box C). Higher energy prices also reduce GDP
+growth in 2027 as households face lower real income growth. And this effect is amplified by
+the observed tightening in financial conditions, including the rise in the market curve for
+interest rates. Further fiscal consolidation is expected to continue to reduce the level of GDP
+over the forecast.
+The economy is currently assessed to be operating with a degree of spare capacity, with
+output around 1% below potential in 2026 Q4 (Chart 3.4, right panel). As GDP growth slows,
+spare capacity is expected to increase slightly. This is accompanied by a small increase in the
+unemployment rate to 5.1%, and there is no widespread labour market shakeout (Chart 3.4,
+left panel).
+
+Bank of England
+
+Page 80
+
+Chart 3.4: Conditioned on the market path for interest rates and announced fiscal
+policy, excess spare capacity is expected to grow slightly while the unemployment
+rate rises
+Unemployment rate and output gap in the central projection and scenarios (a)
+
+Sources: ONS and Bank calculations.
+(a) The central projection and scenarios shown here are conditioned on the same market curve for Bank Rate. Further details
+on conditioning assumptions can be found in Table 3.A and the Projections Databank accompanying this Report. The final
+projections are for 2029 Q4.
+
+Adverse inflation scenario
+In the adverse inflation scenario, energy prices rise materially above the paths implied by
+current futures curves and remain persistently elevated (Chart 3.1). This leads to materially
+higher inflation in the near term, primarily through the direct and indirect effects of energy
+prices. Further ahead, strong second-round effects keep inflation persistently above the 2%
+target, conditioned on market interest rates (Chart 3.3). Direct and indirect effects push up
+already elevated longer-term inflation expectations and lead to faster nominal wage growth
+and larger pass-through to firms’ pricing. The second-round effects in this scenario operate
+through the same channels as in the adverse scenario in the July Report but are larger owing
+to the higher path for energy prices.
+Higher energy prices also reduce GDP growth in the scenario. Energy prices tend to affect
+demand by more than supply. As a result, there is somewhat more spare capacity in the
+economy over the forecast period than in the central projection. But this additional spare
+capacity is assumed not to be sufficient to materially constrain workers’ wage bargaining
+power or firms’ ability to raise prices.
+
+Bank of England
+
+Page 81
+
+Weaker demand scenario
+In the weaker demand scenario, energy prices follow the same futures curve as in the central
+projection. The key difference in this scenario is that domestic demand weakens rapidly, so
+activity is lower than in the central projection. This could occur if households are unable or
+unwilling to smooth consumption through the real income shock from high energy prices, for
+example if some households exhaust savings buffers that they have been drawing down to
+sustain consumption. Or businesses that initially absorbed higher costs may become less
+able to do so as their financial resources are depleted and as the shock proves more
+persistent, leading to increased insolvencies, lower employment and weaker investment.
+Weaker demand results in materially more spare capacity in the economy than in the central
+projection.
+Inflation is lower in the weaker demand scenario than in the central projection. Greater spare
+capacity limits wage and price pressures, such that no second-round effects emerge.
+Conditioned on the market path for interest rates, inflation falls below the 2% target during
+2028 and reaches 1.2% in 2029.
+
+3.3: Central projection and scenarios under alternative monetary
+policy stances
+The central projection and scenarios described above are conditioned on the market curve for
+interest rates. If the assumptions underlying any particular projection or scenario came to
+pass, the appropriate stance of policy would likely vary from that market path.
+Illustrative policy rules can provide information about the effects of alternative monetary policy
+stances for different scenarios. These rules inform the MPC’s assessment, but do not
+translate mechanically into Bank Rate decisions. Two such policy rules are shown below. One
+is a contemporaneous Taylor-type rule incorporating the output gap and non-energy inflation.
+This rule helps to demonstrate a policy path that ‘looks through’ the direct effects of an energy
+shock, while responding to indirect and second-round effects, which may be informative in the
+current economic environment. The other is an illustrative model-based projection, which
+constructs policy paths to minimise a loss function intended to capture policymakers’
+preferences over macroeconomic outcomes, including deviations of overall inflation from
+target, variation in the output gap and changes in interest rates.
+The market curve for interest rates includes expectations for future Bank Rate and risk premia
+(Lengyel and Walker (2026)). The policy rules presented here should be interpreted as
+exploring alternative overall policy stances, comparable to the stance implied by the market
+curve, rather than a path for future Bank Rate decisions.
+
+Bank of England
+
+Page 82
+
+Illustrative policy rules suggest a more restrictive stance for monetary policy is
+required than in July to return inflation to the 2% target in the central projection.
+For the central projection, taken together the two illustrative policy paths are broadly similar to
+the market curve in the near term, but somewhat lower further out (Chart 3.5). On average,
+they point to a somewhat looser overall policy stance than implied by the market curve. The
+non-energy Taylor-type rule is slower to respond than the illustrative model-based projection,
+reflecting the fact that it excludes the direct effects of energy price changes which account for
+much of the near-term rise in inflation, and under that stance inflation does not return to the
+2% target within the forecast period.
+The paths implied by illustrative policy rules vary but have risen since the July Report. The
+rules associated with the central projection have risen by between 0.6–0.9 percentage points
+on average over 2027–29, given higher energy prices and the associated higher secondround effects. In part reflecting market participants’ assessment of the impact of the economic
+news since the July Report, the market curve has risen by around 0.6 percentage points on
+average over 2027–29.
+
+Chart 3.5: The economic outlook in the central projection requires a restrictive stance
+of monetary policy albeit illustrative policy paths suggest a somewhat looser policy
+stance than implied by the market curve is appropriate on average
+Central projection under the market curve, staff’s illustrative model-based projections, and a
+contemporaneous non-energy Taylor-type rule (a)
+
+Sources: Bank of England and Bloomberg Finance L.P.
+(a) The interest rate paths shown are Bank Rate up to 2026 Q2 and subsequently the OIS curve or alternative curves based
+on policy simulations up to 2029 Q4. The Projections Databank provides additional detail on the definition of the modelbased projections and the simple policy rule shown here. These should not be interpreted as a prescription for how policy is
+likely to evolve. In these simulations, the paths for inflation and the output gap within the forecast period can also be affected
+by the evolution of policy paths beyond the forecast horizon.
+
+Bank of England
+
+Page 83
+
+Policy rules suggest that more restrictive monetary policy would be required in the
+adverse inflation scenario than in the central projection, in part due to greater
+second-round effects.
+Chart 3.6 shows the adverse scenario projections for CPI inflation and the output gap under
+different paths for monetary policy. The policy paths for the model-based projection and the
+Taylor-type rule are both higher in the adverse scenario than in the central projection. Relative
+to the central projection, the model-based policy path is 0.7 percentage points higher on
+average over the forecast period, partly reflecting its rapid response to the higher near-term
+inflation peak. The non-energy Taylor-type rule is 0.3 percentage points higher than in the
+central projection: it responds less to the near-term peak, which is driven by direct energy
+effects, but still tightens in response to more persistent inflation. As in the central projection,
+the Taylor-type rule does not return inflation to the 2% target within the forecast period in the
+adverse inflation scenario.
+
+Chart 3.6: More persistent inflation in the adverse inflation scenario requires a more
+restrictive monetary policy stance than the market curve
+Economic outcomes for the adverse inflation scenario under the market curve, staff’s illustrative
+model-based projections, and a contemporaneous non-energy Taylor-type rule (a)
+
+Sources: Bank of England and Bloomberg Finance L.P.
+(a) The interest rate paths shown are Bank Rate up to 2026 Q2 and subsequently the OIS curve or alternative curves based
+on policy simulations up to 2029 Q4. The Projections Databank provides additional detail on the definition of the modelbased projections and the simple policy rule shown here. These should not be interpreted as a prescription for how policy is
+likely to evolve. In these simulations, the paths for inflation and the output gap within the forecast period can also be affected
+by the evolution of policy paths beyond the forecast horizon.
+
+Bank of England
+
+Page 84
+
+Policy rules in the weaker demand scenario are lower than their equivalents in the
+central projection, reflecting inflation falling below target and more spare capacity.
+Inflation falls below target in the medium term and there is excess spare capacity in the
+economy in the weaker demand scenario (Chart 3.7). Both policy rules respond to this with a
+lower path for rates over the forecast period than in the central projection: the model-based
+projection is on average 0.5 percentage points lower and the non-energy Taylor-type rule is
+0.2 percentage points lower (over 2027–29). Both rules respond to the near-term pickup in
+inflation with a rising path of rates over coming quarters, albeit by slightly less than in the
+central projection, but the looser stance of monetary policy under the rules is mostly due to a
+much lower rate path from 2028 onwards as inflation falls below target and there is substantial
+spare capacity in the economy.
+
+Chart 3.7: Inflation falling below target and excess spare capacity in the weaker
+demand scenario suggest monetary policy should be less restrictive
+Economic outcomes for the weaker demand scenario under the market curve, staff’s illustrative
+model-based projections, and a contemporaneous non-energy Taylor-type rule (a)
+
+Sources: Bank of England and Bloomberg Finance L.P.
+(a) The interest rate paths shown are Bank Rate up to 2026 Q2 and subsequently the OIS curve or alternative curves based
+on policy simulations up to 2029 Q4. The Projections Databank provides additional detail on the definition of the modelbased projections and the simple policy rule shown here. These should not be interpreted as a prescription for how policy is
+likely to evolve. In these simulations, the paths for inflation and the output gap within the forecast period can also be affected
+by the evolution of policy paths beyond the forecast horizon.
+
+Bank of England
+
+Page 85
+
+Annexes
+Annex 1: Central projection tables
+This annex provides additional details on the central projection. Further forecast variables are
+provided in the Projections Databank, available from Monetary Policy Report – Download
+chart slides and data – November 2026.
+
+Bank of England
+
+Page 86
+
+Table A1.A: GDP (a)
+Average 1998–
+
+Average
+
+2007
+
+2010–19
+
+3.1
+
+2.5
+
+2.2 (1.9) 2.0 (2.2) 2.1 (2.3) 2.2
+
+UK GDP (c)
+
+2.8
+
+2.1
+
+1.6 (1.1) 1.3 (1.1) 1.2 (1.7) 1.5
+
+Household consumption (d)
+
+3.1
+
+2.2
+
+1.2 (1.0) 0.5 (0.8) 1.1 (1.8) 1.4
+
+Real post-tax labour income 3.3
+
+1.6
+
+-0.1
+(0.1)
+
+World GDP (UK-weighted)
+
+2026
+
+2027
+
+2028
+
+2029
+
+(b)
+
+(e)
+
+-0.6
+(0.5)
+
+1.0 (1.1) 1.0
+
+Household saving ratio (f)
+
+7.5
+
+8.4
+
+8.0 (8.8) 7.3 (8.4) 7.3 (7.9) 6.9
+
+Business investment (g)
+
+3.5
+
+4.5
+
+4.3
+(-1.5)
+
+Housing investment (h)
+
+3.7
+
+3.7
+
+0.1 (0.2) -1.9
+(1.5)
+
+Government expenditure (i)
+
+3.7
+
+1.0
+
+2.9 (3.5) 0.9 (2.1) 0.7 (1.0) 0.8
+
+Exports (j)
+
+4.2
+
+3.6
+
+3.6 (2.4) 2.9 (2.7) 1.8 (2.3) 2.5
+
+Imports (k)
+
+5.8
+
+4.1
+
+2.8 (2.3) 1.9 (2.0) 1.2 (2.5) 2.4
+
+Excess supply/Excess
+
+0.0
+
+-1.7
+
+-1.0
+(-1.1)
+
+demand (l)
+
+2.5 (0.9) 1.8 (1.5) 2.3
+
+-1.1
+(-1.1)
+
+0.4 (6.6) 3.2
+
+-1.3
+(-0.8)
+
+-1.2
+
+(a) Figures show annual growth rates (excluding ‘Excess supply/Excess demand’) and are chained volume measures.
+Figures in parentheses show the corresponding projections from the July 2026 Monetary Policy Report.
+(b) Constructed using real GDP growth rates of 188 countries weighted according to their shares in UK exports.
+(c) Based on ONS series ABMI.
+(d) Includes non-profit institutions serving households. Based on ONS series ABJR+HAYO.
+(e) Wages and salaries plus mixed income and general government benefits less income taxes and employees’ National
+Insurance contributions, deflated by the consumer expenditure deflator. Based on ONS series using this formula:
+[ROYJ+ROYH-(RPHS+AIIH-CEAN)+GZSL]/[(ABJQ+HAYE)/(ABJR+HAYO)], where the series AIIH, CEAN and GZSL
+have been seasonally adjusted. Some changes between Reports reflect official revisions to past data.
+(f) Percentage of total available household resources. Based on ONS series NRJS.
+(g) Based on ONS series GAN8.
+(h) Whole-economy measure. Includes new dwellings, improvements and spending on services associated with the sale
+and purchase of property. Based on ONS series DFEG+L635+L637.
+(i) Based on ONS series NMRY+G93X.
+(j) The historical data exclude the impact of missing trader intra‑community (MTIC) fraud. Since 1998 based on ONS
+series IKBK-OFNN/(BOKH/BQKO).
+(k) The historical data exclude the impact of MTIC fraud. Since 1998 based on ONS series IKBL-OFNN/(BOKH/BQKO).
+(l) Annual average level. Per cent of potential GDP. A negative figure implies output is below potential and a positive figure
+that it is above.
+
+Bank of England
+
+Page 87
+
+Table A1.B: Wages and prices (a)
+Average
+
+Average
+
+2026
+
+2027
+
+2028
+
+2029
+
+1998–2007
+
+2010–19
+
+Q4
+
+Q4
+
+Q4
+
+Q4
+
+Private sector regular average
+weekly earnings (b)
+
+4.1
+
+2.2
+
+3.2
+(3.0)
+
+3.5
+(3.1)
+
+3.4
+(3.1)
+
+3.1
+
+Private sector regular pay-
+
+1.9
+
+1.5
+
+2.1
+
+2.4
+
+2.4
+
+2.0
+
+(3.2)
+
+(2.1)
+
+(1.9)
+
+based unit wage costs (c)
+UK import prices (d)
+
+-0.4
+
+1.3
+
+1.9
+(0.8)
+
+1.5
+(0.6)
+
+0.1
+(0.4)
+
+0.1
+
+CPI (e)
+
+1.6
+
+2.2
+
+3.8
+
+4.0
+
+2.0
+
+1.8
+
+(3.2)
+
+(2.1)
+
+(1.9)
+
+1.1
+(0.4)
+
+0.3
+(-0.1)
+
+-0.5
+(-0.2)
+
+Energy prices – direct
+contribution to CPI inflation (f)
+
+0.3
+
+0.2
+
+0.0
+
+(a) Four-quarter growth in Q4 (except for Energy prices – direct contribution to CPI inflation). Figures in parentheses show
+the corresponding projections from the July 2026 Monetary Policy Report.
+(b) Private sector average weekly earnings excluding bonuses and arrears of pay. Based on ONS series KAJ2.
+(c) Private sector wage costs divided by private sector output at constant prices. Private sector wage costs are AWE
+(excluding bonuses) multiplied by private sector employment.
+(d) Excludes fuel and the impact of MTIC fraud.
+(e) Based on ONS series D7BT.
+(f) Contribution of fuels and lubricants and gas and electricity prices to four-quarter CPI inflation.
+
+Bank of England
+
+Page 88
+
+Table A1.C: The labour market (a)
+Average 1998–
+
+Average
+
+2007
+
+2010–19
+
+2026
+
+2027
+
+2028
+
+2029
+
+Labour productivity output per 1.8
+worker (b)
+
+0.9
+
+0.4 (0.1) 0.7 (0.7) 0.8 (1.0) 0.8
+
+Employment (c)
+
+1.0
+
+1.2
+
+1.1 (1.0) 0.7 (0.4) 0.3 (0.6) 0.7
+
+Working-age (16+) population 0.7
+
+0.7
+
+0.9 (0.9) 0.7 (0.7) 0.7 (0.7) 0.6
+
+63.5
+
+63.9
+
+63.9
+
+63.8
+
+(63.9)
+
+(63.9)
+
+(63.9)
+
+(d)
+
+Participation rate (e)
+
+63.0
+
+63.8
+
+Unemployment rate (f)
+
+5.3
+
+6.0
+
+4.8 (5.0) 4.9 (5.3) 5.1 (5.2) 5.0
+
+Average hours (g)
+
+32.4
+
+31.9
+
+31.9
+(31.8)
+
+31.8
+(31.7)
+
+31.7
+(31.7)
+
+31.7
+
+(a) Figures in parentheses show the corresponding projections from the July 2026 Monetary Policy Report.
+(b) Annual average level. Real GDP divided by total 16+ employment. Based on ONS series ABMI/MGRZ.
+(c) Annual average growth rate. Based on ONS series MGRZ.
+(d) Annual average growth rate. LFS household population, all aged 16 and over.
+(e) Annual average level. ILO definition of labour force participation as a percentage of the 16+ population. Based on ONS
+series MGWG.
+(f) Annual average level. ILO definition of unemployment rate. Based on ONS series MGSX.
+(g) Annual average level.
+
+Bank of England
+
+Page 89
+
+Annex 2: Monetary policy since the July 2026 Report
+At its meeting ending on 16 September 2026, the Monetary Policy Committee (MPC) voted to
+maintain Bank Rate at 3.75%.
+Protracted conflict in the Middle East had contributed to further increases in crude and refined
+energy prices since the previous meeting, which remained more volatile and higher than preconflict. UK CPI inflation had increased to 3.1% in August and was likely to rise further over
+coming quarters. Monetary policy was being set to ensure inflation came down to 2%
+sustainably as the economy adjusts to the energy shock. The policy stance required to
+achieve this would depend on the scale and duration of the shock and how it propagated
+through the economy.
+There had been little evidence of material second-round effects in price and wage-setting.
+However, the risk of such effects, against which policy needed to lean, was greater the longer
+higher energy prices persist or were more volatile. Activity had been slightly stronger than
+expected, although soft labour market conditions, and the higher interest rates faced by
+households and businesses since the conflict began, would act to reduce inflation over time.
+Overall, the Committee judged that the risks to the inflation outlook were tilted to the upside,
+and more so than at the time of the July Monetary Policy Report, although there remained
+scope for the outlook to change materially as events in the Middle East unfolded.
+The Committee judged that it was appropriate to maintain Bank Rate at its September
+meeting. The Committee stood ready to act as necessary to ensure that CPI inflation
+remained on track to meet the 2% target in the medium term.
+At this meeting, the MPC also voted unanimously to reduce the stock of UK government bond
+purchases held for monetary policy purposes, and financed by the issuance of central bank
+reserves, to zero. This would be conducted through a multi-year plan, such that the remaining
+stock would be unwound at an annual average pace of £46 billion by the end of 2034, through
+annual sales of £20 billion alongside maturing gilts.
+
+Bank of England
+
+Glossary and other information
+Glossary of selected data and instruments
+ASBC – Agents’ summary of business conditions.
+AWE – average weekly earnings.
+CPI – consumer prices index.
+CPI inflation – inflation measured by the consumer prices index.
+DMP – Decision Maker Panel.
+GDP – gross domestic product.
+LFS – Labour Force Survey.
+MaPS – Market Participants Survey.
+OIS – overnight index swap.
+PMI – purchasing managers’ index.
+PPI – producer price index.
+
+Abbreviations
+AI – artificial intelligence.
+BCC – British Chambers of Commerce.
+CBI – Confederation of British Industry.
+DESNZ – Department for Energy Security and Net Zero.
+ECB – European Central Bank.
+G7 – Group of Seven.
+GfK – Gesellschaft für Konsumforschung, Great Britain Ltd.
+HMRC – His Majesty’s Revenue and Customs.
+IMF – International Monetary Fund.
+
+Page 90
+
+Bank of England
+KPMG – Klynveld Peat Marwick Goerdeler.
+LLM – Large Language Model.
+LNG – liquefied natural gas.
+LSEG – London Stock Exchange Group.
+LTV – loan to value.
+MIDAS – mixed-data sampling.
+MPC – Monetary Policy Committee.
+NBP – National Balancing Point.
+NICs – National Insurance contributions.
+NLW – National Living Wage.
+NOAA – National Oceanic and Atmospheric Administration.
+NWE – Northwest Europe.
+OECD – The Organisation for Economic Co-operation and Developments.
+Ofgem – Office of Gas and Electricity Markets.
+ONS – Office for National Statistics.
+REC – Recruitment and Employment Confederation.
+RICS – Royal Institute of Chartered Surveyors.
+RTI – Real-Time Information.
+SET-BVAR – Self-exciting threshold Bayesian vector autoregression.
+SIC – Standard Industrial Classification.
+S&P – Standard & Poor’s.
+UK – United Kingdom of Great Britain and Northern Ireland.
+US – United States of America.
+VAT – Value added tax.
+
+Page 91
+
+Bank of England
+
+Page 92
+
+V/U – vacancies to unemployment.
+WFJ – Workforce Jobs.
+
+Symbols and conventions
+Except where otherwise stated, the source of the data used in charts and tables is the Bank of
+England or the Office for National Statistics (ONS) and all data, apart from financial markets
+data and results from the Decision Maker Panel (DMP) survey, are seasonally adjusted.
+n.a. = not available.
+Because of rounding, the sum of the separate items may sometimes differ from the total
+shown.
+On the horizontal axes of graphs, larger ticks denote the first observation within the relevant
+period, eg data for the first quarter of the year.
+
+

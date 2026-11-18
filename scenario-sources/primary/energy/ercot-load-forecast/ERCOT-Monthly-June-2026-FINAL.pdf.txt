@@ -1,0 +1,247 @@
+ERCOT
+
+MONTHLY
+June 2026
+
+A RECAP OF KEY INFORMATION
+FROM THE PREVIOUS MONTH,
+A LOOK AT THE UPCOMING
+MONTH, AND A SNAPSHOT OF
+ADDITIONAL KEY ITEMS
+
+Contents
+May Look Back ........................................................................................................... 2
+July MORA................................................................................................................... 3
+Additional Items of Note .......................................................................................... 4
+ERCOT and the PUCT Clear Batch Zero Framework for Large Loads ....... 4
+PUCT Adopts New Basis for ERCOT's Long-Term Load Forecast ............. 4
+ERCOT Proposes Move Toward a Single, Comprehensive Transmission
+Planning Cycle ....................................................................................................... 5
+Dispatchable Reliability Reserve Service (DRRS) Adopted by Board and
+PUCT ....................................................................................................................... 6
+New Ride-Through Standard Requires Large Loads to Stay On Through
+Grid Disturbances Approved by PUCT ............................................................. 6
+ERCOT Builds Large Load Curtailment Manager as Part of Senate Bill 6
+Implementation ..................................................................................................... 7
+
+ERCOT Monthly | June 2026
+
+May 2026
+
+Look Back
+77,822* MW
+
+78,399 MW
+
+May 2026
+peak demand
+
+May peak record for
+comparison
+
+(May 29, 2026)
+
+(May 23, 2025)
+
+ERCOT procured
+
+Monthly energy generation
+increased by 1.60% compared to
+this time last year
+
+$17.64 million in Day-Ahead
+Market Ancillary Services for grid
+reliability in May 2026
+
+34,498 MW
+May solar generation record
+
+*unofficial until final settlements
+
+29,011 MW
+May wind generation peak
+
+10,211 MW
+May max discharge
+generation
+
+May 2025 vs. 2026 Energy Generation Comparison
+
+*figures shown in GWh
+
+2
+
+ERCOT Monthly | June 2026
+
+Monthly Outlook for
+
+Resource Adequacy
+July 2026
+Shown at right, the July Monthly Outlook for
+Resource Adequacy (MORA) report’s
+probabilistic modeling results indicate a low risk
+(less than 1%) in the 8-9 p.m. hour of having to
+declare an Energy Emergency Alert (EEA). The
+model also accounts for the risk of coastal wind
+curtailment needed to avoid overloads on lines
+that make up the South Texas export interface.
+Under typical grid conditions, the deterministic
+scenario indicates that there should be
+sufficient generating capacity available. The full
+report can be found on the Resource Adequacy
+page of ERCOT’s website.
+
+3
+
+ERCOT Monthly | June 2026
+
+Additional
+
+Items of Note
+
+ERCOT and the PUCT Clear Batch Zero Framework for Large Loads
+On June 2, the ERCOT Board of Directors adopted Nodal Protocol Revision Request 1325
+(NPRR1325) and Planning Guide Revision Request 145 (PGRR145), the Batch Zero process for
+large load interconnections, with an effective date of July 11.
+ERCOT described the package as the most-commented policy change in the history of its
+stakeholder process and the centerpiece of the state response to surging data center and
+large load demand. The framework models roughly 450+ gigawatts (GW) of requested load
+and sorts each request into Base Load (mature, fully studied projects that receive their full
+allocation without the need for a restudy), Studied Load (projects ERCOT will study within
+Batch Zero to determine how much of that request can be reliably served by the grid), and
+Excluded Load (projects that have not advanced far enough in the process and will be
+deferred to a later batch). ERCOT expects roughly 100+ GW to qualify as Base or Studied Load.
+The Public Utility Commission of Texas (PUCT) approved the Batch Zero process at its June 18
+open meeting, clearing the final regulatory hurdle. ERCOT described Batch Zero as the first
+batch interconnection process used by any grid operator for large loads, which groups
+projects of 75 megawatts (MW) or larger into a single coordinated study rather than the prior
+serial review.
+July 10 will serve as the date for which these entities must submit their dynamic model and
+eligibility materials (the Load Information Form and required attestations) to their
+transmission or distribution provider (TDSP). July 24 will serve as the deadline for the TDSP to
+submit complete packages for all eligible loads to ERCOT. August 7 will serve as the deadline
+for ERCOT to complete its review of all eligible loads and issue classifications of each batchqualifying load as Base Load or Studied Load to the TDSPs.
+
+PUCT Adopts New Basis for ERCOT's Long-Term Load Forecast
+In April 2026, ERCOT published its protocol-required long-term forecasting methodology,
+which produced a figure of roughly 368 GW of potential load that few stakeholders
+considered credible for market planning purposes.
+ERCOT filed a request at the PUCT (Project No. 59772) to adjust the 2026 long-term load
+forecast. ERCOT offered the Commission two options: the first based on historical realization
+rates; and the second, the option ERCOT and Commission Staff recommended, based on the
+new Batch Zero Base Load forecast.
+At its June 18 open meeting, the PUCT adopted the recommended approach and directed
+ERCOT to base the adjusted forecast on the Batch Zero Base Load number rather than the
+historical-realization estimate. Commissioners said tying the forecast to the batch process,
+which has been through extensive stakeholder comment, grounds system planning in actual
+numbers, and further noted that accurate load forecasting is foundational to resource
+
+4
+
+ERCOT Monthly | June 2026
+adequacy, planning, and operational readiness.
+The adjusted load forecast value will not be known until mid-August, when Batch Zero
+classifications are issued, which will delay some downstream reports, most notably the
+triennial reliability assessment.
+In a paired action (Project No. 55999), the Commission granted ERCOT good-cause exceptions
+to forgo the May 2026 Capacity, Demand, and Reserves (CDR) report and the 2026 Regional
+Transmission Plan (RTP). Because the forecast adjustment would push the May CDR to
+September or October, just ahead of the regular December CDR, PUCT staff found a delayed
+May report duplicative and of little marginal value. For the RTP, the Commission agreed that
+ERCOT's transmission-planning resources are better spent on the Batch Zero study, which
+ERCOT says will produce comparable results, and that ERCOT can satisfy the NERC reliability
+requirements historically met through the RTP in a more focused study.
+
+ERCOT Discusses a Conceptual Move Toward a Single, Comprehensive
+Transmission Planning Cycle
+At the June 1 meeting of the ERCOT Board of Directors, a strategic update was presented on
+consolidating ERCOT’s separate transmission planning tracks into a single, integrated cycle.
+Currently, ERCOT runs the annual
+Regional Transmission Plan
+(RTP), the Regional Planning
+Group (RPG) project-review
+process, and the new Batch
+Study process in parallel, each
+with its own assumptions, study
+horizons, and timelines.
+Generation assets and large load
+projects (some of which are
+electrically equivalent to the
+largest cities in Texas) can now be
+built faster than the existing
+transmission planning processes can study and approve transmission infrastructure.
+Building on the Batch Zero principles, ERCOT proposes to combine these tracks into one
+ongoing “Comprehensive Transmission Plan” while preserving its independent review
+authority. The strategic update was presented for discussion only.
+Operationally, the potential redesign would move ERCOT from today’s roughly 12-month,
+uncoordinated planning cycle to an 18-month coordinated cycle with an annual Batch
+cadence, producing an actionable five-year transmission plan and predictable annual entry
+points so projects feel less pressure to land in any single batch.
+The strategic update framed four goals: (1) deliver buildable plans for transmission providers,
+(2) ensure timeliness through a time-bound cycle that reduces restudies, (3) provide project
+certainty (MW allocation, ramp profile, and timelines), and (4) eliminate duplicative work by
+
+5
+
+ERCOT Monthly | June 2026
+designing Batch, RTP, and RPG as one coordinated process rather than sequential handoffs.
+ERCOT stressed the concepts are illustrative and highly preliminary, intended to open
+stakeholder discussion.
+ERCOT will engage stakeholders throughout 2026 with a potential revision-request
+consideration at the February 8-9, 2027, Board Meeting.
+
+Dispatchable Reliability Reserve Service (DRRS) Adopted by Board
+and PUCT
+On June 2, the ERCOT Board of Directors adopted NOGRR283 and NPRR1309, implementing
+the Dispatchable Reliability Reserve Service (DRRS), a new standing Ancillary Service
+reserve product the Legislature directed ERCOT to create via HB 1500 of the 88th Legislative
+Session. Following the Board’s adoption, the PUCT approved the two revision requests at its
+July 9 Open Meeting.
+DRRS works by competitively procuring dispatchable resources to stand in reserve so that the
+ERCOT Control Room can utilize this tool when net demand runs higher than forecast or
+when wind and solar output falls short, particularly during the evening hours when solar
+drops off and demand stays high.
+The Technical Advisory Committee (TAC) endorsed the protocol at its April 29 meeting over
+five “no” votes from independent generator and cooperative segments, several of whom
+argued DRRS should advance a broader reliability standard rather than only address day-today operational uncertainty. With the Board's adoption complete, DRRS now advances to the
+PUCT for review and ratification before it takes effect.
+Design and pricing refinements for energy storage resource participation in DRRS continued
+at the Protocol Revision Subcommittee (PRS) on June 10, where ERCOT filed NPRR1340 with
+companion NOGRR288 to carry the storage discussion forward.
+
+New Ride-Through Standard Requiring Large Loads to Stay On
+Through Grid Disturbances Approved by PUCT
+On June 2, the ERCOT Board of Directors adopted NOGRR282 and NPRR1308, which establish
+frequency and voltage ride-through requirements for large computational loads. The two
+revision requests were then approved at the PUCT’s Open Meeting on July 9.
+A discussion at the June 19 Large Load Working Group put numbers to this issue. ERCOT
+presented an interim voltage ride-through assessment identifying four large load groups,
+concentrated in West and Far West Texas and in North and North Central Texas, that could
+collectively trip more than 3,200 MW during a system fault.
+ERCOT emphasized that none of the four groups currently operate above this risk-threshold,
+but could if all approved loads ramp up to their full capability.
+
+6
+
+ERCOT Monthly | June 2026
+
+ERCOT Builds Large Load Curtailment Manager as Part of Senate Bill 6
+Implementation
+On June 1, the Technology and Security Committee of the ERCOT Board of Directors received
+an update, as part of Senate Bill 6 implementation, regarding the Large Load Curtailment
+Manager (LLCM), a new control-room system whose first phase is built to handle the Senate
+Bill 6 net-metered facilities (large loads co-located with existing generators).
+At the June 1 meeting of the Technology & Security Committee, ERCOT reported that the first
+version of the Large Load Curtailment Manager will go live in late June.
+The first version gives operators situational awareness in the control room and an XML-based
+curtailment tool modeled on ERCOT's existing Ancillary Service Manager, with the instructed
+SB6 curtailment accounted in a Security-Constrained Economic Dispatch reliabilitydeployment price adder.
+ERCOT was explicit that registration, performance requirements, and the full scope of the
+system are all tied to a forthcoming revision request, and continued LLCM development —
+including getting SB6-curtailment large load data and telemetry (large-load megawatts and
+megavolt-amperes reactive) into the tool and preparing applicable entities to consume its
+instructions — will be the focus through the end of 2026.
+
+7
+
+

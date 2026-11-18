@@ -1,0 +1,1155 @@
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Emerging Aviation Entrants: Unmanned Aircraft Systems
+and Advanced Air Mobility
+New Entrants: Analysis and Forecasts
+
+Unmanned aircraft systems (UAS or drones) are relatively new entrants into the national airspace
+system (NAS) and are experiencing rapid diversification, both in terms of operations and aircraft.
+UAS have been experiencing healthy growth in the United States and around the world over the
+past decade. A UAS consists of a remotely-piloted aircraft and its associated elements, including
+the ground control station and the associated communication links, that are required for safe and
+efficient operation in the NAS. The introduction of UAS has opened numerous possibilities as
+well as operational challenges including safe and secure integration of UASs into the NAS. Despite
+the challenges, the unmanned aircraft systems sector has enormous promise in terms of recreation,
+commercial, and public safety activity.
+A newer emerging entrant, Advanced Air Mobility (AAM), has seen continued development of
+innovative aircraft, and operations that are expected to begin in the new future. AAM is an umbrella term for aircraft weighing more than 1,320 pounds and implementing advanced technologies
+such as distributed propulsion, vertical takeoff and landing, powered lift, non-traditional power
+systems, or autonomous technologies, for transport of passengers or cargo between two locations. 29 AAM is split into two sub-categories: Urban Air Mobility (UAM) and Regional Air Mobility (RAM). UAM is focused on operations between or within urban environments while RAM
+is focused on operations outside of urban environments, such as between hub airports and rural
+communities.
+This section provides a broad overview covering recreational and commercial unmanned aircraft 30
+and their recent trends as gathered from registrations, surveys, tracking the overall market, and
+operational information. Using these trends, FAA produces several forecasts. Forecasts reported
+in the following sections are driven primarily by assumptions of the continuing evolution of the
+regulatory environment, the commercial ingenuity of manufacturers and operators, persistent rec-
+
+29
+
+Federal Aviation Administration Reauthorization Act of 2024, sec. 951.
+
+30
+
+These are also called, interchangeably, hobby or model and nonrecreational UAS, respectively. On October
+5, 2018, the President signed FAA Reauthorization Act of 2018 (Pub. L. 115-254). Section 349 of that Act
+repealed the Special Rule for Model Aircraft (section 336 of Pub. L. 112-95; Feb. 14, 2012) and replaced it with
+new conditions to operate recreational sUAS without requirements for FAA certification or operating authority.
+The Exception for Limited Recreational Operations of Unmanned Aircraft established by section 349 is codified
+at 49 U.S.C. 44809 [see https://www.federalregister.gov/documents/2019/05/17/2019-10169/exception-for-limited-recreational-operations-of-unmanned-aircraft for more details]. Recreational flyers, under Section 349, are
+referred to as “recreational flyers or modeler community-based organizations” [see https://www.faa.gov/uas/recreational_flyers]. In previous notes including other documents of the Agency, these terms are often interchanged.
+
+57
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+reational uses, and underlying demand for unmanned aircraft services. However, we do not include the effects of proposed rules or introduced legislation until they are published or enacted,
+respectively. The forecasts for UAS and AAM are supported by analyses of recent survey findings,
+data on imported equipment, remote pilots, and waivers and exemptions of UAS. The section also
+provides analysis and forecasts of large UAS. Finally, an analysis of AAM is provided together
+with some initial projections drawn from FAA-sponsored and other research including government
+and industry reports.
+Trends in Recreational/Model Aircraft
+
+FAA’s online registration system for recreational/model small unmanned aircraft systems (sUAS)
+went into effect on December 21, 2015 and requires all recreational operators of UAS weighing
+between 0.55 pounds (or 250 grams) and 55 pounds (or 25 kilograms) to be registered using the
+online system or the existing (paper-driven) aircraft registry. 31 Initially, only operators were required to register regardless of the number of sUAS operated. However, the Remote ID rule (fully
+enforced as of March 16, 2024), requires most recreational/model aircraft weighing over 0.55 lbs.
+to broadcast identification and location information, effectively requiring registration of these aircraft. Recreational operators can still fly their sUAS without registering the aircraft if they operate
+in an FAA-Recognized Identification Area (FRIA) with an operator’s registration.
+With the continuing operator’s registration, over 1.66 million (new) recreational sUAS operators
+had already registered cumulatively with FAA by end of December of 2025. 32 On average, new
+owner registrations were 4,782 per month for CY2025 with some expected peaks during the holiday seasons and summer. In comparison, CY2024 and CY2023 new owner registrations averaged
+approximately 5,810 per month and 6,053 per month, respectively, and thus signifying a downward
+trend in registrations.
+The decline in year-over-year new operator registrations is accompanied by a decreasing number
+of registrants cancelling their registrations or allowing their registrations to expire without renewal.
+Cancellations and expirations peaked at 16,348 per month in CY2023 and have declined over the
+last two years: 7,750 per month in 2024 and over 7,689 per month in 2025. Although the cancellations and expirations have been declining, they still exceed the number of new registrants. The
+total number of registrations was reduced by 2,133 per month in CY2024 and 2,907 per month in
+
+31
+
+Federal Aviation Administration, "Register Your Drone," FAA.gov, accessed April 21, 2026,
+https://www.faa.gov/uas/getting_started/register_drone.
+
+32
+
+For our estimate and projections using the registration database, applied to recreational, commercial/Part 107
+and remote pilots, we use only those who are registered in the U.S. and its territories for the period January –
+December 2024. Furthermore, we draw a clear distinction between new registrations, cancellations, and renewals in this document.
+
+58
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+CY2025. These trends suggest that the operation of sUAS for recreational purposes may be on the
+decline.
+Though recreational operator’s registrations are declining, the recreational aircraft registry and the
+Survey of UAS Operators indicate an increase in number of aircraft per operator. In 2024, the
+average number of registered aircraft per operator was 0.97. In 2025, this number increased nearly
+30.0 percent to 1.26 registered aircraft per operator. Similarly, a tally of recreational operator responses to The Survey of UAS Operators shows an average of 3.8 registered aircraft per operator
+in CY2024 versus 4.9 aircraft in CY2025 for a 29.0 percent year-over-year increase. This suggests
+that the fleet operated by registered operators has likely grown even as the total number of registered operators has decreased.
+In past forecasts, FAA has reported the total number of possible sUAS in circulation. However,
+this definition differs from the definition of an active fleet in other sections of this report. To
+conform the definitions of the sUAS section with other sections, we define the recreational sUAS
+fleet as an active fleet, which means the aircraft must have operated within the reported year.
+Similar to previous years, a high, base, and low fleet size estimate is prepared to account for estimation uncertainty. The high estimate could be interpreted as all aircraft in circulation regardless
+of whether it has been used while the low estimate assumes only one operational aircraft per registered recreational operator. The base estimate uses several sources to produce our best estimate
+of the total number of active recreational aircraft within the United States.
+Active Recreational sUAS by Month
+(Actual through December 2025)
+2,000,000
+Actual
+
+Forecast
+
+Number of Aircraft
+
+1,800,000
+1,600,000
+1,400,000
+1,200,000
+
+2030-Jul
+
+2030-Jan
+
+2029-Jul
+
+2029-Jan
+
+2028-Jul
+
+2028-Jan
+
+2027-Jul
+
+2027-Jan
+
+2026-Jul
+
+2026-Jan
+
+2025-Jul
+
+2025-Jan
+
+2024-Jul
+
+2024-Jan
+
+1,000,000
+
+Even though we do not have direct reports of the active fleet of UAS operators, survey responses
+provides an estimate of the average number of aircraft operated. In 2025, Part 48 recreational
+registrants with two or fewer aircraft operated 3.3 aircraft on average while registrants with 3 or
+59
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+more aircraft operated 5.8 aircraft. Roughly 0.8 of those aircraft are less than 0.5lb or greater than
+55lb for each type of registrant. Thus, the average number of aircraft operated per registrant in
+2025 was 2.8 and 5.0, respectively. In 2025, there were roughly 296,277 registrants with two or
+fewer aircraft registered in the Part 48 recreational registry and 26,802 registrants with more than
+two aircraft registered. Applying the average number of sUAS operated in 2025 to the number of
+registrants by type, we estimate that 1.59 million active aircraft in 2025. Using a similar methodology, we estimate that the 392,359 Part 48 recreational registrants operated 1.79 million aircraft
+in 2024. As such, the active fleet has dropped by 11.0 percent between 2024 and 2025.
+Given the downward trend in both operator registrations and active aircraft, we expect the active
+fleet of sUAS to decrease into the coming years before rebounding over the five-year forecast
+horizon. By 2030, we expect roughly 373 thousand recreational operators to have an active fleet
+of 1.63 million sUAS. This equates to a 1.0 percent compound annual growth rate (CAGR) over
+the five years, even though the active fleet is predicted to bottom in 2027.
+Total Recreational/Model Fleet
+(Million sUAS units)
+Calendar Year
+Low*
+Historical
+2025
+0.41
+Forecast
+
+2026
+2027
+2028
+2029
+2030
+
+0.39
+0.39
+0.40
+0.41
+0.43
+
+Base**
+1.55
+
+High***
+1.93
+
+1.46
+1.44
+1.47
+1.53
+1.62
+
+1.97
+2.00
+2.01
+2.03
+2.04
+
+*': effective counts of operators combined with previous forecast’s multiplicity of craft ownership
+**': effective counts of operators combined with active aircraft reported in Survey of UAS Operators
+***': new registration counts combined with previous forecast’s multiplicity of craft ownership
+
+However, given the possible sources of error from the Survey of UAS Operators, it is possible that
+the true active fleet is much larger or much smaller than our baseline forecast. As such, we bracket
+our forecast with high and low estimates. The high estimate is calculated using the cumulative
+sum of new Part 48, recreational registrants with the assumption from our previous forecasts that
+each registrant owns 1.16 aircraft on average. In this case, the number of possible active aircraft
+is 1.93 million in 2025, a CAGR of 1.1 percent. We estimated it could grow to as much a 2.04
+million by 2030. The main assumption in the high estimate is that registrants never quit flying
+sUAS recreationally. As such, it is a reasonable upper limit for the total number of active aircraft.
+Similarly, the low estimate is calculated by finding the active Part 48, recreational registrants and
+applying the assumption of 1.16 aircraft per registrant. In this case, there were 0.41 million active
+60
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+aircraft in 2025. We estimate this to grow to 0.43 million by 2030, a CAGR of 0.8 percent. The
+low forecast is constrained by the 1.16 active aircraft per registrant and is lower than the 1.26 ratio
+of registered Part 48 recreational aircraft to active registrant. As such, this provides a reasonable
+lower limit to the number of active sUAS.
+Notice the eventual saturation point in the high and the return to the saturation point in both the
+baseline and the low scenarios, which reflected a transitional period before return to the market
+limit. However, the continued drop in new registrations combined with higher expirations and
+cancellations could be the market returning to pre-pandemic levels by shedding the less enthusiastic recreational operators. 33 If this is the case, we should expect the new operator registrations
+to be above the expirations and cancellations by 2027, but the new registrations continue to fall.
+As such, next year’s forecast should provide additional information for which direction the recreational/model sUAS market is heading.
+
+Trends in Commercial/Nonrecreational Aircraft
+
+Online registration for commercial/nonrecreational sUAS went into effect on April 1, 2016. Unlike recreational/model ownership, rules for commercial registration require owners to register
+each unmanned aircraft, thus creating a one-to-one correspondence between registration and aircraft. Over a million aircraft have been registered in the Part 107 registry since it opened, consisting of a wide variety of manufactures, sizes, and models.
+During the period of January – December 2025, more than 126,000 commercial operators registered new equipment. In comparison, during the period of January – December 2024, more than
+135,000 commercial operators registered their new equipment. The pace of monthly new registration in 2025, at around 10,500, is lower than monthly registrations of 11,300 during 2024 which
+was higher than those observed during 2023 at 10,409. This suggests that new registrations peaked
+in 2024 and are now trending downward into the future.
+Though new registrations seemed to have peaked in 2024, expirations and cancellations of current
+registrations are growing. Expirations and cancellations grew from an average of 8,110 per month
+in 2024 to 8,510 per month in 2025, a 5.0 percent increase. This increase trend continues from
+2023, which had only 6,670 expirations and cancellations per month and was the trough for this
+data series. However, the growth in expirations and cancellations is likely to reflect the total number of aircraft registered in the Part 107 registry. The portion of the registry which was cancelled
+or expired was 22.1, 24.3, and 24.1 percent for 2023, 2024 and 2025, respectively. As such, the
+increase in expirations and cancellations is likely to be due to the increase in the aircraft in the Part
+107 registry more than operators exiting the market.
+33
+
+It is quite likely that many users were buying and experimenting with recreational sUAS given the COVID19 public health emergency and the substantial portion of individuals working from home. This trend may have
+momentarily increased demand for recreational sUAS operations above the long-run demand.
+
+61
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Although new registrations are trending downward while expirations and cancellations are growing, on net the Part 107 registry is growing. In 2025, the registry grew by almost two thousand
+aircraft per month. However, this was down compared to 2023 and 2024, which grew by 3,740
+and 3,160 per month, respectively. This downward trend seems to be driven primarily by the fall
+in new aircraft registrations, given that the expirations and cancellations seem to be a function of
+the active registrations. As such, the Part 107 registry had roughly 424 thousand active registered
+aircraft at the end of 2025, an increase of 24 thousand aircraft from 2024.
+
+600,000
+500,000
+400,000
+300,000
+200,000
+
+Actual
+
+100,000
+
+Forecast
+
+2030-Jul
+
+2030-Jan
+
+2029-Jul
+
+2029-Jan
+
+2028-Jul
+
+2028-Jan
+
+2027-Jul
+
+2027-Jan
+
+2026-Jul
+
+2026-Jan
+
+2025-Jul
+
+2025-Jan
+
+2024-Jul
+
+0
+2024-Jan
+
+Active Non-Model Registrations
+
+Active Non-Model Registrations of sUAS
+(Actual through December 2025)
+
+Like the recreational sUAS, there is uncertainty over which aircraft are actively operated, and we
+provide a high, base, and low forecast for the non-recreational aircraft. The high forecast assumes
+that no registered aircraft is removed from operations and is calculated as the cumulative sum of
+all new registrations. As such, the high forecast provides a reasonable overestimation of the true
+active aircraft. Conversely, the low forecast assumes continuing growth in expirations and cancellations along with a decline in the new registrations creates saturation in the market. This provides a reasonable low limit of the active flight. In the base forecast, we assume a portion of the
+expirations will return to the registry over time, increasing the growth of the baseline relative to
+the Low forecast.
+
+62
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Nonrecreational Active Fleet
+(sUAS units)
+Calendar Year
+Low*
+Historical
+2025
+424,516
+Forecast
+
+2026
+2027
+2028
+2029
+2030
+
+443,860
+455,680
+463,127
+468,229
+470,039
+
+Base**
+424,516
+
+High***
+1,074,451
+
+457,437
+484,154
+506,644
+525,422
+540,845
+
+1,170,593
+1,258,383
+1,340,109
+1,417,922
+1,491,153
+
+*': effective/active fleet based on growth of expirations and cancellations
+**': effective/active fleet based on expirations and cancellations are a portion of total fleet
+***': cumulative new registration counts
+
+In the base forecast, we expect the Part 107 registry to grow from 424 thousand aircraft in 2025 to
+540 thousand by the end of 2030, a 5.0 percent CAGR. In this forecast, falling new registrations
+begin to flatten out by 2030 while proportional expirations and cancellation remain steady, allowing continuing growth but at a slower pace. Greater than expected growth in new registrations
+compared to last year’s forecast has increased the trajectory of the forecast to improve the fit to
+the data. As such, we expect the cumulative new registrations to grow from 1.07 million registrations in 2025 to 1.49 million registrations by the end of 2030, a 6.8 percent CAGR. For the low
+forecast, the active fleet grows from 424 thousand aircraft in 2025 to 470 thousand in 2030, a
+3.0 percent CAGR. However, by 2030, the growth rate falls to near zero (0.3 percent) as expirations and cancellations overtake the new registrations.
+In this year’s forecast FAA aligns the base forecast to the definition of active fleet. Thus, the base
+forecast has shifted more toward the low forecast to account for this change. As such, uncertainty
+to the upside of the active fleet is much larger than last year's forecast, reflecting that the actual
+nonrecreational active fleet could be much higher than the active registrations in the Part 107 registry. Survey of UAS Operators results support this conclusion with most Part 107 operators with
+a registered aircraft operating at least one aircraft in 2025.
+Another point of uncertainty in this forecast is that new rules could be published between the
+publication of the report and the next Aerospace Forecast. The current forecasts assume no change
+to the current rules for sUAS. However, new rules regarding sUAS could have dramatic effects on
+the Part 107 registry. New categories of operations or new registries could change where new and
+existing registrants choose to register or the benefits from operating this type of aircraft. As such,
+the Part 107 registry could grow or shrink over the next year in ways that are unexpected.
+
+63
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+2025 UAS Operator Survey Preliminary Results
+
+FAA requires a comprehensive understanding of Unmanned Aircraft System (UAS) fleet characteristics, flight profiles, and operations within the National Airspace System (NAS). Unlike commercial aviation, which is subject to statutory reporting, UAS primarily operate outside of airport
+environments and often within uncontrolled airspace without mandatory activity reporting. Consequently, reliable operational data is limited, which can hinder efforts to effectively integrate
+these systems into the NAS. Data presented in this report are preliminary and subject to later
+adjustment; full detail and analysis are available in the Compendium to FAA Aerospace Forecast
+FY 2026-2046 Emerging Aviation Entrants: Unmanned Aircraft Systems and Advanced Air Mobility published in late 2026. 34
+FAA conducts an annual survey of UAS operators to gain insight into UAS activities within the
+NAS. 35 To improve estimation accuracy, two sampling procedures were adjusted in the 2025
+survey. First, registered UAS operators were sampled based on the number of registered aircraft
+(two or fewer or greater than two). Second, all operators with foreign addresses were segregated
+and sampled independently as a foreign population.
+The survey frame was constructed from the recreational and Part 107 registries, with a total of
+321,696 invitations distributed. The overall response rate was 22 percent with just under 70,000
+total respondents. Response rates varied by registry, with 23 percent of recreational registrants
+responding, 21 percent of Part 107 registrants, and 14 percent of registrants with a foreign address.
+Respondents represented 101 countries, 58 states or state equivalents, and 2,193 counties.
+All respondents were asked to report their total number of flights conducted in 2025, with a flight
+defined as a takeoff and a subsequent landing. Recreational respondents were partitioned by three
+primary groups. First, the stratum of registered aircraft (n=34,270) with 48 percent of respondents
+with two or fewer registered aircraft, and 52 percent with greater than two registered aircraft. Second,
+for those reporting annual flights greater than zero (n=28,815), 74 percent were classified as operating "outside flying sites" and 26 percent were classified as operating "within flying sites." Third,
+of those who provided self-identification (n=25,473), 71 percent identified exclusively as drone
+and not model aircraft operators, 17 percent as model aircraft operators and not drone operators, and
+10 percent as both model aircraft and drone operators. Respondents were classified as either “inside
+flying site” when 50 percent or greater of their reported annual flights were within flying sites or
+“outside flying site” when less than 50 percent of their reported annual flights were within flying
+sites. Two types of flying sites designations exist; first, FAA-Recognized Identification Areas
+(FRIAs) 36 that numbered 2,655 by the end of 2025, and second, Recreational Flyer Fixed Sites 37
+34
+
+See www.faa.gov/data_research/aviation/aerospace_forecasts accessed 15 April 2026.
+
+35
+
+36
+
+See the Small Unmanned Aircraft Systems Survey Report 2025 for details of the survey design.
+See www.faa.gov/uas/getting_started/remote_id/fria accessed 15 April 2026.
+
+37
+
+udds-faa.opendata.arcgis.com/datasets/faa::recreational-flyer-fixed-sites/about accessed 15 April 2026.
+
+64
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+that numbered 2,172 by the end of 2025. A single physical location can be granted both site designations. Approximately 1,660 sites have both designations, approximately 1,000 sites have only
+the FRIA designation, and approximately 500 sites have only the Recreational Flyer Fixed Site
+designation, this results in approximately 3,180 unique flying site locations.
+The data indicates that model aircraft operators represent a distinct group with unique fleet and
+flight characteristics. These respondents typically own and operate more aircraft, conduct more
+annual flights, operate for shorter durations, and utilize heavier, fixed-wing aircraft compared to
+those who identify as drone and not model aircraft operators. The added stratum aided differentiation as well. It is important to note that aircraft registration rules do not perfectly align with the
+broader survey questions regarding aircraft ownership, though a correlation exists.
+Mean Aircraft Owned and Operated by Recreational Operator Groups
+Recreational Partition
+Aircraft Owned (M)
+Aircraft Operated (M)
+Aircraft =< 2
+3.6
+3.3
+Aircraft > 2
+6.1
+5.8
+Inside Flying Site
+12.8
+10.7
+Outside Flying Site
+2.8
+2.5
+Drone and Model
+11.1
+9.8
+Drone Not Model
+1.8
+1.8
+Model Not Drone
+13.5
+11.5
+
+Mean Flights, Flight Time, and Operating Altitude by Recreational Operator Groups
+Recreational Partition Total Annual
+Flying Site
+Minutes per
+Operating Altitude
+Flights (M)
+Flights (M)
+Flight (M)
+in Feet (M)
+Aircraft =< 2
+44
+19
+18
+197
+Aircraft > 2
+66
+36
+16
+204
+Inside Flying Site
+133
+126
+12
+235
+Outside Flying Site
+43
+1
+18
+189
+Drone and Model
+97
+56
+12
+192
+Drone Not Model
+25
+3
+18
+187
+Model Not Drone
+141
+119
+9
+239
+
+Part 107 respondents were asked to report both nonrecreational and recreational flights. Historical
+trends continue to show that a significant portion of Part 107 operators conduct exclusively recreational flights. In 2025, 65.5 percent of operators, referred to as "core Part 107”, reported at least
+one nonrecreational flight, while 26.7 percent reported exclusively recreational flights and 7.8 percent reported zero flights. As with the recreational operators, the number of registered aircraft was
+added as a stratum to the Part 107 operators. This resulted in 65.7 percent of Part 107 respondents
+with two or fewer aircraft and 34.3 percent with greater than two. Core Part 107 operators with
+65
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+greater than two registered aircraft reported substantially higher annual flight volumes and aircraft
+ownership compared to those with smaller fleets.
+Core Part 107 respondents also indicated activity levels across various industries using a five-point
+scale. Operators with more than two registered aircraft reported higher activity levels in nearly all
+industries, with the most significant differences appearing in law enforcement and emergency response, education, utilities and telecommunications, and construction. For those representing
+emergency response (ER) organizations, 95.0 percent indicated involvement in more than one type
+of ER activity. The most common ER activities included search and rescue, training, tactical support, and natural disaster response.
+Core Part 107 Mean Aircraft Owned and Operated by Operator Group
+Part 107 Partition
+Aircraft Owned (M)
+Aircraft Operated (M)
+(Core Part 107)
+Aircraft =< 2
+Aircraft > 2
+
+3.4
+8.0
+
+2.7
+5.8
+
+Mean Flights, Flight Time, and Operating Altitude by Part 107 Operator Group
+Part 107 Partition
+Nonrecreational
+Recreational
+Minutes per
+Operating AltiFlights (M)
+Flights (M)
+Flight (M)
+tude in Feet (M)
+Aircraft =< 2
+72
+25
+24
+221
+Aircraft > 2
+255
+51
+24
+229
+Core Part 107
+206
+33
+24*
+224*
+Exclusively Recreational
+0
+46
+29**
+171**
+* For nonrecreational flights only
+** For recreational flights only
+
+The 2025 survey established foreign operators as a specific population, defined as those with a
+registered foreign address who primarily reside outside the United States. Response rates for this
+group were notably lower, one contributing factor to this could be a language barrier as the survey
+was available exclusively in English. These operators represented 100 countries, with over 50
+percent originating from Canada, Germany, the United Kingdom, France, and Mexico. Flight
+activity for this group was primarily concentrated in California, Florida, and Arizona.
+Foreign recreational operators were more likely to operate outside of designated flying sites compared to domestic operators, with 85 percent falling into that category. In addition, 90.0 percent
+identified as drone and not model aircraft operators and 4.0 percent as model aircraft and not drone
+operator, increasing this gap compared to domestic operators. Among foreign Part 107 registrants,
+41.0 percent reported conducting zero flights in 2025, a much higher percentage than the 8.0 percent reported by domestic Part 107 operators. Generally, foreign operators who did fly reported
+fewer annual flights than their domestic counterparts.
+
+66
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Mean Flights, Flight Time, and Operating Altitude by Foreign Recreational Operator Groups
+Recreational Partition
+Total Annual
+Flying Site
+Minutes per Operating Altitude in
+Flights (M)
+Flights (M)
+Flight (M)
+Feet (M)
+Inside Flying Site
+Outside Flying Site
+Drone and Model
+Drone Not Model
+Model Not Drone
+
+96
+37
+205
+14
+73
+
+74
+1
+112
+1
+50
+
+17
+19
+24
+17
+11
+
+274
+201
+237
+196
+320
+
+Mean Flights, Flight Time, and Operating Altitude by Foreign Part 107 Operator Group
+Part 107 Partition
+Nonrecreational Recreational
+Minutes per
+Operating Altitude
+Flights (M)
+Flights (M)
+Flight (M)
+in Feet (M)
+Core Part 107
+169
+22
+23*
+252*
+Exclusively Recrea0
+23
+30**
+196**
+tional
+* For nonrecreational flights only
+** For recreational flights only
+
+This preliminary analysis reveals that UAS operating groups are more varied and differentiable
+than previously understood. The methodological improvements in the 2025 survey, particularly
+the inclusion of aircraft registration stratum and a foreign operator population, provide critical insights into groups of interest. These data points allow FAA to better serve the public and make
+informed decisions to improve the safety and integration of the National Airspace System.
+Remote Pilot Forecast
+
+An important final metric in commercial sUAS is the trend in remote pilot (RP) certifications.
+RPs 38 are used primarily to facilitate commercial and public use (i.e., law enforcement and first
+responder) sUAS flights, as discussed in the preceding section. As of December 2025, over 493
+thousand RP certifications had been issued, an increase of over 70 thousand from December 2024.
+Approximately three-quarters (78.0 percent) of the RPs have only a Part 107 RP certificate, while
+the remainder (22.0 percent) have a Part 107 RP certificate along with a Part 61 pilot certificate.
+Over 90.0 percent of those who took the exam passed and obtained RP certification. 39
+The RP forecasts presented below are based on three primary data sources: (a) trends in total RPs;
+(b) renewal trends; and (c) trends in commercial sUAS registration, or Part 107 and forecasts of
+38
+
+In our accounting of RPs, we take pilots who passed the initial knowledge test (or Part 107), plus current
+traditional pilots who took online training in lieu of the knowledge test (or Part 61).
+
+39
+
+Comparing data from last year, we notice that RP numbers have been revised downwards, by around 4,000
+(or around -2.0%), over the entire program period. This is due to data clean up throwing out duplicate data and
+wrong data entry noticed during renewal.
+
+67
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+fleet. In this context, it is important to note that the empirical relationship between trends in RP
+and commercial/Part 107 sUAS registration, particularly new registration, has changed in the past
+few years with a decline in the ratio of units registered to RPs. Given the trends in registration and
+our forecast of the commercial sUAS fleet (i.e., base forecasts), FAA assumes that the trend in
+remote pilots to units of commercial sUAS will remain at its 2025 level of 1.16 per active registration in the Part 107 registry.
+Using these assumptions combined with the base scenario of the commercial/Part 107 sUAS forecast, FAA projects RPs in the graph below. Last year, FAA projected RPs to be a little under
+433,000 by the end of 2025. Actual registrations by the end of 2025 totaled 493,396 (or over
+60,000 more than last year’s projection) thus the number of actual RPs exceeded last year’s projection by 13.9 percent for 2025.
+Given the actual numbers at the end of 2025, RPs are set to experience tremendous growth following the growth trends of the commercial (or Part 107) sUAS sector. Starting from the base of
+493,396 RPs in 2025, the expected growth in commercial activities leads to a 28.0 percent increase
+in the total number of RPs by 2030 (628,600), showcasing tremendous opportunities for growth in
+employment—over 135 thousand new RP opportunities—associated with commercial and public
+use activities of sUAS. The potential for RPs is likely to increase as larger UAS are used in commercial activities and advanced air mobility (AAM) starts operations.
+
+Number of Remote Pilots (000s)
+
+Remote Pilot Forecast - Calendar Year
+(in thousands)
+700
+600
+
+532
+
+563
+
+589
+
+611
+
+629
+
+2029
+
+2030
+
+500
+493
+
+400
+300
+
+423
+358
+
+200
+100
+0
+2023
+
+2024
+
+2025
+
+2026
+Actual
+
+2027
+Forecast
+
+68
+
+2028
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Large UAS
+
+Part 107 limits the gross takeoff weight of unmanned aircraft (or sUAS) to below 55 lbs. Thus,
+unmanned aircraft with gross takeoff weights above 55 lbs. must operate under separate rules and
+are considered a separate category of UAS, which we refer to as simply large UAS (lUAS) for this
+analysis. Since these lUAS are not type certified and do not fall under the Part 107 operating rules,
+operation of these aircraft requires a section 49 U.S.C § 44807 exemption or a public aircraft operator (PAO) certification. 40 In addition, FAA requires lUAS operating under a 44807 exemption
+or PAO to receive a tail number by registering the unmanned aircraft in the Part 47 aircraft registry. 41
+FAA has been granting 44807 exemptions since their introduction in FAA Reauthorization Act of
+2018. Both applications for a 44807 exemption by individuals and organizations and the decisions
+by FAA are publicly available. 42 Since 44807 exemptions are required to operate a lUAS for
+commercial purposes, these exemptions are a leading indicator of both the purchases, which increase the fleet, and the operations of civilian lUAS. The 44807 exemption was slated to sunset
+in May of 2024, but FAA Reauthorization Act of 2024 extended the 44807 exemption’s sunset to
+the end of September 2033. 43 In past forecasts, the count of new 44807 exemptions were a reasonable leading indicator of the future of the lUAS fleet. However, falling new exemptions coupled with increasing registration of new lUAS suggest this is no longer the case while other leading
+indicators, such as imports of lUAS, have been shown to provide more predictive power for the
+forecast. It is likely that many operators are expecting new rules on the horizon and are waiting
+for these rules to be published rather than seeking an exemption.
+Imports of lUAS have been increasing since U.S. Customs started collecting this data in 2022.
+However, in 2025 the number of lUAS imported into the United States drop from 5,144 in 2024
+to 3,787 in 2025. This suggests that demand for lUAS could be temporarily slowing into the future.
+Several reasons could explain this shift, from delaying lUAS purchases in expectation of rule
+changes to policy or market uncertainty. Regardless of the reason, FAA expects a temporary slowing in the growth of these aircraft.
+
+40
+
+Federal Aviation Administration. (n.d.). Section 44807 - Special Authority for Certain Unmanned Aircraft
+Systems. U.S. Department of Transportation. https://www.faa.gov/uas/advanced_operations/certification/section_44807. Accessed April 21, 2026.
+41
+
+Federal Aviation Administration. (2025, September 9). Aircraft registration. https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry. Accessed April 21, 2026.
+42
+
+All 44807-exemption applications and decisions are available at regulations.gov in the “Other” category.
+
+43
+
+Continuing Appropriations Act, 2024 and Other Extensions Act, H.R. 5860, 118th Cong. (2023).
+https://www.congress.gov/bill/118th-congress/house-bill/5860/actions. Accessed April 21, 2026.
+
+69
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Large UAS Imports into the U.S. (Calendar Year)
+
+Number of Large UAS Imports
+
+6,000
+5,000
+
+5,144
+
+4,000
+
+3,787
+3,000
+
+3,100
+
+2,000
+
+1,713
+1,000
+0
+
+2022
+
+2023
+
+2024
+
+2025
+
+Since lUAS are required to register with the Part 47 aircraft registry, we can use this registry to
+estimate the lUAS active fleet. Using the Aircraft Reference file from the publicly available Part47 aircraft registry, FAA identifies the lUAS in the Aircraft Registration Master file and the Deregistered Aircraft file from which it can calculate the active fleet of lUAS. 44 In 2025, 4,753 new
+lUAS aircraft were added to the Part 47 aircraft registry, a 70 percent increase from 2024. Ten
+percent (440) of aircraft registered at the end of 2024 were delisted in 2025, producing an active
+fleet of 8,637 lUAS by the end of 2025.
+Unlike previous year, the agricultural-spraying lUAS did not dominate the new registrations in the
+Part 47 aircraft registry. New agricultural-spraying lUAS dropped from 1,432 in 2024 to 592 in
+2025, at 58.7 percent decrease even as other non-agricultural lUAS increase from 1,368 to 4,161
+over the same period, a 204 increase. 45 This suggests a slowdown in the fastest growing segment
+of the lUAS market, again indicating there will likely be a temporary slowdown in growth.
+
+44
+
+The Public Aircraft Registry data for 2022 is available at https://bit.ly/433iqET. Unmanned aircraft are separated from crewed aircraft using the “NO-SEATS” field in the Aircraft Reference file. The “AC-WEIGHT” field
+is used to remove all small unmanned aircraft, and the “TYPE-ACFT” field is used to remove all lighter-thanair aircraft, including blimps and balloons. The remaining codes – held within the “CODE” field – are matched
+with the “MFR MDL CODE” in the Aircraft Registration Master file and the Deregistered Aircraft file and
+adjusted based on the “STATUS CODE” field. The remaining aircraft are sorted for the year they registered
+using the “CERT ISSUE DATE” or “LAST ACTION DATE”. The count of new registration, older registrations,
+and delisted registrations are used to construct the active lUAS fleet.
+45
+
+Several new manufactures of agricultural-spraying large UAS had new aircraft added to the Part 47 aircraft
+registry. As such, FAA expanded the list of makes and models that are included in the agriculture large UAS
+estimations.
+
+70
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+With slower imports and a pullback in the growth of agricultural-spraying lUAS, FAA expects
+new lUAS in the next couple of years to continue to grow, albeit at a slower pace compared to the
+previous year’s forecast. As such, we expect the lUAS fleet to grow from 8,295 aircraft in 2025
+to 55,509 in 2023, a 46.3 percent CAGR.
+Large UAS Active Fleet (Calendar Year)
+
+Large UAS Active Fleet
+
+60,000
+55,509
+
+50,000
+40,000
+
+44,477
+
+30,000
+
+32,490
+
+20,000
+
+21,992
+
+10,000
+
+13,987
+8,295
+
+0
+2025
+
+2026
+
+2027
+
+Actual
+
+2028
+
+2029
+
+2030
+
+Forecast
+
+Though the active fleet can be observed from the Part 47 aircraft registry, the operations of lUAS
+are more difficult to observe. In previous years, the majority of registered lUAS were agricultural
+spraying aircraft, which meant most operations were close to the ground. However, with the slowing in new agricultural-spraying lUAS and an increase in non-agricultural lUAS, operations of this
+segment of aircraft could increase density of overall aviation operations in the NAS. As such,
+FAA has expanded the Survey of UAS Operators to improve our understanding of these operations. We expect this data to be available in future forecasts.
+
+71
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Number of Part 147 Large UAS
+
+Projected Large UAS in the Part 147 Aircraft Registry
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+0
+(10,000)
+2022
+Continued
+
+2023
+
+Added
+
+2024
+
+Removed
+
+2025
+
+2026
+
+Continued (P)
+
+72
+
+2027
+
+2028
+
+Added (P)
+
+2029
+
+2030
+
+Removed (P)
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+Advanced Air Mobility
+
+AAM is an umbrella term for aircraft weighing more than 1,320 pounds, implementing “advanced
+technologies, such as distributed propulsion, vertical takeoff and landing, powered lift, nontraditional
+power systems, or autonomous technologies,” and transporting passengers or cargo between two
+locations.46 AAM is split into two sub-categories: Urban Air Mobility (UAM) and Regional Air
+Mobility (RAM). UAM focuses on operations within dense urban environments, typically requiring
+powered-lift aircraft capable of vertical takeoff and landing. Conversely, RAM focuses on connecting
+rural communities and regional hubs. Unlike the novel flight profiles of UAM, RAM adapts AAM
+technologies to more conventional and traditional operations such as passenger and cargo transport.
+To prepare for the safe and efficient integration of AAM operations into the NAS, FAA led several
+initiatives including the release of FAA UAM CONOPS Version 2.0 in April 2023, as well as the
+publication of FAA AAM Implementation Plan and the issuance of the final rule that adds the
+“powered-lift” definition to the regulations covering certain air carrier and commercial operations, both
+in July 2023. More recently, in November 2024 FAA issued the final rule establishing the
+requirements for pilot certification and powered-lift operations and published an updated engineering
+brief for vertiport design standards in December 2024. In June of 2025, the executive order
+“Unleashing American Drone Dominance” was issued, which established an eVTOL pilot program.47
+This created a public-private partnership to accelerate the deployment of safe and lawful eVTOL
+operations in the United States including advanced air mobility, medical response, cargo transport and
+rural access.
+Despite a challenging environment from a wave of consolidations, several AAM Original Equipment Manufacturer (OEMs) including Joby Aviation, Archer Aviation, and Beta Technologies
+have made significant progress toward entry into service (EIS) and are planning to launch operations in the 2026-2027 timeframe. These OEMs have either entered or are close to entering the
+final phases of aircraft certification.
+Drawing from FAA-sponsored AAM demand research conducted by The MITRE Corporation
+(MITRE), 48 a NAS-wide AAM demand forecast starting from Year 1 (defined as the EIS year 49
+for the first expected AAM use case in the U.S.) through Year 6 (five years after EIS) is shown in
+the table below:
+
+46
+
+Federal Aviation Administration Reauthorization Act of 2024, sec. 951.
+
+47
+
+Executive Order 14307: www.whitehouse.gov/presidential-actions/2025/06/unleashing-american-dronedominance/
+48
+
+“Advanced Air Mobility Demand Forecast for the National Airspace System”, The MITRE Corporation,
+MP250135, Mclean, VA, March 2025.
+
+49
+
+Year 1 does not have a definitive calendar year assigned as the timing for AAM operations to be granted EIS
+in the U.S. is still uncertain and is dependent on several external factors beyond the scope of the AAM demand
+research.
+
+73
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+NAS-wide AAM Demand Forecast
+(Includes Airport Shuttle, Commuter Air Taxi, Cargo Feeder, and Medical Interfacility Transport)
+Year
+Number of Markets
+Total Fleet
+Annual Trips
+2
+7
+24,600
+1
+8
+30
+111,600
+2
+15
+80
+334,800
+3
+19
+169
+737,300
+4
+24
+254
+1,108,400
+5
+32
+367
+1,615,000
+6
+
+Unconstrained demand for AAM departures across the NAS is estimated to be 24,600 departures
+in its first full year, growing to over 334,000 departures annually by Year 3. As markets for AAM
+services mature, the NAS-wide demand could continue to accelerate and reach over 1.6 million
+departures annually by the end of Year 6 (or around 4,400 daily flights).
+Among the three most-likely AAM use cases, it is projected that initial operations in the U.S. will
+commence with airport shuttles in a few major cities and cargo feeder operations in sparsely populated areas of the Western U.S. or among island communities, followed by air taxis, and then
+medical interfacility transport. This is because airport shuttles will have the most robust passenger
+demand traveling between fixed and concentrated points of interest (i.e., airports and downtown
+areas). Similarly, cargo operations already have established routes and infrastructure that AAM
+aircraft could replace the current operations. Urban air taxi flights for commuters, on the other
+hand, will be spread across more routes depending on where commuters live and work. Lastly, air
+medical interfacility transport is expected to lag airport shuttle and air taxi services due to a lower
+level of operator interest currently, as well as potential requirements for retrofitting aircraft for
+medical-use, additional time needed for aircraft certification, and deployment of charging infrastructure to support these operations.
+The figure below shows the anticipated AAM departures for each forecast year, by use case.
+
+74
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Annual AAM Departures (in thousands)
+Annual AAM Departures (000s)
+
+1,800
+1,600
+1,400
+
+Airport Shuttle
+
+26
+
+Commuter Air Taxi
+
+180
+
+Cargo Feeder and Medical Interfacility Transport
+
+1,200
+
+17.4
+
+1,000
+
+123
+11.3
+
+800
+
+1,409
+
+62
+
+600
+6.8
+
+400
+2.8
+
+200
+0
+
+24
+Year 1
+
+968
+
+24
+
+4.8
+104
+
+304
+
+Year 2
+
+Year 3
+
+664
+
+Year 4
+
+Year 5
+
+Year 6
+
+The Airport Shuttle projections constitute the largest portion of the overall AAM forecasts for a
+couple of reasons. First, the Airport Shuttle is anticipated to be the initial AAM use case to be
+implemented, with demand increasing annually in tandem with the rise in airline passengers from
+the growing number of Metropolitan Statistical Areas that could adopt an AAM airport shuttle
+service. Secondly, the number and proportion of commuters likely to consider AAM are generally
+lower than the estimates for airline passengers.
+The fleet sizes required to support the projected departures for the four use cases were estimated
+by assuming each AAM aircraft would conduct 28 trips per day, on average (2 trips per hour over
+a 14-hour operating day) for the Airport Shuttle, Cargo Feeder, and Urban Air Taxi use cases and
+2.5 trips a day for Medical Interfacility Transport use case. The projected NAS-wide AAM daily
+trips and the estimated fleet sizes to support those trips are shown in the table below. Based on
+announcements of expected fleet production capacities from several AAM OEMs, the fleet sizes
+needed to support the number of trips should be attainable and not be a constraining factor.
+
+Year 1 (EIS) Year 2 Year 3 Year 4 Year 5 Year 6
+Daily Trips
+67
+306
+917
+2,020
+3,037
+4,425
+Fleet Size
+
+7
+
+30
+
+80
+
+75
+
+169
+
+254
+
+367
+
+

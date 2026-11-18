@@ -1,0 +1,604 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta charset="utf-8" /><meta http-equiv="content-language" content="en" /><title>
+	TDC - Projections
+</title><link href='/appresources/libman/bootstrap/css/bootstrap.min.css?v=639305623004596967' rel='stylesheet' /><link href='/appresources/libman/fontawesome/css/all.min.css?v=639305623004596967' rel='stylesheet' /><link href='/appresources/applib/applib.min.css?v=639305623004596967' rel='stylesheet' /><link href='/appresources/local.min.css?v=639305623004596967' rel='stylesheet' />
+	<link href="https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdn.datatables.net/fixedcolumns/5.0.5/css/fixedColumns.dataTables.css" rel="stylesheet" type="text/css" />
+
+	<style>
+	.main-content-wrapper section { padding: 0; }
+
+	.survey-list li { padding: .5rem 0; }
+	.download { vertical-align: middle; }
+	.download i { line-height: 24px; vertical-align: middle; }
+
+	#image-banner { background-image: url('/Images/Banners/TPEPP.jpg'); position:relative; display: flex; align-items:center; }
+	#image-banner  h1 { font-size: 36px; font-weight: 700; color: #2a1656; text-shadow: 2px 2px 4px #8e8b7c; margin: 0; }
+	#image-banner .image-banner-img { text-align:center; }
+
+	.citations h4 { font-size: 18px; }
+	.citations h5 { padding: 0; margin: 0; }
+	.citations span.long { word-break: break-all; }
+	.citations span.code { font-style: italic; color: #8f8e8e; }
+	.accordion-header button { font-weight: 600; }
+
+	.modal-header { padding-top: 0;  padding-bottom: 0; background-color: #bcb1e1; }
+
+	.faq-table th { background-color: #dae9f7; width: 33%; padding: .7rem; border: 1px solid #000; }
+	.faq-table td { padding: .7rem; border: 1px solid #000; vertical-align: top; }
+
+	.area-data-table .Title { font-weight: 600; font-size: 18px; }
+	.area-data-table th, .area-data-table td { white-space: nowrap; }
+	.area-data-table div.dataTables_wrapper { width: 800px; margin: 0 auto; }
+	.area-data-table td { font-size: 14px; }
+
+	.tpepp-download img { height: 26px; width: auto; display: none; margin-right: 7px; }
+	.tpepp-download.active, .tpepp-download.active:hover { color: #1b3fda; background-color: #edf3ec; }
+	.tpepp-download.active img { display: inline-block; }
+
+	#total-table-filters { display: flex; gap: 15px; }
+
+	</style>
+
+	
+	<style>
+		#image-banner { background-image: url('/Images/Banners/PeopleCrosswalk.jpg'); }
+	</style>
+
+</head>
+
+<body>
+
+	
+
+    <div class="container-xl">
+
+		<section id="brand-banner" class="row align-items-center">
+			<div class="col col-md-auto tdc-logo">
+                <div><a href="../"><img src="../Images/TdcLogo400.png" alt="Texas&#32;Demogaphic&#32;Center&#32;Logo" /></a></div>
+			</div>
+			<div class="col d-none d-md-block title">Helen You, Ph.D.<br /><span>Director, Texas Demographic Center</span></div>
+			<div class="col-auto">
+				<a class="pill icon" href="/Contact"><span class="fa-solid fa-envelope"></span><div>Contact Us</div></a>
+			</div>
+			<div class="col-auto">
+				<div class="d-lg-none"><button id="btn-search" data-bs-toggle="collapse" data-bs-target="#search-banner" aria-expanded="false" aria-controls="search-banner"><span class="fa-solid fa-magnifying-glass"></span></button></div>
+                <div class="d-none d-lg-block">
+				    <form method="get" action="/Search">
+					    <input type="search" name="q" placeholder="Search" />
+					    <button type="submit" aria-label="Search Website"><span class="fa-solid fa-magnifying-glass"></span></button>
+				    </form>
+			    </div>
+			</div>
+		</section>
+
+	    <section id="search-banner" class="row collapse">
+		    <form method="get" action="/Search">
+			    <div style="flex: 1 1 auto;"><input type="search" name="q" placeholder="Search" /></div>
+                <div><button type="submit"><span class="fa-solid fa-magnifying-glass"></span></button></div>
+			    <div><button type="button" data-bs-toggle="collapse" data-bs-target="#full-search" aria-expanded="false" aria-controls="full-search"><span class="fa-solid fa-xmark"></span></button></div>
+		    </form>
+	    </section>
+
+    </div>
+
+	
+	
+	<div id="image-banner">
+		<div class="container-xl">
+			<div class="row align-items-center">
+				<div class="col col-lg-6" style="background-color: #ffffffda; padding: 30px;">
+					<h1>Vintage 2024 Population Projections</h1>
+					Population projections for counties from 2020 to 2060.
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<nav id="main-menu" class="sticky-top">
+
+        <div class="container-xl lnk-proj" role="navigation">
+            <ul class="nav nav-fill" >
+                <li class="nav-item"><a class="nav-link lnk-home" data-menu-child="Main" aria-current="page" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link lnk-est" href="/Estimates">Estimates</a></li>
+                <li class="nav-item"><a class="nav-link lnk-proj" href="/Projections">Projections</a></li>
+                <li class="nav-item d-none d-sm-block"><button class="nav-link collapsed lnk-data" data-bs-toggle="collapse" data-bs-target="#mega-menu-data" aria-expanded="false" aria-controls="mega-menu-data">Data &amp; Geography<span class="fa-solid fa-angle-down"></span></button></li>
+                <li class="nav-item d-none d-md-block"><button class="nav-link collapsed lnk-lib" data-bs-toggle="collapse" data-bs-target="#mega-menu-library" aria-expanded="false" aria-controls="mega-menu-library">Library<span class="fa-solid fa-angle-down"></span></button></li>
+			    <li class="nav-item d-none d-md-block"><button class="nav-link collapsed lnk-about" data-bs-toggle="collapse" data-bs-target="#mega-menu-about" aria-expanded="false" aria-controls="mega-menu-about">About Us<span class="fa-solid fa-angle-down"></span></button></li>
+                <li class="nav-item d-md-none"><button class="nav-link collapsed btn-menu" data-bs-toggle="collapse" data-bs-target="#mega-menu-small" aria-expanded="false" aria-controls="mega-menu-small"><span class="fa-solid fa-angles-down"></span></button></li>
+            </ul>
+        </div>
+
+        <div id="mega-menu">
+
+            <div id="mega-menu-data" class="collapse item">
+                <div class="container-xl">
+                    <div class="row ps-5 pb-3">
+                        <div class="col-7">
+                            <div class="row">
+                                <div class="col title">
+                                    <span>Data &amp; Geography</span><br />
+                                    Find our latest decennial census information and data interactive tools.
+                                </div>
+                                <ul class="col-auto menu">
+                                    <li><a href="../Census/Decennial2030"><span class="fa-solid fa-arrow-right"></span>Census 2030</a></li>
+                                    <li><a href="../Census/Decennial2020"><span class="fa-solid fa-arrow-right"></span>Census 2020</a></li>
+                                    <li><a href="../Census/Decennial2010"><span class="fa-solid fa-arrow-right"></span>Census 2010</a></li>
+                                    <li><a href="../Interactive"><span class="fa-solid fa-arrow-right"></span>Interactive Maps & Tools</a></li>
+                                    <li><a href="../Geography"><span class="fa-solid fa-arrow-right"></span>Geographical Reference</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-5 right-image"><div class="bk-image bk-image-data"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mega-menu-library" class="collapse item">
+                <div class="container-xl">
+                    <div class="row ps-5">
+                        <div class="col-4 pb-3">
+                            <div class="row">
+                                <div class="col title">
+                                    <span>Library</span><br />
+                                    Find our latest data related products. 
+                                </div>
+                            </div>
+                             <div class="row">
+                                <ul class="col menu">
+                                    <li><a href="../Presentations"><span class="fa-solid fa-arrow-right"></span>Presentations</a></li>
+                                    <li><a href="../Reports"><span class="fa-solid fa-arrow-right"></span>Reports</a></li>
+                                    <li><a href="../Visualizations"><span class="fa-solid fa-arrow-right"></span>Visualizations</a></li>
+                                    <li><a href="../Webinars"><span class="fa-solid fa-arrow-right"></span>Webinars</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-8 pb-3 right-content">
+                            <h5>LATEST PRODUCTS</h5>
+                            <div id='' class='applib-contentlist applib-contentlist-full menu-content-items'><div class='items'><div class='item'><div class='item-wrap'><div class='item-img' aria-hidden='true'><a href='/Estimates'  class='img-size'><img src='/Resources/TDC/LatestUpdates/F97DB3CB-907B-4C9B-83C1-0A2D1E16F8FB/20261112_Estimates.png' alt='Graphic announcing that Vintage 2025 Population Estimates are now available'></a></div><div class='item-content'><div class='item-date'>November 12,2026</div><div class='item-title'><a href='/Estimates' >Final Vintage 2025 Population Estimates</a></div><div class='item-text'><p>Final population estimates for Texas counties and places are now available through January 1, 2026, along with county estimates by age, sex, and race/ethnicity for July 1, 2025. The Vintage 2025 release also includes revised estimates for 2021-2024 to reflect updates from the U.S. Census Bureau. See the methodology statement for details.</p></div></div><div aria-hidden='true'></div></div></div><div class='item'><div class='item-wrap'><div class='item-img' aria-hidden='true'><a href='/Census/Decennial2030/#luca'  class='img-size'><img src='/Resources/TDC/LatestUpdates/A693F4CC-6026-4B02-B1FF-0458B3F64F4B/20261112_LUCA.png' alt='U.S. Census Bureau Logo on a blue background'></a></div><div class='item-content'><div class='item-date'>November 12,2026</div><div class='item-title'><a href='/Census/Decennial2030/#luca' >Preparing for the 2030 Census</a></div><div class='item-text'><p>The U.S. Census released 2030 Census Local Update of Census Addresses (LUCA) operation. LUCA is a voluntary geographic partnership program that allows tribal, state, and local governments to review, correct, and update the U.S. Census Bureau’s master address list prior to a decennial census. Visit our page to learn more.</p></div></div><div aria-hidden='true'></div></div></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mega-menu-about" class="collapse item">
+                <div class="container-xl">
+                    <div class="row ps-5">
+                        <div class="col-4 pb-3">
+                            <div class="row">
+                                <div class="col title">
+                                    <span>About Us</span><br />
+                                    Learn more about who we are and what we do at the Texas Demographic Center.
+                                </div>
+                            </div>
+                             <div class="row">
+                                <ul class="col menu">
+                                    <li><a href="../About"><span class="fa-solid fa-arrow-right"></span>About Us</a></li>
+                                    <li><a href="../Team"><span class="fa-solid fa-arrow-right"></span>Our Team</a></li>
+                                    <li><a href="../Services"><span class="fa-solid fa-arrow-right"></span>Our Services</a></li>
+                                    <li><a href="../Conference"><span class="fa-solid fa-arrow-right"></span>TDC Conference</a></li>
+                                    <li><a href="../News"><span class="fa-solid fa-arrow-right"></span>TDC in the News</a></li>
+                                    <li><a href="../Events"><span class="fa-solid fa-arrow-right"></span>Event Calendar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-8 pb-3 right-content">
+                            <h5>LATEST NEWS</h5>
+                            <div id='' class='applib-contentlist applib-contentlist-full menu-content-items'><div class='items'><div class='item'><div class='item-wrap'><div class='item-img' aria-hidden='true'><a href='https://www.dallasnews.com/business/economy/article/texas-median-age-rises-state-still-younger-u-s-22499487.php' target='_blank' class='img-size'><img src='/Resources/TDC/News/2A866119-2F09-489C-A5C1-46B76AAC6BE3/20261029_OlderTexans.png' alt='The hand of the child in the hands of the grandfather.'></a></div><div class='item-content'><div class='item-date'>October 29,2026</div><div class='item-title'><a href='https://www.dallasnews.com/business/economy/article/texas-median-age-rises-state-still-younger-u-s-22499487.php' target='_blank'>Regional Leaders Urged to Prepare for 2030 Census and LUCA to Protect Valley Funding</a></div><div class='item-text'><p>Dr. Lloyd Potter, Texas state demographer, noted that while Texas’ median age is increasing, the state remains younger than the national average, helping maintain a relatively strong and competitive workforce.</p></div></div><div aria-hidden='true'></div></div></div><div class='item'><div class='item-wrap'><div class='item-img' aria-hidden='true'><a href='https://www.newsgram.com/amp/story/miscellaneous/2026/10/10/migration-data-now-backs-ari-rastegars-original-austin-thesis' target='_blank' class='img-size'><img src='/Resources/TDC/News/54CDD7F0-64C3-438C-B95E-4819353A0D4C/20261010_migration.png' alt='U.S./Mexico border bridge.'></a></div><div class='item-content'><div class='item-date'>October 10,2026</div><div class='item-title'><a href='https://www.newsgram.com/amp/story/miscellaneous/2026/10/10/migration-data-now-backs-ari-rastegars-original-austin-thesis' target='_blank'>The Migration Data Now Backs Ari Rastegar's Original Austin Thesis</a></div><div class='item-text'><p>Recent migration data underscores Austin’s continued growth, with Dr. Lloyd Potter noting population trends that support the region’s strong long-term outlook.</p></div></div><div aria-hidden='true'></div></div></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mega-menu-small" class="item collapse">
+                <div class="container-xl compact-menu">
+                    <div class="row menu-row d-flex d-sm-none justify-content-center">
+                        <div class="col-auto">
+                           <div>Data & Geography</div>
+                             <ul class="col menu">
+                                <li><a href="../Census/Decennial2030"><span class="fa-solid fa-arrow-right"></span>Census 2030</a></li>
+                                <li><a href="../Census/Decennial2020"><span class="fa-solid fa-arrow-right"></span>Census 2020</a></li>
+                                <li><a href="../Census/Decennial2010"><span class="fa-solid fa-arrow-right"></span>Census 2010</a></li>
+                                <li><a href="../Interactive"><span class="fa-solid fa-arrow-right"></span>Interactive Maps &amp; Tools</a></li>
+                                <li><a href="../Geography"><span class="fa-solid fa-arrow-right"></span>Geographical Reference</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row menu-row justify-content-center">
+                        <div class="col-auto">
+                            <div>Library</div>
+                            <ul class="col menu">
+                                <li><a href="../Presentations"><span class="fa-solid fa-arrow-right"></span>Presentations</a></li>
+                                <li><a href="../Reports"><span class="fa-solid fa-arrow-right"></span>Reports</a></li>
+                                <li><a href="../Visualizations"><span class="fa-solid fa-arrow-right"></span>Visualizations</a></li>
+                                <li><a href="../Webinars"><span class="fa-solid fa-arrow-right"></span>Webinars</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-auto">
+                            <div>About Us</div>
+                            <ul class="col menu">
+                                <li><a href="../About"><span class="fa-solid fa-arrow-right"></span>About Us</a></li>
+                                <li><a href="../Team"><span class="fa-solid fa-arrow-right"></span>Our Team</a></li>
+                                <li><a href="../Services"><span class="fa-solid fa-arrow-right"></span>Our Services</a></li>
+                                <li><a href="../Conference"><span class="fa-solid fa-arrow-right"></span>TDC Conference</a></li>
+                                <li><a href="../News"><span class="fa-solid fa-arrow-right"></span>TDC in the News</a></li>
+                                <li><a href="../Events"><span class="fa-solid fa-arrow-right"></span>Events Calendar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+	</nav>
+
+    <div class="main-content-wrapper">
+        
+	
+	<div class="container-xl">
+		
+
+	<h1>Texas Population Projections Program</h1>
+
+	<p>
+		The Texas Demographic Center generates biennial population projections for the state and its counties by age, sex, and race/ethnicity. 
+		The projections should be used only with full awareness of the inherent limitations of population projections and with detailed knowledge of the procedures and assumptions delineated in the methodology document.
+	</p>
+
+	<h2>Vintage 2024 Projections</h2>
+	<p>The Texas Demographic Center Vintage 2024 projections consist of the state's and its counties residential populations by age, sex, and race/ethnicity for each year from 2020 through 2060. The projections are available under three migration scenarios.</p>
+	<p>Past vintages of population projections are available upon request. Please <a href="../Contact">contact us</a>.</p>
+
+	<h3>Population Projections Webinar</h3>
+	<p>
+		You can find a recording of our Vintage 2024 Population Projections webinar on our <a href="https://www.youtube.com/watch?si=wDTh_gh63YjIW3Rs&v=KUY62i-EgXI&feature=youtu.be" target="_blank">YouTube channel</a>, offering a comprehensive overview of our methodology and process for our population projections program. 
+		Our <a href="../Resources/TDC/Presentations/29f2de6b-4625-4620-aa9e-2e14ab1fd139/20251022_TDCProjectionWebinar.pdf" target="_blank">PowerPoint presentation</a> is also available if you’d like to review the material again or share it with others.
+	</p>
+	
+	<h3>Important user notes</h3>
+	<p>Major changes have been made to the Vintage 2024 methodology. Users may notice differences in the following areas:</p>
+
+	<ol>
+		<li>The data includes April 1st, 2020 Decennial Census Counts and the projection for the July 1st, 2020 population. The two 2020 records are distinguished by the “year_month” column.</li>
+		<li>The projected population from 2020 to 2024 is aligned with the <a href="https://www.census.gov/programs-surveys/popest/data/data-sets.html" target="_blank" >Census Bureau’s Vintage 2024 July 1st Estimates.</a></li>
+		<li>The projections are available with three migration scenarios, mid, low, and high, corresponding to the three <a href="https://www.census.gov/programs-surveys/popproj.html" target="_blank">national projection</a> series produced by the Census Bureau in 2023.</li>
+	</ol>
+
+	
+
+	<h3 style="margin-bottom:0;">Projected Population Growth Interactive Chart</h3>
+	<div>Use the interactive graph to track how Texas’ population has changed through the years, with several scenarios to compare.</div>
+
+	<div style="width: 90%; margin: 40px auto 30px auto; border: 1px solid #B1B1B1; padding: 1rem; ">
+		<div style="min-height:496px" id="datawrapper-vis-6PNhn">
+			<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/6PNhn/embed.js" charset="utf-8" data-target="#datawrapper-vis-6PNhn"></script>
+			<noscript>
+				<img src="https://datawrapper.dwcdn.net/6PNhn/full.png" alt="The line graph titled &quot;Projected Population Growth in Texas with Various Migration Scenarios&quot; visualizes Texas' projected population under different migration assumptions. The x-axis represents years from 2010 to 2060, while the y-axis represents population in millions, ranging from 20M to 50M.
+					Four migration scenarios are plotted:
+
+					V2024: High Migration Scenario (solid yellow line) projects the highest growth, reaching 46.2M by 2060.
+					V2024: Mid Migration Scenario (solid orange line) shows moderate growth, reaching 42.6M by 2060.
+					V2024: Low Migration Scenario (solid green line) projects the lowest growth, reaching 40.3M by 2060.
+					V2022: 2010-2020 1.0 Migration Scenario (dashed grey line) estimates a population of 44.4M by 2060, falling between the first two scenarios.
+					The source is the Texas Demographic Center, using data from Vintage 2014, 2018, 2022, and 2024 Population Projections. The graph was created with Datawrapper." />
+			</noscript>
+		</div>
+	</div>
+	<h3 id="TpeppTotalTable" style="margin-bottom:0;">Texas County Population Projections</h3>
+	<div>
+		View the population projections in your area.
+		Tables with population projections for counties, metropolitan statistical areas, and councils of government can be selected from the drop down menu below. 
+		These tables are for viewing only. If you wish to download the data, use the <a href="Download" target="_blank"  aria-label="Download Total Population Tool">Custom Download Tool</a>.
+	</div>
+
+	<div id="area-data-result" class="area-data-table">
+		<table id="area-data-table" class="display area-data-table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>2020<br />April</th>
+					<th>2030<br />July</th>
+					<th>2040<br />July</th>
+					<th>2050<br />July</th>
+					<th>2060<br />July</th>
+					<th>Change<br />2020-2060</th>
+					<th>%Change<br />2020-2060</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+
+	<h3 class="text-center py-3">
+		Population Projections 2020-2060<br />
+		<a href="#" data-bs-toggle="modal" data-bs-target="#citations">Suggested Citations</a>
+	</h3>
+
+	<div class="row align-items-center" style="">
+		<div class="col-md">
+			<h3 style="margin-bottom: 0; padding-bottom:0;">Projections Methodology</h3>
+			<p>Review the methodology prior to using the data.</p>
+		</div>
+		<div class="col-auto">
+			<button class="pill pill-fill tpepp-download" data-tpepp-file="Methodology.pdf" data-tpepp-yr="2024"><img src="../Images/CompletCheckbox.gif" alt="checkbox icon" />Methodology</button>
+		</div>
+	</div>
+
+	<div class="row align-items-center p-2" style="background-color:#eeeef4; border: 1px solid #BDBDFF; border-radius: 8px; margin-top: 30px; margin-bottom: 50px;">
+		<div class="col-auto">
+			<svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
+				<path d="M5.83333 15.6667H12.8333V11H5.83333V15.6667ZM5.83333 8.66667H22.1667V6.33333H5.83333V8.66667ZM5.83333 25C5.19167 25 4.64236 24.7715 4.18542 24.3146C3.72847 23.8576 3.5 23.3083 3.5 22.6667V6.33333C3.5 5.69167 3.72847 5.14236 4.18542 4.68542C4.64236 4.22847 5.19167 4 5.83333 4H22.1667C22.8083 4 23.3576 4.22847 23.8146 4.68542C24.2715 5.14236 24.5 5.69167 24.5 6.33333V13.6833C24.1306 13.5278 23.7465 13.4257 23.3479 13.3771C22.9493 13.3285 22.5556 13.3333 22.1667 13.3917C21.7583 13.4694 21.3646 13.6007 20.9854 13.7854C20.6062 13.9701 20.2611 14.2181 19.95 14.5292L18.8125 15.6667L12.8333 21.6167V25H5.83333ZM5.83333 22.6667H12.8333V18H5.83333V22.6667ZM15.1667 15.6667H18.8125L19.95 14.5292C20.2611 14.2181 20.6062 13.9701 20.9854 13.7854C21.3646 13.6007 21.7583 13.4694 22.1667 13.3917V11H15.1667V15.6667ZM15.1667 26.1667V22.5792L21.6125 16.1625C21.7875 15.9875 21.9819 15.8611 22.1958 15.7833C22.4097 15.7056 22.6236 15.6667 22.8375 15.6667C23.0708 15.6667 23.2944 15.7104 23.5083 15.7979C23.7222 15.8854 23.9167 16.0167 24.0917 16.1917L25.1708 17.2708C25.3264 17.4458 25.4479 17.6403 25.5354 17.8542C25.6229 18.0681 25.6667 18.2819 25.6667 18.4958C25.6667 18.7097 25.6278 18.9285 25.55 19.1521C25.4722 19.3757 25.3458 19.575 25.1708 19.75L18.7542 26.1667H15.1667ZM16.9167 24.4167H18.025L21.5542 20.8583L20.475 19.7792L16.9167 23.3083V24.4167ZM21.0292 20.3042L20.475 19.7792L21.5542 20.8583L21.0292 20.3042Z" fill="#1B3FDA"/>
+			</svg>
+		</div>
+		<div class="col-md">
+			<h3 style="margin-bottom: 0;">Build Your Own Table</h3>
+			<div style="padding-bottom: 10px;">Create custom tables by your selected demographic characteristics, geography, and migration scenarios.</div>
+		</div>
+		<div class="col-auto">
+			<a class="pill pill-fill icon" target="_blank" href="Download" aria-label="Download Total Population Tool">Custom Download</a>
+		</div>
+	</div>
+
+	<div id="TpeppDownloads" style="margin-bottom:32px;">
+		<h3 style="margin-bottom: 0; padding-bottom:0;">Download Data</h3>
+		<div style="margin-bottom:24px;">Download the zip file with data for the state and all counties by age, race, sex, and methodology.</div>
+
+		<div class="row align-items-center p-2" style="border: 1px solid #B1B1B1; border-radius: 8px; margin-bottom: 10px;">
+			<div class="col-md">
+				<h3>Mid Migration Scenario</h3>
+				<p>Assumes the US and Texas migration patterns remain similar to the past two decades.<br />Recommended for most purposes.</p>
+			</div>
+			<div class="col-auto">
+				<button class="col pill pill-fill tpepp-download my-3" style="display:block; width: 100%;" data-tpepp-file="Full_Pop_Projections_Mid.zip" data-tpepp-yr="2024"><img src="../Images/CompletCheckbox.gif" alt="checkbox icon" />Download Data</button>
+			</div>
+		</div>
+
+		<div class="row align-items-center p-2" style="border: 1px solid #B1B1B1; border-radius: 8px; margin-bottom: 10px;">
+			<div class="col-md">
+				<h3>High Migration Scenario</h3>
+				<p>Assumes a higher migration scenario than the average patterns in the past two decades.<br />Recommended for use when immigration levels are high.</p>
+			</div>
+			<div class="col-auto">
+				<button class="col pill pill-fill tpepp-download my-3" style="display:block; width: 100%;" data-tpepp-file="Full_Pop_Projections_High.zip" data-tpepp-yr="2024"><img src="../Images/CompletCheckbox.gif" alt="checkbox icon" />Download Data</button>
+			</div>
+		</div>
+
+		<div class="row align-items-center p-2" style="border: 1px solid #B1B1B1; border-radius: 8px; margin-bottom: 10px;">
+			<div class="col-md">
+				<h3>Low Migration Scenario</h3>
+				<p>Assumes a lower migration scenario than the average pattern in the past two decades.<br />Recommended for use when immigration levels are low.</p>
+			</div>
+			<div class="col-auto">
+				<button class="col pill pill-fill tpepp-download my-3" style="display:block; width: 100%;" data-tpepp-file="Full_Pop_Projections_Low.zip" data-tpepp-yr="2024"><img src="../Images/CompletCheckbox.gif" alt="checkbox icon" />Download Data</button>
+			</div>
+		</div>
+	</div>
+
+	
+
+<section id="citations" class="citations modal"tabindex="-1">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Population Projections Citation Examples</h3>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<h4>Data File Citation</h4>
+				<div class="mx-3">
+					<p>Author (<span class="code">Release Year</span>). Title. Retrieved <span class="code">[Date]</span>, from <span class="code">[File URL]</span></p>
+					<h5>Example</h5>
+					<p>Texas Demographic Center (2022). Projections of the Total Population of Texas and Counties in Texas, 2020-2060 (0.5 Migration Scenario).  Retrieved February 21, 2024, from <span class="long">https://demographics.texas.gov/Resources/TPEPP/Projections/2022/2022statetotsex_mig100.csv.</span></p>
+				</div>
+				<h4>Methodology Citation</h4>
+				<div class="mx-3">
+					<p>Author (<span class="code">Release Year</span>). Title [Methodology]. Retrieved <span class="code">[Date]</span>, from <span class="code">[File URL]</span></p>
+					<h5>Example</h5>
+					<p>Texas Demographic Center (2023). Projections of the Total Population of Texas and Counties in Texas, 2020-2060 [Methodology]. Retrieved February 21, 2024, from <span class="long">https://demographics.texas.gov/Projections/2022/TotalMethodology.pdf.</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+
+<div id="tpeppForm" class="modal" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Projections File Download</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<p>Your feedback is important to us! Please take a moment to answer 2 brief questions and help us improve our products.</p>
+				<div>
+					<form id="frmTpepp">
+						<label for="fldWorkSector" class="form-label">In which sector do you primarily work?</label>
+						<div class="mx-3">
+							<select id="fldWorkSector" name="Sector" required class="form-select" aria-label="Default select example">
+								<option value='' data-kz-code='' selected>Select Sector...</option><option value='100' data-kz-code='ACAD' >Academia</option><option value='101' data-kz-code='BUSS' >Business</option><option value='102' data-kz-code='GOVT' >Government</option><option value='103' data-kz-code='MEDIA' >Media</option><option value='104' data-kz-code='PUBSERV' >Public Service/Non-Profit</option><option value='105' data-kz-code='PRVCIT' >Private Citizen</option><option value='106' data-kz-code='OTHER' >Other</option>
+							</select>
+							<div id="grpWorkSectorOth" class="mt-2 mx-4" style="display: none;">
+								<label for="fldWorkSectorOth" class="form-label" style="font-size:14px;">Please specify other</label>
+								<input type="text" class="form-control" id="fldWorkSectorOth" name="SectorOther">
+							</div>
+						</div>
+
+						<div class="form-label mt-4">How do you primarily use our population projections data? <span style="font-size:14px;">(Select all that apply)</span></div>
+						<div id="pnlDataUse" class="mx-3">
+							<div id="grpDataUse">
+								<div class='form-check'><input class='form-check-input' type='checkbox' value='200' id='fldDataUse_200' data-kz-code='INFRAP' name='Uses'><label class='form-check-label' for='fldDataUse_200'>Infrastructure planning</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='201' id='fldDataUse_201' data-kz-code='DENORT' name='Uses'><label class='form-check-label' for='fldDataUse_201'>Denominator for rates</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='202' id='fldDataUse_202' data-kz-code='FUNDRESC' name='Uses'><label class='form-check-label' for='fldDataUse_202'>Funding / Resource Allocation for specific programs</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='203' id='fldDataUse_203' data-kz-code='BNCHMK' name='Uses'><label class='form-check-label' for='fldDataUse_203'>Population Benchmark</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='204' id='fldDataUse_204' data-kz-code='BUDGET' name='Uses'><label class='form-check-label' for='fldDataUse_204'>Budget planning accordance with population growth</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='205' id='fldDataUse_205' data-kz-code='GRANT' name='Uses'><label class='form-check-label' for='fldDataUse_205'>Grant applications</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='206' id='fldDataUse_206' data-kz-code='BUSSEXT' name='Uses'><label class='form-check-label' for='fldDataUse_206'>Business Expansion/Development</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='207' id='fldDataUse_207' data-kz-code='PUBPREZ' name='Uses'><label class='form-check-label' for='fldDataUse_207'>Research / Publication / Presentation</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='208' id='fldDataUse_208' data-kz-code='CTYPOP' name='Uses'><label class='form-check-label' for='fldDataUse_208'>To know my county or city’s population</label></div><div class='form-check'><input class='form-check-input' type='checkbox' value='209' id='fldDataUse_209' data-kz-code='OTHER' name='Uses'><label class='form-check-label' for='fldDataUse_209'>Other</label></div>
+							</div>
+							<div id="grpDataUseOther" class="mt-2 mx-4" style="display: none;">
+								<label for="fldDataUserOth" class="form-label" style="font-size:14px;">Please specify other</label>
+								<input type="text" class="form-control" id="fldDataUserOth" name="UsesOther">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="form-error"></div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" value="submit">Submit</button>
+				<button type="button" class="btn btn-secondary" value="skip">Skip</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	</div>
+
+    </div>
+
+    <footer>
+        <div class="brand d-md-none">
+            <div class="title">Helen You, Ph.D.<br /><span>Director, Texas Demographic Center</span></div>
+        </div>
+        <div class="menu">
+            <div class="container-xl" role="navigation">
+                <div class="row justify-content-center">
+                    <div class="col-md tdc-logo">
+						<img src="../Images/TdcLogo400.png" alt="Texas&#32;Demographic&#32;Center&#32;Logo" />
+                    </div>
+                    <div class="col-md">
+                        <div class="title d-none d-md-block">Data &amp; Geography</div>
+                        <div class="title d-md-none brd-bottom"><button class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#footer-menu-data" aria-expanded="false" aria-controls="footer-menu-data">Data &amp; Tools<span class="fa-solid fa-angle-down"></span></button></div>
+                        <ul id="footer-menu-data" class="collapse">
+                            <li><a href="../Estimates">Estimates</a></li>
+                            <li><a href="../Projections">Projections</a></li>
+                            <li><a href="../Census/Decennial2030">Census 2030</a></li>
+                            <li><a href="../Census/Decennial2020">Census 2020</a></li>
+                            <li><a href="../Census/Decennial2010">Census 2010</a></li>
+                            <li><a href="../Interactive">Interactive Maps &amp; Tools</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <div class="title d-none d-md-block">Library</div>
+                        <div class="title d-md-none brd-bottom"><button class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#footer-menu-library" aria-expanded="false" aria-controls="footer-menu-library">Library<span class="fa-solid fa-angle-down"></span></button></div>
+                        <ul id="footer-menu-library" class="collapse">
+                            <li><a href="../Visualizations">Visualizations</a></li>
+                            <li><a href="../Reports">Reports</a></li>
+                            <li><a href="../Presentations">Presentations</a></li>
+                            <li><a href="../Webinars">Webinars</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <div class="title d-none d-md-block">TDC Data Center</div>
+                        <div class="title d-md-none brd-bottom"><button class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#footer-menu-tdc" aria-expanded="false" aria-controls="footer-menu-tdc">TDC Data Center<span class="fa-solid fa-angle-down"></span></button></div>
+                        <ul id="footer-menu-tdc" class="collapse">
+                            <li><a href="../Conference">TDC Conference</a></li>
+                            <li><a href="../About">About Us</a></li>
+                            <li><a href="../Team">Our Team</a></li>
+                            <li><a href="../Services">Our Services</a></li>
+                            <li><a href="../Contact">Contact Us</a></li>
+                            <li><a href="../News">TDC in the News</a></li>
+                            <li><a href="../Events">Events Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-media" >
+            <a href="https://www.facebook.com/TexasDemographics" target="_blank" aria-label="Go to Facebook">
+                <svg role="img" height="100%" width="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <title>Facebook Icon</title>
+                    <path d="M512,257.555c0,-141.385 -114.615,-256 -256,-256c-141.385,0 -256,114.615 -256,256c0,127.777 93.616,233.685 216,252.89l0,-178.89l-65,0l0,-74l65,0l0,-56.4c0,-64.16 38.219,-99.6 96.695,-99.6c28.009,0 57.305,5 57.305,5l0,63l-32.281,0c-31.801,0 -41.719,19.733 -41.719,39.978l0,48.022l71,0l-11.35,74l-59.65,0l0,178.89c122.385,-19.205 216,-125.113 216,-252.89Z" style="fill-rule:nonzero;"/>
+                </svg>
+            </a>
+            <a href="https://twitter.com/TexasDemography" target="_blank" aria-label="Go to X">
+                <svg role="img" height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <title>Twitter Icon</title>
+                    <path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-46.848,391.04c113.536,0 175.616,-94.08 175.616,-175.616c0,-2.688 0,-5.376 -0.128,-7.936c12.032,-8.704 22.528,-19.584 30.848,-32c-11.008,4.864 -22.912,8.192 -35.456,9.728c12.8,-7.68 22.528,-19.712 27.136,-34.176c-11.904,7.04 -25.088,12.16 -39.168,14.976c-11.264,-12.032 -27.264,-19.456 -45.056,-19.456c-34.048,0 -61.696,27.648 -61.696,61.696c0,4.864 0.512,9.6 1.664,14.08c-51.328,-2.56 -96.768,-27.136 -127.232,-64.512c-5.248,9.088 -8.32,19.712 -8.32,30.976c0,21.376 10.88,40.32 27.52,51.328c-10.112,-0.256 -19.584,-3.072 -27.904,-7.68l0,0.768c0,29.952 21.248,54.784 49.536,60.544c-5.12,1.408 -10.624,2.176 -16.256,2.176c-3.968,0 -7.808,-0.384 -11.648,-1.152c7.808,24.576 30.592,42.368 57.6,42.88c-21.12,16.512 -47.744,26.368 -76.672,26.368c-4.992,0 -9.856,-0.256 -14.72,-0.896c27.008,17.664 59.52,27.904 94.336,27.904Z" />
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/texasdemographiccenter/" target="_blank" aria-label="Go to Instagram">
+                <svg role="img" height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <title>Instagram Icon</title>
+                    <path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm0,96c-43.453,0 -48.902,0.184 -65.968,0.963c-17.03,0.777 -28.661,3.482 -38.839,7.437c-10.521,4.089 -19.444,9.56 -28.339,18.455c-8.895,8.895 -14.366,17.818 -18.455,28.339c-3.955,10.177 -6.659,21.808 -7.437,38.838c-0.778,17.066 -0.962,22.515 -0.962,65.968c0,43.453 0.184,48.902 0.962,65.968c0.778,17.03 3.482,28.661 7.437,38.838c4.089,10.521 9.56,19.444 18.455,28.34c8.895,8.895 17.818,14.366 28.339,18.455c10.178,3.954 21.809,6.659 38.839,7.436c17.066,0.779 22.515,0.963 65.968,0.963c43.453,0 48.902,-0.184 65.968,-0.963c17.03,-0.777 28.661,-3.482 38.838,-7.436c10.521,-4.089 19.444,-9.56 28.34,-18.455c8.895,-8.896 14.366,-17.819 18.455,-28.34c3.954,-10.177 6.659,-21.808 7.436,-38.838c0.779,-17.066 0.963,-22.515 0.963,-65.968c0,-43.453 -0.184,-48.902 -0.963,-65.968c-0.777,-17.03 -3.482,-28.661 -7.436,-38.838c-4.089,-10.521 -9.56,-19.444 -18.455,-28.339c-8.896,-8.895 -17.819,-14.366 -28.34,-18.455c-10.177,-3.955 -21.808,-6.66 -38.838,-7.437c-17.066,-0.779 -22.515,-0.963 -65.968,-0.963Zm0,28.829c42.722,0 47.782,0.163 64.654,0.933c15.6,0.712 24.071,3.318 29.709,5.509c7.469,2.902 12.799,6.37 18.397,11.969c5.6,5.598 9.067,10.929 11.969,18.397c2.191,5.638 4.798,14.109 5.509,29.709c0.77,16.872 0.933,21.932 0.933,64.654c0,42.722 -0.163,47.782 -0.933,64.654c-0.711,15.6 -3.318,24.071 -5.509,29.709c-2.902,7.469 -6.369,12.799 -11.969,18.397c-5.598,5.6 -10.928,9.067 -18.397,11.969c-5.638,2.191 -14.109,4.798 -29.709,5.509c-16.869,0.77 -21.929,0.933 -64.654,0.933c-42.725,0 -47.784,-0.163 -64.654,-0.933c-15.6,-0.711 -24.071,-3.318 -29.709,-5.509c-7.469,-2.902 -12.799,-6.369 -18.398,-11.969c-5.599,-5.598 -9.066,-10.928 -11.968,-18.397c-2.191,-5.638 -4.798,-14.109 -5.51,-29.709c-0.77,-16.872 -0.932,-21.932 -0.932,-64.654c0,-42.722 0.162,-47.782 0.932,-64.654c0.712,-15.6 3.319,-24.071 5.51,-29.709c2.902,-7.468 6.369,-12.799 11.968,-18.397c5.599,-5.599 10.929,-9.067 18.398,-11.969c5.638,-2.191 14.109,-4.797 29.709,-5.509c16.872,-0.77 21.932,-0.933 64.654,-0.933Zm0,49.009c-45.377,0 -82.162,36.785 -82.162,82.162c0,45.377 36.785,82.162 82.162,82.162c45.377,0 82.162,-36.785 82.162,-82.162c0,-45.377 -36.785,-82.162 -82.162,-82.162Zm0,135.495c-29.455,0 -53.333,-23.878 -53.333,-53.333c0,-29.455 23.878,-53.333 53.333,-53.333c29.455,0 53.333,23.878 53.333,53.333c0,29.455 -23.878,53.333 -53.333,53.333Zm104.609,-138.741c0,10.604 -8.597,19.199 -19.201,19.199c-10.603,0 -19.199,-8.595 -19.199,-19.199c0,-10.604 8.596,-19.2 19.199,-19.2c10.604,0 19.201,8.596 19.201,19.2Z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/texas-demographic-center" target="_blank" aria-label="Go to LinkedIn">
+                <svg role="img" height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <title>LinkedIn Icon</title>
+                    <path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"/>
+                </svg>
+            </a>
+            <a href="https://youtube.com/@texasdemographiccenter9772" target="_blank" aria-label="Go to YouTube">
+                <svg role="img" height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <title>YouTube Icon</title>
+                    <path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm153.315,178.978c-3.68,-13.769 -14.522,-24.61 -28.29,-28.29c-24.958,-6.688 -125.025,-6.688 -125.025,-6.688c0,0 -100.067,0 -125.025,6.688c-13.765,3.68 -24.61,14.521 -28.29,28.29c-6.685,24.955 -6.685,77.024 -6.685,77.024c0,0 0,52.067 6.685,77.02c3.68,13.769 14.525,24.614 28.29,28.293c24.958,6.685 125.025,6.685 125.025,6.685c0,0 100.067,0 125.025,-6.685c13.768,-3.679 24.61,-14.524 28.29,-28.293c6.685,-24.953 6.685,-77.02 6.685,-77.02c0,0 0,-52.069 -6.685,-77.024Zm-185.316,125.025l0,-96.002l83.137,48.001l-83.137,48.001Z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="address">
+            <span>Texas Demographic Center</span><span>One UTSA Circle</span><span>San Antonio, TX 78249</span><span>(210) 458-6543</span>
+        </div>
+    </footer>
+    
+	<script src='/appresources/libman/jquery/jquery.min.js?v=639305623004596967'></script>
+	<script src='/appresources/libman/jquery/jquery.dateformat.min.js?v=639305623004596967'></script>
+	<script src='/appresources/libman/bootstrap/js/bootstrap.bundle.min.js?v=639305623004596967'></script>
+	<script>var baseUrl='/';</script><script src='/appresources/applib/applib.min.js?v=639305623004596967'></script>
+	<script src='/appresources/local.min.js?v=639305623004596967'></script>
+
+	
+	<script src="https://cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/fixedcolumns/5.0.5/js/dataTables.fixedColumns.js"></script>
+	<script src="https://cdn.datatables.net/fixedcolumns/5.0.5/js/fixedColumns.dataTables.js"></script>
+	
+	<script>
+		tpepp.DownloadForm("projections");
+
+		const geoAreas = tpepp.ComboBox('geoAreas', 'View by:', updateTotalTable, [
+			{ value: '20202201', text: 'County' },
+			{ value: '80202307', text: 'MSA (2023-July)' },
+			{ value: '90202104', text: 'COG (2021-April)' }
+		]);
+
+		const migScenarios = tpepp.ComboBox('migScenarios', 'Migration:', updateTotalTable, [
+			{ value: 'High' },
+			{ value: 'Mid', selected: true },
+			{ value: 'Low' }
+		]);
+
+		const totalTable = $('#area-data-table').DataTable({
+			fixedColumns: true, "paging": false, scrollX: true, scrollY: 400, "info": false,
+			ajax: { url: `${baseUrl}api/Tpepp/Projections/Totals/Mid?AreaVintageID=20202201`, dataSrc: '' },
+			columns: [
+				{ data: 'Name' },
+				{ data: 'Pop2020', render: DataTable.render.number() },
+				{ data: 'Pop2030', render: DataTable.render.number() },
+				{ data: 'Pop2040', render: DataTable.render.number() },
+				{ data: 'Pop2050', render: DataTable.render.number() },
+				{ data: 'Pop2060', render: DataTable.render.number() },
+				{ data: 'Change', render: DataTable.render.number() },
+				{ data: 'PercentChange', render: DataTable.render.number(null, null, 1, null, '%') }
+			],
+			layout: {
+				topStart: function ()
+				{
+					let container = document.createElement('div');
+					container.id = 'total-table-filters';
+					container.appendChild(geoAreas.container);
+					container.appendChild(migScenarios.container);
+					return container;
+				}
+			}
+		});
+
+		function updateTotalTable()
+		{
+			totalTable.ajax.url(`${baseUrl}api/Tpepp/Projections/Totals/${migScenarios.value}?AreaVintageID=${geoAreas.value}`).load();
+		}
+	</script>
+
+
+
+</body>
+</html>

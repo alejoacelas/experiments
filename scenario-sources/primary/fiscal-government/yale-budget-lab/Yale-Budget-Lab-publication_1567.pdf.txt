@@ -1,0 +1,736 @@
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+Improvements to the Budget Lab Tariff
+Model and a new tracking tool for
+making it more accessible
+Author(s): John Iselin and John Ricco
+Published: July 20, 2026
+
+Key Takeaways
+
+1
+2
+3
+4
+
+This report introduces several changes to our tariff model, including refined measurement
+of statutory tariff rates and the incorporation of new evidence from the last year and a
+half of tariff policy into our measures of effective rates.
+
+The net effect of these changes is to reduce our estimates of the consumer price impacts
+of tariffs.
+
+After these changes, a refresh of our previously-released retrospective analysis — looking
+at how our estimates over the last year have compared to retrospective price-effects
+estimates — finds that we now neatly predict the outcomes of the 2025 tariff regime.
+
+We also introduce a new format for our tariff analysis: an interactive web tool, which
+replaces our previous series of static reports.
+
+Introduction
+The Budget Lab at Yale has been producing economic estimates of the effects of the administration’s tariff
+policies for over a year, starting even before the beginning of President Trump’s second term. Today, we release an
+update to our tariff model that covers how the economic effects of tariffs are both calculated and presented.
+Importantly, these updates are the first to consider actual, observed economic behavior from the first year of the
+current tariff regime, grounding our analysis more firmly in what we have learned about how tariff policies have
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+1 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+impacted the U.S. economy. In addition, we have entirely revamped how we present Budget Lab tariff analysis,
+consolidating it into a new interactive tool that makes all aspects of our analysis more accessible.
+Our updated calculations include a few changes. The first and most straightforward change is a fix to how we
+calculate price effects. The second change is an improvement in our estimation of the actual tariff rates faced by
+many countries and products, as part of our ongoing efforts to improve our Tariff Rate Tracker model. We
+introduced similar changes in April 2026 and will continue to refine our estimates where possible.
+The third change is the most consequential: we replace a prior assumption — that 10% of estimated tariff revenue
+disappears due to evasion — with an adjustment to statutory tariff rates that reflects the difference between
+statutory tariff rates and actual tariff collections. This is an improvement in three ways: it is driven by actual data
+from the first year of the tariff regime, it varies by country and product, and it captures not just evasion but also
+unobserved mismeasurement of tariff rates. It is only possible to implement this improvement now that there has
+been sufficient experience with the post-April 2025 tariff regime.
+We find that, with our new approach, we estimate lower effective tariff rates (ETRs), price effects, and average
+household-level costs, as shown in Table 1. Revenue moves the least, because we already applied the prior evasion
+parameter to those estimates. We show step-by-step how our estimates have changed since our previous release
+in April 2026, which indicates that the price-effects fix and the model update have the largest effects. Finally, we
+apply these updates to the retrospective analysis we conducted looking at the first year of the current tariff
+regime. Our new estimates are much more closely in line with the price effects found by the literature, indicating
+that our updated model is well equipped to model future tariff policies.
+
+TABLE 1
+
+Headline results (July 2026 model)
+Scenario
+
+Effective tariff rate (%)
+
+Price effect (%)
+
+Statutory Pre-substitution Post-substitution Pre-substitution Post-substitution
+
+Without new Sec. 301
+(Sec. 122 expires, not replaced)
+
+9.41
+
+7.96
+
+6.58
+
+0.38
+
+0.32
+
+With new Sec. 301 actions
+(replacing Sec. 122)
+
+12.52
+
+10.85
+
+9.05
+
+0.81
+
+0.70
+
+The statutory ETR is the announced rate schedule, shown for comparison only. The pre-substitution ETR
+applies the calibrated η-parameters (statutory × (1 − η)) and drives prices, household cost, and revenue;
+the post-substitution ETR additionally reflects import substitution. Revenue holds the $166B refund
+adjustment fixed.
+Source: The Budget Lab Tariff Model.
+
+Data
+
+Image
+
+Modeling Updates to the State of Tariffs Report
+All of these updates are packaged within a new tool that makes Budget Lab tariff analysis more accessible. Our
+Tariff Tracker allows users to observe our current estimates of statutory tariff rates, the most up-to-date
+estimates of effects of these tariffs, and the effect of the most relevant series of proposed or announced tariff
+policies, all in one place, alongside relevant documentation and descriptions. We will publish all future releases in
+this more accessible, clearer interactive form. The tool will show our daily statutory tariff rates by authority,
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+2 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+country, and product, as well as the results of our modeling of economic effects of tariffs for both the current
+baseline and potential alternative scenarios.
+For example, we expect to receive new details about Section 301 tariffs in late July 2026. The Budget Lab will
+incorporate this new information and update its calculations in the new tool.
+
+Considered together, the changes in the tariff model and calculations reduce the pre- and post-substitution ETRs
+as well as the price increases faced by US firms and consumers. We organize the first part of this blog around a
+decomposition of the changes in our economic estimates between April and today, assuming the scenario where
+Section 122 tariffs are allowed to expire.
+The first change is a fix to how the price effects of tariffs are generated, given the calculated ETRs. When
+calculating price impacts based on the tariff rate increases above January 2025 policy, for some products, the
+base-rate tariff (that was in effect prior to 2025) should be considered (and now is in our calculations) part of
+baseline rather than an increase from baseline. Making this change reduces both pre- and post-substitution ETRs
+by around 0.3 percentage points, resulting in slightly smaller price, household cost, and revenue effects. These
+differences are described in Table 2.
+
+TABLE 2
+
+Decomposing the change from April to July (without new Section
+301)
+Step
+
+Effective tariff rate (%)
+
+Price effect (%)
+
+Statutory Pre-substitution Post-substitution Pre-substitution Post-substitution
+
+Published April 8
+
+9.66
+
+9.66
+
+8.21
+
+0.68
+
+0.55
+
+Base-rate Fix
+
+9.40
+
+9.40
+
+7.87
+
+0.48
+
+0.40
+
+Updated Tariff Rates
+
+9.41
+
+9.41
+
+7.70
+
+0.54
+
+0.46
+
+Model Updates
+
+9.41
+
+7.96
+
+6.58
+
+0.38
+
+0.32
+
+The first row reports the results published on April 8, 2026, for the scenario where Section 122 tariffs are
+allowed to expire. The second row fixes the baseline MFN tariff rate; the third updates our estimates of
+tariff rates, reflecting improved estimation of baseline, Section 232, and Section 301 tariffs. The fourth
+row adds the model updates — namely, the inclusion of the new η-parameters — so the pre-substitution
+columns fall as the ηs now apply upstream (the statutory ETR column is unchanged, since the ηs change
+what is collected, not what is announced).
+Source: The Budget Lab Tariff Model.
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+Data
+
+Average ho
+
+Image
+
+3 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+Second, we continue to update our measurement of tariff rates, which allows us to more accurately capture the
+costs faced by importers. In the last two months, we have improved our measurement in several ways. These
+refinements included aligning HTS release dates with effective policy dates, updating our Section 232 modeling,
+updated Section 301 exclusion modeling, exempt-list audits across the Section 122, Section 301, and IEEPA
+statutory corrections, updated USMCA preference claim shares, and a re-measured pre-2025 MFN baseline. All of
+these changes are documented on our GitHub page. This led to a drop in average pre-substitution ETR of about
+0.3 percentage points with matching reductions in other outcomes.
+
+FIGURE 1
+
+The measured tariff-rate path has shifted only modestly since our
+April 2026 release
+
+Overall import-weighted effective tariff rate in percent, April 2026 vs. July 2026 (current, incl. new Section 301).
+April 2026 release
+
+July 2026 (current, incl. new §301)
+
+If new §301 actions not imposed
+
+Effective tariff rate (%)
+25%
+
+Fentanyl April 2 Announcement
+232 Doubled
+Phase 2
+
+Semiconductors
+IEEPA Struck Down
+
+S122 Expiry
+
+20%
+
+Projected
+
+15%
+
+10%
+
+5%
+
+0%
+
+Jan
+2025
+
+Apr
+
+Jul
+
+Oct
+
+Jan
+2026
+
+Apr
+
+Jul
+
+Import-weighted using 2024 Census import values. The April 2026 series is the rate as published on that
+date; the July 2026 series is the tracker build pinned to the vintage the posted model results consumed.
+Values after July 16, 2026 (shaded) are projected assuming no further policy changes. From the late-July
+2026 Section 122 expiry the current series follows the tracker's new_301 scenario; the dashed
+counterfactual shows the path if the new Section 301 actions were not imposed.
+Source: The Budget Lab Tariff Rate Tracker.
+
+Oct
+
+Data
+
+Image
+
+Figure 1 shows how our estimated ETRs have changed over this period. We can see that many of the largest net
+changes are due to our refinement of policy timing — see the higher levels of tariffs directed at China following
+April 2nd, 2025 and the variability of tariffs following the SCOTUS decision on IEEPA in February 2026 — but there
+have also been offsetting improvements in how we estimated different tariff authorities.
+Third, the last year of tariff policies has been highly instructive, and we’ve incorporated some of these lessons into
+our tariff estimates today. In particular, prior to this release, we had assumed a flat 10% avoidance and evasion
+https://budgetlab.yale.edu/node/1567/pdf
+
+4 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+parameter that applied only to our estimates of federal revenue. Now, with the benefit of the last year of data, we
+can calibrate what we call the “η parameters” that describe the difference between statutory and actual ETRs.
+These parameters are not an estimate of avoidance, but rather capture the share of the statutory tariff rate for a
+specific trading partner and product that does not show up in the observed import and Treasury data.1 This could
+be due to avoidance or evasion — for example, the claiming of hard-to-measure statutory exemptions or
+aggressive classification of products — or to mis-estimation of tariff policies, like mis-estimating the metal
+content of certain goods.
+The results imply a weighted average η of approximately 15%, which, applied through the model, reduces the tariff
+rate collected from a statutory 9.41% to 7.96%, leaving aside the new Section 301 actions (including them, the
+reduction is from 12.52% to 10.85%). In Figure 2, we show the effect of the η parameters on measured tariff rates,
+by country and product; the underlying η values are shown in Appendix Figure A1. Some countries, like Canada, the
+UK, the EU member states, and Mexico have higher adjustments (i.e., larger η parameters), while others, like Japan
+and China, have lower ones. There is more variation in the by-product η estimates. Here, we see the largest η
+parameters for pharmaceuticals, iron and steel, and metal products, reflecting the reality that there are more
+options for non-statutory avoidance behavior in those areas.
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+5 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+FIGURE 2
+
+The gap between statutory and effective tariff rates varies
+substantially by country and product
+
+Gap between the statutory effective tariff rate and the eta-adjusted (realized) rate, in pp. Bars use each category's own
+import weights.
+By trading partner
+
+Import-weighted average effect (1.5pp)
+
+Other FTA partners
+European Union
+Canada
+Mexico
+United Kingdom
+Rest of world
+Japan
+China
+By product (GTAP sector)
+Pharma & basic chem.
+Iron & steel
+Metal products
+Non-ferrous metals
+Petroleum & coal prod.
+Motor vehicles & parts
+Wood products
+Electrical equip.
+Other transport eq.
+Other manufactures
+Machinery & equip.
+Electronics
+Other mining extraction
+Chemicals
+Beverages & tobacco
+Mineral products
+Other animal prod.
+Vegetables & fruit
+Vegetable oils
+Cattle & sheep
+Electricity
+Fishing
+Gas
+Dairy
+Other crops
+Oil
+Other meat
+Oilseeds
+Processed rice
+Paper & publishing
+https://budgetlab.yale.edu/node/1567/pdf
+
+6 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+Sugar
+Apparel
+Leather & footwear
+Rubber & plastics
+Other food
+Textiles
+Bovine meat
+
+-2
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+Computed from the eta diagnostic grid (partner x GTAP trade values and statutory revenue), model
+results vintage 202607071520 (tracker calibration 2026-06-25-14). Eta applied as realized = statutory x
+(1 - eta). Amber bars: realized rate above statutory. 'Other FTA partners' includes South Korea. Product
+section omits sectors with under $1B of imports each; the average line uses all sectors. See
+docs/FIG2B_OUTLIERS.md.
+Source: The Budget Lab Tariff Model.
+
+Data
+
+Image
+
+Reduction in effective tariff rate (pp)
+
+Our methodological improvement has implications for our estimated economic effects that flow through two
+channels. The first is the application of any avoidance (or mismeasurement) term to parts of the tariff model
+other than revenue, which had previously been the only outcome to which it was applied. The second channel is
+through refinement of the actual parameter values used (e.g., switching from a constant 10% to a calibrated set of
+country- and product-specific parameters). One caveat to this approach is a concern of over-fitting: if either tariff
+policies themselves or economic responses to these policies shift, η parameters estimated on the 2025–2026
+IEEPA period may not capture future actual-statutory ETR gaps. Future work will use more recent data as the
+post-IEEPA period grows. We believe that this approach moves us notably closer to an accurate picture of the
+economic effects of tariff policies.
+The updates discussed above, without the new Section 301 actions, result in the pre- and post-substitution ETRs
+falling by between 1.6 and 1.7 percentage points (roughly 20%). The pre- and post-substitution price effects fall by
+around 40%, or by between 0.2 and 0.3 percentage points, and average household costs are about $325 lower than
+in our April 2026 estimate. The revenue numbers change the least because the existing avoidance parameter was
+already applied to their estimation.2
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+7 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+Re-assessing our 2025 Retrospective Analysis
+Given these modeling updates, we wanted to refresh the retrospective analysis — released this April — that asked
+how well our model would have fared at estimating the price effects of the first year of tariff policies under the
+current administration. At that time, we estimated that the tariff policies as announced on April 2nd, 2025 would
+increase prices by 2.32%. Our retrospective analysis — reproduced in Figure 3 below — showed that this exceeded
+more recent empirical estimates of the price effects (between 0.5 and 1%) due to frequent downward revisions of
+tariff rates, improved estimation of actual tariff rates faced by firms, and model improvements. Accounting for
+these reduced our price effects from 2.3% to 1.4%. This is still about 0.4 percentage points higher than the upper
+bound estimate of the literature, 1.0% via Cavallo et al. (2026).3
+After incorporating the adjustments announced today — shown in the second panel of Figure 3 — our 2025 price
+estimates are more in line with estimates found by the economic literature. When we assume that 100% of the
+burden of tariffs falls on US consumers, we estimate that tariffs increased prices by 1.0%, a price estimate
+virtually indistinguishable from that of Cavallo et al. (2026). A 50% passthrough rate matches the 0.5% effect
+estimated by Dvorkin et al. (2025), and the more recent Minton, Ray, and Somale (2026) estimate falls right in
+between the two. The update to the statutory tariff rates increases the price estimate given updates to policy
+timing (among others), but the modeling updates (which include the error discussed above) and the introduction
+of the η parameters move the estimated short-run price effect down to 1.02%.
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+8 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+FIGURE 3
+
+Re-estimating the April 2 price decomposition
+
+As published (April 2026) vs. updated (July 2026): updated ETR measurement + a new eta step + a modeling step
+(model re-run on the eta-adjusted April-December 2025 basket).
+Short-run price effect (%)
+As published (April 2026)
+
+Updated (July 2026 data & methods)
+
+3.0
+2.5
+
+2.32
+
+2.32
+
+2.0
+
+1.0
+0.5
+
+1.75
+
+1.75
+1.56
+
+1.43
+1.38
+Cavallo et al. upper (1%)
+Minton et al. (Fed) core PCE (0.8%)
+
+Dvorkin et al. lower (0.5%)
+
+1.31
+1.02
+0.69
+
+0.51
+
+(no step in
+original)
+
+0.0
+
+η
+
+hg
+u
+orh
+tss
+a
+p
+%0
+s
+5
+tead
+pu
+g
+inle
+do
+M
+s
+ylp
+pA
+RT
+Ed
+e
+tad
+pU
+RT
+Ee
+g
+a
+rev
+al
+a
+un
+nA
+team
+its
+e
+l
+ait
+inI
+
+hg
+u
+o
+rht
+ssa
+p
+%0
+se
+5
+t
+a
+d
+pu
+g
+n
+ile
+do
+M
+s
+ylp
+pA
+RT
+Ed
+e
+tad
+pU
+RT
+E
+e
+ga
+rev
+-a la
+un
+nA
+et
+a
+m
+its
+e
+l
+ait
+inI
+
+Reproduces the April 2026 retrospective's decomposition of the April 2, 2025 estimate (short-run price
+formula, baseline 2.4%). Dashed reference lines: Cavallo et al. (2026) upper (1%); Minton, Ray, and Somale
+(2026) core PCE (0.8%); Dvorkin et al. (2025) lower (0.5%). A single 50% passthrough replaces the three
+published passthrough scenarios. The eta step does not exist in the original April 2026 decomposition.
+Source: The Budget Lab.
+
+η
+
+1.5
+
+Data
+
+Image
+
+This exercise both explains the full gap between our estimates from April 2, 2025 and the published short-term
+price effects and shows that our model is well-situated to model the future of the current tariff regime. There are
+always caveats to future modeling work, especially those that condition on past responses to policy changes — a
+future tariff could have importers responding in new ways that are inconsistent with the η parameters we’ve
+estimated here. But we view this modeling change as a data-driven and verifiable process that takes advantage of
+what we’ve learned from over a year of this new tariff regime.
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+9 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+Appendix
+
+APPENDIX FIGURE A1
+
+Calibrated etas by trading partner and product
+
+Higher eta = larger share of the statutory tariff avoided (exemption/preference take-up, de minimis, mismeasureme
+realized rate further below statutory. Negative = realized rate above statutory.
+By trading partner
+
+Import-weighted average η
+η (0.13)
+
+Canada
+Mexico
+United Kingdom
+South Korea
+Rest of world
+China
+European Union
+Japan
+By product (GTAP sector)
+Electricity
+Oil
+Gas
+Coal
+Petroleum & coal prod.
+Pharma & basic chem.
+Wheat
+Other grains
+Vegetable oils
+Processed rice
+Rice
+Cattle & sheep
+Other mining extraction
+Bovine meat
+Other animal prod.
+Other transport eq.
+Other manufactures
+Iron & steel
+Metal products
+Other meat
+Electronics
+Beverages & tobacco
+Non-ferrous metals
+Paper & publishing
+Chemicals
+Wood products
+Fishing
+Oilseeds
+Vegetables & fruit
+https://budgetlab.yale.edu/node/1567/pdf
+
+10 of 11
+
+The Budget Lab | Improvements to the Budget Lab Tariff Model and a new tracking tool for making it more accessible
+
+Wool
+Electrical equip.
+Other crops
+Mineral products
+Forestry
+Textiles
+Rubber & plastics
+Apparel
+Leather & footwear
+Sugar crops
+Plant fibers
+Machinery & equip.
+Motor vehicles & parts
+Sugar
+Other food
+Dairy
+
+-0.2
+
+0.0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+Bars are simple averages across the other dimension. Applied as realized ETR = statutory ETR x (1 - eta).
+Amber bars: realized rate above statutory. The reference line is the model's import-weighted aggregate
+eta.
+Source: The Budget Lab Tariff Model.
+
+Data
+
+Average η
+Im
+
+Footnotes
+1 We take a dataset of every country and product pair and estimate the day-weighted average statutory tariff rate for June 2025 through
+February 2026. We then compare this rate to the effective tariff rate calculated via the U.S. Census Bureau’s Imports of Merchandise data
+(IMDB), which has information on calculated duties (numerator) and custom values (denominator). We test a number of estimation
+approaches to calculate product-and-country-level η terms, using out-of-sample validation with the March 2026 period as a test case. We
+prefer a model where the log gap is a function of two fixed-effects at the country-group and HS2 level. Importantly, this approach controls
+for shifts in import quantities by weighting both actual and statutory ETRs by concurrent trade weights.
+
+2 In fact, the evasion term was being minorly over-applied to baseline tariff revenue, rather than to just the marginal increase in tariff rates,
+an extension of the error highlighted in Table 1.
+
+3 We also add a more recent estimate of the price effects, from Minton, Ray, and Somale (2026).
+
+https://budgetlab.yale.edu/node/1567/pdf
+
+11 of 11
+
+

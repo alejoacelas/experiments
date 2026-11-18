@@ -1,0 +1,2755 @@
+{
+ "area_id": "climate-insurance",
+ "area_name": "Climate, insurance & physical risk",
+ "trends": [
+  {
+   "trend": "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+   "why_it_shapes_daily_life": "Insured cat losses trend up 5-7% a year in real terms (USD 148bn trend for 2026, USD 186bn by 2030; modelled AAL USD 171bn) while record reinsurance and cat-bond capital is cutting rates 15-25%; the price of every property policy from 2027-31 depends on whether one USD 200-400bn peak year arrives and flips the cycle."
+  },
+  {
+   "trend": "Home/auto insurance affordability and availability; residual markets and regulated rates",
+   "why_it_shapes_daily_life": "Whether a household can buy home cover at all, and from whom: State Farm General +17% in California, FAIR Plan at 698,307 policies and USD 773bn exposure, Florida Citizens down to 278,246 policies at mid-2026 after mass takeouts, with rate cuts for most policyholders, national carriers not writing new homeowners in Florida, auto premiums now falling. Mortgages, home values and migration follow."
+  },
+  {
+   "trend": "Insurers pricing or excluding AI and cyber risk",
+   "why_it_shapes_daily_life": "From January 2026 standard liability forms can exclude anything 'arising out of generative artificial intelligence', and D&O carriers have absolute AI exclusions, while a small affirmative market (USD 15-25m limits) forms. Whether a business deploying AI agents is insured, and at what price, determines how fast AI is adopted and who pays when it fails; cyber rates are still falling."
+  },
+  {
+   "trend": "Wildfire and climate liability shifting to utilities, ratepayers and public backstops",
+   "why_it_shapes_daily_life": "Mega-fire losses are moving off insurers' books onto utility customers and state funds: Eaton Fire litigation (38,000 plaintiffs, bellwether trials in 2027), the California Wildfire Fund, customer-funded self-insurance collected through electric rates, NFIP on serial short-term extensions, TWIA cutting required funding from 1-in-100 to 1-in-50. Shows up in power bills, surcharges and assessments."
+  },
+  {
+   "trend": "Carbon prices and the warming trajectory (policy and physical baseline)",
+   "why_it_shapes_daily_life": "EU allowances trade around EUR 85/t with ETS2 on heating and road fuel due in 2028; California allowances clear near USD 32; pledges imply ~2.6C. A strong 2026-27 El Nino has markets pricing 2026 as the hottest year on record at ~92%. These set fuel, heating and food prices and the physical baseline the insurers above are pricing."
+  }
+ ],
+ "sources": [
+  {
+   "id": "artemis-cat-bond-market",
+   "name": "Catastrophe bond market pricing (Artemis Q3 2026 Catastrophe Bond & ILS Market Report / Deal Directory)",
+   "publisher": "Artemis.bm (data from the Artemis Deal Directory of 144A and private cat bond transactions)",
+   "kind": "market price",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops"
+   ],
+   "what_it_forecasts": "What capital-market investors are paid to bear named peril risk for the next 3-4 years: spread, modelled expected loss and multiple for every cat bond tranche, plus the maturity wall by quarter to 2030.",
+   "horizon": "deal tenors typically 3-4 years; maturity schedule shown by quarter to H1 2030",
+   "latest_edition": {
+    "title": "Q3 2026 Catastrophe Bond & ILS Market Report: Cat bond market keeps record pace after above-average Q3",
+    "date": "2026-10-01",
+    "url": "https://www.artemis.bm/wp-content/uploads/2026/10/catastrophe-bond-ils-market-report-q3-2026-1.pdf"
+   },
+   "update_cadence": "quarterly report; deal directory updated continuously",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Investors lose principal if modelled expected loss is wrong (the 2024 Jamaica bond paid out in full after Hurricane Melissa), dozens of specialist ILS funds plus third-party modellers set each price in a book-build, and spreads/multiples are published every quarter with a multi-year series (multiple fell from 5.15 in 9M 2023 to 2.4 in 9M 2026). T4 only partly met (3-4 year tenors, not 5) and T5 not met; known cyclical bias: multiples compress after loss-free years, so current prices embed benign-year optimism."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Names sponsors (LADWP, Swiss Re, Hannover Re, Porch, American Coastal, Nectaris Re), perils, deal sizes, spread and expected-loss bands, monthly issuance and the 2027-2030 maturity schedule; commentary is market-structure rather than scene-level."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Edition dated 1 Oct 2026. AI enters only qualitatively, as the data-centre build-out that ILS capital may partly insure; no tranche or spread is moved by it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Another growing topic that’s emerged across the re/insurance industry has been how impactful the global data centre build-out will be for the industry, with many industry figures indicating that the ILS market could play a key role as this market continues to grow.",
+     "doc_local_path": "primary/climate-insurance/artemis-cat-bond-market/catastrophe-bond-ils-market-report-q3-2026.pdf",
+     "page": 7
+    },
+    "search_note": "Searched AI / artificial intelligence / generative: 0 hits; 'data centre': 2 hits (p7 interview)."
+   },
+   "tier": "top",
+   "why_top_or_not": "Only genuine multi-year market price of physical catastrophe risk, with named deals and a dated maturity wall; highest-preference source type in the brief.",
+   "primary_docs": [
+    {
+     "title": "Artemis Q3 2026 Catastrophe Bond & ILS Market Report",
+     "url": "https://www.artemis.bm/wp-content/uploads/2026/10/catastrophe-bond-ils-market-report-q3-2026-1.pdf",
+     "local_path": "primary/climate-insurance/artemis-cat-bond-market/catastrophe-bond-ils-market-report-q3-2026.pdf",
+     "status": "full",
+     "bytes": 1468637,
+     "pages": 25,
+     "note": ""
+    },
+    {
+     "title": "Artemis Deal Directory listing page (dated snapshot of all tracked transactions, 18 Nov 2026)",
+     "url": "https://www.artemis.bm/deal-directory/",
+     "local_path": "primary/climate-insurance/artemis-cat-bond-market/artemis-deal-directory-snapshot-2026-11-18.html",
+     "status": "full",
+     "bytes": 751632,
+     "pages": 0,
+     "note": "HTML snapshot of the public directory list (issuer, cedent, perils, size, month); per-deal pages with spread and expected loss were not crawled, and offering circulars are not public."
+    },
+    {
+     "title": "Artemis news 17 Nov 2026: Cat bond issuance hits $20bn at fastest pace in 2026, market size exceeds $66bn",
+     "url": "https://www.artemis.bm/news/cat-bond-issuance-hits-20bn-at-fastest-pace-in-2026-market-size-exceeds-66bn-for-first-time/",
+     "local_path": "primary/climate-insurance/artemis-cat-bond-market/artemis-news-2026-11-17-issuance-hits-20bn.html",
+     "status": "full",
+     "bytes": 174425,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "According to Artemis’ data, the average expected loss of tranches of notes issued in 9M 2026 is 2.85%, the average spread is 6.83%, the average multiple is 2.4, and the average spread above expected loss is 3.98%. This compares with 2.22%, 7.23%, 3.26, and 5.01%, respectively, in 2025.",
+     "doc_local_path": "primary/climate-insurance/artemis-cat-bond-market/catastrophe-bond-ils-market-report-q3-2026.pdf",
+     "page": 22,
+     "locator": "Nine-month expected loss & multiple year-on-year",
+     "url": "https://www.artemis.bm/wp-content/uploads/2026/10/catastrophe-bond-ils-market-report-q3-2026-1.pdf",
+     "worldbuilding_use": "Price of catastrophe risk in 2026: investors accept 2.4x expected loss, down from 5.15x in 2023."
+    },
+    {
+     "text": "The data reveals that cat bond and related ILS issuance in the first half of 2027 will need to be strong again to outpace the $10.6 billion in scheduled maturities, and even stronger the following year when a huge $15.2 billion of deals mature.",
+     "doc_local_path": "primary/climate-insurance/artemis-cat-bond-market/catastrophe-bond-ils-market-report-q3-2026.pdf",
+     "page": 18,
+     "locator": "Upcoming maturities by quarter",
+     "url": "https://www.artemis.bm/wp-content/uploads/2026/10/catastrophe-bond-ils-market-report-q3-2026-1.pdf",
+     "worldbuilding_use": "Dated refinancing wall: $10.6bn H1 2027, $15.2bn H1 2028 must be re-placed whatever the loss year."
+    },
+    {
+     "text": "This includes the Los Angeles Department of Water & Power’s $100 million California wildfire issuance, the $25.5 million Florida named storm deal from American Coastal Insurance, Porch Group’s inaugural $100 million transaction, which covers multiple US perils, and the $75 million US multi-peril deal sponsored by Nectaris Re.",
+     "doc_local_path": "primary/climate-insurance/artemis-cat-bond-market/catastrophe-bond-ils-market-report-q3-2026.pdf",
+     "page": 11,
+     "locator": "Q3 issuance by peril",
+     "url": "https://www.artemis.bm/wp-content/uploads/2026/10/catastrophe-bond-ils-market-report-q3-2026-1.pdf",
+     "worldbuilding_use": "Named sponsors: a municipal utility buying wildfire cover from bond investors in summer 2026."
+    },
+    {
+     "text": "Fish Pond Re Ltd. (Series 2026-1) Texas Farm Bureau Insurance Texas named storm $400m Dec 2026 [...] Ursa Re Ltd. (Series 2026-1) California Earthquake Authority California earthquake $900m Nov 2026",
+     "doc_local_path": "primary/climate-insurance/artemis-cat-bond-market/artemis-deal-directory-snapshot-2026-11-18.html",
+     "page": null,
+     "locator": "Artemis Deal Directory listing (issuer, cedent, perils, size, date), snapshot retrieved 18 Nov 2026",
+     "url": "https://www.artemis.bm/deal-directory/",
+     "worldbuilding_use": "Named Q4 2026 deals: California Earthquake Authority $900m quake bond; Texas Farm Bureau $400m storm bond."
+    },
+    {
+     "text": "“These data centres are going to cost billions and billions, and nobody is going to take on that whole risk alone. Reinsurers will want to slice and dice the risk with other reinsurers. Given that ILS are fully collateralized, the question is how much managers are willing to take on.",
+     "doc_local_path": "primary/climate-insurance/artemis-cat-bond-market/catastrophe-bond-ils-market-report-q3-2026.pdf",
+     "page": 7,
+     "locator": "Interview, p7",
+     "url": "https://www.artemis.bm/wp-content/uploads/2026/10/catastrophe-bond-ils-market-report-q3-2026-1.pdf",
+     "worldbuilding_use": "AI link: data-centre build-out as a new concentration risk the cat bond market is asked to share."
+    }
+   ]
+  },
+  {
+   "id": "reinsurance-renewal-reports",
+   "name": "Mid-year 2026 reinsurance renewal reports (Guy Carpenter incl. US property cat rate-on-line index, Gallagher Re First View, Aon Reinsurance Market Dynamics, Howden Re)",
+   "publisher": "Guy Carpenter (Marsh); Gallagher Re; Aon; Howden Re",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Insurers pricing or excluding AI and cyber risk"
+   ],
+   "what_it_forecasts": "The prices and terms at which reinsurers actually bound 12-month catastrophe, casualty, cyber and specialty treaties at 1 June / 1 July 2026 by territory, with brokers' stated expectations for 1 January 2027.",
+   "horizon": "contracts bind for 12 months (to mid-2027); outlook commentary to 1 Jan 2027; capital forecasts for FY2026",
+   "latest_edition": {
+    "title": "July 2026 Reinsurance Renewal Report (Guy Carpenter); First View: A Moment for Creativity, July 2026 (Gallagher Re); Reinsurance Market Dynamics Midyear 2026 (Aon); 1 June 2026 property-catastrophe renewal (Howden Re)",
+    "date": "2026-07-01",
+    "url": "https://www.guycarp.com/content/dam/guycarp-rebrand/pdf/2026InsightsPDFs/July_2026_Reinsurance_Renewal_Report.PDF"
+   },
+   "update_cadence": "at each major renewal: 1 January, 1 April, 1 June/1 July (next: early January 2027)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "The numbers are transaction prices at which reinsurers committed capital (T1), set by hundreds of competing reinsurers and ILS funds and reported by four rival brokers who check each other (T2). Guy Carpenter's rate-on-line index is a published price series back to 1990, but the brokers' forward calls are never scored, so T3 is not counted; the instrument is a 12-month treaty (rubric anchor: real money, much shorter than 5 years), and the narrators are brokers paid by buyers, with an interest in talking prices down."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Territory-by-territory rate tables (US cat loss-free -20% to -25%, UK -22.5%), named events (Venezuela double earthquake, Palisades/Eaton), dated capital figures (USD 648bn / USD 790bn), Florida demand (+USD 5-7bn), cyber and casualty sections, explicit mechanism narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "All editions June-July 2026. AI appears as AI liability becoming a risk class, data-centre business-interruption exposure and AI-driven cyber threat, plus one quantified side-fact (95.2% of Q1 2026 InsurTech funding to AI firms); renewal rates themselves are not moved by AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "AI is transforming cybersecurity by strengthening defensive capabilities while increasing the speed and accessibility of offensive activity. The impacts are also being seen in the (re)insurance market across underwriting, risk selection, and accumulation modeling, as AI-driven cyber capabilities alter both the threat landscape and factors used to assess cyber risk.",
+     "doc_local_path": "primary/climate-insurance/reinsurance-renewal-reports/July_2026_Reinsurance_Renewal_Report.pdf",
+     "page": 20
+    },
+    "search_note": "AI terms: Gallagher Re 20 hits (intro letter p5, InsurTech/AI spotlight p42), Guy Carpenter 3 (cyber p20), Aon 5 (AI in placement analytics), Howden 1 ('AI-driven cyber exposures are scaling rapidly')."
+   },
+   "tier": "top",
+   "why_top_or_not": "Richest dated, located record of what catastrophe protection cost at the last binding date and where brokers expect 1.1.2027 to go; feeds directly into 2027 primary rates.",
+   "primary_docs": [
+    {
+     "title": "Guy Carpenter July 2026 Reinsurance Renewal Report",
+     "url": "https://www.guycarp.com/content/dam/guycarp-rebrand/pdf/2026InsightsPDFs/July_2026_Reinsurance_Renewal_Report.PDF",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/July_2026_Reinsurance_Renewal_Report.pdf",
+     "status": "full",
+     "bytes": 972646,
+     "pages": 25,
+     "note": ""
+    },
+    {
+     "title": "Guy Carpenter July 2026 Renewals: Property (one-pager)",
+     "url": "https://www.guycarp.com/content/dam/guycarp-rebrand/pdf/PDFsforSeismic/July_2026_Renewals_Property.PDF",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/July_2026_Renewals_Property.pdf",
+     "status": "full",
+     "bytes": 85056,
+     "pages": 1,
+     "note": ""
+    },
+    {
+     "title": "Guy Carpenter U.S. Property Catastrophe Rate-On-Line Index page (Artemis, post-mid-year 2026 update)",
+     "url": "https://www.artemis.bm/us-property-cat-rate-on-line-index/",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/artemis-us-property-cat-rol-index.html",
+     "status": "partial",
+     "bytes": 128067,
+     "pages": 0,
+     "note": "Artemis commentary page reproducing the index movements; the underlying Guy Carpenter index data file is not public. Page text contains a typo ('soft market low in 2027' for 2017)."
+    },
+    {
+     "title": "Gallagher Re First View July 2026: A Moment for Creativity",
+     "url": "https://www.ajg.com/gallagherre/-/media/files/gallagher/gallagherre/2026/gallagher-re-first-view-july-2026-a-moment-for-creativity.pdf",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/gallagher-re-first-view-july-2026.pdf",
+     "status": "full",
+     "bytes": 17921168,
+     "pages": 49,
+     "note": ""
+    },
+    {
+     "title": "Aon Reinsurance Market Dynamics: Midyear 2026 Renewal",
+     "url": "https://assets.aon.com/-/media/files/aon/reports/2026/reinsurance-market-dynamics-2026-midyear-report.pdf",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/reinsurance-market-dynamics-2026-midyear-report.pdf",
+     "status": "full",
+     "bytes": 3972722,
+     "pages": 26,
+     "note": ""
+    },
+    {
+     "title": "Howden Re: 1 June 2026 property-catastrophe renewal (release)",
+     "url": "https://www.howdenre.com/news-insights/1-june-2026-property-catastrophe-renewals",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/howden-1-june-2026-property-catastrophe-renewals.html",
+     "status": "partial",
+     "bytes": 61940,
+     "pages": 0,
+     "note": "HTML release only; no PDF of a mid-year Howden report located."
+    },
+    {
+     "title": "Howden renewal report at 1.1.2026: Re-balancing (release)",
+     "url": "https://www.howdengroupholdings.com/news/howden-renewal-report-112026",
+     "local_path": "primary/climate-insurance/reinsurance-renewal-reports/howden-renewal-report-1-1-2026.html",
+     "status": "partial",
+     "bytes": 168780,
+     "pages": 0,
+     "note": "HTML release summarising the 1.1.2026 report; full PDF not located."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Pricing on US property per risk is in the range of flat to +10% for loss-impacted business, and between -5 to -15% on non-loss impacted business. [...] The US property catastrophe ROL index decreased 16%.",
+     "doc_local_path": "primary/climate-insurance/reinsurance-renewal-reports/July_2026_Reinsurance_Renewal_Report.pdf",
+     "page": 7,
+     "locator": "Property: Competitive pricing environment continues at mid-year renewal",
+     "url": "https://www.guycarp.com/content/dam/guycarp-rebrand/pdf/2026InsightsPDFs/July_2026_Reinsurance_Renewal_Report.PDF",
+     "worldbuilding_use": "US property catastrophe reinsurance cost down 16% in 2026: input to 2027 homeowners rate filings."
+    },
+    {
+     "text": "Florida is a key regional focus at mid-year. The state’s June 1 renewals saw price reductions of 25% or more on select programs, outpacing the broader US market. [...] Programs were often oversubscribed.",
+     "doc_local_path": "primary/climate-insurance/reinsurance-renewal-reports/gallagher-re-first-view-july-2026.pdf",
+     "page": 10,
+     "locator": "Property, Executive Summary",
+     "url": "https://www.ajg.com/gallagherre/-/media/files/gallagher/gallagherre/2026/gallagher-re-first-view-july-2026-a-moment-for-creativity.pdf",
+     "worldbuilding_use": "Florida insurers' reinsurance bills fell 25%+ on 1 June 2026; supports 2027 Florida rate cuts."
+    },
+    {
+     "text": "Dedicated reinsurance capital reached a record USD648 billion at the end of 2025, with capital growth far outpacing revenue growth (+11% versus +1.4%), deepening the capital supply versus capital demand imbalance.",
+     "doc_local_path": "primary/climate-insurance/reinsurance-renewal-reports/gallagher-re-first-view-july-2026.pdf",
+     "page": 7,
+     "locator": "Market Drivers and Key Renewal Findings: Capital and profitability",
+     "url": "https://www.ajg.com/gallagherre/-/media/files/gallagher/gallagherre/2026/gallagher-re-first-view-july-2026-a-moment-for-creativity.pdf",
+     "worldbuilding_use": "Mechanism of the soft market: capital +11%, demand +1%; sets up the eventual turn."
+    },
+    {
+     "text": "A further leg down of the magnitude observed at 1 June would, on current trajectories, bring large segments of industry returns below costs of capital by 2027.",
+     "doc_local_path": "primary/climate-insurance/reinsurance-renewal-reports/howden-1-june-2026-property-catastrophe-renewals.html",
+     "page": null,
+     "locator": "A widening dichotomy: falling rates, rising risks",
+     "url": "https://www.howdenre.com/news-insights/1-june-2026-property-catastrophe-renewals",
+     "worldbuilding_use": "Dated tipping point: reinsurer returns below cost of capital by 2027 if cuts continue."
+    },
+    {
+     "text": "The rise of artificial intelligence has continued to drive consideration of AI liability as a risk class. [...] The growth in the use of AI is also leading to increased data center exposures, including difficult-to-measure business interruption risk.",
+     "doc_local_path": "primary/climate-insurance/reinsurance-renewal-reports/gallagher-re-first-view-july-2026.pdf",
+     "page": 5,
+     "locator": "Introductory letter from Tom Wakefield, CEO",
+     "url": "https://www.ajg.com/gallagherre/-/media/files/gallagher/gallagherre/2026/gallagher-re-first-view-july-2026-a-moment-for-creativity.pdf",
+     "worldbuilding_use": "AI link: reinsurers treating AI liability and data-centre outage as new exposure classes in 2026."
+    }
+   ]
+  },
+  {
+   "id": "primary-insurer-filings",
+   "name": "Primary insurers' SEC filings (Allstate, Progressive, Travelers, Chubb: Q3 2026 Forms 10-Q; FY2025 Forms 10-K)",
+   "publisher": "The Allstate Corporation; The Progressive Corporation; The Travelers Companies; Chubb Limited (filed with the US SEC)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Insurers pricing or excluding AI and cyber risk"
+   ],
+   "what_it_forecasts": "Carrier-by-carrier disclosure of where they will and will not write home and auto cover, rate actions taken, catastrophe losses, reserve development and reinsurance programmes, under securities-law liability.",
+   "horizon": "quarterly actuals plus stated forward intentions (rate plans, catastrophe reinsurance programme year to mid-2027); no multi-year numeric guidance",
+   "latest_edition": {
+    "title": "Forms 10-Q for the quarter ended 30 September 2026 (Allstate filed 2026-11-04; Progressive 2026-11-02; Chubb 2026-10-28; Travelers 2026-10-16)",
+    "date": "2026-11-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000157/all-20260930.htm"
+   },
+   "update_cadence": "quarterly (10-Q) and annual (10-K, next February-March 2027); Progressive also reports monthly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Misstatement carries Exchange Act liability; auditors, sell-side analysts, short-sellers and state insurance examiners attack the numbers; reserves are re-marked every quarter and 10-Ks publish ten-year loss-development tables. Fails T4/T5: nothing binds beyond the next policy year, and forward statements are hedged; known bias is toward reporting underlying (ex-catastrophe) margins."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named states and channels (not writing new homeowners in Florida; California via an E&S carrier), dollar catastrophe losses by quarter and event type, rate changes in percent, policies in force, litigation; thin on explicit forecasts."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Filings dated Oct-Nov 2026 (10-Q) and Feb-Mar 2026 (10-K). AI appears as strategy and risk factor ('generative and agentic artificial intelligence'), not as a quantified driver of losses or premiums; the Q3 10-Qs of Allstate, Progressive and Chubb contain no AI text at all."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "The maturity and effectiveness of forms of artificial intelligence technology are rapidly evolving. Regulatory restrictions on the use or development of artificial intelligence may impose additional compliance or reporting obligations, which may materially adversely affect our operations or ability to write business profitably in one or more jurisdictions.",
+     "doc_local_path": "primary/climate-insurance/primary-insurer-filings/all-20251231-10K.htm",
+     "page": null
+    },
+    "search_note": "Searched 'artificial intelligence|AI|generative' and 'data cent': Q3 10-Qs: Allstate 0, Progressive 0, Chubb 0, Travelers 3 (forward-looking-statement boilerplate). FY2025 10-Ks contain the risk-factor text."
+   },
+   "notes": "State Farm (mutual, not an SEC registrant) statutory statements were not retrieved; State Farm General's 2025 Annual Statement is discussed in the CDI rate order (see cdi-state-farm-general-rate-order). Earnings-call transcripts not downloaded.",
+   "tier": "top",
+   "why_top_or_not": "Legally accountable, adversarially read statements by the carriers that actually decide whether a home or car gets insured; complements market prices with named states and dollar losses.",
+   "primary_docs": [
+    {
+     "title": "Allstate Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000157/all-20260930.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/all-20260930.htm",
+     "status": "full",
+     "bytes": 4781397,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Progressive Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000379/pgr-20260930.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/pgr-20260930.htm",
+     "status": "full",
+     "bytes": 2981621,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Travelers Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000181/trv-20260930.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/trv-20260930.htm",
+     "status": "full",
+     "bytes": 2778835,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Chubb Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/896159/000089615926000021/cb-20260930.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/cb-20260930.htm",
+     "status": "full",
+     "bytes": 5537702,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Allstate Form 10-K for FY2025 (filed 2026-02-20)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000031/all-20251231.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/all-20251231-10K.htm",
+     "status": "full",
+     "bytes": 8064287,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Travelers Form 10-K for FY2025 (filed 2026-02-12)",
+     "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/trv-20251231-10K.htm",
+     "status": "full",
+     "bytes": 6901554,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Progressive Form 10-K for FY2025 (filed 2026-03-02)",
+     "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+     "local_path": "primary/climate-insurance/primary-insurer-filings/pgr-20251231-10K.htm",
+     "status": "partial",
+     "bytes": 1313430,
+     "pages": 0,
+     "note": "Main 10-K document only; Progressive puts MD&A and financial statements in the Annual Report exhibit (Exhibit 13), which was not downloaded."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "In Florida, we are not writing new homeowners business and completed the non-renewal of certain policies during the second quarter of 2026. In California, we write a limited amount of new homeowners business through North Light Specialty Insurance Company, our excess and surplus lines carrier.",
+     "doc_local_path": "primary/climate-insurance/primary-insurer-filings/all-20260930.htm",
+     "page": null,
+     "locator": "MD&A, Allstate Protection homeowners (10-Q Q3 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000157/all-20260930.htm",
+     "worldbuilding_use": "Availability: a top-3 home insurer closed to new Florida homeowners and only E&S in California in late 2026."
+    },
+    {
+     "text": "Catastrophe losses increased $1.09 billion to $1.65 billion in the third quarter of 2026 compared to the third quarter of 2025, driven by two large wind/hail events and more frequent smaller events.",
+     "doc_local_path": "primary/climate-insurance/primary-insurer-filings/all-20260930.htm",
+     "page": null,
+     "locator": "MD&A, Property-Liability catastrophe losses (10-Q Q3 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000157/all-20260930.htm",
+     "worldbuilding_use": "Even in a no-hurricane year, hail and wind cost one carrier $1.65bn in a quarter."
+    },
+    {
+     "text": "For the third quarter 2026, on a year-over-year basis, average written premium per policy decreased 2% in personal auto, 1% in personal property products, and 3% in core commercial auto products.",
+     "doc_local_path": "primary/climate-insurance/primary-insurer-filings/pgr-20260930.htm",
+     "page": null,
+     "locator": "MD&A, Underwriting results (10-Q Q3 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000379/pgr-20260930.htm",
+     "worldbuilding_use": "Car insurance bills falling ~2% year on year by autumn 2026 after the 2022-24 surge."
+    },
+    {
+     "text": "During the third quarter 2026, we took minimal rate decreases, in aggregate, in our personal property [...] business, bringing the year-to-date aggregate rate increase to 2%. We intend to continue to make targeted rate changes in states where we are not achieving our optimal profitability goals.",
+     "doc_local_path": "primary/climate-insurance/primary-insurer-filings/pgr-20260930.htm",
+     "page": null,
+     "locator": "MD&A, Personal Lines property (10-Q Q3 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000379/pgr-20260930.htm",
+     "worldbuilding_use": "Home insurance rate increases flattening to ~2% in 2026; state-by-state divergence continues."
+    },
+    {
+     "text": "Our development and use of new technology, such as generative and agentic artificial intelligence, may present additional risks, may not be successful, and could have a material adverse effect on our business",
+     "doc_local_path": "primary/climate-insurance/primary-insurer-filings/pgr-20251231-10K.htm",
+     "page": null,
+     "locator": "Item 1A Risk Factors (10-K FY2025)",
+     "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+     "worldbuilding_use": "AI link: a top auto insurer formally flags its own generative/agentic AI use as a material risk."
+    }
+   ]
+  },
+  {
+   "id": "ai-exclusions-and-ai-liability-cover",
+   "name": "Insurers' AI exclusion wordings and affirmative AI liability products (Verisk/ISO CG 40 47 01 26, W. R. Berkley PC 51380 'absolute' exclusion, Munich Re aiSure via Mosaic, Lloyd's coverholders Armilla/Testudo)",
+   "publisher": "Insurance Services Office (Verisk); Berkley Insurance Company; Mosaic Insurance / Munich Re; Casualty Actuarial Society (Actuarial Review survey of the market)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Insurers pricing or excluding AI and cyber risk"
+   ],
+   "what_it_forecasts": "What AI-caused loss insurers contractually refuse to carry from 2026 (generative-AI exclusions in general liability; absolute AI exclusions in D&O/EPL/fiduciary) and the limits at which a new market will affirmatively insure AI performance failure.",
+   "horizon": "policy wordings attach to annual policies renewing through 2026-27; adoption and case law play out over several years",
+   "latest_edition": {
+    "title": "ISO CG 40 47 01 26 Exclusion - Generative Artificial Intelligence (available January 2026); Berkley PC 51380 00 (06-24); Mosaic x aiSure launch (2026-02-26); CAS Actuarial Review Nov-Dec 2026 'AI Liability Coverage Takes Shape'",
+    "date": "2026-10-29",
+    "url": "https://digital.casact.org/issue/actuarial-review-november-december-2026/emerging-ai-liability-insurance-coverage/"
+   },
+   "update_cadence": "form filings and product launches as they occur; ISO forms revised on multi-year cycles",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Contract wording is where the insurer's own money is at stake: an exclusion that fails in court means paid claims, and affirmative products put up to USD 15-25m per insured at risk. Forms must be filed with state regulators and are attacked by policyholder counsel (the Berkley form was published by a policyholder law firm). But there is no scored track record, policies are annual, and Verisk says it does not know how widely the forms are attached, so adoption is not yet 'in the pipeline'."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Exact form numbers and edition dates, verbatim exclusion language (including chatbot statements and AI-related investor disclosures), named carriers and syndicates, limits in dollars; little on premium rates."
+   },
+   "ai": {
+    "score": 5,
+    "why": "2026 material whose subject is AI itself: forms effective January 2026, product launches February-June 2026, market survey dated 29 Oct 2026. This is the insurance market's direct, dated repricing of AI risk."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Three Verisk AI-exclusion endorsements became available in January 2026. The broad form, CG 40 47, removes bodily injury, property damage, and personal and advertising injury attributable to generative AI. CG 40 48 reaches personal and advertising injury alone, and CG 35 08 applies to products and completed operations.",
+     "doc_local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/cas-actuarial-review-nov-dec-2026-ai-liability-coverage.html",
+     "page": null
+    },
+    "search_note": "AI is the subject of every document. 'Quantified' refers to stated limits (USD 15m, USD 25m, USD 9.25m) and effective dates; no loss-cost or rate data is published."
+   },
+   "tier": "top",
+   "why_top_or_not": "The clearest dated evidence of how insurers price AI risk (by excluding it), with liftable contract language; unique coverage of the AI-liability trend.",
+   "primary_docs": [
+    {
+     "title": "ISO CG 40 47 01 26 - Exclusion - Generative Artificial Intelligence (specimen form)",
+     "url": "https://assets.touchpointmarkets.com/c4/0b/86ec38604fbb99b39c105c7c0345/cg-40-47-01-26-exclusion-generative-artificial-intelligence.pdf",
+     "local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/ISO-CG-40-47-01-26-exclusion-generative-artificial-intelligence.pdf",
+     "status": "full",
+     "bytes": 88633,
+     "pages": 1,
+     "note": "Complete one-page specimen form (c) Insurance Services Office, Inc., 2025; copy hosted by a trade publisher, not by Verisk (ISO forms are licensed). Companion forms CG 40 48 and CG 35 08 not obtained."
+    },
+    {
+     "title": "Berkley Insurance Company PC 51380 00 (06-24) Artificial Intelligence Exclusion (Absolute)",
+     "url": "https://hunton.sitepilot11.firmseek.com/assets/htmldocuments/noindex/PC-51380-00-06-24-Artificial-Intelligence-Exclusion-Absolute.pdf",
+     "local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/Berkley-PC-51380-00-06-24-Artificial-Intelligence-Exclusion-Absolute.pdf",
+     "status": "full",
+     "bytes": 140774,
+     "pages": 2,
+     "note": "Complete two-page endorsement, hosted by policyholder law firm Hunton; amends Berkley D&O, EPL and fiduciary forms. Edition date June 2024."
+    },
+    {
+     "title": "Mosaic partners with Munich Re's aiSure to provide coverage for AI vendors (press release, 2026-02-26)",
+     "url": "https://www.mosaicinsurance.com/resources/press-releases/~/mosaic-partners-with-munich-res-aisure-to-provide-pioneering-coverage-for-ai-vendors/",
+     "local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/mosaic-munich-re-aisure-press-release-2026-02-26.html",
+     "status": "full",
+     "bytes": 41997,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CAS Actuarial Review Nov-Dec 2026: AI Liability Coverage Takes Shape",
+     "url": "https://digital.casact.org/issue/actuarial-review-november-december-2026/emerging-ai-liability-insurance-coverage/",
+     "local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/cas-actuarial-review-nov-dec-2026-ai-liability-coverage.html",
+     "status": "full",
+     "bytes": 161688,
+     "pages": 0,
+     "note": "Secondary but dated and sourced survey of exclusions and affirmative products (Armilla, Testudo, HSB, aiSure)."
+    },
+    {
+     "title": "Insurance Journal: Insurer Interest in AI Coverage Exclusions Growing (2026-08-17)",
+     "url": "https://www.insurancejournal.com/magazines/mag-features/2026/08/17/881424.htm",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Connection reset on download; read only via search tool, not saved."
+    },
+    {
+     "title": "Armilla AI liability policy wording",
+     "url": "https://www.armilla.ai/ai-insurance",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Product page only says to request full policy documentation; wording is not public."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "\"Generative artificial intelligence\" means a machine-based learning system or model that is trained on data with the ability to create content or responses, including but not limited to text, images, audio, video or code.",
+     "doc_local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/ISO-CG-40-47-01-26-exclusion-generative-artificial-intelligence.pdf",
+     "page": 1,
+     "locator": "CG 40 47 01 26, paragraph C (definition); paragraphs A-B exclude bodily injury, property damage and personal and advertising injury 'arising out of' it",
+     "url": "https://assets.touchpointmarkets.com/c4/0b/86ec38604fbb99b39c105c7c0345/cg-40-47-01-26-exclusion-generative-artificial-intelligence.pdf",
+     "worldbuilding_use": "Exact wording a small business finds on its 2026 liability renewal excluding generative-AI-caused injury."
+    },
+    {
+     "text": "The Insurer shall not be liable to make payment under this Coverage Part for Loss on account of any Claim made against any Insured based upon, arising out of, or attributable to: (1) any actual or alleged use, deployment, or development of Artificial Intelligence by any person or entity",
+     "doc_local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/Berkley-PC-51380-00-06-24-Artificial-Intelligence-Exclusion-Absolute.pdf",
+     "page": 1,
+     "locator": "PC 51380 00 (06-24), Section III. Exclusions",
+     "url": "https://hunton.sitepilot11.firmseek.com/assets/htmldocuments/noindex/PC-51380-00-06-24-Artificial-Intelligence-Exclusion-Absolute.pdf",
+     "worldbuilding_use": "Directors lose D&O cover for any claim touching AI use: boardroom consequence of AI adoption."
+    },
+    {
+     "text": "any alleged representations, warranties, promises, or agreements actually or allegedly made by a chatbot or virtual customer service agent",
+     "doc_local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/Berkley-PC-51380-00-06-24-Artificial-Intelligence-Exclusion-Absolute.pdf",
+     "page": 1,
+     "locator": "PC 51380 00 (06-24), clause (1)(f)",
+     "url": "https://hunton.sitepilot11.firmseek.com/assets/htmldocuments/noindex/PC-51380-00-06-24-Artificial-Intelligence-Exclusion-Absolute.pdf",
+     "worldbuilding_use": "Scene detail: a company's customer-service chatbot promise is explicitly uninsured."
+    },
+    {
+     "text": "Mosaic x aiSure™ provides up to EUR/USD/CAD 15 million in initial capacity to protect AI developers and vendors worldwide against financial loss arising from defined AI performance failures.",
+     "doc_local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/mosaic-munich-re-aisure-press-release-2026-02-26.html",
+     "page": null,
+     "locator": "Press release, 26 February 2026",
+     "url": "https://www.mosaicinsurance.com/resources/press-releases/~/mosaic-partners-with-munich-res-aisure-to-provide-pioneering-coverage-for-ai-vendors/",
+     "worldbuilding_use": "Size of the affirmative market: USD 15m per AI vendor, paid when a model misses a performance threshold."
+    },
+    {
+     "text": "Armilla, a Lloyd’s cover holder, writes a standalone AI liability policy underwritten by syndicates including Chaucer, with limits of $25 million or more per organization.",
+     "doc_local_path": "primary/climate-insurance/ai-exclusions-and-ai-liability-cover/cas-actuarial-review-nov-dec-2026-ai-liability-coverage.html",
+     "page": null,
+     "locator": "Section 'Addition'",
+     "url": "https://digital.casact.org/issue/actuarial-review-november-december-2026/emerging-ai-liability-insurance-coverage/",
+     "worldbuilding_use": "Named Lloyd's capacity for AI liability in late 2026: USD 25m limits, tiny against AI deployment scale."
+    }
+   ]
+  },
+  {
+   "id": "utility-wildfire-liabilities",
+   "name": "Utility wildfire liability disclosures and the California Wildfire Fund (PG&E Corporation and Edison International Q3 2026 Forms 10-Q)",
+   "publisher": "PG&E Corporation / Pacific Gas and Electric Company; Edison International / Southern California Edison (filed with the US SEC)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops",
+    "Home/auto insurance affordability and availability; residual markets and regulated rates"
+   ],
+   "what_it_forecasts": "Accrued and probable wildfire losses, expected recoveries from the California Wildfire Fund and from customers through CPUC-approved rates, cost-recovery applications and the litigation calendar for the Eaton, Kincade and Dixie fires.",
+   "horizon": "quarterly; liabilities, trial dates and cost-recovery proceedings run 2027-2030+; Wildfire Fund amortised over an estimated life",
+   "latest_edition": {
+    "title": "Forms 10-Q for the quarter ended 30 September 2026 (PG&E filed 2026-10-22; Edison International filed 2026-10-29)",
+    "date": "2026-10-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000073/eix-20260930.htm"
+   },
+   "update_cadence": "quarterly (next: FY2026 Forms 10-K, February 2027)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Securities-law liability plus auditors; every number is contested by plaintiffs' counsel (about 38,000 Eaton plaintiffs), subrogating insurers, CPUC intervenors and bond investors; loss accruals are re-marked quarterly with cumulative history disclosed. T5 partly met (claims filed, trials calendared for 2027, rate collections authorised). Known bias: accruals are booked at the low end of the range when no better estimate exists."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named fires, dates, courts and trial months, plaintiff counts, dollar accruals and recoveries, CPUC rate adjustments (USD 274m to USD 650m for 2026), Wildfire Fund asset balances; mechanisms spelled out."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Filed October 2026. AI enters only through PG&E's forward-looking statement that data centers are raising electricity demand; wildfire liability numbers are not affected. Edison's 10-Q has no AI or data-center text."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "increasing demand for electric power due to data centers and electrification of the transportation, buildings, and other sectors of the economy",
+     "doc_local_path": "primary/climate-insurance/utility-wildfire-liabilities/pcg-20260930.htm",
+     "page": null
+    },
+    "search_note": "PG&E 10-Q: 'data center' 1 hit, AI terms 0. Edison 10-Q: 0 hits for AI terms and 'data cent'."
+   },
+   "tier": "top",
+   "why_top_or_not": "Best dated, adversarially tested account of who pays for mega-fires (customers, the Wildfire Fund, insurers by subrogation); a distinct mechanism from insurance pricing.",
+   "primary_docs": [
+    {
+     "title": "PG&E Corporation Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000055/pcg-20260930.htm",
+     "local_path": "primary/climate-insurance/utility-wildfire-liabilities/pcg-20260930.htm",
+     "status": "full",
+     "bytes": 2967830,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Edison International Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000073/eix-20260930.htm",
+     "local_path": "primary/climate-insurance/utility-wildfire-liabilities/eix-20260930.htm",
+     "status": "full",
+     "bytes": 2883685,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "California Wildfire Fund website home page",
+     "url": "https://www.cawildfirefund.com/",
+     "local_path": "primary/climate-insurance/utility-wildfire-liabilities/ca-wildfire-fund-home.html",
+     "status": "partial",
+     "bytes": 21610,
+     "pages": 0,
+     "note": "Landing page only; the Fund's annual/plan-of-operations documents were not located in this run."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "As of October 22, 2026, SCE was aware of approximately 2,000 outstanding lawsuits related to the Eaton Fire: representing lawsuits by approximately 38,000 individual plaintiffs and also lawsuits by subrogation plaintiffs and public entity plaintiffs. Bellwether jury trials in the Eaton Fire litigation have been set for January, May, and September 2027.",
+     "doc_local_path": "primary/climate-insurance/utility-wildfire-liabilities/eix-20260930.htm",
+     "page": null,
+     "locator": "MD&A, Southern California Wildfires / Eaton Fire",
+     "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000073/eix-20260930.htm",
+     "worldbuilding_use": "Calendar for 2027: three bellwether Eaton Fire jury trials; 38,000 plaintiffs."
+    },
+    {
+     "text": "As a result of accrued losses related to the Eaton Fire, in April 2026 the CPUC approved SCE's request to adjust revenue requirements to be collected from customers from $274 million to $650 million for 2026.",
+     "doc_local_path": "primary/climate-insurance/utility-wildfire-liabilities/eix-20260930.htm",
+     "page": null,
+     "locator": "Notes, wildfire self-insurance",
+     "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000073/eix-20260930.htm",
+     "worldbuilding_use": "Wildfire cost reaching Southern California power bills: self-insurance collections more than doubled in 2026."
+    },
+    {
+     "text": "The application seeks (1) recovery of $1.59 billion of costs recorded to the WEMA and not covered through the Wildfire Fund or insurance, (2) review of the costs recorded to the WEMA and drawn from the Wildfire Fund, and (3) recovery of $314 million of costs recorded to the CEMA.",
+     "doc_local_path": "primary/climate-insurance/utility-wildfire-liabilities/pcg-20260930.htm",
+     "page": null,
+     "locator": "Regulatory matters: 2019 Kincade fire and 2021 Dixie fire cost recovery application",
+     "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000055/pcg-20260930.htm",
+     "worldbuilding_use": "PG&E asking regulators to put $1.9bn of 2019-2021 fire costs into Northern California rates."
+    },
+    {
+     "text": "SCE has disclosed probable losses of $1.6 billion and a Wildfire Fund receivable of $645 million for the Eaton fire, which represents the low end of the range of probable losses, and that the remainder of the probable losses are not reasonably estimable.",
+     "doc_local_path": "primary/climate-insurance/utility-wildfire-liabilities/pcg-20260930.htm",
+     "page": null,
+     "locator": "Notes, Wildfire Fund asset",
+     "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000055/pcg-20260930.htm",
+     "worldbuilding_use": "Wildfire Fund depletion risk: one utility's fire shortens the fund's life for all three."
+    },
+    {
+     "text": "increasing demand for electric power due to data centers and electrification of the transportation, buildings, and other sectors of the economy",
+     "doc_local_path": "primary/climate-insurance/utility-wildfire-liabilities/pcg-20260930.htm",
+     "page": null,
+     "locator": "Forward-looking statements",
+     "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000055/pcg-20260930.htm",
+     "worldbuilding_use": "AI link: data-center load growth on the same grid that carries wildfire liability."
+    }
+   ]
+  },
+  {
+   "id": "aon-ils-annual-report",
+   "name": "Aon Securities ILS Annual Report 2026 (incl. transaction table with expected loss and spread per tranche)",
+   "publisher": "Aon Securities LLC",
+   "kind": "market price",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops"
+   ],
+   "what_it_forecasts": "Records every 144A cat bond tranche issued July 2025-June 2026 with sponsor, peril, trigger, modelled expected loss and coupon spread, plus market size and returns.",
+   "horizon": "tranche tenors 3-4 years; annual review period to 30 June 2026",
+   "latest_edition": {
+    "title": "ILS Annual Report: July 1, 2025 to June 30, 2026 (twentieth edition, August 2026)",
+    "date": "2026-08-27",
+    "url": "https://www.aon.com/getmedia/e2fb4584-640c-4d8f-abb0-cd57e306ac85/ILS-Annual-Report-2026.pdf"
+   },
+   "update_cadence": "annual (August/September)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Underlying numbers are market-clearing prices set by many investors and published for twenty consecutive years with index returns (12.5% for the period), but Aon is the placing broker and loses nothing if its outlook is wrong; tenors are 3-4 years. Date is the PDF creation date; the cover says August 2026."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Tranche-level table naming sponsors (for example Citizens' Everglades Re II and People's Trust), perils, expected loss and spread; aggregate statistics."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Near-duplicate mechanism of the Artemis top pick; kept for its tranche-level table (the closest public substitute for offering circulars).",
+   "primary_docs": [
+    {
+     "title": "Aon Securities ILS Annual Report 2026",
+     "url": "https://www.aon.com/getmedia/e2fb4584-640c-4d8f-abb0-cd57e306ac85/ILS-Annual-Report-2026.pdf",
+     "local_path": "primary/climate-insurance/aon-ils-annual-report/ILS-Annual-Report-2026.pdf",
+     "status": "full",
+     "bytes": 8605744,
+     "pages": 30,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Citizens Property Everglades Re II Ltd. Series 2026-1 Class C 225 FL HU Indemnity Aggregate 2.41% 8.25%",
+     "doc_local_path": "primary/climate-insurance/aon-ils-annual-report/ILS-Annual-Report-2026.pdf",
+     "page": 26,
+     "locator": "Appendix transaction table (sponsor, issuer, series, size USD m, peril, trigger, expected loss, spread)",
+     "url": "https://www.aon.com/getmedia/e2fb4584-640c-4d8f-abb0-cd57e306ac85/ILS-Annual-Report-2026.pdf",
+     "worldbuilding_use": "Actual 2026 price of Florida hurricane risk: Citizens pays 8.25% for a 2.41% expected-loss layer."
+    },
+    {
+     "text": "Aon Securities estimates that a $100 billion loss event could generate approximately $5 billion to $10 billion of full market losses, underscoring the relevance of the catastrophe bond market in large-loss scenarios.",
+     "doc_local_path": "primary/climate-insurance/aon-ils-annual-report/ILS-Annual-Report-2026.pdf",
+     "page": 2,
+     "locator": "Executive Summary",
+     "url": "https://www.aon.com/getmedia/e2fb4584-640c-4d8f-abb0-cd57e306ac85/ILS-Annual-Report-2026.pdf",
+     "worldbuilding_use": "Stress scenario: a $100bn event wipes $5-10bn from cat bond investors."
+    }
+   ]
+  },
+  {
+   "id": "swiss-re-ils-insights",
+   "name": "Swiss Re Capital Markets: Insurance-Linked Securities Market Insights",
+   "publisher": "Swiss Re Capital Markets",
+   "kind": "market price",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Half-yearly review of cat bond issuance, weighted-average spread, expected loss and multiple, secondary spreads by peril and the Swiss Re Global Cat Bond index.",
+   "horizon": "half-year look-back; bonds of 3-4 year tenor",
+   "latest_edition": {
+    "title": "ILS market insights: July 2026 (web summary; PDF not obtained). Latest full PDF: Edition XXXIX, February 2026",
+    "date": "2026-07-23",
+    "url": "https://www.swissre.com/our-business/alternative-capital-partners/ils-market-insights-july-2026.html"
+   },
+   "update_cadence": "twice a year (February, July)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Market-set prices and a long-running published index (Swiss Re Global Cat Bond Total Return: 11.4% in 2025), authored by a dealer/sponsor with no stake in its commentary being right."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Several series (spread, expected loss, multiple, secondary spreads by peril) with focus sections on the Los Angeles wildfires and Hurricane Melissa; few named forward-looking specifics."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 editions; no AI treatment in the February 2026 PDF; the July 2026 web page's only AI strings are site navigation."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found. (February 2026 PDF; July page: navigation links only.)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Duplicates the Artemis/Aon cat bond coverage; July 2026 PDF could not be retrieved.",
+   "primary_docs": [
+    {
+     "title": "Swiss Re ILS Market Insights, Edition XXXIX, February 2026",
+     "url": "https://www.swissre.com/dam/jcr:fbcb0075-12ef-486c-ab78-f34df55194eb/2026-02-ils-market-insights-february.pdf",
+     "local_path": "primary/climate-insurance/swiss-re-ils-insights/2026-02-ils-market-insights-february.pdf",
+     "status": "full",
+     "bytes": 1071612,
+     "pages": 18,
+     "note": ""
+    },
+    {
+     "title": "ILS market insights: July 2026 (web page)",
+     "url": "https://www.swissre.com/our-business/alternative-capital-partners/ils-market-insights-july-2026.html",
+     "local_path": "primary/climate-insurance/swiss-re-ils-insights/ils-market-insights-july-2026.html",
+     "status": "partial",
+     "bytes": 245687,
+     "pages": 0,
+     "note": "Rendered landing page with summary text only; the July 2026 PDF link is behind a 'Get the publication' flyout and was not obtained (swissre.com returns HTTP 403 to direct requests)."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "A notional amount of USD 24.7 billion was issued in 2025, the highest yearly volume in the history of the ILS market.",
+     "doc_local_path": "primary/climate-insurance/swiss-re-ils-insights/2026-02-ils-market-insights-february.pdf",
+     "page": 3,
+     "locator": "Introduction",
+     "url": "https://www.swissre.com/dam/jcr:fbcb0075-12ef-486c-ab78-f34df55194eb/2026-02-ils-market-insights-february.pdf",
+     "worldbuilding_use": "Baseline: 2025 record cat bond issuance of USD 24.7bn."
+    }
+   ]
+  },
+  {
+   "id": "world-bank-cat-bonds",
+   "name": "World Bank (IBRD) sovereign catastrophe bonds: Jamaica 2026 transaction disclosure",
+   "publisher": "World Bank Treasury (IBRD)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops"
+   ],
+   "what_it_forecasts": "A priced, parametric contract: USD 200m of hurricane cover for Jamaica over four hurricane seasons, with payout determined by the path and intensity of named storms on a 19-box grid.",
+   "horizon": "four hurricane seasons (2026-2029)",
+   "latest_edition": {
+    "title": "World Bank prices catastrophe bond for disaster protection for Jamaica (press release) and case study 'Third Catastrophe Bond for Jamaica'",
+    "date": "2026-05-18",
+    "url": "https://www.worldbank.org/en/news/press-release/2026/05/18/world-bank-prices-catastrophe-bond-for-disaster-protection-for-jamaica"
+   },
+   "update_cadence": "per transaction (Jamaica 2021, 2024, 2026)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Investors' principal is at risk and was lost in full on the 2024 bond after Hurricane Melissa (October 2025), pricing was set in a marketed book-build, and the contract spans four hurricane seasons. Only three deals exist, so there is no multi-year scored record (T3 not counted); no forecast content beyond its own terms."
+   },
+   "richness": {
+    "score": 3,
+    "why": "One named sovereign, dollar size, tenor, trigger design, modeller (Moody's RMS), lead managers and the Melissa payout history; nothing beyond the single deal."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 documents; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "A real transaction disclosure with a 4-season tenor, but too narrow to anchor a trend; offering circulars for Everglades Re / FloodSmart Re / Ursa Re are not public.",
+   "primary_docs": [
+    {
+     "title": "Case Study: Third Catastrophe Bond for Jamaica (2026)",
+     "url": "https://thedocs.worldbank.org/en/doc/f66f98e820b44dcec2070273327df145-0340012026/original/Case-Study-Jamaica-2026-Cat-Bond.pdf",
+     "local_path": "primary/climate-insurance/world-bank-cat-bonds/Case-Study-Jamaica-2026-Cat-Bond.pdf",
+     "status": "full",
+     "bytes": 433578,
+     "pages": 2,
+     "note": "The case study text once says 'May of 2025' for the 2026 issue (drafting error in the source)."
+    },
+    {
+     "title": "World Bank press release, 18 May 2026",
+     "url": "https://www.worldbank.org/en/news/press-release/2026/05/18/world-bank-prices-catastrophe-bond-for-disaster-protection-for-jamaica",
+     "local_path": "primary/climate-insurance/world-bank-cat-bonds/world-bank-press-release-jamaica-cat-bond-2026-05-18.html",
+     "status": "full",
+     "bytes": 31523,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "In May 2026, the World Bank issued a catastrophe bond (“Cat Bond”) that provides the Government of Jamaica with $200 million of insurance cover for four hurricane seasons.",
+     "doc_local_path": "primary/climate-insurance/world-bank-cat-bonds/Case-Study-Jamaica-2026-Cat-Bond.pdf",
+     "page": 1,
+     "locator": "Case study, opening",
+     "url": "https://thedocs.worldbank.org/en/doc/f66f98e820b44dcec2070273327df145-0340012026/original/Case-Study-Jamaica-2026-Cat-Bond.pdf",
+     "worldbuilding_use": "Sovereign climate finance: Jamaica holds $200m parametric hurricane cover through the 2029 season."
+    }
+   ]
+  },
+  {
+   "id": "swiss-re-sigma-natcat",
+   "name": "Swiss Re Institute sigma 1/2026: Natural catastrophes in 2025 (plus sigma insights on H1 2026 losses)",
+   "publisher": "Swiss Re Institute",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Home/auto insurance affordability and availability; residual markets and regulated rates"
+   ],
+   "what_it_forecasts": "Global insured natural-catastrophe loss trend (5-7% real growth a year): USD 148bn trend loss for 2026, USD 186bn by 2030, and a 1-in-10 peak-year scenario of USD 320bn (2026) rising to about USD 400bn (2030).",
+   "horizon": "annual trend to 2030",
+   "latest_edition": {
+    "title": "sigma No 1/2026: Natural catastrophes in 2025: the persistent rise of wildfire and storm risk",
+    "date": "2026-03-16",
+    "url": "https://www.swissre.com/dam/jcr%3A4b5669a3-b7e2-4682-bf96-a597085958a6/sigma-1-2026-natural-catastrophes-report.pdf"
+   },
+   "update_cadence": "annual (March) with a half-year update (August)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Published annually for decades with the trend line shown against actual losses, so the error record is public (2025 came in at USD 107bn against a USD 140bn trend); exposure growth that drives 80% of the trend is already in place. Swiss Re sells the protection, so there is a mild incentive to emphasise rising risk; no money rides on the forecast itself."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Losses by peril and region, named events with insured-loss figures (Palisades and Eaton fires USD 40bn), protection-gap percentages, dated 2026 and 2030 projections with stated method."
+   },
+   "ai": {
+    "score": 2,
+    "why": "March 2026 edition with no AI treatment; pure exposure/hazard trend extrapolation."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The standard reference for the loss trend and a 2030 number, but an unincentivised trend extrapolation; scores below the transaction-based sources.",
+   "primary_docs": [
+    {
+     "title": "sigma 1/2026: Natural catastrophes in 2025",
+     "url": "https://www.swissre.com/dam/jcr%3A4b5669a3-b7e2-4682-bf96-a597085958a6/sigma-1-2026-natural-catastrophes-report.pdf",
+     "local_path": "primary/climate-insurance/swiss-re-sigma-natcat/sigma-1-2026-natural-catastrophes-report.pdf",
+     "status": "full",
+     "bytes": 4531176,
+     "pages": 39,
+     "note": ""
+    },
+    {
+     "title": "sigma insights (August 2026): First-half 2026 insured natural catastrophe losses: below trend, rising risks",
+     "url": "https://www.swissre.com/dam/jcr:fd2ef247-e3dd-4203-ad80-3b7f5b11eedc/sri-14-2026-first-half-2026-insured-natural-catastrophe-losses.pdf",
+     "local_path": "primary/climate-insurance/swiss-re-sigma-natcat/sri-14-2026-first-half-2026-insured-natural-catastrophe-losses.pdf",
+     "status": "full",
+     "bytes": 527051,
+     "pages": 5,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "If 2026 reflects the long-run trend, insured losses could be USD 148 billion, and reach USD 186 billion by 2030.",
+     "doc_local_path": "primary/climate-insurance/swiss-re-sigma-natcat/sigma-1-2026-natural-catastrophes-report.pdf",
+     "page": 2,
+     "locator": "Executive summary",
+     "url": "https://www.swissre.com/dam/jcr%3A4b5669a3-b7e2-4682-bf96-a597085958a6/sigma-1-2026-natural-catastrophes-report.pdf",
+     "worldbuilding_use": "Baseline loss path: USD 186bn insured catastrophe losses in a normal 2030."
+    },
+    {
+     "text": "In 2030, as exposure accumulates, a peak loss year could cause about USD 400 billion global insured losses, more than double the last actual peak year (2017).",
+     "doc_local_path": "primary/climate-insurance/swiss-re-sigma-natcat/sigma-1-2026-natural-catastrophes-report.pdf",
+     "page": 2,
+     "locator": "Executive summary",
+     "url": "https://www.swissre.com/dam/jcr%3A4b5669a3-b7e2-4682-bf96-a597085958a6/sigma-1-2026-natural-catastrophes-report.pdf",
+     "worldbuilding_use": "Tail scenario for the narrative: a USD 400bn insured-loss year by 2030 (about 10% annual chance of a peak year)."
+    }
+   ]
+  },
+  {
+   "id": "verisk-global-modeled-losses",
+   "name": "Verisk 2026 Global Modeled Catastrophe Losses Report",
+   "publisher": "Verisk (Extreme Event Solutions)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Modelled global insured average annual loss (USD 171bn) and exceedance-probability losses (5% aggregate exceedance USD 309bn, 1% USD 477bn, 0.4% USD 606bn per the report's Table 1) by region, from the vendor's 100,000-year catalogues.",
+   "horizon": "long-run expectation benchmark, re-estimated annually",
+   "latest_edition": {
+    "title": "Verisk 2026 Global Modeled Catastrophe Losses Report",
+    "date": "2026-09-01",
+    "url": "https://www.verisk.com/4a5589/siteassets/media/campaigns/gated/catastrophe-and-risk-solutions/verisk-2026-global-modeled-catastrophe-losses-report.pdf"
+   },
+   "update_cadence": "annual (September)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Clients run the same models and can reproduce or challenge the numbers, Florida-style model commissions review them, and the AAL series since 2012 (USD 59bn to USD 171bn) is published against actual losses (USD 139bn five-year average). Vendor has commercial, not financial, exposure to being wrong, and model changes rather than outcomes drive revisions."
+   },
+   "richness": {
+    "score": 3,
+    "why": "AAL and return-period losses by region and peril share; few named places or dates."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful cross-check on sigma (model-based rather than trend-based) but a benchmark, not a dated forecast.",
+   "primary_docs": [
+    {
+     "title": "Verisk 2026 Global Modeled Catastrophe Losses Report",
+     "url": "https://www.verisk.com/4a5589/siteassets/media/campaigns/gated/catastrophe-and-risk-solutions/verisk-2026-global-modeled-catastrophe-losses-report.pdf",
+     "local_path": "primary/climate-insurance/verisk-global-modeled-losses/verisk-2026-global-modeled-catastrophe-losses-report.pdf",
+     "status": "full",
+     "bytes": 11438167,
+     "pages": 27,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Verisk catastrophe models estimate the global modeled insured average annual property loss (AAL) from natural catastrophes at $171 billion: the number the industry must be prepared to withstand on average.",
+     "doc_local_path": "primary/climate-insurance/verisk-global-modeled-losses/verisk-2026-global-modeled-catastrophe-losses-report.pdf",
+     "page": 5,
+     "locator": "Executive summary",
+     "url": "https://www.verisk.com/4a5589/siteassets/media/campaigns/gated/catastrophe-and-risk-solutions/verisk-2026-global-modeled-catastrophe-losses-report.pdf",
+     "worldbuilding_use": "Industry planning number for an average year: USD 171bn, up USD 19bn in one year."
+    }
+   ]
+  },
+  {
+   "id": "munich-re-natcat",
+   "name": "Munich Re NatCatSERVICE: natural disaster review for the first half of 2026",
+   "publisher": "Munich Re",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Retrospective overall and insured disaster losses by region for H1 2026, with a qualitative warning of a 'Super El Nino' for H2 2026 and 2027.",
+   "horizon": "half-year look-back; qualitative outlook a few months ahead",
+   "latest_edition": {
+    "title": "Lower losses, growing risks: the natural disaster review for the first half of 2026",
+    "date": "2026-07-30",
+    "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-first-half-2026.html"
+   },
+   "update_cadence": "twice a year (January, July)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "A consistent loss database since 1980 published by an accountable reinsurer, but it is a record, not a forecast, and nothing is at stake in the outlook remarks."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named events with dates, places and losses (Venezuela double earthquake 24 June 2026: about USD 30bn overall, under USD 1bn insured; storm Kristin in Portugal), regional totals."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 release; only AI mention is corporate boilerplate about developing covers for AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "Moreover, Munich Re develops covers for new risks such as rocket launches, renewable energies, cyber risks and artificial intelligence.",
+     "doc_local_path": "primary/climate-insurance/munich-re-natcat/natural-disaster-figures-first-half-2026.html",
+     "page": null
+    },
+    "search_note": "One hit, in the 'about Munich Re' boilerplate; no AI content in the loss analysis."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good for dated real-world events of 2026 but backward-looking and unincentivised.",
+   "primary_docs": [
+    {
+     "title": "Munich Re media information 30 July 2026 (HTML)",
+     "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-first-half-2026.html",
+     "local_path": "primary/climate-insurance/munich-re-natcat/natural-disaster-figures-first-half-2026.html",
+     "status": "full",
+     "bytes": 114484,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Munich Re NatCat H1 2026 factsheet",
+     "url": "https://www.munichre.com/content/dam/munichre/mrwebsitespressreleases/MunichRe-NatCat-HY-2026-Factsheet.pdf/_jcr_content/renditions/original./MunichRe-NatCat-HY-2026-Factsheet.pdf",
+     "local_path": "primary/climate-insurance/munich-re-natcat/MunichRe-NatCat-HY-2026-Factsheet.pdf",
+     "status": "full",
+     "bytes": 1512218,
+     "pages": 3,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "In the first six months of the year, natural disasters caused worldwide losses estimated at nearly US$ 112bn. Of those losses, only US$ 44bn were insured, representing an insurance gap of 60%.",
+     "doc_local_path": "primary/climate-insurance/munich-re-natcat/natural-disaster-figures-first-half-2026.html",
+     "page": null,
+     "locator": "H1 2026 natural disasters in figures",
+     "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-first-half-2026.html",
+     "worldbuilding_use": "2026 was a benign first half: USD 44bn insured, 60% of losses uninsured."
+    }
+   ]
+  },
+  {
+   "id": "swiss-re-sonar",
+   "name": "Swiss Re SONAR / emerging risk insights",
+   "publisher": "Swiss Re Institute",
+   "kind": "expert report",
+   "covers_trends": [
+    "Insurers pricing or excluding AI and cyber risk",
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Qualitative list of emerging risks for insurers by time-frame and line of business (2025: extreme heat, deepfakes and AI-enabled fraud, plastics, ultra-processed foods, drones).",
+   "horizon": "0-3 years and beyond 3 years, unquantified",
+   "latest_edition": {
+    "title": "Emerging risks (web series, replaces a 2026 SONAR report); last SONAR-branded edition: SONAR 2025 (12 June 2025)",
+    "date": "2026-05-29",
+    "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/risk-dialogue-insurance-markets/emerging-risks.html"
+   },
+   "update_cadence": "annual until 2025; now rolling web chapters",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Internal crowd-sourced expert panel published annually since 2013, so past lists can be checked informally, but it is unscored, unquantified and nothing is at stake. No SONAR 2026 report exists as of 18 Nov 2026: the SONAR index page lists editions only to 2025."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Named risk themes with impact/time-frame ratings and affected lines; no quantities or dates."
+   },
+   "ai": {
+    "score": 2,
+    "why": "The 2026 web chapters captured (supply-chain dependencies, EV insurability) contain no AI text; AI treatment (deepfakes, AI in health services) is in the June 2025 edition and qualitative. Scored on what could be verified."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Captured 2026 landing text: no AI terms. SONAR 2025 AI themes known only from the publisher's web summary read via search tool, not downloaded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Famous but unincentivised and, in 2026, no longer published as a dated report; stale for AI.",
+   "primary_docs": [
+    {
+     "title": "Swiss Re 'Emerging risks' landing page, 29 May 2026 (text capture)",
+     "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/risk-dialogue-insurance-markets/emerging-risks.html",
+     "local_path": "primary/climate-insurance/swiss-re-sonar/swiss-re-emerging-risks-2026-05-29-capture.txt",
+     "status": "partial",
+     "bytes": 1163,
+     "pages": 0,
+     "note": "Text captured with a web fetch tool (site returns HTTP 403 to direct download); chapter bodies not captured."
+    },
+    {
+     "title": "SONAR 2025: New emerging risk insights (PDF)",
+     "url": "https://www.swissre.com/institute/research/sonar/sonar2025.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on direct request; PDF link not obtained."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "cdi-state-farm-general-rate-order",
+   "name": "California Insurance Commissioner: Order adopting proposed decision in the State Farm General rate applications (PA-2024-00011/12/13)",
+   "publisher": "California Department of Insurance (Administrative Hearing Bureau; Commissioner's order)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops"
+   ],
+   "what_it_forecasts": "Final approved rate changes for California's largest home insurer (+17% homeowners, +15.65% renters, +5.8% condo, +32.8% rental dwelling, effective from 1 June 2025) with findings on its solvency, surplus and refund obligations.",
+   "horizon": "rates in force from June 2025 until the next filing; refunds and a one-time 2.5% discount; one-year claims-complaint process",
+   "latest_edition": {
+    "title": "Order Adopting Proposed Decision Approving Stipulation, Additional Agreement and Order with Minor Changes (with ALJ Proposed Decision of 7 May 2026)",
+    "date": "2026-07-23",
+    "url": "https://consumerwatchdog.org/wp-content/uploads/2026/07/Order-Adopting-Proposed-Decision-Approving-Stipulation-Additional-Agreement-Order-with-Minor-Changes-re-SFG.pdf"
+   },
+   "update_cadence": "per rate application (next State Farm General filing not yet announced)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "A litigated rate case: the insurer's licence and surplus are at stake, and the filing was attacked by an intervenor (Consumer Watchdog), Department actuaries and an administrative law judge before settlement. No published error record and the rate binds roughly one policy year, so it fixes the starting level rather than the 2031 outcome."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named company, file numbers, exact percentages by policy form, hearing dates, refund terms with 10% interest, USD 400m parent surplus note, over USD 800m adverse development, 14.54% allowed return."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 order; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The most concrete official record of what California home insurance now costs and how close the largest carrier came to insolvency; narrowly missed top tier because it fixes one company's 2025-26 level rather than a forward path.",
+   "primary_docs": [
+    {
+     "title": "Commissioner's Order of 23 July 2026 with attached ALJ Proposed Decision",
+     "url": "https://consumerwatchdog.org/wp-content/uploads/2026/07/Order-Adopting-Proposed-Decision-Approving-Stipulation-Additional-Agreement-Order-with-Minor-Changes-re-SFG.pdf",
+     "local_path": "primary/climate-insurance/cdi-state-farm-general-rate-order/Order-Adopting-Proposed-Decision-SFG-2026-07-23.pdf",
+     "status": "full",
+     "bytes": 7028831,
+     "pages": 43,
+     "note": "Official order, 43 pages (scanned; OCR text has minor errors such as 'State Fann'); copy hosted by intervenor Consumer Watchdog because insurance.ca.gov document links were not reachable."
+    },
+    {
+     "title": "CDI press release 6 March 2026 on the settlement",
+     "url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release012-2026.cfm",
+     "local_path": "primary/climate-insurance/cdi-state-farm-general-rate-order/cdi-press-release012-2026.html",
+     "status": "full",
+     "bytes": 52597,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The stipulated rates in the Proposed Stipulation - 17% for homeowners, 15.65% for renters, 5.8% for condominium unit owners, and 32.8% for rental dwelling - fall within the range supported by the actuarial evidence and are not excessive, inadequate, or unfairly discriminatory.",
+     "doc_local_path": "primary/climate-insurance/cdi-state-farm-general-rate-order/Order-Adopting-Proposed-Decision-SFG-2026-07-23.pdf",
+     "page": 11,
+     "locator": "Proposed Decision, Findings",
+     "url": "https://consumerwatchdog.org/wp-content/uploads/2026/07/Order-Adopting-Proposed-Decision-Approving-Stipulation-Additional-Agreement-Order-with-Minor-Changes-re-SFG.pdf",
+     "worldbuilding_use": "Official California price move: State Farm homeowners +17%, landlords +32.8%."
+    },
+    {
+     "text": "Without the four hundred million dollar surplus note from its parent, SFG's year end 2025 surplus would have fallen below one billion dollars.",
+     "doc_local_path": "primary/climate-insurance/cdi-state-farm-general-rate-order/Order-Adopting-Proposed-Decision-SFG-2026-07-23.pdf",
+     "page": 17,
+     "locator": "Proposed Decision, discussion of financial condition",
+     "url": "https://consumerwatchdog.org/wp-content/uploads/2026/07/Order-Adopting-Proposed-Decision-Approving-Stipulation-Additional-Agreement-Order-with-Minor-Changes-re-SFG.pdf",
+     "worldbuilding_use": "Fragility of the state's largest home insurer after the Los Angeles fires."
+    }
+   ],
+   "notes": "California's Sustainable Insurance Strategy regulations and insurers' commitments under them were not separately downloaded; FAIR Plan data are scored under california-fair-plan."
+  },
+  {
+   "id": "florida-citizens",
+   "name": "Florida Citizens Property Insurance Corporation: recommended rate filing, results commentary and risk transfer programme",
+   "publisher": "Citizens Property Insurance Corporation (Florida state-created insurer; rates set by the Office of Insurance Regulation)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Actuarially indicated and proposed rate changes by line for policies effective 1 June 2026-31 May 2027, policy counts and premium after depopulation, and the reinsurance/cat bond programme bought for the 2026 season.",
+   "horizon": "rate year to 31 May 2027; risk transfer for the 2026 hurricane season with multi-year cat bonds; 2027 recommendation not yet published",
+   "latest_edition": {
+    "title": "Board of Governors materials, 23 September 2026 (1H2026 results; risk transfer layer chart); 2026 Recommended Rate Filing (10 December 2025)",
+    "date": "2026-09-23",
+    "url": "https://www.citizensfla.com/-/20260923-bog"
+   },
+   "update_cadence": "annual rate filing (December board); quarterly board materials",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Statute requires actuarially sound indications, the regulator sets the final rates, and the Florida Public Hurricane Model must be considered, so the filing is reviewed and bound by law; shortfalls fall on policyholder assessments. No published forecast-error record, a one-year horizon and legislated glide-path caps (a known downward bias on rate level)."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Premium and rate change by product line and county, policy counts (ending policies in force 278,246 at 30 June 2026), actuarially sound premium per policy (USD 6,347 to USD 3,617), named legislation (SB 2-A), ceded premium figures."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2025-2026 documents with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found. (One September 2026 consent item concerns Citizens' own cyber liability insurance purchase.)"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Extremely rich on the Florida residual market's shrinkage and rate cuts, but single-state, one-year and politically capped.",
+   "primary_docs": [
+    {
+     "title": "2026 Recommended Rate Filing (combined), Board of Governors 10 December 2025",
+     "url": "https://www.citizensfla.com/documents/20702/39142684/20251210+03Ba+2026+Recommended+Rate+Filing-+combined.pdf/d22e03e1-d36e-3574-cbf5-278d80043b2f?t=1765369714748",
+     "local_path": "primary/climate-insurance/florida-citizens/20251210-2026-Recommended-Rate-Filing-combined.pdf",
+     "status": "full",
+     "bytes": 733682,
+     "pages": 23,
+     "note": ""
+    },
+    {
+     "title": "1H2026 Results of Operations and Financial Position (commentary), 23 September 2026",
+     "url": "https://www.citizensfla.com/documents/20702/42275271/20260923+03D+1H2026+Results+of+Operations+and+Financial+Position+%28commentary%29.pdf/69c6a9e4-1c86-a24c-14d2-29386c8d926e?t=1789150861828",
+     "local_path": "primary/climate-insurance/florida-citizens/20260923-03D-1H2026-Results-commentary.pdf",
+     "status": "full",
+     "bytes": 195992,
+     "pages": 5,
+     "note": ""
+    },
+    {
+     "title": "2026 Risk Transfer Program layer chart, 23 September 2026",
+     "url": "https://www.citizensfla.com/documents/20702/42275271/20260923+03Aa+Risk+Transfer+Program+Layer+Chart+092326.pdf/f1141417-ac5b-2c9c-065f-a51e36e45e8b?t=1789150860490",
+     "local_path": "primary/climate-insurance/florida-citizens/20260923-03Aa-Risk-Transfer-Program-Layer-Chart.pdf",
+     "status": "full",
+     "bytes": 1324314,
+     "pages": 3,
+     "note": "Mostly graphical; little extractable text."
+    },
+    {
+     "title": "Competitive Rate Comparison consent item, 23 September 2026",
+     "url": "https://www.citizensfla.com/documents/20702/42275271/20260923+08D+Competitive+Rate+Comparison+Consent+Item+8.25.26+Final.pdf/e4701902-076b-00de-b0da-97f3738c14e7?t=1789150855394",
+     "local_path": "primary/climate-insurance/florida-citizens/20260923-08D-Competitive-Rate-Comparison.pdf",
+     "status": "full",
+     "bytes": 137976,
+     "pages": 1,
+     "note": ""
+    },
+    {
+     "title": "Cyber Liability Insurance consent item, 23 September 2026",
+     "url": "https://www.citizensfla.com/documents/20702/42275271/20260923+08J+Cyber+Liability+Insurance+Consent+Item.pdf/1d341286-391b-37a4-4cca-932d078ca08c?t=1789150858104",
+     "local_path": "primary/climate-insurance/florida-citizens/20260923-08J-Cyber-Liability-Insurance-Consent-Item.pdf",
+     "status": "full",
+     "bytes": 138706,
+     "pages": 2,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "463,096 personal lines policies will receive an average rate decrease of 11.5%, which amounts to an annual savings of $359.",
+     "doc_local_path": "primary/climate-insurance/florida-citizens/20251210-2026-Recommended-Rate-Filing-combined.pdf",
+     "page": 4,
+     "locator": "Executive Summary, statewide personal lines impact",
+     "url": "https://www.citizensfla.com/documents/20702/39142684/20251210+03Ba+2026+Recommended+Rate+Filing-+combined.pdf/d22e03e1-d36e-3574-cbf5-278d80043b2f?t=1765369714748",
+     "worldbuilding_use": "Florida 2026: most Citizens households get a rate cut of about $359 a year."
+    },
+    {
+     "text": "Prior to any consideration of SB 2-A, the average actuarially sound premium for policies in effect in 2024 was estimated at $6,347. For 2026, that figure has dropped to $3,617",
+     "doc_local_path": "primary/climate-insurance/florida-citizens/20251210-2026-Recommended-Rate-Filing-combined.pdf",
+     "page": 2,
+     "locator": "Executive Summary, HO3/HW2 segment",
+     "url": "https://www.citizensfla.com/documents/20702/39142684/20251210+03Ba+2026+Recommended+Rate+Filing-+combined.pdf/d22e03e1-d36e-3574-cbf5-278d80043b2f?t=1765369714748",
+     "worldbuilding_use": "Dollar level of a Florida last-resort homeowners premium before and after litigation reform."
+    },
+    {
+     "text": "Direct written premium for the period ending June 30, 2026, was $501.7 million or $999.7 million (67%) less than direct written premium for the same period a year prior.",
+     "doc_local_path": "primary/climate-insurance/florida-citizens/20260923-03D-1H2026-Results-commentary.pdf",
+     "page": 1,
+     "locator": "Premiums",
+     "url": "https://www.citizensfla.com/documents/20702/42275271/20260923+03D+1H2026+Results+of+Operations+and+Financial+Position+%28commentary%29.pdf/69c6a9e4-1c86-a24c-14d2-29386c8d926e?t=1789150861828",
+     "worldbuilding_use": "Speed of Citizens' shrinkage: premium down two-thirds in a year as private carriers take policies."
+    }
+   ],
+   "notes": "Citizens' monthly policies-in-force archive and the 2027 rate recommendation (expected at the December 2026 board) were not downloaded; later policy counts reported by secondary sources were not used."
+  },
+  {
+   "id": "california-fair-plan",
+   "name": "California FAIR Plan key statistics and data (fiscal year-end September 2026)",
+   "publisher": "California FAIR Plan Association",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops"
+   ],
+   "what_it_forecasts": "Not a forecast: quarterly counts of policies in force, exposure and written premium of California's insurer of last resort by county, ZIP code and policy category, with five-year history.",
+   "horizon": "quarterly actuals, five-year look-back",
+   "latest_edition": {
+    "title": "Key Statistics & Data, data through September 2026 (files dated 20 October 2026)",
+    "date": "2026-10-20",
+    "url": "https://www.cfpnet.com/key-statistics-data/"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Hard administrative counts published every quarter with a five-year record, and the exposure already on the books is what member insurers and policyholders would be assessed for after a major fire. No one is forecasting and no one is attacking the numbers; kind is closest to a statutory data release."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Policy and exposure counts for every county and ZIP code and by policy category; headline totals (698,307 policies, USD 773bn exposure, USD 2.04bn written premium); no narrative."
+   },
+   "ai": {
+    "score": 2,
+    "why": "October 2026 data; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Indispensable level data on California's residual market, but a count rather than a forecast.",
+   "primary_docs": [
+    {
+     "title": "Key Statistics & Data page (September 2026)",
+     "url": "https://www.cfpnet.com/key-statistics-data/",
+     "local_path": "primary/climate-insurance/california-fair-plan/cfpnet-key-statistics-data-sept-2026.html",
+     "status": "full",
+     "bytes": 53771,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Policy growth by fiscal year, by county (FY26)",
+     "url": "https://www.cfpnet.com/wp-content/uploads/2026/10/CFP-5-yr-PIF-County-FY26-All-261020.pdf",
+     "local_path": "primary/climate-insurance/california-fair-plan/CFP-5-yr-PIF-County-FY26-All-261020.pdf",
+     "status": "full",
+     "bytes": 82198,
+     "pages": 2,
+     "note": ""
+    },
+    {
+     "title": "Exposure growth by fiscal year, by county (FY26)",
+     "url": "https://www.cfpnet.com/wp-content/uploads/2026/10/CFP-5-yr-TIV-County-FY26-All-261020.pdf",
+     "local_path": "primary/climate-insurance/california-fair-plan/CFP-5-yr-TIV-County-FY26-All-261020.pdf",
+     "status": "full",
+     "bytes": 82269,
+     "pages": 2,
+     "note": ""
+    },
+    {
+     "title": "Dwelling premium by category as of 30 September 2026",
+     "url": "https://www.cfpnet.com/wp-content/uploads/2026/10/Premium-by-category-DWE-as-of-260930-DL-261019v001.pdf",
+     "local_path": "primary/climate-insurance/california-fair-plan/Premium-by-category-DWE-as-of-260930.pdf",
+     "status": "full",
+     "bytes": 1667178,
+     "pages": 18,
+     "note": "ZIP-level PIF/TIV files and commercial tables on the same page were not downloaded."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "As of September 2026 (Fiscal Year End 2026), the FAIR Plan’s total exposure is $773 billion, reflecting an 11% increase since September 2025 (prior Fiscal Year End) and a 252% increase since September 2022 (Fiscal Year End 2022).",
+     "doc_local_path": "primary/climate-insurance/california-fair-plan/cfpnet-key-statistics-data-sept-2026.html",
+     "page": null,
+     "locator": "The California FAIR Plan Faces Increased Exposure",
+     "url": "https://www.cfpnet.com/key-statistics-data/",
+     "worldbuilding_use": "Scale of California's last-resort insurer: $773bn exposure, 3.5x in four years."
+    },
+    {
+     "text": "As of September 2026 (Fiscal Year End 2026), the FAIR Plan’s total PIF is 698,307 reflecting an 8% increase since September 2025 (prior Fiscal Year End) and a 157% increase since September 2022 (Fiscal Year End 2022).",
+     "doc_local_path": "primary/climate-insurance/california-fair-plan/cfpnet-key-statistics-data-sept-2026.html",
+     "page": null,
+     "locator": "Total dwelling & commercial policies in force",
+     "url": "https://www.cfpnet.com/key-statistics-data/",
+     "worldbuilding_use": "About 700,000 California properties on the FAIR Plan in autumn 2026; growth slowing to 8%."
+    }
+   ]
+  },
+  {
+   "id": "twia-funding",
+   "name": "Texas Windstorm Insurance Association: 2026 Annual Report and 2026 hurricane-season funding",
+   "publisher": "Texas Windstorm Insurance Association",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops",
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Board-set 1-in-50 probable maximum loss (USD 4.3bn) and the funding stack bought for 1 June 2026-31 May 2027 (USD 2.28bn reinsurance and cat bonds plus USD 2bn statutory sources) under House Bill 3689.",
+   "horizon": "storm season to 31 May 2027; funding structure set by statute",
+   "latest_edition": {
+    "title": "2026 TWIA Annual Report (June 1, 2025 - May 31, 2026)",
+    "date": "2026-06-01",
+    "url": "https://www.twia.org/wp-content/uploads/2026-TWIA-Annual-Report-1.pdf"
+   },
+   "update_cadence": "annual report (June); quarterly board meetings",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T4"
+    ],
+    "why": "The reinsurance is a purchased contract and the funding stack is fixed in statute, with policyholder surcharges and member assessments if it is exceeded. But the PML is a board choice under political pressure (the legislature cut the standard from 1-in-100 to 1-in-50), with no published error record."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dollar layers of the funding structure, dates, bill numbers, Hurricane Beryl claims (33,000 claims, USD 545m per the May 2026 board release), line-of-credit size."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; only AI mention is a colophon that the report used AI-assisted imagery and content development."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "Portions of this report incorporate AI-assisted imagery and content development, reviewed and finalized by TWIA staff.",
+     "doc_local_path": "primary/climate-insurance/twia-funding/2026-TWIA-Annual-Report.pdf",
+     "page": 26
+    },
+    "search_note": "Single hit (production note)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Clear example of a public backstop lowering its own safety standard, but single-state and one-season.",
+   "primary_docs": [
+    {
+     "title": "2026 TWIA Annual Report",
+     "url": "https://www.twia.org/wp-content/uploads/2026-TWIA-Annual-Report-1.pdf",
+     "local_path": "primary/climate-insurance/twia-funding/2026-TWIA-Annual-Report.pdf",
+     "status": "full",
+     "bytes": 4006331,
+     "pages": 26,
+     "note": ""
+    },
+    {
+     "title": "TWIA board release, 19 May 2026: financial preparations for the 2026 storm season",
+     "url": "https://www.twia.org/twia-board-takes-action-on-financial-preparations-for-2026-storm-season/",
+     "local_path": "primary/climate-insurance/twia-funding/twia-board-2026-05-19-financial-preparations.html",
+     "status": "full",
+     "bytes": 135969,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "TWIA’s 2026 reinsurance program, effective June 1, 2026, to May 31, 2027, provides $2.28 billion of the total $4.3 billion in funding.",
+     "doc_local_path": "primary/climate-insurance/twia-funding/2026-TWIA-Annual-Report.pdf",
+     "page": 10,
+     "locator": "2026 Hurricane Season Funding",
+     "url": "https://www.twia.org/wp-content/uploads/2026-TWIA-Annual-Report-1.pdf",
+     "worldbuilding_use": "Texas coast: windstorm pool funded only to a 1-in-50 season ($4.3bn) from 2026."
+    }
+   ]
+  },
+  {
+   "id": "fema-nfip",
+   "name": "FEMA National Flood Insurance Program: reauthorization status, Risk Rating 2.0 glide path and NFIP reinsurance programme",
+   "publisher": "FEMA (US Department of Homeland Security); Congressional Research Service",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Wildfire and climate liability shifting to utilities, ratepayers and public backstops"
+   ],
+   "what_it_forecasts": "Legal status of the federal flood programme (authorised only to 11 December 2026), statutory premium glide path under Risk Rating 2.0, and the reinsurance/cat bond cover FEMA has bought.",
+   "horizon": "authorisation weeks to months at a time; premium glide path multi-year; cat bonds 3 years (2024 placement runs to 7 March 2027)",
+   "latest_edition": {
+    "title": "Congressional Reauthorization for the National Flood Insurance Program (page last updated 28 September 2026)",
+    "date": "2026-09-28",
+    "url": "https://www.fema.gov/flood-insurance/rules-legislation/congressional-reauthorization"
+   },
+   "update_cadence": "web pages updated at each extension; reinsurance page last updated 30 April 2026",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "Premium increases toward full-risk rates are capped by statute and so largely predetermined for existing policyholders, and the borrowing cap and lapse consequences are set in law. But nothing is at stake for the forecaster, nobody scores it, and the programme's existence depends on serial short-term extensions (35 since FY2017 per CRS, February 2026)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Dates of authorisation, borrowing-authority figures (USD 30.425bn falling to USD 1bn on lapse), estimated 1,300 home sales a day affected by a lapse, past reinsurance premiums and layers; no premium-by-place data in what was saved."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 web pages; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Governs flood cover for millions of homes but is a legal status page, not a forecast; Risk Rating 2.0 premium data were not retrieved.",
+   "primary_docs": [
+    {
+     "title": "FEMA: Congressional Reauthorization for the NFIP (rendered page)",
+     "url": "https://www.fema.gov/flood-insurance/rules-legislation/congressional-reauthorization",
+     "local_path": "primary/climate-insurance/fema-nfip/fema-nfip-congressional-reauthorization.html",
+     "status": "partial",
+     "bytes": 152240,
+     "pages": 0,
+     "note": "Page rendered and saved as HTML after fema.gov returned HTTP 403 to a direct request."
+    },
+    {
+     "title": "FEMA: NFIP Reinsurance Program (rendered page, last updated 30 April 2026)",
+     "url": "https://www.fema.gov/flood-insurance/work-with-nfip/reinsurance",
+     "local_path": "primary/climate-insurance/fema-nfip/fema-nfip-reinsurance.html",
+     "status": "partial",
+     "bytes": 182800,
+     "pages": 0,
+     "note": "Summary tables on this page stop at the 2024 traditional and 2024 capital-market placements; no 2025 or 2026 placement amounts are shown, and FloodSmart Re offering documents are not public."
+    },
+    {
+     "title": "CRS Insight IN10835: What Happens If the NFIP Lapses? (updated 6 February 2026)",
+     "url": "https://www.congress.gov/crs_external_products/IN/HTML/IN10835.web.html",
+     "local_path": "primary/climate-insurance/fema-nfip/crs-IN10835-nfip-lapse.html",
+     "status": "full",
+     "bytes": 29178,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NFIP Risk Rating 2.0 premium data / glide path tables",
+     "url": null,
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted beyond the landing pages above after fema.gov blocked direct requests; no URL recorded."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "On Sept. 2, 2026, the president signed legislation passed by Congress that extends the National Flood Insurance Program’s (NFIP’s) authorization to Dec. 11, 2026.",
+     "doc_local_path": "primary/climate-insurance/fema-nfip/fema-nfip-congressional-reauthorization.html",
+     "page": null,
+     "locator": "Page text (last updated 28 September 2026)",
+     "url": "https://www.fema.gov/flood-insurance/rules-legislation/congressional-reauthorization",
+     "worldbuilding_use": "Flood insurance cliff-edge: federal programme authorised only to 11 December 2026."
+    }
+   ]
+  },
+  {
+   "id": "fio-naic-homeowners",
+   "name": "NAIC and Federal Insurance Office homeowners market reports",
+   "publisher": "National Association of Insurance Commissioners (Center for Insurance Policy and Research); US Treasury Federal Insurance Office",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates"
+   ],
+   "what_it_forecasts": "Retrospective state/ZIP-level premiums, non-renewals and claims from regulator data calls (NAIC analysis of 2018-2024 data released 31 July 2026; nationwide ZIP-level data call for 2018-2025 with a public report planned for early 2027).",
+   "horizon": "look-back only; next report early 2027",
+   "latest_edition": {
+    "title": "NAIC national analysis of homeowners insurance market trends, 2018-2024 (released 31 July 2026)",
+    "date": "2026-07-31",
+    "url": "https://content.naic.org/article/naic-releases-first-its-kind-national-analysis-homeowners-insurance-market-trends"
+   },
+   "update_cadence": "irregular (data calls 2024 and 2026)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T1"
+    ],
+    "why": "Insurers must answer regulator data calls truthfully (licence at stake), but the output is a backward-looking statistical report with no forecast, no scoring and a long lag. Edition date and content are taken from NAIC's release as returned by search; the document itself could not be downloaded."
+   },
+   "richness": {
+    "score": 4,
+    "why": "State and regional non-renewal rates and premium trends, potentially ZIP-level; not verified against the document."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; AI treatment could not be checked because the document was not obtained; scored as none."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Document not downloaded (HTTP 403 from naic.org and content.naic.org); no text to search."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Authoritative level data but backward-looking and unobtainable in this run; no new FIO homeowners report for 2026 was found.",
+   "primary_docs": [
+    {
+     "title": "NAIC release: national analysis of homeowners insurance market trends",
+     "url": "https://content.naic.org/article/naic-releases-first-its-kind-national-analysis-homeowners-insurance-market-trends",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on direct request."
+    },
+    {
+     "title": "NAIC Homeowners Market Data Call overview",
+     "url": "https://content.naic.org/sites/default/files/cmte-c-home-market-data-call-overview.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on direct request."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "first-street-property-insurance",
+   "name": "First Street: Property Prices in Peril (12th National Risk Assessment)",
+   "publisher": "First Street (the publisher's site now displays MSCI terms of use)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Home/auto insurance affordability and availability; residual markets and regulated rates",
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Model projection of climate-driven homeowners premium increases (29.4% nationally by 2055; metro-level figures) and USD 1.47tn of home-value losses over 30 years.",
+   "horizon": "30 years (2025-2055); no interim 2030 values",
+   "latest_edition": {
+    "title": "The 12th National Risk Assessment: Property Prices in Peril",
+    "date": "2025-02-01",
+    "url": "https://hubspot.firststreet.org/hubfs/National%20Risk%20Assessment%20Reports/Property%20Prices%20in%20Peril%20-%2012th%20National%20Risk%20Assessment%20-%20Feb%202025.pdf"
+   },
+   "update_cadence": "irregular national risk assessments",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "A vendor model with no money at stake and no scored record, although its assumptions are public and contested by academics and industry. Assumes insurers price freely with full information, which regulation prevents. Cover date is 'February 2025' (day not stated; 01 used as placeholder); no 2026 successor report was found."
+   },
+   "richness": {
+    "score": 4,
+    "why": "State and metro premium increases (Miami 322%, Jacksonville 226%, Tampa 213%), neighbourhood counts, migration numbers, explicit method."
+   },
+   "ai": {
+    "score": 2,
+    "why": "February 2025 edition; no AI treatment of the forecast (machine learning is mentioned only as an estimation technique)."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched 'artificial intelligence', 'AI', 'data cent': none; 'machine learning' appears once as a modelling method."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Widely cited but unincentivised, 30-year horizon and not updated in 2026.",
+   "primary_docs": [
+    {
+     "title": "Property Prices in Peril, February 2025",
+     "url": "https://hubspot.firststreet.org/hubfs/National%20Risk%20Assessment%20Reports/Property%20Prices%20in%20Peril%20-%2012th%20National%20Risk%20Assessment%20-%20Feb%202025.pdf",
+     "local_path": "primary/climate-insurance/first-street-property-insurance/Property-Prices-in-Peril-12th-National-Risk-Assessment-Feb-2025.pdf",
+     "status": "full",
+     "bytes": 19206047,
+     "pages": 44,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "First Street estimates that unrestricted risk-based insurance pricing would drive a 29.4% increase in average premiums by 2055—comprising a 18.4% correction for current underpricing and an 11% increase from growing climate risks.",
+     "doc_local_path": "primary/climate-insurance/first-street-property-insurance/Property-Prices-in-Peril-12th-National-Risk-Assessment-Feb-2025.pdf",
+     "page": 5,
+     "locator": "Key findings, item 5: Risk-based insurance premium projections",
+     "url": "https://hubspot.firststreet.org/hubfs/National%20Risk%20Assessment%20Reports/Property%20Prices%20in%20Peril%20-%2012th%20National%20Risk%20Assessment%20-%20Feb%202025.pdf",
+     "worldbuilding_use": "Long-run direction for home premiums absent regulation: +29.4% real by 2055."
+    }
+   ]
+  },
+  {
+   "id": "rating-agency-outlooks",
+   "name": "Rating-agency sector outlooks for 2027 (AM Best market segment outlooks; Fitch Global Reinsurance Outlook 2027; Moody's; S&P)",
+   "publisher": "AM Best; Fitch Ratings; Moody's Ratings; S&P Global Ratings",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Home/auto insurance affordability and availability; residual markets and regulated rates"
+   ],
+   "what_it_forecasts": "Twelve-month direction of credit conditions by insurance segment: AM Best US personal lines 'stable' (18 Nov 2026); Fitch global reinsurance sector outlook 'deteriorating' for 2027 (title of its 3 Sept 2026 report).",
+   "horizon": "12 months",
+   "latest_edition": {
+    "title": "Best's Market Segment Report: Market Segment Outlook: US Personal Lines (press release 18 November 2026)",
+    "date": "2026-11-18",
+    "url": "https://www.businesswire.com/news/home/20261118398347/en/Bests-Market-Segment-Report-AM-Best-Maintains-Stable-Outlook-on-US-Personal-Lines-Insurance-Segment"
+   },
+   "update_cadence": "annual per segment, mostly September-December",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "Regulated rating agencies with licence and reputational exposure, and published rating-transition studies; but segment outlooks themselves are 12-month qualitative calls that are not scored, and full reports are paywalled."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Segment-level direction with narrated drivers (rate adequacy, reinsurance softening, liability severity); few numbers in the public summaries."
+   },
+   "ai": {
+    "score": 2,
+    "why": "The verifiable November 2026 text (press release) has no AI treatment; the December 2025 AM Best PDF mentions AI only in its copyright notice. Fitch, Moody's and S&P 2027 outlooks could not be read."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "AM Best 18 Nov 2026 press-release capture: no AI terms. AM Best 1 Dec 2025 PDF: AI terms only in the legal notice restricting use of content in AI tools."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Timely (one release dated today) but short-horizon, qualitative and mostly paywalled.",
+   "primary_docs": [
+    {
+     "title": "AM Best press release 18 Nov 2026: stable outlook on US personal lines (text capture)",
+     "url": "https://www.businesswire.com/news/home/20261118398347/en/Bests-Market-Segment-Report-AM-Best-Maintains-Stable-Outlook-on-US-Personal-Lines-Insurance-Segment",
+     "local_path": "primary/climate-insurance/rating-agency-outlooks/ambest-press-release-us-personal-lines-outlook-2026-11-18.txt",
+     "status": "partial",
+     "bytes": 3309,
+     "pages": 0,
+     "note": "Captured with a web fetch tool (direct download failed with an HTTP/2 stream error); full Best's Market Segment Report requires purchase."
+    },
+    {
+     "title": "AM Best Market Segment Outlook: US Personal Lines, 1 December 2025 (previous edition)",
+     "url": "https://web.ambest.com/docs/default-source/events/market-segment-outlook---personal-lines-2026.pdf",
+     "local_path": "primary/climate-insurance/rating-agency-outlooks/ambest-market-segment-outlook-us-personal-lines-2025-12-01.pdf",
+     "status": "full",
+     "bytes": 200575,
+     "pages": 6,
+     "note": "Prior-year edition, complete 6-page PDF."
+    },
+    {
+     "title": "Fitch Ratings: Global Reinsurance Sector Outlook Remains Deteriorating for 2027 (3 Sept 2026)",
+     "url": "https://www.fitchratings.com/research/insurance/global-reinsurance-sector-outlook-remains-deteriorating-for-2027-03-09-2026",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Page body requires login; only the title could be read."
+    },
+    {
+     "title": "Moody's and S&P 2027 P&C / reinsurance outlooks",
+     "url": null,
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not located in this run; no URL recorded."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Softening reinsurance pricing provides an opportunity for enhanced earnings and expansion of reinsurance protection with more affordable structures.",
+     "doc_local_path": "primary/climate-insurance/rating-agency-outlooks/ambest-press-release-us-personal-lines-outlook-2026-11-18.txt",
+     "page": null,
+     "locator": "Press release body",
+     "url": "https://www.businesswire.com/news/home/20261118398347/en/Bests-Market-Segment-Report-AM-Best-Maintains-Stable-Outlook-on-US-Personal-Lines-Insurance-Segment",
+     "worldbuilding_use": "Pass-through: cheaper reinsurance in 2026-27 supports stable-to-lower personal lines pricing."
+    }
+   ]
+  },
+  {
+   "id": "lloyds-market-results",
+   "name": "Lloyd's of London 2026 Half Year Report (market results and full-year guidance)",
+   "publisher": "Society of Lloyd's",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Insurers pricing or excluding AI and cyber risk"
+   ],
+   "what_it_forecasts": "Aggregate market results (combined ratio 90.8%, risk-adjusted rate change -6.7% in H1 2026) and full-year 2026 guidance of GBP 64bn premium and a 90-95% combined ratio.",
+   "horizon": "full-year 2026 guidance; half-year actuals",
+   "latest_edition": {
+    "title": "Lloyd's 2026 Half Year Report",
+    "date": "2026-09-03",
+    "url": "https://assets.lloyds.com/media-651c0e64-c1d0-4f97-90f7-883c69fe2ef2/32b2c21f-bc85-4e3b-941c-e0a5c7025fcd/2026%20Half%20Year%20Report.pdf"
+   },
+   "update_cadence": "half-yearly (March, September)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "Lloyd's is a PRA/FCA-regulated market reporting audited-style aggregates, and its guidance can be checked against results each half-year; the market's central fund is at stake. Guidance reaches only to year-end and Lloyd's own scenario work (Realistic Disaster Scenarios, systemic-risk scenarios) is unscored. Publication date taken from Lloyd's results announcement (3 Sept 2026); PDF created 2 Sept."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Rate change, major-claims ratio (6.8% vs 10.4%), underlying combined ratio, class-level commentary, named losses; four named infrastructure-risk themes."
+   },
+   "ai": {
+    "score": 3,
+    "why": "September 2026 edition; AI acknowledged qualitatively ('weaponisation of AI') as a threat multiplier; no numbers moved."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Meanwhile, cyber warfare and the weaponisation of AI are increasing both the range of potential threats and the speed at which they can develop.",
+     "doc_local_path": "primary/climate-insurance/lloyds-market-results/Lloyds-2026-Half-Year-Report.pdf",
+     "page": 4
+    },
+    "search_note": "One AI hit (CEO statement)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Credible market-wide guidance but only to year-end 2026; RDS and systemic-risk scenario documents not retrieved.",
+   "primary_docs": [
+    {
+     "title": "Lloyd's 2026 Half Year Report",
+     "url": "https://assets.lloyds.com/media-651c0e64-c1d0-4f97-90f7-883c69fe2ef2/32b2c21f-bc85-4e3b-941c-e0a5c7025fcd/2026%20Half%20Year%20Report.pdf",
+     "local_path": "primary/climate-insurance/lloyds-market-results/Lloyds-2026-Half-Year-Report.pdf",
+     "status": "full",
+     "bytes": 585458,
+     "pages": 22,
+     "note": ""
+    },
+    {
+     "title": "Lloyd's Realistic Disaster Scenarios 2026 specification and systemic-risk (AI/cyber) scenarios",
+     "url": null,
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not located in this run; no URL recorded."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "We continue to expect gross written premium of £64bn (plus or minus 5%) and a combined ratio of between 90% and 95%.",
+     "doc_local_path": "primary/climate-insurance/lloyds-market-results/Lloyds-2026-Half-Year-Report.pdf",
+     "page": 4,
+     "locator": "Chief Executive's statement",
+     "url": "https://assets.lloyds.com/media-651c0e64-c1d0-4f97-90f7-883c69fe2ef2/32b2c21f-bc85-4e3b-941c-e0a5c7025fcd/2026%20Half%20Year%20Report.pdf",
+     "worldbuilding_use": "Lloyd's 2026 guidance: still profitable despite rates falling 6.7%."
+    }
+   ]
+  },
+  {
+   "id": "marsh-global-insurance-market-index",
+   "name": "Marsh Global Insurance Market Index, Q3 2026 (commercial rates incl. cyber)",
+   "publisher": "Marsh",
+   "kind": "market price",
+   "covers_trends": [
+    "Insurers pricing or excluding AI and cyber risk",
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Home/auto insurance affordability and availability; residual markets and regulated rates"
+   ],
+   "what_it_forecasts": "Average renewal rate change for commercial insurance by line and region: Q3 2026 global composite -5%, property -10%, casualty +1%, cyber -4% (US cyber flat).",
+   "horizon": "quarterly look-back; no forward strip",
+   "latest_edition": {
+    "title": "Global Insurance Market Index, third quarter 2026",
+    "date": "2026-10-21",
+    "url": "https://www.marsh.com/en/services/international-placement-services/insights/global-insurance-market-index.html"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "An index of actual renewal prices paid by Marsh clients to many competing insurers, published every quarter since 2012 so its history is open. Marsh has no money on the direction, the sample is its own client mix, and each observation is a 12-month policy."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Rate changes by line (property, casualty, financial lines, cyber) and eight regions with narrated drivers; no named buyers."
+   },
+   "ai": {
+    "score": 3,
+    "why": "October 2026 edition; AI named qualitatively as an underwriting focus in cyber while cyber rates keep falling; not separately priced."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Underwriters remained focused on AI, vendor dependencies, privacy, and ransomware, as claim frequency stayed steady and severity continued to rise even as rates fell.",
+     "doc_local_path": "primary/climate-insurance/marsh-global-insurance-market-index/gimi-q3-2026.html",
+     "page": null
+    },
+    "search_note": "AI terms: 4 hits in the Q3 2026 page (cyber and underwriting-scrutiny paragraphs)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best public price series for cyber and commercial lines, but 12-month contracts and little named detail.",
+   "primary_docs": [
+    {
+     "title": "Marsh GIMI Q3 2026 web report",
+     "url": "https://www.marsh.com/en/services/international-placement-services/insights/global-insurance-market-index.html",
+     "local_path": "primary/climate-insurance/marsh-global-insurance-market-index/gimi-q3-2026.html",
+     "status": "full",
+     "bytes": 269911,
+     "pages": 0,
+     "note": "Web report is the full public edition; no PDF link on the page."
+    },
+    {
+     "title": "Marsh press release 21 October 2026",
+     "url": "https://www.marsh.com/en/corp/about/news/global-commercial-insurance-falls-5-percent-q3-2026.html",
+     "local_path": "primary/climate-insurance/marsh-global-insurance-market-index/marsh-press-release-q3-2026.html",
+     "status": "full",
+     "bytes": 47680,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Cyber insurance rates declined by 4%, the same as the prior quarter. Rates were flat in the US after an extended period of declines, while other regions continued to see reductions.",
+     "doc_local_path": "primary/climate-insurance/marsh-global-insurance-market-index/gimi-q3-2026.html",
+     "page": null,
+     "locator": "Global product line trends, Q3 2026",
+     "url": "https://www.marsh.com/en/services/international-placement-services/insights/global-insurance-market-index.html",
+     "worldbuilding_use": "Cyber cover still getting cheaper in late 2026 despite AI-driven threat talk; US bottoming."
+    }
+   ]
+  },
+  {
+   "id": "cybercube-cyber-outlook",
+   "name": "CyberCube Cyber Predictions 2026",
+   "publisher": "CyberCube (cyber risk modelling vendor)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Insurers pricing or excluding AI and cyber risk"
+   ],
+   "what_it_forecasts": "Staff predictions for the cyber insurance market in 2026 (soft rates, 'AI disillusionment', agentic AI in operations).",
+   "horizon": "one year",
+   "latest_edition": {
+    "title": "Cyber Predictions 2026",
+    "date": "2026-01-13",
+    "url": "https://insights.cybcube.com/hubfs/REPORTS%20and%20RESOURCES%20and%20CASE%20STUDIES/REPORTS%20-%20ARTICLES%20-%20PDFs/Cyber-Predictions-2026.pdf"
+   },
+   "update_cadence": "annual (January)",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Vendor thought-leadership: unscored individual predictions, nothing at stake, no adversary. Publication date from trade press (13 Jan 2026); PDF created 7 Jan 2026."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Short opinion pieces by named staff; few numbers."
+   },
+   "ai": {
+    "score": 3,
+    "why": "January 2026 edition; AI discussed explicitly but qualitatively and mostly as an operations tool rather than a loss driver."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "In 2026, I predict we’ll see a period of AI disillusionment. The enthusiasm of boardrooms and conferences will meet the reality of legacy systems, data silos, and regulatory caution.",
+     "doc_local_path": "primary/climate-insurance/cybercube-cyber-outlook/Cyber-Predictions-2026.pdf",
+     "page": 4
+    },
+    "search_note": "AI terms throughout; no quantified AI loss scenario."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Included to score low explicitly: marketing-grade predictions.",
+   "primary_docs": [
+    {
+     "title": "CyberCube Cyber Predictions 2026",
+     "url": "https://insights.cybcube.com/hubfs/REPORTS%20and%20RESOURCES%20and%20CASE%20STUDIES/REPORTS%20-%20ARTICLES%20-%20PDFs/Cyber-Predictions-2026.pdf",
+     "local_path": "primary/climate-insurance/cybercube-cyber-outlook/Cyber-Predictions-2026.pdf",
+     "status": "full",
+     "bytes": 52407953,
+     "pages": 20,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "carbon-markets",
+   "name": "Carbon allowance prices: EU ETS (EUA futures), California-Quebec cap-and-invest auctions, UK ETS",
+   "publisher": "ICE Endex / EEX (EUA); California Air Resources Board and Quebec MELCCFP (joint auction); ICE (UKA)",
+   "kind": "market price",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "The traded price of a tonne of CO2 for delivery through 2030: EUA December 2026 futures around EUR 85 (18 Nov 2026 intraday); California-Quebec August 2026 auction settled at USD 32.48 (current) and USD 32.75 (2029-vintage advance auction).",
+   "horizon": "EUA futures strip and Phase 4 cap to 2030; California advance auction is for 2029-vintage allowances; ETS2 starts 2028",
+   "latest_edition": {
+    "title": "California Cap-and-Invest / Quebec Cap-and-Trade August 2026 Joint Auction #48 Summary Results Report (26 August 2026); EUA futures quotation 18 November 2026",
+    "date": "2026-11-18",
+    "url": "https://www.environnement.gouv.qc.ca/changements/carbone/ventes-encheres/2026-08-19/resultats-20260819-en.pdf"
+   },
+   "update_cadence": "EUA futures: continuous; California-Quebec auctions: quarterly (November 2026 auction results not yet published on 18 Nov)",
+   "accuracy": {
+    "score": 5,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3",
+     "T4",
+     "T5"
+    ],
+    "why": "Compliance buyers and funds lose money on mispricing, thousands of participants and a market monitor set prices, settlement is daily with decades of history, contracts and the 2029-vintage advance auction reach the horizon, and caps to 2030 are legislated. Main risk is regime change by the legislator (Market Stability Reserve amendments in October 2026, free-allocation negotiations), which is uncertainty rather than a directional bias. Score is for the instruments; this run captured only one auction report and one news quotation."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of prices and auction statistics (reserve, settlement, bid cover, share bought by compliance entities); no narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated prices that embed AI-driven power-demand expectations but cannot be separated out; the documents saved have no AI text."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found. Score reflects the instrument (continuous price), not text."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Highest accuracy score in the area, but thin for worldbuilding and the futures strip itself could not be downloaded (ICE and EEX data blocked); likely better covered by the energy area.",
+   "primary_docs": [
+    {
+     "title": "California-Quebec August 2026 Joint Auction #48 Summary Results Report (Quebec government copy)",
+     "url": "https://www.environnement.gouv.qc.ca/changements/carbone/ventes-encheres/2026-08-19/resultats-20260819-en.pdf",
+     "local_path": "primary/climate-insurance/carbon-markets/quebec-joint-auction-48-results-20260819-en.pdf",
+     "status": "full",
+     "bytes": 253512,
+     "pages": 11,
+     "note": "Official joint report; the CARB-hosted copy (ww2.arb.ca.gov) returned HTTP 419."
+    },
+    {
+     "title": "CBAM.news: EU carbon futures drop 2.6% (18 Nov 2026 intraday EUA Dec-26 quotation)",
+     "url": "https://cbam.news/eu-carbon-futures-drop-2-6-as-power-and-steel-importers-monitor-cbam-cost-assumptions/",
+     "local_path": "primary/climate-insurance/carbon-markets/cbam-news-eua-futures-2026-11-18.html",
+     "status": "partial",
+     "bytes": 139305,
+     "pages": 0,
+     "note": "Secondary news quotation used as a dated price snapshot; not exchange data."
+    },
+    {
+     "title": "ICE Endex EUA futures strip (Dec-26 to Dec-30)",
+     "url": "https://www.ice.com/products/197/EUA-Futures/data",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Cloudflare block (HTTP 403) on ICE delayed-data endpoint; EEX auction data file not found (404)."
+    },
+    {
+     "title": "UK ETS (UKA futures / auction results)",
+     "url": null,
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted separately; no URL recorded."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Settlement Price Maximum Price Minimum Price Mean Price Median Price Median Allowance Price Current Auction USD $27.94 $32.48 $65.31",
+     "doc_local_path": "primary/climate-insurance/carbon-markets/quebec-joint-auction-48-results-20260819-en.pdf",
+     "page": 5,
+     "locator": "Table 4: Qualified Bid Summary Statistics, Current Auction USD column (values in order: reserve $27.94, settlement $32.48, maximum $65.31); auction held 19 Aug 2026",
+     "url": "https://www.environnement.gouv.qc.ca/changements/carbone/ventes-encheres/2026-08-19/resultats-20260819-en.pdf",
+     "worldbuilding_use": "California carbon price in 2026: allowances clear at $32.48, barely above the $27.94 floor."
+    },
+    {
+     "text": "The benchmark December 2026 EU emissions allowance future was indicated at EUR 85.11 per tonne of CO2 at approximately 10:31 CET on 18 November, down EUR 2.24, or 2.56%, from the reported EUR 87.35 previous closing reference for 17 November.",
+     "doc_local_path": "primary/climate-insurance/carbon-markets/cbam-news-eua-futures-2026-11-18.html",
+     "page": null,
+     "locator": "News article, as of 18 Nov 2026 10:31 CET",
+     "url": "https://cbam.news/eu-carbon-futures-drop-2-6-as-power-and-steel-importers-monitor-cbam-cost-assumptions/",
+     "worldbuilding_use": "EU carbon price level in November 2026: about EUR 85-87 per tonne."
+    }
+   ]
+  },
+  {
+   "id": "ngfs-scenarios",
+   "name": "NGFS long-term climate scenarios (Phase V) and explanatory notes",
+   "publisher": "Network for Greening the Financial System (with PIK, IIASA, UMD, Climate Analytics)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Conditional scenario paths (Net Zero 2050, Current Policies, Fragmented World and others) for carbon prices, emissions, energy and GDP used in central-bank stress tests.",
+   "horizon": "to 2050/2100 in 5-year steps",
+   "latest_edition": {
+    "title": "NGFS long-term scenarios, narratives and key findings: Net Zero 2050, Current Policies and Fragmented World (explanatory note)",
+    "date": "2025-11-01",
+    "url": "https://www.ngfs.net/en/publications-and-statistics/publications/explanatory-notes-ngfs-long-term-climate-scenarios"
+   },
+   "update_cadence": "scenario vintages roughly every 1-2 years (Phase V November 2024; Phase VI announced for 2026, not found published as of 18 Nov 2026)",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Explicitly scenarios, not forecasts: no stakes, no probabilities, no scoring; the Phase V physical-damage estimates rest on a paper that has drawn academic critique (per NGFS's own notice, as reported by search). Document cover says November 2025 (day not stated; 01 used as placeholder)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Scenario narratives with carbon-price ranges (USD 100-260 per tonne in 2030 under Net Zero 2050), regional energy and emissions paths; nothing located or dated as an event."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2025 note; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Included to score low explicitly: the standard regulatory scenario set is unscored and silent on AI.",
+   "primary_docs": [
+    {
+     "title": "NGFS long-term scenarios, narratives and key findings (November 2025), IIASA repository copy",
+     "url": "https://pure.iiasa.ac.at/21047/1/NGFS%20scenarios%20narratives%20and%20key%20findings_0_pdf.pdf",
+     "local_path": "primary/climate-insurance/ngfs-scenarios/NGFS-scenarios-narratives-and-key-findings.pdf",
+     "status": "full",
+     "bytes": 6426151,
+     "pages": 74,
+     "note": "ngfs.net returned HTTP 403; identical PDF taken from the IIASA institutional repository."
+    },
+    {
+     "title": "NGFS Phase V scenario data and technical documentation; Phase VI release",
+     "url": "https://www.ngfs.net/ngfs-scenarios-portal/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on ngfs.net."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The global policy push is reflected in an immediate sharp increase of the carbon price (reaching globally 100-260 US$2010/t CO2 in 2030, and 500-1,250 US$2010/t CO2 in 2050).",
+     "doc_local_path": "primary/climate-insurance/ngfs-scenarios/NGFS-scenarios-narratives-and-key-findings.pdf",
+     "page": 10,
+     "locator": "Net Zero 2050 scenario narrative",
+     "url": "https://pure.iiasa.ac.at/21047/1/NGFS%20scenarios%20narratives%20and%20key%20findings_0_pdf.pdf",
+     "worldbuilding_use": "Contrast for the narrative: regulators' net-zero scenario needs a 2030 carbon price several times today's."
+    }
+   ]
+  },
+  {
+   "id": "ipcc-ar6",
+   "name": "IPCC Sixth Assessment Report: Synthesis Report, Summary for Policymakers",
+   "publisher": "Intergovernmental Panel on Climate Change",
+   "kind": "expert report",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Assessed ranges of warming and hazard changes by emissions scenario (near term 2021-2040 and to 2100).",
+   "horizon": "decades; near-term window 2021-2040",
+   "latest_edition": {
+    "title": "AR6 Synthesis Report: Summary for Policymakers",
+    "date": "2023-03-20",
+    "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf"
+   },
+   "update_cadence": "assessment cycles of 6-7 years (AR7 in preparation)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Line-by-line government and expert review is a strong adversarial process, but nothing is at stake, scenarios are conditional and no error record is scored on a 5-year horizon. Release date (20 March 2023) is from general knowledge of the report, not read off the PDF."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Global and regional hazard statements with confidence language and scenario ranges; no named dated events."
+   },
+   "ai": {
+    "score": 1,
+    "why": "Pre-2025 edition with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Physical-science baseline only; stale and silent on AI.",
+   "primary_docs": [
+    {
+     "title": "IPCC AR6 SYR Summary for Policymakers",
+     "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+     "local_path": "primary/climate-insurance/ipcc-ar6/IPCC_AR6_SYR_SPM.pdf",
+     "status": "full",
+     "bytes": 5552060,
+     "pages": 42,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "noaa-outlooks",
+   "name": "NOAA seasonal outlooks (2026 Atlantic hurricane season outlook, August update) and the billion-dollar disasters series",
+   "publisher": "NOAA Climate Prediction Center / National Hurricane Center",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)",
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Probabilistic seasonal hurricane activity: August 2026 update gave a 75% chance of a below-normal Atlantic season (7-13 named storms, 2-6 hurricanes, 0-2 major) under a strengthening El Nino.",
+   "horizon": "one season (months)",
+   "latest_edition": {
+    "title": "NOAA 2026 Atlantic Hurricane Season Outlook Update (issued 6 August 2026)",
+    "date": "2026-08-06",
+    "url": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml"
+   },
+   "update_cadence": "May outlook and August update each year",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Issued every year as probability ranges and verified publicly against outcomes; by August the ENSO state driving the season is already in place. No money at stake and the horizon is one season, not five years. Issue date (6 August) is from press coverage. NOAA stopped updating its Billion-Dollar Weather and Climate Disasters database in 2025; this run did not verify the current host of that series (a Polymarket contract on the 2026 count exists, implying it is still published)."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A few ranges and probabilities with brief climate-driver discussion."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored and honest but seasonal; useful only for the 2026 benign-season backdrop.",
+   "primary_docs": [
+    {
+     "title": "CPC Atlantic hurricane season outlook page (August 2026 update)",
+     "url": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml",
+     "local_path": "primary/climate-insurance/noaa-outlooks/cpc-atlantic-hurricane-outlook-2026-08-update.html",
+     "status": "full",
+     "bytes": 31488,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The 2026 outlook calls for a 70% probability for each of the following ranges of activity: 7-13 Named Storms, including the 2 named storms recorded thus far 2-6 Hurricanes 0-2 Major Hurricanes",
+     "doc_local_path": "primary/climate-insurance/noaa-outlooks/cpc-atlantic-hurricane-outlook-2026-08-update.html",
+     "page": null,
+     "locator": "Outlook summary",
+     "url": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml",
+     "worldbuilding_use": "Why 2026 was quiet: El Nino-suppressed Atlantic season forecast and delivered."
+    }
+   ]
+  },
+  {
+   "id": "copernicus-climate",
+   "name": "Copernicus Climate Change Service: Global Climate Highlights 2025",
+   "publisher": "Copernicus Climate Change Service (ECMWF)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Not a forecast: observed global temperature record (2025 third-warmest year, +1.47C above pre-industrial in ERA5) and status against the Paris 1.5C level.",
+   "horizon": "look-back; monthly bulletins",
+   "latest_edition": {
+    "title": "Global Climate Highlights 2025",
+    "date": "2026-02-06",
+    "url": "https://climate.copernicus.eu/global-climate-highlights-2025"
+   },
+   "update_cadence": "annual (January) plus monthly climate bulletins",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Operational reanalysis with a continuously published record that other datasets cross-check, but it is measurement, not prediction, and nothing is at stake. Date shown is the PDF creation date; the report was released in January 2026 (not verified to the day)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Temperature anomalies by region and month, sea-ice and sea-surface statistics, lists of extreme events."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 publication; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Baseline observation only.",
+   "primary_docs": [
+    {
+     "title": "Global Climate Highlights 2025: full report",
+     "url": "https://climate.copernicus.eu/sites/default/files/custom-uploads/GCH-2025/GCH2025-full-report.pdf",
+     "local_path": "primary/climate-insurance/copernicus-climate/GCH2025-full-report.pdf",
+     "status": "full",
+     "bytes": 4721074,
+     "pages": 39,
+     "note": ""
+    },
+    {
+     "title": "Global Climate Highlights 2025 landing page",
+     "url": "https://climate.copernicus.eu/global-climate-highlights-2025",
+     "local_path": "primary/climate-insurance/copernicus-climate/global-climate-highlights-2025.html",
+     "status": "full",
+     "bytes": 163369,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "unep-emissions-gap",
+   "name": "UNEP Emissions Gap Report 2026: The point of return",
+   "publisher": "UN Environment Programme",
+   "kind": "expert report",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Gap between pledged and required emissions: full NDC implementation cuts emissions 5-8% by 2030 and 11-15% by 2035 versus 2025, implying about 2.6C this century.",
+   "horizon": "2030, 2035, 2040 milestones; warming to 2100",
+   "latest_edition": {
+    "title": "Emissions Gap Report 2026: The point of return (seventeenth edition)",
+    "date": "2026-10-21",
+    "url": "https://www.unep.org/en/publications/report/emissions-gap-report-2026"
+   },
+   "update_cadence": "annual (October/November)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Seventeen annual editions allow informal checking of past 2030 projections, but there is no stake, no adversary and no formal scoring; it is partly advocacy. Launch date (21 Oct 2026) is from UNEP's press release as returned by search, not from the captured text."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Global and G20 emissions paths and percentage cuts by milestone year; sectoral benchmarks; no local detail in what was captured."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; AI treatment could not be checked in the full report (only the landing-page summary was captured, which has none)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Landing-page capture: no AI terms. Full PDF not obtained (unep.org HTTP 403)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Sets the policy backdrop (2.6C) but unincentivised; full report not retrievable in this run.",
+   "primary_docs": [
+    {
+     "title": "UNEP Emissions Gap Report 2026 landing page (text capture)",
+     "url": "https://www.unep.org/en/publications/report/emissions-gap-report-2026",
+     "local_path": "primary/climate-insurance/unep-emissions-gap/unep-emissions-gap-report-2026-landing-capture.txt",
+     "status": "partial",
+     "bytes": 2326,
+     "pages": 0,
+     "note": "Captured with a web fetch tool; unep.org returned HTTP 403 to direct requests and the PDF link was not exposed."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "the full implementation of Nationally Determined Contributions (NDCs) would only reduce emissions by 5-8 per cent by 2030 and 11-15 per cent by 2035, relative to 2025 levels – leaving the world on track to only limit warming this century to 2.6°C.",
+     "doc_local_path": "primary/climate-insurance/unep-emissions-gap/unep-emissions-gap-report-2026-landing-capture.txt",
+     "page": null,
+     "locator": "What's new in this year's report?",
+     "url": "https://www.unep.org/en/publications/report/emissions-gap-report-2026",
+     "worldbuilding_use": "Policy backdrop to 2031: pledges deliver only 5-8% cuts by 2030; 2.6C trajectory."
+    }
+   ]
+  },
+  {
+   "id": "iea-weo",
+   "name": "IEA World Energy Outlook",
+   "publisher": "International Energy Agency",
+   "kind": "expert report",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Scenario projections of energy demand, fuel mix, emissions and prices to 2035/2050.",
+   "horizon": "to 2050",
+   "latest_edition": {
+    "title": "World Energy Outlook 2025 (12 November 2025) is the last edition confirmed; a 'World Energy Outlook 2026' launch page exists but its release date could not be confirmed",
+    "date": "2025-11-12",
+    "url": "https://www.iea.org/reports/world-energy-outlook-2026"
+   },
+   "update_cadence": "annual (October/November)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Member-government scrutiny and a long public record that outside researchers have scored (historic under-forecasting of solar is the known bias); no money at stake. Scores are from general knowledge of the series: no IEA document could be opened in this run (iea.org HTTP 403), so treat as unverified."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Regional and sectoral projections with policy assumptions (not verified in this run)."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Not verified: no document obtained. Recent editions are understood to treat data-centre electricity demand explicitly; scored conservatively pending the energy area's review."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document downloaded; nothing searched. AI score is an unverified placeholder."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Belongs to the energy area; listed here only so it is scored rather than dropped.",
+   "primary_docs": [
+    {
+     "title": "IEA World Energy Outlook 2026 landing page",
+     "url": "https://www.iea.org/reports/world-energy-outlook-2026",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on direct request; existence of the 2026 report page and its date not confirmed."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "weather-derivatives",
+   "name": "CME weather futures and options (HDD/CDD)",
+   "publisher": "CME Group",
+   "kind": "market price",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)"
+   ],
+   "what_it_forecasts": "Market-implied heating and cooling degree days for listed cities over coming months.",
+   "horizon": "months (seasonal strips)",
+   "latest_edition": {
+    "title": "CME weather products page (continuous market; no edition)",
+    "date": "2026-11-18",
+    "url": "https://www.cmegroup.com/markets/weather.html"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Real money and competing hedgers and dealers, but contracts run months, not years, liquidity is thin and nothing reaches a 5-year horizon (rubric: real money, short instrument)."
+   },
+   "richness": {
+    "score": 1,
+    "why": "City-level degree-day prices with no reasoning."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Structurally unrelated to AI; no document obtained."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document downloaded (cmegroup.com HTTP 403)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Too short-dated and thin to inform 2026-2031.",
+   "primary_docs": [
+    {
+     "title": "CME Group weather futures page",
+     "url": "https://www.cmegroup.com/markets/weather.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on direct request."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "prediction-markets",
+   "name": "Prediction markets on climate and disasters (Polymarket snapshot; Metaculus)",
+   "publisher": "Polymarket; Metaculus",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Carbon prices and the warming trajectory (policy and physical baseline)",
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Traded probabilities for near-term climate outcomes: 2026 hottest year on record (0.9245), 2026-27 El Nino strongest on record (0.57), Category 4+ US hurricane landfall before 2027 (0.0345), US billion-dollar-disaster record in 2026 (0.20).",
+   "horizon": "weeks to about 5 months (resolutions to April-July 2027)",
+   "latest_edition": {
+    "title": "Polymarket gamma API snapshot of nine climate/disaster events, retrieved 18 November 2026",
+    "date": "2026-11-18",
+    "url": "https://gamma-api.polymarket.com/events?slug=where-will-2026-rank-among-the-hottest-years-on-record"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Traders stake money and many participate (USD 3.9m volume on the hottest-year market). Contracts resolve, but no multi-year calibration record is published for these climate markets (T3 not counted), several are thin (USD 3.5k on the disaster-record market) and nothing extends beyond mid-2027 (rubric anchor: real money, instrument much shorter than 5 years). Metaculus, which does publish track records, now requires an account token for its API and was not sampled."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of probabilities; no reasoning."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Continuously updated but structurally unrelated to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for 'artificial intelligence', 'AI', 'generative', 'data cent(er/re)': none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Real-money and scored, but horizons end in 2027; useful only to pin down the 2026-27 El Nino/record-heat backdrop.",
+   "primary_docs": [
+    {
+     "title": "Polymarket climate/disaster markets snapshot (JSON)",
+     "url": "https://gamma-api.polymarket.com/events?slug=where-will-2026-rank-among-the-hottest-years-on-record",
+     "local_path": "primary/climate-insurance/prediction-markets/polymarket-climate-snapshot-2026-11-18.json",
+     "status": "full",
+     "bytes": 13140,
+     "pages": 0,
+     "note": "Nine events queried by slug via the public gamma API; one URL shown, others differ only by slug (slugs are in the file)."
+    },
+    {
+     "title": "Polymarket snapshot, flattened text rendering",
+     "url": "https://gamma-api.polymarket.com/events?slug=where-will-2026-rank-among-the-hottest-years-on-record",
+     "local_path": "primary/climate-insurance/prediction-markets/polymarket-climate-snapshot-2026-11-18.txt",
+     "status": "full",
+     "bytes": 8066,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Metaculus climate questions",
+     "url": "https://www.metaculus.com/api/posts/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "API returned 'only available to authenticated users'."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Where will 2026 rank among the hottest years on record? | Will 2026 be the hottest year on record? | outcomes [\"Yes\", \"No\"] | outcomePrices [\"0.9245\", \"0.0755\"]",
+     "doc_local_path": "primary/climate-insurance/prediction-markets/polymarket-climate-snapshot-2026-11-18.txt",
+     "page": null,
+     "locator": "Snapshot row, as of 18 Nov 2026 (UTC)",
+     "url": "https://gamma-api.polymarket.com/events?slug=where-will-2026-rank-among-the-hottest-years-on-record",
+     "worldbuilding_use": "Markets price 2026 as the hottest year on record at about 92%."
+    },
+    {
+     "text": "Will the 2026–27 El Niño be the strongest on record? | Will the 2026–27 El Niño be the strongest on record? | outcomes [\"Yes\", \"No\"] | outcomePrices [\"0.57\", \"0.43\"]",
+     "doc_local_path": "primary/climate-insurance/prediction-markets/polymarket-climate-snapshot-2026-11-18.txt",
+     "page": null,
+     "locator": "Snapshot row, as of 18 Nov 2026 (UTC)",
+     "url": "https://gamma-api.polymarket.com/events?slug=where-will-2026-rank-among-the-hottest-years-on-record",
+     "worldbuilding_use": "57% market odds that the 2026-27 El Nino is the strongest on record: 2027 weather extremes."
+    }
+   ]
+  },
+  {
+   "id": "cat-model-vendors-kcc-moodys-rms",
+   "name": "Catastrophe model vendors' loss estimates and model updates (Karen Clark & Company; Moody's RMS)",
+   "publisher": "Karen Clark & Company; Moody's (RMS)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Rising catastrophe losses vs. abundant reinsurance capital (soft cycle 2026-27, turn risk)"
+   ],
+   "what_it_forecasts": "Event-level insured loss estimates and periodic model revisions that reset insurers' view of hurricane, wildfire and convective-storm risk.",
+   "horizon": "event-by-event; model versions every 1-3 years",
+   "latest_edition": {
+    "title": "No single latest edition identified in this run",
+    "date": "2026-11-18",
+    "url": "https://www.karenclarkandco.com/"
+   },
+   "update_cadence": "per event and per model release",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Models are licensed to and challenged by insurers, rating agencies and (for Florida hurricane) a state commission, and event estimates can be checked against final industry losses; vendors have commercial rather than financial exposure. No 2026 KCC or Moody's RMS report was located or downloaded, so scores are indicative only."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Typically named events with loss estimates by state; not verified in this run."
+   },
+   "ai": {
+    "score": 2,
+    "why": "No document obtained; no evidence of AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document downloaded; nothing searched."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored for completeness; the Verisk report is the downloadable representative of this source type.",
+   "primary_docs": [
+    {
+     "title": "Karen Clark & Company website",
+     "url": "https://www.karenclarkandco.com/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Site reachable (HTTP 200) but no specific 2026 report was identified; nothing saved."
+    },
+    {
+     "title": "Moody's RMS 2026 model updates / industry loss reports",
+     "url": null,
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not located in this run; no URL recorded."
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}

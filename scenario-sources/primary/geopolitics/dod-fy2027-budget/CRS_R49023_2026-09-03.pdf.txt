@@ -1,0 +1,2947 @@
+FY2027 Defense Budget: Funding for Selected
+Weapon Systems
+Updated September 3, 2026
+
+Congressional Research Service
+https://crsreports.congress.gov
+R49023
+
+SUMMARY
+
+FY2027 Defense Budget: Funding for Selected
+Weapon Systems
+The second Trump Administration’s Department of Defense (DOD) budget request for FY2027
+included $1.1 trillion in discretionary funding and $350.0 billion in mandatory funding. (DOD is
+“using a secondary Department of War designation,” under Executive Order 14347, dated
+September 5, 2025.) DOD requested $413.1 billion in procurement and $343.7 billion in
+research, development, test, and evaluation (RDT&E) discretionary and mandatory funding, in
+part to support weapon systems.
+
+R49023
+September 3, 2026
+Daniel M. Gettinger
+Analyst in U.S. Defense
+Policy
+
+In its FY2027 request, DOD included two types of funding: discretionary funding that DOD requested for Congress to
+authorize and appropriate for FY2027 through regular authorization and appropriations legislation and mandatory funding
+that DOD proposed Congress provide in authorization legislation using the reconciliation process. For FY2027, to varying
+degrees, DOD proposed allocating both discretionary and mandatory funding for programs, projects, and activities associated
+with weapon systems procurement and RDT&E.
+Relative to amounts enacted for FY2026, the FY2027 DOD request for discretionary funding proposed increases to certain
+aviation, missile defense, missiles and munitions, and shipbuilding programs. In addition, for FY2027, DOD requested
+mandatory funds for certain Administration priorities, such as drones, the Golden Dome initiative, and artificial intelligence,
+as well as for various missile defense programs. At the same time, DOD proposed reducing or ending funding for other
+programs, such as the Air Force’s E-7A Wedgetail airborne early warning aircraft and the Army’s UH-60 Black Hawk and
+CH-47 Chinook helicopters.
+Differing views between and within the Administration and Congress over perceived threats, defense strategy and
+requirements, and program performance have generated and informed debates over funding for weapon systems. DOD
+officials have stated that the FY2026 supplemental request for U.S. military operations against Iran could include requests for
+weapons that are included in the department’s FY2027 budget submission.
+During consideration of a National Defense Authorization Act for Fiscal Year 2027 (FY2027 NDAA), the House proposed
+authorizing $1.7 billion more discretionary funding than DOD requested for selected weapon systems, while the Senate
+Armed Services Committee proposed authorizing the amount requested; both versions of an FY2027 NDAA departed from
+the DOD request for certain weapon systems. As of this writing, Congress has not passed an FY2027 NDAA.
+During consideration of a Department of Defense Appropriations Act, 2027, the House Appropriations Committee proposed
+providing $3.2 billion less discretionary funding than DOD requested for selected weapon systems. As of this writing,
+Congress has not passed a Department of Defense Appropriations Act, 2027.
+
+Congressional Research Service
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Contents
+Introduction ..................................................................................................................................... 1
+Background ..................................................................................................................................... 1
+FY2027 DOD Budget Request.................................................................................................. 1
+Congressional Action on FY2027 Defense Authorization and Appropriations......................... 3
+Funding for Selected Weapon Systems ........................................................................................... 4
+Aircraft and Related Weapon Systems ...................................................................................... 4
+Communications and Space-Based Systems ............................................................................. 8
+Communications Systems ................................................................................................... 8
+Space-Based and Related Systems...................................................................................... 8
+Ground Systems ...................................................................................................................... 10
+Hypersonic Weapons ............................................................................................................... 13
+Missile Defense ....................................................................................................................... 15
+Missiles and Munitions ........................................................................................................... 18
+Shipbuilding and Maritime Systems ....................................................................................... 22
+
+Tables
+Table 1. FY2027 Funding Authorizations and Appropriations for Selected DOD Aircraft ............ 5
+Table 2. FY2027 Funding Authorizations and Appropriations for Selected DOD C4I and
+Space-Based Systems ................................................................................................................... 9
+Table 3. FY2027 Funding Authorizations and Appropriations for Selected DOD Ground
+Systems .......................................................................................................................................11
+Table 4. FY2027 Funding Authorizations and Appropriations for Selected DOD
+Hypersonic Weapons .................................................................................................................. 14
+Table 5. FY2027 Funding Authorizations and Appropriations for Selected DOD Missile
+Defense Systems ........................................................................................................................ 16
+Table 6. FY2027 Funding Authorizations and Appropriations for Selected DOD Missiles
+and Munitions ............................................................................................................................. 19
+Table 7. FY2027 Funding Authorizations and Appropriations for Selected DOD
+Shipbuilding and Maritime Systems Programs .......................................................................... 23
+Table A-1. FY2027 Funding Authorizations and Appropriations for Selected DOD
+Initiatives .................................................................................................................................... 26
+
+Appendixes
+Appendix. Selected Administration Initiatives .............................................................................. 26
+
+Contacts
+Author Information........................................................................................................................ 27
+
+Congressional Research Service
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Introduction
+This report addresses actions by Congress on the second Trump Administration’s FY2027 budget
+request for Department of Defense (DOD) procurement and research, development, test, and
+evaluation (RDT&E) funding related to programs, projects, and activities for selected weapon
+systems. (DOD is “using a secondary Department of War designation,” under Executive Order
+14347, dated September 5, 2025.1) It will be updated to reflect congressional actions on FY2027
+defense authorization and appropriations legislation and will highlight differences between
+amounts the Administration requested and those Congress authorizes and appropriates for
+FY2027. Except as a matter of background, this report addresses neither the DOD budget at the
+account level nor funding for DOD operations and maintenance (O&M), military personnel
+(MILPERS), military construction (MILCON), other defense-related activities, or classified
+funding.
+
+Background
+FY2027 DOD Budget Request
+On April 3, 2026, President Donald J. Trump submitted to Congress a “skinny budget” proposal
+for FY2027 discretionary funding. For FY2027, the Administration requested a total of $1.45
+trillion for DOD, including $1.1 trillion in discretionary and $350.0 billion in mandatory
+spending.2 The department’s overall budget requested for FY2027 was $440.9 billion (44%) more
+than the FY2026 enacted amount of $1.01 trillion.3 On April 21, DOD submitted additional
+information on its FY2027 budget request to Congress, including funding requested at the lineitem level for DOD programs, projects, and activities.4 Spreadsheets accompanying the
+department’s submission described such funding by type: “FY 2027 discretionary request” and
+“FY 2027 mandatory request.”5
+
+1 Executive Order 14347 of September 5, 2025, “Restoring the United States Department of War,” 90 Federal Register
+
+43893, September 10, 2025, https://www.federalregister.gov/documents/2025/09/10/2025-17508/restoring-the-unitedstates-department-of-war.
+2 White House, Office of Management and Budget (OMB), Fiscal Year 2027 Topline, April 2026, p. 1,
+https://www.whitehouse.gov/wp-content/uploads/2026/04/fiscal-year-2027-topline-fact-sheet.pdf; and Department of
+Defense (DOD), Office of the Under Secretary of War (Comptroller)/Chief Financial Officer (CFO), FY 2027
+Department of War Budget Overview Book, April 2026, p. A-1, https://comptroller.war.gov/Portals/45/Documents/
+defbudget/FY2027/FY2027_Budget_Request_Overview_Book.pdf/. Discretionary spending is defined in 2 U.S.C.
+§900(c)(7) as “budgetary resources (except to fund direct-spending programs) provided in appropriations Acts.”
+Mandatory (or direct) spending is defined in 2 U.S.C. §900 as “budget authority provided by law other than
+appropriation Acts,” as well as entitlement authority and the food stamp program known as SNAP. For more
+information, see CRS In Focus IF13124, Distinguishing Between Discretionary and Mandatory Spending, by Megan S.
+Lynch.
+3 For more information on the FY2026 defense budget, see CRS Report R48891, FY2026 Department of Defense
+Appropriations: In Brief, by Cameron M. Keys; CRS Insight IN12641, FY2026 NDAA: Summary of Funding
+Authorizations, by Daniel M. Gettinger and Cameron M. Keys; CRS Report R48860, FY2026 Defense Budget:
+Funding for Selected Weapon Systems, by Daniel M. Gettinger; and CRS Insight IN12622, FY2026 Military
+Construction Appropriations: A Summary, by Andrew Tilghman.
+4 DOD, “$1.5 Trillion Budget Request Prioritizes Service Members, Modernization,” press release, April 21, 2026,
+https://www.war.gov/News/News-Stories/Article/Article/4465551/15-trillion-budget-request-prioritizes-servicemembers-modernization/.
+5 For example, see DOD, Office of the Under Secretary of Defense (Comptroller)/CFO, Procurement Programs (P-1),
+(continued...)
+
+Congressional Research Service
+
+1
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+FY2027 is the second consecutive year in which the Trump Administration stated that its budget
+request “assumes” Congress would provide additional funding for defense in a “mandatory
+reconciliation bill.”6 In an April 21 DOD press briefing on the budget request, the then Acting
+Under Secretary of Defense (Comptroller) and Chief Financial Officer Jules W. Hurst III stated
+that the department requested mandatory funding for “things that were kind of a one-time plus up
+that we really wanted to increase our funding of” and to provide the department with “more
+flexibility on when we obligate those funds.”7
+As in its FY2026 request, the funds DOD requested in its FY2027 mandatory request are not
+evenly distributed across all weapons programs. For FY2027, mandatory funding constituted a
+large proportion of the total funding requested for some DOD programs, such as the missile
+interceptor known as the Army Patriot Advanced Capability-3 Missile Segment Enhancement
+(PAC-3 MSE).8 Mandatory funding also constituted nearly all funding requested for certain other
+DOD initiatives, such as the Golden Dome for America and Drone Dominance initiatives.9
+Some Members of Congress have reportedly expressed support for using the reconciliation
+process to provide additional funding for defense.10 Other Members have expressed concern
+about DOD’s inclusion of mandatory funding in its FY2027 request, broadly, and about the levels
+of mandatory funding requested for specific DOD programs.11 For example, in an April 2026
+hearing on the Air Force’s FY2027 budget request, Representative Ken Calvert, chair of the
+House Committee on Appropriations’ Subcommittee on Defense (HAC-D), questioned Air Force
+officials on DOD’s request for mandatory funding, stating, “I would put your priority needs either
+in the base budget or in the supplemental.”12
+
+Department of War Budget, Fiscal Year 2027, April 2026, https://comptroller.war.gov/Portals/45/Documents/
+defbudget/FY2027/FY2027_p1.pdf; and DOD, Office of the Under Secretary of Defense (Comptroller)/CFO, RDT&E
+Programs (R-1), Department of War Budget, Fiscal Year 2027, April 2026, https://comptroller.war.gov/Portals/45/
+Documents/defbudget/FY2027/FY2027_r1.pdf.
+6 DOD, Department of War Budget Overview Book, April 2026, p. 1-3; and DOD, Office of the Under Secretary of
+Defense (Comptroller)/CFO, Defense Budget Overview, July 2025, p. 1-2, https://comptroller.war.gov/Portals/45/
+Documents/defbudget/FY2026/FY2026_Budget_Request_Overview_Book.pdf.
+In the FY2025 reconciliation law (P.L. 119-21), sometimes known as the One Big Beautiful Bill Act, Congress
+provided approximately $152 billion for national defense, most of which DOD reported allocating to weapon systems
+programs in FY2026. For more information, see CRS Report R48860, FY2026 Defense Budget: Funding for Selected
+Weapon Systems, by Daniel M. Gettinger. For more information on the reconciliation process, see CRS Report R48444,
+The Reconciliation Process: Frequently Asked Questions, by Tori Gorman.
+7 DOD, “Honorable Jay Hurst and Lt. Gen. Steven Whitney Hold Press Briefing on the Department’s Fiscal Year 2027
+Defense Budget,” press release, April 21, 2026, https://www.war.gov/News/Transcripts/Transcript/Article/4466209/
+honorable-jay-hurst-and-lt-gen-steven-whitney-hold-press-briefing-on-the-depart/.
+8 For more information, see Table 5.
+9 For more information, see Appendix.
+10 Mia McCarthy and Calen Razor, “House eyes summer for another party-line bill,” Politico, May 13, 2026,
+https://www.politico.com/newsletters/inside-congress/2026/05/13/house-eyes-summer-for-another-party-line-bill00918197; and Mark Satter, “Members split on plan to use reconciliation again to boost defense,” Roll Call, February
+5, 2026, https://rollcall.com/2026/02/05/members-split-on-plan-to-use-reconciliation-again-to-boost-defense/.
+11 For example, see U.S. Congress, House Committee on Appropriations, Subcommittee on Defense, Budget Hearing—
+the United States Army, 119th Cong., 2nd sess., April 16, 2026, accessed at https://www.youtube.com/live/
+Pkgzso9sx_U?si=kgwX3O7LTsOaB5r1&t=3461; U.S. Congress, House Committee on Armed Services (HASC),
+Department of Defense FY27 Budget Request, hearing, 119th Cong., 2nd sess., April 29, 2026, accessed at
+https://www.youtube.com/live/cDcvMkjAGUs?si=Mrimgsj11eJ6efXW&t=10120.
+12 U.S. Congress, House Committee on Appropriations, Subcommittee on Defense, Budget Hearing—the United States
+Air Force and Space Force, hearing, 119th Cong., 2nd sess., April 30, 2026, accessed at https://www.youtube.com/live/
+R9GYuj-96zk?si=necfYNoo-sP2kRf1&t=1588.
+
+Congressional Research Service
+
+2
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+In addition to its request for FY2027 discretionary and mandatory funds, DOD officials stated in
+congressional testimony that the department plans to submit to Congress a supplemental request
+for costs incurred by U.S. military operations against Iran in 2026.13 DOD officials stated that the
+FY2026 supplemental request could include requests for weapons that are included in the
+department’s FY2027 budget submission and that such “overlapping requests” could lead the
+department to revise its FY2027 request to Congress.14 In June 2026, the Office of Management
+and Budget submitted to Congress a supplemental funding request for costs associated with U.S.
+military operations against Iran in 2026 and other Administration priorities.15
+
+Congressional Action on FY2027 Defense Authorization and
+Appropriations
+In deciding whether or not to authorize and appropriate funding for DOD programs, projects, and
+activities for FY2027, Congress may consider several potential options. Congress could consider
+enacting through the regular authorization and appropriations process more, less, or the same
+amount of discretionary funding DOD requested. In addition to funding provided through the
+regular appropriations process, Congress may consider using the reconciliation process to provide
+more, less, or the same amount of mandatory funding the department requested, which may have
+implications for committees of jurisdiction and levels of budget specificity.16 For example, the
+armed services committees rather than the appropriations committees respond to reconciliation
+instructions from the budget committees. In the FY2025 reconciliation law, Congress provided
+defense funding for both broad purposes and specific weapon systems rather than for
+appropriations accounts and did not include a committee report or other accompanying
+explanatory statement linking each bill provision to budgetary line-item appropriation accounts,
+as is typical in regular appropriations acts.17
+Actions of the congressional defense committees on proposed legislation to authorize and
+appropriate FY2027 funding for DOD weapon systems have included the following:
+•
+
+•
+
+The House Armed Services Committee (HASC) on June 15, 2026, reported a
+National Defense Authorization Act for FY2027 (H.R. 8800; H.Rept. 119-698).
+The House on July 22, 2026, passed an amended version of H.R. 8800.18
+The Senate Armed Services Committee (SASC) on June 15, 2026, reported a
+National Defense Authorization Act for FY2027 (S. 4784; S.Rept. 119-127).
+
+13 U.S. Congress, HASC, Department of Defense Fiscal Year 2027 Budget Request, hearing, 119th Cong., 2nd sess.,
+
+April 29, 2026, accessed at https://www.youtube.com/live/cDcvMkjAGUs?si=uJ54vDx1SDfdzdtb&t=3796.
+14 DOD, “Honorable Jay Hurst and Lt. Gen. Steven Whitney Hold Press Briefing on the Department’s Fiscal Year 2027
+Defense Budget.”
+15 Letter from Russell T. Vought, Director of the OMB, to Representative Mike Johnson, Speaker of the House, June
+24, 2026, at https://www.whitehouse.gov/wp-content/uploads/2026/06/2026.06.24-Letter-to-the-Honorable-MikeJohnson.pdf. For news coverage of the FY2026 supplemental request, see, for example, Tony Bertuca, “White House
+sends Congress $67B defense supplemental to pay for Iran conflict,” Inside Defense, June 24, 2026,
+https://insidedefense.com/daily-news/white-house-sends-congress-67b-defense-supplemental-pay-iran-conflict.
+16 For more information, see CRS Report R48444, The Reconciliation Process: Frequently Asked Questions, by Tori
+Gorman.
+17 For more information, see CRS Insight IN12580, Defense Funding in the 2025 Reconciliation Law (H.R. 1; P.L. 11921, Title II), by Cameron M. Keys and Daniel M. Gettinger.
+18 For more information, see CRS Insight IN12704, FY2027 NDAA: Status of Legislative Activity, by Valerie
+Heitshusen and Daniel M. Gettinger; and CRS Insight IN12703, FY2027 NDAA: Summary of Funding Authorizations,
+by Daniel M. Gettinger.
+
+Congressional Research Service
+
+3
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+•
+
+The House Appropriations Committee (HAC) on June 26, 2026, reported a
+Department of Defense Appropriations Act, 2027 (H.R. 9495; H.Rept. 119-715).
+
+Funding for Selected Weapon Systems
+This section details funding amounts and quantities for selected defense acquisition programs that
+DOD requested as part of the President’s FY2027 budget. The requested figures include
+discretionary and mandatory amounts from DOD’s FY2027 budget documents.19 CRS based its
+analysis of funding for such programs in part on the “major weapons system summary” table
+published in the FY2027 version of the annual DOD budget document titled Program Acquisition
+Cost by Weapon System,20 as well as on programs of congressional interest. The amounts
+presented in this report may not include all costs associated with such programs. For example,
+amounts associated with MILCON and O&M to house and sustain such systems and for
+MILPERS to operate such systems are not included. In some cases, CRS included related
+programmatic funding that was not included in the DOD document.
+
+Aircraft and Related Weapon Systems
+In its FY2027 budget submission to Congress, DOD requested $102.2 billion in discretionary and
+mandatory procurement and RDT&E funding for aircraft and related systems, including fighters,
+bombers, tankers and cargo aircraft, attack and utility helicopters, and uncrewed aircraft systems
+(UAS, commonly known as drones).21 Of this amount, DOD requested a total of approximately
+$73.6 billion in procurement and RDT&E funding for the selected aircraft and related systems
+detailed in Table 1—$59.9 billion in discretionary funding and $13.7 billion in mandatory
+funding.22
+The House-passed FY2027 NDAA would authorize more discretionary funding than DOD
+requested to procure 12 of the OA-1K Skyraider II close air support aircraft. The SASC-reported
+FY2027 NDAA would authorize funding that DOD did not request to procure the Air Force E-7A
+Wedgetail, an airborne early warning-and-control system (AWACS) aircraft that Boeing
+originally developed for Australia.
+The HAC-reported FY2027 DOD appropriations act would provide more discretionary funding
+than DOD requested for the procurement of additional Army UH-60 Black Hawk helicopters and
+MQ-1C Gray Eagle uncrewed aircraft, as well as for the development of the Navy F/A-XX sixthgeneration fighter aircraft.23 The HAC-reported bill would provide discretionary funding DOD
+did not request to procure the E-7A Wedgetail.
+
+19 CRS analysis of amounts for certain programs is based on additional DOD data provided to CRS in response to a
+
+request for information on May 5, 2026, and on file with the author.
+20 DOD, Office of the Under Secretary of Defense (Comptroller)/CFO, Program Acquisition Cost by Weapon System,
+April 2026, https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Weapons.pdf.
+21 DOD, Program Acquisition Cost by Weapon System, p. 1-1.
+22 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the aircraft and related
+systems identified in the “major weapons system summary” table in DOD, Program Acquisition Cost by Weapon
+System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect all funding
+associated with such programs or categories of weapon systems, such as classified funding and certain mandatory
+funding requests.
+23 H.Rept. 119-715, pp. 90, 161.
+
+Congressional Research Service
+
+4
+
+Table 1. FY2027 Funding Authorizations and Appropriations for Selected DOD Aircraft
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Aircraft
+
+$
+
+Authorization
+
+Discretionarya
+
+#
+
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+Bomber (IF12945)
+B-21 Raiderc
+B-1, B-2, B-52
+
+$0.12
+
+$6.11
+
+$6.11
+
+$6.11
+
+$6.08
+
+$3.12
+
+$3.06
+
+$3.17
+
+$3.30
+
+Cargo
+KC-46A Pegasus
+(IF13157)
+C-130J Hercules
+(IF13184)
+
+$1.19
+
+7
+
+$4.42
+
+15
+
+$4.14
+
+15
+
+$4.42
+
+15
+
+$4.11
+
+$3.12
+
+11
+
+$3.40
+
+13
+
+$3.15
+
+11
+
+$3.42
+
+$3.20
+
+6
+
+$2.79
+
+6
+
+$3.20
+
+6
+
+$3.20
+
+Command and Control
+E-2D Advanced
+Hawkeye
+E-7A Wedgetail
+
+$1.50
+
+$1.55
+
+Fighter
+F-35 Joint Strike
+Fighter (R48304)
+
+$12.31
+
+53
+
+$9.07
+
+32
+
+$9.68
+
+32
+
+32
+
+$5.04
+
+F-15E/EX Eagle
+
+$3.85
+
+F-22 Raptor
+
+$2.20
+
+$2.20
+
+$2.11
+
+$2.17
+
+F/A-18 Super Hornet
+
+$1.95d
+
+$1.96
+
+$2.00
+
+$1.94
+
+F-16 Fighting Falcon
+
+$1.63
+
+$1.63
+
+$1.63
+
+$1.56
+
+24
+
+$3.85
+
+$5.04
+
+$9.25
+
+F-47 Next Generation
+Air Dominance
+(IF12805)
+
+CRS-5
+
+$4.97
+
+$9.30
+
+24
+
+$3.90
+
+$5.04
+
+24
+
+$3.94
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+System Type and
+Name (relevant CRS
+product, if available)
+Aircraft
+F/A-XX Next
+Generation Fighter
+Skyraider II
+
+FY2027 DOD Request
+Mandatorya
+$
+$0.07
+
+#
+
+Authorization
+
+Discretionarya
+$
+
+#
+
+House
+$
+
+$0.07
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+$0.07
+
+$0.07
+
+$0.92
+$0.06
+
+$0.06
+
+2
+
+$0.28
+
+12 <$0.01
+
+CH-53K Heavy Lift
+Replacement
+Helicopter
+
+$4.08
+
+22
+
+$4.08
+
+22
+
+Future Long-Range
+Assault Aircraft
+(IF12771)
+
+$2.27
+
+$2.27
+
+$2.27
+
+$2.14
+
+V-22 Osprey
+(R48703)
+
+$1.23
+
+$1.23
+
+$1.23
+
+$1.23
+
+CH-47 Chinook
+
+$0.33
+
+AH-64 Apache
+
+$0.28
+
+MH-139A Grey Wolf
+
+$0.27
+
+HH-60W Combat
+Rescue Helicopter
+
+$0.21
+
+UH-60 Black Hawk
+
+$0.07
+
+Rotorcraft
+
+5
+
+$0.71
+
+12
+
+$0.28
+4
+
+$0.39
+
+$0.32
+
+$0.33
+
+22
+
+5
+
+$0.31
+8
+
+$0.21
+1
+
+$4.08
+
+$0.39
+
+$0.07
+
+$0.77
+$0.28
+
+8
+
+$0.21
+7
+
+$4.03
+
+$0.27
+$0.39
+
+1
+
+$0.69
+
+VIP Aircraft
+VC-25B Presidential
+Aircraft (IF13184)
+
+$0.71
+
+$0.71
+
+$0.71
+
+$0.70
+
+C-40 Fleet Expansion
+Trainer
+T-7A Advanced Pilot
+Training
+
+CRS-6
+
+$0.81
+
+23
+
+$0.80
+
+23
+
+$0.81
+
+23
+
+$0.81
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+System Type and
+Name (relevant CRS
+product, if available)
+Aircraft
+
+FY2027 DOD Request
+Mandatorya
+$
+
+#
+
+Authorization
+
+Discretionarya
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+Uncrewed Aircraft (IF12797)
+Collaborative Combat
+Aircraft (IF12740)
+
+$2.58
+
+$2.44
+
+$2.58
+
+$2.54
+
+MQ-25 Stingray
+(IF12972)
+
+$1.75
+
+3
+
+$1.75
+
+3
+
+$1.75
+
+3
+
+$1.75
+
+MQ-9 Reaper/USMC
+Group 5 UAS
+
+$0.77
+
+5
+
+$0.77
+
+5
+
+$0.77
+
+5
+
+$0.80
+
+MQ-4C/RQ-4 Triton/
+Global Hawk/AGS
+
+$0.62
+
+$0.62
+
+$0.62
+
+$0.62
+
+MQ-1C Gray Eagle
+
+$0.06
+
+$0.06
+
+$0.06
+
+$0.30
+
+Source: CRS analysis of Department of Defense (DOD), Office of the Under Secretary of Defense (Comptroller)/Chief Financial Officer (CFO), Program Acquisition Cost
+by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1) spreadsheets; FY2027 military department
+budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119-715.
+Notes: Figures rounded to the nearest hundredth. Figures include funding for aircraft spares and repair parts. SASC is Senate Armed Services Committee; HAC is
+House Appropriations Committee; SAC is Senate Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. H.Rept. 119-715 did not include funding table quantities.
+c. Nuclear modernization program.
+d. Figure may not be inclusive of all funding related to this program.
+
+CRS-7
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Communications and Space-Based Systems
+Communications Systems
+In its FY2027 budget submission to Congress, DOD requested $29.5 billion in discretionary and
+mandatory procurement and RDT&E funding for command, control, communications, computers,
+and intelligence (C4I) systems.24 For the selected C4I systems detailed in Table 2, DOD
+requested $2.1 billion in discretionary base budget procurement and RDT&E funding.25 DOD did
+not request FY2027 mandatory funding for the selected C4I systems.
+The House-passed FY2027 NDAA would authorize less discretionary funding than DOD
+requested for the Army Tactical Network Technology (TNT) program. The SASC-reported
+FY2027 NDAA would authorize the amount of discretionary funding requested.
+The HAC-reported FY2027 DOD appropriations act would provide less discretionary funding
+than DOD requested for the selected communications systems programs.
+
+Space-Based and Related Systems
+In its FY2027 budget submission to Congress, DOD requested $59.7 billion in discretionary and
+mandatory procurement and RDT&E funding for space-based systems.26 Of this amount, DOD
+requested $22.0 billion in procurement and RDT&E funding for the selected space-based systems
+found in Table 2—$18.1 billion in discretionary funding and $3.9 billion in mandatory funding.27
+The House-passed and SASC-reported versions of an FY2027 NDAA would authorize more
+discretionary funding than DOD requested for the Missile Warning/Missile Tracking program for
+the continuation of the Next-Generation Overhead Persistent Infrared Polar (Next-Gen OPIRPolar) program. While DOD did not request FY2027 funding for the Next-Gen OPIR-Polar
+program, a provision in the House-passed FY2027 NDAA (§1606) would require the Secretary of
+the Air Force to “continue, maintain, and execute” the program.28
+The HAC-reported FY2027 DOD appropriations act would provide less discretionary funding
+than DOD requested for the selected space-based systems programs. The bill would provide less
+funding than DOD requested for the Global Positioning System III Operational Control Segment
+(GPS OCX)—a part of the Position, Navigation, and Timing (PNT) program—noting that the
+Space Force cancelled the GPS OCX contract in April 2026.29
+24 DOD, Program Acquisition Cost by Weapon System, p. 2-1.
+25 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the communications systems
+
+programs identified in the “major weapons system summary” table in the annual Program Acquisition Cost by Weapon
+System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition Cost by
+Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect
+all funding associated with such programs or categories of weapon systems, such as classified funding and certain
+mandatory funding requests.
+26 DOD, Program Acquisition Cost by Weapon System, p. 7-1.
+27 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the space-based systems
+programs identified in the “major weapons system summary” table in the annual Program Acquisition Cost by Weapon
+System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition Cost by
+Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect
+all funding associated with such programs or categories of weapon systems, such as classified funding and certain
+mandatory funding requests.
+28 H.R. 8800, §1606.
+29 H.Rept. 119-715, pp. 181, 182.
+
+Congressional Research Service
+
+8
+
+Table 2. FY2027 Funding Authorizations and Appropriations for Selected DOD C4I and Space-Based Systems
+(in billions of dollars of budget authority and quantities, if available)
+FY2027 DOD Request
+System Type and
+Name (relevant CRS
+product, if available)
+
+Mandatorya
+$
+
+Authorization
+
+Discretionarya
+
+#
+
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+SAC
+#c
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+C4I System
+Tactical Networking
+Technology
+
+$1.58
+
+$1.12
+
+$1.58
+
+$1.43
+
+Handheld, Manpack,
+and Small Form Fit
+Radios
+
+$0.52
+
+$0.52
+
+$0.52
+
+$0.47
+
+$6.85
+
+$7.27
+
+$7.35
+
+$6.42
+
+$5.59
+
+$5.59
+
+$5.59
+
+$5.07
+
+Space-Based System
+Missile Warning/Missile
+Tracking (IF11697)b
+Satellite
+Communications
+
+$3.05
+
+Launch Enterprise
+(IF12900)
+
+$0.82
+
+Position, Navigation,
+and Timing
+
+9
+
+$4.45
+
+22
+
+$4.45
+
+22
+
+$4.46
+
+22
+
+$4.10
+
+$1.25
+
+2
+
+$1.25
+
+2
+
+$1.25
+
+2
+
+$1.04
+
+Source: CRS analysis of DOD, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation
+Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119715.
+Notes: Figures rounded to the nearest hundredth. C4I is command, control, communications, computers, and intelligence; SASC is Senate Armed Services Committee;
+HAC is House Appropriations Committee; SAC is Senate Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. Nuclear modernization program.
+c. H.Rept. 119-715 did not include funding table quantities.
+
+CRS-9
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Ground Systems
+In its FY2027 budget submission to Congress, DOD requested $16.8 billion in procurement and
+RDT&E funding for tactical vehicles, tracked combat vehicles, and weapon systems.30 Of this
+amount, DOD requested a total of $4.8 billion in discretionary procurement and RDT&E funding
+for the selected ground systems detailed in Table 3.31 DOD did not request FY2027 mandatory
+funding for the selected ground systems.
+The House-passed FY2027 NDAA would authorize more discretionary funding than DOD
+requested for the Army Paladin Integrated Management (PIM) mobile field artillery system. The
+SASC-reported FY2027 NDAA would authorize more funding than DOD requested for the
+XM30 Combat Vehicle for the development of uncrewed ground vehicles.32
+The HAC-reported FY2027 DOD appropriations act would provide more discretionary funding
+than DOD requested for the Army PIM mobile field artillery system. The bill would provide less
+discretionary funding than DOD requested for the Army XM30 Combat Vehicle, noting that the
+requested funds were “early to need.”33
+
+30 DOD, Program Acquisition Cost by Weapon System, p. 3-1.
+31 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the ground systems
+
+programs identified in the “major weapons system summary” table in the annual Program Acquisition Cost by Weapon
+System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition Cost by
+Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect
+all funding associated with such programs or categories of weapon systems, such as classified funding and certain
+mandatory funding requests.
+32 S.Rept. 119-127, p. 491.
+33 H.Rept. 119-715, p. 92.
+
+Congressional Research Service
+
+10
+
+Table 3. FY2027 Funding Authorizations and Appropriations for Selected DOD Ground Systems
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Ground System
+
+$
+
+#
+
+Authorization
+
+Discretionarya
+
+House
+
+SASC
+
+Appropriation
+Enacted
+$
+
+#
+
+HAC
+
+$
+
+#
+
+$
+
+#
+
+$
+
+#
+
+$
+
+Joint Light Tactical
+Vehicle (IF11729)
+
+$0.35
+
+447
+
+$0.35
+
+447
+
+$0.35
+
+447
+
+Family of Medium
+Tactical Vehiclesc
+
+$0.31
+
+Family of Heavy
+Tactical Vehicles
+
+$0.21
+
+189
+
+$0.21
+
+189
+
+$0.22
+
+189
+
+$0.21
+
+Armored MultiPurpose Vehicle
+(IF11741)
+
+$1.16
+
+196
+
+$1.16
+
+196
+
+$1.16
+
+196
+
+$1.12
+
+M-1 Abrams Tank
+Modifications/
+Upgrades (IF12495)
+
+$1.13
+
+22
+
+$1.14
+
+22
+
+$1.13
+
+22
+
+$1.15
+
+XM30 Combat Vehicle
+(IF12094)
+
+$0.84
+
+19
+
+$0.84
+
+19
+
+$0.86
+
+19
+
+$0.32
+
+Amphibious Combat
+Vehicle (IF11755)
+
+$0.25
+
+$0.25
+
+$0.25
+
+$0.25
+
+Paladin Integrated
+Management
+
+$0.10
+
+$0.27
+
+$0.10
+
+$0.67
+
+Stryker Family of
+Armored Vehicles
+(R44229)
+
+$0.05
+
+$0.05
+
+$0.05
+
+$0.05
+
+Tactical Vehicles
+
+$0.31
+
+$0.31
+
+$0.35
+$0.31
+
+Tracked Vehicles
+
+M10 Booker (IF11859)
+
+CRS-11
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Ground System
+
+$
+
+#
+
+Authorization
+
+Discretionarya
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+Weapons
+Next Generation Squad
+Weapon
+
+$0.38
+
+$0.38
+
+$0.38
+
+$0.34
+
+Source: CRS analysis of DOD, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation
+Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119715.
+Notes: Figures rounded to the nearest hundredth. SASC is Senate Armed Services Committee; HAC is House Appropriations Committee; SAC is Senate
+Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. H.Rept. 119-715 did not include funding table quantities.
+c. DOD reported requesting funding for 395 Family of Medium Tactical Vehicles (FMTV). The legislative text of the authorization and appropriations bills did not
+specify quantities for FMTV.
+
+CRS-12
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Hypersonic Weapons
+In its FY2027 budget submission to Congress, DOD requested $37.9 billion in discretionary and
+mandatory procurement and RDT&E funding for offensive and defensive hypersonic warfare
+programs.34 Of this amount, DOD requested a total of $5.4 billion for the selected hypersonic
+warfare programs detailed in Table 4—$4.9 billion in discretionary funding and $0.5 billion in
+mandatory funding.35
+DOD reported requesting $13.5 billion for the Hypersonic Defenses program, according to the
+annual DOD Program Acquisition Cost by Weapon System summary document. CRS did not
+include an entry in the table for the program because it was unable to fully identify associated
+budgetary line items.
+The House-passed FY2027 NDAA would authorize the amount of discretionary funding DOD
+requested for the selected hypersonic weapons. The SASC-reported FY2027 NDAA would
+authorize less funding than DOD requested—and six fewer rounds—for the Navy Conventional
+Prompt Strike sea-launched, intermediate-range hypersonic weapon program, partly due to an
+“unjustified increase” in funding for the effort.36
+The HAC-reported FY2027 DOD appropriations act would provide less discretionary funding
+than DOD requested for the Navy Conventional Prompt Strike hypersonic weapon, citing
+“production delays.”37
+
+34 DOD, Program Acquisition Cost by Weapon System, p. 8-1.
+35 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the hypersonic weapons
+
+programs identified in the “major weapons system summary” table in the annual Program Acquisition Cost by Weapon
+System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition Cost by
+Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect
+all funding associated with such programs or categories of weapon systems, such as classified funding and certain
+mandatory funding requests.
+36 S. 4784, p. 1513.
+37 H.Rept. 119-715, p. 102.
+
+Congressional Research Service
+
+13
+
+Table 4. FY2027 Funding Authorizations and Appropriations for Selected DOD Hypersonic Weapons
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+
+Mandatorya
+
+Hypersonic
+Weapons (R45811)
+
+$
+
+Conventional Prompt
+Strike
+
+FY2027 DOD Request
+
+$0.45
+
+#
+
+Authorization
+
+Discretionarya
+$
+$2.14
+
+#
+
+House
+$
+
+12
+
+$2.14
+
+SASC
+#
+
+$
+12
+
+$1.23
+
+Appropriation
+Enacted
+
+#
+
+$
+6
+
+#
+
+HAC
+$
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+$1.88
+
+Hypersonic Attack
+Cruise Missile
+
+$2.01
+
+$2.01
+
+$2.01
+
+$1.85
+
+Long-Range Hypersonic
+Weapon (IF11991)
+
+$0.75
+
+$0.75
+
+$0.75
+
+$0.57
+
+Source: CRS analysis of DOD, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation
+Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119715.
+Notes: Figures rounded to the nearest hundredth. DOD reported requesting $13.5 billion for the Hypersonic Defenses program; CRS did not include an entry in the
+table for the program because it was unable to fully identify associated budgetary line items. SASC is Senate Armed Services Committee; HAC is House Appropriations
+Committee; SAC is Senate Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. H.Rept. 119-715 did not include funding table quantities.
+
+CRS-14
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Missile Defense
+In its FY2027 budget submission to Congress, DOD requested $82.2 billion in discretionary and
+mandatory procurement and RDT&E funding for missile defeat and defense programs.38 Of this
+amount, DOD requested a total of $43.5 billion for the selected missile defeat and defense
+programs detailed in Table 5—$15.7 billion in discretionary base budget procurement and
+RDT&E funding and $27.8 billion in mandatory funding.39
+The House-passed and SASC-reported versions of an FY2027 NDAA would authorize
+approximately the amount of discretionary funding DOD requested for the selected missile
+defense programs.
+The HAC-reported FY2027 DOD appropriations act would provide less discretionary funding
+than DOD requested for the Army PATRIOT Lower-Tier Air and Missile Defense Sensor for the
+procurement of four fewer sensors than requested.40
+
+38 DOD, Program Acquisition Cost by Weapon System, p. 4-1.
+39 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the missile defense
+
+programs identified in the “major weapons system summary” table in the annual Program Acquisition Cost by Weapon
+System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition Cost by
+Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect
+all funding associated with such programs or categories of weapon systems, such as classified funding and certain
+mandatory funding requests.
+40 H.Rept. 119-715, p. 91.
+
+Congressional Research Service
+
+15
+
+Table 5. FY2027 Funding Authorizations and Appropriations for Selected DOD Missile Defense Systems
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Missile Defense
+
+$
+
+#
+
+Authorization
+
+Discretionarya
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+PATRIOT Lower-Tier
+Air and Missile Defense
+Sensor (IF13299)
+
+$3.28
+
+$3.28
+
+$3.28
+
+$2.77
+
+Ground-based
+Midcourse Defense
+
+$2.76
+
+$2.76
+
+$2.68
+
+$2.67
+
+Aegis (RL33745)
+
+$4.69
+
+192c
+
+$2.06d
+
+22e
+
+$2.12
+
+22e
+
+$2.06
+
+22e
+
+$2.05
+
+Terminal High Altitude
+Air Defense (IF12645)
+
+$10.53
+
+830
+
+$1.96
+
+27
+
+$1.96
+
+27
+
+$1.79
+
+27
+
+$1.79
+
+Indirect Fire Protection
+Capability (IF12421)
+PAC-3 Missile Segment
+Enhancement
+
+$1.80
+$12.56
+
+2,936
+
+$1.40
+
+Medium-Range
+Intercept Capability
+
+$1.30
+
+Maneuver SHORAD
+(IF12397; R48477)
+
+$1.17
+
+$1.73
+267
+
+$1.40
+
+$1.80
+267
+
+$1.28
+14
+
+$1.17
+
+$1.40
+
+$1.17
+
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+$1.86
+267
+
+$1.30
+14
+
+SAC
+
+$1.40
+$1.10
+
+14
+
+$1.01
+
+Source: CRS analysis of DOD, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation
+Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119715.
+Notes: Figures rounded to the nearest hundredth. SASC is Senate Armed Services Committee; HAC is House Appropriations Committee; SAC is Senate
+Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. H.Rept. 119-715 did not include funding table quantities.
+
+CRS-16
+
+c.
+d.
+e.
+
+CRS-17
+
+Figure reflects the quantity of SM-3 Block IB (78) and SM-3 Block IIA (114) surface-to-air missiles.
+Figure may not be inclusive of all funding related to this program.
+Figure reflects the quantity of SM-3 Block IIA surface-to-air missiles.
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Missiles and Munitions
+In its FY2027 budget submission to Congress, DOD requested $95.0 billion in discretionary and
+mandatory procurement and RDT&E funding for missile and munitions programs.41 Of this
+amount, DOD requested a total of $52.9 billion for the selected missile and munitions programs
+detailed in Table 6—$36.1 billion in discretionary funding and $16.9 billion in mandatory
+funding.42
+The House-passed and SASC-reported versions of an FY2027 NDAA would authorize
+discretionary funding DOD did not request for the Navy Sea-Launched Cruise Missile-Nuclear
+(SLCM-N). In the report accompanying its version of an FY2027 NDAA, SASC stated it was
+“deeply concerned” by DOD and the Department of Energy National Nuclear Security
+Administration’s “apparent reticence in expediting the development and fielding of the [SLCMN] program, despite clear statutory direction to do so.”43 The SASC-reported FY2027 NDAA
+would also authorize more funding than DOD requested for the Air Force Family of Affordable
+Mass Missile cruise missile program, as well as the procurement of 3,000 rounds.44
+The HAC-reported FY2027 DOD appropriations act would provide less discretionary funding
+than DOD requested for DOD ammunition programs, including for Navy and Marine Corps
+artillery munitions, citing “unjustified” cost growth.45 The bill would provide more discretionary
+funding than DOD requested for the Air Force Family of Affordable Mass Missiles.
+
+41 DOD, Program Acquisition Cost by Weapon System, p. 5-1.
+42 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the missile and munitions
+
+programs identified in the “major weapons system summary” table in the annual Program Acquisition Cost by Weapon
+System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition Cost by
+Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not reflect
+all funding associated with such programs or categories of weapon systems, such as classified funding and certain
+mandatory funding requests.
+43
+S.Rept. 119-127, p. 284.
+44 S.Rept. 119-127, p. 473.
+45 H.Rept. 119-715, p. 104.
+
+Congressional Research Service
+
+18
+
+Table 6. FY2027 Funding Authorizations and Appropriations for Selected DOD Missiles and Munitions
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Missile or Munition
+(IF11353)
+
+$
+
+#
+
+Authorization
+
+Discretionarya
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+Air-to-Air
+Joint Advanced Tactical
+Missile
+
+$1.77
+
+$1.94
+
+Air Intercept Missile
+Advanced Medium
+Range Air-to-Air
+Missile
+
+$2.58
+
+1,667
+
+$1.94
+
+$1.94
+
+$1.91
+
+$0.82
+
+954
+
+$0.80
+
+954
+
+$0.82
+
+954
+
+$0.82
+
+$0.36
+
+144
+
+$0.36
+
+144
+
+$0.36
+
+144
+
+$0.35
+
+Air-to-Surface
+Long-Range Standoff
+Weaponc
+
+$1.53
+
+$1.53
+
+$1.53
+
+$1.45
+
+Long-Range Anti-Ship
+Missile
+
+$0.47
+
+93
+
+$1.28
+
+240
+
+$1.28
+
+240
+
+$1.28
+
+240
+
+$1.28
+
+Joint Air-to-Surface
+Standoff Missile
+
+$1.03
+
+330
+
+$1.10
+
+491
+
+$1.10
+
+491
+
+$1.10
+
+491
+
+$1.09
+
+$0.60
+
+155
+
+$0.60
+
+155
+
+$0.60
+
+155
+
+$0.51
+
+$1.43
+
+3,000
+
+$0.88
+
+Advanced AntiRadiation Guided
+Missile Extended Range
+Family of Affordable
+Mass Missile
+
+$0.35
+
+1,000
+
+$0.58
+
+$0.53
+
+Small Diameter Bomb II
+
+$0.45d
+
+885
+
+$0.45
+
+885
+
+$0.45
+
+885
+
+$0.44
+
+Joint Strike Missile
+
+$0.38
+
+100
+
+$0.38
+
+100
+
+$0.38
+
+100
+
+$0.38
+
+Joint Air-to-Ground
+Missile
+
+$0.37
+
+551
+
+$0.37
+
+551
+
+$0.37
+
+551
+
+$0.27
+
+CRS-19
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Missile or Munition
+(IF11353)
+
+$
+
+#
+
+Joint Direct Attack
+Munition
+Multi-mission
+Affordable Capacity
+Effector
+
+$0.16
+
+353
+
+Small Diameter Bomb I
+
+Authorization
+
+Discretionarya
+
+House
+
+SASC
+
+Enacted
+
+$
+
+#
+
+$
+
+#
+
+$
+
+#
+
+$0.23
+
+2,442
+
+$0.23
+
+2,442
+
+$0.23
+
+2,442
+
+$0.14
+
+$0.04
+
+$0.14
+
+220
+
+$0.04
+
+$
+
+$0.14
+
+220
+
+$0.04
+
+Appropriation
+
+#
+
+HAC
+$
+$0.22
+$0.29
+
+220
+
+$0.04
+
+Other
+Ammunition
+
+$8.37
+
+$8.66
+
+$8.82
+
+$8.08
+
+Chemical
+Demilitarization
+
+$0.06
+
+$0.06
+
+$0.06
+
+$0.06
+
+Surface-to-Air
+Standard Missile-6
+
+$3.60
+
+434
+
+$1.27
+
+106
+
+$1.27
+
+106
+
+$1.37
+
+106
+
+$1.24
+
+Sea Sparrow
+
+$0.57
+
+290
+
+$0.57
+
+290
+
+$0.57
+
+290
+
+$0.36
+
+Rolling Airframe Missile
+
+$0.13
+
+116
+
+$0.13
+
+116
+
+$0.13
+
+116
+
+$0.13
+
+Surface-to-Surface
+Trident II Ballistic
+Missile Modifications
+(IF10519)c
+
+$5.24
+
+$5.24
+
+$5.24
+
+$5.50
+
+LGM-35A Sentinel
+(IF11681)c
+
+$4.63
+
+$4.63
+
+$4.63
+
+$4.44
+
+Tactical Tomahawk
+Cruise Missile
+
+$3.87
+
+727
+
+$2.01
+
+58
+
+$2.01
+
+58
+
+$2.01
+
+58
+
+$2.01
+
+Precision Strike Missile
+
+$0.71
+
+454
+
+$1.51
+
+680
+
+$1.51
+
+680
+
+$1.51
+
+680
+
+$1.49
+
+Guided Multiple Launch
+Rocket System
+
+CRS-20
+
+$1.20
+
+$1.20
+
+$1.20
+
+$1.21
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatorya
+
+Missile or Munition
+(IF11353)
+
+$
+
+Javelin
+Strategic Mid-Range
+Fires System / Typhon
+Naval Strike Missile
+Sea-Launched Cruise
+Missile-Nuclear
+(IF12084)c
+
+$2.33
+
+#
+
+Authorization
+
+Discretionarya
+
+House
+
+SASC
+
+Appropriation
+Enacted
+
+$
+
+#
+
+$
+
+#
+
+$
+
+#
+
+$0.49
+
+1,509
+
+$0.49
+
+1,509
+
+$0.49
+
+1,509
+
+$0.49
+
+$0.45
+
+44
+
+$0.45
+
+44
+
+$0.44
+
+$0.30
+
+135
+
+$0.30
+
+135
+
+$0.30
+
+$0.45
+$0.30
+
+135
+
+$0.18
+
+$
+
+#
+
+HAC
+$
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+$0.25
+
+Source: CRS analysis of DOD, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation
+Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119715.
+Notes: Figures rounded to the nearest hundredth. SASC is Senate Armed Services Committee; HAC is House Appropriations Committee; SAC is Senate
+Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. H.Rept. 119-715 did not include funding table quantities.
+c. Nuclear modernization program.
+d. Figure may not be inclusive of all funding related to this program.
+
+CRS-21
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Shipbuilding and Maritime Systems
+In its FY2027 budget submission to Congress, DOD requested $87.2 billion in discretionary and
+mandatory procurement and RDT&E funding for shipbuilding and maritime systems programs.46
+Of this amount, DOD requested a total of $67.0 billion for the selected shipbuilding and maritime
+systems programs detailed in Table 7—$61.5 billion in discretionary funding and $5.5 billion in
+mandatory funding.47
+The House-passed and SASC-reported versions of an FY2027 NDAA would authorize more
+discretionary funding than DOD requested for one additional Arleigh Burke-class destroyer. The
+SASC-reported FY2027 NDAA would authorize less funding than requested for the aircraft
+carrier refueling complex overhaul, the guided missile battleship (BBG[X]), and for the
+procurement of support ships. SASC stated that the advance procurement funding DOD requested
+for the battleship was “early to need” and authorized funding to procure one fewer submarine
+tender, a support ship program item, than requested.48
+The HAC-reported FY2027 DOD appropriations act would provide less discretionary funding
+than DOD requested for Navy support ships, including for the procurement of submarine tenders,
+citing a “program adjustment.”49
+
+46 DOD, Program Acquisition Cost by Weapon System, p. 5-1.
+47 CRS analysis of DOD FY2027 budget documentation. CRS based its analysis in part on the shipbuilding and
+
+maritime systems identified in the “major weapons system summary” table in the annual Program Acquisition Cost by
+Weapon System document, as well as on selected programs of congressional interest. See DOD, Program Acquisition
+Cost by Weapon System, pp. i-ii. Figures are based on identifiable programs and associated line items; figures may not
+reflect all funding associated with such programs or categories of weapon systems, such as classified funding and
+certain mandatory funding requests.
+48 S.Rept. 119-127, pp. 459-460.
+49 H.Rept. 119-715, p. 105.
+
+Congressional Research Service
+
+22
+
+Table 7. FY2027 Funding Authorizations and Appropriations for Selected DOD Shipbuilding and Maritime Systems Programs
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+Shipbuilding
+Program
+
+FY2027 DOD Request
+Mandatorya
+$
+
+Authorization
+
+Discretionarya
+
+#
+
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+Amphibious Craft
+America-class
+Amphibious Assault
+Ship (R43543)
+
+<$0.01
+
+$4.05
+
+1
+
+$4.05
+
+1
+
+$4.05
+
+1
+
+$3.86
+
+San Antonio-class
+Amphibious Ship
+(R43543)
+
+<$0.01
+
+$2.73
+
+1
+
+$2.73
+
+1
+
+$2.73
+
+1
+
+$2.66
+
+Medium Landing Ship
+(R46374)
+
+$1.89
+
+6
+
+$0.01
+
+$0.01
+
+$0.01
+
+$0.01
+
+$1.84
+
+$1.84
+
+$0.84
+
+$1.84
+
+Battleships
+BBG(X) Battleship
+Carriers
+(Aircraft Carrier)
+Refueling Complex
+Overhaul
+
+$0.03
+
+$4.90
+
+$4.90
+
+$2.50
+
+$4.53
+
+Gerald R. Ford-class
+Nuclear Aircraft
+Carrier (RS20643)
+
+$0.04
+
+$4.59
+
+$4.59
+
+$4.59
+
+$4.32
+
+$0.31
+
+$3.28
+
+1
+
+$4.28
+
+2
+
+$5.88
+
+2
+
+$3.28
+
+$1.64
+
+1
+
+$1.64
+
+1
+
+$1.64
+
+1
+
+$1.55
+
+Frigates/Destroyers
+Arleigh Burke-class
+Destroyer (RL32109)
+FF(X) Frigate
+Other
+
+CRS-23
+
+SAC
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+System Type and
+Name (relevant CRS
+product, if available)
+Shipbuilding
+Program
+
+FY2027 DOD Request
+Mandatorya
+$
+
+Support Shipsc
+
+$0.13
+
+John Lewis-class Fleet
+Replenishment Oiler
+(R43546)
+
+$0.28
+
+Authorization
+
+Discretionarya
+
+#
+
+$
+1
+
+Uncrewed Undersea
+Vehicles
+
+#
+
+$
+
+SASC
+#
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+HAC
+$
+
+$4.98
+
+3
+
+$4.10
+
+3
+
+$2.88
+
+2
+
+$2.66
+
+$2.25
+
+2
+
+$2.25
+
+2
+
+$2.25
+
+2
+
+$2.25
+
+$0.58
+7
+
+House
+
+Appropriation
+
+$0.45
+
+$0.61
+1
+
+$0.45
+
+$0.84
+1
+
+#b
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+$0.61
+
+Auxiliary Shipsd
+
+$1.12
+
+Uncrewed Surface
+Vessels (R45757)
+
+$0.05
+
+$0.38
+
+Columbia-class Ballistic
+Missile Submarine
+(R41129)e
+
+$0.21
+
+$16.04
+
+1
+
+$16.18
+
+1
+
+$16.04
+
+1
+
+$16.12
+
+Virginia-class
+Submarine (RL32418)
+
+$1.44
+
+$13.82
+
+2
+
+$13.82
+
+2
+
+$13.82
+
+2
+
+$13.81
+
+$0.38
+
+$0.45
+
+SAC
+
+1
+
+$0.75
+
+$0.35
+$0.28
+
+Submarines
+
+Source: CRS analysis of DOD, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement Programs (P-1) and Research, Development, Test & Evaluation
+Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119-698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119715.
+Notes: Figures rounded to the nearest hundredth. SASC is Senate Armed Services Committee; HAC is House Appropriations Committee; SAC is Senate
+Appropriations Committee.
+a. CRS analysis of the columns titled “FY 2027 Mandatory Request” and “FY 2027 Discretionary Request” in FY2027 DOD budget documents; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1); and FY2027 military department budget justification books. See “Background” for more
+information.
+b. H.Rept. 119-715 did not include funding table quantities.
+c. In its budget proposal for “Support Ships,” DOD requested mandatory funding for one used sealift ship and discretionary funding for one strategic sealift ship and
+two submarine tenders.
+
+CRS-24
+
+d.
+e.
+
+CRS-25
+
+In its budget proposal for “Auxiliary Ships,” DOD requested mandatory funding for five fireboats, one special mission ship, and one T-AH(X) hospital ship and
+discretionary funding for one bulk fuel tanker.
+Nuclear modernization program.
+
+Appendix. Selected Administration Initiatives
+The House-passed and SASC-reported versions of an FY2027 NDAA would authorize the amount of discretionary funding DOD requested for
+the selected DOD initiatives. A provision in the SASC-reported FY2027 NDAA (§837) would limit the funds available to the Defense
+Autonomous Warfare Group and those for the Defense Secretary’s travel expenses until DOD submitted congressionally mandated reports
+enacted in previous NDAAs.50
+The HAC-reported FY2027 DOD appropriations act would provide the amount of discretionary funding DOD requested for the selected DOD
+initiatives.
+Table A-1. FY2027 Funding Authorizations and Appropriations for Selected DOD Initiatives
+(in billions of dollars of budget authority and quantities, if available)
+System Type and
+Name (relevant CRS
+product, if available)
+
+FY2027 DOD Request
+Mandatory
+
+Selected Initiative
+
+$
+
+Defense Autonomous
+Warfare Group
+
+$53.6
+
+Artificial Intelligence
+Arsenal
+
+$29.5
+
+Golden Dome for
+America (IF13115)
+
+$17.5
+
+#
+
+Authorization
+
+Discretionary
+$
+
+#
+
+House
+$
+
+SASC
+#
+
+$
+
+Appropriation
+Enacted
+
+#
+
+$
+
+#
+
+HAC
+$
+
+$1.00
+
+$1.00
+
+$1.00
+
+$1.00
+
+$0.40
+
+$0.40
+
+$0.40
+
+$0.40
+
+SAC
+#a
+
+$
+
+Enacted
+#
+
+$
+
+#
+
+Source: CRS analysis of DOD, Office of the Under Secretary of Defense (Comptroller)/CFO, Program Acquisition Cost by Weapon System, April 2026; FY2027 Procurement
+Programs (P-1) and Research, Development, Test & Evaluation Programs (R-1) spreadsheets; FY2027 military department budget justification books; H.R. 8800; H.Rept. 119698; S. 4784; S.Rept. 119-127; H.R. 9495; and H.Rept. 119-715.
+Notes: Figures rounded to the nearest hundredth. SASC is Senate Armed Services Committee; HAC is House Appropriations Committee; SAC is Senate
+Appropriations Committee.
+a. H.Rept. 119-715 did not include funding table quantities.
+
+50 S. 4784, §837.
+
+CRS-26
+
+FY2027 Defense Budget: Funding for Selected Weapon Systems
+
+Author Information
+Daniel M. Gettinger
+Analyst in U.S. Defense Policy
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R49023 · VERSION 3 · UPDATED
+
+27
+
+

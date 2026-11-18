@@ -1,0 +1,554 @@
+Federal Communications Commission
+
+DA 26-553
+
+Before the
+Federal Communications Commission
+Washington, D.C. 20554
+In the Matter of
+
+)
+)
+)
+)
+)
+)
+)
+
+Kuiper Systems LLC
+Application for Extension or Waiver of the
+Milestone Deadline
+
+ICFS File No.
+SAT-MOD-20260129-00065
+Call Sign S3051/3105
+
+ORDER
+Adopted: June 5, 2026
+
+Released: June 5, 2026
+
+By the Chief, Space Bureau:
+I.
+
+INTRODUCTION
+
+1. In this Order, we grant, with conditions, the request of Kuiper Systems LLC (hereinafter,
+Amazon Leo)1 for a limited waiver of the Commission’s space station milestone deployment requirements
+for the Amazon Leo Gen1 Constellation (“Gen1 Authorization”).2 Amazon Leo is poised to offer cuttingedge satellite services worldwide as a new competitor-at-scale in low-Earth orbit that offers high-speed
+broadband to customers in unserved and underserved areas. In resolving this issue of novel complexity
+during a unique period when the Commission’s deployment milestone rules remain under review for
+fundamental change, we craft a remedy tailored to ensure that Americans quickly benefit from multiple,
+facilities-based providers of next-gen satellite services.
+2. By waiving certain requirements associated with the Commission’s milestone rules, with
+conditions, we are encouraging future developments in Amazon Leo’s service and furthering American
+leadership in space. At the same time, the conditions imposed on this grant continue to further the goals
+of the Commission’s milestone rules—rapid deployment of licensed systems, efficient spectrum use, and
+the timely provision of service to the American people—ensuring the actions taken in this Order are in the
+public interest. Specifically, we impose upon Amazon Leo meaningful conditions that incent the
+company to continue deploying satellites at a rapid clip by temporarily demoting the spectral priority of
+satellites launched after the relevant July 2026 milestone deadline, until and unless Amazon Leo builds
+those satellites at a faster pace. We act today mindful of the specific record developed on Amazon Leo
+and in a way that will encourage rapid builds and launches.
+
+1 “Amazon Leo” is formerly known as “Project Kuiper.”
+
+For the sake of consistency and clarity, we refer to both
+the constellation and licensee throughout this Order as “Amazon Leo.” Application of Kuiper Systems LLC for
+Extension or Waiver of the Milestone Deadline, Request to Extend or Waive Interim Milestone for the Amazon Leo
+Constellation, Kuiper Systems LLC, an Amazon subsidiary, ICFS File No. SAT-MOD-20260129-00065, Narrative
+at n.1 (filed Jan. 30, 2026) (Amazon Leo Milestone Modification Application); see Response of Amazon Leo, ICFS
+File No. SAT-MOD-20260129-00065 at 1, n. 1 (filed March 24, 2026) (Amazon Leo Response) (“Amazon Leo is
+the permanent brand name for Amazon’s satellite broadband network, formerly known as Project Kuiper.”).
+2 Kuiper Systems LLC, Application for Authority to Deploy and Operate a Ka-band Non-Geostationary Satellite
+
+Orbit System, Order and Authorization, 35 FCC Rcd 8324 (IB 2020) (Gen1 Authorization).
+
+Federal Communications Commission
+II.
+
+DA 26-553
+
+BACKGROUND
+
+3. Amazon Leo Gen1 Authorization. In July 2020, Amazon Leo received authorization to
+construct, launch, and operate a non-geostationary orbit (NGSO) fixed-satellite service (FSS)
+constellation consisting of 3,236 satellites as part of the first Ku-/Ka-band Processing Round.3 Consistent
+with the Commission’s rules, the terms of Amazon Leo’s authorization, as modified,4 require deployment
+and operation of 50% of its authorized constellation no later than six years from the initial date of grant
+and 100% deployment and operation no later than nine years from the initial date of grant.5 Specific to
+the Gen1 Authorization, Amazon Leo is required to deploy 1,616 satellites by July 30, 2026 and deploy
+3,232 satellites by July 30, 2029.6 In February 2026, the Space Bureau (Bureau) approved requested
+modifications to Amazon Leo’s Gen1 Authorization, filed as an amendment to Amazon Leo’s application
+in the 2021 V-band Processing Round, which, in part, requested to add certain V-band frequencies to the
+Gen1 Authorization.7 The Gen1 Authorization to operate in the V-band frequencies is subject to the same
+milestone schedule as Amazon’s Gen1 satellites authorized in the first Ku-/Ka-band Processing Round.8
+4. Space station deployment milestones and surety bond requirements. The Commission’s rules
+currently require NGSO space station licensees to meet specific deployment requirements, measured at
+interim and final milestone deployment benchmarks.9 As noted above, the interim milestone requires
+NGSO operators to launch 50% of the maximum number of authorized space stations, place them into
+orbit, and operate in accordance with the terms of their authorization within six years.10 Operators that
+successfully meet the interim milestone must then deploy the remainder of the constellation to reach
+100% deployment within nine years from the date of authorization.11 The Commission also requires
+licensees to post a surety bond, payable to the U.S. Treasury in the event of default.12 If a licensee fails to
+meet the interim milestone, its total number of authorized satellites is reduced to the number of satellites
+that are in orbit and operating on the date of the missed milestone and the licensee is considered to have
+
+3 Id.; see Cut-Off Established for Additional NGSO FSS Applications or Petition for Operations in the 10.7-12.7
+
+GHz, 12.75-13.25 GHz, 13.8-14.5 GHz, 17.7-18.6 GHz, 18.8-20.2 GHz, and 27.5-30 GHz Bands, Public Notice, DA
+20-235, 35 FCC Rcd 2881 (Mar. 24, 2020) (First Ku-/Ka-band Processing Round).
+4 The Commission granted a subsequent application for modification of the Gen1 Authorization, reducing the total
+
+number of authorized space stations from 3,236 to 3,232 satellites. See Kuiper Systems LLC, Request for
+Modification of the Authorization for the Kuiper NGSO Satellite System, Order and Authorization, 39 FCC Rcd
+2180, para. 1 (SB 2024) (Gen1 Orbital Parameters Modification).
+5 Gen1 Authorization, 35 FCC Rcd at 8346, para. 67b.
+6 Id.
+7 Kuiper Systems LLC, Grant Stamp, ICFS File Nos. SAT-LOA-20211104-00145, SAT-AMD-20250311-00068,
+
+(granted Feb. 10, 2026) (Amazon 2026 V-band Grant) (granting in part, deferring in part, with conditions, and
+authorizing Gen1 system operations in the 37.5-42.0 GHz (space-to-Earth), 42.0-42.5 GHz (space-to-Earth) (outside
+of the U.S. and possessions only), 47.2-52.0 GHz (Earth-to-space), 50.4-51.4 GHz (Earth-to-space), and 51.4-52.4
+GHz (Earth-to-space) bands); see Cut-Off Established for Additional NGSO-Like Satellite Systems in the 37.5-40.0
+GHz, 40.0-42.0 GHz, 47.2-50.2 GHz, 50.4-51.4 GHz Bands, Public Notice, DA 21-941, 36 FCC Rcd 12148 (Aug. 4,
+2021) (2021 V-band Processing Round).
+8 Amazon 2026 V-band Grant at Condition 12a.
+
+The Space Bureau also authorized Amazon’s Gen2 system (3,212
+satellites) and Polar system (1,292 satellites) with a separate milestone schedule, requiring 50% deployment no later
+than February 10, 2032 and 100% deployment no later than February 10, 2035. See id. at Conditions 12b, 12c
+9 47 CFR § 25.164.
+10 47 CFR § 25.164 (b)(2).
+
+2017 NGSO Report and Order, 32 FCC Rcd at 7830, para. 67.
+
+11 47 CFR § 25.164(b)(2).
+12 47 CFR § 25.165(a)(1).
+
+2
+
+Federal Communications Commission
+
+DA 26-553
+
+defaulted on its surety bond obligation.13 Licensees demonstrating compliance with the interim milestone
+requirement are relieved of the surety bond obligation.14 If a licensee meets the interim milestone but
+fails to meet the final milestone, its authorization is similarly reduced and capped at the number of
+authorized satellites operating on the date of that milestone.15 We evaluate Amazon Leo’s request under
+the Commission’s rules in place at this time, though the Commission has proposed changes to its
+milestone and surety bond rules.16
+5. Because it is in the public interest to ensure that licensees proceed expeditiously in
+commencing service, the Commission has strictly enforced established milestone schedules.17 The
+Commission’s rules permit a space station licensee to apply for a modification of its license authorization
+and request to extend a milestone deadline.18 Any such request for extension must include a verified
+statement from the applicant operator, stating that: (1) the additional time is required due to unforeseen
+circumstances beyond the operator’s control, as described with specificity, which justifies the precise
+extension period requested; or (2) there are unique and overriding public interest concerns that justify an
+extension and that these concerns justify the precise extension requested.19
+6. Generally, the Commission may waive any rule for good cause shown.20 Waiver is
+appropriate only if both (1) special circumstances warrant a deviation from the general rule, and (2) such
+deviation better serves the public interest.21 In making this determination, the Commission may take into
+account considerations of hardship, equity, or more effective implementation of overall policy on an
+individual basis.22
+7. The Bureau evaluates requests for milestone extensions and waivers under these
+standards, considering the specific facts and circumstances of each request. The Bureau may weigh such
+requests in light of the factual scenarios cited as causing delays in deployment, progress the licensee has
+made toward meeting the 50% milestone, i.e., whether the system is fully designed, whether deployment
+of its satellites has begun, and if so, how many satellites are in operation, and the planned deployment
+
+13 47 CFR §§ 25.161(a)(2), 25.165(c).
+14 47 CFR § 25.165(d).
+15 47 CFR § 25.161(a)(3).
+16 Space Modernization for the 21st Century, SB Docket No. 25-306, Notice of Proposed Rulemaking, 40 FCC Rcd
+
+8191, 8252-59, paras. 168-83 (rel. Oct. 29, 2025) (Modernization NPRM).
+17 Spectrum Five LLC, Memorandum Opinion and Order, 26 FCC Rcd 10448, 10450 (IB 2011); New ICO Satellite
+
+Services G.P., Memorandum Opinion and Order, 22 FCC Rcd 2229, 2233 (SD IB 2007); NetSat 28 Co.,
+LLC, Memorandum Opinion and Order, 15 FCC Rcd 11321, 11323 (IB 2000).
+18 47 CFR § 25.117(e).
+19 Id.
+20 47 CFR § 1.3.
+21 Network IP, LLC v. FCC, 548 F.3d 116, 125-128 (D.C. Cir. 2008) (citing Northeast Cellular Telephone Co. v.
+
+FCC, 897 F.2d 1164, 1166 (D.C. Cir. 1990)).
+22 Northeast Cellular, 897 F.2d at 1166 (“[A] waiver is appropriate only if special circumstances warrant a deviation
+
+from the general rule and such deviation will serve the public interest. The agency must explain why deviation better
+serves the public interest and articulate the nature of the special circumstances to prevent discriminatory application
+and to put future parties on notice as to its operation”); WAIT Radio v. FCC, 418 F.2d 1153, 1159 (D.C. Cir. 1969)
+(“The agency’s discretion to proceed in difficult areas through general rules is intimately linked to the existence of a
+safety valve procedure for consideration of an application for exemption based on special circumstances.”).
+
+3
+
+Federal Communications Commission
+
+DA 26-553
+
+schedule for undeployed satellites.23 In addition, the Bureau may consider other factors in making its
+determinations, including any investments or expenditures in the authorized system, the length of the
+requested extension, and the likelihood that the licensee will meet the final milestone to launch the entire
+constellation.24 Regarding requests for extension, the Bureau must consider whether delays were due to
+unforeseeable circumstances and out of the operator’s control, or if the circumstances present unique and
+overriding public interest concerns, to justify the specific extension requested. In any case, we expect
+licensees to consider alternative solutions and attempt to resolve any issues that may prevent compliance
+with milestone obligations and demonstrate the steps taken to mitigate delays.25
+8. Amazon Leo Application for Extension or Waiver. On January 30, 2026, Amazon Leo filed
+an application requesting to modify its Gen1 Authorization, seeking to extend the 50% milestone
+deployment deadline by 24 months, or in the alternative, requesting a waiver of this interim milestone
+requirement.26 At the time of filing, Amazon Leo reported that it had launched 180 satellites27 and
+estimated that it will have deployed approximately 700 satellites by July 30, 2026.28 Amazon Leo
+requests an extension of the section 25.164(b)(1) requirement to launch at least 50% of its authorized
+satellites, or 1,616 Gen1 satellites, by July 30, 2028, or alternatively, requests that the Commission waive
+section 25.164(b)(1) to retain authorization to launch and operate any undeployed satellites by the July
+30, 2026 milestone date.29 Amazon Leo states that it plans to meet the 100% deployment milestone by
+the July 30, 2029 deadline.30 To support its ability to meet an extended 50% milestone, as well as the
+final milestone in 2029, Amazon Leo provides detailed schedules of future launches along with
+information on its financial and operational investments in the Gen1 constellation and its mitigation
+efforts thus far.31
+9. Amazon Leo cites several factors contributing to the delays in deployment in support of its
+requests. First, Amazon Leo argues that launch provider delays and shortages of launch availability have
+caused significant backlogs and extended its planned deployment timelines.32 Amazon Leo cites that
+many of its planned launches were further delayed due to a variety of factors that were outside of its
+control, including weather, technical problems, prioritization of government launches, and other range
+and launch issues.33 Additionally, Amazon Leo states that these launch delays consequently pushed back
+deployment of its prototype satellites, which was a critical step in designing its satellites prior to
+
+23 See e.g., Space Norway AS, Order and Declaratory Ruling, 38 FCC Rcd 9244 (SB 2023) (extending the milestone
+
+and bond requirement date by one year finding that the COVID-19 pandemic was an unforeseeable circumstance
+causing delays); DIRECTV Enterprises, LLC, Order, 30 FCC Rcd 4796 (Sat. Div., IB 2015).
+24 See e.g., Hughes Network System LLC, Order, 38 FCC Rcd 1731 (IB 2023).
+25 See e.g., ViaSat, Inc., Order, 37 FCC Rcd
+
+13054, 13056 (IB 2022); WB Holdings 1 LLC, Memorandum Opinion
+and Order, 20 FCC Rcd 10846, 10848 (Sat. Div., IB 2005) and Constellation Communications Holdings, Inc.,
+Memorandum Opinion and Order, 18 FCC Rcd 18822, 18829 (2003).
+26 See Amazon Leo Modification Application at 21.
+27 Id. at 10.
+28 Id. at 11.
+
+Amazon Leo’s projected deployment of 700 satellites by July 30, 2026 is approximately 21% of the
+total number of authorized space stations under the Gen1 Authorization.
+29 Id.
+30 Id. at 11, 18.
+31 Id. at 6-7.
+32 Id. at 7-8.
+33 Id. at 8.
+
+4
+
+Federal Communications Commission
+
+DA 26-553
+
+manufacturing at scale.34 Amazon Leo argues that these delays were unforeseeable, and that the scope of
+Amazon Leo’s investments and progression thus far demonstrate an overall commitment to deploying its
+system, amounting to unique and overriding public interest concerns that justify the requested extension.35
+Alternatively, Amazon Leo argues that these delays warrant deviation from the interim milestone
+requirement, and considering its efforts to mitigate delays and its commitment to meeting its final
+milestone, granting the requested waiver is both in the public interest and would better serve the purpose
+of the milestone rule than would strict enforcement.36
+10. A number of parties filed comments in response to Amazon Leo’s application, many of which
+support granting either the requested extension or waiver.37 SpaceX filed comments in opposition.38
+Although SpaceX does not oppose allowing Amazon Leo to continue deploying past its interim milestone
+date, it instead proposes deferring the undeployed portion of the Gen1 system to a new processing
+round.39 Amazon Leo filed a response to comments and opposition on the record.40
+III.
+
+DISCUSSION
+
+11. We grant Amazon Leo’s request for waiver, in part. Amazon Leo has represented that it will
+fail to meet the 50% milestone required in section 25.164(b)(1) of the Commission’s rules.41 Upon
+review, the Bureau determines that Amazon Leo has demonstrated good cause to support a limited waiver
+of certain milestone requirements. We therefore waive the provision of section 25.161(a)(2) which caps
+
+34 Id. at 9-10.
+35 Id. at 13-16.
+36 Id. at 17-20 (“Amazon Leo’s aggressive mitigation efforts – pivoting launch providers, investing hundreds of
+
+millions of dollars in dedicated launch infrastructure, paying millions beyond contract price to accelerate
+deployment, and scaling manufacturing capabilities to 30 satellites per week – substantially compressed what would
+have otherwise been far long delays”).
+37 Comments of Computer and Communications Industry Association, ICFS File No. SAT-MOD-20260129-00065
+
+(filed Mar. 9, 2026) (CCIA Comments); Comments of U.S. Chamber of Commerce, ICFS File No. SAT-MOD20260129-00065 (filed Mar. 9, 2026) (Chamber Comments); Comments of ITI Space Enterprise Council, ICFS File
+No. SAT-MOD-20260129-00065 (filed Mar. 9, 2026) (ITI SEC Comments); Comments of Lexington Institute,
+ICFS File No. SAT-MOD-20260129-00065 (filed Mar. 11, 2026) (Lexington Institute Comments); Comments of
+Taxpayer Protection Alliance, ICFS File No. SAT-MOD-20260129-00065 (filed Mar. 24, 2026) (TPA Comments);
+Comments of the International Center for Law and Economics, ICFS File No. SAT-MOD-20260129-00065 (filed
+Mar. 9, 2026) (ICLE Comments); Reply Comments of Software & Information Industry Association, ICFS File No.
+SAT-MOD-20260129-00065 (filed Mar. 24, 2026) (SIIA Reply Comments). The record has remained active with
+multiple ex parte filings. See e.g., Ex Parte Presentation of Kuiper Systems LLC, ICFS File No. SAT-MOD20260129-00065 (filed Mar. 12, 2026) (Kuiper March 12 Ex Parte); Ex Parte Presentation of Kuiper Systems LLC,
+ICFS File No. SAT-MOD-20260129-00065 (filed Mar. 23, 2026) (Kuiper March 23 Ex Parte); Ex Parte Letter of
+Space Exploration Holdings LLC, ICFS File No. SAT-MOD-20260129-00065 (filed Mar. 25, 2026) (SpaceX March
+25 Ex Parte); Comments of Tech Freedom, ICFS File NO. SAT-MOD-20260129-00065 (filed Apr. 8, 2026); Ex
+Parte Presentation of Space Exploration Holdings LLC, ICFS File NO. SAT-MOD-20260129-00065 (filed Apr. 20,
+2026). Multiple commenters, including ICLE and TechFreedom, offer broad policy recommendations on the
+purpose and scope of the Commission’s milestone rules. Because the Modernization Proceeding is already
+examining these issues, we do not address those broader policy recommendations in this Order.
+38 Comments of Space Exploration Holdings, LLC, ICFS File No. SAT-MOD-20260129-00065 (filed Mar. 9, 2026)
+
+(SpaceX Comments); Reply Comments of Space Exploration Holdings, LLC, ICFS File No. SAT-MOD-2026012900065 (filed March 30, 2026) (SpaceX Reply Comments).
+39 SpaceX Comments at 21-22.
+40 Amazon LEO Response.
+41 47 CFR § 25.164(b)(1).
+
+5
+
+Federal Communications Commission
+
+DA 26-553
+
+an authorization at the number of space stations in orbit on the milestone date,42 as well as the provision in
+section 25.164(b)(2) which requires a licensee satisfy its 50% milestone in order to meet the full 100%
+milestone.43 This grant does not affect Amazon Leo’s existing obligation to deploy 100% of its
+constellation by July 30, 2029.44 We grant this limited waiver with conditions, as set forth below. We
+note that the Commission has proposed significant reforms to the part 25 rules, including the
+requirements associated with milestone obligations.45 Considering the proposed changes in the ongoing
+Modernization Notice of Proposed Rulemaking, we emphasize that the waivers granted herein are
+reviewed and granted on the basis of the Commission’s current part 25 rules and without prejudice to any
+future requests to extend or waive milestones under the Commission’s rules as they may be modified in
+the future through pending rulemaking proceedings, including the Modernization proceeding.46
+12. Waiver of the Milestone Requirements. We find that a limited waiver of the Commission’s
+milestone framework better serves the public interest, providing regulatory certainty for Amazon Leo and
+promoting more efficient use of Commission resources. We grant a limited waiver, on the Bureau’s own
+motion, of the automatic termination provision in section 25.161(a)(2) with respect to compliance with
+the interim milestone deployment requirement in section 25.164(b)(1).47 Section 25.161(a)(2) of the
+Commission’s rules states that failure to meet an applicable space station milestone will result in the
+termination of authority for the space stations not in orbit as of the milestone date.48 Under this waiver,
+the Bureau will not cap Amazon Leo’s authority to deploy the remaining Gen1 system satellites at the
+number of satellites launched and operational as of the day of its July 30, 2026 interim milestone.49 We
+clarify that waiver of section 25.161(a)(2) is limited only to the interim milestone requirement and does
+not extend to Amazon Leo’s compliance with the final milestone required by 25.164(b)(2). In the event
+Amazon Leo fails to satisfy the final milestone on July 30, 2029, this will result in reduction of the total
+number of Amazon Leo’s authorized satellites to the total number of satellites that are operational on that
+date, pursuant to section 25.161(a)(2).50 Accordingly, Amazon Leo’s authority to launch and operate any
+undeployed space stations will not terminate on the date of the interim milestone.
+13. Given that we retain Amazon Leo’s final milestone of July 30, 2029, we also grant Amazon
+Leo’s request for waiver of section 25.164(b)(2), limited to the rule’s requirement that a licensee must
+meet the 50% deployment milestone required by section 25.164(b)(1) as a prerequisite to its ability to
+comply with the final milestone deployment obligation in section 25.164(b)(2).51 In other words, failure
+to meet the interim milestone will not bar Amazon Leo from demonstrating compliance with its required
+final milestone deployment deadline on July 30, 2029. We determine there is good cause to waive this
+42 47 CFR § 25.161(a)(2).
+43 47 CFR § 25.164(b)(2).
+44 Id.
+45 Modernization NPRM 40 FCC Rcd 8252 at paras. 168-83.
+46 Id.
+47 47 CFR §§ 1.3, 25.161(a)(2), 25.164(b).
+
+Section 25.161(a)(2) states that a station authorization shall be
+automatically terminated in whole or in part without further notice to the licensee upon the failure to meet an
+applicable milestone specified in 25.164(b)(1) or (2), if at least one authorized space station is functional in an
+authorized orbit, which failure will result in the termination of authority for the space stations not in orbit as of the
+milestone date, but allow for technically identical replacements.
+48 47 CFR §§ 1.3, 25.161(a)(2).
+49 As discussed below, we will, however, find that such a failure would constitute a failure to meet the interim
+
+milestone for purposes of the forfeiture of Amazon Leo’s surety bond. See infra para. 18.
+50 47 CFR §§ 25.161(a)(2), 25.164(b)(2), (f).
+51 47 CFR § 25.164.
+
+6
+
+Federal Communications Commission
+
+DA 26-553
+
+provision, considering the conditions on the milestone requirement waiver imposed in this Order and
+Amazon’s commitment to meet its final milestone deployment benchmark required by section
+25.164(b)(2).
+14. We find that Amazon Leo has demonstrated special circumstances warranting deviation from
+the milestone rules, and that Amazon Leo’s deployment progress thus far, including its significant
+investments in its Amazon Leo constellation, justifies deviation in service and support of the public
+interest. We also find that the limited waiver of the automatic termination provision will not undermine
+the purpose of the milestone deployment requirement. Waiver serves the public interest by promoting a
+second large satellite broadband constellation. At this time, only one operator, SpaceX, is providing
+broadband to American consumers from low-Earth orbit. Amazon Leo’s service promises to be
+“groundbreaking,” both in quality of service and affordability for consumers.52 Amazon Leo has further
+invested significant resources into meeting its commitments, including more than $10 billion to deploy
+the system along with investments in physical infrastructure and manufacturing capabilities.53 In this case,
+strict adherence to the rules would curtail Amazon Leo’s deployment of its Gen1 constellation by limiting
+the service it can provide to American consumers. Such would be contrary to the Commission’s mandate
+under the Communications Act, which requires that the Commission grant licenses that serve the public
+interest, convenience, or necessity.54 On the other hand, limited waiver of the milestone rules will permit
+Amazon Leo to continue deployment and thus give it the opportunity to fully build out and operate its
+system to increase competition and provide consumers, particularly those in unserved and underserved
+areas of the United States, with more options for broadband service.
+15. Waiver Conditions. In conjunction with the grant of this limited waiver, we find it in the
+public interest to further condition Amazon Leo’s authorization to encourage deployment of 50% of its
+constellation as quickly as possible. We condition Amazon Leo’s Gen1 Authorization for any satellites
+that are not deployed and operational as of July 30, 2026 such that Amazon Leo will temporarily lose the
+associated processing round priority status as an earlier-round system for those satellites, as initially
+authorized in the 2020 Ku-/Ka-band Processing Round and in the 2021 V-band Processing Round.55
+Amazon Leo satellites deployed after July 30, 2026 will lose such priority status until the earlier of either:
+(1) the date twenty (20) months, from July 30, 2026 (March 30, 2028); or (2) the date at which Amazon
+Leo deploys and operates 50% of its constellation. Amazon Leo may reduce the twenty-month timeframe
+to fifteen (15) months (October 30, 2027) by certifying to the Commission that it has both constructed all
+the satellites necessary to reach its 50% milestone and has procured launches sufficient to deploy those
+satellites.56 Upon either Amazon Leo’s certification that it has deployed 50% of the Gen1 constellation or
+
+52 Amazon Leo Milestone Modification Application, Legal Narrative at 1.
+53 Id. at 6.
+54 47 U.S.C. § 307(a)
+55 See 47 CFR § 25.261(d).
+
+Under the Commission’s spectrum sharing requirements for NGSO FSS systems
+authorized in a processing round, prior to commencing operation, licensees must certify completion of coordination
+agreements with any operational NGSO FSS system authorized in an earlier processing round, or alternatively,
+submit for Commission approval a compatibility showing demonstrating that it would not cause harmful
+interference to any system with which coordination has not been completed. Amazon Leo will not be considered an
+“earlier-round system” under section 25.261(d) with respect to systems authorized in future processing rounds,
+unless and until the conditions detailed in this Order are met.
+56 At its discretion, the Bureau may request demonstrations, documentation, physical inspection, or other
+
+information necessary to support such certifications, which may be filed alongside a request for confidential
+treatment pursuant to 47 CFR § 0.459.
+
+7
+
+Federal Communications Commission
+
+DA 26-553
+
+after the relevant time period has elapsed, any Gen1 Authorization satellites deployed after July 30, 2026
+will regain their original priority status in the respective processing rounds.57
+16. We find this approach satisfies SpaceX’s objections to the requested milestone extension and
+alternative waiver requests.58 However, we disagree with SpaceX that allowing the Amazon Leo Gen1
+system to retain its processing round status would result in new interference concerns for operators or
+deter new entrants into the market.59 The Bureau’s approach strikes the correct balance of enforcing the
+rules to encourage other operators to meet their deployment milestones while still encouraging and
+incentivizing deployment of valuable services to the American public and promoting American leadership
+in space.
+17. In the interest of administrative efficiency and the temporary nature of the conditions
+imposed on the granted waiver, we also waive, on the Bureau’s own motion, the requirement in section
+25.261(d) for Amazon Leo to provide a compatibility showing, prior to commencing operations on
+satellites deployed after July 30, 2026, to demonstrate that operations of the temporarily reassigned
+satellites will not interfere with other operators authorized as part of either the 2020 Ka/Ku-band and
+2021 V-band Processing Rounds.60 Amazon Leo must comply with the remainder of the section 25.261
+requirements, and all other relevant requirements under the Commission’s rules, and either coordinate
+with these operators or operate on a non-interference basis with respect to these operations during the
+time in which the undeployed Gen1 satellites are reassigned from their original priority status in these
+processing rounds.
+18. Surety bond. The Commission’s milestone rules, coupled with the surety bond requirement,
+are meant to ensure that operators are ready, willing, and able to deploy their authorized satellites.61
+Amazon Leo’s request to either extend or waive the interim milestone requirement did not include a
+request for waiver of the surety bond obligations under section 25.165 of the Commission’s rules, and we
+
+57 During this temporary reassignment period, Amazon Leo will have the same coordination status as any system the
+
+Space Bureau licensed following the 2020 Ka/Ku-band and/or 2021 V-band processing rounds. See, e.g., Space
+Exploration Holdings, LLC, Authorization and Order, DA 26-36, paras. 13-15 (SB Jan. 9, 2026); Logos Space
+Services, Inc., Grant Stamp, Condition 8a, ICFS File Nos. SAT-LOA-20241030-00243, SAT-AMD-2025032800084 (SB granted-in-part/deferred-in-part/denied-in-part Jan. 30, 2026). Should the Commission open a new
+processing round within this temporary reassignment period, Amazon Leo will be temporarily placed in that
+processing round until it meets one of the conditions associated with the grant of the waiver.
+58 See generally SpaceX Comments, SpaceX Reply Comments.
+59 SpaceX Comments at 17-19. According to SpaceX, the delayed deployments will increase interference to those
+
+operators in the 2016 Ku-/Ka-band Processing Round, in contradiction of the holding in Teledesic. It asserts that
+NGSO operators function with the expectation that the Commission will enforce milestones. If a licensee misses a
+milestone, the authorization is reduced or “capped” at the number of satellites in use on the milestone date. Thus,
+extending a milestone allows “more satellites above the cap” and “change[s] the interference environment that
+requires coordination.” Id. In response, Amazon Leo argues that SpaceX’s rationale does not apply in the context of
+extension requests; rather, Teledesic is precedent covering license modifications that involve technical design
+changes. See Amazon Leo Response at 3-4, 15-19. We disagree with SpaceX in this circumstance. Amazon Leo’s
+actions have indicated an intention to deploy and therefore operators should reasonably expect and plan for the
+interference environment established at the start of the processing round. Amazon Leo does not request any changes
+to the authorized frequency bands or to the configuration of its Gen1 system that would impact the overall
+interference environment for other operators authorized in the 2020 Ka/Ku-band or 2021 V-band processing rounds.
+60 47 CFR § 25.261(d).
+61 See Comprehensive Review of Licensing and Operating Rules for Satellite Services, IB Docket No. 12-267,
+
+Second Report and Order, 30 FCC Rcd 14713, 14741-42, para. 71 (2015) (“The Commission adopted the bond
+requirement to establish a market-based mechanism for ensuring that licensees are willing and able to proceed with
+satellite construction and to discourage warehousing of scarce resources.”).
+
+8
+
+Federal Communications Commission
+
+DA 26-553
+
+decline to waive this rule on the Bureau’s own motion.62 Section 25.165(c) establishes that a licensee will
+be considered to be in default with respect to its filed surety bond if it fails to satisfy the applicable
+milestone requirement in section 25.164(b)(1).63 Further, the milestone waiver granted in this Order is
+limited to the required deployment progress necessary to comply with section 25.164(b)(2). If Amazon
+Leo does not meet the 50% deployment requirement by July 30, 2026, it will be in violation of its interim
+milestone requirement under section 25.164(b)(1). We therefore find it in the public interest to enforce
+this applicable penalty for failure to meet a milestone under the Commission’s rules and will accordingly
+require Amazon Leo to forfeit its surety bond if it fails to meet the 50% milestone on July 30, 2026 under
+section 25.165(d).
+19. Milestone Extension Request. Considering that we grant Amazon Leo’s request for
+alternative relief in waiving certain provisions of the milestone requirements, we need not grant or deny
+the request to modify its Gen1 Authorization to extend the interim milestone deployment requirement.
+As detailed in the application, Amazon Leo requests an additional two years to launch the undeployed
+satellites needed to meet the interim milestone benchmark, and then expects to launch the remaining
+1,616 satellites in time to meet the final milestone.64 If the Bureau were to grant the requested extension,
+Amazon Leo’s final deployment milestone would be one year to the date after the extended 50%
+milestone deadline. If Amazon Leo were to fail to meet this extended milestone, its Gen1 Authorization
+for any undeployed satellites would then be capped at the total number of operating satellites at that time,
+or by July 30, 2028. In this particular scenario, we determine that the benefits of targeting the final
+milestone deadline outweigh the costs and potential risks of extending the interim milestone deadline.
+There would also be little purpose served by Amazon Leo submitting additional filings—and the
+Commission reviewing and re-examining Amazon Leo’s progress—twice in a one year period. The
+record additionally supports the request for waiver, noting the special circumstances and public interest
+benefits particular to Amazon Leo’s situation, particularly due to the delays in launch availability which
+do not implicate the spectrum warehousing concerns that the milestone requirements are designed to
+prevent.65 Because the Commission supports Amazon Leo’s continued deployment and near-term service
+to customers, we find the public interest is better served by waiving the required compliance with the
+interim milestone as a prerequisite to deploying and meeting the final milestone, allowing Amazon Leo to
+focus its resources on deploying and operating its entire constellation by July 30, 2029. We therefore
+believe this waiver, as conditioned, is a better and more efficient approach than grant of the proposed
+extension request.
+IV.
+
+ORDERING CLAUSES
+
+20. IT IS ORDERED that Amazon Leo’s request for waiver of the milestone deployment
+requirement under 47 CFR § 25.164(b)(2) is GRANTED, with conditions, to the extent discussed above.66
+21. IT IS FURTHER ORDERED that waiver, on the Bureau’s own motion, of the automatic
+termination provision under 47 CFR § 25.161(a)(2), with respect to the compliance with 47 CFR
+25.164(b)(1), is GRANTED.
+22. IT IS FURTHER ORDERED that as of July 30, 2026, any authorized satellites in the Gen1
+Authorization that are not deployed and operational, will temporarily lose the associated priority status
+62 47 CFR § 25.165(c).
+63 Id.
+64 See Amazon Leo Milestone Modification Application at 11, 16-18.
+65 See e.g., Chamber Comments; CCIA Comments;
+
+ITI SEC Comments; TPA Comments.
+
+66 Amazon Leo must continue to comply with all conditions in its authorization, as modified.
+
+Kuiper Systems, LLC,
+Grant Stamp, ICFS File Nos. SAT-LOA-20211104-00145 and SAT-AMD-20250311-00068 (granted Feb. 10,
+2026).
+
+9
+
+Federal Communications Commission
+
+DA 26-553
+
+granted in both the 2020 Ka/Ku-band Processing Round and the 2021 V-band Processing Round and will
+be reassigned to a later priority status. This loss of status will last for twenty (20) months—until March
+30, 2028—or until 50% of the constellation is launched and operational, whichever occurs first.
+23. IT IS FURTHER ORDERED that the twenty (20) month timeframe for loss of status will be
+shortened to fifteen (15) months upon certification from Amazon Leo that it has constructed 50% of the
+satellites in its Gen1 constellation and secured sufficient launches to deploy 50% of the Gen1
+constellation.
+24.
+IT IS FURTHER ORDERED that waiver, on the Bureau’s own motion, of the 47 CFR §
+25.261(d) requirement to file a compatibility showing for temporarily reassigned satellites’ operations
+with respect to operators in the 2020 Ka/Ku-band and 2021 V-band Processing Rounds, is GRANTED.
+FEDERAL COMMUNICATIONS COMMISSION
+
+Jay A. Schwarz
+Chief, Space Bureau
+
+10
+
+

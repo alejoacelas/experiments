@@ -1,0 +1,503 @@
+
+===== SHEET: Contents =====
+	October 2026 Economic and fiscal outlook – detailed forecast tables: receipts
+	Receipts tables
+	Breakdown of "other" lines in Table A.5
+	4.1 Other HMRC taxes
+	4.2 Other taxes
+	4.3 Other receipts
+	Full details of receipts
+	4.4 Income tax and NICs forecast: detailed breakdown
+	4.5 Self-employed income streams: growth rates
+	4.6 Onshore CT forecast: detailed breakdown
+	4.7 Property transaction taxes: receipts by sector
+	4.8 Current receipts (on a cash basis)
+	4.9 Air Passenger Duty forecast - projection of passenger numbers by band
+	4.10 Betting and gaming duties forecast breakdown
+	4.11 Tobacco clearances
+	4.12 Alcohol consumption forecasts
+	4.13 Inheritance tax additional information
+	4.14 Oil and gas expenditure assumptions
+	4.15 Standard rate share and VAT gap
+	4.16 Corporation Tax Credits spend by sector			<---- link needs adding
+	4.17 Latest yield of personal tax measures
+	4.18 Effect of threshold freezes on additional taxpayers
+	4.19 Counterfactual and actual personal tax thresholds.
+	4.20 Environmental levies
+	4.21 Contracts for difference forecast drivers
+	4.22 Fiscally neutral receipts
+
+===== SHEET: Receipts =====
+Back to contents
+
+===== SHEET: 4.1 =====
+Back to contents
+	4.1 Other HMRC taxes
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Customs duties	5.01	5.102	4.95	5.387	5.942	6.257	6.358
+	Betting and gaming taxes	3.892	5.092	5.523	5.679	5.811	5.916	6.009
+	Landfill tax	0.588	0.4288	0.3898	0.468	0.459	0.4832	0.5138
+	Aggregates levy	0.372	0.3393	0.364	0.3821	0.3998	0.4159	0.4288
+	Soft drink industry levy	0.363	0.3819	0.4203	0.4718	0.4948	0.5059	0.517
+	Diverted profits tax	0.604	-0.035	0.115	0.02	0.01	0.01	0.01
+	Plastic packaging tax	0.264	0.2644	0.2447	0.2419	0.241	0.2392	0.2355
+	Residential property developer tax	0.09	0.09263	0.09895	0.1054	0.1134	0.1238	0.1316
+	Carbon border adjustment mechanism	0	0.02469	0.09986	0.1062	0.1239	0.167	0.226
+	Vaping tax	0	0.2036	0.5076	0.5624	0.6213	0.638	0.6551
+	Other HMRC taxes1	11.18	11.89	12.71	13.42	14.22	14.76	15.08
+	Note: All taxes are on an accrued basis.
+	1 This is consistent with the 'other HMRC taxes' line in Table A.5 of the October 2026 Economic and fiscal outlook.
+
+===== SHEET: 4.2 =====
+Back to contents
+	4.2 Other taxes
+		£ billion
+		       Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Northern Ireland domestic rates	0.5021	0.5153	0.5262	0.5365	0.547	0.5578	0.5685
+	Northern Ireland business rates	0.3955	0.406	0.4146	0.4227	0.431	0.4394	0.4478
+	Consumer Credit Act fees 	0.544	0.5583	0.5702	0.5813	0.5927	0.6044	0.6159
+	Other levy funded body receipts	0.9939	1.02	1.042	1.062	1.083	1.104	1.125
+	Camelot payments to National Lottery Distribution Fund	1.713	1.819	1.861	1.88	1.839	1.838	1.837
+	Horserace betting levy	0.119	0.1221	0.1247	0.1272	0.1297	0.1322	0.1347
+	Economic crime levy	0.1262	0.2383	0.2411	0.244	0.247	0.2501	0.2532
+	Community infrastructure levy	0.152	0.4835	0.5783	0.6581	0.7168	0.7393	0.7582
+	Passport fees	0.662	0.688	0.7104	0.737	0.7648	0.7928	0.8206
+	Lorry road user levy	0.16	0.1637	0.169	0.1722	0.1753	0.1774	0.1794
+	Other small taxes	0.8482	0.6462	0.6616	0.6774	0.6935	0.7101	0.7264
+	Immigration skills charge	0.5803	0.5781	0.6717	0.6225	0.6405	0.7591	0.7681
+	Scottish landfill tax	0.05561	0.02726	0.022	0.02409	0.02591	0.02707	0.0273
+	Welsh landfill tax	0.03242	0.02852	0.03048	0.03142	0.03222	0.03264	0.03313
+	Visa fees	2.969	3.441	3.578	3.678	3.536	3.33	3.334
+	Immigration health surcharge	2.319	1.99	2.112	2.156	2.161	2.286	2.28
+	Pension Protection Fund levy	0	0	0	0	0	0	0
+	Land registry 	0.492	0.487	0.508	0.531	0.542	0.553	0.547
+	Companies House receipts 	0.252	0.2619	0.2704	0.2805	0.2911	0.3018	0.3124
+	Extended producer responsibility Fees	0	1.498	1.528	1.566	1.608	1.65	1.693
+	Bank of England Levy	0.596	0.7	0.6187	0.5777	0.5362	0.4952	0.4234
+	Building safety levy	0	0	0.055	0.235	0.34	0.395	0.4589
+	Statutory gaming levy	0.116	0.1266	0.13	0.1335	0.137	0.1407	0.1445
+	Scottish aggregates levy	0	0.04372	0.04593	0.04755	0.04918	0.05062	0.05187
+	International student levy	0	0	0	0.4	0.46	0.48	0.5
+	Landlord Registration Fees	0	0.0102	0.1332	0.1882	0.2134	0.2293	0.2375
+	Other taxes1	13.63	15.85	16.6	17.57	17.79	18.08	18.28
+	1 This is consistent with the 'other taxes' line in Table A.5 of the October 2026 Economic and fiscal outlook. 
+
+===== SHEET: 4.3 =====
+Back to contents
+	4.3 Other receipts
+		£ billion
+		      Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	CG current transfers from households	4.042	4.38	4.762	4.96	5.019	5.103	5.179
+	of which:
+	Fines and penalties	0.9933	1.021	1.303	1.402	1.45	1.513	1.575
+	Imputed receipts related to Royal Mail pension plan transfer	1.785	1.849	1.917	1.986	1.966	1.954	1.938
+	Other current transfers	1.263	1.51	1.542	1.572	1.603	1.635	1.666
+	CG rent receipts	0.182	0.2966	0.3029	0.3088	0.3149	0.3211	0.3272
+	less LA business rates payments	-2.149	-2.207	-2.345	-2.452	-2.589	-2.649	-2.714
+	less PC onshore CT payments	-0.178	-0.179	-0.179	-0.179	-0.179	-0.179	-0.179
+	LA rent	1.206	1.021	1.054	1.094	1.135	1.176	1.218
+	PC rent	-0.217	-0.2562	-0.2645	-0.2744	-0.2848	-0.2952	-0.3056
+	Mobile phone accruals	0.184	0.184	0.184	0.184	0.184	0.184	0.184
+	Other receipts1	3.07	3.239	3.515	3.642	3.6	3.661	3.709
+	1 This is consistent with the 'other receipts' line in Table A.5 of the October 2026 Economic and fiscal outlook.
+
+===== SHEET: 4.4 =====
+Back to contents
+	4.4 Income tax and NICs forecast: detailed breakdown
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Income tax (gross of tax credits)	329.3	365.4	392.2	403.8	426.4	444.5	463.7
+	of which:
+	Pay as you earn	280.5	302.5	316.2	329.6	347.3	362.2	375.6
+	Self assessment	54.07	63.4	72.02	77.16	84.66	87.73	93.57
+	Company income tax	1.634	1.702	1.757	1.821	1.89	1.96	2.03
+	Non-SA repayments	-10.14	-10.52	-10.99	-11.37	-11.76	-12.25	-12.69
+	Temporary Repatriation Facility (TRF)	0	4.411	9.011	2.421	0	0	0
+	Simple assessment	1.089	1.236	1.313	1.232	1.314	1.678	1.922
+	Other IT1	2.173	2.756	2.863	2.963	3.053	3.129	3.215
+	National insurance contributions	204.4	214.2	220.8	228.6	240.5	249.5	257.7
+	of which:
+	Class 1 Employee NICs	49.43	51.77	53.41	55.23	57.69	59.89	61.91
+	Class 1 Employer NICs	145.4	152.7	157.5	163	171.9	178	183.9
+	Class 4 and Class 2 Self employed NICs	2.934	3.325	3.551	3.809	3.963	4.155	4.385
+	Statutory payment recoveries	3.553	3.692	3.793	3.892	4.004	4.113	4.225
+	Other NIC2	3.107	2.706	2.558	2.687	3.029	3.256	3.271
+	1 Includes investigation settlements and unallocated receipts.
+	2 This includes Class 1A, Class 1B and Class 3 NICs, investigation settlements and unallocated receipts
+
+===== SHEET: 4.5 =====
+Back to contents
+	4.5 Self-employed income streams: growth rates
+		Percentage change on a year earlier
+		Forecast
+		2024-25	2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Self-employed income1	3.82	5.391	6.598	3.364	3.729	4.019	4.3	4.254
+	Dividend income2	3.918	4.316	4.496	4.786	5.287	4.222	4.085	3.922
+	Income from property	8.814	5.842	4.052	3.084	2.662	2.923	3.226	3.248
+	Savings income	34.96	0.6497	0.6684	6.138	5.143	4.937	5.559	5.893
+	Note: Numbers presented are on a pre-measures basis before the impact of policy measures. 
+	1 Includes partnership income
+	2 Includes forestalling effects
+
+===== SHEET: 4.6 =====
+Back to contents
+	4.6 Onshore CT forecast: detailed breakdown
+		£ billion
+		Forecast
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Onshore corporation tax	106.7	113.1	120.2	125.3	130.5	135.6
+	of which:
+	Industrial and Commercial Companies	84.69	89.86	94.84	99.11	103.3	107.4
+	Financial Companies	20.78	21.35	23.41	24.21	25.12	26.12
+	Life assurance companies	1.45	1.884	1.943	2.016	2.051	2.064
+	Other1	-0.1957	0	0	0	0	0
+	Pillar 2 Taxes2	0.4994	0.5162	0.5408	0.5655	0.5912	0.6047
+	of which:
+	Domestic top-up tax	0.1476	0.1522	0.1596	0.1665	0.1736	0.1812
+	Multinational top-up tax	0.3518	0.364	0.3812	0.399	0.4176	0.4235
+	1 Mainly unallocated receipts.
+	2 The Autumn 2022 Pillar 2 measure also boosts onshore corporation tax as well as the domestic top-up tax and multinational top-up tax.
+
+===== SHEET: 4.7 =====
+Back to contents
+	4.7 Property transactions taxes: Receipts by sector
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Total SDLT	15.17	15.04	16.87	18.94	20.4	22.01	23.7
+	of which:
+	SDLT from residential property	11.55	11.6	12.81	14.28	15.52	16.71	17.97
+	of which:
+	Main rates	8.885	9.019	10.03	11.2	12.2	13.15	14.17
+	Higher rates on additional dwellings	2.506	2.429	2.615	2.886	3.123	3.334	3.56
+	Non-UK resident surcharge	0.1632	0.151	0.1657	0.1858	0.204	0.2208	0.2387
+	SDLT from non-residential property	3.605	3.439	4.06	4.669	4.875	5.307	5.726
+	Annual tax on enveloped dwellings (ATED)	0.1386	0.135	0.1317	0.1242	0.1189	0.1142	0.1094
+	Land and buildings transactions tax (Scotland)	0.952	0.9767	1.024	1.083	1.163	1.245	1.32
+	Land transactions tax (Wales)	0.363	0.3742	0.402	0.432	0.4648	0.4995	0.5341
+	Total property transaction taxes	16.63	16.52	18.43	20.58	22.14	23.87	25.66
+
+===== SHEET: 4.8 =====
+Back to contents
+	43.8 Current receipts (on a cash basis)
+			£ billion
+			Outturn	Forecast
+			2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	HM Revenue and Customs
+	Income tax (gross of tax credits)1		326.9	362.8	390.1	401.7	438.8	442	461.5
+	of which: 
+		Pay as you earn	278.2	299.7	314.2	327.5	342	359.7	373.4
+	                  	Self assessment	54.07	63.4	72.02	77.16	102.3	87.73	93.57
+		Other income tax	-5.375	-0.3242	3.933	-2.954	-5.528	-5.51	-5.55
+	National insurance contributions		200.8	211.2	220.6	227.4	239.6	248.1	256.6
+	Value added tax		179.9	186.2	194	203.3	211.7	220.1	228.4
+	Corporation tax		95.1	106.3	112	118.6	124.3	129.2	134.2
+	of which: 
+		Onshore	92.89	103	110.4	117.6	123.2	128.1	133.4
+		Pillar 2: Domestic top-up tax	0	0.288	0.147	0.1499	0.1572	0.1641	0.171
+		Pillar 2: Multinational top-up tax	0	1.162	0.3676	0.3581	0.375	0.3927	0.4109
+	                  	Offshore	2.21	1.835	1.134	0.4863	0.5687	0.5738	0.1652
+	Petroleum revenue tax		-0.443	-0.4227	-0.4204	-0.3212	-0.1935	-0.1541	-0.1637
+	Fuel duties		24.56	23.95	25.71	26.58	26.27	25.55	24.43
+	Capital gains tax		24.31	25.59	29.2	32.39	34.18	37.71	41.28
+	Inheritance tax		8.466	9.11	10.78	12.3	13.26	14.24	15.15
+	Stamp duty land tax		15.17	15.04	16.87	18.94	20.4	22.01	23.7
+	Annual tax on enveloped dwellings		0.1386	0.135	0.1317	0.1242	0.1189	0.1142	0.1094
+	Stamp taxes on shares		4.735	5.076	5.206	5.36	5.541	5.724	5.912
+	Tobacco duties		7.567	7.375	7.33	7.073	6.798	6.56	6.313
+	Spirits duties		4.069	4.208	4.319	4.434	4.544	4.604	4.67
+	Wine duties		4.609	4.741	4.862	4.979	5.091	5.155	5.217
+	Beer and cider duties		3.757	3.773	3.853	3.953	4.057	4.118	4.164
+	Air passenger duty		4.618	4.849	4.74	5.018	5.324	5.601	5.885
+	Insurance premium tax		9.037	9.122	9.431	9.664	9.912	10.12	10.33
+	Climate change levy		1.79	1.787	1.726	1.487	1.529	1.579	1.647
+	Landfill tax		0.6229	0.4373	0.3716	0.4727	0.4513	0.4771	0.5076
+	Aggregates levy		0.3688	0.3402	0.3595	0.3773	0.3954	0.412	0.4279
+	Betting and gaming duties		3.831	4.873	5.42	5.65	5.793	5.897	5.983
+	Customs Duties		4.972	5.117	4.951	5.239	5.991	6.17	6.348
+	Bank levy		1.442	1.504	1.632	1.622	1.612	1.602	1.591
+	Bank surcharge		1.17	1.607	2.391	1.658	1.474	1.538	1.61
+	Digital services tax		0.944	1.005	1.106	1.2	1.299	1.397	1.503
+	Diverted profits tax		0.604	-0.035	0.115	0.02	0.01	0.01	0.01
+	Apprenticeship Levy		4.391	4.596	4.766	4.915	5.074	5.253	5.434
+	Soft drinks industry levy		0.354	0.3786	0.4041	0.4665	0.4892	0.5032	0.5144
+	Plastic Packaging tax 		0.256	0.2707	0.2455	0.2421	0.2415	0.2396	0.2379
+	Residential property developer tax		0.089	0.09263	0.09895	0.1054	0.1134	0.1238	0.1316
+	Energy profits levy		2.564	3.836	3.101	2.094	1.244	0.1916	0
+	Electricity generators levy		0.041	0.5566	0.195	0	0	0	0
+	Vaping tax		0	0.1787	0.5016	0.5606	0.6193	0.6356	0.6531
+	Carbon border adjustment mechanism		0	0	0.04404	0.1602	0.1195	0.1562	0.2112
+	HMRC penalties		0.879	0.9065	1.189	1.288	1.336	1.399	1.461
+	Total HMRC		937.6	1006	1067	1109	1178	1208	1256
+	Vehicle excise duties		8.871	9.408	10.08	11.74	12.51	13.36	14.24
+	Business rates		33.93	35.44	37.22	38.67	41.46	42.42	43.45
+	Council tax		49.6	53.09	55.88	59.4	62.67	66.06	69.56
+	VAT refunds		30.5	31.32	32.82	33.32	33.85	35.22	36.28
+	Emission Trading Scheme		2.917	2.833	2.617	2.17	2.074	2.016	2.016
+	Accruals adjustments on taxes		9.391	10.02	7.745	8.614	-6.849	8.671	8.081
+	Interest and dividends		40.65	43.56	48.65	49.96	50	51.1	51.76
+	of which: 
+		Accrued Interest on student loans	7.205	7.759	9.463	9.43	8.716	8.775	8.406
+		Other interest and dividend receipts	33.44	35.8	39.19	40.53	41.28	42.32	43.35
+	Gross operating surplus		82.91	86.34	91.17	94.61	98.22	101.6	105.4
+	Other taxes and receipts		34.91	37.53	38.43	41.5	41.7	42.62	42.72
+	Current receipts		1231	1316	1392	1449	1513	1571	1629
+	Memo: UK oil and gas revenues2		4.331	5.247	3.815	2.259	1.619	0.6114	0.001533
+	Note: All tax lines prior to accruals adjustments on tax line are on a cash basis rather than an accrued basis.
+	1 Includes PAYE, Self Assessment receipts and tax on savings income and other minor components, such as income tax repayments.
+	2 Consists of offshore corporation tax, petroleum revenue tax and energy profits levy.
+			#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!
+
+===== SHEET: 4.9 =====
+Back to contents
+	4.9 APD forecast - projection of passenger numbers by band
+		Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31
+	Higher rate passengers	0.04528	0.1176	0.1208	0.1239	0.1275	0.1312
+	of which:
+	Domestic	0.00334	0.01292	0.01327	0.01345	0.01385	0.01432
+	Band A	0.02721	0.08866	0.09105	0.09342	0.09611	0.09886
+	Band B	0.01412	0.01541	0.01582	0.01636	0.01685	0.01728
+	Band C	0.0006226	0.0006359	0.000653	0.0006663	0.0006842	0.0007069
+	Standard rate passengers	8.28	8.368	8.593	8.829	9.078	9.345
+	of which:
+	Domestic	0.3897	0.3879	0.3983	0.3993	0.4132	0.4278
+	Band A	2.057	2.033	2.088	2.144	2.203	2.27
+	Band B	4.647	4.736	4.863	5.005	5.145	5.294
+	Band C	1.186	1.21	1.243	1.281	1.316	1.354
+	Reduced rate passengers	112.2	114.3	117.4	120.8	124.2	127.8
+	of which:
+	Domestic	12.14	12.38	12.71	13.09	13.46	13.84
+	Band A	79.93	81.37	83.56	86.03	88.45	90.98
+	Band B	16.41	16.73	17.18	17.68	18.18	18.7
+	Band C	3.737	3.813	3.916	4.029	4.143	4.262
+	Total	120.5	122.8	126.1	129.8	133.4	137.3
+
+===== SHEET: 4.10 =====
+Back to contents
+	4.10 Betting and gaming duties forecast breakdown
+		£ billion
+		Forecast
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Betting and gaming duties	5.092	5.523	5.679	5.811	5.916	6.009
+	of which:
+	Remote gaming duty	2.752	2.781	2.842	2.905	2.945	2.963
+	Lottery duty	0.8305	0.8497	0.8757	0.9035	0.9296	0.9569
+	General betting duty	0.6556	0.8774	0.9169	0.9486	0.9765	1.004
+	Machine games duty	0.6771	0.8269	0.857	0.8652	0.8755	0.8963
+	Gaming duty	0.1742	0.1849	0.1852	0.1855	0.1865	0.1857
+	Bingo duty	0.0001887	0	0	0	0	0
+	Pool betting duty	0.002829	0.00268	0.002858	0.002837	0.002996	0.003126
+
+===== SHEET: 4.11 =====
+Back to contents
+	 4.11 Tobacco clearances
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Cigarette clearances (million sticks)	1.222e+04	1.096e+04	9854	9043	8223	7677	7165
+	Non-cigarette clearances ('000s kg)	3940	3683	3434	3152	2960	2845	2708
+	of which:
+	Hand rolled tobacco clearances	3338	3113	2887	2649	2482	2385	2273
+	Other tobacco products	601.7	570.8	547.5	502.4	478	460.5	434.8
+
+===== SHEET: 4.12 =====
+Back to contents
+	4.12 Alcohol clearance forecasts
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	 Beer and cider	2109	2070	2027	2013	2002	1983	1963
+	 Wine1	1569	1568	1540	1530	1521	1506	1491
+	 Spirits2	1272	1262	1241	1236	1231	1218	1210
+	Note: All clearances are in thousands of hectolitres of alcohol.
+	1 Includes other fermented products such as fruit ciders.
+	2 Includes spirit-based ‘ready-to-drinks’ such as alcopops.
+	4.12 Alcohol receipts forecasts
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	 Beer and cider	3.721	3.802	3.858	3.961	4.061	4.121	4.168
+	 Wine1	4.634	4.746	4.871	4.987	5.096	5.16	5.221
+	 Spirits2	4.077	4.215	4.327	4.441	4.548	4.608	4.674
+	Note: All taxes are on an accrued basis.
+	1 Includes other fermented products such as fruit ciders.
+	2 Includes spirit-based ‘ready-to-drinks’ such as alcopops.
+
+===== SHEET: 4.13 =====
+Back to contents
+	4.13 Inheritance tax additional information
+		Estimated Outurn		Forecast
+		2024-25	2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Proportion of deaths subject to inheritance tax (per cent)1	4.872	5.35	5.913	8.303	8.875	9.468	9.958	10.48
+	ONS principal population projections (2024-based; adjusted) Deaths ('000s)2	653.9	644.8	657.5	662.6	668.7	675.5	683	690.9
+	Number of deaths subject to inheritance tax ('000s)3	31.86	34.49	38.88	55.02	59.34	63.96	68.01	72.41
+	Average tax bill for taxpaying estates (£ '000s)3	242.6	241.7	246.6	204.6	201.7	198.8	199.3	196.6
+	1 Calculated as the number of deaths subject to inheritance tax divided by total number of deaths.
+	2 ONS, National population projections: 2024-based, 2026.
+	3 Projected estimates based on 2023-24 IHT returns using economic assumptions consistent with the October 2026 Economic and fiscal outlook. Forecasts in this table are inconsistent with the receipts forecast because of timing and modelling effects that don’t impact underlying tax liabilities.
+
+===== SHEET: 4.14 =====
+Back to contents
+	4.14 Oil and gas expenditure assumptions
+		£ billion
+		Forecast
+		2025	2026	2027	2028	2029	2030	2031
+	Capital expenditure (Capex)	4.972	3.795	3.328	2.739	2.2	1.906	1.682
+	Exploration & appraisal expenditure	0.1357	0.2347	0.364	0.1739	0.1239	0.1455	0.1374
+	Operating expenditure (Opex)	7.111	6.749	6.483	5.668	5.315	4.597	4.536
+	Decommissioning costs	2.577	2.996	3.12	2.942	2.9	2.884	2.888
+	Note: These forecasts reflect nominal expenditure.  These forecasts are informed by the central projections published by the North Sea Transition Authority. We convert the real terms NSTA projection into a nominal forecast by applying a deflator, which reflects movements in the oil price.
+
+===== SHEET: 4.15 =====
+Back to contents
+	4.15 Standard rated share and VAT gap
+		Per cent
+		    Estimate	Forecast
+		2024-25	2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	VAT gap	6.6	5	5.4	5.2	5	4.8	4.5	4.3
+		2024	2025	2026	2027	2028	2029	2030	2031
+	Standard rated share of household consumption	48.82	48.01	48.05	47.93	48.06	48.05	48.02	48
+	1 2025-26 is generated from the forecast model 
+
+===== SHEET: 4.16 =====
+Back to contents
+	4.16 Corporation Tax Credits spend by sector
+		£ billion
+		     Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	R&D Tax Credits	8.131	8.724	8.927	9.032	9.18	9.386	9.615
+	Creative Tax Reliefs	2.564	2.608	2.769	2.874	2.98	3.092	3.205
+	of which:
+	Film 	0.749	0.8139	0.8426	0.8844	0.9184	0.9529	0.9876
+	High-end and Children's TV 	0.9254	1.017	1.074	1.111	1.152	1.195	1.239
+	Video games	0.4852	0.3729	0.4165	0.4232	0.4308	0.4469	0.4635
+	Theatre	0.2606	0.2369	0.2586	0.2715	0.2851	0.2958	0.3067
+	Other1	0.1436	0.1676	0.1781	0.1839	0.1935	0.2008	0.2082
+	Land Remediation Relief	0.05852	0.07362	0.07557	0.0781	0.08099	0.08404	0.08712
+	1 This includes Animation Tax Relief, Orchestra Tax Relief, Museums and Galleries Exhibition Tax Relief, and all reduced liability creative tax reliefs. 
+
+===== SHEET: 4.17 =====
+Back to contents
+	4.17 Latest yield of personal tax measures
+		£ billion
+		2022-23	2023-24	2024-25	2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Changes to thresholds	-4.1	10.45	26.49	32.13	41.01	49.29	57.9	64.6	71.29	74.08
+	of which:
+	PA and HRT freezes	3.015	12.53	22.93	27.1	32.67	38.23	46.09	52.21	58.39	60.91
+	Additional rate threshold: reduction	0	0.545	0.845	0.86	0.91	0.94	0.945	0.96	0.98	1.005
+	NICs: rise in primary threshold	-6.995	-5.925	-3.402	-2.742	-2.811	-2.964	-3.191	-3.295	-3.519	-3.661
+	Class 2 NICs: threshold rise	-0.12	-0.145	-0.14	-0.13	-0.13	-0.13	-0.135	-0.135	-0.135	-0.135
+	Class 1 NICs: threshold freezes	0	3.445	6.266	7.039	10.37	13.22	14.18	14.86	15.57	15.95
+	Rate changes		-2.507	-21.45	3.741	3.497	3.214	3.431	3.573	3.729	3.836
+	of which:
+	Autumn Statement 2023 NICs reduction		-2.507	-10.72	-11.18	-11.62	-11.99	-12.4	-12.79	-13.23	-13.69
+	Spring Budget 2024 NICs reduction		0	-10.73	-11.17	-11.63	-12.01	-12.42	-12.81	-13.25	-13.71
+	Autumn Budget 2024 employer NICs rise		0	0	26.08	26.75	27.21	28.25	29.17	30.21	31.24
+	Total impact on receipts	-4.1	7.944	5.04	35.87	44.51	52.51	61.33	68.18	75.01	77.91
+
+===== SHEET: 4.18 =====
+Back to contents
+	4.18 Effect of threshold freezes on additional taxpayers
+		Million
+		Forecast
+		2022-23	2023-24	2024-25	2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Number of taxpayers
+	With indexation	34	34.2	34.7	35.6	36	36.3	36.5	37	37.5	38
+	Without indexation	34.5	36.6	38.5	39.7	40.8	41.6	42.2	42.8	44.2	44.7
+	…brought into income tax	0.572	2.44	3.86	4.12	4.83	5.3	5.72	5.85	6.75	6.69
+	Number of higher-rate taxpayers
+	With indexation	4.7	4.29	4.08	4.28	4.15	4.06	3.89	3.86	3.83	3.81
+	Without indexation	5.1	5.76	6.57	7.21	7.71	8.13	8.48	8.85	9.25	9.26
+	…brought into higher-rate band	0.408	1.46	2.49	2.94	3.56	4.07	4.59	4.99	5.42	5.44
+	Number of additional-rate taxpayers
+	Previous £150,000 threshold	0.569	0.628	0.694	0.735	0.78	0.823	0.86	0.9	0.946	0.992
+	Aligned to the end of PA taper	0.57	0.893	1.11	1.18	1.26	1.33	1.4	1.46	1.55	1.61
+	…brought into additional-rate band		0.266	0.414	0.445	0.478	0.507	0.535	0.563	0.606	0.622
+	…brought into higher and additional rates	0.408	1.73	2.9	3.38	4.04	4.58	5.13	5.55	6.03	6.06
+	Memo: Number of taxpayers removed from 'brought into income tax' via Pension Tax Allowance measure	0	0	0	0	0	0.289	0.438	0.594	7.9e-05	0.000197
+	Note: 'With indexation' for the basic and higher rates assumes both rise with CPI inflation from March 2021. 'Without indexation' assumes frozen thresholds for 2022-23 to 2030-31 and applies the Pension Tax Allowance for 2027-28 to 2029-30. Totals may not sum in the table due to rounding. 
+
+===== SHEET: 4.19 =====
+Back to contents
+	4.19 Counterfactual and actual personal tax thresholds
+		£ billion
+		2021-22	2022-23	2023-24	2024-25	2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Personal allowance
+	With indexation	12570	12960	14270	15220	15480	16070	16570	17140	17490	17870	18230
+	Without indexation	12570	12570	12570	12570	12570	12570	12570	12570	12570	12570	12820
+	Difference	0	-390	-1700	-2650	-2910	-3500	-4000	-4570	-4920	-5300	-5410
+	Higher rate threshold (HRT); Upper earnings limit (UEL); Upper profits limit (UPL)
+	With indexation	50270	51860	57170	61020	62080	64470	66470	68840	70290	71870	73330
+	Without indexation	50270	50270	50270	50270	50270	50270	50270	50270	50270	50270	51320
+	Difference	0	-1590	-6900	-10750	-11810	-14200	-16200	-18570	-20020	-21600	-22010
+	Additional rate threshold (ART)
+	Previous £150,000 threshold	150000	150000	150000	150000	150000	150000	150000	150000	150000	150000	150000
+	Aligned to the end of PA taper	150000	150000	125140	125140	125140	125140	125140	125140	125140	125140	125640
+	Difference	0	0	-24860	-24860	-24860	-24860	-24860	-24860	-24860	-24860	-24360
+	Primary threshold (PT)
+	With indexation	9568	9880	10868	11596	11804	12272	12636	13052	13312	13572	13832
+	Aligned to personal allowance	9568	11908	12570	12570	12570	12570	12570	12570	12570	12570	12820
+	Difference	0	2028	1702	974	766	298	-66	-482	-742	-1002	-1012
+	Memo: CPI used to uprate thresholds		3.103	10.11	6.657	1.708	3.811	3.111	3.44	2.042	2.173	2.015
+	Note: 'With indexation' for the basic and higher rates assumes both rise with CPI inflation from March 2021. 'Without indexation' assumes frozen thresholds for 2022-23 to 2030-31. 
+
+===== SHEET: 4.20 =====
+Back to contents
+	4.20 Environmental levies
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Renewables obligation	8	8.465	6.644	6.719	6.595	6.383	6.043
+	Contracts for difference	2.97	1.055	1.465	3.236	3.975	4.064	4.155
+	Capacity market1	0	2.793	3.611	3.673	2.887	2.959	3.733
+	Green gas levy	0.0597	0.0925	0.1644	0.1978	0.2165	0.228	0.2348
+	Warm home discount	0.826	1.151	0.971	0.972	0.975	0.976	0
+	Sizewell C RAB levy1	0	0.745	0.881	1.278	1.354	1.626	1.849
+	Feed-in tariffs	1.844	0	0	0	0	0	0
+	Environmental levies	13.7	14.3	13.74	16.08	16	16.24	16.01
+	Memo: Expenditure on renewable heat incentive (RHI)	1.245	1.285	1.315	1.33	1.324	1.36	1.388
+	Note: The 'Environmental levies' line above is consistent with the 'Environmental levies' line in Table A.5 of the October 2026 Economic and fiscal outlook.
+	1 The ONS have yet to include capacity market auctions and the Sizewell C RAB charge in their outturn numbers. If they were included, they would have been £1.6 billion and £0.5 billion respectively in 2025-26.
+	2 The ONS have recently included feed-in tariffs in their outturn numbers, forecast data will be included in our next Economic and fiscal outlook. 
+
+===== SHEET: 4.21 =====
+Back to contents
+	4.21 Contracts for difference forecast drivers
+		Forecast
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	(a) Capture price (GBP/MWh)1	117	84.39	68.71	67.25	68.7	70.17
+	(b) Strike price (GBP/MWh)	140.2	108.2	100.5	101	103.4	103.4
+	(c = b-a) Difference 	23.19	23.81	31.79	33.75	34.7	33.23
+	(d) Generation (TWh)	45.5	57.5	84.3	102.4	109.9	116.3
+	(e) Other pre-measures drivers (£ million)	0	576	619	649	658	740
+	(f) Policy (£ million)	0	-480	-63	-130	-408	-450
+	(c * d + e + f) Forecast (£ million)	1055	1465	3236	3975	4064	4155
+	1 Wholesale electricity price based on market expectations.
+	Source: DESNZ, OBR
+
+===== SHEET: 4.22 =====
+Back to contents
+	4.22 Fiscally neutral receipts
+		£ million
+		Forecast
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Total fiscally neutral receipts	178.9	187.3	196.8	204	212.1	219.9
+	of which
+	Environmental levies1	13.56	12.86	14.8	14.65	14.61	14.17
+	of which
+	Contracts for difference	1.055	1.465	3.236	3.975	4.064	4.155
+	Renewables obligation	8.465	6.644	6.719	6.595	6.383	6.043
+	Capacity markets	2.793	3.611	3.673	2.887	2.959	3.733
+	Green gas levy	0.0925	0.1644	0.1978	0.2165	0.228	0.2348
+	Warm homes discount	1.151	0.971	0.972	0.975	0.976	0
+	Depreciation	78.1	82.74	86.46	89.83	93.1	96.75
+	Council tax	53.99	56.82	60	63.32	66.75	70.3
+	VAT refunds	31.32	32.82	33.32	33.85	35.22	36.28
+	Extended producer responsibility	1.498	1.528	1.566	1.608	1.65	1.693
+	Community infrastructure levy	0.4835	0.5783	0.6581	0.7168	0.7393	0.7582
+	Note: In this case, fiscally neutral means there is no public sector net borrowing (PSNB) impact from these receipts.
+1 The environmental levies included in this table are only those that generate receipts, and are fully offset in spending. As a result, the total does not align with Table 4.20. The renewable heat incentive is a spending-only levy, and Sizewell C is not fully offset in spending, and so are excluded. Contracts for difference and Renewables obligations, inclued in this table, are typically fiscally neutral schemes however are not fiscally neutral in every year of the forecast period due to temporary Exchequer funding policies. Green gas levy (receipts) are used to fund the green gas support scheme and so these directly offset in their respective forecasts.

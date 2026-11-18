@@ -1,0 +1,1401 @@
+event_title,market_yes_subtitle,close_date,last_price_usd,yes_bid_usd,yes_ask_usd,volume_contracts,open_interest_contracts,ticker
+Who will be the next Secretary General of NATO?,Klaus Iohannis,2099-01-08,0.0400,0.0200,0.0400,383.36,95.00,KXNEXTNATOSECGEN-99-KIOH
+Who will be the next Secretary General of NATO?,Kaja Kallas,2099-01-08,0.1300,0.1200,0.1900,1962.46,1168.68,KXNEXTNATOSECGEN-99-KKAL
+Who will be the next Secretary General of NATO?,Ben Wallace,2099-01-08,0.0100,0.0100,0.0200,1181.86,105.61,KXNEXTNATOSECGEN-99-BWAL
+Who will be the next Secretary General of NATO?,Mette Frederiksen,2099-01-08,0.2600,0.2600,0.3300,705.57,185.23,KXNEXTNATOSECGEN-99-MFRE
+Who will be the next Secretary General of NATO?,Ursula von der Leyen,2099-01-08,0.0200,0.0100,0.0500,718.66,117.84,KXNEXTNATOSECGEN-99-ULEY
+Who will be the next Secretary General of NATO?,Petr Pavel,2099-01-08,0.0100,0.0200,0.0400,653.19,71.25,KXNEXTNATOSECGEN-99-PPAV
+Who will be the next Secretary General of NATO?,Alexander Stubb,2099-01-08,0.1100,0.1100,0.1400,1062.58,242.00,KXNEXTNATOSECGEN-99-ASTU
+Who will be the next Secretary General of NATO?,Keir Starmer,2099-01-08,0.1500,0.1600,0.2200,1011.91,342.17,KXNEXTNATOSECGEN-99-KSTA
+"Will Zohran Mamdani become President of the United States before Jan 22, 2045?","Before Jan 22, 2045",2045-01-29,0.1200,0.1200,0.1400,45618.05,18271.37,KXPERSONPRESMAM-45
+Will Nick Fuentes become President of the United States before 2045?,Before 2045,2045-01-08,0.1800,0.1900,0.2100,60521.25,20647.03,KXPERSONPRESFUENTES-45
+Who will succeed Netanyahu as Prime Minister of Israel?,Naftali Bennett,2045-01-01,0.0890,0.0700,0.0830,43492.41,9624.38,KXNEXTISRAELPM-45JAN01-NBEN
+Who will succeed Netanyahu as Prime Minister of Israel?,Yariv Levin,2045-01-01,0.0200,0.0010,0.0200,8542.41,1917.16,KXNEXTISRAELPM-45JAN01-YLEV
+Who will succeed Netanyahu as Prime Minister of Israel?,Israel Katz,2045-01-01,0.0100,0.0100,0.0730,18158.61,7175.11,KXNEXTISRAELPM-45JAN01-IKAT
+Who will succeed Netanyahu as Prime Minister of Israel?,Gadi Eisenkot,2045-01-01,0.6900,0.6600,0.6900,25851.96,10754.24,KXNEXTISRAELPM-45JAN01-GEIS
+Who will succeed Netanyahu as Prime Minister of Israel?,Yossi Cohen,2045-01-01,0.0100,0.0010,0.0200,4167.13,2616.13,KXNEXTISRAELPM-45JAN01-YCOH
+Who will succeed Netanyahu as Prime Minister of Israel?,Avigdor Lieberman,2045-01-01,0.0200,0.0110,0.0660,9013.40,4770.51,KXNEXTISRAELPM-45JAN01-ALIE
+Who will succeed Netanyahu as Prime Minister of Israel?,Bezalel Smotrich,2045-01-01,0.0200,0.0000,0.0200,6919.38,2492.00,KXNEXTISRAELPM-45JAN01-BSMO
+Which G7 leader will leave office next?,Mark Carney,2045-01-01,0.0100,0.0100,0.0300,1363.25,910.25,KXG7LEADEROUT-26JUL20-MCAR
+Which G7 leader will leave office next?,Emmanuel Macron,2045-01-01,0.7000,0.7100,0.7200,3806.76,2067.73,KXG7LEADEROUT-26JUL20-EMAC
+Which G7 leader will leave office next?,Donald Trump,2045-01-01,0.0900,0.0200,0.0800,9301.88,7100.99,KXG7LEADEROUT-26JUL20-DJT
+Which G7 leader will leave office next?,Giorgia Meloni,2045-01-01,0.1300,0.0700,0.1200,2657.76,1876.75,KXG7LEADEROUT-26JUL20-GMEL
+Which G7 leader will leave office next?,Friedrich Merz,2045-01-01,0.1000,0.0500,0.1000,11052.03,4849.14,KXG7LEADEROUT-26JUL20-FMER
+Which G7 leader will leave office next?,Sanae Takaichi,2045-01-01,0.0100,0.0100,0.0300,1487.99,750.00,KXG7LEADEROUT-26JUL20-STAK
+Which G7 leader will leave office next?,Andy Burnham,2045-01-01,0.0100,0.0100,0.0500,2032.51,798.51,KXG7LEADEROUT-26JUL20-KSTA
+Who will be named as Xi Jinping's successor?,Ding Xuexiang,2045-01-01,0.1600,0.1100,0.1600,4874.68,1004.52,KXXISUCCESSOR-45JAN01-DXUE
+Who will be named as Xi Jinping's successor?,Chen Jining,2045-01-01,0.0670,0.0540,0.0880,6785.12,3126.60,KXXISUCCESSOR-45JAN01-CJIN
+Who will be named as Xi Jinping's successor?,Li Qiang,2045-01-01,0.0600,0.0610,0.1100,15801.96,1841.43,KXXISUCCESSOR-45JAN01-LQIA
+Who will be named as Xi Jinping's successor?,Li Xi,2045-01-01,0.0320,0.0260,0.0900,3228.53,1116.00,KXXISUCCESSOR-45JAN01-LXI
+Who will be named as Xi Jinping's successor?,Zhao Leji,2045-01-01,0.0300,0.0130,0.0970,3070.37,990.34,KXXISUCCESSOR-45JAN01-ZLEJ
+When will nuclear fusion be achieved?,Before 2030,2030-01-01,0.4980,0.4500,0.4900,39060.83,14827.89,KXFUSION-30-JAN01
+When will nuclear fusion be achieved?,Before 2035,2035-01-01,0.6900,0.5900,0.6900,9264.31,3701.14,KXFUSION-35-JAN01
+When will nuclear fusion be achieved?,Before 2040,2040-01-01,0.6100,0.6130,0.8790,12736.20,2542.90,KXFUSION-40-JAN01
+Which of these African leaders will leave office next?,William Ruto,2035-01-01,0.0310,0.0660,0.0740,2179.00,1425.00,KXAFRICALEADEROUT-35-WR
+Which of these African leaders will leave office next?,Cyril Ramaphosa,2035-01-01,0.1200,0.1500,0.1900,2374.74,1638.17,KXAFRICALEADEROUT-35-CR
+Which of these African leaders will leave office next?,Abdel Fattah el-Sisi,2035-01-01,0.0800,0.0310,0.0950,1095.12,1001.56,KXAFRICALEADEROUT-35-AFES
+Which of these African leaders will leave office next?,Paul Kagame,2035-01-01,0.0440,0.0030,0.0400,1843.06,1556.06,KXAFRICALEADEROUT-35-PK
+Which of these African leaders will leave office next?,Taye Atske Selassie,2035-01-01,0.0020,0.0010,0.0120,1048.00,730.00,KXAFRICALEADEROUT-35-TAS
+Which of these African leaders will leave office next?,Bola Tinubu,2035-01-01,0.2700,0.2600,0.2900,2799.85,2227.00,KXAFRICALEADEROUT-35-BT
+Which of these African leaders will leave office next?,Félix Tshisekedi,2035-01-01,0.0550,0.0430,0.0540,10497.64,2008.98,KXAFRICALEADEROUT-35-FT
+Which of these African leaders will leave office next?,Emmerson Mnangagwa,2035-01-01,0.0010,0.0010,0.0200,2308.08,1463.04,KXAFRICALEADEROUT-35-EM
+Which of these African leaders will leave office next?,John Mahama,2035-01-01,0.0500,0.0160,0.0540,253.00,170.00,KXAFRICALEADEROUT-35-JM
+Which of these African leaders will leave office next?,Abdelmadjid Tebboune,2035-01-01,0.0650,0.0300,0.0640,351.00,205.00,KXAFRICALEADEROUT-35-AT
+When will the US add a 51st state?,"Before Jan 20, 2029",2029-01-20,0.0960,0.0720,0.0950,90519.65,22994.25,KXSTATE-29
+When will the US add a 51st state?,"Before Jan 1, 2030",2030-01-01,0.0000,0.0600,0.1200,0.00,0.00,KXSTATE-29-30JAN01
+When will the US add a 51st state?,"Before Jan 1, 2031",2031-01-01,0.0000,0.0700,0.1400,0.00,0.00,KXSTATE-29-31JAN01
+When will the US add a 51st state?,"Before Jan 1, 2032",2032-01-01,0.1400,0.0800,0.1400,8.15,7.15,KXSTATE-29-32JAN01
+When will the US add a 51st state?,"Before Jan 1, 2033",2033-01-01,0.1700,0.0800,0.1600,5.00,5.00,KXSTATE-29-33JAN01
+When will the US add a 51st state?,"Before Jan 1, 2034",2034-01-01,0.2100,0.1000,0.1800,5.00,5.00,KXSTATE-29-34JAN01
+When will the US add a 51st state?,"Before Jan 1, 2035",2035-01-01,0.2500,0.1100,0.1900,8.31,7.31,KXSTATE-29-35JAN01
+Who will be the next Speaker of the House?,Hakeem Jeffries,2031-01-01,0.9910,0.9910,0.9940,1117360.56,575259.86,KXNEXTSPEAKER-31-HJEF
+Who will be the next Speaker of the House?,Jim Jordan,2031-01-01,0.0010,0.0000,0.0010,45325.42,31259.28,KXNEXTSPEAKER-31-JJOR
+Who will be the next Speaker of the House?,Steve Scalise,2031-01-01,0.0010,0.0000,0.0010,31825.60,23709.61,KXNEXTSPEAKER-31-SSCA
+Who will be the next Speaker of the House?,Katherine Clark,2031-01-01,0.0100,0.0000,0.0100,12916.80,8305.36,KXNEXTSPEAKER-31-KCLA
+Who will be the next Speaker of the House?,Pete Aguilar,2031-01-01,0.0100,0.0000,0.0100,2542.57,2542.57,KXNEXTSPEAKER-31-PAGU
+Who will be the next Speaker of the House?,Joe Neguse,2031-01-01,0.0100,0.0000,0.0100,43035.69,31111.68,KXNEXTSPEAKER-31-JNEG
+Who will be the next Speaker of the House?,Ted Lieu,2031-01-01,0.0100,0.0000,0.0100,10951.74,8819.14,KXNEXTSPEAKER-31-TLIE
+Who will be the next Speaker of the House?,Ro Khanna,2031-01-01,0.0100,0.0000,0.0100,118150.93,66549.98,KXNEXTSPEAKER-31-RKHA
+Who will be the next Speaker of the House?,Ayanna Pressley,2031-01-01,0.0080,0.0030,0.0080,221638.96,134721.46,KXNEXTSPEAKER-31-APRE
+When will any company achieve AGI?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,57129.54,16277.61,KXAGICO-COMP-26Q3
+When will any company achieve AGI?,"Before Dec 1, 2026",2026-12-01,0.0200,0.0100,0.0200,4571.52,3304.85,KXAGICO-COMP-26NOV
+When will any company achieve AGI?,"Before Jan 1, 2027",2027-01-01,0.0600,0.0500,0.0600,59707.94,28382.11,KXAGICO-COMP-26Q4
+When will any company achieve AGI?,"Before Apr 1, 2027",2027-04-01,0.1600,0.1200,0.1500,38629.47,23497.51,KXAGICO-COMP-27Q1
+When will any company achieve AGI?,"Before Jul 1, 2027",2027-07-01,0.2600,0.2600,0.2700,49044.16,19572.55,KXAGICO-COMP-27Q2
+When will any company achieve AGI?,"Before Oct 1, 2027",2027-10-01,0.3800,0.3600,0.3900,46390.95,22924.90,KXAGICO-COMP-27Q3
+When will any company achieve AGI?,"Before Jan 1, 2028",2028-01-01,0.4700,0.4700,0.4900,33643.61,15742.02,KXAGICO-COMP-27Q4
+When will any company achieve AGI?,"Before Apr 1, 2028",2028-04-01,0.6200,0.6200,0.6300,21326.61,14591.82,KXAGICO-COMP-28Q1
+When will any company achieve AGI?,"Before Jul 1, 2028",2028-07-01,0.6000,0.6000,0.6100,7909.00,6200.84,KXAGICO-COMP-28Q2
+When will any company achieve AGI?,"Before Oct 1, 2028",2028-10-01,0.6300,0.6100,0.6300,13507.71,10057.11,KXAGICO-COMP-28Q3
+When will any company achieve AGI?,"Before Jan 1, 2029",2029-01-01,0.7500,0.7000,0.7100,4645.20,2541.79,KXAGICO-COMP-28Q4
+When will any company achieve AGI?,"Before Jan 1, 2030",2030-01-01,0.7300,0.7100,0.7200,7667.72,3228.27,KXAGICO-COMP-29
+When will any company achieve AGI?,"Before Jan 1, 2031",2031-01-01,0.7700,0.7500,0.7600,11921.84,5356.21,KXAGICO-COMP-30
+How many Israeli elections until a government forms?,1,2030-10-28,0.6400,0.6400,0.7200,3066.65,1294.27,KXISRKNESSETCOUNT-26AUG28-E1
+How many Israeli elections until a government forms?,2,2030-10-28,0.2000,0.1500,0.2400,1849.46,1161.37,KXISRKNESSETCOUNT-26AUG28-E2
+How many Israeli elections until a government forms?,3,2030-10-28,0.0600,0.0300,0.1200,253.85,176.34,KXISRKNESSETCOUNT-26AUG28-E3
+How many Israeli elections until a government forms?,4,2030-10-28,0.0700,0.0000,0.0800,75.74,74.74,KXISRKNESSETCOUNT-26AUG28-E4
+How many Israeli elections until a government forms?,At least 5,2030-10-28,0.0600,0.0000,0.0600,58.00,58.00,KXISRKNESSETCOUNT-26AUG28-AL5
+Will South Korean President Lee Jae-myung serve their full term?,Yes,2030-07-01,0.6400,0.6200,0.6500,25208.90,9311.11,KXFULLTERMSKPRES-29
+Who will become Prime Minister of India after next general election?,Narendra Modi,2030-04-30,0.2900,0.3100,0.3600,4509.16,2162.44,KXINDIANPM-29APR30-NMOD
+Who will become Prime Minister of India after next general election?,Rahul Gandhi,2030-04-30,0.2700,0.2400,0.3100,9406.54,2101.01,KXINDIANPM-29APR30-RGAN
+Who will become Prime Minister of India after next general election?,Amit Shah,2030-04-30,0.0200,0.0100,0.0600,4737.00,1263.31,KXINDIANPM-29APR30-ASHA
+Who will become Prime Minister of India after next general election?,Yogi Adityanath,2030-04-30,0.1700,0.1300,0.1800,3905.85,1265.55,KXINDIANPM-29APR30-YADI
+Who will become Prime Minister of India after next general election?,Devendra Fadnavis,2030-04-30,0.0600,0.0100,0.0900,1196.59,1150.91,KXINDIANPM-29APR30-DFAD
+Who will become Prime Minister of India after next general election?,Priyanka Gandhi Vadra,2030-04-30,0.0700,0.0100,0.0700,2675.34,1104.80,KXINDIANPM-29APR30-PVAD
+Who will become Prime Minister of India after next general election?,N. Chandrababu Naidu,2030-04-30,0.0200,0.0100,0.0600,2343.69,1006.31,KXINDIANPM-29APR30-NNAI
+Who will become Prime Minister of India after next general election?,Nitin Gadkari,2030-04-30,0.0200,0.0100,0.0600,1426.69,1005.31,KXINDIANPM-29APR30-NGAD
+Who will become Prime Minister of India after next general election?,Akhilesh Yadav,2030-04-30,0.0300,0.0000,0.0300,5375.69,1006.31,KXINDIANPM-29APR30-AYAD
+2028 U.S. Vice-Presidential Election winner,Alexandria Ocasio-Cortez,2030-01-06,0.1000,0.0800,0.1000,10819.13,4174.09,KXVPRESPERSON-29-AOCA
+2028 U.S. Vice-Presidential Election winner,Elissa Slotkin,2030-01-06,0.0300,0.0200,0.0300,289.69,289.69,KXVPRESPERSON-29-ESLO
+2028 U.S. Vice-Presidential Election winner,Pete Buttigieg,2030-01-06,0.0300,0.0300,0.0700,5072.59,1650.55,KXVPRESPERSON-29-PBUT
+2028 U.S. Vice-Presidential Election winner,Wes Moore,2030-01-06,0.0600,0.0300,0.0600,1647.11,1647.11,KXVPRESPERSON-29-WMOO
+2028 U.S. Vice-Presidential Election winner,Andy Beshear,2030-01-06,0.0400,0.0400,0.0500,2060.12,1472.93,KXVPRESPERSON-29-ABES
+2028 U.S. Vice-Presidential Election winner,James Talarico,2030-01-06,0.1000,0.1000,0.1200,10834.13,8667.35,KXVPRESPERSON-29-JTAL
+2028 U.S. Vice-Presidential Election winner,Gretchen Whitmer,2030-01-06,0.0300,0.0300,0.0400,11827.14,2009.53,KXVPRESPERSON-29-GWHI
+2028 U.S. Vice-Presidential Election winner,Jon Ossoff,2030-01-06,0.0400,0.0400,0.0500,1456.49,1256.49,KXVPRESPERSON-29-JOSS
+2028 U.S. Vice-Presidential Election winner,Gavin Newsom,2030-01-06,0.0300,0.0100,0.0300,720.78,662.78,KXVPRESPERSON-29-GNEW
+2028 U.S. Vice-Presidential Election winner,Mark Kelly,2030-01-06,0.0900,0.0500,0.0900,1058.10,991.28,KXVPRESPERSON-29-MKEL
+2028 U.S. Vice-Presidential Election winner,Raphael Warnock,2030-01-06,0.0400,0.0200,0.0400,804.61,804.61,KXVPRESPERSON-29-RWAR
+2028 U.S. Vice-Presidential Election winner,Josh Shapiro,2030-01-06,0.0500,0.0200,0.0500,1334.77,1035.77,KXVPRESPERSON-29-JSHA
+2028 U.S. Vice-Presidential Election winner,Kamala Harris,2030-01-06,0.0400,0.0000,0.0300,5217.62,500.64,KXVPRESPERSON-29-KHAR
+2028 U.S. Vice-Presidential Election winner,Ro Khanna,2030-01-06,0.0200,0.0100,0.0200,1259.75,1259.75,KXVPRESPERSON-29-RKHA
+2028 U.S. Vice-Presidential Election winner,Michelle Obama,2030-01-06,0.0100,0.0000,0.0200,600.00,600.00,KXVPRESPERSON-29-MOBA
+2028 U.S. Vice-Presidential Election winner,Roy Cooper,2030-01-06,0.0200,0.0100,0.0300,366.14,282.48,KXVPRESPERSON-29-RCOO
+2028 U.S. Vice-Presidential Election winner,Marco Rubio,2030-01-06,0.0500,0.0300,0.0500,8242.04,4635.33,KXVPRESPERSON-29-MRUB
+2028 U.S. Vice-Presidential Election winner,J.D. Vance,2030-01-06,0.0200,0.0000,0.0200,280.74,280.74,KXVPRESPERSON-29-JVAN
+2028 U.S. Vice-Presidential Election winner,Donald J. Trump Jr.,2030-01-06,0.0100,0.0100,0.0200,641.00,641.00,KXVPRESPERSON-29-DTRJ
+2028 U.S. Vice-Presidential Election winner,Donald J. Trump,2030-01-06,0.0200,0.0100,0.0300,4712.50,3172.50,KXVPRESPERSON-29-DTRU
+2028 U.S. Vice-Presidential Election winner,Erika Kirk,2030-01-06,0.0100,0.0000,0.0200,760.37,760.37,KXVPRESPERSON-29-EKIR
+2028 U.S. Vice-Presidential Election winner,Ron DeSantis,2030-01-06,0.0200,0.0100,0.0300,2258.41,1520.89,KXVPRESPERSON-29-RDES
+2028 U.S. Vice-Presidential Election winner,Katie Britt,2030-01-06,0.0100,0.0100,0.0200,507.90,507.90,KXVPRESPERSON-29-KBRI
+2028 U.S. Vice-Presidential Election winner,Elise Stefanik,2030-01-06,0.0100,0.0100,0.0200,41.00,41.00,KXVPRESPERSON-29-ESTE
+2028 U.S. Vice-Presidential Election winner,Sarah Huckabee Sanders,2030-01-06,0.0100,0.0100,0.0300,40.00,40.00,KXVPRESPERSON-29-SSAN
+2028 U.S. Vice-Presidential Election winner,Glenn Youngkin,2030-01-06,0.0100,0.0100,0.0200,40.00,40.00,KXVPRESPERSON-29-GYOU
+2028 U.S. Vice-Presidential Election winner,Byron Donalds,2030-01-06,0.0100,0.0100,0.0200,41.00,41.00,KXVPRESPERSON-29-BDON
+What countries will hold referenda on leaving the EU?,Italy,2030-01-01,0.0100,0.0100,0.0550,1260.00,216.00,KXEUREF-30-ITA
+What countries will hold referenda on leaving the EU?,France,2030-01-01,0.0600,0.0100,0.0550,1422.75,182.63,KXEUREF-30-FRA
+What countries will hold referenda on leaving the EU?,Hungary,2030-01-01,0.0390,0.0100,0.0540,1877.46,467.32,KXEUREF-30-HUN
+What countries will hold referenda on leaving the EU?,Greece,2030-01-01,0.0100,0.0100,0.0550,1439.74,110.74,KXEUREF-30-GRE
+Which countries will vote to leave the EU before 2030?,Italy,2030-01-01,0.0100,0.0100,0.0870,4564.17,4081.17,KXEUEXITCOUNTRY-30-ITA
+Which countries will vote to leave the EU before 2030?,Germany,2030-01-01,0.0900,0.0100,0.0910,2650.61,1907.21,KXEUEXITCOUNTRY-30-GER
+Which countries will vote to leave the EU before 2030?,France,2030-01-01,0.0100,0.0430,0.1200,9746.41,9622.41,KXEUEXITCOUNTRY-30-FRA
+Which countries will vote to leave the EU before 2030?,Spain,2030-01-01,0.0450,0.0100,0.0670,1441.82,1333.82,KXEUEXITCOUNTRY-30-SPA
+Which countries will vote to leave the EU before 2030?,Poland,2030-01-01,0.1200,0.0710,0.1200,4063.06,1927.45,KXEUEXITCOUNTRY-30-POL
+Which countries will vote to leave the EU before 2030?,Hungary,2030-01-01,0.0840,0.0100,0.0670,4241.83,3559.83,KXEUEXITCOUNTRY-30-HUN
+When will Ukraine hold a presidential election?,Before 2027,2027-01-01,0.0300,0.0300,0.0400,18977.55,2209.30,KXELECTUKRAINE-30JAN01-27JAN01
+When will Ukraine hold a presidential election?,Before 2028,2028-01-01,0.1600,0.1300,0.1600,4491.33,2627.73,KXELECTUKRAINE-30JAN01-28JAN01
+When will Ukraine hold a presidential election?,Before 2029,2029-01-01,0.3700,0.0300,0.9400,2920.19,2198.71,KXELECTUKRAINE-30JAN01-29JAN01
+When will Ukraine hold a presidential election?,Before 2030,2030-01-01,0.7200,0.6600,0.7300,1406.73,351.13,KXELECTUKRAINE-30JAN01-30JAN01
+EU has a new member before 2030?,Any country,2030-01-01,0.7200,0.6900,0.7500,8449.30,2565.66,EUEXPANSION-30
+EU loses a member before 2030?,By 2030,2030-01-01,0.1200,0.0630,0.1200,35506.57,17378.18,EUEXIT-30
+China overtakes USA’s economy by 2030?,By 2030,2030-01-01,0.2000,0.1900,0.2000,134436.52,42413.04,CHINAUSGDP-30
+When will Xi Jinping visit Taiwan?,Before 2027,2027-01-01,0.0130,0.0110,0.0240,22515.18,11861.69,KXXITAIWAN-27JAN01
+When will Xi Jinping visit Taiwan?,Before 2028,2028-01-01,0.0960,0.0520,0.0890,12010.99,3785.77,KXXITAIWAN-28JAN01
+When will Xi Jinping visit Taiwan?,Before 2029,2029-01-01,0.1500,0.1500,0.3800,16060.80,4305.06,KXXITAIWAN-29JAN01
+When will Xi Jinping visit Taiwan?,Before 2030,2030-01-01,0.2700,0.1200,0.1600,8537.69,4155.59,KXXITAIWAN-30JAN01
+Will the US issue a Level 4 travel advisory for Taiwan?,"Before Jan 1, 2027",2027-01-01,0.0200,0.0110,0.0150,214472.92,118306.26,KXTAIWANLVL4-27JAN01
+Will the US issue a Level 4 travel advisory for Taiwan?,"Before Jan 1, 2028",2028-01-01,0.1200,0.1200,0.1300,52678.81,23617.22,KXTAIWANLVL4-28JAN01
+Will the US issue a Level 4 travel advisory for Taiwan?,"Before Jan 1, 2029",2029-01-01,0.3000,0.2900,0.3500,23853.75,7392.37,KXTAIWANLVL4-29JAN01
+Will the US issue a Level 4 travel advisory for Taiwan?,"Before Jan 1, 2030",2030-01-01,0.3300,0.3300,0.3800,25226.20,8554.12,KXTAIWANLVL4-30JAN01
+Will the US start the process of building a nuclear-powered data center on a military base before 2030?,Before 2030,2030-01-01,0.6000,0.5900,0.6100,11737.05,3680.61,KXDATACENTER-30
+Will China abolish hukou?,Before 2027,2027-01-01,0.0800,0.0000,0.0100,638.23,266.48,KXCHINAHUKOU-26JUL08-27JAN01
+Will China abolish hukou?,Before 2028,2028-01-01,0.1100,0.0300,0.0800,1584.77,1435.85,KXCHINAHUKOU-26JUL08-28JAN01
+Will China abolish hukou?,Before 2029,2029-01-01,0.1500,0.0500,0.1000,3760.75,1725.03,KXCHINAHUKOU-26JUL08-29JAN01
+Will China abolish hukou?,Before 2030,2030-01-01,0.1700,0.0300,0.1100,1479.73,1157.65,KXCHINAHUKOU-26JUL08-30JAN01
+When will OpenAI achieve AGI?,Before 2027,2027-01-01,0.0410,0.0400,0.0670,389477.72,180995.44,OAIAGI-26
+When will OpenAI achieve AGI?,Before 2028,2028-01-01,0.3910,0.3910,0.4390,310994.36,140517.97,OAIAGI-27
+When will OpenAI achieve AGI?,Before 2030,2030-01-01,0.6490,0.6010,0.6370,210853.75,84023.51,OAIAGI-29
+"2028: Who will win the Presidency, House, and Senate?",Democratic Sweep,2029-11-07,0.6600,0.6400,0.6600,169780.70,98681.16,POWER-28-DH-DS-DP
+"2028: Who will win the Presidency, House, and Senate?","D-House, D-Senate, R-President",2029-11-07,0.1400,0.1300,0.1400,44192.00,24284.30,POWER-28-DH-DS-RP
+"2028: Who will win the Presidency, House, and Senate?","D-House, R-Senate, D-President",2029-11-07,0.0400,0.0410,0.0470,51373.15,34342.47,POWER-28-DH-RS-DP
+"2028: Who will win the Presidency, House, and Senate?","D-House, R-Senate, R-President",2029-11-07,0.0030,0.0030,0.0080,60771.98,31360.00,POWER-28-DH-RS-RP
+"2028: Who will win the Presidency, House, and Senate?","R-House, D-Senate, D-President",2029-11-07,0.0290,0.0180,0.0290,47118.13,26733.13,POWER-28-RH-DS-DP
+"2028: Who will win the Presidency, House, and Senate?","R-House, D-Senate, R-President",2029-11-07,0.0550,0.0560,0.0570,37206.61,24701.49,POWER-28-RH-DS-RP
+"2028: Who will win the Presidency, House, and Senate?","R-House, R-Senate, D-President",2029-11-07,0.0030,0.0030,0.0040,44641.62,22000.07,POWER-28-RH-RS-DP
+"2028: Who will win the Presidency, House, and Senate?",Republican Sweep,2029-11-07,0.1200,0.1000,0.1100,139657.44,65425.36,POWER-28-RH-RS-RP
+2028 U.S. Presidential Election winner?,Gavin Newsom,2029-11-07,0.0810,0.0800,0.0810,5423863.98,2928288.15,KXPRESPERSON-28-GNEWS
+2028 U.S. Presidential Election winner?,Alexandria Ocasio-Cortez,2029-11-07,0.0910,0.0900,0.0910,5172524.39,3027302.33,KXPRESPERSON-28-AOCA
+2028 U.S. Presidential Election winner?,Pete Buttigieg,2029-11-07,0.0300,0.0290,0.0300,2994987.88,2242238.20,KXPRESPERSON-28-PBUT
+2028 U.S. Presidential Election winner?,Josh Shapiro,2029-11-07,0.0270,0.0260,0.0270,2664084.08,1862703.92,KXPRESPERSON-28-JSHA
+2028 U.S. Presidential Election winner?,Kamala Harris,2029-11-07,0.0350,0.0330,0.0350,3666529.08,2610838.02,KXPRESPERSON-28-KHAR
+2028 U.S. Presidential Election winner?,Wes Moore,2029-11-07,0.0180,0.0170,0.0180,2923009.77,2006176.18,KXPRESPERSON-28-WMOO
+2028 U.S. Presidential Election winner?,Andy Beshear,2029-11-07,0.0270,0.0260,0.0270,3097852.39,2622913.33,KXPRESPERSON-28-ABES
+2028 U.S. Presidential Election winner?,J.B. Pritzker,2029-11-07,0.0190,0.0190,0.0200,3628031.91,2404623.13,KXPRESPERSON-28-JPRI
+2028 U.S. Presidential Election winner?,J.D. Vance,2029-11-07,0.1300,0.1300,0.1400,5893771.72,3053068.34,KXPRESPERSON-28-JVAN
+2028 U.S. Presidential Election winner?,Donald J. Trump,2029-11-07,0.0110,0.0100,0.0110,4353986.93,2906327.42,KXPRESPERSON-28-DTRU
+2028 U.S. Presidential Election winner?,Marco Rubio,2029-11-07,0.0880,0.0870,0.0880,6549270.13,2932287.01,KXPRESPERSON-28-MRUB
+2028 U.S. Presidential Election winner?,Ron DeSantis,2029-11-07,0.0570,0.0540,0.0570,3940673.90,3095544.36,KXPRESPERSON-28-RDES
+2028 U.S. Presidential Election winner?,Jon Ossoff,2029-11-07,0.1800,0.1700,0.1800,6782494.69,3621382.52,KXPRESPERSON-28-JOSS
+2028 U.S. Presidential Election winner?,Mark Kelly,2029-11-07,0.0220,0.0210,0.0220,3112205.10,2511467.17,KXPRESPERSON-28-MKEL
+2028 U.S. Presidential Election winner?,Tucker Carlson,2029-11-07,0.0110,0.0090,0.0110,3333028.97,2099754.44,KXPRESPERSON-28-TCAR
+2028 U.S. Presidential Election winner?,Thomas Massie,2029-11-07,0.0130,0.0110,0.0130,2490782.19,2220949.85,KXPRESPERSON-28-TMAS
+2028 U.S. Presidential Election winner?,Rahm Emanuel,2029-11-07,0.0140,0.0130,0.0140,2338443.91,2202881.04,KXPRESPERSON-28-REMA
+2028 U.S. Presidential Election winner?,James Talarico,2029-11-07,0.0110,0.0110,0.0120,3500319.87,2880821.91,KXPRESPERSON-28-JTAL
+2028 U.S. Presidential Election winner?,Ro Khanna,2029-11-07,0.0100,0.0090,0.0100,1224235.32,1057351.02,KXPRESPERSON-28-RKHA
+2028 U.S. Presidential Election winner?,Ted Cruz,2029-11-07,0.0120,0.0100,0.0120,1266291.61,1265544.61,KXPRESPERSON-28-TCRU
+2028 U.S. Presidential Election winner?,Raphael Warnock,2029-11-07,0.0240,0.0210,0.0240,1109052.28,1086442.02,KXPRESPERSON-28-RWAR
+2028 U.S. Presidential Election winner?,John McEntee,2029-11-07,0.0140,0.0100,0.0140,1724033.20,1336118.16,KXPRESPERSON-28-JMCE
+2028 Presidential Election winner? (Party),Democratic party,2029-11-07,0.6700,0.6700,0.6800,476559.89,226106.23,KXPRESPARTY-2028-D
+2028 Presidential Election winner? (Party),Republican party,2029-11-07,0.3400,0.3300,0.3400,414396.82,215232.42,KXPRESPARTY-2028-R
+South Carolina Senate winner? (2028),Republican party,2029-11-07,0.6900,0.7100,0.7300,12966.60,5212.85,SENATESC-28-R
+South Carolina Senate winner? (2028),Democratic party,2029-11-07,0.2900,0.2400,0.3100,21232.14,9400.06,SENATESC-28-D
+Ohio Senate winner? (2028),Democratic party,2029-11-07,0.5100,0.5000,0.5100,36855.81,2919.38,SENATEOH-28-D
+Ohio Senate winner? (2028),Republican party,2029-11-07,0.4500,0.4600,0.4800,10970.07,1518.75,SENATEOH-28-R
+North Carolina Senate winner? (2028),Democratic party,2029-11-07,0.7000,0.6900,0.7000,41023.72,7590.94,SENATENC-28-D
+North Carolina Senate winner? (2028),Republican party,2029-11-07,0.2800,0.2500,0.3000,45913.57,13259.64,SENATENC-28-R
+Arizona Senate winner? (2028),Democratic party,2029-11-07,0.6700,0.6700,0.7100,12142.43,2396.69,SENATEAZ-28-D
+Arizona Senate winner? (2028),Republican party,2029-11-07,0.2800,0.2800,0.2900,11346.31,6068.28,SENATEAZ-28-R
+Turkish presidential election: first round winner?,Recep Tayyip Erdoğan,2029-05-07,0.7000,0.6200,0.6900,12896.77,418.48,KXPRESTURKEYR1-28-RTAY
+Turkish presidential election: first round winner?,Ekrem İmamoğlu,2029-05-07,0.2100,0.2000,0.2200,13491.14,926.00,KXPRESTURKEYR1-28-EIMA
+Turkish presidential election: first round winner?,Mansur Yavaş,2029-05-07,0.0590,0.0020,0.0590,18.00,8.00,KXPRESTURKEYR1-28-MYAV
+2028 U.S. Senate winner?,Democratic party,2029-02-01,0.8800,0.8700,0.8800,147839.56,32372.38,CONTROLS-2028-D
+2028 U.S. Senate winner?,Republican party,2029-02-01,0.1000,0.1000,0.1100,78891.22,33629.33,CONTROLS-2028-R
+2028 U.S. House winner?,Democratic party,2029-02-01,0.8100,0.8000,0.8100,55534.27,17219.06,CONTROLH-2028-D
+2028 U.S. House winner?,Republican party,2029-02-01,0.2200,0.2000,0.2200,28649.99,9035.66,CONTROLH-2028-R
+Taiwan presidential election winner?,William Lai,2029-01-30,0.7000,0.6600,0.7000,8160.41,2692.57,KXPRESTAIWAN-28-WLAI
+Taiwan presidential election winner?,Hou Yu-ih,2029-01-30,0.0250,0.0010,0.0950,1811.42,553.52,KXPRESTAIWAN-28-HYUI
+Taiwan presidential election winner?,Terry Gou,2029-01-30,0.0990,0.0010,0.0960,1586.02,547.00,KXPRESTAIWAN-28-TGOU
+Taiwan presidential election winner?,Cheng Li-wun,2029-01-30,0.0600,0.0500,0.1400,10.64,0.00,KXPRESTAIWAN-28-CLIW
+How much will the US acquire Greenland for?,$0 / No Acquisition,2029-01-22,0.9220,0.9220,0.9240,896099.45,176216.57,KXGREENLANDPRICE-29JAN21-NOACQ
+How much will the US acquire Greenland for?,$1 billion to $9 billion,2029-01-22,0.0200,0.0020,0.0210,104828.14,55310.79,KXGREENLANDPRICE-29JAN21-5B
+How much will the US acquire Greenland for?,$10 billion to $99 billion,2029-01-22,0.0280,0.0010,0.0290,131585.25,73604.85,KXGREENLANDPRICE-29JAN21-54B
+How much will the US acquire Greenland for?,$100 billion to $299 billion,2029-01-22,0.0290,0.0100,0.0290,121352.25,71059.46,KXGREENLANDPRICE-29JAN21-199B
+How much will the US acquire Greenland for?,$300 billion to $599 billion,2029-01-22,0.0240,0.0110,0.0260,121643.63,69488.55,KXGREENLANDPRICE-29JAN21-449B
+How much will the US acquire Greenland for?,$600 billion to $899 billion,2029-01-22,0.0280,0.0010,0.0290,203939.21,73273.37,KXGREENLANDPRICE-29JAN21-749B
+How much will the US acquire Greenland for?,$900 billion to $1199 billion,2029-01-22,0.0070,0.0050,0.0070,132703.39,64591.84,KXGREENLANDPRICE-29JAN21-1049B
+How much will the US acquire Greenland for?,$1.2 trillion or more,2029-01-22,0.0070,0.0060,0.0070,94483.22,58041.45,KXGREENLANDPRICE-29JAN21-1200B
+Will the US acquire any new territory?,Before Jan 2027,2027-01-01,0.0110,0.0110,0.0120,177345.31,35290.40,KXUSAEXPANDTERRITORY-27JAN01
+Will the US acquire any new territory?,Before Jan 2028,2028-01-01,0.0840,0.0610,0.0840,118011.72,31402.34,KXUSAEXPANDTERRITORY-28JAN01
+Will the US acquire any new territory?,"Before Jan 21, 2029",2029-01-21,0.1100,0.1100,0.1300,110470.31,26697.94,KXUSAEXPANDTERRITORY-29JAN21
+Will the US take control of any part of Greenland?,Before 2027,2027-01-01,0.0110,0.0110,0.0220,566277.78,129874.55,KXGREENTERRITORY-29-27
+Will the US take control of any part of Greenland?,"Before January 21, 2029",2029-01-21,0.1000,0.1000,0.1100,3020634.88,313306.11,KXGREENTERRITORY-29
+New Supreme Court justice confirmed?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,17364.94,10338.98,KXSCOTUSN-25DEC31-26OCT
+New Supreme Court justice confirmed?,Before 2027,2027-01-01,0.0210,0.0200,0.0370,239423.91,97841.10,KXSCOTUSN-25DEC31-27
+New Supreme Court justice confirmed?,Before June 2027,2027-06-01,0.0300,0.0300,0.0400,13946.74,5449.09,KXSCOTUSN-25DEC31-27MAY31
+New Supreme Court justice confirmed?,Before 2028,2028-01-01,0.1100,0.0900,0.1100,5686.19,2456.86,KXSCOTUSN-25DEC31-28
+New Supreme Court justice confirmed?,"Before Jan 21, 2029",2029-01-21,0.1500,0.1500,0.1600,3782.58,1737.97,KXSCOTUSN-29JAN20
+Who will be the next Supreme Court justice in Trump's term?,Andrew Oldham,2029-01-21,0.0150,0.0120,0.0280,44135.48,15549.29,KXSCOURT-29-AO
+Who will be the next Supreme Court justice in Trump's term?,Lawrence VanDyke,2029-01-21,0.0190,0.0020,0.0100,18513.35,13414.65,KXSCOURT-29-LVD
+Who will be the next Supreme Court justice in Trump's term?,Kathryn Mizelle,2029-01-21,0.0100,0.0020,0.0140,18119.07,13828.64,KXSCOURT-29-KM
+Who will be the next Supreme Court justice in Trump's term?,Michael Park,2029-01-21,0.0260,0.0250,0.0270,17159.09,14252.22,KXSCOURT-29-MP
+Who will be the next Supreme Court justice in Trump's term?,David Stras,2029-01-21,0.0170,0.0020,0.0060,13211.77,10661.74,KXSCOURT-29-DS
+Who will be the next Supreme Court justice in Trump's term?,Allison Jones Rushing,2029-01-21,0.0220,0.0020,0.0090,12977.45,10669.90,KXSCOURT-29-AJR
+Who will be the next Supreme Court justice in Trump's term?,Mike Lee,2029-01-21,0.0300,0.0200,0.0300,26441.45,15887.04,KXSCOURT-29-ML
+Who will be the next Supreme Court justice in Trump's term?,Ted Cruz,2029-01-21,0.0410,0.0410,0.0490,51535.54,25955.20,KXSCOURT-29-TED
+Who will be the next Supreme Court justice in Trump's term?,Emil Bove,2029-01-21,0.0400,0.0220,0.0230,18032.97,13671.75,KXSCOURT-29-EBOV
+Who will be the next Supreme Court justice in Trump's term?,D. John Sauer,2029-01-21,0.0100,0.0100,0.0200,21455.39,12854.09,KXSCOURT-29-JSAU
+Who will be the next Supreme Court justice in Trump's term?,Ron DeSantis,2029-01-21,0.0100,0.0000,0.0100,19598.57,13064.79,KXSCOURT-29-RDES
+Who will be the next Supreme Court justice in Trump's term?,Yaakov Roth,2029-01-21,0.0100,0.0000,0.0100,333.01,60.00,KXSCOURT-29-YROT
+Who will be the next Supreme Court justice in Trump's term?,Anna St. John,2029-01-21,0.0100,0.0000,0.0100,334.02,179.01,KXSCOURT-29-AJOH
+Who will be the next Supreme Court justice in Trump's term?,Steven Menashi,2029-01-21,0.0200,0.0000,0.0100,6527.30,6277.10,KXSCOURT-29-SMEN
+Who will be the next Supreme Court justice in Trump's term?,Matthew Schwartz,2029-01-21,0.0100,0.0000,0.0100,5110.00,5110.00,KXSCOURT-29-MSCH
+Who will be the next Supreme Court justice in Trump's term?,Eric Tung,2029-01-21,0.0100,0.0000,0.0100,4345.56,4220.55,KXSCOURT-29-ETUN
+Will Kim Jong-Un visit the US during Trump's term?,During Trump's term,2029-01-20,0.1300,0.0910,0.1300,18785.84,4911.61,KXUSAKIM-29
+Will Trump be impeached and removed from office?,"Before Jul 1, 2027",2027-07-01,0.0700,0.0600,0.0900,8053.03,6136.35,KXTRUMPREMOVE-27JUL01
+Will Trump be impeached and removed from office?,"Before Jan 1, 2028",2028-01-01,0.1500,0.1300,0.1400,5902.63,4407.02,KXTRUMPREMOVE-28JAN01
+Will Trump be impeached and removed from office?,Before his term ends,2029-01-20,0.2100,0.1900,0.2000,1021900.33,299607.10,KXTRUMPREMOVE
+What will be the 51st state in Trump's term?,District of Columbia,2029-01-20,0.0120,0.0110,0.0120,138644.89,76920.84,KXSTATE51-29-DC
+What will be the 51st state in Trump's term?,Puerto Rico,2029-01-20,0.0210,0.0200,0.0210,230115.36,79543.78,KXSTATE51-29-PR
+What will be the 51st state in Trump's term?,Canada,2029-01-20,0.0170,0.0160,0.0170,243648.29,106354.34,KXSTATE51-29-CA
+What will be the 51st state in Trump's term?,Greenland,2029-01-20,0.0160,0.0150,0.0160,462767.46,151151.00,KXSTATE51-29-GL
+What will be the 51st state in Trump's term?,Venezuela,2029-01-20,0.0180,0.0180,0.0190,446344.53,117723.01,KXSTATE51-29-VE
+What will be the 51st state in Trump's term?,Guam,2029-01-20,0.0120,0.0110,0.0120,87569.30,60920.98,KXSTATE51-29-GU
+What will be the 51st state in Trump's term?,Colombia,2029-01-20,0.0020,0.0030,0.0040,129041.50,59167.29,KXSTATE51-29-CO
+What will be the 51st state in Trump's term?,Cuba,2029-01-20,0.0400,0.0300,0.0400,277247.94,108228.27,KXSTATE51-29-CU
+Which Supreme Court justices will resign during Trump's term?,Sonia Sotomayor,2029-01-20,0.0710,0.0610,0.0850,11672.83,5948.98,KXSCOTUSRESIGN-29-SS
+Which Supreme Court justices will resign during Trump's term?,Clarence Thomas,2029-01-20,0.2100,0.2000,0.2100,49470.56,11464.37,KXSCOTUSRESIGN-29-CT
+Which Supreme Court justices will resign during Trump's term?,Samuel Alito,2029-01-20,0.1700,0.1200,0.1700,58875.16,17298.43,KXSCOTUSRESIGN-29-SA
+Which Supreme Court justices will resign during Trump's term?,John Roberts,2029-01-20,0.1900,0.1100,0.1700,6667.91,3447.28,KXSCOTUSRESIGN-29-JR
+Which Supreme Court justices will resign during Trump's term?,Elena Kagan,2029-01-20,0.0200,0.0200,0.0700,80.65,71.65,KXSCOTUSRESIGN-29-EK
+Which Supreme Court justices will resign during Trump's term?,Neil Gorsuch,2029-01-20,0.0100,0.0100,0.0300,14.00,4.00,KXSCOTUSRESIGN-29-NG
+Which Supreme Court justices will resign during Trump's term?,Brett Kavanaugh,2029-01-20,0.0700,0.0100,0.0500,8.00,4.00,KXSCOTUSRESIGN-29-BK
+Which Supreme Court justices will resign during Trump's term?,Amy Coney Barrett,2029-01-20,0.0200,0.0200,0.0700,1213.28,1172.00,KXSCOTUSRESIGN-29-ACB
+Which Supreme Court justices will resign during Trump's term?,Ketanji Brown Jackson,2029-01-20,0.0100,0.0100,0.0600,370.50,307.16,KXSCOTUSRESIGN-29-KBJ
+What will the Supreme Court look like at the end of Trump's term?,6 Conservatives and 3 Liberals,2029-01-20,0.7200,0.7100,0.7200,13312.05,6181.04,KXSCOTUSPOWER-29-29JAN20-R6-3
+What will the Supreme Court look like at the end of Trump's term?,7 Conservatives and 2 Liberals,2029-01-20,0.0640,0.0630,0.0640,7701.76,4295.89,KXSCOTUSPOWER-29-29JAN20-R7-2
+What will the Supreme Court look like at the end of Trump's term?,8 Conservatives and 1 Liberals,2029-01-20,0.0120,0.0110,0.0120,12043.10,5936.00,KXSCOTUSPOWER-29-29JAN20-R8-1
+What will the Supreme Court look like at the end of Trump's term?,9 Conservatives and 0 Liberals,2029-01-20,0.0110,0.0110,0.0120,10371.42,6017.80,KXSCOTUSPOWER-29-29JAN20-R9-0
+What will the Supreme Court look like at the end of Trump's term?,Not nine justices,2029-01-20,0.2100,0.2000,0.2100,15479.43,7554.29,KXSCOTUSPOWER-29-29JAN20-R0-0
+Will the U.S. recognize Taiwan?,"Before Jan 1, 2027",2027-01-01,0.0100,0.0100,0.0200,9290.99,3232.79,KXRECOGROC-29-27
+Will the U.S. recognize Taiwan?,"Before Jan 1, 2028",2028-01-01,0.0500,0.0400,0.1200,5.00,5.00,KXRECOGROC-29-28
+Will the U.S. recognize Taiwan?,"Before Jan 20, 2029",2029-01-20,0.1100,0.1200,0.1700,31700.89,8789.33,KXRECOGROC-29
+"Who will leave office first: RFK Jr., Hegseth, or Patel?",Robert F. Kennedy Jr.,2029-01-20,0.3900,0.3400,0.3900,11018.93,5915.50,KXNEXTOUTUS-26SEP28-RFK
+"Who will leave office first: RFK Jr., Hegseth, or Patel?",Pete Hegseth,2029-01-20,0.5100,0.4600,0.5000,13772.08,6463.13,KXNEXTOUTUS-26SEP28-PHEG
+"Who will leave office first: RFK Jr., Hegseth, or Patel?",Kash Patel,2029-01-20,0.1700,0.1600,0.1700,11980.97,5426.40,KXNEXTOUTUS-26SEP28-KPAT
+Who will be Trump's next Secretary of Defense?,Mike Waltz,2029-01-20,0.0460,0.0010,0.0200,3216.88,2458.88,KXNEXTDEF-29-MWAL
+Who will be Trump's next Secretary of Defense?,Mike Pompeo,2029-01-20,0.0110,0.0010,0.0200,2111.20,2096.20,KXNEXTDEF-29-MPOM
+Who will be Trump's next Secretary of Defense?,Tom Cotton,2029-01-20,0.0190,0.0020,0.0150,2994.75,2270.25,KXNEXTDEF-29-TCOT
+Who will be Trump's next Secretary of Defense?,Mike Rogers,2029-01-20,0.0110,0.0010,0.0280,1665.21,1651.21,KXNEXTDEF-29-MROG
+Who will be Trump's next Secretary of Defense?,Steve Feinberg,2029-01-20,0.0580,0.0110,0.0520,1376.50,1309.46,KXNEXTDEF-29-SFEI
+Who will be Trump's next Secretary of Defense?,Joni Ernst,2029-01-20,0.0110,0.0070,0.0620,1111.60,878.45,KXNEXTDEF-29-JERN
+Who will be Trump's next Secretary of Defense?,Trae Stephens,2029-01-20,0.0200,0.0020,0.0150,260.95,245.95,KXNEXTDEF-29-TSTE
+Who will be Trump's next Secretary of Defense?,Christopher Miller,2029-01-20,0.0200,0.0020,0.0150,495.90,480.90,KXNEXTDEF-29-CMIL
+Who will be Trump's next Secretary of Defense?,Ron DeSantis,2029-01-20,0.0340,0.0310,0.0830,17655.69,8849.09,KXNEXTDEF-29-RDES
+Who will be Trump's next Secretary of Defense?,Bill Hagerty,2029-01-20,0.0200,0.0020,0.0150,31.67,16.67,KXNEXTDEF-29-BHAG
+Who will be Trump's next Secretary of Defense?,Wesley Hunt,2029-01-20,0.0100,0.0020,0.0200,1184.00,710.00,KXNEXTDEF-29-WHUN
+Who will be Trump's next Secretary of Defense?,Mike Gallagher,2029-01-20,0.0150,0.0020,0.0150,180.16,165.16,KXNEXTDEF-29-MGAL
+Who will be Trump's next Secretary of Defense?,No other person,2029-01-20,0.3000,0.3000,0.3100,20449.29,10346.37,KXNEXTDEF-29-NONE
+Who will be Trump's next Secretary of Defense?,Dan Driscoll,2029-01-20,0.1500,0.0900,0.1000,7122.24,3512.75,KXNEXTDEF-29-DDRI
+Who will be Trump's next Secretary of Defense?,Dan Sullivan,2029-01-20,0.2800,0.2500,0.2900,5693.88,5223.52,KXNEXTDEF-29-DSUL
+How many Supreme Court justices will the President confirm?,0,2029-01-20,0.8000,0.7500,0.8200,48731.06,17708.29,KXNEWSCOTUSCONF-29JAN20-0
+How many Supreme Court justices will the President confirm?,1,2029-01-20,0.0200,0.0200,0.0270,42613.53,10808.53,KXNEWSCOTUSCONF-29JAN20-1
+How many Supreme Court justices will the President confirm?,2,2029-01-20,0.1600,0.0410,0.0660,60948.56,9333.73,KXNEWSCOTUSCONF-29JAN20-2
+How many Supreme Court justices will the President confirm?,3,2029-01-20,0.0060,0.0060,0.0200,28967.91,10043.21,KXNEWSCOTUSCONF-29JAN20-3
+How many Supreme Court justices will the President confirm?,4,2029-01-20,0.0030,0.0030,0.0150,31278.35,10937.72,KXNEWSCOTUSCONF-29JAN20-4
+How many Supreme Court justices will the President confirm?,5,2029-01-20,0.0020,0.0020,0.0100,7700.00,3999.00,KXNEWSCOTUSCONF-29JAN20-5
+How many Supreme Court justices will the President confirm?,6,2029-01-20,0.0100,0.0030,0.0100,4672.00,3792.00,KXNEWSCOTUSCONF-29JAN20-6
+How many Supreme Court justices will the President confirm?,7,2029-01-20,0.0020,0.0020,0.0100,1312.00,1107.00,KXNEWSCOTUSCONF-29JAN20-7
+How many Supreme Court justices will the President confirm?,8,2029-01-20,0.0020,0.0020,0.0100,870.00,766.00,KXNEWSCOTUSCONF-29JAN20-8
+How many Supreme Court justices will the President confirm?,9,2029-01-20,0.0020,0.0020,0.0100,998.94,862.94,KXNEWSCOTUSCONF-29JAN20-9
+Will Trump impose martial law?,"Before Jan 1, 2027",2027-01-01,0.0400,0.0200,0.0400,25041.24,13170.65,KXMARTIAL-29JAN20-27JAN01
+Will Trump impose martial law?,"Before Jan 1, 2028",2028-01-01,0.0700,0.0600,0.1100,7169.93,3683.22,KXMARTIAL-29JAN20-28JAN01
+Will Trump impose martial law?,"Before Jan 20, 2029",2029-01-20,0.1200,0.1200,0.1300,108938.41,53834.54,KXMARTIAL-29JAN20
+Will Trump invoke the Insurrection Act?,"Before Dec 1, 2026",2026-12-01,0.0100,0.0000,0.0200,1046.23,898.24,KXINSURRECTION-29-26DEC01
+Will Trump invoke the Insurrection Act?,"Before Jan 1, 2027",2027-01-01,0.0400,0.0390,0.0400,446248.17,156086.33,KXINSURRECTION-29-27
+Will Trump invoke the Insurrection Act?,"Before Jan 1, 2028",2028-01-01,0.2200,0.1800,0.2200,2200.92,1492.52,KXINSURRECTION-29-28
+Will Trump invoke the Insurrection Act?,"Before Jan 20, 2029",2029-01-20,0.3000,0.3000,0.3100,233237.26,47202.30,KXINSURRECTION-29
+Will a cabinet member be impeached?,"Before Jan 1, 2027",2027-01-01,0.0570,0.0210,0.0570,128140.41,26011.08,KXIMPEACHCABINET-27JAN01
+Will a cabinet member be impeached?,"Before Feb 1, 2027",2027-02-01,0.7900,0.2100,0.2900,11.71,11.71,KXIMPEACHCABINET-27FEB01
+Will a cabinet member be impeached?,"Before Apr 1, 2027",2027-04-01,0.8000,0.7700,0.8000,11025.43,7875.45,KXIMPEACHCABINET-27APR01
+Will a cabinet member be impeached?,"Before Jul 1, 2027",2027-07-01,0.8200,0.8200,0.8400,4100.42,3194.06,KXIMPEACHCABINET-27JUL01
+Will a cabinet member be impeached?,"Before Oct 1, 2027",2027-10-01,0.8300,0.8200,0.9000,622.44,571.65,KXIMPEACHCABINET-27OCT01
+Will a cabinet member be impeached?,"Before Jan 1, 2028",2028-01-01,0.8400,0.8400,0.8600,43309.20,18628.99,KXIMPEACHCABINET-28JAN01
+Will a cabinet member be impeached?,"Before Jan 20, 2029",2029-01-20,0.9000,0.9010,0.9280,7855.69,1917.75,KXIMPEACHCABINET-29JAN20
+Will Trump be impeached during his term?,"Before Jan 20, 2029",2029-01-20,0.6700,0.6600,0.6700,1059662.16,322692.64,KXIMPEACH-29-JAN20
+Will Trump buy at least part of Greenland?,Before 2027,2027-01-01,0.0150,0.0120,0.0150,1742109.07,405494.01,KXGREENLAND-29-27
+Will Trump buy at least part of Greenland?,"Before January 20, 2029",2029-01-20,0.1500,0.1200,0.1500,3581557.61,287077.06,KXGREENLAND-29
+Will the U.S. enact a free trade agreement with China?,"Before Jan 20, 2029",2029-01-20,0.1800,0.1500,0.1800,71510.14,11061.69,KXFTAPRC-29
+Will the U.S. enact a free trade agreement?,"Before Jan 1, 2028",2028-01-01,0.0000,0.1400,0.2200,0.00,0.00,KXFTA-29-28JAN01
+Will the U.S. enact a free trade agreement?,"Before Jan 20, 2029",2029-01-20,0.4000,0.3500,0.3800,25697.53,8138.70,KXFTA-29
+Will a new Constitutional Amendment be added during Trump's term?,During Trump's term,2029-01-20,0.0960,0.0650,0.0960,42048.70,12326.85,KXCONSTAMEND-29-JAN20
+Will Section IV of the 25th Amendment be used during Trump's Presidency?,"Before Jan 1, 2027",2027-01-01,0.0200,0.0100,0.0200,17492.69,15784.16,KXAMEND25-29-27JAN01
+Will Section IV of the 25th Amendment be used during Trump's Presidency?,"Before Jan 1, 2028",2028-01-01,0.1000,0.0700,0.0900,13338.45,6931.31,KXAMEND25-29-28JAN01
+Will Section IV of the 25th Amendment be used during Trump's Presidency?,"Before Jan 20, 2029",2029-01-20,0.1300,0.1200,0.1300,229662.34,80275.02,KXAMEND25-29
+Will Israel and Syria normalize relations during Trump's term?,"Before Jan 20, 2029",2029-01-20,0.1600,0.0810,0.1600,39695.18,8303.68,KXABRAHAMSY-29-JAN20
+Will Israel and Saudi Arabia normalize relations during Trump's term?,During Trump's term,2029-01-20,0.2000,0.1600,0.2000,98712.82,40454.71,KXABRAHAMSA-29-JAN20
+Will Israel and Qatar normalize relations during Trump's term?,"Before Jan 20, 2029",2029-01-20,0.0970,0.0610,0.0890,17508.24,5956.80,KXABRAHAMQ-29-JAN20
+Will Trump visit Greenland?,"Before Jan 1, 2027",2027-01-01,0.0300,0.0100,0.0400,4032.90,1968.12,KXVISITGREENLAND-26JUL07-27JAN01
+Will Trump visit Greenland?,"Before Jan 1, 2028",2028-01-01,0.1200,0.1100,0.1200,3500.69,1871.07,KXVISITGREENLAND-26JUL07-28JAN01
+Will Trump visit Greenland?,"Before Jan 20, 2029",2029-01-20,0.3400,0.1900,0.2600,1716.63,1638.11,KXVISITGREENLAND-26JUL07-29JAN20
+US-Iran nuclear deal?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,1142573.80,697260.41,KXUSAIRANAGREEMENT-27-26OCT
+US-Iran nuclear deal?,"Before Nov 1, 2026",2026-11-01,0.0100,0.0000,1.0000,1738516.07,1110567.58,KXUSAIRANAGREEMENT-27-26NOV
+US-Iran nuclear deal?,"Before Dec 1, 2026",2026-12-01,0.0100,0.0100,0.0200,860305.03,507587.04,KXUSAIRANAGREEMENT-27-26DEC
+US-Iran nuclear deal?,"Before Jan 1, 2027",2027-01-01,0.0670,0.0370,0.0590,2083319.13,564120.93,KXUSAIRANAGREEMENT-27
+US-Iran nuclear deal?,"Before Feb 1, 2027",2027-02-01,0.0600,0.0500,0.0700,73980.23,39823.75,KXUSAIRANAGREEMENT-27-27FEB
+US-Iran nuclear deal?,"Before Mar 1, 2027",2027-03-01,0.0800,0.0800,0.0900,120681.46,62652.46,KXUSAIRANAGREEMENT-27-27MAR
+US-Iran nuclear deal?,"Before Jul 1, 2027",2027-07-01,0.2100,0.2000,0.2200,2163.60,1513.45,KXUSAIRANAGREEMENT-27-27JUL
+US-Iran nuclear deal?,"Before Oct 1, 2027",2027-10-01,0.2000,0.2000,0.2400,821.40,646.48,KXUSAIRANAGREEMENT-27-27OCT
+US-Iran nuclear deal?,"Before Jan 1, 2028",2028-01-01,0.2800,0.2900,0.3200,149486.24,46746.25,KXUSAIRANAGREEMENT-27-28
+US-Iran nuclear deal?,"Before Jan 20, 2029",2029-01-20,0.3600,0.3500,0.3600,151168.93,32060.00,KXUSAIRANAGREEMENT-27-29JAN20
+Donald Trump announces departure as President? (Excluding death),Before 2027,2027-01-01,0.0170,0.0170,0.0200,6859449.21,2524772.20,KXTRUMPOUT27-27-DJT
+Donald Trump announces departure as President? (Excluding death),Before 2028,2028-01-01,0.1700,0.1700,0.1800,1013079.75,450135.72,KXTRUMPOUT27-27-28
+Donald Trump announces departure as President? (Excluding death),"Before January 20, 2029",2029-01-20,0.3000,0.2900,0.3000,658888.94,252950.92,KXTRUMPOUT27-27-JAN2029
+2028 Presidential race: exact outcome,Gavin Newsom defeats Marco Rubio,2029-01-20,0.0500,0.0300,0.0400,15995.44,9857.87,KXPRESOUTCOME-28NOV07-GNEWMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats Gavin Newsom,2029-01-20,0.0100,0.0100,0.0200,16504.09,7672.09,KXPRESOUTCOME-28NOV07-GNEWMRUBR
+2028 Presidential race: exact outcome,Gavin Newsom defeats JD Vance,2029-01-20,0.0500,0.0200,0.0300,23480.26,12268.98,KXPRESOUTCOME-28NOV07-GNEWJVAND
+2028 Presidential race: exact outcome,JD Vance defeats Gavin Newsom,2029-01-20,0.0600,0.0500,0.0600,22333.40,10308.51,KXPRESOUTCOME-28NOV07-GNEWJVANR
+2028 Presidential race: exact outcome,Andy Beshear defeats JD Vance,2029-01-20,0.0300,0.0100,0.0200,3792.36,3142.52,KXPRESOUTCOME-28NOV07-ABESJVAND
+2028 Presidential race: exact outcome,JD Vance defeats Andy Beshear,2029-01-20,0.0100,0.0100,0.0200,96.79,96.79,KXPRESOUTCOME-28NOV07-ABESJVANR
+2028 Presidential race: exact outcome,Andy Beshear defeats Marco Rubio,2029-01-20,0.0200,0.0100,0.0200,4721.61,3469.31,KXPRESOUTCOME-28NOV07-ABESMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats Andy Beshear,2029-01-20,0.0200,0.0000,0.0200,494.51,493.51,KXPRESOUTCOME-28NOV07-ABESMRUBR
+2028 Presidential race: exact outcome,AOC defeats JD Vance,2029-01-20,0.0700,0.0600,0.0700,17443.72,11801.21,KXPRESOUTCOME-28NOV07-AOCJVAND
+2028 Presidential race: exact outcome,JD Vance defeats AOC,2029-01-20,0.0100,0.0100,0.0200,10942.32,5334.61,KXPRESOUTCOME-28NOV07-AOCJVANR
+2028 Presidential race: exact outcome,AOC defeats Marco Rubio,2029-01-20,0.0300,0.0200,0.0300,2500.16,2068.04,KXPRESOUTCOME-28NOV07-AOCMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats AOC,2029-01-20,0.0400,0.0200,0.0300,8420.77,5404.90,KXPRESOUTCOME-28NOV07-AOCMRUBR
+2028 Presidential race: exact outcome,James Talarico defeats JD Vance,2029-01-20,0.0200,0.0100,0.0200,3107.95,2764.37,KXPRESOUTCOME-28NOV07-JTALJVAND
+2028 Presidential race: exact outcome,JD Vance defeats James Talarico,2029-01-20,0.0100,0.0100,0.0200,1534.31,599.51,KXPRESOUTCOME-28NOV07-JTALJVANR
+2028 Presidential race: exact outcome,James Talarico defeats Marco Rubio,2029-01-20,0.0200,0.0000,0.0200,494.51,450.00,KXPRESOUTCOME-28NOV07-JTALMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats James Talarico,2029-01-20,0.0200,0.0000,0.0200,454.00,453.00,KXPRESOUTCOME-28NOV07-JTALMRUBR
+2028 Presidential race: exact outcome,Jon Ossoff defeats JD Vance,2029-01-20,0.1000,0.0800,0.0900,20873.20,12436.41,KXPRESOUTCOME-28NOV07-JOSSJVAND
+2028 Presidential race: exact outcome,JD Vance defeats Jon Ossoff,2029-01-20,0.0500,0.0100,0.0200,1127.98,758.56,KXPRESOUTCOME-28NOV07-JOSSJVANR
+2028 Presidential race: exact outcome,Jon Ossoff defeats Marco Rubio,2029-01-20,0.0800,0.0600,0.0700,10788.55,5221.75,KXPRESOUTCOME-28NOV07-JOSSMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats Jon Ossoff,2029-01-20,0.0200,0.0100,0.0200,3852.12,2708.61,KXPRESOUTCOME-28NOV07-JOSSMRUBR
+2028 Presidential race: exact outcome,Josh Shapiro defeats JD Vance,2029-01-20,0.0200,0.0100,0.0200,1102.47,636.47,KXPRESOUTCOME-28NOV07-JSHAJVAND
+2028 Presidential race: exact outcome,JD Vance defeats Josh Shapiro,2029-01-20,0.0200,0.0000,0.0200,485.12,292.06,KXPRESOUTCOME-28NOV07-JSHAJVANR
+2028 Presidential race: exact outcome,Josh Shapiro defeats Marco Rubio,2029-01-20,0.0100,0.0000,0.0200,155.00,155.00,KXPRESOUTCOME-28NOV07-JSHAMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats Josh Shapiro,2029-01-20,0.0100,0.0000,0.0200,200.79,200.79,KXPRESOUTCOME-28NOV07-JSHAMRUBR
+2028 Presidential race: exact outcome,Kamala Harris defeats JD Vance,2029-01-20,0.0200,0.0100,0.0200,5480.92,4178.58,KXPRESOUTCOME-28NOV07-KHARJVAND
+2028 Presidential race: exact outcome,JD Vance defeats Kamala Harris,2029-01-20,0.0200,0.0100,0.0200,5989.52,4661.38,KXPRESOUTCOME-28NOV07-KHARJVANR
+2028 Presidential race: exact outcome,Kamala Harris defeats Marco Rubio,2029-01-20,0.0200,0.0100,0.0200,701.85,701.85,KXPRESOUTCOME-28NOV07-KHARMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats Kamala Harris,2029-01-20,0.0200,0.0100,0.0200,1958.44,1894.44,KXPRESOUTCOME-28NOV07-KHARMRUBR
+2028 Presidential race: exact outcome,Pete Buttigieg defeats JD Vance,2029-01-20,0.0400,0.0100,0.0300,4334.25,3389.25,KXPRESOUTCOME-28NOV07-PBUTJVAND
+2028 Presidential race: exact outcome,JD Vance defeats Pete Buttigieg,2029-01-20,0.0200,0.0100,0.0200,304.59,304.59,KXPRESOUTCOME-28NOV07-PBUTJVANR
+2028 Presidential race: exact outcome,Pete Buttigieg defeats Marco Rubio,2029-01-20,0.0200,0.0100,0.0200,2421.26,2421.26,KXPRESOUTCOME-28NOV07-PBUTMRUBD
+2028 Presidential race: exact outcome,Marco Rubio defeats Pete Buttigieg,2029-01-20,0.0200,0.0100,0.0200,594.51,544.51,KXPRESOUTCOME-28NOV07-PBUTMRUBR
+2028 Presidential race: exact outcome,Andy Beshear defeats Ron DeSantis,2029-01-20,0.0300,0.0000,0.0200,212.07,212.07,KXPRESOUTCOME-28NOV07-ABESRDESD
+2028 Presidential race: exact outcome,Jon Ossoff defeats Ron DeSantis,2029-01-20,0.0600,0.0100,0.0500,3220.21,3220.21,KXPRESOUTCOME-28NOV07-JOSSRDESD
+2028 Presidential race: exact outcome,Ron DeSantis defeats Kamala Harris,2029-01-20,0.0400,0.0000,0.0400,1004.25,1004.25,KXPRESOUTCOME-28NOV07-KHARRDESR
+2028 Presidential race: exact outcome,Mark Kelly defeats Ron DeSantis,2029-01-20,0.0400,0.0000,0.0200,2479.55,2479.55,KXPRESOUTCOME-28NOV07-MKELRDESD
+Will Zelenskyy and Putin speak?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0260,0.0430,154752.56,56491.02,KXZELENSKYPUTIN-29-27
+Will Zelenskyy and Putin speak?,"Before Jan 1, 2028",2028-01-01,0.4500,0.4000,0.4600,5669.93,3935.91,KXZELENSKYPUTIN-29-28
+Will Zelenskyy and Putin speak?,"Before Jan 20, 2029",2029-01-20,0.5900,0.6200,0.6400,115929.73,31366.20,KXZELENSKYPUTIN-29-VPUT
+"When will Trump, Zelenskyy and Putin meet together?","Before Jan 1, 2027",2027-01-01,0.0200,0.0100,0.0600,17198.40,7728.99,KXTRILATERAL-29JAN20-27JAN01
+"When will Trump, Zelenskyy and Putin meet together?","Before Jan 1, 2028",2028-01-01,0.2000,0.2000,0.2100,7564.11,3128.83,KXTRILATERAL-29JAN20-28JAN01
+"When will Trump, Zelenskyy and Putin meet together?","Before Jan 20, 2029",2029-01-20,0.3200,0.3000,0.3100,3040.03,1656.28,KXTRILATERAL-29JAN20-29JAN20
+Will a GOP member of Congress call for Trump's impeachment?,"Before Jan 1, 2027",2027-01-01,0.0300,0.0300,0.0670,109834.69,29818.56,KXCALLIMPEACHRCONGRESS-26-27
+Will a GOP member of Congress call for Trump's impeachment?,"Before Jul 1, 2027",2027-07-01,0.2500,0.2300,0.2400,4949.65,3669.42,KXCALLIMPEACHRCONGRESS-26-27JUL01
+Will a GOP member of Congress call for Trump's impeachment?,"Before Jan 1, 2028",2028-01-01,0.3900,0.3700,0.3900,12711.87,7459.38,KXCALLIMPEACHRCONGRESS-26-28
+Will a GOP member of Congress call for Trump's impeachment?,"Before Jan 20, 2029",2029-01-20,0.4600,0.4600,0.5100,5318.13,3489.76,KXCALLIMPEACHRCONGRESS-26-29JAN20
+Lisa Cook departure announced?,Before Jan 2027,2027-01-01,0.0150,0.0130,0.0210,59957.39,24226.04,KXLEAVELISACOOK-26JAN-27JAN01
+Lisa Cook departure announced?,Before Jul 2027,2027-07-01,0.0700,0.0200,0.0900,19.00,19.00,KXLEAVELISACOOK-26JAN-27JUL01
+Lisa Cook departure announced?,Before Jan 2028,2028-01-01,0.1700,0.0500,0.1100,5.00,5.00,KXLEAVELISACOOK-26JAN-28JAN01
+Lisa Cook departure announced?,Before Jul 2028,2028-07-01,0.0900,0.0700,0.1500,1436.00,1424.00,KXLEAVELISACOOK-26JAN-28JUL01
+Lisa Cook departure announced?,Before Jan 2029,2029-01-01,0.0000,0.1200,0.2200,0.00,0.00,KXLEAVELISACOOK-26JAN-29JAN01
+Will the 22nd Amendment be repealed or narrowed?,"Before Jan 1, 2029",2029-01-01,0.0610,0.0440,0.0610,386773.48,99313.09,KXAMEND22-29-JAN01
+When will Venezuela hold a presidential election?,"Before Jan 1, 2027",2027-01-01,0.0080,0.0040,0.0360,43135.38,14202.10,KXELECTVENEZUELA-27JAN01
+When will Venezuela hold a presidential election?,"Before Jun 1, 2027",2027-06-01,0.0870,0.0300,0.0880,21810.80,4583.23,KXELECTVENEZUELA-27JUN01
+When will Venezuela hold a presidential election?,"Before Oct 1, 2027",2027-10-01,0.0000,0.2200,0.3000,0.00,0.00,KXELECTVENEZUELA-27OCT01
+When will Venezuela hold a presidential election?,"Before Jan 1, 2028",2028-01-01,0.5900,0.5800,0.9700,1330.82,1284.11,KXELECTVENEZUELA-28JAN01
+When will Venezuela hold a presidential election?,"Before Jul 1, 2028",2028-07-01,0.7400,0.6600,0.7400,159.30,145.30,KXELECTVENEZUELA-28JUL01
+When will Venezuela hold a presidential election?,"Before Jan 1, 2029",2029-01-01,0.8300,0.7500,0.8300,58.77,13.77,KXELECTVENEZUELA-29JAN01
+Will Trump try to leave the USMCA?,Before 2027,2027-01-01,0.0640,0.0200,0.0790,15459.22,2495.56,KXUSMCA-26-27
+Will Trump try to leave the USMCA?,Before 2028,2028-01-01,0.0000,0.0800,0.1800,0.00,0.00,KXUSMCA-26-28
+Will Trump try to leave the USMCA?,Before 2029,2029-01-01,0.0000,0.1300,0.2300,0.00,0.00,KXUSMCA-26-29
+When will traffic at the Strait of Hormuz return to normal?,"Before Oct 1, 2026",2026-10-06,0.0100,0.0000,1.0000,3337752.47,1226239.14,KXHORMUZNORM-26MAR17-B261001
+When will traffic at the Strait of Hormuz return to normal?,"Before Nov 1, 2026",2026-11-03,0.0100,0.0000,1.0000,2912915.14,933979.44,KXHORMUZNORM-26MAR17-B261101
+When will traffic at the Strait of Hormuz return to normal?,"Before Dec 1, 2026",2026-12-01,0.0100,0.0000,0.0100,2331799.19,894550.62,KXHORMUZNORM-26MAR17-B261201
+When will traffic at the Strait of Hormuz return to normal?,"Before Jan 1, 2027",2027-01-05,0.0390,0.0390,0.0400,3989943.82,1333911.65,KXHORMUZNORM-26MAR17-B270101
+When will traffic at the Strait of Hormuz return to normal?,"Before Feb 1, 2027",2027-02-02,0.0700,0.0700,0.0800,37123.69,25607.88,KXHORMUZNORM-26MAR17-B270201
+When will traffic at the Strait of Hormuz return to normal?,"Before Mar 1, 2027",2027-03-02,0.1000,0.1000,0.1300,6175.47,5209.01,KXHORMUZNORM-26MAR17-B270301
+When will traffic at the Strait of Hormuz return to normal?,"Before Apr 1, 2027",2027-04-01,0.1500,0.1500,0.1600,885359.80,268988.23,KXHORMUZNORM-26MAR17-B270401
+When will traffic at the Strait of Hormuz return to normal?,"Before May 1, 2027",2027-05-04,0.1600,0.1600,0.2200,14527.62,7767.77,KXHORMUZNORM-26MAR17-B270501
+When will traffic at the Strait of Hormuz return to normal?,"Before Jun 1, 2027",2027-06-08,0.2400,0.2400,0.2500,37884.53,33703.65,KXHORMUZNORM-26MAR17-B270601
+When will traffic at the Strait of Hormuz return to normal?,"Before Jul 1, 2027",2027-07-01,0.2600,0.2600,0.2800,1682635.13,416722.37,KXHORMUZNORM-26MAR17-B270701
+When will traffic at the Strait of Hormuz return to normal?,"Before Aug 1, 2027",2027-08-03,0.2900,0.2800,0.3300,5596.72,4303.28,KXHORMUZNORM-26MAR17-B270801
+When will traffic at the Strait of Hormuz return to normal?,"Before Sep 1, 2027",2027-09-07,0.2800,0.2900,0.3100,4652.39,3458.09,KXHORMUZNORM-26MAR17-B270901
+When will traffic at the Strait of Hormuz return to normal?,"Before Oct 1, 2027",2027-10-05,0.3900,0.3900,0.4000,5284.68,3713.11,KXHORMUZNORM-26MAR17-B271001
+When will traffic at the Strait of Hormuz return to normal?,"Before Nov 1, 2027",2027-11-02,0.4000,0.4100,0.4500,83888.12,31525.04,KXHORMUZNORM-26MAR17-B271101
+When will traffic at the Strait of Hormuz return to normal?,"Before Dec 1, 2027",2027-12-07,0.4500,0.4600,0.4900,30689.36,20174.87,KXHORMUZNORM-26MAR17-B271201
+When will traffic at the Strait of Hormuz return to normal?,"Before Jan 1, 2028",2028-01-01,0.5300,0.5300,0.5400,107289.28,44976.17,KXHORMUZNORM-26MAR17-B280101
+When will traffic at the Strait of Hormuz return to normal?,"Before Jul 1, 2028",2028-07-01,0.6300,0.6300,0.6700,59485.90,32768.62,KXHORMUZNORM-26MAR17-B280701
+When will traffic at the Strait of Hormuz return to normal?,"Before Jan 1, 2029",2029-01-01,0.7200,0.6300,0.7000,67843.71,29306.22,KXHORMUZNORM-26MAR17-B290101
+Marco Rubio announces departure as Secretary of State?,"Before Jan 1, 2027",2027-01-01,0.0900,0.0800,0.0900,88837.72,48364.26,KXRUBIOANNOUNCEOUT-26OCT-27JAN01
+Marco Rubio announces departure as Secretary of State?,"Before Apr 1, 2027",2027-04-01,0.2700,0.2600,0.2700,70513.95,45230.94,KXRUBIOANNOUNCEOUT-26OCT-27APR01
+Marco Rubio announces departure as Secretary of State?,"Before Jul 1, 2027",2027-07-01,0.3900,0.3800,0.3900,23671.35,16873.14,KXRUBIOANNOUNCEOUT-26OCT-27JUL01
+Marco Rubio announces departure as Secretary of State?,"Before Oct 1, 2027",2027-10-01,0.5200,0.4900,0.5400,5292.51,3593.61,KXRUBIOANNOUNCEOUT-26OCT-27OCT01
+Marco Rubio announces departure as Secretary of State?,"Before Jan 1, 2028",2028-01-01,0.6400,0.6400,0.6500,3012.16,1458.42,KXRUBIOANNOUNCEOUT-26OCT-28JAN01
+Marco Rubio announces departure as Secretary of State?,"Before Jul 1, 2028",2028-07-01,0.7600,0.7000,0.7800,641.70,433.70,KXRUBIOANNOUNCEOUT-26OCT-28JUL01
+Marco Rubio announces departure as Secretary of State?,"Before Jan 1, 2029",2029-01-01,0.8600,0.8600,0.9400,181.96,145.23,KXRUBIOANNOUNCEOUT-26OCT-29JAN01
+Friedrich Merz out as Chancellor?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,8299.84,6100.28,KXLEAVEMERZ-29JAN01-26OCT01
+Friedrich Merz out as Chancellor?,"Before Nov 1, 2026",2026-11-01,0.0200,0.0000,1.0000,5249.65,1656.67,KXLEAVEMERZ-29JAN01-26NOV01
+Friedrich Merz out as Chancellor?,"Before Jan 1, 2027",2027-01-01,0.0800,0.0300,0.0700,6223.60,2900.21,KXLEAVEMERZ-29JAN01-27JAN01
+Friedrich Merz out as Chancellor?,"Before Apr 1, 2027",2027-04-01,0.0800,0.0800,0.1100,3007.80,1316.85,KXLEAVEMERZ-29JAN01-27APR01
+Friedrich Merz out as Chancellor?,"Before Jul 1, 2027",2027-07-01,0.2500,0.2200,0.2900,1026.06,549.60,KXLEAVEMERZ-29JAN01-27JUL01
+Friedrich Merz out as Chancellor?,"Before Jan 1, 2028",2028-01-01,0.4300,0.3700,0.4200,2057.33,1384.99,KXLEAVEMERZ-29JAN01-28JAN01
+Friedrich Merz out as Chancellor?,"Before Jul 1, 2028",2028-07-01,0.8100,0.4600,0.5400,504.81,304.81,KXLEAVEMERZ-29JAN01-28JUL01
+Friedrich Merz out as Chancellor?,"Before Jan 1, 2029",2029-01-01,0.7600,0.7200,0.7500,620.49,587.49,KXLEAVEMERZ-29JAN01-29JAN01
+When will Canada gain EU associate status?,Before 2028,2028-01-01,0.1800,0.1400,0.1800,3617.31,1497.25,KXCANEUASSOC-29-28JAN01
+When will Canada gain EU associate status?,Before 2029,2029-01-01,0.1800,0.1500,0.1800,3677.17,1282.21,KXCANEUASSOC-29-29JAN01
+When will Trump and Kim Jong Un meet in person?,"Before Jan 1, 2027",2027-01-01,0.1600,0.1200,0.1400,5409.28,2681.46,KXTRUMPKIMMEET-29JAN01-27JAN01
+When will Trump and Kim Jong Un meet in person?,"Before Jul 1, 2027",2027-07-01,0.3400,0.2600,0.4100,701.61,483.70,KXTRUMPKIMMEET-29JAN01-27JUL01
+When will Trump and Kim Jong Un meet in person?,"Before Jan 1, 2028",2028-01-01,0.3400,0.0900,0.9400,263.08,205.32,KXTRUMPKIMMEET-29JAN01-28JAN01
+When will Trump and Kim Jong Un meet in person?,"Before Jan 1, 2029",2029-01-01,0.4000,0.0600,0.9400,412.92,15.01,KXTRUMPKIMMEET-29JAN01-29JAN01
+When will Putin and Zelenskyy meet?,"Before Jan 1, 2027",2027-01-01,0.0400,0.0300,0.0400,8298.66,4472.12,KXPUTINZELMEET-29JAN01-27JAN01
+When will Putin and Zelenskyy meet?,"Before Jan 1, 2028",2028-01-01,0.2700,0.2100,0.2900,487.60,376.49,KXPUTINZELMEET-29JAN01-28JAN01
+When will Putin and Zelenskyy meet?,"Before Jan 1, 2029",2029-01-01,0.2600,0.2500,0.3300,209.41,206.37,KXPUTINZELMEET-29JAN01-29JAN01
+Where will Trump and Putin next meet?,New York City,2029-01-01,0.0100,0.0000,0.2400,2339.06,691.79,KXPUTINDJTLOCATION-29-NYC
+Where will Trump and Putin next meet?,Germany,2029-01-01,0.0100,0.0000,0.1400,4598.28,1664.71,KXPUTINDJTLOCATION-29-GER
+Where will Trump and Putin next meet?,Turkey,2029-01-01,0.0100,0.0000,0.0100,6769.94,1696.85,KXPUTINDJTLOCATION-29-TUR
+Where will Trump and Putin next meet?,China,2029-01-01,0.9500,0.9900,1.0000,9860.00,5379.17,KXPUTINDJTLOCATION-29-PRC
+Where will Trump and Putin next meet?,Russia,2029-01-01,0.0100,0.0000,0.2400,6116.69,2900.37,KXPUTINDJTLOCATION-29-RUS
+Where will Trump and Putin next meet?,Alaska,2029-01-01,0.0100,0.0000,0.2400,3329.05,1919.23,KXPUTINDJTLOCATION-29-AK
+Where will Trump and Putin next meet?,United Arab Emirates,2029-01-01,0.0100,0.0000,0.2000,5467.51,2018.50,KXPUTINDJTLOCATION-29-UAE
+Where will Trump and Putin next meet?,Qatar,2029-01-01,0.0100,0.0000,0.0100,795.34,469.34,KXPUTINDJTLOCATION-29-QAT
+Where will Trump and Putin next meet?,Saudi Arabia,2029-01-01,0.0100,0.0000,0.2300,837.03,470.39,KXPUTINDJTLOCATION-29-SARA
+Where will Trump and Putin next meet?,Hungary,2029-01-01,0.0100,0.0000,0.0600,11557.47,1870.91,KXPUTINDJTLOCATION-29-HUN
+Pete Hegseth out as Secretary of Defense?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,80048.85,53472.76,KXHEGSETHOUT-26AUG-26OCT01
+Pete Hegseth out as Secretary of Defense?,"Before Nov 1, 2026",2026-11-01,0.0200,0.0000,1.0000,152521.18,85811.06,KXHEGSETHOUT-26AUG-26NOV01
+Pete Hegseth out as Secretary of Defense?,"Before Nov 16, 2026",2026-11-16,0.0100,0.0000,1.0000,327389.89,220160.44,KXHEGSETHOUT-26APR-26NOV16
+Pete Hegseth out as Secretary of Defense?,"Before Dec 1, 2026",2026-12-01,0.0200,0.0200,0.0300,1499555.47,597488.66,KXHEGSETHOUT-26AUG-26DEC01
+Pete Hegseth out as Secretary of Defense?,"Before Jan 1, 2027",2027-01-01,0.1300,0.1300,0.1400,865939.44,344352.61,KXHEGSETHOUT-26APR-27JAN01
+Pete Hegseth out as Secretary of Defense?,"Before Feb 1, 2027",2027-02-01,0.2900,0.2700,0.2800,432723.56,247505.35,KXHEGSETHOUT-26APR-27FEB01
+Pete Hegseth out as Secretary of Defense?,"Before Apr 1, 2027",2027-04-01,0.5600,0.5500,0.5600,280677.93,185235.01,KXHEGSETHOUT-26APR-27APR01
+Pete Hegseth out as Secretary of Defense?,"Before Jul 1, 2027",2027-07-01,0.6300,0.6300,0.6400,59944.68,36029.21,KXHEGSETHOUT-26APR-27JUL01
+Pete Hegseth out as Secretary of Defense?,"Before Oct 1, 2027",2027-10-01,0.7000,0.6700,0.7000,23992.22,15008.81,KXHEGSETHOUT-26APR-27OCT01
+Pete Hegseth out as Secretary of Defense?,"Before Jan 1, 2028",2028-01-01,0.7500,0.7500,0.7700,18116.80,14097.58,KXHEGSETHOUT-26APR-28JAN01
+Pete Hegseth out as Secretary of Defense?,"Before Jul 1, 2028",2028-07-01,0.8000,0.8100,0.8600,11688.18,7381.54,KXHEGSETHOUT-26APR-28JUL01
+Pete Hegseth out as Secretary of Defense?,"Before Jan 1, 2029",2029-01-01,0.8500,0.8400,0.8800,11107.43,6730.92,KXHEGSETHOUT-26APR-29JAN01
+Where will Putin and Zelenskyy next meet?,Hungary,2028-12-31,0.0300,0.0300,0.0400,10786.17,5382.05,KXPUTINZELENSKYYLOCATION-28-HUNG
+Where will Putin and Zelenskyy next meet?,Switzerland,2028-12-31,0.0900,0.0200,0.0800,5449.88,1987.37,KXPUTINZELENSKYYLOCATION-28-SWZ
+Where will Putin and Zelenskyy next meet?,Turkey,2028-12-31,0.0900,0.0700,0.1300,15041.65,5341.86,KXPUTINZELENSKYYLOCATION-28-TUR
+Where will Putin and Zelenskyy next meet?,China,2028-12-31,0.0600,0.0100,0.0700,674.78,584.76,KXPUTINZELENSKYYLOCATION-28-CHI
+Where will Putin and Zelenskyy next meet?,Germany,2028-12-31,0.0600,0.0000,0.0700,912.51,409.35,KXPUTINZELENSKYYLOCATION-28-GER
+Where will Putin and Zelenskyy next meet?,United States,2028-12-31,0.0400,0.0400,0.0900,3883.18,2585.80,KXPUTINZELENSKYYLOCATION-28-UNI
+Where will Putin and Zelenskyy next meet?,Ukraine,2028-12-31,0.0400,0.0200,0.0500,1826.80,496.00,KXPUTINZELENSKYYLOCATION-28-UKR
+Where will Putin and Zelenskyy next meet?,Russia,2028-12-31,0.0600,0.0000,0.0500,666.35,325.54,KXPUTINZELENSKYYLOCATION-28-RUS
+Where will Putin and Zelenskyy next meet?,United Arab Emirates,2028-12-31,0.0900,0.0700,0.1400,2248.98,1169.09,KXPUTINZELENSKYYLOCATION-28-UAE
+Will the 2028 presidential election occur?,In 2028,2028-12-01,0.9290,0.9280,0.9290,110522.97,55388.58,KXPRESELECTIONOCCUR-28
+2028 Republican Presidential ticket,JD Vance and Marco Rubio,2028-11-07,0.1600,0.1400,0.1600,25120.13,13359.33,KXRTICKET-28NOV07-JVANMRUB
+2028 Republican Presidential ticket,JD Vance and Erika Kirk,2028-11-07,0.0300,0.0280,0.0300,22223.27,16708.09,KXRTICKET-28NOV07-JVANEKIR
+2028 Republican Presidential ticket,Marco Rubio and JD Vance,2028-11-07,0.0490,0.0120,0.0470,13668.36,7990.11,KXRTICKET-28NOV07-MRUBJVAN
+2028 Republican Presidential ticket,JD Vance and Sarah Huckabee Sanders,2028-11-07,0.0300,0.0210,0.0290,5899.65,3783.88,KXRTICKET-28NOV07-JVANSSAN
+2028 Republican Presidential ticket,Marco Rubio and Erika Kirk,2028-11-07,0.0200,0.0100,0.0200,392.20,391.20,KXRTICKET-28NOV07-MRUBEKIR
+2028 Republican Presidential ticket,Marco Rubio and Sarah Huckabee Sanders,2028-11-07,0.0100,0.0100,0.0200,1224.86,1223.86,KXRTICKET-28NOV07-MRUBSSAN
+2028 Republican Presidential ticket,Marco Rubio and Glenn Youngkin,2028-11-07,0.0290,0.0100,0.0290,438.33,438.33,KXRTICKET-28NOV07-MRUBGYOU
+2028 Republican Presidential ticket,JD Vance and Donald Trump,2028-11-07,0.0230,0.0010,0.0200,5778.51,5499.86,KXRTICKET-28NOV07-JVANDJT
+2028 Republican Presidential ticket,JD Vance and Elise Stefanik,2028-11-07,0.0210,0.0150,0.0260,11943.66,5786.65,KXRTICKET-28NOV07-JVANESTE
+2028 Republican Presidential ticket,JD Vance and Byron Donalds,2028-11-07,0.0270,0.0010,0.0270,2527.11,2352.00,KXRTICKET-28NOV07-JVANBDON
+2028 Republican Presidential ticket,Tucker Carlson and Marco Rubio,2028-11-07,0.0270,0.0010,0.0250,1576.46,1576.46,KXRTICKET-28NOV07-TCARMRUB
+2028 Republican Presidential ticket,Marco Rubio and Donald Trump,2028-11-07,0.0270,0.0010,0.0200,6796.57,6369.31,KXRTICKET-28NOV07-MRUBDJT
+2028 Republican Presidential ticket,JD Vance and Donald Trump Jr.,2028-11-07,0.0480,0.0480,0.0490,6512.34,4245.54,KXRTICKET-28NOV07-JVANDTJR
+2028 Republican Presidential ticket,Marco Rubio and Elise Stefanik,2028-11-07,0.0200,0.0010,0.0190,867.49,553.36,KXRTICKET-28NOV07-MRUBESTE
+2028 Republican Presidential ticket,Marco Rubio and Byron Donalds,2028-11-07,0.0100,0.0100,0.0200,4216.20,4213.10,KXRTICKET-28NOV07-MRUBBDON
+2028 Republican Presidential ticket,Marco Rubio and Donald Trump Jr.,2028-11-07,0.0200,0.0100,0.0200,401.05,401.05,KXRTICKET-28NOV07-MRUBDTJR
+2028 Republican Presidential ticket,Donald Trump Jr. and Marco Rubio,2028-11-07,0.0200,0.0010,0.0150,2851.23,2112.27,KXRTICKET-28NOV07-DTJRMRUB
+2028 Republican Presidential ticket,Donald Trump and Marco Rubio,2028-11-07,0.0200,0.0010,0.0200,1037.80,1037.80,KXRTICKET-28NOV07-DJTMRUB
+2028 Republican Presidential ticket,Tucker Carlson and JD Vance,2028-11-07,0.0200,0.0010,0.0190,3276.38,3176.38,KXRTICKET-28NOV07-TCARJVAN
+2028 Republican Presidential ticket,Thomas Massie and Marco Rubio,2028-11-07,0.0140,0.0010,0.0140,1676.00,1301.00,KXRTICKET-28NOV07-TMASMRUB
+2028 Republican Presidential ticket,Glenn Youngkin and Marco Rubio,2028-11-07,0.0100,0.0010,0.0100,287.03,287.03,KXRTICKET-28NOV07-GYOUMRUB
+2028 Republican Presidential ticket,Ron DeSantis and JD Vance,2028-11-07,0.0200,0.0010,0.0190,1182.96,1182.96,KXRTICKET-28NOV07-RDESJVAN
+2028 Democratic Presidential ticket,Gavin Newsom and Gretchen Whitmer,2028-11-07,0.0300,0.0100,0.0210,373.83,361.83,KXDTICKET-28NOV07-GNEWGWHI
+2028 Democratic Presidential ticket,Gavin Newsom and Alexandria Ocasio-Cortez,2028-11-07,0.0820,0.0120,0.0480,24519.78,12735.00,KXDTICKET-28NOV07-GNEWAOC
+2028 Democratic Presidential ticket,Gavin Newsom and Andy Beshear,2028-11-07,0.0300,0.0100,0.0200,413.39,412.39,KXDTICKET-28NOV07-GNEWABES
+2028 Democratic Presidential ticket,Gavin Newsom and Jon Ossoff,2028-11-07,0.0540,0.0100,0.0290,3790.13,3789.13,KXDTICKET-28NOV07-GNEWJOSS
+2028 Democratic Presidential ticket,Gavin Newsom and Ruben Gallego,2028-11-07,0.0200,0.0040,0.0200,1101.16,608.87,KXDTICKET-28NOV07-GNEWRGAL
+2028 Democratic Presidential ticket,Gavin Newsom and Pete Buttigieg,2028-11-07,0.0290,0.0100,0.0270,451.12,450.12,KXDTICKET-28NOV07-GNEWPBUT
+2028 Democratic Presidential ticket,Gavin Newsom and Mark Kelly,2028-11-07,0.0460,0.0100,0.0270,540.11,498.11,KXDTICKET-28NOV07-GNEWMKEL
+2028 Democratic Presidential ticket,Gavin Newsom and Wes Moore,2028-11-07,0.0300,0.0100,0.0200,176.57,175.57,KXDTICKET-28NOV07-GNEWWMOO
+2028 Democratic Presidential ticket,Gavin Newsom and Josh Shapiro,2028-11-07,0.0300,0.0100,0.0290,827.71,827.71,KXDTICKET-28NOV07-GNEWJSHA
+2028 Democratic Presidential ticket,Gavin Newsom and James Talarico,2028-11-07,0.0400,0.0100,0.0380,382.04,382.04,KXDTICKET-28NOV07-GNEWJTAL
+2028 Democratic Presidential ticket,Gavin Newsom and Elissa Slotkin,2028-11-07,0.0400,0.0100,0.0200,21.17,21.17,KXDTICKET-28NOV07-GNEWESLO
+2028 Democratic Presidential ticket,Jon Ossoff and Gretchen Whitmer,2028-11-07,0.0300,0.0110,0.0400,4252.93,4174.68,KXDTICKET-28NOV07-JOSSGWHI
+2028 Democratic Presidential ticket,Alexandria Ocasio-Cortez and Andy Beshear,2028-11-07,0.0260,0.0100,0.0290,2602.55,1997.21,KXDTICKET-28NOV07-AOCABES
+2028 Democratic Presidential ticket,Alexandria Ocasio-Cortez and Jon Ossoff,2028-11-07,0.0480,0.0110,0.0410,8293.87,7587.58,KXDTICKET-28NOV07-AOCJOSS
+2028 Democratic Presidential ticket,Alexandria Ocasio-Cortez and Ruben Gallego,2028-11-07,0.0200,0.0040,0.0200,4994.58,4994.58,KXDTICKET-28NOV07-AOCRGAL
+2028 Democratic Presidential ticket,Alexandria Ocasio-Cortez and Pete Buttigieg,2028-11-07,0.0490,0.0100,0.0290,1615.95,1343.74,KXDTICKET-28NOV07-AOCPBUT
+2028 Democratic Presidential ticket,Jon Ossoff and Alexandria Ocasio-Cortez,2028-11-07,0.0800,0.0760,0.0890,18364.68,15011.45,KXDTICKET-28NOV07-JOSSAOC
+2028 Democratic Presidential ticket,Pete Buttigieg and Gretchen Whitmer,2028-11-07,0.0300,0.0040,0.0290,1873.03,1518.91,KXDTICKET-28NOV07-PBUTGWHI
+2028 Democratic Presidential ticket,Alexandria Ocasio-Cortez and Mark Kelly,2028-11-07,0.0200,0.0040,0.0200,1244.82,1244.82,KXDTICKET-28NOV07-AOCMKEL
+2028 Democratic Presidential ticket,Alexandria Ocasio-Cortez and Wes Moore,2028-11-07,0.0200,0.0040,0.0200,500.50,500.50,KXDTICKET-28NOV07-AOCWMOO
+2028 Democratic Presidential ticket,Kamala Harris and Alexandria Ocasio-Cortez,2028-11-07,0.0200,0.0040,0.0200,3019.78,3019.78,KXDTICKET-28NOV07-KHARAOC
+2028 Democratic Presidential ticket,Jon Ossoff and Andy Beshear,2028-11-07,0.0400,0.0200,0.0380,7480.08,6826.31,KXDTICKET-28NOV07-JOSSABES
+2028 Democratic Presidential ticket,Jon Ossoff and Pete Buttigieg,2028-11-07,0.0420,0.0100,0.0410,3951.43,3951.43,KXDTICKET-28NOV07-JOSSPBUT
+2028 Democratic Presidential ticket,Jon Ossoff and Wes Moore,2028-11-07,0.0690,0.0100,0.0540,516.12,516.12,KXDTICKET-28NOV07-JOSSWMOO
+2028 Republican VP nominee,J.D. Vance,2028-11-07,0.0260,0.0260,0.0270,256557.52,126126.40,KXVPRESNOMR-28-JDV
+2028 Republican VP nominee,Donald J. Trump Jr.,2028-11-07,0.0470,0.0470,0.0480,98304.30,80359.32,KXVPRESNOMR-28-DJTJR
+2028 Republican VP nominee,Ron DeSantis,2028-11-07,0.0320,0.0290,0.0350,80448.66,55607.65,KXVPRESNOMR-28-RDS
+2028 Republican VP nominee,Robert F. Kennedy Jr.,2028-11-07,0.0150,0.0090,0.0150,26909.45,19762.81,KXVPRESNOMR-28-RFK
+2028 Republican VP nominee,Marco Rubio,2028-11-07,0.2000,0.2000,0.2100,373980.61,176641.86,KXVPRESNOMR-28-MR
+2028 Republican VP nominee,Glenn Youngkin,2028-11-07,0.0130,0.0090,0.0230,147275.02,57451.09,KXVPRESNOMR-28-GY
+2028 Republican VP nominee,Nikki Haley,2028-11-07,0.0180,0.0160,0.0170,57625.94,45553.77,KXVPRESNOMR-28-NH
+2028 Republican VP nominee,Brian Kemp,2028-11-07,0.0170,0.0110,0.0180,25820.35,20649.00,KXVPRESNOMR-28-BK
+2028 Republican VP nominee,Josh Hawley,2028-11-07,0.0110,0.0110,0.0160,52258.50,36339.03,KXVPRESNOMR-28-JH
+2028 Republican VP nominee,Ted Cruz,2028-11-07,0.0160,0.0120,0.0160,25575.88,21071.04,KXVPRESNOMR-28-TC
+2028 Republican VP nominee,Sarah Huckabee Sanders,2028-11-07,0.0400,0.0370,0.0400,110791.05,52900.67,KXVPRESNOMR-28-SHS
+2028 Republican VP nominee,Byron Donalds,2028-11-07,0.0280,0.0280,0.0290,49594.30,30826.76,KXVPRESNOMR-28-BD
+2028 Republican VP nominee,Elise Stefanik,2028-11-07,0.0200,0.0100,0.0200,49971.06,34531.45,KXVPRESNOMR-28-ES
+2028 Republican VP nominee,Katie Britt,2028-11-07,0.0410,0.0350,0.0360,62085.05,55613.09,KXVPRESNOMR-28-KB
+2028 Republican VP nominee,Tulsi Gabbard,2028-11-07,0.0230,0.0130,0.0200,51579.95,39019.86,KXVPRESNOMR-28-TGAB
+2028 Republican VP nominee,Erika Kirk,2028-11-07,0.0300,0.0300,0.0310,173680.60,117181.91,KXVPRESNOMR-28-EKIR
+2028 Republican VP nominee,Tim Scott,2028-11-07,0.0200,0.0100,0.0200,8359.66,6054.17,KXVPRESNOMR-28-TSCO
+2028 Republican VP nominee,Eric Schmitt,2028-11-07,0.0100,0.0000,0.0100,8685.22,7695.88,KXVPRESNOMR-28-ESCH
+2028 Republican VP nominee,John Cornyn,2028-11-07,0.0100,0.0000,0.0100,15.00,15.00,KXVPRESNOMR-28-JCOR
+2028 Democratic VP nominee,Gavin Newsom,2028-11-07,0.0250,0.0180,0.0200,182582.46,120660.92,KXVPRESNOMD-28-GN
+2028 Democratic VP nominee,Josh Shapiro,2028-11-07,0.0300,0.0210,0.0250,119974.88,70299.55,KXVPRESNOMD-28-JS
+2028 Democratic VP nominee,Gretchen Whitmer,2028-11-07,0.0890,0.0880,0.0890,268898.83,121630.75,KXVPRESNOMD-28-GW
+2028 Democratic VP nominee,Kamala Harris,2028-11-07,0.0100,0.0100,0.0160,167701.69,115234.22,KXVPRESNOMD-28-KH
+2028 Democratic VP nominee,Pete Buttigieg,2028-11-07,0.0700,0.0690,0.0700,164820.54,114915.15,KXVPRESNOMD-28-PB
+2028 Democratic VP nominee,Alexandria Ocasio-Cortez,2028-11-07,0.0860,0.0850,0.0910,379461.75,176424.78,KXVPRESNOMD-28-AOC
+2028 Democratic VP nominee,Wes Moore,2028-11-07,0.0590,0.0550,0.0560,89745.03,75610.87,KXVPRESNOMD-28-WM
+2028 Democratic VP nominee,Andy Beshear,2028-11-07,0.0610,0.0540,0.0610,192934.49,108675.76,KXVPRESNOMD-28-AB
+2028 Democratic VP nominee,Michelle Obama,2028-11-07,0.0160,0.0160,0.0200,126948.86,104873.74,KXVPRESNOMD-28-MO
+2028 Democratic VP nominee,J.B. Pritzker,2028-11-07,0.0110,0.0120,0.0180,84930.59,60582.18,KXVPRESNOMD-28-JBP
+2028 Democratic VP nominee,Raphael Warnock,2028-11-07,0.0420,0.0410,0.0420,104898.60,87314.98,KXVPRESNOMD-28-RW
+2028 Democratic VP nominee,Roy Cooper,2028-11-07,0.0220,0.0180,0.0200,102734.74,64522.78,KXVPRESNOMD-28-RC
+2028 Democratic VP nominee,Ruben Gallego,2028-11-07,0.0280,0.0180,0.0270,61886.73,50464.63,KXVPRESNOMD-28-RGAL
+2028 Democratic VP nominee,Mark Kelly,2028-11-07,0.0710,0.0660,0.0710,133639.79,103661.67,KXVPRESNOMD-28-MKEL
+2028 Democratic VP nominee,Elissa Slotkin,2028-11-07,0.0480,0.0470,0.0480,197060.43,140822.38,KXVPRESNOMD-28-ESLO
+2028 Democratic VP nominee,Jon Ossoff,2028-11-07,0.0560,0.0550,0.0560,181100.26,98515.59,KXVPRESNOMD-28-JOSS
+2028 Democratic VP nominee,Rahm Emanuel,2028-11-07,0.0100,0.0040,0.0100,40440.67,39873.95,KXVPRESNOMD-28-REMA
+2028 Democratic VP nominee,Ro Khanna,2028-11-07,0.0200,0.0210,0.0220,116627.93,108459.78,KXVPRESNOMD-28-RKHA
+2028 Democratic VP nominee,James Talarico,2028-11-07,0.0670,0.0670,0.0680,274793.77,177241.60,KXVPRESNOMD-28-JTAL
+2028 Democratic VP nominee,Cory Booker,2028-11-07,0.0100,0.0040,0.0090,37118.87,33741.64,KXVPRESNOMD-28-CBOO
+2028 Democratic VP nominee,Amy Klobuchar,2028-11-07,0.0180,0.0100,0.0140,67594.64,64137.68,KXVPRESNOMD-28-AKLO
+2028 Democratic VP nominee,Abdul El-Sayed,2028-11-07,0.0310,0.0300,0.0310,58959.70,49222.12,KXVPRESNOMD-28-AELS
+2028 Democratic VP nominee,Gina Hinojosa,2028-11-07,0.0170,0.0160,0.0170,26111.28,21224.54,KXVPRESNOMD-28-GHIN
+2028 Democratic VP nominee,Andy Kim,2028-11-07,0.0100,0.0010,0.0090,7938.05,7838.05,KXVPRESNOMD-28-AKIM
+2028 Democratic VP nominee,Scott Colom,2028-11-07,0.0100,0.0020,0.0090,7760.65,6852.53,KXVPRESNOMD-28-SCOL
+2028 Democratic VP nominee,Adam Hamilton,2028-11-07,0.0280,0.0030,0.0100,15779.85,15779.85,KXVPRESNOMD-28-AHAM
+2028 Democratic VP nominee,Chris Van Hollen,2028-11-07,0.0120,0.0020,0.0110,2815.51,2815.51,KXVPRESNOMD-28-CVAN
+2028 Democratic VP nominee,Tammy Duckworth,2028-11-07,0.0100,0.0010,0.0080,102.00,100.00,KXVPRESNOMD-28-TDUC
+Will a Trump family member be the 2028 Republican presidential nominee?,"Before Nov 7, 2028",2028-11-07,0.0650,0.0290,0.0650,40510.12,14685.23,KXTRUMPPRES-28
+Who will run for president in 2028?,DeAndre Way,2028-11-07,0.0100,0.0200,0.0900,1.00,1.00,KXPRESRUN-28-28NOV07-DWAY
+Who will run for president in 2028?,Kanye West,2028-11-07,0.2900,0.2200,0.3000,1431.00,710.02,KXPRESRUN-28-28NOV07-KWES
+Who will run for president in 2028?,Andrew Yang,2028-11-07,0.4200,0.4500,0.4900,4463.00,2424.16,KXPRESRUN-28-28NOV07-AYAN
+Who will run for president in 2028?,Tucker Carlson,2028-11-07,0.2900,0.2000,0.2900,76.42,76.42,KXPRESRUN-28-28NOV07-TCAR
+Who will run for president in 2028?,Thomas Massie,2028-11-07,0.7100,0.5800,0.6700,1994.99,1994.99,KXPRESRUN-28-28NOV07-TMAS
+Who will run for president in 2028?,Marjorie Taylor Greene,2028-11-07,0.3100,0.3000,0.3500,2595.46,2251.56,KXPRESRUN-28-28NOV07-MGRE
+Who will run for president in 2028?,Mark Cuban,2028-11-07,0.2100,0.1200,0.2200,1630.66,1404.30,KXPRESRUN-28-28NOV07-MCUB
+Who will run for president in 2028?,Dwayne Johnson,2028-11-07,0.0700,0.0200,0.0700,26.82,26.82,KXPRESRUN-28-28NOV07-DJOH
+Who will run for president in 2028?,Matthew McConaughey,2028-11-07,0.0700,0.0200,0.0700,188.76,188.76,KXPRESRUN-28-28NOV07-MMCC
+Who will run for president in 2028?,Jon Stewart,2028-11-07,0.0800,0.0600,0.1000,2356.51,1282.53,KXPRESRUN-28-28NOV07-JSTE
+Who will run for president in 2028?,Jesse Ventura,2028-11-07,0.0900,0.0200,0.0900,31.33,31.33,KXPRESRUN-28-28NOV07-JVEN
+Who will run for president in 2028?,Joe Manchin,2028-11-07,0.0900,0.0600,0.1600,797.47,697.47,KXPRESRUN-28-28NOV07-JMAN
+Who will run for president in 2028?,Robert F. Kennedy Jr.,2028-11-07,0.3500,0.2600,0.3500,4644.05,1315.53,KXPRESRUN-28-28NOV07-RFKJ
+Who will run for president in 2028?,Joe Rogan,2028-11-07,0.0900,0.0200,0.1200,577.44,577.44,KXPRESRUN-28-28NOV07-JROG
+Who will run for president in 2028?,Aaron Rodgers,2028-11-07,0.0700,0.0200,0.0700,40.23,40.23,KXPRESRUN-28-28NOV07-AROD
+Who will run for president in 2028?,Nikki Haley,2028-11-07,0.2900,0.2000,0.3000,600.00,600.00,KXPRESRUN-28-28NOV07-NHAL
+2028 Republican presidential nominee,Thomas Massie,2028-11-07,0.0210,0.0200,0.0210,4654350.98,2694667.79,KXPRESNOMR-28-TMAS
+2028 Republican presidential nominee,J.D. Vance,2028-11-07,0.3600,0.3600,0.3700,6733331.70,3058993.49,KXPRESNOMR-28-JDV
+2028 Republican presidential nominee,Ron DeSantis,2028-11-07,0.1600,0.1500,0.1600,5261122.40,2758791.82,KXPRESNOMR-28-RDS
+2028 Republican presidential nominee,Glenn Youngkin,2028-11-07,0.0300,0.0290,0.0300,1969211.86,1660934.56,KXPRESNOMR-28-GY
+2028 Republican presidential nominee,Donald J. Trump,2028-11-07,0.0150,0.0150,0.0160,5131301.28,3143906.98,KXPRESNOMR-28-DJT
+2028 Republican presidential nominee,Brian Kemp,2028-11-07,0.0210,0.0200,0.0210,2901275.14,2074072.71,KXPRESNOMR-28-BK
+2028 Republican presidential nominee,Ted Cruz,2028-11-07,0.0260,0.0260,0.0270,3820991.88,2330384.76,KXPRESNOMR-28-TC
+2028 Republican presidential nominee,Marco Rubio,2028-11-07,0.1700,0.1600,0.1700,6960116.74,3341329.68,KXPRESNOMR-28-MR
+2028 Republican presidential nominee,Tucker Carlson,2028-11-07,0.0310,0.0300,0.0310,5671287.40,3331192.25,KXPRESNOMR-28-TCAR
+2028 Republican presidential nominee,John McEntee,2028-11-07,0.0340,0.0330,0.0340,2501962.82,1804023.93,KXPRESNOMR-28-JMCE
+2028 Democratic presidential nominee,James Talarico,2028-11-07,0.0210,0.0200,0.0210,10917477.44,5869792.19,KXPRESNOMD-28-JTAL
+2028 Democratic presidential nominee,Ro Khanna,2028-11-07,0.0180,0.0170,0.0180,7825666.59,4657419.35,KXPRESNOMD-28-RKHA
+2028 Democratic presidential nominee,Kamala Harris,2028-11-07,0.0490,0.0480,0.0490,9515891.30,5454544.14,KXPRESNOMD-28-KH
+2028 Democratic presidential nominee,Gavin Newsom,2028-11-07,0.1000,0.1000,0.1100,12838679.28,5985368.49,KXPRESNOMD-28-GN
+2028 Democratic presidential nominee,Josh Shapiro,2028-11-07,0.0480,0.0470,0.0480,7105340.09,4572237.97,KXPRESNOMD-28-JS
+2028 Democratic presidential nominee,Alexandria Ocasio-Cortez,2028-11-07,0.1500,0.1400,0.1500,11245305.46,5729356.98,KXPRESNOMD-28-AOC
+2028 Democratic presidential nominee,Pete Buttigieg,2028-11-07,0.0530,0.0520,0.0530,7836962.99,5222050.64,KXPRESNOMD-28-PB
+2028 Democratic presidential nominee,Wes Moore,2028-11-07,0.0230,0.0210,0.0230,5989415.11,4237936.62,KXPRESNOMD-28-WM
+2028 Democratic presidential nominee,Andy Beshear,2028-11-07,0.0390,0.0380,0.0390,7484196.11,5010114.39,KXPRESNOMD-28-AB
+2028 Democratic presidential nominee,J.B. Pritzker,2028-11-07,0.0260,0.0260,0.0270,7478635.69,5092352.24,KXPRESNOMD-28-JBP
+2028 Democratic presidential nominee,Raphael Warnock,2028-11-07,0.0360,0.0350,0.0360,6819903.70,4453547.11,KXPRESNOMD-28-RW
+2028 Democratic presidential nominee,Mark Kelly,2028-11-07,0.0340,0.0340,0.0350,9148740.42,5075240.95,KXPRESNOMD-28-MK
+2028 Democratic presidential nominee,Rahm Emanuel,2028-11-07,0.0260,0.0250,0.0260,8310328.84,5185078.00,KXPRESNOMD-28-REMA
+2028 Democratic presidential nominee,Jon Ossoff,2028-11-07,0.2700,0.2600,0.2700,12367660.25,6184844.19,KXPRESNOMD-28-JOSS
+Will Trump run for a third term?,Before 2027,2027-01-01,0.0140,0.0140,0.0310,55274.35,23586.22,KXTRUMPRUN-27JAN01
+Will Trump run for a third term?,Before 2028,2028-01-01,0.0680,0.0660,0.0670,52939.74,14149.69,KXTRUMPRUN-28JAN01
+Will Trump run for a third term?,Before Election Day,2028-11-07,0.0920,0.0600,0.0920,73413.56,19443.96,KXTRUMPRUN-28NOV07
+2028 Presidential matchup,Gavin Newsom v. JD Vance,2028-11-07,0.0620,0.0610,0.0620,82949.30,38390.71,KXPRESMATCHUP-28NOV07-GNEWJVAN
+2028 Presidential matchup,Gavin Newsom v. Marco Rubio,2028-11-07,0.0370,0.0210,0.0410,51521.46,28958.90,KXPRESMATCHUP-28NOV07-GNEWMRUB
+2028 Presidential matchup,AOC v. JD Vance,2028-11-07,0.0570,0.0560,0.0580,40318.10,22745.51,KXPRESMATCHUP-28NOV07-AOCJVAN
+2028 Presidential matchup,AOC v. Marco Rubio,2028-11-07,0.0300,0.0290,0.0300,28194.31,14435.99,KXPRESMATCHUP-28NOV07-AOCMRUB
+2028 Presidential matchup,Jon Ossoff v. JD Vance,2028-11-07,0.0900,0.0820,0.0890,32875.98,22433.60,KXPRESMATCHUP-28NOV07-JOSSJVAN
+2028 Presidential matchup,Jon Ossoff v. Marco Rubio,2028-11-07,0.0500,0.0360,0.0490,28372.51,17385.92,KXPRESMATCHUP-28NOV07-JOSSMRUB
+2028 Presidential matchup,Josh Shapiro v. JD Vance,2028-11-07,0.0190,0.0080,0.0190,8662.40,7813.23,KXPRESMATCHUP-28NOV07-JSHAJVAN
+2028 Presidential matchup,Josh Shapiro v. Marco Rubio,2028-11-07,0.0240,0.0110,0.0230,11456.08,10033.22,KXPRESMATCHUP-28NOV07-JSHAMRUB
+2028 Presidential matchup,Kamala Harris v. JD Vance,2028-11-07,0.0490,0.0380,0.0410,33553.56,20436.07,KXPRESMATCHUP-28NOV07-KHARJVAN
+2028 Presidential matchup,Kamala Harris v. Marco Rubio,2028-11-07,0.0170,0.0140,0.0190,14895.65,11716.58,KXPRESMATCHUP-28NOV07-KHARMRUB
+2028 Presidential matchup,Pete Buttigieg v. JD Vance,2028-11-07,0.0190,0.0030,0.0150,10554.88,8168.68,KXPRESMATCHUP-28NOV07-PBUTJVAN
+2028 Presidential matchup,Pete Buttigieg v. Marco Rubio,2028-11-07,0.0100,0.0030,0.0150,12594.87,10464.71,KXPRESMATCHUP-28NOV07-PBUTMRUB
+2028 Presidential matchup,Andy Beshear v. JD Vance,2028-11-07,0.0160,0.0060,0.0160,11714.64,7502.38,KXPRESMATCHUP-28NOV07-ABESJVAN
+2028 Presidential matchup,Andy Beshear v. Marco Rubio,2028-11-07,0.0120,0.0070,0.0120,9961.96,9359.23,KXPRESMATCHUP-28NOV07-ABESMRUB
+2028 Presidential matchup,James Talarico v. JD Vance,2028-11-07,0.0900,0.0120,0.0170,10022.87,9578.73,KXPRESMATCHUP-28NOV07-JTALJVAN
+2028 Presidential matchup,James Talarico v. Marco Rubio,2028-11-07,0.0230,0.0120,0.0170,3284.18,2736.14,KXPRESMATCHUP-28NOV07-JTALMRUB
+2028 Presidential matchup,Jon Ossoff v. Ron DeSantis,2028-11-07,0.0670,0.0130,0.0610,3003.05,2669.05,KXPRESMATCHUP-28NOV07-JOSSRDES
+2028 Presidential matchup,Gavin Newsom v. Ron DeSantis,2028-11-07,0.0280,0.0030,0.0270,1777.93,1277.93,KXPRESMATCHUP-28NOV07-GNEWRDES
+2028 Presidential matchup,AOC v. Ron DeSantis,2028-11-07,0.0190,0.0030,0.0200,639.39,600.00,KXPRESMATCHUP-28NOV07-AOCRDES
+Who will be the first Democrat listed to announce a presidential run?,Gavin Newsom,2028-11-07,0.2200,0.1800,0.2200,19761.83,8678.57,KXDECLAREPRESFIRSTD-28NOV07-GNEW
+Who will be the first Democrat listed to announce a presidential run?,Alexandria Ocasio-Cortez,2028-11-07,0.0200,0.0110,0.0980,5386.26,4068.74,KXDECLAREPRESFIRSTD-28NOV07-AOCA
+Who will be the first Democrat listed to announce a presidential run?,Pete Buttigieg,2028-11-07,0.1700,0.1600,0.1700,15314.65,9113.33,KXDECLAREPRESFIRSTD-28NOV07-PBUT
+Who will be the first Democrat listed to announce a presidential run?,Wes Moore,2028-11-07,0.0750,0.0310,0.0520,5038.64,4879.20,KXDECLAREPRESFIRSTD-28NOV07-WMOO
+Who will be the first Democrat listed to announce a presidential run?,Josh Shapiro,2028-11-07,0.0210,0.0230,0.0320,8914.00,5501.54,KXDECLAREPRESFIRSTD-28NOV07-JSHA
+Who will be the first Democrat listed to announce a presidential run?,Kamala Harris,2028-11-07,0.0030,0.0070,0.0460,16092.38,8137.97,KXDECLAREPRESFIRSTD-28NOV07-KHAR
+Who will be the first Democrat listed to announce a presidential run?,Gretchen Whitmer,2028-11-07,0.0020,0.0060,0.0200,3713.45,2541.45,KXDECLAREPRESFIRSTD-28NOV07-GWHI
+Who will be the first Democrat listed to announce a presidential run?,Andy Beshear,2028-11-07,0.2400,0.1900,0.2300,15075.61,7533.00,KXDECLAREPRESFIRSTD-28NOV07-ABES
+Who will be the first Democrat listed to announce a presidential run?,Jon Ossoff,2028-11-07,0.0990,0.0260,0.0740,4278.29,3464.25,KXDECLAREPRESFIRSTD-28NOV07-JOSS
+Who will be the first Democrat listed to announce a presidential run?,J.B. Pritzker,2028-11-07,0.0710,0.0610,0.1300,6799.40,5430.17,KXDECLAREPRESFIRSTD-28NOV07-JPRI
+Will Bernie Sanders run for President in 2028?,"Before November 4, 2028",2028-11-04,0.0600,0.0320,0.0700,24418.85,9493.97,KXSANDERSPRES-28
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Gavin Newsom,2028-11-01,0.1000,0.0700,0.0900,8886.08,7005.53,KXDECLAREPRESFIRSTD-28NOV01-GNEW
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Alexandria Ocasio-Cortez,2028-11-01,0.0200,0.0100,0.0200,1794.61,1794.61,KXDECLAREPRESFIRSTD-28NOV01-AOCA
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Pete Buttigieg,2028-11-01,0.1000,0.0600,0.1000,8278.82,7937.61,KXDECLAREPRESFIRSTD-28NOV01-PBUT
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Wes Moore,2028-11-01,0.0400,0.0000,0.0200,2594.70,2594.70,KXDECLAREPRESFIRSTD-28NOV01-WMOO
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Josh Shapiro,2028-11-01,0.0400,0.0000,0.0200,3431.54,3431.54,KXDECLAREPRESFIRSTD-28NOV01-JSHA
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Kamala Harris,2028-11-01,0.0500,0.0000,0.0500,6396.07,6180.86,KXDECLAREPRESFIRSTD-28NOV01-KHAR
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Gretchen Whitmer,2028-11-01,0.0200,0.0000,0.0200,501.00,501.00,KXDECLAREPRESFIRSTD-28NOV01-GWHI
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Andy Beshear,2028-11-01,0.0700,0.0700,0.1200,6499.68,6074.68,KXDECLAREPRESFIRSTD-28NOV01-ABES
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Jon Ossoff,2028-11-01,0.0700,0.0100,0.0200,1336.46,1336.46,KXDECLAREPRESFIRSTD-28NOV01-JOSS
+Who will be the first Democrat listed to announce a presidential run? (More strikes),J.B. Pritzker,2028-11-01,0.0400,0.0100,0.0200,3081.00,3081.00,KXDECLAREPRESFIRSTD-28NOV01-JPRI
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Rahm Emanuel,2028-11-01,0.4900,0.2500,0.3000,3968.18,3418.62,KXDECLAREPRESFIRSTD-28NOV01-REMA
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Mark Kelly,2028-11-01,0.0500,0.0100,0.0200,88.37,88.37,KXDECLAREPRESFIRSTD-28NOV01-MKEL
+Who will be the first Democrat listed to announce a presidential run? (More strikes),James Talarico,2028-11-01,0.0100,0.0100,0.0200,117.80,78.74,KXDECLAREPRESFIRSTD-28NOV01-JTAL
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Ro Khanna,2028-11-01,0.1900,0.1900,0.2200,3730.98,3008.44,KXDECLAREPRESFIRSTD-28NOV01-RKHA
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Graham Platner,2028-11-01,0.0300,0.0000,0.0200,1.00,1.00,KXDECLAREPRESFIRSTD-28NOV01-GPLA
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Mitch Landrieu,2028-11-01,0.0200,0.0000,0.0200,127.48,127.48,KXDECLAREPRESFIRSTD-28NOV01-MLAN
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Stephen A. Smith,2028-11-01,0.0400,0.0000,0.0200,1.00,1.00,KXDECLAREPRESFIRSTD-28NOV01-SSMI
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Cory Booker,2028-11-01,0.0400,0.0200,0.0500,726.45,726.45,KXDECLAREPRESFIRSTD-28NOV01-CBOO
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Chris Murphy,2028-11-01,0.0200,0.0000,0.0200,46.79,46.79,KXDECLAREPRESFIRSTD-28NOV01-CMUR
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Elissa Slotkin,2028-11-01,0.0200,0.0000,0.0200,46.79,46.79,KXDECLAREPRESFIRSTD-28NOV01-ESLO
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Raphael Warnock,2028-11-01,0.0400,0.0000,0.0300,120.01,101.75,KXDECLAREPRESFIRSTD-28NOV01-RWAR
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Andrew Yang,2028-11-01,0.0400,0.0000,0.0200,70.27,70.27,KXDECLAREPRESFIRSTD-28NOV01-AYAN
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Gina Raimondo,2028-11-01,0.0100,0.0000,0.0100,62.52,31.26,KXDECLAREPRESFIRSTD-28NOV01-GRAI
+Who will be the first Democrat listed to announce a presidential run? (More strikes),Amy Klobuchar,2028-11-01,0.0500,0.0000,0.0200,45.93,45.93,KXDECLAREPRESFIRSTD-28NOV01-AKLO
+Argentina presidential election winner?,Javier Milei,2028-10-30,0.4600,0.4600,0.4700,33854.07,11048.65,KXARGENTINAPRES-27-JMIL
+Argentina presidential election winner?,Sergio Massa,2028-10-30,0.1100,0.0890,0.0980,13413.00,4405.86,KXARGENTINAPRES-27-SMAS
+Argentina presidential election winner?,Eduardo de Pedro,2028-10-30,0.0800,0.0010,0.0100,103.00,103.00,KXARGENTINAPRES-27-EDEP
+Argentina presidential election winner?,Patricia Bullrich,2028-10-30,0.0310,0.0030,0.0760,1828.00,1783.00,KXARGENTINAPRES-27-PBULL
+Argentina presidential election winner?,Horacio Rodríguez Larreta,2028-10-30,0.0790,0.0010,0.0100,104.00,104.00,KXARGENTINAPRES-27-HROD
+Argentina presidential election winner?,Axel Kicillof,2028-10-30,0.2900,0.2900,0.3000,6104.27,3238.02,KXARGENTINAPRES-27-AKIC
+Argentina presidential election winner?,Mauricio Macri,2028-10-30,0.0200,0.0100,0.0600,1012.50,992.50,KXARGENTINAPRES-27OCT30-MMAC
+Argentina presidential election winner?,Cristina Fernández de Kirchner,2028-10-30,0.0000,0.0100,0.0600,0.00,0.00,KXARGENTINAPRES-27-CFK
+Argentina presidential election: first round winner?,Javier Milei,2028-10-23,0.5800,0.5300,0.5700,10656.97,9875.32,KXARGENTINAPRES1R-27OCT24-JMIL
+Argentina presidential election: first round winner?,Axel Kicillof,2028-10-23,0.2200,0.2300,0.2900,2812.28,2058.77,KXARGENTINAPRES1R-27OCT24-AKIC
+Argentina presidential election: first round winner?,Myriam Bregman,2028-10-23,0.0300,0.0100,0.0300,1434.04,1267.32,KXARGENTINAPRES1R-27OCT24-MBRE
+Argentina presidential election: first round winner?,Juan Schiaretti,2028-10-23,0.0200,0.0100,0.0200,1276.00,1138.50,KXARGENTINAPRES1R-27OCT24-JSCH
+Argentina presidential election: first round winner?,Patricia Bullrich,2028-10-23,0.0500,0.0100,0.0400,1527.33,1340.83,KXARGENTINAPRES1R-27OCT24-PBUL
+Argentina presidential election: first round winner?,Victoria Villarruel,2028-10-23,0.0300,0.0100,0.0200,1388.50,1138.50,KXARGENTINAPRES1R-27OCT24-VVIL
+Argentina presidential election: first round winner?,Mauricio Macri,2028-10-23,0.0200,0.0100,0.0200,1344.99,1181.49,KXARGENTINAPRES1R-27OCT24-MMAC
+Argentina presidential election: first round winner?,Sergio Massa,2028-10-23,0.0400,0.0700,0.0800,2307.08,1687.11,KXARGENTINAPRES1R-27OCT24-SMAS
+Argentina presidential election: first round winner?,Juan Grabois,2028-10-23,0.0300,0.0100,0.0300,1559.50,1280.50,KXARGENTINAPRES1R-27OCT24-JGRA
+Prime Minister of Spain after the next election?,Alberto Núñez Feijóo,2028-08-22,0.8500,0.8600,0.8700,16574.68,12468.19,KXSPANISHPM-27AUG22-AFEI
+Prime Minister of Spain after the next election?,Pedro Sánchez,2028-08-22,0.1200,0.1200,0.1300,36671.67,18740.72,KXSPANISHPM-27AUG22-PSAN
+Prime Minister of Spain after the next election?,Santiago Abascal,2028-08-22,0.0600,0.0000,0.0400,13562.85,9028.94,KXSPANISHPM-27AUG22-SABA
+Next French presidential election winner?,Édouard Philippe,2028-05-30,0.0530,0.0520,0.0530,112645.91,70903.00,KXFRENCHPRES-27-EPHI
+Next French presidential election winner?,Marine Le Pen,2028-05-30,0.5300,0.5200,0.5300,563915.93,357988.51,KXFRENCHPRES-27-MLEP
+Next French presidential election winner?,Jordan Bardella,2028-05-30,0.0280,0.0280,0.0290,297509.18,142335.88,KXFRENCHPRES-27-JBAR
+Next French presidential election winner?,David Lisnard,2028-05-30,0.1200,0.1300,0.1400,269124.15,167733.49,KXFRENCHPRES-27-DLIS
+Next French presidential election winner?,Bruno Retailleau,2028-05-30,0.0110,0.0110,0.0120,65707.19,41030.64,KXFRENCHPRES-27-BRET
+Next French presidential election winner?,Jean-Luc Mélenchon,2028-05-30,0.1200,0.1200,0.1300,323182.72,240290.74,KXFRENCHPRES-27-JMEL
+Next French presidential election winner?,François Hollande,2028-05-30,0.0300,0.0200,0.0300,149795.88,111866.79,KXFRENCHPRES-27-FHOL
+Next French presidential election winner?,Christine Lagarde,2028-05-30,0.0500,0.0500,0.0600,178546.84,132854.76,KXFRENCHPRES-27-CLAG
+Next French presidential election winner?,Raphaël Glucksmann,2028-05-30,0.0300,0.0200,0.0300,78082.33,51246.92,KXFRENCHPRES-27-RGLU
+Next French presidential election winner?,Teddy Riner,2028-05-30,0.0200,0.0100,0.0200,32122.78,31944.57,KXFRENCHPRES-27-TRIN
+Next French presidential election: 3rd place (1st round),Jean-Luc Mélenchon,2028-04-18,0.3100,0.2300,0.3000,927.40,865.62,KXFRPRES1R3RD-27-3-JMEL
+Next French presidential election: 3rd place (1st round),Édouard Philippe,2028-04-18,0.2100,0.1800,0.2300,1574.91,870.00,KXFRPRES1R3RD-27-3-EPHI
+Next French presidential election: 3rd place (1st round),Raphaël Glucksmann,2028-04-18,0.1000,0.0900,0.1300,9764.05,4721.05,KXFRPRES1R3RD-27-3-RGLU
+Next French presidential election: 3rd place (1st round),Gabriel Attal,2028-04-18,0.0200,0.0100,0.0200,5504.87,2604.01,KXFRPRES1R3RD-27-3-GATT
+Next French presidential election: 3rd place (1st round),Bruno Retailleau,2028-04-18,0.0500,0.0100,0.0200,1049.00,383.00,KXFRPRES1R3RD-27-3-BRET
+Next French presidential election: 3rd place (1st round),Éric Zemmour,2028-04-18,0.0200,0.0100,0.0200,383.00,383.00,KXFRPRES1R3RD-27-3-EZEM
+Next French presidential election: 3rd place (1st round),Marine Le Pen,2028-04-18,0.0100,0.0100,0.0600,724.99,683.00,KXFRPRES1R3RD-27-3-MLEP
+Next French presidential election: 3rd place (1st round),François Hollande,2028-04-18,0.0200,0.0100,0.0200,383.00,383.00,KXFRPRES1R3RD-27-3-FHOL
+Next French presidential election: 3rd place (1st round),David Lisnard,2028-04-18,0.2000,0.1300,0.1900,3762.48,3212.09,KXFRPRES1R3RD-27-3-DLIS
+Next French presidential election: 3rd place (1st round),Marine Tondelier,2028-04-18,0.0200,0.0100,0.0200,716.00,383.00,KXFRPRES1R3RD-27-3-MTON
+Next French presidential election: 3rd place (1st round),Xavier Bertrand,2028-04-18,0.0200,0.0100,0.0200,1049.00,383.00,KXFRPRES1R3RD-27-3-XBER
+Next French presidential election: 3rd place (1st round),Dominique de Villepin,2028-04-18,0.0200,0.0100,0.0200,383.00,383.00,KXFRPRES1R3RD-27-3-DVIL
+Next French presidential election: 3rd place (1st round),Jordan Bardella,2028-04-18,0.0200,0.0100,0.0200,716.00,383.00,KXFRPRES1R3RD-27-3-JBAR
+Next French presidential election: 3rd place (1st round),François Ruffin,2028-04-18,0.0200,0.0100,0.0200,1049.00,383.00,KXFRPRES1R3RD-27-3-FRUF
+Next French presidential election: 2nd place (1st round),Édouard Philippe,2028-04-18,0.0900,0.0400,0.1000,999.52,464.00,KXFRPRES1R2ND-27-2-EPHI
+Next French presidential election: 2nd place (1st round),Jean-Luc Mélenchon,2028-04-18,0.5100,0.4900,0.5400,2824.37,1965.33,KXFRPRES1R2ND-27-2-JMEL
+Next French presidential election: 2nd place (1st round),Raphaël Glucksmann,2028-04-18,0.0500,0.0200,0.0700,3298.94,1965.54,KXFRPRES1R2ND-27-2-RGLU
+Next French presidential election: 2nd place (1st round),Gabriel Attal,2028-04-18,0.0100,0.0000,0.0400,509.00,455.00,KXFRPRES1R2ND-27-2-GATT
+Next French presidential election: 2nd place (1st round),Marine Le Pen,2028-04-18,0.0500,0.0500,0.0700,3464.94,2154.64,KXFRPRES1R2ND-27-2-MLEP
+Next French presidential election: 2nd place (1st round),Bruno Retailleau,2028-04-18,0.0100,0.0000,0.0500,509.00,455.00,KXFRPRES1R2ND-27-2-BRET
+Next French presidential election: 2nd place (1st round),François Hollande,2028-04-18,0.0100,0.0000,0.0400,509.00,455.00,KXFRPRES1R2ND-27-2-FHOL
+Next French presidential election: 2nd place (1st round),Jordan Bardella,2028-04-18,0.0100,0.0000,0.0400,509.00,455.00,KXFRPRES1R2ND-27-2-JBAR
+Next French presidential election: 2nd place (1st round),David Lisnard,2028-04-18,0.2500,0.1800,0.2400,5177.00,3699.34,KXFRPRES1R2ND-27-2-DLIS
+Next French presidential election: 2nd place (1st round),Dominique de Villepin,2028-04-18,0.0100,0.0000,0.0200,455.00,455.00,KXFRPRES1R2ND-27-2-DVIL
+Next French presidential election: 2nd place (1st round),Éric Zemmour,2028-04-18,0.0100,0.0000,0.0200,455.00,455.00,KXFRPRES1R2ND-27-2-EZEM
+Next French presidential election: 2nd place (1st round),François Ruffin,2028-04-18,0.0100,0.0000,0.0200,455.00,455.00,KXFRPRES1R2ND-27-2-FRUF
+Next French presidential election: 2nd place (1st round),Marine Tondelier,2028-04-18,0.0100,0.0000,0.0200,455.00,455.00,KXFRPRES1R2ND-27-2-MTON
+Next French presidential election: 2nd place (1st round),Xavier Bertrand,2028-04-18,0.0100,0.0000,0.0200,455.00,455.00,KXFRPRES1R2ND-27-2-XBER
+Next French presidential election: 2nd place (1st round),Christine Lagarde,2028-04-18,0.0100,0.0000,0.0600,1.00,1.00,KXFRPRES1R2ND-27-2-CLAG
+Next French presidential election: 1st place (1st round),Marine Le Pen,2028-04-18,0.7900,0.7800,0.8200,18482.42,9468.83,KXFRPRES1R1ST-27-1-MLEP
+Next French presidential election: 1st place (1st round),Jordan Bardella,2028-04-18,0.0100,0.0100,0.0900,9929.49,4187.94,KXFRPRES1R1ST-27-1-JBAR
+Next French presidential election: 1st place (1st round),Jean-Luc Mélenchon,2028-04-18,0.0100,0.0000,0.0600,4472.43,3058.83,KXFRPRES1R1ST-27-1-JMEL
+Next French presidential election: 1st place (1st round),Édouard Philippe,2028-04-18,0.0100,0.0000,0.0100,4312.66,2888.66,KXFRPRES1R1ST-27-1-EPHI
+Next French presidential election: 1st place (1st round),Raphaël Glucksmann,2028-04-18,0.0100,0.0000,0.0100,2733.55,2733.55,KXFRPRES1R1ST-27-1-RGLU
+Next French presidential election: 1st place (1st round),Gabriel Attal,2028-04-18,0.0100,0.0000,0.0100,3067.02,2686.76,KXFRPRES1R1ST-27-1-GATT
+Next French presidential election: 1st place (1st round),Bruno Retailleau,2028-04-18,0.0100,0.0000,0.0100,1644.00,1644.00,KXFRPRES1R1ST-27-1-BRET
+Next French presidential election: 1st place (1st round),François Hollande,2028-04-18,0.0100,0.0000,0.0100,1645.00,1645.00,KXFRPRES1R1ST-27-1-FHOL
+Next French presidential election: 1st place (1st round),David Lisnard,2028-04-18,0.2200,0.0800,0.2200,7093.18,4753.54,KXFRPRES1R1ST-27-1-DLIS
+Next French presidential election: 1st place (1st round),Éric Zemmour,2028-04-18,0.0100,0.0000,0.0100,3617.02,2686.76,KXFRPRES1R1ST-27-1-EZEM
+Next French presidential election: 1st place (1st round),François Ruffin,2028-04-18,0.0100,0.0000,0.0100,3817.02,2686.76,KXFRPRES1R1ST-27-1-FRUF
+Next French presidential election: 1st place (1st round),Marine Tondelier,2028-04-18,0.0100,0.0000,0.0100,3467.02,2686.76,KXFRPRES1R1ST-27-1-MTON
+Next French presidential election: 1st place (1st round),Dominique de Villepin,2028-04-18,0.0100,0.0000,0.0100,3996.76,2686.76,KXFRPRES1R1ST-27-1-DVIL
+Next French presidential election: 1st place (1st round),Xavier Bertrand,2028-04-18,0.0100,0.0000,0.0100,2270.50,1956.50,KXFRPRES1R1ST-27-1-XBER
+Next French presidential election: 1st place (1st round),Christine Lagarde,2028-04-18,0.0100,0.0000,0.0100,0.77,0.77,KXFRPRES1R1ST-27-1-CLAG
+French presidential election: who will advance?,Marine Le Pen,2028-04-17,0.8800,0.8600,0.8900,10242.28,7698.40,KXFRPRESADVANCE-26APR18-MLEP
+French presidential election: who will advance?,Édouard Philippe,2028-04-17,0.1500,0.1400,0.1500,2408.96,1917.38,KXFRPRESADVANCE-26APR18-EPHI
+French presidential election: who will advance?,Jean-Luc Mélenchon,2028-04-17,0.5300,0.4900,0.5300,2651.96,2249.29,KXFRPRESADVANCE-26APR18-JMEL
+French presidential election: who will advance?,Raphaël Glucksmann,2028-04-17,0.0800,0.0500,0.1000,145.85,23.35,KXFRPRESADVANCE-26APR18-RGLU
+French presidential election: who will advance?,Gabriel Attal,2028-04-17,0.1600,0.0400,0.1200,0.02,0.00,KXFRPRESADVANCE-26APR18-GATT
+French presidential election: who will advance?,Bruno Retailleau,2028-04-17,0.0600,0.0200,0.0800,10.19,10.06,KXFRPRESADVANCE-26APR18-BRET
+French presidential election: who will advance?,Dominique de Villepin,2028-04-17,0.0800,0.0100,0.1000,154.38,126.16,KXFRPRESADVANCE-26APR18-DVIL
+French presidential election: who will advance?,Jordan Bardella,2028-04-17,0.0400,0.0100,0.1200,252.63,147.56,KXFRPRESADVANCE-26APR18-JBAR
+French presidential election: who will advance?,François Hollande,2028-04-17,0.0900,0.0400,0.0900,2532.53,2510.40,KXFRPRESADVANCE-26APR18-FHOL
+French presidential election: who will advance?,Sébastien Lecornu,2028-04-17,0.0600,0.0100,0.0800,3.13,3.00,KXFRPRESADVANCE-26APR18-SLEC
+French presidential election: who will advance?,Bernard Cazeneuve,2028-04-17,0.0800,0.0100,0.0900,80.19,80.12,KXFRPRESADVANCE-26APR18-BCAZ
+French presidential election: who will advance?,Olivier Faure,2028-04-17,0.0500,0.0100,0.0600,4.18,2.02,KXFRPRESADVANCE-26APR18-OFAU
+French presidential election: who will advance?,Élisabeth Borne,2028-04-17,0.0600,0.0100,0.0800,0.19,0.06,KXFRPRESADVANCE-26APR18-EBOR
+French presidential election: who will advance?,David Lisnard,2028-04-17,0.3800,0.3800,0.5400,1438.52,1428.52,KXFRPRESADVANCE-26APR18-DLIS
+French presidential election: who will advance?,Christine Lagarde,2028-04-17,0.0600,0.0400,0.5400,1927.10,891.90,KXFRPRESADVANCE-26APR18-CLAG
+Which state will vote first in the 2028 Democratic presidential primary?,South Carolina,2028-04-01,0.0700,0.0100,0.0600,30982.36,11666.63,KXDEMFIRSTCONTEST-28-SC
+Which state will vote first in the 2028 Democratic presidential primary?,New Hampshire,2028-04-01,0.8400,0.8100,0.8700,36825.92,12608.02,KXDEMFIRSTCONTEST-28-NH
+Which state will vote first in the 2028 Democratic presidential primary?,Iowa,2028-04-01,0.1000,0.0700,0.1200,29244.40,12905.68,KXDEMFIRSTCONTEST-28-IA
+Which state will vote first in the 2028 Democratic presidential primary?,Nevada,2028-04-01,0.0100,0.0000,0.0100,4436.60,2708.21,KXDEMFIRSTCONTEST-28-NV
+Who will Donald Trump endorse in the 2028 presidential election?,No one,2028-03-01,0.1900,0.1600,0.2100,8306.89,5014.33,KXTRUMPENDORSE28-28MAR01-NOONE
+Who will Donald Trump endorse in the 2028 presidential election?,J.D. Vance,2028-03-01,0.2400,0.1600,0.2400,15271.24,7598.58,KXTRUMPENDORSE28-28MAR01-JVAN
+Who will Donald Trump endorse in the 2028 presidential election?,Marco Rubio,2028-03-01,0.5500,0.5000,0.5500,17031.67,7615.58,KXTRUMPENDORSE28-28MAR01-MRUB
+Who will Donald Trump endorse in the 2028 presidential election?,Ron DeSantis,2028-03-01,0.0300,0.0300,0.0700,3832.29,3319.33,KXTRUMPENDORSE28-28MAR01-RDES
+Who will Donald Trump endorse in the 2028 presidential election?,Donald J. Trump Jr.,2028-03-01,0.0600,0.0300,0.0700,4968.18,3571.79,KXTRUMPENDORSE28-28MAR01-DJR
+Who will Donald Trump endorse in the 2028 presidential election?,Himself,2028-03-01,0.0500,0.0500,0.0800,8068.51,4030.32,KXTRUMPENDORSE28-28MAR01-DJT
+Recession in 2027?,Yes,2028-01-31,0.2000,0.1900,0.2000,1047203.23,435692.03,KXRECSSNBER-27
+Jerome Powell departure as Fed Governor announced?,"Before Oct 1, 2026",2026-10-01,0.0400,0.0000,1.0000,30912.81,6730.20,KXLEAVEPOWELLGOV-26OCT01
+Jerome Powell departure as Fed Governor announced?,"Before Nov 1, 2026",2026-11-01,0.0400,0.0000,1.0000,9863.42,3368.13,KXLEAVEPOWELLGOV-26NOV01
+Jerome Powell departure as Fed Governor announced?,"Before Dec 1, 2026",2026-12-01,0.0100,0.0000,0.0400,20799.69,8763.53,KXLEAVEPOWELLGOV-26DEC01
+Jerome Powell departure as Fed Governor announced?,"Before Jan 1, 2027",2027-01-01,0.0750,0.0740,0.0950,243249.07,44534.49,KXLEAVEPOWELLGOV-26AUG01-27
+Jerome Powell departure as Fed Governor announced?,"Before Apr 1, 2027",2027-04-01,0.1100,0.1500,0.2300,1712.12,1154.55,KXLEAVEPOWELLGOV-27APR01
+Jerome Powell departure as Fed Governor announced?,"Before Jun 1, 2027",2027-06-01,0.3600,0.3300,0.3600,38911.00,15793.66,KXLEAVEPOWELLGOV-27JUN01
+Jerome Powell departure as Fed Governor announced?,"Before Oct 1, 2027",2027-10-01,0.5400,0.4900,0.5500,3598.25,3598.25,KXLEAVEPOWELLGOV-27OCT01
+Jerome Powell departure as Fed Governor announced?,"Before Jan 31, 2028",2028-01-31,0.6700,0.6500,0.6700,24649.14,10325.09,KXLEAVEPOWELLGOV-28JAN31
+Will Putin visit the U.S.?,"Before Jan 1, 2027",2027-01-08,0.1100,0.1100,0.1400,12629.65,6325.67,KXPUTINUSA-26SEP21-JAN01
+Will Putin visit the U.S.?,"Before Jul 1, 2027",2027-07-08,0.1500,0.1500,0.2000,429.51,330.84,KXPUTINUSA-26SEP21-JUL01
+Will Putin visit the U.S.?,"Before Jan 1, 2028",2028-01-08,0.3100,0.2900,0.3800,36.24,36.24,KXPUTINUSA-26SEP21-28JAN01
+120th Congress: Who will be elected Speaker of the House?,Pete Aguilar,2028-01-03,0.0100,0.0000,0.0100,4682.82,3952.80,KXSPEAKER120-27-PAGU
+120th Congress: Who will be elected Speaker of the House?,Katherine Clark,2028-01-03,0.0100,0.0000,0.0100,18194.97,7908.78,KXSPEAKER120-27-KCLA
+120th Congress: Who will be elected Speaker of the House?,Tom Emmer,2028-01-03,0.0100,0.0000,0.0100,1952.64,928.61,KXSPEAKER120-27-TEMM
+120th Congress: Who will be elected Speaker of the House?,Hakeem Jeffries,2028-01-03,0.9900,0.9900,1.0000,211722.20,111886.98,KXSPEAKER120-27-KJEF
+120th Congress: Who will be elected Speaker of the House?,Jim Jordan,2028-01-03,0.0100,0.0000,0.0100,5448.32,4194.17,KXSPEAKER120-27-JJOR
+120th Congress: Who will be elected Speaker of the House?,Mike Johnson,2028-01-03,0.0100,0.0000,0.0100,7185.50,5407.13,KXSPEAKER120-27-MJOH
+120th Congress: Who will be elected Speaker of the House?,Steve Scalise,2028-01-03,0.0200,0.0000,0.0100,1855.92,938.89,KXSPEAKER120-27-SSCA
+120th Congress: Who will be elected Speaker of the House?,Jamie Raskin,2028-01-03,0.0100,0.0000,0.0100,4135.73,2817.16,KXSPEAKER120-27-JRAS
+120th Congress: Who will be elected Speaker of the House?,Ro Khanna,2028-01-03,0.0200,0.0100,0.0200,18991.60,15422.70,KXSPEAKER120-27-RKHA
+120th Congress: Who will be Senate Majority Leader?,Chuck Schumer,2028-01-03,0.9200,0.9100,0.9200,2322763.38,1578109.37,KXSENMAJ-27-CSCH
+120th Congress: Who will be Senate Majority Leader?,John Thune,2028-01-03,0.0100,0.0000,0.0100,4468.82,3219.04,KXSENMAJ-27-JTHU
+120th Congress: Who will be Senate Majority Leader?,Brian Schatz,2028-01-03,0.0200,0.0100,0.0200,606888.06,473567.78,KXSENMAJ-27-BSCH
+120th Congress: Who will be Senate Majority Leader?,Tom Cotton,2028-01-03,0.0100,0.0000,0.0100,2178.01,1905.37,KXSENMAJ-27-TCOT
+120th Congress: Who will be Senate Majority Leader?,Chris Van Hollen,2028-01-03,0.0800,0.0800,0.0900,1466489.60,1089855.85,KXSENMAJ-27-CHOL
+120th Congress: Who will be Senate Majority Leader?,John Barrasso,2028-01-03,0.0100,0.0000,0.0100,1627.37,1426.37,KXSENMAJ-27-JBAR
+120th Congress: Who will be Senate Majority Leader?,Elissa Slotkin,2028-01-03,0.0100,0.0000,0.0100,668048.65,543466.42,KXSENMAJ-27-ESLO
+Which Senators will vote for Heidi Overton?,Bill Cassidy,2028-01-01,0.0100,0.0000,0.0200,1344.55,1045.40,KXVOTEOVERTON-28-BCAS
+Which Senators will vote for Heidi Overton?,Lisa Murkowski,2028-01-01,0.0100,0.0000,0.0200,313.86,255.00,KXVOTEOVERTON-28-LMUR
+Which Senators will vote for Heidi Overton?,Susan Collins,2028-01-01,0.0100,0.0000,0.0200,551.07,331.07,KXVOTEOVERTON-28-SCOL
+Which Senators will vote for Heidi Overton?,Mitch McConnell,2028-01-01,0.0100,0.0000,0.0200,1811.63,470.16,KXVOTEOVERTON-28-MMCC
+Which Senators will vote for Heidi Overton?,Thom Tillis,2028-01-01,0.0100,0.0000,0.0200,1279.08,1214.08,KXVOTEOVERTON-28-TTIL
+Which Senators will vote for Heidi Overton?,Rand Paul,2028-01-01,0.0100,0.0000,0.0200,794.00,465.00,KXVOTEOVERTON-28-RPAU
+Which Senators will vote for Heidi Overton?,John Fetterman,2028-01-01,0.0100,0.0000,0.0200,355.00,250.00,KXVOTEOVERTON-28-JFET
+Which Senators will vote for Heidi Overton?,Tim Kaine,2028-01-01,0.0100,0.0000,0.0200,55.00,55.00,KXVOTEOVERTON-28-TKAI
+Which Senators will vote for Heidi Overton?,Maggie Hassan,2028-01-01,0.0100,0.0000,0.0200,107.96,102.96,KXVOTEOVERTON-28-MHAS
+Which Senators will vote for Heidi Overton?,Ruben Gallego,2028-01-01,0.0100,0.0000,0.0200,155.93,155.93,KXVOTEOVERTON-28-RGAL
+Which Senators will vote for Kari Lake?,Susan Collins,2028-01-01,0.4500,0.0600,0.4400,3842.66,1511.92,KXVOTELAKE-28-SCOL
+Which Senators will vote for Kari Lake?,Lisa Murkowski,2028-01-01,0.2900,0.0200,0.4200,1906.38,410.01,KXVOTELAKE-28-LMUR
+Which Senators will vote for Kari Lake?,Rand Paul,2028-01-01,0.2600,0.1400,0.4200,6428.44,2847.63,KXVOTELAKE-28-RPAU
+Which Senators will vote for Kari Lake?,Mitch McConnell,2028-01-01,0.0200,0.0100,0.0200,8630.30,2401.50,KXVOTELAKE-28-MMCC
+Which Senators will vote for Kari Lake?,Thom Tillis,2028-01-01,0.0800,0.0400,0.0900,4288.32,2280.95,KXVOTELAKE-28-TTIL
+Which Senators will vote for Kari Lake?,Bill Cassidy,2028-01-01,0.0800,0.0200,0.1300,5557.09,895.68,KXVOTELAKE-28-BCAS
+Which Senators will vote for Kari Lake?,John Fetterman,2028-01-01,0.0400,0.0100,0.0300,5755.47,2552.00,KXVOTELAKE-28-JFET
+Which Senators will vote for Kari Lake?,Ruben Gallego,2028-01-01,0.0200,0.0100,0.0200,2321.30,1242.29,KXVOTELAKE-28-RGAL
+Will Chris Van Hollen announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0100,0.0000,0.0400,43933.96,21583.03,KXVANHOLLENRUN-28-27JAN01
+Will Chris Van Hollen announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.0400,0.0400,0.1200,3354.00,2544.00,KXVANHOLLENRUN-28-27FEB01
+Will Chris Van Hollen announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.0700,0.1100,0.3100,21540.03,14829.43,KXVANHOLLENRUN-28-27MAR01
+Will Chris Van Hollen announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.3200,0.0200,0.3200,2043.87,1217.87,KXVANHOLLENRUN-28-27APR01
+Will Chris Van Hollen announce a presidential run?,"Before May 1, 2027",2027-05-01,0.3300,0.3000,0.3400,1608.58,1503.58,KXVANHOLLENRUN-28-27MAY01
+Will Chris Van Hollen announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.3300,0.3200,0.6000,3001.60,2250.36,KXVANHOLLENRUN-28-27JUN01
+Will Chris Van Hollen announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.2900,0.3200,0.6400,4781.91,2403.97,KXVANHOLLENRUN-28-27JUL01
+Will Chris Van Hollen announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.4100,0.3600,0.4700,2989.17,1990.81,KXVANHOLLENRUN-28-27OCT01
+Will Chris Van Hollen announce a presidential run?,"Before Jan 1, 2028",2028-01-01,0.3600,0.3700,0.4800,9982.46,4566.06,KXVANHOLLENRUN-28-28JAN01
+Prime Minister of Sweden after the general election?,Magdalena Andersson,2028-01-01,0.6200,0.5800,0.6100,129246.12,45134.83,KXSWEDENPM-26SEP13-MAND
+Prime Minister of Sweden after the general election?,Ulf Kristersson,2028-01-01,0.2700,0.2500,0.2600,212284.82,86151.96,KXSWEDENPM-26SEP13-UKRI
+Prime Minister of Sweden after the general election?,Jimmie Åkesson,2028-01-01,0.0100,0.0000,0.0100,1989.89,1786.00,KXSWEDENPM-26SEP13-JAKE
+Prime Minister of Sweden after the general election?,Ebba Busch,2028-01-01,0.0100,0.0000,0.0100,4509.64,3961.22,KXSWEDENPM-26SEP13-EBUS
+Prime Minister of Sweden after the general election?,No one,2028-01-01,0.1500,0.1500,0.1700,8476.51,7736.85,KXSWEDENPM-26SEP13-NOON
+Who will be a part of the next government of Israel?,Likud,2028-01-01,0.5100,0.3600,0.5000,2081.28,1085.52,KXISRAELGOVT-28JAN01-LIK
+Who will be a part of the next government of Israel?,Yashar,2028-01-01,0.9100,0.7800,0.8400,2766.87,1535.07,KXISRAELGOVT-28JAN01-YAS
+Who will be a part of the next government of Israel?,Together,2028-01-01,0.8500,0.8500,0.8800,2841.23,1728.68,KXISRAELGOVT-28JAN01-TOG
+Who will be a part of the next government of Israel?,The Democrats,2028-01-01,0.9800,0.5100,0.8900,1805.68,923.37,KXISRAELGOVT-28JAN01-DEM
+Who will be a part of the next government of Israel?,Yisrael Beiteinu,2028-01-01,0.3300,0.7400,0.8800,860.54,570.54,KXISRAELGOVT-28JAN01-YIS
+Who will be a part of the next government of Israel?,Shas,2028-01-01,0.3100,0.2300,0.7000,1463.28,974.00,KXISRAELGOVT-28JAN01-SHA
+Who will be a part of the next government of Israel?,United Torah Judaism,2028-01-01,0.4900,0.4500,0.5100,2202.40,1301.50,KXISRAELGOVT-28JAN01-UTJ
+Who will be a part of the next government of Israel?,Otzma Yehudit,2028-01-01,0.0100,0.0100,0.1900,3193.25,1950.72,KXISRAELGOVT-28JAN01-OYEH
+Who will be a part of the next government of Israel?,Religious Zionist Party,2028-01-01,0.3000,0.0600,0.6600,4927.85,1550.87,KXISRAELGOVT-28JAN01-RZP
+Who will be a part of the next government of Israel?,Ra’am,2028-01-01,0.4200,0.4200,0.4600,14888.42,7471.53,KXISRAELGOVT-28JAN01-RAAM
+Who will be a part of the next government of Israel?,Foundations of Israel,2028-01-01,0.1400,0.0700,0.3300,4297.46,656.71,KXISRAELGOVT-28JAN01-ROI
+Who will be a part of the next government of Israel?,Blue and White,2028-01-01,0.0400,0.0200,0.0500,12229.56,5714.75,KXISRAELGOVT-28JAN01-BW
+Who will be a part of the next government of Israel?,Noam,2028-01-01,0.0100,0.0000,0.0800,7472.13,5781.49,KXISRAELGOVT-28JAN01-NOAM
+Who will be a part of the next government of Israel?,Hadash–Ta’al,2028-01-01,0.4600,0.0300,0.3700,4759.50,1125.52,KXISRAELGOVT-28JAN01-HTAA
+Who will be a part of the next government of Israel?,Balad,2028-01-01,0.0500,0.0100,0.2400,599.40,597.40,KXISRAELGOVT-28JAN01-BAL
+Who will be a part of the next government of Israel?,Unity,2028-01-01,0.0300,0.0200,0.1000,810.00,810.00,KXISRAELGOVT-28JAN01-UNI
+Who will be a part of the next government of Israel?,Zehut,2028-01-01,0.1200,0.0600,0.2100,2788.94,2173.94,KXISRAELGOVT-28JAN01-ZEH
+Who will be a part of the next government of Israel?,New Economic Party,2028-01-01,0.0600,0.0300,0.1300,1737.84,137.84,KXISRAELGOVT-28JAN01-NEP
+Who will be a part of the next government of Israel?,Zionist Home–The Reservists,2028-01-01,0.1000,0.0200,0.0900,1160.58,699.39,KXISRAELGOVT-28JAN01-RES
+Who will be a part of the next government of Israel?,Amcha Yisrael,2028-01-01,0.0200,0.0200,0.1200,2209.85,991.69,KXISRAELGOVT-28JAN01-AYIS
+Who will be a part of the next government of Israel?,Reservists–New Economic Party,2028-01-01,0.0300,0.0000,0.1800,450.92,211.00,KXISRAELGOVT-28JAN01-RECO
+Will Chris Christie announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0300,0.0100,0.0400,13719.72,7399.07,KXCHRISTIERUN-28-27JAN01
+Will Chris Christie announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.0800,0.0600,0.1100,3167.00,3106.50,KXCHRISTIERUN-28-27FEB01
+Will Chris Christie announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.2900,0.2200,0.2600,400.00,400.00,KXCHRISTIERUN-28-27MAR01
+Will Chris Christie announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.3400,0.2600,0.3600,300.00,250.00,KXCHRISTIERUN-28-27APR01
+Will Chris Christie announce a presidential run?,"Before May 1, 2027",2027-05-01,0.0000,0.2800,0.3800,0.00,0.00,KXCHRISTIERUN-28-27MAY01
+Will Chris Christie announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.3000,0.3100,0.4100,200.00,200.00,KXCHRISTIERUN-28-27JUN01
+Will Chris Christie announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.5200,0.4800,0.5000,7841.48,6240.29,KXCHRISTIERUN-28-27JUL01
+Will Chris Christie announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.4900,0.4400,0.5400,13.81,13.81,KXCHRISTIERUN-28-27OCT01
+Will Chris Christie announce a presidential run?,"Before Jan 1, 2028",2028-01-01,0.0000,0.5400,0.5900,0.00,0.00,KXCHRISTIERUN-28-28JAN01
+Who will run for the 2028 Republican presidential nomination?,J.D. Vance,2028-01-01,0.7400,0.7200,0.7300,89799.11,49200.41,KX2028RRUN-28-JVAN
+Who will run for the 2028 Republican presidential nomination?,Donald J. Trump,2028-01-01,0.1100,0.1100,0.1200,21360.46,9482.37,KX2028RRUN-28-DJT
+Who will run for the 2028 Republican presidential nomination?,Donald J. Trump Jr.,2028-01-01,0.2000,0.1800,0.2000,58482.82,23119.88,KX2028RRUN-28-DJTJR
+Who will run for the 2028 Republican presidential nomination?,Tulsi Gabbard,2028-01-01,0.1800,0.1900,0.2300,11669.13,4760.69,KX2028RRUN-28-TGAB
+Who will run for the 2028 Republican presidential nomination?,Ron DeSantis,2028-01-01,0.8800,0.8700,0.8800,52967.92,26024.78,KX2028RRUN-28-RDES
+Who will run for the 2028 Republican presidential nomination?,Vivek Ramaswamy,2028-01-01,0.0390,0.0510,0.0900,18576.78,3825.23,KX2028RRUN-28-VRAM
+Who will run for the 2028 Republican presidential nomination?,Marco Rubio,2028-01-01,0.6200,0.6100,0.6200,83857.66,39148.08,KX2028RRUN-28-MRUB
+Who will run for the 2028 Republican presidential nomination?,Glenn Youngkin,2028-01-01,0.6700,0.6200,0.6700,16977.49,7048.43,KX2028RRUN-28-GYOU
+Who will run for the 2028 Republican presidential nomination?,Nikki Haley,2028-01-01,0.2400,0.2000,0.2300,28175.39,12740.74,KX2028RRUN-28-NHAL
+Who will run for the 2028 Republican presidential nomination?,Robert F. Kennedy Jr.,2028-01-01,0.2100,0.2100,0.2400,12233.90,3323.96,KX2028RRUN-28-RFK
+Who will run for the 2028 Republican presidential nomination?,Sarah Huckabee Sanders,2028-01-01,0.5800,0.5800,0.5900,10047.08,5074.65,KX2028RRUN-28-SHS
+Who will run for the 2028 Republican presidential nomination?,Greg Abbott,2028-01-01,0.1300,0.1200,0.1500,7125.14,606.60,KX2028RRUN-28-GABB
+Who will run for the 2028 Republican presidential nomination?,Elon Musk,2028-01-01,0.0310,0.0320,0.0590,5046.30,2803.16,KX2028RRUN-28-EMUS
+Who will run for the 2028 Republican presidential nomination?,Brian Kemp,2028-01-01,0.6100,0.5700,0.6100,6017.98,3774.53,KX2028RRUN-28-BKEM
+Who will run for the 2028 Republican presidential nomination?,Matt Gaetz,2028-01-01,0.0530,0.0330,0.1100,3738.87,1974.13,KX2028RRUN-28-MGAE
+Who will run for the 2028 Republican presidential nomination?,Byron Donalds,2028-01-01,0.1400,0.1100,0.1400,1699.79,1446.23,KX2028RRUN-28-BDON
+Who will run for the 2028 Republican presidential nomination?,Elise Stefanik,2028-01-01,0.1200,0.1200,0.1600,2719.86,1177.96,KX2028RRUN-28-ESTE
+Who will run for the 2028 Republican presidential nomination?,Josh Hawley,2028-01-01,0.2300,0.2300,0.2600,25514.01,8832.33,KX2028RRUN-28-JHAW
+Who will run for the 2028 Republican presidential nomination?,Rand Paul,2028-01-01,0.6400,0.6400,0.7100,17112.23,13106.82,KX2028RRUN-28-RPAU
+Who will run for the 2028 Republican presidential nomination?,Ted Cruz,2028-01-01,0.8400,0.8400,0.8500,32760.76,10264.29,KX2028RRUN-28-TCRU
+Who will run for the 2028 Republican presidential nomination?,Katie Britt,2028-01-01,0.0830,0.0660,0.1400,1003.61,900.43,KX2028RRUN-28-KBRI
+Who will run for the 2028 Republican presidential nomination?,John Thune,2028-01-01,0.0430,0.0250,0.0700,1253.92,690.07,KX2028RRUN-28-JTHU
+Who will run for the 2028 Republican presidential nomination?,Tucker Carlson,2028-01-01,0.2300,0.2100,0.2300,68819.29,18029.21,KX2028RRUN-28-TUC
+Who will run for the 2028 Republican presidential nomination?,Steve Bannon,2028-01-01,0.2300,0.1900,0.2300,10334.33,5656.17,KX2028RRUN-28-STE
+Who will run for the 2028 Republican presidential nomination?,Marjorie Taylor Greene,2028-01-01,0.2300,0.2300,0.2400,40689.06,7009.38,KX2028RRUN-28-MTAY
+Who will run for the 2028 Republican presidential nomination?,Erika Kirk,2028-01-01,0.0540,0.0460,0.0800,7146.70,2316.70,KX2028RRUN-28-EKIR
+Who will run for the 2028 Republican presidential nomination?,Pete Hegseth,2028-01-01,0.2200,0.1600,0.2000,14680.62,4600.13,KX2028RRUN-28-PHEG
+Who will run for the 2028 Republican presidential nomination?,Jared Kushner,2028-01-01,0.0990,0.0990,0.1200,1283.89,740.03,KX2028RRUN-28-JKUS
+Who will run for the 2028 Republican presidential nomination?,Thomas Massie,2028-01-01,0.5600,0.5400,0.6100,20496.61,9793.09,KX2028RRUN-28-TMAS
+Who will run for the 2028 Republican presidential nomination?,Jeff Bezos,2028-01-01,0.0700,0.0600,0.1100,6010.15,3463.91,KX2028RRUN-28-JBEZ
+Who will run for the 2028 Republican presidential nomination?,Spencer Pratt,2028-01-01,0.1700,0.1700,0.1900,1138.25,786.15,KX2028RRUN-28-SPRA
+Who will run for the 2028 Republican presidential nomination?,John McEntee,2028-01-01,0.3500,0.6500,0.6600,44156.77,23071.08,KX2028RRUN-28-JMCE
+Who will run for the 2028 Republican presidential nomination?,Gregory Bovino,2028-01-01,0.2700,0.2000,0.2600,14173.68,1115.51,KX2028RRUN-28-GBOV
+Who will run for the 2028 Republican presidential nomination?,Tim Scott,2028-01-01,0.3400,0.3100,0.3800,2925.83,2747.21,KX2028RRUN-28-TSCO
+Who will run for the 2028 Republican presidential nomination?,Larry Hogan,2028-01-01,0.1000,0.1000,0.1700,383.53,369.50,KX2028RRUN-28-LHOG
+Who will run for the 2028 Republican presidential nomination?,Chris Christie,2028-01-01,0.5200,0.5200,0.5400,5775.29,4401.78,KX2028RRUN-28-CCHR
+Who will run for the 2028 Republican presidential nomination?,John Kennedy,2028-01-01,0.2400,0.1900,0.2500,1158.88,1152.99,KX2028RRUN-28-JKEN
+Who will run for the 2028 Republican presidential nomination?,Doug Burgum,2028-01-01,0.2100,0.2100,0.2800,141.14,124.79,KX2028RRUN-28-DBUR
+Who will run for the 2028 Republican presidential nomination?,Joe Kent,2028-01-01,0.1700,0.1500,0.2300,1111.81,1012.85,KX2028RRUN-28-JKENT
+Who will run for the 2028 Republican presidential nomination?,Ivanka Trump,2028-01-01,0.0600,0.0500,0.1200,54.40,42.42,KX2028RRUN-28-ITRU
+Who will run for the 2028 Republican presidential nomination?,Tom Cotton,2028-01-01,0.3500,0.3600,0.4300,177.04,175.93,KX2028RRUN-28-TCOT
+Who will run for the 2028 Republican presidential nomination?,Mike Pence,2028-01-01,0.3000,0.3100,0.3700,3962.01,2943.31,KX2028RRUN-28-MPEN
+Who will run for the 2028 Republican presidential nomination?,Dave McCormick,2028-01-01,0.2300,0.1600,0.2300,535.85,535.85,KX2028RRUN-28-DMCC
+Who will run for the 2028 Republican presidential nomination?,Rick Scott,2028-01-01,0.3500,0.2700,0.3500,54.65,54.65,KX2028RRUN-28-RSCO
+Who will run for the Democratic presidential nomination in 2028?,Cory Booker,2028-01-01,0.7900,0.8000,0.8100,28339.36,19672.04,KX2028DRUN-28-CBOOK
+Who will run for the Democratic presidential nomination in 2028?,Hunter Biden,2028-01-01,0.1200,0.1100,0.1200,44858.93,13316.60,KX2028DRUN-28-HBID
+Who will run for the Democratic presidential nomination in 2028?,Gavin Newsom,2028-01-01,0.8000,0.8000,0.8100,101210.58,53434.18,KX2028DRUN-28-GNEW
+Who will run for the Democratic presidential nomination in 2028?,Josh Shapiro,2028-01-01,0.8300,0.8500,0.8700,19898.02,8271.40,KX2028DRUN-28-JSHA
+Who will run for the Democratic presidential nomination in 2028?,Pete Buttigieg,2028-01-01,0.9260,0.9300,0.9490,14435.19,6942.76,KX2028DRUN-28-PBUT
+Who will run for the Democratic presidential nomination in 2028?,Gretchen Whitmer,2028-01-01,0.3600,0.3600,0.3700,52134.54,8982.64,KX2028DRUN-28-GWHI
+Who will run for the Democratic presidential nomination in 2028?,Wes Moore,2028-01-01,0.7500,0.7500,0.7800,84130.93,21087.06,KX2028DRUN-28-WMOO
+Who will run for the Democratic presidential nomination in 2028?,Alexandria Ocasio-Cortez,2028-01-01,0.6200,0.6200,0.6300,222139.71,98695.72,KX2028DRUN-28-AOC
+Who will run for the Democratic presidential nomination in 2028?,Kamala Harris,2028-01-01,0.5100,0.5100,0.5200,199633.36,73598.30,KX2028DRUN-28-KHAR
+Who will run for the Democratic presidential nomination in 2028?,Stephen A. Smith,2028-01-01,0.1200,0.1200,0.1600,39233.72,15252.48,KX2028DRUN-28-SAS
+Who will run for the Democratic presidential nomination in 2028?,Andy Beshear,2028-01-01,0.9370,0.9190,0.9370,10120.99,5959.49,KX2028DRUN-28-ABES
+Who will run for the Democratic presidential nomination in 2028?,J.B. Pritzker,2028-01-01,0.9510,0.9220,0.9590,22922.43,9207.14,KX2028DRUN-28-JPRI
+Who will run for the Democratic presidential nomination in 2028?,John Fetterman,2028-01-01,0.0930,0.0920,0.0930,7570.62,4845.03,KX2028DRUN-28-JFET
+Who will run for the Democratic presidential nomination in 2028?,Michelle Obama,2028-01-01,0.0570,0.0500,0.0560,14604.95,9364.56,KX2028DRUN-28-MOBA
+Who will run for the Democratic presidential nomination in 2028?,Mark Cuban,2028-01-01,0.2000,0.1500,0.2000,23374.77,9485.04,KX2028DRUN-28-MCUB
+Who will run for the Democratic presidential nomination in 2028?,Roy Cooper,2028-01-01,0.1300,0.1200,0.1600,9988.42,3770.08,KX2028DRUN-28-RCOO
+Who will run for the Democratic presidential nomination in 2028?,Raphael Warnock,2028-01-01,0.6500,0.6700,0.6900,29249.70,14844.83,KX2028DRUN-28-RWAR
+Who will run for the Democratic presidential nomination in 2028?,Tim Walz,2028-01-01,0.0820,0.0370,0.0820,40439.15,3121.38,KX2028DRUN-28-TWAL
+Who will run for the Democratic presidential nomination in 2028?,Mark Kelly,2028-01-01,0.8100,0.8000,0.8100,41443.75,24299.53,KX2028DRUN-28-MKEL
+Who will run for the Democratic presidential nomination in 2028?,Jared Polis,2028-01-01,0.3200,0.3200,0.3500,11499.13,7344.79,KX2028DRUN-28-JPOL
+Who will run for the Democratic presidential nomination in 2028?,Jon Stewart,2028-01-01,0.1000,0.0510,0.0990,18748.10,8165.22,KX2028DRUN-28-JSTE
+Who will run for the Democratic presidential nomination in 2028?,Rahm Emanuel,2028-01-01,0.9250,0.9260,0.9510,37368.53,22464.78,KX2028DRUN-28-REMA
+Who will run for the Democratic presidential nomination in 2028?,Barack Obama,2028-01-01,0.0210,0.0150,0.0160,2220.77,1133.10,KX2028DRUN-28-BOBA
+Who will run for the Democratic presidential nomination in 2028?,Hillary Clinton,2028-01-01,0.0540,0.0250,0.0530,8120.31,6229.58,KX2028DRUN-28-HCLI
+Who will run for the Democratic presidential nomination in 2028?,Dean Phillips,2028-01-01,0.2100,0.2000,0.2300,6238.99,909.47,KX2028DRUN-28-DPHI
+Who will run for the Democratic presidential nomination in 2028?,Phil Murphy,2028-01-01,0.2400,0.2400,0.3000,3651.53,2432.28,KX2028DRUN-28-PMUR
+Who will run for the Democratic presidential nomination in 2028?,Chris Van Hollen,2028-01-01,0.5800,0.5400,0.5700,29146.75,12097.62,KX2028DRUN-28-CHOL
+Who will run for the Democratic presidential nomination in 2028?,Elissa Slotkin,2028-01-01,0.5900,0.5500,0.6000,33279.56,15741.04,KX2028DRUN-28-ESLO
+Who will run for the Democratic presidential nomination in 2028?,Abigail Spanberger,2028-01-01,0.0990,0.0670,0.1400,21416.83,6697.75,KX2028DRUN-28-ASPA
+Who will run for the Democratic presidential nomination in 2028?,Jon Ossoff,2028-01-01,0.6200,0.6200,0.6300,111753.54,63052.46,KX2028DRUN-28-JOSS
+Who will run for the Democratic presidential nomination in 2028?,Chris Murphy,2028-01-01,0.2600,0.2500,0.3100,10317.45,7712.11,KX2028DRUN-28-CMUR
+Who will run for the Democratic presidential nomination in 2028?,Ruben Gallego,2028-01-01,0.6700,0.6400,0.6700,44643.26,9370.93,KX2028DRUN-28-RGAL
+Who will run for the Democratic presidential nomination in 2028?,Ro Khanna,2028-01-01,0.9000,0.8800,0.9000,47399.19,21870.38,KX2028DRUN-28-RKHA
+Who will run for the Democratic presidential nomination in 2028?,Mikie Sherrill,2028-01-01,0.2000,0.2000,0.2300,1989.59,1589.12,KX2028DRUN-28-MSHE
+Who will run for the Democratic presidential nomination in 2028?,Mitch Landrieu,2028-01-01,0.5900,0.5800,0.6200,3240.22,1883.64,KX2028DRUN-28-MLAN
+Who will run for the Democratic presidential nomination in 2028?,James Talarico,2028-01-01,0.0700,0.0700,0.0900,7425.87,4908.75,KX2028DRUN-28-JTAL
+Who will run for the Democratic presidential nomination in 2028?,Amy Klobuchar,2028-01-01,0.0800,0.0900,0.1100,2283.30,1848.57,KX2028DRUN-28-AKLO
+Who will run for the Democratic presidential nomination in 2028?,Shawn Fain,2028-01-01,0.2400,0.2300,0.2800,3466.35,2400.06,KX2028DRUN-28-SFAI
+Who will run for the Democratic presidential nomination in 2028?,Abdul El-Sayed,2028-01-01,0.1400,0.1200,0.1400,2702.23,2116.71,KX2028DRUN-28-AELS
+Who will run for the Democratic presidential nomination in 2028?,Gina Raimondo,2028-01-01,0.2900,0.2200,0.3000,102.17,90.93,KX2028DRUN-28-GRAI
+Who will run for the Democratic presidential nomination in 2028?,Elizabeth Warren,2028-01-01,0.1400,0.0600,0.1400,21.67,21.67,KX2028DRUN-28-EWAR
+Who will run for the Democratic presidential nomination in 2028?,Beto O'Rourke,2028-01-01,0.1400,0.0700,0.1200,182.47,182.47,KX2028DRUN-28-BORO
+Who will run for the Democratic presidential nomination in 2028?,Jasmine Crockett,2028-01-01,0.1600,0.1700,0.2200,321.83,283.86,KX2028DRUN-28-JCRO
+Who will run for the Democratic presidential nomination in 2028?,Graham Platner,2028-01-01,0.0200,0.0200,0.0900,1.01,1.01,KX2028DRUN-28-GPLA
+Who will run for the Democratic presidential nomination in 2028?,David Jolly,2028-01-01,0.1200,0.0600,0.1200,27.47,18.72,KX2028DRUN-28-DJOL
+Who will run for the Democratic presidential nomination in 2028?,Brad Carson,2028-01-01,0.8900,0.8800,0.9400,322.56,322.56,KX2028DRUN-28-BCAR
+Who will run for the Democratic presidential nomination in 2028?,Don Lemon,2028-01-01,0.0800,0.0300,0.0900,138.62,138.62,KX2028DRUN-28-DLEM
+Will the US reopen its embassy in Iran?,Before 2027,2027-01-01,0.0120,0.0120,0.0190,247052.90,58862.64,KXIRANEMBASSY-27
+Will the US reopen its embassy in Iran?,Before 2028,2028-01-01,0.1200,0.1100,0.1200,4819.18,2164.10,KXIRANEMBASSY-27-28
+Will the House impeach Trump?,"Before Jan 1, 2027",2027-01-01,0.0150,0.0150,0.0160,2680452.36,937028.48,KXIMPEACH-27-JAN01
+Will the House impeach Trump?,"Before Feb 1, 2027",2027-02-01,0.0700,0.0500,0.0600,234152.07,85988.86,KXIMPEACH-27-FEB01
+Will the House impeach Trump?,"Before Mar 1, 2027",2027-03-01,0.1400,0.1300,0.1400,692375.38,363495.13,KXIMPEACH-27-MAR01
+Will the House impeach Trump?,"Before Apr 1, 2027",2027-04-01,0.2200,0.2100,0.2200,90064.17,41625.32,KXIMPEACH-27-APR01
+Will the House impeach Trump?,"Before May 1, 2027",2027-05-01,0.2700,0.2700,0.2800,68831.56,38071.17,KXIMPEACH-27-MAY01
+Will the House impeach Trump?,"Before Jun 1, 2027",2027-06-01,0.3500,0.3300,0.3400,51554.49,20803.09,KXIMPEACH-27-JUN01
+Will the House impeach Trump?,"Before Jul 1, 2027",2027-07-01,0.3600,0.3600,0.3700,91022.72,49634.00,KXIMPEACH-27-JUL01
+Will the House impeach Trump?,"Before Aug 1, 2027",2027-08-01,0.4400,0.4300,0.4400,94664.68,50954.75,KXIMPEACH-27-AUG01
+Will the House impeach Trump?,"Before Oct 1, 2027",2027-10-01,0.4900,0.4800,0.4900,65970.43,35942.81,KXIMPEACH-27-OCT01
+Will the House impeach Trump?,"Before Jan 1, 2028",2028-01-01,0.5900,0.5900,0.6000,1502522.96,518751.02,KXIMPEACH-28-JAN01
+Will Robert F. Kennedy Jr. be impeached?,"Before Apr 1, 2027",2027-04-01,0.1600,0.1700,0.2400,27.58,27.58,KXRFKIMPEACH-28JAN01-27APR01
+Will Robert F. Kennedy Jr. be impeached?,"Before Jul 1, 2027",2027-07-01,0.3700,0.3300,0.3700,12114.49,6727.42,KXRFKIMPEACH-28JAN01-27JUL01
+Will Robert F. Kennedy Jr. be impeached?,"Before Oct 1, 2027",2027-10-01,0.4200,0.3600,0.4200,10328.09,4082.99,KXRFKIMPEACH-28JAN01-27OCT01
+Will Robert F. Kennedy Jr. be impeached?,"Before Jan 1, 2028",2028-01-01,0.4000,0.4400,0.5100,1308.80,910.30,KXRFKIMPEACH-28JAN01-28JAN01
+Who will the House impeach first before 2028?,Donald Trump,2028-01-01,0.1200,0.1300,0.1600,2795.48,1417.62,KXIMPEACHFIRST-28-DTRU
+Who will the House impeach first before 2028?,JD Vance,2028-01-01,0.0100,0.0000,0.0200,293.26,253.26,KXIMPEACHFIRST-28-JVAN
+Who will the House impeach first before 2028?,Pete Hegseth,2028-01-01,0.5500,0.5500,0.6000,14607.48,6318.83,KXIMPEACHFIRST-28-PHEG
+Who will the House impeach first before 2028?,Robert F. Kennedy Jr.,2028-01-01,0.0600,0.0100,0.0700,632.10,551.76,KXIMPEACHFIRST-28-RKEN
+Who will the House impeach first before 2028?,Todd Blanche,2028-01-01,0.0600,0.0000,0.0600,855.65,540.45,KXIMPEACHFIRST-28-TBLA
+Who will the House impeach first before 2028?,Howard Lutnick,2028-01-01,0.0400,0.0000,0.0400,412.84,356.89,KXIMPEACHFIRST-28-HLUT
+Who will the House impeach first before 2028?,None of these,2028-01-01,0.1700,0.1100,0.1400,2853.80,1284.04,KXIMPEACHFIRST-28-NOONE
+When will Canada and the EU begin association talks?,"Before Jan 1, 2027",2027-01-01,0.1500,0.1400,0.1500,9015.91,3206.62,KXCANEUNEGOTIATE-28-27JAN01
+When will Canada and the EU begin association talks?,"Before Jul 1, 2027",2027-07-01,0.2400,0.2400,0.3100,1761.75,488.75,KXCANEUNEGOTIATE-28-27JUL01
+When will Canada and the EU begin association talks?,"Before Jan 1, 2028",2028-01-01,0.4100,0.4300,0.5000,1427.16,348.18,KXCANEUNEGOTIATE-28-28JAN01
+"When will Trump, Xi and Putin meet together?","Before Jan 1, 2027",2027-01-01,0.9900,0.9900,1.0000,85426.44,56483.79,KXTRUMPXIPUTIN-28JAN01-27JAN01
+"When will Trump, Xi and Putin meet together?","Before Jul 1, 2027",2027-07-01,0.9900,0.9900,1.0000,3332.11,2847.80,KXTRUMPXIPUTIN-28JAN01-27JUL01
+"When will Trump, Xi and Putin meet together?","Before Jan 1, 2028",2028-01-01,0.9900,0.9900,1.0000,1526.28,895.66,KXTRUMPXIPUTIN-28JAN01-28JAN01
+Will Claude be permitted for use in the Department of War supply chain?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0600,0.7900,4732.53,1078.29,KXANTHROPICRESCIND-26SEP-27JAN01
+Will Claude be permitted for use in the Department of War supply chain?,"Before Apr 1, 2027",2027-04-01,0.3000,0.0600,0.7400,2408.04,1139.05,KXANTHROPICRESCIND-26SEP-27APR01
+Will Claude be permitted for use in the Department of War supply chain?,"Before Jul 1, 2027",2027-07-01,0.9300,0.0500,0.9600,127.02,105.10,KXANTHROPICRESCIND-26SEP-27JUL01
+Will Claude be permitted for use in the Department of War supply chain?,"Before Jan 1, 2028",2028-01-01,0.0000,0.0400,0.9800,0.00,0.00,KXANTHROPICRESCIND-26SEP-28JAN01
+Andy Burnham announces departure as Prime Minister?,"Before Jan 1, 2027",2027-01-01,0.0300,0.0200,0.0600,13166.38,5561.18,KXBURNHAMOUT-26JUL-27JAN01
+Andy Burnham announces departure as Prime Minister?,"Before Apr 1, 2027",2027-04-01,0.0100,0.0100,0.0200,8761.00,3906.03,KXBURNHAMOUT-26JUL-27APR01
+Andy Burnham announces departure as Prime Minister?,"Before Jul 1, 2027",2027-07-01,0.1100,0.0900,0.1300,6490.03,3343.02,KXBURNHAMOUT-26JUL-27JUL01
+Andy Burnham announces departure as Prime Minister?,"Before Oct 1, 2027",2027-10-01,0.2500,0.2500,0.2600,5290.36,2542.91,KXBURNHAMOUT-26JUL-27OCT01
+Andy Burnham announces departure as Prime Minister?,"Before Jan 1, 2028",2028-01-01,0.4500,0.3800,0.4200,6399.85,3340.14,KXBURNHAMOUT-26JUL-28JAN01
+Jessica Tisch departure announced?,"Before Jan 1, 2027",2027-01-01,0.0830,0.0320,0.0980,38182.04,12704.69,KXLEAVETISCH-27JAN01
+Jessica Tisch departure announced?,"Before Jul 1, 2027",2027-07-01,0.3100,0.2500,0.3100,570.77,558.25,KXLEAVETISCH-27JAN01-27JUL01
+Jessica Tisch departure announced?,"Before Jan 1, 2028",2028-01-01,0.8300,0.3200,0.4100,234.47,233.46,KXLEAVETISCH-27JAN01-28JAN01
+When will Canada and the US finalize a trade deal?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,4974.36,3535.24,KXCANUSDEAL-26-26OCT01
+When will Canada and the US finalize a trade deal?,"Before Nov 1, 2026",2026-11-01,0.0100,0.0000,1.0000,3709.96,3082.26,KXCANUSDEAL-26-26NOV01
+When will Canada and the US finalize a trade deal?,"Before Dec 1, 2026",2026-12-01,0.0300,0.0600,0.5000,3216.86,1876.81,KXCANUSDEAL-26-26DEC01
+When will Canada and the US finalize a trade deal?,"Before Jan 1, 2027",2027-01-01,0.1700,0.0000,1.0000,52.09,25.11,KXCANUSDEAL-26-27JAN01
+When will Canada and the US finalize a trade deal?,"Before Apr 1, 2027",2027-04-01,0.9000,0.0200,0.9900,12.36,0.00,KXCANUSDEAL-26-27APR01
+When will Canada and the US finalize a trade deal?,"Before Jul 1, 2027",2027-07-01,0.0000,0.0200,0.9900,0.00,0.00,KXCANUSDEAL-26-27JUL01
+When will Canada and the US finalize a trade deal?,"Before Sep 1, 2027",2027-09-01,0.1100,0.0200,0.9900,163.26,0.00,KXCANUSDEAL-26-27SEP01
+When will Canada and the US finalize a trade deal?,"Before Jan 1, 2028",2028-01-01,0.0000,0.0200,0.9900,0.00,0.00,KXCANUSDEAL-26-28JAN01
+Which countries will have a recession before 2027?,United Kingdom,2027-12-31,0.0180,0.0100,0.0180,87201.98,15224.50,WRECSS-26-UK
+Which countries will have a recession before 2027?,China,2027-12-31,0.0390,0.0100,0.0550,34756.61,10967.96,WRECSS-26-PRC
+Which countries will have a recession before 2027?,Japan,2026-11-02,0.0410,0.0000,1.0000,35293.22,3568.56,WRECSS-26-JP
+Which countries will have a recession before 2027?,India,2027-12-31,0.0110,0.0100,0.0290,23897.63,6127.02,WRECSS-26-IN
+Taiwan Local Elections winner?,Kuomintang,2027-11-28,0.6300,0.6200,0.6500,16920.77,6495.75,KXTAIWANLOCAL-26NOV28-KMT
+Taiwan Local Elections winner?,Democratic Progressive Party,2027-11-28,0.3700,0.3700,0.3900,8707.77,5156.71,KXTAIWANLOCAL-26NOV28-DPP
+Taiwan Local Elections winner?,Taiwan People’s Party,2027-11-28,0.0200,0.0000,0.0300,297.74,271.74,KXTAIWANLOCAL-26NOV28-TPP
+Alaska House winner?,Eric Hafner,2027-11-03,0.0010,0.0000,0.0010,95092.84,63512.04,HOUSEAKAL-26-D
+Alaska House winner?,Nick Begich III,2027-11-03,0.9920,0.9940,0.9970,820194.79,407106.39,HOUSEAKAL-26-R
+Alaska House winner?,Bill Hill,2027-11-03,0.0100,0.0000,0.0100,611339.34,364237.74,HOUSEAKAL-26-BHIL
+Prime Minister of Israel after the 2026 election?,Benjamin Netanyahu,2027-10-27,0.1000,0.0900,0.1000,7038110.24,2419734.83,KXISRAELPM-26OCT27-BNET
+Prime Minister of Israel after the 2026 election?,Naftali Bennett,2027-10-27,0.0100,0.0000,0.0100,468693.96,268413.99,KXISRAELPM-26OCT27-NBEN
+Prime Minister of Israel after the 2026 election?,Gadi Eizenkot,2027-10-27,0.5400,0.5300,0.5400,2013686.67,844739.22,KXISRAELPM-26OCT27-GEIZ
+Prime Minister of Israel after the 2026 election?,Yair Lapid,2027-10-27,0.0100,0.0000,0.0100,8283.21,8261.71,KXISRAELPM-26OCT27-YLAP
+Prime Minister of Israel after the 2026 election?,Benny Gantz,2027-10-27,0.0100,0.0000,0.0100,3243.57,3214.53,KXISRAELPM-26OCT27-BGAN
+Prime Minister of Israel after the 2026 election?,Yariv Levin,2027-10-27,0.0100,0.0000,0.0100,0.93,0.93,KXISRAELPM-26OCT27-YLEV
+Prime Minister of Israel after the 2026 election?,Avigdor Lieberman,2027-10-27,0.0200,0.0100,0.0200,725384.01,407345.04,KXISRAELPM-26OCT27-ALIE
+Prime Minister of Israel after the 2026 election?,Yair Golan,2027-10-27,0.0100,0.0000,0.0100,2091.97,2091.97,KXISRAELPM-26OCT27-YGOL
+Prime Minister of Israel after the 2026 election?,Itamar Ben Gvir,2027-10-27,0.0100,0.0000,0.0100,20754.21,19548.21,KXISRAELPM-26OCT27-IGVI
+Prime Minister of Israel after the 2026 election?,Yossi Cohen,2027-10-27,0.0100,0.0000,0.0100,342.81,342.81,KXISRAELPM-26OCT27-YCOH
+Prime Minister of Israel after the 2026 election?,Israel Katz,2027-10-27,0.0100,0.0000,0.0100,5596.85,5596.85,KXISRAELPM-26OCT27-IKAT
+Prime Minister of Israel after the 2026 election?,Gideon Sa'ar,2027-10-27,0.0100,0.0000,0.0100,78.35,78.35,KXISRAELPM-26OCT27-GSAA
+Prime Minister of Israel after the 2026 election?,Ayelet Shaked,2027-10-27,0.0100,0.0000,0.0100,1635.64,1634.64,KXISRAELPM-26OCT27-ASHA
+Prime Minister of Israel after the 2026 election?,Amir Ohana,2027-10-27,0.0100,0.0000,0.0100,15267.22,15267.22,KXISRAELPM-26OCT27-AOHA
+Prime Minister of Israel after the 2026 election?,Moshe Feiglin,2027-10-27,0.0100,0.0000,0.0100,434.51,434.51,KXISRAELPM-26OCT27-MFEI
+Prime Minister of Israel after the 2026 election?,Yoaz Hendel,2027-10-27,0.0100,0.0000,0.0100,1001.00,1001.00,KXISRAELPM-26OCT27-YHEN
+Prime Minister of Israel after the 2026 election?,Nir Barkat,2027-10-27,0.0100,0.0000,0.0100,0.93,0.93,KXISRAELPM-26OCT27-NBAR
+Prime Minister of Israel after the 2026 election?,Yuli Edelstein,2027-10-27,0.0100,0.0000,0.0100,215.38,165.38,KXISRAELPM-26OCT27-YEDE
+Prime Minister of Israel after the 2026 election?,No one,2027-10-27,0.3600,0.3600,0.3700,1001003.74,423446.90,KXISRAELPM-26OCT27-NOON
+Prime Minister of Israel after the 2026 election?,Aviv Kohavi,2027-10-27,0.0100,0.0000,0.0100,203.86,203.86,KXISRAELPM-26OCT27-AKOH
+Prime Minister of Israel after the 2026 election?,Daniel Hagari,2027-10-27,0.0100,0.0000,0.0100,1963.51,1963.51,KXISRAELPM-26OCT27-DHAG
+Will Jon Ossoff announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0100,0.0100,0.0500,1558.28,639.26,KXOSSOFFRUN-28-27JAN01
+Will Jon Ossoff announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.0000,0.0500,0.1400,0.00,0.00,KXOSSOFFRUN-28-27FEB01
+Will Jon Ossoff announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.1400,0.1300,0.2100,663.57,445.71,KXOSSOFFRUN-28-27MAR01
+Will Jon Ossoff announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.2100,0.1800,0.2100,9061.88,3572.13,KXOSSOFFRUN-28-27APR01
+Will Jon Ossoff announce a presidential run?,"Before May 1, 2027",2027-05-01,0.4000,0.3700,0.4500,1543.52,1543.52,KXOSSOFFRUN-28-27MAY01
+Will Jon Ossoff announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.7200,0.3800,0.4700,98.20,98.20,KXOSSOFFRUN-28-27JUN01
+Will Jon Ossoff announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.4900,0.4900,0.5200,4829.43,2357.89,KXOSSOFFRUN-28-27JUL01
+Will Jon Ossoff announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.6700,0.6100,0.6800,5447.69,2708.32,KXOSSOFFRUN-28-27OCT01
+Will Gavin Newsom announce a presidential run?,"Before Dec 1, 2026",2026-12-01,0.0500,0.0000,0.0500,187.52,187.52,KXNEWSOMRUN-28-26DEC01
+Will Gavin Newsom announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0310,0.0580,9492.59,4518.78,KXNEWSOMRUN-28-27JAN01
+Will Gavin Newsom announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.4400,0.4200,0.4900,2800.27,2274.75,KXNEWSOMRUN-28-27FEB01
+Will Gavin Newsom announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.5800,0.5700,0.6500,4749.98,2987.64,KXNEWSOMRUN-28-27MAR01
+Will Gavin Newsom announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.7700,0.7600,0.7700,3671.01,2128.92,KXNEWSOMRUN-28-27APR01
+Will Gavin Newsom announce a presidential run?,"Before May 1, 2027",2027-05-01,0.9200,0.7600,0.8000,444.85,443.16,KXNEWSOMRUN-28-27MAY01
+Will Gavin Newsom announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.7900,0.7400,0.7900,11.11,11.11,KXNEWSOMRUN-28-27JUN01
+Will Gavin Newsom announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.8200,0.7500,0.8300,751.47,457.53,KXNEWSOMRUN-28-27JUL01
+Will Gavin Newsom announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.8400,0.7700,0.8300,1815.14,697.31,KXNEWSOMRUN-28-27OCT01
+Will Kamala Harris announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0200,0.0200,0.0500,22396.63,6614.70,KXKAMALARUN-28-27JAN01
+Will Kamala Harris announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.1600,0.0600,0.1500,381.95,381.95,KXKAMALARUN-28-27FEB01
+Will Kamala Harris announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.4600,0.3100,0.4000,104.73,104.73,KXKAMALARUN-28-27MAR01
+Will Kamala Harris announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.5000,0.4400,0.5100,16532.52,7033.15,KXKAMALARUN-28-27APR01
+Will Kamala Harris announce a presidential run?,"Before May 1, 2027",2027-05-01,0.5500,0.4700,0.5600,9.30,9.30,KXKAMALARUN-28-27MAY01
+Will Kamala Harris announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.6000,0.5100,0.5900,34.70,33.70,KXKAMALARUN-28-27JUN01
+Will Kamala Harris announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.6100,0.6100,0.6300,22972.70,8174.44,KXKAMALARUN-28-27JUL01
+Will Kamala Harris announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.6500,0.6300,0.6700,3230.17,2874.07,KXKAMALARUN-28-27OCT01
+Will Pete Buttigieg announce a presidential run?,"Before Dec 1, 2026",2026-12-01,0.0200,0.0100,0.0400,2968.25,2763.25,KXBUTTIGIEGRUN-28-26DEC01
+Will Pete Buttigieg announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0900,0.0200,0.0900,1205.84,1082.00,KXBUTTIGIEGRUN-28-27JAN01
+Will Pete Buttigieg announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.4000,0.3200,0.4000,11557.96,2368.79,KXBUTTIGIEGRUN-28-27FEB01
+Will Pete Buttigieg announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.5500,0.4800,0.5500,481.41,436.62,KXBUTTIGIEGRUN-28-27MAR01
+Will Pete Buttigieg announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.8100,0.6200,0.6900,522.54,473.68,KXBUTTIGIEGRUN-28-27APR01
+Will Pete Buttigieg announce a presidential run?,"Before May 1, 2027",2027-05-01,0.8200,0.6800,0.7500,16.03,16.03,KXBUTTIGIEGRUN-28-27MAY01
+Will Pete Buttigieg announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.0000,0.7200,0.8200,0.00,0.00,KXBUTTIGIEGRUN-28-27JUN01
+Will Pete Buttigieg announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.8400,0.7600,0.8500,4039.65,2868.82,KXBUTTIGIEGRUN-28-27JUL01
+Will Pete Buttigieg announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.9000,0.8100,0.8900,775.00,540.00,KXBUTTIGIEGRUN-28-27OCT01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Jan 1, 2027",2027-01-01,0.0900,0.0500,0.0900,7648.74,3970.35,KXAOCRUN-28-27JAN01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Feb 1, 2027",2027-02-01,0.2300,0.1500,0.2200,5.00,5.00,KXAOCRUN-28-27FEB01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Mar 1, 2027",2027-03-01,0.3100,0.2900,0.3800,22.06,7.06,KXAOCRUN-28-27MAR01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Apr 1, 2027",2027-04-01,0.4100,0.4000,0.4400,6385.00,2915.40,KXAOCRUN-28-27APR01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before May 1, 2027",2027-05-01,0.4700,0.4900,0.5800,1612.34,1139.65,KXAOCRUN-28-27MAY01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Jun 1, 2027",2027-06-01,0.5200,0.5100,0.5800,2600.77,1126.01,KXAOCRUN-28-27JUN01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Jul 1, 2027",2027-07-01,0.5900,0.6000,0.6300,3424.03,2134.96,KXAOCRUN-28-27JUL01
+Will Alexandria Ocasio-Cortez announce a presidential run?,"Before Oct 1, 2027",2027-10-01,0.6900,0.6200,0.6800,4365.06,2144.81,KXAOCRUN-28-27OCT01
+Will the House pass additional defense funding?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,3527.74,1562.89,KXDEFAPPROP-26JUN-26OCT01
+Will the House pass additional defense funding?,"Before Jan 1, 2027",2027-01-01,0.2300,0.1600,0.2300,2162.01,1222.68,KXDEFAPPROP-26JUN-27JAN01
+Will the House pass additional defense funding?,"Before Jul 1, 2027",2027-07-01,0.0000,0.3400,0.4400,0.00,0.00,KXDEFAPPROP-26JUN-27JUL01
+Will Donald Trump visit Iran?,"Before Jan 1, 2027",2027-01-01,0.0100,0.0070,0.0100,504747.03,180395.05,KXTRUMPIRAN-27JAN01
+Will Donald Trump visit Iran?,"Before Jul 1, 2027",2027-07-01,0.0300,0.0300,0.0400,7346.96,5243.06,KXTRUMPIRAN-27JUL01
+Will Pete Hegseth be impeached?,"Before Nov 21, 2026",2026-11-21,0.0100,0.0000,0.0100,399077.82,104424.60,KXHEGSETHIMPEACH-27JUL01-26NOV21
+Will Pete Hegseth be impeached?,"Before Jan 1, 2027",2027-01-01,0.0100,0.0100,0.0200,514985.14,119992.05,KXHEGSETHIMPEACH-27JUL01-27JAN01
+Will Pete Hegseth be impeached?,"Before Feb 1, 2027",2027-02-01,0.2200,0.2200,0.2400,1139.23,448.25,KXHEGSETHIMPEACH-27JUL01-27FEB01
+Will Pete Hegseth be impeached?,"Before Mar 1, 2027",2027-03-01,0.4600,0.4500,0.4900,1744.80,1518.29,KXHEGSETHIMPEACH-27JUL01-27MAR01
+Will Pete Hegseth be impeached?,"Before Apr 1, 2027",2027-04-01,0.5300,0.5000,0.5200,85363.89,39349.38,KXHEGSETHIMPEACH-27JUL01-27APR01
+Will Pete Hegseth be impeached?,"Before Jul 1, 2027",2027-07-01,0.6400,0.6100,0.6400,64608.87,26499.72,KXHEGSETHIMPEACH-27JUL01-27JUL01
+Will Netanyahu announce his retirement from politics?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0000,0.0500,9107.33,4182.54,KXNETANYAHURETIRE-27JUL01-27JAN01
+Will Netanyahu announce his retirement from politics?,"Before Jul 1, 2027",2027-07-01,0.1500,0.1600,0.2300,2481.34,2012.76,KXNETANYAHURETIRE-27JUL01-27JUL01
+Will the Senate begin an impeachment trial of Pete Hegseth?,"Before Dec 1, 2026",2026-12-01,0.0100,0.0000,0.0100,22085.25,20586.07,KXHEGSETHTRIAL-27-26DEC01
+Will the Senate begin an impeachment trial of Pete Hegseth?,"Before Jan 1, 2027",2027-01-01,0.0400,0.0100,0.0300,2281.10,2000.00,KXHEGSETHTRIAL-27-27JAN01
+Will the Senate begin an impeachment trial of Pete Hegseth?,"Before Mar 1, 2027",2027-03-01,0.3000,0.2300,0.3100,49.25,49.25,KXHEGSETHTRIAL-27-27MAR01
+Will the Senate begin an impeachment trial of Pete Hegseth?,"Before Apr 1, 2027",2027-04-01,0.4800,0.3700,0.4500,633.48,569.38,KXHEGSETHTRIAL-27-27APR01
+Will the Senate begin an impeachment trial of Pete Hegseth?,"Before Jul 1, 2027",2027-07-01,0.6500,0.6100,0.6700,4744.80,2300.59,KXHEGSETHTRIAL-27-27JUL01
+Will James Comey’s national defense information case be dismissed?,"Before Jan 1, 2027",2027-01-01,0.2000,0.2400,0.2800,10401.15,2524.78,KXCOMEYNDIDISMISS-27-27JAN01
+Will James Comey’s national defense information case be dismissed?,"Before Jul 1, 2027",2027-07-01,0.7500,0.8200,0.9900,176.63,175.63,KXCOMEYNDIDISMISS-27-27JUL01
+Jeanine Pirro announces departure as D.C. U.S. Attorney?,"Before Nov 1, 2026",2026-11-01,0.0000,0.0000,1.0000,0.00,0.00,KXPIRROOUT-26AUG-26NOV01
+Jeanine Pirro announces departure as D.C. U.S. Attorney?,"Before Dec 1, 2026",2026-12-01,0.0400,0.0300,0.0900,29.70,29.70,KXPIRROOUT-26AUG-26DEC01
+Jeanine Pirro announces departure as D.C. U.S. Attorney?,"Before Jan 1, 2027",2027-01-01,0.2100,0.2000,0.2200,58522.42,18510.57,KXPIRROOUT-26AUG-27JAN01
+Jeanine Pirro announces departure as D.C. U.S. Attorney?,"Before Jul 1, 2027",2027-07-01,0.3800,0.3700,0.4200,2542.03,2321.85,KXPIRROOUT-26AUG-27JUL01
+When will Justice Alito retire from the Supreme Court?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0370,0.0500,547332.70,217807.08,KXALITOOUT-27JAN01
+When will Justice Alito retire from the Supreme Court?,"Before Jul 1, 2027",2027-07-01,0.1100,0.1100,0.1200,55408.85,20990.96,KXALITOOUT-27JUL01
+2027 French Presidential Election: who will be on the ballot?,Jean-Luc Mélenchon,2027-06-30,0.8700,0.9500,0.9900,6.01,6.01,KXFRPRESBALLOT-27JUN30-JMEL
+2027 French Presidential Election: who will be on the ballot?,Marine Le Pen,2027-06-30,0.9300,0.9600,0.9800,351.16,303.16,KXFRPRESBALLOT-27JUN30-MLEP
+2027 French Presidential Election: who will be on the ballot?,Édouard Philippe,2027-06-30,0.5500,0.5000,0.5600,1787.29,1186.28,KXFRPRESBALLOT-27JUN30-EPHI
+2027 French Presidential Election: who will be on the ballot?,Nathalie Arthaud,2027-06-30,0.7700,0.8600,0.9300,8.76,8.76,KXFRPRESBALLOT-27JUN30-NART
+2027 French Presidential Election: who will be on the ballot?,Jordan Bardella,2027-06-30,0.1300,0.0300,0.0900,495.18,265.17,KXFRPRESBALLOT-27JUN30-JBAR
+2027 French Presidential Election: who will be on the ballot?,Gabriel Attal,2027-06-30,0.1700,0.1200,0.1700,5705.28,3084.93,KXFRPRESBALLOT-27JUN30-GATT
+2027 French Presidential Election: who will be on the ballot?,Bruno Retailleau,2027-06-30,0.2200,0.1800,0.2300,4026.61,1077.91,KXFRPRESBALLOT-27JUN30-BRET
+2027 French Presidential Election: who will be on the ballot?,Raphaël Glucksmann,2027-06-30,0.8100,0.8300,0.8400,3150.05,2375.96,KXFRPRESBALLOT-27JUN30-RGLU
+2027 French Presidential Election: who will be on the ballot?,François Ruffin,2027-06-30,0.2400,0.1600,0.1700,412.74,328.74,KXFRPRESBALLOT-27JUN30-FRUF
+2027 French Presidential Election: who will be on the ballot?,François Hollande,2027-06-30,0.3700,0.3200,0.3500,3288.42,1601.00,KXFRPRESBALLOT-27JUN30-FHOL
+2027 French Presidential Election: who will be on the ballot?,Marine Tondelier,2027-06-30,0.2000,0.1800,0.2400,139.99,71.00,KXFRPRESBALLOT-27JUN30-MTON
+2027 French Presidential Election: who will be on the ballot?,Olivier Faure,2027-06-30,0.0400,0.0100,0.0600,758.56,72.56,KXFRPRESBALLOT-27JUN30-OFAU
+2027 French Presidential Election: who will be on the ballot?,Clémentine Autain,2027-06-30,0.0800,0.0100,0.0700,1.01,1.01,KXFRPRESBALLOT-27JUN30-CAUT
+2027 French Presidential Election: who will be on the ballot?,Fabien Roussel,2027-06-30,0.8200,0.7600,0.8100,632.58,380.00,KXFRPRESBALLOT-27JUN30-FROU
+2027 French Presidential Election: who will be on the ballot?,Éric Zemmour,2027-06-30,0.7400,0.7600,0.8000,5000.72,1533.15,KXFRPRESBALLOT-27JUN30-EZEM
+2027 French Presidential Election: who will be on the ballot?,Dominique de Villepin,2027-06-30,0.3500,0.3200,0.3400,2071.77,1589.75,KXFRPRESBALLOT-27JUN30-DVIL
+2027 French Presidential Election: who will be on the ballot?,Nicolas Dupont-Aignan,2027-06-30,0.6200,0.6100,0.6300,205.60,119.00,KXFRPRESBALLOT-27JUN30-NDUP
+2027 French Presidential Election: who will be on the ballot?,François Asselineau,2027-06-30,0.1400,0.1600,0.2200,338.00,279.00,KXFRPRESBALLOT-27JUN30-FASS
+2027 French Presidential Election: who will be on the ballot?,Bernard Cazeneuve,2027-06-30,0.0400,0.0500,0.0900,749.82,458.05,KXFRPRESBALLOT-27JUN30-BCAZ
+2027 French Presidential Election: who will be on the ballot?,Jérôme Guedj,2027-06-30,0.0500,0.0500,0.1000,272.12,49.12,KXFRPRESBALLOT-27JUN30-JGUE
+2027 French Presidential Election: who will be on the ballot?,Karim Bouamrane,2027-06-30,0.0300,0.0300,0.0900,365.01,168.01,KXFRPRESBALLOT-27JUN30-KBOU
+2027 French Presidential Election: who will be on the ballot?,Gérald Darmanin,2027-06-30,0.5000,0.0200,0.0800,0.01,0.01,KXFRPRESBALLOT-27JUN30-GDAR
+2027 French Presidential Election: who will be on the ballot?,Jean Lassalle,2027-06-30,0.5700,0.5100,0.5800,1121.75,820.75,KXFRPRESBALLOT-27JUN30-JLAS
+US tariff revenue for 2026,Above $80‎ billion,2027-06-01,0.9400,0.9300,0.9800,76.56,29.00,KXTARIFFREVENUE-26DEC31-T80
+US tariff revenue for 2026,Above $100‎ billion,2027-06-01,0.9400,0.9400,0.9800,171.02,43.00,KXTARIFFREVENUE-26DEC31-T100
+US tariff revenue for 2026,Above $125‎ billion,2027-06-01,0.9300,0.9400,0.9800,403.04,139.19,KXTARIFFREVENUE-26DEC31-T125
+US tariff revenue for 2026,Above $150‎ billion,2027-06-01,0.8900,0.9300,0.9800,3112.92,1476.44,KXTARIFFREVENUE-26DEC31-T150
+US tariff revenue for 2026,Above $200‎ billion,2027-06-01,0.9300,0.9300,0.9600,5218.54,1335.11,KXTARIFFREVENUE-26DEC31-T200
+US tariff revenue for 2026,Above $250‎ billion,2027-06-01,0.8500,0.8600,0.9400,4328.53,1840.61,KXTARIFFREVENUE-26DEC31-T250
+US tariff revenue for 2026,Above $300‎ billion,2027-06-01,0.6300,0.5600,0.6600,750.48,600.00,KXTARIFFREVENUE-26DEC31-T300
+US tariff revenue for 2026,Above $350‎ billion,2027-06-01,0.0500,0.0100,0.0600,37.00,37.00,KXTARIFFREVENUE-26DEC31-T350
+China’s government budget balance in 2026,Above -9.5% of GDP,2027-04-20,0.9500,0.9200,0.9900,92.02,46.01,KXGOVBAL-27APR20CN-T-9.5
+China’s government budget balance in 2026,Above -9.0% of GDP,2027-04-20,0.9300,0.8800,0.9600,0.46,0.23,KXGOVBAL-27APR20CN-T-9.0
+China’s government budget balance in 2026,Above -8.5% of GDP,2027-04-20,0.8500,0.8100,0.8500,0.33,0.11,KXGOVBAL-27APR20CN-T-8.5
+China’s government budget balance in 2026,Above -8.0% of GDP,2027-04-20,0.4400,0.3700,0.4300,3871.90,2484.21,KXGOVBAL-27APR20CN-T-8.0
+China’s government budget balance in 2026,Above -7.5% of GDP,2027-04-20,0.1300,0.1000,0.1300,3999.45,608.01,KXGOVBAL-27APR20CN-T-7.5
+China’s government budget balance in 2026,Above -7.0% of GDP,2027-04-20,0.1000,0.0300,0.1100,181.02,50.01,KXGOVBAL-27APR20CN-T-7.0
+China’s government budget balance in 2026,Above -6.5% of GDP,2027-04-20,0.0300,0.0100,0.0800,212.04,53.01,KXGOVBAL-27APR20CN-T-6.5
+Russia Nominal GDP in 2026,Above $2.2 trillion,2027-04-01,0.9600,0.9370,0.9900,408.00,106.00,KXGDPNOM-RUS26-2.2
+Russia Nominal GDP in 2026,Above $2.3 trillion,2027-04-01,0.9900,0.9370,0.9900,2113.00,1306.00,KXGDPNOM-RUS26-2.3
+Russia Nominal GDP in 2026,Above $2.4 trillion,2027-04-01,0.8700,0.9370,0.9900,307.59,142.37,KXGDPNOM-RUS26-2.4
+Russia Nominal GDP in 2026,Above $2.5 trillion,2027-04-01,0.8400,0.9330,0.9740,313.67,294.67,KXGDPNOM-RUS26-2.5
+Russia Nominal GDP in 2026,Above $2.6 trillion,2027-04-01,0.8100,0.9300,0.9900,252.21,230.21,KXGDPNOM-RUS26-2.6
+Russia Nominal GDP in 2026,Above $2.7 trillion,2027-04-01,0.8800,0.9080,0.9300,146.77,85.38,KXGDPNOM-RUS26-2.7
+Russia Nominal GDP in 2026,Above $2.8 trillion,2027-04-01,0.7800,0.6900,0.7900,149.62,131.00,KXGDPNOM-RUS26-2.8
+Russia Nominal GDP in 2026,Above $2.9 trillion,2027-04-01,0.4800,0.2900,0.3800,1916.00,1833.00,KXGDPNOM-RUS26-2.9
+Russia Nominal GDP in 2026,Above $3.0 trillion,2027-04-01,0.2900,0.0190,0.1000,1154.00,1074.00,KXGDPNOM-RUS26-3.0
+Russia Nominal GDP in 2026,Above $3.1 trillion,2027-04-01,0.1800,0.0100,0.0670,23.00,1.00,KXGDPNOM-RUS26-3.1
+Russia Nominal GDP in 2026,Above $3.2 trillion,2027-04-01,0.0920,0.0100,0.0600,3.00,2.00,KXGDPNOM-RUS26-3.2
+Russia Nominal GDP in 2026,Above $3.3 trillion,2027-04-01,0.0100,0.0100,0.0570,9.00,5.00,KXGDPNOM-RUS26-3.3
+China Nominal GDP in 2026,Above $19.2 trillion,2027-04-01,0.9900,0.9500,1.0000,697.00,221.00,KXGDPNOM-CHN26-19.2
+China Nominal GDP in 2026,Above $19.4 trillion,2027-04-01,0.9700,0.9500,1.0000,634.00,376.00,KXGDPNOM-CHN26-19.4
+China Nominal GDP in 2026,Above $19.6 trillion,2027-04-01,0.9400,0.9500,0.9900,274.00,155.00,KXGDPNOM-CHN26-19.6
+China Nominal GDP in 2026,Above $19.8 trillion,2027-04-01,0.9900,0.9700,0.9900,299.00,166.00,KXGDPNOM-CHN26-19.8
+China Nominal GDP in 2026,Above $20.0 trillion,2027-04-01,0.9600,0.9800,0.9900,2359.00,2262.00,KXGDPNOM-CHN26-20.0
+China Nominal GDP in 2026,Above $20.2 trillion,2027-04-01,0.9500,0.9600,0.9900,3431.00,2954.00,KXGDPNOM-CHN26-20.2
+China Nominal GDP in 2026,Above $20.4 trillion,2027-04-01,0.9300,0.9800,0.9900,407.45,318.45,KXGDPNOM-CHN26-20.4
+China Nominal GDP in 2026,Above $20.6 trillion,2027-04-01,0.8800,0.9500,0.9900,357.48,323.48,KXGDPNOM-CHN26-20.6
+China Nominal GDP in 2026,Above $20.8 trillion,2027-04-01,0.8300,0.9500,0.9900,415.47,323.47,KXGDPNOM-CHN26-20.8
+China Nominal GDP in 2026,Above $21.0 trillion,2027-04-01,0.7900,0.9800,0.9900,677.40,371.97,KXGDPNOM-CHN26-21.0
+China Nominal GDP in 2026,Above $21.2 trillion,2027-04-01,0.6700,0.9300,0.9900,333.10,208.78,KXGDPNOM-CHN26-21.2
+China Nominal GDP in 2026,Above $21.4 trillion,2027-04-01,0.5600,0.8800,0.9800,161.62,34.88,KXGDPNOM-CHN26-21.4
+China Nominal GDP in 2026,Above $21.6 trillion,2027-04-01,0.4300,0.7100,0.8100,24.10,5.38,KXGDPNOM-CHN26-21.6
+China Nominal GDP in 2026,Above $21.8 trillion,2027-04-01,0.4800,0.4400,0.5400,159.76,141.39,KXGDPNOM-CHN26-21.8
+China Nominal GDP in 2026,Above $22.0 trillion,2027-04-01,0.2300,0.2000,0.3000,28.00,19.00,KXGDPNOM-CHN26-22.0
+China Nominal GDP in 2026,Above $22.2 trillion,2027-04-01,0.0800,0.0400,0.1300,522.00,472.00,KXGDPNOM-CHN26-22.2
+Will the Department of Defense be renamed the Department of War by law?,"Before Jan 1, 2027",2027-01-01,0.1000,0.0700,0.0900,40349.50,16990.51,KXDODRENAME-26JUN
+Will the Department of Defense be renamed the Department of War by law?,"Before Apr 1, 2027",2027-04-01,0.0700,0.0600,0.1200,2352.87,1498.42,KXDODRENAME-26JUN-27APR01
+When will Venezuela call its next presidential election?,"Before Dec 1, 2026",2026-12-01,0.0300,0.0000,0.0300,3992.53,2320.35,KXVENEZUELAELECTIONCALL-27APR01-26DEC01
+When will Venezuela call its next presidential election?,"Before Jan 1, 2027",2027-01-01,0.1100,0.0800,0.1100,9125.59,3639.88,KXVENEZUELAELECTIONCALL-27APR01-27JAN01
+When will Venezuela call its next presidential election?,"Before Feb 1, 2027",2027-02-01,0.1100,0.0700,0.1400,12.14,12.14,KXVENEZUELAELECTIONCALL-27APR01-27FEB01
+When will Venezuela call its next presidential election?,"Before Apr 1, 2027",2027-04-01,0.3100,0.2500,0.3100,3257.87,721.74,KXVENEZUELAELECTIONCALL-27APR01-27APR01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,22285.44,7689.80,KXUSIRANMEETING-27-26OCT01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Nov 1, 2026",2026-11-01,0.0200,0.0000,1.0000,11250.89,3407.68,KXUSIRANMEETING-27-26NOV01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Dec 1, 2026",2026-12-01,0.0500,0.0300,0.0400,48832.88,17793.30,KXUSIRANMEETING-27-26DEC01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Jan 1, 2027",2027-01-01,0.1600,0.1000,0.1900,11037.54,4152.70,KXUSIRANMEETING-27-27JAN01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Feb 1, 2027",2027-02-01,0.4800,0.3100,0.4800,2934.73,1811.21,KXUSIRANMEETING-27-27FEB01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Mar 1, 2027",2027-03-01,0.4400,0.3100,0.5000,1424.00,1213.45,KXUSIRANMEETING-27-27MAR01
+When will the U.S. and Iran hold a diplomatic meeting?,"Before Apr 1, 2027",2027-04-01,0.5800,0.3700,0.5700,1505.00,1292.55,KXUSIRANMEETING-27-27APR01
+When will Canada lower tariffs on the US?,"Before Oct 1, 2026",2026-10-01,0.0100,0.0000,1.0000,2016.54,1248.52,KXCANADAUSTARIFFLOWER-27-26OCT01
+When will Canada lower tariffs on the US?,"Before Nov 1, 2026",2026-11-01,0.0500,0.0000,1.0000,964.01,558.00,KXCANADAUSTARIFFLOWER-27-26NOV01
+When will Canada lower tariffs on the US?,"Before Dec 1, 2026",2026-12-01,0.1700,0.0200,0.1700,1788.08,899.34,KXCANADAUSTARIFFLOWER-27-26DEC01
+When will Canada lower tariffs on the US?,"Before Jan 1, 2027",2027-01-01,0.0900,0.0200,0.1800,1691.09,1054.33,KXCANADAUSTARIFFLOWER-27-27JAN01
+When will Canada lower tariffs on the US?,"Before Apr 1, 2027",2027-04-01,0.4100,0.0200,0.9500,132.20,39.51,KXCANADAUSTARIFFLOWER-27-27APR01
+Will Iran become a democracy in 2026?,Yes,2027-03-01,0.0090,0.0090,0.0120,347450.60,106870.31,KXIRANDEMOCRACY-27MAR01-T6
+Illinois nuclear electricity generation in 2026,Above 87.5 TWh,2027-02-28,0.9800,0.9800,0.9900,13530.87,1726.13,KXILNUCLEAR-27FEB28-T87.5
+Illinois nuclear electricity generation in 2026,Above 90.0 TWh,2027-02-28,0.9700,0.9700,0.9800,7672.52,1765.24,KXILNUCLEAR-27FEB28-T90.0
+Illinois nuclear electricity generation in 2026,Above 92.5 TWh,2027-02-28,0.9600,0.9600,0.9700,38504.93,3797.01,KXILNUCLEAR-27FEB28-T92.5
+Illinois nuclear electricity generation in 2026,Above 95.0 TWh,2027-02-28,0.9500,0.9500,0.9600,67733.64,9162.37,KXILNUCLEAR-27FEB28-T95.0
+Illinois nuclear electricity generation in 2026,Above 97.5 TWh,2027-02-28,0.8200,0.8100,0.8200,99889.10,28384.70,KXILNUCLEAR-27FEB28-T97.5
+Illinois nuclear electricity generation in 2026,Above 100.0 TWh,2027-02-28,0.0400,0.0300,0.0400,76877.49,8619.91,KXILNUCLEAR-27FEB28-T100.0
+Illinois nuclear electricity generation in 2026,Above 102.5 TWh,2027-02-28,0.0200,0.0200,0.0300,29728.17,2941.90,KXILNUCLEAR-27FEB28-T102.5
+US imports of goods from China in 2026,Below $220 billion,2027-02-04,0.0400,0.0100,0.0400,315.66,288.00,KXCNIMPORT-27FEB04-T220
+US imports of goods from China in 2026,Below $240 billion,2027-02-04,0.0600,0.0100,0.0400,1635.22,1455.00,KXCNIMPORT-27FEB04-T240
+US imports of goods from China in 2026,Below $260 billion,2027-02-04,0.0600,0.0100,0.0600,990.74,851.56,KXCNIMPORT-27FEB04-T260
+US imports of goods from China in 2026,Below $280 billion,2027-02-04,0.1900,0.0100,0.9500,1778.15,1452.31,KXCNIMPORT-27FEB04-T280
+US imports of goods from China in 2026,Below $300 billion,2027-02-04,0.5200,0.1300,0.9900,933.70,223.94,KXCNIMPORT-27FEB04-T300
+U.S. imports from Iran >$5M in 2026?,in 2026,2027-02-01,0.0310,0.0310,0.5780,20918.65,4847.43,KXIRANIMPORTS-27FEB01-T5000000
+How high will average weekly Hormuz traffic get in 2026?,Above 30,2027-01-05,0.1100,0.1000,0.1100,28407.20,15996.85,KXHORMUZAVG-27JAN01-A30
+How high will average weekly Hormuz traffic get in 2026?,Above 40,2027-01-05,0.1300,0.0900,0.1000,65488.61,45860.33,KXHORMUZAVG-27JAN01-A40
+How high will average weekly Hormuz traffic get in 2026?,Above 50,2027-01-05,0.0600,0.0600,0.0800,21885.84,12671.49,KXHORMUZAVG-27JAN01-A50
+How high will average weekly Hormuz traffic get in 2026?,Above 60,2027-01-05,0.0700,0.0400,0.0600,39215.41,22926.76,KXHORMUZAVG-27JAN01-A60
+How high will average weekly Hormuz traffic get in 2026?,Above 70,2027-01-05,0.0200,0.0200,0.0500,23464.62,14565.78,KXHORMUZAVG-27JAN01-A70
+How high will average weekly Hormuz traffic get in 2026?,Above 80,2027-01-05,0.0200,0.0100,0.0300,16358.66,8006.73,KXHORMUZAVG-27JAN01-A80
+How high will average weekly Hormuz traffic get in 2026?,Above 90,2027-01-05,0.0400,0.0200,0.0300,20200.62,12919.40,KXHORMUZAVG-27JAN01-A90
+How high will average weekly Hormuz traffic get in 2026?,Above 100,2027-01-05,0.0200,0.0100,0.0200,12603.20,10089.05,KXHORMUZAVG-27JAN01-A100
+How high will average weekly Hormuz traffic get in 2026?,Above 110,2027-01-05,0.0200,0.0100,0.0200,541.01,316.01,KXHORMUZAVG-27JAN01-A110
+How high will average weekly Hormuz traffic get in 2026?,Above 120,2027-01-05,0.0200,0.0000,0.0200,1381.35,1013.41,KXHORMUZAVG-27JAN01-A120
+Reddest state to elect a Democratic senator in 2026?,Mississippi,2027-01-03,0.9600,0.9800,1.0000,57259.00,37086.41,KXREDDESTDSEN-27JAN03-MS
+Reddest state to elect a Democratic senator in 2026?,Louisiana,2027-01-03,0.0100,0.0000,0.0100,40690.35,17265.30,KXREDDESTDSEN-27JAN03-LA
+Reddest state to elect a Democratic senator in 2026?,Montana,2027-01-03,0.0100,0.0000,0.0100,14408.56,10291.89,KXREDDESTDSEN-27JAN03-MT
+Reddest state to elect a Democratic senator in 2026?,South Carolina,2027-01-03,0.0100,0.0000,0.0100,36224.89,21590.01,KXREDDESTDSEN-27JAN03-SC
+Reddest state to elect a Democratic senator in 2026?,Kansas,2027-01-03,0.0100,0.0000,0.0100,87003.24,34313.76,KXREDDESTDSEN-27JAN03-KS
+Reddest state to elect a Democratic senator in 2026?,Texas,2027-01-03,0.0100,0.0000,0.0100,29990.09,14779.98,KXREDDESTDSEN-27JAN03-TX
+Reddest state to elect a Democratic senator in 2026?,Iowa,2027-01-03,0.0100,0.0000,0.0100,9981.70,9799.70,KXREDDESTDSEN-27JAN03-IA
+Reddest state to elect a Democratic senator in 2026?,Alaska,2027-01-03,0.0100,0.0000,0.0100,29623.58,20650.51,KXREDDESTDSEN-27JAN03-AK
+Reddest state to elect a Democratic senator in 2026?,Florida,2027-01-03,0.0100,0.0000,0.0100,9306.48,6914.82,KXREDDESTDSEN-27JAN03-FL
+Reddest state to elect a Democratic senator in 2026?,Ohio,2027-01-03,0.0100,0.0000,0.0100,24208.25,17419.59,KXREDDESTDSEN-27JAN03-OH
+Reddest state to elect a Democratic senator in 2026?,North Carolina,2027-01-03,0.0100,0.0000,0.0100,52091.48,24988.91,KXREDDESTDSEN-27JAN03-NC
+Reddest state to elect a Democratic senator in 2026?,Georgia,2027-01-03,0.0100,0.0000,0.0100,20573.52,12398.77,KXREDDESTDSEN-27JAN03-GA
+Reddest state to elect a Democratic senator in 2026?,Michigan,2027-01-03,0.0100,0.0000,0.0100,16320.62,11296.89,KXREDDESTDSEN-27JAN03-MI
+Reddest state to elect a Democratic senator in 2026?,New Hampshire,2027-01-03,0.0100,0.0000,0.0100,4974.42,4969.75,KXREDDESTDSEN-27JAN03-NH
+Reddest state to elect a Democratic senator in 2026?,Minnesota,2027-01-03,0.0100,0.0000,0.0100,6564.23,6091.97,KXREDDESTDSEN-27JAN03-MN
+Reddest state to elect a Democratic senator in 2026?,Virginia,2027-01-03,0.0100,0.0000,0.0100,4833.62,4831.75,KXREDDESTDSEN-27JAN03-VA
+Which senators will back Van Hollen for Senate Democratic leader?,Bernie Sanders,2027-01-03,0.9900,0.9500,1.0000,847.28,527.71,KXVANHOLLENBACKERS-27JAN03-BSAN
+Which senators will back Van Hollen for Senate Democratic leader?,Elissa Slotkin,2027-01-03,0.6300,0.5700,0.6200,1337.74,728.97,KXVANHOLLENBACKERS-27JAN03-ESLO
+Which senators will back Van Hollen for Senate Democratic leader?,Abdul El-Sayed,2027-01-03,0.9400,0.8700,0.9400,920.43,516.81,KXVANHOLLENBACKERS-27JAN03-AELS
+Which senators will back Van Hollen for Senate Democratic leader?,Scott Colom,2027-01-03,0.3600,0.2700,0.3500,1158.34,851.13,KXVANHOLLENBACKERS-27JAN03-SCOL
+Which senators will back Van Hollen for Senate Democratic leader?,Mark Kelly,2027-01-03,0.1200,0.0400,0.1300,139.09,139.09,KXVANHOLLENBACKERS-27JAN03-MKEL
+Which senators will back Van Hollen for Senate Democratic leader?,Raphael Warnock,2027-01-03,0.3000,0.2200,0.3000,606.62,406.62,KXVANHOLLENBACKERS-27JAN03-RWAR
+Which senators will back Van Hollen for Senate Democratic leader?,John Fetterman,2027-01-03,0.0600,0.0000,0.0600,15.63,15.63,KXVANHOLLENBACKERS-27JAN03-JFET
+Which senators will back Van Hollen for Senate Democratic leader?,Mark Warner,2027-01-03,0.1000,0.0800,0.1700,210.00,210.00,KXVANHOLLENBACKERS-27JAN03-MWAR
+Which senators will back Van Hollen for Senate Democratic leader?,Maggie Hassan,2027-01-03,0.0900,0.0000,0.0900,20.89,20.89,KXVANHOLLENBACKERS-27JAN03-MHAS
+Which senators will back Van Hollen for Senate Democratic leader?,Martin Heinrich,2027-01-03,0.2100,0.1200,0.2100,209.82,209.82,KXVANHOLLENBACKERS-27JAN03-MHEI
+Which senators will back Van Hollen for Senate Democratic leader?,James Talarico,2027-01-03,0.4300,0.3700,0.4300,2434.16,1563.82,KXVANHOLLENBACKERS-27JAN03-JTAL
+Which senators will back Van Hollen for Senate Democratic leader?,Elizabeth Warren,2027-01-03,0.6800,0.6300,0.6700,1953.45,1195.41,KXVANHOLLENBACKERS-27JAN03-EWAR
+Which senators will back Van Hollen for Senate Democratic leader?,Cory Booker,2027-01-03,0.0900,0.0000,0.0900,20.89,20.89,KXVANHOLLENBACKERS-27JAN03-CBOO
+Which senators will back Van Hollen for Senate Democratic leader?,Chris Murphy,2027-01-03,0.2900,0.2600,0.3600,606.00,606.00,KXVANHOLLENBACKERS-27JAN03-CMUR
+Which senators will back Van Hollen for Senate Democratic leader?,Mary Peltola,2027-01-03,0.1500,0.1100,0.1700,3088.19,1578.94,KXVANHOLLENBACKERS-27JAN03-MPEL
+Which senators will back Van Hollen for Senate Democratic leader?,Juliana Stratton,2027-01-03,0.8300,0.7600,0.8300,2359.68,1116.46,KXVANHOLLENBACKERS-27JAN03-JSTR
+Which senators will back Van Hollen for Senate Democratic leader?,Jon Ossoff,2027-01-03,0.3000,0.2200,0.3000,1153.39,831.19,KXVANHOLLENBACKERS-27JAN03-JOSS
+Which senators will back Van Hollen for Senate Democratic leader?,Andy Kim,2027-01-03,0.0400,0.1700,0.1900,341.34,341.34,KXVANHOLLENBACKERS-27JAN03-AKIM
+Which senators will back Van Hollen for Senate Democratic leader?,Peggy Flanagan,2027-01-03,0.9300,0.9200,0.9800,1099.51,1083.36,KXVANHOLLENBACKERS-27JAN03-PFLA
+Which senators will back Van Hollen for Senate Democratic leader?,Troy Jackson,2027-01-03,0.8700,0.7700,0.8600,568.56,463.10,KXVANHOLLENBACKERS-27JAN03-TJAC
+Which senators will back Van Hollen for Senate Democratic leader?,Adam Hamilton,2027-01-03,0.3900,0.3600,0.3900,4150.40,2104.49,KXVANHOLLENBACKERS-27JAN03-AHAM
+Which senators will back Van Hollen for Senate Democratic leader?,Annie Andrews,2027-01-03,0.2800,0.2100,0.2800,3018.49,1669.39,KXVANHOLLENBACKERS-27JAN03-AAND
+Which senators will back Van Hollen for Senate Democratic leader?,Angela Alsobrooks,2027-01-03,0.1300,0.0900,0.1600,152.90,152.90,KXVANHOLLENBACKERS-27JAN03-AALS
+Which senators will back Van Hollen for Senate Democratic leader?,Peter Welch,2027-01-03,0.2400,0.1600,0.2300,451.78,244.62,KXVANHOLLENBACKERS-27JAN03-PWEL
+Which senators will back Van Hollen for Senate Democratic leader?,Chris Pappas,2027-01-03,0.1700,0.1300,0.1900,1958.45,973.92,KXVANHOLLENBACKERS-27JAN03-CPAP
+Which senators will back Van Hollen for Senate Democratic leader?,Tammy Duckworth,2027-01-03,0.2600,0.1700,0.2600,314.78,314.78,KXVANHOLLENBACKERS-27JAN03-TDUC
+Which senators will back Van Hollen for Senate Democratic leader?,John Hickenlooper,2027-01-03,0.1500,0.0900,0.1700,205.00,205.00,KXVANHOLLENBACKERS-27JAN03-JHIC
+Which senators will back Schumer for Senate Democratic leader?,Chris Van Hollen,2027-01-03,0.0700,0.0000,0.0600,3837.53,3632.53,KXSCHUMERBACKERS-27JAN03-CVAN
+Which senators will back Schumer for Senate Democratic leader?,Bernie Sanders,2027-01-03,0.0300,0.0000,0.0600,630.24,321.62,KXSCHUMERBACKERS-27JAN03-BSAN
+Which senators will back Schumer for Senate Democratic leader?,Elissa Slotkin,2027-01-03,0.0100,0.0200,0.0800,2932.79,2717.41,KXSCHUMERBACKERS-27JAN03-ESLO
+Which senators will back Schumer for Senate Democratic leader?,Abdul El-Sayed,2027-01-03,0.0400,0.0000,0.0400,11259.96,8080.86,KXSCHUMERBACKERS-27JAN03-AELS
+Which senators will back Schumer for Senate Democratic leader?,Scott Colom,2027-01-03,0.4200,0.3500,0.4200,1499.82,887.71,KXSCHUMERBACKERS-27JAN03-SCOL
+Which senators will back Schumer for Senate Democratic leader?,Richard Blumenthal,2027-01-03,0.8800,0.8800,0.9700,765.84,745.21,KXSCHUMERBACKERS-27JAN03-RBLU
+Which senators will back Schumer for Senate Democratic leader?,Kirsten Gillibrand,2027-01-03,0.9900,0.9400,1.0000,445.93,407.93,KXSCHUMERBACKERS-27JAN03-KGIL
+Which senators will back Schumer for Senate Democratic leader?,Mark Kelly,2027-01-03,0.8400,0.8500,0.9200,284.33,180.63,KXSCHUMERBACKERS-27JAN03-MKEL
+Which senators will back Schumer for Senate Democratic leader?,Raphael Warnock,2027-01-03,0.6400,0.6000,0.6500,2216.95,992.31,KXSCHUMERBACKERS-27JAN03-RWAR
+Which senators will back Schumer for Senate Democratic leader?,Ruben Gallego,2027-01-03,0.9300,0.9400,0.9800,3283.18,1625.24,KXSCHUMERBACKERS-27JAN03-RGAL
+Which senators will back Schumer for Senate Democratic leader?,John Fetterman,2027-01-03,0.9900,0.9200,0.9900,2106.91,1740.04,KXSCHUMERBACKERS-27JAN03-JFET
+Which senators will back Schumer for Senate Democratic leader?,Mark Warner,2027-01-03,0.8300,0.7400,0.8300,1381.15,557.02,KXSCHUMERBACKERS-27JAN03-MWAR
+Which senators will back Schumer for Senate Democratic leader?,Maggie Hassan,2027-01-03,0.7500,0.6700,0.7500,191.48,84.05,KXSCHUMERBACKERS-27JAN03-MHAS
+Which senators will back Schumer for Senate Democratic leader?,Martin Heinrich,2027-01-03,0.5800,0.5000,0.6000,701.30,458.68,KXSCHUMERBACKERS-27JAN03-MHEI
+Which senators will back Schumer for Senate Democratic leader?,James Talarico,2027-01-03,0.4100,0.3300,0.3800,1309.14,624.82,KXSCHUMERBACKERS-27JAN03-JTAL
+Which senators will back Schumer for Senate Democratic leader?,Elizabeth Warren,2027-01-03,0.1400,0.1200,0.2000,1358.31,987.91,KXSCHUMERBACKERS-27JAN03-EWAR
+Which senators will back Schumer for Senate Democratic leader?,Cory Booker,2027-01-03,0.5900,0.5400,0.5900,959.88,767.54,KXSCHUMERBACKERS-27JAN03-CBOO
+Which senators will back Schumer for Senate Democratic leader?,Chris Murphy,2027-01-03,0.2700,0.2600,0.3500,2472.42,2262.42,KXSCHUMERBACKERS-27JAN03-CMUR
+Which senators will back Schumer for Senate Democratic leader?,Mary Peltola,2027-01-03,0.8000,0.7600,0.8500,2221.71,1528.11,KXSCHUMERBACKERS-27JAN03-MPEL
+Which senators will back Schumer for Senate Democratic leader?,Juliana Stratton,2027-01-03,0.0300,0.0300,0.0700,1886.94,1394.32,KXSCHUMERBACKERS-27JAN03-JSTR
+Which senators will back Schumer for Senate Democratic leader?,Jon Ossoff,2027-01-03,0.6500,0.5800,0.6700,818.52,383.76,KXSCHUMERBACKERS-27JAN03-JOSS
+Which senators will back Schumer for Senate Democratic leader?,Andy Kim,2027-01-03,0.5300,0.5400,0.6300,728.89,649.31,KXSCHUMERBACKERS-27JAN03-AKIM
+Which senators will back Schumer for Senate Democratic leader?,Patty Murray,2027-01-03,0.8300,0.8500,0.9100,533.04,420.50,KXSCHUMERBACKERS-27JAN03-PMUR
+Which senators will back Schumer for Senate Democratic leader?,Chris Coons,2027-01-03,0.7000,0.6900,0.7100,1240.27,685.23,KXSCHUMERBACKERS-27JAN03-CCOO
+Which senators will back Schumer for Senate Democratic leader?,Ed Markey,2027-01-03,0.1300,0.0700,0.1400,57.40,45.11,KXSCHUMERBACKERS-27JAN03-EMAR
+Which senators will back Schumer for Senate Democratic leader?,Roy Cooper,2027-01-03,0.7800,0.7700,0.8500,448.44,318.49,KXSCHUMERBACKERS-27JAN03-RCOO
+Which senators will back Schumer for Senate Democratic leader?,Josh Turek,2027-01-03,0.6500,0.6400,0.7400,603.12,506.90,KXSCHUMERBACKERS-27JAN03-JTUR
+Which senators will back Schumer for Senate Democratic leader?,Angela Alsobrooks,2027-01-03,0.8800,0.9000,0.9600,1488.20,423.86,KXSCHUMERBACKERS-27JAN03-AALS
+Which senators will back Schumer for Senate Democratic leader?,Peter Welch,2027-01-03,0.4300,0.4600,0.5000,344.82,317.64,KXSCHUMERBACKERS-27JAN03-PWEL
+Which senators will back Schumer for Senate Democratic leader?,Chris Pappas,2027-01-03,0.6100,0.5900,0.6700,730.99,383.93,KXSCHUMERBACKERS-27JAN03-CPAP
+Which senators will back Schumer for Senate Democratic leader?,Tim Kaine,2027-01-03,0.6900,0.6200,0.7000,753.84,468.37,KXSCHUMERBACKERS-27JAN03-TKAI
+Which senators will back Schumer for Senate Democratic leader?,Maria Cantwell,2027-01-03,0.6800,0.7000,0.7600,470.55,275.68,KXSCHUMERBACKERS-27JAN03-MCAN
+Which senators will back Schumer for Senate Democratic leader?,Tammy Duckworth,2027-01-03,0.7500,0.6700,0.7600,80.11,69.45,KXSCHUMERBACKERS-27JAN03-TDUC
+Which senators will back Schumer for Senate Democratic leader?,Adam Hamilton,2027-01-03,0.0500,0.0400,0.1200,263.05,202.08,KXSCHUMERBACKERS-27JAN03-AHAM
+Which senators will back Schumer for Senate Democratic leader?,Annie Andrews,2027-01-03,0.2800,0.2600,0.3500,770.98,693.87,KXSCHUMERBACKERS-27JAN03-AAND
+Which senators will back Schumer for Senate Democratic leader?,John Hickenlooper,2027-01-03,0.7400,0.6600,0.7500,349.41,348.30,KXSCHUMERBACKERS-27JAN03-JHIC
+How many states will elect a governor and senator from different parties this year? (Directional),At least 1,2026-11-04,0.9900,0.0000,1.0000,1189.01,1121.00,KXGOVSENDIFF-27FEB012-AL1
+How many states will elect a governor and senator from different parties this year? (Directional),At least 2,2026-11-04,0.9800,0.0000,1.0000,2803.96,2745.96,KXGOVSENDIFF-27FEB012-AL2
+How many states will elect a governor and senator from different parties this year? (Directional),At least 3,2027-01-02,0.0100,0.0100,0.4700,532.66,336.86,KXGOVSENDIFF-27FEB012-AL3
+How many states will elect a governor and senator from different parties this year? (Directional),At least 4,2027-01-02,0.0200,0.0100,0.0200,851.07,774.30,KXGOVSENDIFF-27FEB012-AL4
+How many states will elect a governor and senator from different parties this year? (Directional),At least 5,2027-01-02,0.0100,0.0100,0.0200,2627.69,2377.53,KXGOVSENDIFF-27FEB012-AL5
+How many states will elect a governor and senator from different parties this year? (Directional),At least 6,2027-01-02,0.0200,0.0100,0.0200,7591.20,7526.20,KXGOVSENDIFF-27FEB012-AL6
+How many states will elect a governor and senator from different parties this year? (Directional),At least 7,2027-01-02,0.0100,0.0000,0.0200,323.16,323.16,KXGOVSENDIFF-27FEB012-AL7
+How many states will elect a governor and senator from different parties this year? (Directional),At least 8,2027-01-02,0.0100,0.0000,0.0200,139.01,85.01,KXGOVSENDIFF-27FEB012-AL8
+How many states will elect a governor and senator from different parties in 2026?,0,2027-01-02,0.0100,0.0000,0.0100,5564.00,5562.00,KXGOVSENDIFF-27FEB01-E0
+How many states will elect a governor and senator from different parties in 2026?,1,2027-01-02,0.0100,0.0000,0.0100,6145.95,5506.06,KXGOVSENDIFF-27FEB01-E1
+How many states will elect a governor and senator from different parties in 2026?,2,2027-01-02,0.9800,0.9800,1.0000,682.66,476.00,KXGOVSENDIFF-27FEB01-E2
+How many states will elect a governor and senator from different parties in 2026?,3,2027-01-02,0.0100,0.0000,0.0100,1949.89,864.13,KXGOVSENDIFF-27FEB01-E3
+How many states will elect a governor and senator from different parties in 2026?,4,2027-01-02,0.0100,0.0000,0.0100,1436.98,912.01,KXGOVSENDIFF-27FEB01-E4
+How many states will elect a governor and senator from different parties in 2026?,5,2027-01-02,0.0100,0.0000,0.0100,374.96,156.04,KXGOVSENDIFF-27FEB01-E5
+How many states will elect a governor and senator from different parties in 2026?,Above 5,2027-01-02,0.0100,0.0000,0.0100,7409.94,6827.36,KXGOVSENDIFF-27FEB01-A5
+Who will de facto lead Venezuela at the end of 2026?,Delcy Rodríguez,2027-01-02,0.9300,0.9600,0.9900,16195.32,5254.22,KXVENEZDEFACTO-27JAN01-DROD
+Who will de facto lead Venezuela at the end of 2026?,Diosdado Cabello,2027-01-02,0.0200,0.0000,0.0200,2693.32,2653.32,KXVENEZDEFACTO-27JAN01-DCAB
+Who will de facto lead Venezuela at the end of 2026?,Jorge Rodríguez,2027-01-02,0.0100,0.0000,0.0400,2711.32,2686.32,KXVENEZDEFACTO-27JAN01-JROD
+Who will de facto lead Venezuela at the end of 2026?,Gustavo González López,2027-01-02,0.0100,0.0000,0.0200,2650.32,2648.32,KXVENEZDEFACTO-27JAN01-GLOP
+Who will de facto lead Venezuela at the end of 2026?,Vladimir Padrino López,2027-01-02,0.0100,0.0100,0.0300,2665.32,2665.32,KXVENEZDEFACTO-27JAN01-VLOP
+Who will de facto lead Venezuela at the end of 2026?,María Corina Machado,2027-01-02,0.0500,0.0100,0.0500,5254.50,2911.25,KXVENEZDEFACTO-27JAN01-MMAC
+Who will de facto lead Venezuela at the end of 2026?,Edmundo González Urrutia,2027-01-02,0.0200,0.0000,0.0200,3140.74,2693.00,KXVENEZDEFACTO-27JAN01-EGON
+Who will de facto lead Venezuela at the end of 2026?,Nicolás Maduro,2027-01-02,0.0100,0.0000,0.0400,3133.32,2641.32,KXVENEZDEFACTO-27JAN01-NMAD
+Will Trump visit China?,"Before Dec 1, 2026",2026-12-01,0.9900,0.9900,1.0000,15904.18,10438.00,KXTRUMPCHINA-26SEP25-DEC01
+Will Trump visit China?,"Before Jan 1, 2027",2027-01-01,0.9900,0.9900,1.0000,5790.16,4479.76,KXTRUMPCHINA-26SEP25-JAN01
+How many Senators will vote for the Clarity Act?,Above 50,2027-01-01,0.0100,0.0000,0.0500,115920.68,41177.19,KXVOTECLARITY-26MAY16-T50
+How many Senators will vote for the Clarity Act?,Above 55,2027-01-01,0.0300,0.0000,0.0400,16785.20,5790.44,KXVOTECLARITY-26MAY16-T55
+How many Senators will vote for the Clarity Act?,Above 58,2027-01-01,0.0400,0.0100,0.0400,19788.97,9680.35,KXVOTECLARITY-26MAY16-T58
+How many Senators will vote for the Clarity Act?,Above 60,2027-01-01,0.0400,0.0100,0.0500,19575.96,5975.23,KXVOTECLARITY-26MAY16-T60
+How many Senators will vote for the Clarity Act?,Above 62,2027-01-01,0.0500,0.0200,0.0600,9448.47,3008.23,KXVOTECLARITY-26MAY16-T62
+How many Senators will vote for the Clarity Act?,Above 64,2027-01-01,0.0200,0.0100,0.0300,8305.90,4506.02,KXVOTECLARITY-26MAY16-T64
+How many Senators will vote for the Clarity Act?,Above 66,2027-01-01,0.0200,0.0100,0.0500,3334.60,1176.48,KXVOTECLARITY-26MAY16-T66
+How many Senators will vote for the Clarity Act?,Above 68,2027-01-01,0.0400,0.0200,0.0700,1023.02,588.37,KXVOTECLARITY-26MAY16-T68
+Will the Supreme Court hear a case on Trump's tariffs in 2026?,a case primarily related to tariffs imposed by Donald Trump,2027-01-01,0.0410,0.0410,0.0730,37887.69,8323.80,KXTRUMPTARIFFHEAR-27JAN-X
+Which Senators will vote for the Clarity Act?,Angela Alsobrooks,2027-01-01,0.0100,0.0000,0.0600,3400.67,1600.65,KXSVOTECLARITY-MAY26-AALS
+Which Senators will vote for the Clarity Act?,Ruben Gallego,2027-01-01,0.0100,0.0000,0.0300,10694.37,4460.87,KXSVOTECLARITY-MAY26-RGAL
+Which Senators will vote for the Clarity Act?,Mark Warner,2027-01-01,0.0400,0.0000,0.0500,5390.15,1430.45,KXSVOTECLARITY-MAY26-MWAR
+Which Senators will vote for the Clarity Act?,Catherine Cortez Masto,2027-01-01,0.0800,0.0100,0.0500,3111.77,1244.80,KXSVOTECLARITY-MAY26-CMAS
+Which Senators will vote for the Clarity Act?,Raphael Warnock,2027-01-01,0.0100,0.0000,0.0300,2252.77,1299.19,KXSVOTECLARITY-MAY26-RWAR
+Which Senators will vote for the Clarity Act?,Andy Kim,2027-01-01,0.0200,0.0100,0.0500,700.09,344.01,KXSVOTECLARITY-MAY26-AKIM
+Which Senators will vote for the Clarity Act?,Lisa Blunt Rochester,2027-01-01,0.0100,0.0000,0.0500,2614.21,1342.09,KXSVOTECLARITY-MAY26-LROC
+Which Senators will vote for the Clarity Act?,Kirsten Gillibrand,2027-01-01,0.0100,0.0000,0.0200,8540.07,4010.54,KXSVOTECLARITY-MAY26-KGIL
+Which Senators will vote for the Clarity Act?,Josh Hawley,2027-01-01,0.0300,0.0100,0.0300,7360.33,1308.66,KXSVOTECLARITY-MAY26-JHAW
+Which Senators will vote for the Clarity Act?,Rand Paul,2027-01-01,0.0100,0.0000,0.0500,3462.21,1306.08,KXSVOTECLARITY-MAY26-RPAU
+Which Senators will vote for the Clarity Act?,Mike Lee,2027-01-01,0.0200,0.0000,0.0500,12158.36,3998.61,KXSVOTECLARITY-MAY26-MLEE
+Which Senators will vote for the Clarity Act?,Jerry Moran,2027-01-01,0.0100,0.0000,0.0500,6406.64,2855.67,KXSVOTECLARITY-MAY26-JMOR
+Will Reza Pahlavi visit Iran in 2026?,Yes,2027-01-01,0.0190,0.0180,0.0190,2260802.74,742802.92,KXPAHLAVIVISITA-27JAN01
+Will Reza Pahlavi lead Iran in 2026?,Reza Pahlavi,2027-01-01,0.0200,0.0200,0.0300,2062757.40,560247.81,KXPAHLAVIHEAD-27JAN-RPAH
+Will Kanye West / Ye visit Israel this year?,Yes,2027-01-01,0.0290,0.0160,0.0590,59827.70,10204.63,KXKANYEISRAEL-27JAN01
+Will Greenland vote for independence in 2026?,Before 2027,2027-01-01,0.0020,0.0020,0.0100,63508.06,22302.48,KXGREENIND-27
+Which countries will Trump make formal trade deals with in 2026?,India,2027-01-01,0.1200,0.0600,0.1100,1594.61,821.84,KXFTACOUNTRIES-27-IND
+Which countries will Trump make formal trade deals with in 2026?,United Kingdom,2027-01-01,0.0800,0.0300,0.0900,179.88,62.92,KXFTACOUNTRIES-27-UK
+Which countries will Trump make formal trade deals with in 2026?,Taiwan,2027-01-01,0.0800,0.0200,0.0800,1071.48,250.04,KXFTACOUNTRIES-27-TAI
+Which countries will Trump make formal trade deals with in 2026?,Indonesia,2027-01-01,0.0900,0.0400,0.1000,496.89,182.45,KXFTACOUNTRIES-27-INDO
+Which countries will Trump make formal trade deals with in 2026?,Argentina,2027-01-01,0.1000,0.0600,0.1200,4945.85,2505.56,KXFTACOUNTRIES-27-ARG
+Which countries will Trump make formal trade deals with in 2026?,Kenya,2027-01-01,0.0500,0.0200,0.0900,911.00,101.00,KXFTACOUNTRIES-27-KEN
+Which countries will Trump make formal trade deals with in 2026?,China,2027-01-01,0.1300,0.0700,0.1000,5894.30,2026.80,KXFTACOUNTRIES-27-CHI
+Which countries will Trump make formal trade deals with in 2026?,European Union,2027-01-01,0.0500,0.0300,0.0900,222.16,144.42,KXFTACOUNTRIES-27-EU
+Which countries will Trump make formal trade deals with in 2026?,Switzerland,2027-01-01,0.0500,0.0200,0.0900,16.66,0.00,KXFTACOUNTRIES-27-SWI
+Will Iran hold a presidential election?,"Before Jan 1, 2027",2027-01-01,0.0130,0.0210,0.0500,49849.89,14125.36,KXELECTIRAN-27JAN01
+Will a Chinese AI model be #1 this year?,Before 2027,2027-01-01,0.0500,0.0400,0.0500,183049.29,58613.78,KXBESTLLMCHINA-27
+Which countries will normalize relations with Israel before 2027?,Saudi Arabia,2027-01-01,0.0110,0.0110,0.0270,230597.79,92956.04,KXABRAHAMSA-27-JAN01
+Which countries will normalize relations with Israel before 2027?,Oman,2027-01-01,0.0380,0.0120,0.0390,18951.10,9344.32,KXABRAHAMSA-27-JAN01-OMAN
+Which countries will normalize relations with Israel before 2027?,Mauritania,2027-01-01,0.0990,0.0110,0.0770,663.61,373.96,KXABRAHAMSA-27-JAN01-MAUR
+Which countries will normalize relations with Israel before 2027?,Indonesia,2027-01-01,0.0130,0.0120,0.0360,17910.52,5660.26,KXABRAHAMSA-27-JAN01-INDO
+Which countries will normalize relations with Israel before 2027?,Maldives,2027-01-01,0.0970,0.0110,0.0700,262.52,140.22,KXABRAHAMSA-27-JAN01-MALD
+Which countries will normalize relations with Israel before 2027?,Djibouti,2027-01-01,0.0770,0.0130,0.0650,3373.12,1460.62,KXABRAHAMSA-27-JAN01-DJIB
+Which countries will normalize relations with Israel before 2027?,Comoros,2027-01-01,0.0960,0.0120,0.0970,202.35,137.25,KXABRAHAMSA-27-JAN01-COMO
+Which countries will normalize relations with Israel before 2027?,Belize,2027-01-01,0.1000,0.0130,0.0490,2227.95,937.90,KXABRAHAMSA-27-JAN01-BELI
+Which countries will normalize relations with Israel before 2027?,Syria,2027-01-01,0.0100,0.0150,0.0290,44061.78,19902.13,KXABRAHAMSA-27-JAN01-SYR
+Which countries will normalize relations with Israel before 2027?,Lebanon,2027-01-01,0.0230,0.0100,0.0170,71598.30,30264.83,KXABRAHAMSA-27-JAN01-LEB
+Which countries will normalize relations with Israel before 2027?,Iran,2027-01-01,0.0100,0.0000,0.0200,1001.91,777.88,KXABRAHAMSA-27-JAN01-IRAN
+Will Israel and Qatar normalize relations before 2027?,"Before Jan 1, 2027",2027-01-01,0.0100,0.0040,0.0190,92544.79,40660.92,KXABRAHAMQ-27-JAN01
+Will Kash Patel visit Russia?,"Before Nov 1, 2026",2026-11-01,0.0100,0.0000,1.0000,20374.58,4214.12,KXKASHRUSSIA-26JUL27-NOV01
+Will Kash Patel visit Russia?,"Before Jan 1, 2027",2027-01-01,0.0800,0.0200,0.0800,4435.86,552.37,KXKASHRUSSIA-26JUL27-JAN01
+Israel Katz departure announced?,Before 2027,2027-01-01,0.5500,0.4300,0.5200,5145.61,2082.26,KXKATZOUT-26JAN01-27JAN01
+Will U.S. direct flights to Russia resume?,Before 2027,2027-01-01,0.0310,0.0200,0.0280,20191.87,6510.51,KXFLIGHTSRUSSIA-25-27
+Will Trump meet the Supreme Leader of Iran?,"Before Jan 1, 2027",2027-01-01,0.0300,0.0100,0.0200,47757.53,19100.74,KXTRUMPSUPREMELEADER-27JAN01-JAN01
+Will Netanyahu be arrested?,"Before Oct 1, 2026",2026-10-01,0.0500,0.0000,1.0000,65158.15,29169.69,KXARRESTNETANYAHU-28JAN01-26OCT01
+Will Netanyahu be arrested?,"Before Nov 1, 2026",2026-11-01,0.0100,0.0000,1.0000,20573.51,5834.12,KXARRESTNETANYAHU-28JAN01-26NOV01
+Will Netanyahu be arrested?,"Before Jan 1, 2027",2027-01-01,0.0300,0.0300,0.0500,40982.55,14447.13,KXARRESTNETANYAHU-28JAN01-27JAN01
+Which companies will sign a Venezuelan oil agreement?,ConocoPhillips,2027-01-01,0.1300,0.0600,0.1300,580.07,335.87,KXVENEZOILCOS-27JAN01-CONO
+Which companies will sign a Venezuelan oil agreement?,Shell,2027-01-01,0.4400,0.3400,0.4200,3097.16,1177.30,KXVENEZOILCOS-27JAN01-SHEL
+Which companies will sign a Venezuelan oil agreement?,ExxonMobil,2027-01-01,0.2500,0.1800,0.2700,2233.18,1106.14,KXVENEZOILCOS-27JAN01-EXXO
+Will the U.S.–Saudi nuclear cooperation agreement enter into force?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0600,0.1000,14880.61,4452.99,KXUSSAUDINUCLEAR-27-27JAN01
+Which USMCA outcomes will occur in 2026?,Trilateral revised deal,2027-01-01,0.0500,0.0200,0.3500,707.80,683.56,KXUSMCAOUTCOMES-27-TRI
+Which USMCA outcomes will occur in 2026?,Formal 16-year extension,2027-01-01,0.0700,0.0400,0.0700,5341.59,4725.68,KXUSMCAOUTCOMES-27-16Y
+Which USMCA outcomes will occur in 2026?,U.S.–Mexico interim agreement,2027-01-01,0.4100,0.0200,0.9600,572.28,537.62,KXUSMCAOUTCOMES-27-USMEX
+Which USMCA outcomes will occur in 2026?,U.S.–Canada interim agreement,2027-01-01,0.1300,0.0200,0.9900,411.37,35.00,KXUSMCAOUTCOMES-27-USCAN
+Which USMCA outcomes will occur in 2026?,Formal USMCA amendment,2027-01-01,0.0900,0.0200,0.0700,1977.43,1957.43,KXUSMCAOUTCOMES-27-AMEND
+Which USMCA outcomes will occur in 2026?,U.S. withdrawal notice,2027-01-01,0.1300,0.0200,0.2200,2399.64,2199.59,KXUSMCAOUTCOMES-27-USW
+Which USMCA outcomes will occur in 2026?,Canadian withdrawal notice,2027-01-01,0.0400,0.0100,0.2300,1766.64,1766.64,KXUSMCAOUTCOMES-27-CANW
+Which USMCA outcomes will occur in 2026?,Mexican withdrawal notice,2027-01-01,0.0400,0.0200,0.3200,1005.70,995.70,KXUSMCAOUTCOMES-27-MEXW
+Will Trump talk to Mojtaba Khamenei?,"Before Oct 1, 2026",2026-10-01,0.0300,0.0000,1.0000,7671.82,3294.87,KXTRUMPMOJTABA-26DEC-26SEP
+Will Trump talk to Mojtaba Khamenei?,"Before Jan 1, 2027",2027-01-01,0.0700,0.0300,0.0700,16011.90,8358.78,KXTRUMPMOJTABA-26DEC-26DEC
+"What will the tariff rate on Chinese imports be on Jan 1, 2027?",10% or above,2027-01-01,0.2600,0.9800,0.9900,384.00,60.00,KXTARIFFRATEPRC-27JAN01-5
+"What will the tariff rate on Chinese imports be on Jan 1, 2027?",15% or above,2027-01-01,0.1400,0.0400,0.9900,1623.74,486.99,KXTARIFFRATEPRC-27JAN01-7.5
+"What will the tariff rate on Chinese imports be on Jan 1, 2027?",20% or above,2027-01-01,0.9700,0.0200,0.9300,3813.48,1983.82,KXTARIFFRATEPRC-27JAN01-10
+"What will the tariff rate on Chinese imports be on Jan 1, 2027?",30% or above,2027-01-01,0.7800,0.0200,0.9300,1656.86,328.75,KXTARIFFRATEPRC-27JAN01-15
+"What will the tariff rate on Chinese imports be on Jan 1, 2027?",50% or above,2027-01-01,0.0100,0.0200,0.0800,2326.58,780.23,KXTARIFFRATEPRC-27JAN01-25
+"What will the tariff rate on Chinese imports be on Jan 1, 2027?",100% or above,2027-01-01,0.0200,0.0200,0.1700,2.01,2.01,KXTARIFFRATEPRC-27JAN01-50
+When will Russian diesel be imported into the U.S.?,"Before Nov 1, 2026",2026-11-01,0.0100,0.0000,1.0000,22571.93,9030.59,KXRUSDIESELIMPORT-27-26NOV01
+When will Russian diesel be imported into the U.S.?,"Before Dec 1, 2026",2026-12-01,0.1400,0.1400,0.1900,26098.35,7552.35,KXRUSDIESELIMPORT-27-26DEC01
+When will Russian diesel be imported into the U.S.?,"Before Jan 1, 2027",2027-01-01,0.1300,0.1700,0.2100,11742.36,4254.11,KXRUSDIESELIMPORT-27-27JAN01
+When will Canada raise tariffs on the US?,"Before Oct 1, 2026",2026-10-01,0.0300,0.0000,1.0000,1782.48,1278.48,KXCANUSRAISE-27-26OCT01
+When will Canada raise tariffs on the US?,"Before Nov 1, 2026",2026-11-01,0.0100,0.0000,1.0000,1384.61,720.01,KXCANUSRAISE-27-26NOV01
+When will Canada raise tariffs on the US?,"Before Dec 1, 2026",2026-12-01,0.1200,0.0200,0.7200,163.24,124.00,KXCANUSRAISE-27-26DEC01
+When will Canada raise tariffs on the US?,"Before Jan 1, 2027",2027-01-01,0.6100,0.1600,0.6500,2098.97,2098.97,KXCANUSRAISE-27-27JAN01
+Will Trump announce a trade deal with Cuba?,"Before Jan 1, 2027",2027-01-01,0.0500,0.0500,0.0760,75528.14,30674.86,KXTRADEDEALCUBA-27-B270101
+Which sectors will Trump tariff in 2026?,Canadian aircraft,2027-01-01,0.0730,0.0610,0.1100,8921.83,1182.79,KXTARIFFSECTOR-27JAN01-CAN
+Which sectors will Trump tariff in 2026?,Critical minerals,2027-01-01,0.1200,0.1000,0.1100,12584.59,6569.13,KXTARIFFSECTOR-27JAN01-MINE
+Which sectors will Trump tariff in 2026?,Wind turbines,2027-01-01,0.0450,0.0210,0.1000,13143.93,2807.06,KXTARIFFSECTOR-27JAN01-WIND
+Which sectors will Trump tariff in 2026?,Foreign-made films,2027-01-01,0.1100,0.0210,0.1100,517.30,286.44,KXTARIFFSECTOR-27JAN01-FILM
+Will the United States recognize Reza Pahlavi as the leader of Iran in 2026?,Before 2027,2027-01-01,0.0200,0.0200,0.0220,1108045.98,217787.49,KXRECOGPERSONIRAN-26
+Will the CIT strike down Trump's Section 301 tariffs in 2026?,Before 2027,2027-01-01,0.3500,0.5000,0.5800,9127.03,4338.65,KXCIT301-BBAR27
+Will any America Party candidate be on a federal or gubernatorial ballot before 2027?,Before 2027,2027-01-01,0.0500,0.0100,0.0550,13577.20,1733.00,KXBALLOTAMERICAPARTY-27
+US grants license for new nuclear reactor before 2027?,Grants license,2027-01-01,0.0480,0.0400,0.0480,873114.91,321449.65,KXREACTOR-26DEC31
+Will Americans receive tariff stimulus checks?,Before 2027,2027-01-01,0.0200,0.0200,0.0210,1641899.16,495223.91,KXTARIFFCHECKS-26-27
+Who will officially lead Venezuela at the end of 2026?,Edmundo González,2026-12-31,0.0120,0.0030,0.0130,455858.90,94963.29,KXVENEZUELALEADER-26DEC31-EGON
+Who will officially lead Venezuela at the end of 2026?,María Corina Machado,2026-12-31,0.0130,0.0140,0.0190,1253132.16,276442.62,KXVENEZUELALEADER-26DEC31-MCM
+Who will officially lead Venezuela at the end of 2026?,Donald Trump,2026-12-31,0.0120,0.0020,0.0090,428406.21,99002.98,KXVENEZUELALEADER-26DEC31-DJT
+Who will officially lead Venezuela at the end of 2026?,Delcy Rodríguez,2026-12-31,0.0890,0.0620,0.0880,1807432.11,387791.18,KXVENEZUELALEADER-26DEC31-DROD
+Who will officially lead Venezuela at the end of 2026?,Jorge Rodríguez,2026-12-31,0.0200,0.0030,0.0170,49883.52,17823.85,KXVENEZUELALEADER-26DEC31-JROD
+Who will officially lead Venezuela at the end of 2026?,Nicolás Maduro,2026-12-31,0.8700,0.8600,0.8700,1267312.33,315319.18,KXVENEZUELALEADER-26DEC31-NMAD
+Who will officially lead Venezuela at the end of 2026?,Vladimir Padrino López,2026-12-31,0.0200,0.0000,0.0170,71616.38,18119.14,KXVENEZUELALEADER-26DEC31-VLOP
+Who will officially lead Venezuela at the end of 2026?,Marco Rubio,2026-12-31,0.0130,0.0020,0.0090,422220.77,67176.82,KXVENEZUELALEADER-26DEC31-MRUB
+Who will officially lead Venezuela at the end of 2026?,Dinorah Figuera,2026-12-31,0.0100,0.0020,0.0040,23857.86,11104.99,KXVENEZUELALEADER-26DEC31-DFIG
+Who will officially lead Venezuela at the end of 2026?,Diosdado Cabello Rondón,2026-12-31,0.0140,0.0020,0.0100,88793.52,24194.06,KXVENEZUELALEADER-26DEC31-DRON

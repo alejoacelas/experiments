@@ -1,0 +1,1573 @@
+2025 | A
+
+ECMWF Communication Section
+Copernicus Team
+European Centre for Medium‑Range
+Weather Forecasts, ECMWF
+Robert‑Schuman‑Platz , 53175 Bonn, Germany
+copernicus‑press@ecmwf.int
+
+Published January 14th 2026 updated January 28th 2026
+(figures 3 and 9 and the associated text have been updated
+to reflect full availability of global datasets for 2025).
+DOI:https://doi.org/10.24381/b3nm-p354
+
+GCH editorial team (ECMWF):
+Lead editor and coordination: Francesca Guglielmo
+Co-authors: Julien Nicolas, Freja Vamborg,
+Rebecca Emerton, Adrian Simmons, Samantha Burgess
+Copy editing: Chelsea Snell
+Data visualization: Anna Lombardi
+Other Contributors: Michael Buchwitz
+(University of Bremen), Mark Parrington (ECMWF)
+Communications (ECMWF): Isabelle Boscaro‑Clarke,
+Elisabeth Mittelbach, Eva Remete, Maximilian Lingen,
+Nuria Lopez, Rafael Cereceda
+Other organisations: Blossom.it, Eau de Web,
+Greenhouse Communications
+
+This Global Climate Highlights (GCH) report from the Copernicus Climate Change
+Service (C3S) provides a brief synopsis of the state of global climate in 2025,
+mainly based on data from the ERA5 global atmospheric reanalysis produced by
+the European Centre for Medium‑range Weather Forecasts (ECMWF). The Global
+Climate Highlights summarises the state of global air temperature, global sea surface
+temperature and sea ice in both polar regions. This report also assesses current
+global average temperatures relative to the 1.5°C limit set by the Paris Agreement,
+adopted by the Conference of the Parties in 2015.
+ERA5 is one of six international datasets used to track global average temperature.
+In addition to this report, which includes data from the Japanese Reanalysis for
+Three Quarters of a Century (JRA‑3Q), further 2025 global temperature updates
+will be released by the UK Met Office, NASA, NOAA, Berkeley Earth and the World
+Meteorological Organisation (WMO), based on their respective datasets.
+A complementary report on the European State of the Climate, providing more detail
+on conditions in Europe, will be published by ECMWF and the C3S in April 2026,
+in partnership with the WMO.
+
+2025 | 1
+
+Table
+of Contents
+
+2025: the third-warmest year on record →6
+Sea surface temperature →18
+How exceptional were the past three years? →22
+Sea ice →26
+A world of extreme events →28
+Long‑term trends in climate indicators →32
+Paris Agreement targets ‑ where are
+we now and where are we going? →34
+
+List of figures
+Figure 1.
+
+2025 continues the shift towards higher global temperatures →4
+
+Figure 2.
+
+Key temperature statistics for 2025 →5
+
+Figure 3.
+
+2025 was the third-warmest year on record according to ERA5 →9
+
+Figure 4.
+
+All monthly temperature records have been broken
+over the past three years →11
+
+Figure 5.
+
+Anomalies and extremes in surface air temperature →13
+
+Figure 6.
+
+2025 saw higher temperatures in the polar regions →15
+
+Figure 7.
+
+Sea surface temperature remained high throughout 2025, despite the
+absence of El Niño conditions →21
+
+Figure 8.
+
+Anomalies and extremes in sea surface temperature in 2025 →23
+
+Figure 9.
+
+By how much do annual global temperatures deviate from evolving
+climatological averages? →25
+
+Figure 10.
+
+February 2025 saw lowest global extent of sea ice →29
+
+Figure 11.
+
+Half of the globe experienced more days than average with at least
+strong heat stress in 2025 →33
+
+To explore all visuals (including supplementary figures)
+and download the associated datasets, please visit the
+GCH2025 Graphics Gallery online.
+
+To explore details on data, analysis the methods
+followed, please visit the About the data and methods
+section online.
+
+4 | Global climate highlights
+
+2025 continues the shift towards higher global temperatures
+Distribution of daily global surface air temperature anomalies (°C) from 1940 to 2025
+
+1940
+
+1950
+
+1960
+
+1970
+
+1980
+
+1973–76
+La Niña event
+
+1990
+
+1991
+Eruption of
+Mt Pinatubo.
+It contributed
+to three cool years
+(1992–1994)
+
+2000
+
+1998
+El Niño event
+
+2023–24
+El Niño event
+
+2010
+
+2020
+2025
+
+-1.5
+
+-1.0
+
+-0.5
+
+Cooler than 1991–2020 average
+
+0.0
+
+0.5
+
++1.0ºC
+
+Warmer than 1991–2020 average
+
+*The height of each curve is proportional to the number of days experiencing a given temperature anomaly
+Data: ERA5 • Reference period: 1991‑2020 • Credit: C3S/ECMWF
+
+Figure 1.
+
+Distribution of daily global average surface air temperature anomalies (°C)
+relative to 1991–2020 for each year from 1940 to 2025. Selected important
+climate events have been annotated.
+Data source: ERA5. Credit: C3S/ECMWF. Visualisation inspired by the work of
+Erwan Rivault (BBC).
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
++1.5ºC
+
+2025 | 5
+
+Key temperature statistics for 2025
+
+Anomaly
+(vs 1991‑2020)
+
+Region
+
+Actual
+temperature
+
+Rank
+
+Three highest
+anomalies
+
+Surface air temperature
++0.59°C
+(+1.47°C vs
+pre‑industrial)
+
+14.97°C
+
+3rd highest
+
+2024: +0.72°C
+2023: +0.60°C
+2025: +0.59°C
+
+Global land
+
++0.86°C
+
+10.08°C
+
+2nd highest
+
+2024: +1.06°C
+2025: +0.86°C
+2023: +0.85°C
+
+Europe
+
++1.17°C
+
+10.41°C
+
+3rd highest
+
+2024: +1.47°C
+2020: +1.19°C
+2025: +1.17°C
+
+3rd highest
+
+2024: +0.51°C
+2023: +0.45°C
+2025: +0.38°C
+
+Globe
+
+Sea surface temperature
+Extra‑polar ocean
+
++0.38°C
+
+20.73°C
+
+Find more about data, definitions and methods in the About the data and methods.The C3S European region is defined as 25°W‑40°E, 340‑72°N.
+The extra‑polar ocean region is defined as 60°N‑60°S. Data source: ERA5 • Credit: C3S/ECMWF
+
+Figure 2.
+
+Key temperature statistics for 2025. The estimates for the globe refer to the
+average surface air temperature over land and ocean, and for Europe over
+land only. The extra‑polar ocean used for sea surface temperature refers to
+the 60°N–60°S domain. Statistics for other geographic domains are available
+in the Graphics Gallery.
+Data source: ERA5. Credit: C3S/ECMWF.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+6 | Global climate highlights
+
+2025: the
+third-warmest
+year on record
+
+2025 | 7
+
+2025 ranks as the third-warmest year
+on record1, following the unprecedented
+temperatures observed in 2023 and 2024.
+It was marginally cooler than 2023,
+while 2024 remains the warmest year on
+record and the first year with an average
+temperature clearly exceeding 1.5°C
+above the pre‑industrial level. 2025 saw
+exceptional near‑surface air and sea surface
+temperatures, extreme events, including
+floods, heatwaves and wildfires. Preliminary
+data2 indicate that greenhouse gas
+concentrations continued to increase in 2025.
+
+1
+
+All findings in this report, unless otherwise stated, are based on the ERA5 global climate reanalysis dataset produced by the European Centre
+for Medium‑Range Weather Forecasts (ECMWF) and covering the period from January 1940 to present and used for C3S’ routine climate
+monitoring. To extend the record back to 1850 from 1940 we leverage longer global temperature records. Datasets other than ERA5 may
+have a slightly different ranking for 2025. The global temperatures are presented relative to the pre‑industrial level, which uses an average for
+1850–1900 from the IPCC 6th Assessment Report, and to a modern reference period, using the average for 1991–2020.
+
+2
+
+Preliminary satellite data from the Copernicus Atmosphere Monitoring Service (CAMS), show that column‑averaged concentrations of carbon
+dioxide and methane, which reached record levels in 2024, continued to increase in 2025. An update on growth rates and concentrations of
+these two gases, based on consolidated estimates, will be provided in April 2026.
+
+8 | Global climate highlights
+
+Exceptional heat
+continues to redefine
+climate records: first
+three‑year average
+above 1.5°C
+
+2025 | 9
+
+2025 was the third-warmest year on record according to ERA5
+Global annual surface air temperature increase above pre‑industrial level since 1850
+
++1.5°C
+
+1.0
+
+ERA5 data
+0.5
+
+Other sources*
+
+0.0
+
+1850
+
+1900
+
+1950
+
+2000
+
+2025
+
+*Other sources comprise JRA‑3Q, GISTEMPV4, NOAAGlobalTempv6, Berkeley Earth, HadCRUT5. Reference period: pre‑industrial (1850‑1900) • Credit: C3S/ECMWF
+
+Figure 3.
+
+Global surface air temperature increase (°C) above the average for the
+1850–1900 designated pre‑industrial reference period, based on several
+global temperature datasets. *This figure was updated on 28 January 2026 to
+reflect full availability of global datasets for 2025.
+Credit: C3S/ECMWF.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+10 | Global climate highlights
+
+2025 had a global average temperature of 14.97°C,
+0.59°C above the 1991‑2020 average, and 0.13°C
+cooler than 2024, the warmest year on record. 2025
+was 1.47°C above an estimate of the 1850‑1900
+average temperature designated to represent the
+pre‑industrial level. This places 2025 as the
+third-warmest year, marginally (0.01°C) cooler than the
+second-warmest year 2023, according to ERA5.
+2025 was also the third-warmest year on record
+according to the JRA‑3Q reanalysis. The average
+temperature anomaly relative to 1850–1900 is 1.46°C
+for JRA‑3Q, with an absolute global temperature of
+14.98°C. Other centres whose global temperature
+datasets (Berkeley Eart, GISTEMPv4, HadCRUT5 and
+NOAAGlobalTempv6) are routinely monitored by C3S
+place 2025 as either the second- or the third-warmest
+year on record. These centres have 2025 between
+1.39°C (HadCRUT5) and 1.45°C (GISTEMPv4) above
+the 1850–1900 level, assuming the same offset of
+0.88°C between 1850–1900 and 1991–2020 levels as
+used for ERA5 and JRA-3Q3.
+
+3
+
+While 2025 did not reach 1.5°C above the
+pre‑industrial level, the average global temperature for
+2023–2025 exceeded 1.5°C, according to the ERA5
+dataset. This is the first three‑year average to do so in
+the instrumental period. The average for those three
+years is 1.52°C for ERA5 and 1.50°C for JRA‑3Q.
+The years 2023‑2025 stand out from all previous
+years. Therefore, 2025 will be discussed not only in the
+long‑term context, but also alongside 2023 and 2024.
+All of the past 11 years (2015–2025) rank among the
+11 warmest on record. In 2025, the monthly global
+average temperature exceeded 1.5°C above the
+pre‑industrial level during six months of the year, from
+January to April, and again in October and November.
+This concludes an almost continuous series of 21
+months at 1.5°C above the pre‑industrial level, starting
+in July 2023, with July 2024 as the sole exception.
+
+For more information on how and why global temperature datasets differ, please see “About the data and methods”.
+
+2025 | 11
+
+All monthly temperature records have been broken over
+the past three years
+Monthly global surface air temperature anomalies
+Anomaly (ºC)
+−1
+
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+
+0
+
+1980
+
+Jan 2025 | +0.79ºC
+Warmest January
+ever recorded
+
+1
+
+1990
+
+2000
+
+2010
+
+2020
+
+2025
+
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+
+Sep 2023 | +0.93ºC
+Largest monthly anomaly
+ever recorded
+Data: ERA5 • Reference period: 1991‑2020 • Credit: C3S/ECMWF
+
+Figure 4.
+
+Monthly global surface air temperature anomalies (°C) relative to 1991–2020
+from January 1979 to December 2025, plotted as a heatmap.
+Data source: ERA5. Credit: C3S/ECMWF.
+
+Globally, January 2025 was the warmest January on record. March, April and May were each the second
+warmest for the time of year. Each month of the year, except February and December, was warmer than the
+corresponding month in any year before 2023.
+Global temperatures for boreal winter (December 2024‑February 2025) and spring (March‑May) were each
+the second‑warmest for the corresponding season, after 2024: at 0.71°C, and 0.59°C respectively above the
+1991‑2020 average. Boreal summer (June‑August) and autumn (September‑November) were third warmest for
+the corresponding time of the year, cooler only than 2024 (warmest summer) and 2023 (warmest autumn).
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+12 | Global climate highlights
+
+Warmer in the
+polar regions,
+cooler in the tropics
+
+In 2025, annual surface air temperatures were above the 1991–2020 average
+across 91% of the globe, the same fraction as in 2024. Nearly half of the globe
+(48%) experienced much warmer than average annual temperatures (above the
+90th percentile of the 1991–2020 climatology4). Annual temperatures were the
+warmest over 9% of the Earth’s surface relative to all years since 1979 in the ERA5
+dataset. These proportions were 63% (much warmer than average) and 31%5
+(warmest), respectively, in 2024. While temperatures were less extreme in 2025
+than in 2024, these figures highlight the persistence of widespread warmth across
+the globe in 2025.
+
+4
+
+In the maps showing ‘temperature anomalies and extremes’, ‘warmest’ means the warmest in the dataset for its more reliable period from 1979
+onwards, ‘much warmer than average’ means warmer than the 90th percentile of the annual temperature distribution during the 1991–2020
+reference period; ‘above average’ means warmer than the 66.6th percentile; ‘near average’ means between the 33.3rd and 66.6th percentiles;
+‘below average’ means cooler than 33.3rd percentile; ‘much cooler than average’ means colder than the 10th percentile, ‘coolest’ means the
+coldest in the period from 1979 onwards.
+
+5
+
+The fractions of the globe with record‑high temperatures in 2024 reported here (for air or sea surface) are slightly lower than those quoted in
+the Global Climate Highlights 2024 . This difference arises because record highs and lows are evaluated over the full 1979–2025 period. As a
+result, some areas that were classified as record‑high in 2024 were surpassed by even higher temperatures in 2025, and are therefore no longer
+counted as record‑high for 2024 when using this longer period.
+
+2025 | 13
+
+Anomalies and extremes in surface air temperature
+
+2025
+
+2023
+
+Coolest
+
+Much cooler
+than average
+
+2024
+
+Cooler than
+average
+
+Near
+average
+
+Warmer
+Much warmer
+than average than average
+
+Warmest
+
+Data: ERA5 1979-2025 • Reference period: 1991-2020 • Credit: C3S/ECMWF
+
+Figure 5.
+
+Anomalies and extremes in surface air temperature in 2025 (large map) and in
+2023 and 2024 (smaller maps). Colour categories refer to the percentiles of the
+temperature distributions for the 1991–2020 reference period4. The extreme
+(‘coolest’ and ‘warmest’) categories are based on rankings for 1979–2025.
+Data source: ERA5. Credit: C3S/ECMWF.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+14 | Global climate highlights
+
+Land areas that were much warmer than average in
+2025 included the tropical regions of the Americas,
+northeastern Canada, large parts of Africa, the
+Maritime Continent, large parts of Europe and
+extratropical Asia, as well as most of Greenland and
+Antarctica. Annual air temperatures over land reached
+record highs over the western United States, eastern
+Greenland, northern Europe, western Russia, central
+Asia, eastern China, and Antarctica. The annual air
+temperature averaged over all global land areas was
+the second warmest on record, at 0.86°C above
+average, 0.20°C cooler than the record set in 2024
+and 0.01°C warmer than in 2023.
+Cooler‑than‑average to much cooler‑than‑average
+land regions in 2025 included eastern South America,
+parts of westernmost and southern Africa, most of
+India, parts of southeast Asia and far‑eastern Russia.
+The cooler‑than‑average air temperatures over the
+tropical Pacific reflected patterns in sea surface
+temperature (SST) associated with neutral El Niño
+Southern Oscillation (ENSO) or La Niña conditions6.
+SST conditions in 2025 are discussed in more detail in
+the Sea surface temperatures section.
+Temperature anomalies, relative to the 1991–2020
+period, averaged over five latitude bands provide
+further insight into long‑term warming trends across
+the globe, as well as notable regional differences in
+2025 compared with 2023 and 2024. All regions show
+a clear long‑term warming trend, although variability is
+larger in the Antarctic region.
+
+6
+
+In the tropics, the temperature anomaly in 2025
+(+0.29°C) was lower than in 2023 (+0.53°C) and
+2024 (+0.68°C). This reflects the persistence of
+neutral ENSO conditions or periods of weak La Niña
+throughout 2025, in contrast to the strong El Niño
+event that influenced parts of 2023 and 2024. Less
+extreme temperatures in the tropical Atlantic and
+Indian Oceans also contributed.
+In the northern mid‑latitudes, the temperature anomaly
+in 2025 (+0.84°C) was lower than in 2024 (+0.99°C)
+but identical to the value observed in 2023. Both
+2023 and 2025 ranked as the second‑highest years
+on record for this region. In contrast, temperature
+anomalies in the polar regions were notably high.
+This was particularly evident in the Antarctic region,
+where the anomaly (+1.06°C) reached a record high
+in 2025. In the Arctic, the anomaly (+1.37°C) was the
+second‑highest on record, behind 2016 (+1.59°C).
+In the southern mid‑latitudes, the temperature
+anomaly in 2025 (+0.42°C) was the same as in behind
+2016, with both years jointly ranking as the warmest on
+record for the region.
+This regional breakdown of temperature anomalies
+shows that the lower anomaly in the tropics
+reduced the global average in 2025, while record or
+near‑record warmth in most other regions partly offset
+this effect, resulting in 2025 being only 0.01°C cooler
+than 2023 globally.
+
+El Niño Southern Oscillation (ENSO) is a natural climate pattern that involves periods of warmer‑than‑average (El Niño) or cooler‑than‑average
+(La Niña) sea surface temperatures (SSTs) in the central and eastern tropical Pacific. Periods when SSTs are close to average are referred to as
+‘ENSO‑neutral’ or ‘neutral ENSO conditions’.
+
+2025 | 15
+
+2025 saw higher temperatures in the polar regions
+
+Annual surface air temperature anomalies in 2025
+
+Arctic (60ºN-90ºN)
+
+1.0ºC
+
+60ºN
+
+0.0
+−1.0
+
+20ºN
+
+Northern mid-latitudes (20ºN-60ºN)
+
+1.0ºC
+
+20ºS
+0.0
+60ºS
+
+−1.0
+
+Cooler than average
+-4ºC
+
+-2ºC
+
+Warmer than average
+-1ºC
+
++1ºC
+
++2ºC
+
++4ºC
+
+Tropics (20ºS-20ºN)
+
+1.0ºC
+0.0
+
+Global annual surface air temperature
+anomalies since 1979
+
+0.6ºC
+
+−1.0
+
+0.4
+
+Southern mid-latitudes (60ºS-20ºS)
+
+1.0ºC
+0.0
+
+0.2
+
+−1.0
+
+0.0
+
+Antarctic (90ºS-60ºS)
+
+1.0ºC
+
+−0.2
+0.0
+
+−0.4
+1980
+
+1990
+
+2000
+
+2010
+
+2020
+
+2025
+
+1980
+
+1990
+
+2000
+
+2010
+
+Data: ERA5 • Reference period: 1991-2020 • Credit: C3S/ECMWF
+
+Figure 6.
+
+(Top left) Map of annual surface air temperature anomalies in 2025.
+(Bottom left) Time series of global annual temperature anomalies from 1979 to
+2025. (Right) Time series of annual temperature anomalies averaged over five
+latitude bands from 1979 to 2025. All anomalies are calculated relative to the
+average for the 1991–2020 reference period.
+Data source: ERA5.Credit: C3S/ECMWF.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+2020 2025
+
+−1.0
+
+16 | Global climate highlights
+
+The third-warmest
+year for Europe
+
+2025 | 17
+
+For Europe, 2025 was the third‑warmest year on
+record, with an average temperature of 10.41°C,
+1.17°C above the average for the 1991‑2020 reference
+period. This was 0.30°C below the record of 2024
+(1.47°C above average) and only 0.02°C cooler
+than the value for 2020 (1.19°C above average), the
+second‑warmest year. Only one month of the year,
+March, was the warmest for Europe, with an average
+temperature of 6.03°C, 2.41°C above the 1991‑2020
+average for March, 0.26°C warmer than the previous
+warmest March in 2014.
+
+Winter 2025 (December 2024 to February 2025) was
+the joint second warmest for the season, at 1.46°C
+above the 1991‑2020 average, significantly cooler
+than the warmest European winter in 2020
+(2.84°C above average).
+For the year as a whole, temperatures were above
+average across Europe and much above average in
+most regions, with the exception of central parts of
+the continent. The eastern north Atlantic, the North
+Sea region including northern Britain and parts of
+Scandinavia, the southwestern Mediterranean, and
+westernmost Russia saw record‑warm temperatures.
+
+18 | Global climate highlights
+
+Sea surface
+temperature
+Sea surface
+temperatures
+remained high,
+despite ENSO‑neutral
+conditions
+
+2025 | 19
+
+Sea surface temperature remained high throughout 2025,
+despite the absence of El Niño conditions
+Monthly sea surface temperature anomalies relative to 1991-2020
+Global* (60ºS-60ºN)
+
+0.7°C
+0.7°C
+0.3
+0.3
+0.0
+0.0
+−0.3
+−0.3
+
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+2025
+
+Niño 3.4 region
+
+4.0°C
+4.0°C
+
+1997–98
+
+2015–16
+2023–24
+
+2.0
+2.0
+0.0
+0.0
+−2.0
+−2.0
+
+1998–2001
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+*Excluding polar region. Data source: ERA5 • Credit: C3S/ECMWF
+
+Figure 7.
+
+Monthly sea surface temperature (SST) anomalies averaged over the extra‑polar
+ocean (60°S–60°N; top) and over the Niño 3.4 region (5°N–5°S, 170°–120°W;
+bottom) in the equatorial Pacific. Anomalies are relative to the monthly averages
+for the 1991–2020 reference period for the corresponding month.
+Data source: ERA5. Credit: C3S/ECMWF.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+2025
+
+20 | Global climate highlights
+
+The sea surface temperature (SST) averaged over the
+extrapolar oceans (60°S–60°N) remained historically
+high throughout 2025, despite the absence of El Niño
+conditions. This contrasts with 2023 and 2024, when a
+strong El Niño event influenced SSTs for several months
+of the second half of 2023, peaking in December
+2023, with SSTs remaining high throughout 2024 and
+the average SST reaching record highs. The annual
+average SST for 2025 was 20.73°C, 0.38°C above the
+1991–2020 average. It ranked as the third‑highest on
+record, 0.13°C below the record set in 2024 and 0.07°C
+below 2023, the second‑highest year. This makes 2025
+the warmest La Niña year on record both in terms of
+global air temperature and SST.
+At the monthly scale, the average SST was the second
+warmest on record for the time of year from January
+to May (behind 2024), the third warmest from June
+to October (behind 2023 and 2024), and the fourth
+warmest in November and December (behind 2023,
+2024, and 2015, which was also influenced by a
+strong El Niño event). In the equatorial Pacific, SSTs
+were cooler than average early in the year, reflecting
+a short‑lived, weak La Niña event in December 2024
+and January 2025. Neutral ENSO conditions prevailed
+from March to July. Cooler‑than‑average SSTs
+developed again from August, leading to a return to
+weak La Niña conditions in October that persisted until
+the end of the year.
+
+The annual SST anomalies for 2025 show a pattern
+consistent with La Niña–like conditions, with
+near‑average to cooler‑than‑average SSTs across
+much of the eastern and central tropical Pacific. Apart
+from limited regions with cooler‑than‑average SSTs
+in the northwestern and southern Indian Ocean, the
+northeastern North Atlantic, and the southeastern
+Pacific, SSTs were above average across most of the
+world’s oceans. About 9% of the extrapolar oceans
+experienced record‑high annual SSTs, substantially
+less than in 2024 (25%4), mainly because of less
+extreme SSTs in the tropical Atlantic and Indian
+Oceans than in the previous year. In 2025, record‑high
+SSTs were mainly found in the western and
+northwestern Pacific, the Indian Ocean sector of the
+Southern Ocean, the northeastern North Atlantic and
+adjacent North Sea, Norwegian Sea and Barents Sea,
+as well as parts of the western Mediterranean Sea.
+Beyond record values, SSTs were much warmer than
+average (above the 90th percentile of the climatology)
+over 42% of the extrapolar oceans, compared to 59%
+in 2024, underscoring the continued widespread
+warmth of the surface oceans.
+A notable feature of 2025 SSTs was the record warmth
+across large parts of the western North Pacific. Several
+factors are known to have contributed to the exceptional
+warmth of the world’s oceans since 2023 (see How
+exceptional were the past three years? section
+below). At the same time, the warm SST pattern across
+the western North Pacific observed in 2025 is consistent
+with the combination of La Niña conditions and a
+negative phase of the Pacific Decadal Oscillation (PDO)
+that characterised much of the year. This combination
+is known to favour warm SST anomalies in this ocean
+basin. The high SSTs also represent the continuation
+of a marked warming of the North Pacific since around
+2013–2014, which has been linked in part to changes in
+ocean mixed‑layer depth.
+
+2025 | 21
+
+Anomalies and extremes in sea surface temperature in 2025
+
+Northeastern Atlantic
+Record-warm over
+large areas
+
+Northwestern Paciﬁc
+Mostly much warmer
+than average or record-warm
+
+Equatorial Paciﬁc
+Cooler-than-average
+reflecting ENSO-neutral or
+weak La Niña conditions
+
+Sea ice &
+ice shelves
+
+Tropical Atlantic
+and Indian Ocean
+Less extreme
+than in 2024
+
+Coolest
+
+Much cooler
+than average
+
+Cooler
+than average
+
+Near
+average
+
+Warmer
+than average
+
+Much warmer
+than average
+
+Warmest
+
+Data: ERA5 1979-2025 • Reference period: 1991-2020 • Credit: C3S/ECMWF
+
+Figure 8.
+
+Anomalies and extremes in sea surface temperature for 2025. Colour
+categories refer to the percentiles of the temperature distributions for the
+1991–2020 reference period. The extreme (‘coolest‘ and ‘warmest‘) categories
+are based on rankings for the period 1979–2025. Values are calculated only for
+the ice‑free oceans.
+Data source: ERA5. Credit: C3S/ECMWF.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+22 | Global climate highlights
+
+How exceptional
+were the past
+three years?
+
+Comparing current conditions with a
+climatology based on a moving average,
+rather than the traditional fixed 30‑year
+average, can be used to investigate
+anomalous events in a changing
+climate. Against an evolving background
+climatological state, annual anomalies are
+more easily identified.
+
+2025 | 23
+
+By how much do annual global temperatures deviate from
+evolving climatological averages?
+2024
+
++0.21ºC
+1.5°C
+
+2025
+
++0.07ºC
+
+Smoothed temperature
+Deviation from smoothed temperature
+
+1.0
+
+1944
+
+1878
+
+0.5
+
+2023–34
+El Niño
+
++0.21ºC
+
++0.33ºC
+
+1991
+Eruption of Mt Pinatubo
+0.0
+
+1973–76
+La Niña
+1877–78 1883
+El Niño Eruption of Krakatau
+−0.5
+1850
+
+1900
+
+1950
+
+2000
+
+2025
+
+Only a sample of some of the most important natural events are highlighted.
+Data: average of Berkeley Earth, ERA5, GISTEMPV4, HadCRUT5, JRA-3Q, NOAAGlobalTempv6 • Reference period: pre-industrial (1850-1900) • Credit: C3S/ECMWF
+
+Figure 9.
+
+Difference in global‑average temperature (°C) from the designated
+pre‑industrial (1850–1900) level, based on the averages of monthly values from
+up to six datasets: Berkeley Earth, HadCRUT5 and NOAAGlobalTemp
+(from 1850), GISTEMP (from 1880), ERA5 (from 1940) and JRA‑3Q
+(from September 1947). Datasets are normalised to have the same averages
+for 1991–2020 and an average offset of 0.88°C is used to relate 1991–2020
+and 1850–1900 averages. The black curve shows an estimate of the long‑term
+climatological variation of temperature (see About the data and methods).
+The red and blue bars show the deviations of annual‑average temperatures
+from this estimate. *This figure was updated on 28 January 2026 to reflect full
+availability of global datasets for 2025.
+Credit: C3S/ECMWF.
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+24 | Global climate highlights
+
+Figure 9 illustrates this approach for global‑mean
+temperatures averaged over multiple datasets. It
+shows that only two years were much warmer than
+2024 when compared to the climatological state
+at the time: 1877 and 1878. These were during the
+‘Great Drought’ of 1875 to 1878, when it is estimated
+that around 50 million people died in India, China and
+parts of Africa and South America. This period was
+characterised by both a strong El Niño in the tropical
+Pacific and unusually warm SSTs elsewhere, although
+gaps in data coverage prevent a full comparison with
+recent events.
+
+Figure 9 also shows that the warming rate of the
+background climatological state increases from the
+late 1970s to the present day. It accelerates from
+0.18°C per decade at the mid‑point of the thirty‑year
+period 1979–2008 to 0.25°C per decade at the end of
+2025. The evolving climate warms to 1.38°C above its
+1850‑1900 average by the end of 2025. The
+dataset-average temperature anomaly for 2025 is
+only 0.02C smaller than that for 2023 when measured
+relative to the 1991‑2020 average, but 0.07°C smaller
+when measured relative to the evolving climate.
+
+Aside from 1876‑78 and 1877‑79, the period
+2023‑2025 is, jointly with 1899‑1901, the warmest
+period of three consecutive years relative to the
+evolving climate. A strong El Niño occurred again in
+1899‑1900, and the period also saw a further major
+famine in India. The next two warmest three‑year
+periods occurred during the spell of extended global
+warmth that occurred from 1937 to 19457.
+
+7
+
+There is evidence that the sea surface temperature analyses for the early 1940s used here are biased warm, but surface air temperatures averaged
+only over land for 1938 and 1944 are higher than for any other year prior to 1973.
+
+2025 | 25
+
+What factors were behind the
+warmth of 2023‑2025?
+The 2023/24 El Niño was a strong but not exceptional
+example of this naturally occurring phenomenon,
+having a peak Oceanic Niño Index of 2.0°C, which is
+smaller than the peaks of the 2015–2016, 1997–1998
+and 1982–19838 events. Aside from the El Niño, a
+significant fraction of the additional warmth of the
+atmosphere in the last three years has been shown to
+originate from SSTs across oceanic regions other than
+the tropical Pacific. 2024 and 2025 were also slower to
+move from El Niño towards neutral and then weak La
+Niña conditions than is often the case.
+The last three years thus appear to be exceptionally
+warm because of two main factors. The first is
+accelerating human‑induced climate warming. This
+is partly due to a faster build‑up of greenhouse gases
+in the atmosphere, from continued emissions and
+reduced uptake of carbon dioxide by natural land
+and ocean sinks, and partly due to reduced cooling
+by aerosols, including from lower aerosol emissions
+from East Asia since 2010. Secondly, sea surface
+temperatures reached exceptionally high levels across
+the ocean, associated with an El Niño event and
+other types of ocean variability, amplified by climate
+
+8
+
+change. This includes the Pacific Decadal Oscillation
+discussed in the Sea surface temperature section .
+Other factors may also have had an influence on air
+temperatures over the last three years, either directly
+or by enhancing the SST anomalies. They include:
+▬ Atmospheric circulation anomalies – changing
+cloud amounts, air‑sea interaction and
+upper‑ocean mixing.
+▬ Lower sulphur dioxide emissions by shipping
+– warming due to an additional reduction in
+aerosols.
+▬ Reduced amounts of low‑level cloud – warming of
+the climate system from increased absorption of
+solar radiation, due in part to a weakening effect of
+aerosols on clouds
+▬ Solar cycle maximum – warming from increased
+solar energy reaching Earth.
+▬ Temperature/water‑vapour feedback – warming
+from the enhanced greenhouse effect of additional
+water vapour in the atmosphere.
+
+Warming of the global atmosphere in this case was offset by cooling due to the volcanic eruption of El Chichón.
+
+26 | Global climate highlights
+
+Sea ice
+Continuing near‑record
+sea ice lows
+in Arctic and Antarctic
+
+In the Arctic, the monthly sea ice extent began reaching record lows for the time of
+year in December 2024 and remained at record‑low levels through the first three
+months of 2025. The annual maximum in March was the lowest in the 47‑year
+satellite record. Monthly extents were less extreme from April to August, although
+they still remained well below average, ranking between second and ninth lowest
+for their respective months. At its annual minimum in September, the extent was
+further from record‑low values, ranking 13th lowest for the month (the minimum
+in daily extent ranked 14th lowest). Later in the autumn, however, the extent again
+approached historically low levels, ranking second lowest for the time of year in
+November and lowest for December.
+
+2025 | 27
+
+February 2025 saw lowest global extent of sea ice
+Daily sea ice extent in both polar region
+
+20M
+
+Sep 2025
+Antarctic 3rd lowest
+
+15M
+
+Mar 2025
+Arctic lowest
+
+Arctic
+
+10M
+
+Antarctic
+5M
+
+Sep 2025
+Arctic 13th lowest
+Feb 2025
+Antarctic 4th lowest
+
+0
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+Data in square kilometres. Dotted lines show the 1991-2020 median values, the shaded areas illustrate the value range between 1979 and 2024.
+Rankings are based on monthly sea ice extents. Data: OSI SAF Sea Ice Index v2.3 • Credit: C3S/ECMWF/EUMETSA
+
+Figure 10.
+
+Daily Arctic and Antarctic sea ice extent from 1 January 1979 to 31
+December 2025. 2025 is shown with a dark blue solid line (Arctic) and light
+blue solid line (Antarctic).
+Data source: EUMETSAT OSI SAF Sea Ice Index v2.3. Credit: C3S/ECMWF/
+EUMETSAT.
+
+Around Antarctica, 2025 began with a near‑average
+sea ice extent in January, in contrast to the record or
+near‑record lows observed through most of 2023 and
+2024. The situation changed in February, when the
+extent reached its fourth‑lowest annual minimum (the
+minimum in daily extent ranked second lowest). For the
+rest of the year, Antarctic sea ice remained well below
+average, with monthly rankings generally between
+third and fifth lowest, except in April, which ranked
+
+See the chart online.
+
+tenth lowest. The annual maximum in September was
+the third lowest in the satellite record.
+In February, the combination of record‑low
+Arctic sea ice extent for the time of year and
+much‑below‑average Antarctic extent at its annual
+minimum resulted in the lowest global sea ice cover for
+any month since the beginning of satellite observations
+in the late 1970s.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+28 | Global climate highlights
+
+A world of
+extreme events
+Extreme events in 20259 had significant impacts on human health, ecosystems and
+infrastructure. Among the most exceptional events were flooding, extreme heat,
+drought, and wildfires.
+Flash floods were caused by intense, and in some cases record, precipitation (for
+example in the USA in February, and in China, South Korea, Pakistan, the USA and
+India during boreal summer) or by glacier melting (including three glacial‑origin floods
+in May and June, in Nepal, Afghanistan and Pakistan, and two in July in Nepal).
+There was also larger‑scale flooding due to the passage of atmospheric rivers (such
+as in the Pacific Northwest in December), monsoon rainfall (in South and Southeast
+Asia during the wet seasons), large low‑pressure systems (e.g Australia in the austral
+late summer and autumn), and tropical cyclones.
+Provisional data from NOAA IBTrACS indicate that 2025 saw 103 tropical storms, of
+which 50 became tropical cyclone strength and 20 became major tropical cyclones.
+Many of these storms affected populations and infrastructure around the world.
+
+9
+
+The list of events included in this report provides some examples from across the globe, but is not exhaustive. Please refer to resources such as
+the WMO State of the Climate Update for COP30 and regional and national reporting for more detailed information.
+
+2025 | 29
+
+Among others, tropical cyclones that resulted
+in flooding around the world in 2025 included:
+Cyclone Dikeledi, Madagascar (January); Cyclone
+Zelia, Australia; Intense Tropical Cyclone Garance,
+Réunion Island and Mauritius; Tropical Cyclone
+Alfred, Australia (February); Tropical Cyclone Jude,
+Madagascar and Mozambique (March); Bay of Bengal
+tropical depression 01, Bangladesh, India, Myanmar
+(May); Tropical Storm Wutip, China, Vietnam and the
+Philippines; Hurricane Erick, Mexico; Tropical Storm
+Barry, Mexico and USA (June); Typhoon Danas,
+Philippines, Taiwan, China; Tropical Storm Chantal,
+USA (July); Hurricane Erin, Lesser Antilles (August);
+Typhoon Ragasa/Nando, southern Asia (September);
+Typhoon Halong, Japan, the Aleutians, and Alaska;
+Hurricane Melissa, the strongest tropical cyclone of
+2025 globally, the Caribbean, Bermuda and Canada
+(October); Typhoon Kalmaegi, Philippines and
+Vietnam; Typhoon Fung‑wong/Uwan, Philippines,
+Taiwan and Japan (November); Cyclone Fina,
+Australia; Cyclonic Storm Senyar, Malaysia, Indonesia
+and Thailand (November); Cyclone Ditwah, India and
+Sri Lanka (November/December).
+Europe was impacted throughout the year by a
+range of storms and precipitation events, from
+convective storms to named storms, often associated
+with flooding. Estimates suggest around 40 named
+storms occurred during 202510. Examples include
+Storm Éowyn, which hit Ireland, the UK and western
+Scandinavia in January; Storm Amy (Detlef), which
+impacted western and northern Europe; Storm
+Barbara, which brought record‑breaking rainfall
+to Romania and Greece in October, storm Claudia
+and storm Emilia, which affected western Europe in
+November and December, respectively.
+During 2025, there were numerous heatwaves, often
+breaking national or local temperature records.
+Significant heatwaves occurred across Asia, North
+America, Africa and Europe.
+
+In Asia, the regions affected during spring and summer
+included India and Pakistan, parts of Central Asia, as
+well as Japan and South Korea. North America also saw
+severe summer heatwaves. In Africa, countries in the
+Sahel saw temperatures significantly above average,
+particularly in February and early spring.
+Europe experienced multiple heatwaves from April to
+September, particularly affecting Italy, Spain, Germany,
+France, and the UK. Scandinavia and Finland also
+saw persistently above‑average temperatures in July.
+Some monthly and summer records were broken at
+local and national level, including in the UK, Ireland,
+Spain, Portugal and Türkiye. Some regions across
+the continent experienced a combination of persistent
+above‑average temperatures and marine heatwaves11.
+Several regions saw a prolonged lack of precipitation, often
+coinciding with high temperatures, including parts of North
+and South America, southern and eastern Africa, regions
+of the Mediterranean, northwestern and eastern Europe,
+the Middle East, and parts of Southeast Asia.
+Heatwaves and dry conditions, often accompanied by
+strong winds, favoured the spread and intensification of
+wildfires in several regions across the globe. According
+to Copernicus Atmosphere Monitoring Service (CAMS)
+annual review on wildfire emissions in 2025, Europe
+and North America were among the most affected
+regions. The Iberian Peninsula, Scotland, the eastern
+Mediterranean, and the Balkan region suffered from
+severe wildfires throughout the summer, leading to the
+highest annual total fire emissions in Europe12 in the past
+two decades. Extreme wildfires also persisted across
+boreal regions of North America. Canada recorded its
+second highest annual wildfire emissions, while the USA
+saw a major wildfire outbreak in California in January,
+following a wetter‑than‑usual spring and an exceptionally
+dry autumn and early winter, which resulted in an
+abundance of highly flammable vegetation. Russia’s
+far east, Syria and Australia also saw significant wildfire
+activity during their respective spring or summer seasons,
+leading to local emission records, according to CAMS.
+
+10 2025–26 European windstorm season and 2024–25_European_windstorm_season (last accessed 07/01/2026)
+11 See also the C3S web article on European summer 2025 - hot in the west and south, dry in the southeast.
+12 This definition of Europe encompasses the European Union and the UK.
+
+30 | Global climate highlights
+
+More heat stress
+than average over
+half of the globe
+
+In 2025, 50% of the globe (land areas; excluding Antarctica) experienced more days
+than average with at least strong heat stress (a feels‑like temperature of 32°C or
+above). In some regions, such as parts of southern USA and eastern Asia, there
+were up to 45 more days with at least strong heat stress than average, while central
+Africa saw up to around 110 more days with very strong heat stress (38°C or above).
+In 2025, some regions, such as most of Australia, parts of northern Africa and the
+Arabian Peninsula, saw more extreme heat stress days than average. Up to a third
+of the globe, including regions such as southern Africa and southern Asia, saw fewer
+heat stress days than average.
+
+2025 | 31
+
+Half of the globe experienced more days than average with at
+least strong heat stress in 2025
+Anomalies in the number of days
+with at least strong heat stress
+
+-75 -50 -25 -10
+
+-1
+
+0
+
++1 +10 +25 +50 +75 days
+
+Anomalies in the number of days
+with at least strong cold stress
+
+-75 -50 -25 -10
+
+-1
+
+0
+
++1 +10 +25 +50 +75 days
+
+A day with at least strong heat stress has a maximum feels-like temperature of 32°C or more, and a day with at least strong cold stress a minimum feels-like tempe‑
+rature of -13°C or below. Data: ERA5-HEAT Universal Thermal Climate Index (UTCI) • Reference period: 1991-2020 • Credit: C3S/ECMWF
+
+Figure 11.
+
+Anomalies in the number of days in 2025 with at least strong heat stress (left)
+and at least strong cold stress (right), relative to the average for the 1991–2020
+reference period. A day with at least strong heat stress has a maximum
+feels‑like temperature, based on the Universal Thermal Climate Index (UTCI),
+of 32°C or more, and a day with at least strong cold stress has a minimum
+feels‑like temperature of ‑13°C or below.
+Data source: ERA5‑HEAT. Credit: C3S/ECMWF.
+
+14% of the globe experienced more days than average with at least strong cold stress (a feels‑like temperature
+of ‑13°C or below) in 2025. This is typically up to 10 days more than average, and includes an area covering
+parts of Argentina, Uruguay and southern Brazil, where notable cold conditions occurred in late June and early
+July for example, alongside southern USA and southwestern Australia. In northwestern USA, some areas saw
+up to 25 more days with at least strong cold stress, and parts of northern USA and Canada also saw more days
+than average with very strong or extreme cold stress. Meanwhile, up to 71% of the globe saw fewer days with
+cold stress than average. Most notably, the region north of the Caspian Sea saw up to 60 fewer days with at least
+strong cold stress than average, southern Scandinavia up to 45 fewer, and Iceland and parts of the USA and
+Canada up to around 30 fewer.
+
+See the chart online.
+
+← You can explore our online graphics gallery for an interactive version and to access the data behind it.
+
+32 | Global climate highlights
+
+Long‑term
+trends in climate
+indicators
+
+2025 | 33
+
+While this report explores the climate highlights
+of 2025, the C3S ‘Climate Indicators’ provide the
+underlying context in terms of long‑term trends at
+global and regional levels in a changing climate.
+Here is a summary of some of the most relevant aspects
+from their most recent update, released as part of the
+European State of the Climate 2024.
+
+▬ In recent decades, temperatures over land have
+risen around twice as fast as those over the
+ocean.
+▬ Europe is the fastest‑warming of all the WMO
+regions, at around twice the global average.
+▬ Arctic temperatures have risen more rapidly than
+those in the rest of the globe, with an estimated
+warming of around 3°C since the 1970s.
+▬ Since the 1980s, global sea surface temperatures
+(extra‑polar ocean, 60°S–60°N) have seen an
+increase of around +0.6°C, European Seas of
+around +1.0°C, the Mediterranean Sea of around
++1.3°C
+▬ Since 2020, atmospheric concentrations of the two
+most important anthropogenic greenhouse gases,
+carbon dioxide (CO₂2) and methane (CH₄4 ₄), have
+seen an annual increase of approximately 2.4 ppm
+and 12 ppb, respectively.
+For the most recent updates on the long‑term evolution
+of additional key climate indicators, including sea level,
+ocean heat content, glacier ice, ice sheet and sea ice
+loss and greenhouse gas fluxes, please visit the C3S
+‘Climate Indicators’ dashboard.
+
+34 | Global climate highlights
+
+Paris Agreement
+targets ‑ where
+are we now
+and where are
+we going?
+
+2025 | 35
+
+Where are we now?
+By the end of 2025 the globe has warmed by about:
+
++1.4°C
+
+above the pre-industrial level
+
+This number is based on three separate methods that use C3S data and calculations following those illustrated
+in the WMO Global State of the Climate 2024
+
+When will we reach +1.5°C?
+If warming continues at the same rate as in the last 30 years, the
+globe could be at:
+approximately +1.5°C by
+
+the end of this decade
+Estimate based on the method behind the C3S global trend monitor.
+
+The UNFCCC Paris Agreement, adopted ten years
+ago, aims at “holding the increase in the global
+average temperature to well below 2°C above
+pre‑industrial levels and pursuing efforts to limit the
+temperature increase to 1.5°C above pre‑industrial
+levels”. While the Agreement does not specify exactly
+how these levels are defined, there is consensus that
+they refer to long‑term global surface temperature
+change, with the current level being typically referred
+to as ‘current global surface warming level’ and
+
+13 More detail in the About the data and methods
+
+pre‑industrial referring to the 1850‑1900 level. There
+are ongoing community efforts aiming to propose
+which methods to use to define the current global
+surface warming level and, as a consequence, how far
+we are from breaching those limits.
+A brief overview of four classes of methods under
+discussion is given by the WMO Global State of the
+Climate report for 202413.
+
+36 | Global climate highlights
+
+Where are we now?
+C3S provides regular monitoring of the ‘current global surface warming level’ using three
+methods14 . By the end of 2025, all three indicate a current global surface warming level of
+about 1.4°C above the pre‑industrial level.
+
+Where are we going?
+One year or two years seeing global surface air temperatures above 1.5°C does not mean
+that the first Paris Agreement level has been breached. However, for the first time, the latest
+three‑year average is above 1.5°C according to ERA5, highlighting that the world is getting
+closer to this level.
+A Met Office forecast issued late in 2024 correctly indicated that it was likely that
+2025 would become the third, or even second, warmest year on record globally. The
+corresponding forecast for 2026 is for a fourth consecutive year with an average
+temperature more than 1.4°C above the average for 1850‑1900, with the temperature for
+2026 likely falling below that of 2024, but close to that of 2023 and 2025.
+The WMO Global Annual to Decadal Climate Update for 2025‑2029 released in June
+2025 reported an 80% chance that at least one of these five years would replace 2024 as
+the warmest year on record, and an 86% chance that at least one of the years would, like
+2024, be more than 1.5°C above the 1850‑1900 average. It also identified a 70% chance
+that the five‑year average warming for 2025‑2029 would be more than 1.5°C above the
+1850‑1900 level.
+The C3S global trend monitor, which assumes a continuation of the rate of warming over
+the last 30 years, updated at the end of 2025, indicates a crossing of the 1.5°C level in
+2029. This estimate falls within, but in the early part of, the time interval for a possible
+breaching of the 1.5°C level given by the ‘likely’ estimate from the IPCC 1.5 degree report
+and roughly corresponds to the central estimate of the ‘early 2030s’ as assessed in the
+IPCC AR6 report.
+
+14 The three methods are: 1. The average of the last‑five years (1.38°C, see Figure Graphics Gallery), 2. the December 2025 estimate from the
+Global trend monitor (1.41°C), 3. the December 2025 estimate from the LOESS‑filter smoothing (1.38°C, see Figure 10). Note, methods 1 and
+2 are based on ERA5 only, while method 3 is a central estimate based on several datasets. There is additional uncertainty in the numbers
+associated with the definition of the pre‑industrial and with dataset spread.
+
+2025 | 37
+
+

@@ -1,0 +1,4 @@
+TCPID,Year,Month,TotalTrips,TotalWaiting,TotalVMTPeriod1,TotalVMTPeriod2,TotalVMTPeriod3,TotalVMTZEV,TotalPassengersCarried,TotalPMT,TotalWAVsAvail,TotalWAVsRequested,TotalWAVsDeclinedUnavail,TotalWAVsFulfilled
+PSG0038152,2026,7,"30,527","29,114","361,545.26","59,956.26","130,664.17","552,165.69","51,414","216,669.40",0,0,0,0
+PSG0038152,2026,8,"27,058","42,554","502,691.75","42,176.84","123,943.97","668,812.55","44,059","195,374.51",0,0,0,0
+PSG0038152,2026,9,"4,849","2,383","20,804.57","9,327.82","37,739.77","67,872.16","7,231","51,917.90",0,0,0,0

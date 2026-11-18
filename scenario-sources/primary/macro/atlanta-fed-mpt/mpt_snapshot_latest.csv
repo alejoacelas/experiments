@@ -1,0 +1,79 @@
+date,reference_start,target_range,field,value
+2026-11-16,2026-12-16,375bps - 400bps,Rate: 25th percentile,423.61
+2026-11-16,2026-12-16,375bps - 400bps,Rate: mean,429.76
+2026-11-16,2026-12-16,375bps - 400bps,Rate: mode,427.56
+2026-11-16,2026-12-16,375bps - 400bps,Rate: 75th percentile,434.33
+2026-11-16,2026-12-16,375bps - 400bps,Prob: cut,1.40
+2026-11-16,2026-12-16,375bps - 400bps,Prob: hike,97.86
+2026-11-16,2027-03-17,375bps - 400bps,Rate: 25th percentile,442.43
+2026-11-16,2027-03-17,375bps - 400bps,Rate: mean,457.99
+2026-11-16,2027-03-17,375bps - 400bps,Rate: mode,463.69
+2026-11-16,2027-03-17,375bps - 400bps,Rate: 75th percentile,479.84
+2026-11-16,2027-03-17,375bps - 400bps,Prob: cut,4.72
+2026-11-16,2027-03-17,375bps - 400bps,Prob: hike,92.26
+2026-11-16,2027-06-16,375bps - 400bps,Rate: 25th percentile,440.53
+2026-11-16,2027-06-16,375bps - 400bps,Rate: mean,472.93
+2026-11-16,2027-06-16,375bps - 400bps,Rate: mode,480.12
+2026-11-16,2027-06-16,375bps - 400bps,Rate: 75th percentile,515.39
+2026-11-16,2027-06-16,375bps - 400bps,Prob: cut,9.54
+2026-11-16,2027-06-16,375bps - 400bps,Prob: hike,86.76
+2026-11-16,2027-09-15,375bps - 400bps,Rate: 25th percentile,429.02
+2026-11-16,2027-09-15,375bps - 400bps,Rate: mean,476.82
+2026-11-16,2027-09-15,375bps - 400bps,Rate: mode,487.17
+2026-11-16,2027-09-15,375bps - 400bps,Rate: 75th percentile,534.19
+2026-11-16,2027-09-15,375bps - 400bps,Prob: cut,13.00
+2026-11-16,2027-09-15,375bps - 400bps,Prob: hike,82.67
+2026-11-16,2027-12-15,375bps - 400bps,Rate: 25th percentile,415.13
+2026-11-16,2027-12-15,375bps - 400bps,Rate: mean,473.98
+2026-11-16,2027-12-15,375bps - 400bps,Rate: mode,485.83
+2026-11-16,2027-12-15,375bps - 400bps,Rate: 75th percentile,541.51
+2026-11-16,2027-12-15,375bps - 400bps,Prob: cut,16.39
+2026-11-16,2027-12-15,375bps - 400bps,Prob: hike,78.79
+2026-11-16,2028-03-15,375bps - 400bps,Rate: 25th percentile,401.98
+2026-11-16,2028-03-15,375bps - 400bps,Rate: mean,469.13
+2026-11-16,2028-03-15,375bps - 400bps,Rate: mode,471.77
+2026-11-16,2028-03-15,375bps - 400bps,Rate: 75th percentile,543.82
+2026-11-16,2028-03-15,375bps - 400bps,Prob: cut,18.93
+2026-11-16,2028-03-15,375bps - 400bps,Prob: hike,75.52
+2026-11-16,2028-06-21,375bps - 400bps,Rate: 25th percentile,390.61
+2026-11-16,2028-06-21,375bps - 400bps,Rate: mean,465.36
+2026-11-16,2028-06-21,375bps - 400bps,Rate: mode,464.08
+2026-11-16,2028-06-21,375bps - 400bps,Rate: 75th percentile,546.51
+2026-11-16,2028-06-21,375bps - 400bps,Prob: cut,21.38
+2026-11-16,2028-06-21,375bps - 400bps,Prob: hike,72.53
+2026-11-16,2028-09-20,375bps - 400bps,Rate: 25th percentile,383.22
+2026-11-16,2028-09-20,375bps - 400bps,Rate: mean,463.24
+2026-11-16,2028-09-20,375bps - 400bps,Rate: mode,458.01
+2026-11-16,2028-09-20,375bps - 400bps,Rate: 75th percentile,550.17
+2026-11-16,2028-09-20,375bps - 400bps,Prob: cut,23.13
+2026-11-16,2028-09-20,375bps - 400bps,Prob: hike,70.71
+2026-11-16,2028-12-20,375bps - 400bps,Rate: 25th percentile,376.25
+2026-11-16,2028-12-20,375bps - 400bps,Rate: mean,460.95
+2026-11-16,2028-12-20,375bps - 400bps,Rate: mode,461.55
+2026-11-16,2028-12-20,375bps - 400bps,Rate: 75th percentile,549.99
+2026-11-16,2028-12-20,375bps - 400bps,Prob: cut,24.75
+2026-11-16,2028-12-20,375bps - 400bps,Prob: hike,69.50
+2026-11-16,2029-03-21,375bps - 400bps,Rate: 25th percentile,368.74
+2026-11-16,2029-03-21,375bps - 400bps,Rate: mean,459.49
+2026-11-16,2029-03-21,375bps - 400bps,Rate: mode,437.18
+2026-11-16,2029-03-21,375bps - 400bps,Rate: 75th percentile,548.84
+2026-11-16,2029-03-21,375bps - 400bps,Prob: cut,26.54
+2026-11-16,2029-03-21,375bps - 400bps,Prob: hike,66.48
+2026-11-16,2029-06-20,375bps - 400bps,Rate: 25th percentile,363.29
+2026-11-16,2029-06-20,375bps - 400bps,Rate: mean,458.56
+2026-11-16,2029-06-20,375bps - 400bps,Rate: mode,462.52
+2026-11-16,2029-06-20,375bps - 400bps,Rate: 75th percentile,554.74
+2026-11-16,2029-06-20,375bps - 400bps,Prob: cut,27.20
+2026-11-16,2029-06-20,375bps - 400bps,Prob: hike,67.25
+2026-11-16,2029-09-19,375bps - 400bps,Rate: 25th percentile,351.75
+2026-11-16,2029-09-19,375bps - 400bps,Rate: mean,458.70
+2026-11-16,2029-09-19,375bps - 400bps,Rate: mode,442.83
+2026-11-16,2029-09-19,375bps - 400bps,Rate: 75th percentile,561.03
+2026-11-16,2029-09-19,375bps - 400bps,Prob: cut,29.78
+2026-11-16,2029-09-19,375bps - 400bps,Prob: hike,64.17
+2026-11-16,2029-12-19,375bps - 400bps,Rate: 25th percentile,204.54
+2026-11-16,2029-12-19,375bps - 400bps,Rate: mean,458.00
+2026-11-16,2029-12-19,375bps - 400bps,Rate: mode,273.46
+2026-11-16,2029-12-19,375bps - 400bps,Rate: 75th percentile,621.35
+2026-11-16,2029-12-19,375bps - 400bps,Prob: cut,53.10
+2026-11-16,2029-12-19,375bps - 400bps,Prob: hike,43.64

@@ -1,0 +1,107 @@
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+Appendix B: FAA Forecast Accuracy
+Forecasts, by their nature, have a degree of uncertainty incorporated in them. They involve not
+only statistical analyses and various scientific methods, but also judgment and reliance on industry
+knowledge and the forecaster’s experience to incorporate industry trends not yet reflected in recent
+results. FAA’s annual Aerospace Forecast is no exception. Given the volatile nature of the U.S.
+airline industry, it is not surprising that each year’s forecast would contain a certain degree of
+forecast variance. Therefore, FAA forecasters have tried to build forecast models that give a consistent and predictable pattern of results. Analysts relying on the forecasts produced by the models
+would then be able to adjust for the predictable variance from actual results.
+The table below presents an analysis of the variance from historical results for a primary forecast
+assumption along with five key forecast metrics during the FY 2010-2019, and 2023-24 forecast
+period. Though many of the forecasts prepared for the period examined were developed while the
+U.S. airline industry was going through upheaval, FAA’s forecast methodology remained consistent during this time. Given the sudden nature of the COVID-19 pandemic and its unprecedented impacts to global aviation, forecasts developed for FY 2020-22 period were excluded from
+this analysis as inclusion of forecasts for these years might lead to inconclusive or inaccurate implications about the accuracy of FAA’s current forecast methodology.
+The table below contains the mean absolute percent errors for the projected values versus the actual
+results for U.S. carriers’ system operations along with the projected values versus actual results
+for U.S. GDP. Each metric has five values showing the relative forecast variance by the number
+of years in advance the preparation of the forecast took place. For example, the “3 Years” column
+for ASMs shows that the mean absolute percent error was 5.3 percent for ASM forecasts prepared
+3 years in advance. For the period under examination, preparation of the forecasts for FY 2010
+through FY 2019 occurred in FY 2006 through FY 2016. Forecasts for the period FY 2023 through
+FY 2024 were prepared in 2019 through 2023. 50
+
+50
+
+It should be noted that the first forecasted year for each respective fiscal year is that very same year. Therefore,
+FY 2010’s first forecasted year is FY 2010, and the third forecasted year is FY 2012.
+
+90
+
+FAA Aerospace Forecast Fiscal Years 2026–2046
+
+U.S. AIR CARRIERS
+SYSTEM SCHEDULED PASSENGER ACTIVITY
+FORECAST EVALUATION
+
+Forecast
+Variable
+
+U.S. Real GDP
+ASMs
+RPMs
+Passenger Enplanements
+Mainline Domestic Yield
+Commercial Operations at FAA/Contract Towers
+
+Mean Absolute Percent Error (Combined FY 2010-19, FY 2023-24)
+(Forecast Variance from Actual)
+Forecast Performed Years Prior to Actual
+1 Year
+2 Years
+3 Years
+4 Years
+5 Years
+1.2%
+1.0%
+0.9%
+0.7%
+2.4%
+0.8%
+
+2.6%
+2.2%
+1.8%
+1.8%
+5.3%
+2.8%
+
+4.3%
+4.9%
+4.5%
+4.3%
+9.6%
+6.8%
+
+6.2%
+8.4%
+7.4%
+7.2%
+10.7%
+9.7%
+
+7.5%
+10.4%
+9.5%
+9.2%
+9.0%
+13.0%
+
+Presenting forecast variances from actual data in such a manner simplifies a review of longer-term
+trends. Typically, one would expect the variances to increase as the forecast year moves farther
+from the year the forecast is prepared. Presenting forecast variances in this way allows an examination of changes in the relative variances by time horizon, signaling when dramatic shifts in accuracy occur.
+Examination of the forecast variances reveals several items. First, the forecast variances for GDP,
+a key exogenous variable, are similar to the variances of the key traffic measures, Passenger Enplanements and RPMs. This suggests that a substantial amount of the forecast variance for the
+traffic variables is attributable to the forecast error in the exogenous variables. Second, all the
+metrics examined have increasing variances as the forecast time horizon lengthens. Third, the
+variance between RPMs and Enplanements is relatively constant, even as the time horizon increases suggesting that over the long run, enplanement growth is a good indicator of RPM growth.
+Finally, the variance of Commercial Operations at FAA/Contract Towers relative to ASMs widens
+considerably after 2 years. This suggests that, beyond a 2-year forecast horizon, carriers are accommodating changes in capacity by means other than adjusting operations. Many carriers have
+been systematically reducing the number of smaller regional jets in their fleets, replacing them
+with larger 70-90 seat aircraft. This has allowed carriers to increase capacity without increasing
+flights.
+
+91
+
+

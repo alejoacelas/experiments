@@ -1,0 +1,1377 @@
+Insurance-Linked Securities
+Market Insights
+Edition XXXIX, February 2026
+
+2
+
+Swiss Re Insurance-Linked Securities Market Insights ﻿
+
+Table of contents
+Introduction.....................................................................................3
+Primary market performance......................................................4
+Secondary market performance.................................................9
+Insights into the Swiss Re cat bond indices...........................11
+Catastrophe events and focus on selected perils................. 13
+Focus: Los Angeles wildfires............................................. 13
+Focus: Hurricane Melissa................................................... 14
+For more information................................................................. 15
+Risk factors................................................................................... 16
+Disclaimer.................................................................................... 17
+
+3
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Introduction
+
+Introduction
+The Insurance-Linked Securities (“ILS”) market continued
+its strong growth trajectory in 2025. A notional amount of
+USD 24.7 billion was issued in 2025, the highest yearly
+volume in the history of the ILS market. Capital inflows
+throughout the year along with benign market losses have
+created an environment of high demand for ILS. Outstanding
+notional was just short of surpassing the USD 60 billion
+mark by year-end, up from approximately USD 48 billion at
+the end of 2024.
+Primary issuance again exceeded maturities, demonstrating
+a positive net cash flow into the ILS market. Compared
+with previous years, the 2025 issuance pattern remained
+front‑loaded around the first half of the year, but issuance
+continued to be active into the fourth quarter. From a risk
+perspective, Swiss Re Capital Markets (“SRCM”) observes
+a market that continued to be dominated by US wind
+exposures. 2025 also saw increased use of ILS instruments
+for secondary perils and non‑traditional risks including cyber,
+wildfire-only and severe convective storm-only cat bonds.
+While the California wildfires in January demonstrated
+the destructive potential of wildfire risks, cat bond
+
+issuance containing wildfire exposure regained traction,
+demonstrating that the market is broadening and able to
+support a variety of perils.
+During periods of macro‑financial volatility and headline
+risk from tariffs and global growth concerns, the ILS market
+once again displayed its low correlation to broader fixed
+income and equity markets. Returns for investors, as
+measured by the Swiss Re Cat Bond Total Return Index,
+demonstrated solid risk-adjusted performance. This was
+supported by high running coupons and limited direct
+loss activity affecting outstanding cat bonds, resulting in
+a return of 11.4% for the year.
+This edition of Insurance‑Linked Securities Market Insights
+reviews primary and secondary market developments
+in 2025, provides an updated view on Swiss Re’s cat bond
+indices, and examines key themes shaping the market.
+A special focus section discusses the role of parametric
+solutions – with Hurricane Melissa as a case study – and
+explores how parametric cat bonds can help address the
+protection gap for catastrophe‑exposed economies.
+
+4
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Primary market performance
+
+Primary market performance
+2025 marked yet another record year for cat bond issuance. Based on SRCM’s deal
+database, gross issuance volume reached around USD 24.7 billion, surpassing the previous
+high set in 2024. Figure 1 illustrates how the 2025 issuance curve tracked ahead of prior
+years, with particularly active issuance windows in H1 and again in late Q4.
+
+25
+
+Cumulative Notional Issued (USD Billions)
+
+Figure 1
+ILS New Issuance: Historical
+Cumulative Notional Issued
+
+24.7
+20
+
+15
+
+10
+
+5
+
+0
+Jan
+2020
+
+Feb
+2021
+
+Mar
+
+Apr
+
+2022
+
+May
+
+June
+
+2023
+
+July
+
+2024
+
+Aug
+
+Sept
+
+Oct
+
+Nov
+
+Dec
+
+2025
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+
+The strong issuance activity, combined with limited loss activity affecting outstanding
+cat bonds, translated into further growth of the market. As shown in Figure 2, total
+outstanding cat bond notional increased to nearly USD 60 billion by year‑end 2025,
+up from roughly USD 48 billion at year-end 2024. Over the five‑year period from 2020
+to 2025, the implied compound annual growth rate (“CAGR”) of the cat bond market was
+at 13.5%; over the three-year period from 2022 to 2025, the CAGR stood at 19.0%.
+This highlights the sustained structural demand for ILS capacity.
+Figure 2
+Issued vs Outstanding Notional
+Notional Outstanding (USD Billions)
+
+70
+
+13.5% CAGR (5 years)
+59.8
+
+60
+50
+
+47.8
+43.3
+
+40
+30
+20
+
+31.7
+
+33.9
+
+35.5
+
+35.1
+27.7
+
+20.4
+
+21.1
+
+11.3
+
+12.8
+
+9.4
+
+2020
+
+2021
+
+2022
+
+30.7
+
+26.1
+
+10
+0
+
+Issued
+
+15.6
+
+17.2
+
+2023
+
+2024
+
+Outstanding from previous years
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+
+24.7
+2025
+
+5
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Primary market performance
+
+Average deal size in terms of notional was in line with the sizes seen since 2019, with
+a few notable outliers like Everglades Re II (2025-1) and Merna Re, which are the largest
+catastrophe bonds ever issued to date at USD 1.525 billion and USD 1.55 billion of issued
+notional as measured by total offering size. The evolution of deal size over the years, much
+in line with previous years, is visualized in Figure 3. Observing the number of deals in the
+same chart, one can observe that market growth has primarily been driven by a higher
+number of transactions rather than an increase in average deal size.
+Figure 3
+Distribution of issued Notional per Deal
+1600
+
+100
+
+80
+
+1200
+1000
+
+60
+
+800
+40
+
+600
+400
+
+Number of deals
+
+Notional (USD Millions)
+
+1400
+
+20
+
+200
+0
+19
+97
+19
+98
+19
+99
+20
+00
+20
+01
+20
+02
+20
+03
+20
+04
+20
+05
+20
+06
+20
+07
+20
+08
+20
+09
+20
+10
+20
+11
+20
+12
+20
+13
+20
+14
+20
+15
+20
+16
+20
+17
+20
+18
+20
+19
+20
+20
+20
+21
+20
+22
+20
+23
+20
+24
+20
+25
+
+0
+Settlement
+year
+
+Deal Count
+
+Distribution of Notional
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+Note: One deal defined as all the classes issued under a given program on the same settlement date.
+
+The balance between investor capital deployed into new issuance and capital returned
+through scheduled bond maturities resulted in continued positive net cash inflows to the
+catastrophe bond market throughout 2025. Figure 4 summarizes monthly new issuance,
+maturities, and the corresponding net flows.
+After the typical pause during the North Atlantic hurricane season, new issuances
+continued to outpace maturities throughout the fourth quarter. Overall, cumulative net cash
+flow into the cat bond market remained firmly positive for the year at an estimated
+USD 12.3 billion, which was supported by an estimated USD 6 billion of coupon payments
+throughout the year and large inflows, notably within UCITS funds. This reinforced the
+growth of outstanding notional and underscores the continued attractiveness of the asset
+class for both existing and new investors.
+15
+
+Notional Issued/Matured (USD bn)
+
+Figure 4
+Net Cash Flow into Cat Bond Market
+(New Issuance and Maturities)
+
+12
+9
+6
+3
+0
+–3
+Jan
+2025
+New Issuance
+
+Feb
+2025
+
+Mar
+2025
+Maturities
+
+Apr
+2025
+
+May
+2025
+
+Jun
+2025
+
+Jul
+2025
+
+Aug
+2025
+
+Cumulative Net Cash Flow
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+
+Sep
+2025
+
+Oct
+2025
+
+Nov
+2025
+
+Dec
+2025
+
+6
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Primary market performance
+
+Consistent with recent years, 2025 saw a healthy mix of repeat issuers and first‑time
+sponsors accessing the cat bond market. The deal table in Figure 5 summarizes 2025
+first‑time sponsors, their transactions, notional size and covered perils.
+First‑time sponsors continued to come predominantly from the US property insurance
+and regional carrier segments, often seeking additional capacity and alternatives to
+traditional reinsurance. At the same time, government entities and public pools continued
+to use cat bonds as part of their disaster risk financing strategy, building on precedents
+established in earlier years.
+Figure 5
+First-Time Cat Bond Sponsors in 2025
+First Time Sponsor
+
+Deal
+
+Notional (USDm)
+
+Covered Peril
+
+Settlement Date
+
+TD Insurance
+
+MMIFS Re 2025-1
+
+105
+
+Canada Earthquake and Severe Convective Storm
+
+16 Jan 2025
+
+Flood Re
+
+Vision 2039 2025-1
+
+1821
+
+UK Flood
+
+17 Mar 2025
+
+Sutton National
+
+Greengrove Re 2025-1
+
+100
+
+US Wildfire
+
+28 Mar 2025
+
+Auros
+
+Gateway Re 2025-2
+
+150
+
+US Windstorm
+
+3 Apr 2025
+
+Utica National
+
+Genesee Street Re 2025-1
+
+150
+
+US Northeast Windstorm
+
+1 May 2025
+
+Ocean Harbor
+
+Oceanside Re 2025-1
+
+75
+
+US Northeast Windstorm
+
+8 May 2025
+
+Texas FAIR Plan
+
+Bluebonnet Re 2025-2
+
+200
+
+Texas Windstorm
+
+14 May 2025
+
+US Coastal
+
+Chartwell Re 2025-1
+
+330
+
+Florida Windstorm
+
+15 May 2025
+
+Zenkyoren/Sparkassen
+
+Liongate Re 2025
+
+100
+
+Japan Earthquake, Germany Earthquake
+
+20 May 2025
+
+Kingstone
+
+1886 Re 2025-1
+
+125
+
+US Northeast Windstorm
+
+22 May 2025
+
+Mercury
+
+Luca Re 2025-1
+
+150
+
+US Wildfire
+
+10 Jul 2025
+
+One William Street
+
+Meadows 2025-1
+
+135
+
+US Windstorm
+
+20 Nov 2025
+
+Migdal
+
+Turris Re 2025-1 A
+
+100
+
+Israel Earthquake
+
+4 Dec 2025
+
+California FAIR Plan
+
+Golden Bear Re 2026-1 A
+
+750
+
+US Wildfire
+
+16 Dec 2025
+
+Germania Insurance
+
+Handshake Re 2025-1 A
+
+100
+
+Texas Windstorm
+
+29 Dec 2025
+
+Cincinnati Insurance
+
+Skyline Re II 2025-1 A
+
+150
+
+Multiperil
+
+30 Dec 2025
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+
+The overall peril mix of 2025 issuance remained skewed towards US wind exposures, with
+approximately 43% of primary issuances having more than 90% expected loss (“EL”)
+contribution from US wind on a modeled basis, and 73% of primary issuances having some
+exposure to US wind. However, non‑US and non‑peak perils continued to gain traction.
+Figure 6 highlights the distribution of new issuance between perils in 2025. The issued
+notional of cat bonds exposed to US earthquake2 rebounded sharply in 2025, more than
+doubling year on year to USD 3.0 billion3. In relative terms, the issued notional of cat
+exposed to US earthquake nearly doubled from 6.6% in 2024 to 12.1% in 2025, as can be
+observed in Figure 7.
+
+1
+
+USD equivalent as of the date of issuance. The notional issued for Vision 2039 2025-1 was GBP 140m
+
+2
+
+EL Contribution from US earthquakes greater than or equal to 90%
+
+3
+
+Source: Swiss Re Capital Markets Deal Database as of December 31, 2025
+
+7
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Figure 6
+2025 New Issuance by Peril Group
+
+Primary market performance
+
+Notional Issued (USD millions)
+
+6000
+5000
+4000
+3000
+2000
+1000
+0
+Jan 25 Feb 25 Mar 25 Apr 25 May 25 Jun 25 Jul 25 Aug 25 Sep 25 Oct 25 Nov 25 Dec 25
+US Wind
+US WF
+
+US EQ
+
+Multiperil
+
+Other Nat Cat
+
+Cyber
+
+Life/Health
+
+Other EQ
+
+Other Wind
+
+Terror
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+Note: Category determined by EL contribution, with a threshold of 90%. I.e., bonds with an EL contribution of
+over 90% from US wind will be classified as US wind. Multiperil bonds with no US exposure are classified as
+Other Nat Cat.
+
+100%
+
+New Issuance by Peril Group (percentage)
+
+Figure 7
+New Issuance by Peril Group
+since 2020
+
+80%
+60%
+40%
+20%
+0%
+2020
+US Wind
+US WF
+
+US EQ
+
+2021
+Multiperil
+
+Other Nat Cat
+
+Cyber
+
+2022
+Life/Health
+
+2023
+Other EQ
+
+2024
+
+2025
+
+Other Wind
+
+Terror
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+Note: Category determined by EL contribution, with a threshold of 90%. I.e., bonds with an EL contribution of
+over 90% from US wind will be classified as US wind. Multiperil bonds with no US exposure are classified as
+Other Nat Cat.
+
+Risk spreads and new-issue multiples in 2025 evolved in line with supply-demand
+conditions and recent market dynamics. Throughout the year, SRCM has observed a
+continued global decrease in issued risk interest spreads and average multiple across the
+cat bond market. Large inflows, maturing capital and coupon payments provided investors
+with significant capacity to deploy into the market to support the record issuance pipeline
+and led to this spread compression which was further intensified by a bid-heavy secondary
+market until mid-Q4. Consequently, the weighted average multiple has decreased to levels
+not seen since Hurricane Ian made landfall in 2022.
+
+8
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Primary market performance
+
+Figure 8
+Weighted Average Issuance Spread, EL and Multiple
+
+Spread or Expected Loss (bps)
+
+800
+
+4
+
+600
+3
+400
+2
+
+200
+0
+
+1
+14
+H1
+
+14
+H2
+
+Average Issuance EL
+
+15
+H1
+
+15
+H2
+
+16
+H1
+
+16
+H2
+
+17
+H1
+
+Average Issuance Spread
+
+17
+H2
+
+18
+H1
+
+18
+H2
+
+19
+H1
+
+19
+H2
+
+20
+H1
+
+20
+H2
+
+21
+H1
+
+21
+H2
+
+22
+H1
+
+22
+H2
+
+23
+H1
+
+23
+H2
+
+24
+H1
+
+24
+H2
+
+25
+H1
+
+Average Deal Multiple (Spread/EL)
+
+5
+
+1000
+
+25
+H2
+
+Average Multiple
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+Note: Includes nat cat bonds only, excludes bonds covering wildfire only, 2nd event, zero coupon bonds with duration of less than 9 months, as well as select Sanders Re,
+Topanga Re, Quercus Re and Bonanza Re aggregate bonds. Average weighted by issued notional.
+
+In terms of structuring, 2025 saw continued innovation and increasing complexity in some
+transactions. Examples include more frequent use of cascading and multi‑event structures,
+higher‑frequency covers for secondary perils and aggregate structures designed to capture
+a sequence of mid‑sized events rather than a single large catastrophe. Additionally, new
+perils found their way to the cat bond market, as with Germany parametric earthquake
+sponsored by Sparkassen-Finanzgruppe, as well as with Israel earthquake sponsored by
+Migdal Insurance Company.
+In Asia, 2025 also saw important steps toward expanding cat bond protection for
+earthquake risk in China and India. Peak Re’s Black Kite Re 2025-1 transaction combined
+industry-loss coverage for Japanese earthquake and typhoon with parametric earthquake
+triggers for Mainland China and India. This marks the first time India earthquake risk has
+been included in a 144A cat bond and counts as a rare appearance for China earthquake
+risk. Taiping Re also accessed the market through its Silk Road Re notes, covering China
+earthquake and US named storms; however, the transaction reached ILS investors via a
+private Rule 4(a)(2) placement rather than the more common Rule 144A route. Together
+with continued policy debate in India on using cat bonds for major natural perils, these
+developments point to a gradual broadening of the cat bond market into Asian seismic risk.
+
+9
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Secondary market performance
+
+Secondary market performance
+Secondary market activity in 2025 alternated between extended periods of low trading
+volume and short bursts of more active turnover. For much of the year, the market remained
+“bid-heavy”, with limited offers, reflecting a sellers’ market characterised by excess
+capacity. Figure 9 (TRACE Trade Summary) illustrates how secondary turnover remained
+subdued through large parts of the year before activity picked up episodically during
+windows of primary issuance and portfolio rebalancing.
+
+Figure 9
+TRACE Trade Summary
+
+Number of TRACE Trades
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Number of trades
+Source: Trade Reporting and Compliance Engine (“TRACE”) and Bloomberg LP as of 31 December 2025
+Note: All TRACE Trades on the following dates have been excluded: 5 October 2021, 1 March 2022, 23 May 2022,
+18 July 2022, 23 January 2023, 20 June 2023, 9 April 2024, 7 May 2024, 11 June 2024, 21 August 2024,
+30 December 2024, 2 January 2025, 14 April 2025, 24 April 2025, 2 May 2025, 7 May 2025, 8 May 2025,
+16 May 2025, 27 May 2025, 5 June 2025, 23 June 2025, 30 June 2025, 8 July 2025, 18 July 2025,
+21 July 2025, 23 July 2025, 3 October 2025, 22 December 2025, 29 December 2025. In addition, trades with
+3 decimal places of precision have been excluded.
+
+Secondary spreads generally tightened over the course of 2025, consistent with the
+softening reinsurance and ILS market environment and the continued excess capital
+available to the asset class. The evolution of spreads is illustrated in Figure 10. With low
+volumes of trades for much of the year and meaningful cash building up across investor
+portfolios, secondary trading conditions largely reinforced a sellers’ market. The active
+primary issuance pipeline in Q4 allowed investors to deploy some of the excess capital
+into new issuances which led to a more active secondary market. This in turn allowed
+investors to rebalance their portfolios.
+
+10
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Figure 10
+US Windstorm, US Earthquake and
+US Multiperil Spread Progression
+
+Secondary market performance
+
+1000
+
+Spread (bps)
+
+800
+
+600
+
+400
+
+200
+
+0
+2017
+US WS BB
+
+2018
+
+US EQ BB
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Multiperil BB
+
+Source: Swiss Re Capital Markets Deal Database as of 31 December 2025
+Note: Swiss Re Cat Bond Indices are based on indicative pricing only.
+1. US EQ BB Rated Comp contains bonds with at least 1 year to maturity that have 100% exposure to
+US Earthquake (US EQ), and an EL between 16-180 bps (or with an actual BB rating, regardless of EL)
+2. US WS BB Rated Comp contains bonds with at least 1 year to maturity that have non-zero exposure to
+US Windstorm (US WS), and an EL between 16-180 bps (or with an actual BB rating, regardless of EL)
+3. Multiperil BB Rated Comp contains bonds with at least 1 year to maturity that have non-zero exposure to
+US WS and US EQ, and an EL between 16-180 bps (or with an actual BB rating, regardless of EL).
+
+11
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Insights into the Swiss Re cat bond indices
+
+Insights into the Swiss Re cat bond indices
+Swiss Re’s family of cat bond indices again showed attractive returns in 2025. The Swiss Re
+Global Cat Bond Total Return Index (“SR Cat Bond Index”) recorded another year of
+double‑digit performance at a return of 11.4% for the year. Figure 11 compares the total
+return of the cat bond index with global equities and high‑yield credit over the past five years.
+Since 2021, the SR Cat Bond Index delivered a total return of 61% with only Hurricane Ian in
+the fall of 2022 causing a significant drawback in returns over that period. The SR Cat Bond
+Index remained stable during periods of volatility in the financial market in April 2025 –
+highlighting the non-correlation with the broader market and moving in line with a benign
+US wind season.
+Figure 11
+Swiss Re Index Comparison
+
+100
+
+Return % (Index = 100)
+
+80
+60
+40
+20
+0
+–20
+2021
+
+2022
+
+Swiss Re GL Cat Bond TR
+Bloomberg US MBS TR
+
+2023
+
+S&P 500 Total Return
+
+2024
+
+2025
+
+Bloomberg US Corporate HY
+
+Source: Swiss Re Capital Markets and Bloomberg LP as of 31 December 2025
+Note: Swiss Re Global Cat Bond TR (SRGLTRR Index), Bloomberg US Corporate HY (LF98TRUU Index),
+S&P 500 TR (SPXT index), Bloomberg US MBS TR (LUMSTRUU Index). Swiss Re cat bond indices are based
+on indicative pricing only.
+
+Movements in the weighted average yield during 2025, shown in Figure 12, largely
+mirrored the evolution of investor cash positions and the resulting balance between
+buying interest and available supply, while consistently strong collateral returns provided
+an additional and stable source of performance support throughout the year.
+Figure 12
+Weighted Average Yield/Spread/
+MMY of the Swiss Re Global Cat Bond
+Total Return Index
+
+2000
+
+Basis Points
+
+1500
+
+1000
+
+500
+
+0
+2020
+Weighted Avg. EL
+
+2021
+Weighted Avg. Spread
+
+2022
+
+2023
+
+Weighted Avg. MMY
+
+2024
+
+2025
+
+Weighted Avg. Yield
+
+Source: Swiss Re Capital Markets as of 31 December 2025
+Note: Swiss Re cat bond indices contain only nat cat, interest-bearing bonds. Zero-coupon and non-nat cat bonds
+are excluded (e.g. Life/Health, Cyber). Seasonally-adjusted spread used. Bonds with seasonally-adjusted bid spread
+increases of 250% or greater from issuance have been excluded.
+
+12 Swiss Re Insurance-Linked Securities Market Insights 
+
+Insights into the Swiss Re cat bond indices
+
+Relative‑value metrics also remained compelling. As shown in Figure 13 (Relative Value
+Indices), average secondary spreads for US wind‑exposed cat bonds in BB and B risk
+buckets continued to trade at a substantial premium to the BofA Merrill Lynch US High Yield
+indices, despite the structural diversification benefits of catastrophe risk. This spread
+premium is a key component of the asset class’s value proposition for fixed income
+investors.
+Figure 13
+Relative Value Indices:
+Swiss Re Composite
+
+1500
+
+1200
+
+Spread (bps)
+
+900
+
+600
+
+300
+
+0
+2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+US WS B
+
+US WS BB
+
+BAML B
+
+BAML BB
+
+Source: Swiss Re Capital Markets, as of 31 December 2025; Bank of America Merrill Lynch US High Yield B
+and BB Indices
+Notes:
+1. Swiss Re Capital Markets pricing indications only. Average seasonally adjusted spread used.
+2. USWS B Rated Comp contains bonds with at least 1 year to maturity that have non-zero exposure to
+US Windstorm (US WS) and an EL between 181-375 bps (or with an actual B rating, regardless of EL )
+3. USWS BB Rated Comp contains bonds with at least 1 year to maturity that have non-zero exposure to
+US Windstorm (US WS) and an EL between 16-180 bps (or with an actual BB rating, regardless of EL )
+4. BofA Merrill Lynch High Yield Option Adjusted Spread via the Federal Reserve Bank of St. Louis website
+5. Bonds with interest spread movement since issuance of greater than 200% or less than or equal to -100%
+have been excluded.
+6. Non-natural catastrophe bonds have been excluded. Bonds with 90% or greater contribution to EL from
+wildfire have been excluded. Sanders Re aggregate bonds have been excluded.
+7. Bonanza Re 2020-2 B, 2021-1 B, 2023-1 B; Topanga Re 2021-1 B; Herbie Re 2020-1 A; Everglades Re
+2023-1 A, 2023-2 A; Wrigley Re 2023-1 B; Aragonite Re 2024-1 A; have all been excluded.
+
+13
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Catastrophe events and focus on selected perils
+
+Catastrophe events and focus on selected perils
+The 2025 catastrophe year was active across several peril regions, though overall insured
+losses remained lower than early forecasts had suggested. Globally, 2025 marked the sixth
+consecutive year in which insured natural catastrophe losses exceeded USD 100 billion1,
+driven largely by a high frequency of medium-sized events, including severe convective
+storms and wildfires, rather than by a concentration of major peak-peril catastrophes. In the
+North Atlantic, the hurricane season produced four major hurricanes but ultimately proved
+less impactful than anticipated, with no US landfalling hurricanes as several intense
+systems recurved or weakened before reaching populated areas.
+Against this backdrop of moderate peak-peril loss activity, two developments stood out
+for the ILS market: Hurricane Melissa, which provided a real-world test of the efficiency
+and reliability of parametric catastrophe bonds, and the US wildfire season, which led to
+increased scrutiny of wildfire risk across modelling, structuring, and risk assessment. This
+heightened focus ultimately proved supportive for the market, with substantial capacity
+deployed into wildfire-exposed catastrophe bonds, including the largest wildfire-only cat
+bond to date through the Golden Bear transaction for the California FAIR Plan. Together,
+these developments helped shape investor sentiment and structuring considerations,
+setting the stage for the thematic discussions that follow.
+
+Focus: Los Angeles wildfires
+One of the defining themes of the 2025 cat bond market was the rapid expansion of
+coverage for wildfire risk, alongside traditional peak perils. In 2025, the market issued
+more wildfire-exposed cat bonds than ever before. Investor appetite for wildfire risk
+appeared driven by a confluence of factors: improved wildfire modelling, refined contracts
+and structures.
+The Palisades and Eaton wildfires have not triggered outstanding US wildfire cat bonds
+paying out on a per-occurrence basis, but they contributed significantly to a number of
+aggregate structures. Somewhat counterintuitively, both wildfire events significantly
+increased investor confidence into wildfire cat bonds. Indeed, these events served as a
+real-world stress test for outstanding cat bond structures. Importantly, the subsequent
+major update in wildfire modelling reflected work that had already been in progress at
+modelling agents, with the rollout aligning in timing with the wildfire season rather than
+being directly triggered by it. In parallel, primary rate increases and underwriting tightening
+were already progressing ahead of the wildfire events. Combined, these dynamics helped
+support issuance conditions for wildfire-exposed cat bonds, even as the insurance and
+reinsurance sector absorbed significant losses.2
+
+1
+
+Swiss Re Institute, 2025 marks sixth year insured natural catastrophe losses exceed USD 100 billion,
+finds Swiss Re Institute | Swiss Re
+
+2
+
+Source: Swiss Re Institute, sigma 5/2025
+
+14 Swiss Re Insurance-Linked Securities Market Insights 
+
+Catastrophe events and focus on selected perils
+
+Focus: Hurricane Melissa
+Hurricane Melissa offered a real-world demonstration of how parametric catastrophe
+bonds can deliver rapid liquidity after a major disaster. Melissa made landfall in Jamaica
+on 28 October 2025 as a Category 5 hurricane. With winds near 185 mph (298 km/h),
+it was one of the strongest storms on record in the Atlantic basin, causing catastrophic
+damage from wind, flooding and landslides.1
+Hurricane Melissa underscored the vulnerability of disaster-exposed economies with
+low insurance penetration and constrained public finances. With physical damages
+approaching USD 9 billion2 and insured losses covering only a fraction of the total, the
+protection gap remains large. Public infrastructure—roads, bridges, utilities, public
+buildings—plays a central role in economic continuity yet is rarely insured against
+catastrophic events.
+Jamaica’s sovereign risk transfer program included the IBRD CAR 136 Jamaica 2024
+parametric catastrophe bond, issued via the International Bank for Reconstruction and
+Development’s Capital-at-Risk Notes program. The USD 150 million bond provided
+tropical cyclone protection and was designed to trigger based on pre-defined atmospheric
+pressure levels.3
+Following Melissa’s landfall, a designated third-party calculation agent applied the agreed
+calculation procedures using storm parameters reported by the National Hurricane Center
+(NHC), with the trigger determination based on the NHC’s ATCF “B-deck” best-estimate
+track data. Using B-deck values enabled formal confirmation within days, rather than
+relying on the National Hurricane Center’s final Tropical Cyclone Report, which some
+earlier parametric wind bonds used as the definitive event data and which can take
+months to be released. The calculations confirmed a full 100% payout of principal, and
+on 7 November 2025 the World Bank announced that Jamaica would receive the full
+USD 150 million payout, the maximum available under the structure.
+This expedited response demonstrates one of the core advantages of parametric financing
+mechanisms: funds can be released within weeks rather than the months or years required
+for indemnity-based loss assessment processes.
+
+1
+
+Source: Swiss Re Institute, sigma 5/2025
+
+2
+
+Source: World Bank, IDB, Estimate Hurricane Melissa Damage to Jamaica Totals All-Time-High of US$8.8 billion
+
+3
+
+Source: Case-Study-Jamaica-2024-Cat-Bond.pdf
+
+15 Swiss Re Insurance-Linked Securities Market Insights 
+
+For more information
+
+For more information
+Specialists throughout Swiss Re Capital Markets are available for consultation on bespoke ILS solutions,
+and they invite a dialogue on the subject with sponsors and investors alike. For more information,
+please contact the person in your region listed below.
+
+Head of Insurance-Linked
+Securities
+
+ILS Sales and
+Distribution
+
+ILS Origination
+and Structuring
+
+Jean-Louis Monnier
+Swiss Re Capital Markets Corp
+New York
++1 212 317 5346
+JeanLouis_Monnier@swissre.com
+
+Len Zaccagnino
+Head of Global ILS Sales
+Swiss Re Capital Markets Corp
+New York
++1 212 317 5379
+Len_Zaccagnino@swissre.com
+
+Andy Palmer
+Head of ILS Structuring EMEA & APAC
+Swiss Re Capital Markets Ltd
+London
++44 20 7933 4151
+Andy_Palmer@swissre.com
+
+Charlotte Bierman-Dyk
+ILS Sales Specialist
+Swiss Re Capital Markets Europe
+Munich
++49 89 38441084
+Charlotte_BiermanDyk@swissre.com
+
+Edward Barton
+Head of ILS Structuring Americas
+Swiss Re Capital Markets Corp
+New York
++1 212 317 5302
+Edward_Barton@swissre.com
+
+Vincent Bernas
+ILS Sales Specialist
+Swiss Re Capital Markets Ltd
+London
++44 20 7933 4184
+Vincent_Bernas@swissre.com
+
+Paul Byeon
+Lead ILS Structurer
+Swiss Re Capital Markets Corp
+New York
++1 212 317 5090
+Paul_Byeon@swissre.com
+
+16 Swiss Re Insurance-Linked Securities Market Insights 
+
+Risk factors
+
+Risk factors
+• An investment in Insurance-Linked Securities involves potentially significant risks for an
+investor, including but not limited to the following:
+• Investors may lose all or a portion of their investment in Insurance-Linked Securities if a
+natural catastrophe or other event triggers a payment by an issuer of Insurance-Linked
+Securities under the underlying risk-transfer agreement to which such Insurance-Linked
+Securities relate.
+• Maturities of Insurance-Linked Securities may be extended without the prior consent of
+the investor.
+• Insurance-Linked Securities may be redeemed before their maturity date (including
+before any extension of such maturity date by the issuer).
+• If Insurance-Linked Securities are redeemed before maturity, the interest rate payable to
+investors under the Insurance-Linked Securities will be reduced.
+• Investors have limited recourse to assets of an issuer of Insurance-Linked Securities and
+no recourse to assets of the counterparties to the underlying risk-transfer agreements to
+which such Insurance-Linked Securities relate.
+• If an issuer of Insurance-Linked Securities becomes insolvent, investors may lose some or
+all of their investment.
+• Investors may be required to consolidate an issuer of Insurance-Linked Securities for
+accounting purposes under certain circumstances.
+• An investment in Insurance-Linked Securities may have adverse tax consequences for
+investors.
+• Any claim you have against an issuer of Insurance-Linked Securities in the event of the
+issuer’s insolvency will be junior to any claim of a counterparty to the underlying risktransfer agreements to which such Insurance-Linked Securities relate.
+• Enforcement of security interests granted to a trustee of Insurance-Linked Securities for
+the benefit of the investors may be limited.
+• A secondary market for Insurance-Linked Securities may have limited liquidity or may not
+even exist, and the market and market price of Insurance-Linked Securities in any
+secondary market may be highly volatile.
+• Rating Agencies (if any) may change any rating assigned to Insurance-Linked Securities.
+Any credit rating given in respect of Insurance-Linked Securities may not reflect the
+potential impact of all risks related to such Insurance-Linked Securities. A credit rating is
+not a recommendation to buy, sell or hold any Insurance-Linked Securities and may be
+revised or withdrawn by the applicable rating agency at any time. These and other risk
+factors relating to an investment in Insurance-Linked Securities are set out in detail in the
+offering materials for the relevant Insurance-Linked Securities. Potential investors should
+consult this information when considering any investment activity.
+
+17
+
+Swiss Re Insurance-Linked Securities Market Insights 
+
+Disclaimer
+
+Disclaimer
+[This information is issued by Swiss Re Capital Markets Corporation (“SRCMC”), Swiss Re Capital Markets Limited (“SRCML”) and Swiss Re Capital Markets Europe S.A.
+(“SRCME”), (together, “SRCM”). This communication shall not constitute an offer to sell or the solicitation of an offer to buy, nor shall there be any sale of the securities in any
+state or jurisdiction in which such an offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction.
+SRCMC is a member of the Financial Industry Regulatory Authority (“FINRA”) and the Securities Investor Protection Corporation (“SIPC”) and is regulated by the FINRA. SRCML
+(Financial Services Register Number 187863) of 30 St Mary Axe, London, EC3A 8EP, is a company authorized and regulated in the conduct of its investment business in the UK
+by the Financial Conduct Authority (“FCA”) and entered in the Financial Services Register. SRCML is registered as a foreign company in Australia with the Australian Securities &
+Investments Commission (ARBN 166 095 567). SRCML is exempt from the requirement under the Corporations Act 2001 (Cth) (the “Act”) to hold an Australian Financial
+Services Licence in respect of any financial services provided to you. SRCML is regulated by the FCA under the laws of the UK, which laws differ from Australian laws. In
+addition, for the purposes of sections 925A(3) and 925A(4) of the Act, SRCML is informing you that it does not hold, and has never held, an Australian Financial Services
+Licence. This material is intended for Australian wholesale clients only (as that term is defined in section 761G of the Act) and is not intended for distribution to, nor should it be
+relied upon by, retail clients. SRCME, having its registered office at 2, rue Edward Steichen, L-2540 Luxembourg, is a company registered with the Luxembourg Trade and
+Companies Register under number B228476 and is supervised by the Commission de Surveillance du Secteur Financier (“CSSF”) and the Commissariat aux Assurances
+(“CAA”). SRCME operates a branch in Germany that is registered in the German Commercial Register (Handelsregister) under number HRB 294913. SRCME German branch is
+required to comply with applicable German regulations for branches of foreign financial institutions, including anti-money laundering (AML) obligations. Persons dealing with
+SRCML outside the United Kingdom are not covered by all the rules and regulations made for the protection of investors in the United Kingdom and may not have the right to
+claim through the United Kingdom’s Financial Services Compensation Scheme. The FCA’s website (http://www.fca.org.uk/), The CSSF’s website (http://www.cssf.lu) and the
+German Federal Financial Supervisory Authority’s website (http://www.bafin.de) each contain a wide range of information of specific relevance to United Kingdom, Germany
+and Luxembourg clients, respectively, and provide access to the Financial Services Register and the register of supervised entities in Luxembourg and Germany, respectively.
+The information found on such websites are not a part of this communication, and any reference to any such website is intended to be a textual reference only and is not
+intended to create any hyperlink text. This information is not intended for retail clients; it is only intended for eligible counterparties or, in the case of persons based in the USA,
+institutional investors. Persons who receive this communication who are not eligible counterparties or, in the case of persons based in the USA, institutional investors, should
+not rely, reply or act upon its contents. This material has been delivered to you on the basis that you are a person into whose possession this material may be lawfully delivered in
+accordance with the laws of the jurisdiction in which you are located or other applicable jurisdictions and you may not, nor are you authorized to, deliver this material to any
+other person. The information is confidential and proprietary to us and is solely for your use. By receipt of this information, you acknowledge and agree that the information
+contained herein may not be reproduced or circulated without our written permission and may not be distributed in any jurisdiction where such distribution is restricted by law
+or regulation. SRCM is providing these materials solely for the purpose of providing information that may be useful in analyzing the markets and products discussed herein;
+however, the information should not be construed as legal, tax or investment advice nor interpreted as recommending any investment in any particular product, instrument or
+security and should not be relied on as the sole source of information upon which to base an investment decision. Neither SRCM nor any of its affiliates can accept responsibility
+for the tax treatment of any investment product, whether or not the investment is purchased by a trust or company administered by SRCM or an affiliate. SRCM assumes that,
+before making a commitment to invest, the investor (and where applicable) its beneficial owners have taken whatever tax, legal or other advice the investors/beneficial owners
+consider necessary and have arranged to account for any tax lawfully due on the income or gains arising from any investment product provided by SRCM. No representation is
+given to any investor regarding the legality of an investment or service. Unless otherwise agreed in writing, SRCM is not acting as your financial adviser or fiduciary. You should
+consult with your own advisors as to such matters. Transactions involving securities and financial instruments mentioned herein may not be suitable for all investors. As an
+eligible counterparty or institutional investor, you are deemed to have the necessary level of experience and knowledge to understand the risks involved in products referred to
+herein, so that SRCM is not required to assess whether the product is appropriate for you. You should consult with your own advisors as to the suitability of such securities or
+other financial instruments for your particular circumstances. Nothing in these materials constitutes a commitment by SRCM or any of their respective affiliates to enter into any
+transaction. No assurance can be given that any transaction mentioned herein could in fact be executed. The information contained in these materials was obtained from
+sources believed to be reliable and any discussions reflect the views and judgment (including illustrations, estimates, opinions, forecasts and projections), of the party or parties
+that prepared it as of the date hereof, and is subject to change. No representation is made as to the accuracy or completeness of such information or that all assumptions relating
+to them have been considered or stated or that such projections or returns will be realized. Except where otherwise sourced the document includes information from the
+Swiss Re Capital Markets Deal Database. The Swiss Re Capital Markets Deal Database compiles information from available sources and may be used to present market data in
+this report. The returns or performance results may be lower than estimated herein. Indices referenced in this communication are not illustrative of the performance of any
+particular security or investment strategy. Any opinions expressed in this material are subject to change without notice and SRCM is not under any obligation to update or keep
+current the information contained herein. Certain statements contained herein constitute “forward-looking statements.” These forward-looking statements are based upon
+certain assumptions which may not be stated herein and assumptions which are inherently uncertain and unpredictable. Actual events may differ from those assumed. All
+forward-looking statements included herein are based on information available on the date hereof and none of SRCM and its respective affiliates assume any duty to update any
+forward-looking statement. Accordingly, there can be no assurance that estimated returns or projections can be realized, the forward-looking statements will materialize or that
+actual results will not be materially different than those presented. Past performance does not guarantee future results. Prospective investors should understand such
+assumptions and evaluate whether they are appropriate for their purposes. These materials may also contain historical market data; however, historical market trends are not
+reliable indicators of future market behaviour. All market prices, data and other information are not warranted as to completeness or accuracy and are subject to change without
+notice. You hereby unconditionally agree that SRCM is not responsible to you for any of the information or content herein and that any use you make of this information is your
+own responsibility and at your own risk. To the maximum extent permitted by law, none of SRCM or its affiliates accepts responsibility for any errors in or omissions from these
+materials, whether arising out of negligence or otherwise, or for any loss or damage, howsoever arising, that you may suffer as a result of the information or proposals contained
+within these materials, including without limitation the correctness, quality, timeliness, pricing, reliability, performance, adequacy, accuracy, completeness or reasonableness of
+the information contained herein. Certain aspects of this presentation may give rise to perceived or actual conflicts of interest (i) between you and us and/or (ii) among you, us
+and other third parties. Such conflicts may arise from other business activities customarily conducted by other areas of our firms with you or with other clients. Such activities
+may include, but are not limited to, reinsurance, sales, trading, investment banking and research activities. Execution of any transaction contemplated in this presentation may
+involve other affiliates of SRCM and may result in perceived or actual self dealing intended to generate revenue for any of our respective firms.
+
+Swiss Re
+1301 Avenue of the Americas
+New York, NY 10019
+Visit us at www.swissre.com
+
+Title:
+Insurance-Linked Securities Market Insights
+Edition XXXIX, February 2026
+Contributors:
+Charles Metz, Vincent Bernas, Timothy Mallor,
+Charlotte Bierman-Dyk, and Len Zaccagnino
+Graphic design:
+Corporate Real Estate & Services
+Media Services, Zurich
+© 2026 Swiss Re. All rights reserved.
+
+

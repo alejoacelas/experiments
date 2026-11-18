@@ -1,0 +1,1193 @@
+Semiconductor Fabrication Facilities Funded
+by the CHIPS Act: Project Status and
+Considerations for Congress
+July 14, 2026
+
+Congressional Research Service
+https://crsreports.congress.gov
+R49031
+
+SUMMARY
+
+Semiconductor Fabrication Facilities Funded by
+the CHIPS Act: Project Status and
+Considerations for Congress
+Integrated circuits on silicon semiconductors—commonly called semiconductor microchips or
+“chips”—are components in electronic devices that perform functions such as data processing
+and storage. These chips are essential inputs for many industries, including advanced technology
+and defense applications.
+
+R49031
+July 14, 2026
+Yong W. Kwon
+Analyst in Industrial
+Organization and Business
+Policy
+
+Congress has passed legislation to bolster the semiconductor industry in the United States. Legislation included the Creating
+Helpful Incentives to Produce Semiconductors and Science Act of 2022 (CHIPS Act; P.L. 117-167, Division A), which
+appropriated $39 billion for an incentives program to support companies to build or expand commercial semiconductor
+fabrication facilities (fabs) that manufacture chips or inputs for chip production. The CHIPS Act aimed to increase chip
+manufacturing capacity in the United States, address supply chain vulnerabilities, and improve the competitiveness of the
+semiconductor and technology industries. In addition, some Members of Congress sought to improve national security by
+ensuring the domestic production of chips employed in weapons systems.
+The U.S. Department of Commerce (DOC) oversees the CHIPS Act incentives program, which offers financial assistance in
+the forms of direct funding, loans, and loan guarantees to eligible entities. By January 2025, DOC had funded 19
+semiconductor companies with $30.7 billion in awards and $5.5 billion in loans for 40 commercial semiconductor fab
+projects. In addition, 12 companies signed preliminary agreements with the National Institute of Standards and Technology
+(NIST, part of DOC) for 18 projects, with final awards dependent on DOC’s satisfactory due diligence reviews of their
+project proposals. As of June 2026, public records do not indicate whether these 12 companies have received final awards.
+In March 2025, President Trump stated his intention to renegotiate award agreements with funding recipients. Subsequently,
+two awardees, Micron and Taiwan Semiconductor Manufacturing Corporation, separately announced plans to increase the
+total capital expenditure of their projects being funded with the federal award. The total award amount for Micron was
+revised to include an additional $275 million after its announcement. Another award recipient, Intel, provided the U.S.
+government with its equity in exchange for a direct funding award. As of July 2026, other award recipients have not publicly
+announced changes to their total capital expenditure or awards.
+Before DOC began announcing final awards in the second half of 2024, some companies had postponed the expected start or
+completion of their projects. Some companies cited uncertainties around federal funding as their reason for postponement;
+others attributed their delay to concerns about the lack of skilled workers who could build and equip commercial
+semiconductor fabs. Customer demand also appeared to shape some projects’ timelines. In addition, challenges relating to
+mitigation planning for the potential environmental effects of the construction and operation of the award-funded fabs may
+have contributed to schedule changes.
+Congress may look to evaluate implementation progress to date and weigh policy options regarding the incentives program’s
+future. FY2026 is the final year for which DOC is to receive CHIPS Act funding for incentivizing the domestic production of
+semiconductors. Further, the 35% investment tax credit for capital expenses associated with the production of
+semiconductors and equipment for manufacturing semiconductors is available only to projects that begin fab construction
+before December 31, 2026. Congress may consider whether to extend additional public resources for commercial fabs built
+or expanded under the incentives program beyond FY2026.
+Either in conjunction with or as an alternative to providing additional appropriations, Congress might consider whether and,
+if so, how it might address challenges that have emerged during the implementation of the CHIPS Act incentives program.
+Congress may require DOC to report more frequently on the status of award negotiations and due diligence reviews of
+applicants awaiting an award. Congress may choose to change the criteria for funding eligibility to accelerate the review
+process. Congress may ask DOC to study the efficacy of funded programs to develop the semiconductor industry workforce.
+Congress also may choose whether to prioritize legacy chips used in less advanced applications to address market demands.
+
+Congressional Research Service
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Contents
+Introduction ..................................................................................................................................... 1
+Legislative Context.......................................................................................................................... 2
+CHIPS Incentives Program Implementation ................................................................................... 3
+Selected Factors Shaping Project Schedules ................................................................................... 7
+Federal Funding Availability ..................................................................................................... 7
+Labor Availability...................................................................................................................... 8
+Customer Demand ..................................................................................................................... 9
+Environmental Review ............................................................................................................ 10
+Considerations for Congress...........................................................................................................11
+Award Requirements ............................................................................................................... 12
+Workforce Development ......................................................................................................... 13
+Mature-Node Chip Production ................................................................................................ 14
+Conclusion ..................................................................................................................................... 15
+
+Tables
+Table A-1. Companies with Final Awards from the Semiconductor Incentives Program for
+Commercial Fabs........................................................................................................................ 16
+Table A-2. Companies with Preliminary Memorandum of Terms (PMT) from the
+Semiconductor Incentives Program for Commercial Fabs without a Final Award .................... 17
+
+Appendixes
+Appendix. Companies Awarded or Considered Under the CHIPS Incentives Program for
+Commercial Fabrication Facilities ............................................................................................. 16
+
+Contacts
+Author Information........................................................................................................................ 18
+
+Congressional Research Service
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Introduction
+Integrated circuits on silicon semiconductors—commonly called semiconductor microchips or
+“chips”—are components in electronic devices that perform functions such as data processing and
+storage. These products are essential inputs for many industries, including advanced technology
+(e.g., robotics) and defense applications (e.g., vehicle and missile guidance systems).
+Chip manufacturing begins with design, raw materials acquisition, and silicon wafer production.
+Semiconductor fabrication facilities (fabs) place microelectronic components, such as transistors,
+on the silicon wafers. The wafers are cut into individual dies and tested for performance. The dies
+are then encapsulated or packaged so that they can interact with the devices they are intended to
+serve. This packaged product is referred to as a chip. Each stage of production relies on
+equipment and materials sourced from various locations.1 Many fabs specialize in different stages
+of production, and unfinished chips are often shipped across national borders between fabs.
+U.S. companies play a leading role in many of the early stages of chip production, including chip
+design and the manufacture of equipment used in fabs. The U.S. semiconductor industry faces
+growing competition in the later stages of chip production. For example, the share of the global
+chip fabrication capacity in the United States has declined from around 37% in 1990 to
+approximately 10% in 2022.2 In the same period, some economies in East Asia, such as Taiwan
+and South Korea, hosted a significant share of new chip fabrication capacity. This development
+has led some U.S. industry stakeholders to express concerns about supply chain risks and cost
+disadvantages for U.S. chip users.3
+Congress has passed legislation intended to promote growth in domestic chip manufacturing
+capacity and to support semiconductor technology research and development. In particular, the
+Creating Helpful Incentives to Produce Semiconductors and Science Act of 2022 (CHIPS Act;
+P.L. 117-167, Division A) appropriated $50 billion to the CHIPS for America Fund. The act
+authorized the Secretary of Commerce to use $39 billion from this fund through FY2026 to
+incentivize semiconductor companies to develop domestic chip manufacturing capabilities.
+Congress may continue to weigh policies designed to increase domestic chip production capacity
+in light of continued stress in the chip supply chain and the expiration of appropriations from the
+CHIPS Act to the U.S. Department of Commerce (DOC) at the end of FY2026.4
+This report outlines the implementation of the semiconductor manufacturing incentives program
+funded by the CHIPS Act and reviews selected factors that have reportedly affected the speed of
+expanding domestic chip manufacturing capacity. In addition, this report discusses selected
+
+1 Akhil Thadani and Gregory Allen, “Mapping the Semiconductor Supply Chain: The Critical Role of the Indo-Pacific
+
+Region,” May 30, 2023, https://www.csis.org/analysis/mapping-semiconductor-supply-chain-critical-role-indo-pacificregion. See also CRS Infographic IG10073, Taiwan’s Role in Global Semiconductor Supply Chains, by Karen M.
+Sutter.
+2 Semiconductor Industry Association (SIA), 2025 State of the U.S. Semiconductor Industry,
+https://www.semiconductors.org/2025-state-of-the-u-s-semiconductor-industry/.
+3 For example, see John Drake and Jordan Crenshaw, “Congress Must Fund Semiconductor Legislation to Bolster
+Innovation and Supply Chains,” U.S. Chamber of Commerce, November 22, 2021, https://www.uschamber.com/
+security/congress-must-fund-semiconductor-legislation-to-bolster-innovation-and-supply-chains.
+4 David Park, “Legacy Process Nodes Are Critical To Many Industries,” Semiconductor Engineering, September 19,
+2024, https://semiengineering.com/legacy-process-nodes-are-critical-to-many-industries/; and Arjun Kharpal, “Memory
+chip shortage to last through 2027, semiconductor boss says,” CNBC, January 26, 2026, https://www.cnbc.com/2026/
+01/26/memory-chip-shortage-synopsys-lenovo-ai-data-centers.html.
+
+Congressional Research Service
+
+1
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+challenges facing the domestic semiconductor industry and policy options for Congress’s
+consideration.
+
+Legislative Context
+Throughout 2021, some Members of Congress raised concerns about the U.S. semiconductor
+industry or industries where semiconductor chips are key inputs for final products. These
+concerns ranged from the loss of industrial and technological competitiveness—particularly in
+relation to China—to inadequate domestic manufacturing capability to meet domestic security
+needs.5 Some Members of Congress also pointed to difficulties with semiconductor chip
+importation due to the COVID-19 pandemic as a vulnerability.6
+Since the 116th Congress, Congress has passed several laws to support the expansion of domestic
+semiconductor production capacity. For example, Section 9902 of the William M. (Mac)
+Thornberry National Defense Authorization Act for Fiscal Year 2021 (FY2021 NDAA; P.L. 116283) authorized the Secretary of Commerce to provide financial assistance to “incentivize
+investment in facilities and equipment in the United States for semiconductor fabrication,
+assembly, testing, advanced packaging, or research and development.”7 The FY2021 NDAA
+authorized related funding in various forms, including grants, cooperative agreements, loans, and
+loan guarantees. One provision in the FY2021 NDAA authorized the Secretary of Commerce to
+award these resources in pursuit of the “national security and economic competitiveness of the
+United States.”8 In addition, the law authorized the Secretary to fund activities that support
+semiconductor industry workforce development and to pay “reasonable costs” for expenses
+relating to the operation of a semiconductor facility.
+Subsequently, Congress passed and President Biden signed into law the CHIPS Act (P.L. 117-167,
+Division A) on August 9, 2022.9 The CHIPS Act appropriated $39 billion through FY2026 for the
+incentives program authorized in Section 9902 of the FY2021 NDAA. The CHIPS Act specified
+amounts to be made available in each fiscal year and authorized the Secretary of Commerce to
+designate up to $6 billion of the $39 billion as direct loans or loan guarantees for eligible
+
+5 House Committee on Foreign Affairs, “McCaul Talks Semiconductors, Promotes CHIPS Act with President Biden,”
+
+press release, February 24, 2021, https://foreignaffairs.house.gov/news/press-releases/mccaul-talks-semiconductorspromotes-chips-act-with-president-biden; Office of Senator John Cornyn, “Cornyn, Colleagues Ask Biden to Fund
+Initiatives to Increase U.S. Semiconductor Production,” press release, April 12, 2021, https://www.cornyn.senate.gov/
+news/cornyn-colleagues-ask-biden-to-fund-initiatives-to-increase-u-s-semiconductor-production/; and Office of
+Senator Gary Peters, “Peters Bipartisan Bill to Strengthen Domestic Semiconductor Manufacturing Advances in
+Senate,” press release, December 15, 2021, https://www.peters.senate.gov/newsroom/press-releases/peters-bipartisanbill-to-strengthen-domestic-semiconductor-manufacturing-advances-in-senate. See also CRS Report R47523,
+Frequently Asked Questions: CHIPS Act of 2022 Provisions and Implementation, by Emily G. Blevins, Yong W.
+Kwon, and Karen M. Sutter.
+6 Office of Senator Jon Ossoff, “Following Ossoff-Warnock Push, U.S. Senate Passes Bipartisan Legislation to Boost
+Domestic Semiconductor Production,” press release, June 8, 2021, https://www.ossoff.senate.gov/press-releases/
+following-ossoff-warnock-push-u-s-senate-passes-bipartisan-legislation-to-boost-domestic-semiconductor-production/;
+and Office of Senator Cindy Hyde-Smith “Wicker, Hyde-Smith Join Bipartisan Push to Increase U.S. Semiconductor
+Production,” April 14, 2021, https://www.hydesmith.senate.gov/wicker-hyde-smith-join-bipartisan-push-increase-ussemiconductor-production.
+7
+P.L. 116-283.
+8 P.L. 116-283, §9902(a)(4)(A).
+9 Division A of P.L. 117-167.
+
+Congressional Research Service
+
+2
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+manufacturers. The act also offered a 25% investment tax credit for capital expenses relating to
+the production of semiconductors and equipment for manufacturing semiconductors.10
+The CHIPS Act directed the Secretary of Commerce to prioritize funding for eligible applicants to
+•
+
+•
+
+“manufacture semiconductors necessary to address gaps and vulnerabilities in the
+domestic supply chain across a diverse range of technology and process nodes”11
+and
+“provide a secure supply of semiconductors necessary for the national security,
+manufacturing, critical infrastructure, and technology leadership of the United
+States and other essential elements of the U.S. economy.”
+
+Congress amended the CHIPS Act through the Building Chips in America Act (P.L. 118-105) and
+the FY2025 reconciliation law (P.L. 119-21). The Building Chips in America Act exempted
+certain types of chip manufacturing activities funded by the CHIPS Act from environmental
+reviews required under the National Environmental Policy Act of 1969, as amended (NEPA; P.L.
+91-190), and historic preservation review required under the National Historic Preservation Act of
+1966, as amended (P.L. 89-665).12 The FY2025 reconciliation law increased the investment tax
+credit for capital expenses relating to the production of semiconductors and equipment for
+manufacturing semiconductors from 25% to 35%.13
+
+CHIPS Incentives Program Implementation
+The National Institute of Standards and Technology (NIST) at DOC established the CHIPS
+Program Office (CPO) to administer the semiconductor incentives program funded by the CHIPS
+Act.14 President Biden issued Executive Order (E.O.) 14080 in August 2022 to further direct DOC
+to ensure that funding recipients adopt “strong compliance and accountability measures,” reduce
+reliance on “overly concentrated foreign production,” “ensure long-term leadership in the
+microelectronics sector,” attract private investments to the industry, encourage linkages to
+underserved regions and populations, and expand “regional manufacturing and innovation
+ecosystems.”15
+10 Additional resources and funding were set aside for research and development.
+11 Process nodes refer to levels of chip performance, often measured by how many microelectronic components are
+
+located on a silicon die. Typically, industry divides the chip nodes into three levels: leading-ledge, current generation,
+and mature.
+12 P.L. 118-105. The National Environmental Policy Act (NEPA; 42 U.S.C. §§4321 et seq.) establishes a national
+policy with respect to environmental quality and a process for integrating environmental considerations into federal
+decisionmaking (i.e., through environmental review). Unless Congress exempts a certain action from environmental
+review, NEPA requires agencies to identify and evaluate the impacts of “major Federal actions significantly affecting
+the quality of the human environment” prior to finalizing certain decisions. See CRS In Focus IF12560, National
+Environmental Policy Act: An Overview, by Kristen Hite and Heather McPherron. Similarly, the National Historic
+Preservation Act (54 U.S.C. §§300101 et seq.) established a process by which agencies must “take into account” the
+effects of undertakings on any historic properties, including properties listed on or eligible for listing on the National
+Register of Historic Places. The law and its implementing regulations require a review and consultation process if any
+historic properties may be affected to seek ways to avoid, minimize, or mitigate any adverse effects. See CRS Report
+R45800, The Federal Role in Historic Preservation: An Overview, by Mark K. DeSantis.
+13 P.L. 119-21, §70308.
+14 U.S. Department of Commerce (DOC), Office of Inspector General (OIG), CHIPS Act Programs Status Report,
+OIG-25-021-I, June 2, 2025, https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf.
+15 Executive Order 14080 of August 25, 2022, “Implementation of the CHIPS Act of 2022,” 87 Federal Register
+52847, August 30, 2022, https://www.federalregister.gov/documents/2022/08/30/2022-18840/implementation-of-thechips-act-of-2022.
+
+Congressional Research Service
+
+3
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+On February 13, 2023, NIST published a notice of funding opportunity (NOFO) for the
+“construction, expansion, or modernization” of commercial semiconductor fabs under the CHIPS
+incentives program.16 NIST opened the application period from February 2023 to June 18, 2024.
+The NOFO offered three types of incentives to awardees: (1) direct funding in the form of grants,
+cooperative agreements, or other transactions; (2) loans; and (3) loan guarantees. The NOFO
+indicated that eligible applicants needed to demonstrate their capacity to “substantially finance,
+construct, expand, or modernize a facility [engaged in] fabrication, assembly, testing, advanced
+packaging, or production of semiconductors.”17 Foreign entities of concern and companies that
+DOC deemed to be controlled or involved with such entities were ineligible for awards. NIST
+published a separate NOFO under the incentives program for facilities that produce
+semiconductor materials and manufacturing equipment.
+DOC reviewed applications and signed a preliminary memorandum of terms (PMT) with
+applicants that it determined were “reasonably likely to receive an award” for commercial
+semiconductor fabs under the terms set out in the NOFO. DOC undertook due diligence on the
+proposals of applicants that received a PMT. For those applicants that received a satisfactory due
+diligence review, DOC negotiated and agreed on final award terms and then publicly announced
+the awards. DOC entered into its first PMT with an applicant in December 2023 and publicly
+announced the first final award contract in September 2024 (see Table A-1).
+By January 31, 2025, NIST’s CPO had awarded 19 companies with a total of up to $30.7 billion
+in funding for 40 commercial semiconductor fab projects.18 Two of the nineteen companies also
+received a total of $5.5 billion in loans. Approximately 59% of the award funding was for projects
+planning to produce leading-edge logic chips,19 approximately 20% was for projects planning to
+produce leading-edge memory chips, and 10% was for projects planning to make current
+generation and mature-node chips.20 According to the U.S. Government Accountability Office
+(GAO), awardees negotiated individual project milestones with the CPO. DOC is to disburse
+award funds according to the completion of these milestones by awardees (i.e., reimbursing the
+company for investments made toward the project). Awardees’ expected completion dates span
+from November 2024 to October 2033.21
+Entrance into a PMT is not a guarantee of an award. As of June 2026, 12 companies that had
+received a PMT have not received a final award (see Table A-2).
+On March 4, 2025, President Trump critiqued the CHIPS Act, stating that the companies that
+received awards under the CHIPS Act “don’t spend” the awards to construct and expand
+
+16 DOC, National Institute of Standards and Technology (NIST), “Notice of Funding Opportunity: Commercial
+
+Fabrication Facilities,” updated October 17, 2025, https://www.nist.gov/document/notice-funding-opportunity-chipsincentives-program-commercial-fabrication-facilities (hereinafter NIST Commercial Fabs NOFO).
+17 NIST Commercial Fabs NOFO.
+18 NIST referred to incentive awards as “direct funding” in its award announcement. The law authorized NIST to utilize
+various funding mechanisms, including grants and cooperative agreements. CRS is unclear on the exact funding
+mechanism NIST employed for direct funding of commercial fabrication facilities awardees. When awards included
+loans, NIST’s website distinguished the amounts offered as a loan separate from the direct funding amount. For
+example, see NIST, “SK hynix (Indiana),” accessed April 21, 2026, https://www.nist.gov/chips/sk-hynix-indiana-westlafayette.
+19 Calculation by CRS using Figure 3 in DOC, OIG, CHIPS Act Programs Status Report. The $3 billion awarded
+through the Secure Enclave program was subtracted from the total when making the calculation.
+20 DOC, OIG, CHIPS Act Programs Status Report.
+21 U.S. Government Accountability Office (GAO), Semiconductors: Information on Projects Funded to Strengthen U.S.
+Supply Chain, GAO-26-107882, December 11, 2025, https://www.gao.gov/products/gao-26-107882.
+
+Congressional Research Service
+
+4
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+semiconductor fabs.22 He pointed to tariffs on semiconductors as a more effective incentive for
+companies to build commercial semiconductor fabs in the United States and stated, “You
+[Congress] should get rid of the CHIP[S] Act. And whatever is left over, Mr. Speaker, you should
+use it to reduce debt or any other reason you want to.” On March 31, 2025, President Trump
+issued an E.O. establishing the U.S. Investment Accelerator within DOC with a stated goal of
+administering the CPO.23 A White House fact sheet on the E.O. included the negotiation of “better
+CHIPS Act deals than the previous [Biden] Administration” as one of the objectives of the
+Investment Accelerator.24
+In June 2025, Secretary of Commerce Howard Lutnick testified to the Senate Committee on
+Appropriations that some of the contracts made between DOC and awardees of direct funding
+under the CHIPS Act could be improved. He noted that “4% or less” of funding for a project’s
+total value from DOC appeared “more appropriate.”25 According to GAO, 2 of the 40 projects had
+received direct funding awards from DOC that made up 5% or less of their total projected capital
+expenditure.26
+As of July 2026, CRS has not identified any awards that have been publicly rescinded or
+reduced.27 Two awardees, Taiwan Semiconductor Manufacturing Corporation (TSMC) and
+Micron, brought their awards’ share of their total investment to under 4% by increasing their
+capital commitments.28 As part of this revision, Micron received an additional $275 million in
+funding from DOC.29
+No awardee has publicly announced plans to bring the award share below 4% by foregoing part
+of the federal funding award. TSMC and Micron have separately announced increases to their
+projects’ capital commitments; other award recipients have not. This raises questions for
+stakeholders and policymakers on the status of awards for many projects. For example,
+Samsung’s estimated total investment for the expansion and construction of fabs in Austin, TX,
+22 U.S. President (Trump), “Address Before a Joint Session of the Congress,” Compilation of Presidential Documents,
+
+DCPD-202500325 (March 4, 2025), https://www.govinfo.gov/app/details/DCPD-202500325.
+23 Executive Order 14255 of March 31, 2025, “Establishing the United States Investment Accelerator,” 90 Federal
+Register 14701, April 3, 2025, https://www.federalregister.gov/documents/2025/04/03/2025-05908/establishing-theunited-states-investment-accelerator.
+24 White House, “Fact Sheet: President Donald J. Trump Establishes the United States Investment Accelerator,” March
+31, 2025, https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-unitedstates-investment-accelerator/.
+25 See video at 1:38:16 for Testimony of Secretary Howard Lutnick in U.S. Congress, Senate Committee on
+Appropriations, A Review of the President’s Fiscal Year 2026 Budget Request for the Department of Commerce,
+hearing, 119th Cong., 2nd sess., June 4, 2025, https://www.appropriations.senate.gov/hearings/a-review-of-thepresidents-fiscal-year-2026-budget-request-for-the-department-of-commerce; and Kate Magill, “Lutnick says
+Commerce Department ‘renegotiating’ CHIPS contracts,” Manufacturing Dive, June 5, 2025,
+https://www.manufacturingdive.com/news/lutnick-chips-act-renegotiating-contracts-trump-budget-bill/749857/.
+26 GAO, Semiconductors: Information on Projects Funded to Strengthen U.S. Supply Chain, GAO-26-107882.
+27 CRS review of the NIST page. Final awards can be found at NIST, “CHIPS for America Awards,” updated
+September 19, 2024, https://www.nist.gov/chips/chips-america-awards.
+28 Taiwan Semiconductor Manufacturing Corporation (TSMC), “TSMC Intends to Expand Its Investment in the United
+States to US$165 Billion to Power the Future of AI,” March 4, 2025, https://pr.tsmc.com/english/news/3210; and
+Micron, “Micron and Trump Administration Announce Expanded U.S. Investments in Leading-Edge DRAM
+Manufacturing and R&D,” press release, June 12, 2025, https://investors.micron.com/news-releases/news-releasedetails/micron-and-trump-administration-announce-expanded-us-investments.
+29 This additional award brought the total direct funding awarded by the CHIPS incentives program to date to $30.9
+billion, alongside $5.5 billion in loans. DOC, NIST, “President Trump Secures $200B Investment from Micron
+Technology for Memory Chip Manufacturing in the United States,” June 12, 2025, https://www.nist.gov/news-events/
+news/2025/06/president-trump-secures-200b-investment-micron-technology-memory-chip.
+
+Congressional Research Service
+
+5
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+and Taylor, TX, was $37 billion. The approximately $4.7 billion funding award from DOC to
+support this project constituted 12.8% of the expected investment for this project.30
+The Trump Administration proposed another change to the structure of the incentives awards. In
+August 2025, Secretary Lutnick announced the Administration’s interest in exchanging equity in
+Intel Corporation for the CHIPS Act funding awarded to the company (see text box, below).31
+Public Equity in CHIPS Act Awardee
+In November 2024, the California-headquartered Intel Corporation received a direct funding award of
+approximately $7.9 billion from the CHIPS Act incentives program for building, expanding, or modernizing
+commercial semiconductor fabrication facilities (fabs).32 The Department of Defense (DOD) announced that the
+company received an additional $3 billion through the Secure Enclave program, which was funded by the CHIPS
+Act and overseen by DOD with the aim of securing a supply of advanced chips needed for national security.33
+In August 2025, the U.S. government negotiated the conversion of the federal funding into a 9.9% ownership stake
+in Intel.34 In a filing with the U.S. Securities and Exchange Commission (SEC) in August 2025, Intel elaborated that
+the government would disburse $5.7 billion “as promptly as practicable” from the direct funding award for
+commercial semiconductor fabs. 35 The SEC document noted that the company would be released from
+obligations to meet project milestones established in the original award contract. Meanwhile, Intel announced that
+its award from Secure Enclave was $3.2 billion and is to be disbursed “on the terms and conditions of Secure
+Enclave.”36 In total, the U.S. government agreed to release $8.9 billion in direct funding to Intel in return for
+equity.
+On completion, this equity transfer would make the U.S. government the largest single shareholder in Intel. The
+agreement between Intel and the U.S. government permits the government to take an additional 5% stake in Intel
+at $20 a share if the company were to cease to own 51% of its chip manufacturing (foundry) business. In its August
+2025 filing with the SEC, Intel noted the possibility that financial arrangements with the Administration could be
+voided in the future by the courts, Congress, or the Administration.
+Intel’s chief financial officer noted that the conversion of awards from the CHIPS Act into equity is intended to
+deter Intel from selling its chip manufacturing unit.37 Some analysts suggested that the company may become a
+
+30 DOC, NIST, Chips for America, “Samsung Electronics (Texas),” accessed June 15, 2026, https://www.nist.gov/
+
+chips/samsung-electronics-texas-austin; and DOC, NIST, “Biden-Harris Administration Announces CHIPS Incentives
+Award with Samsung Electronics to Solidify U.S. Leadership in Leading-Edge Semiconductor Production,” December
+20, 2024, https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentivesaward-samsung.
+31 Andrea Shalal et al., “US examines equity stake in chip makers for CHIPS Act cash grants, sources say,” Reuters,
+August 20, 2025, https://www.reuters.com/business/media-telecom/us-examines-equity-stake-chip-makers-chips-actcash-grants-sources-say-2025-08-20/.
+32 DOC, NIST, “Biden-Harris Administration Announces CHIPS Incentives Award with Intel to Advance U.S.
+Leading-Edge Chip Capacity and Create Tens of Thousands of Jobs,” November 26, 2024, https://www.nist.gov/newsevents/news/2024/11/biden-harris-administration-announces-chips-incentives-award-intel-advance.
+33 The Department of Defense (DOD) is “using a secondary Department of War designation,” under Executive Order
+14347 dated September 5, 2025. DOD, “Department of Defense & Department of Commerce Joint Statement:
+Announcement in Support of the Manufacture of Microelectronics and Advanced Semiconductors for National
+Security,” press release, September 16, 2024, https://www.war.gov/News/Releases/Release/Article/3906926/
+department-of-defense-department-of-commerce-joint-statement-announcement-in-su/.
+34 Intel, “Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and
+Manufacturing Leadership,” press release, August 22, 2025, https://www.intc.com/news-events/press-releases/detail/
+1748/intel-and-trump-administration-reach-historic-agreement-to.
+35 Intel Corporation, Form 8-K, Current Report, filed with the U.S. Securities and Exchange Commission, August 22,
+2025, https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm.
+36 Intel, “Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and
+Manufacturing Leadership.” See also Intel Corporation, Form 8-K, Current Report.
+37 Michael Acton and Joe Miller, “Trump Intel deal designed to block sale of chipmaking unit, CFO says,” Financial
+Times, August 28, 2025, https://www.ft.com/content/29fb5020-2b25-429a-b63f-18356b467e7a.
+
+Congressional Research Service
+
+6
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+“national champion” in advanced chipmaking.38 Others raised concerns that government intervention could lead to
+“inefficiency, politicization, and favoritism, which could stifle innovation.”39
+Some actions of the U.S. government suggest that the Administration may acquire equity in return for federal
+funding on a case-by-case basis. For example, another CHIPS Act funding awardee, GlobalFoundries, clarified in
+August 2025 that the federal government has not taken an equity stake in the company.40 By contrast, in January
+2026, USA Rare Earth received a nonbinding letter of intent from the Department of Commerce that proposed to
+extend funds from the CHIPS Act ($277 million in direct funding and up to $1.3 billion in collateral-backed loan) in
+return for equity.41
+
+Selected Factors Shaping Project Schedules
+Some companies revised the timelines for starting construction or chip production at their fab
+projects that they had publicized before accepting a PMT or final award contract from DOC. The
+next sections discuss selected factors that more than one company gave as reasons for revising
+their timelines, with some companies citing multiple of these causes for the change. These factors
+may offer Congress areas for consideration in oversight of CHIPS Act implementation and
+potential future laws to accelerate the expansion of chipmaking capacity.
+
+Federal Funding Availability
+Some awardees of the CHIPS Act incentives program may have anticipated government funding
+to help build their fabs before DOC published the NOFO for commercial fabs in February 2023.42
+When these companies did not receive the incentive awards to support these projects within their
+expected timeline, they amended the schedule for starting production at planned fabs. DOC
+announced the first PMT in December 2023 and the first final award in September 2024 (see
+Table A-1).43
+For example, Samsung announced it would build a fab in Taylor, TX, in November 2021 with
+plans to start production in 2024.44 Samsung announced in December 2023—after the NOFO and
+before receiving its PMT—that full-scale chip production at its new fab in Taylor, TX, would be
+
+38 Sujai Shivakumar et al., “Securing the U.S. Industrial Base in Semiconductors: Investing in a National Champion,”
+
+Center for Strategic and International Studies, August 25, 2025, https://www.csis.org/analysis/securing-us-industrialbase-semiconductors-investing-national-champion.
+39 John Ruwitch, “The U.S. government is taking a stake in Intel. It’s rare—and it has some risks,” NPR, September 6,
+2025, https://www.npr.org/2025/09/06/nx-s1-5530190/government-stake-intel-ai-competition-china.
+40 “GlobalFoundries Reportedly Cuts U.S. Jobs, Says CHIPS Act Funding Involves No Equity,” TrendForce News,
+August 29, 2025, https://www.trendforce.com/news/2025/08/29/news-globalfoundries-reportedly-cuts-u-s-jobs-sayschips-act-funding-involves-no-equity/.
+41 Note that USA Rare Earth did not receive the award under the incentives program for commercial fabs. See DOC,
+NIST, “The Department of Commerce’s CHIPS Program Announces a Letter of Intent with USA Rare Earth to
+Accelerate Its Domestic and Vertically Integrated ‘Mine-to-Magnet’ Strategy,” January 26, 2026, https://www.nist.gov/
+news-events/news/2026/01/department-commerces-chips-program-announces-letter-intent-usa-rare-earth.
+42 NIST Commercial Fabs NOFO.
+43 DOC, NIST, “Biden-Harris Administration Announces First CHIPS Commercial Fabrication Facilities Award with
+Polar Semiconductor, Establishing Independent American Foundry,” September 24, 2024, https://www.nist.gov/newsevents/news/2024/09/biden-harris-administration-announces-first-chips-commercial-fabrication.
+44 Samsung, “Samsung Electronics Announces New Advanced Semiconductor Fab Site in Taylor, Texas,” November
+22, 2021, https://semiconductor.samsung.com/sas/local-news/samsung-electronics-announces-new-advancedsemiconductor-fab-site-in-taylor-texas/.
+
+Congressional Research Service
+
+7
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+delayed from 2024 to 2025.45 Some industry media reported that Samsung urged the U.S.
+government to expedite the disbursement of CHIPS Act funds and suggested that delays in
+receiving the final award may have contributed to the schedule change.46
+Similarly, TSMC announced it would build a second fab in Phoenix, AZ, in December 2022 with
+plans to start production in 2026.47 TSMC announced in January 2024—after the NOFO and
+before receiving its PMT—that the start of production at its second planned fab in Arizona would
+be delayed by at least a year and cited uncertainties with the CHIPS Act funding award as one of
+the reasons.48
+In another case, GlobalFoundries committed to building a second fab in Malta, NY, in July 2021
+without disclosing its project timeline.49 Local media reported in January 2022 that
+GlobalFoundries was waiting for the CHIPS Act to pass before submitting construction plans.50
+A working paper from the National Bureau of Economic Research (NBER) in 2026 concluded
+that some chipmakers may have factored in government subsidies in their plans for building new
+fabs before the CHIPS Act passed in 2022.51 NBER looked into hiring patterns in the U.S.
+semiconductor industry and found that companies had begun hiring in anticipation of government
+funding as early as June 2021, when the Senate passed the United States Innovation and
+Competition Act (S. 1260). In 2024, a funding applicant commented that receiving the awards has
+“taken much longer and been more complicated than expected.”52
+
+Labor Availability
+Some fab projects reportedly experienced shortages of workers who can build and install a fully
+operational facility. For example, TSMC announced in July 2023 that the timeline for starting
+mass production at its first fab in Phoenix, AZ, was delayed from 2024 to 2025.53 The company
+cited an “insufficient amount of skilled workers with those specialized expertise required for
+
+45 Jasmine Choi, “Samsung Delays Mass Production at New Texas Fab to 2025,” Business Korea, December 26, 2023,
+
+https://www.businesskorea.co.kr/news/articleView.html?idxno=208498.
+46 Matthew Connatser, “US Govt’s sluggish Chips Act payouts slam the brakes on Samsung’s fab—company delays
+mass production at Texas fab to await further CHIPS funding,” Tom’s Hardware, December 26, 2023,
+https://www.tomshardware.com/tech-industry/semiconductors/us-govts-sluggish-chips-act-payouts-slam-the-breakson-samsungs-fab-company-delays-mass-production-at-texas-fab-to-await-further-chips-funding-report.
+47 TSMC, “TSMC Announces Updates for TSMC Arizona,” December 6, 2022, https://pr.tsmc.com/english/news/2977.
+48 Anton Shilov, “TSMC delays 3nm Arizona fab by a year, cites lack of U.S. subsidies and waning demand,” Tom’s
+Hardware, January 18, 2024, https://www.tomshardware.com/tech-industry/tsmc-delays-3nm-arizona-fab-by-a-yearcites-lack-of-us-subsidies-and-waning-demand.
+49 Jackson Wang, “GlobalFoundries commits to building second fab in Malta,” Spectrum News, July 19, 2021,
+https://spectrumlocalnews.com/nys/capital-region/news/2021/07/19/globalfoundries-commits-to-building-second-fabin-malta.
+50 Larry Rulison, “GlobalFoundries delays submitting construction plans for Fab 8.2,” Times Union, January 11, 2022,
+https://www.timesunion.com/business/article/GlobalFoundries-delays-submitting-construction-16764636.php.
+51 Bilge Erten et al., “Employment Impacts of the CHIPS Act,” National Bureau of Economic Research, Working Paper
+34625, February 2026, https://www.nber.org/papers/w34625.
+52 Christine Mui and Brendan Bordelon, “Biden’s high-tech legacy fraying even before Election Day,” Politico,
+November 2, 2024, https://www.politico.com/news/2024/11/02/biden-tech-chips-achievement-losing-support00186851. As of July 2026, all successful awardees had received the final award from DOC in less than a year since
+receiving a preliminary memorandum of terms (PMT). Simultaneously, all 12 PMT recipients without a final award
+received their PMTs more than a year ago (see Table A-2).
+53 Abachy, “TSMC US Delays Production of N4 Chips By 2025,” July 21, 2023, https://abachy.com/news/tsmc-usdelays-production-n4-chips-2025.
+
+Congressional Research Service
+
+8
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+equipment installation in a semiconductor-grade facility.”54 TSMC’s plan to bring workers from
+Taiwan in response to this shortage faced pushback from the Arizona Building and Construction
+Trades Council (AZBTC), which represented many on-site construction workers and their
+unions.55 TSMC resolved the friction with AZBTC through an agreement reached in December
+2023 that reportedly included the company’s support for a training program and AZBTC’s
+understanding that some specialized workers may be brought to the site from abroad.56
+In another case, Micron announced in November 2025 that it would delay the anticipated opening
+of its first planned fab in Clay, NY, from 2028 to the third quarter of 2030.57 The company shared
+with local media that the updated timeline was based on schedules of fab construction elsewhere,
+such as TSMC’s project in Arizona.58 The Onondaga County government, which oversaw
+permitting and supported infrastructure improvement for Micron’s New York project, attributed
+the company’s delay to “labor and supply chain shortages.”59
+
+Customer Demand
+The ability of some companies to secure prospective customers may have affected the pace of
+some CHIPS Act-funded fab projects. For example, Intel announced in February 2025 that it
+would delay the opening of its planned fab in New Albany, OH, from 2026 to 2030.60 In a press
+release, the company highlighted that the revised timeline reflected “needs of our business and
+broader market demand.”61 In July 2025, Intel reiterated to local media that it might cancel the
+project if it cannot find additional customers.62 In September 2025, Intel agreed to collaborate
+with technology company Nvidia Corporation to manufacture products that can integrate into
+Nvdia’s artificial intelligence (AI) infrastructure and products.63 As of June 2026, Intel is
+54 Sebastian Obando, “Labor shortages delay Arizona chip plant opening until 2025,” Construction Dive, July 21, 2023,
+
+https://www.constructiondive.com/news/labor-shortages-delay-arizona-chip-tsmc-plant-2025/688661/.
+55 Jacob Zinkula, “TSMC is stalling an agreement that would make its Phoenix plant safer and more efficient, an
+Arizona union says,” Business Insider, October 6, 2023, https://www.businessinsider.com/tsmc-phoenix-plant-safetytraining-concerns-arizona-unions-2023-10; and Lee Harris, “TSMC to Bring 500+ More Migrant Workers to Arizona,”
+The American Prospect, June 30, 2023, https://prospect.org/2023/06/30/2023-06-30-tsmc-migrant-workers-arizona/.
+56 Sebastian Obando, “TSMC reaches deal with Arizona union on $40B chip factory project,” Manufacturing Dive,
+January 18, 2024, https://www.manufacturingdive.com/news/tsmc-deal-arizona-labor-union-chip-factory/704890/.
+57 Sebastian Obando, “Micron delays construction at $100B New York megafab,” Construction Dive, November 14,
+2025, https://www.constructiondive.com/news/micron-delay-construction-new-york-megafab/805622/.
+58 Andrew Donovan, “Micron issues statement of ‘confidence’ about Town of Clay megafab project despite expected
+construction delays,” WYSR Syracuse, November 8, 2025, https://www.localsyr.com/news/local-news/micron-issuesstatement-of-confidence-about-town-of-clay-megafab-project-despite-expected-construction-delays/.
+59 Donovan, “Micron issues statement of ‘confidence’ about Town of Clay megafab project.”
+60 Samantha Subin, “Intel delays Ohio chip plant opening to next decade, was supposed to start production by 2026,”
+CNBC, February 28, 2025, https://www.cnbc.com/2025/02/28/intel-delays-ohio-plant-opening-to-2030-productionwas-to-start-2026.html?msockid=0dea284205526eca330b3e9d042e6f48.
+61 Intel, “Ohio One Construction Timeline Update,” February 28, 2025, https://newsroom.intel.com/corporate/ohio-oneconstruction-timeline-update.
+62 Katie Millard, “Inside Intel’s announcement to further slow construction in New Albany,” NBC4, July 26, 2025,
+https://www.nbc4i.com/intel-in-ohio/inside-intels-announcement-to-further-slow-construction-in-new-albany/; and
+Millard, “Intel: Ohio plant ‘likely’ canceled if company can’t get new manufacturing customers,” NBC4, July 30, 2025,
+https://www.nbc4i.com/intel-in-ohio/intel-ohio-plant-likely-canceled-if-company-cant-get-new-manufacturingcustomers/.
+63 NVDIA, “NVIDIA and Intel to Develop AI Infrastructure and Personal Computing Products,” press release,
+September 18, 2025, https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personalcomputing-products; and Katie Millard and Isabel Cleary, “What does Nvidia’s investment in Intel mean for the Ohio
+(continued...)
+
+Congressional Research Service
+
+9
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+continuing to build the fab in New Albany.64 TSMC executives noted that customer demand
+would shape the construction schedule for the company’s fabs in Arizona.65 Media sources
+reported in December 2025 that TSMC was moving up the schedule for starting mass production
+at its second fab in Phoenix, AZ, from 2028 to 2027.66 A company executive attributed the
+accelerated schedule to “AI-related demand from our customers.”67
+
+Environmental Review
+Many CHIPS Act-funded projects have received scrutiny from environmental regulators and local
+residents due to the scale of construction required to establish a fab, the intensity of resource
+consumption in chip production, and other concerns. In some cases, the scrutiny may have
+contributed to changes in the construction schedule. For example, Micron reportedly pushed back
+the timeline for its first planned fab in Clay, NY, after receiving federal feedback on its plans to
+mitigate the project’s environmental impacts.68 Although the Building Chips in America Act (P.L.
+118-105) exempted certain types of chip manufacturing activities funded by the CHIPS Act from
+environmental review required under NEPA, Micron’s project proposal to fill in more than 200
+acres of wetlands required a review.69 After the start of the project in January 2026, Micron faced
+both legal challenges and requests from the local community for more legally binding
+commitments to limit the project’s environmental impact.70 One community organization called
+
+One plant?,” NBC4, September 19, 2025, https://www.nbc4i.com/intel-in-ohio/what-does-nvidias-investment-in-intelmean-for-the-ohio-one-plant/.
+64 Alan Miller, “Intel neighbors pull up stakes after 4 years of change, heartbreak,” Columbus Dispatch, January 21,
+2026, https://www.dispatch.com/story/news/local/2026/01/21/four-years-after-intel-announcement-the-sitedramatically-changed/88233932007/; and Andrew Cunningham, “Demand for Intel’s processors is apparently there,
+but the supply is not,” ArsTechnica, January 23, 2026, https://arstechnica.com/gadgets/2026/01/core-ultra-series-3launch-may-be-hampered-by-chip-shortages-says-intel/.
+65 Amy Edelen, “TSMC finishes construction of second chip factory ahead of schedule,” Phoenix Business Journal,
+April 17, 2025, https://www.bizjournals.com/phoenix/news/2025/04/17/tsmc-completes-construction-secondfactory.html.
+66 Jean Leon, “TSMC Accelerates U.S. 3nm Chip Production to 2027, One Year Ahead of Schedule,” Android
+Headlines, December 30, 2025, https://www.androidheadlines.com/2025/12/tsmc-arizona-3nm-chip-productionacceleration-2027.html.
+67 Skye Jacobs, “TSMC pushes 2 nm manufacturing ahead of schedule, fast-tracks Arizona buildout,” TechSpot,
+October 17, 2025, https://www.techspot.com/news/109900-tsmc-pushes-2-nanometer-manufacturing-ahead-schedulewhile.html; and Kathrin Hille, “TSMC boosts Joe Biden’s AI chip ambitions with $11.6bn US production deal,”
+Financial Times, April 8, 2024, https://www.ft.com/content/4798ab77-e063-4784-bdf3-19852b41fd1f.
+68 Kate Jackson, “Micron delays semiconductor plant construction amid environmental concerns,” The Daily Orange,
+September 18, 2024, https://dailyorange.com/2024/09/micron-delays-plant-construction/.
+69 Glenn Coin, “New law that exempts chip plants from U.S. environmental review won’t affect Micron in Clay,”
+Syracuse.com, January 6, 2025, https://www.syracuse.com/business/2024/10/new-law-that-exempts-chip-plants-fromus-environmental-review-wont-affect-micron-in-clay.html. P.L. 118-105 exempts the provision of federal financial
+assistance by the Secretary of Commerce from the environmental review requirements under NEPA. P.L. 118-105 does
+not exempt the actions of other federal agencies concerning federal decisionmaking (e.g., the U.S. Army Corps of
+Engineers decision to issue a permit for the discharge of dredged or fill material into waters of the United States under
+§404 of the Clean Water Act, 33 U.S.C. §1344).
+70 Tim Knauss, “Last-minute lawsuit aims to block Micron chip fabs on environmental grounds,” Syracuse.com,
+January 17, 2026, https://www.syracuse.com/micron/2026/01/last-minute-lawsuit-aims-to-block-micron-chip-fabs-onenvironmental-grounds.html; and Paresh Dave, “Micron Megafab Project Faces a New Hurdle as Activists Seek a
+Benefits Deal,” Wired, January 21, 2026, https://www.wired.com/story/micron-chip-fab-community-benefitsagreement/.
+
+Congressional Research Service
+
+10
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+for the replacement of wetlands that would be cleared by the fab construction and the safety of
+workers and community members from “the effects of toxic chemicals.”71
+Another award recipient, Amkor Technologies, moved the site for its planned facility from one
+location to another in Peoria, AZ. According to one media source, the decision was partly
+motivated by pushback from local residents over concerns that the sewage water reclamation
+system would be unable to remove industrial chemicals released from the fab, which would
+introduce pollution to local agriculture and the municipal water table.72 The Peoria municipal
+government stated that “market demands ... and increased project scope” motivated the change in
+location.73 This site change coincided with the company’s moving of the anticipated start of
+production from 2027 to 2028.74
+The exemptions from environmental review for certain types of CHIPS Act-funded projects
+established by the Building Chips in America Act may accelerate fab construction. Some
+observers characterized the time consumed by the government’s review of environmental impact
+statements—a step in the permitting process required by NEPA—as a “bottleneck” in the
+development of critical manufacturing projects.75 To the extent that such review delays
+construction, reduction or elimination of the time required for this step may expedite project
+construction.
+
+Considerations for Congress
+Congress may look to evaluate implementation progress to date and weigh policy options
+regarding existing or potential future incentives programs and policies. FY2026 is the last year
+for which the CHIPS Act of 2022 provides future year appropriations to DOC for incentivizing
+the domestic production of semiconductors as authorized in Section 9902 of the FY2021 NDAA.
+Further, the 35% investment tax credit for capital expenses relating to the production of
+semiconductors and equipment for manufacturing semiconductors is eligible only for fabs that
+begin construction before December 31, 2026.
+If policymakers choose to review existing policies to identify potential gaps and assess efficacy,
+they may consider whether to extend financial support for the domestic semiconductor industry
+and potential changes to the program that might address policy issues that have emerged in the
+implementation of the CHIPS Act. Selected issues include award requirements, workforce
+development, and the production of mature-node chips. Congress may assess the effects of the
+existing incentives and choose to provide no additional resources or adopt measures that affect
+the disbursement of existing incentives.
+
+71 CNY United for Community Benefits, https://centralnyunited.org/.
+72 Nathan Owens, “Amkor relocates $2B semiconductor facility to larger Arizona site,” Construction Dive, September
+
+5, 2025, https://www.constructiondive.com/news/amkor-semiconductor-arizona-moved/759362/; and Steve Riggins,
+“Stop Amkor Semiconductor Packaging Plant in Vistancia,” petition, Change.org, https://www.change.org/p/stopamkor-semiconductor-packaging-plant-in-vistancia.
+73 City of Peoria, “City Council approves smart growth agreements - Amkor moving to the PIC,” August 28, 2025,
+https://www.peoriaaz.gov/Home/Components/News/News/6822/439.
+74 Shefali Kapadia, “Amkor expands Arizona semiconductor campus investment to $7B,” Manufacturing Dive, October
+8, 2025, https://www.manufacturingdive.com/news/amkor-arizona-7-billion-semiconductor-tsmc-apple-nvidia/802297/
+.
+75 John Jacobs, “Permitting Speeds Up, but 61% of Reviews Are Still Late,” Bipartisan Policy Center, January 28,
+2025, https://bipartisanpolicy.org/article/permitting-speeds-up-but-61-of-reviews-are-still-late/.
+
+Congressional Research Service
+
+11
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Award Requirements
+Congress may consider whether to amend requirements for both award applicants and program
+administrators to increase program transparency and facilitate forward planning for chipmakers.
+Awardees such as Samsung, TSMC, and GlobalFoundries pushed back the production timeline
+for planned projects while they waited for federal funding awards.76 With 12 PMT recipients
+awaiting a final award, there may be changes to project timelines that affect the delivery of highdemand chip products important to economic competitiveness and national security. Other
+uncertainties reportedly stemmed from DOC’s due diligence review of factors important to the
+sustainable expansion of the domestic semiconductor industry.
+Congress may shape private sector expectations around any future award funding by requiring
+more frequent updates on the status and timelines of negotiations with applicants. The House
+Committee on Appropriations, Subcommittee on Commerce, Justice, Science, and Related
+Agencies, has highlighted NIST’s statutory requirement to provide updates to Congress on the
+status of funds for semiconductor incentives program, particularly as it relates to upside sharing
+agreements with awardees and project milestones.77 Congress may consider using these
+requirements to require future updates from DOC on the status of its due diligence reviews and
+negotiations with applicants awaiting award funding.
+Congress may request updates on the status of award negotiations with applicants to the
+incentives program for the manufacture of semiconductor materials and equipment, which is
+expected to receive concept plans until November 1, 2026.78 In addition, Congress may seek
+clarity from NIST on the status of negotiations with commercial fab applicants that have received
+a PMT. Additional reporting requirements may impose a burden on NIST that could affect the
+implementation of the incentives program depending on the availability of staff time.79
+Congress may further shape private sector expectations around award funding by reducing the
+number of criteria that DOC employs to judge funding applicants, such as the criteria established
+under E.O. 14080.80 On the one hand, this may reduce the due diligence requirements of NIST
+and accelerate the assessment of funding applicants. On the other hand, the reduction of criteria
+for applicants may increase risk and come at the expense of accountability and the pursuit of
+complementary congressional policy objectives, such as the creation of opportunities for certain
+types of businesses.81
+
+76 Choi, “Samsung Delays Mass Production at New Texas Fab to 2025”; and Shilov, “TSMC delays 3nm Arizona fab
+
+by a year.”
+77 Upside sharing refers to an arrangement where award recipients that received more than $150 million share profits
+with the U.S. government when cash flows or returns exceed the applicant’s projections above an established threshold.
+See NIST Commercial Fabs NOFO, p. 23. U.S. Congress, House Committee on Appropriations, Commerce, Justice,
+Science, and Related Agencies Appropriations Bill, 2026, report to accompany H.R. 5342, 119th Cong., 1st sess.,
+H.Rept. 119-272, September 12, 2025, p. 20, https://www.congress.gov/119/crpt/hrpt272/CRPT-119hrpt272.pdf.
+78 DOC, NIST, “Notice of Funding Opportunity: Facilities for Semiconductor Materials and Manufacturing
+Equipment,” updated October 17, 2025, https://www.nist.gov/chips/incentives-funding-opportunities/notice-fundingopportunity-semiconductor-materials-equipment.
+79 The number of employees at NIST decreased from 3,894 in 2024 to 3,203 in 2026. U.S. Office of Personnel
+Management, Federal Workforce Data, “Workforce Size & Composition,” updated April 2026, https://data.opm.gov/
+explore-data/analytics/workforce-size-and-composition.
+80 E.O. 14080.
+81 For instance, the NOFO for commercial semiconductor fabs called on applicants to provide an overview of the
+broader impacts of the project, such as the creation of inclusive opportunities for small, minority-owned, veteranowned, and women-owned businesses. See NIST Commercial Fabs NOFO.
+
+Congressional Research Service
+
+12
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Workforce Development
+Congress may consider whether to take action to ensure that the semiconductor industry is
+developing a workforce that can staff and build fabs.
+The Semiconductor Industry Association (SIA) projected that 67,000 positions, or 58% of new
+jobs created across manufacturing and design in the semiconductor industry between 2023 and
+2030, would go unfilled.82 Analysis by SIA indicated that this gap is part of a broader shortage of
+1.4 million positions for computer scientists, engineers, and technicians projected to go unfilled
+across the U.S. economy in the same period. This labor shortage may challenge the industry’s
+ability to maintain manufacturing capacity and innovate.
+Construction is another area where labor constraints may challenge the U.S. semiconductor
+industry. Industry experts observed a shortage of workers with knowledge of and experience in
+constructing advanced facilities.83 Some analysts suggested that this shortage partly explained the
+longer construction time for fabs in the United States compared with Taiwan.84
+According to GAO, 13 of the 19 recipients of incentive awards for commercial fabs received a
+total of $293 million in dedicated funding for workforce development.85 For example, Intel
+received approximately $50 million to develop a semiconductor and construction workforce in
+partnership with local educational institutions and programs.86
+Congress could exercise its oversight powers to inquire how award recipients are implementing
+their workforce development commitments and to assess the efficacy of those plans. The FY2021
+NDAA required GAO to review the semiconductor incentives program, including the outcomes
+of the workforce training programs.87 Congress may assess, or direct GAO to assess, the
+effectiveness of government support for expanding a semiconductor workforce in order to
+determine whether to continue, expand, or contract government-directed efforts in this space.
+Congress may consider appropriating funding to state-initiated programs to develop the local
+workforce for the semiconductor industry.88 For example, the State of New York—which hosts
+six commercial fab projects that received a total of up to $4.9 billion from the incentives
+
+82 SIA and Oxford Economics, Chipping Away: Assessing and Addressing the Labor Market Gap Facing the U.S.
+
+Semiconductor Industry, July 2023, https://www.semiconductors.org/wp-content/uploads/2023/07/
+SIA_July2023_ChippingAway_website.pdf.
+83 Sebastian Obando, “Manufacturing megaprojects gobble up workers,” Manufacturing Dive, August 16, 2023,
+https://www.manufacturingdive.com/news/manufacturing-megaprojects-workers-magnify-labor-woes/690783/.
+84 Jon VerWey, “No Permits, No Fabs: The Importance of Regulatory Reform for Semiconductor Manufacturing,”
+Center for Security and Emerging Technology, October 2021, https://cset.georgetown.edu/publication/no-permits-nofabs/; and Pete Singer, “Building Fabs in the U.S. vs Taiwan: Twice as Long, Twice as Much,” Semiconductor Digest,
+February 18, 2025, https://www.semiconductor-digest.com/building-fabs-in-the-u-s-vs-taiwan-twice-as-long-twice-asmuch/.
+85 GAO, Semiconductors: Information on Projects Funded to Strengthen U.S. Supply Chain, GAO-26-107882.
+86 DOC, “Biden-Harris Administration Announces Preliminary Terms with Intel to Support Investment in U.S.
+Semiconductor Technology Leadership and Create Tens of Thousands of Jobs,” press release, March 20, 2024,
+https://www.commerce.gov/news/press-releases/2024/03/biden-harris-administration-announces-preliminary-termsintel-support; and Intel, “Intel Addresses Semiconductor Workforce Shortage,” September 24, 2023,
+https://newsroom.intel.com/corporate/intel-addresses-semiconductor-workforce-shortage#gs.aidv9h.
+87 P.L. 116-283, §9902(c)(1)(C)(iii).
+88 CRS Report R40638, Federal Grants to State and Local Governments: Trends and Issues, by Adam G. Levin.
+
+Congressional Research Service
+
+13
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+program—invested $200 million in a network of workforce development centers to train workers
+in advanced manufacturing, including of semiconductors.89
+Congress may allocate additional funding to create programs for workforce development in
+advanced facility construction. In 2023, the Employment Training Administration awarded $16
+million to organizations through Critical Sectors Job Quality Grants to support training in the
+care, climate resiliency, and hospitality sectors.90 A similar program focused on skills relating to
+the construction of high-tech facilities and semiconductor production may narrow anticipated
+gaps in the workforce. Funding for such a grant program would carry costs to the federal budget
+proportional to the program’s geographic reach and scale if developed in addition to, rather than
+in place of, existing efforts.
+
+Mature-Node Chip Production
+Some observers recently pointed to ongoing tensions in East Asia as a potential risk to the supply
+of mature-node and leading-edge chips.91 In addition, chipmaker TSMC reportedly planned to
+reduce its production of mature-node chips in response to growing demand for leading-edge
+chips.92 Other major chipmakers have signaled their intention to reduce mature-node chip
+production.93
+Given supply chain vulnerabilities and the emphasis placed on leading-edge chips in the funding
+awards from the CHIPS Act, Congress may consider whether to extend additional financial
+support for mature-node chip production. This could be achieved by directing additional
+appropriations to DOC to finance the expansion of domestic mature-node chip production
+capacity or via extending the 35% investment tax credit for capital expenses relating to the
+production of semiconductors beyond December 31, 2026. Such efforts would carry budgetary
+implications.
+In addition to meeting immediate market demand, the construction of mature-node chip fabs may
+prepare the grounds for future establishment of leading-edge chip fabs. For instance, TSMC is
+building a new leading-edge chip fab adjacent to its mature-node chip fab in Kumamoto, Japan.94
+89 Governor Kathy Hochul, “Governor Hochul Announces Plan to Transform New York’s Economy and Workforce as
+
+Part of FY 2025 Budget,” April 22, 2024, https://www.governor.ny.gov/news/governor-hochul-announces-plantransform-new-yorks-economy-and-workforce-part-fy-2025-budget.
+90 U.S. Department of Labor (DOL), “Critical Sectors Job Quality Grants,” 2023, https://www.dol.gov/sites/dolgov/
+files/general/grants/FY2023CriticalSectorsJobQuality.pdf; and DOL, “Biden-Harris Administration Awards $16M to
+Improve Job Quality, Expand Access to Good Jobs in Critical Sectors, Including Care, Climate Resilience,
+Hospitality,” press release, September 28, 2023, https://www.dol.gov/newsroom/releases/eta/eta20230928-1.
+91 Tripp Mickle, “The looming Taiwan chip disaster that silicon valley has long ignored,” New York Times, February
+24, 2026, https://www.nytimes.com/2026/02/24/technology/taiwan-china-chips-silicon-valley-tsmc.html; and Luke
+James, “China warns of fresh chip shortage as Nexperia dispute escalates again - Dutch headquarters allegedly locked
+Chinese staff out of IT systems,” Tom’s Hardware, March 9, 2026, https://www.tomshardware.com/tech-industry/
+china-warns-of-fresh-chip-shortages-as-nexperia-dispute-escalates-again.
+92 Jake Lai and Zoey Hsu, “TSMC to Cut Fab14 Mature-Node Capacity by 15%-20% to Reflect Changing Demand
+Mix,” Counterpoint, January 22, 2026, https://counterpointresearch.com/en/insights/TSMC-to-Cut-Fab14-MatureNode-Capacity-to-Reflect-Changing-Demand-Mix; and John Markman, “Three Companies Set To Dominate 2026
+Profits In AI Chips,” Forbes, February 4, 2026, https://www.forbes.com/sites/jonmarkman/2026/02/04/threecompanies-set-to-dominate-2026-profits-in-ai-chips/.
+93 “Samsung, SK hynix and Micron Reportedly Cut NAND Production amid Slowing Demand,” Trendforce News,
+January 6, 2025, https://www.trendforce.com/news/2025/01/06/news-samsung-sk-hynix-and-micron-reportedly-cutnand-production-amid-oversupply-and-slow-essd-demand/.
+94 “TSMC’s Bold Pivot: Kumamoto Fab 2 Reportedly Leaps from 6nm to 2nm amid JASM Losses,” Trendforce News,
+(continued...)
+
+Congressional Research Service
+
+14
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+The plan to expand this campus may have taken into account project readiness and positive
+working relationships with Japanese stakeholders (joint venture partners and suppliers)
+demonstrated by the successful completion of the mature-node fab in 2024.95 Further, local
+authorities and educational institutions developed programs to meet the workforce needs of the
+new fabs.96 Additional investments in mature-node chip fabs in the United States may help create
+the business environment and a workforce for potential leading-edge chip fabs. Alternatively,
+Congress may determine that the production of leading-edge chips remains a more immediate
+policy priority or that it is not in the national interest to extend additional public resources to the
+semiconductor industry at this time.
+
+Conclusion
+As of June 2026, implementation of the incentives program for building commercial
+semiconductor fabs with funds provided by the CHIPS Act is ongoing. The last project milestone
+negotiated between a recipient of a commercial fab award and DOC is expected to be completed
+in 2033.97 DOC is to accept concept plans for the incentives award focused on the manufacture of
+semiconductor materials and chipmaking equipment until November 1, 2026.
+As global sales of semiconductors in March 2026 grew 79.2% in value compared with sales in
+March 2025,98 risks relating to the global trade of chips and chip components persisted. Further,
+the adoption of advanced technologies—such as AI—that are anticipated to be critical for
+fostering a competitive economy may be contingent on the availability of chips to domestic
+technology developers. With funding appropriated in the CHIPS Act to DOC set to sunset in
+FY2026, Congress may determine whether additional support for the semiconductor industry is
+appropriate. Alternatively, Congress may decide to discontinue additional public resources to the
+industry at this time. Either in conjunction with or as an alternative to providing additional
+appropriations, Congress might consider whether and, if so, how it might address challenges that
+have emerged during the implementation of the CHIPS Act incentives program.
+
+December 22, 2025, https://www.trendforce.com/news/2025/12/22/news-tsmcs-bold-pivot-kumamoto-fab-2reportedly-leaps-from-6nm-to-2nm-amid-jasm-losses/.
+95 “Japan fab to cement TSMC lead: analysts,” Taiwan Times, February 25, 2024, https://www.taipeitimes.com/News/
+taiwan/archives/2024/02/25/2003814057.
+96 Bryan Chuang, “Kyushu to train 1.4 million semiconductor workers amid US$156 billion boom,” DigiTimesAsia,
+September 12, 2025, https://www.digitimes.com/news/a20250910PD208/talent-kumamoto-moea-government2025.html; and Chuang, “Kumamoto University revises education strategy as result of TSMC’s Japan fab,”
+DigiTimesAsia, September 16, 2025, https://www.digitimes.com/news/a20250915PD236/tsmc-kumamoto-fab-talenteducation.html.
+97 GAO, Semiconductors: Information on Projects Funded to Strengthen U.S. Supply Chain, GAO-26-107882.
+98 SIA, “Global Semiconductor Sales Increase 25% from Q4 2025 to Q1 2026,” May 4, 2025,
+https://www.semiconductors.org/global-semiconductor-sales-increase-25-from-q4-2025-to-q1-2026/.
+
+Congressional Research Service
+
+15
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Appendix. Companies Awarded or Considered
+Under the CHIPS Incentives Program for
+Commercial Fabrication Facilities
+Table A-1. Companies with Final Awards from the Semiconductor Incentives
+Program for Commercial Fabs
+Announcement Date
+of Preliminary
+Memorandum of
+Terms from DOC
+
+Date of Final Award
+Announcement from
+DOC
+
+Total Incentives (up
+to, millions of U.S.
+dollars)
+
+Absolics
+
+May 23, 2024
+
+December 5, 2024
+
+75
+
+Amkor Technology
+
+July 26, 2024
+
+December 20, 2024
+
+407
+
+BAE Systems, Inc.
+
+December 11, 2023
+
+November 25, 2024
+
+36
+
+Corning
+
+November 8, 2024
+
+January 17, 2025
+
+32
+
+Edwards Vacuum
+
+October 10, 2024
+
+January 17, 2025
+
+18
+
+June 26, 2024
+
+December 5, 2024
+
+77
+
+February 19, 2024
+
+November 20, 2024
+
+1,587
+
+July 17, 2024
+
+December 17, 2024
+
+406
+
+October 21, 2024
+
+January 7, 2025
+
+325
+
+HP Inc.
+
+August 27, 2024
+
+January 13, 2025
+
+53
+
+Infinera
+
+October 17, 2024
+
+January 17, 2025
+
+93
+
+Intel Corporation
+
+March 20, 2024
+
+November 26, 2024
+
+7,865
+
+Micron
+
+April 25, 2024
+
+December 10, 2024
+
+6,165a
+
+Polar Semiconductor
+
+May 13, 2024
+
+September 24, 2024
+
+123
+
+Rocket Lab
+
+June 11, 2024
+
+November 25, 2024
+
+24
+
+Samsung
+
+April 15, 2024
+
+December 20, 2024
+
+4,745
+
+SK hynix
+
+August 6, 2024
+
+December 19, 2024
+
+958
+
+Texas Instruments
+
+August 16, 2024
+
+December 20, 2024
+
+1,610
+
+April 8, 2024
+
+November 15, 2024
+
+11,565
+
+Companies
+
+Entegris
+GlobalFoundries
+GlobalWafers
+Hemlock Semiconductor
+
+TSMC Arizona
+
+Source: U.S. Department of Commerce (DOC), National Institute for Standards and Technology, “CHIPS for
+America Awards,” accessed July 7, 2026, https://www.nist.gov/chips/chips-america-awards.
+Notes: DOC negotiated and agreed to a preliminary memorandum of terms (PMT) with applicants of incentive
+awards for commercial fabs after reviewing project proposals and identifying applications that were “reasonably
+likely to receive an award” under the terms set out in the notice of funding opportunity. DOC undertook due
+diligence on the proposals for applicants that received a PMT.
+The total incentives in this table reflect the sum of both direct funding and loans offered by DOC.
+a. Award for Micron was increased by $275 million to $6.44 billion on June 12, 2025.
+
+Congressional Research Service
+
+16
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Table A-2. Companies with Preliminary Memorandum of Terms (PMT) from the
+Semiconductor Incentives Program for Commercial Fabs without a Final Award
+as of June 10, 2026
+Announcement Date of PMT
+from DOC
+
+Total Incentives in the PMT
+(up to, millions of U.S. dollars)
+
+January 16, 2025
+
+105
+
+December 13, 2024
+
+225
+
+January 16, 2025
+
+79
+
+December 6, 2024
+
+33
+
+IntelliEPI
+
+January 16, 2025
+
+10.3
+
+MACOM
+
+January 14, 2025
+
+70
+
+Microchip Technology, Inc.
+
+January 4, 2024
+
+162
+
+November 8, 2024
+
+3
+
+July 1, 2024
+
+6.7
+
+December 6, 2024
+
+16
+
+Sumika
+
+January 16, 2025
+
+52.1
+
+Wolfspeed
+
+October 15, 2024
+
+750
+
+X-Fab
+
+December 6, 2024
+
+50
+
+Company
+Analog Devices Inc.
+Bosch
+Coherent (Pennsylvania)a
+Coherent (Texas)a
+
+Powerex
+Rogue Valley Microdevices
+SkyWater Technology
+
+Source: U.S. Department of Commerce (DOC), National Institute for Standards and Technology, “CHIPS for
+America Proposed Funding Sites,” accessed July 7, 2026, https://www.nist.gov/chips/proposed-funding-sites.
+Notes: DOC negotiated and agreed to a preliminary memorandum of terms (PMT) with applicants of incentive
+awards for commercial fabs after reviewing project proposals and identifying applications that were “reasonably
+likely to receive an award” under the terms set out in the notice of funding opportunity. DOC undertook due
+diligence on the proposals for applicants that received a PMT.
+The total incentives in this table reflect the sum of both direct funding and loans offered by DOC.
+a. Many recipients of a PMT—such as Analog Devices Inc. and MACOM—proposed to invest in multiple
+locations using the incentive awards. In most of these cases, DOC announced the PMT for each company’s
+multiple investment locations on the same day. Coherent’s PMT for the sites in Easton, PA, and Sherman,
+TX, were announced separately by DOC.
+
+Congressional Research Service
+
+17
+
+Semiconductor Fabrication Facilities Funded by the CHIPS Act
+
+Author Information
+Yong W. Kwon
+Analyst in Industrial Organization and Business
+Policy
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R49031 · VERSION 1 · NEW
+
+18
+
+

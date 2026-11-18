@@ -1,0 +1,331 @@
+Key questions on energy and AI
+Thomas Spencer and Siddharth Singh
+
+1 June 2026
+Paris
+
+Page 1
+
+The AI and energy nexus is evolving rapidly
+Capital expenditure by
+hyperscalers (USD billion)
+
+AI use on OpenRouter
+(2025 = 1)
+
+8
+
+800
+
+Electricity demand
+growth in 2025 (TWh)
+80
+
++17%
+Oil and gas
+production
+
+6
+
+60
+
+400
+
+4
+
+40
+
+200
+
+2
+
+20
+
+600
+
+2024
+
+2025
+
+2026e
+
+Data
+centres
+
+April 2025 April 2026
+
+Capital expenditure from just five technology companies – largely on data centres – is now larger than global
+investment in oil and natural gas production; data centre electricity demand grew by almost 20% in 2025.
+IEA 2026
+
+Page 2
+
+The AI and energy nexus is evolving rapidly
+Capital expenditure by
+hyperscalers (USD billion)
+
+AI use on OpenRouter
+(2025 = 1)
+
+Electricity demand
+growth in 2025 (TWh)
+
+8
+
+800
+
+Oil and gas
+production
+
+600
+
+400
+
+4
+
+200
+
+2
+
+2024
+
+2025
+
+2026e
+
+Data
+centres
+
+6
+
+All
+other
+sectors
+
+April 2025 April 2026
+
+Capital expenditure from just five technology companies – largely on data centres – is now larger than global
+investment in oil and natural gas production; data centre electricity demand grew by almost 20% in 2025.
+IEA 2026
+
+Page 3
+
+AI is hitting real-world speed bumps
+Timeline of bottlenecks to
+data centre deployment
+
+Electricity consumption by
+data centres(TWh)
+
+Sensitivity
+case range
+
+1 600
+
+Gas turbines
+Transformers
+
+Base
+case
+
+1 200
+
+Grid connection
+800
+
+New transmission lines
+400
+
+Memory
+Advanced packaging
+2
+
+4
+
+6 years
+
+2020
+
+2025
+
+2030
+
+2035
+
+Despite all this dynamism, our central data centre demand outlook to 2030 remains close to the trajectory set out in
+our 2025 report, as bottlenecks in energy and technology supply chains constrain the near-term outlook.
+IEA 2026
+
+Page 4
+
+AI’s projected energy growth rests on the rise of new modes
+Energy intensity per query (Wh)
+0.40
+
+Simple text generation consumes so little energy that today’s data centre
+electricity consumption could generate more text than the entire global
+adult population together could read in a year
+
+0.30
+
+0.20
+
+0.10
+
+Text gen
+
+Models and hardware efficiency is improving faster than any technology in energy history; the level of investments
+and projected electricity consumption implies surging growth in energy-intensive modes, like AI agents
+IEA 2026
+
+Page 5
+
+AI’s projected energy growth rests on the rise of new modes
+Energy intensity per query (Wh)
+60
+
+Simple text generation consumes so little energy that today’s data centre
+electricity consumption could generate more text than the entire global
+adult population together could read in a year
+
+45
+
+30
+
+15
+
+Text gen
+
+Agentic
+
+Models and hardware efficiency is improving faster than any technology in energy history; the level of investments
+and projected electricity consumption implies surging growth in energy-intensive modes, like AI agents
+IEA 2026
+
+Page 6
+
+AI drives the outlook and transforms data centre power needs
+Electricity consumption by data centres
+in the Base Case (TWh)
+
+AI data centres are more power hungry
+and complex
+
++40%
+3X
+
+500
+
+250
+Conventional
+
+AI-optimised
+
+2025
+
+2030
+
+AI-optimised data centres drive electricity demand growth from the sector; their unique power needs are pushing
+electrical technologies and supply chains to evolve at unprecedented speeds.
+IEA 2026
+
+Page 7
+
+Data centre operators are driving electricity sector innovation
+Total data centre electricity demand
+covered by renewables PPAs
+
+PPAs and offtake agreements in firm power
+technologies for data centres (GW)
+
+60%
+
+48
+SMR
+
+45%
+
+Other
+
+36
+
+Europe
+30%
+
+24
+United States
+
+15%
+
+12
+Existing
+nuclear
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026e 2027e
+
+SMR
+
+Battery
+and DR
+
+Firm PPA
+
+Conditional offtake
+agreement
+
+The tech sector continues to be the largest corporate procurer of renewables PPAs, but has also led the way in
+contracting existing nuclear and signing offtake agreements with novel technologies like SMRs and batteries
+IEA 2026
+
+Page 8
+
+Data centres are a key driver for natural gas turbine orders
+Value of new gas turbine orders, 2025 and Q1 2026
+Billion USD (2025, MER)
+India
+Africa
+
+Latin America
+Southeast Asia
+Japan
+Korea
+China
+
+Other Asia
+Europe
+Middle East
+
+Data centres on-site
+
+United States
+20
+
+40
+
+60
+
+80
+
+100
+
+Driven by onsite power for data centres in the United States, orders for new natural gas-fired power plants rose to a
+25-year high last year. However, onsite power generation entails engineering, operational and economic challenges.
+IEA 2026
+
+Page 9
+
+IEA 2026
+
+Page 10
+
+

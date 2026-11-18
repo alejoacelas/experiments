@@ -1,0 +1,5232 @@
+Ericsson
+Mobility Report
+June 2026
+
+2
+
+Ericsson Mobility Report | June 2026
+
+Letter from the publisher
+
+Era of AI, cloud and mobile
+The explosive growth of AI is undeniable.
+Todays generative AI (GenAI) and agentic
+AI result in new usage patterns, and with
+the upcoming transition to physical AI,
+traffic patterns will fundamentally shift
+as we move from centralized models in
+data centers to distributed, autonomous
+AI agents embedded across our devices,
+vehicles and cities, commonly connected
+by 5G. Mobile networks are no longer
+only about providing best-effort
+connectivity, they are becoming critical,
+intelligent infrastructure that meets
+diverse application needs. Reflecting part
+of this shift is the continued rise in new
+commercial service offerings based on
+5G standalone (SA) network slicing and
+the number of communications service
+providers deploying 5G SA.
+In this edition of the Ericsson Mobility
+Report, we continue to look at how service
+providers are exploring new service
+offering opportunities with differentiated
+connectivity, and how networks must
+evolve to support emerging services
+with more demanding performance
+requirements, especially in the uplink.
+
+Today, 5G subscriptions have passed
+3 billion, and half of the world’s mobile
+data traffic is carried over 5G. Additionally,
+Fixed Wireless Access (FWA) is expanding
+steadily, with 5G-based adoption,
+monetization and scale increasing as a
+growing majority of service providers now
+offer FWA over 5G, representing around
+70 percent of all FWA providers. As this 5G
+momentum continues, we are entering a
+phase where 5G SA and 5G Advanced are
+unlocking new capabilities for industries,
+from ultra-precise manufacturing to
+immersive remote collaboration.
+Together with Qualcomm, we look at how
+AI is expanding mobile experiences, with
+smartglasses and other wearables emerging
+as new complementary user interfaces that
+extend digital interactions. Qualcomm also
+sees a growing interest in XR for enterprise
+and industrial environments, where mobility,
+reliability, security and deterministic
+performance are critical.
+We examine how SoftBank Corp.
+implemented a 5G SA-based network
+slicing trial at a major sporting event this
+year. They created five network slices
+
+on a shared physical infrastructure,
+running multiple use cases in parallel,
+each with distinct quality parameters.
+Learnings from such events can be used
+to refine commercial offerings.
+The next wave of innovation is being
+defined by cross-industry collaboration.
+No single player can unlock the full
+potential of network connectivity alone.
+By working together – across industries,
+ecosystems, and geographies – we can
+ensure that the networks of the future
+are not only more capable, but also more
+inclusive and resilient.
+I hope you find this report both
+engaging and useful. Let’s continue to
+shape the future together.
+Erik Ekudden
+Senior Vice President and
+Chief Technology Officer
+
+Contents
+Forecasts
+
+Articles
+
+04	5G subscriptions have now
+passed 3 billion
+06	Devices are increasingly shaped by AI
+07	Cellular IoT connections expected to
+approach 8 billion by the end of 2031
+08	5G subscriptions are expanding
+across regions
+10	Continued strong growth of mobile
+network data traffic in Q1 2026
+11	Traffic growth in mobile networks
+continues as 5G carries a larger share
+13	During 2025, an additional 400 million
+people worldwide gained 5G coverage
+14	5G FWA adoption accelerating
+
+18	Differentiated connectivity entering
+the market at speed
+20	Real-world slicing that delivers
+performance when it matters most
+23	The rise of uplink demand in
+AI-driven mobile networks
+27	The evolution of AI-enabled XR
+in mobile networks
+30	Mobility powers AI-driven
+enterprise transformation
+32	Methodology
+33	Glossary
+34	Global and regional key figures
+
+Executive Editor:
+Project Sponsor:
+Project Manager:
+Forecasts:
+Writer Editor:
+
+Peter Jonsson
+Patrik Cerwall
+Anette Lundvall
+David von Koch
+Steven Davis
+
+Co-writers:
+Hemanth Sampath, Pratik Das,
+Prashanth Hande (Qualcomm)
+Noriyuki Fujino, Yuka Sugimoto
+(SoftBank Corp.)
+Contributors:
+Fredrik Alriksson, Christian Andersson X,
+Jari Arkko, Greger Blennerud, Mischa Dohler,
+Lisa Englund, Jonas Kronander,
+Fredric Kronestedt, Per Lindberg,
+Frank Muller, Takayuki Takatori,
+Kosuke Takizawa, Allan Tart,
+Lisa Elénius Taylor, John Yazlle
+
+Forecasts
+The number of 5G subscriptions has passed the 3 billion mark, and half of the
+world’s mobile data traffic is now carried over 5G. Mobile network data traffic growth
+continued to exceed expectations, at 22 percent between Q1 2025 and Q1 2026.
+Fixed Wireless Access (FWA) adoption is also expanding – around 70 percent of
+all FWA providers now offer the service over 5G. Looking ahead, standardization
+discussions for 6G are already underway, with the first launches expected in markets
+that were quick to launch 5G.
+
+The adoption of 5G continues, and the number
+of 5G subscriptions has now passed 3 billion.
+
+5G networks now carry half of all
+mobile data traffic globally.
+
+Mobile network data traffic grew 22 percent
+between Q1 2025 and Q1 2026.
+
+The proportion of FWA service providers offering the service over
+5G has increased to 71 percent, up from 57 percent a year ago.
+
+4
+
+Ericsson Mobility Report | June 2026
+
+5G subscriptions have
+now passed 3 billion
+5G subscription uptake continues, adding 162 million to the
+total during the first quarter of 2026 to reach 3.1 billion.
+
+During 2025, around 660 million 5G
+subscriptions were added globally, with
+the total accounting for one-third of all
+mobile subscriptions at the end of
+the year. The highest penetration was in
+North America with 79 percent, followed
+by North East Asia at 60 percent,
+Western Europe at 54 percent and the
+Gulf Cooperation Council (GCC) countries
+at 53 percent. By the end of 2027, the
+number of 5G subscriptions is expected to
+increase by 1.2 billion compared with the
+end of 2025, and will overtake 4G as the
+dominant mobile access technology by
+subscription nine years after launch.
+
+Around 390 service providers have now
+launched commercial 5G services, and
+more than 90 of those have launched
+5G standalone (SA).1
+As subscribers migrate to 5G, the
+number of 4G subscriptions continues to
+decline. During the first quarter of 2026,
+4G subscriptions declined by 77 million,
+bringing the total to just below
+4.6 billion. 3G subscriptions declined by
+18 million during the same period, while
+2G subscriptions dropped by 23 million.
+
+Figure 1: Mobile subscriptions by technology (billion)
+8.8
+billion
+
+10
+
+9.5
+billion
+
+9
+
+2G and 3G network sunsetting continues
+around the world. The phasing out of 3G
+networks is predicted to happen more
+quickly than that of 2G in the coming years,
+but the timeline for this transition varies
+based on country and service provider.
+By the end of 2025, 80 service providers
+had completely finished shutting down
+their 3G networks, while 46 service
+providers had fully turned off all 2G services.2
+
+5G subscriptions are forecast to
+reach 6.4 billion by the end of 2031.
+
+6.4
+
+bn
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+6G3
+5G
+
+2
+
+LTE (4G)
+WCDMA (3G)
+
+1
+
+GSM (2G)
+CDMA (2G/3G)
+
+0
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+GSA and Ericsson (May 2026).
+GSA (December 2025).
+3
+This does not include early uptake of subscriptions for AI-enabled devices such as autonomous vehicles, smartglasses and drones.
+1
+2
+
+5
+
+Ericsson Mobility Report | June 2026
+
+Two-thirds of all mobile subscriptions
+expected to be 5G at the end of 2031
+Global 5G subscriptions are forecast to
+reach 6.4 billion in 2031 and comprise
+two-thirds of all mobile subscriptions.
+Leading service providers are expected
+to continue deploying 5G SA globally, with
+subscriptions projected to reach around
+3.9 billion in 2031, representing
+approximately 60 percent of all 5G
+subscriptions at that time. This is a
+somewhat more conservative outlook
+than six months ago, reflecting a moderate
+5G SA subscription growth in India toward
+the end of the period and slower 5G SA
+adoption in Latin America, Europe
+and the Middle East.
+In 2031, it is predicted that Western
+Europe and North America will have a
+5G subscription penetration of 95 and
+92 percent respectively, with the GCC
+countries and North East Asia following
+with a penetration of just below 90 percent.
+
+6G on the horizon
+Standardization discussions for 6G4
+have begun. AI-native 6G is expected to
+bring new capabilities, including:
+full support for integrated sensing and
+communication (ISAC); seamless
+integration between terrestrial and satellite
+networks to reduce coverage gaps; and a
+strong focus on energy efficiency. 6G is
+anticipated to have a core network built on
+the architectural principles of 5G SA and a
+new Radio Access Network (RAN)
+architecture with a new radio interface.
+For traditional use cases, such as enhanced
+mobile broadband (eMBB), Fixed Wireless
+Access (FWA) and the Internet of Things
+(IoT), 6G will advance the performance and
+service differentiation with guarantees. As
+enhanced and new network technologies
+open up new service possibilities, use cases
+like massive digital twinning, autonomous
+mobility and wide-area mixed reality are
+likely to gain broader commercial adoption.
+
+The first implementable specifications for
+6G are targeted for finalization by the end of
+2028 or early 2029. The first commercial 6G
+services are anticipated to appear around
+2030, varying between regions and
+countries. Early adopters are predicted to be
+the US, China, Japan, South Korea and the
+GCC countries, which all launched
+commercial 5G services relatively early
+compared to many other countries. India is
+positioning itself to accelerate its 6G timeline
+relative to its 5G deployments. Europe is
+expected to launch 6G about one year later
+than it did for 5G, relative to other regions,
+reflecting its later 5G SA deployment.
+Global 6G subscriptions5 are
+forecast to reach 180 million by the end
+of 2031, not including early uptake of
+subscriptions for AI-enabled devices such
+as autonomous vehicles, smartglasses and
+drones. If 6G subscription uptake happens
+earlier, the current forecast could be
+surpassed significantly.
+
+Satellite broadband subscriptions
+In recent years, there has been a growth
+in satellite networks, in particular large
+constellations of low-Earth orbit (LEO)
+satellites. These satellite networks can
+provide multiple services such as
+direct-to-device connectivity and fixed
+broadband internet. To meet the fixed
+broadband connectivity needs as we
+approach 2031, the mix of fiber, 5G FWA
+and satellite technologies will all be
+
+crucial to support an increasingly digital
+world. Globally, satellite broadband
+subscriptions are forecast to increase
+from around 10 million at the end of 2025
+to around 33 million by the end of 2031.
+By comparison, there will be a projected
+350 million FWA connections on mobile
+networks by 2031. The total number of
+all types of fixed broadband connections
+will be around 2 billion by 2031.
+
+Satellite broadband subscriptions:
+The number of subscriptions
+using a satellite broadband service
+operating in the fixed-satellite
+service (FSS) spectrum,
+using a dedicated satellite
+terminal/CPE, typically a dish
+or high-gain antenna.
+
+Figure 2: Satellite broadband subscriptions (million)
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+2022
+
+4
+5
+
+2023
+
+2024
+
+2025
+
+3GPP Release 21, based on ITU IMT-2030.
+Currently, 6G subscriptions are not published at a regional level.
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+6
+
+Ericsson Mobility Report | June 2026
+
+Devices are increasingly
+shaped by AI
+AI’s rapid progression opens multiple scenarios for
+what will be possible in devices, even in the short term.
+
+Smartglasses in the AI era
+The smartglasses market is nascent but
+growing rapidly. Global shipments reached
+about 10 million units in 2025 and analysts
+project strong double-digit growth in the
+coming years. AI/audio glasses are expected
+to represent the largest share, while
+smartglasses with displays must evolve to
+achieve mainstream adoption, affordability
+and all-day battery life. Already, early
+smartglasses integrate 4G connectivity, with
+5G reduced capability (RedCap) modems
+expected within the next three years.
+Smartglasses volumes are expected by
+analysts to grow 2–3 times in 2026, and
+are leading the way toward 6G for
+large-scale network use. The always-on
+aspect requires optimized uplink
+performance, paired with intelligent
+compute distribution between the device
+and network assets. Distributed compute is
+starting in 5G and expected to excel in 6G.
+Foldable devices evolving
+Foldable smartphones have become
+a flagship device, with offerings expected
+from all major vendors. Initial issues with
+hinges and display creases have been
+addressed and the segment is maturing, with
+volumes fluctuating but trending upward.
+Two distinct models exist: The “flip” currently
+drives volume, while the “fold” is expected to
+
+lead in innovation and AI differentiation,
+as the format is better suited to multitasking.
+In a flat or shrinking smartphone market due
+to memory constraints, the foldable segment’s
+market share is expected to grow significantly.
+Foldables are memory-intensive, but are still
+expected to be only moderately impacted by
+the memory crisis.
+eRedCap coming to market
+RedCap is now supported by most chipset
+and module vendors, with growth expected
+primarily in industrial devices and use cases.
+Market demand for RedCap sensors and other
+appliances continues to build. The first
+RedCap smartwatch has emerged, and this
+segment is anticipated to grow as 5G
+standalone (SA) deployments increase.
+To make 5G fully relevant for low-cost IoT,
+enhanced RedCap (eRedCap) will be
+introduced, with lab trials starting this year
+and full commercial potential expected from
+2028. At least five chipset vendors have
+committed to commercializing eRedCap. The
+key aspect is to be on par with LTE Cat-1bis
+pricing of a few USD per module, to become
+the 5G IoT solution of choice.
+Differentiated connectivity in devices
+The focus of network slicing has been on
+developing revenue-generating use cases
+for service providers. Major smartphone
+
+vendors now support UE Route Selection
+Policies (URSP) across OS platforms,
+enabling communication apps to benefit
+from network slicing. Service providers
+are combining this with Low Latency,
+Low Loss, and Scalable Throughput (L4S)
+in the application layers to create
+differentiated commercial offerings
+that can be monetized.
+6G taking shape
+Commercial 6G devices are expected
+within 3–4 years, and planning for the
+first 6G mode chipset feature content has
+started in parallel with the 3GPP
+standardization discussion. Decisions on
+hardware-affecting features are the most
+time-critical. As chipset development takes
+years, initial commitments on the standard
+direction must be made now.
+Notably, 6G discussions are already
+centered on use cases and
+commercialization. 6G could trigger
+a supercycle, an unusually strong
+multi-year upgrade wave, for several
+reasons: agentic AI will be native at the
+introduction of 6G; smartglasses will enter
+the 6G era with their full capabilities;
+connected physical AI device form factors
+established; and many chipset vendors are
+interested in being in the next generation
+from the start.
+
+Figure 3: Technology area readiness on devices and networks
+5G SA
+
+5G NSA/SA
+
+6G
+Legacy
+
+5G SA
+
+2027
+
+2028
+>200 networks
+
+SA roaming
+Audio
+
+AR glasses​
+
+2026
+>100 networks
+
+Screens
+
+Growing volume segment
+High performance
+
+Simple use cases
+
+Connectivity Companion device
+RedCap​ RedCap in wearables
+eRedCap​
+6G
+Note: Readiness means more than one infrastructure and device vendor is ready.
+
+Integrated RedCap
+Industry applications growing segment
+eRedCap
+
+eRedCap products
+
+Technology definition of 6G 3GPP
+Use case definitions and demos
+
+7
+
+Ericsson Mobility Report | June 2026
+
+Cellular IoT connections
+expected to approach
+8 billion by the end of 2031
+The total number of cellular IoT connections was around 4.5 billion
+at the end of 2025 and is forecast to have a CAGR of around 10 percent
+through to 2031, approaching 8 billion by that time.
+The Massive IoT technologies NB-IoT and
+Cat-M – supporting wide-area use cases
+involving large numbers of low-complexity,
+low-cost devices with long battery lives
+and low-to-medium throughput –
+continue to be rolled out around the
+world. 5G reduced capability (RedCap)
+is starting to gain traction and has now
+been commercially launched by 14 service
+providers across multiple global markets.
+Furthermore, 42 service providers in
+27 countries are currently investing in
+5G RedCap technology.1 Enhanced RedCap
+(eRedCap) is designed to further reduce
+the complexity and cost of 5G IoT devices.
+It offers lower peak data rates of 10 Mbps
+compared with RedCap. Use cases for
+eRedCap are similar to LTE Cat-1 and LTE
+Cat-1 bis, offering a compromise between
+performance and cost. To make 5G fully
+relevant for low-cost IoT, eRedCap will be
+introduced, with lab trials starting this year.
+Full commercial potential for eRedCap is
+expected in 2028 and beyond.
+
+The number of Broadband and Critical
+IoT (4G/5G) connections was around
+2.6 billion by the end of 2025 and these are
+expected to continue to connect the largest
+share of cellular IoT devices through 2031.
+This segment mainly includes wide-area
+use cases that require higher throughput,
+lower latency and larger data volumes than
+can be supported by Massive IoT devices.
+LTE Cat-1 devices, which support 10 Mbps
+downlink and 5 Mbps uplink speeds, are
+increasingly being used for a variety of
+use cases. This rise is fueled by growing
+demand for new use cases and the need to
+shift away from legacy technologies.
+2G and 3G networks continue to be shut
+down around the world to refarm spectrum
+for use with 4G and 5G. In many markets,
+the phasing-out of 3G networks is expected
+to occur more rapidly than that of 2G in the
+upcoming years, as sunsetting 3G networks
+enables the reuse of spectrum to strengthen
+4G and 5G user experiences. 2G networks,
+with their minimal use of spectrum, will
+
+Figure 4: Cellular IoT connections by segment and technology
+Broadband IoT and Critical IoT (4G/5G)
+
+Massive IoT (NB-IoT/Cat-M)
+
+continue to be utilized for voice and legacy
+IoT services for a longer duration. By the
+end of 2025, 80 service providers had
+completely finished shutting down their
+3G networks, while 46 service providers
+had fully turned off all 2G services.2
+The growth of Massive IoT technologies
+is enhanced by added capabilities in the
+networks, enabling Massive IoT to co-exist
+with 4G and 5G in frequency division
+duplex (FDD) bands, via spectrum sharing.
+By the end of 2031, a majority of
+cellular IoT connections are forecast to
+be Broadband IoT. As 5G New Radio is
+being introduced in old and new spectrum,
+throughput data rates will increase
+substantially for this segment. North
+East Asia is the leading region in terms of
+the number of cellular IoT connections,
+with a share of around 70 percent of all
+connections by the end of 2025.
+
+Figure 5: IoT connections (billion)
+Legacy (2G/3G)
+
+8
+7
+6
+
+IoT
+
+2025
+
+2031 CAGR
+
+Wide-area IoT
+
+4.9
+
+8.3
+
+9%
+
+Cellular IoT
+
+4.5
+
+7.8
+
+10%
+
+Short-range IoT
+
+17.5
+
+38.8
+
+14%
+
+Total
+
+22.3
+
+47.1
+
+13%
+
+5
+Note: Based on rounded figures. Cellular IoT figures
+are also included in the figures for wide-area IoT.
+
+4
+3
+2
+1
+0
+2019
+1
+2
+
+2020
+
+2021
+
+GSA, (April 2026).
+GSA, (December 2025).
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+8
+
+Ericsson Mobility Report | June 2026
+
+5G subscriptions are
+expanding across regions
+In 2031, 8 out of 10 regions will have more
+than 50 percent 5G subscription penetration.
+
+Figure 6: Mobile subscriptions by region and technology (percent)
+5G
+
+LTE (4G)
+
+WCDMA (3G)
+
+CDMA (2G/3G)
+
+GSM (2G)
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+2025
+
+2031
+
+47%
+
+28%
+
+11%
+
+47%
+
+14%
+
+56%
+
+14%
+
+67%
+
+14%
+
+68%
+
+35%
+
+81%
+
+60%
+
+87%
+
+53%
+
+88%
+
+79%
+
+92%
+
+54%
+
+95%
+
+69%
+
+76%
+
+82%
+
+69%
+
+46%
+
+46%
+49%
+
+41%
+
+39%
+37%
+
+33%
+
+28%
+21%
+
+12%
+SubSaharan
+Africa
+
+Middle East
+and North
+Africa
+
+South East
+Asia and
+Oceania
+
+Central and
+Eastern
+Europe
+
+45%
+
+37%
+
+Latin
+America
+
+India,
+Nepal and
+Bhutan
+
+11%
+
+8%
+
+North East
+Asia
+
+Gulf
+Cooperation
+Council
+
+8%
+
+5%
+
+North
+America
+
+Western
+Europe
+
+Note: All Middle East and North Africa figures include GCC countries. Currently, 6G subscriptions are not
+published on a regional level, but are included in 5G figures in regions where 6G is expected to launch early.
+
+Sub-Saharan Africa
+The telecom sector continues to drive
+growth in the region, fueled by a young
+population, wider access to affordable
+smartphones, and a rising demand for
+mobile data and digital services.
+Ongoing 4G rollouts and early 5G
+deployments are expected to gradually phase
+out legacy technologies. 3G networks are
+anticipated to sunset sooner than for 2G,
+with 3G subscriptions expected to decline
+by 8 percent annually to reach around
+90 million in 2031. 2G subscriptions are
+projected to fall by around 7 percent
+annually to a total of around 245 million.
+In 2031, 4G is set to account for 46 percent
+of all mobile subscriptions, while 5G is
+expected to reach 28 percent.
+Smartphone subscriptions are projected
+to rise to 960 million in 2031, increasing
+the share of total mobile subscriptions
+from 57 percent to 73 percent, reflecting
+growing consumer demand and the
+evolving mobile ecosystem.
+Service providers are increasingly
+diversifying their offerings, with a strong
+focus on fintech – particularly mobile
+
+money services – and Fixed Wireless
+Access (FWA) to connect both consumers
+and enterprises. The sector’s resilience
+and long-term momentum will hinge on
+ongoing infrastructure developments and
+supportive regulatory environments.
+Middle East and North Africa
+Challenging economic and societal forces
+are driving rapid change in this region.
+However, the telecom sector continues to
+show resilience, providing a communication
+lifeline for consumers, businesses and
+mission-critical organizations.
+Efforts to diversify economies and
+drive digital transformation are helping to
+stabilize the sector and sustain investment
+momentum in some countries. Although
+mobile subscriptions are projected to grow
+at a rate of just 1 percent annually to 2031,
+5G subscriptions are forecast to rise with a
+CAGR of around 30 percent over the same
+period. This signals a shift in how users
+engage with digital services.
+In 2031, 4G is anticipated to make up
+49 percent of mobile subscriptions, with 5G
+increasing from 11 percent to 47 percent
+
+of total subscriptions. 5G FWA is gaining
+traction as a complement to traditional
+broadband offerings. Service providers
+are enhancing network capacity while
+minimizing energy consumption and their
+carbon footprint – modernization is key
+to achieving business goals and reducing
+energy costs to meet net-zero ambitions.
+South East Asia and Oceania
+5G subscriptions in the region are forecast
+to reach around 670 million in 2031.
+Most markets are focusing on coverage and
+incremental performance gains. While only
+one service provider has deployed
+nationwide 5G standalone (SA), many are
+beginning their SA journey with limited
+deployments focused on urban areas.
+5G subscription growth is led by Thailand,
+Vietnam and the Philippines. Australia is
+progressing toward 5G Advanced and
+autonomous networks to deliver
+high-performance wireless broadband
+and enterprise-grade connectivity.
+Singapore is embedding 5G into solutions
+like secure mobile workspaces, positioning
+5G as a platform for innovation and new
+
+9
+
+digital services for both business and
+consumers. Thailand is accelerating
+5G adoption with personalized, digital
+value-added services that improve
+customer satisfaction. Vietnam stands out
+for the speed and scale of its 5G expansion.
+Indonesia’s upcoming 700 MHz and
+2.6 GHz spectrum auction could accelerate
+5G deployment, with all major service
+providers likely to participate.
+5G FWA is emerging as a monetization
+opportunity. In Australia, FWA is maturing
+into a mainstream offering with predictable
+performance and service differentiation.
+In the Philippines, 5G FWA growth highlights
+how 5G is connecting fiber-constrained areas.
+Central and Eastern Europe
+Technology adoption and subscription
+uptake has historically been slower in this
+region than in Western Europe. 5G
+deployment varies by country, partly due
+to slower spectrum allocation processes.
+However, the region has seen several
+accelerated 5G deployments, driven by
+growing demand. Czechia has progressed
+with deployments of private mobile
+networks for manufacturing, educational
+campuses and mission-critical medical
+facilities. Croatia actively leverages 5G to
+support tourism and build connected smart
+cities, while 5G in Hungary is going beyond
+smartphones to the automotive sector and
+other use cases. New data shows a higher
+5G share of subscriptions in the region
+than previously forecast, reaching around
+80 million at the end of 2025.
+4G is the dominant technology,
+accounting for 82 percent of all subscriptions
+at the end of 2025, but this share is expected
+to decline as subscribers migrate to 5G.
+Latin America
+5G is gaining momentum in Latin America
+after a slow start. Although the region has a
+relatively small base of around 110 million
+5G subscriptions, the large overall subscriber
+base is projected to drive 5G subscriptions to
+550 million by the end of 2031. 5G SA
+deployment has been slower than expected.
+However, 5G SA frontrunner deployment of
+5G Advanced, network slicing and open
+programmable architectures is expected to
+fuel a broader digital transformation wave.
+India, Nepal and Bhutan
+5G adoption in India is continuing to grow.
+The availability of affordable 5G-enabled
+smartphones and devices, expanded 5G
+footprint covering almost all districts,
+combined with the expansion of 5G FWA
+services by Indian service providers is fueling
+data traffic growth. The expansion of 5G
+FWA broadband to homes and businesses,
+especially in rural and semi-urban areas,
+
+Ericsson Mobility Report | June 2026
+
+is helping bridge the digital divide. In a first
+for India, one service provider recently
+launched differentiated connectivity
+services based on network slicing for its
+postpaid 5G customers.
+Regionally, 5G subscriptions reached
+430 million at the end of 2025, accounting
+for 35 percent of total mobile subscriptions.
+Around 1.1 billion 5G subscriptions are
+expected by the end of 2031, reaching
+81 percent subscription penetration.
+4G is currently the dominant subscription
+type, making up 46 percent of the total.
+4G subscriptions are forecast to decline
+from around 570 million in 2025 to around
+160 million in 2031, as subscribers
+migrate to 5G.
+North East Asia
+The region had the second-highest 5G
+subscription penetration globally at the end
+of 2025, at 60 percent – with three major
+markets surpassing 65 percent.1 Adoption of
+differentiated connectivity is expanding,
+enhancing user experience and creating
+opportunities for service providers to
+monetize personalized services.
+In mainland China, 5G subscriptions
+reached 1.2 billion at the end of 2025, with
+about 70 percent of mobile data traffic
+carried on 5G networks. Over 90 percent of
+smartphone shipments in 2025 were
+5G-capable,2 and 5G Advanced is available
+nationwide. Two million 5G sites have been
+upgraded to support reduced capability
+(RedCap), and high-order carrier aggregation
+is activated in more than 300 cities.3
+In Japan, progress in 5G SA is improving
+consumer experiences, and offerings
+leveraging differentiated connectivity
+are emerging. Service providers are
+increasing investments in AI to support
+future monetization.
+South Korea continues to offer high
+average 5G throughput while expanding
+coverage, including in rural areas, through
+network sharing. Service providers remain
+focused on improving user experience and
+preparing networks for the AI era, alongside
+efforts to monetize 5G services.
+In Hong Kong, service providers report
+that 5G ARPU outperforms 4G, contributing
+positively to financial performance.
+In Taiwan, service providers are testing
+differentiated connectivity offerings in
+segments such as live entertainment, while
+FWA services continue to gain traction as a
+new revenue opportunity. Commercial 5G SA
+services are expected within one to two years.
+Gulf Cooperation Council (GCC)
+The GCC has a small mobile subscriber
+base, yet it is notable for its high
+penetration, levels of urbanization and
+consumer spending power.
+
+ inistry of Industry and Information Technology (MIIT).
+M
+China Academy of Information and Communications Technology (CAICT).
+3
+Ministry of Industry and Information Technology (MIIT).
+1
+2
+
+Service providers are transitioning from
+traditional telcos to digital service providers.
+This is enabled by extensive 5G deployment
+and the adoption of technologies such as
+AI, cloud computing and edge solutions.
+Network slicing is expected to be key for
+delivering customized services.
+In 2031, mobile subscriptions are
+expected to reach 95 million. Legacy
+network subscriptions will decline as users
+migrate to next-generation connectivity.
+By the end of 2031, 5G is expected to
+represent 88 percent of all mobile
+subscriptions, totaling 84 million.
+FWA adoption is driven by demand
+for high-speed alternatives to fixed
+broadband, as well as national initiatives
+aimed at reaching underserved areas
+and supporting smart-city ambitions.
+North America
+5G subscriptions reached around
+370 million at the end of 2025, accounting
+for 79 percent of all mobile subscriptions at
+that time and are expected to reach around
+460 million in 2031. Leading service providers
+anticipate continued growth for FWA and are
+introducing differentiated connectivity to offer
+tailored experiences. Extensive mid-band 5G
+network coverage is the foundation for new
+consumers, enterprises and government
+innovations across the broader tech
+ecosystem. The upcoming major international
+soccer tournament is driving updates to
+networks in venues and across host cities to
+deliver the digital portion of the destination
+experiences millions of fans expect.
+Western Europe
+5G subscription growth is strong in the
+region, reaching around 300 million in
+2025, which equals a penetration of
+54 percent. The penetration varies between
+countries, where markets that launched
+5G early, such as the UK and Finland, have
+already achieved high penetration relative
+to other markets. 5G mid-band and SA
+are gaining traction, with leading service
+providers launching new offerings based
+on differentiated connectivity in areas
+such as payment terminals, live
+broadcasting and photojournalism. In
+Spain, a major service provider launched
+the first commercial service in the country
+based on differentiated connectivity in
+Q1 2026, designed to guarantee enhanced
+connectivity during periods of extreme
+demand, such as concerts, major public
+celebrations, or cultural events with large
+numbers of users in attendance.
+Going forward, 4G is expected to
+decline in favor of 5G. 5G subscriptions are
+anticipated to reach around 540 million at
+the end of 2031, representing 95 percent
+penetration at that time.
+
+10
+
+Ericsson Mobility Report | June 2026
+
+Continued strong growth
+of mobile network data
+traffic in Q1 2026
+Mobile network data traffic growth continued to exceed
+expectations, rising 22 percent between Q1 2025 and Q1 2026.
+
+The year-on-year growth in Q1 2026 was
+mainly driven by continued strong growth
+in India and North America. Total monthly
+global mobile network data traffic reached
+210 EB. The quarter-on-quarter mobile
+network data traffic growth between
+Q4 2025 and Q1 2026 was around 5 percent.
+
+Mobile data traffic growth is being driven
+by both rising smartphone subscriptions
+and increasing average data volume per
+subscription, fueled primarily by increased
+video content consumption. At the end of
+2025, video traffic accounted for around
+75 percent of all mobile data traffic.
+
+Figure 7 shows the total monthly global
+network data traffic from Q1 2019 to
+Q1 2026, along with year-on-year
+percentage growth for mobile network
+data traffic.
+
+Figure 7: Global mobile network data traffic and year-on-year growth
+Year-on-year growth
+
+250
+
+100
+
+225
+
+90
+
+200
+
+80
+
+175
+
+70
+
+150
+
+60
+
+125
+
+50
+
+100
+
+40
+
+75
+
+30
+
+50
+
+20
+
+25
+
+10
+
+0
+
+Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+Note: Mobile network data traffic also includes traffic generated by Fixed Wireless Access services.
+
+2024
+
+2025
+
+Q2 Q3
+
+Q4 Q1
+2026
+
+0
+
+Year-on-year growth (percent)
+
+Total (uplink + downlink) traffic (EB per month)
+
+Data
+
+11
+
+Ericsson Mobility Report | June 2026
+
+Traffic growth in mobile
+networks continues as
+5G carries a larger share
+Mobile network data traffic growth is projected to continue,
+driven by 5G and Fixed Wireless Access (FWA).
+
+Both global mobile data traffic and total
+mobile network data traffic, which includes
+FWA, grew slightly above expectations
+during 2025, ending the year at 146 EB per
+month and 203 EB per month respectively.
+Looking ahead, the projected growth
+rate for mobile data traffic during the
+forecast period remains consistent with
+the estimate from six months ago, with a
+growth factor of around 2.2 to reach
+328 EB per month in 2031. Including FWA,
+
+total mobile network data traffic is
+anticipated to grow by a factor of around
+2.5 during the period, slightly higher than
+the estimate six months ago, reaching
+515 EB per month. Notably, 2025 marked
+the highest yearly net addition of mobile
+network data traffic so far.
+During 2025, the share of mobile data
+traffic carried over 5G increased from
+34 percent to 48 percent and is projected
+to reach 85 percent in 2031. Total mobile
+
+Figure 8: Global mobile network data traffic (EB per month)
+FWA (4G/5G)
+
+Mobile data (5G)
+
+Mobile data (2G/3G/4G)
+
+550
+
+500
+
+450
+
+400
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+network data traffic is expected to grow
+at 14 percent year-on-year in 2031, with
+a CAGR of 17 percent over the full forecast
+period. Mobile data traffic generated by
+6G subscriptions is anticipated to represent
+a small share of the total in 2031.
+Multiple factors impact traffic growth
+Mobile data traffic growth can be highly
+volatile and vary significantly between
+years, regions, markets and service providers,
+depending on local market dynamics. Factors
+that impact traffic growth include:
+• New use cases and devices:
+Adoption of AR-enabled devices
+and scalable, multimodal generative
+AI (GenAI) applications will be key.
+Current forecasts assume initial XR
+uptake (AR, VR, MR) toward the end
+of the forecast period. Faster adoption
+could drive traffic significantly beyond
+current projections.
+• Service and tariff evolution:
+Changes in available plans
+and pricing structures.
+• Content data intensity:
+Growth in data-demanding services
+and applications.
+• Network improvements:
+Continued performance gains in
+deployed infrastructure.
+• Technology migration:
+The pace at which subscribers
+in populous markets like India,
+Latin America, South East Asia, and
+Africa adopt newer mobile generations.
+• Split between FWA and mobile
+data traffic:
+As FWA connections expand in regions
+lacking fixed broadband, household
+traffic may shift from smartphones to
+FWA – especially for streaming services.
+• Device distribution:
+Smartphone shipment volumes in
+different regions.
+
+12
+
+Ericsson Mobility Report | June 2026
+
+Figure 9: Mobile data traffic per active smartphone1 (GB per month)
+2025
+
+2031
+
+CAGR
+2025–
+2031
+
+India, Nepal
+and Bhutan
+
+37
+
+70
+
+11%
+
+Western Europe
+
+25
+
+59
+
+15%
+
+North America
+
+25
+
+52
+
+13%
+
+Central and
+Eastern Europe
+
+23
+
+50
+
+14%
+
+Gulf Cooperation
+Council
+
+30
+
+49
+
+8%
+
+Middle East and
+North Africa2
+
+21
+
+47
+
+14%
+
+North East Asia
+
+23
+
+45
+
+12%
+
+Global average
+
+22
+
+42
+
+12%
+
+South East Asia
+and Oceania
+
+21
+
+40
+
+12%
+
+Latin America
+
+15
+
+32
+
+14%
+
+Sub-Saharan Africa
+
+5
+
+12
+
+14%
+
+Regions
+75
+
+70
+
+65
+
+60
+
+55
+
+50
+
+45
+
+40
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+There are significant variations in monthly
+data consumption within all regions, with
+some individual countries and service
+providers having considerably higher or lower
+consumption than the regional averages.
+Both Western Europe and the Middle East
+and North Africa regions are projected to have
+the strongest growth in monthly mobile data
+traffic per active smartphone during the
+forecast period, with a 15 percent CAGR,
+despite the already high consumption levels
+in Western Europe. The India region –
+including Nepal and Bhutan – continues to
+have the highest average monthly
+consumption of mobile data traffic per active
+smartphone, reaching 37 GB at the end of
+2025, and is expected to reach 70 GB in 2031.
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+By comparison, the global monthly
+average was 22 GB at the end of last year
+and is anticipated to reach 42 GB in 2031,
+representing a CAGR of 12 percent.
+As traffic demand varies across regions
+and over time, it is important to keep in mind
+that average monthly data traffic growth in
+a region cannot be used to estimate daily
+peak traffic growth in a local area, or to
+support network evolution strategies there.
+Traffic growth is not uniform across
+locations within a service provider’s
+network. For example, in dense urban
+locations, traffic demands can be up to
+1,000 times larger relative to rural areas.3
+
+Average mobile data traffic per active
+smartphone reached 22 GB per month
+globally at the end of 2025.
+
+22
+
+Traffic per active smartphone refers to all traffic generated by that device, regardless of the number of subscriptions attached.
+All Middle East and North Africa figures include the Gulf Cooperation Council countries.
+3
+Ericsson Mobility Report, “Exploring how traffic patterns drive network evolution” (June 2023).
+1
+2
+
+GB
+
+13
+
+Ericsson Mobility Report | June 2026
+
+During 2025, an additional
+400 million people worldwide
+gained 5G coverage
+Significant regional coverage gaps and site upgrade
+opportunities remain, as half of the world outside
+mainland China still lacks 5G coverage.
+There are currently 838 4G networks
+deployed worldwide, with 359 upgraded
+to LTE-Advanced and 452 LTE devices
+supporting Cat-16.1 By the end of 2025,
+4G population coverage outside mainland
+China had reached 90 percent globally and
+is projected to exceed 95 percent in 2031.
+The build-out of 5G continues,
+with around 390 networks launched
+worldwide. Global 5G population coverage
+reached 60 percent at the end of 2025,
+extending 5G coverage to an additional
+400 million people during the year. Outside
+mainland China, 5G coverage is projected
+to increase from 50 percent in 2025 to
+about 85 percent in 2031.
+5G mid-band, either delivered
+through time division duplex (TDD)
+or frequency division duplex (FDD),
+combines high capacity with good
+coverage. It is available in most
+markets, making it an ideal choice for
+delivering the full 5G experience.
+
+When combined with a low-band FDD 5G
+carrier, mid-band can provide full coverage
+and mobility. Good mid-band coverage is
+also essential for enabling differentiated
+connectivity and unlocking new revenue
+opportunities across consumer and
+enterprise use cases.
+Large regional variations in 5G coverage
+By the end of 2025, 5G mid-band
+population coverage outside mainland
+China reached about 45 percent, but
+coverage levels vary significantly across
+regions. Africa has the lowest total and
+mid-band 5G coverage, which both
+reached about 10 percent at the end of
+2025. The Middle East shows somewhat
+higher levels, with total and mid-band
+coverage of about 20 percent.
+
+Figure 10: World population and mid-band coverage2 split by region (end of 2025)
+5G total
+
+5G mid-band
+60%
+55%
+50%
+45%
+
+World
+World (without
+mainland China)
+North America
+Europe (without Russia)
+
+60%
+
+Middle East
+
+Asia-Pacific (without
+India and mainland China)
+
+95%
+90%
+85%
+
+4G
+95%
+
+2031
+
+2025
+
+10%
+10%
+
+50%
+
+5G
+35%
+35%
+
+Mainland China
+Note: The figures in these graphs are rounded and refer to the coverage of each technology.
+The ability to utilize the technology is subject to factors such as access to devices and subscriptions.
+
+2
+
+90%
+
+2025
+
+India
+
+1
+
+Figure 11: World population coverage
+outside mainland China, by technology
+
+30%
+25%
+20%
+20%
+
+Latin America
+
+Africa
+
+Latin America, with 30 percent total and
+25 percent mid-band 5G coverage,
+and Asia-Pacific (outside India and
+mainland China), with around 35 percent
+total and mid-band coverage, both remain
+below the global average for 5G population
+coverage. Extensive total and mid-band
+5G coverage has been established across
+North America, mainland China and
+India, now covering 90–95 percent of the
+population in these regions.
+Despite these coverage advancements,
+only around 35 percent of sites globally,
+outside of mainland China, have
+been upgraded to 5G mid-band.
+
+Ericsson and GSA (May 2026).
+Please see the Methodology for a full definition of population coverage.
+
+2031
+95%
+95%
+95%
+95%
+
+85%
+
+14
+
+Ericsson Mobility Report | June 2026
+
+5G FWA adoption
+accelerating
+Fixed Wireless Access (FWA) is a clear 5G monetization use case.
+The share of FWA service providers offering the service over 5G has
+reached 71 percent, with the highest annual increase in 4 years.
+Continued global FWA momentum
+FWA is continuing to grow solidly
+in terms of the:
+• Adoption: Proportion of service
+providers offering FWA over 5G
+• Monetization: Share of service providers
+with speed-based tariff plans
+• Scale: Number of connections and the
+traffic volume per connection
+
+An updated study1 of retail packages
+offered by service providers reveals that
+83 percent have an FWA offering.
+There are 175 service providers offering
+FWA services over 5G, representing
+71 percent of all FWA service providers.
+Globally, the share of service providers
+offering FWA over 5G has grown
+14 percentage points in the past year,
+
+Figure 12: Global FWA service provider adoption 2022–2026
+FWA (total)
+
+Percentage of FWA that is 5G
+
+Percentage of FWA that is speed based
+83%
+
+80%
+
+79%
+
+77%
+
+83%
+
+71%
+57%
+
+53%
+41%
+32%
+
+40%
+27%
+
+21%
+
+0%
+
+57%
+
+51%
+
+April 2022
+
+April 2023
+
+April 2024
+
+April 2025
+
+April 2026
+
+Figure 13: Regional FWA service provider adoption 2026
+FWA (total)
+
+Percentage of FWA that is 5G
+
+Percentage of FWA that is speed based
+100%
+100%
+
+95%
+89%
+
+89%
+
+96%
+89%
+
+83%
+
+82%
+
+87%
+
+55%
+
+67%
+
+64%
+
+58%
+
+54%
+43%
+
+0%
+
+1
+
+North
+America
+
+81%
+
+Central
+and Eastern
+Europe
+
+Western
+Europe
+
+Middle
+East
+
+55%
+
+40%
+
+Asia-Pacific
+
+36%
+
+Africa
+
+32%
+
+Latin
+America
+
+Ericsson study of 304 service providers, representing around 90 percent of global mobile revenues.
+
+the highest annual increase in adoption
+in four years. This momentum is reflected
+in new 5G FWA launches across diverse
+markets, including Algeria, Argentina,
+Bangladesh, Morocco, Taiwan, Türkiye
+and Vietnam.
+Speed-based FWA tariff plans
+continue to grow
+Speed-based tariff plans are commonly
+offered for fixed broadband services, such
+as those delivered over fiber or cable.
+Consumers understand this type of
+tariff well, enabling service providers to
+monetize FWA as a broadband alternative.
+Speed-based tariff plans are now offered
+by 57 percent of FWA service providers, up
+from 51 percent a year ago. The remaining
+43 percent offer only volume-based tariff
+plans (buckets of GB per month). Among
+those offering 5G FWA services, 70 percent
+offer speed-based tariff plans.
+Regional variations
+There are regional variations in how service
+providers adopt FWA:
+• FWA adoption is widespread globally.
+In six out of seven regions, 81 percent
+or more of service providers offer FWA.
+• In the past year, there has been
+continuous growth in the number
+of service providers offering
+speed-based plans, driven primarily
+by Western Europe.
+• Latin America remains the region with
+the most untapped potential for FWA.
+
+15
+
+Ericsson Mobility Report | June 2026
+
+Figure 14: FWA connections (millions)
+5G
+
+4G and other technologies
+
+400
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+2021
+
+2022
+
+2023
+
+350 million FWA connections in 2031
+Global FWA connections are expected
+to grow from 185 million at the end of
+2025 to 350 million by the end of 2031,
+representing 17 percent of all fixed
+broadband connections. Of these
+350 million connections, close to
+85 percent are expected to be over 5G.
+4G FWA connections are predicted
+to peak in 2026. Considering a global
+average household size of about four
+people, 350 million FWA connections
+equates to approximately 1.4 billion
+individuals being served by FWA
+broadband by the end of 2031.
+FWA impact on global mobile
+network data traffic
+At the end of 2025, FWA accounted for
+28 percent of global mobile network data
+traffic and is projected to grow by more
+than 3 times to around 187 EB per month
+by the end of 2031, representing 36 percent
+of total mobile network data traffic.
+
+2024
+
+2025
+
+2026
+
+2027
+
+FWA connection advancements
+• T-Mobile US closed 2025 with 8.5 million
+FWA connections, subsequently raising
+its long-term target to 15 million by 2030.
+• AT&T US reported 292,000 FWA net
+additions in Q1 2026, highlighting
+strong momentum in its 5G-based
+offering towards the consumer and
+business segments.
+• In Q1 2026, the three largest US service
+providers added almost 1 million FWA net
+add connections, and they have captured
+the majority of the broadband growth
+for the past 16 consecutive quarters. As
+a result, their combined FWA user base
+stands at over 17 million connections.
+• There is robust demand for FWA in
+India, with the combined number of
+connections from Jio and Airtel reaching
+almost 17 million at the end of Q1 2026.
+
+2028
+
+2029
+
+2030
+
+2031
+
+In 2031, around 1.4 billion
+people globally will be served
+by FWA broadband.
+
+1.4
+
+bn
+
+16
+
+Ericsson Mobility Report | June 2026
+
+Progress in differentiated connectivity2
+• COSMOTE TELEKOM in Greece launched
+5G FWA with differentiated connectivity,
+fueling nearly threefold growth in
+FWA connections, surpassing 100,000
+as of Q1 2026.
+• Telia Company has launched FWA
+offerings based on differentiated
+connectivity in Estonia and Lithuania,
+targeting premium connectivity needs.
+• In December, Verizon launched a new
+FWA solution for businesses, delivering
+superior uplink capacity and SLA-backed
+performance through 5G standalone and
+differentiated connectivity.
+
+Markets with strong FWA growth
+consistently excel across both dimensions,
+while slower-growth regions typically show
+limited progress in 5G deployment and
+monetization maturity.
+5G FWA uptake is strong in
+North America, the Nordics, the
+Gulf Cooperation Council (GCC) countries
+and parts of Asia, spanning markets with
+over 95 percent fiber-connected homes to
+low-ARPU markets like India. By contrast,
+growth in Latin America, Africa and parts
+of South East Asia remains limited,
+despite significant underlying demand
+and long-term potential.
+
+COSMOTE TELEKOM has seen
+close to a threefold increase
+in FWA connections.
+
+3
+
+x
+
+Fastest-growing FWA markets
+are highly mature
+In an Ericsson global benchmarking study3
+assessing 5G FWA maturity, two key
+dimensions were evaluated:
+• 5G deployment maturity:
+Characterized by 5G mid-band
+population coverage, which delivers the
+step-change performance needed for a
+fiber-like FWA experience.
+• FWA monetization maturity:
+Refers to the maturity of FWA offerings
+based on adoption of 5G FWA and
+speed-based tariff plans.
+
+Figure 15: Successful 5G FWA markets excel in two dimensions
+Strong 5G FWA uptake
+
+Emerging 5G FWA uptake
+
+World
+
+5G FWA speed-based adoption
+
+Nordics
+
+US
+
+Australia
+Western
+Europe
+
+North America
+
+FWA monetization maturity
+
+GCC
+India
+
+Central Eastern
+Europe
+
+Middle East
+
+World
+
+Japan
+
+APAC
+South East Asia
+
+Africa
+Brazil
+Latin America
+
+5G mid-band population coverage
+0%
+
+2
+3
+
+5G deployment maturity
+
+All FWA service provider data comes from the latest company official quarterly financial reports.
+For further details, please see the Ericsson FWA Handbook.
+
+100%
+
+Articles
+AI is changing the telecom landscape. Our articles include a discussion on how it is
+shifting mobile user experiences and behavior, written in collaboration with Qualcomm;
+the growth in uplink traffic AI is likely to bring about; and how the convergence of AI,
+cloud and mobile is enabling enterprise transformation. Differentiated connectivity
+services are another important topic, with further articles touching on the growing
+number of network slicing services coming to market, and an exploration of a real-world
+network slicing trial that SoftBank Corp. ran at a major sporting event.
+
+Differentiated connectivity offerings are
+entering the market at speed, with 84
+offerings based on 5G SA network slicing
+now commercially available.
+
+SoftBank ran a network slicing trial
+at a major sporting event that successfully
+demonstrated how to serve multiple use
+cases simultaneously, without impacting
+general user experience.
+
+Page 18
+
+Uplink growth already outpaces downlink
+in some networks, with many not currently
+dimensioned for the shifting traffic patterns
+brought about by AI applications.
+Page 23
+
+Page 20
+
+With Qualcomm, we explore how shifting
+mobile experiences, from user-initiated
+sessions to continuous, “heads-up”
+engagement with AI and XR will increase
+demands on networks.
+
+AI, cloud and mobile is the foundation
+for enterprise digital transformation, but
+many organizations have not yet scaled
+them, representing an opportunity for
+service providers.
+
+Page 27
+
+Page 30
+
+18
+
+Ericsson Mobility Report | June 2026
+
+Differentiated connectivity
+entering the market at speed
+The number of commercially available offerings based on 5G standalone (SA)
+network slicing has surged to 84 – a significant jump from the 65 reported
+just 6 months ago – signaling that differentiated connectivity is rapidly
+moving from early adoption to mainstream commercialization.
+Key insights
+• Growth is broadly distributed
+across regions, with Europe and
+Asia-Pacific continuing to lead,
+consistent with findings from
+six months ago.
+• Ambition is outpacing execution
+in many markets. Service providers
+have the intent and, increasingly,
+the network capability, but gaps in
+marketing strategy, go-to-market
+readiness and contextual
+engagement models remain critical
+obstacles to scaling.
+• Context-driven engagement
+dramatically outperforms
+traditional sales channels:
+In-the-moment, app-integrated
+offers have been shown to be up to
+20 times more effective than
+conventional outreach.
+
+From 65 to 84: The numbers tell
+a story of rapid scaling
+The previous edition of the Ericsson
+Mobility Report identified that 65 out
+of 118 total differentiated connectivity
+offerings were commercially available.
+Updated analysis of publicly available
+information across more than 300 service
+providers in 134 markets shows that
+number has risen to 84 out of 151 –
+equivalent to an annual growth rate of
+around 58 percent.
+The regional distribution of these
+offerings remains broadly consistent –
+Europe leads with approximately
+41 percent of all commercial offerings
+globally, followed by Asia-Pacific at
+around 24 percent. North America
+contributes approximately 16 percent,
+with the remainder distributed across the
+Middle East and Africa, Latin America
+and North East Asia regions.
+
+The majority of new offerings come from
+service providers with existing commercial
+services. However, seven service providers
+have introduced their first offering(s),
+alongside their recent launches of 5G SA.
+Most of these service providers, six out of
+the seven, are in Europe, while the other
+is in North East Asia.
+There are also 14 new trials and
+proofs of concept, of which about half are
+venturing into use cases outside of the
+existing commercial cases. These include
+slicing for self-driving trucks on public roads
+and autonomous drone systems, along with
+various advanced public safety and defense
+applications. About 57 percent of these
+trials are happening in Europe, 29 percent
+in Asia Pacific and the rest are split between
+North and Latin America.
+Most of the new commercial offerings
+are found in the B2B segment, but B2C and
+B2B2C offerings are growing as service
+providers develop more consumer use
+cases. The majority of the B2C offerings
+are boost solutions. While they leverage
+5G SA to deliver performance improvement,
+they are typically too generic to address
+any specific needs of most consumers
+or businesses, and mostly become “just
+another G” type of offering. The exceptions
+are more targeted offerings – focusing
+on gaming, live event connectivity, video
+calling and premium FWA tiers.
+Understanding the drivers: Why now?
+The number of service providers with
+commercially deployed 5G SA is now
+around 90. The evidence points to a
+market building real and sustained
+momentum – and the high growth in
+commercially launched differentiated
+connectivity offerings is no coincidence.
+Several converging factors are at work.
+Network readiness has crossed a
+threshold: For several years, 5G SA – the
+architecture that enables true network
+slicing and differentiated connectivity –
+
+was limited to a small number of early
+movers. That picture has changed
+materially. Today, conversations with
+service providers on the topic of
+differentiated connectivity have largely
+shifted from “whether” they will deploy
+5G SA, to “when” they will – and what they
+can offer once they do so. Technology is no
+longer the gating factor.
+Confidence is spreading through the
+ecosystem: The service providers that
+launched commercial services earliest –
+some as far back as 2022 – have had time
+to validate their approaches and refine their
+offerings. Some service providers are now
+beginning to report tangible results, whether
+in financial terms or through measurable
+uptake. Early movers’ experiences show that
+customers are willing to pay for guaranteed
+performance at key moments, such as during
+a gaming session or for priority connectivity
+at a crowded venue. The rest of the market
+is taking note.
+Business model innovation is maturing:
+The range of approaches in the market –
+from subscription-based consumer tiers
+and event-specific boosts, to enterprise
+SLA-backed services – reflects growing
+sophistication in how service providers
+approach monetization of differentiated
+connectivity services. As mentioned above,
+now that the network technology is
+available, focus has shifted toward defining
+offers for customer segments and working
+out how to communicate their value.
+
+Commercially available differentiated
+connectivity offerings have risen from
+65 to 84, equivalent to an annual growth
+rate of 58 percent.
+
++58
+
+%
+
+19
+
+Ericsson Mobility Report | June 2026
+
+Figure 16: Global instances of network slicing coverage – total/commercial
+
+North America
+
+18/14
+
+Europe
+
+71/34
+
+Central and
+Latin America
+
+11/8
+
+Middle East
+and Africa
+
+4/0
+151/84
+
+North East Asia
+
+South East Asia,
+Oceania and India
+
+10/8
+
+37/20
+
+27
+
+43
+
+81
+
+B2C
+
+B2B2C
+
+B2B
+
+Total/commercial
+
+The persistent challenge:
+Bridging ambition and execution
+Despite the encouraging trajectory
+of uptake, a significant gap remains
+between the ambition many service
+providers express and their ability to
+execute at scale. This pattern repeats
+consistently in discussions and
+collaborative engagements with service
+providers across markets.
+In these settings, a familiar dynamic
+plays out. A service provider articulates a
+clear ambition: to launch a differentiated
+gaming offer, provide enterprises with
+SLA-backed mobile connectivity, or
+offer real-time connectivity boosts for
+consumers at live events. The vision is
+there, but when the conversation turns to
+execution, important gaps appear.
+The marketing strategy may be
+underdeveloped – a compelling proposition
+exists on a slide deck, but the customer
+segmentation, pricing logic and channel
+strategy have not been worked through.
+Additionally, technical requirements may
+not yet be fully aligned with service design –
+the network capability exists in principle,
+but the majority of service providers have
+not updated operational systems in order
+to provision, monitor and assure the service
+at scale. Furthermore, the go-to-market
+
+assumptions about how customers
+will discover and adopt the offering
+often do not hold up under scrutiny.
+This reflects the inherent complexity
+of bringing a new category of connectivity
+service to market. Differentiated
+connectivity requires alignment across
+the entire organization, spanning
+technology, business and customer
+experience functions in ways that
+traditional service plans did not.
+Getting that alignment right takes
+time, cross-functional effort and a
+willingness to work through the details.
+The right message at the right moment
+Of all the execution challenges, the
+question of how to reach customers with
+the right offer at the right moment remains
+the most underestimated. Evidence
+consistently shows that connectivity
+performance is most salient – and most
+valued – when it is about to matter, with
+app-integrated offers having shown to
+be up to 20 times more effective than
+any other marketing channel. A user
+preparing to start a gaming session, join
+a critical video call, or stream a live event
+in a crowded venue is in exactly the right
+state of mind to respond to a guaranteed
+performance offer.
+
+Source: Ericsson analysis of public data.
+
+Yet, very few service providers are taking
+advantage of this. Most offerings are still
+marketed in broadly traditional ways, with
+the only notable shift being the use of the
+word “guarantee” alongside a connectivity
+performance metric.
+That is not enough. In a world
+where consumers are flooded with
+messages across social media and
+digital platforms, a value proposition
+must be very clear and concise. If a user
+has to translate a performance metric
+into personal relevance and value, the
+moment – and the sale – is likely lost.
+The most effective messaging translates
+technical capabilities into experience
+outcomes: Guaranteeing a minimum
+3 or 4 Mbit/s may be what makes a
+video call reliable, but what resonates
+with the user is the assurance that
+their camera stays on for the entire call.
+Messaging should not promise “priority
+QoS,” but rather “your game won’t lag,
+even in a packed arena.” Not “guaranteed
+bandwidth,” but “your video call stays
+sharp, wherever you are.”
+The service providers who find the
+language for these benefits that resonates
+clearly with consumers are the ones
+building the most loyal and engaged
+customer bases.
+
+20
+
+Ericsson Mobility Report | June 2026
+
+Real-world slicing that
+delivers performance
+when it matters most
+When SoftBank deployed multiple network slices in a real-world trial at the
+2026 Formula 1 Japanese Grand Prix, the main focus was on enhancing user
+experience while enabling multiple use cases to be delivered simultaneously,
+each with connectivity optimized for its specific requirements.
+Key insights
+• To deliver differentiated service
+quality while maintaining a
+seamless connectivity experience
+for general attendees, SoftBank’s
+approach at Suzuka Circuit was
+based on a simple principle: First,
+build sufficient network headroom,
+then, apply intelligent control.
+• Continuous granular monitoring
+and closed-loop automation
+proved essential for maintaining
+service quality under changing
+traffic conditions.
+• The results highlighted the ability to
+shift mobile connectivity – from
+maximizing speed and capacity –
+toward delivering connectivity
+optimized for the requirements of
+each service and user group.
+
+At the 2026 Formula 1 Japanese Grand
+Prix at Suzuka Circuit, SoftBank ran a
+real-world trial that deployed five network
+slices over a shared 5G standalone (SA)
+infrastructure, with multiple use cases
+running simultaneously. To support this,
+SoftBank increased the network capacity,
+resulting in improved spectral efficiency
+through Massive Multiple-Input
+Multiple-Output (MIMO) and the addition of
+millimeter-wave capacity. Combined with
+software-based controls, including network
+slicing and per-minute optimization via
+closed-loop automation, this allowed quality
+to be managed at a granular level. Together,
+these measures confirmed that quality
+for specific use cases can be maintained
+while preserving a seamless connectivity
+experience for general attendees.
+The connectivity challenge
+This spring, more than 315,000 people
+passed through the Suzuka Circuit’s
+gates over three days. They streamed
+videos, posted to social media, and
+tapped their phones to pay for food
+and merchandise – all at once. Behind
+
+This article was written in
+collaboration with SoftBank Corp.
+(SoftBank), a leading communications
+and technology company operating
+one of Japan’s most advanced
+5G networks.
+
+the scenes, broadcast crews were also
+transmitting high-resolution footage,
+while operations staff coordinated
+logistics across the venue.
+In this kind of scenario, different types
+of communication, each with different
+quality requirements, are competing
+for the same radio spectrum in the same
+physical space. Speed alone isn’t the
+answer. The real challenge is figuring
+out how to deliver the right quality
+for each type of service and how to
+maintain that quality when the network
+gets congested.
+
+Figure 17: SoftBank’s differentiated connectivity service offerings
+Service differentiation
+
+Slice 1
+
+Slice 2
+
+Slice 3
+
+Slice 4
+
+Slice 5
+
+High-quality
+SA connectivity for
+SoftBank users
+
+XR
+
+PoS devices
+
+mmWave × Wi-Fi
+for SoftBank and
+Y!mobile users
+
+mmWave ×
+wireless camera
+
+21
+
+There is also a tension at the heart of
+this challenge: Allocating resources for
+high-value use cases risks degrading the
+experience for ordinary attendees. Serving
+both groups well requires more than just
+slicing the traffic. It means first building
+enough overall capacity, then applying
+control. SoftBank used this year’s Suzuka
+Circuit event to put that approach to the test.
+What was tested
+SoftBank implemented a 5G SA-based
+network slicing trial, constructing five
+logical networks, or slices, on a shared
+physical infrastructure while running
+multiple use cases in parallel, each
+assigned different quality parameters.
+The slice architecture was built on a
+foundation of increased network capacity.
+High-capacity Massive MIMO deployment
+more than doubled the number of cells,
+significantly improving both downlink and
+uplink capacity through higher-order
+antenna configurations and multi-band
+operations. In addition, the early adoption
+of the latest features – such as throughput
+control, low-latency optimization, and
+millimeter-wave coordination – further
+enhanced performance and capacity.
+The underlying design philosophy was
+straightforward: First, raise the floor for
+everyone, then apply intelligent control.
+The intention of building headroom into
+the network before carving out slices was
+to maintain a seamless experience for
+general users, even when differentiated
+quality control was applied to certain
+portions of traffic.
+What the validation revealed
+Importantly, and aligned with the design
+philosophy, was the validation that
+premium services and general connectivity
+services can coexist. The combination of
+Massive MIMO-driven capacity expansion
+with network slicing made it possible
+to ensure quality for specific use cases
+without affecting general attendees’
+connectivity. In fact, in this scenario there
+were clear improvements compared
+with the same event in 2025. For general
+attendees, based on average performance
+over the weekend, 5G SA customers
+experienced a performance uplift of
+4 times in the downlink and more
+than 14 times in the uplink, while for
+non-standalone (NSA) customers this was
+around 1.5 times and 6 times respectively.
+Beyond the general users, the specific
+performance requirements of the multiple
+slices running in parallel were all fulfilled
+with the needed connectivity. For payment
+slices, what matters is not speed, but
+responsiveness. For QR code payments
+and point-of-sale (PoS) terminals, high
+throughput is not a strict requirement.
+
+Ericsson Mobility Report | June 2026
+
+Figure 18: Relative performance improvements in 2026
+for general attendees on 5G SA compared to 2025
+
+Compared to 2025, general users
+experienced 4.1 times faster
+downlink speeds on 5G SA.
+
+Compared to 2025, general users
+experienced 14.6 times faster
+uplink speeds on 5G SA.
+
+4.1 14.6
+x
+
+What these services need is a connectivity
+experience that is immediate and
+uninterrupted even under congestion.
+From a network perspective, that means low
+latency and stable sessions, rather than raw
+bandwidth. During the validation, terminals
+assigned to the payment slice maintained
+stable connectivity even as the congestion
+in the surrounding environment grew.
+Throughout the event, even during periods of
+congestion, there were no reports of service
+unavailability. This confirmed in a live event
+setting what is theoretically well understood:
+Different use cases, that call for different
+definitions of what “good connectivity”
+actually means, can be delivered.
+For broadcast, millimeter-wave delivers
+the capacity needed in the uplink.
+Transmitting broadcast-quality footage from
+a live venue has very different requirements
+from, for example, a fan uploading a short
+clip. Continuous delivery of high-resolution,
+low-compression video demands wide,
+stable bandwidth in the uplink. The trial
+confirmed that millimeter-wave spectrum is
+well-suited to this role, and it was used for
+the live broadcasting of four programs.
+Beyond the measured performance itself,
+the setup also demonstrated practical
+operational value for live production teams,
+reinforcing confidence in wireless
+broadcasting workflows during the event.
+The need for granular monitoring of SLAs
+A less obvious but important finding had
+to do with the granularity of monitoring.
+In traditional operations, KPIs are typically
+collected at 15-minute intervals. But traffic
+at an event venue shifts quickly, driven
+by crowd movement, purchase surges,
+and broadcast schedules. At 15-minute
+granularity, a temporary SLA breach
+on a given slice could go undetected until
+it has already had an impact.
+
+x
+
+In some cases, by the time an automated
+optimization would have triggered, the
+moment and the event itself will have
+already passed. During this validation,
+per-minute observability was established,
+providing greater visibility into each slice’s
+status and enabling high-speed automated
+adjustment of radio parameters in
+response. The conclusion was that
+per-slice SLA management only becomes
+operationally meaningful once monitoring
+granularity is fine enough to keep
+pace with actual network behavior.
+Introducing slicing without updating how
+the network is monitored leaves a practical
+ceiling on how precisely quality can
+actually be maintained.
+Figure 19 illustrates how intent-based
+service differentiation is used on network
+slices to ensure SLA fulfilment. In this
+example, flexible control is applied across
+Slice A and Slice B, each with different
+SLA requirements during different traffic
+conditions (normal and high traffic). Slice A
+has a more demanding SLA than Slice B.
+Under normal traffic conditions, Slice A has
+more scheduling frequency than Slice B,
+and more bandwidth. As traffic increases
+due to congestion during the event, the
+external control system optimizes the
+network automatically to fulfil the SLA for
+high-traffic conditions. As a result, the more
+demanding SLA for Slice A can be fulfilled,
+while still delivering on the SLA for Slice B.
+
+22
+
+Ericsson Mobility Report | June 2026
+
+Figure 19: Intent-based service differentiation
+5G
+
+External control system
+
+5G
+
+Automatic (close loop)
+parameter tuning
+
+Data collection
+every minute
+
+Slice B
+
+Scheduling frequency
+
+Slice A
+
+Traffic
+
+Applying the learnings to
+commercial operations
+“Not having to think about connectivity” is
+increasingly what attendees at large events
+simply expect. This validation showed, in
+concrete terms, what it takes to deliver that
+experience. Serving attendees seeking a
+premium experience alongside those who
+simply expect reliable connectivity requires
+not only expanded physical capacity, but
+also intelligent control technologies –
+neither alone is sufficient. That’s one of
+the key lessons from the Suzuka Circuit
+trial. More broadly, connectivity design at
+large-scale events is not only a matter of
+engineering, but also of determining what
+kind of experience should be delivered,
+to whom, and under what operational
+structure. In that sense, this work goes
+beyond a purely technical evaluation
+and provides insights into future network
+design and operational approaches for
+large-scale events.
+
+Beyond speed: Toward
+quality-based connectivity
+For many years, mobile network evolution
+was primarily discussed in terms of higher
+speeds and greater capacity. However,
+as networks become increasingly tied to
+business outcomes and user experiences,
+service quality optimization is becoming
+just as important as raw throughput.
+The Suzuka Circuit validation
+demonstrated that different services
+can require fundamentally different
+definitions of “good connectivity.” In some
+cases, the requirement is extremely high
+uplink throughput, while in others it is low
+latency, stable sessions, or predictable
+responsiveness under congestion.
+
+From this perspective, network slicing
+is not simply about traffic separation.
+It represents a shift toward intent-driven
+connectivity, where network behavior
+can be adapted according to the specific
+requirements of each service or user group.
+While many of these capabilities have
+been discussed since the early stages
+of 5G, large-scale real-world validation
+has remained limited. The Suzuka Circuit
+trial provided an opportunity to validate
+multiple technologies together under live
+operational conditions, rather than as
+isolated technical functions.
+SoftBank will continue applying
+these insights across broader real-world
+environments as it evolves its network
+to deliver differentiated connectivity
+experiences and create new service value.
+
+23
+
+Ericsson Mobility Report | June 2026
+
+The rise of uplink demand
+in AI-driven mobile networks
+Uplink is becoming the new bottleneck in mobile networks,
+driven by AI-powered and user-generated content. As traffic
+patterns shift, networks designed for downlink dominance
+must evolve to support a more uplink-intensive future.
+Key insights
+• AI-driven applications – spanning
+smartphones, AI/AR smartglasses
+and autonomous vehicles –
+are inherently uplink heavy,
+generating continuous data
+streams that challenge traditional
+downlink-dominated
+traffic patterns.
+• Uplink traffic growth is already
+outpacing downlink for many
+service providers, with field
+measurements indicating capacity
+constraints under peak load.
+Scenario modeling suggests that
+additional AI traffic will result in
+uplink traffic being three times
+higher in 2031 compared to 2025.
+• Current networks are not
+dimensioned for sustained uplink
+demand, calling for a step change
+in design – from 5G software and
+hardware enhancements in the
+near term to 6G-native uplink
+innovations over the longer horizon.
+
+AI is rapidly enabling new use cases
+and accelerating the design of new
+applications and devices. This enables
+hyper-personalization that increases app
+engagement and gives rise to an entirely
+new class of fully autonomous, agentic
+AI systems. As the adoption of new
+use cases increases, network performance
+requirements rise significantly. While
+these services will increase both
+downlink and uplink traffic, the impact
+is particularly pronounced on the uplink,
+reshaping network performance and
+design priorities.
+
+1
+2
+
+Uplink traffic on the rise
+Mobile networks have historically been
+designed and dimensioned for downlink
+dominated traffic, driven mainly by
+consumption of content such as video
+streaming and web browsing. Analysis
+of mobile network traffic growth across
+55 service providers globally in 2025,1
+comparing downlink and uplink growth
+rates at network level, shows a clear
+and consistent pattern – uplink traffic is
+growing faster than downlink for most
+service providers and, in many cases,
+significantly faster:
+• 43 out of 55 service providers experienced
+a higher uplink growth rate than downlink
+• 17 out of 55 service providers
+experienced a more than 1.5 times
+higher uplink growth rate than downlink
+While downlink traffic still dominates in
+terms of absolute volume, shifts in traffic
+patterns are becoming evident, with
+increasing uplink traffic. Naturally, uptake
+of new devices and applications that drive
+uplink traffic occurs at different speeds
+across markets. In areas with fast adoption
+and heavy usage, uplink capacity will
+be strained sooner, requiring urgent
+measures to meet the increased demand.
+Near term: AI-native smartphones
+and changes in user behavior drive
+uplink growth
+In the near term, large-scale uplink traffic
+growth is driven primarily by smartphone
+applications,2 as evolving smartphone
+user behavior contributes to an increase
+in uplink demand. As hundreds of
+millions of 4G devices are replaced
+by 5G smartphones each year, the
+base of high-resolution devices
+(1080p and higher) continues to grow.
+
+ ased on network traffic measurements conducted by Ericsson.
+B
+Note: The impact from FWA traffic is not addressed in this article.
+
+Because a typical smartphone HD
+(720–1080p) video call generates about
+1–3 Mbps per uplink stream, each upgrade
+effectively raises the potential uplink load,
+leading to a steady increase in overall
+uplink traffic.
+User-generated content – especially
+short-form clips and live streaming
+from smartphones – together with
+smartphone-to-cloud storage is also
+driving increased uplink usage. In addition,
+digital-native demographics continue
+to grow, with more people spending
+additional time on their smartphones,
+amplifying these uplink effects when
+averaged across the global population.
+Mid term: AI/AR smartglasses and
+agentic AI systems drive additional
+uplink growth
+The AI and AR smartglasses market is
+still in an early phase, but it is growing
+rapidly. Global shipments reached around
+10 million units in 2025, and multiple
+analyst firms project strong double-digit
+growth over the coming years. Services
+used with these types of devices can
+put high requirements on the network
+uplink performance. Depending on the
+specific use case, uplink throughput
+can range from 1 Mbps to 10 Mbps.
+As camera feed, audio and sensor data
+are continuously streamed to cloud
+AI for real-time processing, the
+download-to-upload ratio is typically
+1:8 (heavily uplink-dominated). However,
+because AI/AR smartglasses are power
+constrained, device original equipment
+manufacturers (OEMs) often employ
+an aggressive duty-cycling schedule to
+extend operating time, which increases
+the instantaneous uplink requirement
+even further.
+
+24
+
+Ericsson Mobility Report | June 2026
+
+Long term: Autonomous vehicles,
+AI agents and drones will drive
+future uplink growth
+A single 5G network can support a
+wide range of autonomous vehicle use
+cases, from (near) real-time training
+data collection and autonomous driving
+telemetry to remote assistance, future
+vehicle-to-everything (V2X) safety
+messaging and vehicle-as-a-sensor
+use cases:
+• Autonomous driving telemetry:
+The telemetry requires intermittent
+1–10 Mbps uplink, running almost
+continuously during operation but
+without hard real-time latency
+requirements, while safety-critical
+functions remain local in the vehicle.
+Today’s telemetry consists mainly
+of data such as basic kinematics and
+position data, operational status data,
+and surrounding environment
+data and perception metadata.
+• Remote assistance: Live video uplink
+of several Mbps with less than 100 ms
+latency and extremely high reliability,
+but used for less than 1 percent of the
+operational time.
+• V2X and vehicle-as-a-sensor: Vehicles
+in the future will be able to form a
+distributed set of sensors, which will
+be used for many purposes, such as
+providing safety messaging and spatial
+data collection. This will drive much
+higher uplink and downlink capacity
+and reliability requirements.
+
+For commercial drones, the network
+requirements are already demanding, as
+autonomous flight typically requires around
+100 kbps of resilient, low-latency downlink
+throughput for command-and-control,
+while telemetry and live HD video
+streaming during flight can generate
+several Mbps of uplink traffic per camera.
+Similar patterns appear in other enterprise
+use cases, including AI/AR-assisted field
+services, 5G-native laptops and a growing
+number of intelligent devices.
+Each autonomous or AI-enabled unit
+effectively becomes an uplink-intensive
+endpoint. As AI systems strive to
+understand and interact with the physical
+world, the network itself turns into a
+critical data source. Positioning, timing
+and radio-based sensing information
+can be used to infer rich environmental
+context – from spatial geometry and
+object motion to situational dynamics.
+This further reinforces the need for robust,
+high-performing uplink connectivity.
+Autonomous systems may evolve
+into an entirely new use-case class.
+Autonomous software AI agents are
+typically almost always on, continuously
+streaming information about their
+physical surroundings in the uplink.
+This can enable new types of services,
+such as continuous “recording of my life,”
+real-time physical security perimeters,
+or spatial advertisement opportunities.
+Data rates vary by application, from a
+few hundred kbps to several Mbps, but
+
+importantly, this creates an always-on
+uplink background load that current
+networks are not dimensioned for.
+Autonomous droids can also be
+considered part of the agentic use-case
+category, as they execute tasks and
+manipulate the physical environment
+in a similar way to software agents in
+the digital domain. The droids’ spatial
+intelligence, together with other tasks
+requiring compute offload, is expected
+to generate uplink traffic of several
+Mbps, while downlink traffic for control
+commands is often below 1 Mbps.
+Scenario modeling: AI traffic
+impact on uplink growth
+Our current forecast projects that global
+mobile data traffic will approximately
+double between 2025 and 2031. To assess
+the potential impact of new AI-related
+traffic on uplink growth in a geographical
+area, three scenarios were simulated
+with different assumptions on AI-device
+penetration and application usage,
+based on a typical urban subscriber
+density of 1,155 subscribers per sq km.
+These scenarios consider a mix of
+emerging AI-enabled devices, including
+AI/AR smartglasses, AI cloud gaming,
+AI companions and AI-enabled connected
+cameras for different use cases. The
+analysis shows that increasing adoption
+of AI-driven applications can significantly
+change traffic composition and accelerate
+uplink growth in mobile networks.
+
+Figure 20: AI traffic impact on uplink growth
+Non-AI base (2025)
+
+Non-AI growth (2031)
+
+AI growth (2031)
+
+Uplink traffic
+
+Medium scenario
+
+250
+Device
+
+Mbps/sq km
+
+200
+
+Subscriber
+penetration
+
+Usage
+
+43%
+
+AI through phone
+10 mins per day
+
+7%
+
+AI/AR glasses
+28 mins per day
+
+2%
+
+AI cloud gaming
+20 mins per day
+
+150
+
+~5x
+
+1%
+80
+
+100
+~3x
+~2x
+50
+
+devices per sq km
+
+0
+
+2025 base
+
+2025 base
+
+2025 base
+
+Moderate
+
+Medium
+
+High
+
+AI companions
+60 mins per day
+
+AI cameras
+20 mins per day
+
+Note: % here refers to AI device subscriber
+penetration among the population in
+an urban area, with a subscriber density
+of 1,155 subscribers per sq km.
+
+25
+
+Ericsson Mobility Report | June 2026
+
+The three scenarios analyzed were:
+• Moderate: AI usage is limited and
+primarily smartphone-based, with
+low penetration of AI/AR smartglasses,
+so the additional AI traffic remains
+small compared with the expected
+baseline growth.
+• Medium: AI usage through smartphones
+has reached substantial penetration,
+AI/AR smartglasses are gaining notable
+traction, and AI cloud gaming and
+AI companion usage have begun.
+The additional AI traffic results in
+uplink traffic being 3 times higher
+in 2031 than in 2025.
+• High: AI usage is pervasive across
+smartphones, AI/AR smartglasses
+have significant penetration, and AI
+cloud gaming and AI companion usage
+show strong uptake. The additional
+AI traffic results in uplink traffic being
+five times higher in 2031 than in 2025.
+Depending on the pace of AI application
+adoption, uplink traffic could increase
+significantly compared with the 2025
+
+baseline. This growth is expected to be
+driven not only by consumer usage, but also
+by industrial applications. In the medium
+adoption scenario, the analysis assumes
+that 43 percent of subscribers use an AI
+assistant on smartphones, 7 percent use
+the same application on smartglasses,
+2 percent engage in AI-assisted cloud
+gaming, and 1 percent interact with AI
+companions. In addition, the scenario
+assumes 80 AI-assisted connected
+industrial devices per sq km, including
+AI-enhanced security cameras, autonomous
+vehicles and other similar devices.
+AI-driven use cases are inherently
+more uplink-intensive, driven by real-time
+interaction, video capture and continuous
+data generation. To secure a good user
+experience, the analysis assumes an
+average uplink throughput requirement
+of 1.5 Mbps across the applications,
+with a corresponding downlink throughput
+requirement of 0.5 Mbps. The actual
+requirements for delivering an ideal user
+experience are likely to be considerably
+higher for many demanding use cases.
+
+While uplink traffic is expected to
+grow faster than downlink traffic,
+mobile networks are still expected to
+remain downlink-dominated. In the
+high uplink traffic growth scenario,
+AI-supported applications account for
+20 percent of the total traffic increase,
+whereas in the medium uplink traffic
+growth scenario they are expected to
+account for 8 percent.
+Uplink performance is not
+scaling with new services
+The expected increase in uplink traffic
+over the coming years will have a profound
+impact on network dimensioning,
+deployment and operations. Networks
+are typically dimensioned for the
+fifth-percentile outage users, that is, the
+minimum performance needed to ensure
+an adequate or better experience for
+95 percent of users. This is captured in the
+relationship between uplink traffic per
+area (Mbps/sq km) and the fifth-percentile
+per-user throughput (Mbps).
+
+Figure 21: Uplink capacity lags expected traffic growth
+Operating point
+
+Operating pareto
+
+Per-user requirements
+
+Fifth-percentile per-user throughput (Mbps)
+
+Ideal required (future)
+
+Min. required (future)
+
+Evolved UL features
+
+Gap to serve emerging
+use cases at scale
+
+Near-term UL features
+
+Ideal required (today)
+
+Min. required (today)
+
+Experienced (today)
+Cell load (today)
+
+DL-centric features
+UL traffic per area (Mbps/sq km)
+
+26
+
+The red operating point (see Figure 21)
+reflects today’s reality for many service
+providers around the world. At current
+uplink traffic loads, users at the cell edge
+experience very low uplink throughput,
+showing that the minimum required
+uplink performance is constrained by both
+coverage and capacity. Already available
+near-term uplink-enhancing features, for
+example, 5G standalone (SA) and uplink
+optimized primary cell (PCell) selection,
+can move performance toward the green
+curve (where networks ideally should be
+today), but a significant gap remains when
+future demand is considered.
+Even with uplink improvements,
+such as advanced multi-antenna
+techniques (FDD MU-MIMO), coordinated
+uplink transmission between sites,
+(inter-site UL CoMP) and wider low-band
+spectrum, today’s (and near-term) network
+configurations will still not meet minimum
+– or ideal – per-user uplink throughput
+targets at scale in the future. This is
+represented by the blue operating curve in
+Figure 21 and the gap to serve emerging
+use cases at scale. Overall, the figure
+highlights a structural imbalance,
+demonstrating that uplink capacity is not
+keeping pace with expected traffic growth
+and service requirements. Without
+substantial increases in uplink capabilities
+and more efficient resource utilization,
+service providers will struggle to deliver
+a consistent user experience for new
+emerging use cases.
+Evolving the network for future demands
+The rise of AI-native, sensor-rich and
+immersive applications is pushing
+mobile networks beyond their roots as
+content-delivery platforms into intelligent
+networks. However, networks optimized
+for downlink-centric streaming are poorly
+aligned with devices that continuously
+upload sensor, video and telemetry
+data for cloud and edge processing.
+This shift places uplink, rather than
+downlink, as a key bottleneck that must
+be addressed in future network evolution.3
+
+3
+
+Ericsson, Future Network Architecture 2026.
+
+Ericsson Mobility Report | June 2026
+
+Service providers can start evolving
+by maximizing existing network
+assets through software-driven uplink
+enhancements, extracting immediate
+gains in both capacity and coverage
+without requiring major hardware changes.
+The next step is targeted radio evolution
+to structurally improve uplink link budgets
+and capacity. Deploying advanced
+frequency division duplex (FDD) radios with
+higher receive diversity (for example, 8RX),
+adding new FDD bands, and leveraging
+Massive MIMO and advanced antenna
+systems can materially boost uplink
+coverage and throughput. These upgrades
+are particularly important in mid- and
+low-band spectrum, where uplink
+performance is most constrained,
+significantly boosting overall network
+capacity. In parallel, service providers
+can prioritize solutions that explicitly
+enhance uplink gain, ensuring that
+radio investments are aligned with the
+emerging asymmetry in traffic demand.
+Beyond radio upgrades, service
+providers can increase network density
+and spectrum availability to sustain
+long-term growth. Adding macro and
+indoor sites, refarming existing spectrum,
+and introducing new bands will be critical
+to scale uplink capacity per area unit.
+Embedded AI is also becoming
+indispensable in the RAN, as telco-grade
+AI models outperform the highly optimized
+traditional algorithms. There are clear
+gains in terms of spectrum efficiency
+and network capacity, in both uplink
+and downlink. Embedding AI-driven
+software is already providing clear
+benefits for service providers in terms
+of performance while providing a
+foundation for AI-native systems.
+Looking further ahead, 6G capabilities,
+such as uplink/downlink decoupling
+and contention-based uplink access,
+will enable more flexible and efficient
+resource utilization, allowing networks
+to dynamically adapt to uplink-heavy
+traffic patterns and support next-generation,
+real-time applications at scale.
+
+New monetization models
+for uplink-centric connectivity
+Network evolution must be
+accompanied by new monetization
+models. Differentiated connectivity
+enables clearly defined performance
+tiers for uplink-intensive services, each
+associated with its own service-level
+agreement (SLA) and price point.
+Rather than relying on best-effort uplink
+capacity, these models make reliability
+and predictability monetizable attributes.
+Premium differentiated services are
+designed and priced to ensure sustainable
+delivery of assured outcomes. This includes
+provisioning capacity where needed
+and applying prioritization selectively,
+particularly in contention-driven scenarios
+where performance can be meaningfully
+improved. By focusing on situations
+where network intelligence can add
+real value, differentiated connectivity
+delivers confidence and fairness across
+the service experience for all users.
+With 5G SA and network APIs,
+applications and automated systems can
+request and be billed for differentiated
+uplink performance in real time. This
+supports event-based premiums for
+guaranteed uplink performance during
+peak demand, continuous assured tiers for
+services requiring consistent performance,
+and API-driven usage models embedded
+directly into applications. Together,
+these approaches establish uplink
+connectivity as a distinct, outcome-based
+value proposition and provide a scalable
+foundation for monetizing uplink-centric
+and AI-driven services.
+
+27
+
+Ericsson Mobility Report | June 2026
+
+The evolution of
+AI-enabled XR in
+mobile networks
+AI is expanding into mobile experiences, with smartglasses and other wearables
+emerging as new complementary user interfaces that extend digital interactions.
+5G already provides the capabilities needed for early AI and XR services, while 6G is
+being designed to scale data-intensive and AI-driven experiences as uptake grows.
+Key insights
+• While mobile interactions today
+are largely smartphone-based
+and user-initiated, “heads-up”
+extensions enabled by smartglasses
+and wearables are expected to
+become more common. These
+experiences enable continuous,
+AI-driven interactions and increase
+demands on mobile networks.
+• Use cases such as “see-what-I-see”
+sharing and multi-modal AI
+assistants are expected to drive an
+increase in uplink traffic over time.
+• Cellular AR can already be enabled
+using 5G-connected devices, while
+6G is expected to efficiently scale
+AI-driven XR as adoption grows.
+
+From user-initiated interactions to
+continuous, AI-driven experiences
+Mobile user experiences have traditionally
+involved opening an app GUI on a
+smartphone, performing specific actions,
+consuming content and then disengaging.
+AI is increasingly acting as an intermediary
+between users and digital services, enabling
+more natural, continuous interactions
+through voice, vision and gestures. Over
+time, AI has the potential to become an
+integral part of user interfaces, particularly
+as smartphones are complemented by
+smartglasses and other wearables that
+support “heads-up” experiences. In this
+model, agentic AI systems can understand
+context and intent, and coordinate actions
+across multiple user devices, supported
+jointly by cloud or edge compute resources.
+Emerging inflection points
+in consumer XR adoption
+Consumer XR adoption is at an early stage,
+but momentum is building as market scale,
+1
+
+device readiness, and AI capabilities begin
+to align. Smartglasses account for a
+growing share of XR shipments, driven by
+sleeker form factors, integrated displays,
+advances in optical technologies and
+multi-hour battery life.
+AR is emerging as an everyday
+companion wearable within a multi-device
+smartphone ecosystem. In the near term,
+AR devices are typically wirelessly tethered
+to a smartphone or compute puck, while
+longer-term evolution includes standalone
+cellular-enabled glasses. Form-factor
+constraints are expected to limit antenna
+configurations, while interoperability with
+other connected wearables can augment
+connectivity and capability.
+Advances in multimodal and
+generative AI enable persistent,
+context-aware agents that see, hear
+and reason over time, as well as increasing
+the utility of consumer AR devices.
+However, adoption will also depend on
+design and consumer expectations in
+relation to always-available sensing.
+Consumer AI and AR use cases
+Unlike traditional mobile applications,
+AI-driven XR experiences are characterized
+by larger uplink data generation as AI agents
+gather data while operating across devices.
+Application behavior is shaped by sampled
+sensing – varying with capture settings and
+user intent – and by opportunistic data
+transmission. To reduce radio energy
+consumption, data is often transmitted
+or received in short bursts using
+power-optimized mechanisms such as
+discontinuous transmission and reception
+via sleep-wake cycles, rather than a
+continuous stream. As a result, instantaneous
+uplink rates depend on available network
+capacity rather than fixed data rates.
+Over time, even moderate daily usage
+can accumulate into substantial data
+volumes. For example, an AI recall
+
+This article was written
+in collaboration with
+Qualcomm Technologies, Inc.,
+a leading technology company
+that innovates to deliver intelligent
+computing everywhere.
+
+application1 capturing a few compressed
+frames per second (around 1–3 FPS at
+720p) for one hour a day can generate as
+much as tens of gigabytes of uplink data
+per month, depending on compression
+efficiency, frame encoding and data
+retention policies.
+Consumers are ready and waiting to
+adopt AR applications
+AR applications that have demonstrated
+consumer interest, and may evolve
+into mainstream experiences, include:
+• Turn-by-turn navigation – which
+involves smartglasses intermittently
+capturing location data and compressed
+video at a few Mbps (10–15 FPS,
+480–1080p resolution) in the uplink,
+and receiving AR guidance overlays
+in the downlink.
+• “See-what-I-see” sharing – which
+enables first-person audio and video
+streaming during activities such as
+sports, concerts or other recreational
+activities. Typical consumer
+implementations require a few Mbps,
+assuming 480–720p video at low frame
+rates and power-optimized modes.
+More demanding use cases – such as
+higher frame rates, higher resolution,
+creator-focused experiences or future
+higher fidelity implementations –
+may require rates of 10 Mbps or higher.
+
+AI agent that stores user experiences, enabling it to search, identify people/objects, replay moments and provide contextual reminders over time.
+
+28
+
+Ericsson Mobility Report | June 2026
+
+Figure 22: Changing consumer behaviors
+
+“Show my schedule
+and tell me about my
+next patient.”
+
+2026
+Smartphone-based user
+interaction and
+content consumption
+
+• Live AI conversations and avatar-based
+communication are evolving toward
+real-time 3D representations of speakers,
+objects and environments. While today’s
+avatar-driven interactions tolerate
+standard voice/video call latencies,
+richer 3D communication is governed by
+motion-to-render-to-photon latency.
+With visual compute and network
+transport consuming much of that
+budget, the wireless link should deliver
+around 30 ms or less to ensure smooth,
+natural interactions.
+• Interactive shopping – which allows
+users to visualize products in different
+scenarios or try on clothing digitally, with
+uplink traffic consisting of intermittent
+image or video capture and downlink
+traffic dominated by rendered assets,
+textures and overlays.
+Today, uplink data rates for these
+applications are typically a few Mbps,
+reflecting current device capabilities,
+compression efficiency and the practical
+constraints of today’s networks, including
+varying capacity and coverage. As rollout
+of more capable 5G standalone networks
+accelerates and AR adoption broadens
+alongside improving device capabilities,
+richer applications are expected to emerge,
+contributing progressively to overall uplink
+traffic growth in mobile networks. From a
+network dimensioning perspective, even a
+representative uplink demand of 10 Mbps
+per user with around 30 ms latency can
+significantly impact cell capacity; for example,
+in a dense urban environment with 100 MHz
+of FR1 spectrum, typical TDD deployments,
+and a high proportion of indoor users, fewer
+than 5 simultaneous users per cell could be
+supported at this performance level.
+
+“Order a ride for two people
+to go to the mall and remind
+me what to buy!”
+
+“Tell me the history
+of this building.”
+
+2030 and beyond
+• Natural user interface with voice, smartglasses and smartwatch
+• Persistent and context-aware AI agents
+• Increasing uplink traffic
+
+Enterprise and industrial AR use cases
+There is growing interest in XR for
+enterprise and industrial environments,
+where mobility, reliability, security and
+deterministic performance are critical.
+In factories, warehouses, construction
+sites and large indoor/outdoor facilities,
+mobile private networks offer clear
+advantages over Wi-Fi in terms of
+coverage, scalability and predictable
+quality of service (QoS) – especially for
+latency and jitter-sensitive AR workloads.
+In the near term, we expect AR devices
+in industrial settings to be paired with
+a cellular-capable companion compute
+device for mobility and coverage, with
+architectures potentially evolving toward
+more standalone cellular-enabled devices
+over time. Key use cases include:
+• Remote assistance and hands-free
+operations, where field technicians
+receive step-by-step AR overlays
+aligned with the equipment in the
+downlink while a remote expert or
+AI assistant remains engaged by
+“seeing what the technician sees”
+via uplink video.
+• Upskilling and training, where
+manufacturing workers on complex
+assembly lines use AR guidance and
+real-time feedback delivered in the
+downlink, supported by uplink video
+and sensor data capturing actions
+and task execution.
+• Enterprise and holographic
+collaboration, where distributed
+teams interact with shared,
+photorealistic 3D models and
+realistic avatars with the downlink
+delivering rendered viewpoints and
+the uplink carrying geometry, pose
+and interaction updates.
+
+These industrial use cases may require
+uplink data rates of 1–25 Mbps, driven
+by high-quality video, gestures, pose and
+geometry updates. Applications involving
+high-quality 3D rendering, such as training
+and holographic collaboration, also require
+data rates of several tens of Mbps. To
+maintain stable overlays and interaction
+fidelity, low wireless latencies below 30 ms
+and tight jitter control (around 5–10 ms)
+are often required.
+Scaling AI-driven XR in the 6G era
+The XR device industry is expected to
+experience strong growth from 2026
+through 2030, with glasses contributing a
+significant share. AR glasses tethered to 5G
+smartphones are already being deployed in
+today’s networks, with glasses based on 5G
+reduced capability (RedCap) expected to
+emerge in the near future, helping address
+the thermal and battery constraints of
+wearable form factors. Continued evolution
+of 5G, including 5G Advanced, is expected
+to deliver targeted improvements in power
+efficiency, latency and mobility. Key
+enhancements include smarter sleep
+cycles, application-aware IP-packet
+grouping (PDU Set), network congestion
+feedback to applications (L4S) and faster
+handovers, which are all defined within
+3GPP standards.
+As personal AI devices (such as
+AR glasses), pendants and neural bands
+(including EEG headbands and EMG
+wristbands) coexist with smartphones,
+and new physical AI categories such as
+robots and autonomous systems emerge,
+mobile networks will need to support
+growing volumes of user- and
+device-generated data for interaction,
+training and access to capable AI models.
+
+29
+
+Ericsson Mobility Report | June 2026
+
+To address this, 6G is being designed to scale
+such AI-driven services through improved
+uplink performance, wider bandwidths and
+more energy-efficient systems operation.
+Additional spectrum in the upper mid-band
+(FR3), combined with advanced antenna
+techniques such as Giga-MIMO, is expected
+to enable capacity overlays on existing
+cellular infrastructure without requiring
+cell-densification. Lower power, 6G-capable
+AR glasses and wearables are also expected
+to be considered from the onset as a native
+design category.
+Evolving mobile networks can benefit
+from architectures that natively support
+multi-device experiences, distributed
+compute, and context- or intent-aware
+communication. These capabilities will be
+increasingly important as intelligence and
+perception are distributed across personal
+AI devices and network resources.
+Multi-device collaborative
+communications can improve wearable
+performance by mitigating inherent device
+constraints such as a limited number of
+antennas, bandwidth, thermal headroom
+and battery capacity. For example, by
+enabling complementary communication
+paths through a companion device,
+the system can improve robustness to
+head and body shadowing and improve
+reliability, coverage and latency.
+
+Distributed computing further
+complements this approach by allowing
+workloads such as rendering, perception
+and interference modeling to run either
+on-device or be offloaded to edge or cloud
+resources. When network conditions are
+favorable, offloading can provide access
+to larger models and higher-fidelity
+experiences while reducing device power
+consumption, though it increases network
+demand and sensitivity to latency and
+congestion. When connectivity degrades,
+workloads can shift back to on-device
+execution to preserve responsiveness,
+albeit with higher local power consumption.
+Context-aware or intent-aware
+communications can also leverage
+on-device intelligence to infer application
+type and user experience in real time,
+enabling adaptive behavior that better
+matches current communication needs.
+Devices can derive application and
+user-experience context by classifying
+traffic flows with on-device AI, observing
+hardware and software signatures, and
+leveraging proximity to application logic.
+By coupling traffic characterization with
+user equipment and network adaptation,
+context-aware communication can
+more effectively balance device power
+consumption, network efficiency,
+and user experience.
+
+Scaling XR with 6G to enable a “heads-up”
+transformation of life and work
+Personal AI wearables and XR services are
+expected to evolve gradually from a niche
+category into a more common workload
+for future mobile networks. As 6G becomes
+the dominant mobile access technology,
+it will help to scale such services through
+continued improvements in connectivity,
+system efficiency and architectural
+flexibility. Together with ongoing
+5G Advanced evolution in the near term,
+these capabilities can support XR growth
+across the consumer, enterprise and
+industrial domains, enabling a future
+where digital and physical experiences are
+seamlessly integrated throughout the day.
+Realizing the full potential of 6G and
+beyond will require sustained ecosystem
+collaboration, anchored by technology
+creators and spanning device OEMs,
+infrastructure vendors, cloud and
+edge providers, service providers and
+application developers.
+
+Figure 23: Multi-device collaborative communications, distributed compute and AI
+Collaborative communications
+
+Cloud
+
+Device-to-device communication
+
+AI
+
+AI
+
+AI
+
+(Central and RAN edge)
+
+AI
+
+Assistant
+
+Navigation
+
+Tourism
+
+Fitness
+
+Personalized assistant
+
+Contextual instructions
+
+Interactive insights
+
+Seamless tracking
+
+“Show my schedule and tell
+me about my next patient.”
+
+“Give me directions to
+the highest-rated coffee
+shops near me.”
+
+“Tell me the history
+of this building.”
+
+“Show me a route for a five-mile
+run near my hotel and display
+my health metrics.”
+
+Fully personalized multi-modal Al
+
+Natural human-machine interface
+
+Hands-free and private
+
+30
+
+Ericsson Mobility Report | June 2026
+
+Mobility powers AI-driven
+enterprise transformation
+Service providers can help enterprises realize the full value of
+AI-led digital transformation. Mobile networks provide the
+real-time foundational capabilities enterprises need to scale
+AI securely and reliably.
+Key insights
+• Research shows that enterprises
+increasingly view AI as essential
+for digital transformation, however,
+only a minority have scaled it
+across their organizations.
+• While AI is a driver of digital
+transformation, it cannot succeed
+without the support of robust mobile
+networks and cloud capabilities.
+• Service providers offering solutions
+that help enterprises realize
+the full value of AI-led digital
+transformation have the
+opportunity to generate new
+revenues by transitioning from
+connectivity enablers to
+strategic partners.
+
+AI cannot succeed in isolation
+Enterprises now require greater agility,
+scalability and mobility to support
+distributed operations and real-time data
+processing. AI is rapidly becoming the
+engine of this transformation, but success
+depends on a modern digital foundation
+where mobile, cloud and AI together
+automate core operational tasks and free
+capacity for innovation and growth. This
+will create reusable capabilities that scale
+across use cases to improve efficiency,
+enhance experiences and accelerate
+innovation. Research commissioned by
+Ericsson1 confirms that AI is viewed as
+essential for digital transformation, and
+its full value can be realized only when
+underpinned by robust mobile and cloud
+capabilities. However, it also reveals
+an execution gap: While almost 9 in 10
+organizations see AI as critical, only a
+minority have successfully scaled it across
+their operations.
+1
+
+AI ambitions exceed enterprises’
+digital readiness
+In our study, 37 percent of enterprises
+report accelerating their digital
+transformation with positive momentum.
+AI is no longer confined to IT – it is now
+embedded across business functions,
+increasingly running core operational tasks.
+Yet, a critical gap exists. While 88 percent
+of enterprises expect their AI solutions to
+depend on real-time data, adoption of the
+enabling technologies remains low:
+Only 8 percent have fully scaled AI across
+multiple business areas or adopted
+cloud-based technologies and solutions,
+while just 18 percent have widely adopted
+cellular technologies and solutions
+that provide secure, reliable, real-time
+mobile connectivity.
+This disconnect between AI ambition
+and technology adoption represents a clear
+opportunity. Service providers are well
+positioned to close the gap – by offering
+solutions that deliver the secure,
+always-on enterprise connectivity that
+AI-driven operations demand.
+
+Mobility: Powering enterprise AI
+Enterprises increasingly rely on distributed
+data sources – mobile devices, industrial
+sensors, vehicles and field equipment –
+to feed analytics and models that inform
+operations, customer engagement and
+new services. AI platforms, data lakes and
+analytics engines are often distributed
+across cloud, on-prem and the edge, and
+the demands of these use cases reshape
+enterprises’ network requirements. Mobile
+connectivity enables seamless data flow
+and unified workflows, evolving mobility
+from a basic utility into an imperative,
+strategic asset that underpins safety,
+productivity and new revenue streams.
+Realizing value from AI requires
+the alignment of network services with
+business processes and measurable
+outcomes. This represents a pragmatic
+opportunity for service providers; to move
+from being pure infrastructure vendors, to
+become strategic partners, by packaging
+connectivity, edge compute, security and
+managed services for enterprises as part
+of their AI roadmaps to meet specific
+transformation objectives.
+
+Figure 24: Enterprise technology adoption
+8%
+
+8%
+
+18%
+
+23%
+33%
+
+31%
+
+Mobile
+
+AI
+
+Cloud
+
+Only 8%
+have fully
+scaled Al
+
+Only 8%
+have full cloud
+adoption
+
+Only 18% have
+wide mobile
+adoption
+
+69%
+
+51%
+
+59%
+
+Limited/pilots
+
+Selective
+
+Limited/pilots
+
+Selective
+
+Wide
+
+Moderate
+
+Scaled
+
+Full
+
+Wide
+
+Base: 100 decision-makers across 5 industry segments in large companies in North America, Europe and Asia.
+
+ he research findings draw on insights from surveys and interviews with over 100 enterprise chief officers (CxOs), senior decision-makers
+T
+and managers across five industry segments in large companies in North America, Europe and Asia. Source: Arthur D Little, Ericsson.
+
+31
+
+Ericsson Mobility Report | June 2026
+
+Figure 25: How mobile connectivity is foundational for scaling enterprise AI
+Mobile connectivity
+adoption today
+
+18%
+31%
+Limited/pilots
+Moderate
+Wide
+51%
+
+AI advances digital
+transformation
+
+Mobile as an
+enabler for AI
+
+Mobile investments
+will increase
+
+AI’s significance in advancing
+digital transformation in recent
+years was rated
+
+36%
+
+80%
+
+of enterprises consider
+mobile solutions to have
+a large/fundamental
+impact on the ability to
+enable and scale AI across
+multiple use cases.
+
+of enterprises plan to
+increase their mobile
+investments, with 37%
+of them increasing by
+more than 20%.
+
+6.7/10
+AI’s expected importance for
+advancing digital transformation
+over the next 2–3 years was rated
+
+7.9/10
+
+Note: Survey of over 100 CxOs, senior decision makers and managers across 5 industry segments in large companies in North America, Europe and Asia.
+
+Mobile connectivity and cloud provide the
+real-time foundational capabilities
+enterprises require to scale AI securely and
+reliably. On the mobile side, enterprises in this
+study rank security (78 percent), reliability
+(72 percent) and bandwidth (67 percent) as
+the top enablers, highlighting the need for
+protected, dependable, high-throughput
+data flows. Mobile delivers the real-time
+connectivity that AI depends on. Of the
+surveyed enterprises, 80 percent have plans
+to increase their mobile investments.
+Moreover, 75 percent identified 5 use
+case categories where they believe AI will
+have a significant business impact:
+• Tracking and monitoring – continuous
+sensor and location telemetry
+for assets, goods and customers,
+needing scalable connectivity and
+edge processing.
+• Connected operations – remote control,
+autonomous mobile robots (AMRs)
+and industrial control requiring private
+networks, low-latency edge compute
+and secure orchestration.
+• Enterprise collaboration – real-time,
+secure Unified Communication and
+interoperable workspaces needing QoS,
+managed end points.
+• Customer engagement – omnichannel,
+video and conversational AI with
+edge inference.
+• Digital devices – kiosks, wearables
+and vehicles requiring device lifecycle,
+SIM/eSIM and security.
+Why mobile connectivity matters most
+Although AI attracts headlines and cloud
+receives significant architectural attention,
+it is the mobile part of the foundation that
+ultimately determines whether enterprise
+AI-led digital transformation will be
+successful. Global coverage, multi-operator
+support and adherence to global standards
+
+ensure AI workloads scale instantly
+across locations and business units
+without bottlenecks.
+First, mobile networks provide the
+reach and coverage needed to connect
+distributed operations. A single enterprise
+may span multiple locations and include
+mobile fleets, each with different
+performance, security and regulatory
+requirements. 5G, private networks
+and wireless WAN (WWAN) can be
+tailored per site and per use case,
+while being managed as part of a
+unified enterprise architecture.
+Second, 5G’s inherent low latency, high
+reliability and robust security make it possible
+to deploy AI and automation in scenarios
+where delays or outages are unacceptable,
+such as safety-critical environments,
+high-value production lines or real-time
+customer interactions. This is particularly
+relevant as new applications, including AI
+computer vision, AR-assisted operations and
+physical AI (which enables machines to
+perceive and interact with the physical world
+in real time) will drive rapid uplink growth,
+placing new demands on mobile networks
+that were historically optimized for downlink.
+Third, mobile networks are
+increasingly becoming programmable
+platforms. With 5G standalone and
+network APIs, service providers can expose
+differentiated connectivity characteristics
+– such as assured throughput, low jitter
+or location awareness – directly to
+enterprise developers and ISVs.
+This enables them to design AI-powered
+applications that dynamically request
+the network performance they need.
+Network-powered solutions that combat
+fraud are the first use cases to come to
+market for service providers‘ monetization,
+as this is an urgent enterprise digital
+transformation need.
+
+From connectivity provider
+to strategic AI partner
+Our research highlights that enterprises
+increasingly see mobility, AI and cloud as
+the foundation for digital transformation,
+and plan to step up investments in
+mobile-enabled initiatives over the
+coming years. At the same time, many
+organizations struggle to move beyond
+isolated AI proofs of concept, citing gaps
+in connectivity, data readiness and
+operational integration as major barriers.
+This highlights that service providers could
+evolve their role to provide not only
+high-performance public 5G, but become
+orchestrators of the AI–mobile–cloud
+digital foundation for enterprises, for
+example as a managed service provider
+delivering outcomes instead of only
+connectivity. If they evolve their networks
+towards AI-native, cloud-native
+architectures that can handle the
+complexity of AI workloads, service
+providers can help enterprises unlock the
+full value of AI-led digital transformation.
+As AI use cases are increasingly
+adopted, and enterprises demand more
+agility and intelligence, the importance of
+getting the mobile foundation right will
+only increase. Therefore, service providers
+need to evolve networks into AI- and
+cloud-ready platforms, build differentiated
+enterprise offerings around private and
+public 5G, and position mobile
+connectivity as the backbone of AI-driven
+digital transformation.
+
+32
+
+Ericsson Mobility Report | June 2026
+
+Methodology
+Forecast methodology
+Ericsson makes forecasts on a regular basis
+to support internal decisions and planning,
+as well as market communications. The
+forecast time in the Ericsson Mobility Report
+is six years and this moves forward one
+year in the November report each year.
+All estimates in Ericsson Mobility Report
+are for the month of December each year.
+The subscription and traffic forecast
+baseline is established using historical
+data from various sources, validated
+with Ericsson internal data, including
+measurements in customer networks.
+Future developments are estimated
+based on macroeconomic trends, user
+trends, market maturity and technological
+advances. Other sources include industry
+analyst reports, together with internal
+assumptions and analyses.
+Historical data may be revised if the
+underlying data changes – for example,
+if service providers report updated
+subscription figures.
+Mobile subscriptions
+Mobile subscriptions include all mobile
+technologies. Subscriptions are defined
+by the most advanced technology that the
+mobile phone and network are capable of.
+Our mobile subscriptions by technology
+findings divide subscriptions according to
+the highest-enabled technology they can
+be used for. LTE (4G) subscriptions, in most
+cases, also include the possibility for the
+subscription to access 3G (WCDMA/HSPA)
+and 2G (GSM or CDMA in some markets)
+networks. A 5G subscription is counted as
+such when associated with a device that
+supports New Radio as specified in 3GPP
+Release 15, and connected to a 5G-enabled
+network. Mobile broadband includes radio
+access technologies HSPA (3G), LTE (4G),
+5G, CDMA2000 EV-DO, TD-SCDMA and
+Mobile WiMAX. WCDMA without HSPA
+and GPRS/EDGE are not included.
+FWA is defined as a connection that
+provides broadband access through
+mobile network enabled customer
+premises equipment (CPE).
+
+This includes both indoor (desktop and
+window-mounted) and outdoor (rooftop
+and wall-mounted) CPE. It does not
+include portable battery-based Wi-Fi
+routers or dongles.
+Rounding of figures
+As figures are rounded, summing up data
+may result in slight differences from the
+actual totals. In tables with key figures,
+subscriptions have been rounded to
+the nearest 10th of a million. However,
+when used in highlights in the articles,
+subscriptions are usually expressed in full
+billions or to one decimal place. Compound
+annual growth rate (CAGR) is calculated on
+the underlying, unrounded numbers and is
+then rounded to the nearest full percentage
+figure. Traffic volumes are expressed to
+two significant figures.
+Subscribers
+There is a large difference between the
+numbers of subscriptions and subscribers.
+This is because many subscribers have
+several subscriptions. Reasons for this
+could include users lowering traffic costs by
+using optimized subscriptions for different
+types of calls, maximizing coverage
+and having different subscriptions for
+mobile PCs/tablets and mobile phones.
+In addition, it takes time before inactive
+subscriptions are removed from service
+provider databases. Consequently,
+subscription penetration can be above
+100 percent, which is the case in many
+countries today. However, in some
+developing regions, it is common
+for several people to share one
+subscription, for example via a
+family- or community-shared phone.
+
+More detailed measurements are made in a
+select number of commercial networks with
+the purpose of understanding how mobile
+data traffic evolves. No subscriber data is
+included in these measurements. Please
+note that the Ericsson Mobility Report data
+traffic forecast, both global and regional,
+represents the estimated traffic volume in all
+networks over the duration of one month in
+December. Traffic (in terms of throughput)
+in high-traffic areas will be much higher
+than the average traffic.
+Population coverage
+Population coverage is estimated using a
+database of regional population and territory
+distribution, based on population density.
+This is then combined with proprietary
+data on the installed base of radio base
+stations (RBS), together with estimated
+coverage per RBS for each of six population
+density categories (from metro to
+wilderness). Based on this, the portion
+of each area that is covered by a certain
+technology can be estimated, as well as the
+percentage of the population it represents.
+By aggregating these areas, world
+population coverage per technology
+can be calculated.
+Disclaimer
+The content of this document is based
+on a number of theoretical dependencies
+and assumptions. Ericsson shall not be
+bound by or liable for any statement,
+representation, undertaking or omission
+made in this document. Furthermore,
+Ericsson may, at any time, change the
+contents of this document at its sole
+discretion and shall not be liable for the
+consequences of such changes.
+
+Mobile network traffic
+Ericsson regularly performs traffic
+measurements in around 100 live networks
+covering all major regions of the world. These
+measurements form a representative base for
+calculating worldwide total mobile network
+traffic. Mobile network data traffic also
+includes traffic generated by FWA services.
+
+Ericsson Mobility Visualizer
+Explore actual and forecast data from the Ericsson Mobility Report
+in our interactive web application. It contains a range of data types,
+including mobile subscriptions, mobile broadband subscriptions,
+mobile data traffic, traffic per application type, VoLTE statistics,
+monthly data usage per device and an IoT connected device
+forecast. Data can be exported and charts generated for publication
+subject to the inclusion of an Ericsson source attribution.
+
+Find out more
+Scan the QR code, or visit
+ericsson.com/mobility-visualizer
+
+33
+
+Ericsson Mobility Report | June 2026
+
+Glossary
+2G: 2nd generation mobile networks
+(GSM, CDMA 1x)
+3G: 3rd generation mobile networks
+(WCDMA/HSPA, TD-SCDMA, CDMA
+EV-DO, Mobile WiMAX)
+3GPP: 3rd Generation Partnership Project
+4G: 4th generation mobile networks
+(LTE, LTE-A)
+4K: In video, a horizontal display
+resolution of approximately 4,000 pixels.
+A resolution of 3840 × 2160 (4K UHD) is
+used in television and consumer media.
+In the movie projection industry,
+4096 × 2160 (DCI 4K) is dominant
+5G: 5th generation mobile networks
+(IMT-2020)
+AI agent: An autonomous software entity
+that perceives its environment, makes
+independent decisions and takes actions
+to achieve specific goals
+API: Application Programming Interface.
+A set of rules and protocols that allows
+software applications to communicate and
+exchange data
+AR: Augmented reality. An interactive
+experience of a real-world environment
+whereby the objects that reside in the
+real world are “augmented” by
+computer-generated information
+B2B: Business-to-business. A company sells
+products or services to another businesses
+B2B2C: Business-to-business-to-consumer.
+A company sells to another business, which
+then uses that product or service to deliver
+value directly to consumers
+B2C: Business-to-consumer. A company
+sells products or services directly to
+individual consumers
+CAMARA: An open-source project
+to develop APIs.
+Cat-M1: A 3GPP standardized low-power
+wide-area (LPWA) cellular technology
+for IoT connectivity
+CDMA: Code-division multiple access
+EB: Exabyte, 1018 bytes
+FDD: Frequency division duplex
+FWA: Fixed wireless access
+
+GB: Gigabyte, 109 bytes
+Gbps: Gigabits per second
+GHz: Gigahertz, 109 hertz (unit of frequency)
+GSA: Global mobile Suppliers Association
+HSPA: High speed packet access
+IoT: Internet of Things
+Kbps: Kilobits per second
+LTE: Long-Term Evolution
+MB: Megabyte, 106 bytes
+Mbps: Megabits per second
+MIMO: Multiple Input Multiple Output
+is the use of multiple transmitters and
+receivers (multiple antennas) on wireless
+devices for improved performance
+mmWave: Millimeter waves are radio
+frequency waves in the extremely high
+frequency range (30–300 GHz) with
+wavelengths between 10 mm and 1 mm.
+In a 5G context, millimeter waves refer
+to frequencies between 24 and 71 GHz
+(the two frequency ranges 26 GHz and
+28 GHz are included in millimeter range
+by convention)
+Mobile broadband: Mobile data service
+using radio access technologies including
+5G, LTE, HSPA, CDMA2000 EV-DO,
+Mobile WiMAX and TD-SCDMA
+Mobile PC: Defined as laptop or desktop
+PC devices with built-in cellular modem
+or external USB dongle
+Mobile router: A device with a cellular
+network connection to the internet and
+Wi-Fi or Ethernet connection to one or
+several clients (such as PCs or tablets)
+MR: Mixed reality. Immersive technology
+in which elements from both the real
+world and a virtual environment are fully
+interactive with each other
+NB-IoT: A 3GPP standardized low-power
+wide-area (LPWA) cellular technology for
+IoT connectivity
+Net Zero: Defined in ITU standards as a
+future state where all emissions that can
+be reduced are reduced, with like-for-like
+or permanent removals applied by
+carbon-removal technologies to balance
+the remaining emissions
+
+NSA 5G: Non-standalone 5G is a 5G Radio
+Access Network (RAN) that operates on a
+legacy 4G/LTE core
+Operating Pareto: A management
+framework applying the Pareto Principle,
+or 80/20 rule, to business operations,
+used to maximize operational efficiency.
+It states that 80% of operational outputs,
+bottlenecks, or costs stem from just 20% of
+inputs or causes
+QoS: Quality of service. Refers to the
+capability of the cellular network to
+guarantee specific performance levels for
+different types of data traffic
+RedCap: Reduced capability
+Short-range IoT: Segment that largely
+consists of devices connected by
+unlicensed radio technologies, with
+a typical range of up to 100 meters,
+such as Wi-Fi, Bluetooth and Zigbee
+SLA: Service-level agreement. A formally
+negotiated contract between a service
+provider and a customer that defines the
+exact level of service expected
+TD-SCDMA: Time division-synchronous
+code-division multiple access
+TDD: Time division duplex
+VoIP: Voice over IP (Internet Protocol)
+VR: Virtual reality
+WCDMA: Wideband code-division
+multiple access
+Wide-area IoT: Segment made up
+of devices using cellular connections
+or unlicensed low-power technologies
+like Sigfox and LoRa
+XR: Extended reality. An umbrella category
+for virtual or combined real/virtual
+environments, which includes AR,
+VR and MR
+
+34
+
+Ericsson Mobility Report | June 2026
+
+Key figures
+Global key figures
+
+Forecast
+2031
+
+CAGR*
+2025–2031
+
+Mobile subscriptions
+
+2024
+
+2025
+
+Worldwide mobile subscriptions
+
+8,670
+
+8,840
+
+9,540
+
+1%
+
+million
+
+• Smartphone subscriptions
+• Mobile PC, tablet and mobile
+router subscriptions
+• Mobile broadband subscriptions
+• Mobile subscriptions, GSM/EDGE-only
+• Mobile subscriptions, WCDMA/HSPA
+• Mobile subscriptions, LTE
+• Mobile subscriptions, 5G
+Mobile subscriptions, 5G standalone
+• Mobile subscriptions, 6G
+Fixed broadband connections
+Fixed Wireless Access connections
+Satellite broadband subscriptions
+
+7,170
+
+7,470
+
+8,490
+
+2%
+
+million
+
+290
+7,710
+880
+550
+4,950
+2,280
+1,240
+0
+1,620
+160
+6
+
+330
+8,020
+760
+460
+4,660
+2,940
+1,650
+0
+1,690
+185
+10
+
+530
+9,230
+360
+200
+2,370
+6,400
+3,870
+180
+2,030
+350
+33
+
+9%
+2%
+-12%
+-13%
+-11%
+14%
+15%
+N/A
+3%
+11%
+21%
+
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+
+Mobile data traffic
+• Data traffic per smartphone
+• Data traffic per mobile PC
+• Data traffic per tablet
+
+19
+26
+15
+
+22
+28
+18
+
+42
+40
+29
+
+12%
+6%
+9%
+
+GB/month
+GB/month
+GB/month
+
+Total data traffic**
+Mobile data traffic
+• Smartphones
+• Mobile PCs and routers
+• Tablets
+Fixed Wireless Access
+Total mobile network traffic
+Total fixed data traffic
+
+123
+121
+1.2
+1
+43
+166
+330
+
+146
+143
+1.5
+1.2
+57
+203
+380
+
+328
+322
+2.7
+2.6
+187
+515
+710
+
+14%
+14%
+11%
+13%
+22%
+17%
+11%
+
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+
+2024
+450
+730
+550
+560
+2,270
+1,790
+1,180
+1,190
+740
+81
+1,000
+
+2025
+460
+750
+550
+560
+2,320
+1,830
+1,170
+1,230
+750
+84
+1,050
+
+Forecast
+2031
+500
+820
+570
+560
+2,450
+1,890
+1,210
+1,360
+780
+95
+1,310
+
+CAGR*
+2025–2031
+1%
+1%
+0%
+0%
+1%
+1%
+0%
+2%
+1%
+2%
+4%
+
+Unit
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+
+Regional key figures
+Mobile subscriptions
+North America
+Latin America
+Western Europe
+Central and Eastern Europe
+North East Asia
+China1
+South East Asia and Oceania
+India, Nepal and Bhutan
+Middle East and North Africa
+Gulf Cooperation Council (GCC)2
+Sub-Saharan Africa
+
+Unit
+
+35
+
+Ericsson Mobility Report | June 2026
+
+Regional key figures
+LTE subscriptions
+North America
+Latin America
+Western Europe
+Central and Eastern Europe
+North East Asia
+China1
+South East Asia and Oceania
+India, Nepal and Bhutan
+Middle East and North Africa
+GCC2
+Sub-Saharan Africa
+
+2024
+130
+530
+320
+480
+1,030
+720
+930
+620
+490
+39
+410
+
+2025
+100
+520
+250
+460
+870
+580
+890
+570
+510
+35
+490
+
+Forecast
+2031
+40
+230
+30
+190
+270
+80
+470
+160
+380
+8
+610
+
+CAGR*
+2025–2031
+-14%
+-13%
+-31%
+-14%
+-18%
+-28%
+-10%
+-19%
+-5%
+-22%
+4%
+
+Unit
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+
+5G subscriptions3
+North America
+Latin America
+Western Europe
+Central and Eastern Europe
+North East Asia
+China1
+South East Asia and Oceania
+India, Nepal and Bhutan
+Middle East and North Africa
+GCC2
+
+2024
+320
+60
+220
+30
+1,180
+1,010
+110
+290
+60
+37
+
+2025
+370
+110
+300
+80
+1,400
+1,200
+160
+430
+80
+44
+
+Forecast
+2031
+460
+550
+540
+380
+2,140
+1,790
+670
+1,110
+370
+84
+
+CAGR*
+2025–2031
+3%
+32%
+10%
+30%
+6%
+5%
+27%
+17%
+28%
+11%
+
+Unit
+million
+million
+million
+million
+million
+million
+million
+million
+million
+million
+
+Sub-Saharan Africa
+
+10
+
+30
+
+370
+
+54%
+
+million
+
+Data traffic per smartphone
+North America
+Latin America
+Western Europe
+Central and Eastern Europe
+North East Asia
+China1
+South East Asia and Oceania
+India, Nepal and Bhutan
+Middle East and North Africa
+GCC2
+Sub-Saharan Africa
+
+2024
+21
+13
+22
+20
+20
+21
+19
+33
+19
+29
+5
+
+2025
+25
+15
+25
+23
+23
+24
+21
+37
+21
+30
+5.3
+
+Forecast
+2031
+52
+32
+59
+50
+45
+47
+40
+70
+47
+49
+12
+
+CAGR*
+2025–2031
+13%
+14%
+15%
+14%
+12%
+12%
+12%
+11%
+14%
+8%
+14%
+
+Unit
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+GB/month
+
+Total mobile data traffic
+North America
+Latin America
+Western Europe
+Central and Eastern Europe
+North East Asia
+China1
+South East Asia and Oceania
+India, Nepal and Bhutan
+Middle East and North Africa
+GCC2
+Sub-Saharan Africa
+
+2024
+8.7
+6.9
+9.9
+7.3
+37
+32
+17
+24
+9.2
+1.6
+2.3
+
+2025
+11
+8
+12
+8.9
+44
+38
+20
+30
+11
+1.8
+2.8
+
+Forecast
+2031
+22
+21
+26
+20
+90
+78
+40
+68
+30
+3.3
+9.7
+
+CAGR*
+2025–2031
+13%
+17%
+15%
+15%
+13%
+13%
+13%
+15%
+18%
+11%
+23%
+
+Unit
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+EB/month
+
+These figures are also included in the figures for North East Asia.
+These figures are also included in the figures for Middle East and North Africa.
+3
+Currently, 6G subscriptions are not published on a regional level, but included in 5G figures in regions where 6G is expected to launch early.
+1
+2
+
+* CAGR is calculated on unrounded figures.
+** 	Figures are rounded (see methodology) and therefore summing up of rounded data may result in slight differences from the actual total.
+
+About Ericsson
+Ericsson’s high-performing networks provide
+connectivity for billions of people every day.
+For nearly 150 years, we’ve been pioneers in
+creating technology for communication.
+We offer mobile communication and connectivity
+solutions for service providers and enterprises.
+Together with our customers and partners,
+we make the digital world of tomorrow a reality.
+www.ericsson.com
+
+Ericsson
+SE-164 80 Stockholm, Sweden
+Telephone +46 10 719 0000
+www.ericsson.com
+
+The content of this document is subject
+to revision without notice due to
+continued progress in methodology,
+design and manufacturing. Ericsson
+shall have no liability for any error or
+damage of any kind resulting from the
+use of this document.
+
+EAB-26:003989 Uen Rev B
+© Ericsson 2026
+
+

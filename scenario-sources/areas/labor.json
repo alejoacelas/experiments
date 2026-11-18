@@ -1,0 +1,2544 @@
+{
+ "area_id": "labor",
+ "area_name": "Work, wages & skills",
+ "trends": [
+  {
+   "trend": "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks",
+   "why_it_shapes_daily_life": "Decides which jobs a 2030 household actually holds: who is a home-health aide, nurse practitioner or electrician, and whose receptionist, cashier, bookkeeping or call-centre job has quietly disappeared."
+  },
+  {
+   "trend": "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')",
+   "why_it_shapes_daily_life": "Graduates send hundreds of applications into flat hiring; mid-career managers and engineers see layers removed and headcount frozen even when their employer is growing."
+  },
+  {
+   "trend": "Unbundling of labour-arbitrage industries: IT services, BPO/call centres and staffing pass AI productivity through to headcount and price",
+   "why_it_shapes_daily_life": "Millions of jobs in Bengaluru, Manila and US call-centre towns depend on billing human hours; when clients demand AI savings, campus hiring and agent seats are the first to go."
+  },
+  {
+   "trend": "Wage floors and bargained limits on automation: legislated minimum-wage steps and multi-year union contracts fix pay and technology rules to 2028-2030",
+   "why_it_shapes_daily_life": "Sets the pay packet and the pace of visible automation for low-wage workers, dockworkers, UPS drivers and Hollywood writers/actors, with dates already written into law or contract."
+  },
+  {
+   "trend": "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail",
+   "why_it_shapes_daily_life": "Determines whether work is easy or hard to find in a given year, how fast wages rise, and whether an AI shock arrives into a tight or a slack labour market."
+  }
+ ],
+ "sources": [
+  {
+   "id": "bls-employment-projections",
+   "name": "BLS Employment Projections 2025-35 (with AI exposure categories and projection evaluations)",
+   "publisher": "U.S. Bureau of Labor Statistics",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks",
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail"
+   ],
+   "what_it_forecasts": "Employment in 2035 versus 2025 for every detailed U.S. occupation (about 830) and industry, plus labour force and annual openings, wages and entry education.",
+   "horizon": "single target year 2035 (10 years; no interim years projected)",
+   "latest_edition": {
+    "title": "Employment Projections - 2025-2035 (news release USDL-26-1422)",
+    "date": "2026-08-27",
+    "url": "https://www.bls.gov/news.release/ecopro.nr0.htm"
+   },
+   "update_cadence": "annual (late August/September); wage columns refreshed each spring",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "No money or licence at stake, but BLS re-issues every year and publishes formal evaluations of every past set (2014-24 occupational evaluation: 'BLS correctly projected whether an occupational group would grow or decline 86 percent of the time', https://www.bls.gov/emp/evaluations/2014-2024-occupational.htm) and the method is built for a 10-year horizon. Known bias: by design it extrapolates historical relationships and applies technology adjustments 'conservatively', so it under-reacts to fast structural breaks."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named occupations with 2025 and 2035 job counts, numeric and percent change, annual openings, median wage, entry education, a per-occupation factor narrative (Table 1.12) and a new four-level AI exposure label; industry tables with narrated drivers (data centres, electricity, ageing)."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Edition dated 27 Aug 2026; AI is named as the driver of specific occupational declines/gains (office support, sales, arts/media, data scientists, utilities) and a separate AI-exposure table is published, but BLS states it deliberately keeps productivity 'in line with historical patterns' and does not model an AI scenario."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In a future state where technology advances much more rapidly than it has historically, it is unlikely that historical relationships would hold, and therefore BLS projection methods are unlikely to yield reasonable results.",
+     "doc_local_path": "primary/labor/bls-employment-projections/ecopro-2025-35-news-release.pdf",
+     "page": 8
+    },
+    "search_note": "AI appears throughout the release, Table 1.12 factor text and the AI exposure categories page."
+   },
+   "tier": "top",
+   "why_top_or_not": "Only source giving dated job counts for every occupation with a published error record and a 2026 edition that explicitly names AI-driven declines.",
+   "primary_docs": [
+    {
+     "title": "Employment Projections 2025-2035 news release (PDF)",
+     "url": "https://www.bls.gov/news.release/pdf/ecopro.pdf",
+     "local_path": "primary/labor/bls-employment-projections/ecopro-2025-35-news-release.pdf",
+     "status": "full",
+     "bytes": 332685,
+     "pages": 10,
+     "note": "Fetched with a descriptive bot User-Agent as BLS policy requires; default browser UA returns 403."
+    },
+    {
+     "title": "Employment Projections 2025-2035 news release (HTML)",
+     "url": "https://www.bls.gov/news.release/ecopro.nr0.htm",
+     "local_path": "primary/labor/bls-employment-projections/ecopro-2025-35-news-release.html",
+     "status": "full",
+     "bytes": 61311,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Occupation tables 1.1-1.12 workbook (XLSX)",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx",
+     "local_path": "primary/labor/bls-employment-projections/occupation.xlsx",
+     "status": "full",
+     "bytes": 413524,
+     "pages": 0,
+     "note": "CSV rendering of every sheet saved alongside as occupation__Table_*.csv"
+    },
+    {
+     "title": "Table 1.2 Occupational projections 2025-35 and worker characteristics (CSV rendering)",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx",
+     "local_path": "primary/labor/bls-employment-projections/occupation__Table_1.2.csv",
+     "status": "full",
+     "bytes": 243135,
+     "pages": 0,
+     "note": "Rendered from occupation.xlsx sheet 'Table 1.2' with openpyxl"
+    },
+    {
+     "title": "Table 1.12 Factors affecting occupational utilization (CSV rendering)",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx",
+     "local_path": "primary/labor/bls-employment-projections/occupation__Table_1.12.csv",
+     "status": "full",
+     "bytes": 243051,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AI exposure categories and 2025-35 employment projections (XLSX)",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/ai-exposure-categories.xlsx",
+     "local_path": "primary/labor/bls-employment-projections/ai-exposure-categories.xlsx",
+     "status": "full",
+     "bytes": 98102,
+     "pages": 0,
+     "note": "New data product released 27 Aug 2026"
+    },
+    {
+     "title": "AI exposure categories table (CSV rendering)",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/ai-exposure-categories.xlsx",
+     "local_path": "primary/labor/bls-employment-projections/ai-exposure-categories__AI_Exposure_Categories.csv",
+     "status": "full",
+     "bytes": 118602,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Artificial Intelligence (AI) exposure categories - methods page",
+     "url": "https://www.bls.gov/emp/publications/ai-exposure-categories.htm",
+     "local_path": "primary/labor/bls-employment-projections/ai-exposure-categories.html",
+     "status": "full",
+     "bytes": 99176,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AI impacts on employment projections factsheet",
+     "url": "https://www.bls.gov/emp/factsheets/ai-impacts.htm",
+     "local_path": "primary/labor/bls-employment-projections/factsheet-ai-impacts.html",
+     "status": "full",
+     "bytes": 87788,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Monthly Labor Review (Feb 2025): Incorporating AI impacts in BLS employment projections: occupational case studies",
+     "url": "https://www.bls.gov/opub/mlr/2025/article/incorporating-ai-impacts-in-bls-employment-projections.htm",
+     "local_path": "primary/labor/bls-employment-projections/mlr-2025-incorporating-ai-impacts.html",
+     "status": "full",
+     "bytes": 134347,
+     "pages": 0,
+     "note": "Still the methods article the 2026 release cites; based on 2023-33 cycle"
+    },
+    {
+     "title": "Monthly Labor Review (Jan 2026): Industry and occupational employment projections overview and highlights, 2024-34",
+     "url": "https://www.bls.gov/opub/mlr/2026/article/industry-and-occupational-employment-projections-overview.htm",
+     "local_path": "primary/labor/bls-employment-projections/mlr-2026-overview-2024-34.html",
+     "status": "full",
+     "bytes": 931290,
+     "pages": 0,
+     "note": "Overview article for the 2025-35 set was announced as forthcoming (notice-mlr-coming-soon.html) and is not yet published"
+    },
+    {
+     "title": "2014-2024 Occupational Projections Evaluation",
+     "url": "https://www.bls.gov/emp/evaluations/2014-2024-occupational.htm",
+     "local_path": "primary/labor/bls-employment-projections/evaluation-2014-2024-occupational.html",
+     "status": "full",
+     "bytes": 98230,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "2014-2024 Industry Projections Evaluation",
+     "url": "https://www.bls.gov/emp/evaluations/2014-2024-industry.htm",
+     "local_path": "primary/labor/bls-employment-projections/evaluation-2014-2024-industry.html",
+     "status": "full",
+     "bytes": 89963,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Projections evaluations index",
+     "url": "https://www.bls.gov/emp/evaluations/projections-evaluations.htm",
+     "local_path": "primary/labor/bls-employment-projections/projections-evaluations.html",
+     "status": "full",
+     "bytes": 84652,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Table 1.7 Occupational projections (HTML)",
+     "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+     "local_path": "primary/labor/bls-employment-projections/table-1.7-occupational-projections.html",
+     "status": "full",
+     "bytes": 730438,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Fastest declining occupations (HTML)",
+     "url": "https://www.bls.gov/emp/tables/fastest-declining-occupations.htm",
+     "local_path": "primary/labor/bls-employment-projections/table-1.5-fastest-declining.html",
+     "status": "full",
+     "bytes": 88431,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Occupations with the largest job declines (HTML)",
+     "url": "https://www.bls.gov/emp/tables/occupations-largest-job-declines.htm",
+     "local_path": "primary/labor/bls-employment-projections/table-1.6-largest-declines.html",
+     "status": "full",
+     "bytes": 87728,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Fastest growing occupations (HTML)",
+     "url": "https://www.bls.gov/emp/tables/fastest-growing-occupations.htm",
+     "local_path": "primary/labor/bls-employment-projections/table-1.3-fastest-growing.html",
+     "status": "full",
+     "bytes": 88379,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Occupations with the most job growth (HTML)",
+     "url": "https://www.bls.gov/emp/tables/occupations-most-job-growth.htm",
+     "local_path": "primary/labor/bls-employment-projections/table-1.4-most-new-jobs.html",
+     "status": "full",
+     "bytes": 88423,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Table 3.1 Civilian labor force summary (HTML)",
+     "url": "https://www.bls.gov/emp/tables/civilian-labor-force-summary.htm",
+     "local_path": "primary/labor/bls-employment-projections/table-3.1-labor-force-summary.html",
+     "status": "full",
+     "bytes": 101953,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Notice: 2025-35 Employment Projections release (edition date proof)",
+     "url": "https://www.bls.gov/emp/notices/2026/projections-release.htm",
+     "local_path": "primary/labor/bls-employment-projections/notice-release.html",
+     "status": "full",
+     "bytes": 82513,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "the continued integration of automation tools, including those powered by AI, into workflows is likely to reduce demand for several office and administrative support occupations. This occupational group is projected to decline at the fastest pace (-4.0 percent) and to shed 752,100 jobs over the 2025−35 decade, the most of any major occupational group.",
+     "doc_local_path": "primary/labor/bls-employment-projections/ecopro-2025-35-news-release.pdf",
+     "page": 6,
+     "locator": "Occupational Employment section",
+     "url": "https://www.bls.gov/news.release/pdf/ecopro.pdf",
+     "worldbuilding_use": "Office/admin support loses about 752,000 US jobs by 2035, explicitly attributed to AI-powered automation."
+    },
+    {
+     "text": "The U.S. economy is projected to add 5.9 million jobs from 2025 to 2035 [...] Total employment is projected to increase from 170.3 million to 176.2 million and grow 3.5 percent, which is slower than the 10.9 percent growth recorded over the 2015−25 decade.",
+     "doc_local_path": "primary/labor/bls-employment-projections/ecopro-2025-35-news-release.pdf",
+     "page": 1,
+     "locator": "Opening paragraph",
+     "url": "https://www.bls.gov/news.release/pdf/ecopro.pdf",
+     "worldbuilding_use": "Baseline: US job growth slows to a third of last decade's pace; 176.2 million jobs in 2035."
+    },
+    {
+     "text": "Customer service representatives,43-4051,Line item,2666,2524.1,1.6,1.4,-141.8,-5.3",
+     "doc_local_path": "primary/labor/bls-employment-projections/occupation__Table_1.2.csv",
+     "page": null,
+     "locator": "Table 1.2, row 43-4051; columns: employment 2025, employment 2035 (thousands), share 2025, share 2035, numeric change, percent change; released 2026-08-27",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx",
+     "worldbuilding_use": "Call-centre work: 2.666m customer service reps in 2025 falls to 2.524m by 2035 (-141,800)."
+    },
+    {
+     "text": "Home health and personal care aides,31-1120,Line item,4677.1,5524.4,2.7,3.1,847.3,18.1",
+     "doc_local_path": "primary/labor/bls-employment-projections/occupation__Table_1.2.csv",
+     "page": null,
+     "locator": "Table 1.2, row 31-1120; employment 2025, 2035 (thousands), shares, numeric change, percent change; released 2026-08-27",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx",
+     "worldbuilding_use": "The biggest job engine: +847,300 home health/personal care aides by 2035, at a $35,800 median wage."
+    },
+    {
+     "text": "Software developers,15-1252,1717.8,1892.6,174.7,10.2,1.5,95.3,135980,Bachelor's degree,None,None,Very high",
+     "doc_local_path": "primary/labor/bls-employment-projections/ai-exposure-categories__AI_Exposure_Categories.csv",
+     "page": null,
+     "locator": "AI exposure table, row 15-1252; employment 2025, 2035 (thousands), change, % change, % self-employed, annual openings, median wage, education, experience, training, relative AI exposure; released 2026-08-27",
+     "url": "https://www.bls.gov/emp/ind-occ-matrix/ai-exposure-categories.xlsx",
+     "worldbuilding_use": "BLS still projects +174,700 software developers by 2035 while labelling the occupation 'Very high' AI exposure."
+    }
+   ]
+  },
+  {
+   "id": "employer-ai-workforce-filings",
+   "name": "Large-employer SEC filings and shareholder letters with explicit AI-workforce statements (10-K/20-F human-capital sections, 8-K Item 2.05 restructurings)",
+   "publisher": "Amazon, Microsoft, Salesforce, IBM, Walmart, UPS, JPMorgan Chase, Klarna, Duolingo, Shopify, Block, Workday (via SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')",
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks"
+   ],
+   "what_it_forecasts": "Each company's stated headcount, announced workforce reductions with charge estimates and completion dates, and management's claims about how much work AI now does.",
+   "horizon": "mostly 6-24 months (restructuring plans complete Q2 2026 to Q4 2027); headcount disclosed annually",
+   "latest_edition": {
+    "title": "FY2025/FY2026 annual reports and 2026 8-Ks; most recent: Workday 8-K Item 2.05 (29 Sep 2026), UPS 10-Q (4 Nov 2026)",
+    "date": "2026-11-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026070246/ups-20260930.htm"
+   },
+   "update_cadence": "quarterly (10-Q), annual (10-K/20-F), event-driven (8-K within four business days)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Statements are made under securities-law liability (Rule 10b-5; Item 2.05 requires cost estimates) and are picked over by analysts, short-sellers and the plaintiffs' bar, but nothing binds beyond 1-2 years and no error record is published. Known bias: managements have an incentive to attribute cuts to AI ('AI-washing') and to present AI productivity favourably."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Named companies with exact headcounts, percentage cuts, dollar charges, building closures and completion quarters (e.g. Block 10,000 to under 6,000; UPS 48,000 positions and 93 buildings; Amazon 1,576,000 employees and $2.7bn severance; Microsoft 223,000; Workday -2% then -2.5%)."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Filings dated Feb-Nov 2026; AI is the stated, quantified reason in several (Block cuts 40%+ to run on 'intelligence tools'; Klarna AI assistant handles 80% of service chats; revenue per employee $1.24m)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Intelligence tools have changed what it means to build and run a company. We’re already seeing it internally. A significantly smaller team, using the tools we’re building, can do more and do it better.",
+     "doc_local_path": "primary/labor/employer-ai-workforce-filings/block-8k-2026-02-26-item2.05__d108590dex991.htm",
+     "page": null
+    },
+    "search_note": "Searched each filing for AI/artificial intelligence/automation/headcount/workforce/severance."
+   },
+   "tier": "top",
+   "why_top_or_not": "Legally exposed, dated, numeric statements of how specific large employers are resizing around AI; the richest scene-level material in the area.",
+   "primary_docs": [
+    {
+     "title": "Block, Inc. 8-K (Item 2.05 workforce plan), 26 Feb 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526076557/d108590d8k.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/block-8k-2026-02-26-item2.05.htm",
+     "status": "full",
+     "bytes": 31517,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Block, Inc. Q4 2025 Shareholder Letter (8-K Exhibit 99.1), 26 Feb 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526076557/d108590dex991.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/block-8k-2026-02-26-item2.05__d108590dex991.htm",
+     "status": "full",
+     "bytes": 1305915,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Workday 8-K (Item 2.05, ~2.5% reduction), 29 Sep 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000048/wday-20260929.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/workday-8k-2026-09-29-item2.05.htm",
+     "status": "full",
+     "bytes": 30411,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Workday 8-K (Item 2.05, ~2% reduction), filed 4 Feb 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000004/wday-20260130.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/workday-8k-2026-01-30-item2.05.htm",
+     "status": "full",
+     "bytes": 31424,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon.com 10-K FY2025 (filed 6 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/amazon-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 1968457,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon.com 2025 Letter to Shareholders (8-K Exhibit 99.1, 9 Apr 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d3_ex99-1.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/amazon-8k-2026-04-09__tm263815d3_ex99-1.htm",
+     "status": "full",
+     "bytes": 80727,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Amazon.com 10-Q Q3 2026 (filed 30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/amazon-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 1646120,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Microsoft 10-K FY2026 (filed 29 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/microsoft-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 8585616,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Salesforce 10-K FY2026 (filed 2 Mar 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/salesforce-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 2570393,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "IBM 10-K FY2025 (filed 24 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/ibm-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 1077198,
+     "pages": 0,
+     "note": "10-K incorporates the annual report by reference; little workforce detail in this file"
+    },
+    {
+     "title": "Walmart 10-K FY2026 (filed 13 Mar 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/walmart-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 2324096,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "UPS 10-K FY2025 (filed 17 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/ups-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 4076048,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "UPS 10-Q Q3 2026 (filed 4 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026070246/ups-20260930.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/ups-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 2229680,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "UPS Q4 2025 earnings release (8-K Exhibit 99.1, 27 Jan 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026003510/exhibit991-earningspressre.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/ups-8k-2026-01-27__exhibit991-earningspressre.htm",
+     "status": "full",
+     "bytes": 450269,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "JPMorgan Chase 10-K FY2025 (filed 13 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/jpmorgan-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 12927440,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Klarna Group plc 20-F FY2025 (filed 26 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/klarna-20f-fy2025.htm",
+     "status": "full",
+     "bytes": 11843352,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Duolingo 10-K FY2025 (filed 27 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/duolingo-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 1872958,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Shopify 10-K FY2025 (filed 11 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+     "local_path": "primary/labor/employer-ai-workforce-filings/shopify-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2520946,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "We’re reducing Block by nearly half, from over 10,000 people to just under 6,000, which means that over 4,000 people are being asked to leave or entering into consultation.",
+     "doc_local_path": "primary/labor/employer-ai-workforce-filings/block-8k-2026-02-26-item2.05__d108590dex991.htm",
+     "page": null,
+     "locator": "Q4 2025 Shareholder Letter, opening; 8-K dated 26 Feb 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526076557/d108590dex991.htm",
+     "worldbuilding_use": "A profitable fintech halves itself in one day (Feb 2026), citing AI tools: template for 2027-29 'smaller team' announcements."
+    },
+    {
+     "text": "We reduced our operational workforce by approximately 48,000 positions, including 15,000 fewer seasonal positions, and closed daily operations at 93 leased and owned buildings, 85 of which have been permanently closed in 2025. We have identified 24 buildings for closure in the first half of 2026",
+     "doc_local_path": "primary/labor/employer-ai-workforce-filings/ups-10k-fy2025.htm",
+     "page": null,
+     "locator": "Item 7 MD&A, Network Reconfiguration and Efficiency Reimagined",
+     "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm",
+     "worldbuilding_use": "Blue-collar automation and consolidation at UPS: 48,000 positions and 93 buildings gone in 2025, 24 more buildings in H1 2026."
+    },
+    {
+     "text": "AI adoption—including the related reduction in the use of third-party suppliers and vendors and the adoption of the AI copilot to create and review code—has led to internal efficiencies. Our average annual revenue per employee at period end has increased from approximately $344,000 in 2022 to approximately $1,240,000 in the year ended December 31, 2025",
+     "doc_local_path": "primary/labor/employer-ai-workforce-filings/klarna-20f-fy2025.htm",
+     "page": null,
+     "locator": "Item 4 Business, competitive strengths",
+     "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm",
+     "worldbuilding_use": "Benchmark for the 'AI-native' firm: revenue per employee more than tripled to $1.24m in three years."
+    },
+    {
+     "text": "For the year ended December 31, 2025, we recorded approximately $2.7 billion of estimated severance costs primarily related to planned role eliminations, of which $1.8 billion was recorded in Q3 2025 and $730 million was recorded in the fourth quarter.",
+     "doc_local_path": "primary/labor/employer-ai-workforce-filings/amazon-10k-fy2025.htm",
+     "page": null,
+     "locator": "Notes to consolidated financial statements",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+     "worldbuilding_use": "Scale of corporate lay-offs at America's second-largest employer: $2.7bn of severance booked in 2025."
+    },
+    {
+     "text": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally.",
+     "doc_local_path": "primary/labor/employer-ai-workforce-filings/microsoft-10k-fy2026.htm",
+     "page": null,
+     "locator": "Item 1 Business, Human Capital Resources",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+     "worldbuilding_use": "Microsoft headcount at mid-2026 while revenue and AI capex grow: anchor for 'growth without hiring'."
+    }
+   ]
+  },
+  {
+   "id": "it-services-bpo-filings",
+   "name": "IT-services and BPO company filings: headcount, utilisation, guidance and AI risk factors (Accenture, Cognizant, Infosys, Wipro, Concentrix, TaskUs; TCS and Teleperformance not obtained)",
+   "publisher": "Accenture plc, Cognizant, Infosys, Wipro, Concentrix, TaskUs (via SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Unbundling of labour-arbitrage industries: IT services, BPO/call centres and staffing pass AI productivity through to headcount and price",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Next-year revenue/margin guidance, multi-year growth ambitions, and disclosed headcount, utilisation, attrition and severance programmes at firms whose revenue is billed human labour.",
+   "horizon": "guidance one fiscal year ahead; Accenture investor-day ambition to FY2029; restructuring programmes 6-18 months",
+   "latest_edition": {
+    "title": "Accenture Form 10-K for fiscal 2026 (year ended 31 Aug 2026) and FY27 Investor Day 8-K",
+    "date": "2026-10-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm"
+   },
+   "update_cadence": "quarterly results and guidance; annual 10-K/20-F",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Guidance and headcount are filed under securities law and tested every quarter by sell-side analysts and short-sellers who are openly betting on AI deflation of services revenue; but the binding horizon is one year and multi-year 'ambitions' are not commitments. Known bias: issuer optimism about AI being net-additive to demand."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Headcount by country (Cognizant: 256,900 in India), utilisation and attrition percentages, severance programme sizes, bookings, three-year growth/margin ambitions, and risk-factor narratives on the entry-level 'pyramid'; few place-level specifics."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Latest filings dated Jun-Nov 2026; AI is quantified in workforce terms (Accenture ~110,000 AI and data practitioners; Cognizant 'Project Leap' $150-200m severance for AI-led efficiencies) and is the central risk factor for pricing and hiring."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "AI‑driven automation, efficiency gains and increased client self‑service may reduce demand for certain services we provide and may adversely affect pricing, margins, service levels or the mix of services delivered.",
+     "doc_local_path": "primary/labor/it-services-bpo-filings/wipro-20f-fy2026.htm",
+     "page": null
+    },
+    "search_note": "Searched each filing for AI/advanced AI/generative/agentic, utilization, headcount, severance, entry-level/freshers."
+   },
+   "tier": "top",
+   "why_top_or_not": "The clearest incentive-bearing read on whether AI shrinks or grows billed human labour in the offshore services model, with fresh FY2026 numbers.",
+   "primary_docs": [
+    {
+     "title": "Accenture 10-K FY2026 (filed 16 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/accenture-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 2842958,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Accenture Q4 FY26 results and FY27 outlook (8-K Exhibit 99.1, 1 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/accenture-8k-2026-10-01-q4fy26-earnings-exhibit99.htm",
+     "status": "full",
+     "bytes": 640085,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Accenture Investor Day financial presentation (8-K Exhibit 99, 14 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000042/fy27-investorxday.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/accenture-8k-2026-10-14-fy27-investor-day-exhibit99.htm",
+     "status": "full",
+     "bytes": 19436,
+     "pages": 0,
+     "note": "Slide text only; slide images not saved"
+    },
+    {
+     "title": "Cognizant 10-K FY2025 (filed 12 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000008/ctsh-20251231.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/cognizant-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2688087,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Cognizant 10-Q Q3 2026 (filed 29 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000041/ctsh-20260930.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/cognizant-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 2126752,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Infosys 20-F FY2026 (filed 15 Jun 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/infosys-20f-fy2026.htm",
+     "status": "full",
+     "bytes": 13061966,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Wipro 20-F FY2026 (filed 2 Jun 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1123799/000119312526253514/wit-20260331.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/wipro-20f-fy2026.htm",
+     "status": "full",
+     "bytes": 14621944,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Concentrix 10-K FY2025 (filed 28 Jan 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1803599/000180359926000027/cnxc-20251130.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/concentrix-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2329834,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Concentrix 10-Q Q3 FY2026 (filed 7 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1803599/000180359926000155/cnxc-20260831.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/concentrix-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 1887434,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TaskUs 10-K FY2025 (filed 5 Mar 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1829864/000182986426000012/task-20251231.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/taskus-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2159914,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TaskUs 10-Q Q3 2026 (filed 5 Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1829864/000182986426000156/task-20260930.htm",
+     "local_path": "primary/labor/it-services-bpo-filings/taskus-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 1660873,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TCS Q4 FY26 press release (USD)",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q4/IFRS/Press%20Release%20-%20USD.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "tcs.com returned HTTP 403; TCS does not file with the SEC. Headcount figure seen only in a search snippet, not used."
+    },
+    {
+     "title": "Teleperformance Universal Registration Document 2025",
+     "url": "https://www.teleperformance.com/en-us/investors/publications-and-events/annual-reports/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Investor page URL returned 404; document location not found in the time available."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "At the end of fiscal 2026, we had nearly 110,000 skilled AI and data practitioners, exceeding our three-year goal to double our AI and data workforce, through a combination of developing our people and hiring specialized talent.",
+     "doc_local_path": "primary/labor/it-services-bpo-filings/accenture-10k-fy2026.htm",
+     "page": null,
+     "locator": "Item 1 Business, People",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm",
+     "worldbuilding_use": "Accenture: about 110,000 of 814,000 staff are AI/data practitioners at Aug 2026; reskilling at industrial scale."
+    },
+    {
+     "text": "10 – 30 bps margin expansion in FY27, FY28, and FY29 [...] Mid-single digit growth in FY27 and FY28 Mid to high-single digits in FY29",
+     "doc_local_path": "primary/labor/it-services-bpo-filings/accenture-8k-2026-10-14-fy27-investor-day-exhibit99.htm",
+     "page": null,
+     "locator": "Investor Day financial presentation, 14 Oct 2026, growth ambition slide",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000042/fy27-investorxday.htm",
+     "worldbuilding_use": "The largest labour-seller tells investors AI means mid-single-digit growth through FY29, not shrinkage."
+    },
+    {
+     "text": "In connection with Project Leap, we expect to record total costs of $180 million to $250 million consisting of $150 million to $200 million of employee severance and other personnel related costs and $30 million to $50 million of other charges.",
+     "doc_local_path": "primary/labor/it-services-bpo-filings/cognizant-10q-2026q3.htm",
+     "page": null,
+     "locator": "Note 4 Restructuring Charges (Project Leap, initiated Q2 2026 for 'AI-led efficiencies')",
+     "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000041/ctsh-20260930.htm",
+     "worldbuilding_use": "Cognizant sets aside up to $200m of severance in 2026 for an AI-efficiency programme."
+    },
+    {
+     "text": "AI led disruptions are reshaping the traditional talent model. Historically, IT services companies have relied on hiring entry-level employees and scaling them by providing training. With AI, there is an increased demand for individuals who can contextualize software within clients’ business environments, review and curate the codes generated by AI, and articulate the business value to clients.",
+     "doc_local_path": "primary/labor/it-services-bpo-filings/infosys-20f-fy2026.htm",
+     "page": null,
+     "locator": "Item 3.D Risk Factors",
+     "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+     "worldbuilding_use": "Infosys warns the Indian campus-hiring pyramid is breaking: fewer freshers, more reviewers of AI-written code."
+    },
+    {
+     "text": "As of December 31, 2025, we had approximately 351,600 employees, with 256,900 in India, 41,600 in North America, 14,600 in Continental Europe, 7,800 in the United Kingdom and 30,700 in various other locations throughout the rest of the world.",
+     "doc_local_path": "primary/labor/it-services-bpo-filings/cognizant-10k-fy2025.htm",
+     "page": null,
+     "locator": "Item 1 Business, Our People and Culture",
+     "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000008/ctsh-20251231.htm",
+     "worldbuilding_use": "Where the exposed jobs sit: three-quarters of Cognizant's 351,600 staff are in India."
+    }
+   ]
+  },
+  {
+   "id": "union-contracts-automation",
+   "name": "Collective bargaining agreements with automation/AI clauses and scheduled wages (ILA-USMX Master Contract 2024-30, Teamsters-UPS 2023-28, WGA 2026 MBA, SAG-AFTRA 2026)",
+   "publisher": "USMX and International Longshoremen's Association; International Brotherhood of Teamsters and UPS; Writers Guild of America and AMPTP; SAG-AFTRA and AMPTP",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Wage floors and bargained limits on automation: legislated minimum-wage steps and multi-year union contracts fix pay and technology rules to 2028-2030",
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks"
+   ],
+   "what_it_forecasts": "Contractually fixed wage steps by date and enforceable restrictions on specific technologies (fully automated terminals, remote ship-to-shore cranes, drones/driverless delivery, generative-AI use and licensing) for the contract term.",
+   "horizon": "UPS to 31 Jul 2028; WGA to 1 May 2030; SAG-AFTRA to 30 Jun 2030; ILA-USMX to 30 Sep 2030",
+   "latest_edition": {
+    "title": "Memorandum of Agreement for the 2026 WGA Theatrical and Television Basic Agreement (most recent of the set; ILA-USMX signed 11 Mar 2025; UPS ratified Aug 2023)",
+    "date": "2026-04-04",
+    "url": "https://www.wga.org/uploadedfiles/contracts/2026_mba_moa.pdf"
+   },
+   "update_cadence": "renegotiated at expiry (every 4-6 years); no interim revisions except by mutual agreement",
+   "accuracy": {
+    "score": 5,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "Signed, ratified contracts enforceable by grievance, arbitration and strike (ILA: $10,000-per-day damages for technology violations and the right to withhold labour); each clause was fought over by opposing counsel; terms run to 2028-2030 and the wage steps are already scheduled. No directional bias, but coverage is narrow (tens to hundreds of thousands of workers) and employers can still shrink through volume loss or attrition."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dollar wage rates by effective date (ILA top rate $63/hour from 1 Oct 2029; UPS part-time raises by year), named banned technologies, notice periods, committee procedures and penalties; places only at coast/port-range level."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Newest contracts are dated 2026 (WGA April, SAG-AFTRA May/June) and treat generative AI in dedicated articles; ILA (2025) bans AI for clerical functions and full automation; rules are categorical rather than quantified, and the UPS text (2023) predates agentic AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Master Contract signatories shall not use automation or artificial intelligence or quantum computing for the performance of clerical functions.",
+     "doc_local_path": "primary/labor/union-contracts-automation/usmx-ila-master-contract-2024-2030.pdf",
+     "page": 31
+    },
+    "search_note": "Searched for artificial intelligence/AI/GAI/automation/automated/drone/driverless/remote."
+   },
+   "tier": "top",
+   "why_top_or_not": "The only truly binding five-year commitments in the area: dated wage schedules and enforceable limits on automation through 2028-2030.",
+   "primary_docs": [
+    {
+     "title": "USMX-ILA Master Contract, effective 1 Oct 2024 to 30 Sep 2030",
+     "url": "https://usmx.com/wp-content/uploads/2026/08/2024-2030_USMX-ILA_Master_Contract.pdf",
+     "local_path": "primary/labor/union-contracts-automation/usmx-ila-master-contract-2024-2030.pdf",
+     "status": "full",
+     "bytes": 1653492,
+     "pages": 92,
+     "note": "Older usmx.com/assets/... URL now returns 404"
+    },
+    {
+     "title": "National Master United Parcel Service Agreement, 1 Aug 2023 to 31 Jul 2028",
+     "url": "https://teamster.org/wp-content/uploads/2024/01/1924UPSNATIONALMASTERFINAL.pdf",
+     "local_path": "primary/labor/union-contracts-automation/teamsters-ups-national-master-agreement-2023-2028.pdf",
+     "status": "full",
+     "bytes": 879844,
+     "pages": 220,
+     "note": ""
+    },
+    {
+     "title": "Memorandum of Agreement for the 2026 WGA Theatrical and Television Basic Agreement (4 Apr 2026)",
+     "url": "https://www.wga.org/uploadedfiles/contracts/2026_mba_moa.pdf",
+     "local_path": "primary/labor/union-contracts-automation/wga-2026-mba-moa.pdf",
+     "status": "full",
+     "bytes": 645958,
+     "pages": 46,
+     "note": ""
+    },
+    {
+     "title": "Summary of the 2026 WGA MBA",
+     "url": "https://www.wga.org/contracts/contracts/mba/summary-of-the-2026-wga-mba",
+     "local_path": "primary/labor/union-contracts-automation/wga-2026-mba-summary.html",
+     "status": "full",
+     "bytes": 151723,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "2026 SAG-AFTRA Theatrical-Television Memorandum of Agreement",
+     "url": "https://www.sagaftra.org/sites/default/files/2026-05/2026%20Theatrical-Television%20MOA.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "sagaftra.org returned HTTP 403 to curl and to headless Chromium; not captured. AI terms known only from secondary summaries, so no quotes used."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "There shall be no fully-automated terminals developed and no fully-automated container handling equipment used during the term of this Master Contract. The term “fully-automated” in the sentence immediately above is defined as devoid of human interaction.",
+     "doc_local_path": "primary/labor/union-contracts-automation/usmx-ila-master-contract-2024-2030.pdf",
+     "page": 40,
+     "locator": "Article XI, Section 1(b)",
+     "url": "https://usmx.com/wp-content/uploads/2026/08/2024-2030_USMX-ILA_Master_Contract.pdf",
+     "worldbuilding_use": "No fully automated container terminal can open at any US East or Gulf Coast port before October 2030."
+    },
+    {
+     "text": "No remotely operated ship-to-shore cranes shall be used at any port during the term of this Master Contract.",
+     "doc_local_path": "primary/labor/union-contracts-automation/usmx-ila-master-contract-2024-2030.pdf",
+     "page": 41,
+     "locator": "Article XI, Section 1(f)",
+     "url": "https://usmx.com/wp-content/uploads/2026/08/2024-2030_USMX-ILA_Master_Contract.pdf",
+     "worldbuilding_use": "Crane operators stay in the cab on the East/Gulf coasts through 30 Sep 2030."
+    },
+    {
+     "text": "Effective October 1, 2029, employees who were employed as of September 30, 2029, and who are receiving a straight-time basic wage rate of $60.00 per hour as of September 30, 2029, shall receive an increase of $3.00 per hour in their straight-time basic wage rate.",
+     "doc_local_path": "primary/labor/union-contracts-automation/usmx-ila-master-contract-2024-2030.pdf",
+     "page": 11,
+     "locator": "Article II Wages, Section 1(f)",
+     "url": "https://usmx.com/wp-content/uploads/2026/08/2024-2030_USMX-ILA_Master_Contract.pdf",
+     "worldbuilding_use": "Top-rate longshore pay reaches $63.00 an hour on 1 Oct 2029 (from $39.00 in Sept 2024)."
+    },
+    {
+     "text": "During the term of this Agreement such changes shall not include the use of drones or driverless vehicles to transport, deliver or pick up packages, platooning or shifting but in the event the Employer desires to implement any change described in this sentence, it shall be required to notify the National Negotiating Committee six (6) months in advance",
+     "doc_local_path": "primary/labor/union-contracts-automation/teamsters-ups-national-master-agreement-2023-2028.pdf",
+     "page": 27,
+     "locator": "Article 6, Section 4 Technological Change",
+     "url": "https://teamster.org/wp-content/uploads/2024/01/1924UPSNATIONALMASTERFINAL.pdf",
+     "worldbuilding_use": "UPS cannot deploy delivery drones or driverless package cars before Aug 2028 without six months' notice and bargaining."
+    },
+    {
+     "text": "The Company shall give written notice to the Guild if the Company grants a license to a non-affiliated third party, which provides for compensation to be paid to the Company, for the use of literary material covered by this Agreement to train a public-facing commercially available GAI system",
+     "doc_local_path": "primary/labor/union-contracts-automation/wga-2026-mba-moa.pdf",
+     "page": 30,
+     "locator": "Item 15, Generative Artificial Intelligence, Article 72.G.2",
+     "url": "https://www.wga.org/uploadedfiles/contracts/2026_mba_moa.pdf",
+     "worldbuilding_use": "From May 2026 studios must tell the WGA when they sell scripts as AI training data; payment to writers is only 'discussed'."
+    }
+   ]
+  },
+  {
+   "id": "fed-sep-beige-book",
+   "name": "Federal Reserve: Summary of Economic Projections, Beige Book, FOMC minutes and governors' speeches on AI and hiring",
+   "publisher": "Board of Governors of the Federal Reserve System / Federal Reserve Banks",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "FOMC participants' projected US unemployment rate for Q4 of 2026-2029 and the longer run, with district-by-district qualitative reports of hiring, wages and AI-related staffing changes.",
+   "horizon": "SEP: Q4 2026 to Q4 2029 plus longer run; Beige Book: current conditions with 'coming months' expectations",
+   "latest_edition": {
+    "title": "Beige Book, October 2026 (SEP of 16 Sep 2026; minutes of 15-16 Sep 2026 meeting)",
+    "date": "2026-10-14",
+    "url": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261014.pdf"
+   },
+   "update_cadence": "SEP quarterly; Beige Book eight times a year; minutes three weeks after each meeting",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "FOMC participants (eighteen in September 2026) submit independent projections and the SEP itself prints the root-mean-squared error of past projections (Table 2, errors for 2006-2025), so there is a published track record; but no participant loses money, the horizon is three years, and the projections are conditional on each member's 'appropriate policy'. Known tendency: unemployment projections cluster near the longer-run estimate and miss turning points."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Beige Book gives twelve districts' sector-level anecdotes (IT staffing in Minneapolis, banking contacts, marketing roles in New York) with wage ranges; the SEP gives medians, central tendencies and ranges by year; speeches lay out explicit AI scenarios."
+   },
+   "ai": {
+    "score": 3,
+    "why": "October 2026 edition; AI staffing effects are reported and counted by district ('Five Districts...') and governors discuss AI scenarios, but the SEP unemployment path (4.1% flat) is not separately moved by AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Some larger organizations were beginning to cut selected jobs or hold off on hiring as they integrated AI into their operations, and demand for marketing roles softened.",
+     "doc_local_path": "primary/labor/fed-beige-book-sep/BeigeBook_20261014.pdf",
+     "page": 13
+    },
+    "search_note": "Searched Beige Book, SEP, minutes and six 2026 speeches for AI/artificial intelligence."
+   },
+   "tier": "top",
+   "why_top_or_not": "Best fully-downloaded macro baseline for labour-market slack with a printed error record, plus current district-level evidence of AI restraining hiring.",
+   "primary_docs": [
+    {
+     "title": "Beige Book, October 14, 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261014.pdf",
+     "local_path": "primary/labor/fed-beige-book-sep/BeigeBook_20261014.pdf",
+     "status": "full",
+     "bytes": 1095139,
+     "pages": 56,
+     "note": ""
+    },
+    {
+     "title": "Beige Book October 2026 landing page (HTML)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610.htm",
+     "local_path": "primary/labor/fed-beige-book-sep/beigebook202610.html",
+     "status": "full",
+     "bytes": 84130,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Summary of Economic Projections, September 16, 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+     "local_path": "primary/labor/fed-beige-book-sep/fomcprojtabl20260916.pdf",
+     "status": "full",
+     "bytes": 1227336,
+     "pages": 17,
+     "note": ""
+    },
+    {
+     "title": "SEP Table 1, layout-preserving text rendering of page 2",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+     "local_path": "primary/labor/fed-beige-book-sep/fomcprojtabl20260916-table1.layout.txt",
+     "status": "full",
+     "bytes": 5122,
+     "pages": 0,
+     "note": "Generated locally with pdftotext -layout -f 2 -l 2 so the table rows stay on one line"
+    },
+    {
+     "title": "Minutes of the FOMC, September 15-16, 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+     "local_path": "primary/labor/fed-beige-book-sep/fomcminutes20260916.pdf",
+     "status": "full",
+     "bytes": 456038,
+     "pages": 15,
+     "note": ""
+    },
+    {
+     "title": "Barr, 'What Will Artificial Intelligence Mean for the Labor Market and the Economy?' (17 Feb 2026)",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/barr20260217a.pdf",
+     "local_path": "primary/labor/fed-speeches-ai-labor/barr20260217a.pdf",
+     "status": "full",
+     "bytes": 267391,
+     "pages": 18,
+     "note": ""
+    },
+    {
+     "title": "Barr, 'Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?' (14 Jul 2026)",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/barr20260714a.pdf",
+     "local_path": "primary/labor/fed-speeches-ai-labor/barr20260714a.pdf",
+     "status": "full",
+     "bytes": 216984,
+     "pages": 13,
+     "note": ""
+    },
+    {
+     "title": "Barr, 'American Inequality and the Future of AI' (12 Nov 2026)",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/barr20261112a.pdf",
+     "local_path": "primary/labor/fed-speeches-ai-labor/barr20261112a.pdf",
+     "status": "full",
+     "bytes": 220552,
+     "pages": 13,
+     "note": ""
+    },
+    {
+     "title": "Cook, 'An Update on AI and the Economy' (28 Sep 2026)",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/cook20260928a.pdf",
+     "local_path": "primary/labor/fed-speeches-ai-labor/cook20260928a.pdf",
+     "status": "full",
+     "bytes": 128374,
+     "pages": 12,
+     "note": ""
+    },
+    {
+     "title": "Waller, 'The Economic Outlook and Some Thoughts on Labor Market Dynamism' (10 Nov 2026)",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/waller20261110a.pdf",
+     "local_path": "primary/labor/fed-speeches-ai-labor/waller20261110a.pdf",
+     "status": "full",
+     "bytes": 242492,
+     "pages": 13,
+     "note": ""
+    },
+    {
+     "title": "Jefferson, 'New Technology, Old Questions: Productivity Puzzles and the Macroeconomy' (13 Nov 2026)",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/jefferson20261113a.pdf",
+     "local_path": "primary/labor/fed-speeches-ai-labor/jefferson20261113a.pdf",
+     "status": "full",
+     "bytes": 840552,
+     "pages": 23,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Five Districts reported that some firms had either reduced staffing levels (through attrition), delayed hiring, or anticipated less job creation after increasing productivity by investing in AI.",
+     "doc_local_path": "primary/labor/fed-beige-book-sep/BeigeBook_20261014.pdf",
+     "page": 5,
+     "locator": "National Summary, Labor Markets",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261014.pdf",
+     "worldbuilding_use": "By October 2026, AI-linked hiring restraint is visible in 5 of 12 Fed districts, via attrition rather than lay-offs."
+    },
+    {
+     "text": "Unemployment rate 4.1 4.1 4.1 4.1 4.2 4.1–4.2 4.0–4.2 4.0–4.2 4.0–4.3 4.0–4.3",
+     "doc_local_path": "primary/labor/fed-beige-book-sep/fomcprojtabl20260916-table1.layout.txt",
+     "page": null,
+     "locator": "SEP Table 1 as of 16 Sep 2026: median for 2026, 2027, 2028, 2029, longer run; then central tendency for the same years",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+     "worldbuilding_use": "Official baseline: unemployment flat at 4.1% every Q4 through 2029; no AI shock in the Fed's central path."
+    },
+    {
+     "text": "Several participants noted that dynamism in the labor market was unusually low, as reflected by low rates of hiring and layoffs, a low job-finding rate, and a persistently elevated long-term unemployment rate. Some participants observed that strong demand for skilled workers in sectors related to the ongoing AI buildout had been driving strong wage gains for these workers.",
+     "doc_local_path": "primary/labor/fed-beige-book-sep/fomcminutes20260916.pdf",
+     "page": 8,
+     "locator": "Participants' Views on Current Conditions and the Economic Outlook",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+     "worldbuilding_use": "The 2026 texture: few lay-offs, few hires, long job searches, but big raises for AI-buildout trades."
+    },
+    {
+     "text": "IT staffing contacts reported that artificial intelligence was not causing layoffs but was dampening the creation of new jobs.",
+     "doc_local_path": "primary/labor/fed-beige-book-sep/BeigeBook_20261014.pdf",
+     "page": 40,
+     "locator": "Federal Reserve Bank of Minneapolis, Employment and Wages",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261014.pdf",
+     "worldbuilding_use": "Upper-Midwest IT staffing firms in autumn 2026: no AI lay-offs, but the new jobs are not being created."
+    },
+    {
+     "text": "Under a second scenario, AI capabilities grow exponentially and adoption is extremely rapid, ushering in a “jobless boom.” AI agents replace or displace a range of professional and service occupations.",
+     "doc_local_path": "primary/labor/fed-speeches-ai-labor/barr20260217a.pdf",
+     "page": 9,
+     "locator": "Barr speech, 17 Feb 2026, 'Scenario of rapid growth in AI capabilities and adoption'",
+     "url": "https://www.federalreserve.gov/newsevents/speech/files/barr20260217a.pdf",
+     "worldbuilding_use": "A sitting Fed governor's named tail scenario for the scenario writer: the 'jobless boom'."
+    }
+   ]
+  },
+  {
+   "id": "kalshi-polymarket-labor-markets",
+   "name": "Kalshi and Polymarket contracts on US unemployment, labour-force participation, lay-offs and AGI announcements",
+   "publisher": "Kalshi (CFTC-regulated exchange); Polymarket",
+   "kind": "market price",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Real-money probabilities that US unemployment (U-3) exceeds given thresholds by given dates (monthly, year-end 2026-2036, 'peak before 2030'), plus participation, Challenger job cuts, tech lay-offs and AGI-announcement dates.",
+   "horizon": "liquid: next monthly print to end-2026; thin strike ladders to Dec 2036; 'peak unemployment before 2030' contract settles Jan 2030",
+   "latest_edition": {
+    "title": "API snapshot of open labour-related markets",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXU3MAX&status=open"
+   },
+   "update_cadence": "continuous (traded intraday)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Traders lose money when wrong and the near-dated contracts are set by many participants (KXU3MAX-27: about 837,000 contracts traded), but the contracts that actually reach 2030 are thin (KXU3MAX-30: about 21,000 contracts; year-end 2033-2035 ladders show zero volume) and no multi-year calibration record exists for them. Wide bid-ask spreads and long-shot bias inflate tail prices."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A ladder of thresholds gives a crude probability distribution for a handful of series; no reasoning, no sectors or places."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated (snapshot 18 Nov 2026) and the 2030 tail (10-13% for unemployment above 10% before 2030) plausibly embeds AI fears, but the AI component cannot be separated; the separate AGI-announcement market does re-price on AI news."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "KXAGICO-COMP,KXAGICO-COMP-27Q4,\"Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jan 1, 2028?\",\"Before Jan 1, 2028\",0.4700,0.4900,0.4700,33643.61,15742.02",
+     "doc_local_path": "primary/labor/prediction-markets/kalshi_labor_markets_snapshot_2026-11-18.csv",
+     "page": null
+    },
+    "search_note": "No Kalshi or Polymarket market found that conditions unemployment or job losses on AI; searched series titles for AI/artificial/layoff/unemploy/jobs/wage/labor."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The only market price in the area and worth watching for its 2030 tail, but long-dated liquidity is too thin and the content too sparse to rank in the top five.",
+   "primary_docs": [
+    {
+     "title": "Kalshi open labour-market contracts, snapshot 2026-11-18 (CSV)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXU3MAX&status=open",
+     "local_path": "primary/labor/prediction-markets/kalshi_labor_markets_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 98343,
+     "pages": 0,
+     "note": "Pulled from the public API for series KXU3, KXU3EOY, KXU3MAX, KXLFPRATE(EOY), KXCHCUTS, KXPAYROLLS, KXJOBLESSCLAIMS, KXAHEMOM, KXWAGESBEAT, KXFEDEMPLOYEES, KXCOMPANYLAYOFF, KXAGICO and others; columns: snapshot_utc,event_ticker,ticker,title,yes_sub_title,yes_bid,yes_ask,last_price,volume,open_interest,close_time. Three series hit HTTP 429 and are missing."
+    },
+    {
+     "title": "Kalshi snapshot, raw API JSON",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXU3MAX&status=open",
+     "local_path": "primary/labor/prediction-markets/kalshi_labor_markets_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 1068458,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Polymarket labour-related active events, snapshot 2026-11-18 (CSV)",
+     "url": "https://gamma-api.polymarket.com/public-search?q=unemployment",
+     "local_path": "primary/labor/prediction-markets/polymarket_labor_events_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 9880,
+     "pages": 0,
+     "note": "14 events from keyword searches of the Gamma API (unemployment, layoffs, recession, minimum wage, jobs)"
+    },
+    {
+     "title": "Polymarket snapshot, raw API JSON",
+     "url": "https://gamma-api.polymarket.com/public-search?q=unemployment",
+     "local_path": "primary/labor/prediction-markets/polymarket_labor_events_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 329436,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "KXU3MAX-30,KXU3MAX-30-10,How high will unemployment get before 2030?,Above 10%,0.1000,0.1300,0.2000,3550.77,2785.00,2030-01-04T13:25:00Z",
+     "doc_local_path": "primary/labor/prediction-markets/kalshi_labor_markets_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Kalshi KXU3MAX-30-10, as of 2026-11-18T14:34:15Z; fields: yes_bid, yes_ask, last_price, volume, open_interest, close_time",
+     "url": "https://kalshi.com/markets/kxu3max",
+     "worldbuilding_use": "Market-implied 10-13% chance US unemployment tops 10% at some point before 2030 (thin market)."
+    },
+    {
+     "text": "KXU3MAX-30,KXU3MAX-30-5,How high will unemployment get before 2030?,Above 5%,0.4900,0.5100,0.4900,1967.89,441.89,2030-01-04T13:25:00Z",
+     "doc_local_path": "primary/labor/prediction-markets/kalshi_labor_markets_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "Kalshi KXU3MAX-30-5, as of 2026-11-18T14:34:15Z",
+     "url": "https://kalshi.com/markets/kxu3max",
+     "worldbuilding_use": "Coin-flip odds that unemployment exceeds 5% before 2030, versus the Fed's flat 4.1% path."
+    }
+   ]
+  },
+  {
+   "id": "cbo-budget-economic-outlook",
+   "name": "CBO Budget and Economic Outlook: 2026 to 2036 (economic projections)",
+   "publisher": "Congressional Budget Office",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail"
+   ],
+   "what_it_forecasts": "Annual US unemployment rate, monthly payroll employment gains, labour-force and potential-output growth through 2036 under current law, including a generative-AI productivity increment.",
+   "horizon": "annual to 2036",
+   "latest_edition": {
+    "title": "The Budget and Economic Outlook: 2026 to 2036",
+    "date": "2026-02-11",
+    "url": "https://www.cbo.gov/publication/61882"
+   },
+   "update_cadence": "annual (winter), usually with a mid-year update; no later 2026 update was confirmed in this search",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "A statutory baseline that CBO evaluates in periodic 'forecasting record' reports comparing its errors with the Administration and Blue Chip, and the projection period is ten years; but nothing is at stake financially and the baseline is conditional on current law. The economic forecast was locked on 3 Dec 2025, so it predates 2026 developments."
+   },
+   "richness": {
+    "score": 3,
+    "why": "A dozen macro series by year (unemployment, payroll gains, wages share, rates) with narrated drivers (immigration enforcement, ageing, tariffs, AI); no occupations, firms or places."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Edition dated 11 Feb 2026; generative AI is a quantified increment to productivity (about 10 basis points a year; +1% nonfarm business output by 2036) but AI is not a separate driver of the employment or unemployment paths."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Our projections of economic growth incorporate a positive effect of generative artificial intelligence (AI) on productivity growth, amounting to an increase of about 10 basis points per year, on average. That faster growth from AI increases the level of output in the nonfarm business sector by 1 percent in 2036.",
+     "doc_local_path": "primary/labor/cbo-budget-economic-outlook/cbo-61882-executive-summary-and-directors-statement.capture.txt",
+     "page": null
+    },
+    "search_note": "Only the executive summary and Director's statement text were captured."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scores level with the Fed set and has the only quantified AI productivity line, but cbo.gov blocked download (403) so only excerpts were captured; kept out of the top tier on evidence quality.",
+   "primary_docs": [
+    {
+     "title": "Executive Summary and Director's Statement excerpts (text capture)",
+     "url": "https://www.cbo.gov/publication/61882",
+     "local_path": "primary/labor/cbo-budget-economic-outlook/cbo-61882-executive-summary-and-directors-statement.capture.txt",
+     "status": "partial",
+     "bytes": 5661,
+     "pages": 0,
+     "note": "cbo.gov returned HTTP 403 to direct download; excerpts captured with a web fetch tool from the executive-summary PDF and publication 62050. The full 5.35 MB report and data tables were not obtained."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "state-minimum-wage-schedules",
+   "name": "Legislated state minimum-wage schedules (scheduled steps already in statute or constitution)",
+   "publisher": "State legislatures and labour departments (Hawaii DLIR, California DIR); compiled chart by Ogletree Deakins",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Wage floors and bargained limits on automation: legislated minimum-wage steps and multi-year union contracts fix pay and technology rules to 2028-2030"
+   ],
+   "what_it_forecasts": "The legal hourly wage floor in each state on stated future dates (e.g. Hawaii $18.00 from 1 Jan 2028; Alaska $15.00 from 1 Jul 2027; Michigan $15.00 from 1 Jan 2027; Florida $15.00 from 30 Sep 2026).",
+   "horizon": "scheduled steps to 2027-2028, then CPI indexation in many states",
+   "latest_edition": {
+    "title": "2026 Minimum Wage Changes (States and Major Localities) chart; Hawaii DLIR and California DIR minimum-wage pages as of 18 Nov 2026",
+    "date": "2025-12-12",
+    "url": "https://ogletree.com/app/uploads/blog-assets/2026-Minimum-Wage-and-Tip-Credit-Update-Chart.pdf"
+   },
+   "update_cadence": "statutes change only by legislation or ballot measure; indexed states announce the next rate each autumn",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "These are enacted law: employers who underpay face wage claims and penalties, the steps are dated years ahead and need no further action to take effect. Known risk rather than bias: legislatures do amend voter-passed schedules (Michigan and Missouri both rewrote theirs in 2025), and the federal floor has been $7.25 since 2009."
+   },
+   "richness": {
+    "score": 4,
+    "why": "State-by-state dollar rates with effective dates, tipped-wage rules and major localities; no narrative on employment effects."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Chart dated December 2025 and state pages current to November 2026; fixed statutory amounts cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the chart text and both state pages for AI/artificial intelligence/automation/data center: none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Truly binding and dated, but narrow (the wage floor only), silent on AI, and the authoritative DOL compilation could not be downloaded.",
+   "primary_docs": [
+    {
+     "title": "Ogletree Deakins, 2026 Minimum Wage Changes (States and Major Localities) chart",
+     "url": "https://ogletree.com/app/uploads/blog-assets/2026-Minimum-Wage-and-Tip-Credit-Update-Chart.pdf",
+     "local_path": "primary/labor/state-minimum-wage-schedules/ogletree-2026-minimum-wage-chart.pdf",
+     "status": "full",
+     "bytes": 220256,
+     "pages": 8,
+     "note": "Law-firm compilation, not an official source; PDF created 12 Dec 2025"
+    },
+    {
+     "title": "Hawaii DLIR Wage Standards Division, Minimum Wage",
+     "url": "https://labor.hawaii.gov/wsd/minimum-wage/",
+     "local_path": "primary/labor/state-minimum-wage-schedules/hawaii-dlir-minimum-wage.html",
+     "status": "full",
+     "bytes": 176074,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "California DIR, Minimum Wage Frequently Asked Questions",
+     "url": "https://www.dir.ca.gov/dlse/faq_minimumwage.htm",
+     "local_path": "primary/labor/state-minimum-wage-schedules/california-dir-minimum-wage-faq.html",
+     "status": "full",
+     "bytes": 63932,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "US DOL Wage and Hour Division, State Minimum Wage Laws",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "dol.gov returned HTTP 403; epi.org minimum-wage tracker also 403."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "challenger-job-cuts",
+   "name": "Challenger Report: announced US job cuts and hiring plans by reason (including AI)",
+   "publisher": "Challenger, Gray & Christmas, Inc.",
+   "kind": "survey",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Monthly tally of job cuts and hiring plans announced by US-based employers, broken down by stated reason, industry and region; announcements are plans that are often executed over following quarters.",
+   "horizon": "announced plans, typically executed within 0-12 months",
+   "latest_edition": {
+    "title": "Challenger Report, October 2026",
+    "date": "2026-11-05",
+    "url": "https://www.challengergray.com/wp-content/uploads/2026/11/Challenger-Report-October-2026.pdf"
+   },
+   "update_cadence": "monthly (first week of the following month)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "A consistent monthly series since 1993 that markets watch (Kalshi lists a contract on it), but it counts announcements and employer-stated reasons, not verified separations; the firm sells outplacement services and no error record against realised lay-offs is published. AI attribution depends on how employers choose to label cuts."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Counts by reason (28 categories), industry, state/region and month with commentary and some named employers; hiring plans alongside."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 5 Nov 2026; 'Artificial Intelligence' is a separate line item in the reasons table (121,401 cuts year-to-date, about 20% of all announced cuts)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "AI was cited for 1,265 cuts in October, its lowest monthly total this year. AI has been cited in 121,401 job cut announcements so far in 2026, approximately 20% of all cuts.",
+     "doc_local_path": "primary/labor/challenger-job-cuts/Challenger-Report-October-2026.pdf",
+     "page": 3
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "High AI and richness scores but a weak accuracy structure (self-reported reasons, no stakes) and it duplicates the mechanism already covered by the employer filings.",
+   "primary_docs": [
+    {
+     "title": "Challenger Report, October 2026 (PDF)",
+     "url": "https://www.challengergray.com/wp-content/uploads/2026/11/Challenger-Report-October-2026.pdf",
+     "local_path": "primary/labor/challenger-job-cuts/Challenger-Report-October-2026.pdf",
+     "status": "full",
+     "bytes": 723694,
+     "pages": 15,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "staffing-payroll-filings",
+   "name": "Staffing and payroll/HR-software company filings (Robert Half, ManpowerGroup, ADP, Workday, Paychex; Adecco, Randstad, Recruit not obtained)",
+   "publisher": "Robert Half Inc., ManpowerGroup Inc., Automatic Data Processing, Workday, Paychex (via SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Unbundling of labour-arbitrage industries: IT services, BPO/call centres and staffing pass AI productivity through to headcount and price",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')",
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail"
+   ],
+   "what_it_forecasts": "Quarterly revenue trends and next-quarter guidance for temporary/permanent placement and payroll volumes, with risk factors on AI reducing demand for staffing.",
+   "horizon": "one quarter to one fiscal year",
+   "latest_edition": {
+    "title": "Robert Half and ManpowerGroup Forms 10-Q for the quarter ended 30 Sep 2026; ADP 10-K FY2026",
+    "date": "2026-10-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/315213/000031521326000053/rhi-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Filed under securities law and scrutinised by analysts who treat staffing revenue as a real-time hiring gauge, but guidance reaches only a quarter or a year and no error record is published."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Segment revenue by quarter and country, bill rates, placements and client counts with brief commentary; little on occupations or places."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Filings dated Feb-Oct 2026; AI is acknowledged as a risk to demand in qualitative risk factors, but revenue guidance is not separately adjusted for it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "The rapidly increasing deployment of AI technology by our customers may lead to reduced demand for our services and solutions. As these technologies evolve, some services and tasks currently performed by our associates may be replaced by AI automation, which could lead to reduced demand for our services if we cannot replace such demand with new services.",
+     "doc_local_path": "primary/labor/staffing-payroll-filings/manpowergroup-10k-fy2025.htm",
+     "page": null
+    },
+    "search_note": "Robert Half 10-K: AI discussed only as an internal matching tool; ADP/Paychex: AI as product feature."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful cyclical gauge with legal exposure, but short-horizon and only qualitatively responsive to AI.",
+   "primary_docs": [
+    {
+     "title": "Robert Half 10-K FY2025 (filed 13 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/315213/000031521326000006/rhi-20251231.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/robert-half-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 1692261,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Robert Half 10-Q Q3 2026 (filed 30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/315213/000031521326000053/rhi-20260930.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/robert-half-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 1445036,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ManpowerGroup 10-K FY2025 (filed 23 Feb 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/871763/000119312526064113/man-20251231.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/manpowergroup-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 7915676,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ManpowerGroup 10-Q Q3 2026 (filed 30 Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/871763/000119312526441750/man-20260930.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/manpowergroup-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 4742155,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ADP 10-K FY2026 (filed 5 Aug 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000030/adp-20260630.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/adp-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 2560667,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Workday 10-K FY2026 (filed 6 Mar 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/workday-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 2198437,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Paychex 10-K FY2026 (filed 17 Jul 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526307785/payx-20260531.htm",
+     "local_path": "primary/labor/staffing-payroll-filings/paychex-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 6069668,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Adecco Group, Randstad, Recruit Holdings annual reports",
+     "url": "https://www.adeccogroup.com/investors",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted beyond confirming the Adecco investor page is reachable; no documents saved."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nyfed-ai-business-survey",
+   "name": "New York Fed Regional Business Surveys: AI use and workforce adjustments (annual August supplement)",
+   "publisher": "Federal Reserve Bank of New York (Liberty Street Economics)",
+   "kind": "survey",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Share of NY-NJ service firms and manufacturers using AI and the shares that laid off, hired fewer, hired more or retrained workers because of it in the past six months.",
+   "horizon": "past six months (the 2025 edition also asked about the next six months)",
+   "latest_edition": {
+    "title": "Businesses Are Using AI to Transform Work, Not Cut Jobs",
+    "date": "2026-09-01",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/"
+   },
+   "update_cadence": "annual (each September since 2024)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Repeated yearly so stated expectations can be checked against the next survey (in 2025, 13% of service firms expected AI lay-offs; the 2026 survey found 4% had made them), but it is a regional sample of self-reports with nothing at stake."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Percentages by firm type and adjustment channel, reasons for non-adoption, examples of retraining; one region only."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 1 Sep 2026; AI's workforce effect is the subject and is quantified (61% of service firms use AI; 4% laid off; 15% hired fewer)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Only 4 percent of service firms reported laying off workers in response to AI over the past six months, compared to just 1 percent in last year’s survey, while no manufacturers reported layoffs this year or last year.",
+     "doc_local_path": "primary/labor/nyfed-ai-business-survey/lse-2026-09-01-businesses-using-ai.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best repeated survey measure of AI-driven hiring changes, but regional, self-reported and backward-looking.",
+   "primary_docs": [
+    {
+     "title": "Liberty Street Economics post, 1 Sep 2026",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/",
+     "local_path": "primary/labor/nyfed-ai-business-survey/lse-2026-09-01-businesses-using-ai.html",
+     "status": "full",
+     "bytes": 186726,
+     "pages": 0,
+     "note": "Chart data files not downloaded"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "richmond-atlanta-fed-cfo-survey",
+   "name": "The CFO Survey (Duke / Richmond Fed / Atlanta Fed): AI, productivity and workforce expectations",
+   "publisher": "Duke University Fuqua School of Business, Federal Reserve Banks of Richmond and Atlanta",
+   "kind": "survey",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')",
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks"
+   ],
+   "what_it_forecasts": "CFOs' expected change in their own firm's headcount attributable to AI, by job category and firm size, alongside their general hiring and wage plans for the coming year.",
+   "horizon": "12 months, with some questions to 2028",
+   "latest_edition": {
+    "title": "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives (working paper)",
+    "date": "2026-05-27",
+    "url": "https://www.richmondfed.org/-/media/RichmondFedOrg/research/national_economy/cfo_survey/academic_publications/AI_survey.pdf"
+   },
+   "update_cadence": "survey quarterly; AI module ad hoc (Nov-Dec 2025 wave, paper revised May 2026)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "A long-running panel whose respondents forecast their own firms, and whose past expectations can be compared with outcomes, but answers are unincentivised and the AI questions are new, so there is no error record for them."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Expected percentage headcount effects by firm size and occupation group (clerical versus technical), adoption depth and productivity channels; anonymous firms, no places."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Paper dated 27 May 2026; AI's effect on employment is the quantified subject of the survey."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "For workforce, companies on net anticipate small near-term AI-driven aggregate employment declines: larger (smaller) companies expect to reduce (increase) routine clerical (technical) positions more.",
+     "doc_local_path": "primary/labor/richmond-atlanta-fed-cfo-survey/AI_survey_working_paper.pdf",
+     "page": 1
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Quantifies executives' own AI headcount expectations, but it is an unincentivised survey with a one-year horizon.",
+   "primary_docs": [
+    {
+     "title": "AI survey working paper (27 May 2026)",
+     "url": "https://www.richmondfed.org/-/media/RichmondFedOrg/research/national_economy/cfo_survey/academic_publications/AI_survey.pdf",
+     "local_path": "primary/labor/richmond-atlanta-fed-cfo-survey/AI_survey_working_paper.pdf",
+     "status": "full",
+     "bytes": 931077,
+     "pages": 25,
+     "note": ""
+    },
+    {
+     "title": "Richmond Fed research commentary, 25 Mar 2026: How Might AI Change the Workplace?",
+     "url": "https://www.richmondfed.org/research/national_economy/cfo_survey/research_and_commentary/2026/20260325_research_commentary",
+     "local_path": "primary/labor/richmond-atlanta-fed-cfo-survey/20260325_research_commentary.html",
+     "status": "full",
+     "bytes": 50747,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "The CFO Survey index page",
+     "url": "https://www.richmondfed.org/research/national_economy/cfo_survey",
+     "local_path": "primary/labor/richmond-atlanta-fed-cfo-survey/cfo_survey_index.html",
+     "status": "partial",
+     "bytes": 27082,
+     "pages": 0,
+     "note": "Index only; latest quarterly results release not downloaded"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "anthropic-economic-index",
+   "name": "Anthropic Economic Index (Claude usage by task, occupation and country; first user survey)",
+   "publisher": "Anthropic",
+   "kind": "expert report",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')",
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks"
+   ],
+   "what_it_forecasts": "Not a forecast: measured shares of Claude usage by occupation, task and automation mode, plus surveyed users' expectations of how much of their job AI can do in 12 months.",
+   "horizon": "current usage; survey expectations 12 months ahead",
+   "latest_edition": {
+    "title": "Anthropic Economic Index report: Cadences",
+    "date": "2026-06-26",
+    "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
+   },
+   "update_cadence": "roughly quarterly (Sep 2025, Jan 2026, Mar 2026, Jun 2026)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Measured telemetry published on a regular cadence with open data, so claims can be checked across editions, but the publisher is an AI vendor with a commercial interest, the sample is its own users, and nothing here is a scored forecast."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Usage shares by occupation group, output type, autonomy level and country; survey shares on job-loss expectations; no named employers or dated events."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Edition dated 26 Jun 2026; AI use is the subject itself and is quantified."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "10% rated losing their own jobs as likely or very likely. This is slightly below the annualized hazard rate of losing a job in the US",
+     "doc_local_path": "primary/labor/anthropic-economic-index/economic-index-june-2026-cadences-report.pdf",
+     "page": 26
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Usage data, not a forecast, from an interested party; valuable texture on what tasks are being delegated.",
+   "primary_docs": [
+    {
+     "title": "Anthropic Economic Index report: Cadences (PDF, 26 Jun 2026)",
+     "url": "https://assets.claude.com/9e0eadc8097864886c5d5060ebb1f89b02ea29d6.pdf",
+     "local_path": "primary/labor/anthropic-economic-index/economic-index-june-2026-cadences-report.pdf",
+     "status": "full",
+     "bytes": 3259219,
+     "pages": 33,
+     "note": ""
+    },
+    {
+     "title": "Appendix to the Cadences report (PDF)",
+     "url": "https://assets.claude.com/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf",
+     "local_path": "primary/labor/anthropic-economic-index/economic-index-june-2026-appendix.pdf",
+     "status": "full",
+     "bytes": 2707986,
+     "pages": 15,
+     "note": ""
+    },
+    {
+     "title": "Cadences report web page (HTML)",
+     "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+     "local_path": "primary/labor/anthropic-economic-index/economic-index-june-2026-report.html",
+     "status": "full",
+     "bytes": 332982,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Earlier edition: Uneven geographic and enterprise AI adoption (Sep 2025, PDF)",
+     "url": "https://assets.claude.com/7b76335c444876a93fa22a63aabb4aeb820aff25.pdf",
+     "local_path": "primary/labor/anthropic-economic-index/economic-index-sept-2025-uneven-adoption-report.pdf",
+     "status": "full",
+     "bytes": 13850183,
+     "pages": 47,
+     "note": "Kept for comparison; not the latest edition"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "openai-usage-reports",
+   "name": "OpenAI usage research: 'How People Use ChatGPT' (NBER Working Paper 34255)",
+   "publisher": "OpenAI Economic Research with Harvard/Duke authors, via NBER",
+   "kind": "expert report",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Not a forecast: measured composition of ChatGPT consumer messages (work versus non-work, topics, user occupation and education) through mid-2025.",
+   "horizon": "none (historical usage to July 2025)",
+   "latest_edition": {
+    "title": "How People Use ChatGPT, NBER Working Paper 34255",
+    "date": "2025-09-15",
+    "url": "https://www.nber.org/papers/w34255"
+   },
+   "update_cadence": "irregular; no 2026 successor was found (openai.com returned 403, so this could not be confirmed on the publisher's site)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Measured usage data from an interested vendor, published once; nothing is forecast or scored. Scored 2 rather than 1 only because it is audited academic work on real logs rather than marketing."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Message shares by topic, intent, occupation and demographics over time; no firms, places or dated events."
+   },
+   "ai": {
+    "score": 3,
+    "why": "AI use is the subject and is quantified, but the edition is September 2025 and so has not absorbed the 2026 shift to agents; capped at 3 for staleness."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We find steady growth in work-related messages but even faster growth in non-work-related messages, which have grown from 53% to more than 70% of all usage.",
+     "doc_local_path": "primary/labor/openai-usage-reports/nber-w34255-how-people-use-chatgpt.pdf",
+     "page": 2
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Stale (Sept 2025) usage snapshot, not a forecast.",
+   "primary_docs": [
+    {
+     "title": "NBER Working Paper 34255 (PDF)",
+     "url": "https://www.nber.org/system/files/working_papers/w34255/w34255.pdf",
+     "local_path": "primary/labor/openai-usage-reports/nber-w34255-how-people-use-chatgpt.pdf",
+     "status": "full",
+     "bytes": 9779127,
+     "pages": 64,
+     "note": "Month read off the document (September 2025); exact day in the date field is approximate"
+    },
+    {
+     "title": "OpenAI page: How people are using ChatGPT",
+     "url": "https://openai.com/index/how-people-are-using-chatgpt/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "openai.com returned HTTP 403"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "wef-future-of-jobs-2025",
+   "name": "WEF Future of Jobs Report 2025",
+   "publisher": "World Economic Forum",
+   "kind": "survey",
+   "covers_trends": [
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Employer-survey expectations for 2025-2030: jobs created and displaced worldwide, fastest growing/declining roles, skills change and planned workforce responses to AI.",
+   "horizon": "2025 to 2030",
+   "latest_edition": {
+    "title": "Future of Jobs Report 2025",
+    "date": "2025-01-08",
+    "url": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf"
+   },
+   "update_cadence": "roughly every two years (2020, 2023, 2025); no 2026 or 2027 edition found",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "An unincentivised survey of about 1,000 employers extrapolated to global job counts; the five-year window matches our horizon but no error record against earlier editions is published and respondents are HR executives, not people with money on the outcome."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Rankings of growing and declining roles, skill lists, and results by industry and 55 economies with headline job counts (170 million created, 92 million displaced)."
+   },
+   "ai": {
+    "score": 3,
+    "why": "AI is a quantified driver of the role projections, but the edition is January 2025 (survey fielded 2024) and predates the 2025-26 agent wave; capped at 3 for staleness."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "two-thirds plan to hire talent with specific AI skills, while 40% anticipate reducing their workforce where AI can automate tasks.",
+     "doc_local_path": "primary/labor/wef-future-of-jobs/WEF_Future_of_Jobs_Report_2025.pdf",
+     "page": 6
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Widely cited but an unscored employer survey, now nearly two years old.",
+   "primary_docs": [
+    {
+     "title": "Future of Jobs Report 2025 (PDF)",
+     "url": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+     "local_path": "primary/labor/wef-future-of-jobs/WEF_Future_of_Jobs_Report_2025.pdf",
+     "status": "full",
+     "bytes": 18604420,
+     "pages": 290,
+     "note": "Document shows 'January 2025'; exact day in the date field is approximate"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "automation-exposure-estimates",
+   "name": "Automation-exposure estimates: Goldman Sachs Research, McKinsey Global Institute, IMF",
+   "publisher": "Goldman Sachs; McKinsey Global Institute; International Monetary Fund",
+   "kind": "expert report",
+   "covers_trends": [
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Shares of jobs or work hours 'exposed' to or displaceable by AI (Goldman: 6-7% of US workers displaced if AI is widely adopted; IMF: about 40% of global jobs exposed; McKinsey: share of hours automatable).",
+   "horizon": "unspecified 'adoption period' (Goldman: roughly a decade); McKinsey scenarios to 2030",
+   "latest_edition": {
+    "title": "Goldman Sachs: How Will AI Affect the Global Workforce?",
+    "date": "2025-08-13",
+    "url": "https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-global-workforce"
+   },
+   "update_cadence": "irregular",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Task-exposure arithmetic, not forecasts: nothing is at stake, nobody scores them, and the horizon is undefined. Goldman and McKinsey also sell advice to the firms adopting AI."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Headline exposure percentages and lists of exposed occupations with brief reasoning; few dates or places."
+   },
+   "ai": {
+    "score": 3,
+    "why": "AI is the subject and is quantified, but the downloaded edition is August 2025 (IMF note January 2024; McKinsey November 2025 not obtained), so none reflects 2026; capped at 3."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Innovation related to artificial intelligence (AI) could displace 6-7% of the US workforce if AI is widely adopted.",
+     "doc_local_path": "primary/labor/automation-exposure-estimates/goldman-how-will-ai-affect-the-global-workforce.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Famous but structurally the weakest: unscored exposure scenarios with no stakes and no 2026 edition obtained.",
+   "primary_docs": [
+    {
+     "title": "Goldman Sachs article, 13 Aug 2025 (HTML)",
+     "url": "https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-global-workforce",
+     "local_path": "primary/labor/automation-exposure-estimates/goldman-how-will-ai-affect-the-global-workforce.html",
+     "status": "partial",
+     "bytes": 804875,
+     "pages": 0,
+     "note": "Public article summarising a client research note; the underlying note is paywalled"
+    },
+    {
+     "title": "IMF Staff Discussion Note SDN/2024/001, Gen-AI: Artificial Intelligence and the Future of Work",
+     "url": "https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "imf.org returned HTTP 403"
+    },
+    {
+     "title": "McKinsey Global Institute, Agents, robots, and us (Nov 2025)",
+     "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "mckinsey.com connection failed (no response); title and date not verified against the document"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "oecd-employment-outlook-2026",
+   "name": "OECD Employment Outlook 2026: Geographic Disparities in Jobs and Incomes",
+   "publisher": "OECD",
+   "kind": "expert report",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "OECD-area and country employment growth and unemployment rates for 2026-2027, with analysis of youth unemployment, real wages, regional gaps and technology shocks.",
+   "horizon": "to end-2027",
+   "latest_edition": {
+    "title": "OECD Employment Outlook 2026",
+    "date": "2026-07-07",
+    "url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html"
+   },
+   "update_cadence": "annual (July)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "An accountable institution whose short-term projections come from the regularly evaluated OECD Economic Outlook, but the horizon is under two years, nothing is at stake, and the thematic chapters are analysis rather than forecasts."
+   },
+   "richness": {
+    "score": 4,
+    "why": "38 countries and sub-national regions with employment, wage and unemployment series, narrated drivers and a statistical annex; few named firms or dated events."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Edition dated 7 Jul 2026; discusses LLMs and youth hiring explicitly but concludes the effect is 'limited' and does not move the projections for AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "So far, the role of recent advances in large language models (LLM) in explaining the difficulties facing young people appears to be limited.",
+     "doc_local_path": "primary/labor/oecd-employment-outlook/oecd-employment-outlook-2026.pdf",
+     "page": 21
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good cross-country context but short-horizon and only qualitative on AI.",
+   "primary_docs": [
+    {
+     "title": "OECD Employment Outlook 2026 (full PDF)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/oecd-employment-outlook-2026_a41e8b9f/7e710f54-en.pdf",
+     "local_path": "primary/labor/oecd-employment-outlook/oecd-employment-outlook-2026.pdf",
+     "status": "full",
+     "bytes": 11746725,
+     "pages": 391,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ilo-weso-trends-2026",
+   "name": "ILO Employment and Social Trends 2026",
+   "publisher": "International Labour Organization",
+   "kind": "expert report",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail"
+   ],
+   "what_it_forecasts": "Global and regional unemployment rates, jobs gap, working poverty and informality projections for 2026-2027.",
+   "horizon": "to 2027",
+   "latest_edition": {
+    "title": "Employment and Social Trends 2026",
+    "date": "2026-01-14",
+    "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026"
+   },
+   "update_cadence": "annual (January), with a mid-year update",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Annual modelled estimates from an accountable UN agency that revises its own past numbers each year, but no stakes, a 1-2 year horizon and no formal published error study that I could confirm."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Global and regional series (unemployment 4.9%, jobs gap 408 million) with commentary; few national or named specifics on the landing page."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Edition dated 14 Jan 2026; AI is named as a downside risk only, without quantification (full report not obtained, so this is judged from the key messages)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "risks stemming from accelerating adoption of AI and high sovereign debt could deteriorate the labour market outlook should they materialize.",
+     "doc_local_path": "primary/labor/ilo-weso/ilo-weso-trends-2026-landing.html",
+     "page": null
+    },
+    "search_note": "Judged from the landing-page key messages only."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Global context only; short-horizon, qualitative on AI, and the full PDF was not obtained.",
+   "primary_docs": [
+    {
+     "title": "Employment and Social Trends 2026 landing page with key messages (HTML)",
+     "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+     "local_path": "primary/labor/ilo-weso/ilo-weso-trends-2026-landing.html",
+     "status": "partial",
+     "bytes": 67168,
+     "pages": 0,
+     "note": "Landing page only; the 4.88 MB PDF link is script-generated and was not located"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nace-job-outlook-2027",
+   "name": "NACE Job Outlook 2027 (employer hiring plans for the Class of 2027)",
+   "publisher": "National Association of Colleges and Employers",
+   "kind": "survey",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Surveyed employers' planned change in new-graduate hiring and starting salaries for the Class of 2027, and the share considering replacing entry-level roles with AI.",
+   "horizon": "one recruiting year (2026-27)",
+   "latest_edition": {
+    "title": "Job Outlook 2027 (summary article: Employers Expect Hiring, Salaries to Climb for the Class of 2027)",
+    "date": "2026-11-18",
+    "url": "https://www.naceweb.org/job-market/trends-and-predictions/employers-expect-hiring-salaries-to-climb-for-the-class-of-2027"
+   },
+   "update_cadence": "annual (November) with a spring update",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Employers report their own hiring plans and NACE revisits them in a spring update, giving informal feedback, but the sample is small and self-selected (311 respondents, 133 members), nothing is at stake, and autumn projections have at times been revised sharply by the spring update."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Hiring and salary percentages overall and by employer size and industry, skills sought, AI-in-recruiting questions; respondent firms are not individually reported."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Edition dated 18 Nov 2026; includes quantified AI questions (1% of employers considering replacing entry-level workers with AI, down from 11%), though the hiring projection itself is not decomposed by AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "results of our Job Outlook 2027 survey show that just 1% of employers are now considering replacing entry-level workers with AI, down from 11% last year.",
+     "doc_local_path": "primary/labor/nace-job-outlook/job-outlook-2027-employers-expect-hiring-salaries-to-climb.html",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "The standard graduate-hiring gauge and very fresh, but a small unincentivised survey with a one-year horizon; full report is members-only.",
+   "primary_docs": [
+    {
+     "title": "NACE summary article, 18 Nov 2026",
+     "url": "https://www.naceweb.org/job-market/trends-and-predictions/employers-expect-hiring-salaries-to-climb-for-the-class-of-2027",
+     "local_path": "primary/labor/nace-job-outlook/job-outlook-2027-employers-expect-hiring-salaries-to-climb.html",
+     "status": "partial",
+     "bytes": 61827,
+     "pages": 0,
+     "note": "Public summary; the full Job Outlook 2027 report is behind the NACE member login (paywalled)"
+    },
+    {
+     "title": "NACE article: Degrees of Difference: How Company Size Is Shaping the 2027 Job Market",
+     "url": "https://www.naceweb.org/job-market/trends-and-predictions/degrees-of-difference-how-company-size-is-shaping-the-2027-job-market",
+     "local_path": "primary/labor/nace-job-outlook/job-outlook-2027-degrees-of-difference.html",
+     "status": "partial",
+     "bytes": 62115,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Job Outlook 2026 Spring Update (PDF, previous cycle)",
+     "url": "https://www.naceweb.org/docs/default-source/default-document-library/2026/publication/research-report/2026-job-outlook-report-spring-update.pdf",
+     "local_path": "primary/labor/nace-job-outlook/2026-job-outlook-spring-update.pdf",
+     "status": "full",
+     "bytes": 4582732,
+     "pages": 41,
+     "note": "Previous cycle (Class of 2026), kept as the latest complete public report"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "indeed-hiring-lab-postings",
+   "name": "Indeed Hiring Lab job-postings index and AI tracker",
+   "publisher": "Indeed Hiring Lab",
+   "kind": "survey",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')",
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks"
+   ],
+   "what_it_forecasts": "Not a forecast: daily index of US job postings on Indeed (total, new, by sector) relative to 1 Feb 2020, and the monthly share of postings mentioning AI.",
+   "horizon": "none (leading indicator, updated to last week)",
+   "latest_edition": {
+    "title": "Job postings tracker (data through 13 Nov 2026) and AI tracker (through 31 Oct 2026)",
+    "date": "2026-11-13",
+    "url": "https://github.com/hiring-lab/job_postings_tracker"
+   },
+   "update_cadence": "weekly (postings); monthly (AI tracker)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "The series aggregates real, paid-for posting decisions by very many independent employers, so it is hard to spin, but it is a measurement of one platform, not a forecast, and it is not scored against outcomes; platform-share changes can distort trends."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Daily series by several dozen occupational sectors and by metro, state and country, plus the AI-mention share; no named employers."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Data current to November 2026 with a separately identified AI series (7.8% of US postings mention AI in Oct 2026, up from 4.1% a year earlier), but it measures AI terms in ads rather than AI's effect on hiring."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "2026-10-31,US,7.76068852500205",
+     "doc_local_path": "primary/labor/indeed-hiring-lab/AI_posting.csv",
+     "page": null
+    },
+    "search_note": "Columns: date,jobcountry,AI_share_postings"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Excellent high-frequency indicator of the hiring squeeze by sector, but observational data rather than a forward commitment or forecast.",
+   "primary_docs": [
+    {
+     "title": "US aggregate job postings index (CSV)",
+     "url": "https://raw.githubusercontent.com/hiring-lab/job_postings_tracker/master/US/aggregate_job_postings_US.csv",
+     "local_path": "primary/labor/indeed-hiring-lab/aggregate_job_postings_US.csv",
+     "status": "full",
+     "bytes": 205567,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "US job postings by sector (CSV)",
+     "url": "https://raw.githubusercontent.com/hiring-lab/job_postings_tracker/master/US/job_postings_by_sector_US.csv",
+     "local_path": "primary/labor/indeed-hiring-lab/job_postings_by_sector_US.csv",
+     "status": "full",
+     "bytes": 12275534,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AI tracker: share of postings mentioning AI, by country (CSV)",
+     "url": "https://raw.githubusercontent.com/hiring-lab/ai-tracker/main/AI_posting.csv",
+     "local_path": "primary/labor/indeed-hiring-lab/AI_posting.csv",
+     "status": "full",
+     "bytes": 795280,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Hiring Lab 2026 article index (HTML)",
+     "url": "https://www.hiringlab.org/2026/",
+     "local_path": "primary/labor/indeed-hiring-lab/hiringlab-2026-index.html",
+     "status": "partial",
+     "bytes": 40904,
+     "pages": 0,
+     "note": "Index page only"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "linkedin-economic-graph",
+   "name": "LinkedIn Economic Graph workforce reports (hiring rate)",
+   "publisher": "LinkedIn",
+   "kind": "survey",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Not a forecast: monthly LinkedIn hiring rate by country, US metro and industry, from member profile changes.",
+   "horizon": "none (previous month)",
+   "latest_edition": {
+    "title": "United States Workforce Report, October 2026",
+    "date": "2026-10-15",
+    "url": "https://economicgraph.linkedin.com/workforce-data"
+   },
+   "update_cadence": "monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Built from the behaviour of millions of members, so not opinion, but it is a platform measurement, not a forecast, is unscored, and skews to white-collar profiles."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Hiring-rate changes by country, metro and industry with short commentary."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Current to October 2026; AI appears only as a research theme on the page, and hiring-rate numbers embed AI effects inseparably."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the workforce-data page for AI/artificial intelligence: only navigation labels ('Work & AI Pulse', 'Research on AI, skills...'); no AI passage in the report text captured."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Timely white-collar hiring gauge, but not a forecast and silent on AI in the captured material.",
+   "primary_docs": [
+    {
+     "title": "LinkedIn workforce data landing page (HTML)",
+     "url": "https://economicgraph.linkedin.com/workforce-data",
+     "local_path": "primary/labor/linkedin-economic-graph/workforce-data.html",
+     "status": "partial",
+     "bytes": 105176,
+     "pages": 0,
+     "note": "Landing page listing the October 2026 US report; the report itself was not downloaded and the exact publication day is approximate"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "lightcast-linkup-postings",
+   "name": "Lightcast and LinkUp job-postings analytics",
+   "publisher": "Lightcast; LinkUp",
+   "kind": "survey",
+   "covers_trends": [
+    "Occupational reshuffle: care, health and electricity-buildout jobs grow while office-admin, sales and routine clerical work shrinks",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Not a forecast: employer job postings by skill, occupation and employer (Lightcast scraped ads; LinkUp postings taken directly from employer career sites).",
+   "horizon": "none (current postings; Lightcast also sells projections)",
+   "latest_edition": {
+    "title": "Lightcast research index (latest report not identified; date shown is the access date); LinkUp data not accessed",
+    "date": "2026-11-18",
+    "url": "https://lightcast.io/resources/research"
+   },
+   "update_cadence": "continuous data feeds; periodic public reports",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Aggregates real posting behaviour by many employers, but the data are commercial products, not scored forecasts, and public reports are marketing-adjacent."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Skill- and employer-level detail exists in the paid products; public reports give selected rankings and shares."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated data that embed AI skill demand, but no dated 2026 edition was obtained to verify how AI is treated."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Only the Lightcast research index page was saved; it contains no substantive AI passage. Edition and date could not be confirmed."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Paywalled data products; nothing verifiable was obtained beyond an index page.",
+   "primary_docs": [
+    {
+     "title": "Lightcast research index (HTML)",
+     "url": "https://lightcast.io/resources/research",
+     "local_path": "primary/labor/lightcast-linkup/lightcast-research-index.html",
+     "status": "partial",
+     "bytes": 477866,
+     "pages": 0,
+     "note": "Index page only; reports are gated behind forms"
+    },
+    {
+     "title": "LinkUp job-market data",
+     "url": "https://www.linkup.com/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Subscription data; not attempted"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "warn-notices",
+   "name": "WARN Act mass-layoff notices (California EDD file as sample)",
+   "publisher": "State workforce agencies under the federal WARN Act (California Employment Development Department)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Legally required 60-day advance notices of plant closures and mass lay-offs: employer, address, county, number of workers and effective date.",
+   "horizon": "60 days ahead (some notices list dates into early 2027)",
+   "latest_edition": {
+    "title": "California EDD WARN Report, 07/01/26 to 11/16/2026",
+    "date": "2026-11-16",
+    "url": "https://edd.ca.gov/siteassets/files/jobs_and_training/warn/warn_report1.xlsx"
+   },
+   "update_cadence": "weekly or better (state-dependent)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T5"
+    ],
+    "why": "Employers face back-pay liability for failing to give notice, and the noticed lay-offs are already decided, so near-term accuracy is high; but the reach is two months, not five years, coverage excludes small cuts and attrition, and no error record is kept."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named employers with street addresses, counties, dates, headcounts and closure/lay-off type (e.g. 448 lay-off and 131 closure notices covering 30,159 California workers since 1 July 2026); no reasons given."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Data current to 16 Nov 2026 and they move with AI-related cuts, but there is no reason field so AI cannot be separated."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the detailed report for AI/artificial intelligence/automation/data center: only two hits, both the company name 'Haas Automation, Inc.'."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Legally compelled and extremely concrete, but a 60-day instrument with no reasons; only one state's file was pulled.",
+   "primary_docs": [
+    {
+     "title": "California EDD WARN report workbook (XLSX)",
+     "url": "https://edd.ca.gov/siteassets/files/jobs_and_training/warn/warn_report1.xlsx",
+     "local_path": "primary/labor/warn-notices/california-edd-warn_report.xlsx",
+     "status": "full",
+     "bytes": 75628,
+     "pages": 0,
+     "note": "One state only; other states' WARN lists were not collected. All sheets also rendered to CSV alongside (summary sheet: california-edd-warn_report__WARN_Report_Summary.csv)."
+    },
+    {
+     "title": "Detailed WARN Report sheet (CSV rendering)",
+     "url": "https://edd.ca.gov/siteassets/files/jobs_and_training/warn/warn_report1.xlsx",
+     "local_path": "primary/labor/warn-notices/california-edd-warn_report__Detailed_WARN_Report_.csv",
+     "status": "full",
+     "bytes": 121191,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "h1b-lca-data",
+   "name": "H-1B Labor Condition Application disclosure data and USCIS employer data hub",
+   "publisher": "US Department of Labor (OFLC); USCIS",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Unbundling of labour-arbitrage industries: IT services, BPO/call centres and staffing pass AI productivity through to headcount and price",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Employers' sworn filings to hire foreign professionals: employer, job title, worksite, offered wage and start date, a leading indicator of skilled hiring intentions.",
+   "horizon": "employment start dates up to six months ahead; visas run three years",
+   "latest_edition": {
+    "title": "OFLC LCA disclosure data (latest quarterly file not confirmed; date shown is the access date)",
+    "date": "2026-11-18",
+    "url": "https://www.dol.gov/agencies/eta/foreign-labor/performance"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T5"
+    ],
+    "why": "Filed under penalty of perjury with fees and wage obligations attached, so they reflect real intent for specific jobs; but the reach is months, certified LCAs overstate actual hires, and no error record exists. Scored from general knowledge of the programme: the 2026 files could not be opened."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Employer, job title, SOC code, city and wage for every application."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Could not verify the latest edition or any AI treatment; the form has no technology field, so AI effects are not separable."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document downloaded (dol.gov and uscis.gov returned HTTP 403); edition date unverified."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Potentially rich on IT-services hiring by employer and city, but nothing could be downloaded or verified.",
+   "primary_docs": [
+    {
+     "title": "OFLC performance data page (LCA disclosure files)",
+     "url": "https://www.dol.gov/agencies/eta/foreign-labor/performance",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403"
+    },
+    {
+     "title": "USCIS H-1B Employer Data Hub",
+     "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "metaculus-labor-questions",
+   "name": "Metaculus questions on unemployment and AI-driven job loss",
+   "publisher": "Metaculus",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail",
+    "White-collar and entry-level hiring squeeze as large employers restructure around AI (flatter orgs, 'low-hire, low-fire')"
+   ],
+   "what_it_forecasts": "Community probability forecasts on dated questions such as peak US unemployment, labour-force participation and AI-attributed job losses.",
+   "horizon": "question-dependent, some to 2030 and beyond",
+   "latest_edition": {
+    "title": "Live questions (not retrieved; date shown is the access date)",
+    "date": "2026-11-18",
+    "url": "https://www.metaculus.com/questions/"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Many independent forecasters and a published calibration track record, with no money at stake; long-dated labour questions typically attract few forecasters. Scored from the platform's general design: the API returned 403, so the specific labour questions and their forecaster counts are unverified."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A probability or median per question with comment threads of uneven quality."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated and some questions are explicitly about AI and jobs, but none could be retrieved to confirm; scored conservatively."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No data retrieved: https://www.metaculus.com/api/posts/ and /api2/questions/ returned HTTP 403."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Could not be accessed, so nothing is verified; listed for completeness.",
+   "primary_docs": [
+    {
+     "title": "Metaculus API search for unemployment questions",
+     "url": "https://www.metaculus.com/api/posts/?search=unemployment",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 from both API endpoints tried"
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "philly-fed-spf",
+   "name": "Survey of Professional Forecasters, Fourth Quarter 2026",
+   "publisher": "Federal Reserve Bank of Philadelphia",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Slow labour-force growth and macro slack: ageing plus lower immigration mean tiny monthly payroll gains, ~4-4.6% baseline unemployment and a fat AI tail"
+   ],
+   "what_it_forecasts": "Median professional forecasts of the US unemployment rate, payroll job gains and GDP by quarter for the next year and annually for 2026-2029.",
+   "horizon": "quarterly to Q4 2027; annual averages to 2029",
+   "latest_edition": {
+    "title": "Fourth Quarter 2026 Survey of Professional Forecasters",
+    "date": "2026-11-16",
+    "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q4-2026"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Several dozen independent professional forecasters whose reputations and businesses depend on accuracy, with the Philadelphia Fed publishing forecast-error statistics back to 1968; but respondents are anonymous in the release, no money is settled on it, and the detailed horizon is about a year."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A few headline series (unemployment, payrolls, GDP, inflation) with one page of commentary."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Edition dated 16 Nov 2026 with no AI treatment at all."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the release text for AI/artificial intelligence: none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Well-scored consensus baseline, but thin and silent on AI.",
+   "primary_docs": [
+    {
+     "title": "SPF Q4 2026 release (PDF)",
+     "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2026/spfQ426.pdf",
+     "local_path": "primary/labor/philly-fed-spf/spfQ426.pdf",
+     "status": "full",
+     "bytes": 1125179,
+     "pages": 17,
+     "note": ""
+    },
+    {
+     "title": "SPF Q4 2026 release page (HTML)",
+     "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q4-2026",
+     "local_path": "primary/labor/philly-fed-spf/spf-q4-2026.html",
+     "status": "full",
+     "bytes": 53234,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}

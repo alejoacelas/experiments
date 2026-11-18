@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swift Centre · Decision science and foresight</title>
+<link rel="stylesheet" href="/Assets/fonts/fonts.css">
+<script src="/Assets/form-guard.js" defer></script>
+<style>
+  :root{
+    --paper:#ffffff; --warm-paper:#eceae2; --ink:#232733; --muted-ink:#63697a;
+    --line:#dcd8cc; --w:1280px;
+    --adv-navy:#202247; --adv-deep:#191a34; --adv-blue:#b9c0e0; --adv-orange:#e0794a;
+    --adv-navy-rgb:32,34,71; --adv-orange-rgb:224,121,74;
+    --res-teal:#5b98b8; --res-deep:#4a819e; --res-blue:#7dbbd4;
+    --res-teal-rgb:91,152,184;
+    --serif:"Merriweather",Georgia,"Times New Roman",serif;
+    --sans:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;
+    --mono:Inter,ui-sans-serif,system-ui,monospace;
+    --paper-rgb:255,255,255; --ink-rgb:35,39,51;
+    --wm-track:.035em;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  html{background:var(--paper); overflow-x:clip; scroll-behavior:smooth; transition:background-color .6s ease}
+  body{color:var(--ink); font-family:var(--sans); line-height:1.55; overflow-x:clip; -webkit-font-smoothing:antialiased}
+  a{color:inherit; text-decoration:none}
+  ::selection{background:rgba(var(--res-teal-rgb),.3)}
+  .container{max-width:var(--w); margin:0 auto; padding:0 40px}
+
+  #world{position:fixed; inset:0; width:100%; height:100%; z-index:0; display:block}
+  .stage{position:relative; z-index:1}
+  /* bridge lines: flow out from the two outer hero dots, turn a right angle, and drop to flank the toggle */
+  #bridgeLines{position:absolute; top:0; left:0; width:100%; height:100%; overflow:visible; pointer-events:none; z-index:0}
+  .bridge-line{fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round;
+    stroke-dasharray:var(--len,0); stroke-dashoffset:var(--len,0)}
+  .bridge-line.research{stroke:var(--res-teal)}
+  .bridge-line.advisory{stroke:var(--adv-orange)}
+  /* transition lives only on the reveal itself, so any earlier --len changes
+     (e.g. fonts loading and nudging layout) snap instantly instead of animating */
+  .bridge-line.draw{stroke-dashoffset:0; transition:stroke-dashoffset 4.2s cubic-bezier(.22,.61,.36,1)}
+  .haze{position:relative}
+  .haze::before{content:""; position:absolute; inset:-16% -22%; z-index:-1;
+    background:radial-gradient(closest-side, rgba(var(--paper-rgb),.94), rgba(var(--paper-rgb),.7) 55%, rgba(var(--paper-rgb),0)); pointer-events:none}
+  .eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.22em; font-weight:600; text-transform:uppercase; color:var(--muted-ink); margin:0}
+
+  /* nav */
+  .nav{position:fixed; top:0; left:0; right:0; z-index:30; transition:background .4s, border-color .4s; border-bottom:1px solid transparent}
+  .nav.scrolled{background:rgba(var(--paper-rgb),.86); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom-color:var(--line)}
+  .nav-in{max-width:var(--w); margin:0 auto; padding:16px 40px; display:flex; align-items:center; justify-content:space-between}
+  .wm-text{font-family:var(--sans); font-size:13px; color:var(--ink); white-space:nowrap; font-weight:800; letter-spacing:var(--wm-track); text-transform:uppercase}
+  .nav-links{display:flex; align-items:center; gap:26px}
+  .nav-links a{font-size:13.5px; color:var(--muted-ink); transition:color .15s}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{font-weight:600}
+
+  /* 1 · HERO */
+  .hero{min-height:100vh; display:grid; place-items:center; text-align:center; position:relative; padding:100px 0 60px}
+  .hero-birds{position:absolute; inset:0; pointer-events:none; z-index:1}
+  /* left/bottom/transform are set by JS to land where "Explore" used to sit,
+     each flanking the same X the bridge lines travel out to */
+  .hero-bird{position:absolute; width:clamp(72px,8vw,110px); height:auto; opacity:0; transition:opacity .5s ease}
+  .hero-inner{width:min(860px, calc(100% - 48px)); position:relative; z-index:2; display:flex; flex-direction:column; align-items:center}
+  .hero .brand-block{display:inline-flex; flex-direction:column; align-items:center; max-width:100%; position:relative; padding-bottom:22px}
+  .hero h1{font-family:var(--sans); font-weight:800; font-size:clamp(42px,8.2vw,96px); line-height:1; letter-spacing:var(--wm-track); text-transform:uppercase; margin:0; white-space:nowrap;
+    opacity:0; transform:translateY(14px); animation:rise 1.2s cubic-bezier(.22,.61,.36,1) .18s forwards}
+  .hero .brand-rule{position:absolute; height:4px; margin:0; border:0; border-radius:999px;
+    background:linear-gradient(90deg, var(--res-teal) 0%, var(--res-blue) 42%, var(--res-deep) 66%, var(--adv-orange) 100%);
+    opacity:0; transform:translateY(10px); animation:rise 1.2s cubic-bezier(.22,.61,.36,1) .3s forwards}
+  .hero .tagline{margin:26px 0 0; font-family:var(--mono); font-weight:600; font-size:clamp(11px,1vw,14px); letter-spacing:.16em; text-transform:uppercase; color:var(--muted-ink);
+    opacity:0; transform:translateY(14px); animation:rise 1.2s cubic-bezier(.22,.61,.36,1) .42s forwards; max-width:46ch; margin-left:auto; margin-right:auto}
+  .hero .dots{display:flex; justify-content:center; gap:10px; margin:18px 0 0;
+    opacity:0; transform:translateY(10px); animation:rise 1.2s cubic-bezier(.22,.61,.36,1) .52s forwards}
+  .hero .dots span{width:6px; height:6px; border-radius:50%; background:var(--muted-ink); opacity:.45}
+  .hero .dots span:nth-child(1){background:var(--res-teal); opacity:.75}
+  .hero .dots span:nth-child(2){background:var(--ink); opacity:.35}
+  .hero .dots span:nth-child(3){background:var(--adv-orange); opacity:.7}
+  .hero .lede{margin:22px auto 0; max-width:52ch; font-size:clamp(16px,1.4vw,19px); color:var(--muted-ink); line-height:1.6;
+    opacity:0; transform:translateY(14px); animation:rise 1.2s cubic-bezier(.22,.61,.36,1) .64s forwards}
+  @keyframes rise{to{opacity:1; transform:none}}
+  @keyframes rise-cue{to{opacity:1; transform:translateX(-50%)}}
+  .scroll-cue{position:absolute; bottom:36px; left:50%; transform:translateX(-50%); display:grid; justify-items:center; gap:10px;
+    color:rgba(var(--ink-rgb),.4); font-family:var(--mono); font-size:10px; font-weight:600; letter-spacing:.2em; text-transform:uppercase;
+    opacity:0; animation:rise-cue 1s ease 1.1s forwards; transition:opacity .35s ease}
+  .scroll-cue i{width:1px; height:52px; background:linear-gradient(180deg, rgba(var(--ink-rgb),.3), rgba(var(--ink-rgb),0))}
+
+  /* 2 · TWO ARMS TOGGLE */
+  .arms{min-height:100vh; display:grid; align-items:center; padding:20px 0 64px}
+  .arms-head{text-align:center; max-width:900px; margin:0 auto 60px}
+  .arms-head .eyebrow{margin-bottom:32px}
+  .arms-head h2{font-family:var(--serif); font-weight:700; font-size:clamp(28px,3.4vw,44px); line-height:1.1; margin:0 0 100px}
+  .arms-head p{margin:0 auto; color:var(--muted-ink); font-size:17px; max-width:46ch; line-height:1.55}
+
+  .toggle-wrap{display:flex; flex-direction:column; align-items:center; gap:16px; margin:0 auto 40px}
+  .toggle-hint{font-family:var(--mono); font-size:11px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted-ink); margin:0}
+  .toggle{display:inline-flex; padding:5px; border:2px solid var(--line); border-radius:999px; background:rgba(255,255,255,.72);
+    position:relative; box-shadow:0 10px 30px -18px rgba(var(--ink-rgb),.45); min-width:min(520px,94vw); gap:4px}
+  .toggle button{position:relative; z-index:2; border:0; background:transparent; cursor:pointer; font:inherit; font-weight:700; font-size:clamp(15px,1.6vw,17px);
+    padding:13px 44px; border-radius:999px; color:var(--muted-ink); transition:color .3s; white-space:nowrap; flex:1; letter-spacing:.05em}
+  .toggle button.on{color:#fff}
+  .toggle .slider{position:absolute; z-index:1; top:5px; bottom:5px; left:5px; width:calc(50% - 5px); border-radius:999px;
+    background:var(--res-teal); transition:transform .42s cubic-bezier(.6,.05,.2,1), background .42s ease;
+    box-shadow:0 8px 18px -8px rgba(var(--res-teal-rgb),.7)}
+  .toggle[data-active="advisory"] .slider{transform:translateX(100%); background:var(--adv-navy); box-shadow:0 8px 18px -8px rgba(var(--adv-navy-rgb),.65)}
+  .toggle[data-active="advisory"]{border-color:rgba(var(--adv-orange-rgb),.45)}
+
+  .arm-stage{position:relative; max-width:1180px; margin:0 auto; min-height:0}
+  .arm-panel{position:absolute; inset:0; display:grid; grid-template-rows:1fr auto; gap:clamp(28px,4vh,40px);
+    opacity:0; visibility:hidden; transform:translateY(14px); transition:opacity .5s ease, transform .5s ease, visibility .5s}
+  .arm-panel.show{opacity:1; visibility:visible; transform:none; position:relative}
+  .arm-panel.advisory{background:#F6F3EC; padding:clamp(20px,3vw,32px)}
+  .arm-body{display:grid; grid-template-columns:1.08fr .92fr; gap:clamp(24px,3.5vw,48px); align-items:stretch}
+  .arm-card{border-radius:16px; padding:clamp(26px,3vw,36px); border:1px solid var(--line); box-shadow:0 28px 56px -46px rgba(var(--ink-rgb),.5); text-align:center;
+    display:flex; flex-direction:column; min-height:0}
+  .arm-panel.research .arm-card{background:linear-gradient(160deg, #ffffff, #f0f4f3)}
+  .arm-panel.advisory .arm-card{
+    background:
+      radial-gradient(120% 80% at 100% 0%, rgba(var(--adv-orange-rgb),.22), transparent 52%),
+      linear-gradient(160deg, var(--adv-navy), var(--adv-deep));
+    color:#fff; border-color:rgba(255,255,255,.08)}
+  .arm-tag{font-family:var(--mono); font-size:12px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; margin:0}
+  .arm-panel.research .arm-tag{color:var(--res-deep)}
+  .arm-panel.advisory .arm-tag{color:var(--adv-orange)}
+  .arm-body h3{font-family:var(--serif); font-weight:700; font-size:clamp(24px,2.6vw,34px); line-height:1.08; margin:12px 0 8px}
+  .arm-panel.research .arm-body h3{color:var(--res-teal)}
+  .arm-panel.advisory .arm-side h3{color:var(--adv-navy)}
+  .arm-body .arm-tagline{font-family:var(--serif); font-style:italic; font-size:clamp(17px,1.6vw,20px); opacity:.95; margin:0 0 12px}
+  .arm-panel.research .arm-tagline{color:var(--res-deep)}
+  .arm-panel.advisory .arm-tagline{color:var(--adv-orange)}
+  .arm-body .arm-copy{margin:0; font-size:clamp(15px,1.15vw,16.5px); line-height:1.6; flex:1}
+  .arm-panel.research .arm-copy{color:#3a4a4d}
+  .arm-panel.advisory .arm-side .arm-copy{color:#3a3d5c}
+  .arm-cta-wrap{display:flex; justify-content:center; padding:4px 0 8px}
+  .arm-cta{display:inline-flex; align-items:center; justify-content:center; gap:10px;
+    padding:16px 34px; border-radius:10px; font-weight:700; font-size:clamp(15px,1.3vw,17px); transition:transform .18s, background .18s, box-shadow .18s}
+  .arm-panel.research .arm-cta{background:var(--res-teal); color:#fff; box-shadow:0 12px 24px -14px rgba(var(--res-teal-rgb),.9)}
+  .arm-panel.research .arm-cta:hover{background:var(--res-deep); transform:translateY(-1px)}
+  .arm-panel.advisory .arm-cta{background:var(--adv-orange); color:#fff; box-shadow:0 12px 24px -14px rgba(var(--adv-orange-rgb),.85)}
+  .arm-panel.advisory .arm-cta:hover{background:#c9663a; transform:translateY(-1px)}
+  .arm-side{padding:clamp(4px,1vw,10px) 8px 4px 6px; display:flex; flex-direction:column}
+  .arm-body .focus-label{font-family:var(--mono); font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--muted-ink); margin:0 0 16px}
+  .arm-panel.advisory .arm-card .focus-label{color:#f6f3ec}
+  .arm-body .focus{display:grid; gap:16px; flex:1}
+  .focus-item{display:flex; gap:14px; align-items:flex-start}
+  .focus-item .fk{font-family:var(--serif); font-weight:900; font-size:22px; min-width:28px; line-height:1.1; padding-top:2px}
+  .arm-panel.research .fk{color:var(--res-teal)}
+  .arm-panel.advisory .fk{color:var(--adv-orange)}
+  .focus-item .fv{font-size:clamp(15.5px,1.25vw,17.5px); color:var(--muted-ink); line-height:1.5}
+  .arm-panel.advisory .arm-card .fv{color:#f6f3ec}
+  .arm-body .fnote{margin-top:20px; font-family:var(--mono); font-size:11px; letter-spacing:.06em; color:var(--muted-ink); text-transform:uppercase; opacity:.8}
+  .arm-panel.advisory .arm-card .fnote{color:#f6f3ec}
+
+  /* 3 · CONTACT */
+  /* The nav is position:fixed at ~54px, so a section arrived at by fragment
+     (/case-studies -> /#cases, /contact-us -> /#contact) would otherwise have its
+     first line sitting underneath it. */
+  #arms, #cases, #contact{scroll-margin-top:74px}
+
+  /* ---------- client work ----------
+     Recovered from the old site's Case Studies page. Deliberately palette-neutral:
+     the engagements span both wings, so this borrows neither the Advisory navy nor
+     the Research teal for anything structural. Each case reuses the two-column
+     shape of .arm-body — a narrow identity column beside the copy — because the
+     original write-ups run to a paragraph each and read badly in thirds. */
+  .cases{padding:clamp(64px,8vw,110px) 0 0}
+  .cases-head{text-align:center; max-width:820px; margin:0 auto clamp(38px,4.4vw,58px)}
+  .cases-head h2{font-family:var(--serif); font-weight:700; font-size:clamp(26px,3.1vw,40px);
+    line-height:1.12; margin:14px 0 16px; color:var(--ink)}
+  .cases-head p{margin:0; font-size:clamp(16px,1.3vw,18px); line-height:1.6; color:var(--muted-ink)}
+  .case{display:grid; grid-template-columns:minmax(0,4fr) minmax(0,6fr);
+    gap:clamp(22px,3.2vw,52px); padding:clamp(26px,3.2vw,42px) 0;
+    border-top:1px solid var(--line); align-items:start}
+  .case:first-of-type{border-top:0; padding-top:0}
+  .case-service{font-family:var(--mono); font-size:11.5px; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--muted-ink); margin:0 0 10px}
+  .case-side h3{font-family:var(--serif); font-weight:700; font-size:clamp(21px,1.9vw,27px);
+    line-height:1.15; margin:0 0 12px; color:var(--ink)}
+  .case-side h3 a{border-bottom:1px solid rgba(var(--ink-rgb),.22)}
+  .case-side h3 a:hover{color:var(--res-deep); border-bottom-color:var(--res-teal)}
+  .case-promise{margin:0; font-size:15.5px; line-height:1.55; color:var(--muted-ink)}
+  .case-body p{margin:0 0 14px; font-size:clamp(15.5px,1.2vw,17px); line-height:1.65;
+    color:var(--muted-ink)}
+  .case-body p:last-child{margin-bottom:0}
+  .case-body a{color:var(--res-deep); border-bottom:1px solid rgba(var(--res-teal-rgb),.42)}
+  .case-body a:hover{border-bottom-color:var(--res-deep)}
+  .quotes{display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:clamp(18px,2.4vw,32px); margin-top:clamp(36px,4.6vw,62px)}
+  .quote{border-radius:16px; padding:clamp(24px,2.6vw,34px); background:var(--warm-paper);
+    border:1px solid var(--line); margin:0}
+  .quote blockquote{margin:0}
+  .quote blockquote p{margin:0 0 12px; font-family:var(--serif);
+    font-size:clamp(15px,1.2vw,17px); line-height:1.62; color:var(--ink)}
+  .quote blockquote p:last-child{margin-bottom:0}
+  .quote figcaption{margin-top:18px; font-family:var(--mono); font-size:11.5px;
+    letter-spacing:.1em; text-transform:uppercase; color:var(--muted-ink); line-height:1.55}
+  @media (max-width:900px){
+    .case{grid-template-columns:1fr; gap:14px}
+    .quotes{grid-template-columns:1fr}
+  }
+
+  .contact-strip{background:linear-gradient(180deg, rgba(var(--paper-rgb),0), #f5f5f4 100px); padding:clamp(90px,12vw,140px) 0 0}
+  .cs-inner{max-width:720px; margin:0 auto; text-align:center}
+  .cs-inner .eyebrow{margin-bottom:8px}
+  .cs-inner h2{font-family:var(--serif); font-weight:700; font-size:clamp(26px,3vw,40px); margin:16px 0 18px; line-height:1.1}
+  .cs-inner > p{margin:0 auto; color:var(--muted-ink); font-size:16px; max-width:46ch; line-height:1.6}
+  .cs-form{display:grid; grid-template-columns:1fr 1fr auto; gap:14px; width:min(680px,100%); margin:42px auto 0; text-align:left}
+  .cs-form .full{grid-column:1/-1}
+  .cs-form input,.cs-form textarea{width:100%; border:1px solid var(--line); border-radius:8px; background:rgba(255,255,255,.75); color:var(--ink);
+    padding:14px 15px; font:inherit; font-size:15px; transition:border-color .18s, box-shadow .18s}
+  .cs-form textarea{min-height:100px; resize:vertical}
+  .cs-form input:focus,.cs-form textarea:focus{outline:0; border-color:var(--res-teal); box-shadow:0 0 0 3px rgba(var(--res-teal-rgb),.14)}
+  .cs-form .submit{border:0; border-radius:8px; background:var(--ink); color:#fff; padding:0 28px; font:inherit; font-weight:700; font-size:14.5px; cursor:pointer; white-space:nowrap; transition:background .18s}
+  .cs-form .submit:hover{background:#000}
+  .cs-note{margin-top:22px; font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; color:var(--muted-ink); opacity:.8}
+  .formok{display:none; grid-column:1/-1; background:#e9f3ec; border:1px solid #bcd9c4; color:#2f6b41; padding:13px; border-radius:8px; font-size:14px}
+  .formerr{display:none; grid-column:1/-1; background:#fbeaea; border:1px solid #e3b8b8; color:#8a2f2f; padding:13px; border-radius:8px; font-size:14px}
+  .hp-field{position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden}
+
+  /* footer · three columns */
+  footer{padding:72px 0 52px}
+  .foot-grid{display:grid; grid-template-columns:1.15fr 1.2fr .9fr; gap:36px 48px; padding-top:32px; border-top:1px solid var(--line)}
+  .foot-col h4{margin:0 0 14px; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink)}
+  .foot-entity{margin:0 0 20px}
+  .foot-entity:last-child{margin-bottom:0}
+  .foot-entity .ename{margin:0 0 6px; font-size:13.5px; font-weight:600; color:var(--ink)}
+  .foot-entity.research .ename{color:var(--res-deep)}
+  .foot-entity.advisory .ename{color:var(--adv-orange)}
+  .foot-entity p{margin:0; font-size:12.5px; line-height:1.65; color:var(--muted-ink)}
+  .foot-links-col{display:flex; flex-direction:column; gap:11px; align-items:flex-start}
+  .foot-links-col a{font-size:13.5px; color:var(--muted-ink); transition:color .15s}
+  .foot-links-col a:hover{color:var(--ink)}
+  .foot-links-col .policy{margin-top:8px; padding-top:12px; border-top:1px solid var(--line); width:100%}
+  .foot-links-col .policy a{display:block; margin-top:10px; font-size:12.5px}
+
+  @media (prefers-reduced-motion: reduce){
+    .hero h1,.hero .brand-rule,.hero .tagline,.hero .dots,.hero .lede,.scroll-cue{animation:none; opacity:1}
+    .hero h1,.hero .brand-rule,.hero .tagline,.hero .dots,.hero .lede{transform:none}
+    .scroll-cue{transform:translateX(-50%)}
+  }
+  @media (max-width:900px){
+    .container,.nav-in{padding-left:18px; padding-right:18px}
+    .nav-in{padding-top:14px; padding-bottom:14px; gap:12px}
+    .wm-text{font-size:11px}
+    .nav-links{gap:12px; flex-shrink:0}
+    .nav-links a{font-size:12px}
+    .hero{padding:88px 0 52px}
+    .hero-bird{width:56px}
+    .hero h1{font-size:clamp(34px,10.5vw,52px); white-space:normal; text-align:center}
+    .hero .tagline{letter-spacing:.12em; font-size:11px; padding:0 8px}
+    .arms{padding:72px 0 56px; align-items:start}
+    .arms-head{margin-bottom:22px}
+    .toggle{min-width:0; width:100%; max-width:440px}
+    .toggle button{padding:12px 22px; font-size:15px}
+    .arm-panel:not(.show){display:none}
+    .arm-body{grid-template-columns:1fr; gap:20px}
+    .arm-card{padding:24px 20px}
+    .arm-cta{width:min(100%,320px)}
+    .arm-side{padding:4px 2px 0}
+    .cs-form{grid-template-columns:1fr}
+    .cs-form .submit{padding:14px 26px}
+    .foot-grid{grid-template-columns:1fr; gap:28px}
+  }
+</style>
+</head>
+<body>
+
+<canvas id="world" aria-hidden="true"></canvas>
+
+<div class="nav" id="nav">
+  <div class="nav-in">
+    <a class="wm-text" href="#top" aria-label="Swift Centre">Swift Centre</a>
+    <div class="nav-links">
+      <a href="research.html">Research</a>
+      <a href="advisory.html">Advisory</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </div>
+  </div>
+</div>
+
+<div class="stage">
+  <svg id="bridgeLines" aria-hidden="true">
+    <path class="bridge-line research" id="bridgeLeft"></path>
+    <path class="bridge-line advisory" id="bridgeRight"></path>
+  </svg>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-birds" aria-hidden="true">
+      <img class="hero-bird research" src="Assets/Research/flock-sprite-bird.png" alt="">
+      <svg class="hero-bird advisory" viewBox="0 0 1266 1233"><path d="M 1133 352 Q 637 258 141 228 Q 514 667 931 1065 C 850 928 678 680 606 515 Q 874 448 1133 352 Z" fill="#e0794a"/></svg>
+    </div>
+    <div class="hero-inner haze">
+      <div class="brand-block">
+        <h1>S<span class="brand-mid">wift Centr</span>e</h1>
+        <hr class="brand-rule" aria-hidden="true">
+      </div>
+      <p class="tagline">The same rigour, pointed two ways.</p>
+      <div class="dots" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="lede">We apply scientific approaches and the expertise of the top 1% of forecasters in the world, measured, ranked and publicly validated, to help you identify what could happen, and what to do.</p>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">Explore<i></i></div>
+  </section>
+
+  <!-- TWO ARMS -->
+  <section class="arms" id="arms">
+    <div class="container">
+      <div class="arms-head">
+        <p class="eyebrow">Two wings</p>
+        <h2>Unparalleled expertise in applied scenario analysis, horizon scanning and forecasting</h2>
+        <p>Choose the route you need now; the same scientific rigour powers both.</p>
+      </div>
+      <div class="toggle-wrap">
+        <p class="toggle-hint">Click to see each wing</p>
+        <div class="toggle" id="toggle" data-active="research" role="tablist" aria-label="Toggle between Research and Advisory">
+          <span class="slider" aria-hidden="true"></span>
+          <button class="on" data-arm="research" role="tab" aria-selected="true">Research</button>
+          <button data-arm="advisory" role="tab" aria-selected="false">Advisory</button>
+        </div>
+      </div>
+      <div class="arm-stage">
+        <!-- RESEARCH -->
+        <div class="arm-panel research show" id="panel-research" role="tabpanel">
+          <div class="arm-body">
+            <div class="arm-side">
+              <p class="arm-tag">Research</p>
+              <h3>Investigating AI and great power conflict.</h3>
+              <p class="arm-tagline">The future that matters.</p>
+              <p class="arm-copy">Independent, scenario-based foresight on AI, power concentration and geopolitical risk, applied to the decisions and risks that matter.</p>
+            </div>
+            <div class="arm-card">
+              <p class="focus-label">Our focus</p>
+              <div class="focus">
+                <div class="focus-item"><span class="fk">01</span><span class="fv">Scenario-based research papers: deep dives into how the world may evolve.</span></div>
+                <div class="focus-item"><span class="fk">02</span><span class="fv">Situation monitors: living analysis combining horizon scanning, scenario analysis, causal modelling and forecasting on AI and great power conflict.</span></div>
+              </div>
+              <div class="fnote">Applied to the decisions and risks that matter.</div>
+            </div>
+          </div>
+          <div class="arm-cta-wrap">
+            <a class="arm-cta" href="research.html">Explore Research &rarr;</a>
+          </div>
+        </div>
+        <!-- ADVISORY -->
+        <div class="arm-panel advisory" id="panel-advisory" role="tabpanel">
+          <div class="arm-body">
+            <div class="arm-side">
+              <p class="arm-tag">Advisory</p>
+              <h3>Providing organisations with true foresight.</h3>
+              <p class="arm-tagline">Foresight you can trust.</p>
+              <p class="arm-copy">Bespoke forecasting, market intelligence and capability-building for organisations that need to act under uncertainty.</p>
+            </div>
+            <div class="arm-card">
+              <p class="focus-label">Our focus</p>
+              <div class="focus">
+                <div class="focus-item"><span class="fk">01</span><span class="fv">Beating the market: identifying mispriced events on leading prediction markets so clients can decide from the best available information.</span></div>
+                <div class="focus-item"><span class="fk">02</span><span class="fv">Bespoke forecasting consultancy: identifying the risks that matter for your organisation and running a managed scenario analysis and forecasting process around them.</span></div>
+                <div class="focus-item"><span class="fk">03</span><span class="fv">Building capability: practical, interactive workshops that teach the scientific methods behind our scenario analysis and forecasting process.</span></div>
+              </div>
+              <div class="fnote">Applied to the decisions and risks that matter.</div>
+            </div>
+          </div>
+          <div class="arm-cta-wrap">
+            <a class="arm-cta" href="advisory.html">Explore Advisory &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT WORK — recovered from the old site's Case Studies page.
+       The original's closing "Start a conversation…" panel is not reproduced: the
+       contact strip immediately below already does that job. Its note about
+       forecaster comments "on the interactive links" is also dropped — that page
+       carried no chart links, only the embed loader script, so the note referred
+       to nothing. -->
+  <section class="cases" id="cases">
+    <div class="container">
+      <div class="cases-head">
+        <p class="eyebrow">Client work</p>
+        <h2>How organisations have used us</h2>
+        <p>Three engagements that show the shapes this work takes &mdash; from outsourcing a
+          forecast entirely, to building the capability inside your own team.</p>
+      </div>
+
+      <div class="case">
+        <div class="case-side">
+          <p class="case-service">Forecast outsourcing</p>
+          <h3><a href="https://deepmind.google/" target="_blank" rel="noopener">Google DeepMind</a></h3>
+          <p class="case-promise">Use Swift&rsquo;s expert network of forecasters for an outside
+            view of your risks.</p>
+        </div>
+        <div class="case-body">
+          <p>We worked with Google DeepMind, who had
+            <a href="https://arxiv.org/abs/2403.13793" target="_blank" rel="noopener">developed</a>
+            a set of AI capability evaluations and reached out to Swift Centre to forecast how
+            future AI systems might perform on those evaluations, and whether those capabilities
+            would elevate AI&rsquo;s status as a global issue. Swift Centre tasked a team of top
+            forecasters with relevant AI experience to explore these topics directly with the
+            client, who had instant access to our forecast platform to read analysis, ask
+            questions and make clarifications in real time. The final forecasts that we produced
+            were integrated into their paper.
+            <a href="https://arxiv.org/pdf/2403.13793.pdf#page=26" target="_blank" rel="noopener">This paper</a>
+            was published and shared well beyond the client firm, helping firm up their position
+            of influence in this area.</p>
+        </div>
+      </div>
+
+      <div class="case">
+        <div class="case-side">
+          <p class="case-service">Joint forecast teaming</p>
+          <h3><a href="https://metrea.aero/" target="_blank" rel="noopener">Metrea Aerospace</a></h3>
+          <p class="case-promise">Work closely with Swift&rsquo;s team to build a suite of
+            predictions for your business decision making.</p>
+        </div>
+        <div class="case-body">
+          <p>Metrea Aerospace had a highly skilled internal team focused on local and global
+            risks to their business in a volatile region. Swift&rsquo;s forecasters joined with
+            the client-side experts to create a temporary &lsquo;superteam&rsquo;, marrying the
+            internal expertise from the client with broader macro forecasting from Swift. We
+            hosted an online and in-person workshop made up of Swift forecasters and client
+            experts, facilitated by Swift, to explore and estimate risks to the client&rsquo;s
+            business. Swift&rsquo;s final risk report enabled the client to make plans for this
+            region with greater confidence, as well as benefit from transfer of forecasting
+            skills to the firm.</p>
+        </div>
+      </div>
+
+      <div class="case">
+        <div class="case-side">
+          <p class="case-service">Workshops and facilitation</p>
+          <h3><a href="https://opennuclear.org/en" target="_blank" rel="noopener">Open Nuclear Network</a></h3>
+          <p class="case-promise">Bring experts and best forecasting practices together.</p>
+        </div>
+        <div class="case-body">
+          <p>Our client, Open Nuclear Network, convened a conference of highly technical experts
+            in an important geopolitical risk area. Swift&rsquo;s team hosted and acted as
+            facilitators to help this group develop a series of forecasts to inform the
+            client&rsquo;s focus over the period following the workshop. We took the group
+            through some principles of forecasting, calibration exercises and forecast software
+            on-boarding before starting the elicitation process, covering much more ground than
+            is possible in traditional pen-and-paper methods. The final estimates informed risk
+            response over the next several years.</p>
+        </div>
+      </div>
+
+      <div class="quotes">
+        <figure class="quote">
+          <blockquote>
+            <p>&ldquo;Working with the Swift Centre was an absolute joy. They were responsive,
+              engaged, and positive throughout the whole workshop facilitation process. I was
+              extremely impressed with their ability to absorb complex material quickly and be
+              flexible on the day to help us get exactly the results and conversations we were
+              hoping for. I would 100% recommend the Swift Centre for anyone looking to put
+              together a forecasting workshop!&rdquo;</p>
+          </blockquote>
+          <figcaption>Sarah Laderman &middot; Open Nuclear Network at One Earth Future Austria</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>
+            <p>&ldquo;We worked with the team from Swift Centre on a project to forecast risks to
+              one of our biggest revenue drivers. It was an absolute pleasure to work with them:
+              they&rsquo;re professional, responsive and practical, working hard to understand not
+              just the percentage probabilities of key events, but what this would actually mean
+              for our business.</p>
+            <p>Not only will the output of the process be a very useful adjunct to our future
+              decision making, but the process itself was excellent training to improve our own
+              calibration and forecasting skills. We&rsquo;ll definitely look forward to working
+              with the team again and would recommend them to anyone interested in how
+              world-class forecasting can contribute to their work.&rdquo;</p>
+          </blockquote>
+          <figcaption>Christian Holland &middot; Metrea</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-strip" id="contact">
+    <div class="container">
+      <div class="cs-inner">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Not sure which wing you need?</h2>
+        <p>Reach out here, and we&rsquo;ll point you to the right team: Research or Advisory.</p>
+        <form class="cs-form" id="cform" action="/api/enquiry" method="POST">
+          <div class="formok" id="formok">Thanks, we&rsquo;ll be in touch shortly.</div>
+          <div class="formerr" id="formerr"></div>
+          <input type="hidden" name="source" value="landing">
+          <input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input name="name" placeholder="Name" aria-label="Name" required>
+          <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+          <button class="submit" type="submit">Send</button>
+          <textarea class="full" name="message" placeholder="A line about what you&rsquo;re looking for (optional)" aria-label="Message"></textarea>
+        </form>
+        <p class="cs-note">Or email <a href="mailto:info@swiftcentre.org" style="color:var(--res-teal)">info@swiftcentre.org</a> &middot; For detailed enquiries, use the Research or Advisory pages.</p>
+      </div>
+      <footer>
+        <div class="container" style="padding:0">
+          <div class="foot-grid">
+            <div class="foot-col">
+              <h4>Companies</h4>
+              <div class="foot-entity research">
+                <a class="ename" href="/research.html">Swift Centre Research Ltd</a>
+                <p>Company No. 14003610<br>VAT 515383985</p>
+              </div>
+              <div class="foot-entity advisory">
+                <a class="ename" href="/advisory.html">Swift Centre Advisory Ltd</a>
+                <p>Company No. 17015645<br>VAT 515383985</p>
+              </div>
+            </div>
+            <div class="foot-col">
+              <h4>Addresses</h4>
+              <div class="foot-entity">
+                <p>
+                  <strong style="color:var(--ink); font-weight:600">Registered office</strong><br>
+                  102 Fulham Palace Road<br>
+                  London W6 9PL
+                </p>
+              </div>
+              <div class="foot-entity" style="margin-top:18px">
+                <p>
+                  <strong style="color:var(--ink); font-weight:600">Head office</strong><br>
+                  Salisbury House, Finsbury Circus<br>
+                  London EC2M 5SQ
+                </p>
+              </div>
+            </div>
+            <div class="foot-col">
+              <h4>Links</h4>
+              <div class="foot-links-col">
+            <a href="/research.html">Research</a>
+            <a href="/advisory.html">Advisory</a>
+            <a href="/swiftsubstack.html">Public forecasts</a>
+            <a href="/publicforecasts/">Archive</a>
+            <a href="https://swiftcentre.substack.com/" target="_blank" rel="noopener">Substack</a>
+                <div class="policy">
+              <a href="/responsibledisclosurepolicy">Fair disclosure policy</a>
+              <a href="/privacy-policy">Privacy policy</a>
+              <a href="/cookies-policy">Cookies policy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+</div>
+
+<script>
+/* toggle between the two arms */
+(function(){
+  var toggle=document.getElementById('toggle');
+  var btns=toggle.querySelectorAll('button');
+  var panels={research:document.getElementById('panel-research'), advisory:document.getElementById('panel-advisory')};
+  function set(arm){
+    toggle.dataset.active=arm;
+    btns.forEach(function(b){var on=b.dataset.arm===arm; b.classList.toggle('on',on); b.setAttribute('aria-selected',on);});
+    Object.keys(panels).forEach(function(k){panels[k].classList.toggle('show',k===arm);});
+    window.__armColor = arm==="advisory" ? [32,34,71] : [91,152,184];
+    paperSwap();
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.arm);});});
+  window.__armColor=[91,152,184];
+
+  /* the page's paper tone turns cream while advisory is the active tab, but always
+     resets to white right at the top of the page (the hero), whichever tab is selected */
+  function paperSwap(){
+    var atTop = scrollY < 40;
+    var isAdv = window.__armColor && window.__armColor[0]===32;
+    document.documentElement.style.backgroundColor = (!atTop && isAdv) ? '#f6f3ec' : '#ffffff';
+  }
+
+  var nav=document.getElementById('nav');
+  addEventListener('scroll',function(){ nav.classList.toggle('scrolled', scrollY>60); paperSwap(); },{passive:true});
+  paperSwap();
+
+  document.getElementById('cform').addEventListener('submit',function(ev){
+    ev.preventDefault();
+    var form=this, okEl=document.getElementById('formok'), errEl=document.getElementById('formerr');
+    var btn=form.querySelector('.submit');
+    okEl.style.display='none'; errEl.style.display='none';
+    btn.disabled=true;
+    fetch(form.action,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(form).entries()))})
+      .then(function(r){return r.json().then(function(data){return {ok:r.ok,data:data};});})
+      .then(function(res){
+        if(res.ok && res.data.ok){
+          okEl.style.display='block';
+          form.querySelectorAll('input,textarea').forEach(function(i){ if(i.type!=='hidden') i.value=''; });
+        } else {
+          errEl.textContent=(res.data&&res.data.error)||'Something went wrong — please try again or email info@swiftcentre.org.';
+          errEl.style.display='block';
+        }
+      })
+      .catch(function(){
+        errEl.textContent='Something went wrong — please try again or email info@swiftcentre.org.';
+        errEl.style.display='block';
+      })
+      .finally(function(){ btn.disabled=false; });
+  });
+})();
+
+/* brand rule: align exactly under "wift Centr" — starts after the S, ends before the trailing e */
+(function(){
+  var h1=document.querySelector('.hero h1'), rule=document.querySelector('.hero .brand-rule'),
+      block=document.querySelector('.hero .brand-block'), mid=document.querySelector('.hero .brand-mid');
+  if(!h1||!rule||!block||!mid) return;
+  function place(){
+    var blockRect=block.getBoundingClientRect(), h1Rect=h1.getBoundingClientRect(), midRects=mid.getClientRects();
+    var left,width;
+    if(midRects.length===1){
+      var r=midRects[0]; left=r.left-blockRect.left; width=r.width;
+    } else {
+      /* heading has wrapped onto multiple lines (very narrow viewport): fall back to a centred inset */
+      var inset=h1Rect.width*0.08; left=(h1Rect.left-blockRect.left)+inset; width=h1Rect.width-inset*2;
+    }
+    rule.style.left=left+'px'; rule.style.width=width+'px';
+    /* offsetTop/offsetHeight are layout values, unaffected by the entrance animation's
+       transform — safe to read even before that animation has settled */
+    rule.style.top=(h1.offsetTop+h1.offsetHeight+18)+'px';
+  }
+  addEventListener('resize',place);
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(place);
+  place();
+})();
+
+/* as soon as you start scrolling: fade out "Explore", fade in the two hero birds
+   (positioning happens in the bridge-lines script below, which perches them
+   directly on their matching curve) */
+(function(){
+  var cue=document.querySelector('.scroll-cue'), birds=document.querySelectorAll('.hero-bird');
+  if(!cue && !birds.length) return;
+  var killedCueAnim=false;
+  function onScroll(){
+    var p=Math.min(1, scrollY/120); /* fully transitioned within the first 120px of scroll */
+    if(cue){
+      if(!killedCueAnim && p>0){ cue.style.animation='none'; killedCueAnim=true; }
+      if(killedCueAnim) cue.style.opacity=String(1-p);
+    }
+    birds.forEach(function(b){ b.style.opacity=String(p*0.92); });
+  }
+  addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+
+/* bridge lines: flow out from the two outer hero dots, turn a right angle, drop to flank the toggle */
+(function(){
+  var stage=document.querySelector('.stage'), svg=document.getElementById('bridgeLines'),
+      left=document.getElementById('bridgeLeft'), right=document.getElementById('bridgeRight'),
+      dots=document.querySelectorAll('.hero .dots span'), toggle=document.getElementById('toggle');
+  if(!stage||!svg||!left||!right||dots.length<3||!toggle) return;
+  var dotL=dots[0], dotR=dots[2], drawn=false;
+
+  function centre(el, stageRect){
+    var r=el.getBoundingClientRect();
+    return {x:r.left+r.width/2-stageRect.left, y:r.top+r.height/2-stageRect.top};
+  }
+  /* binary-search the curve for the point closest to a given Y (Y increases
+     monotonically along these curves, so this converges cleanly) */
+  function pointAtY(path, targetY){
+    var len=path.getTotalLength(), lo=0, hi=len, pt=path.getPointAtLength(0);
+    for(var i=0;i<25;i++){
+      var mid=(lo+hi)/2; pt=path.getPointAtLength(mid);
+      if(pt.y<targetY) lo=mid; else hi=mid;
+    }
+    return pt;
+  }
+  function layout(){
+    var stageRect=stage.getBoundingClientRect();
+    svg.setAttribute('width', stageRect.width);
+    svg.setAttribute('height', stageRect.height);
+
+    var dl=centre(dotL,stageRect), dr=centre(dotR,stageRect);
+    var tRect=toggle.getBoundingClientRect();
+    var toggleLeftX=tRect.left-stageRect.left, toggleRightX=tRect.right-stageRect.left,
+        toggleMidY=tRect.top+tRect.height/2-stageRect.top;
+
+    /* travel out to the midpoint between the hero text block and the page edge,
+       clamped so it never sits inside the toggle's own edge on narrow viewports */
+    var heroInner=document.querySelector('.hero-inner');
+    var hiRect=heroInner.getBoundingClientRect();
+    var farLeftX=Math.min((hiRect.left/2)-stageRect.left, toggleLeftX);
+    var farRightX=Math.max(((hiRect.right+innerWidth)/2)-stageRect.left, toggleRightX);
+
+    /* path is written dot-first so the stroke-dashoffset reveal grows outward from the
+       dot (the source): out to the side, down past the toggle's height, then back in
+       to meet the toggle's edge */
+    /* smooth bow instead of right angles: the same far/corner points now act as
+       bezier control points rather than hard line-to corners */
+    var dLeft='M '+dl.x+' '+dl.y+' C '+farLeftX+' '+dl.y+' '+farLeftX+' '+toggleMidY+' '+toggleLeftX+' '+toggleMidY;
+    var dRight='M '+dr.x+' '+dr.y+' C '+farRightX+' '+dr.y+' '+farRightX+' '+toggleMidY+' '+toggleRightX+' '+toggleMidY;
+    left.setAttribute('d',dLeft); right.setAttribute('d',dRight);
+
+    /* perch the two hero birds directly on their matching curve, at the height
+       where "Explore" used to sit */
+    var research=document.querySelector('.hero-bird.research'), advisory=document.querySelector('.hero-bird.advisory');
+    if(research && advisory){
+      var heroRect=document.querySelector('.hero').getBoundingClientRect();
+      var birdTargetY=(heroRect.bottom-36)-stageRect.top;
+      var ptL=pointAtY(left,birdTargetY), ptR=pointAtY(right,birdTargetY);
+      research.style.left=ptL.x+'px'; research.style.top=ptL.y+'px';
+      research.style.transform='translate(-50%,-50%) rotate(-10deg)';
+      advisory.style.left=ptR.x+'px'; advisory.style.top=ptR.y+'px';
+      advisory.style.transform='translate(-50%,-50%) rotate(-8deg)';
+    }
+
+    [left,right].forEach(function(p){
+      var len=p.getTotalLength();
+      /* --len alone drives the hidden state via the base rule's stroke-dashoffset:var(--len,0);
+         no inline stroke-dashoffset here, so the .draw class can cleanly override it later
+         (an inline style would otherwise always beat a class, no matter what) */
+      p.style.setProperty('--len', len);
+    });
+  }
+  function reveal(){
+    if(drawn) return;
+    drawn=true;
+    /* the 650ms delay already gives the browser ample time to commit the hidden
+       starting state, so the class can be added directly without an rAF hop */
+    left.classList.add('draw'); right.classList.add('draw');
+  }
+
+  layout();
+  /* wait for the dots' own entrance animation to actually finish before drawing the
+     lines, rather than guessing a fixed delay; fall back for reduced-motion users
+     (whose dots skip the animation entirely) or if the event is ever missed */
+  var dotsEl=document.querySelector('.hero .dots');
+  /* re-measure right before revealing: at page load the dots are still at their
+     pre-animation offset (translateY), so the very first layout() call anchors the
+     line to that stale, not-yet-settled position unless we recompute it here */
+  function settleThenReveal(){ layout(); reveal(); }
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches || !dotsEl){
+    settleThenReveal();
+  } else {
+    dotsEl.addEventListener('animationend', settleThenReveal, {once:true});
+    setTimeout(settleThenReveal, 2500);
+  }
+  addEventListener('resize', layout);
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(layout);
+})();
+
+/* ambient flock: swifts drifting up-and-right; tint shifts with the active arm */
+(function(){
+  var canvas=document.getElementById('world'), ctx=canvas.getContext('2d');
+  var armsEl=document.getElementById('arms');
+  var W=0,H=0,parts=[],t=0,px=null,py=null;
+  var BIRD=new Path2D('M 1133 352 Q 637 258 141 228 Q 514 667 931 1065 C 850 928 678 680 606 515 Q 874 448 1133 352 Z'), VB=1266, VBH=1233;
+  function drawPointed(x,y,size,angle,color,alpha){
+    ctx.save(); ctx.translate(x,y); ctx.rotate(angle);
+    var s=size/VB; ctx.scale(s,s); ctx.translate(-VB/2,-VBH/2);
+    ctx.globalAlpha=alpha; ctx.fillStyle=color; ctx.fill(BIRD); ctx.restore();
+  }
+  var SPR=new Image(); SPR.src="data:image/png;base64,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"; var sprReady=false; SPR.onload=function(){sprReady=true;};
+  var SPR_W=319, SPR_H=308;
+  function drawSprite(x,y,size,angle,alpha){
+    if(!sprReady) return;
+    var w=size*2.0, hh=w*(SPR_H/SPR_W);
+    ctx.save(); ctx.translate(x,y); ctx.rotate(angle); ctx.globalAlpha=alpha;
+    ctx.drawImage(SPR, -w/2, -hh/2, w, hh); ctx.restore();
+  }
+  function resize(){
+    var DPR=Math.min(devicePixelRatio||1,2); W=innerWidth; H=innerHeight;
+    canvas.width=W*DPR; canvas.height=H*DPR; ctx.setTransform(DPR,0,0,DPR,0,0); seed();
+  }
+  function seed(){
+    var N=Math.min(64,Math.round(W*H/20000)); parts=[];
+    for(var i=0;i<N;i++){
+      var kind = i%2===0 ? 'pointed' : 'water';
+      var baseSize = 15+Math.random()*17;
+      /* advisory (pointed/orange) birds render double their previous (1.3x) size, i.e. 2.6x base */
+      parts.push({gx:Math.random()*W, gy:Math.random()*H, ph:Math.random()*Math.PI*2,
+        sp:.1+Math.random()*.16, amp:8+Math.random()*13, size: kind==='pointed' ? baseSize*2.6 : baseSize,
+        h:Math.random(), d:.4+Math.random()*.6, kind:kind, x:0, y:0});
+    }
+  }
+  addEventListener('pointermove',function(e){px=e.clientX;py=e.clientY},{passive:true});
+  var cur=[91,152,184];
+  var advVis=1, resVis=1;
+  function frame(){
+    requestAnimationFrame(frame); t+=1/60;
+    var target=window.__armColor||[91,152,184];
+    cur[0]+= (target[0]-cur[0])*.04; cur[1]+=(target[1]-cur[1])*.04; cur[2]+=(target[2]-cur[2])*.04;
+    ctx.clearRect(0,0,W,H);
+    var parX=px==null?0:(px-W/2)*.012, parY=py==null?0:(py-H/2)*.012;
+    var isAdv = (window.__armColor && window.__armColor[0]===32);
+    var rangeX=W+120, rangeY=H+120;
+    /* once the two-wings section has scrolled into view, show only the flock matching
+       the active tab: research birds by default, or advisory birds once toggled on */
+    var inArms = armsEl ? armsEl.getBoundingClientRect().top < innerHeight*0.6 : false;
+    var advTarget = (!inArms || isAdv) ? 1 : 0;
+    var resTarget = (!inArms || !isAdv) ? 1 : 0;
+    advVis += (advTarget-advVis)*.05; resVis += (resTarget-resVis)*.05;
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i];
+      var dx=Math.sin(t*p.sp+p.ph)*p.amp, dy=Math.cos(t*p.sp*.8+p.ph)*p.amp;
+      /* advisory (pointed) birds fly bottom-right -> top-left; research (water) birds fly bottom-left -> top-right; both at double speed */
+      var hshift = (p.kind==='pointed' ? -1 : 1) * t*26*p.d;
+      var mx=(((p.gx + hshift) % rangeX) + rangeX) % rangeX - 60;
+      var my=p.gy - (t*13*p.d) % rangeY; if(my<-60) my+=rangeY;
+      /* no separation pass: crossing birds glide straight through one another */
+      p.x=mx+dx+parX*p.d*10; p.y=my+dy+parY*p.d*10;
+    }
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i];
+      var wob=Math.sin(t*1.5+p.ph)*0.05;
+      /* bumped base opacity for a clearer colour pop */
+      var base=0.24*(0.62+0.38*Math.sin(t*.5+p.ph));
+      if(p.kind==='pointed'){
+        var em = isAdv ? 1.25 : 0.75;
+        drawPointed(p.x,p.y,p.size,-0.13+wob, 'rgb(224,121,74)', Math.max(.08,base*em)*advVis);
+      } else {
+        var em2 = isAdv ? 0.75 : 1.3;
+        drawSprite(p.x,p.y,p.size,0.28+wob, Math.max(.1,base*em2)*resVis);
+      }
+    }
+  }
+  addEventListener('resize',resize); resize(); frame();
+})();
+</script>
+</body>
+</html>

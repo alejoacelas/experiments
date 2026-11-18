@@ -1,0 +1,36 @@
+[Text capture via web fetch tool on 2026-11-18 of https://www.cdc.gov/nchs/data/vsrr/vsrr043.pdf (direct download returned HTTP 403). Excerpted: abstract, results on births/fertility, Table 1. Not the complete PDF.]
+
+Vital Statistics Rapid Release Report No. 43  April 2026
+
+Births: Provisional Data for 2025
+
+Brady E. Hamilton, Ph.D., Michelle J.K. Osterman, M.H.S., and Elizabeth C.W. Gregory, M.P.H.
+
+Abstract
+
+Objectives—This report presents provisional 2025 data on U.S. births. Data on births, the general fertility rate, the fertility rate for teenagers, cesarean delivery, and preterm births are presented. Methods—Data are based on 99.95% of all 2025 birth records received and processed by the National Center for Health Statistics as of February 3, 2026. Comparisons are made with final 2024 data and earlier years. Results—The provisional number of births for the United States in 2025 was 3,606,400, a 1% decline from 2024. The general fertility rate was 53.1 births per 1,000 females ages 15–44, also a 1% decline from 2024. The fertility rate for teenagers ages 15–19 declined 7% in 2025 to 11.7 births per 1,000 females; the rates for younger (15–17) and older (18–19) teenagers declined by 11% and 7%, respectively. The cesarean delivery rate increased to 32.5% in 2025, up from 32.4% in 2024. The low-risk cesarean delivery rate rose to 26.9% in 2025 from 26.6% in 2024. The preterm birth rate was 10.41% in 2025, unchanged from 2024.
+
+Results Births and fertility rates
+■ The provisional number of births for the United States in 2025 was 3,606,400, a decrease of 1% from the number in 2024 (3,628,934) (Table 1, Figure 1). The number of births declined by an average 2% per year from 2015 through 2020 and has generally fluctuated since then (4,5,9).
+■ The provisional general fertility rate for the United States in 2025 was 53.1 births per 1,000 females ages 15–44, a decrease of 1% from the rate in 2024 (53.8). The rate has generally declined since 2007, decreasing by 23% (Figure 1) (4,5,9).
+■ The provisional fertility rate for teenagers in 2025 was 11.7 births per 1,000 females ages 15–19, down 7% from 2024 (12.6) and another record low for this age group (Table 1, Figure 2) (4,5,9–11). The rate has decreased by 72% since 2007 (41.5), the most recent period of continued decline, and by 81% since 1991 (61.8), the most recent peak. The number of births to females ages 15–19 was 125,933 in 2025, down 8% from 2024 (5).
+
+Table 1. Births and birth rate, by age of mother: United States, final 2024 and provisional 2025
+[Data for 2025 are based on a continuous file of records received from the states and the District of Columbia. Rates are per 1,000 women in a specified age group. Rates for all ages are the total number of births (regardless of age of mother) per 1,000 females ages 15–44. Populations estimated as of July 1]
+
+| Age of mother | Number | 2025 Rate | Number | 2024 Rate |
+| All ages | 3,606,400 | 53.1 | 3,628,934 | 53.8 |
+| 10–14 | 1,350 | 0.1 | 1,727 | 0.2 |
+| 15–19 | 125,933 | 11.7 | 137,273 | 12.6 |
+| 15–17 | 29,939 | 4.7 | 34,465 | 5.3 |
+| 18–19 | 95,994 | 21.9 | 102,808 | 23.6 |
+| 20–24 | 585,804 | 52.2 | 611,800 | 55.8 |
+| 25–29 | 986,726 | 85.6 | 990,817 | 89.5 |
+| 30–34 | 1,112,107 | 96.2 | 1,112,409 | 93.7 |
+| 35–39 | 640,234 | 55.1 | 622,517 | 54.3 |
+| 40–44 | 142,927 | 12.8 | 141,515 | 12.7 |
+| 45–54 | 11,319 | 1.1 | 10,876 | 1.1 |
+
+SOURCE: National Center for Health Statistics, National Vital Statistics System, natality data file.
+
+Suggested citation Hamilton BE, Osterman MJK, Gregory ECW. Births: Provisional data for 2025. Vital Statistics Rapid Release. 2026 Apr;(43):1–7. DOI: https://dx.doi.org/10.15620/cdc/252434.

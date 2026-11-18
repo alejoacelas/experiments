@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Projections | California Department of Finance</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" meta charset="UTF-8" />
+
+<!-- BEGIN STATE_TEMPLATE -->
+
+<!-- Public Sans Font
+Load the recommended Public Sans Font.  Removing this section will use System-UI font stack instead.
+
+More info on Typography here...
+https://template.webstandards.ca.gov/visual-design/typography.html
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=block"
+    rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+<!-- End Public Sans Font -->
+
+<!-- STATE_TEMPLATE *** HEAD references ***
+  
+Include links to stylesheet and custom theme and core JS.
+  
+<link rel="stylesheet" href="ca_state_template/css/cagov.core.min.css"/>
+<link rel="stylesheet" href="ca_state_template/css/colortheme-oceanside.min.css"/>
+<script src="ca_state_template/js/cagov.core.min.js"></script>
+
+You may also use the CDN instead of using the local folder...
+
+<link rel="stylesheet" href="https://cdn.cdt.ca.gov/cdt/statetemplate/6.4.1/css/cagov.core.min.css" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdn.cdt.ca.gov/cdt/statetemplate/6.4.1/css/colortheme-oceanside.min.css" crossorigin="anonymous"/>
+<script src="https://cdn.cdt.ca.gov/cdt/statetemplate/6.4.1/js/cagov.core.min.js" crossorigin="anonymous"></script>
+
+More info on CDN here...
+https://template.webstandards.ca.gov/cdn.html
+
+-->
+<link rel="stylesheet" href="/ca_state_template/css/cagov.core.min.css" />
+<link rel="stylesheet" href="/ca_state_template/css/colortheme-oceanside.min.css" />
+<script src="/ca_state_template/js/cagov.core.min.js"></script>
+<!-- END STATE_TEMPLATE -->
+
+<link rel="apple-touch-icon-precomposed" sizes="100x100" href="/images/apple-touch-icon-precomposed.png" />
+<link rel="icon" sizes="192x192" href="/images/apple-touch-icon-192x192.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/images/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-57x57.png" />
+<link rel="shortcut icon" href="/images/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<!-- Statewide Alerts Server -->
+<script defer src="https://alert.cdt.ca.gov" crossorigin="anonymous"></script>
+<!-- BEGIN Google Tag Manager -->
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<script>
+    //*** BEGIN STATE TEMPLATE CHANGE REQUESTED
+    //Your GA4 Measurement ID that this website should use for website analytics
+    var yourGA4MeasurementId = "G-2LNG7V2TGM"; //Set to the default GA4 Measurement ID (G-75V2BNQ3D...R), please change it to the one for your organization.
+    //*** END STATE TEMPLATE CHANGE REQUESTED
+
+    //Support code to make this work, just leave this as is
+    var stateGTMAccount = "GTM-NJ6Q4MV"; //GTM-NJ6Q4MV - all ca.gov
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        (function () { dataLayer.push(arguments) })('config', yourGA4MeasurementId, { cookie_flags: 'secure;samesite=lax;domain=' });
+    })(window, document, 'script', 'dataLayer', stateGTMAccount);
+</script>
+<!-- END Google Tag Manager -->
+
+<!-- custom/overriding styles and scripts -->
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/custom-footer.js"></script>
+
+  <!-- Variable needed to set the active nav item in nav-handler.js -->
+  <!-- To set the active link, uncomment the following block and set current page -->
+  <!-- Options: 'home', budget', 'accounting', 'forecasting', 'reports', 'programs', 'about-us', 'careers', 'whats-new', 'quick-links'-->
+  <link rel="canonical" href="https://dof.ca.gov/forecasting/demographics/projections/">
+  <script>
+    window.CURRENT_PAGE = 'forecasting';
+  </script>
+</head>
+
+<body class="primary">
+  <header role="banner" id="header" class="global-header fixed">
+  <div id="skip-to-content">
+    <a href="#main-content">Skip to Main Content</a>
+  </div>
+  <div class="utility-header">
+    <div class="container">
+      <div class="flex-row">
+        <div class="social-media-links">
+          <div class="header-cagov-logo">
+            <a href="https://ca.gov">
+              <span class="sr-only">CA.gov</span>
+              <span class="ca-gov-logo-svg"></span>
+            </a>
+          </div>
+          <p class="official-tag">
+            <span class="desktop-only">Official website of the</span>
+            State of California
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header branding with light gray background -->
+  <div class="section-default">
+    <div class="branding">
+      <div class="header-organization-banner">
+        <a href="/index.html">
+          <img src="/images/template-logo.webp" class="logo-img" alt="DOF Logo" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- mobile navigation controls -->
+  <div class="mobile-controls">
+    <span class="mobile-control-group mobile-header-icons">
+      <!-- Add more mobile controls here. These will be on the right side of the mobile page header section -->
+    </span>
+    <div class="mobile-control-group main-nav-icons">
+
+      <button id="nav-icon3" type="button" class="mobile-control toggle-menu" aria-expanded="false"
+        aria-controls="navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="navigation-search full-width-nav container">
+    <div id="head-search" class="search-container featured-search">
+      <div class="container">
+        <form id="Search" class="pos-rel" action="/SERP/">
+          <span class="sr-only" id="SearchInput">Custom Google Search</span>
+          <input type="search" name="q" aria-labelledby="SearchInput" placeholder="Search" class="search-textfield" />
+          <button type="submit" class="gsc-search-button">
+            <span class="ca-gov-icon-search" aria-hidden="true"></span>
+            <span class="sr-only">Submit</span>
+          </button>
+          <div class="close-search-btn">
+            <button class="close-search gsc-clear-button border-0 bg-transparent pos-rel" type="reset">
+              <span class="sr-only">Close</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <nav id="navigation" class="main-navigation dropdown" aria-label="Main navigation">
+      <ul id="nav_list" class="top-level-nav">
+        <li class="nav-item">
+          <a class="first-level-link" href="/budget/" data-nav-id="budget">Budget</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/accounting/" data-nav-id="accounting">Accounting</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/forecasting/" data-nav-id="forecasting">Forecasting</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/reports/" data-nav-id="reports">Reports</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/programs/" data-nav-id="programs">Programs</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/about-us/" data-nav-id="about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/about-us/careers/" data-nav-id="careers">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/whats-new/" data-nav-id="whats-new">What's New</a>
+        </li>
+        <li class="nav-item">
+          <a class="first-level-link" href="/quick-links/" data-nav-id="quick-links">Quick Links</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src="/js/nav-handler.js"></script>
+</header>
+  <div id="main-content" class="main-content dof-min-page-height">
+    <main class="main-primary  m-b-60" id="main">
+      <div class="container p-t-0">
+        <div class="m-t-md" id="breadcrumb-container"></div>
+        <h1 class="p-t-0">Projections</h1>
+        <!-- BEGIN insert main content code -->
+        <p>Projections of population with components of change, births, and public school enrollment at the state and
+          county level produced by the Demographic Research Unit (DRU).</p>
+        <div class="m-l-lg">
+          <h2>Population Projections (Baseline 2024)</h2>
+          <ul>
+            <li><a href="/media/docs/forecasting/Demographics/projections/Methodology_Report.pdf">Methodology</a></li>
+            <li>Release Notes:
+              <ul>
+                <li>Vintage 2026 (2026.03.13): Updated to reflect latest published July 1 population estimates. No
+                  change
+                  to 2024 Baseline assumptions</li>
+                <li>Vintage 2025 (2025.9.30): &nbsp;initial public data release</li>
+              </ul>
+            </li>
+            <li><a
+                href="https://dru-data-portal-cacensus.hub.arcgis.com/apps/eebcf24ac5e942c7b8ab7011173efdbe/explore">Population
+                projections visualization (ArcGIS web application)</a></li>
+          </ul>
+          <h3>P-1: &nbsp;State Population Projections (2020-2070)</h3>
+          <ul>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P1A_State_Total.xlsx">P-1A Total Population
+                for
+                California</a></li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P1B_State_Age.xlsx">P-1B Total Population by
+                Individual
+                Year of Age</a></li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P1C_State_Age-Group_Sex.xlsx">P-1C Total
+                Population by Sex
+                and 5-Year Age Group</a></li>
+            <li>Total Population by Race/Ethnicity:
+              <ul>
+                <li><a href="/media/docs/forecasting/Demographics/projections/P1D_State_Race_Ethnicity.xlsx">P-1D
+                    Total
+                    Hispanic and
+                    Non-Hispanic Race</a></li>
+                <li><a
+                    href="/media/docs/forecasting/Demographics/projections/P1E_State_Race_Ethnicity_Expanded.xlsx">P-1E
+                    Total
+                    Hispanic and Non-Hispanic Race Expanded</a></li>
+              </ul>
+            </li>
+          </ul>
+          <h3>P-2: &nbsp;County Population Projections (2020-2070)</h3>
+          <ul>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P2A_County_Total.xlsx">P-2A Total Population
+                for
+                California
+                and Counties</a></li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P2B_County_Age.xlsx">P-2B County Population
+                by
+                Age</a></li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P2C_County_Age-Group_Sex.xlsx">P-2C County
+                Population by
+                Sex and Age Group</a></li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P2D_County_Race_Ethnicity.xlsx">P-2D County
+                Population by
+                Total Hispanic and Non-Hispanic Race</a></li>
+          </ul>
+          <h3>P-3: &nbsp;Complete State and County Projections Dataset</h3>
+          <ul>
+            <li>Complete P-3 Race/Ethnicity and Sex by Age for California and Counties, Excel Compatible
+              <ul>
+                <li><a
+                    href="/media/docs/forecasting/Demographics/projections/P3_California-and-Counties.xlsx">California
+                    and
+                    Counties</a></li>
+              </ul>
+            </li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P3_Complete.zip">Complete P-3 File
+                Comma-Delimited,
+                Database-Ready Format</a> – comma-delimited dataset and data dictionary (compressed with zip). This is
+              a
+              large file that will NOT open successfully in Microsoft Excel.</li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P3_Dictionary.txt">Data Dictionary</a> –
+              text
+              containing
+              codes and correspondence tables</li>
+          </ul>
+          <h3>Components of Change</h3>
+          <ul>
+            <li><a href="/media/docs/forecasting/Demographics/projections/PCC_Components_of_Change.xlsx">P-CC:
+                Projected
+                Total
+                Population and Components of Change, 2020-2070</a></li>
+          </ul>
+        </div>
+        <h2>Supplementary Projections</h2>
+        <div class="m-l-lg">
+          <h3>Birth Projections</h3>
+          <ul>
+            <li><a href="/media/docs/forecasting/Demographics/projections/PB_Births_Report.xlsx">P-Births: Historical
+                and
+                Projected Fertility Rates and Births, Calendar Year 2000-2050</a> (Note: Planned updates are scheduled
+              for November of each year.)</li>
+          </ul>
+          <h3>Household Projections for California Counties</h3>
+          <ul>
+            <li><a
+                href="/media/docs/forecasting/Demographics/projections/Household-Projections-Methodology.pdf">Methodology</a>
+            </li>
+            <li><a href="/media/docs/forecasting/Demographics/projections/P4_HHProjections_B2024.xlsx">P-4: State and
+                County Projected Households 2010-2040</a></li>
+          </ul>
+          <h3>Education Projections</h3>
+          <ul>
+            <li><a href="/forecasting/demographics/public-k-12-graded-enrollment/">Public K-12 Graded Enrollment and
+                High
+                School Graduate Projections by County – 2026 Series</a></li>
+          </ul>
+        </div>
+        <p>Comments, suggestions, or questions? Please <a href="mailto:ficalpop@dof.ca.gov;webmaster@dof.ca.gov">email
+            ficalpop@dof.ca.gov</a>.</p> <!-- END insert main content code -->
+      </div>
+    </main>
+  </div>
+  <footer id="footer" class="global-footer p-t-md">
+    <div class="container">
+        <div class="d-flex">
+            <a href="https://ca.gov" class="cagov-logo">
+                <span class="sr-only">CA.gov</span>
+                <span class="ca-gov-logo-svg"></span>
+            </a>
+            <ul class="footer-links font-size-70x">
+                <li><a href="/site-map/">Site Map</a></li>
+                <li><a href="/accessibility/">Accessibility</a></li>
+                <li><a href="/conditions-of-use/">Conditions of Use</a></li>
+                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="/conflict-of-interest-code/">Conflict of Interest Code</a></li>
+                <li><a href="/guidelines-to-access-public-records/">Public Records Request</a></li>
+                <li><a href="/department-mailing-lists/">Mailing Lists</a></li>
+                <li><a href="/contact-us/">Contact Us</a></li>
+            </ul>
+            <div class="socialsharer-container">
+                <a class="ca-gov-icon-share-twitter font-size-25" title="Twitter Link"
+                    href="https://twitter.com/HDatFinance"></a>
+                <a class="ca-gov-icon-share-youtube font-size-25" title="Youtube Link"
+                    href="https://www.youtube.com/@californiadepartmentoffina6442"></a>
+                <a class="ca-gov-icon-share-linkedin font-size-25" title="Linkedin Link"
+                    href="https://www.linkedin.com/company/california-department-of-finance/"></a>
+                <a class="ca-gov-icon-share-email font-size-25" title="Email Link"
+                    href="mailto:webmaster@dof.ca.gov"></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- Accessible, translatable, Copyright Statement -->
+    <div class="copyright">
+        <div class="container">
+            <span aria-hidden="true">&copy;</span>
+            <span id="thisyear">
+                <script>
+                    document.getElementById('thisyear').appendChild(document.createTextNode(new Date().getFullYear()))
+                </script>
+            </span>
+            State of California
+        </div>
+    </div>
+    <button class="return-top">
+        <span class="sr-only">Back to top</span>
+    </button>
+</footer>
+<!-- Extra Decorative Content -->
+<div class="decoration-last">&nbsp;</div>
+<script src="/js/breadcrumb.js"></script>
+</body>
+
+</html>

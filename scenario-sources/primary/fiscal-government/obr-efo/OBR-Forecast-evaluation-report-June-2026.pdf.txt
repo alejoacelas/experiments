@@ -1,0 +1,4118 @@
+Office for
+Budget
+Responsibility
+
+Forecast evaluation report
+June 2026
+
+Office for Budget Responsibility:
+Forecast evaluation report
+Presented to Parliament pursuant to
+Section 8 of the Budget Responsibility and
+National Audit Act 2011
+June 2026
+
+© Crown copyright 2026
+This publication is licensed under the terms of the Open Government Licence
+v3.0 except where otherwise stated. To view this licence, visit
+nationalarchives.gov.uk/doc/open-government-licence/version/3 or write to the
+Information Policy Team, The National Archives, Kew, London TW9 4DU, or
+email: psi@nationalarchives.gov.uk.
+Where we have identified any third party copyright information you will need
+to obtain permission from the copyright holders concerned.
+This publication is available at www.gov.uk/official-documents
+Any enquiries regarding this publication should be sent to us at
+obr.enquiries@obr.uk
+ISBN 978-1-5286-6460-8
+E03599130
+
+06/26
+
+Printed on paper containing 40% recycled fibre content minimum
+Printed in the UK by HH Associates Ltd. on behalf of the Controller of
+His Majesty’s Stationery Office.
+
+Contents
+
+Foreword............................................................................................... 1
+Chapter 1
+
+Executive summary................................................................................. 3
+Evaluating our forecasts for 2024-25 ................................................ 3
+Development priorities ..................................................................... 6
+
+Chapter 2
+
+Fiscal multipliers .................................................................................... 7
+Introduction ..................................................................................... 7
+The OBR’s fiscal multiplier framework ............................................... 8
+Evaluating our October 2024 forecast of 2025 GDP growth ............ 10
+
+Chapter 3
+
+Evaluating forecasts for 2024-25 .......................................................... 15
+Introduction ................................................................................... 15
+The context for forecasts of 2024-25 .............................................. 15
+Box 3.1: Evaluation of the July 2020 Fiscal sustainability
+report scenarios ............................................................................. 16
+Economy forecast .......................................................................... 19
+Fiscal forecasts for 2024-25 ........................................................... 25
+External forecasts for the UK economy and public finances .............. 38
+
+Chapter 4
+
+Refining our forecasts ........................................................................... 41
+Introduction ................................................................................... 41
+Lessons from the 2022 energy price shock for our economic and
+fiscal forecasts ............................................................................... 41
+Economic forecasting improvements ............................................... 46
+Fiscal forecast improvements .......................................................... 47
+Index of charts and tables .................................................................... 51
+
+Supplementary information and charts and tables data are available on our website.
+
+Foreword
+
+The Office for Budget Responsibility was created in 2010 to provide independent and authoritative
+analysis of the UK public finances. One of our core roles is to produce the Government’s official
+economic and fiscal forecasts which are published twice a year in our Economic and fiscal outlook
+(EFO).
+In each EFO, we stress the uncertainty that lies around all such forecasts. We compare our central
+forecasts to those of other forecasters. We highlight the limited confidence that should be placed in
+our central forecast given the scale of shocks that inevitably drive a wedge between any central
+prediction and subsequent outcomes. We use sensitivity and scenario analysis to show how the
+public finances could be affected by alternative economic outcomes. And we highlight the residual
+uncertainties in the public finances, even if one were confident about the path for the economy – for
+example, because of uncertain estimates of the cost of policy measures.
+These uncertainties mean differences between outturns and forecasts are inevitable. Our central
+forecast is constructed under the conditioning assumption of stated government policy at the time
+the forecast is produced. It is also conditional on the absence of positive or negative shocks.
+However, subsequent changes in policy are the rule rather than the exception. And shocks are
+inevitable and often large – as we have seen over the past six years with the Covid pandemic, the
+energy price spikes following the Russian invasion of Ukraine, and the rise in inflation and interest
+rates that followed. But some differences between a central forecast and subsequent outturns are
+due to factors that could have been anticipated through improved modelling techniques, by looking
+at alternative data sources, or by using different assumptions. Genuine errors, which would have
+been corrected before the forecast was finalised if we had spotted them, can also be a source of
+forecast differences, and we identify these as errors where applicable.
+We believe it is important to identify, understand, and learn from these differences and errors, and
+then to set out our plans for improving the way in which we forecast. We are therefore committed to
+transparent evaluation of our forecast performance. Our legislation requires the OBR to undertake,
+at least once a year, “an assessment of the accuracy of fiscal and economic forecasts previously
+prepared by it.” To meet this requirement, we produce this annual Forecast evaluation report (FER)
+which evaluates how successive forecasts have compared against outturn. In our 2023 Working
+paper No.19: The OBR’s forecast performance, we took a more comprehensive look at the OBR’s
+overall forecasting record since we were established in 2010.1 This regular transparent evaluation of
+our forecast performance both ensures the OBR is accountable for the accuracy of its forecasts, and
+helps us to identify potential sources of persistent forecast difference or bias in our forecasting
+models, methods, or judgement and take action to address these in future forecasts. It also allows us
+to evaluate our assessments of the economic and fiscal impact of large, uncertain shocks.
+
+1
+
+Atkins, G., and L. Lanskey, Working paper No.19: The OBR’s forecast performance, August 2023.
+
+1
+
+Forecast evaluation report
+
+Foreword
+
+In line with the approach taken in the 2025 FER, this year’s FER analyses the performance of our
+one- (from March 2024), two- (from March 2023) and five- (from July 2020) year ahead economic
+and fiscal forecasts for the 2024-25 financial year. This report focuses on the five-year forecast
+central scenario presented in our July 2020 Fiscal sustainability report, rather than the central
+forecast in our March 2020 EFO. Although this scenario was not an official forecast, it provides a
+more meaningful basis for evaluation than the March 2020 EFO, which was produced before the
+scale and nature of the Covid pandemic were understood and was published shortly before the first
+UK lockdown.2
+For this FER, economy outturn data is taken from the ONS’s first quarterly estimate for the fourth
+quarter of 2025 released on 12 February 2026. This incorporates the ONS 2025 Blue Bookconsistent National Accounts data that was released on 30 September 2025. For public sector
+receipts and expenditure, the outturn data used is from the ONS’s 23 April 2026 Public Sector
+Finances publication.
+In line with our Memorandum of Understanding, we provided a final copy of this report to the
+Treasury two working days in advance of publication.
+We would be pleased to receive feedback on the approaches taken in this FER as well as on any
+aspect of the content or presentation of our analysis. This can be sent to feedback@obr.uk.
+
+Professor David Miles CBE
+
+Tom Josephs
+
+The Budget Responsibility Committee
+
+2
+
+A numerical assessment of the March 2020 forecast against outturn is provided in the supplementary tables that accompany this report.
+
+Forecast evaluation report
+
+2
+
+1
+
+Executive summary
+
+1.1
+
+Since the OBR was established in 2010 we have been committed to transparent evaluation
+of our performance as the Government’s economic and fiscal forecaster. This Forecast
+evaluation report (FER) evaluates one- (from March 2024), two- (from March 2023) and
+five- (from July 2020) year ahead economic and fiscal forecasts for the 2024-25 financial
+year. The ongoing impact of unexpected shocks, including the Covid pandemic and 2022
+energy price shock, explain a large portion of the short- and medium-term differences
+between forecasts and outturn for 2024-25.
+
+1.2
+
+Our central forecasts are estimates which represent the middle of a possible range of
+outcomes for economic and fiscal variables. These variables are subject to a huge number
+of drivers and the impact of future shocks which cannot be predicted before they occur. To
+illustrate the range of uncertainty around our central forecast we use scenarios, fan charts,
+and sensitivity analysis in all our Economic and fiscal outlooks (EFOs). This risk analysis is at
+least as important for fiscal policymakers, and those who scrutinise fiscal policy decisions, as
+the central forecast. In this FER, we therefore also assess the performance of the scenarios
+we have used in EFOs to illustrate the potential range of impacts of the two major recent
+shocks to hit the economy and public finances – the Covid pandemic and the 2022 energy
+price shock following Russia’s invasion of Ukraine.
+
+1.3
+
+In this FER we also explain our fiscal multiplier framework and make an initial assessment of
+our use of these multipliers in the Autumn 2024 forecast for GDP growth in 2025. The OBR
+defines fiscal multipliers as the impact of a policy package on demand, which, in the short
+run, can affect the output gap by changing the level of economic activity relative to potential
+output. We have a separate framework – which we consider alongside our multipliers – for
+assessing and incorporating the possible medium- and longer-term impacts of policy on
+potential output. The initial analysis in this FER suggests that, based on the outturn for 2025,
+it is unlikely that the multipliers we used to assess the impact of the Autumn Budget 2024
+policy package were too low and so underestimated the initial impact of the fiscal loosening
+on near-term GDP growth. However, we will continue to review this issue in future FERs,
+when we will be able to consider outturn for more years of the five-year forecast made in
+Autumn 2024.
+
+Evaluating our forecasts for 2024-25
+1.4
+
+The large, persistent impact of the 2022 energy price shock was the key factor behind
+differences between economic outturn in 2024-25 and the March 2023 and March 2024
+forecasts. In particular, the rise in energy prices had greater-than-expected second-round
+impacts on inflation, particularly due to what now seems likely to have been its impact in
+generating strong nominal wage growth in a tight labour market. Partly as a consequence,
+3
+
+Forecast evaluation report
+
+Executive summary
+
+interest rates remained higher than expected by market participants at the time of both
+forecasts. While we overestimated real GDP growth in our March 2023 forecast, and
+underestimated it in our March 2024 forecast, both forecasts significantly underestimated
+nominal GDP growth – a key driver of tax revenues – due to this stronger-than-expected
+inflation.
+1.5
+
+Differences between outturn and our fiscal forecasts over this period also largely reflected
+the impact of the energy price shock and the large policy responses to it. Public sector net
+borrowing (PSNB) in 2024-25 was £152 billion (5.2 per cent of GDP). The key differences
+between this and our forecasts were:
+•
+
+The March 2023 two-year ahead forecast for borrowing in 2024-25 was £85 billion
+(3.2 per cent of GDP), which was £66 billion (2.0 per cent of GDP) lower than outturn.
+This was largely driven by higher-than-expected public spending. That was primarily
+due to more persistent inflation and higher interest rates than expected, which raised
+debt interest and welfare spending, and due to policy decisions to substantially
+increase departmental spending at Autumn Budget 2024. There was also a large
+forecasting difference for other current spending. This was only partially offset by
+higher-than-expected receipts due to stronger growth in nominal tax bases than
+expected.
+
+•
+
+The March 2024 one-year ahead forecast for borrowing in 2024-25 was £87 billion
+(3.1 per cent of GDP) – very similar to the March 2023 forecast – and was £65 billion
+(2.0 per cent of GDP) lower than outturn. While receipts outturn were in line with
+forecast, outturn spending was considerably higher, driven by the same factors
+affecting the March 2023 forecast, including the increase to departmental spending
+announced at Autumn Budget 2024.
+
+Chart 1.1: Drivers of differences between borrowing forecasts and 2024-25 outturn
+350
+
++215.8
+
+Increasing borrowing
+
+300
+
+Decreasing borrowing
+
+£ billion
+
+250
++101.4
+
+200
+
+151.9
+
+150
+
+151.9
+
+-179.8
+
+116.0
+
++64.2
+
++0.4
+
+151.9
+
+Spending
+
+Receipts
+
+PSNB
+outturn
+2024-25
+
+-35.0
+
+85.4
+
+100
+
+87.2
+
+50
+
+0
+
+July 2020
+central
+scenario
+
+Spending
+
+Receipts
+
+PSNB
+outturn
+2024-25
+
+March
+2023
+forecast
+
+Spending
+
+Source: ONS, OBR
+
+Forecast evaluation report
+
+4
+
+Receipts
+
+PSNB
+outturn
+2024-25
+
+March
+2024
+forecast
+
+Executive summary
+
+1.6
+
+The five-year ahead forecasts for 2024-25 were produced during the initial phase of the
+Covid pandemic in 2020. Reflecting the very high uncertainty at this time, in July 2020, the
+OBR produced a central scenario alongside two alternative scenarios to show how different
+short- and medium-term assumptions for the pandemic could affect economic and fiscal
+outcomes. The central scenario provided a reasonably accurate assessment of the shortterm economic and fiscal impact of the pandemic. However, the scenarios did not anticipate
+the inflationary pressures that developed as the pandemic ended and could not have
+foreseen the subsequent 2022 energy price shock. The resulting much higher-than-expected
+inflation and nominal GDP growth led to both spending and receipts diverging significantly
+from the projections in the scenarios over the medium term, although these differences were
+broadly offsetting in terms of borrowing.
+
+1.7
+
+Evaluating these forecasts for 2024-25, alongside evaluations of earlier years from recent
+FERs, provides lessons for forecasting the economic and fiscal impact of energy price
+shocks. The sharp rise in energy prices caused by the current escalation of conflict in the
+Middle East was not incorporated in our most recent March 2026 forecast since it happened
+only a few days before publication and after the forecast had been finalised. Assessing how
+this latest energy shock will affect the economy and public finances will therefore again be a
+key issue for our next forecast. While the impact of each shock on the economy and public
+finances will inevitably be different, some key lessons from the 2022 shock are:
+•
+
+The impact of higher energy prices on inflation following the 2022 energy price shock
+was larger and more persistent than we had expected. While the direct effects were
+broadly in line with our initial expectations, the second-round effects were significantly
+above our forecasts. Various factors contributed to this including a tight labour market
+causing a higher wage response than expected. In response to this, we have adjusted
+our analytical and modelling toolkit, including our assumption for the second-round
+pass-through of energy prices to inflation and some of our short-term inflation
+modelling equations.
+
+•
+
+We overestimated the impact of the 2022 energy price shock on household’s real
+disposable income, partially due to stronger-than-expected wage growth and
+subsequent policy support. In terms of the supply-side impact, higher energy prices
+may have contributed to weak productivity growth over this period, but it is hard to
+separate out the exact impact of the energy price shock from the many other factors
+that likely affected productivity growth at this time.
+
+•
+
+The overall impact of the energy shock on the public finances was to significantly
+increase government borrowing and debt. Initially, higher inflation increased spending
+on most welfare benefits and index-linked debt interest costs, with only a small offset
+from higher taxes on the energy sector. In addition, the direct discretionary policy
+response to support households and businesses with the costs of the energy price
+shock added substantially to borrowing in 2022 and 2023. The subsequent passthrough of inflation to higher nominal earnings and nominal consumption acted to
+increase tax revenues, which partly offset the initial negative impact on borrowing. But
+5
+
+Forecast evaluation report
+
+Executive summary
+
+it also contributed to persistently elevated interest rates which raised debt interest
+spending. Persistently higher inflation also increasingly eroded the real value of
+departmental spending which was then increased in a series of government policy
+decisions over this period.
+
+Development priorities
+1.8
+
+Our forecast development priorities reflect the lessons outlined above and other forecast
+differences identified in this report. We will use the lessons from the evaluation of the
+forecasts made following the 2022 energy price shock to inform our assessment of the
+impact of the current energy price shock in our next forecast. Wider economic forecast
+development priorities include assessing our approach to business investment modelling,
+developing our trade modelling capabilities, and expanding our use of the Oxford
+Economics Global Economic Model for scenario analysis. Wider fiscal forecast development
+priorities focus on understanding the volatility and forecast differences for self assessment
+income tax receipts at an individual income component level, reviewing the drivers of our
+onshore corporation tax receipts forecast, assessing alternative economic determinants for
+our insurance premium tax receipts forecast, reviewing our local authority self-financed
+expenditure forecast, and understanding the link between recent unemployment outturn
+data and welfare spending.
+
+Forecast evaluation report
+
+6
+
+2
+
+Fiscal multipliers
+
+Introduction
+2.1
+
+All our forecasts incorporate an assessment of the potential economic and fiscal impacts of
+changes in government policy. In making these assessments we divide the potential impact
+of policy into two parts: the ‘direct effects’ of a given policy change on the public finances;
+and the ‘indirect effects’ that capture the potential impact of a change in policy on economic
+activity, which may then have subsequent impacts on the public finances.1 One element of
+our approach to assessing these indirect effects is the use of fiscal multipliers.
+
+2.2
+
+The OBR defines fiscal multipliers as the impact of a policy package on demand, which, at
+least in the short run, can affect the output gap by changing the level of economic activity
+relative to potential output. Wider economic impacts, such as possible supply-side effects of
+policy on potential output, or effects on inflation, are considered separately. The overall real
+GDP impact of a policy package is therefore a combination of the demand-side fiscal
+multiplier impact and any supply-side effects, with inflation effects impacting nominal GDP.
+
+2.3
+
+The OBR’s definition of fiscal multipliers differs from that used by some other institutions.
+Fiscal multipliers used in other contexts may capture both demand- and supply-side effects
+on real GDP, as well as impacts on inflation.2 This needs to be taken into account when
+comparing the results of the OBR’s multipliers against those used by other institutions. Such
+differences may partly or fully reflect a different definition of multipliers. To aid
+comparability, the first part of this chapter explains our fiscal multipliers framework and how
+we apply it in our forecast.
+
+2.4
+
+Some analysts have suggested that the multipliers the OBR used in assessing the impact of
+the significant reduction in government spending announced in 2010 were too low. Previous
+Forecast evaluation reports (FERs) between 2012 and 2017 assessed this issue in detail. This
+analysis concluded that, while there is significant uncertainty around fiscal multiplier
+estimates, there was limited evidence that the multipliers that we used at that time were too
+low or tapered too quickly.3 More recently, some analysts have also suggested the fiscal
+multipliers that we applied to the increase in government spending in our October 2024
+forecast were too low and taper too quickly.4 The second part of this chapter therefore
+
+1
+
+For more detail on how we assess the economic and fiscal impact of government policy measures, see OBR, Dynamic scoring of policy
+measures in OBR forecasts, 2023, and OBR, Briefing paper No.6: Policy costings and our forecast, 2014.
+2
+See Ramey V., Ten years after the financial crisis: What have we learned from the renaissance in fiscal research?, 2019.
+3
+See Box: 2.3 in the October 2013 FER for a summary of external views and Box 2.2 in the October 2017 FER for a summary of our
+analysis in response.
+4
+See, for example, New Economics Foundation, The OBR’s fiscal powers need a rethink, 2024; New Economics Foundation, Forecasting
+a better future, 2025; and written evidence submitted to the Commons Treasury Committee’s The OBR: 15 years on inquiry by Dr Rob
+Calvert Jump (University of Greenwich) and Professor Jo Michell (UWE Bristol) in 2026.
+
+7
+
+Forecast evaluation report
+
+Fiscal multipliers
+
+evaluates the short-term application of our fiscal multipliers for the October 2024
+forecast.5,6
+
+The OBR’s fiscal multiplier framework
+Definition
+2.5
+
+In the OBR’s framework, our medium-term GDP forecast is informed by judgements about
+both potential output and the output gap profile.7 We therefore have separate, but related,
+frameworks for assessing how policy may affect each of these.
+
+2.6
+
+We define fiscal multipliers as the impact of a whole policy package on aggregate demand
+and the output gap. For example, a fiscal stimulus (such as higher spending or lower tax) is
+likely to raise demand in the economy relative to supply, either via the government directly
+producing or consuming more or via other economic agents having more disposable
+income to spend. This generally results in a rise in the level of real GDP in the short term.
+
+2.7
+
+The OBR’s fiscal multiplier framework does not account for any wider, non-demand related
+economic effects. These multipliers therefore do not capture how policy may affect the
+potential output of the economy (e.g. how many people wish to work) or the impacts on
+inflation (e.g. how the pass-through of a change in VAT would directly change prices). We
+use a separate framework for assessing the possible supply-side impacts of policy on
+potential output, which is described in detail in Briefing paper No.10: Accounting for the
+supply-side effects of policy.
+
+2.8
+
+As mentioned above, this definition of fiscal multipliers is narrower than that sometimes
+used in the academic literature and by other institutions. Fiscal multipliers are often defined
+as the total change in output resulting from a unit change in a fiscal variable. This definition
+of fiscal multipliers may capture both demand and, generally less temporarily, supply-side
+effects on real GDP. Our approach instead uses separate frameworks to assess these
+possible demand- and supply-side effects.
+
+2.9
+
+The fiscal multipliers we use to assess the impact of policy on aggregate demand typically
+taper over the forecast period, consistent with the findings of much of the economic
+literature on this issue.8 A rise in government activity, assuming such activity does not
+increase potential output by an equivalent amount, would be expected to put pressure on
+economic resources and, over time, ‘crowd out’ the private sector components of
+expenditure in GDP. Conversely, a fall in government activity under similar conditions would
+reduce pressure on economic resources and over time potentially ‘crowd in’ private sector
+activity. The mechanism for this includes changes to exchange rates, real wages and real
+
+5
+
+We considered evaluating other forecasts but discounted them for three reasons. Pre-2020 forecasts are covered by previous work,
+2020-2023 forecasts are heavily impacted by external shocks, and for post-2023 forecasts the October 2024 forecast is the major policy
+event which had sizeable multiplier effects that can be assessed against early outturn at this point in time.
+6
+This analysis also responds to a FER 2025 development priority.
+7
+See our Real GDP growth forecast in-depth page on our website.
+8
+See for example: Leeper, E. M., et al., Fiscal foresight and information flows, Econometrica 81:3, 2013 and Barrell, R., and M. Weale,
+The Economics of a Reduction in VAT, Fiscal Studies 30:1, 2009.
+
+Forecast evaluation report
+
+8
+
+Fiscal multipliers
+
+interest rates. For example, a fiscal expansion may raise the demand for labour, increasing
+real wages, which causes private businesses to reduce output. Any impact of policy on
+potential output, which we assess through the separate supply-side frameworks mentioned
+above, will typically have an impact at and beyond our five-year forecast horizon.
+2.10
+
+Our forecasts may also include how wider economic variables are impacted by the
+demand-side effect of policy. For example, a fiscal expansion, with no change to potential
+output, is likely to lead to greater inflationary pressure – and that effect, if sufficiently large,
+would be reflected in our inflation forecast.
+
+Quantification and application
+2.11
+
+2.12
+
+It is important to stress there is no single multiplier that applies to all policies and at all
+points in the economic cycle. Empirical estimates of multipliers in the economic literature
+have a wide range, and suggest that multipliers vary due to:9
+•
+
+Macroeconomic conditions. The impact of policy on demand will depend on economic
+conditions at the time the policy is introduced, including the stage of the economic
+cycle, underlying structural conditions of the economy, and/or the nature of any
+economic shocks. For example, when there is spare capacity, there would likely be less
+pressure on economic resources following a fiscal stimulus, and so less crowding out
+of private sector activity. As a result, a fiscal stimulus would generally have a larger
+impact on real GDP. Conversely, when the economy is operating above capacity, the
+same fiscal stimulus would likely place more pressure on economic resources, so there
+would be more crowding out. The same fiscal stimulus would be likely to have a
+smaller impact on real GDP.
+
+•
+
+The policy instrument. The multipliers we use vary across different categories of policy,
+defined as changes in: taxes, annually managed expenditure (AME), and departmental
+spending (known as departmental expenditure limits, or DELs). DELs are split into
+capital DEL (CDEL) and resource DEL (RDEL). This reflects a well established finding in
+the literature that different types of fiscal intervention tend to have different effects on
+demand and on economic activity.
+
+Our published fiscal multipliers, set out in Table 2.1, are therefore the starting point, not the
+end point, for any assessment we make. These estimates are drawn from the literature and
+represent multipliers that could apply to a small, open economy such as the UK. The starting
+point is that the largest impact of demand is in the year when the policy is announced, with
+the impact then gradually tapering to zero by the fifth year of the forecast for the reasons set
+out above. The largest initial multiplier is for government capital spending (CDEL) while the
+
+9
+
+For example, see: Warmedinger, T., C. D. Checherita-Westphal, and P. Hernandez de Cos, Fiscal Multipliers and Beyond, ECB
+Occasional Paper 162, 2015; Ramey, V., Ten Years after the Financial Crisis: What Have We Learned from the Renaissance in Fiscal
+Research?, 2019; and Auerbach, A. J., and Y. Gorodnichenko, Measuring the output responses to fiscal policy, American Economic
+Journal: Economic Policy, 2012.
+
+9
+
+Forecast evaluation report
+
+Fiscal multipliers
+
+lowest is for taxation.10 Previous FERs have evaluated these multipliers and concluded that,
+while the estimates are highly uncertain, there is no clear evidence that they are too low,
+and they remain in line with recent empirical evidence.11
+
+Table 2.1: Fiscal multipliers
+Year
+0
+0.33
+0.60
+0.45
+1.00
+
+Tax
+AME
+RDEL
+CDEL
+
+1
+0.30
+0.57
+0.42
+0.83
+
+2
+0.23
+0.43
+0.29
+0.43
+
+3
+0.14
+0.23
+0.13
+0.23
+
+4
+0.05
+0.07
+0.04
+0.07
+
+5
+0.00
+0.00
+0.00
+0.00
+
+Source: OBR
+
+2.13
+
+2.14
+
+As set out above, the multipliers shown in Table 2.1 are a starting point rather than set
+values which we apply in all circumstances. In assessing the appropriate multipliers to apply
+in any given forecast, we always first assess the prevailing macroeconomic conditions and
+type of policy package, then judge whether to apply these published figures or make
+adjustments. For example, we may reduce the size of the multiplier if:12
+•
+
+The output gap is small or positive, which could mean that crowding-out effects may
+be larger.
+
+•
+
+The policy package is anticipated, which could mean that the impact of policy is
+already reflected in outturn data or in surveys of expectations that inform our premeasures forecast.
+
+•
+
+The policy package may affect domestic output less than usual; for example, if it is
+likely to boost demand for goods with a high import-intensity or if there is likely to be a
+large offset from changes in household savings.
+
+Similarly, we may choose to increase the size of the multipliers if we assess that crowding
+out effects are likely to be less strong than is typical, or if a policy package is likely to have a
+greater-than-typical impact on domestic demand.
+
+Evaluating our October 2024 forecast of 2025 GDP growth
+2.15
+
+At Autumn Budget 2024, the Government announced a large, front-loaded loosening of
+fiscal policy. This peaked in 2025-26 with a planned increase in borrowing of £35 billion
+(1.2 per cent of GDP) in that year, composed of a £60 billion increase in spending (mostly
+current spending), partly offset by a £25 billion increase in taxes.
+
+10
+
+Among other factors, the size of a multiplier is larger if there are fewer leakages (the share of the stimulus saved or spent on imports).
+Direct government spending such as CDEL has a more immediate first-round effect on demand than tax cuts, a share of which may be
+saved by individuals. See Spilimbergo, A, Symansky, S and Schindler, M (2009), Fiscal multipliers, IMF Staff Position Note SPN/09/11.
+11
+The FERs published between 2012 and 2018 detail our evaluation. Box 2.2. of the 2017 FER provides a summary of our analysis and
+Box 2.2 of the 2019 FER compares our multipliers to the literature.
+12
+The November 2020, October 2024, and November 2025 forecasts are examples of where we have adjusted our multipliers down.
+
+Forecast evaluation report
+
+10
+
+Fiscal multipliers
+
+2.16
+
+In line with the approach set out in the preceding section, in taking a judgement on the
+impact of this very large policy package on the forecast for GDP growth, we first considered
+the wider macroeconomic context and assessed the potential wider economic impacts of the
+policy package.
+
+2.17
+
+We adjusted down the impact of the policy package on aggregate demand and the output
+gap, compared with an application of our published fiscal multipliers, by 0.2 per cent of
+real GDP in 2025-26. This reflected the large fiscal loosening and the economy's proximity
+to its supply capacity. The mechanism for this adjustment included an increase in our Bank
+Rate and gilt rate forecasts by a ¼ percentage point over the five-year forecast, as we
+judged the fiscal loosening was likely not fully anticipated by market participants. Overall,
+we judged that the policy package would lead to a 0.6 percentage point increase in
+aggregate demand in 2025-26.
+
+2.18
+
+We also incorporated an estimate of the wider supply-side impact of policy. In 2025-26, we
+judged that the demand-side multiplier effect would be offset by a 0.1 per cent fall in
+potential output. This was due to a combination of the estimated impact on labour supply of
+the policy to increase employer National Insurance contributions (NICs), and private
+investment crowding out. Overall, the net impact of both our aggregate demand and
+potential output judgements was that policy would lead to a 0.6 per cent rise in real GDP in
+2025-26.
+
+2.19
+
+Beyond 2025-26, we assumed the net effect on the policy package on potential output and
+real GDP would be broadly neutral by 2029-30. The demand-side impact from our
+multipliers tapered as the output gap closed, with higher government investment and
+consumption at the forecast horizon crowding out some private sector output in the medium
+term. The boost to potential output from higher public investment spending was broadly
+offset by lower labour supply from higher employer NICs and lower private investment from
+some crowding out. However, we also noted that the higher public investment, if sustained,
+could raise potential output by 1.1 per cent of GDP in the long term based on our supplyside public investment framework.
+
+Evaluating the October 2024 forecast against 2025 outturn
+2.20
+
+Chart 2.1 compares our October 2024 real GDP growth forecast with 2025 outturn.13 The
+forecast is decomposed into the pre-measures forecast (gold), the estimated demand-side
+multiplier effects of policy (blue), and the estimated supply-side effects of policy (green).
+
+2.21
+
+This illustrates that the October 2024 forecast was too optimistic on growth for 2025, with
+the current ONS estimate of the outturn of 1.4 per cent compared to our forecast of 2 per
+cent. In broad terms, this could be because our pre-measures forecast was too optimistic,
+our assessment of policy effects was too optimistic, or some combination of the two. We
+have compared our pre- and post-measures forecasts for the composition of real GDP
+
+13
+
+We compare the October 2024 forecast with 2025 calendar year outturn data, as full outturn for the 2025–26 fiscal year is not yet
+available at the time of writing.
+
+11
+
+Forecast evaluation report
+
+Fiscal multipliers
+
+against outturn. This gave little indication of the particular driver of the overall forecast
+difference, but did illustrate the likelihood of both pre-measures and post-measures
+factors.14
+
+Chart 2.1: Comparison of outturn and forecast real GDP growth for 2025
+2.5
+
+Estimated demand-side effects of policy
+Pre-measures forecast
+
+2.0
+
+Estimated supply-side effects of policy
+Post-measures forecast
+
+Per cent
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+-0.5
+Outturn
+
+October 2024
+
+Source: ONS, OBR
+
+2.22
+
+It is challenging at this point, and when looking only at one year’s outturn against forecast,
+to assess with certainty the relative contributions of the various potential drivers of this
+difference. However the following factors may have contributed:
+•
+
+It is possible that our pre-measures forecast underestimated the negative effects of US
+trade policy. As set out in Chapter 3, our March 2024 forecast may have
+underestimated growth in 2024 due to anticipated US trade policy causing
+frontloading effects and higher net exports – and this could have then supressed
+growth in 2025. There are wider factors that could also explain an overly optimistic
+pre-measures forecast, including the economy having less momentum than we thought
+at the time of the forecast, energy prices subsequently rising by more than was
+expected, and the impact of the Jaguar Land Rover shutdown.
+
+•
+
+It is also possible that our forecast was too low because the October 2024 policy
+package was anticipated ahead of its announcement by more than we realised, and
+so was already affecting the outturn and survey data that we use to inform our premeasures forecast. This could potentially have caused us to double-count effects across
+our pre- and post-measures forecasts. For example, a large part of the policy package
+was higher expenditure targeted at addressing existing pressures. For the 2024-25
+financial year, much of this spending increase had been announced earlier in the year
+
+14
+
+Diagnostic analysis of GDP expenditure components does not point to a clear single driver of the overall forecast difference. This partly
+reflects ONS Blue Book revisions, particularly to business investment, which altered historical levels and the implied growth path, making it
+difficult to separate genuine forecast errors from mechanical effects.
+
+Forecast evaluation report
+
+12
+
+Fiscal multipliers
+
+and was being implemented by the time of the October 2024 Budget, and so will have
+been affecting economic outturn data to some extent.
+•
+
+It is also possible that differences between forecast and outturn were due to
+judgements in the post-measures forecast, such as the magnitude of crowding out, the
+scale of the negative impact of policy on supply, and the strength of the monetary
+policy response.
+
+2.23
+
+Given the lack of a counterfactual it is very difficult to be definitive on which of these
+judgements may have driven the differences. Based on the outturn for 2025, it does,
+however, seem unlikely that the multipliers we used to assess the impact of the October
+2024 policy package were too low and so underestimated the initial impact of the fiscal
+loosening on growth. Chart 2.1 shows that GDP outturn for 2025 were weaker than
+forecast by around as much as the estimated demand effects of the fiscal loosening based
+on the multipliers applied in the October 2024 forecast. This preliminary analysis, therefore,
+does not support the argument that we underestimated the short-run demand effect of the
+October 2024 fiscal loosening.
+
+2.24
+
+We will continue to review this issue in future FERs when we will be able to consider outturn
+for more years of the five-year forecast made in October 2024, taking the same type of
+approach as used in the 2017 FER to look back and assess the multipliers used in the 2010
+forecast. We may also analyse other fiscal events.
+
+13
+
+Forecast evaluation report
+
+Forecast evaluation report
+
+14
+
+3
+
+Evaluating forecasts for 2024-25
+
+Introduction
+3.1
+
+This chapter evaluates the one- (from March 2024), two- (from March 2023) and five- (from
+July 2020) year ahead economic and fiscal forecasts for the 2024-25 financial year. We
+also compare the OBR’s forecast performance with that of external forecasters. The online
+annex accompanying this report contains more detailed forecast comparisons for a wider
+set of economic and fiscal variables, including updated average forecast differences figures.
+Economy outturn data is from the ONS’s first quarterly estimate for the fourth quarter of
+2025 released on 12 February 2026.1 For public sector receipts and expenditure, the
+outturn data is taken from the ONS’s 23 April 2026 Public Sector Finances publication.
+
+3.2
+
+As set out in the Foreword, this report focuses on the five-year ahead forecast differences for
+the central scenario presented in our July 2020 Fiscal sustainability report (FSR), rather than
+our March 2020 Economic and fiscal outlook (EFO). Although this scenario was not an
+official forecast, it provides a more meaningful basis for evaluation than the March 2020
+EFO, which was produced before the scale and nature of the Covid pandemic were
+understood and was published shortly before the first UK lockdown.2
+
+3.3
+
+Our central forecasts are estimates which represent the middle of a range of possible
+outcomes for economic and fiscal variables. These variables are subject to a huge number
+of drivers and to the impact of future shocks which cannot be predicted with any accuracy
+before they occur. Outcomes both substantially below and above the central forecast are
+therefore highly likely. To illustrate the range of uncertainty around our central forecast we
+use scenarios, fan charts, and sensitivity analysis in all our EFOs. This risk analysis is at least
+as important for fiscal policymakers, and those who scrutinise fiscal policy decisions, as the
+central forecast.
+
+The context for forecasts of 2024-25
+3.4
+
+The forecasts evaluated in this report were conducted during a particularly turbulent period
+in the UK’s post-war economic history, due to:
+•
+
+the Covid pandemic, which began in 2020 and precipitated the largest peacetime
+contraction in GDP;
+
+1
+
+This therefore incorporates the ONS 2025 Blue Book-consistent National Accounts data that was released on 30 September 2025.
+The supplementary material that accompanies this report provides differences against outturn for both the March 2020 forecast and July
+2020 central scenario when referencing our five-year ahead forecast differences.
+2
+
+15
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+•
+
+the 2022 energy price shock following Russia’s invasion of Ukraine, with prolonged
+effects on inflation and global interest rates; and
+
+•
+
+significant uncertainty and subsequent changes in US trade policy since President Trump
+was elected in 2024.
+
+3.5
+
+Unexpected shocks therefore explain a very large portion of the five-year differences
+between forecasts made prior to them occurring and outturn for 2024-25. This chapter
+analyses how this caused outcomes to diverge from the central forecast, which is important
+for informing how we calibrate and present the risks around future forecasts. However,
+some of these shocks had happened by the point that the shorter-term forecasts assessed
+here were made (for example, the 2022 energy price shock occurred before the March
+2023 and March 2024 forecasts for 2024-25). In these cases, we assess how effectively the
+ongoing impact of these shocks was captured in these forecasts, and what we can learn
+from this. This chapter also highlights where forecast differences are not directly related to
+the impact of shocks and considers how we can learn from these wider issues and address
+them in our forecast development programme.
+
+3.6
+
+This Forecast evaluation report (FER) therefore includes two sections that specifically assess
+our analysis of the two major recent shocks to hit the economy and public finances. Box 3.1
+evaluates the July 2020 FSR scenarios, our first official projections to take full account of the
+emerging impact of the pandemic. Chapter 4 includes a section summarising the lessons
+we have learned from the 2022 energy price shock for our economic and fiscal forecasts.
+
+Box 3.1: Evaluation of the July 2020 Fiscal sustainability report scenarios
+In the July 2020 Fiscal sustainability report (FSR), we presented three potential scenarios for the
+economy and the public finances over the medium term. These were the OBR’s first official
+projections to take full account of the emerging impact of the Covid pandemic. A ‘central’
+scenario was presented alongside an ‘upside’ and a ‘downside’ scenario. This reflected the high
+uncertainty at that time around the length and severity of the pandemic and the impact it would
+have on the economy and public finances.a In this box, we build on the December 2021 Forecast
+evaluation report (FER), which assessed the short-term performance of these scenarios, and
+consider how they subsequently compared with outturn over the full five-year projection period.
+The scenarios were as follows:
+•
+
+The upside scenario assumed that activity would rebound relatively quickly from the
+pandemic, recovering its pre-virus peak by the first quarter of 2021, and there would be
+no enduring economic scarring.
+
+•
+
+In the central scenario, output recovered more slowly, regaining its pre-virus peak by the
+end of 2022. Some medium-term economic scarring was assumed, with productivity hit
+by lower cumulative business investment and higher business failures, and with the
+equilibrium rate of unemployment remaining elevated.
+
+•
+
+In the downside scenario, output recovered even more slowly, returning to its pre-virus
+peak only in the third quarter of 2024. This reflected a more significant hit to productivity
+
+Forecast evaluation report
+
+16
+
+Evaluating forecasts for 2024-25
+
+and a higher medium-term unemployment rate as the economy was assumed to go
+through a period of significant restructuring.
+Chart A shows the real GDP and inflation forecast under each scenario alongside the outturn
+over the relevant period. For real GDP, outturn was within the range assumed in these scenarios
+– broadly following a path between the central and upside scenario. This suggests the scarring
+assumption included in the central scenario may have been overly pessimistic. However, it is
+difficult to robustly assess this given the economy was hit by subsequent economic shocks and
+developments that were not foreseen at the time the scenarios were produced. For example, the
+impact of the pandemic on the labour market was seen at the time as a key area of potential
+scarring. Subsequent labour market developments present a mixed picture. While unemployment
+rose by less, and for a shorter period, than anticipated in the central scenario – likely partly due
+to subsequent extensions to the coronavirus job retention scheme and other labour market
+support measures – declines in labour market participation proved more persistent than
+expected. At the same time, subsequent population, and therefore labour supply, growth has
+been higher than expected mainly due to the unexpected spike in inward migration.
+For inflation, which was assumed to follow the same path across all three scenarios, outturn was
+materially above expectations from 2021 onwards. At the time, we expected the pandemic to
+depress both demand and supply in the economy and therefore not lead to inflationary pressure.
+We assumed that inflation would be driven primarily by movements in energy prices – which
+initially fell sharply – rather than by domestic cost pressures. In practice, domestic demand
+recovered more quickly than expected after the initial impact of the pandemic, while uneven
+recoveries in supply across the globe, alongside a global shift of demand from services to goods
+due to the pandemic, created global supply bottlenecks. These factors pushed up inflation
+materially in 2021. Inflation then rose very sharply following the unforeseen 2022 energy price
+shock after Russia’s invasion of Ukraine. As a result, while by the end of the five-year period real
+GDP was broadly in line with our central scenario, nominal GDP was much higher than
+expected.
+
+Chart A: Observed and forecast Real GDP growth and CPI growth
+Real GDP
+
+110
+
+CPI inflation
+
+10
+
+105
+
+8
+
+95
+
+Per cent
+
+2019 = 100
+
+100
+
+90
+85
+
+Central scenario
+Upside scenario
+Downside scenario
+Outturn
+
+80
+75
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+6
+
+4
+
+2
+
+0
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+Source: ONS, OBR
+
+17
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+Chart B shows borrowing under each scenario, alongside the outturn over the five-year forecast
+period. The central scenario assumed a sharp rise in borrowing to 16.4 per cent of GDP in
+2020-21 due to the impact of the pandemic, before falling sharply to 7.0 per cent of GDP in
+2021-22 as the immediate impact of the pandemic was expected to recede. It was then
+projected to remain at around 5 per cent of GDP over the rest of the five-year period, which
+would have been still significantly above pre-pandemic levels.
+Outturn borrowing in the short-term forecast years of 2020-21 and 2021-22 was between the
+upside and central scenario. The scenarios correctly anticipated the very sharp but largely
+temporary rise in borrowing, largely driven by the government support package, a rise in
+pandemic-related spending, and a fall in a broad range of receipts. This was particularly
+concentrated in personal taxes due to falling employment and earnings, and consumption taxes
+due to the various restrictions that limited consumer spending.
+Over the medium term, outturn borrowing was broadly in line with the central scenario.
+However, this was driven by very large but mostly offsetting factors that were not anticipated at
+the time the scenarios were produced:
+•
+
+It was expected that public spending would moderate after the pandemic and return
+broadly to pre-pandemic levels. In practice, higher-than-expected inflation from 2021
+onwards, described above, pushed up spending compared to the scenarios in areas
+including debt interest and welfare. In addition, policy decisions were taken to raise
+departmental expenditure limits compared to previous plans, some of which reflected
+policy responses to the longer-term health impacts of the pandemic and to inflationary
+pressures. Overall, total spending was £216 billion higher than the central scenario in
+2024-25.
+
+•
+
+This was broadly offset in borrowing by receipts growing more strongly than anticipated.
+This was driven by the higher-than-expected nominal GDP growth, described above,
+combined with subsequent policy decisions to raise revenue – including the freezes to
+personal tax thresholds from April 2021. Overall, receipts were £180 billion higher than
+the central scenario. Around half was from higher income tax and National Insurance
+contributions boosted by higher-than-expected earnings and the impact of the threshold
+freezes.
+
+Forecast evaluation report
+
+18
+
+Evaluating forecasts for 2024-25
+
+Chart B: Outturn and July 2020 scenarios for public sector net borrowing
+22
+
+Downside scenario
+
+20
+18
+
+Per cent of GDP
+
+16
+14
+
+12
+10
+8
+
+Central scenario
+
+6
+
+Outturn
+
+4
+
+Upside scenario
+
+2
+0
+
+2019-20
+
+2020-21
+
+2021-22
+
+2022-23
+
+2023-24
+
+2024-25
+
+Source: ONS, OBR
+
+Overall, these scenarios provided a reasonably accurate initial short-term assessment of the
+potential economic and fiscal impact of the pandemic. This shows the value of producing such
+scenarios even in times of very high uncertainty. We will continue to use scenarios in our EFOs to
+illustrate key risks to the central forecast, in line with recommendations from our 2025 external
+review.b The July 2020 scenarios did not anticipate the inflationary pressures that developed as
+the pandemic ended and could not have foreseen the subsequent 2022 energy price shock. The
+resulting much higher-than-expected inflation and nominal GDP growth led to both spending
+and receipts diverging significantly from the projections in the scenarios over the medium term.
+Understanding and evaluating the reasons for these divergences has been very important for
+learning lessons for future forecasts on the impact of inflation on the public finances, as is
+summarised in Chapter 4 of this report.
+a
+
+On an ad-hoc basis, the OBR also produced an initial illustrative scenario on 14 April 2020 to assess the effects of the coronavirus
+outbreak.
+b
+
+See recommendation 8 of Van Geest, L., External Review of the Office for Budget Responsibility, February 2025
+
+Economy forecast
+3.7
+
+This section focuses on evaluating the performance of our March 2023 and March 2024
+economic forecasts for 2024-25, based on latest outturn data. The performance of the July
+2020 central scenario is primarily assessed above in Box 3.1. We also examine how
+forecast differences for this year compare to our average forecast performance since 2010
+and to forecasts made by external analysts.
+
+Conditioning assumptions
+3.8
+
+We condition our forecasts on market expectations of interest rates and energy prices. Bank
+Rate in 2024-25 was significantly higher than the expectations we used in all forecasts
+19
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+considered here (Table 3.1). This was, in large part, due to market participants
+underestimating the persistence of inflation, and accompanying monetary policy tightness,
+following the 2022 energy price shock. Oil prices remained elevated in 2024-25 by more
+than expected and so were slightly higher than our one-year and two-year forecasts (by 2.8
+per cent and 4.3 per cent respectively). 3
+
+Table 3.1: Bank Rate and oil prices in 2024-25
+
+Outturn in 2024-25
+Forecast
+Difference
+Difference (per cent)
+
+Bank Rate (per cent)
+One-year Two-year Five-year
+ahead
+ahead
+ahead
+4.9
+4.9
+4.9
+4.4
+3.5
+0.2
+0.6
+1.5
+4.8
+
+Oil prices ($ per barrel)
+One-year Two-year Five-year
+ahead
+ahead
+ahead
+78.3
+78.3
+78.3
+76.2
+75.1
+42.7
+2.1
+3.2
+35.6
+2.8
+4.3
+83.5
+
+Source: Bank of England, LSEG Workspace, OBR
+
+Real GDP
+3.9
+
+Looking at our successive forecasts for real GDP growth in 2024-25 (Table 3.2) and the
+profile for the level of GDP (Chart 3.1):4,5
+•
+
+The March 2023 two-year ahead forecast incorporated our judgement on the ongoing
+impact of the 2022 energy price shock. However, cumulative real GDP growth over the
+subsequent two years underperformed our expectations by 0.8 percentage points, and
+real GDP growth in 2024-25 was around 0.6 percentage points lower than forecast. This
+is likely because the forecast did not anticipate the negative impact on real GDP growth
+of the persistence of inflation and higher interest rates, partly reflecting the forecast
+conditioning assumptions set out above.
+
+•
+
+The March 2024 one-year ahead forecast underestimated real GDP growth in 2024-25
+by 0.3 percentage points. This is slightly below the average one-year ahead forecast
+difference.6 Part of this stronger-than-expected growth may reflect an unanticipated frontloading of trade activity in response to expected changes in US trade policy. In particular,
+firms may have brought forward exports to the US ahead of potential tariff increases,
+boosting net exports and GDP growth in the second half of 2024-25 relative to what was
+assumed at the time of the forecast.
+
+3
+
+As with oil prices, we condition our forecast on market expectations for wholesale gas prices, which were another major contributor to
+inflation, rising from an average of 29 pence a therm in 2019-20 to 97 pence a therm in 2024-25.
+4
+Cumulative growth for the five-year ahead forecast was large, given the July 2020 central scenario starts from the significant fall in real
+GDP cause by the Covid-19 pandemic.
+5
+Our real GDP growth forecasts for 2024-25 were in line with our past average forecast performance.
+6
+Average forecast differences used for comparison were discussed in Chapter 2 of the 2025 Forecast evaluation report.
+
+Forecast evaluation report
+
+20
+
+Evaluating forecasts for 2024-25
+
+Table 3.2: Real GDP growth
+One-year ahead
+
+Two-year ahead
+
+Five-year ahead
+
+1.5
+1.2
+0.3
+
+1.5
+2.1
+-0.6
+
+1.5
+2.0
+-0.5
+
+1.5
+1.2
+0.3
+
+1.6
+2.3
+-0.8
+
+18.1
+20.5
+-2.4
+
+Annual growth in 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+Cumulative growth to 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+Source: ONS, OBR
+
+Chart 3.1: Quarterly real GDP level
+115
+
+March 2024 forecast
+
+110
+
+2019Q4 = 100
+
+105
+
+March 2023 forecast
+
+Outturn
+
+100
+95
+90
+85
+
+July 2020 central scenario
+80
+75
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+Note: The shaded area marks 2024-25.
+Source: ONS, OBR
+
+Inflation
+3.10
+
+All three of the forecasts considered here significantly underestimated inflation in 2024-25.
+The one-year and two-year ahead forecast differences for inflation in this period are notably
+higher than our average forecast difference. A key driver was our underestimation of
+inflation persistence following the 2022 energy price shock, as explored in detail in Chapter
+4. Looking at successive forecasts:
+•
+
+For the March 2023 two-year ahead forecast prices cumulatively rose by 8.2 per cent
+over the two-year period, 3.4 percentage points above forecast (Table 3.3). While this
+forecast included an ongoing impact from the 2022 energy price shock, it
+underestimated the persistence of inflation, assuming instead inflation would fall below
+the 2 per cent target to 0.6 per cent in 2024-25. Instead, inflation in 2024-25 was 2.4
+per cent, which was 1.7 percentage points above forecast. As detailed in Chapter 4, this
+persistence primarily reflects larger-than-expected second-round effects.
+21
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+•
+
+For the March 2024 one-year ahead forecast prices rose by 2.4 per cent over the year,
+0.8 percentage points above forecast (Table 3.3). Similar to our March 2023 forecast,
+this forecast also underestimated the persistence of inflation in energy and food prices,
+as well as second-round effects on wage growth (see more details in Chapter 4). Inflation
+began to rise in 2024-25, in contrast to our forecast which expected inflation to initially
+fall before gradually returning to the Bank of England target of 2 per cent by 2027-28.
+
+Chart 3.2: CPI inflation rate and level
+CPI inflation
+
+CPI level
+
+135
+
+March 2024
+forecast
+
+10
+125
+8
+
+2019Q4 = 100
+
+Percentage change on a year earlier
+
+12
+
+6
+
+4
+
+March 2023 forecast
+
+115
+Outturn
+
+July 2020 central
+scenario
+
+105
+2
+0
+
+95
+2019
+
+2021
+
+2023
+
+2025
+
+2027
+
+2029
+
+2019
+
+2021
+
+2023
+
+2025
+
+2027
+
+2029
+
+Note: The shaded area marks 2024-25
+Source: ONS, OBR
+
+Table 3.3: CPI inflation
+One-year ahead
+
+Two-year ahead
+
+Five-year ahead
+
+2.4
+1.6
+0.8
+
+2.4
+0.6
+1.7
+
+2.4
+2.0
+0.3
+
+2.4
+1.6
+0.8
+
+8.2
+4.8
+3.4
+
+23.8
+7.7
+16.0
+
+Annual growth in 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+Cumulative growth to 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+Source: ONS, OBR
+
+Labour market
+3.11
+
+Our forecasts underestimated the employment rate in 2024-25 (Chart 3.3), though by small
+margins compared to our average historical forecast differences.7 For the one-year and
+two-year ahead forecasts, the forecast undershoot likely reflects an overestimation of the
+sensitivity of the labour market to higher inflation and interest rates, with employment
+proving more resilient than expected. The overall level of employment was also higher than
+
+7
+
+The assessment of our forecast performance relative to outturn has been complicated by measurement issues with the ONS’s Labour
+Force Survey (LFS), the main source of our estimates. These issues particularly affect estimates for 2023-2024, with wider data sources
+suggesting the fall in 2024 and rebound in 2025 were both overstated, although the level in late 2024 should be more representative.
+See Office for National Statistics, Labour Force Survey quality update: April 2026, April 2026.
+
+Forecast evaluation report
+
+22
+
+Evaluating forecasts for 2024-25
+
+our forecasts. This is due to a combination of a higher-than-forecast employment rate, and
+the impact of the higher-than-expected spike in net migration, due in part to ONS data
+revisions showing migration to have been higher than previously thought.8
+
+Chart 3.3: Employment rate
+63
+62
+
+March 2023 forecast
+
+Per cent
+
+61
+
+Outturn
+
+60
+
+March 2024 forecast
+
+59
+58
+
+July 2020 central scenario
+57
+56
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+Note: The shaded area marks 2024-25.
+Source: ONS, OBR
+
+3.12
+
+Our forecasts for nominal earnings underestimated the pace of growth in 2024-25 by
+between 2.5 and 3.9 percentage points, reflecting our underestimation of inflation
+persistence, prolonged labour market tightness, and higher-than-expected public sector pay
+awards. We also underestimated real earnings growth by between 1.2 and 3.8 percentage
+points. This is because a tight labour market meant workers were able to recover some of
+the real wage losses from previous years (as noted in our 2024 and 2025 FERs).
+
+Table 3.4: Nominal and real earnings growth
+Nominal earnings
+Real earnings
+One-year Two-year Five-year One-year Two-year Five-year
+ahead
+ahead
+ahead
+ahead
+ahead
+ahead
+Annual growth in 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+Cumulative growth to 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+
+5.6
+3.1
+2.5
+
+5.6
+1.7
+3.9
+
+5.6
+3.2
+2.3
+
+2.4
+1.2
+1.2
+
+2.4
+0.8
+1.5
+
+2.4
+-1.5
+3.8
+
+5.6
+3.1
+2.5
+
+11.5
+5.8
+5.7
+
+25.6
+13.7
+11.8
+
+2.4
+1.2
+1.2
+
+2.8
+1.5
+1.3
+
+-14.9
+-1.8
+-13.0
+
+Source: ONS, OBR
+
+8
+
+Our March 2024 EFO included different migration scenarios to address this.
+
+23
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+Nominal GDP
+3.13
+
+As a result of the higher-than-expected inflation, these forecasts also underestimated
+cumulative nominal GDP growth – a key driver of the fiscal forecast (Table 3.5). Looking at
+successive forecasts:
+•
+
+The March 2023 two-year ahead forecast underestimated nominal GDP growth by 1.8
+percentage points in 2024-25 due to underestimating GDP deflator growth by 2.5
+percentage points. Cumulatively over the two-year period, nominal GDP growth was 4.7
+percentage points above forecast, reflecting an underestimate of GDP deflator growth of
+5.4 percentage points and an overestimate of real GDP growth of 0.8 percentage points.
+
+•
+
+The March 2024 one-year ahead forecast underestimated nominal GDP growth by 3.6
+percentage points, primarily reflecting higher-than-expected GDP deflator growth (by 3.2
+percentage points) and real GDP growth (0.3 percentage points).
+
+Table 3.5: Nominal GDP and GDP deflator
+Nominal GDP
+GDP deflator
+One-year Two-year Five-year One-year Two-year Five-year
+ahead
+ahead
+ahead
+ahead
+ahead
+ahead
+Annual growth in 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+Cumulative growth to 2024-25 (per cent)
+Outturn
+Forecast
+Difference (percentage point)
+
+5.5
+2.0
+3.6
+
+5.5
+3.7
+1.8
+
+5.5
+4.1
+1.5
+
+4.0
+0.8
+3.2
+
+4.0
+1.6
+2.5
+
+4.0
+2.0
+2.0
+
+5.5
+2.0
+3.6
+
+11.2
+6.6
+4.7
+
+39.0
+28.5
+10.5
+
+4.0
+0.8
+3.2
+
+9.6
+4.1
+5.4
+
+23.6
+6.5
+17.2
+
+Source: ONS, OBR
+
+3.14
+
+9
+
+Looking at the level of nominal GDP (Chart 3.4), some of the forecast differences reflect
+revisions to the level of nominal GDP from successive ONS Blue Book revisions, which affect
+the base against which forecast differences are assessed:
+•
+
+Revisions following Blue Book 2023, published after our March 2023 forecast, showed
+that the economy had grown more quickly and more strongly from the pandemic than
+initially estimated, raising estimates of nominal GDP notably in 2021 and 2022.
+
+•
+
+Similarly, nominal GDP was revised up further at Blue Book 2024, published after both
+our March 2023 and March 2024 forecasts. This was driven by upward adjustments to
+the government consumption deflator and the terms of trade, and greater real growth
+concentrated in transport, professional, and business support services industries.
+
+•
+
+Blue Book 2025 revisions further raised the level of nominal GDP, mostly from periods
+before the pandemic.9 This was largely driven by improved research and development
+
+See Box 2.2 of our November 2025 EFO for more detail on these revisions.
+
+Forecast evaluation report
+
+24
+
+Evaluating forecasts for 2024-25
+
+(R&D) data and updates to the measure of activities of large multinational
+pharmaceutical companies.
+
+Chart 3.4: Nominal GDP level
+150
+
+March 2024 forecast
+
+140
+
+2019Q4 = 100
+
+130
+
+March 2023 forecast
+
+120
+110
+
+Outturn
+
+100
+
+July 2020 central scenario
+90
+
+80
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+Note: The shaded area marks 2024-25.
+Source: ONS, OBR
+
+Fiscal forecasts for 2024-25
+Introduction
+3.15
+
+3.16
+
+This section focuses on assessing the performance of the March 2023 and March 2024
+fiscal forecasts for the 2024-25 financial year. The performance of the July 2020 central
+scenario is primarily assessed above in Box 3.1. We explore the differences between our
+forecast and the latest outturn data for:
+•
+
+public sector net borrowing (PSNB);
+
+•
+
+the receipts and spending forecasts that underpinned this borrowing forecast; and
+
+•
+
+public sector net debt (PSND).
+
+Where possible, we use our usual approach in FERs, breaking down differences between
+outturn data and our fiscal forecasts into four categories:10
+•
+
+policy changes – differences due to policies announced after the publication of the
+forecast at their initial costing value;
+
+10
+
+Where this is not possible, for the March 2023 and 2024 forecasts we have assumed that receipts grow in line with the nominal
+economy with an elasticity of 1.1 to provide a value for ‘economic factors’. The expansion of our ready-reckoning infrastructure should
+mean we will be able to provide a fuller breakdown for more receipts lines in future.
+
+25
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+•
+
+economic factors – differences due to the changes in underlying economic conditions
+relative to our initial forecast;
+
+•
+
+classification changes – differences due to items being reclassified into or out of the
+public sector following the forecast;11 and
+
+•
+
+fiscal forecasting differences – any remaining differences that cannot be explained by the
+other categories, such as those related to how well the underlying forecast model
+matches reality, judgements that we impose on top of the effects of economic
+determinants, or the impact of recostings between forecasts.
+
+Borrowing
+3.17
+
+PSNB in 2024-25 was £152 billion (5.2 per cent of GDP). As a per cent of GDP, outturn
+borrowing was higher than each forecast, as higher cash borrowing was only partly offset
+by a larger nominal economy (Chart 3.5). The differences between our initial forecasts for
+cash PSNB and outturn in 2024-25, broken down by the contributions from receipts and
+spending, are shown in Chart 3.6 and can be summarised as follows:12
+•
+
+The March 2023 two-year ahead forecast for borrowing in 2024-25 was £85 billion (3.2
+per cent of GDP), which was £66 billion (2.0 per cent of GDP) lower than outturn. This
+difference was largely driven by higher-than-expected spending which was primarily due
+to the persistence of inflation and interest rates raising debt interest and welfare
+spending, policy increases to spending on departmental expenditure limits (DELs), and
+also a large fiscal forecasting difference for other current spending, which is explained
+further below. This was only partially offset by higher-than-expected receipts, of which
+over half was from income tax and National Insurance contributions (NICs).
+
+•
+
+The March 2024 one-year ahead forecast for borrowing in 2024-25 was £87 billion (3.1
+per cent of GDP) – very similar to the March 2023 forecast – and was £65 billion (2.0
+per cent of GDP) lower than outturn. While receipts outturn were in line with forecast,
+outturn spending was considerably higher, mostly driven by the same factors affecting
+the March 2023 forecast.
+
+11
+
+We also reflect Treasury decisions to switch spending between DEL and AME budgets. These changes are reflected in Table 3.7 below
+and the supplementary tables published alongside this FER.
+12
+The differences between the July 2020 scenarios and outturn for PSNB are discussed in more detail in Box 3.1 above.
+
+Forecast evaluation report
+
+26
+
+Evaluating forecasts for 2024-25
+
+Chart 3.5: Borrowing as a share of GDP
+18
+
+July 2020 central scenario
+
+16
+14
+
+Per cent of GDP
+
+12
+10
+8
+
+March 2023 forecast
+
+6
+4
+
+Outturn
+
+March 2024 forecast
+
+2
+0
+
+2018-19
+
+2019-20
+
+2020-21
+
+2021-22
+
+2022-23
+
+2023-24
+
+2024-25
+
+2025-26
+
+2026-27
+
+2027-28
+
+2028-29
+
+Note: PSNB is shown as the share of GDP forecast at the time. The shaded area marks 2024-25.
+Source: ONS, OBR
+
+Chart 3.6: Drivers of differences between borrowing forecasts and 2024-25 outturn
+350
+
++215.8
+
+Increasing borrowing
+
+300
+
+Decreasing borrowing
+
+£ billion
+
+250
++101.4
+
+200
+
+151.9
+
+150
+
+151.9
+
+-179.8
+
+116.0
+
++64.2
+
++0.4
+
+151.9
+
+Spending
+
+Receipts
+
+PSNB
+outturn
+2024-25
+
+-35.0
+
+85.4
+
+100
+
+87.2
+
+50
+
+0
+
+July 2020
+central
+scenario
+
+Spending
+
+Receipts
+
+PSNB
+outturn
+2024-25
+
+March
+2023
+forecast
+
+Spending
+
+Receipts
+
+PSNB
+outturn
+2024-25
+
+March
+2024
+forecast
+
+Source: ONS, OBR
+
+Receipts
+3.18
+
+Public sector current receipts (PSCR) in 2024-25 were £1,139 billion (38.8) per cent of GDP.
+This was £35 billion (3.2 per cent) higher than the March 2023 two-year ahead forecast
+and broadly in line with the March 2024 one-year ahead forecast. However, as a share of
+GDP, PSCR was 2.6 per cent of GDP and 2.1 per cent of GDP lower than the March 2023
+and March 2024 forecasts, respectively (Chart 3.7).
+
+27
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+3.19
+
+As outlined in paragraph 3.13, outturn nominal GDP was much higher than assumed in
+these forecasts. A large share of this increase was due to data revisions to previous periods,
+which increased the level of nominal GDP, in particular in 2021 and 2022.13 There were no
+revisions to the quantity of cash receipts received by HMRC over these periods. Therefore,
+the higher level of nominal GDP had the effect of mechanically lowering receipts as a share
+of nominal GDP, meaning the economy was less ‘tax rich’ than we understood when
+producing the March 2023 and March 2024 forecasts.
+
+Chart 3.7: Receipts as a share of GDP
+42
+
+March 2023 forecast
+
+41
+
+March 2024 forecast
+
+Per cent of GDP
+
+40
+
+Outturn
+39
+
+38
+
+July 2020 central scenario
+
+37
+
+36
+2018-19 2019-20 2020-21 2021-22 2022-23 2023-24 2024-25 2025-26 2026-27 2027-28 2028-29
+
+Note: PSCR is shown as the share of GDP forecast at the time. The shaded area marks 2024-25.
+Source: ONS, OBR
+
+3.20
+
+In cash terms, the contributions to forecast differences between receipts and outturn can be
+categorised into differences due to economic determinants, policy, classification changes,
+and other fiscal forecasting factors, as set out in paragraph 3.16. Differences due to
+economic determinants overall pushed up receipts in 2024-25 by £68 billion compared to
+the March 2023 forecast and by £20 billion compared to the March 2024 forecast (Chart
+3.8). The largest contributors to this were:
+•
+
+Higher-than-expected nominal earnings and employment significantly boosted income
+tax and NICs, accounting for £41 billion and £13 billion of the forecast differences with
+the March 2023 and 2024 forecasts, respectively. This was largely driven by the
+persistence of inflationary pressure and prolonged labour market tightness, as outlined
+above.
+
+•
+
+Higher-than-forecast nominal consumption, which largely affects VAT receipts,
+accounting for £8 billion of the March 2023 forecast difference but was lower than
+expected in the March 2024 forecast reducing the forecast difference by £1 billion. The
+
+13
+
+Blue Book 2025 revisions also changed the composition of GDP, with growth in the economy estimated to have been driven less by
+more tax-rich household activity (labour income and consumption) and more by less tax-rich business activity (corporate profits and
+business investment) than previously thought.
+
+Forecast evaluation report
+
+28
+
+Evaluating forecasts for 2024-25
+
+difference to the March 2023 forecast is largely explained by the impact of higher-thanexpected inflation feeding through to nominal consumption. Although outturn inflation
+was also higher than expected at our March 2024 forecast, nominal consumption was
+lower than forecast. Households increased savings at a greater rate than anticipated so
+that a higher income forecast did not fully feed into consumption.
+•
+
+Higher profits, which largely affect corporation tax receipts, accounting for £8 billion of
+the forecast difference compared to the March 2023 forecast, and £2 billion compared
+to the March 2024 forecast. This was likely driven by higher domestically generated
+inflation than anticipated in 2023, feeding through to a broad range of GDP income
+components, including profits.
+
+•
+
+A set of other economic factors accounting for £10 billion and £6 billion of the forecast
+difference to our March 2023 and 2024 forecasts, respectively. These included higherthan-expected Bank Rate, boosting interest and dividend receipts, and the impact of
+higher-than-forecast property prices and transactions on stamp duty land tax. The larger
+nominal economy also likely resulted in higher-than-expected revenues across several
+smaller receipts lines.
+
+3.21
+
+There were several significant tax policy changes introduced after the March 2023 forecast
+was produced that reduced receipts compared to forecast by an estimated £22 billion in
+2024-25. The 2p reductions to the main rate of employee NICs at Autumn Statement 2023
+and Spring Budget 2024 were estimated at the time to reduce NICs by a combined £19
+billion in 2024-25. The freeze to fuel duty included in Spring Budget 2024 and the business
+rate relief at Autumn Statement 2023 were also estimated at the time to reduce receipts by
+£3.1 billion and £2.4 billion respectively. The differences in the actual yield from these
+measures compared to the initial costing are captured in fiscal forecast differences,
+explained below.
+
+3.22
+
+The small difference due to classification changes largely reflects the ONS not yet
+incorporating receipts from the capacity markets scheme in outturn data. As these receipts
+will be incorporated by the ONS in future, we include them in our forecasts. There is a
+partial offset from warm home discount receipts that were not included in any of the
+forecasts analysed but have been incorporated into ONS outturn. These receipts are fiscally
+neutral and fully offset in spending.
+
+29
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+Chart 3.8: Contributions to overall receipts forecast differences
+200
+
+Other economy
+
+175
+
+Profits
+
+150
+
+£ billion
+
+125
+
+100
+75
+50
+
+-25
+
+Earnings and
+employment
+
+75
+
+Policy
+
+-50
+March 2023
+forecast
+
+March 2024
+forecast
+
+150
+125
+
+Fiscal forecast
+differences
+
+0
+
+Other receipts
+
+175
+
+Nominal
+consumption
+
+Classification
+changes
+
+25
+
+200
+
+Capital taxes
+
+100
+
+Onshore CT
+VAT
+
+50
+25
+
+Excise and fuel
+taxes
+
+0
+-25
+
+Income tax
+and NICs
+
+-50
+July 2020
+central
+scenario
+
+PSCR forecast
+difference
+
+March 2023 March 2024
+forecast
+forecast
+
+PSCR forecast
+difference
+
+Note: Due to a lack of ready-reckoning infrastructure that is consistent with the July 2020 scenario and the related elasticities, we are
+unable to accurately provide a split for impacts from economic factors and fiscal forecasting differences for July 2020. Therefore, a
+breakdown for the July 2020 central scenario is not provided in the left panel of Chart 3.8.
+Source: HMRC, ONS, OBR
+
+3.23
+
+The following section decomposes total forecast differences by tax stream (Table 3.6),
+summarising the impact from economic factors, policy, classification changes, and a specific
+focus on the fiscal forecast differences, which are used to inform our fiscal forecast
+development programme outlined in Chapter 4. Overall, there are negative fiscal forecast
+differences between the March 2023 and March 2024 forecasts and outturn of £10 billion
+and £20 billion, respectively:14
+•
+
+Income tax and NICs are the largest contributor to overall receipts forecast differences,
+mainly driven by higher-than-expected nominal earnings which pushed up receipts
+compared to forecast, as described above. For the March 2023 forecast, this was
+partially offset by the policy decisions to reduce the main rate of employee NICs
+(paragraph 3.21). For both the March 2023 and March 2024 forecasts, there is also an
+offset from negative fiscal forecast differences, which are mostly explained by shortfalls in
+the forecast for self assessment income tax. This likely relates to weakness in partnership
+income. We are therefore conducting a review of partnership income, which is highly
+volatile with relatively large historical forecast differences, ahead of our next forecast.
+
+•
+
+Value added tax (VAT) receipts were underestimated in the March 2023 forecast but
+slightly overestimated in the March 2024 forecast. As set out in paragraph 3.20, higher
+nominal consumption boosted VAT receipts compared to the March 2023 forecast, more
+than explaining the overall forecast difference. The partial offset from the negative fiscal
+forecast difference may be explained by a lower-than-expected standard VAT-rated share
+
+14
+
+Due to a lack of ready-reckoning infrastructure that is consistent with the July 2020 central scenario and the related elasticities, we are
+unable to accurately provide a split for impacts from economic factors and fiscal forecasting differences for July 2020. In the
+supplementary material that accompanies this FER we do provide this breakdown for the March 2020 forecast.
+
+Forecast evaluation report
+
+30
+
+Evaluating forecasts for 2024-25
+
+of consumer spending. The difference to the March 2024 forecast was more than
+explained by lower nominal consumption.
+•
+
+Onshore corporation tax (onshore CT) was underestimated in the March 2023 forecast
+but overestimated in the March 2024 forecast. Higher profits boosted receipts for both
+the March 2023 and 2024 forecasts (paragraph 3.20) but in each instance this was
+partly offset by higher gross fixed capital formation, meaning more use of capital
+allowances. The large negative fiscal forecast difference for the March 2024 forecast was
+concentrated in small company corporation tax. As highlighted in the 2025 FER, we have
+reviewed the income and deduction components of taxable profits in response to this. We
+will be reviewing equations for income and deduction components in the rest of the
+onshore CT forecast further ahead of our next forecast, as explained further in Chapter
+4.
+
+•
+
+Excise and fuel taxes were overestimated in both the March 2023 and 2024 forecasts.
+Receipts were boosted, compared to the March 2023 forecast, by higher inflation on the
+indexation of fuel, alcohol and tobacco receipts. However, this was more than offset by
+successive policy decisions to freeze fuel duty rates and large fiscal forecast differences
+for excise taxes. Outturn was much closer to our March 2024 forecast but there
+remained a large fiscal forecast difference concentrated in tobacco receipts. Analysis
+showed that these fiscal forecast differences were likely driven by lower-than-expected
+underlying consumption across both alcohol and tobacco, and we therefore revised
+down consumption trends in our November 2025 forecast.15 We also increased the price
+elasticities for hand-rolling tobacco to assume a greater responsiveness from consumers
+to price changes.
+
+•
+
+Capital taxes were overestimated in the March 2023 forecast but underestimated in the
+March 2024 forecast. Higher residential property prices and transactions boosted capital
+tax receipts for both forecasts, with a partial offset from lower equity prices for the March
+2023 forecast. Fiscal forecasting differences can be mostly explained by an assumption
+that the high gains realised during 2020-21 and 2021-22 would unwind for only one
+year, after which receipts growth would return to its long-run trend. However, capital
+gains tax (CGT) liabilities in 2023-24 were weaker than expected, reflecting a more
+prolonged unwinding of gains, and highlighting the volatility of CGT revenues. We are
+investigating historical CGT liabilities data further to help inform future forecast
+judgements, as detailed in the fiscal model assessment database that accompanies this
+report.
+
+•
+
+Other receipts were underestimated at each forecast. There was a sizeable impact from
+economic determinants, notably a larger nominal economy, as outlined in paragraph
+3.20. Around one-third of the positive fiscal forecast difference for the March 2023
+forecast was in insurance premium tax (IPT) and analysis of historical forecast differences
+
+15
+
+As highlighted in our November 2025 EFO, lower alcohol consumption was likely driven by a combination of factors such as a growing
+trend of alcohol moderation, with substitution to no- and low-alcohol alternatives, and a response to higher prices. There may also be an
+impact from demographic changes, with some evidence of lower alcohol consumption in younger age groups. Lower tobacco
+consumption is in part due to the substitution from tobacco products towards vaping.
+
+31
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+point to a bias within the IPT forecast of consistently underestimating receipts. The
+negative fiscal forecast difference for the March 2024 forecast was driven by a broad
+range of receipts. We are reviewing several components of other receipts as part of our
+forecast development programme and more detail is provided in the fiscal model
+assessment database that accompanies this report.
+
+Table 3.6: Receipts forecast differences for 2024-25 by receipts stream
+£ billion
+of which:
+
+Forecast
+Income tax and NICs
+July 2020
+March 2023
+March 2024
+Value added tax
+July 2020
+March 2023
+March 2024
+
+Outturn Difference
+
+396.1
+458.6
+470.8
+
+477.3
+477.3
+477.3
+
+81.2
+18.8
+6.5
+
+146.6
+167.9
+175.6
+
+173.3
+173.3
+173.3
+
+26.7
+5.3
+-2.3
+
+Onshore corporation tax1
+July 2020
+March 2023
+March 2024
+
+60.1
+85.1
+98.4
+
+90.0
+90.0
+90.0
+
+Excise and fuel taxes 2
+July 2020
+March 2023
+March 2024
+
+52.5
+50.8
+46.2
+
+Capital taxes 3
+July 2020
+March 2023
+March 2024
+Other receipts
+July 2020
+March 2023
+March 2024
+
+Economic
+factors
+
+Fiscal
+Policy Classification forecasting
+changes
+changes difference
+
+43.6
+13.3
+
+-8.3
+-19.2
+0.1
+
+0.0
+0.0
+0.0
+
+-5.6
+-7.0
+
+7.8
+-3.2
+
+1.2
+0.6
+0.6
+
+0.0
+0.0
+0.0
+
+-3.0
+0.3
+
+29.9
+4.9
+-8.5
+
+5.5
+0.4
+
+9.3
+1.3
+0.2
+
+0.0
+0.0
+0.0
+
+-1.9
+-9.1
+
+44.8
+44.8
+44.8
+
+-7.7
+-6.0
+-1.4
+
+1.7
+-0.1
+
+-9.8
+-3.4
+0.0
+
+0.0
+0.0
+0.0
+
+-4.3
+-1.2
+
+39.2
+43.4
+40.5
+
+41.5
+41.5
+41.5
+
+2.3
+-1.9
+1.0
+
+0.0
+1.7
+
+0.3
+0.5
+0.1
+
+0.0
+0.0
+0.0
+
+-2.5
+-0.9
+
+264.4
+297.9
+307.6
+
+311.8
+311.8
+311.8
+
+47.4
+13.9
+4.3
+
+8.9
+7.4
+
+9.0
+-1.3
+0.3
+
+-0.4
+-0.7
+-0.9
+
+7.0
+-2.5
+
+1
+
+Excludes Pillar 2 taxes.
+Includes fuel, alcohol, and tobacco duties.
+3
+Includes capital gains tax, inheritance tax, and stamp duties.
+Note: Due to a lack of ready-reckoning infrastructure that is consistent with the July 2020 scenario and the related elasticities, we are
+unable to accurately provide a split for impacts from economic factors and fiscal forecasting differences for July 2020. We do provide
+the impact from policy and classification changes but this will not sum to the total difference between forecast and outturn. In the
+supplementary material that accompanies this FER we do provide this breakdown against the March 2020 forecast.
+Source: HMRC, ONS, OBR
+2
+
+Spending
+3.24
+
+Total managed expenditure (TME) in 2024-25 was £1,291 billion (44.0 per cent of GDP). In
+cash terms, this was £101 billion (9 per cent) higher than the March 2023 two-year ahead
+forecast and £64 billion (5 per cent) higher than the March 2024 one-year ahead forecast.
+
+Forecast evaluation report
+
+32
+
+Evaluating forecasts for 2024-25
+
+As a share of GDP, TME in 2024-25 was 0.6 per cent of GDP lower than the March 2023
+forecast, but in line with the March 2024 forecast (Chart 3.9). The underestimate of cash
+spending was broadly offset by higher-than-expected nominal GDP due to the data
+revisions and forecast differences described above.
+
+Chart 3.9: Spending as a share of GDP
+55
+
+July 2020 central scenario
+
+53
+51
+
+Per cent of GDP
+
+49
+47
+45
+
+March 2023 forecast
+
+43
+
+March 2024 forecast
+41
+39
+
+Outturn
+
+37
+2018-19
+
+2019-20
+
+2020-21
+
+2021-22
+
+2022-23
+
+2023-24
+
+2024-25
+
+2025-26
+
+2026-27
+
+2027-28
+
+2028-29
+
+Note: TME is shown as the share of GDP forecast at the time. The shaded area marks 2024-25.
+Source: ONS, OBR
+
+3.25
+
+In cash terms, the contributions to spending forecast differences can be categorised into
+differences due to economic determinants, policy, classification changes, and other fiscal
+forecasting factors, as set out in paragraph 3.16. Changes in the economic determinants
+which drive welfare and debt interest spending pushed up spending in 2024-25 by £40
+billion compared to the March 2023 forecast and by £18 billion compared to the March
+2024 forecast (Chart 3.10). The largest differences due to changes in the economy forecast
+were:
+•
+
+Higher-than-expected inflation and earnings growth driving higher benefit uprating
+account for £6 billion of the forecast difference for welfare spending compared to the
+March 2023 forecast. Higher debt interest spending due to higher inflation account for
+£16 billion and £10 billion of the forecast differences for debt interest spending
+compared to the March 2023 and March 2024 forecasts, respectively.
+
+•
+
+Higher-than-expected interest rates account for £9 billion and £2.5 billion of the forecast
+differences for debt interest spending compared to the March 2023 and March 2024
+forecasts, respectively. Additionally, interest losses on the Asset Purchase Facility (APF) are
+partially explained by higher Bank Rate, which accounts for £10 billion and £5 billion
+of the forecast difference in debt interest spending compared to the March 2023 and
+March 2024 forecasts, respectively.
+
+33
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+3.26
+
+Substantial spending policy changes introduced after the March 2023 forecast affected
+spending in 2024-25. Policy changes account for £32 billion and £26 billion of the forecast
+differences for TME compared to the March 2023 and March 2024 forecasts, respectively.
+Predominantly, these were due to policy changes which increased DEL spending by £33
+billion above the forecast made in March 2023, with resource departmental expenditure
+limits (RDEL) accounting for £30 billion of this. The increase in 2024-25 DEL spending
+following the March 2024 forecast was explored in depth in the October 2024 Review of the
+March 2024 forecast for departmental expenditure limits.
+
+3.27
+
+There is a small difference due to classification changes, largely reflecting the incorporation
+of the capacity markets scheme and the warm home discount mentioned in paragraph
+3.22. Additionally, from the March 2024 forecast, the Scottish block grant was reclassified
+from annually managed expenditure (AME) to DEL, representing around £45 billion. This
+reclassification explains over half of the total forecast difference for DEL at each forecast,
+but did not affect TME or PSNB.
+
+Chart 3.10: Contributions to overall spending forecast differences
+220
+
+Other
+spending
+
+200
+180
+
+PSCE in
+RDEL
+
+160
+
+£ billion
+
+140
+
+PSGI in
+CDEL
+
+120
+100
+
+Welfare
+spending
+
+80
+60
+
+Debt
+interest
+
+40
+20
+0
+July 2020 central scenario
+
+March 2023 forecast
+
+March 2024 forecast
+
+Total
+difference
+
+Note: Excluding the reclassification of the Scottish Government block grant from AME to DEL.
+Source: HM Treasury, ONS, OBR
+
+3.28
+
+The following section decomposes total forecast differences by spending category (Table
+3.7), summarising the impacts from economic factors, policy, classification changes, and a
+specific focus on the fiscal forecast differences, which are used to inform our fiscal forecast
+development programme outlined in Chapter 4. Overall, there are positive fiscal forecast
+differences between the March 2023 and March 2024 forecasts and outturn of £29 billion
+and £19 billion, respectively.
+•
+
+Departmental expenditure limits are the largest contributor to overall spending forecast
+differences, with outturn for 2024-25 underestimated by £80 billion and £74 billion in
+the March 2023 and March 2024 forecasts, respectively. This was mainly driven by the
+
+Forecast evaluation report
+
+34
+
+Evaluating forecasts for 2024-25
+
+policy and classification changes described above. In addition, there were fiscal forecast
+differences mostly concentrated in capital DEL (CDEL), of £6.2 billion for the March 2023
+forecast and £4.3 billion for the March 2024 forecast. These differences most likely
+reflect an overestimate of the degree to which departments would underspend against
+their capital spending plans. The analysis in last year’s FER also showed that we
+overestimated underspends in 2023-24, and so we are now reviewing our approach in
+this area.
+•
+
+Central government debt interest is the second-largest contributor to overall spending
+differences, with outturn for 2024-25 underestimated by £29 billion in the March 2023
+forecast and £17 billion and March 2024 forecast. This was mainly due to the higherthan-expected inflation and interest rates described above. For the March 2023 forecast,
+this was partially offset by a negative fiscal forecast difference of £5 billion due to a
+model correction relating to debt that redeemed within the forecast horizon leading to
+lower debt interest spending.
+
+•
+
+Welfare spending is the third-largest contributor to overall spending forecast differences,
+with outturn for 2024-25 underestimated by £8 billion in March 2023. This is mostly
+explained by the higher-than-expected inflation and earnings growth described above.
+Outturn welfare spending was broadly in line with the March 2024 forecast (£0.4 billion
+below forecast).
+
+•
+
+Excluding the reclassification of the Scottish block grant, other spending was
+underestimated by £30 billion in the March 2023 forecast and £18 billion in the March
+2024 forecast. Most of these underestimates were in National Accounts adjustments and
+locally financed current expenditure, which in the March 2024 forecast had positive fiscal
+forecast differences of £9 billion and £4 billion, respectively. The largest components of
+the underestimate of National Accounts adjustments in the March 2024 forecast were a
+£5 billion underestimate of central government current grants and a £3 billion
+underestimate of the imputed subsidy local authorities provide to their housing revenue
+accounts (HRA).16 We discuss planned improvements to the forecasts of central
+government accounting adjustments and local government spending in Chapter 4.
+
+16
+
+This underestimate is neutral for borrowing, as the imputed subsidies local authorities pay to the Housing Revenue Account are also
+recorded as a public sector receipt in public corporations’ gross operating surplus.
+
+35
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+Table 3.7: Spending forecast differences for 2024-25 by spending category
+£ billion
+of which:
+
+Forecast
+PSCE in RDEL
+July 2020
+March 2023
+March 2024
+PSGI in CDEL
+July 2020
+March 2023
+March 2024
+Total welfare spending
+July 2020
+March 2023
+March 2024
+Other current spending
+July 2020
+March 2023
+March 2024
+Other capital spending
+July 2020
+March 2023
+March 2024
+
+Fiscal
+Policy Classification forecasting
+changes
+changes difference
+
+408.6
+426.7
+430.2
+
+493.8
+493.8
+493.8
+
+85.2
+67.1
+63.6
+
+0.0
+0.0
+0.0
+
+46.2
+29.8
+22.1
+
+37.1
+36.0
+41.1
+
+1.9
+1.3
+0.4
+
+94.8
+96.9
+99.2
+
+110.0
+110.0
+110.0
+
+15.2
+13.2
+10.8
+
+0.0
+0.0
+0.0
+
+5.0
+2.9
+0.2
+
+4.2
+4.1
+6.3
+
+6.1
+6.2
+4.3
+
+269.7
+307.0
+315.1
+
+314.8
+314.8
+314.8
+
+45.1
+7.8
+-0.4
+
+5.5
+0.0
+
+0.3
+-1.3
+
+0.0
+0.0
+
+1.9
+1.0
+
+227.7
+244.7
+256.1
+
+231.1
+231.1
+231.1
+
+3.5
+-13.6
+-25.0
+
+0.0
+0.0
+0.0
+
+-0.5
+-3.6
+2.7
+
+-32.5
+-32.8
+-40.3
+
+36.5
+22.8
+12.7
+
+44.6
+36.6
+36.8
+
+34.6
+34.6
+34.6
+
+-10.0
+-2.0
+-2.1
+
+0.0
+0.0
+0.0
+£ billion
+
+-3.8
+2.3
+2.3
+
+-5.9
+-5.9
+-5.9
+
+-0.4
+1.6
+1.5
+
+of which:
+APF
+interest
+losses RPI inflation Interest rates
+
+Financing
+and other
+
+Forecast
+Central government
+debt interest, net of APF
+July 2020
+March 2023
+March 2024
+
+Outturn Difference
+
+Economic
+factors
+
+29.5
+77.3
+89.0
+
+Outturn Difference
+
+106.2
+106.2
+106.2
+
+76.7
+28.9
+17.3
+
+34.3
+9.6
+4.8
+
+9.8
+15.8
+10.5
+
+25.9
+8.8
+2.5
+
+6.7
+-5.3
+-0.5
+
+Note: Due to a lack of ready-reckoning infrastructure that is consistent with the July 2020 scenario and the related elasticities, we are
+unable to accurately provide a split for impacts from economic factors and fiscal forecasting differences for welfare spending for July
+2020. In the supplementary material that accompanies this FER we do provide this breakdown against the March 2020 forecast.
+Source: DWP, HM Treasury, ONS, OBR
+
+Debt
+3.29
+
+PSND in 2024-25 was £2.8 trillion, or 93.2 per cent of GDP. The differences between our
+initial forecasts for 2024-25 PSND and this outturn are shown in Chart 3.11 and Chart
+3.12 and can be summarised as follows:
+•
+
+The July 2020 five-year ahead central scenario expected PSND to be 102.1 per cent of
+GDP (£2.6 trillion) in 2024-25. This was 8.8 per cent of GDP higher than outturn but
+£173 billion lower in cash terms. Although cash debt was significantly higher than
+
+Forecast evaluation report
+
+36
+
+Evaluating forecasts for 2024-25
+
+forecast, driven by the persistently higher borrowing outlined in paragraph 3.17, this was
+offset by the nominal economy being much larger than we had expected in July 2020.
+
+3.30
+
+•
+
+The March 2023 two-year ahead forecast for PSND was 102.4 per cent of GDP (£2.8
+trillion) – 9.2 per cent of GDP higher than outturn but £22 billion lower in cash terms. As
+shown in Chart 3.11, PSND has fallen steadily from the pandemic-related high in 202021, largely due to the much larger nominal economy than previously forecast driven by
+the upward revisions to nominal GDP outturn in prior years to 2024-25 (paragraph
+3.14). There has also been a large downward impact on cash debt from the Bank of
+England’s Term Funding Scheme (TFS) repayments, with participants paying off loans
+ahead of maturity dates and earlier than we had forecast, partially offsetting the higherthan-expected borrowing (paragraph 3.17).
+
+•
+
+The March 2024 one-year ahead forecast for PSND was 98.8 per cent of GDP (£2.8
+trillion) in 2024-25, which was 5.5 per cent of GDP higher than outturn but £12 billion
+lower in cash terms. The difference between outturn and forecast was driven by the same
+factors as the March 2023 forecast.
+
+While PSND has declined slightly in recent years, the measure of debt that excludes the
+Bank of England (PSND ex BoE), has increased as a share of GDP in each year since 202122 and is now above the pandemic peak. The reduction in cash debt from the TFS
+repayments, explained above, is not included in the calculation of PSND ex BoE, which was
+used as the target measure for debt under the previous Government’s fiscal rules. Removing
+the impact of the TFS meant that PSND ex BoE provided a better indicator than headline
+PSND of the underlying trajectory of public sector debt over this period. PSND ex BoE is also
+lower as a share of GDP than expected in each of our forecasts, again explained by the
+larger nominal economy, but has risen at a similar trajectory to the forecasts and is higher
+than expected in cash terms.
+
+Chart 3.11: Debt as a share of GDP
+PSND
+
+110
+
+100
+
+PSND ex BoE
+
+July 2020 central scenario
+105
+
+95
+
+March 2023 forecast
+Per cent of GDP
+
+100
+
+90
+
+95
+March 2024 forecast
+
+85
+
+90
+80
+
+85
+Outturn
+
+75
+
+80
+
+70
+
+75
+2018-19 2020-21 2022-23 2024-25 2026-27 2028-29
+
+2018-19 2020-21 2022-23 2024-25 2026-27 2028-29
+
+Note: PSND and PSND ex BoE are shown as the share of GDP forecast at the time. The shaded area marks 2024-25.
+Source: ONS, OBR
+
+37
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+Chart 3.12: Drivers of difference between PSND forecasts and 2024-25 outturn
+125
+
+Increasing debt
+
+Decreasing debt
+
++6.7
+100
+
+102.4
+
+102.1
+
++0.8
+-10.0
+
+-15.5
+
+Per cent of GDP
+
+98.8
+
+93.2
+
++0.4
+
+93.2
+
+-6.0
+
+93.2
+
+75
+
+50
+
+25
+
+0
+
+July 2020
+central
+scenario
+
+Cash debt
+
+Nominal
+GDP
+
+PSND
+outturn
+2024-25
+
+March
+2023
+forecast
+
+Cash debt
+
+Nominal
+GDP
+
+PSND
+outturn
+2024-25
+
+March
+2024
+forecast
+
+Cash debt
+
+Nominal
+GDP
+
+PSND
+outturn
+2024-25
+
+Source: ONS, OBR
+
+External forecasts for the UK economy and public finances
+3.31
+
+In each EFO, we compare our forecasts with contemporaneous external forecasts for the UK
+economy, providing an indication of the uncertainty around our central projections due to
+differing forecast judgements and conditioning assumptions. While it is not always possible
+to pinpoint the exact reasons for these differences, this comparison helps contextualise our
+forecasts within the range of projections made around the same time.
+
+3.32
+
+The average of external forecasts used in this section uses forecasts taken from Forecasts for
+the UK economy, published by the Treasury four times a year. To evaluate the relative
+accuracy of OBR projections, we consider the median average external forecast for GDP
+growth and CPI inflation in 2024 and for PSNB as a percentage of GDP in 2024-25.
+Comparisons to additional variables and a comprehensive guide to our methodology can
+be found in our online annexes to this publication on our website. The one- and two-year
+ahead external forecasts were conducted in February 2023 and 2024 respectively. The fiveyear ahead OBR forecast refers to the July 2020 central scenario and the average external
+forecast is an average of those conducted in May 2020, the closest available comparison.
+
+Real GDP growth
+3.33
+
+Across forecast horizons, the OBR’s real GDP growth forecasts for 2024 were higher than
+the respective external forecast averages (Table 3.8). For example, the two-year ahead OBR
+forecast overestimated growth by 0.7 percentage points, while the external average was
+close to outturn. This may reflect the difference in inflation forecasts set out below, given, as
+set out in paragraph 3.34, we likely did not fully anticipate the negative effects of the
+persistence of inflation on real GDP growth.
+
+Forecast evaluation report
+
+38
+
+Evaluating forecasts for 2024-25
+
+Table 3.8: OBR and external forecasts for GDP growth in 2024
+
+Outturn (per cent)
+Forecast
+Difference (percentage point)
+
+One-year ahead
+External
+OBR
+average
+1.1
+1.1
+0.8
+0.3
+0.3
+0.7
+
+Two-year ahead
+External
+OBR
+average
+1.1
+1.1
+1.8
+1.0
+-0.7
+0.1
+
+Five-year ahead
+External
+OBR
+average
+1.1
+1.1
+1.9
+1.6
+-0.8
+-0.6
+
+Note: External averages use the median values of external forecasts compiled by HM Treasury.
+Source: HM Treasury, ONS, OBR
+
+CPI inflation
+3.34
+
+For both the one-year and five-year ahead inflation forecasts, the OBR and externals had
+comparable differences to outturn, likely driven by the factors outlined earlier in this
+chapter. The two-year ahead forecasts show more variation, with the OBR underestimating
+inflation by more than the external average. This likely reflects our underestimation of
+inflation persistence, discussed earlier in this chapter, while the difference in timing and
+associated conditioning assumptions of forecasts could also have played a role.17
+
+Table 3.9: OBR and external forecasts for CPI inflation in 2024
+
+Outturn (per cent)
+Forecast
+Difference (percentage point)
+
+One-year ahead
+External
+OBR
+average
+2.5
+2.5
+2.2
+2.6
+0.2
+-0.1
+
+Two-year ahead
+External
+OBR
+average
+2.5
+2.5
+0.9
+2.4
+1.5
+0.1
+
+Five-year ahead
+External
+OBR
+average
+2.5
+2.5
+2.0
+1.9
+0.5
+0.6
+
+Note: External averages use the median values of external forecasts compiled by HM Treasury.
+Source: HM Treasury, ONS, OBR
+
+Public sector net borrowing (PSNB)
+3.35
+
+Across all forecasts, both the OBR and the average of external forecasts underestimated
+borrowing in 2024-25. For the one-year ahead and two-year ahead forecasts the
+differences to outturn were similar in the OBR and external average forecasts. At the fiveyear horizon the OBR forecast was closer to outturn, but as discussed in Box 3.1 this
+reflected very large but broadly offsetting differences between outturn and the forecasts for
+both spending and receipts.
+
+17
+
+The external forecasts do not typically disclose what energy price outturn and market expectations they have used to condition their
+forecasts. This means it is difficult to make a direct comparison with the energy prices we used to condition our March 2023 forecast.
+However, energy prices were very volatile in early 2023 so it is possible that taking market expectations for energy prices at different
+points over this window could have led to material differences in inflation forecasts. Chapter 5 of March 2023 EFO explored the sensitivity
+of our forecast to energy prices.
+
+39
+
+Forecast evaluation report
+
+Evaluating forecasts for 2024-25
+
+Table 3.10: OBR and external forecasts for borrowing in 2024-25
+
+Outturn (per cent of GDP)
+Forecast
+Difference (percentage point)
+
+One-year ahead
+External
+OBR
+average
+5.2
+5.2
+3.0
+3.4
+2.2
+1.8
+
+Two-year ahead
+External
+OBR
+average
+5.2
+5.2
+2.9
+2.7
+2.3
+2.5
+
+Five-year ahead
+External
+OBR
+average
+5.2
+5.2
+4.0
+3.1
+1.2
+2.1
+
+Note: Numbers are based on fiscal years. External average uses the external forecasts compiled by the Treasury. Nominal public
+sector net borrowing has been adjusted for classification changes between the original forecast and the latest outturn and then
+divided by the latest outturn for nominal GDP in 2024-25 and therefore differ from the numbers presented in Chart 3.5.
+Source: HM Treasury, ONS, OBR
+
+Forecast evaluation report
+
+40
+
+4
+
+Refining our forecasts
+
+Introduction
+4.1
+
+The scrutiny of our forecast performance in Forecast evaluation reports (FERs) is an
+important part of our commitment to transparency. It facilitates greater understanding of
+our forecasts and helps ensure we can be held to account for the judgements we make. It is
+also important that we use it to learn lessons from past forecast performance, with the aim
+of improving future forecasts. In this chapter, we therefore summarise the most important
+lessons we have learnt, alongside actual and planned improvements to our models for
+economic and fiscal forecasting. Further details on these plans are provided in updated
+model assessment databases, published alongside this FER.
+
+4.2
+
+This chapter starts with a summary of the lessons we have learned from the 2022 energy
+price shock for our economic and fiscal forecasts. This reflects the central role that that
+shock has played in the difference between outturn and our forecasts for the period
+assessed in this and recent FERs. But it also reflects the ongoing importance energy prices
+will have for our forecasts, particularly given the recent rise in energy prices as a result of
+the current escalation of conflict in the Middle East.
+
+Lessons from the 2022 energy price shock for our economic
+and fiscal forecasts
+4.3
+
+The 2022 energy price shock, and its subsequent economic and fiscal impacts, has been a
+key driver of recent differences between our forecasts and outturn, including those
+highlighted in this FER. Across this and recent previous FERs we have evaluated the reasons
+for these forecast differences and detailed how we have updated our forecast methodologies
+in response to the lessons we have drawn from this analysis.1
+
+4.4
+
+The sharp rise in energy prices caused by the current escalation of conflict in the Middle East
+was not incorporated in our most recent March 2026 forecast. Assessing how this latest
+energy shock will affect the economy and public finances will therefore be a key issue for our
+next forecast. While the source and impact of each shock will be different, we can still learn
+lessons from the past. In this section we therefore summarise the main lessons we have
+drawn from our analysis across recent FERs of the impact of the 2022 energy price shock on
+our economy and fiscal forecasts. This analysis also underlines the importance of producing
+detailed and comprehensive analysis of the range of uncertainty around the impact of shocks
+on the economy when they occur – drawing on scenarios, fan charts, sensitivity analysis, and
+ongoing reassessment of assumptions as shocks evolve.
+
+1
+
+This includes our October 2023 FER, in particular Boxes 2.1 and 2.2, our October 2024 FER and our July 2025 FER.
+
+41
+
+Forecast evaluation report
+
+Refining our forecasts
+
+Economy
+4.5
+
+The 2022 energy price shock impacted the economy through several channels, outlined
+below. In many cases, we have updated our forecasting approach and modelling in
+response to the findings in recent FERs on the impact the shock had through these channels
+compared to our initial expectations.
+
+4.6
+
+Our conditioning assumptions for energy prices and interest rates are based on market
+expectations. Following Russia’s invasion of Ukraine, gas prices in 2022-23 were five times
+higher than the market expectations incorporated in our March 2021 forecast, before
+undershooting the market expectations used in our March 2022 forecast by around 40 per
+cent as supply concerns eased. Prices then fell more rapidly than market participants had
+predicted in 2023-24, reaching around half the level assumed in our March 2023 forecast.
+This volatility in market expectations highlights the importance of illustrating this key
+uncertainty in our forecast. For example, our March 2023 Economic and fiscal outlook (EFO)
+included higher and lower energy price scenarios, with outturn in 2023-24 much closer to
+the lower price scenario than our central forecast.
+
+4.7
+
+Direct inflation effects account for the mechanical pass-through of energy prices to fuel and
+utility prices. Following the 2022 energy price shock, the largest differences between our
+forecasts and outturn for fuel and utility prices were driven by differences between actual
+energy prices and the market expectations on which we condition the forecast, as discussed
+above. Much smaller differences were driven by our modelling of the Ofgem price cap (for
+utilities prices) and the pass-through of wholesale fuel prices to consumer prices. That said,
+given the volatility of energy prices in recent years, small differences can have a significant
+effect on overall inflation. We have therefore updated our approach to draw on a range of
+external estimates of the Ofgem price gap to compare to our forecast, and plan to update
+our econometric model of short-term fuel inflation to better capture this channel.
+
+4.8
+
+We underestimated the size of the second-round effects of the energy shock on wider
+inflation. In our March 2022 forecast, we assumed these would add a further 25 per cent to
+the direct effect of energy prices on inflation. We evaluated this assumption back in 2023
+and concluded that they were actually closer to 50 per cent.2 Our underestimate was likely
+due to three factors:
+
+2
+
+•
+
+Non-linearities in the pass-through of energy shocks, with stronger pass-through when
+inflation is already high as in the post-pandemic period;
+
+•
+
+a tighter-than-expected labour market, putting workers in a stronger bargaining
+position to protect their real wages; and,
+
+•
+
+Bank Rate increases taking longer than expected to moderate aggregate demand,
+given the higher share of fixed-rate mortgages compared to the previous hiking cycle.
+
+As discussed in Box 2.1 of the October 2023 FER.
+
+Forecast evaluation report
+
+42
+
+Refining our forecasts
+
+4.9
+
+Overall, inflation proved more persistent, and became more domestically generated, after
+the initial shock than we originally expected. CPI inflation was 5.7 per cent in 2023-24 and
+2.4 per cent in 2024-25, both higher than most post-March 2022 forecasts for these years.3
+This had important implications for the public finances which are discussed below. This
+partially relates to the larger-than-expected second-round effects, discussed above, which
+took longer to impact headline inflation than the immediate direct impacts of wholesale
+energy prices, but also reflects the role of inflation expectations. In response to these forecast
+differences, we have updated our wages equations and our non-tradables inflation equation.
+
+4.10
+
+Inflation expectations had been low and well anchored at the time of the 2022 shock, which
+probably limited the initial pass-through to prices, particularly wages. However, in
+subsequent periods workers appear to have sought to recoup some of the real wage erosion.
+This suggests that workers set wage demands to a large extent based on the recent increase
+in inflation, rather than on a purely forward-looking expectation that inflation would fall. This
+likely contributed to nominal and real wage growth remaining higher for longer than we
+expected, with nominal wages growing by 5.6 per cent and real wages by 2.4 per cent in
+2024-25. Workers were likely able to recoup some of the initial fall in real wages due to
+their bargaining power in a tight labour market, reflecting the importance of spare capacity
+in determining the inflation impact of external price shocks.4 This highlights the importance
+of considering inflation expectations and the state of the labour market when forecasting the
+impact of a price shock.
+
+4.11
+
+Despite the higher and more persistent inflation than we expected, the fact that much of it
+was a result of higher wage growth meant that real household disposable incomes held up
+better than we expected. However, the subsequent path of interest rates, which was higher
+than market participants had anticipated, alongside the uncertainty created by the shock,
+meant that we overestimated the extent to which households would smooth consumption
+through a lower saving rate. This contributed to us underestimating the impact of the energy
+price shock on household consumption – in particular, how persistent the effect would be. In
+outturn, the saving rate rose from around 2¾ per cent to 6¼ per cent between 2023 and
+2024 and real household consumption fell by around ½ per cent over the same period. This
+highlights the importance of household saving behaviour, alongside real income effects, in
+determining the effects of shocks.
+
+4.12
+
+As fossil fuels are largely an imported factor input in the UK, persistently higher energy prices
+could reduce potential output by lowering the quantity of output that firms find it profitable to
+produce. We estimated in the July 2022 Fiscal risks and sustainability report that a 10 per
+cent increase in medium-term fossil fuel prices could reduce potential output by 0.13 per
+cent in the short term and 0.18 in the long term. While it is hard to separately identify the
+impact of energy prices on productivity in outturn, persistently high prices have likely
+contributed to weak productivity growth since 2022. We plan to review our estimate of the
+
+3
+
+Exceptions were the November 2023 and March 2024 forecasts for 2023-24 and the November 2023 forecast for 2024-25.
+We have developed a suite of wage equations to provide short- and medium-term forecasts for wages. These capture the short-run
+responsiveness of wages to cyclical changes.
+4
+
+43
+
+Forecast evaluation report
+
+Refining our forecasts
+
+elasticity of potential output to fossil fuel prices, given the likely change in the intensity of
+fossil fuel usage in the UK economy since the 2022 energy shock.
+
+Public finances
+4.13
+
+Compared with our October 2021 forecast, which was made before the Russian invasion of
+Ukraine, outturn borrowing in 2022-23 and 2023-24 was £44 billion and £73 billion higher
+than forecast, respectively. This shows how the initial impact of the energy price shock, and
+subsequent rise in inflation, was very negative for the public finances. This was driven by
+inflation leading to higher spending and by the very large government support package in
+response to the 2022 shock. For the reasons set out above the impact of the shock on
+inflation was more persistent than we initially expected. As inflation became more
+domestically generated this provided a partial offset to the higher spending through a broad
+increase in nominal tax bases, notably personal taxes and VAT receipts. However, it also
+created more persistent spending pressures including on departmental spending limits and
+from the impact of higher interest rates on debt interest costs. Overall, even in 2024-25,
+borrowing was substantially higher than the forecasts we made in 2023 and 2024, which as
+explained in Chapter 3, was largely due to the impact of inflation remaining higher than we
+expected for longer.
+
+4.14
+
+The initial impact of the rise in energy prices in 2022 led to higher spending primarily by
+increasing the cost of most welfare benefits (uprated by September CPI) and the interest paid
+on index-linked debt (linked to RPI). For example, spending on index-linked debt rose from
+£36 billion in 2021-22 to £68 billion in 2022-23. Debt interest spending in the UK is
+particularly exposed to inflation shocks given the high share of index-linked debt compared
+with other advanced economies.
+
+4.15
+
+There was a partial offset from the direct energy price and inflation impacts in 2022 on tax
+revenues from energy production, however, these offsets are relatively small given the
+decline in production levels over the past couple of decades. Offshore corporation tax rose
+from £0.5 billion in 2020-21 to £6.6 billion in 2022-23, moderating thereafter as energy
+prices fell. At the 2022 Autumn Statement, the previous Government announced windfall
+taxes on energy producers via the energy profits levy (EPL) and electricity generator levy
+(EGL) that raised an annual peak of £4.5 billion in 2022-23. Eventual outturn from these
+windfall taxes was much lower than initial forecasts due to lower wholesale energy prices, as
+outlined above.
+
+4.16
+
+The initial total fiscal impact of an energy price shock is also very dependent on any wider
+government support packages. The previous Government spent £40 billion on energy
+support schemes in 2022-23, and various other measures – including a council tax rebate,
+cost-of-living payments and fuel duty cuts – added a further £17 billon to borrowing. In total
+the cost of new energy and cost-of-living support policies in 2022-23 was £51 billion,
+allowing for the offset from windfall taxes outlined above.5
+
+5
+
+The values for energy support schemes, the council tax rebate, cost-of-living payments and fuel duty cuts referenced in paragraph 4.16
+are consistent with the outturn available as of summer 2023 and in Box 3.1 of our October 2023 FER.
+
+Forecast evaluation report
+
+44
+
+Refining our forecasts
+
+4.17
+
+As set out above, the impact of the initial shock on inflation was more persistent than we
+initially expected. The rise in domestically generated inflation following the initial energy
+shock provided some offset to the initial negative impact by boosting the nominal value of
+tax bases and tax revenues. This was particularly important for labour income which has a
+high effective tax rate. Income tax rose from £225 billion (9.4 per cent of GDP) in 2021-22
+to £277 billion (9.9 per cent of GDP) in 2023-24, driven by frozen tax thresholds and higher
+nominal earnings. In response to this, we increased our forecast for income tax at each
+forecast between October 2021 and March 2024. Second-round inflation effects can also
+add to spending pressures, for example, through the state pension which is uprated by the
+triple lock – a maximum of CPI inflation, earnings growth, and 2.5 per cent.6 This analysis
+shows the importance of assessing the potential second-round effects of inflation on the
+public finances when producing both the central forecast and scenarios following any energy
+price shock.
+
+4.18
+
+The overall fiscal impact of higher inflation also depends on how governments respond to
+the impact it has on departmental spending. Other things equal, higher inflation will erode
+the real-terms value of public spending because departmental expenditure limits (DELs) are
+typically set in nominal terms at Spending Reviews. The energy price shock came after
+nominal limits had been set in the 2021 Spending Review and previous governments
+subsequently chose to increase those limits, which had alleviated some, but not all, of the
+squeeze on real spending power by the time of the March 2024 Budget. 7 This shows the
+importance of transparently assessing the risks and pressures around departmental spending
+alongside the central forecast, which is based on the allocations set at Spending Reviews.
+
+4.19
+
+If higher domestically generated inflation is accompanied by higher interest rates, this also
+feeds directly into debt interest spending through raised yields on new debt issuance and
+losses on the Asset Purchase Facility (APF). The yield on ten-year UK gilts rose from close to
+zero during the pandemic to around 4.5 per cent in 2023, and Bank Rate reached a peak of
+5.25 per cent. Higher-than-expected interest rates are estimated to have pushed up debt
+interest spending in 2023-24 by £45 billion compared to the October 2021 forecast.
+
+4.20
+
+Higher interest rates also lead to an increase in interest-sensitive receipts. This is
+concentrated in interest and dividend receipts through higher returns on the stock of
+government reserves and holdings of financial assets, self assessment income tax through
+higher savings income, and corporation tax paid on interest income. Interest and dividend
+receipts rose sharply from £24 billion in 2021-22 (1.0 per cent of GDP) to £44 billion (1.6
+per cent of GDP) in 2023-24, which was £9 billion and £2 billion higher than our March
+and November 2022 forecasts respectively.8 In response to these forecast differences we
+reviewed the interest and dividends forecast model to better capture and align to
+relationships observed in ONS outturn data (as highlighted in the 2025 Fiscal model
+assessment database). We also changed our savings income determinant within self
+
+6
+
+As earnings growth is expected to follow high inflation with a lag, the pressure on welfare spending is more persistent: though the state
+pension was uprated by CPI inflation in 2022, in subsequent years it has been uprated by earnings growth instead.
+7
+OBR, Review of the March 2024 forecast for departmental expenditure limits, October 2024.
+8
+The increase to interest and dividend receipts was boosted further by the impact of higher RPI inflation on the accrued interest on student
+loans and the impact of higher equity prices on the returns from funded pension assets.
+
+45
+
+Forecast evaluation report
+
+Refining our forecasts
+
+assessment income tax, outlined further in paragraph 4.27, and made changes to onshore
+corporation tax models in order to better capture the effects of higher interest rates on small
+business expenditure and profits (after a shortfall in 2024-25) at our March 2025 forecast.9
+
+Economic forecasting improvements
+4.21
+
+With limited resources to continuously update, develop, and explain the tools we use in
+economic modelling, we concentrate our efforts in areas of the forecast that are the most
+material. Below we outline the new priorities we are taking forward since our 2025 FER, and
+our progress against previously identified modelling priorities.
+
+4.22
+
+Chapter 3 highlights that inflation and labour market judgements were a key part of the
+difference between outturn and our March 2023 and March 2024 economic forecasts.10
+Recent FERs, including in 2024 and 2025, highlighted similar results and detailed the
+forecast improvements we were making in response. We will continue to develop our
+approach to forecasting in these areas in addition to progressing developments in wider
+areas of the economy forecast that are set out in the next section.
+
+New priorities since our previous Forecast evaluation report
+4.23
+
+9
+
+Our four main new priorities for economic forecast development are set out below.
+Alongside these, as set out in the Economic model development database accompanying this
+report, we are also reviewing our labour supply model elasticities and our output gap
+models:
+•
+
+We comprehensively reviewed total factor productivity (TFP) in 2025 and have
+developed our government investment framework. We are now assessing our
+approach to business investment modelling, the remaining driver of productivity. We
+plan to update and broaden the range of econometric models used to inform our
+judgements on this.
+
+•
+
+Given recent energy market movements, we are reviewing how energy prices impact
+our forecast. This includes reviewing the production function method used to link
+changes in energy prices to productivity and updating our fuel prices econometric
+equation to better reflect volatility in energy markets.
+
+•
+
+Given the global trade environment, we are expanding our trade modelling
+capabilities, drawing on external expertise alongside our own work. This will involve
+exploring a range of economic models and assessing their suitability for
+complementing our existing approach to modelling trade.
+
+•
+
+Given the recommendation of the OBR’s recent external review to more explicitly
+highlight uncertainty, we are expanding our use of the Oxford Economics Global
+
+See Box 4.1 of the March 2025 EFO.
+Though as noted in Chapter 3, issues with the ONS Labour Force Survey were a key part of forecast differences to outturn.
+
+10
+
+Forecast evaluation report
+
+46
+
+Refining our forecasts
+
+Economic Model for scenario analysis. This will inform how we communicate
+uncertainty around the central forecast.
+
+Progress against previously identified priorities
+4.24
+
+The process of refining our models and the judgements underpinning our economic
+forecasts is a continuous one that draws on analysis prepared in forecasting rounds and for
+our FERs. Recent model developments that have already been factored into our forecasts
+are set out below:
+•
+
+We have completed various work in response to the inflation differences to outturn
+identified in this and previous FERs. This includes updating the medium‑term
+econometric equations used to forecast: CPI food and non‑alcoholic beverages
+inflation, the non‑oil goods imports deflator and CPI tradables, and non-tradables
+inflation. We also intend to publish an article explaining our inflation forecast in more
+detail in response to our recent external review.11
+
+•
+
+Reviewing the econometric equation used to inform our deposit rate forecasts, given
+the significant change in interest rates since the model was last updated. This work
+reflects the shift to a higher interest rate environment and assesses whether the existing
+specification continues to provide an appropriate guide to deposit rate dynamics.
+
+•
+
+Developing our own demographic scenario capability to support long‑term population
+projections. This work strengthens our assessment of the long‑run implications of
+demographic change for the economy and public finances, and provides a more
+flexible framework for scenario analysis. It complements our wider programme of
+long‑term model development and supports analysis in publications such as the Fiscal
+risks and sustainability report.
+
+Fiscal forecast improvements
+4.25
+
+We review our fiscal forecasting modelling priorities and progress alongside each FER, with
+the results published each year in a database on our website. In guiding our forecast
+development programme, we specifically focus on the fiscal forecasting differences
+identified in the FER analysis. This helps us focus on those differences that are primarily
+driven by judgements in our fiscal forecast or by features of the fiscal forecast models.
+
+New priorities since our previous model assessment database
+4.26
+
+11
+
+Using this approach, we have identified a number of priorities for fiscal forecast
+development based on the analysis in this report and wider analysis of historical forecast
+differences. The Fiscal model assessment database that accompanies this report
+comprehensively sets out these modelling issues and priorities for future work including:
+
+Van Geest, L., External Review of the Office for Budget Responsibility, February 2025.
+
+47
+
+Forecast evaluation report
+
+Refining our forecasts
+
+•
+
+The analysis in this FER shows that we overestimated self assessment income tax in
+both the March 2023 and 2024 forecasts. We will work with HMRC to better
+understand volatility and forecast differences at an individual income component level
+with a specific focus on partnership income, which was highlighted as a likely driver of
+the March 2024 forecast difference outlined in Chapter 3.
+
+•
+
+Chapter 3 highlighted the large one-year ahead fiscal forecast difference for onshore
+corporation tax (onshore CT). In response to this, last summer we reviewed the small
+company corporation tax forecast, adjusting for the lower starting point for small
+company onshore CT and splitting out smaller companies from larger companies in
+the forecasting model. This summer we will review the equations for the income and
+deduction components that underpin the rest of the forecast, with a specific focus on
+group relief and potential profits mis-specification.
+
+•
+
+Analysis of historical forecast differences shows that we have generally underestimated
+insurance premium tax (IPT) receipts. This was a pattern that was also observed
+specifically for 2024-25 in the analysis shown in Chapter 3. We will conduct a review
+of this forecast to assess whether there are alternative economic determinants that
+could provide a stronger link with IPT receipts.
+
+•
+
+Large revisions to outturn local government spending, set out in our November 2025
+EFO, mean that both the March 2023 and March 2024 forecasts significantly
+underestimated locally financed expenditure and other components of local
+government spending in 2024-25. Decomposing the forecast difference indicates
+central-government-to-local-authority grants are a large driver of the underestimate.
+As part of the joint Local Government Financial Information Task Force made up of the
+ONS, MHCLG and the Treasury, announced in November 2025, we will be reviewing
+the local government forecast. This will include work to improve the flow of data to the
+ONS, including on grants, with the aim of reducing the risk of misalignment between
+the forecast and outturn data.
+
+•
+
+Analysis in this report, and last year’s FER, illustrated that a large part of our near-term
+forecast errors is explained by underestimates of National Accounts adjustments. We
+are working with the Treasury to better understand the adjustments made to align the
+central government data that the Treasury holds to the central government data the
+ONS publishes, and how to forecast these.
+
+•
+
+Recent rises in unemployment, as measured in the Labour Force Survey, have not
+immediately led to higher universal credit caseload. We will work with DWP to
+investigate the potential reasons for this divergence – including time lags and
+definitional differences. We will also review the evidence underpinning our
+assumptions for incapacity caseload growth, and how these are incorporated into
+DWP’s forecast model, as this growth currently slows sharply at the end of the forecast
+period.
+
+Forecast evaluation report
+
+48
+
+Refining our forecasts
+
+Progress against previously identified priorities
+4.27
+
+The updated model assessment database on our website outlines progress against the
+priorities set out in the July 2025 FER in full detail. This section highlights progress in some
+key areas:
+•
+
+Within self assessment income tax, a large overestimate of savings liabilities for the
+2022-23 tax year and underestimate for 2023-24 suggested there was evidence of an
+extended lagged effect in savings income, where sharp increases in interest rates take
+longer than we previously expected to feed into increases in liabilities. In response we
+developed a new determinant that incorporated a weighting of the interest rate from
+the previous year to better account for this lag in savings income being received.
+
+•
+
+At the November 2025 forecast we implemented several modelling changes that
+revised down our forecast for alcohol and tobacco receipts, reflecting recent
+overestimates. We revised down consumption trends to more closely align to recent
+trends in outturn data, increased the level of prices in our alcohol forecast (which has
+the effect of reducing forecast demand), and raised the price elasticities for handrolling tobacco to assume a greater responsiveness from consumers to price changes.
+We will keep these assumptions under review and plan on further assessing the
+impacts of price and household income on demand in our excise tax models ahead of
+our next forecast.
+
+•
+
+Revised electric vehicle assumptions underpinning vehicle excise duty were included in
+the November 2025 forecast, ensuring all forecasts utilising these were aligned. We
+also developed a conversion tool to align fuel duty van kilometre splits to the vehicle
+excise duty forecast, where this had previously only existed for cars.
+
+•
+
+In October 2024 we published our review into departmental expenditure limits, which
+made a set of recommendations for the information we receive from the Treasury on
+the risks to the DEL envelope, including a forecast for total public sector pay. In 2025,
+we worked with the Treasury to develop a forecast for public sector total pay that is
+consistent with our forecast for DEL and the economic classification of DEL spending
+that the Treasury provides, which we included in our November 2025 and subsequent
+EFOs.
+
+•
+
+Within welfare spending, we simplified our housing benefit forecast to account for the
+end of legacy cases, as most housing benefit cases have already moved to universal
+credit. We also improved the accuracy of the universal credit model, which now better
+reflects changes in employment, unemployment and inactivity.
+
+49
+
+Forecast evaluation report
+
+Forecast evaluation report
+
+50
+
+Index of charts and tables
+
+Chapter 1
+Executive summary
+Chart 1.1: Drivers of differences between borrowing forecasts and 2024-25 outturn .........4
+Chapter 2
+Fiscal multipliers
+Table 2.1: Fiscal multipliers .........................................................................................10
+Chart 2.1: Comparison of outturn and forecast real GDP growth for 2025 .....................12
+Chapter 3
+Evaluating forecasts for 2024-25
+Chart A: Observed and forecast Real GDP growth and CPI growth .................................17
+Chart B: Outturn and July 2020 scenarios for public sector net borrowing .......................19
+Table 3.1: Bank Rate and oil prices in 2024-25 .............................................................20
+Table 3.2: Real GDP growth .........................................................................................21
+Chart 3.1: Quarterly real GDP level ..............................................................................21
+Chart 3.2: CPI inflation rate and level ...........................................................................22
+Table 3.3: CPI inflation.................................................................................................22
+Chart 3.3: Employment rate .........................................................................................23
+Table 3.4: Nominal and real earnings growth ...............................................................23
+Table 3.5: Nominal GDP and GDP deflator ..................................................................24
+Chart 3.4: Nominal GDP level ......................................................................................25
+Chart 3.5: Borrowing as a share of GDP .......................................................................27
+Chart 3.6: Drivers of differences between borrowing forecasts and 2024-25 outturn .......27
+Chart 3.7: Receipts as a share of GDP ..........................................................................28
+Chart 3.8: Contributions to overall receipts forecast differences ......................................30
+Table 3.6: Receipts forecast differences for 2024-25 by receipts stream ..........................32
+Chart 3.9: Spending as a share of GDP ........................................................................33
+Chart 3.10: Contributions to overall spending forecast differences ..................................34
+Table 3.7: Spending forecast differences for 2024-25 by spending category ...................36
+Chart 3.11: Debt as a share of GDP .............................................................................37
+Chart 3.12: Drivers of difference between PSND forecasts and 2024-25 outturn .............38
+Table 3.8: OBR and external forecasts for GDP growth in 2024 ......................................39
+Table 3.9: OBR and external forecasts for CPI inflation in 2024 ......................................39
+Table 3.10: OBR and external forecasts for borrowing in 2024-25 .................................40
+
+51
+
+Forecast evaluation report
+
+E03599130
+ISBN 978-1-5286-6460-8
+
+

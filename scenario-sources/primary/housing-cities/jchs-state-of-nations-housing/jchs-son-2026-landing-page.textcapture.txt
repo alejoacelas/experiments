@@ -1,0 +1,9 @@
+[Text capture via Exa web fetch on 2026-11-18 of https://www.jchs.harvard.edu/state-nations-housing-2026 (site returned HTTP 403 to curl; full report PDF not retrieved). Status: partial - landing-page summary only.]
+
+# The State of the Nation's Housing 2026 | Joint Center for Housing Studies
+
+Persistent affordability challenges and rising economic uncertainty are hurting housing conditions. Sales of existing homes sit at three-decade lows, inventories are rising, and rents have declined. Cost burdens for both renters and owners continue to climb, while assistance remains profoundly underfunded. States and localities are seeking new tools to bring down costs, but private-sector innovations and more robust federal action will also be necessary to meaningfully reduce widespread housing challenges.
+
+The data behind each figure in the report can be found in both the Excel Data and the PowerPoint below (in the PPT charts, open the figure you are interested in, right-click on the figure, and choose "Edit data").
+
+Suggested Citation: Joint Center for Housing Studies of Harvard University. 2026. The State of the Nation's Housing 2026. https://www.jchs.harvard.edu/state-nations-housing-2026.

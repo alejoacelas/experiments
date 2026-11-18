@@ -1,0 +1,464 @@
+Treasury Derivatives
+Treasury Borrowing Advisory Committee
+November 4th, 2026
+
+Please comment on the growth in the use of Treasury derivatives, in particular swaps and futures.
+How has use of these derivatives evolved?
+Who are the primary users and what factors have driven their usage?
+How do these derivatives affect demand for cash Treasury securities?
+What effects do these derivatives have on Treasury repo markets?
+Does the use of derivatives by investors reduce the size of the Treasury repo market?
+Should Treasury consider any policy initiatives to increase demand for cash Treasury securities relative to Treasury derivatives?
+
+1
+
+Executive summary
+Since the 2022 rise in yields, asset managers have built synthetic Treasury exposure through futures, and LDI investors (pension funds and
+insurers) have used rate swaps for duration, while heavy government and credit issuance have weighed on cash Treasuries.
+The reasons for expressing duration through derivatives are many:
+• Futures bring simplicity in execution (no repo infrastructure or counterparty lines). They are a versatile and liquid duration management tool
+(weekly volume is 1.5-2x the open interest and comparable to cash Treasury volume), anonymous (all-to-all central limit order books) and low
+maintenance (one roll a quarter) for deploying U.S. duration. Their usage leaves cash available for higher-yielding assets and avoids higher fund
+expense ratios (repo interest is booked as an expense).
+• Swaps have been standardized in execution and clearing since the 2013/2014 clearing/SEF mandates but remain customizable (matched to
+liability cashflows, low initial margin, can extend beyond 30y), carry no roll, can be collateralized with securities, and hedge liabilities that are
+themselves discounted on swap curves.
+• Historically, dealers would intermediate these positions directly. However, leverage ratio rules and balance-sheet constraints have led to reduced
+participation from that cohort and that gap has been filled by hedge funds.
+Derivatives do not remove the underlying demand for Treasuries, they change who ends up holding them. They also broaden market access and
+add intermediation capacity.
+Use of derivatives increases the size of repo market. Also, the availability of repo affects the pricing of derivatives which in turn influences the size of
+the derivatives market. The cash demand derivatives generate through leveraged, repo-funded positions is pro-cyclical and weakens when funding
+or margin tightens.
+Policies that curb derivatives risk disrupting today’s market structure. Treasury could consider policy initiatives that make cash Treasuries easier to
+hold and finance relative to derivatives: easing regulation that restricts balance sheet usage, making repo financing easier to access, improving the
+availability of term repo financing, opening repo market making to new entrants.
+Together, these initiatives could help build a more diversified and robust base of cash Treasury holders and keep Treasury demand steady.
+2
+
+Usage of U.S. rates derivatives and evolution over time
+1980s-2007: Pre-Great Financial Crisis, dealer-centric and over-the-counter (OTC for short) markets
+• Swaps were a dealer product sold to banks (Asset and Liability Management or ALM for short) and corporates (fixed to floating). End users mostly
+received fixed while dealers paid fixed, hedged in cash Treasuries on repo and warehoused the residual. This flow, combined with LIBOR credit risk,
+kept swap spreads positive.
+• Inter-dealer trades peaked at 66% of OTC IRD (Interest Rate Derivatives) turnover in 2001 (Bank for International Settlements or BIS for short)2.
+• Hedge funds were present at the long end as spread convergence traders (see Long-Term Capital Management and swap spreads in 1998).
+2008-2015: Post-Great Financial Crisis, displacement of inter-dealer markets by buy-side participants
+• Inter-dealer trade share dropped to 44% in 2010 and 35% in 2013 (BIS)2.
+• Issuer swap demand faded with lower rates and pension funds and insurers (LDI for short) became the structural receivers of fixed. The 30y swap
+spread turned negative in 2008.
+• Clearing/SEF mandates in 2013-14 standardized swap markets.
+• GSE (Government-Sponsored Enterprises) swap usage shrank after conservatorship, removing a major structural payer of fixed (synthetic fixed-rate
+funding and convexity hedging of retained Mortgage-Backed Security - or MBS for short - portfolios).
+2015-2020: Regulations, balance sheet constraints and dealer wind-down of warehousing
+• Negative swap spreads and leverage ratio regulation pushed warehousing from dealers to hedge funds. The basis trade picked up before seeing a
+large unwind in March 2020 (Covid).
+2020-2026: Asset managers and leveraged funds/dealers mirrored positioning
+• Asset managers’ futures long have roughly quadrupled since the end of 2021 and the leveraged funds (and dealer) community has seen a close to
+identical increase in their shorts (according to the Commodity Futures Trading Commission Traders in Financial Futures data - or CFTC TFF for
+short).
+3
+
+Growth and evolution of U.S. rates derivatives usage (futures and swaps)
+The open interest in Treasury futures has increased in line with the
+stock of U.S. public debt/marketable (share hovering between 12%
+and 25%, peaking right before the deleveraging of March 2020).
+It has recently stabilized at around 18% of the stock of coupons.
+Swaps open interest used to be much larger than the stock of debt
+and that ratio has compressed from ~18x coupons ex System
+Open Market Account (or SOMA for short) in 2014 to ~7x (CFTC
+Weekly Swaps Report).
+Gross USD swap notional has ranged between $85tn and $135tn
+for about a decade (compression, then the SOFR conversion kept
+notional down) while coupons ex SOMA grew 2.5x, so the falling
+ratio reflects notional efficiency and fiscal expansion and QT rather
+than a retreat from swaps.
+In terms of volumes, cash Treasury and futures volumes on a 13week moving-average basis are similar at above $4tn a week.
+Swap volumes have run higher, at $6-7tn a week on the same
+basis, with the latest week above $8tn (see figure on slide 17).
+
+4
+
+Asset managers’ longs vs leveraged funds’
+shorts breakdown by contract
+
+Composition of global OTC IRD daily turnover
+by counterparty type2,3
+
+5
+
+USD swaps open interest and counterparty composition
+As mentioned in slide 4, two episodes reduced outstanding notional in swaps without impacting activity:
+• Compression took the open interest down 37% in 2014-16 as the leverage ratio and G-SIB (Global Systemically Important Bank) surcharge (both
+keyed to gross notional) made redundant line items a capital cost.
+• The SOFR transition then replaced LIBOR fixed-float swaps with SOFR OIS, now ~$100tn outstanding.
+Since 2025 notional has grown again, with OIS up $27tn, putting the total back around its 2014 level.
+The non-dealer share of outstanding USD interest rate swap counterparty sides has roughly doubled, from about 15% in 2014 to about 31% in 2026
+(CFTC Weekly Swaps Report participant tables). The remaining two-thirds are swap-dealer sides, which include inter-dealer trades and dealers’ own
+hedges. The CFTC reporting-method changes in 2019 and 2022 each reset the level lower (indicated on the chart), so the trend within each regime is the
+more useful signal to interpret this data.
+
+6
+
+Positions by user cohort today
+
+7
+
+Primary users of Treasury futures
+Consistent with a previous TBAC charge (TBAC Charge, Q1 20241),
+the CFTC data show that since 2015 (with a near-full unwind
+between 2020 and late 2021 after rates bottomed), asset managers
+have built a large net long position in Treasury futures of ~$1.15tn
+notional (peaking at ~$1.4tn in February 2026).
+In lockstep, leveraged funds, followed by dealers more recently
+(coinciding with de-regulation developments such as the SLR
+(Supplementary Leverage Ratio) relaxation in 2020-21 and eSLR
+reform of 2026), have taken a mirrored position in short futures.
+Other cohorts have maintained negligible positions throughout the
+period.
+Since the end of 2022, hedge-fund repo borrowing is up $1.9tn
+(Form PF)6, leveraged funds’ net short Treasury futures $0.7tn
+(CFTC) and MMF (Money Market Funds) lending through FICC
+sponsored repo $1.0tn (OFR). These three series moving together
+since 2018 are evidence of the basis trade financing chain.
+The size of the basis trade is estimated at $0.8-1.2tn depending on
+the methodology used (see slide 15)6,22.
+
+8
+
+Primary users of interest rate swaps
+Insurers (U.S. life companies)
+
+Pension funds/LDI
+
+• The latest published aggregates (National Association of
+Insurance Commissioners or NAIC for YE202111, S&P
+Global Market Intelligence for YE202313) put U.S. insurers’
+derivatives at about $3tn of notional, half of it swaps across
+all asset classes. 95% of the total is designated as hedging
+and 98% is held by life companies. The latest NAIC industry
+report covers YE2021.
+
+• U.S. corporate defined benefit (DB) plans discount liabilities on AA corporate yields
+(ASC 715), so their LDI is largely physical long credit and STRIPS, with swaps and
+futures in completion overlays. There is no U.S. aggregate of their derivatives. Public
+plans discount at expected return (GASB 67/68) and hedge little.
+
+• Interest rate swaps have been the largest swap type in
+every NAIC report we reviewed since 2010: $911bn at
+YE201712 (80% of swap notional) and $1.12tn at YE2021
+(73%)11, with life companies alone at $1.16tn by Q4 2022
+(Risk.net, Q4 2022)14. On the data released, the book
+roughly tripled from 2010 to 2018 and has grown more
+slowly since, to $1.1-1.2tn.
+
+• Where we can observe direction, it is one-way: UK LDI and pension funds held £167bn
+net receive-fixed interest rate swaps and £57bn inflation swaps in September 202215.
+More than 70% of Dutch pension funds hedge liabilities as net fixed receivers in longdated swaps16, because the FTK (Dutch regulatory financial assessment framework)
+values liabilities off the swap curve. De Nederlandsche Bank (DNB) and market
+participants expect the Dutch pension reform (2026-28) to reduce that long-end
+receive demand.
+
+• The swaps lengthen asset duration against annuity and
+other long-dated liabilities while the assets stay in credit.
+NAIC’s published aggregates do not give direction, but the
+liability structure makes insurers receivers of fixed, and the
+one filings-based aggregation that reports it (Risk.net, Q4
+2022) finds just over half the book received-fixed.
+• Futures are marginal (5.8% of notional, NAIC YE2021).
+
+9
+
+Primary users of interest rate swaps (continued)
+Negative swap spreads and hedge fund positioning
+• A cleared swap costs a bank very little in leverage ratio terms
+while a repo-financed Treasury position costs capital. Swap rates
+are therefore pushed below Treasury yields, most of all at the
+long end, where receiving demand is deepest and duration supply
+heaviest. The 30y spread has averaged -73bp this year and
+touched -97bp on 8 April 2025, the widest since SOFR spreads
+began trading in 2018. At the front end, where futures carry little
+delivery optionality, the same balance-sheet cost shows up in the
+futures basis: the 2y swap spread and TU futures richness have
+moved together since 2018 (see chart at top right)
+• Hedge funds take the other side (long cash Treasuries on repo,
+pay fixed). The Fed’s Form PF decomposition (Monin, 2026)6
+puts the swap-spread trade at $305bn in September 2025 (see
+chart at bottom right), which is about ten times its end-2022 size.
+The BIS’s upper-bound method gives $631bn at Q2 2025 and
+when applied to the Fed’s September 2025 aggregates it gives
+about $750bn (our calculation).
+• Like the basis trade, it is a levered short on the dealer balancesheet constraint, which is why it loses and de-levers when that
+constraint binds (March 2020 and April 2025, when the BIS
+measure contracted 11% between March and June 2025).
+
+10
+
+Supporting evidence of swap use by insurers and pension funds/LDI
+Supporting charts for the statements made on slide 9. Note that the direction of the swap positions is not published for U.S. insurers (NAIC aggregates) while it
+is for UK and Dutch pension funds.
+NAIC Schedule DB aggregates (YE2017 to YE2021¹¹) show that the insurance derivatives book grew from $2.4tn to $3.0tn, with swaps the largest type over the entire period.
+Table 2 below gives the YE2021 breakdown by type and filer: options 40.1%, futures 5.8%, forwards 3.5% and life companies 98.3% of the total.
+
+Bottom left: Gilt repo is the larger leverage channel for UK
+LDI and pension funds (September 2022¹⁵). The interest
+rate swaps are net received-fixed (negative bars in the
+authors’ convention) and inflation swaps net paid.
+
+Bottom center and right: the share of Dutch pension funds¹⁶ using swaps rose from about 75% in 2012 to over 90% by
+2022, and their net Euribor swap positions are concentrated as receivers in the 15-year-plus buckets, opposite to banks
+at the short end.
+
+Source: DNB Working Paper 80116
+
+11
+
+Why do users gravitate towards derivatives?
+Operational hurdles: asset managers, corporates, pensions
+• Levering Treasuries in cash form requires financing them in repo, which means having a functional repo desk, counterparty lines and
+documentation, collateral management and settlement infrastructure.
+• That set-up cost is borne regardless of position size. Derivatives deliver the equivalent exposure without these hurdles.
+• Futures are the lightest route: one exchange-traded contract per curve point, central clearing, anonymity, no documentation beyond a futures
+commission merchant (FCM for short). Asset managers and anyone without a financing desk start here.
+• Similarly, swaps are standardized from a product standpoint yet customizable in their details and can match liabilities precisely.
+• While not as demanding as setting up repo trading infrastructure, the set-up required to trade swaps is heavier, involving an ISDA
+(International Swaps and Derivatives Association) agreement, clearing-broker relationships, swap trading platforms and collateral operations.
+Pensions, insurers, GSEs and corporates accept that cost because only a swap can be matched to a liability or a bond issue, which a future
+cannot.
+Funding certainty: asset managers, pensions, insurers
+• Repo-financed Treasuries must be rolled continuously (mostly overnight to one week), exposing the holder to rate and availability risk at
+every roll date.
+• Derivatives embed the availability of term financing (but not its rate): a future locks it to the delivery date at the implied repo rate (three
+months, rolled quarterly) while a swap funds at SOFR for the life of the trade with no roll required, but at whatever rate SOFR prints. Bilateral
+swaps can be collateralized with securities rather than daily cash.
+• Someone still has to carry the cash bond and roll the repo. That is the role hedge funds and dealers play through the basis and swap-spread
+trades: they have the infrastructure and provide the term financing the end users have outsourced.
+12
+
+Why do users gravitate towards derivatives? (continued)
+Classification bias: asset managers, insurers, GSEs, corporates
+• Fund accounting treats repo interest as an explicit expense: it raises the reported expense ratio and reduces net investment income
+available for distribution, both of which matter to the end investor and therefore the managers.
+• The identical financing cost inside a future or swap is netted within the instrument’s price and never appears as a fund expense.
+Economically equivalent leverage is therefore presented asymmetrically, biasing fund managers toward derivatives.
+• Section 18 of the 1940 Act caps fund borrowing, including repo, at one-third of assets, while under SEC Rule 18f-4 (2020) derivatives are
+governed by a VaR limit that permits far more exposure.
+• Hedge accounting pulls the liability hedgers towards swaps: a swap whose terms match the debt or liability qualifies cleanly under ASC 815
+(FASB), IFRS 9 (IASB) or SSAP 86 (NAIC), whereas a futures hedge must be re-designated at every roll and tested for effectiveness each
+period.
+
+Tax implications: tax-exempt investors, taxable individuals
+• For tax-exempt investors such as pensions, endowments and foundations, financing cash Treasuries with repo makes the bonds' income
+partly taxable as unrelated business taxable income (UBTI) and requires a Form 990-T filing. Treasury futures and swaps give the same
+leveraged duration without borrowing, so their gains generally stay tax-exempt. This pushes these investors toward futures rather than
+owning cash Treasuries on repo, unless they invest through a corporate blocker such as a mutual fund or offshore feeder fund.
+• For taxable U.S. investors, futures gains are 60/40 long- and short-term capital gains under U.S. Internal Revenue Code Section 1256 while
+repo interest is an ordinary deduction limited by Section 163(d) (the same leverage is cheaper after tax in futures).
+
+13
+
+Futures basis
+• Futures have traded fair to slightly rich to the replicating cash-plus-repo position for most of the post-2008
+period21. Over the last two years, the implied repo on TU, FV, TY and UXY ran roughly 0-15bp above matched
+SOFR OIS, highest in TU and FV (Morgan Stanley, Sept. 2026)22.
+• Net basis equals gross basis less carry to the assumed delivery date, where carry reflects coupon and accrued
+interest income less the cost of funding the cheapest-to-deliver (CTD) issue in the term repo market.
+• Term repo generally trades at a 5-15bp premium (higher in rate) to SOFR OIS to the same date. In addition,
+CTDs trade special occasionally, which benefits basis-trade holders by lowering funding costs.
+• As a result, futures that screen fair to term repo carry a positive margin when financing is rolled overnight.
+• Hedge-fund basis positions are financed through a mix of overnight cleared repo and term uncleared repo. The
+positive carry pick-up applies to the overnight-financed portion, in exchange for daily roll risk.
+• Per OFR Brief 26-01²⁰, about one-third of the $2.4tn hedge fund repo book (~$800bn as of Q3 2024) is cleared
+through FICC sponsored repo, which is mostly overnight. The rest is largely uncleared bilateral repo, which runs
+at longer tenors.
+• Recent spikes in US and WN net basis reflect embedded optionality and reveal less about implied funding
+conditions.
+
+14
+
+Sizing up the basis and swap-spread trades
+• Fed (Monin, 20266) estimates the basis trade at about $830bn and swap-spread trade at about $305bn as of September 2025.
+• Morgan Stanley22 puts the basis trade at about $1.2tn as of late September 2026 (about $1.35tn in late May and a $1.5tn peak in January).
+• The BIS upper-bound method puts the swap-spread trade at $631bn at Q2 2025 (Box B, BIS Quarterly Review, Dec 20257).
+
+15
+
+End-user derivative exposure creates cash Treasury and repo demand through intermediaries
+Derivatives broaden and deepen demand for cash treasuries –
+• by expanding market access: lower operational barriers have
+doubled the number of reportable traders in TU/FV/TY since 2008
+(CFTC, TFF)
+• by providing capital efficient access to leverage.
+• by adding hedging capacity that helps the market absorb and
+redistribute issuance.
+Long derivative exposure increases repo demand through leveraged
+cash intermediation, which:
+• creates pro-cyclical intermediation risk​.
+• concentrates cash demand among hedge funds and, increasingly,
+dealers, who offset about half of each week’s change in their cash
+Treasury inventory with futures
+• weakens when funding or margin tightens.
+• can unwind precisely when the cash market needs buyers (March
+2020).
+• requires wider basis and swap spreads to compensate
+intermediaries for scarce balance sheet and repo capacity.
+Derivatives increase market access and intermediation capacity, in
+the process reshape who holds treasuries. The associated cash
+Treasury demand becomes less reliable when leverage is scarce.
+16
+
+Investors' derivative longs become hedge-fund and dealer cash Treasuries financed in repo
+Indirectly through hedge funds and dealers, the usage of derivatives
+for leverage expands the demand for cash Treasuries as it gives
+access to Treasury exposure for investor cohorts that might
+otherwise be unable to participate directly (by lowering operational
+barriers and enabling efficient leverage).
+An increase in long derivative positions by the structural participants
+therefore raises repo usage, since hedge funds intermediate by
+buying Treasuries on a levered basis. That intermediation rests
+mainly with hedge funds, with dealers stepping in more recently as
+balance-sheet constraints eased.
+Importantly, a reduction in the structural longs (a return of rates
+towards zero, as in 2020-21, could be one trigger) could lead to an
+unwind of the basis and swap-spread trades and the paired long
+Treasury holdings of hedge funds and dealers.
+Derivatives pricing is tied to repo availability: scarcer or costlier repo
+means hedge funds and dealers demand more to provide liquidity,
+widening the basis and swap spreads. Conversely, easier repo
+compresses them.
+
+17
+
+Policy initiatives: strengthen cash Treasuries through repo​
+Policies that curb derivatives risk disrupting today’s market structure. A more durable approach is to make cash Treasury financing broader, cheaper
+and more reliable.
+Robust repo access reinforces what makes Treasuries unique: depth,
+liquidity, resilience and global benchmark status
+• Broaden repo participation​ by incentivizing institutions to build repo
+infrastructure.
+• Encourage new intermediaries that can aggregate and consolidate repo
+flows and offer repo services to end users that lack direct market access.
+• Expand access to the Fed’s Standing Overnight Repo Operations (SRP)
+beyond primary dealers and banks.
+• Preserve seven-day put structures in sponsored repo to maintain MMF
+participation in term financing.
+• Assess potential trade-offs between higher MMF liquidity buffers and term
+repo market depth.
+• Develop deeper term liquidity in cleared repo.
+Reduce operational frictions associated with Treasury settlement
+• Streamline Fedwire settlement, fails management and intraday liquidity
+processes to lower participant burden.
+• Improve matching of receives and deliveries to reduce operational and
+funding costs.
+• Automate pair-off and exception management to cut the manual resources
+required.
+
+Reduce balance-sheet constraints​
+• Exempt Treasuries from the supplementary leverage ratio and re-evaluate
+the Tier 1 leverage ratio.
+• Recognize pre-positioned discount-window collateral in liquidity metrics,
+freeing capacity for Treasury holdings and intermediation.
+Reduce onboarding friction through greater standardization of repo and
+clearing documentation
+• Consolidate the multiple legal agreements needed before market
+participation into a single, streamlined framework.
+• Standardize terms on industry templates to limit bespoke negotiation.
+• Shorten and standardize onboarding to encourage participation in cash
+Treasury and repo markets.
+Leveling the playing field between repo and derivatives
+• Fund expenses: Exempt interest on Treasury-collateralized repo from the
+operating expense ratio, with a separate disclosure of financing costs, so
+that levered cash Treasury positions aren't penalized relative to futures.
+• Tax exempt investors: Clarify or, if necessary, amend the tax rules so that
+short-term, cleared Treasury repo doesn't create taxable income for taxexempt investors.
+• Registered funds: Raise awareness of the Rule 18f-4 option to treat repo
+as a derivative, with risk limits and disclosure.
+18
+
+References
+1.
+
+Treasury Borrowing Advisory Committee, Charge Q1 2024 (US Treasury, Feb 2024).
+https://home.treasury.gov/system/files/221/TBACCharge1Q12024.pdf
+
+12. NAIC Capital Markets Bureau, “U.S. Insurer Derivative Exposure Increased in 2017” (Nov
+2018). https://content.naic.org/sites/default/files/naic_archive/special_report_181102.pdf
+
+2.
+
+Gyntelberg, J. and C. Upper, “The OTC interest rate derivatives market in 2013,” BIS Quarterly
+Review, Dec 2013 (counterparty shares 2001–2013).
+https://www.bis.org/publ/qtrpdf/r_qt1312h.htm
+
+13. S&P Global Market Intelligence, “American OTC derivatives market within the life insurance
+sector” (Jul 2024). https://www.spglobal.com/dam/spglobal/mi/en/documents/products-/mi-0924202407-American-otcd-market-life-insurance-sector-final.pdf
+
+3.
+
+BIS, “OTC interest rate derivatives turnover in April 2025,” Triennial Central Bank Survey, Sep
+2025. https://www.bis.org/statistics/rpfx25_ir.htm
+
+4.
+
+Federal Reserve Bank of New York, “The Foreign Exchange and Interest Rate Derivatives
+Markets: Turnover in the United States, April 2025.”
+https://www.newyorkfed.org/medialibrary/media/markets/triennial/2025/2025triennialreport.pdf
+
+14. Risk.net, “US life insurers’ IR swaps usage hits $1.2trn in Q4 2022” (Counterparty Radar, 2023).
+https://www.risk.net/investing/markets/7956425/us-life-insurers-ir-swaps-usage-hits-12trn-in-q42022
+
+5.
+
+Iorio, B., D. Li and L. Petrasek, “Why Do Mutual Funds Invest in Treasury Futures?,” FEDS
+Notes, 10 May 2024. https://www.federalreserve.gov/econres/notes/feds-notes/why-do-mutualfunds-invest-in-treasury-futures-20240510.html
+
+6.
+
+Monin, P., “Decomposing Hedge Funds’ U.S. Treasury Exposures,” FEDS Notes, 22 Jun 2026.
+https://www.federalreserve.gov/econres/notes/feds-notes/decomposing-hedge-funds-u-streasury-exposures-20260622.html
+
+7.
+
+Sushko, V. and K. Todorov, “Sizing up hedge funds’ relative value trades in US Treasuries and
+interest rate swaps,” Box B, BIS Quarterly Review, Dec 2025.
+https://www.bis.org/publications/qr-202512/sizing-hedge-funds-relative-value-trades-ustreasuries-and-interest-rate-swaps
+
+8.
+
+9.
+
+Barth, D., L. Beltran, P. Hoops, R. J. Kahn, Y. Liu and M. Perozek, “The Cross-Border Trail of
+the Treasury Basis Trade,” FEDS Notes, 15 Oct 2025.
+https://www.federalreserve.gov/econres/notes/feds-notes/the-cross-border-trail-of-the-treasurybasis-trade-20251015.html
+OCC, Quarterly Report on Bank Trading and Derivatives Activities, Second Quarter 2026 (30
+Sep 2026). https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-83.html
+
+10. DTCC, “DTCC’s FICC Treasury Clearing Volumes Grow 31%, Now Represent USD$7 Trillion in
+Daily Average Activity,” press release, 12 Mar 2024 (Sponsored Service daily volume $938bn,
++74%; 2,414 sponsored member firms, +60%). https://www.dtcc.com/pressreleases/2024/dtccs-ficc-treasury-clearing-volumes-grow-31-percent
+
+15. Bank of England staff, “Lifting the lid on a liquidity crisis,” Bank Underground, 18 Jul 2023.
+https://bankunderground.co.uk/2023/07/18/lifting-the-lid-on-a-liquidity-crisis/
+16. Jansen, K., S. Klingler, A. Ranaldo and P. Duijm, DNB Working Paper 801 (2024).
+https://www.dnb.nl/media/0ynhgac1/working_paper_no-801.pdf
+17. Fannie Mae and Freddie Mac, Forms 10-K for fiscal year 2025, derivatives notes (Feb 2026).
+https://www.sec.gov/Archives/edgar/data/310522/000031052226000015/fnm-20251231.htm
+and https://www.sec.gov/Archives/edgar/data/1026214/000102621426000021/fmcc20251231.htm
+18. FHLBanks Office of Finance, Combined Financial Report for the Quarterly Period Ended March
+31, 2026 (14 May 2026), Note 6, Table 6.1. https://cdn.fhlb-of.com/files/2026/2026Q1CFR.pdf
+19. De Vere, J., K. Ramaswamy and K. Searls, Dallas Fed Economics, 10 Feb 2026 (AI financing
+and duration supply). https://www.dallasfed.org/research/economics/2026/0210-searlsaifinancing
+20. Karunamuni, N. and R. Mann, “Hedge Fund Participation in Cleared Repo,” OFR Brief 26-01, 3
+Mar 2026. https://www.financialresearch.gov/briefs/files/OFRBrief-26-01-hedge-fundparticipation-cleared-repo.pdf
+21. Fleckenstein, M. and F. Longstaff, “Renting Balance Sheet Space: Intermediary Balance Sheet
+Rental Costs and the Valuation of Derivatives,” Review of Financial Studies 33(11), 2020.
+22. Morgan Stanley Research, US Rates Strategy: “The Size of the Basis Trade” (13 Jan 2026),
+“Basis Trade Shrinks as RV Compresses” (27 May 2026), “The Reports of the Basis Trade’s
+Death Are Greatly Exaggerated” (21 Sep 2026). Client research, not publicly available.
+
+11. NAIC Capital Markets Bureau, “U.S. Insurance Industry’s Exposure to Derivatives Reaches $3
+Trillion in Notional Value at Year-End 2021” (2022).
+https://content.naic.org/sites/default/files/capital-markets-special-reports-derivatives-YE2021.pdf
+19
+
+

@@ -1,0 +1,316 @@
+EXECUTIVE OFFICE OF THE PRESIDENT
+OFFICE OF MANAGEMENT AND BUDGET
+WASHINGTON , D.C.
+
+20503
+
+THE DIRECTOR
+
+December 11, 2025
+M-26-04
+MEMORANDUM TO HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES
+
+I\ ~
+
+FROM:
+
+R~ssell T. Vought ( \ \ \
+Director
+"'1~
+
+SUBJECT:
+
+Increasing Public Trust in Artificial Intelligence Through Unbiased AI Principles
+
+\J \ \J
+
+Overview
+On July 23, 2025, President Trump signed Executive Order 14319, Preventing Woke Al
+in the Federal Government 1 (the E.O.), to ensure that Large Language Models (LLMs) procured
+by the Federal Government produce reliable outputs free from harmful ideological biases or
+social agendas. To further this policy of promoting innovation and use of trustworthy artificial
+intelligence (Al), the E.O. identifies two Unbiased AI Principles: 2
+(1) Truth-seeking
+LLMs3 shall be truthful in responding to user prompts seeking factual information
+or analysis. LLMs shall prioritize historical accuracy, scientific inquiry, and objectivity,
+and shall acknowledge uncertainty where reliable information is incomplete or
+contradictory.
+(2) Ideological Neutrality
+LLMs shall be neutral, nonpartisan tools that do not manipulate responses in favor
+of ideological dogmas. Developers shall not intentionally encode partisan or ideological
+judgments into an LLM' s outputs unless those judgments are prompted by or otherwise
+readily accessible to the end user.
+Section 4 of the E.O. requires the Director of the Office of Management and Budget
+(0MB) to issue guidance to agencies to implement these principles. This memorandum fulfills
+1 Executive Order 14139, Preventing Woke Al in the Federal Government (July 23 , 2025),
+
+https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-govemment/
+2 Id. sec 3
+3 Section 2 of the E.O. defines "LLM" to mean , "a large language model, which is a generative AI model trained on
+
+vast, diverse datasets that enable the model to generate natural-language responses to user prompts."
+
+that requirement and complements OMB Memorandum M-25-22, Driving Efficient Acquisition
+of Artificial Intelligence in Government. 4
+Scope
+The requirements of this memorandum apply to each agency, where “agency” means an
+executive department, military department, or any independent establishment within the meaning
+of 5 U.S.C. 101, 102, and 104(1), respectively, or any wholly owned Government corporation
+within the meaning of 31 U.S.C. 9101. They do not apply to national security systems, as defined
+in 44 U.S.C. 3552(b)(6). 5 However, application of this memorandum to national security
+systems, to the extent practicable, is encouraged.
+Within this scope, the requirements of this memorandum apply to any LLM procured by
+an agency, regardless of the manner in which the LLM will be deployed, further modified, or
+used by the agency. 6 Agencies must also consider the relevant factors identified in Appendix A.2
+in determining whether to apply these requirements to LLMs developed by the agency, and to AI
+models other than LLMs that are procured by the agency. 7
+This memorandum does not govern:
+a. Agencies’ regulatory actions designed to prescribe law or policy regarding non-agency
+uses of AI;
+b. Agencies’ assessments of particular AI applications because the AI provider is the target
+or potential target of a regulatory enforcement, law enforcement, or national security
+action; or the agency is evaluating the AI application because it was used by a criminal
+suspect;
+c. Agencies’ development of metrics, methods, and standards to test and measure AI, where
+such metrics, methods, and standards are for use by the general public or the Government
+
+4
+
+OMB Memorandum M-25-22, Driving Efficient Acquisition of Artificial Intelligence in Government (Apr. 3,
+2025), https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-ofArtificial-Intelligence-in-Government.pdf
+5
+AI innovation and risk for national security systems must be managed appropriately, but these systems are
+governed through other policy. Agencies should reference existing guidelines in place, such as the Department of
+War’s (DoW) Responsible Artificial Intelligence Strategy and Implementation Pathway and the Office of the
+Director of National Intelligence’s Principles of Artificial Intelligence Ethics for the Intelligence Community, as
+well as policies governing specific high-risk national security applications of AI, such as DoD Directive 3000.09,
+Autonomy in Weapon Systems, https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf, and
+any relevant successor guidance.
+6
+Although agencies are not required to apply the requirements of this memorandum to LLMs acquired pursuant to a
+free, open-source license, they should establish procedures to perform due diligence on the alignment of such
+models with E.O. 14319’s Unbiased AI Principles, as well as with the requirements of OMB Memorandum M-2521, prior to use. Agencies should continue to responsibly leverage the benefits of open-source offerings, as directed
+by OMB Memorandum M-16-21.
+7
+E.O., sec. 4(a)(iv).
+
+2
+
+as a whole, rather than to test AI for a particular agency application; 8 or
+d. AI used incidentally by a contractor during performance of a contract for administrative
+purposes (e.g., AI used at the option of a contractor when not directed or necessary to
+fulfill requirements).
+Agency Actions
+Agencies must comply with the following requirements, and take the additional
+implementation measures described in Appendix A:
+a. Contractual Requirements for New Contracts
+Agencies must ensure that any solicitation or order for procurement of an LLM they issue
+after the date of this memorandum includes contractual requirements addressing compliance with
+the Unbiased AI Principles, as explained in Appendix A. Agencies must also include such
+contractual requirements in any solicitation or order for AI models other than LLMs to which the
+requirements of this memorandum should apply, as determined by the agency.
+b. Requirements for Existing Contracts
+Agencies should, to the extent practicable, modify existing contracts for LLMs to include
+the requirements described in the preceding paragraph. Such a modification should occur, at the
+latest, prior to exercise of any option that extends the period of performance of the contract.
+c. Updating Agency Procurement Policies
+No later than March 11, 2026, agencies must update their policies and procedures to
+ensure that contracts for the procurement of LLMs include contractual requirements addressing
+compliance with the Unbiased AI Principles. Updated policies must include processes for agency
+users of LLMs to report outputs that violate the Unbiased AI Principles.
+d. Sunset Provision
+This memorandum shall cease to have any force or effect two years after the date of its
+issuance, unless the Director of OMB provides otherwise.
+
+8
+
+Examples include agency actions to develop, for general use, standards or testing methodologies for evaluating or
+red-teaming AI capabilities.
+
+3
+
+Appendix A: Implementation Guidance for Agencies
+This guidance builds on existing directives and policies that address agencies’ acquisition
+and use of AI, such as President Trump’s Executive Order 13960, Promoting the Use of
+Trustworthy Artificial Intelligence in the Federal Government, 9 and OMB Memoranda M-25-22,
+Driving Efficient Acquisition of Artificial Intelligence, 10 and M-25-21, Accelerating Federal Use
+of AI through Innovation, Governance, and Public Trust. 11 By complying with those directives
+and policies as well as this memorandum, agencies will ensure that humans are accountable for
+agency actions and decisions involving LLMs.
+1.
+
+CONTRACTUAL REQUIREMENTS
+
+When procuring an LLM, agencies must obtain sufficient information from the vendor to
+determine whether that LLM complies with the Unbiased AI Principles. The amount and type of
+information available will vary depending on the vendor’s role within the software supply chain
+and its relationship with the LLM developer itself, with more information generally being
+available from sources closer to the original LLM developer.
+In Federal procurement, it is common for vendors to provide agencies with access to
+LLMs and other AI indirectly, through resellers or other intermediary deployers of an AI
+developer’s product. Agencies also regularly contract with software integrators and platform
+operators who make LLMs available as part of their broader product offerings. When an agency
+transacts with such a third-party LLM provider, the availability of product information and
+potential for direct product interventions will depend on the willingness of the actual AI
+developer to collaborate through the third-party distributor. Agencies should consider these
+nuances of LLM procurement in determining how to apply the requirements of this
+memorandum to ensure that an LLM offered for procurement complies with the Unbiased AI
+Principles. 12
+Where practicable, agencies should avoid requirements that compel a vendor to disclose
+sensitive technical data, such as specific model weights. Documentation requests should seek
+enough information for an agency to assess a vendor’s risk management actions at the model,
+system, and/or application level, as appropriate, to establish compliance with the Unbiased AI
+Principles. 13
+9
+
+Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence, (Dec. 3, 2020),
+https://www.federalregister.gov/documents/2020/12/08/2020-27065/promoting-the-use-of-trustworthy-artificialintelligence-in-the-federal-government
+10
+OMB Memorandum M-25-22, Driving Efficient Acquisition of Artificial Intelligence in Government, (Apr. 3,
+2025), https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-ofArtificial-Intelligence-in-Government.pdf
+11
+OMB Memorandum M-25-21, Accelerating Federal Use of AI Thro0ugh Innovation, Governance, and Public
+Trust (Apr. 3, 2025), https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Useof-AI-through-Innovation-Governance-and-Public-Trust.pdf
+12
+While the requirements of this memorandum focus on use of the disclosures to confirm sufficient compliance with
+the Unbiased AI Principles, such disclosures may also be used more broadly in the evaluation of offers, if an agency
+includes relevant evaluation factors as part of the solicitation.
+13
+In accordance with Sections 3(h) and 4(d)(G) of OMB Memorandum M-25-22, agencies should similarly consider
+requiring vendors to provide updated disclosures when integrating new AI enhancements, features, or components
+into the LLM under contract. Consistent with the requirements of Section 3(g) of OMB Memorandum M-25-22, best
+
+Page 1 of 4
+
+In addition to obtaining information about standalone LLMs under consideration for
+procurement, agencies must also request information regarding LLM development and operation
+when those models are integrated into other software products or services to be procured. 14
+A.
+
+Minimum Threshold for LLM Transparency
+In solicitations for LLMs, agencies must request the following from a vendor:
+i. Acceptable Use Policy.
+This document is typically drafted by the original LLM developer to characterize
+and differentiate appropriate and inappropriate use of their product offering.
+ii. Model, System, and/or Data Cards.
+These materials from the LLM developer outline all essential information about
+the model, system, and/or data as it relates to the product offering. Information
+provided often includes summaries of the training process, identified risks and
+mitigations, and model evaluation scores on LLM benchmarks. It is uncommon
+for a vendor to produce all three types (model, system, data) of summary cards.
+iii. End User Resources.
+Such resources may include product tutorials, developer guides, or other best
+tools to help customers ensure proper use of the LLM and maximize utility.
+iv. Mechanism For End User Feedback.
+This requirement may be satisfied by a general inbox, specific product point of
+contact, or similar mechanism for providing feedback to the vendor on outputs
+that violate the Unbiased AI Principles.
+
+B.
+
+Threshold for Enhanced LLM Transparency
+
+Depending on its planned use of a particular LLM, an agency may decide that it
+needs information beyond that identified above to assure itself that the model will align
+with the Unbiased AI Principles. 15 Any request for such additional information should
+focus on actions that are directly relevant to the Principles, such as:
+i. Pre-Training and Post-Training Activities.
+A. Actions undertaken that would impact the factuality and grounding of
+LLM outputs.
+B. System-level prompts that provide natural language instructions to the
+model specifying guidelines on responding to user-generated queries,
+practices, including new sample AI transparency terms and conditions developed by GSA, will be made available in
+a shared repository, when available.
+14
+For example, the Unbiased AI Principle of “truth-seeking” will likely be more relevant than “ideological
+neutrality” for LLMs that operate as part of a tool to summarize cybersecurity incidents for a security operations
+center.
+15
+Agencies may determine that public-facing LLMs require additional vendor documentation to assess whether
+LLM outputs and associated controls or safeguards meet the goals of the Unbiased AI Principles.
+
+Page 2 of 4
+
+C.
+D.
+E.
+F.
+
+particularly with regard to how a model responds when reliable
+information is incomplete, contradictory, or subject to individual
+interpretation.
+The type of outputs restricted via content moderation and safety filters.
+Use of red teaming as a means of continuously assessing the model to
+protect against incidents of bias in generated output.
+Any training or development that occurred outside the United States, to
+include the type of activity and the country in which it occurred.
+Any modifications or configurations undertaken to comply with any
+regulation from a government other than the U.S. Federal Government.
+
+ii. Model Evaluations.
+A. Results of bias evaluations conducted by the vendor and the methodology
+for performing such tests (e.g., testing prompt pairs for politically-oriented
+topics).
+B. Benchmark scores for vendor evaluations to measure a model’s bias,
+helpfulness, honesty, or accuracy when provided with ambiguous versus
+straightforward questions. In some instances, benchmarks to compare
+performance across multiple languages will be necessary.
+iii. Enterprise-Level Controls.
+A. Governance tools, such as customizable system instructions that are
+additive to a base model’s system prompts or content generation filters.
+B. LLM model evaluation tools that enable comparisons either between a
+model’s outputs, or across various models.
+C. Product features that require a model to cite sources of its outputs or
+otherwise provide visibility into the provenance of the model’s outputs.
+iv. Third Party Modifications.
+A. Disclosure of additional controls to modify an LLMs output applied by the
+vendor if the vendor is not a direct developer of the LLM (e.g., classifiers,
+system prompts, fine-tuning, content moderation and filters).
+C.
+
+Materiality Requirement
+
+Agencies should explicitly identify relevant requirements identified in (a) and (b)
+as material to eligibility and payment under the contract, to support termination of the
+contract for default, as directed by the E.O. in cases where the vendor refuses to take
+corrective action in identified cases of noncompliance.
+2.
+
+APPLICABILITY FACTORS
+
+In determining whether to apply the requirements of this memorandum to LLMs
+developed by the agency, or to AI models other than LLMs, the agency shall consider:
+
+Page 3 of 4
+
+A.
+
+Models Developed by the Agency
+
+For use cases where an agency is developing an LLM or small language model,
+accompanying documentation that similarly demonstrates and assesses the integration of
+Unbiased AI Principles over the lifecycle of development is expected. While the precise
+nature of the types of information included may vary by use case, agencies should refer to
+the types of documentation described in Sections 1(a) and 1(b) of this Appendix to
+inform the development of their own documentation. At a minimum, agency
+documentation is expected to address:
+i. How the agency conducted the pre-training and training of the model;
+ii. How the agency proceeded to evaluate the model, and whether or how recurring
+or ongoing evaluations are performed;
+iii. What enterprise controls are built into the model, and how those controls may be
+accessed and configured; and
+iv. How the agency’s development team considers feedback from end users of the
+LLM, to include relevant End User Resources as detailed in Section 1(a)(iii) of
+this Appendix.
+B.
+
+Models Other Than LLMs
+
+If the agency is procuring other types of generative AI capabilities, such as tools
+that assist with image, voice, or multimodal generation, agencies shall, where practicable,
+use this guidance to inform the documentation requirements imposed for the
+procurement.
+
+Page 4 of 4
+
+

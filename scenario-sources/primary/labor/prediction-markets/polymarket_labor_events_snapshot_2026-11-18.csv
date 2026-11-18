@@ -1,0 +1,49 @@
+snapshot_utc,event_title,market_question,outcomes,outcomePrices,volume,liquidity,endDate
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be ≤6.4%?,"[""Yes"", ""No""]","[""0.044"", ""0.956""]",4826.902466,1359.37645,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be 6.5%?,"[""Yes"", ""No""]","[""0.144"", ""0.856""]",568.175521,1065.76613,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be 6.6%?,"[""Yes"", ""No""]","[""0.145"", ""0.855""]",2473.4623380000003,1124.1639,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be 6.7%?,"[""Yes"", ""No""]","[""0.195"", ""0.805""]",4104.082393,1107.1827,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be 6.8%?,"[""Yes"", ""No""]","[""0.21"", ""0.79""]",3747.811132,2014.3169,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be 6.9%?,"[""Yes"", ""No""]","[""0.2"", ""0.8""]",2105.4264639999997,812.4358,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November 2026 Unemployment Rate - Canada,Will Canada’s November 2026 unemployment rate be ≥7.0%?,"[""Yes"", ""No""]","[""0.1025"", ""0.8975""]",659.718149,1088.78415,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How high will US unemployment go in 2026?,Will US unemployment reach at least 5.0% in 2026?,"[""Yes"", ""No""]","[""0.0075"", ""0.9925""]",182374.25145399998,16391.05082,2027-02-01T04:59:00Z
+2026-11-18T14:34:41Z,How high will US unemployment go in 2026?,Will US unemployment reach at least 5.5% in 2026?,"[""Yes"", ""No""]","[""0.01"", ""0.99""]",217541.76894399995,2879.55533,2027-02-01T04:59:00Z
+2026-11-18T14:34:41Z,How high will US unemployment go in 2026?,Will US unemployment reach at least 6.0% in 2026?,"[""Yes"", ""No""]","[""0.006"", ""0.994""]",109660.51734,2512.48509,2027-02-01T04:59:00Z
+2026-11-18T14:34:41Z,How high will US unemployment go in 2026?,Will US unemployment reach at least 7.0% in 2026?,"[""Yes"", ""No""]","[""0.019"", ""0.981""]",38562.958054999996,1066.35529,2027-02-01T04:59:00Z
+2026-11-18T14:34:41Z,How high will US unemployment go in 2026?,Will US unemployment reach at least 10.0% in 2026?,"[""Yes"", ""No""]","[""0.018"", ""0.982""]",54007.064975,901.39169,2027-02-01T04:59:00Z
+2026-11-18T14:34:41Z,South Korean SA Unemployment Up/Down in November?,Will South Korea's SA Unemployment Rate increase between October and November 2026?,"[""Yes"", ""No""]","[""0.575"", ""0.425""]",4570.17672,1019.7549,2026-12-16T00:00:00Z
+2026-11-18T14:34:41Z,South Korean SA Unemployment Up/Down in November?,Will South Korea's SA Unemployment Rate not change between October and November 2026?,"[""Yes"", ""No""]","[""0.195"", ""0.805""]",731.281662,943.232,2026-12-16T00:00:00Z
+2026-11-18T14:34:41Z,South Korean SA Unemployment Up/Down in November?,Will South Korea's SA Unemployment Rate decrease between October and November 2026?,"[""Yes"", ""No""]","[""0.22"", ""0.78""]",803.8542420000001,1033.9714,2026-12-16T00:00:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be ≤3.8%?,"[""Yes"", ""No""]","[""0.009"", ""0.991""]",352.745998,3671.72354,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 3.9%?,"[""Yes"", ""No""]","[""0.05"", ""0.95""]",1880.9913,7056.64312,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 4.0%?,"[""Yes"", ""No""]","[""0.205"", ""0.795""]",1282.1265600000002,8136.0167,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 4.1%?,"[""Yes"", ""No""]","[""0.355"", ""0.645""]",5076.816247000001,4287.3458,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 4.2%?,"[""Yes"", ""No""]","[""0.305"", ""0.695""]",1128.64397,5010.0888,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 4.3%?,"[""Yes"", ""No""]","[""0.085"", ""0.915""]",972.34847,7200.9301,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 4.4%?,"[""Yes"", ""No""]","[""0.007"", ""0.993""]",372.743066,7036.59928,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be 4.5%?,"[""Yes"", ""No""]","[""0.0055"", ""0.9945""]",319.88849999999996,3815.0001,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,November Unemployment Rate,Will the November 2026 unemployment rate be ≥4.6%?,"[""Yes"", ""No""]","[""0.006"", ""0.994""]",400.75998000000004,3454.85754,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,Will Canada have the highest unemployment rate since 2016 this year?,Will Canada have the highest unemployment rate since 2016 this year?,"[""Yes"", ""No""]","[""0.096"", ""0.904""]",9834.072372000002,734.37607,2027-02-16T04:59:00Z
+2026-11-18T14:34:41Z,Tech Layoffs Up or Down in 20​26?,Tech Layoffs Up or Down in 20​26?,"[""Up"", ""Down""]","[""0.969"", ""0.031""]",26096.217662000003,2668.61569,2027-07-01T03:59:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add less than 25k jobs in November?,"[""Yes"", ""No""]","[""0.19"", ""0.81""]",736.3815040000001,2796.553,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add between 25k and 50k jobs in November?,"[""Yes"", ""No""]","[""0.085"", ""0.915""]",528.542471,2813.1952,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add between 50k and 75k jobs in November?,"[""Yes"", ""No""]","[""0.125"", ""0.875""]",343.726039,2693.3881,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add between 75k and 100k jobs in November?,"[""Yes"", ""No""]","[""0.17"", ""0.83""]",1944.6496109999998,3160.5733,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add between 100k and 125k jobs in November?,"[""Yes"", ""No""]","[""0.145"", ""0.855""]",1350.407554,2588.3203,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add between 125k and 150k jobs in November?,"[""Yes"", ""No""]","[""0.13"", ""0.87""]",705.345032,2609.1703,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,How many jobs added in November?,Will the US add at least 150k jobs in November?,"[""Yes"", ""No""]","[""0.215"", ""0.785""]",655.065018,2839.8599,2026-12-04T13:30:00Z
+2026-11-18T14:34:41Z,Japan recession in 2026?,Japan recession in 2026?,"[""Yes"", ""No""]","[""0.125"", ""0.875""]",4336.184048,467.9698,2027-05-01T03:59:00Z
+2026-11-18T14:34:41Z,US recession by end of 2026?,US recession by end of 2026?,"[""Yes"", ""No""]","[""0.0225"", ""0.9775""]",2489392.728438,156242.50997,2027-01-31T00:00:00Z
+2026-11-18T14:34:41Z,Dem sweep & US recession by end of 2027?,Will the Democrats sweep the House and Senate and the US enter a recession by the end of 2027?,"[""Yes"", ""No""]","[""0.274"", ""0.726""]",2681.181335,6592.31624,2028-02-01T04:59:00Z
+2026-11-18T14:34:41Z,Dem sweep & US recession by end of 2027?,Will the Democrats sweep the House and Senate and the US not enter a recession by the end of 2027?,"[""Yes"", ""No""]","[""0.7225"", ""0.2775""]",2826.576785,4891.44328,2028-02-01T04:59:00Z
+2026-11-18T14:34:41Z,US recession by end of 2027?,US recession by end of 2027?,"[""Yes"", ""No""]","[""0.305"", ""0.695""]",24559.957992999996,22030.7201,2027-12-31T23:59:00Z
+2026-11-18T14:34:41Z,UK Recession in 2026?,UK Recession in 2026?,"[""Yes"", ""No""]","[""0.0245"", ""0.9755""]",15916.794046,1172.17219,2027-05-01T03:59:00Z
+2026-11-18T14:34:41Z,Will Mamdani raise the minimum wage to $30 before 2027?,Will Mamdani raise the minimum wage to $30 before 2027?,"[""Yes"", ""No""]","[""0.0435"", ""0.9565""]",26629.336152,2959.73981,2027-01-01T04:59:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be below 7.2M in October?,"[""Yes"", ""No""]","[""0.265"", ""0.735""]",7519.445485,1970.764,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be between 7.2M and 7.3M in October?,"[""Yes"", ""No""]","[""0.1"", ""0.9""]",6980.503362,2964.8626,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be between 7.3M and 7.4M in October?,"[""Yes"", ""No""]","[""0.13"", ""0.87""]",4004.3024500000006,2762.692,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be between 7.4M and 7.5M in October?,"[""Yes"", ""No""]","[""0.042"", ""0.958""]",1671.281224,2407.73548,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be between 7.5M and 7.6M in October?,"[""Yes"", ""No""]","[""0.04"", ""0.96""]",5705.855287,3019.0073,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be between 7.6M and 7.7M in October?,"[""Yes"", ""No""]","[""0.0705"", ""0.9295""]",2098.618631,2446.86849,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be between 7.7M and 7.8M in October?,"[""Yes"", ""No""]","[""0.0525"", ""0.9475""]",1866.813582,2418.87537,2026-12-01T15:00:00Z
+2026-11-18T14:34:41Z,JOLTS Job Openings: October 2026,Will JOLTS Job Openings be at least 7.8M in October?,"[""Yes"", ""No""]","[""0.149"", ""0.851""]",2229.552936,2238.05128,2026-12-01T15:00:00Z

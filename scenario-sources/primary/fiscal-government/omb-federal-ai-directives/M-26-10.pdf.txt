@@ -1,0 +1,214 @@
+EXECUTIVE OFFICE OF THE PRESIDENT
+OFFICE OF MANAGEMENT AND BUDGET
+WASHINGTON, D.C. 20503
+
+THE DIRECTOR
+
+March 31, 2026
+M-26-10
+MEMORANDUM TO THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES
+FROM:
+
+Russell T. VoughtG\��
+Director
+
+SUBJECT:
+
+Reinforcing Transparency, Accountability, and Oversight of Federal Technology
+
+Overview
+Information technology (IT) plays a crucial role in every service the Federal Government
+provides to the public, and the effective use of that technology is paramount to achieving the
+Administration's vision for a more efficient Government. Through his Executive Orders,
+President Trump has demanded timely, coordinated action to eliminate unnecessary and wasteful
+Government spending. 1 This policy furthers that objective by reinforcing foundational practices
+to maximize transparency and increase accountability for agency chief information officers
+(CIOs). It also provides guidance to enhance information-sharing, which will help the
+Government procure best-in-class technology solutions, achieve economies of scale, and better
+serve the public while conserving Americans' tax dollars.
+
+The reporting requirements of section 1 of this memorandum apply only to agencies, 2
+other than the Department of War, that are identified in the Chief Financial Officers Act at 31
+U.S.C. § 901(b) ("covered CFO Act agencies"). The reporting requirements do not apply to
+national security systems, as defined in 40 U.S.C. § 11103(a).
+Exec. Order 13833, Enhancing the Effectiveness ofAgency Chief Information Officers (May 15, 2018),
+https://www.federalregister.gov/documents/2018/05/18/2018-10855/enhancing-the-effectiveness-of-agency-chief­
+information-officers; Exec. Order 14240, Eliminating Waste and Saving Taxpayer Dollars by Consolidating
+Procurement (Mar. 20, 2025), https://www.federalregister.gov/documents/2025/03/25/2025-05197/eliminating­
+waste-and-saving-taxpayer-dollars-by-consolidating-procurement; Exec. Order 14243, Stopping Waste, Fraud, and
+Abuse by Eliminating Information Silos (Mar. 20, 2025),
+https://www. federa Iregister.gov/documents/202 5/03/25/2025-052 14/stopp ing-waste-fraud-and-abuse-bye 1iminating-in formation-si Ios; Exec. Order 14271, Ensuring Commercial, Cost-Effective Solutions in Federal
+Contracts (Apr. 15, 2025), https://www.federalregister.gov/documents/2025/04/18/2025-06835/ensuring­
+commercial-cost-effective-solutions-in-federal-contracts.
+2 For the purposes ofthis memorandum, the term "agency" has the definition provided in 44 U.S.C. § 3502(1).
+1
+
+Section 2 of this memorandum applies to all agencies, but not to national security
+systems. Agency heads are encouraged to apply the practices in Section 2 to national security
+systems to the extent practicable.
+
+Guidance
+1.
+
+Empowering CIOs as Strategic Partners in Agency Decisions
+
+The CI Os of CFO Act agencies are required by law to monitor the performance of their
+agencies ' IT programs, evaluate the performance of those programs, and advise the agency head
+on whether to continue, modify, or terminate a program or project. 3 To effectively fulfill their
+statutory duties, those agency CIOs must be empowered as strategic partners who are
+appropriately involved in any agency decision related to IT. The Federal Information
+Technology Acquisition Reform Act (FITARA) recognizes the critical role of these CI Os and
+forbids covered CFO Act agencies from entering into a contract or other agreement for IT or IT
+services, unless the agency CIO has reviewed and approved the contract or other agreement. 4
+Requirements
+Beginning in May 2026 and on a monthly basis thereafter, the CI Os of covered CFO Act
+agencies shall notify the Office of Management and Budget (0MB) of the following:
+1)
+2)
+
+All contracts or other agreements for IT or IT services that he or she personally
+approves; and
+Any contracts or other agreements for IT products or services that are approved by a
+delegee of the CIO, if such contracts or agreements directly enable or facilitate
+interaction between the public and the Federal Government through digital services. 5
+
+This visibility will enable agencies to better identify waste, fraud, and abuse, and ensure that IT
+investments are strategically aligned across the Executive Branch.
+The top-level CIO for each covered agency shall be responsible for reporting on behalf of
+the entire agency, including all bureaus or components. Reports must be sent through email to
+ofcio@omb.eop.gov and submitted no later than the 10th of each month. Each report shall cover
+the period from the first day through the last day of the immediately preceding month. This
+requirement shall sunset in October 2026, following covered CFO Act agencies' submission of
+their sixth and final report, unless 0MB notifies agencies beforehand that it will continue past
+that time. 6 See the Appendix for a reporting table.
+
+3 40 U.S.C. § I 1315(c)(2).
+4 40 U.S.C. § 11319(b)(l)(C).
+
+5A "digital service," for the purposes of this memorandum , is a transactional service (e.g., on line form , account
+management tool) or an info1mational service that is delivered over the internet across a variety of platforms,
+devices, and delivery mechanisms (e.g. , websites, mobile applications, text/SMS).
+6 0MB may re-evaluate and revise the reporting schedule and scope as appropriate.
+
+2
+
+Within one week of this memorandum's issuance, 0MB will provide a template for CI Os
+to use to report approved contracts or other agreements to OMB 's Office of the Federal CIO.
+2.
+
+Eliminating Information Silos for Federal Technology Acquisitions
+
+In accordance with 0MB Circular No. A-137, Strategic Management ofAcquisition Data
+and Information, 7 agencies "should no longer view acquisition data as a singular agency asset,
+but rather as an asset that is critical to support the mission of the Government." Government­
+wide sharing of this information will result in more informed procurement decisions, reducing
+time and cost burdens for both the Federal workforce and industry. Failure to obtain this
+information for the Government's use in a timely manner inhibits the Government's ability to
+consolidate acquisitions and make decisions to save taxpayer dollars.
+As the Administration continues its eff01is to consolidate procurement, it has become
+apparent that contractors may have information that the Government needs to make data-driven
+decisions around IT acquisitions. Agencies may be able to request and receive relevant
+information from contractors for their existing IT contracts, and should, to the extent practicable,
+obtain such information for Government-wide use. Agencies should actively facilitate the
+collection and sharing of relevant IT-related acquisition data, in accordance with the measures
+outlined below.
+Requirements
+
+Effective immediately, each agency head- acting through the agency CIO, Chief
+Acquisition Officer (CAO), or other relevant responsible officials - shall:
+1)
+
+Request that current vendors provide information about the agency 's utilization rates
+and prices paid with respect to IT products (hardware and software) and services; 8
+
+2)
+
+Include appropriate provisions in solicitations and contracts issued after the date of
+this memorandum to require IT vendors to disclose utilization and pricing
+information to the Government, without limiting the extent to which that information
+may be shared across agencies;
+
+3)
+
+Compile this information in a machine-readable, open standard format consistent with
+0MB Memorandum M-25-05, Phase 2 Implementation ofthe Foundations for
+Evidence-Based Policymaking Act of2018: Open Government Data Access and
+Management Guidance;9
+
+7 0MB Circular No . A-137, Strategic Management ofAcquisition Data and Information,
+https ://www.wh iteh ouse. gov/wp-content/up loads/2024/0 5/0 M 8-Circular-A-13 7-Strategic- Management-of­
+Acq u is ition-Data-and-Information.pdf.
+8 This includes resellers, third-party vendors, and manufacturers.
+9 0MB Memorandum M-25-05, Phase 2 Implem entation ofthe Foundations for Evidence-Based Policymaking Act
+of2018: Open Government Data Access and Management Guidance (Jan. 15, 2025),
+https ://www.wh iteh ouse.gov/wp-content/up Ioads/2 025/0 1/M-25-05 -Phase-2-Imp !em entati on-of-the-Foundations­
+for- Evidence-Based-Policymaking-Act-of-2018-0pen-Govemment-Data-Access-and-Management-Guidance.pdf.
+
+3
+
+4)
+
+Share this information with 0MB and the General Services Administration (GSA),
+consistent with applicable law and contract provisions, upon request of either agency;
+and
+
+5)
+
+Ensure component- and bureau-level compliance with this memorandum.
+
+GSA will support agencies by sharing best practices, sample contract language, and
+templates, as appropriate. Agency CI Os and CA Os shall jointly notify 0MB ' s Office of the
+Federal CIO and Office of Federal Procurement Policy of any impediments to achieving full
+compliance with this memorandum. Notifications must be made through email to
+ofcio@omb.eop.gov. 0MB will support agencies in overcoming barriers as appropriate.
+
+4
+
+Appendix: Reporting Table for Section 1
+
+Due to 0MB by...
+
+I
+
+Includes all IT contracts approved
+between ...
+
+Report #1
+
+May 10, 2026
+
+April 1, 2026 -April 30, 2026
+
+Report #2
+
+June 10, 2026
+
+May 1, 2026 - May 31, 2026
+
+Report #3
+
+July 10, 2026
+
+June 1, 2026 - June 30, 2026
+
+Report #4
+
+August 10, 2026
+
+July 1, 2026-July 31, 2026
+
+Report #5
+
+September I 0, 2026
+
+August 1, 2026 - August 31 , 2026
+
+Report #6
+
+October 10, 2026
+
+September 1, 2026 - September 30, 2026
+
+Page 1 of 1
+
+

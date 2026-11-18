@@ -1,0 +1,47 @@
+2026 Risk Transfer Program
+
+September 23, 2026
+
+2026 Layer Chart
+(Not to scale)
+
+06/30/2026 PML with 10% LAE and 7.7% PR/CR, -10.8% CNR Growth Adjustment
+
+Approximately 27% of surplus is exposed in a
+1-in-100 year event. Surplus remaining after a
+1-in-100 year storm is projected to fund a
+1-in-69 year event, additional LAEs, or multiple
+smaller storms in this or subsequent years.
+
+2
+See Notes and Assumptions (page 3)
+
+Notes and Assumptions - 2026 Storm Season
+ASSUMPTIONS
+ Citizens’ 2026 Budget Projected DWP
+$1.4 Billion
+ Citizens’ Policyholder Surcharge Maximum
+15%
+ 2025 Emergency Assessment Base (based on 2024 DWP)
+$92.8 Billion
+ PMLs are based on modeled losses as of June 30, 2026, Verisk Hurricane Model for the United States Version 3.0.0 as implemented in Touchstone (version 13.2.0). All PMLs reflect
+the 50K US Hurricane - Florida Regulatory Event Set including Demand Surge, excluding Storm Surge, and include 10% of loss to account for loss adjustment expense (LAE). Data
+is projected to September 30, 2026 using growth adjustment factors of 7.7% for PR/CR and -10.8% for CNR policy types. Interim Return Periods are derived by linear interpolation
+between 5-year intervals.
+ 2026 Projected Surplus = Year end 2025 surplus + 2026 budget projected net income +/- adjustment for differences between budget and forecasted FHCF premium and cost of
+reinsurance placement
+ FHCF pays 10% of reimbursed loss for loss adjustment expense
+ Citizens’ 2026 FHCF coverage is based on preliminary retention and coverage estimates. Actual Citizens’ FHCF attachment and limits of coverage could differ significantly from
+estimates.
+NOTES
+These charts are imperfect! They attempt to show projected claims-paying resources, but they are approximations only. Three significant complicating factors are described below:
+1) PR/CR PML vs. CNR PML: An actual 100-year PML event in the Residential portion of the book (PR/CR) may not be a 100-year PML event for the Non-Residential (CNR) portion of
+the book. The relative magnitude of actual losses for the Residential and Non-Residential portions will depend on the storm size and path.
+2) Non-residential exposure: Commercial non-residential (CNR) exposures are not reinsured by FHCF. CNR losses are shown in a stand-alone chart and correspond to the actual
+CNR’s PML and return periods.
+3) Liquidity: These charts do not show liquidity. Ample PML resources may still require liquidity as many of the resources are not available immediately following a major hurricane. The
+timing and magnitude of receivables such as FHCF recoveries and assessments are unknown.
+
+3
+
+

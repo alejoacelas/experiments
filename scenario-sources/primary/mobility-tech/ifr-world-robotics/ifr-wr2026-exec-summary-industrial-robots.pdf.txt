@@ -1,0 +1,237 @@
+World
+
+Robotics
+Industrial Robots
+2026
+
+Statistics, Market Analysis, Forecasts and Case Studies
+
+World Robotics 2026 – Industrial Robots
+Produced by VDMA Services GmbH, Lyoner Str. 18, 60528 Frankfurt,
+Germany.
+The robot statistics are based on consolidated world data reported by
+robot suppliers as well as on the statistics and support of the national
+robotics associations of North America (A3), Spain (AER), United
+Kingdom (BARA), People’s Republic of China (CRIA), Denmark (DIRA),
+Japan (JARA), Republic of Korea (KAR), Italy (SIRI), Sweden (SWIRA),
+and Chinese Taipei (TAIROA).
+The cover and the editorial are sponsored by Estun Robotics Europe
+AG.
+Assisting in statistics evaluation, text and charts processing: Nina
+Kutzbach, IFR
+We express our most sincere gratitude to all partners!
+Dr. Christopher Müller
+Director
+IFR Statistical Department
+Tel:
+E-Mail:
+Internet:
+
++49 69 66 03-11 91
+statistics@ifr.org
+http://www.worldrobotics.org
+
+Copyright ©2026 VDMA Services GmbH
+All rights reserved.
+Suggested citation: Müller, Christopher: World Robotics 2026 – Industrial Robots, IFR Statistical
+Department, VDMA Services GmbH, Frankfurt am Main, Germany, 2026.
+Short citation: World Robotics 2026 – Industrial Robots
+No part of this publication may, for sales purposes, be reproduced, stored in a retrieval system or transmitted
+in any form or by any means, electronic, electrostatic, magnetic tape, mechanical, photocopying or
+otherwise, without prior permission in writing from VDMA Services GmbH (contact via IFR Statistical
+Department).
+ISBN 978-3-8163-0778-5
+
+Executive Summary World Robotics 2026 Industrial Robots
+
+15
+
+Executive Summary World Robotics 2026 Industrial Robots
+Worldwide annual installations of industrial robots:
+•
+
+2025: 603,307 units (+11%)
+
+•
+
+2026: 655,000 units (+9%)
+
+•
+
+2029: 806,000 units (+7% CAGR from 2026 to 2029)
+
+Robot installations 2025: from plateau to new record
+603,307 robots installed in 2025. Annual robot installations leap beyond the
+600,000-unit mark.
+After four years of around 550,000 new industrial robot installations, global robot demand
+accelerated in 2025. The previous record level of 552,946 units achieved in 2022 was
+exceeded by 9%. Strong demand from the electronics industry, the automotive
+industry, and from most parts of the general industry yielded an 11% year-over-year
+growth of unit installations in 2025.
+Despite substantial regional differences, the global outlook remains positive.
+Installations are forecast to rise by 9% to 655,000 units in 2026 and to reach 806,000
+units in 2029, corresponding to average annual growth of 7% from 2026 to 2029. There
+is no indication that the overall long-term growth trend will come to an end any
+time soon.
+The global operational stock of industrial robots grew by 9% to 5,079,078 units in
+2025. It is expected to grow by 7% on average each year from 2026 to 2029. After
+breaking the five-million-unit mark in 2025, the operational stock of industrial robots will
+exceed six million units in 2028.
+In 2025, the market value increased by 11% to US$18.6bn.
+
+Growth in Asia and in the Americas, contraction in Europe
+Robot demand in Asia is booming: In 2025, 457,315 units were installed, up 14% yearover-year. 76% of all newly deployed robots were installed in Asia, up 2 percentage
+points from 2024. Three of the top five markets for industrial robots are in Asia: China is
+the growth driver and by far the largest market with 354,226 units (+20%) installed
+in 2025. The share of domestic suppliers was around 30% from 2019 to 2021 and began
+to accelerate steeply in 2022. Since 2024, more than half of the Chinese installations
+are from Chinese brands.
+The second largest market, Europe, experienced a weak year with a 14% contraction
+of robot demand down to 73,054 units in 2025. Robot demand in this region also
+benefited from the nearshoring trend but recently suffered from weak demand by the
+automotive industry.
+
+16
+
+Executive Summary World Robotics 2026 Industrial Robots
+
+In the Americas, installations were up by 14% to a new record level of 57,044 units.
+The United States is the largest American market and accounted for 67% (-1 pp) of the
+installations (38,428 units; +12%) in 2025.
+
+Installations and stock of industrial robots from 2020–2025 by customer industries
+For many years, the automotive industry’s pattern of purchasing robots largely
+determined the overall investment pattern in robot installations. This has changed on a
+global scale and at least in some Asian countries (China, Japan, and the Republic of
+Korea), where the electrical/electronics industry has become the largest customer
+industry.
+The latest switch took place in 2024, when the electrical/electronics industry reclaimed
+the lead that it maintained in 2025. Installations were up 10% to 142,235 units. The
+automotive industry remained the second largest customer of industrial robots in 2025,
+just around 3,800 units shy of the electronics industry. Demand was up 10% to a new
+peak level of 138,429 units. The metal and machinery industry established itself as
+the third largest customer industry and accounted for 18% (+2 pp) of all installations in
+2025. In 2025, installations were up 22% to a new peak level of 108,571 units.
+
+Regionalization and market access
+Geopolitical tensions, tariffs, non-tariff barriers, industrial policies, and supply chain risks
+are encouraging manufacturers to diversify production and establish capacity closer
+to their main markets. This does not necessarily increase global robot demand, but it
+changes where investment takes place. For robot suppliers, regionalization increases
+the importance of local production, engineering, system integration, and service and
+support infrastructure. Where protectionist policies are in place, market access will
+increasingly depend on local supply chains, local presence, and compliance with national
+requirements.
+Standardized and modular cells, preconfigured application packages, simpler
+programming, and faster commissioning can reduce integration costs and project
+risks.
+
+Trends in robot technology
+Artificial intelligence is becoming a fundamental enabling technology across
+robotics. Improvements in computing power, data availability, and AI models are
+expanding both the range and the sophistication of its applications.
+The degree of maturity differs considerably by application. Machine vision for
+detection and robot guidance is already established and industry-grade. Predictive
+maintenance, process optimization and AI-based inspection are also increasingly used
+
+Executive Summary World Robotics 2026 Industrial Robots
+
+17
+
+in industry. General-purpose Physical AI systems and learning from simulation and
+experience, are not yet industry-grade.
+Most humanoids remain prototypes or pilot-stage technologies rather than industrialgrade products. At the current stage of technology, industrial robots are economically
+superior for industrial production tasks. Humanoids may eventually complement these
+systems in selected applications, but widespread industrial deployment will depend on
+substantial improvements in reliability, safety, operating time, and economic viability.
+
+Annual installations of industrial robots
+('000 of units)
+457
+404
+
+384
+
+284
+
+280
+
+401
+
+381
+
+273
+
+254
+
+199
+160
+
+50
+
+38
+
+2015
+
+56
+
+41
+
+2016
+
+67
+
+76
+46
+
+2017
+
+55
+
+2018
+
+74
+
+47
+
+2019
+Asia
+
+66
+
+39
+
+2020
+Europe
+
+85
+
+82
+52
+
+2021
+Americas
+
+92
+56
+
+2022
+
+85
+55
+
+2023
+
+50
+
+2024
+
+73
+
+57
+
+2025
+
+Source: World Robotics 2026, Figure 2.2
+
+

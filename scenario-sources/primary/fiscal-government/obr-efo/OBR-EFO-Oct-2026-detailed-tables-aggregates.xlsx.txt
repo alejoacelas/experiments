@@ -1,0 +1,592 @@
+
+===== SHEET: Contents =====
+	Fiscal supplementary tables: Aggregates
+	Breakdown of forecast by sector and economic category
+	6.1 Breakdown of expenditure forecast by sector and economic category
+	6.2 Breakdown of receipts forecast by sector and economic category
+	6.3 General government transactions by economic category
+	6.4 Public sector transactions by sub-sector and economic category
+	Components of net borrowing
+	6.5 Components of Net Borrowing
+	Asset Purchase Facility
+	6.6 Cash transfers from HM Treasury to BoE
+	ONS Measurement Differences
+	6.7 Inconsistencies between OBR forecasts and ONS outturns
+	Student numbers and loans
+	6.8 Student entrant borrowers forecast
+	6.9 Breakdown of the net flow of student loans and repayments
+	6.10 Proxy for prevailing market rates (used to calculate student loan interest cap)
+	Tables usually in Economic and fiscal outlook
+	6.11 Public sector net debt: year-on-year changes
+	6.12 Total gross financing
+	6.13 Composition of public sector net debt
+	6.14 Composition of public sector net worth
+	6.15 Reconciliation of PSNCR and CGNCR
+	6.16 Central government debt interest by financing component
+	6.17 Total outstanding stocks, debt interest payments and effective interest rates
+
+===== SHEET: Aggregates =====
+Back to contents
+
+===== SHEET: 6.1 =====
+Back to contents
+	6.1 Breakdown of expenditure forecast by sector and economic category
+			£ billion
+			2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Central Government
+	Current		1170	1210	1256	1291	1336	1386
+	of which:
+		Consumption	486.5	489.9	506.1	518.9	537	552.5
+		Subsidies	36.6	36.08	36.56	34.7	35.52	35.6
+		Net social benefits	345.6	375.1	389.7	404.3	419.4	437.2
+		Net current grants abroad	5.143	5.513	6.446	5.972	6.234	6.439
+		Current grants (net) within public sector	155.8	158	164.8	164.9	170.8	176
+		Other current grants	24.9	22.45	22.9	22.74	23.53	24.07
+		VAT and GNI based EU contributions	0	0	0	0	0	0
+		Interest and dividends paid	115.3	123	129.5	139.3	143.2	154.5
+	Capital		110	120	120.7	115.1	118.9	112.9
+	of which:
+		GDFCF	89.23	87.91	89.36	89.92	92.69	96.1
+		Less depreciation	-48.05	-51.39	-53.94	-56.29	-58.51	-61.03
+		Increase in inventories	-0.2074	-0.2087	-0.2104	-0.2113	-0.2168	-0.2246
+		Capital grants (net) within public sector	37.02	46.88	48.39	45.32	48.27	40.63
+		Capital grants to private sector	32.02	36.79	37.09	36.38	36.7	37.46
+		Capital grants from private sector	0	0	0	0	0	0
+	Local Government
+	Current		81.36	86.21	84.35	88.5	92.28	96.42
+	of which:
+		Consumption	199.4	206.6	211.7	216	225.8	235.1
+		Subsidies	8.631	8.548	8.328	8.265	8.2	8.16
+		Net social benefits	27.9	27.9	27.9	27.9	27.9	27.9
+		Net current grants abroad	0	0	0	0	0	0
+		Current grants (net) within public sector	-155.8	-158	-164.8	-164.9	-170.8	-176
+		Other current grants	0	0	0	0	0	0
+		Interest and dividends paid	1.201	1.189	1.189	1.189	1.189	1.189
+	Capital		-12.67	-14.66	-14.94	-16.73	-17.39	-18.57
+	of which:
+		GDFCF	27.93	31.82	30.8	30.74	30.95	30.88
+		Less depreciation	-21.41	-22.33	-23.18	-23.91	-24.68	-25.55
+		Increase in inventories	0	0	0	0	0	0
+		Capital grants (net) within public sector	-21.12	-26.53	-24.75	-25.68	-25.74	-25.9
+		Capital grants to private sector	3.542	4.058	3.914	3.898	3.918	3.901
+		Capital grants from private sector	-1.618	-1.672	-1.727	-1.783	-1.841	-1.899
+	Non-financial public corporations
+	Current		0.514	0.516	0.516	0.516	0.516	0.516
+	of which:
+		Interest and dividends paid	0.514	0.516	0.516	0.516	0.516	0.516
+	Capital		8.215	8.121	8.035	7.861	7.874	7.846
+	of which:
+		GDFCF	16.04	16.28	16.5	16.63	16.91	17.2
+		Less depreciation	-8.587	-8.954	-9.271	-9.569	-9.846	-10.11
+		Increase in inventories	0.071	0.071	0.071	0.071	0.071	0.071
+		Capital grants (net) within public sector	0	0	0	0	0	0
+		Capital grants to private sector	0.3099	0.3405	0.3487	0.3506	0.3546	0.299
+		Capital grants from private sector	0.382	0.382	0.382	0.382	0.382	0.382
+	Public sector pensions
+	Current		18.76	19.62	20.43	21.24	22.19	23.07
+	of which:
+		Net social benefits	-19.59	-20.5	-21.56	-22.68	-23.68	-24.6
+		Interest and dividends paid	18.76	19.62	20.43	21.24	22.19	23.07
+		Adjustment for the change in pension entitlements	19.59	20.5	21.56	22.68	23.68	24.6
+	Capital		2.01	0.6818	0.6818	0.6838	0.6868	0.6868
+	of which:
+		GDFCF	0.1481	0.1481	0.1481	0.1491	0.1511	0.1511
+		Less depreciation	0	0	0	0	0	0
+		Capital grants to private sector	1.862	0.5337	0.5337	0.5347	0.5357	0.5357
+	Bank of England
+	Current		8.007	10.44	9.006	7.752	6.063	5.395
+	of which:
+		Consumption	0.1368	0.08941	0.1017	0.1769	0.1768	0.3767
+		Interest and dividends paid	8.57	10.97	9.48	8.11	6.38	5.44
+		Subsidies	-0.7	-0.6171	-0.5756	-0.5347	-0.4939	-0.422
+	Capital		-14.94	-19.67	-22.72	-18.62	-21.49	-13.66
+	of which:
+		GDFCF	0.05283	0.05468	0.05672	0.05886	0.06102	0.06316
+		Less depreciation	-0.066	-0.066	-0.066	-0.066	-0.066	-0.066
+		Increase in inventories	0	0	0	0	0	0
+		Capital grants (net) within public sector	-14.93	-19.66	-22.71	-18.61	-21.49	-13.66
+		Capital grants to private sector	0	0	0	0	0	0
+		Capital grants from private sector	0	0	0	0	0	0
+	Public Sector Current Expenditure		1278	1327	1370	1409	1457	1512
+	Public Sector Net Investment		92.63	94.46	91.74	88.31	88.62	89.22
+	Depreciation		78.1	82.74	86.46	89.83	93.1	96.75
+	Total Managed Expenditure1		1449	1504	1549	1587	1638	1698
+	Note: In the Economic and fiscal outlook, public corporations are presented in aggregate. In this table, public corporations are separated into non-financial public corporations, public sector pensions and Bank of England.
+	1 TME is equal to the sum of PSCE, PSNI and public sector depreciation.
+
+===== SHEET: 6.2 =====
+Back to contents
+	6.2 Breakdown of receipts forecast by sector and economic category
+			£ billion
+			2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Central Government
+	Current Receipts 		1203	1274	1326	1385	1438	1491
+	of which:
+	Taxes on income and wealth		506.7	542.2	561.8	590.6	616.6	644.3
+	Taxes on production and imports		375.3	393.9	412	426.9	440.8	454.1
+	Other current taxes		20.12	20.65	22.33	22.86	23.27	22.94
+	Taxes on capital		9.11	10.78	12.3	13.26	14.24	15.15
+	Compulsory social contributions		216.2	222.9	230.7	242.7	251.8	259.9
+	Gross operating surplus		48.05	51.39	53.94	56.29	58.51	61.03
+	Rent and other current transfers		4.861	5.249	5.453	5.518	5.608	5.69
+	Interest and dividends from private sector and abroad		13.94	16.92	17.24	16.62	16.94	16.82
+	Interest and dividends from public sector		8.959	10.06	10.25	10.37	10.61	10.93
+	Local Government
+	Current Receipts		73.61	77.32	81.51	85.36	89.36	93.59
+	of which:
+	Taxes on income and wealth		0	0	0	0	0	0
+	Taxes on production and imports		1.129	1.244	1.343	1.423	1.466	1.507
+	Other current taxes		52.02	54.73	57.81	61.01	64.39	67.88
+	Taxes on capital		0	0	0	0	0	0
+	Compulsory social contributions		0	0	0	0	0	0
+	Gross operating surplus		21.41	22.33	23.18	23.91	24.68	25.55
+	Rent and other current transfers		1.021	1.054	1.094	1.135	1.176	1.218
+	Interest and dividends from private sector and abroad		1.517	1.661	1.967	1.968	1.942	1.944
+	Interest and dividends from public sector		-3.486	-3.693	-3.884	-4.077	-4.286	-4.506
+	Non-financial public corporations
+	Current Receipts		15.76	16.12	16.17	16.71	17.17	17.57
+	of which:
+	Taxes on income and wealth		-0.19	-0.19	-0.19	-0.19	-0.19	-0.19
+	Taxes on production and imports		0	0	0	0	0	0
+	Other current taxes		0	0	0	0	0	0
+	Taxes on capital		0	0	0	0	0	0
+	Compulsory social contributions		0	0	0	0	0	0
+	Gross operating surplus		16.89	17.46	17.49	18.03	18.42	18.79
+	Rent and other current transfers		-0.2562	-0.2645	-0.2744	-0.2848	-0.2952	-0.3056
+	Interest and dividends from private sector and abroad		1.083	0.9612	0.9822	1.002	1.078	1.14
+	Interest and dividends from public sector		-1.762	-1.847	-1.847	-1.847	-1.848	-1.866
+	Public sector pensions
+	Current Receipts		23.22	24.49	25.15	25.84	26.52	27.15
+	of which:
+	Taxes on income and wealth		0	0	0	0	0	0
+	Taxes on production and imports		0	0	0	0	0	0
+	Other current taxes		0	0	0	0	0	0
+	Taxes on capital		0	0	0	0	0	0
+	Compulsory social contributions		0	0	0	0	0	0
+	Gross operating surplus		-0.0725	-0.07424	-0.07676	-0.07936	-0.08104	-0.08104
+	Rent and other current transfers		0	0	0	0	0	0
+	Interest and dividends from private sector and abroad		23.29	24.56	25.23	25.92	26.6	27.24
+	Interest and dividends from public sector		0	0	0	0	0	0
+	Bank of England
+	Current Receipts 		0.09131	0.1095	0.1132	0.129	0.145	0.1589
+	of which:
+	Taxes on income and wealth		0.011	0.011	0.011	0.011	0.011	0.011
+	Taxes on production and imports		0	0	0	0	0	0
+	Other current taxes		0	0	0	0	0	0
+	Taxes on capital		0	0	0	0	0	0
+	Compulsory social contributions		0	0	0	0	0	0
+	Gross operating surplus		0.06837	0.07076	0.0734	0.07617	0.07897	0.08174
+	Rent and other current transfers		0	0	0	0	0	0
+	Interest and dividends from private sector and abroad		3.723	4.544	4.548	4.487	4.529	4.62
+	Interest and dividends from public sector		-3.711	-4.517	-4.519	-4.445	-4.474	-4.554
+	Public Sector
+	Current Receipts 		1316	1392	1449	1513	1571	1629
+	of which:
+	Taxes on income and wealth		506.6	542	561.6	590.4	616.4	644.1
+	Taxes on production and imports		376.4	395.1	413.3	428.3	442.3	455.6
+	Other current taxes		72.14	75.38	80.14	83.87	87.65	90.82
+	Taxes on capital		9.11	10.78	12.3	13.26	14.24	15.15
+	Compulsory social contributions		216.2	222.9	230.7	242.7	251.8	259.9
+	Gross operating surplus		86.34	91.17	94.61	98.22	101.6	105.4
+	Rent and other current transfers		5.625	6.039	6.272	6.368	6.489	6.602
+	Interest and dividends from private sector and abroad		43.56	48.65	49.96	50	51.1	51.76
+	Interest and dividends from public sector		0	0	0	0	0	0
+	Note: In the Economic and fiscal outlook, public corporations are presented in aggregate. In this table, public corporations are separated into non-financial public corporations, public sector pensions and Bank of England.
+
+===== SHEET: 6.3 =====
+Back to contents
+	6.3 General government transactions by economic category
+		£ billion
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Current receipts
+	Taxes on income and wealth	506.7	542.2	561.8	590.6	616.6	644.3
+	Taxes on production and imports	376.4	395.1	413.3	428.3	442.3	455.6
+	Other current taxes	72.14	75.38	80.14	83.87	87.65	90.82
+	Taxes on capital	9.11	10.78	12.3	13.26	14.24	15.15
+	Compulsory social contributions	216.2	222.9	230.7	242.7	251.8	259.9
+	Gross operating surplus	69.45	73.72	77.12	80.2	83.18	86.58
+	Rent and other current transfers	5.881	6.303	6.547	6.653	6.784	6.908
+	Interest and dividends from private sector and abroad	15.46	18.58	19.2	18.59	18.88	18.77
+	Interest and dividends from public sector	5.473	6.364	6.366	6.292	6.322	6.42
+	Total current receipts	1277	1351	1408	1471	1528	1584
+	Current expenditure
+	Consumption	685.9	696.5	717.9	734.9	762.8	787.6
+	Subsidies	45.23	44.63	44.88	42.97	43.72	43.76
+	Net social benefits	373.5	403	417.6	432.3	447.3	465.1
+	Net current grants abroad	5.143	5.513	6.446	5.972	6.234	6.439
+	Other current grants	24.9	22.45	22.9	22.74	23.53	24.07
+	Interest and dividends paid	116.5	124.2	130.7	140.5	144.4	155.7
+	Total current expenditure	1251	1296	1340	1379	1428	1483
+	Depreciation	-69.45	-73.72	-77.12	-80.2	-83.18	-86.58
+	Surplus on current budget 	-43.7	-18.64	-9.937	10.99	16.56	15.15
+	Capital expenditure
+	Gross domestic fixed capital formation	117.2	119.7	120.2	120.7	123.6	127
+	Less depreciation	-69.45	-73.72	-77.12	-80.2	-83.18	-86.58
+	Increase in inventories	-0.2074	-0.2087	-0.2104	-0.2113	-0.2168	-0.2246
+	Capital grants (net) within public sector	15.91	20.35	23.64	19.63	22.53	14.72
+	Capital grants to private sector	35.56	40.85	41.01	40.28	40.62	41.36
+	Capital grants from private sector	-1.618	-1.672	-1.727	-1.783	-1.841	-1.899
+	Net investment 	97.35	105.3	105.7	98.38	101.6	94.35
+	Net borrowing	141.1	124	115.7	87.39	84.99	79.2
+	of which:
+	Central government net borrowing	124.6	107.4	104.6	77.08	74.79	69.4
+	Local authority net borrowing	16.49	16.55	11.08	10.31	10.2	9.805
+	General government gross debt 
+	Central government	3260	3414	3566	3674	3799	3917
+	Local government	16.36	16.77	17.35	17.92	18.59	19.3
+
+===== SHEET: 6.4 =====
+Back to contents
+	6.4 Public sector transactions by sub-sector and economic category
+		£ billion
+		2026-27
+		Central government	Local authorities	Non-financial public corporations	Public sector pensions	Bank of England	Public 
+sector
+	Current receipts
+	Taxes on income and wealth	506.7	0	-0.19	-	0.011	506.6
+	Taxes on production and imports	375.3	1.129	-	-	-	376.4
+	Other current taxes	20.12	52.02	-	-	-	72.14
+	Taxes on capital	9.11	0	-	-	-	9.11
+	Compulsory social contributions	216.2	0	-	-	-	216.2
+	Gross operating surplus	48.05	21.41	16.89	-0.0725	0.06837	86.34
+	Rent and other current transfers	4.861	1.021	-0.2562	-	-	5.625
+	Interest and dividends from private sector and abroad	13.94	1.517	1.083	23.29	3.723	43.56
+	Interest and dividends from public sector	8.959	-3.486	-1.762	0	-3.711	0
+	Total current receipts 	1203	73.61	15.76	23.22	0.09131	1316
+	Current expenditure
+	Current expenditure on goods and services	486.5	199.4	 - 	-	0.1368	686
+	Subsidies	36.6	8.631	 - 	-	-0.7	44.53
+	Net social benefits	345.6	27.9	 - 	-19.59	-	353.9
+	Net current grants abroad	5.143	0	 - 	-	-	5.143
+	Current grants (net) within public sector	155.8	-155.8	 - 	-	-	0
+	Other current grants	24.9	0	 - 	-	-	24.9
+	VAT and GNI based EU contributions	0	0	 - 	-	-	0
+	Interest and dividends paid	115.3	1.201	0.514	18.76	8.57	144.3
+	Adjustment for the change in pension entitlements	0	0	-	19.59	0	19.59
+	Total current expenditure	1170	81.36	0.514	18.76	8.007	1278
+	Depreciation	48.05	21.41	8.587	0	0.066	78.1
+	Current budget deficit	14.54	29.16	-6.662	-4.455	7.982	40.57
+	Capital expenditure
+	Gross domestic fixed capital formation	89.23	27.93	16.04	0.1481	0.05283	133.4
+	Less depreciation	-48.05	-21.41	-8.587	0	-0.066	-78.1
+	Increase in inventories	-0.2074	0	0.071	0	0	-0.1364
+	Capital grants (net) within public sector	37.02	-21.12	0	0	-14.93	0.9756
+	Capital grants to private sector	32.02	3.542	0.3099	1.862	0	37.73
+	Capital grants from private sector	0	-1.618	0.382	0	0	-1.236
+	Total net investment	110	-12.67	8.215	2.01	-14.94	92.63
+	Net borrowing	124.6	16.49	1.552	-2.445	-6.962	133.2
+	Note: In the Economic and fiscal outlook, public corporations are presented in aggregate. In this table, public corporations are separated into non-financial public corporations, public sector pensions and Bank of England.
+
+===== SHEET: 6.5 =====
+Back to contents
+	6.5 Components of net borrowing
+		   £ billion
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Current budget
+	Current receipts	1316	1392	1449	1513	1571	1629
+	Current expenditure	1278	1327	1370	1409	1457	1512
+	Depreciation	78.1	82.74	86.46	89.83	93.1	96.75
+	Current budget deficit	40.57	17.52	7.793	-14.53	-21.72	-20.88
+	Capital budget
+	Gross investment1	170.7	177.2	178.2	178.1	181.7	186
+	Less Depreciation	78.1	82.74	86.46	89.83	93.1	96.75
+	Net investment	92.63	94.46	91.74	88.31	88.62	89.22
+	Net borrowing	133.2	112	99.54	73.78	66.9	68.34
+	1 Net of asset sales.
+
+===== SHEET: 6.6 =====
+Back to contents
+	6.6 Cash transfers from HM Treasury to BoE
+		£ billion
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Cash transfers from HM Treasury to BoE	14.93	19.66	22.71	18.61	21.49	13.66
+	of which:
+	APF interest losses (a)	8.57	10.97	9.48	8.11	6.38	5.44
+	APF valuation losses (b)	5.19	10.56	12.97	10.05	14.48	8.08
+	Change in APF cash1 (c)	1.17	-1.87	0.26	0.45	0.63	0.14
+	Memo: sales losses2 (d)	1.53	3.66	3.84	4.62	4.55	4.6
+	Memo: impact on current budget deficit (a)	8.57	10.97	9.48	8.11	6.38	5.44
+	Memo: impact on PSNFL/PSND (a+d)	10.1	14.63	13.32	12.73	10.93	10.04
+		Changes since March
+	Cash transfers from HM Treasury to BoE	-0.57	1.24	1.95	0.42	0.78
+	of which:
+	APF interest losses (a)	2.62	5.65	4.41	3.31	2.68
+	APF valuation losses (b)	-4.43	-2.5	-2.86	-3.26	-2.27
+	Change in APF cash1 (c)	1.24	-1.91	0.4	0.37	0.37
+	Memo: sales losses2 (d)	-1.67	-0.37	-0.55	-0.35	-0.86
+	Memo: impact on current budget deficit (a)	2.62	5.65	4.41	3.31	2.68
+	Memo: impact on PSNFL/PSND (a+d)	0.95	5.28	3.86	2.96	1.82
+	Note: This table uses the convention that a positive figure means an increase in fiscal aggregates, i.e., an increase in the current budget deficit or in PSNFL/PSND.
+	1 The ‘Change in APF cash’ line captures transfers related to the cash buffer which is used to smooth cash flows between the APF and the Treasury. 
+	2  As stocks of APF assets are sold, any differences between the redemption price at which they are booked in the public finances and the sales price results in a change in the recorded level of fiscal aggregates.
+
+===== SHEET: 6.7 =====
+Back to contents
+	6.7 Inconsistencies between OBR forecasts and ONS outturns
+		£ billion
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Items included in OBR forecasts that the ONS has not yet included in outturn
+	Public sector current receipts (PSCR)	5.036	6.02	6.517	5.849	6.235	7.275
+	Capacity market auctions	2.793	3.611	3.673	2.887	2.959	3.733
+	Extended producer responsibility fees	1.498	1.528	1.566	1.608	1.65	1.693
+	Sizewell C RAB levy	0.745	0.881	1.278	1.354	1.626	1.849
+	Current expenditure (PSCE)	4.63	5.498	5.664	4.97	5.141	5.976
+	Capacity market auctions	2.793	3.611	3.673	2.887	2.959	3.733
+	Extended producer responsibility fees	1.498	1.528	1.566	1.608	1.65	1.693
+	Sizewell C RAB levy	0.339	0.359	0.425	0.475	0.532	0.55
+	Effect on PSNB	-0.406	-0.522	-0.853	-0.879	-1.094	-1.299
+
+===== SHEET: 6.8 =====
+Back to contents
+	6.8 Student entrant borrowers forecast
+		Percent change on a year earlier, unless otherwise stated
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Yearly entrant borrower growth1	3.186	0.8202	1.295	1.64	1.796	-0.2538
+		Thousands
+	Full-support eligible entrant borrowers1,2	470.6	474.5	480.6	488.5	497.3	496
+	Tuition fee-only eligible entrant borrowers1,3	0.332	0.363	0.355	0.357	0.339	0.363
+	1 Coverage includes full-time undergraduate entrant borrowers to Approved (fee cap) providers in England or Higher education institutions in the Devolved Administrations. 
+	2 Students in this group are specifically England domiciled to UK providers. 
+	3 Students in this group are specifically England domiciled to England providers. Group consists of EU nationals with pre-settled status and EU, other EEA and Swiss nationals who are eligible for partial support because of the withdrawal agreement, including Irish nationals who have not been domiciled in the UK for 3 years before commencing studies.
+
+===== SHEET: 6.9 =====
+Back to contents
+	6.9 Breakdown of the net flow of student loans and repayments
+		£ billion
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Net cash outlays	17.35	17.52	17.76	17.87	18	17.76
+	Gross cash spending on new loans	24.06	25.03	26.03	26.96	27.89	28.66
+	of which:
+	England	21.72	22.71	23.67	24.56	25.45	26.22
+	Scotland, Wales and Northern Ireland	2.337	2.326	2.365	2.403	2.434	2.444
+	Gross cash repayments	6.707	7.516	8.271	9.094	9.882	10.9
+	of which:
+	England	6.07	6.851	7.568	8.351	9.101	10.06
+	Scotland, Wales and Northern Ireland	0.6364	0.665	0.7037	0.7432	0.7813	0.8352
+
+===== SHEET: 6.10 =====
+Back to contents
+	6.10 Proxy for prevailing market rates 
+(used to calculate student loan interest cap)
+	Per cent
+	 Outturn	Q1 2016	8.21
+		Q2 2016	8.02
+		Q3 2016	7.88
+		Q4 2016	7.77
+		Q1 2017	7.67
+		Q2 2017	7.6
+		Q3 2017	7.54
+		Q4 2017	7.45
+		Q1 2018	7.32
+		Q2 2018	7.1
+		Q3 2018	7.04
+		Q4 2018	7.01
+		Q1 2019	6.95
+		Q2 2019	7.1
+		Q3 2019	7.13
+		Q4 2019	7.1
+		Q1 2020	7.09
+		Q2 2020	7.04
+		Q3 2020	6.99
+		Q4 2020	6.92
+		Q1 2021	6.9
+		Q2 2021	6.87
+		Q3 2021	6.92
+		Q4 2021	6.89
+		Q1 2022	6.99
+		Q2 2022	7
+		Q3 2022	7.07
+		Q4 2022	7.19
+		Q1 2023	7.41
+		Q2 2023	7.68
+		Q3 2023	7.91
+		Q4 2023	7.98
+		Q1 2024	8.18
+		Q2 2024	8.4
+		Q3 2024	8.56
+		Q4 2024	8.64
+		Q1 2025	8.69
+		Q2 2025	8.8
+		Q3 2025	8.84
+		Q4 2025	8.85
+		Q1 2026	9.26
+		Q2 2026	9.3
+	Forecast	Q3 2026	9.34
+		Q4 2026	9.488
+		Q1 2027	9.581
+		Q2 2027	9.661
+		Q3 2027	9.734
+		Q4 2027	9.778
+		Q1 2028	9.833
+		Q2 2028	9.843
+		Q3 2028	9.839
+		Q4 2028	9.852
+		Q1 2029	9.875
+		Q2 2029	9.891
+		Q3 2029	9.919
+		Q4 2029	9.943
+		Q1 2030	9.966
+		Q2 2030	9.999
+		Q3 2030	10.04
+		Q4 2030	10.08
+		Q1 2031	10.12
+		Q2 2031	10.15
+		Q3 2031	10.18
+		Q4 2031	10.21
+		Q1 2032	10.24
+	Note: The Prevailing Market Rate cap is triggered when the maximum interest rate on student loans in England (RPI + 3 percentage points) exceeds interest rates on unsecured loans. This series was used as a proxy for prevailing market rates in our October 2024 forecast and has been calculated using outturn values from the Bank of England's 'CFMZ6LI' series, with forecast values indexed to our forecast for fixed mortgage rates. 
+Source: BoE, ONS, OBR
+
+===== SHEET: 6.11 =====
+Back to contents
+	6.11 Public sector net debt: year-on-year changes
+	See Table 6.3 of our October 2026 Economic and fiscal outlook
+
+===== SHEET: 6.12 =====
+Back to contents
+	6.12 Total gross financing
+		£ billion
+		2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Central government net cash requirement1	144.1	146.1	149.8	83.64	114.8	104.7
+	Gilt redemptions	140.2	174.6	164.2	170.7	180.4	229.4
+	Change in DMO cash position	-10.6	0	0	0	0	0
+	Total gross financing	273.7	320.7	313.9	254.4	295.2	334
+	of which:
+	Conventional gilts	224.8	274.2	267.9	214.2	251.1	286
+	Index-linked gilts	24.48	29.86	29.18	23.33	27.34	31.15
+	Treasury bills	8	0	0	0	0	0
+	NS&I	15	15	15	15	15	15
+	Other central government	1.397	1.685	1.818	1.781	1.789	1.835
+	1 Excluding Northern Rock, Bradford and Bingley, and Network Rail.
+
+===== SHEET: 6.13 =====
+Back to contents
+	6.13 Composition of public sector net debt 
+		Per cent of GDP1
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Public sector debt liabilities, ex BoE (a)	98.05	100.6	101.5	102.1	101.4	101.2	100.9
+	Central government	98.42	101	101.9	102.5	101.8	101.6	101.3
+	of which:
+	Conventional gilts	62.96	63.98	65.12	66.71	65.56	65.32	65.12
+	Index-linked gilts	21.32	22.45	22.39	21.34	21.81	21.81	21.69
+	Treasury bills	3.009	3.17	3.055	2.942	2.837	2.737	2.648
+	NS&I	7.98	8.216	8.364	8.485	8.598	8.699	8.803
+	Other central government	3.16	3.186	2.983	3.014	3.043	3.048	3.082
+	Local government2	0.5127	0.5272	0.5203	0.5177	0.515	0.515	0.5165
+	Public corporations ex BoE3 (b)	-0.9097	-0.9112	-0.9157	-0.9192	-0.9237	-0.9286	-0.9359
+	Public sector liquid assets, ex BoE2 (c)	9.124	8.267	7.768	7.429	7.183	7.03	6.914
+	Central government	7.706	7.083	6.865	6.648	6.447	6.26	6.095
+	of which:
+	Reserves	5.666	5.43	5.272	5.114	4.969	4.833	4.714
+	Other central government	2.04	1.653	1.593	1.534	1.479	1.427	1.381
+	Local government2	0.655	0.4588	0.2306	0.1521	0.1375	0.1962	0.2742
+	Public corporations ex BoE3	0.7629	0.725	0.6723	0.6292	0.5977	0.5734	0.5455
+	Public sector net debt ex BoE (a-c=d)	88.92	92.35	93.75	94.66	94.25	94.17	94.01
+	BoE gross debt 
+liabilities (e)	10.57	9.381	8.832	8.243	7.798	6.845	6.531
+	of which:
+	Due to quantitative easing	2.711	2.566	2.267	1.92	1.701	1.376	1.241
+	Due to the Term Funding Scheme	1.336	0.4803	0.4627	0.4456	0.4297	0	0
+	Due to other activities	6.521	6.334	6.103	5.877	5.667	5.469	5.29
+	BoE liquid assets (f)	6.389	6.227	5.884	5.617	5.374	5.15	4.934
+	BoE net debt (e-f=g)	4.18	3.154	2.948	2.626	2.424	1.695	1.598
+	Public sector net debt
+ (PSND)(d+g)	93.1	95.51	96.7	97.28	96.67	95.87	95.61
+	Memo: general government gross debt (a-b)	98.96	101.5	102.4	103	102.4	102.1	101.9
+	Memo: general government gross debt (calendar year basis)	102.4	102.3	103.9	104.8	104.4	104	103.6
+	1 Non-seasonally adjusted GDP centred end-March.
+	2 Net of debt liabilities / liquid assets held by central government.
+	3 Net of debt liabilities / liquid assets held by central and local government.
+
+===== SHEET: 6.14 =====
+Back to contents
+	6.14 Composition of public sector net worth
+			Per cent of GDP
+			Outturn	Forecast
+			2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Total assets		113.2	113.7	112.8	111.9	111.1	110.7	110.6
+	of which: 
+		Currency and deposits 	9.914	9.084	8.401	7.954	7.61	7.369	7.156
+		Debt securities 	5.367	5.309	5.22	5.13	5.05	4.977	4.918
+		Loans 	8.323	8.021	7.663	7.317	7.001	6.716	6.467
+		Equity	18.8	19.54	19.54	19.57	19.58	19.55	19.52
+		Non-finanical assets	62.98	64.29	64.77	64.99	65.14	65.57	66.22
+		Other1 	7.805	7.491	7.231	6.977	6.741	6.519	6.297
+	Total liabilities		-175.7	-176.7	-175.7	-174.3	-172.5	-170.8	-169.4
+	of which: 
+		Currency and deposits 	-34.6	-32.23	-28.15	-24.58	-22.73	-19.46	-17.63
+		Debt securities 	-73.05	-75.97	-79.19	-81.6	-81.71	-83.22	-83.55
+		Funded pension liabilities	-17.08	-17.4	-17.55	-17.69	-17.85	-18.03	-18.24
+		Unfunded pension liabilities	-43.52	-43.95	-43.93	-43.91	-43.92	-43.99	-44.11
+		Other1 	-7.423	-7.144	-6.848	-6.563	-6.3	-6.054	-5.834
+	Public sector net worth 		-62.5	-62.95	-62.83	-62.39	-61.4	-60.06	-58.78
+	1 'Other' mainly comprises accounts payable (or receivale). It also includes monetray gold and SDRs, non-life insurance technical reserves, financial derivatives, public private partnerships and employee stock options, and provisions for call under standardised guarantees. 
+Source: ONS, OBR
+
+===== SHEET: 6.15 =====
+Back to contents
+	6.15 Reconciliation of PSNCR and CGNCR
+	See Table 6.6 of our October 2026 Economic and fiscal outlook
+
+===== SHEET: 6.16 =====
+Back to contents
+	6.16 Central government debt interest payments by financing component
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Debt interest on conventional gilts	41.97	53.43	63.25	75.06	85.28	94.52	105.2
+	of which:
+	  Existing stock	41.97	47.89	44.14	41.07	38.62	36.44	34.4
+	  New stock	0	5.548	19.12	33.99	46.66	58.08	70.85
+	Conventional gilts held in the APF 1	23.06	19.57	21.36	18.49	15.79	13.41	10.96
+	Index-linked gilts	25.4	32.08	27.87	23.65	24.66	20.01	21.76
+	of which:
+	  Existing stock	25.4	31.64	26.45	21.23	20.86	15.98	16.44
+	  New stock	0	0.4444	1.423	2.415	3.805	4.036	5.316
+	Debt interest on National Savings and Investments	7.734	8.143	9.33	9.62	9.714	9.777	10.06
+	Other debt interest	10.57	10.62	12.17	12.15	11.96	11.84	11.93
+	Total CG debt interest (net of APF)	108.7	123.9	134	139	147.4	149.6	160
+	Note: The data in this table shows the breakdown into different financing components of the debt interest forecast shown in Table 5.8 of the October 2026 Economic and fiscal outlook.
+1 Gross interest paid on the stock of conventional gilts held in the Asset Purchase Facility (APF).
+Source: ONS, OBR
+
+===== SHEET: 6.17 =====
+Back to contents
+	6.17 Total outstanding stocks, debt interest payments and effective interest rates over the forecast period
+		£ billion
+		Outturn	Forecast
+		2025-26	2026-27	2027-28	2028-29	2029-30	2030-31	2031-32
+	Conventional gilts held in the private sector (Excluding APF)
+	Stock	1425	1598	1756	1939	2072	2180	2297
+	Debt interest	41.97	53.43	63.25	75.06	85.28	94.52	105.2
+	Effective interest rate	2.945	3.344	3.602	3.871	4.115	4.337	4.582
+	Conventional gilts held in the APF
+	Stock	487.5	421.3	366.9	311.9	270.5	223.5	181.7
+	Debt interest	23.06	19.57	21.36	18.49	15.79	13.41	10.96
+	Effective interest rate	2.443	2.611	2.832	2.889	2.839	3.145	3.038
+	Index-linked gilts
+	Stock	650.1	696.5	737.3	746.1	764.4	801	826.7
+	Debt interest	25.4	32.08	27.87	23.65	24.66	20.01	21.76
+	Effective interest rate	3.907	4.607	3.78	3.169	3.226	2.498	2.632
+	RPI inflation	3.753	4.593	3.553	2.854	2.88	2.153	2.201
+	Real effective interest rate	0.1542	0.01385	0.2267	0.3152	0.3456	0.3452	0.431
+	NS&I
+	Stock	244.3	257.7	272.7	287.7	302.7	317.7	332.7
+	Debt interest	7.734	8.143	9.33	9.62	9.714	9.777	10.06
+	Effective interest rate	3.165	3.16	3.422	3.344	3.209	3.078	3.023
+	Other debt
+	Stock	189.1	199.2	203.7	204.7	209.6	214.1	218.8
+	Debt interest	10.57	10.62	12.17	12.15	11.96	11.84	11.93
+	Effective interest rate	5.591	5.332	5.974	5.935	5.706	5.528	5.453
+	Central government
+	Gross debt	2996	3172	3337	3489	3619	3736	3857
+	Debt interest (net of APF)	108.7	123.9	134	139	147.4	149.6	160
+	Effective interest rate	3.629	3.904	4.015	3.982	4.073	4.003	4.147
+	Public sector
+	Gross debt	3290	3477	3623	3767	3889	3989	4095
+	Debt interest	128.1	144.3	155.3	161.1	170.3	173.4	184.7
+	Effective interest rate	3.893	4.151	4.286	4.276	4.38	4.348	4.511
+	Memo: effective interest rates gross of APF
+	CG gross debt	3.236	3.634	3.687	3.711	3.849	3.833	4.006
+	Conventional gilts	2.817	3.191	3.469	3.735	3.968	4.226	4.468

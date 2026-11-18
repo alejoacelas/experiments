@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Home Price Expectations Survey: Q3 Recap | Pulsenomics</title><link rel="preload" data-rocket-preload as="image" href="https://pulsenomics.com/wp-content/uploads/2026/08/chart1_annual_trajectory.png" fetchpriority="high">
+	<meta name="description" content="Field period: August 5–14, 2026  |  114 responding panelists Higher-for-longer rates, sticky lock-in, and a cooling price outlook The latest Home Price" />
+	<link rel="canonical" href="https://pulsenomics.com/2026/08/home-price-expectations-survey-q3-recap/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Home Price Expectations Survey: Q3 Recap | Pulsenomics" />
+	<meta property="og:description" content="Field period: August 5–14, 2026  |  114 responding panelists Higher-for-longer rates, sticky lock-in, and a cooling price outlook The latest Home Price" />
+	<meta property="og:url" content="https://pulsenomics.com/2026/08/home-price-expectations-survey-q3-recap/" />
+	<meta property="og:site_name" content="Pulsenomics" />
+	<meta property="article:published_time" content="2026-08-27T19:57:39+00:00" />
+	<meta property="og:image" content="https://pulsenomics.com/wp-content/uploads/2026/08/blog_featured_image_1.jpg" />
+	<meta property="og:image:width" content="1920" />
+	<meta property="og:image:height" content="768" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Pulsenomics" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Pulsenomics" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="11 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#article","isPartOf":{"@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/"},"author":{"name":"Pulsenomics","@id":"http:\/\/94m.c09.myftpupload.com\/#\/schema\/person\/3dbe0e45f39e9464e02600c56a3360d1"},"headline":"Home Price Expectations Survey: Q3 Recap","datePublished":"2026-08-27T19:57:39+00:00","mainEntityOfPage":{"@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/"},"wordCount":1848,"commentCount":0,"publisher":{"@id":"http:\/\/94m.c09.myftpupload.com\/#organization"},"image":{"@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#primaryimage"},"thumbnailUrl":"https:\/\/pulsenomics.com\/wp-content\/uploads\/2026\/08\/blog_featured_image_1.jpg","keywords":["Fannie Mae","Home Price Expectations Survey","housing affordability","housing market forecast","HPES","lock-in effect","mortgage rates","Pulsenomics"],"articleSection":["Affordability","Economy","Expectations","Home prices","Housing","Inflation"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#respond"]}]},{"@type":"WebPage","@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/","url":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/","name":"Home Price Expectations Survey: Q3 Recap | Pulsenomics","isPartOf":{"@id":"http:\/\/94m.c09.myftpupload.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#primaryimage"},"image":{"@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#primaryimage"},"thumbnailUrl":"https:\/\/pulsenomics.com\/wp-content\/uploads\/2026\/08\/blog_featured_image_1.jpg","datePublished":"2026-08-27T19:57:39+00:00","description":"Field period: August 5–14, 2026  |  114 responding panelists Higher-for-longer rates, sticky lock-in, and a cooling price outlook The latest Home Price","breadcrumb":{"@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#primaryimage","url":"https:\/\/pulsenomics.com\/wp-content\/uploads\/2026\/08\/blog_featured_image_1.jpg","contentUrl":"https:\/\/pulsenomics.com\/wp-content\/uploads\/2026\/08\/blog_featured_image_1.jpg","width":1920,"height":768},{"@type":"BreadcrumbList","@id":"https:\/\/pulsenomics.com\/2026\/08\/home-price-expectations-survey-q3-recap\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/pulsenomics.com\/"},{"@type":"ListItem","position":2,"name":"Home Price Expectations Survey: Q3 Recap"}]},{"@type":"WebSite","@id":"http:\/\/94m.c09.myftpupload.com\/#website","url":"http:\/\/94m.c09.myftpupload.com\/","name":"Pulsenomics","description":"","publisher":{"@id":"http:\/\/94m.c09.myftpupload.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"http:\/\/94m.c09.myftpupload.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"http:\/\/94m.c09.myftpupload.com\/#organization","name":"Pulsenomics LLC","url":"http:\/\/94m.c09.myftpupload.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"http:\/\/94m.c09.myftpupload.com\/#\/schema\/logo\/image\/","url":"https:\/\/pulsenomics.com\/wp-content\/uploads\/2018\/09\/Logo_08022018.png","contentUrl":"https:\/\/pulsenomics.com\/wp-content\/uploads\/2018\/09\/Logo_08022018.png","width":268,"height":40,"caption":"Pulsenomics LLC"},"image":{"@id":"http:\/\/94m.c09.myftpupload.com\/#\/schema\/logo\/image\/"}},{"@type":"Person","@id":"http:\/\/94m.c09.myftpupload.com\/#\/schema\/person\/3dbe0e45f39e9464e02600c56a3360d1","name":"Pulsenomics","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/f98f89394e8e3ac56cad6de6d0dc162c9781fcdf19f610a4e4c10bcc01f1fd1c?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/f98f89394e8e3ac56cad6de6d0dc162c9781fcdf19f610a4e4c10bcc01f1fd1c?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/f98f89394e8e3ac56cad6de6d0dc162c9781fcdf19f610a4e4c10bcc01f1fd1c?s=96&d=mm&r=g","caption":"Pulsenomics"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Pulsenomics &raquo; Feed" href="https://pulsenomics.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pulsenomics &raquo; Comments Feed" href="https://pulsenomics.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://pulsenomics.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpulsenomics.com%2F2026%2F08%2Fhome-price-expectations-survey-q3-recap%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://pulsenomics.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpulsenomics.com%2F2026%2F08%2Fhome-price-expectations-survey-q3-recap%2F&#038;format=xml" />
+<link rel="preload" href="https://pulsenomics.com/wp-content/plugins/bb-plugin/fonts/fontawesome/7.2.0/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://pulsenomics.com/wp-content/plugins/bb-plugin/fonts/fontawesome/7.2.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<style>
+			.lazyload,
+			.lazyloading {
+				max-width: 100%;
+			}
+		</style>
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="site-designer-shared-pattern-classes-inline-css">
+/* Dark cover/section overlay + on-dark text. */
+body .wp-site-blocks .is-style-overlay-dark .wp-block-cover__background { background-color: var(--wp--preset--color--base-3); color: var(--wp--preset--color--contrast-3); }
+.wp-block-cover.is-style-overlay-dark .wp-block-cover__background.has-background-dim { opacity: 0.50 !important; }
+:is(.wp-block-designsetgo-section, .wp-block-designsetgo-scroll-slides).is-style-overlay-dark { --dsgo-overlay-color: var(--wp--preset--color--base-3); --dsgo-overlay-opacity: 0.50; color: var(--wp--preset--color--contrast-3); }
+.dsgo-image-accordion-item.is-style-overlay-dark { --dsgo-overlay-color: var(--wp--preset--color--base-3); }
+.wp-block-group.has-background.is-style-overlay-dark { box-shadow: inset 0 0 0 9999px color-mix(in srgb, var(--wp--preset--color--base-3) 50%, transparent); }
+body .wp-site-blocks .is-style-overlay-dark, body .wp-site-blocks .is-style-on-dark { --dsgo-text-color: var(--wp--preset--color--contrast-3); color: var(--wp--preset--color--contrast-3) !important; }
+body .wp-site-blocks .is-style-overlay-dark :is(h1,h2,h3,h4,h5,h6,p,li,blockquote,cite), body .wp-site-blocks .is-style-on-dark :is(h1,h2,h3,h4,h5,h6,p,li,blockquote,cite) { color: var(--wp--preset--color--contrast-3) !important; }
+
+/* Solid dark section background + light text. */
+.is-style-bg-dark { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); }
+.is-style-bg-dark a { color: var(--wp--preset--color--base); }
+/*# sourceURL=site-designer-shared-pattern-classes-inline-css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--fl-heading-text: #333333;--wp--preset--color--fl-body-bg: #f2f2f2;--wp--preset--color--fl-body-text: #0a0a0a;--wp--preset--color--fl-accent: #ff6300;--wp--preset--color--fl-accent-hover: #848484;--wp--preset--color--fl-topbar-bg: #ffffff;--wp--preset--color--fl-topbar-text: #000000;--wp--preset--color--fl-topbar-link: #428bca;--wp--preset--color--fl-topbar-hover: #428bca;--wp--preset--color--fl-header-bg: #ffffff;--wp--preset--color--fl-header-text: #000000;--wp--preset--color--fl-header-link: #428bca;--wp--preset--color--fl-header-hover: #428bca;--wp--preset--color--fl-nav-bg: #ffffff;--wp--preset--color--fl-nav-link: #428bca;--wp--preset--color--fl-nav-hover: #428bca;--wp--preset--color--fl-content-bg: #ffffff;--wp--preset--color--fl-footer-widgets-bg: #ffffff;--wp--preset--color--fl-footer-widgets-text: #000000;--wp--preset--color--fl-footer-widgets-link: #428bca;--wp--preset--color--fl-footer-widgets-hover: #428bca;--wp--preset--color--fl-footer-bg: #ffffff;--wp--preset--color--fl-footer-text: #000000;--wp--preset--color--fl-footer-link: #428bca;--wp--preset--color--fl-footer-hover: #428bca;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-color{color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-color{color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-color{color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-color{color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-color{color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-color{color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-color{color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-color{color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-color{color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-color{color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-color{color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-color{color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-color{color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-color{color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-color{color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-color{color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-color{color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-color{color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-color{color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-color{color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-color{color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-color{color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-color{color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-color{color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-color{color: var(--wp--preset--color--fl-footer-hover) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-background-color{background-color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-background-color{background-color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-background-color{background-color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-background-color{background-color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-background-color{background-color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-background-color{background-color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-background-color{background-color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-background-color{background-color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-background-color{background-color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-background-color{background-color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-background-color{background-color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-background-color{background-color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-background-color{background-color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-background-color{background-color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-background-color{background-color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-background-color{background-color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-background-color{background-color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-background-color{background-color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-background-color{background-color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-background-color{background-color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-background-color{background-color: var(--wp--preset--color--fl-footer-hover) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-border-color{border-color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-border-color{border-color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-border-color{border-color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-border-color{border-color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-border-color{border-color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-border-color{border-color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-border-color{border-color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-border-color{border-color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-border-color{border-color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-border-color{border-color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-border-color{border-color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-border-color{border-color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-border-color{border-color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-border-color{border-color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-border-color{border-color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-border-color{border-color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-border-color{border-color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-border-color{border-color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-border-color{border-color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-border-color{border-color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-border-color{border-color: var(--wp--preset--color--fl-footer-hover) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cookie-notice-front-css' href='https://pulsenomics.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=3.1.19' media='all' />
+<link rel='stylesheet' id='wp-theme-css' href='https://pulsenomics.com/wp-includes/css/dist/theme/design-tokens.min.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://pulsenomics.com/wp-includes/css/dist/components/style.min.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='godaddy-styles-css' href='https://pulsenomics.com/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css' href='https://pulsenomics.com/wp-content/plugins/bb-plugin/fonts/fontawesome/7.2.0/css/all.min.css?ver=2.11.1.2' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://pulsenomics.com/wp-content/plugins/bb-plugin/fonts/fontawesome/7.2.0/css/v4-shims.min.css?ver=2.11.1.2' media='all' />
+<link rel='stylesheet' id='ultimate-icons-css' href='https://pulsenomics.com/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=2.11.1.2' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-bundle-933b282a8497bd09d486fbfb9cc83ec8-css' href='https://pulsenomics.com/wp-content/uploads/bb-plugin/cache/933b282a8497bd09d486fbfb9cc83ec8-layout-bundle.css?ver=2.11.1.2-1.6.1' media='all' />
+<link rel='stylesheet' id='gd-core-css' href='https://pulsenomics.com/wp-content/plugins/pws-core/public/css/GD-cORe-public.css?ver=4.1.13' media='all' />
+<link rel='stylesheet' id='jquery-magnificpopup-css' href='https://pulsenomics.com/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css?ver=2.11.1.2' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://pulsenomics.com/wp-content/themes/bb-theme/css/bootstrap.min.css?ver=1.7.18.1' media='all' />
+<link rel='stylesheet' id='fl-automator-skin-css' href='https://pulsenomics.com/wp-content/uploads/bb-theme/skin-6ab4256608080.css?ver=1.7.18.1' media='all' />
+<link rel='stylesheet' id='pp-animate-css' href='https://pulsenomics.com/wp-content/plugins/bbpowerpack/assets/css/animate.min.css?ver=3.5.1' media='all' />
+<script type="text/rocketlazyloadscript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/pulsenomics.com\/wp-admin\/admin-ajax.php","nonce":"b9d791fb84","hideEffect":"fade","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+
+//# sourceURL=cookie-notice-front-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="cookie-notice-front-js" data-rocket-src="https://pulsenomics.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=3.1.19" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://pulsenomics.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://pulsenomics.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="gd-core-js" data-rocket-src="https://pulsenomics.com/wp-content/cache/min/1/wp-content/plugins/pws-core/public/js/GD-cORe-public.js?ver=1793202433" data-rocket-defer defer></script>
+<script id="smush-lazy-load-js-before">
+var smushLazyLoadOptions = {"autoResizingEnabled":false,"autoResizeOptions":{"precision":5,"skipAutoWidth":true,"cdnBaseURL":""}};
+//# sourceURL=smush-lazy-load-js-before
+</script>
+<script id="smush-lazy-load-js" src="https://pulsenomics.com/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js?ver=4.3.7" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://pulsenomics.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://pulsenomics.com/wp-json/wp/v2/posts/3424" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pulsenomics.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel='shortlink' href='https://pulsenomics.com/?p=3424' />
+		<script type="text/rocketlazyloadscript">
+			var bb_powerpack = {
+				version: '2.43.2',
+				getAjaxUrl: function() { return atob( 'aHR0cHM6Ly9wdWxzZW5vbWljcy5jb20vd3AtYWRtaW4vYWRtaW4tYWpheC5waHA=' ); },
+				callback: function() {},
+				mapMarkerData: {},
+				post_id: '3424',
+				search_term: '',
+				current_page: 'https://pulsenomics.com/2026/08/home-price-expectations-survey-q3-recap/',
+				conditionals: {
+					is_front_page: false,
+					is_home: false,
+					is_archive: false,
+					current_post_type: '',
+					is_tax: false,
+										is_author: false,
+					current_author: false,
+					is_search: false,
+									}
+			};
+					</script>
+				<script type="text/rocketlazyloadscript">
+			document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+		</script>
+		<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://pulsenomics.com/wp-content/uploads/2020/05/cropped-site-ID-square2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://pulsenomics.com/wp-content/uploads/2020/05/cropped-site-ID-square2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://pulsenomics.com/wp-content/uploads/2020/05/cropped-site-ID-square2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://pulsenomics.com/wp-content/uploads/2020/05/cropped-site-ID-square2-270x270.png" />
+<style id="wp-site-designer-contrast-fallback"> .wp-block-group:not([data-dsgo-inline-bg]),.wp-block-column:not([data-dsgo-inline-bg]),.wp-block-columns:not([data-dsgo-inline-bg]){--dsgo-text-color:initial;} :is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover:not(.has-text-color){color:var(--wp--preset--color--contrast-3) !important;--dsgo-text-color:var(--wp--preset--color--contrast-3);} body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h1:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h2:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h3:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h4:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h5:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h6:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) p:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) .wp-element-caption:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)){color:var(--dsgo-text-color,inherit) !important;} body .wp-site-blocks :is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column)[data-dsgo-inline-bg] .wp-block-button:is([class*="is-style-outline"],[class*="is-style-secondary"]) .wp-element-button{color:var(--dsgo-text-color,inherit) !important;border-color:currentColor !important;}body .wp-site-blocks :is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column)[data-dsgo-inline-bg] .wp-block-button:is([class*="is-style-outline"],[class*="is-style-secondary"]) .wp-element-button:hover{opacity:0.75;} body .wp-site-blocks [data-dsgo-inline-bg] h1:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h2:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h3:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h4:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h5:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h6:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] p:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] .wp-element-caption:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)){color:var(--dsgo-text-color,inherit) !important;} .wp-block-designsetgo-section.has-background:not([data-dsgo-inline-bg]):not(.has-text-color){color:var(--wp--preset--color--contrast);--dsgo-text-color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-5);color:var(--wp--preset--color--contrast);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-2);color:var(--wp--preset--color--contrast);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-1);color:var(--wp--preset--color--contrast);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-3);color:var(--wp--preset--color--accent-2);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--accent-2);} :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--contrast);color:var(--wp--preset--color--base);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--base);}   body .wp-site-blocks input:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="image"]):not([type="hidden"]),body .wp-site-blocks textarea,body .wp-site-blocks select{background-color:var(--wp--preset--color--base);color:var(--wp--preset--color--contrast);border:1px solid color-mix(in srgb, var(--wp--preset--color--contrast) 30%, transparent);} .wp-site-blocks input[type="submit"]:not(.wp-element-button),.wp-site-blocks button[type="submit"]:not(.wp-element-button){background-color:var(--wp--preset--color--accent-2);color:var(--wp--preset--color--base);border-width:0;padding:12px 30px;font-family:inherit;font-size:var(--wp--preset--font-size--medium, 1rem);line-height:inherit;cursor:pointer;}</style>
+<style id="wp-custom-css">
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:900');
+
+/*------------------------------------
+            SITEWIDE
+--------------------------------------*/
+ .anchor {
+   padding-top: 120px;
+   margin-top: -120px;
+}
+header .pp-advanced-menu .menu > li {margin-left: 2px!important;}
+.fl-builder-panel-search-input input {
+ z-index: 99;
+}
+
+
+.fl-photo img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px !important;
+}
+
+#fl-to-top {
+    background-color: #ff6300 !important;
+}
+
+#fl-to-top:hover {
+    background-color: #000000 !important;
+}
+
+
+
+/*------------------------------------
+            HEADER
+--------------------------------------*/
+
+/*---- Border Color Fix  ----*/
+
+.site-header {
+  border-bottom-color: transparent;
+}
+
+.pharmacy-primary-navigation, .pharmacy-secondary-navigation {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+
+
+/*------------------------------------
+            NAVIGATION
+--------------------------------------*/
+
+/*--- Green Nav Focus and Active Issue ---*/
+
+.main-navigation ul.menu a:active, .main-navigation ul.menu a:focus, .main-navigation ul.menu a:hover, .main-navigation ul.menu li:hover > a, .main-navigtaion ul.nav-menu li:hover > a, .main-navigation ul.nav-menu a:active, .main-navigation ul.nav-menu a:focus, .main-navigation ul.nav-menu a:hover, .main-navigation ul.menu > li.current-menu-item > a, .main-navigation ul.nav-menu > li.current-menu-item > a, .main-navigation ul.menu > li:hover > a, .main-navigation ul.nav-menu > li:hover > a, .site-header-cart:hover > li > a, a.cart-contents:hover, .site-header-cart:hover > li > a, ul.menu li.current-menu-item > a {
+    color: #fff;
+}
+
+.main-navigation ul.menu li.current_page_item > a, .main-navigation ul.menu li.current-menu-item > a, .main-navigation ul.menu li.current_page_ancestor > a, .main-navigation ul.menu li.current-menu-ancestor > a, .main-navigation ul.nav-menu li.current_page_item > a, .main-navigation ul.nav-menu li.current-menu-item > a, .main-navigation ul.nav-menu li.current_page_ancestor > a, .main-navigation ul.nav-menu li.current-menu-ancestor > a {
+    color: #fff;
+}
+
+.main-navigation ul.nav-menu a,
+.main-navigation ul li a,
+button.menu-toggle {
+      
+}
+
+
+
+/*------------------------------------
+            TEXT STYLES
+--------------------------------------*/
+
+
+
+h1,h2,h3,h4,h5,h6, .footer-contact-us-detail-box h5, span.fl-button-text {
+	font-family: 'Roboto';
+}
+
+body, p, ul, .footer-contact-us-detail-box p a, .footer-contact-us-detail-box p, span.pp-button-text {
+  font-family: 'Montserrat';   
+	font-size: 16px;
+}
+
+
+
+
+/*------------------------------------
+            NEW
+--------------------------------------*/
+
+select#cat {
+    width: 100%;
+}
+
+.anchor {
+	margin-top:-100px;
+	padding-top:100px;
+	
+}
+
+
+/*------------------------------------
+            FOOTER
+--------------------------------------*/
+
+
+
+
+
+/*------------------------------------
+            MISC. STYLES
+--------------------------------------*/
+
+
+
+
+
+/*------------------------------------
+    (min-width: 1024px) DEKSTOP ONLY
+--------------------------------------*/
+
+@media only screen and (min-width:1025px) {
+
+.single-post .fl-content, .single-post  .fl-sidebar {
+    margin: 150px 0;
+}
+
+}
+
+
+
+/*------------------------------------
+(max-width: 1024px) and (min-width:770px) IPAD LANSCAPE ONLY
+--------------------------------------*/
+
+@media only screen and (max-width:1024px) and (min-width:770px) {
+
+	.fl-node-5b7c1fe774bf5 .uabb-spacer-gap-preview.uabb-spacer-gap {
+    height: 460px;
+}
+	
+	div.fl-node-5b7c1cf19a421 .pp-heading-content .pp-heading .heading-title span.pp-primary-title {
+    font-size: 25px;
+}
+	
+	ul#menu-main li span {
+    font-size: 13px;
+}
+
+	.single-post .fl-content, .single-post  .fl-sidebar {
+    margin: 150px 0;
+}
+
+.fl-node-5b7c1cc72948e {
+    width: 18.58%;
+}	
+	
+}
+
+
+/*------------------------------------
+(max-width: 768px and min-width:482px) IPAD PORTRAIT ONLY
+--------------------------------------*/
+
+@media only screen and (max-width:768px) and (min-width:482px) {
+
+.fl-node-5b7c218463e16 > .fl-col {
+    width: 49% !important;
+    display: inline-block;
+}
+	
+	div.fl-node-5b7c3ee037daf .pp-heading-content .pp-sub-heading li {
+    text-align: left;
+}
+	
+	.fl-node-5b7d6fb3bb897 > .fl-col {
+    display: inline-block;
+    width: 32% !important;
+    vertical-align: top;
+}
+	
+	.fl-node-5b7d6fb3bb897 {
+    margin-bottom: 25px;
+}
+	
+ div.fl-node-5b7d8a384546c .pp-heading-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+	
+	div.fl-node-5b7d888dcb3cd .pp-heading-content {
+    text-align: center;
+    margin-bottom: 15px;
+}
+	
+	.fl-node-5b7db6b13d7eb > .fl-col {
+    display: inline-block;
+    vertical-align: top;
+    width: 49% !important;
+}
+	
+	.fl-node-5b7db777e7488, .fl-node-5b7db77219525 {
+    display: none !important;
+}
+	
+	.fl-node-5b7ed4c16f34c .uabb-spacer-gap-preview.uabb-spacer-gap {
+    height: 300px;
+    clear: both;
+    width: 100%;
+}
+
+
+}
+
+
+/*------------------------------------
+(max-width: 1024px) IPAD P + IPAD L + Mobile
+--------------------------------------*/
+
+@media only screen and (max-width:1024px) {
+
+
+}
+
+
+/*------------------------------------
+(max-width: 768px) IPAD + MOBILE
+--------------------------------------*/
+
+@media only screen and (max-width:768px) {
+
+/*---- Mobile Icon Remove Fix  ----*/
+
+.main-navigation ul li a:before {
+    display: none;
+}
+
+
+.widget_nav_menu ul li:before,
+.widget_recent_comments ul li:before,
+.widget_product_categories ul li:before, 
+.widget_categories ul li:before {
+      display: none;
+}
+
+/* mobile + ipad padding fix */
+
+.fl-module-content {
+ margin-left: 7%;
+ margin-right: 7%;
+}
+
+	.fl-col-small {
+    max-width: none;
+}
+	
+	.fl-node-5b7c1cc7295e2 {
+    display: none !important;
+}
+	
+ div.fl-node-5b7c1cf19a421 .pp-heading-content {
+    text-align: left;
+}
+	
+	.fl-node-5b7dae1be4a59 .fl-module-content.fl-node-content {
+    margin-bottom: 0;
+}
+	
+	.fl-builder-content[data-overlay="1"]:not(.fl-theme-builder-header-sticky) {
+    position: relative;
+}
+	
+	.single-post .fl-content, .single-post  .fl-sidebar {
+    margin: 20px 0;
+}
+
+}
+
+/*------------------------------------
+(max-width: 480px) MOBILE ONLY
+--------------------------------------*/
+
+
+@media only screen and (max-width:480px) {
+
+
+
+}
+
+
+
+/*------------------------------------
+(max-width: 320px) MOBILE SMALLER
+--------------------------------------*/
+
+@media (max-width: 320px) {
+ 
+
+
+}
+
+</style>
+		<style id="site-designer-logo-constraints">
+			.wp-block-site-logo.is-default-size img {
+				width: auto;
+				height: auto;
+				max-width: 180px;
+				max-height: 80px;
+			}
+			.wp-block-site-logo img {
+				height: auto;
+			}
+		</style>
+		<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.23.2.1" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_preload_links" /></head>
+<body class="wp-singular post-template-default single single-post postid-3424 single-format-standard wp-theme-bb-theme fl-builder-2-11-1-2 fl-themer-1-6-1 fl-theme-1-7-18-1 fl-no-js cookies-not-set fl-theme-builder-header fl-theme-builder-header-header-sitewide fl-theme-builder-footer fl-theme-builder-footer-footer-sitewide fl-framework-bootstrap fl-preset-default fl-full-width fl-has-sidebar fl-scroll-to-top fl-search-active" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<a aria-label="Skip to content" class="fl-screen-reader-text" href="#fl-main-content">Skip to content</a><div  class="fl-page">
+	<header class="fl-builder-content fl-builder-content-30 fl-builder-global-templates-locked" data-post-id="30" data-type="header" data-sticky="1" data-sticky-on="" data-sticky-breakpoint="medium" data-shrink="0" data-overlay="1" data-overlay-bg="default" data-shrink-image-height="50px" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"><div id="head5topbar" class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b7c1cc7295a9 fl-row-default-height fl-row-align-center" data-node="5b7c1cc7295a9">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b7c1cc7295e2 fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="5b7c1cc7295e2">
+			<div class="fl-col fl-node-5b7c1cc72961a fl-col-bg-color fl-col-small-custom-width" data-node="5b7c1cc72961a">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-spacer-gap fl-node-5b7dbb1bdbb14" data-node="5b7dbb1bdbb14" aria-label="Spacer / Gap">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-spacer-gap-preview uabb-spacer-gap">
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div id="head5header" class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b7c1cc729417 fl-row-default-height fl-row-align-center" data-node="5b7c1cc729417">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b7c1cc729455 fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="5b7c1cc729455">
+			<div class="fl-col fl-node-5b7c1cc72948e fl-col-bg-color fl-col-small fl-col-small-custom-width" data-node="5b7c1cc72948e">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-pp-image fl-node-5ba996538823b" data-node="5ba996538823b" aria-label="Image">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-photo-container">
+	<div class="pp-photo pp-photo-align-left pp-photo-align-responsive-left" itemscope itemtype="http://schema.org/ImageObject">
+		<div class="pp-photo-content">
+			<div class="pp-photo-content-inner">
+									<img decoding="async" class="pp-photo-img wp-image-401 size-full lazyload" data-src="https://pulsenomics.com/wp-content/uploads/2018/08/logo.png" alt="A blurry image of the word &quot; glitch &quot;." itemprop="image" height="40" width="268" title="logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 268px; --smush-placeholder-aspect-ratio: 268/40;" />
+					<div class="pp-overlay-bg"></div>
+												</div>
+					</div>
+	</div>
+</div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-5b7c1cc7294c7 fl-col-bg-color fl-col-small-custom-width" data-node="5b7c1cc7294c7">
+	<div class="fl-col-content fl-node-content"><div id="head5menu" class="fl-module fl-module-pp-advanced-menu fl-node-5b7c1cc729500" data-node="5b7c1cc729500" aria-label="Advanced Menu">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-advanced-menu pp-menu-default pp-menu-align-right pp-menu-position-below">
+   				<div class="pp-advanced-menu-mobile">
+			<button class="pp-advanced-menu-mobile-toggle hamburger" tabindex="0" aria-label="Menu" aria-expanded="false">
+				<div class="pp-hamburger"><div class="pp-hamburger-box"><div class="pp-hamburger-inner"></div></div></div>			</button>
+			</div>
+			   	<div class="pp-clear"></div>
+	<nav class="pp-menu-nav" aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+		<ul id="menu-main" class="menu pp-advanced-menu-horizontal pp-toggle-plus pp-submenu-reveal-hover"><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="https://pulsenomics.com/"><span class="menu-item-text">Home</span></a></li><li id="menu-item-1195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children pp-has-submenu"><div class="pp-has-submenu-container"><a><span class="menu-item-text">INDEXES</span></a><button type="button" class="pp-menu-toggle" aria-label="Toggle submenu for INDEXES" aria-haspopup="true" aria-expanded="false" aria-controls="sub-menu-1195"></button></div><ul id="sub-menu-1195" class="sub-menu">	<li id="menu-item-1196" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/indices#hci"><span class="menu-item-text">Housing Confidence</span></a></li>	<li id="menu-item-1197" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/indices#tsi"><span class="menu-item-text">Transaction Sentiment</span></a></li></ul></li><li id="menu-item-407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children pp-has-submenu"><div class="pp-has-submenu-container"><a><span class="menu-item-text">SURVEYS</span></a><button type="button" class="pp-menu-toggle" aria-label="Toggle submenu for SURVEYS" aria-haspopup="true" aria-expanded="false" aria-controls="sub-menu-407"></button></div><ul id="sub-menu-407" class="sub-menu">	<li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/home-price-expectations-survey"><span class="menu-item-text">Home Price Expectations</span></a></li>	<li id="menu-item-408" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/housing-confidence-survey"><span class="menu-item-text">Housing Confidence</span></a></li>	<li id="menu-item-3271" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/labor-market-outlook-survey"><span class="menu-item-text">Labor Market Outlook</span></a></li>	<li id="menu-item-3089" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/animal-spirits-survey"><span class="menu-item-text">ANIMAL SPIRITS</span></a></li></ul></li><li id="menu-item-3373" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://pulsenomics.com/crystal-ball-awards/"><span class="menu-item-text">CRYSTAL BALL AWARDS</span></a></li><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children pp-has-submenu"><div class="pp-has-submenu-container"><a href="https://pulsenomics.com/about-us/"><span class="menu-item-text">About Us</span></a><button type="button" class="pp-menu-toggle" aria-label="Toggle submenu for About Us" aria-haspopup="true" aria-expanded="false" aria-controls="sub-menu-24"></button></div><ul id="sub-menu-24" class="sub-menu">	<li id="menu-item-2189" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://pulsenomics.com/press-releases/"><span class="menu-item-text">Press Releases</span></a></li>	<li id="menu-item-3378" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://pulsenomics.com/media/"><span class="menu-item-text">IN THE NEWS</span></a></li>	<li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a href="https://pulsenomics.com/blog/"><span class="menu-item-text">Blog</span></a></li></ul></li></ul>	</nav>
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</header><div  class="uabb-js-breakpoint" style="display: none;"></div>	<div  id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">
+
+		
+<div  class="container">
+	<div class="row">
+
+		
+		<div class="fl-content fl-content-left col-md-8">
+			<article class="fl-post post-3424 post type-post status-publish format-standard has-post-thumbnail hentry category-affordability category-economy category-expectations category-home-prices category-housing category-inflation tag-fannie-mae tag-home-price-expectations-survey tag-housing-affordability tag-housing-market-forecast tag-hpes tag-lock-in-effect tag-mortgage-rates tag-pulsenomics" id="fl-post-3424" itemscope itemtype="https://schema.org/BlogPosting">
+
+	
+	<header class="fl-post-header">
+		<h1 class="fl-post-title" itemprop="headline">
+			Home Price Expectations Survey: Q3 Recap					</h1>
+		<div class="fl-post-meta fl-post-meta-top"><span class="fl-post-author">By <a href="https://pulsenomics.com/author/pwsadmin/"><span>Pulsenomics</span></a></span><span class="fl-sep"> | </span><span class="fl-post-date">August 27, 2026</span></div><meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="https://pulsenomics.com/2026/08/home-price-expectations-survey-q3-recap/" content="Home Price Expectations Survey: Q3 Recap" /><meta itemprop="datePublished" content="2026-08-27" /><meta itemprop="dateModified" content="2026-08-27" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Pulsenomics"><div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://pulsenomics.com/wp-content/uploads/2018/09/Logo_08022018.png"></div></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://pulsenomics.com/author/pwsadmin/" /><meta itemprop="name" content="Pulsenomics" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://pulsenomics.com/wp-content/uploads/2026/08/blog_featured_image_1.jpg" /><meta itemprop="width" content="1920" /><meta itemprop="height" content="768" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>	</header><!-- .fl-post-header -->
+
+	
+	
+	<div class="fl-post-content clearfix" itemprop="text">
+		<article><em>Field period: August 5–14, 2026  |  114 responding panelists</em></p>
+<h2>Higher-for-longer rates, sticky lock-in, and a cooling price outlook</h2>
+<p>The latest <a href="https://pulsenomics.com/home-price-expectations-survey/">Home Price Expectations Survey</a> (HPES) — a quarterly poll of over 100 economists, real estate experts, and market strategists conducted by Pulsenomics on behalf of Fannie Mae — is out. Alongside the price expectations data, this edition’s Special Topics module asked panelists about mortgage rates, the lock-in effect, price risk, and the primary structural factor that will shape the U.S. housing market over the next five years.</p>
+<h2>The headline price forecast</h2>
+<p>On average, the panel expects U.S. home prices to rise <strong>2.5% in 2026</strong>, dip slightly to <strong>2.2% in 2027</strong>, then climb steadily to <strong>2.7%, 3.1%, and 3.3%</strong> in 2028, 2029, and 2030, respectively. Strung together, that’s a cumulative <strong>14.6% increase over the next five years</strong>.</p>
+<p>There&#8217;s a sharper story hiding in that 2026 figure. Actual home prices already rose 3.7% between year-end 2025 and Q2 2026, according to the <a href="https://www.fanniemae.com/data-and-insights/surveys-indices/fannie-mae-home-price-index">Fannie Mae Home Price Index</a> benchmark. But the panel&#8217;s mean forecast for the <strong>full</strong> year is just 2.52% &#8212; a number that only works arithmetically if prices fall by roughly 1.1% over the second half of the year. In other words, the panel may not be turning more bullish on 2026 so much as expecting its strong first half to partially reverse in the second. Only 19 of 114 respondents to the Q3 survey&#8211;just one of every six experts&#8211;projects nationwide home price appreciation ending the year higher than the 3.7% rate recorded through June.</p>
+<p><img fetchpriority="high" width="1440" height="864" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart1_annual_trajectory.png" alt="Bar chart showing Q3 2026 HPES panel annual home price forecasts: 2.5% in 2026, 2.2% in 2027, 2.7% in 2028, 3.1% in 2029, 3.3% in 2030" class="no-lazyload" /></p>
+<h2>A tale of two timeframes</h2>
+<p><strong>Near-term: more complicated than it looks.</strong>  Just last quarter (Q2 2026), the panel&#8217;s forecast for 2026 was a modest 1.72%. This quarter, that rose to 2.52%. But as noted above, that full-year figure implies an expected pullback in the second half of the year &#8212; so this isn&#8217;t a straightforward brightening of sentiment; more likely, it&#8217;s a reconciliation of a stronger-than-expected first half with a more cautious view of what comes next.</p>
+<p><img width="1710" height="810" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart2_revision_comparison.png" alt="Two charts: left shows 2026 forecast rising from 1.72% (Q2 2026) to 2.52% (Q3 2026); right shows 2027-2029 forecasts a year ago versus now, all lower now than a year ago" class="no-lazyload" /></p>
+<p><strong>Long-term: the outlook has been cooling.</strong> Compare what the panel is saying today about 2027–2029 to what it was saying about the same period one year ago: the panel’s cumulative expectation for 2027–2029 has fallen from <strong>10.3% (as of Q3 2025) to 8.2% (as of Q3 2026)</strong> — a more than two-point reduction in expected growth over that three-year stretch.</p>
+<h2>Mortgage rate expectations are creeping up</h2>
+<p>If you’re waiting for mortgage rates to fall anytime soon, the panel’s outlook is not encouraging. Asked whether 2026 developments have changed their long-run mortgage rate view, <strong>48% now expect higher rates</strong> than they previously assumed, <strong>49% see no change, and just 3% now expect lower rates</strong> (n=98).</p>
+<p><img width="1800" height="827" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart5_rate_outlook.png" alt="Left chart: 48% of panelists now expect higher long-run mortgage rates, 49% no change, 3% expect lower. Right chart: distribution of year-end 2027 30-year fixed rate estimates - 7% below 5.50%, 13% in 5.50-5.99%, 33% in 6.00-6.49%, 41% in 6.50-6.99%, 6% at 7.00% or above" class="no-lazyload" /></p>
+<p>Across 102 respondents, the projected year-end 2027 30-year fixed rate came in at a <strong>mean of 6.29% and median of 6.40%</strong>, with the single largest cluster — 41% of respondents — landing in the 6.50%–6.99% band. Only 7% think rates fall back below 5.50%. That’s a panel bracing for “higher for longer,” not a return to the ultra-low rates of the early 2020s.</p>
+<h2>The lock-in effect isn’t going away soon</h2>
+<p>Prevailing mortgage rate levels have made millions of homeowners holding mortgages with much lower rates reluctant to sell — the so-called “lock-in effect” that’s been throttling existing-home inventory. Asked when lock-in will stop being a major constraint on existing-home sales (n=103), the panel isn’t expecting relief soon: less than 3% say it’s already ceased and 1% expect it within a year, while <strong>61.2% say 3 to 5 years</strong> and another 13.6% say 6 to 10 years. Add it up, and roughly three-quarters of the panel don’t expect meaningful easing for at least three more years.</p>
+<p><img width="1890" height="864" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart6_lockin.png" alt="Left chart: of 104 panelists, 48% see lock-in as a persistent constraint, 45% think mobility will outweigh rates, 6% think lower rates are the catalyst, 1% not sure. Right chart: of 103 panelists on timing, 2.9% say already ceased, 1% within a year, 21.4% in 1-2 years, 61.2% in 3-5 years, 13.6% in 6-10 years" class="no-lazyload" /></p>
+<p>Interestingly, the panel is far more split on the deeper question of <em>why</em> lock-in persists or fades (n=104). <strong>48% see it as a persistent structural constraint</strong> — elevated rates simply keep suppressing sales, effectively a new normal — while <strong>45% think pent-up mobility needs will eventually outweigh rate sensitivity</strong> and unlock supply anyway. A further 6% see lower rates themselves as the catalyst that ends lock-in, and 1% aren’t sure. That 48/45 split is close enough to a coin flip that it’s worth watching which camp gains ground in coming quarters.</p>
+<h2>What structural force will most influence the trajectory of the U.S. housing market over the next 5 years?</h2>
+<p><strong>Demographic change and migration patterns topped the list at 35%</strong> (n=103) — well ahead of federal fiscal policy and long-term capital costs (21.4%) and land-use and housing regulation (14.6%). Homebuilding constraints (11.7%) and the mortgage rate lock-in effect itself (10.7%) rounded out the mid-tier, with property insurance affordability (2.9%) and climate risk (1.9%) further back. Where people are moving, forming households, and aging in place, in other words, is seen as more consequential to housing’s next five years than what the Fed, Congress, or even the lock-in effect does.</p>
+<p><img width="1620" height="936" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart8_structural_drivers.jpg" alt="Horizontal bar chart of the most consequential structural force over 5 years: demographic change and migration patterns 35%, federal fiscal policy and long-term capital costs 21.4%, land-use and housing regulation 14.6%, homebuilding constraints 11.7%, mortgage rate lock-in 10.7%, property insurance affordability 2.9%, climate risk 1.9%, other 1.9%" class="no-lazyload" /></p>
+<p>One nuance to the above response distribution: while the plurality of panelists believes demographics matter most for the next five years, it holds that view with lukewarm conviction. Their <em>confidence</em> in the &#8220;demographics will dominate&#8221; call was middling — 49% “moderately confident” and 14% “very confident,” versus 6% “not at all” and 31% “slightly confident.” A few of the less-cited factors were accompanied by stronger conviction, e.g., homebuilding constraints (50% moderately + 33% very confident — a combined 83%), and land-use regulation (47% + 20% — a combined 67%).</p>
+<h2>Nominal numbers: not the real story</h2>
+<p>Like most home price change data, this survey’s expectations figures are expressed in <strong>nominal</strong> (i.e., not adjusted for inflation) terms. The panel-wide mean expectations imply that home values may not just fail to outpace inflation — they may lose ground in real terms over the next five years. That would make for a strikingly different headline than “home prices expected to rise nearly 15% in the next half-decade,” and it’s consistent with the more cautious mood showing up across this quarter’s other survey feedback.</p>
+<p>Because shelter costs account for roughly one-third of the CPI basket, deriving meaningful inflation-adjusted (real) home price expectations requires applying an “ex-shelter” inflation rate to deflate the nominal projections. Ex-shelter inflation has recently ranged from roughly 3.5% to 4.6% annually, with the latest acceleration driven in part by a sharp energy-price shock.* Compounded over five years, either rate would be sufficient to turn a positive nominal home price projection into a negative real one.</p>
+<p><img width="1440" height="864" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart3_nominal_vs_real.jpg" alt="Bar chart showing nominal 5-year cumulative home price gain of +14.6% becomes -3.5% to -8.5% in real terms once ex-shelter inflation is factored in" class="no-lazyload" /></p>
+<p><em>*There’s no market-based, forward-looking measure of “ex-shelter inflation” as there is for overall inflation (e.g., via Treasury Inflation-Protected Securities). The figures above blend two different kinds of estimates, from different months: an estimated 3.5% as of July 2026 (the author’s own calculation, derived from BLS’s official CPI component data for that month) and as high as 4.6% in May 2026 per Texas A&amp;M’s Real Estate Research Center, which attributed that spike to gasoline and energy prices tied to the Middle East conflict (neither figure is a market forecast in its own right). It’s also worth noting that even ex-shelter CPI isn’t a perfectly analogous benchmark for a housing-price series: CPI shelter measures rent and owners’ equivalent rent (a consumption flow) while HPES measures home values (an asset price). Thus, although excluding shelter from the deflator avoids comparing housing to itself, it doesn’t make the two series perfectly comparable.</em></p>
+<h2>Dispersion</h2>
+<h3><u>Optimists vs. Pessimists</u></h3>
+<p><img width="1620" height="936" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart4_dispersion.jpg" alt="Line chart showing cumulative home price scenarios from year-end 2025 through 2030 for three groups: Optimists (most bullish quartile) reaching 22.7% cumulative, All Panelists averaging 14.7%, and Pessimists (most bearish quartile) at just 6.6% by 2030" class="no-lazyload" /></p>
+<p>By 2030, the panel-wide average points to <strong>14.7% cumulative</strong> appreciation — but the most optimistic quartile of panelists is tracking toward <strong>22.7%</strong>, while the most pessimistic quartile sees just <strong>6.6%</strong>. That’s a roughly 16-point gap between the two camps.</p>
+<p>Just as telling is how that gap opens up over time. In year one (2026), optimists and pessimists are only about 2 points apart (3.7% vs. 1.4%). By 2030, that gap has grown to 16 points. The dispersion compounds, the same way the price changes themselves do.</p>
+<p>That spread is itself a signal. A tight gap between optimists and pessimists would suggest strong consensus; this widening gap suggests real, growing uncertainty about how the next five years play out.</p>
+<p>Zooming out from any single quarter, HPES has been tracking a version of this optimist/all-panelist/pessimist split since 2010. Each point here is the average annual panel-wide expectation for that survey edition:</p>
+<p><img width="1920" height="943" decoding="async" style="max-width: 100%; height: auto;" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart9_history_by_edition.jpg" alt="Line chart showing average annual home price growth expectations by survey edition from Q1 2010 to Q3 2026 for optimists, all panelists, and pessimists, with a peak of 6.2% at Q4 2021 and a trough of 1.1% at Q3 2011" class="no-lazyload" /></p>
+<p>By this measure, the panel’s average bottomed out at just <strong>1.1% in Q3 2011</strong>, deep in the post-financial-crisis recovery, and peaked at <strong>6.2% in Q4 2021</strong>, at the height of the pandemic-era housing boom. Today’s reading sits well below both extremes — closer to the more typical 3%–4% band that held for most of the 2013–2019 period.</p>
+<p>The gap between optimists and pessimists tells its own story. It was widest by far around the 2021–2022 boom and the rate shock that followed — optimists near 8% while pessimists briefly went negative — and has been compressing pretty steadily since.</p>
+<h3><u>Intra-panel Standard Deviation</u></h3>
+<p>We can also measure how much individual panelists’ forecasts differ from each other for any forecast horizon. For example, for each survey edition, we calculate the standard deviation of panel-wide expectations for each of the years being forecasted, and then average them. The solid black line in the chart below reflect those dispersion data.</p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-3434 no-lazyload" src="https://pulsenomics.com/wp-content/uploads/2026/08/chart10_dispersion_vs_rates2.jpg" alt="" width="1886" height="1080" srcset="https://pulsenomics.com/wp-content/uploads/2026/08/chart10_dispersion_vs_rates2.jpg 1886w, https://pulsenomics.com/wp-content/uploads/2026/08/chart10_dispersion_vs_rates2-300x172.jpg 300w, https://pulsenomics.com/wp-content/uploads/2026/08/chart10_dispersion_vs_rates2-1024x586.jpg 1024w, https://pulsenomics.com/wp-content/uploads/2026/08/chart10_dispersion_vs_rates2-768x440.jpg 768w, https://pulsenomics.com/wp-content/uploads/2026/08/chart10_dispersion_vs_rates2-1536x880.jpg 1536w" sizes="(max-width: 1886px) 100vw, 1886px" /></p>
+<p>This dispersion measure bottomed out at <strong>1.4 percentage points in Q2 2015</strong> — a calm, low-rate stretch — and peaked at <strong>3.6 points in Q2 2022</strong>, right as mortgage rates were in the middle of their fastest climb in decades. Notably, it has been falling since that 2022 peak even as mortgage rates have stayed in the 6%–7% range — suggesting it’s less the <em>level</em> of rates that drives panelists apart and more the <em>speed</em> at which they’re moving. The current reading, at roughly 1.5 points, is back near the most unified readings in the survey’s history.</p>
+<h2>The bottom line</h2>
+<ul>
+<li>The panel’s <strong>near-term</strong> price outlook for 2026 brightened notably from last quarter — but its <strong>long-run</strong> outlook (2027–2029) has cooled compared to a year ago, even for the identical target years.</li>
+<li>Math implies <strong>a second-half pullback</strong>: with 3.7% already realized through Q2, the panel&#8217;s 2.52% full-year 2026 forecast is only consistent with roughly a 1.1% price decline in the second half of the year.</li>
+<li><strong>Mortgage rate expectations are drifting higher</strong>: 48% of panelists now expect higher long-run rates versus 3% expecting lower, with a median year-end 2027 estimate of 6.40% on the 30-year fixed (mean 6.29%).</li>
+<li><strong>The lock-in effect looks sticky</strong>: 61.2% expect it to keep constraining sales for another 3–5 years, and the panel is nearly split on whether it’s a lasting structural constraint (48%) or something pent-up mobility needs eventually overcome (45%).</li>
+<li><strong>The long-run outlook keeps cooling</strong>: the panel’s cumulative 2027–2029 expectation has fallen from 10.3% (as of Q3 2025) to 8.2% (as of Q3 2026) for the identical three-year stretch.</li>
+<li><strong>Demographics, not rates or policy, are seen as the biggest long-run force</strong> shaping housing over the next five years — cited by 35% of the panel, well ahead of fiscal policy/capital costs (21.4%) and land-use regulation (14.6%) — though panelists hold that call with only moderate confidence compared to their more concrete views on homebuilding constraints.</li>
+<li>Adjusted for the rising cost of everything <em>besides</em> housing, the nominal 5-year price gain the panel forecasts may actually represent a <strong>real-terms decline</strong>.</li>
+</ul>
+<p>Taken together, the throughline across both the core forecast and the special topics answers imply caution. The panel certainly isn’t calling for a crash, but seems to be leaning more defensively than it was three months ago — on prices, on rates, and on how long today’s affordability squeeze sticks around.</p>
+<hr />
+<p><small><strong>About the Home Price Expectations Survey:</strong> HPES is a quarterly survey of over 100 economists, real estate experts, and investment and market strategists, conducted by Pulsenomics LLC on behalf of Fannie Mae. Survey benchmark: Fannie Mae Home Price Index (FN-HPI, NSA).</small></p>
+</article>
+	</div><!-- .fl-post-content -->
+
+	
+	<div class="fl-post-meta fl-post-meta-bottom"><div class="fl-post-cats-tags">Posted in <a href="https://pulsenomics.com/category/economy/affordability/" rel="category tag">Affordability</a>, <a href="https://pulsenomics.com/category/economy/" rel="category tag">Economy</a>, <a href="https://pulsenomics.com/category/housing/expectations/" rel="category tag">Expectations</a>, <a href="https://pulsenomics.com/category/housing/home-prices/" rel="category tag">Home prices</a>, <a href="https://pulsenomics.com/category/housing/" rel="category tag">Housing</a>, <a href="https://pulsenomics.com/category/economy/inflation/" rel="category tag">Inflation</a> and tagged <a href="https://pulsenomics.com/tag/fannie-mae/" rel="tag">Fannie Mae</a>, <a href="https://pulsenomics.com/tag/home-price-expectations-survey/" rel="tag">Home Price Expectations Survey</a>, <a href="https://pulsenomics.com/tag/housing-affordability/" rel="tag">housing affordability</a>, <a href="https://pulsenomics.com/tag/housing-market-forecast/" rel="tag">housing market forecast</a>, <a href="https://pulsenomics.com/tag/hpes/" rel="tag">HPES</a>, <a href="https://pulsenomics.com/tag/lock-in-effect/" rel="tag">lock-in effect</a>, <a href="https://pulsenomics.com/tag/mortgage-rates/" rel="tag">mortgage rates</a>, <a href="https://pulsenomics.com/tag/pulsenomics/" rel="tag">Pulsenomics</a></div></div>		
+</article>
+
+
+<!-- .fl-post -->
+		</div>
+
+		<div class="fl-sidebar  fl-sidebar-right fl-sidebar-display-desktop col-md-4" itemscope="itemscope" itemtype="https://schema.org/WPSideBar">
+		<aside id="search-2" class="fl-widget widget_search"><form aria-label="Search" method="get" role="search" action="https://pulsenomics.com/" title="Type and press Enter to search.">
+	<input aria-label="Search" type="search" class="fl-search-input form-control" name="s" placeholder="Search"  value="" onfocus="if (this.value === 'Search') { this.value = ''; }" onblur="if (this.value === '') this.value='Search';" />
+</form>
+</aside>
+		<aside id="recent-posts-2" class="fl-widget widget_recent_entries">
+		<h4 class="fl-widget-title">Recent Posts</h4>
+		<ul>
+											<li>
+					<a href="https://pulsenomics.com/2026/08/home-price-expectations-survey-q3-recap/" aria-current="page">Home Price Expectations Survey: Q3 Recap</a>
+									</li>
+											<li>
+					<a href="https://pulsenomics.com/2026/05/the-quiet-erosion-of-home-price-optimism/">The Quiet Erosion of Home Price Optimism</a>
+									</li>
+											<li>
+					<a href="https://pulsenomics.com/2026/01/an-overlooked-fault-line-in-american-animal-spirits-homeowners-vs-renters/">An Overlooked Fault Line in American Animal Spirits: Homeowners vs. Renters</a>
+									</li>
+											<li>
+					<a href="https://pulsenomics.com/2026/01/is-ai-weakening-americas-animal-spirits/">Is AI Weakening America’s Animal Spirits?</a>
+									</li>
+											<li>
+					<a href="https://pulsenomics.com/2025/03/great-expectations-2024-crystal-ball-award-winners/">Great Expectations&#8211;2024 Crystal Ball Award-Winners</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-2" class="fl-widget widget_recent_comments"><h4 class="fl-widget-title">Recent Comments</h4><ul id="recentcomments"></ul></aside><aside id="archives-2" class="fl-widget widget_archive"><h4 class="fl-widget-title">Archives</h4>
+			<ul>
+					<li><a href='https://pulsenomics.com/2026/08/'>August 2026</a></li>
+	<li><a href='https://pulsenomics.com/2026/05/'>May 2026</a></li>
+	<li><a href='https://pulsenomics.com/2026/01/'>January 2026</a></li>
+	<li><a href='https://pulsenomics.com/2025/03/'>March 2025</a></li>
+	<li><a href='https://pulsenomics.com/2023/08/'>August 2023</a></li>
+	<li><a href='https://pulsenomics.com/2023/06/'>June 2023</a></li>
+	<li><a href='https://pulsenomics.com/2023/04/'>April 2023</a></li>
+	<li><a href='https://pulsenomics.com/2022/10/'>October 2022</a></li>
+	<li><a href='https://pulsenomics.com/2022/06/'>June 2022</a></li>
+	<li><a href='https://pulsenomics.com/2022/03/'>March 2022</a></li>
+	<li><a href='https://pulsenomics.com/2021/03/'>March 2021</a></li>
+	<li><a href='https://pulsenomics.com/2019/07/'>July 2019</a></li>
+	<li><a href='https://pulsenomics.com/2019/06/'>June 2019</a></li>
+	<li><a href='https://pulsenomics.com/2019/03/'>March 2019</a></li>
+	<li><a href='https://pulsenomics.com/2019/01/'>January 2019</a></li>
+	<li><a href='https://pulsenomics.com/2018/12/'>December 2018</a></li>
+	<li><a href='https://pulsenomics.com/2018/08/'>August 2018</a></li>
+	<li><a href='https://pulsenomics.com/2018/06/'>June 2018</a></li>
+	<li><a href='https://pulsenomics.com/2018/05/'>May 2018</a></li>
+	<li><a href='https://pulsenomics.com/2018/03/'>March 2018</a></li>
+	<li><a href='https://pulsenomics.com/2018/02/'>February 2018</a></li>
+	<li><a href='https://pulsenomics.com/2017/05/'>May 2017</a></li>
+	<li><a href='https://pulsenomics.com/2017/02/'>February 2017</a></li>
+	<li><a href='https://pulsenomics.com/2016/09/'>September 2016</a></li>
+	<li><a href='https://pulsenomics.com/2016/04/'>April 2016</a></li>
+	<li><a href='https://pulsenomics.com/2016/03/'>March 2016</a></li>
+	<li><a href='https://pulsenomics.com/2016/02/'>February 2016</a></li>
+	<li><a href='https://pulsenomics.com/2015/12/'>December 2015</a></li>
+	<li><a href='https://pulsenomics.com/2015/09/'>September 2015</a></li>
+	<li><a href='https://pulsenomics.com/2015/08/'>August 2015</a></li>
+	<li><a href='https://pulsenomics.com/2015/05/'>May 2015</a></li>
+	<li><a href='https://pulsenomics.com/2015/04/'>April 2015</a></li>
+	<li><a href='https://pulsenomics.com/2015/03/'>March 2015</a></li>
+	<li><a href='https://pulsenomics.com/2014/11/'>November 2014</a></li>
+	<li><a href='https://pulsenomics.com/2014/10/'>October 2014</a></li>
+			</ul>
+
+			</aside><aside id="categories-2" class="fl-widget widget_categories"><h4 class="fl-widget-title">Categories</h4>
+			<ul>
+					<li class="cat-item cat-item-243"><a href="https://pulsenomics.com/category/economy/affordability/">Affordability</a>
+</li>
+	<li class="cat-item cat-item-233"><a href="https://pulsenomics.com/category/animal-spirits/">Animal Spirits</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="https://pulsenomics.com/category/consumer-confidence/">Consumer Confidence</a>
+</li>
+	<li class="cat-item cat-item-235"><a href="https://pulsenomics.com/category/consumer-sentiment/">Consumer Sentiment</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://pulsenomics.com/category/economy/">Economy</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="https://pulsenomics.com/category/housing/expectations/">Expectations</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="https://pulsenomics.com/category/housing/home-prices/">Home prices</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="https://pulsenomics.com/category/housing/transaction-sentiment/home-buying-sentiment/">Home-Buying Sentiment</a>
+</li>
+	<li class="cat-item cat-item-205"><a href="https://pulsenomics.com/category/housing/transaction-sentiment/home-selling-sentiment/">Home-Selling Sentiment</a>
+</li>
+	<li class="cat-item cat-item-86"><a href="https://pulsenomics.com/category/housing/homeownership-aspirations/">Homeownership Aspirations</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://pulsenomics.com/category/housing/">Housing</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://pulsenomics.com/category/housing/housing-confidence/">Housing Confidence</a>
+</li>
+	<li class="cat-item cat-item-222"><a href="https://pulsenomics.com/category/economy/inflation/">Inflation</a>
+</li>
+	<li class="cat-item cat-item-85"><a href="https://pulsenomics.com/category/housing/market-conditions/">Market Conditions</a>
+</li>
+	<li class="cat-item cat-item-197"><a href="https://pulsenomics.com/category/housing/millennials/">Millennials</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="https://pulsenomics.com/category/housing/rent-prices/">Rent Prices</a>
+</li>
+	<li class="cat-item cat-item-203"><a href="https://pulsenomics.com/category/housing/transaction-sentiment/">Transaction Sentiment</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://pulsenomics.com/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="meta-2" class="fl-widget widget_meta"><h4 class="fl-widget-title">Meta</h4>
+		<ul>
+						<li><a rel="nofollow" href="https://pulsenomics.com/wp-login.php">Log in</a></li>
+			<li><a href="https://pulsenomics.com/feed/">Entries feed</a></li>
+			<li><a href="https://pulsenomics.com/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</aside>	</div>
+
+	</div>
+</div>
+
+
+	</div><!-- .fl-page-content -->
+	<footer data-wpr-lazyrender="1" class="fl-builder-content fl-builder-content-34 fl-builder-global-templates-locked" data-post-id="34" data-type="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter"><div  id="footer1body" class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b7c1df12f5fe fl-row-default-height fl-row-align-center" data-node="5b7c1df12f5fe">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b7c1df12f63b" data-node="5b7c1df12f63b">
+			<div class="fl-col fl-node-5b7c1df12f674 fl-col-bg-color" data-node="5b7c1df12f674">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-image-icon fl-node-5ba9d3504876d" data-node="5ba9d3504876d" aria-label="Image / Icon">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">				<span class="uabb-icon-wrap">
+			<span class="uabb-icon">
+			<i class="ua-icon ua-icon-mail2" aria-hidden="true"></i>
+			</span>
+		</span>
+	
+		</div>	</div>
+</div>
+<div class="fl-module fl-module-rich-text fl-node-5ba9d384530f8" data-node="5ba9d384530f8" aria-label="Text Editor">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p style="text-align: center;"><a href="mailto:info@pulsenomics.com">info@pulsenomics.com</a></p>
+</div>
+	</div>
+</div>
+<div class="fl-module fl-module-separator fl-node-5ba9d3c6e7318" data-node="5ba9d3c6e7318" aria-label="Separator">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-separator"></div>
+	</div>
+</div>
+<div id="footer1menu" class="fl-module fl-module-menu fl-node-5b7c1df12f8f8" data-node="5b7c1df12f8f8" aria-label="Menu">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-menu">
+		<div class="fl-clear"></div>
+	<nav aria-label="Navigation Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><ul id="menu-main-1" class="menu fl-menu-horizontal fl-toggle-none"><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="https://pulsenomics.com/">Home</a></li><li id="menu-item-1195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children fl-has-submenu"><div class="fl-has-submenu-container"><a tabindex="0" aria-controls="sub-menu-1195" aria-expanded="false">INDEXES</a></div><ul id="sub-menu-1195" class="sub-menu">	<li id="menu-item-1196" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/indices#hci">Housing Confidence</a></li>	<li id="menu-item-1197" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/indices#tsi">Transaction Sentiment</a></li></ul></li><li id="menu-item-407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children fl-has-submenu"><div class="fl-has-submenu-container"><a tabindex="0" aria-controls="sub-menu-407" aria-expanded="false">SURVEYS</a></div><ul id="sub-menu-407" class="sub-menu">	<li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/home-price-expectations-survey">Home Price Expectations</a></li>	<li id="menu-item-408" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/housing-confidence-survey">Housing Confidence</a></li>	<li id="menu-item-3271" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/labor-market-outlook-survey">Labor Market Outlook</a></li>	<li id="menu-item-3089" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/surveys/animal-spirits-survey">ANIMAL SPIRITS</a></li></ul></li><li id="menu-item-3373" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://pulsenomics.com/crystal-ball-awards/">CRYSTAL BALL AWARDS</a></li><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children fl-has-submenu"><div class="fl-has-submenu-container"><a href="https://pulsenomics.com/about-us/" aria-controls="sub-menu-24" aria-expanded="false">About Us</a></div><ul id="sub-menu-24" class="sub-menu">	<li id="menu-item-2189" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://pulsenomics.com/press-releases/">Press Releases</a></li>	<li id="menu-item-3378" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://pulsenomics.com/media/">IN THE NEWS</a></li>	<li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a href="https://pulsenomics.com/blog/">Blog</a></li></ul></li></ul></nav></div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div  id="footer1copyright" class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b7c1df12fabc fl-row-default-height fl-row-align-center" data-node="5b7c1df12fabc">
+	<div class="fl-row-content-wrap">
+		<div class="uabb-row-separator uabb-top-row-separator" >
+</div>
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b7c1df12faf4 fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="5b7c1df12faf4">
+			<div class="fl-col fl-node-5b7c1df12fb2c fl-col-bg-color fl-col-small fl-col-small-custom-width" data-node="5b7c1df12fb2c">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-5b7c1df12f6ad" data-node="5b7c1df12f6ad" aria-label="Text Editor">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p>© 2026 Pulsenomics</p>
+</div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-5b7c1df12fb65 fl-col-bg-color fl-col-small fl-col-small-custom-width" data-node="5b7c1df12fb65">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-html fl-node-5b7c1df12fb9d" data-node="5b7c1df12fb9d" aria-label="HTML">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-html">
+	<div align="right">
+<a rel="nofollow" href="https://www.godaddy.com/websites/web-design"
+target="_blank"><img alt="GoDaddy Web Design"
+src="//nebula.wsimg.com/aadc63d8e8dbd533470bdc4e350bc4af?AccessKeyId=B7351D786AE96FEF6EBB&disposition=0&alloworigin=1"></a></div></div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</footer><div  class="uabb-js-breakpoint" style="display: none;"></div>	</div><!-- .fl-page -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bb-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<a href="#" role="button" id="fl-to-top"><span class="sr-only">Scroll To Top</span><i class="fas fa-chevron-up" aria-hidden="true"></i></a><script type="text/rocketlazyloadscript" id="imagesloaded-js" data-rocket-src="https://pulsenomics.com/wp-content/plugins/bb-plugin/js/libs/jquery.imagesloaded.min.js?ver=2.11.1.2" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-throttle-js" data-rocket-src="https://pulsenomics.com/wp-content/plugins/bb-plugin/js/libs/jquery.ba-throttle-debounce.min.js?ver=2.11.1.2" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="fl-builder-layout-bundle-b3f788349d68bd97982fb4064cc1b81b-js" data-rocket-src="https://pulsenomics.com/wp-content/cache/min/1/wp-content/uploads/bb-plugin/cache/b3f788349d68bd97982fb4064cc1b81b-layout-bundle.js?ver=1793202433" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://pulsenomics.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="jquery-magnificpopup-js" data-rocket-src="https://pulsenomics.com/wp-content/plugins/bb-plugin/js/libs/jquery.magnificpopup.min.js?ver=2.11.1.2" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-fitvids-js" data-rocket-src="https://pulsenomics.com/wp-content/plugins/bb-plugin/js/libs/jquery.fitvids.min.js?ver=1.2" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="bootstrap-js" data-rocket-src="https://pulsenomics.com/wp-content/themes/bb-theme/js/bootstrap.min.js?ver=1.7.18.1" data-rocket-defer defer></script>
+<script id="fl-automator-js-extra">
+var themeopts = {"medium_breakpoint":"992","mobile_breakpoint":"768","lightbox":"enabled","scrollTopPosition":"800"};
+//# sourceURL=fl-automator-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="fl-automator-js" data-rocket-src="https://pulsenomics.com/wp-content/themes/bb-theme/js/theme.min.js?ver=1.7.18.1" data-rocket-defer defer></script>
+
+		<!-- Cookie Compliance for WordPress (formerly Compliance by Hu-manity.co) plugin v3.1.19 https://cookie-compliance.co/ -->
+		<div  id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Compliance" style="background-color: rgba(50,50,58,1);"><div  class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Ok" style="background-color: #00a99d">Ok</button></span><button type="button" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" aria-label="No" tabindex="0"></button></div>
+			
+		</div>
+		<!-- / Cookie Compliance for WordPress plugin -->		<script type="text/rocketlazyloadscript">'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),
+                _trfd.push({'tccl.baseHost':'secureserver.net'}),
+                _trfd.push({'ap':'wpaas_v2'},
+                    {'server':'18663232c785'},
+                    {'pod':'c25-prod-p3-us-west-2'},
+                                        {'xid':'41956575'},
+                    {'wp':'7.1.4'},
+                    {'php':'8.2.35'},
+                    {'loggedin':'0'},
+                    {'cdn':'1'},
+                    {'builder':'wp-classic-editor'},
+                    {'theme':'bb-theme'},
+                    {'wds':'1'},
+                    {'wp_alloptions_count':'436'},
+                    {'wp_alloptions_bytes':'105900'},
+                    {'gdl_coming_soon_page':'0'}
+                    , {'appid':'717779'}                 );
+            var trafficScript = document.createElement('script'); trafficScript.src = 'https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'; window.document.head.appendChild(trafficScript);</script>
+		<script type="text/rocketlazyloadscript">window.addEventListener('click', function (elem) { var _elem$target, _elem$target$dataset, _window, _window$_trfq; return (elem === null || elem === void 0 ? void 0 : (_elem$target = elem.target) === null || _elem$target === void 0 ? void 0 : (_elem$target$dataset = _elem$target.dataset) === null || _elem$target$dataset === void 0 ? void 0 : _elem$target$dataset.eid) && ((_window = window) === null || _window === void 0 ? void 0 : (_window$_trfq = _window._trfq) === null || _window$_trfq === void 0 ? void 0 : _window$_trfq.push(["cmdLogEvent", "click", elem.target.dataset.eid]));});</script>
+		<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-src='https://pulsenomics.com/wp-content/cache/min/1/traffic-assets/js/tccl-tti.min.js?ver=1793202433' onload="window.tti.calculateTTI()" data-rocket-defer defer></script>
+		</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1795004284 -->

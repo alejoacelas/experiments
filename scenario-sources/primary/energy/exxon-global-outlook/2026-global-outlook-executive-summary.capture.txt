@@ -1,0 +1,39 @@
+SOURCE: https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2026-global-outlook-executive-summary.pdf
+CAPTURE: partial text capture via web fetch tool on 2026-11-18 (direct PDF download returned HTTP 403). First ~6,000 characters of the executive summary only; paragraphs copied verbatim from the capture.
+
+2026 Global Outlook Executive Summary | ExxonMobil
+
+Global Outlook 2026 - Executive summary
+
+The world will change a lot by 2050, but two things will remain constant — the need for more energy and lower emissions
+
+2026 Global Outlook - Our view to 2050
+
+This year’s Global Outlook has been developed as events in the Middle East have led to one of the largest energy supply shocks in history, demonstrating the undeniable need for reliable access to affordable energy. While the full impacts may not be known for years, history shows that the global energy mix has remained largely unchanged for several decades. Our Global Outlook projects that demand for energy will increase as economies expand, incomes rise, and living standards improve, even as global emissions peak and decline. But more work is needed.
+
+Rising living standards increase energy use by 25% in developing countries.
+
+Electricity demand will grow ~65% by 2050, driven by improved living standards in developing countries, industrial activity, data centers, and electric vehicles.
+
+Industry and commercial transport underpin the global economy and will require growing supplies of energy.
+
+Global CO₂ emissions fall 20%. Affordability and policy set the pace.
+
+Sustained oil and natural gas investment is more critical than ever before.
+
+Economic growth drives growing demand for energy — and all energy types are needed:
+• Renewables grow the fastest.
+• Coal declines the most but remains important in many countries.
+• Oil and natural gas still make up >50% of the global energy mix.
+
+The world’s population will grow by ~1.5 billion people, almost entirely in developing countries.
+
+Global gross domestic product (GDP) will grow ~80%. Developing nations will expand their economies twice as fast as developed nations.
+
+In 2050, developing countries will use 25% more energy than today as their living standards improve and populations grow.
+
+What role will electricity play?
+
+Global electricity demand is expected to grow 65% by 2050 (vs. 2025), driven by improving living standards in developing countries. This growth is projected to be primarily in industry, with commercial buildings (including data centers), residential buildings, and transportation also contributing.
+
+ExxonMobil 2026 Global Outlook | Executive summary 5

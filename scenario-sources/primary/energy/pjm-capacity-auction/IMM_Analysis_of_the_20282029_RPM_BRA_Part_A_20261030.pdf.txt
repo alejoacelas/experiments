@@ -1,0 +1,2044 @@
+Analysis of the
+2028/2029 RPM Base Residual Auction
+Part A
+
+The Independent Market Monitor for PJM
+October 30, 2026
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+Introduction
+This report, Part A of what will be a comprehensive multipart report, prepared by the
+Independent Market Monitor for PJM (IMM or MMU), presents a first set of sensitivity
+analyses of the twenty second Reliability Pricing Model (RPM) Base Residual Auction
+(BRA), for the 2028/2029 Delivery Year, which was held from June 30 to July 7, 2026. The
+sensitivities in this Part A are focused on the substantial recent increase in actual load and
+the increase in the peak load forecast for the 2028/2029 BRA, both of which were almost
+entirely due to existing and projected large data center load additions to the PJM grid. The
+MMU presents the results of these sensitivities in order to provide information to
+stakeholders that is relevant to the 2029/2030 BRA, now scheduled for December 9 to
+December 15, 2026, the design of the Reliability Backstop Procurement (RBP), the design
+of future auctions, the design of the Variable Resource Requirement (VRR) curve, and the
+treatment of large data center loads. The results reported by the MMU are not forecasts or
+predictions of the outcome of any future BRA.
+For the first time since the introduction of the RPM capacity market design, the 2026/2027
+BRA used a VRR curve with a defined minimum price. The 2028/2029 BRA is the third
+RPM capacity auction to use a defined minimum price. The VRR curve has always
+included a maximum price that both defines scarcity price levels and prevents the exercise
+of market power. The specific maximum and minimum prices used in 2026/2027 BRA and
+2027/2028 BRA were based on the Agreement between Governor Shapiro of Pennsylvania
+and PJM applicable to the 2026/2027 BRA and the 2027/2028 BRA that was incorporated
+in a PJM filing with FERC. 1 PJM filed and FERC approved the extension of the maximum
+and minimum price for the 2028/2029 BRA and 2029/2030 BRA. 2 The minimum price in
+the Agreement was a unique feature, never previously included in a BRA, and was at a
+very high level compared to historical BRA clearing prices. The maximum price in the
+2026/2027 BRA was approximately equal to the maximum price recommended by the
+MMU. The maximum price for the Rest of RTO in the 2028/2029 BRA of $554.73 was
+higher than the MMU’s recommended level of $488.54 per MW-day by $66.19/MW-day,
+or 14 percent. That VRR curve with the defined maximum and minimum price is referred
+
+1
+
+On December 30, 2024, in Docket No. EL25-46-000, Governor Josh Shapiro and the
+Commonwealth of Pennsylvania filed a complaint against PJM asserting that the maximum
+price for PJM’s capacity auctions is unjust and unreasonable. The Governor and PJM reached
+an Agreement. On February 20, 2025, in Docket No. ER25-1357-000, pursuant to FPA section
+205, PJM submitted proposed revisions to its Tariff to establish a specific maximum price and
+minimum price for all RPM auctions for the 2026/2027 and 2027/2028 Delivery Years, consistent
+with the Agreement.
+
+2
+
+195 FERC ¶ 61,076
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+1
+
+to in this report as the actual VRR curve. 3 The VRR curve that would have been used
+absent the Agreement is referred in this report as the alternate VRR curve.
+The Agreement resulted in a reduction of 2028/2029 BRA revenues of $13,314,277,218, or
+44.8 percent, compared to the revenues that would have resulted from the alternate VRR
+curve, holding everything else constant. If the 2028/2029 BRA had been run with an
+alternate VRR curve, total revenues would have been $29,722,226,243, an increase of
+$13,314,277,218, or 81.1 percent, compared to the actual auction revenues of
+$16,407,949,025 (Scenario 1).
+The Agreement resulted in a reduction of combined 2026/2027 BRA, 2027/2028 BRA and
+2028/2029 BRA revenues of $26,397,465,049, or 35.0 percent, compared to the revenues that
+would have resulted from the alternate VRR curve, holding everything else constant. 4 5
+The 2026/2027 BRA was the first BRA to clear less capacity than the target reliability
+requirement. The capacity market cleared 208.7 MW (UCAP) short of PJM’s reliability
+requirement, or 0.2 percent less than the reliability requirement. 6 The 2027/2028 BRA also
+cleared at less than the target reliability requirement. The 2027/2028 BRA in December
+2025 cleared 6,516.6 MW (UCAP) short of PJM’s UCAP reliability requirement, or 8,452.4
+MW (ICAP) less than the IRM ICAP which is 5.6 percent less than the IRM. 7 The 2028/2029
+BRA also cleared at less than the target reliability requirement. The 2028/2029 BRA in July
+2026 cleared 6,831.3 MW (UCAP) short of PJM’s UCAP reliability requirement, or 8,716.1
+MW (ICAP) less than the IRM ICAP which is 5.6 percent less than the IRM (Table 2).
+
+3
+
+In the prior auction reports, the actual VRR curve with maximum and minimum price used in
+the auction was referred to as restricted VRR curve (this is now referred to as the actual VRR
+curve) and the VRR curve with no minimum price and a maximum price set based on the
+Quadrennial Review was referred to as the unrestricted VRR curve (this is now referred to as
+the alternate VRR curve).
+
+4
+
+See Monitoring Analytics, LLC, “Analysis of the 2026/2027 RPM Base Residual Auction – Part
+A,” (October 1, 2025).
+
+5
+
+See Monitoring Analytics, LLC, “Analysis of the 2027/2028 RPM Base Residual Auction – Part
+A,” (January 5, 2026).
+
+6
+
+See Monitoring Analytics, LLC, 2025 Quarterly State of the Market Report for PJM: January through
+September (November 13, 2025) Section 5: Capacity Market.
+
+7
+
+See Monitoring Analytics, LLC, “Analysis of the 2027/2028 RPM Base Residual Auction – Part
+A,” (January 5, 2026).
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+2
+
+PJM’s 2026 load forecast used as the basis for demand in clearing the 2028/2029 BRA
+included forecast total data center load of 21,470 MW (Table 4). The forecast load from
+existing data centers was 5,034 MW. The forecast increase in total data center load was
+16,436 MW. The capacity shortfalls in 2026/2027, 2027/2028 and the 2028/2029 BRAs were
+a result of existing demand from large data centers, forecast increases in existing data
+center load, and new data center load. There would have been no shortfall but for the
+forecast data center load.
+The inclusion of existing data center load and forecast data center load has resulted in
+significant increases in costs for other PJM customers. Table 1 shows the increase in costs
+to PJM customers in the 2025/2026 BRA, the 2026/2027 BRA, the 2027/2028 BRA and the
+2028/2029 BRA. The increase in costs to PJM customers in the 2028/2029 BRA as a result
+of data center demand was $6,267,819,123 (Scenario 4). The total increase in costs to PJM
+customers as a result of data center load in the last four BRAs was $29,368,774,465. The
+smaller impact in the 2027/2028 BRA and 2028/2029 RPM BRA compared to the 2026/2027
+RPM BRA was a result of higher prices without data center load resulting from a higher
+reliability requirement for the MAAC LDA in the 2027/2028 RPM BRA and the 2028/2029
+RPM BRA compared to the 2026/2027 RPM BRA.
+Table 1 Increase in capacity market revenues due to the inclusion of the data center
+load in the peak load forecast by delivery year 8
+
+2025/2026 Delivery Year
+2026/2027 Delivery Year
+2027/2028 Delivery Year
+2028/2029 Delivery Year
+Total
+
+8
+
+Above Embedded All Data Center Load
+$7,742,960,157
+$9,332,103,858
+$7,271,197,971
+$7,271,197,971
+$6,244,523,827
+$6,497,653,512
+$5,732,465,337
+$6,267,819,123
+$21,258,681,955
+$29,368,774,465
+
+See Monitoring Analytics, LLC, “Analysis of the 2025/2026 RPM Base Residual Auction - Part
+G Revised,” <https://www.monitoringanalytics.com/reports/Reports/2025/IMM_Analysis_of
+_the_2025 2026_RPM_Base_Residual_Auction_Part_G_20250603_Revised.pdf> (June 3, 2025),
+Scenario 87 and Scenario 88. See Monitoring Analytics, LLC, “Analysis of the 2026/2027 RPM
+Base Residual Auction - Part A,” <https://www.monitoringanalytics.com/reports/Reports/
+2025/IMM_Analysis_of_the_20262027_RPM_Base_Residual_Auction_Part_A_20251001.pdf>
+(October 1, 2025), Scenario 3 and Scenario 4. See Monitoring Analytics LLC, “Analysis of the
+2027/2028
+RPM
+Base
+Residual
+Auction
+–
+Part
+A,”
+<https://www.
+monitoringanalytics.com/reports/Reports/2026/IMM_Analysis_of_the_20272028_RPM_Base_
+Residual_Auction_Part_A_20260105.pdf> (January 5, 2026), Scenario 3 and Scenario 4.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+3
+
+Table 2 shows the elements of supply and demand for the 2027/2028 BRA and the
+2028/2029 BRA, including all the elements from forecast peak loads to the shortfalls in
+cleared capacity. PJM’s calculations included a relatively small error but was corrected in
+a revised report posted on January 5, 2026. 9
+Table 2 Reserve margin calculation: 2027/2028 RPM BRA and 2028/2029 RPM BRA 10
+
+Forecast peak load ICAP (MW)
+FRR peak load ICAP (MW)
+PRD ICAP (MW)
+Installed reserve margin (IRM)
+Pool-Wide Accredited UCAP Factor
+Forecast pool requirement (FPR)
+Cleared UCAP (generation and DR)
+Cleared ICAP (generation and DR)
+RPM peak load ICAP (MW)
+Reserve margin ICAP (MW)
+Reserve margin (%)
+Reserve cleared in excess of IRM ICAP (MW)
+Reserve cleared in excess of IRM (%)
+RPM peak load UCAP (MW)
+RPM reliability requirement UCAP (MW)
+Reserve margin UCAP (MW)
+Reserve cleared in excess of IRM UCAP (MW)
+
+Reserve Margin Calculation
+2027/2028 RPM BRA 2028/2029 RPM BRA Formula
+164,579.0
+165,953.5
+A
+12,201.9
+11,556.0
+B
+115.0
+0.0
+C
+20.0%
+20.0%
+D
+77.17%
+78.34%
+E
+0.9260
+0.9401 F=(1+D)*E
+134,478.1
+138,317.8
+G
+174,262.1
+176,560.9
+H=G/E
+152,262.1
+154,397.5 J=A-B-C
+22,000.0
+22,163.4
+K=H-J
+14.4%
+14.4%
+L=K/J
+(8,452.4)
+(8,716.1) M=K-D*J
+(5.6%)
+(5.6%)
+N=M/J
+117,500.7
+120,955.0
+P=J*E
+140,994.7
+145,149.1
+Q=J*F
+16,977.4
+17,362.8
+R=G-P
+(6,516.6)
+(6,831.3)
+S=G-Q
+
+Conclusions
+The basic conclusion of this analysis is that data center load growth is the primary reason
+for recent and expected capacity market conditions, including total forecast load growth,
+the tight supply and demand balance, the significant shortfall in cleared capacity, and
+high prices. But for data center growth, both actual and forecast, the PJM Capacity Market
+would not have seen the same tight supply demand conditions, the same high prices
+
+9
+
+See PJM. 2027/2028 Base Residual Auction Report (December 17, 2025)
+<https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/20272028-bra-report.pdf>.
+
+10
+
+See PJM. 2027/2028 Base Residual Auction Report (December 17, 2025)
+<https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/20272028-bra-report.pdf>. See also PJM. 2028/2029 Base Residual Auction Report (July 14, 2026)
+<https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/20282029-bra-results-report.pdf>.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+4
+
+observed in the 2025/2026 BRA, the 2026/2027 BRA, the 2027/2028, and the 2028/2029 BRA,
+and the currently expected tight supply conditions and high prices for subsequent
+capacity auctions. Holding aside all the other issues associated with the 2028/2029 BRA,
+existing and forecast data center load by itself resulted in an increase in the 2028/2029 BRA
+revenues. Based on actual auction clearing prices and quantities and uplift MW, total RPM
+market revenues for the 2028/2029 RPM Base Residual Auction were $16,407,949,025.
+Inclusion of 21,470 MW (Table 6) of existing and forecast data center load in the peak load
+forecast for 2028 resulted in an increase of $6,267,819,123, or 61.8 percent, in capacity
+market revenues for the 2028/2029 RPM Base Residual Auction compared to what RPM
+revenues would have been had PJM cleared the auction with a peak load forecast that did
+not include load from existing and planned data centers (Scenario 4).
+The combined total increase in capacity market revenues that resulted from the inclusion
+of large data center loads for the 2025/2026 BRA (Scenario 88), the 2026/2027 BRA
+(Scenario 4), the 2027/2028 BRA (Scenario 4) and the 2028/2029 BRA (Scenario 4) was
+$29,368,774,465 (Table 1). This total, cumulative impact of data center loads will continue
+to grow until the issues associated with the additions of large data center loads are
+addressed in an effective manner. 11 An additional significant impact of approximately the
+same level as the last four BRAs is expected to result from the 2029/2030 BRA that is
+currently scheduled for December 2026 because the maximum and minimum prices
+defined by the Agreement will continue to be in effect for that auction and because PJM’s
+Reliability Backstop Procurement (“RBP”) is now scheduled to be conducted after the
+2029/2030 BRA. 12 The impact is expected to increase for the subsequent BRAs after the
+2029/2030 BRA if the maximum and minimum prices defined by the Agreement are not
+
+11
+
+Inclusion of existing and forecast data center load (embedded and above embedded) increased
+the 2025/2026 BRA revenues by $9,332,103,858 (Scenario 88). See Monitoring Analytics, LLC,
+“Analysis of the 2025/2026 RPM Base Residual Auction - Part G Revised,”
+<https://www.monitoringanalytics.com/reports/Reports/2025/IMM_Analysis_of_the_2025
+2026_RPM_Base_Residual_Auction_Part_G_20250603_Revised.pdf> (June 3, 2025). Inclusion
+of existing and forecast data center load (embedded and above embedded) increased the
+2026/2027 BRA revenues by $7,271,197,971 (Scenario 4). See also Monitoring Analytics, LLC,
+“Analysis
+of
+the
+2026/2027
+RPM
+Base
+Residual
+Auction
+Part
+A,”
+<https://www.monitoringanalytics.com/reports/Reports/2025/IMM_Analysis_of_the_2026202
+7_RPM_Base_Residual_Auction_Part_A_20251001.pdf> (October 1, 2025). Inclusion of existing
+and forecast data center load (embedded and above embedded) increased the 2027/2028 BRA
+revenues by $6,497,653,512 (Scenario 4). See also Monitoring Analytics, LLC, “Analysis of the
+2027/2028 RPM Base Residual Auction – Part A,” <https://www.monitoringanalytics.com/
+reports/Reports/2026/IMM_Analysis_of_the_20272028_RPM_Base_Residual_Auction_Part_A
+_20260105.pdf> (January 5, 2026).
+
+12
+
+195 FERC ¶ 61,076
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+5
+
+extended to those auctions. The actual impact will also depend on whether and to what
+extent PJM removes some data center load from the load forecast for the 2029/2030 BRA
+based on the RBP and bilateral contracts between data centers and generators, and
+whether PJM adds matching data center load and new capacity to the BRAs, and how well
+the locations of the data centers and the generation are matched.
+The impact on the 2028/2029 BRA revenues would have been higher had PJM not used
+the actual VRR curve based on the Agreement. If the 2028/2029 BRA had been run with
+an alternate VRR curve, total revenues would have been $29,722,226,243, an increase of
+$13,314,277,218, or 81.1 percent, compared to the actual auction results (Scenario 1). Using
+an alternate VRR curve (Scenario 6), including 21,470 MW (Table 6) of existing and
+forecast data center load in the 2028 peak load forecast would have resulted in a
+$22,376,528,315 or a 304.6 percent, increase in capacity market revenues for the 2028/2029
+RPM BRA compared to what RPM revenues would have been without the impact of data
+center load.
+The actual VRR curve included a maximum price and a minimum price. The minimum
+price included in the VRR curve for the 2028/2029 BRA would have increased prices and
+revenues if the impact of large data center loads had been removed. While the maximum
+price included in the VRR curve for the 2028/2029 BRA ($325.00/MW-day) did reduce
+prices and revenues compared to the alternate VRR curve, the maximum price was less
+than the MMU’s recommended level of 1.5 times Net CONE ($488.54 per MW-day for the
+Rest of RTO) by $163.54/MW-day, or 50.0 percent, ($488.54 per MW-day minus $325.00
+per MW-day). The MMU’s recommended maximum price was for a market run without
+the distortionary effects of data center load. In the absence of that load, the BRA would
+not have cleared at the maximum price. The minimum price significantly reduced the
+calculated impact of data center load because in the absence of data center load and the
+minimum price, BRA clearing prices would have been below the minimum price. Without
+the minimum price, the clearing price without data center load would have been lower
+and therefore the difference between the price without data center load and the price with
+data center load would have been larger. The minimum price reduced the impact of the
+total of existing and forecast data center (embedded and above embedded) on the RPM
+revenues for the 2028/2029 BRA by $2,794,431,974 (Scenario 4 minus Scenario 6). 13 The
+VRR curve has always included a maximum price that both defines scarcity price levels
+and prevents the exercise of market power. The minimum price in the Agreement was a
+unique feature, never previously included in a BRA, and was at a very high level
+
+13
+
+Total revenues in Scenario 4 were $10,140,129,902 while total revenues in Scenario 6 were
+$7,345,697,928. The difference is $2,794,431,974.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+6
+
+compared to historical BRA clearing prices. No economic or logical rationale was
+presented for the minimum price.
+It is misleading to assert that the capacity market results are simply just a reflection of
+supply and demand. The current conditions are not the result of organic load growth. The
+current conditions in the capacity market are almost entirely the result of large load
+additions from data centers, both existing and forecast. The growth in data center load
+and the expected future growth in data center load are unique and unprecedented and
+uncertain and require a different approach than simply asserting that it is just supply and
+demand. The extreme uncertainty in the load forecasts based on uncertainty about the
+addition of large data center loads is also unique and unprecedented and raises questions
+about the meaning of clearing a capacity auction based on those forecasts.
+Specifically, the results of this Part A show that the level of data center demand for the
+2028/2029 Delivery Year included in the 2026 PJM load forecast report had a very
+significant impact on capacity market conditions and prices in the capacity market for the
+2028/2029 BRA.
+For example, total revenues in the 2028/2029 BRA were $16,407,949,025 (Scenario 0). If the
+existing data center load had been included but forecast new data center load plus the
+forecast increase in existing data center load (above embedded) equal to 16,436 MW (Table
+6) had not been included, total revenues would have been $10,675,483,688 (Scenario 3).
+From another perspective, the inclusion of forecast data center load increased total
+revenues by $5,732,465,337 or 53.7 percent (Scenario 3). If the total of existing and forecast
+data center load equal to 21,470 MW (Table 6), had not been included (embedded and
+above embedded) total revenues would have been $10,140,129,902 (Scenario 4). From
+another perspective, the inclusion of both existing and forecast data center load increased
+total revenues by $6,267,819,123 or 61.8 percent (Scenario 4).
+For example, if the 2028/2029 BRA had been run with the alternate VRR curve, total
+revenues would have been $29,722,226,243 (Scenario 1). If the 2028/2029 BRA had been
+run with the alternate VRR curve, and the existing data center load had been included but
+forecast new data center load plus the forecast increase in existing data center load equal
+to 16,436 MW (Table 6), (above embedded) had not been included, total revenues would
+have been $10,099,016,344 (Scenario 5). From another perspective, if the 2028/2029 BRA
+had been run with an alternate VRR curve, the inclusion of forecast data center load would
+have increased total revenues by $19,623,209,899 or 194.3 percent (Scenario 5 minus
+Scenario 1). If the 2028/2029 BRA had been run with an alternate VRR curve, and if the
+total of existing and forecast data center load equal to 21,470 MW (Table 6), had not been
+included (embedded and above embedded) total revenues would have been
+$7,345,697,928 (Scenario 6). From another perspective, if the 2028/2029 BRA had been run
+with an alternate VRR curve, the inclusion of both existing and forecast data center load
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+7
+
+would have increased total revenues by $22,376,528,315 or 304.6 percent (Scenario 6 minus
+Scenario 1).
+The role of data center load does not mean that PJM would not have eventually reached
+a point where supply and demand were tight, but that trajectory was relatively slow and
+would have resulted in more time to permit market reactions to address the balance of
+supply and demand. Inefficient and uneconomic resources were in the process of retiring
+and will continue to retire. Organic load growth will likely continue, albeit relatively
+slowly. Prices would rise in this scenario but not jump suddenly to the maximum price.
+The maximum price on the VRR curve would increase to reflect the updated, correctly
+calculated Net CONE, but supply and demand would intersect at a lower price than the
+maximum. 14 PJM’s queue improvements would have time to have an effect. Incentives to
+enter would increase and the balance of higher prices and actual new entry from
+dispatchable resources would develop based on all those factors.
+If the MMU’s recommendation to require new data center load to bring their own new
+generation were adopted, the impact of the uncertain forecast of data center load on other
+customers would be limited or eliminated, although the impact of embedded data center
+load would remain unless explicitly addressed, and the slower underlying dynamic of
+organic load growth and incentives would play out. 15 16 The longer that the issues
+associated with the addition of large new data center loads remain unaddressed, the larger
+will be the irreversible cost impacts on all customers, currently $29,368,774,465. That
+number will be significantly higher if PJM runs the 2029/2030 BRA in December 2026,
+prior to the RBP, as currently planned.
+
+14
+
+See “IMM Gross and Net CONE Impact of Extended Project Schedule” presented at the Market
+Implementation Committee meeting, September 10, 2025 <https://www.pjm.com//media/DotCom/committees-groups/committees/mic/2025/20250910/20250910-item-02-1b--quadrennial-review-proposal---imm.pdf> and “Quadrennial Review Issues,” presented at the
+PJM Markets and Reliability Committee and the PJM Members Committee (September 25,
+2025).
+<https://www.monitoringanalytics.com/reports/Presentations/2025/IMM_MRC_MC
+_Quadrennial_Review_Issues_20250925.pdf>.
+
+15
+
+See “Pre Technical Conference Comments of the Independent Market Monitor for PJM,”
+Meeting the Challenge of Resource Adequacy in Regional Transmission Organization and Independent
+System Operator Regions, Docket No. AD25-7 (May 20, 2025).
+
+16
+
+See Complaint of the Independent Market Monitor for PJM, Docket No. EL26-30-000 (November
+25, 2025).
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+8
+
+Summary
+Table 10 through Table 17 show the revenue and MW impacts of the scenarios analyzed
+in this Part A.
+The results of individual scenarios are not strictly additive. The combined results of
+multiple scenarios are shown for scenarios that address multiple results simultaneously.
+The quantitative results are estimates. The report makes explicit when the quantitative
+results depend on assumptions. Even in those cases, the quantitative results are correct as
+to direction and order of magnitude. The RPM Revenue column shows the revenues that
+resulted from the defined scenario only. The RPM Revenue Change column shows the
+difference between the specified base scenario RPM total revenues and the total RPM
+revenues that resulted from each defined alternative scenario. A positive number means
+that the existing market design elements in the defined scenario resulted in an increase in
+RPM revenues compared to the specified base scenario. A negative number means that
+the existing market design elements in the defined scenario resulted in a decrease in RPM
+revenues compared to the specified base scenario. The Percent Change columns show the
+percent change in RPM revenues for the defined alternative scenario from two
+perspectives. The Scenario to Actual Percent column shows the difference between the
+revenues under the defined scenario and the specified base scenario auction results as a
+percent of the revenues under the defined scenario. The Actual to Scenario Percent
+column shows the difference between the revenues under the defined scenario and the
+specified base scenario auction results as a percent of the revenues under the actual
+auction results.
+
+Data Center Load Growth in PJM Forecast
+Table 3 shows the date, hour and peak load excluding exports for every year from 2009
+through July 2026. From 2009 through 2024, the summer peak load excluding exports in
+PJM averaged 144,802 MW. The summer peak load in PJM did not exceed 150,000 MW in
+any year from 2014 through 2024. During this period, the summer peak load in PJM
+averaged 144,493 MW. Prior to June 2025, the highest summer peak load excluding
+exports in PJM since 2009, 154,095 MW, was reached during hour ending 17 on Thursday,
+July 21, 2011. The highest peak load, 158,005 MW, since 2009 was reached on July 02, 2026.
+Starting with the 2024 load forecast report, PJM began to project substantial growth in the
+summer peak load. 17 Table 4 shows the forecasted summer peak load for 2022 through
+2028 as reported in the recent annually published load forecast reports. PJM’s actual
+
+17
+
+See PJM. Previous PJM Long-Term Load Forecast Reports can be found here
+<https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/previous-loadforecast-reports.zip> (January 14, 2026).
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+9
+
+summer peak load excluding exports for 2026, 158,005 MW was 9,115 MW or 6.1 percent
+higher than the PJM’s actual summer peak load excluding exports for 2024, 148,890 MW.
+PJM is projecting that the summer peak load will increase by an additional 7,562 MW or
+4.8 percent from 2026 to 2028, based on the most recent 2026 load forecast report. PJM’s
+current load forecasts represent a significant increase over recent actual load growth and
+over load forecasts from recent years. PJM’s average yearly forecasted growth rate for
+2024, 2025, 2026 and 2027 was 0.49 percent based on the 2022 load forecast report. 18 PJM’s
+average yearly forecasted growth rate for 2024, 2025, 2026 and 2027 was 0.86 percent based
+on the 2023 load forecast report. 19 PJM revised the projected growth rates significantly in
+the 2025 load forecast report. For example, PJM projected that the summer peak load in
+2027 would reach 164,186 in the 2025 load forecast report. This is a substantial upward
+revision (11,864 MW or 7.8 percent) from the projected 2027 summer peak load, 152,322
+MW, in the 2022 load forecast report. Compared to 2025 load forecast report, PJM reduced
+the summer peak load forecast for all years starting from 2026 in the latest 2026 load
+forecast report. PJM projected that the 2026 summer peak load would reach 156,373 MW
+in the 2026 load forecast report, or 2,564 MW lower than the 2026 summer peak load
+forecast in the 2025 load forecast report. The actual peak load in the first seven months of
+2026 was 158,005 MW, 1.04 percent higher than the projected peak load of 156,373 MW.
+
+18
+
+See PJM. Previous PJM Long-Term Load Forecast Reports can be found here
+<https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/previous-loadforecast-reports.zip> (January 14, 2026).
+
+19
+
+See id.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+10
+
+Table 3 PJM peak load: August 2009 through July 2026 20
+
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026 (Jan-Jul)
+
+Date
+Mon, August 10
+Tue, July 06
+Thu, July 21
+Tue, July 17
+Thu, July 18
+Tue, June 17
+Tue, July 28
+Thu, August 11
+Wed, July 19
+Tue, August 28
+Fri, July 19
+Mon, July 20
+Tue, August 24
+Wed, July 20
+Thu, July 27
+Tue, July 16
+Mon, June 23
+Thu, July 02
+
+Hour Ending (EPT) PJM Load (MWh)
+17
+123,900
+17
+133,297
+17
+154,095
+17
+150,879
+17
+153,790
+18
+138,448
+17
+140,266
+16
+148,577
+18
+142,387
+17
+147,042
+18
+148,228
+17
+141,449
+17
+145,563
+18
+144,356
+18
+144,215
+18
+148,890
+18
+156,256
+18
+158,005
+
+Table 4 Forecasted Summer Peak Load for 2022 through 2028 as reported in the recent
+load forecast reports 21
+Report
+2022 Load Forecast
+2023 Load Forecast
+2024 Load Forecast
+2025 Load Forecast
+2026 Load Forecast
+
+Forecasted Summer Peak Load (MW)
+2022
+2023
+2024
+2025
+2026
+148,938 149,351 150,309 151,165 152,259
+149,059 149,737 150,924 152,736
+151,247 153,493 156,803
+154,144 158,937
+156,373
+
+2027
+152,322
+154,275
+159,859
+164,186
+160,451
+
+2028
+152,689
+155,703
+162,972
+169,981
+165,567
+
+20
+
+See Monitoring Analytics, LLC, 2026 Quarterly State of the Market Report for PJM: January through
+September, Section 3 Energy Market at Demand, (November 12, 2026).
+
+21
+
+See PJM. 2026 PJM Long-Term Load Forecast Report <https://www.pjm.com//media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf> (February 6,
+2026). Previous PJM Long-Term Load Forecast Reports <https://www.pjm.com//media/DotCom/planning/res-adeq/load-forecast/previous-load-forecast-reports.zip>
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+11
+
+PJM attributed almost all of this increase in the summer peak load forecast to the
+anticipated additions in data center demand. 22 Table 5 shows large load adjustments to
+the load forecast for 2022 through 2028 as reported in the recent load forecast reports. In
+the 2025 load forecast report, PJM projected that the sum of large load additions from new
+facilities and growth from existing (embedded) large load facilities (growth above
+embedded) would reach 8,453 MW in 2026. Of the 8,453 MW, data center load accounts
+for 7,892 MW or 93 percent. A port electrification project in PSEG, a voltage optimization
+in Dominion and a peak shaving program in EKPC account for the remainder of the large
+load growth. 23 In the 2025 load forecast report, PJM projected that the sum of large load
+additions from new facilities and growth from existing (embedded) large load facilities
+(growth above embedded) would reach 13,668 MW in 2027. Of the 13,668 MW, data center
+load accounts for 13,018 MW or 95 percent. PJM projected that the sum of large load
+additions from new facilities and growth from existing (embedded) large load facilities
+(growth above embedded) would reach 16,242 MW in 2028 (Table 5). The data center load
+projected by PJM for 2028 was 16,436 MW (Table 6). The data center load was offset
+slightly by a peak shaving program in EKPC and voltage optimization in DOM.
+Table 6 shows the data center load included in the summer peak load forecast for the
+2025/2026 RPM BRA, the 2026/2027 RPM BRA, the 2027/2028 BRA and the 2028/2029 BRA.
+PJM forecast that the load from the planned data centers and the forecast load growth
+from the existing data centers (above embedded) would be 16,436 MW higher for the
+2028/2029 BRA. 24 PJM forecast that the total load from planned and existing data centers
+(embedded and above embedded) in the 2028 summer peak load forecast would be 21,470
+MW higher for the 2028/2029 BRA.
+
+(January 14, 2026). The forecasted peak load used in the clearing of RPM BRA (Table 2) includes
+additional load served outside PJM.
+22
+
+See PJM. Load Adjustment Requests Summary for 2026 Load Forecast - Preliminary, presented
+at Load Analysis Subcommittee <https://www.pjm.com/-/media/DotCom/committeesgroups/subcommittees/las/2025/20251124/20251124-item-03---large-load-adjustmentrequests-summary.pdf> (November 24, 2025).
+
+23
+
+See PJM. 2026 PJM Long-Term Load Forecast Report at 5 <https://www.pjm.com//media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf> (February 14,
+2025).
+
+24
+
+The total data center load is distributed across multiple LDAs. The scenario analyses in this
+report accounted for the locational distribution of the data center load.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+12
+
+Table 5 Large load adjustments for 2022 through 2028 as reported in the recent load
+forecast reports
+Report
+2022 Load Forecast (Adjustments)
+2023 Load Forecast (Adjustments Above Embedded)
+2024 Load Forecast (Adjustments Above Embedded)
+2025 Load Forecast (Adjustments Above Embedded)
+2026 Load Forecast (Adjustments Above Embedded)
+
+2022
+897
+
+2023
+1,643
+2,231
+
+Large Load (MW)
+2024
+2025
+2,344
+3,061
+3,393
+4,654
+2,664
+4,673
+3,591
+
+2026
+3,885
+6,594
+7,557
+8,453
+6,403
+
+2027
+4,166
+8,300
+10,064
+13,668
+10,785
+
+2028
+4,441
+9,866
+12,643
+19,320
+16,242
+
+Table 6 Embedded and above embedded data center load for 2025/2026 RPM BRA,
+2026/2027 RPM BRA, 2027/2028 RPM BRA and 2028/2029 RPM BRA 25
+
+2025/2026 RPM BRA (Based on 2024 Load Forecast)
+2026/2027 RPM BRA (Based on 2025 Load Forecast)
+2027/2028 RPM BRA (Based on 2025 Load Forecast)
+2028/2029 RPM BRA (Based on 2026 Load Forecast)
+
+Above Embedded Data Center Load
+(MW)
+4,654
+7,892
+13,018
+16,436
+
+All Data Center Load
+(MW)
+7,927
+11,993
+17,071
+21,470
+
+Alternate VRR Curve
+Table 7 shows the shows the price and MW coordinates of the VRR curves for the RTO
+and each modeled LDA for the 2028/2029 RPM Base Residual Auction without the
+maximum price and minimum price (alternate) that PJM filed and FERC accepted for the
+2028/2029 BRA. 26 27 These are the alternate VRR curves. For the capacity auctions for the
+2028/2029 Delivery Year, the alternate VRR curve was based on the PJM implementation
+of the parameters defined in the quadrennial review in 2023. 28 For these delivery years the
+maximum price on the VRR curve was the greater of 1.15 times Gross CONE minus 0.75
+times Net Energy and Ancillary Service Revenue offset (E&AS) or 0.2 times Net CONE
+for all unforced capacity MW between 0 and 99.0 percent of the reliability requirement
+(from zero MW to Point A). The first downward sloping segment is from 99.0 percent to
+
+25
+
+In this report, embedded load means existing load at the time of the forecast. Above embedded
+includes forecast increases in load for both existing data center load and new data center load.
+
+26
+
+In this report, the actual VRR curve and actual PJM parameters include the identified
+maximum and minimum prices capacity prices on the VRR curve. The alternate VRR curve
+and alternate PJM parameters include the existing tariff definition of the VRR curve, without
+the minimum price and maximum price based on the Agreement.
+
+27
+
+191 FERC ¶ 61,066 (Apr. 21, 2025).
+
+28
+
+182 FERC ¶ 61,073 (Feb. 14, 2023).
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+13
+
+101.5 percent of the reliability requirement (from Point A to Point B). The price coordinate
+for Point B is set at 0.5 times the Maximum Price (Point A). The second downward sloping
+segment is from 101.5 percent to 106.0 percent of the reliability requirement (from Point B
+to Point C). On December 9, 2024, as part of a package of capacity market changes, PJM
+filed to retain a gas fired dual fuel CT with oil backup as the reference resource, effective
+for the 2026/2027 BRA and 2027/2028 BRA. 29
+The 2028/2029 BRA reliability requirements included in the VRR curves were based on
+the 2026 PJM Load Forecast Report adjusted for the FRR obligation.
+Table 7 Price coordinates for 2028/2029 RPM BRA alternate VRR curve
+LDA
+RTO
+ATSI
+COMED
+MAAC
+ATSI-CLEVELAND
+DAY
+DEOK
+DOM
+EMAAC
+PPL
+SWMAAC
+DPL-SOUTH
+PSEG
+BGE
+PEPCO
+PS-NORTH
+JCPL
+
+29
+
+Point A
+X (UCAP MW) Y ($/MW-day)
+143,697.6
+$554.72
+12,418.9
+$530.16
+22,589.0
+$776.69
+54,338.8
+$624.89
+5,159.9
+$530.16
+3,754.2
+$505.59
+5,604.5
+$523.26
+29,715.3
+$426.55
+30,913.6
+$708.73
+10,053.5
+$662.47
+13,355.7
+$547.77
+2,657.1
+$618.73
+10,742.6
+$750.42
+6,921.3
+$517.72
+6,423.7
+$608.78
+5,178.4
+$750.42
+6,195.6
+$746.50
+
+Point B
+Point C
+X (UCAP MW) Y ($/MW-day) X (UCAP MW) Y ($/MW-day)
+147,326.3
+$277.36
+153,858.0
+$0.00
+12,732.5
+$265.08
+13,297.0
+$0.00
+23,159.5
+$388.35
+24,186.2
+$0.00
+55,700.8
+$312.45
+58,152.4
+$0.00
+5,290.2
+$265.08
+5,524.7
+$0.00
+3,849.0
+$252.80
+4,019.6
+$0.00
+5,746.0
+$261.63
+6,000.8
+$0.00
+30,465.7
+$213.28
+31,816.4
+$0.00
+31,694.3
+$354.37
+33,099.5
+$0.00
+10,307.3
+$331.24
+10,764.3
+$0.00
+13,688.9
+$273.89
+14,288.6
+$0.00
+2,724.2
+$309.37
+2,844.9
+$0.00
+11,013.9
+$375.21
+11,502.2
+$0.00
+7,096.1
+$258.86
+7,410.7
+$0.00
+6,585.9
+$304.39
+6,877.9
+$0.00
+5,309.2
+$375.21
+5,544.5
+$0.00
+6,352.1
+$373.25
+6,633.7
+$0.00
+
+PJM’s filing was approved. See Attachment D, FERC Docket No. ER25-682-000, Revisions to
+PJM Capacity Market (December 9, 2024). “In the meantime, the instant proposal would allow
+PJM to retain the dual-fuel CT as the Reference Resource for another two Base Residual
+Auctions (i.e., through the 2027/2028 Delivery Year) rather than switch, as previously planned,
+to a CC Reference Resource beginning with the 2026/2027 Delivery Year.”
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+14
+
+Actual VRR Curve
+The VRR curve used in the 2028/2029 BRA was based on a defined maximum and
+minimum price and is referred to as the actual VRR curve. 30 31
+Table 8 shows the shows the price and MW coordinates of the VRR curves for the RTO
+and each modeled LDA for 2028/2029 RPM Base Residual Auction with the actual VRR
+curve. The maximum price is set at $325.00 per MW-day UCAP, which is derived from
+the $325 per MW-day in the Agreement. 32 PJM’s approach is that the maximum price of
+$325.00 per MW-day in UCAP terms equals a maximum price of $256.75 per MW-day in
+ICAP terms, using a dual fuel CT ELCC, which was 0.79 at the time of the Agreement.
+PJM recalculated the maximum price using the updated dual fuel CT ELCC, also at 0.79,
+to obtain $325.00 per MW-day ($256.75/0.79). The minimum price is similarly calculated
+as $175.00 per MW-day based on the $175 per MW-day in the Agreement and the same
+ELCC for 2028/2029 RPM BRA.
+
+30
+
+The potential impacts of actual (restricted) VRR curve for the 2025/2026 RPM Base Residual
+Auction were analyzed in Part F of the MMU Analysis of the 2025/2026 RPM Base Residual
+Auction. See Monitoring Analytics, LL, “Analysis of the 2025/2026 RPM Base Residual Auction
+- Part F,” <https://www.monitoringanalytics.com/reports/Reports/2025/IMM_Analysis_of_the
+_20252026_RPM_Base_Residual_Auction_Part_F_20250204.pdf> (Feb. 4, 2025).
+
+31
+
+See Monitoring Analytics, LLC, “Analysis of the 2025/2026 RPM Base Residual Auction - Part
+G Revised,” <https://www.monitoringanalytics.com/reports/Reports/2025/IMM_Analysis_of
+_the_2025 2026_RPM_Base_Residual_Auction_Part_G_20250603_Revised.pdf> (June 3, 2025).
+
+32
+
+See Commonwealth of Pennsylvania, “What Industry Leaders, Lawmakers, and Consumer
+Advocates Are Saying About Governor Shapiro’s Action to Save Consumers Over $21 Billion
+in Utility Charges,” (January 31, 2025) <https://www.pa.gov/governor/newsroom/2025-pressreleases/-industry-leaders--lawmakers-consumer-adv-saying-about-shapiro-s.html> and also;
+Email to PJM Members “PA Governor Shapiro Complaint – PJM Notice of Consultation”
+(January 28, 2025).
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+15
+
+Table 8 Price coordinates for 2028/2029 RPM BRA actual VRR curve
+LDA
+RTO
+ATSI
+COMED
+MAAC
+ATSI-CLEVELAND
+DAY
+DEOK
+DOM
+EMAAC
+PPL
+SWMAAC
+DPL-SOUTH
+PSEG
+BGE
+PEPCO
+PS-NORTH
+JCPL
+
+Point A
+Point B
+Point C
+Point D
+X (UCAP MW) Y ($/MW-day) X (UCAP MW) Y ($/MW-day) X (UCAP MW) Y ($/MW-day) X (UCAP MW) Y ($/MW-day)
+146,703.0
+$325.00
+147,326.3
+$277.36
+149,736.8
+$175.00
+153,858.0
+$175.00
+12,661.6
+$325.00
+12,732.5
+$265.08
+12,924.3
+$175.00
+13,297.0
+$175.00
+23,327.0
+$325.00
+23,723.5
+$175.00
+24,186.2
+$175.00
+55,241.9
+$325.00
+55,296.6
+$312.45
+56,375.1
+$175.00
+57,748.2
+$175.00
+5,260.7
+$325.00
+5,290.2
+$265.08
+5,369.9
+$175.00
+5,524.7
+$175.00
+3,821.9
+$325.00
+3,849.0
+$252.80
+3,901.5
+$175.00
+4,019.6
+$175.00
+5,711.7
+$325.00
+5,746.0
+$261.63
+5,830.4
+$175.00
+6,000.8
+$175.00
+30,072.6
+$325.00
+30,465.7
+$213.28
+30,708.1
+$175.00
+31,816.4
+$175.00
+31,810.8
+$325.00
+32,405.6
+$175.00
+33,099.5
+$175.00
+10,315.9
+$325.00
+10,522.9
+$175.00
+10,764.3
+$175.00
+13,464.7
+$325.00
+13,526.9
+$273.89
+13,743.4
+$175.00
+14,126.6
+$175.00
+2,720.8
+$325.00
+2,724.2
+$309.37
+2,776.6
+$175.00
+2,844.9
+$175.00
+11,079.2
+$325.00
+11,274.5
+$175.00
+11,502.2
+$175.00
+7,051.4
+$325.00
+7,096.1
+$258.86
+7,198.0
+$175.00
+7,410.7
+$175.00
+6,574.9
+$325.00
+6,585.9
+$304.39
+6,710.0
+$175.00
+6,877.9
+$175.00
+5,340.7
+$325.00
+5,434.8
+$175.00
+5,544.5
+$175.00
+6,388.5
+$325.00
+6,501.7
+$175.00
+6,633.7
+$175.00
+
+The sensitivities in this Part A focus on the impact of data center load on the clearing
+prices in the 2028/2029 RPM Base Residual Auction (Scenario 3 through Scenario 8) and
+on the capacity market revenues using the offers from the 2028/2029 BRA, parameters for
+the 2028/2029 BRA, the actual VRR curve, the alternate VRR curve, and the MMU
+proposed alternative VRR Curve (IMM VRR Curve). 33
+
+IMM VRR Curve
+The MMU proposed an alternative VRR curve (IMM VRR Curve). 34 35 Under the IMM
+VRR Curve, the maximum price (point A) is set at the lower of Gross CONE and 1.5 times
+
+33
+
+The sensitivities in Part G of the 2025/2026 BRA Report focused on the expected impact of the
+growth in the data center load on the clearing prices and total revenue in the 2026/2027 RPM
+Base Residual Auction (Scenario 90 and Scenario 94) using the offers from the 2025/2026 BRA,
+and parameters for the 2026/2027 BRA including the unrestricted (referred to in this report as
+alternate) 2026/2027 VRR curve. See Monitoring Analytics, LLC “Analysis of the 2025/2026
+RPM Base Residual Auction - Part G Revised,” <https://www.monitoringanalytics.com/
+reports/Reports/2025/IMM_Analysis_of_the_20252026_RPM_Base_Residual_Auction_Part_G
+_20250603_Revised.pdf> (June 3, 2025).
+
+34
+
+The MMU filed the detailed differences with the PJM Quadrennial Review proposed VRR
+curve. See Protest of the Independent Market Monitor for PJM, Docket No. ER26-455
+(December 8, 2025).
+
+35
+
+See “IMM Gross and Net CONE Impact of Extended Project Schedule” Market Implementation
+Committee, (September 10, 2025) <https://www.pjm.com/-/media/DotCom/committeesgroups/committees/mic/2025/20250910/20250910-item-02-1b---quadrennial-review-proposal--
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+16
+
+the Net CONE of the reference resource. The inflection point (point B) is set at 0.5 times
+the maximum price. The price coordinate corresponding to the maximum quantity (point
+C) is set at $0 per MW-day. The IMM VRR Curve does not include the maximum price
+and minimum price from the actual VRR curve.
+Under the IMM VRR Curve, the maximum price on the VRR curve (point A) is set for all
+unforced capacity MW between 0 and 99 percent of the reliability requirement. The first
+downward sloping segment is set from 99 percent to 101.5 percent (point B) of the
+reliability requirement. The second downward sloping segment is set from 101.5 percent
+to 104.5 percent (point C) of the reliability requirement. The MW quantities under the
+IMM VRR Curve correspond to the same MW quantities used in the 2028/2029 RPM Base
+Residual Auction. 36
+Table 9 shows the price and MW coordinates of the IMM VRR Curves for the RTO and
+each modeled LDA for the 2028/2029 RPM Base Residual Auction.
+Table 9 Price coordinates for IMM VRR Curve for 2028/2029 RPM BRA
+LDA
+RTO
+ATSI
+COMED
+MAAC
+ATSI-CLEVELAND
+DAY
+DEOK
+DOM
+EMAAC
+PPL
+SWMAAC
+DPL-SOUTH
+PSEG
+BGE
+PEPCO
+PS-NORTH
+JCPL
+
+Point A
+X (UCAP MW) Y ($/MW-day)
+143,697.6
+$488.54
+12,418.9
+$463.83
+22,589.0
+$860.07
+54,333.1
+$633.11
+5,159.9
+$463.83
+3,754.2
+$414.69
+5,604.5
+$450.02
+29,715.3
+$256.62
+30,913.6
+$756.03
+10,053.5
+$725.66
+13,353.4
+$479.63
+2,657.1
+$632.63
+10,742.6
+$756.03
+6,921.3
+$419.52
+6,423.7
+$601.64
+5,178.4
+$756.03
+6,195.6
+$756.03
+
+Point B
+X (UCAP MW) Y ($/MW-day)
+147,326.3
+$244.27
+12,732.5
+$231.92
+23,159.5
+$430.04
+55,695.1
+$316.55
+5,290.2
+$231.92
+3,849.0
+$207.35
+5,746.0
+$225.01
+30,465.7
+$128.31
+31,694.3
+$378.02
+10,307.3
+$362.83
+13,686.6
+$239.81
+2,724.2
+$316.31
+11,013.9
+$378.02
+7,096.1
+$209.76
+6,585.9
+$300.82
+5,309.2
+$378.02
+6,352.1
+$378.02
+
+Point C
+X (UCAP MW) Y ($/MW-day)
+151,680.8
+$0.00
+13,108.8
+$0.00
+23,844.0
+$0.00
+57,329.5
+$0.00
+5,446.5
+$0.00
+3,962.7
+$0.00
+5,915.8
+$0.00
+31,366.2
+$0.00
+32,631.1
+$0.00
+10,612.0
+$0.00
+14,086.4
+$0.00
+2,804.7
+$0.00
+11,339.4
+$0.00
+7,305.8
+$0.00
+6,780.6
+$0.00
+5,466.1
+$0.00
+6,539.8
+$0.00
+
+-imm.pdf> and “Quadrennial Review Issues,” Markets and Reliability Committee and the
+Members Committee, (September 25, 2025) <https://www.monitoringanalytics.com/reports/
+Presentations/2025/IMM_MRC_MC_Quadrennial_Review_Issues_20250925.pdf>.
+36
+
+Ibid.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+17
+
+Figure 1 compares the alternate VRR curve, the actual VRR curve and the IMM VRR Curve
+for the RTO for the 2028/2029 BRA. Figure 2 compares the alternate VRR curve, the actual
+VRR curve, and the IMM VRR curve for the PSEG LDA for the 2028/2029 BRA.
+Figure 1 Comparison of VRR curves for RTO
+$600
+
+Alternate A
+
+$500
+IMM A
+
+$/MW-Day
+
+$400
+Actual A
+
+$300
+
+Actual B Alternate B
+IMM B
+
+$200
+
+Actual C
+
+$100
+Alternate C
+
+$0
+140,000
+
+IMM C
+
+142,000
+
+Alternate VRR Curve
+
+144,000
+
+146,000
+
+Actual VRR Curve
+
+148,000
+UCAP MW
+
+150,000
+
+IMM VRR Curve
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+152,000
+
+154,000
+
+Reliability Requirement
+
+18
+
+Figure 2 Comparison of VRR curves for PSEG LDA
+$900
+$800
+
+Alternate A
+
+$700
+IMM A
+
+$/MW-Day
+
+$600
+$500
+$400
+
+IMM B Alternate B
+Actual A
+
+$300
+
+Actual B
+
+$200
+$100
+$0
+9,000
+
+IMM C
+
+9,500
+
+Alternate VRR Curve
+
+10,000
+Actual VRR Curve
+
+10,500
+UCAP MW
+IMM VRR Curve
+
+11,000
+
+Alternate C
+
+11,500
+Reliability Requirement
+
+The MMU used the IMM VRR Curves to analyze the impact of the increase in the data
+center load on the 2028/2029 RPM Base Residual Auction in order to show what the impact
+would have been for the 2028/2029 BRA. The clearing prices with the actual VRR curve
+were lower than with the IMM VRR curves, holding everything else constant.
+The actual VRR curve would artificially inflate the clearing prices and capacity market
+revenues in the scenario where there is no data center load growth. There would likely
+have been no VRR curve with a maximum and minimum price in the absence of data
+center load growth. The Agreement between the Governor of Pennsylvania and PJM to
+implement a maximum and a minimum clearing price in the RPM auction would likely
+not have happened in the absence of the substantial increase in the data center load, the
+resultant increase in the clearing prices in the 2025/2026 RPM Base Residual Auction, and
+the resultant expected high clearing prices in the upcoming auctions.
+
+Results: Impact of the Actual VRR Curve on the 2028/2029 RPM
+Base Residual Auction
+In Scenarios 1 and 2, the MMU analyzed the impact on the auction results for the
+2028/2029 BRA of using the actual VRR curve rather than the alternate 2028/2029 RPM
+Base Residual Auction parameters or the IMM VRR Curve (Table 10). Scenario 1 shows
+the impact of using the alternate 2028/2029 BRA parameters. Scenario 2 shows the impact
+of using the IMM VRR Curve.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+19
+
+Table 10 shows the impact on RPM revenues for Scenario 1. Based on actual auction
+clearing prices and quantities and uplift MW, total RPM market revenues for the
+2028/2029 RPM Base Residual Auction were $16,407,949,025. If the 2028/2029 RPM BRA
+had been cleared using the alternate VRR curve, and everything else had remained the
+same, total RPM market revenues for the 2028/2029 RPM Base Residual Auction would
+have been $29,722,226,243, an increase of $13,314,277,218, or 81.1 percent, compared to the
+actual auction results (Scenario 1). From another perspective, the actual 2028/2029 BRA
+VRR curve resulted in 44.8 percent lower 2028/2029 RPM BRA revenues compared to what
+RPM revenues would have been had PJM cleared the auction using the alternate 2028/2029
+RPM BRA VRR curve (Scenario 1).
+Table 10 shows the impact on RPM revenues for Scenario 2. Based on actual auction
+clearing prices and quantities and uplift MW, total RPM market revenues for the
+2028/2029 RPM Base Residual Auction were $16,407,949,025. If the 2028/2029 RPM BRA
+had been cleared using the 2028/2029 RPM BRA parameters and the IMM VRR Curve,
+and everything else had remained the same, total RPM market revenues for the 2028/2029
+RPM Base Residual Auction would have been $27,889,570,368, an increase of
+$11,481,621,343, or 70.0 percent, compared to the actual auction results (Scenario 2). From
+another perspective, the actual 2028/2029 BRA VRR curve resulted in 41.2 percent lower
+2028/2029 RPM BRA revenues compared to what RPM revenues would have been had
+PJM cleared the auction using the 2028/2029 RPM BRA parameters and IMM VRR Curve
+(Scenario 2).
+Table 10 Scenario summary for the 2028/2029 RPM Base Residual Auction: Alternate
+2028/2029 BRA Parameters; IMM VRR Curve
+Scenario Impact
+
+Scenario Scenario Description
+0
+Actual results
+1
+Alternate VRR Curve
+2
+IMM VRR Curve
+
+RPM Revenue RPM Revenue Change
+($ per Delivery Year)
+($ per Delivery Year)
+$16,407,949,025
+NA
+$29,722,226,243
+($13,314,277,218)
+$27,889,570,368
+($11,481,621,343)
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+(44.8%)
+81.1%
+(41.2%)
+70.0%
+
+Results: Actual 2028/2029 BRA VRR Curve and Existing and
+Forecast Data Center Load
+In Scenario 3 and Scenario 4, the MMU analyzed the impact on the auction results for the
+2028/2029 BRA of including large data center load (Table 11). Scenario 3 shows the impact
+of including the forecast load from the planned data centers and the forecast load growth
+from the existing data centers (above embedded) in the 2028 summer peak load forecast.
+Scenario 4 shows the impact of including the total load from planned and existing data
+centers (embedded and above embedded) in the 2028 summer peak load forecast.
+Table 11 shows the impact on RPM revenues for Scenario 3. If the 2028/2029 RPM BRA
+had been cleared with the 2028 peak load forecast that did not include 16,436 MW (Table
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+20
+
+6) of forecast load growth from planned data centers and from existing data centers (above
+embedded), and everything else had remained the same, total RPM market revenues for
+the 2028/2029 RPM Base Residual Auction would have been $10,675,483,688, a decrease of
+$5,732,465,337 or 34.9 percent compared to the actual results (Scenario 3). From another
+perspective, including forecast data center load in the 2028 peak load forecast resulted in
+a 53.7 percent increase in RPM revenues for the 2028/2029 RPM Base Residual Auction
+compared to what RPM revenues would have been had PJM cleared the auction with a
+peak load forecast that did not include forecast load growth from planned data centers
+and existing data centers (Scenario 3).
+Table 11 shows the impact on RPM revenues for Scenario 4. If the 2028/2029 RPM BRA
+had been cleared with the 2028 peak load forecast that did not include 21,470 MW (Table
+6) of load from existing data centers, forecast load from planned data centers and forecast
+load growth from existing data centers (embedded and above embedded), and everything
+else had remained the same, total RPM market revenues for the 2028/2029 RPM Base
+Residual Auction would have been $10,140,129,902, a decrease of $6,267,819,123 or 38.2
+percent compared to the actual results (Scenario 4). From another perspective, including
+existing and forecast data center load in the 2028 peak load forecast resulted in a 61.8
+percent increase in RPM revenues for the 2028/2029 RPM Base Residual Auction
+compared to what RPM revenues would have been had PJM cleared the auction with a
+peak load forecast that did not include load from existing data centers, forecast load from
+planned data centers and forecast load growth from existing data centers (Scenario 4).
+The difference in the impact on RPM revenues under Scenario 3 and Scenario 4 is
+relatively small when compared to the difference in the peak load forecast because the
+actual VRR curve has a minimum price. The minimum price included in the actual VRR
+curve limits the impact of the reduced data center load on clearing prices because it forces
+a higher price than would result without a minimum price. The reduction in price is
+limited by the minimum price included in the actual VRR curve actually used in the BRA.
+
+Results: Alternate 2028/2029 BRA VRR Curve and Existing and
+Forecast Data Center Load
+Table 12 shows the impact on RPM revenues for Scenario 5 and Scenario 6. If the 2028/2029
+RPM BRA had been cleared using the 2028/2029 RPM BRA parameters and the alternate
+VRR curve, and everything else had remained the same, total RPM market revenues for
+the 2028/2029 RPM Base Residual Auction would have been $29,722,226,243 (Scenario 1).
+Table 12 shows the impact on RPM revenues for Scenario 5. If, in addition to Scenario 1,
+the 2028/2029 RPM BRA had been cleared with the 2028 peak load forecast that did not
+include 16,436 MW (Table 6) of forecast load growth from planned data centers and from
+existing data centers (above embedded), total RPM market revenues for the 2028/2029
+RPM Base Residual Auction would have been $10,099,016,344 (Scenario 5), a decrease of
+$19,623,209,899 or 66.0 percent compared to the results if the 2028/2029 RPM BRA had
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+21
+
+been cleared using the 2028/2029 RPM BRA parameters with the alternate VRR curve, and
+everything else had remained the same (Scenario 5 compared to Scenario 1). From another
+perspective, in addition to Scenario 1, including forecast data center load in the 2028 peak
+load forecast resulted in a 194.3 percent increase in RPM revenues for the 2028/2029 RPM
+Base Residual Auction compared to what RPM revenues would have been had PJM
+cleared the auction using the 2028/2029 RPM BRA parameters with the alternate VRR
+curve, and with a peak load forecast that did not include load from planned data centers
+and the forecast load growth from existing data centers (Scenario 5 compared to Scenario
+1).
+Table 12 shows the impact on RPM revenues for Scenario 6. If, in addition to Scenario 1,
+the 2028/2029 RPM BRA had been cleared with the 2028 peak load forecast that did not
+include 21,470 MW (Table 6) of load from existing data centers, forecast load from planned
+data centers and forecast load growth from existing data centers (embedded and above
+embedded), and everything else had remained the same, total RPM market revenues for
+the 2028/2029 RPM Base Residual Auction would have been $7,345,697,928 (Scenario 6), a
+decrease of $22,376,528,315 or 75.3 percent compared to the results if the 2028/2029 RPM
+BRA had been cleared using the 2028/2029 RPM BRA parameters with the alternate VRR
+curve, including the data center load and everything else had remained the same (Scenario
+6 compared to Scenario 1). From another perspective, in addition to Scenario 1, including
+existing and forecast data center load in the 2028 peak load forecast resulted in a 304.6
+percent increase in RPM revenues for the 2028/2029 RPM Base Residual Auction
+compared to what RPM revenues would have been had PJM cleared the auction using the
+2028/2029 RPM BRA parameters with the alternate VRR curve, and with a peak load
+forecast that did not include load from existing data centers, forecast load from planned
+data centers and forecast load growth from existing data centers (Scenario 6 compared to
+Scenario 1).
+The actual VRR curve reduced the impact of the data center load compared to the alternate
+VRR curve. If the 2028/2029 RPM BRA had been cleared with the 2028 peak load forecast
+that did not include 16,436 MW of forecast load growth from planned data centers and
+from existing data centers (above embedded), the use of the actual VRR curve reduced the
+impact by $13,890,744,562 (Scenario 5 compared to Scenario 3). If the 2028/2029 RPM BRA
+had been cleared with the 2028 peak load forecast that did not include 21,470 MW of load
+from existing data centers, forecast load from planned data centers and forecast load
+growth from existing data centers (embedded and above embedded), the use of the actual
+VRR curve reduced the impact by $16,108,709,192 (Scenario 6 compared to Scenario 4).
+
+Results: IMM VRR Curve and Existing and Forecast Data Center
+Load
+Table 13 shows the impact on RPM revenues for Scenario 7 and Scenario 8. If the 2028/2029
+RPM BRA had been cleared using the 2028/2029 RPM BRA parameters and the IMM VRR
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+22
+
+Curve, and everything else had remained the same, total RPM market revenues for the
+2028/2029 RPM Base Residual Auction would have been $27,889,570,368 (Scenario 2).
+Table 13 shows the impact on RPM revenues for Scenario 7. If, in addition to Scenario 2,
+the 2028/2029 RPM BRA had been cleared with the 2028 peak load forecast that did not
+include 16,436 MW (Table 6) of forecast load growth from planned data centers and from
+existing data centers (above embedded), total RPM market revenues for the 2028/2029
+RPM Base Residual Auction would have been $9,918,707,490 (Scenario 7), a decrease of
+$17,970,862,878 or 64.4 percent compared to the results if the 2028/2029 RPM BRA had
+been cleared using the 2028/2029 RPM BRA parameters with IMM VRR Curve, and
+everything else had remained the same (Scenario 7 compared to Scenario 2). From another
+perspective, in addition to Scenario 2, including forecast data center load in the 2028 peak
+load forecast resulted in a 181.2 percent increase in RPM revenues for the 2028/2029 RPM
+Base Residual Auction compared to what RPM revenues would have been had PJM
+cleared the auction using the 2028/2029 RPM BRA parameters with the IMM VRR Curve,
+and with a peak load forecast that did not include load from planned data centers and the
+forecast load growth from existing data centers (Scenario 7 compared to Scenario 2).
+Table 13 shows the impact on RPM revenues for Scenario 8. If, in addition to Scenario 2,
+the 2028/2029 RPM BRA had been cleared with the 2028 peak load forecast that did not
+include 21,470 MW (Table 6) of load from existing data centers, forecast load from planned
+data centers and forecast load growth from existing data centers (embedded and above
+embedded), and everything else had remained the same, total RPM market revenues for
+the 2028/2029 RPM Base Residual Auction would have been $6,385,451,926 (Scenario 8), a
+decrease of $21,504,118,442 or 77.1 percent compared to the results if the 2028/2029 RPM
+BRA had been cleared using the 2028/2029 RPM BRA parameters with the IMM VRR
+Curve, including the data center load and everything else had remained the same
+(Scenario 8 compared to Scenario 2). From another perspective, in addition to Scenario 2,
+including existing and forecast data center load in the 2028 peak load forecast resulted in
+a 336.8 percent increase in RPM revenues for the 2028/2029 RPM Base Residual Auction
+compared to what RPM revenues would have been had PJM cleared the auction using the
+2028/2029 RPM BRA parameters with the IMM VRR Curve, and with a peak load forecast
+that did not include load from existing data centers, forecast load from planned data
+centers and forecast load growth from existing data centers (Scenario 8 compared to
+Scenario 2).
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+23
+
+Table 11 Scenario summary for 2028/2029 RPM Base Residual Auction: Actual VRR
+Curve; Existing Data Center Load; Forecast Data Center Load
+Scenario Impact
+Scenario Scenario Description
+0
+Actual results
+Peak Load Forecast Without Above Embedded Data Center
+3
+Load
+Peak Load Forecast Without Embedded and Above
+4
+Embedded Forecast for Data Center Load
+
+RPM Revenue RPM Revenue Change
+($ per Delivery Year)
+($ per Delivery Year)
+$16,407,949,025
+NA
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+
+$10,675,483,688
+
+$5,732,465,337
+
+53.7%
+
+(34.9%)
+
+$10,140,129,902
+
+$6,267,819,123
+
+61.8%
+
+(38.2%)
+
+Table 12 Scenario summary for 2028/2029 RPM Base Residual Auction: Alternate VRR
+Curve; Existing Data Center Load; Forecast Data Center Load
+Scenario Impact
+Scenario Scenario Description
+1
+Alternate VRR Curve
+Scenario 1 and Peak Load Forecast Without Above
+5
+Embedded Data Center Load
+Scenario 1 and Peak Load Forecast Without Embedded and
+6
+Above Embedded Forecast for Data Center Load
+
+RPM Revenue RPM Revenue Change
+($ per Delivery Year)
+($ per Delivery Year)
+$29,722,226,243
+NA
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+
+$10,099,016,344
+
+$19,623,209,899
+
+194.3%
+
+(66.0%)
+
+$7,345,697,928
+
+$22,376,528,315
+
+304.6%
+
+(75.3%)
+
+Table 13 Scenario summary for 2028/2029 RPM Base Residual Auction: IMM VRR
+Curve; Existing Data Center Load; Forecast Data Center Load
+Scenario Impact
+
+Scenario Scenario Description
+2
+IMM VRR Curve
+Scenario 2 and Peak Load Forecast Without Above
+Embedded Data Center Load
+7
+Scenario 2 and Peak Load Forecast Without Embedded
+8
+and Above Embedded Forecast for Data Center Load
+
+RPM Revenue RPM Revenue Change
+($ per Delivery Year)
+($ per Delivery Year)
+$27,889,570,368
+NA
+
+Percent Change
+Scenario to
+Actual to
+Scenario
+Actual
+NA
+NA
+
+$9,918,707,490
+
+$17,970,862,878
+
+181.2%
+
+(64.4%)
+
+$6,385,451,926
+
+$21,504,118,442
+
+336.8%
+
+(77.1%)
+
+Results: Cleared UCAP MW
+Table 14 through Table 17 show the cleared UCAP MW impact of all the scenarios
+analyzed. The Cleared UCAP column shows the cleared MW that resulted from the
+specific scenario only. The Cleared UCAP Change column shows the difference between
+the specified base scenario RPM cleared UCAP MW and the total RPM cleared UCAP MW
+that resulted from the specific alternative scenario. A positive number means that the
+specific alternative scenario resulted in a reduction in cleared MW. A negative number
+means that the specific alternative scenario resulted in an increase in cleared MW. The
+percent columns show the percent change in RPM cleared MW for the specific alternative
+scenario from two perspectives. The Scenario to Actual Percent column shows the
+difference between the MW under the defined alternative scenario and the defined
+baseline as a percent of the MW under the defined scenario. The Actual to Scenario Percent
+column shows the difference between the MW under the defined alternative scenario and
+the defined baseline as a percent of the MW under the defined baseline.
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+24
+
+Table 14 shows the impact on the cleared UCAP MW for the auction for Scenarios 1 and
+2. In Scenario 1, the MMU analyzed the impact of using alternate 2028/2029 BRA
+parameters. In Scenario 2, the MMU analyzed the impact of using the alternate 2028/2029
+BRA parameters and the IMM VRR Curve. Resources that did not clear in the 2028/2029
+BRA using actual BRA parameters would clear under Scenario 1 using alternate BRA
+parameters, resulting in higher cleared UCAP MW under Scenario 1. The lower cleared
+MW under Scenario 2 (IMM VRR Curve) compared to the actual 2028/2029 BRA results
+and Scenario 1 using alternate VRR curve were due to the IMM VRR curve being
+positioned slightly to the left of the alternate VRR curve (see Figure 1).
+Table 15 shows the impact on the cleared UCAP MW for the auction for Scenario 3 and
+Scenario 4. In Scenario 3, the MMU analyzed the impact on the auction results for the
+2028/2029 BRA of including forecast load from the planned data centers and forecast load
+growth from the existing data centers (above embedded) in the 2028 summer peak load
+forecast. In Scenario 4, the MMU analyzed the impact on the auction results for the
+2028/2029 BRA of including load from existing data centers, forecast load from the
+planned data centers and forecast load growth from the existing data centers (embedded
+and above embedded) in the 2028 summer peak load forecast.
+Table 16 shows the impact on the cleared UCAP MW for the auction for Scenario 1,
+Scenario 5 and Scenario 6. In Scenario 1, the MMU analyzed the impact of using alternate
+2028/2029 BRA parameters. In Scenario 5, the MMU analyzed the impact on the auction
+results for the 2028/2029 BRA of using alternate 2028/2029 RPM Base Residual Auction
+parameters, and including forecast load from the planned data centers and forecast load
+growth from the existing data centers (above embedded) in the 2028 summer peak load
+forecast. The alternate VRR curve without a minimum clearing price resulted in lower
+cleared UCAP MW under Scenario 5 than under Scenario 3. In Scenario 6, the MMU
+analyzed the impact on the auction results for the 2028/2029 BRA of using alternate
+2028/2029 RPM Base Residual Auction parameters, and including load from existing data
+centers, forecast load from the planned data centers and forecast load growth from the
+existing data centers (embedded and above embedded) in the 2028 summer peak load
+forecast. The alternate VRR curve without a minimum clearing price resulted in lower
+cleared UCAP MW under Scenario 6 than under Scenario 4.
+Table 17 shows the impact on the cleared UCAP MW for the auction for Scenario 2,
+Scenario 7 and Scenario 8. In Scenario 2, the MMU analyzed the impact of using the
+2028/2029 BRA parameters and the IMM VRR Curve. In Scenario 7, the MMU analyzed
+the impact on the auction results for the 2028/2029 BRA of using the IMM VRR Curve for
+2028/2029 RPM Base Residual Auction parameters, and including forecast load from the
+planned data centers and forecast load growth from the existing data centers (above
+embedded) in the 2028 summer peak load forecast. In Scenario 8, the MMU analyzed the
+impact on the auction results for the 2028/2029 BRA of using the IMM VRR Curve for
+2028/2029 RPM Base Residual Auction parameters, and including load from existing data
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+25
+
+centers, forecast load from the planned data centers and forecast load growth from the
+existing data centers (embedded and above embedded) in the 2028 summer peak load
+forecast.
+Table 14 Scenario summary for 2028/2029 RPM Base Residual Auction: Alternate
+2028/2029 BRA Parameters; IMM VRR Curve
+Scenario Impact
+Scenario
+0
+1
+2
+
+Scenario Description
+Actual results
+Alternate VRR Curve
+IMM VRR Curve
+
+Cleared UCAP Cleared UCAP Change
+(MW)
+(MW)
+138,317.8
+NA
+138,394.6
+(76.8)
+138,309.3
+8.5
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+(0.1%)
+0.1%
+0.0%
+(0.0%)
+
+Table 15 Scenario summary for 2028/2029 RPM Base Residual Auction: Actual VRR
+Curve; Existing Data Center Load; Forecast Data Center Load
+Scenario Impact
+Scenario Scenario Description
+0
+Actual results
+Peak Load Forecast Without Above Embedded Data Center
+Load
+3
+Peak Load Forecast Without Embedded and Above
+4
+Embedded Forecast for Data Center Load
+
+Cleared UCAP Cleared UCAP Change
+(MW)
+(MW)
+138,317.8
+NA
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+
+135,766.5
+
+2,551.3
+
+1.9%
+
+(1.8%)
+
+135,619.5
+
+2,698.3
+
+2.0%
+
+(2.0%)
+
+Table 16 Scenario summary for 2028/2029 RPM Base Residual Auction: Alternate VRR
+Curve; Existing Data Center Load; Forecast Data Center Load
+Scenario Impact
+Scenario Scenario Description
+1
+Alternate VRR Curve
+Scenario 1 and Peak Load Forecast Without Above
+Embedded Data Center Load
+5
+Scenario 1 and Peak Load Forecast Without Embedded and
+Above Embedded Forecast for Data Center Load
+6
+
+Cleared UCAP Cleared UCAP Change
+(MW)
+(MW)
+138,394.6
+NA
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+
+134,781.0
+
+3,613.6
+
+2.7%
+
+(2.6%)
+
+131,787.6
+
+6,607.0
+
+5.0%
+
+(4.8%)
+
+Table 17 Scenario summary for 2028/2029 RPM Base Residual Auction: IMM VRR
+Curve; Existing Data Center Load; Forecast Data Center Load
+Scenario Impact
+
+Scenario Scenario Description
+2
+IMM VRR Curve
+Scenario 2 and Peak Load Forecast Without Above
+7
+Embedded Data Center Load
+Scenario 2 and Peak Load Forecast Without Embedded
+8
+and Above Embedded Forecast for Data Center Load
+
+Cleared UCAP Cleared UCAP Change
+(MW)
+(MW)
+138,309.3
+NA
+
+Percent Change
+Scenario to
+Actual to
+Actual
+Scenario
+NA
+NA
+
+134,729.3
+
+3,580.0
+
+2.7%
+
+(2.6%)
+
+130,314.5
+
+7,994.8
+
+6.1%
+
+(5.8%)
+
+© Monitoring Analytics 2026 | www.monitoringanalytics.com
+
+26
+
+

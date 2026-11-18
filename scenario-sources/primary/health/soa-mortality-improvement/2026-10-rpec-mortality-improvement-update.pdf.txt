@@ -1,0 +1,2126 @@
+October | 2026
+
+RPEC 2026 Mortality
+Improvement Update
+
+2
+
+RPEC 2026 Mortality Improvement
+Update
+Authors
+
+Society of Actuaries Research Institute
+Retirement Plans Experience Committee
+
+Caveat and Disclaimer
+The opinions expressed and conclusions reached by the authors are their own and do not represent any official position or opinion of the
+Society of Actuaries Research Institute, the Society of Actuaries or its members. The Society of Actuaries Research Institute makes no
+representation or warranty to the accuracy of the information.
+Copyright © 2026 by the Society of Actuaries Research Institute. All rights reserved.
+
+2
+
+3
+
+Contents
+Contents ........................................................................................................................................................... 3
+Executive Summary .......................................................................................................................................... 4
+Section 1: Potential Timing of Release of an Updated MP-Scale ..................................................................... 5
+Section 2: Data Sources .................................................................................................................................... 6
+2.1: Data Sources ...................................................................................................................................... 6
+2.2: Annual Refinements of Historical U.S. Population Estimates ............................................................... 6
+Section 3: Recent U.S. Mortality Trends............................................................................................................ 8
+3.1: Results for the 65+ Population ............................................................................................................ 8
+3.2: Results By 10-Year Age Group .......................................................................................................... 11
+3.3: COVID-19’s Diminishing Role as a Cause of Death ........................................................................... 12
+Section 4: The Trajectory of Mortality Improvement Rates for Ages 65+ ....................................................... 14
+Section 5: Considerations for Alternative Mortality Improvement Scale Development ................................... 18
+5.1: Application of Loads to MP-2021 ..................................................................................................... 18
+5.2: Changes to Long-Term Improvement Rates...................................................................................... 19
+5.3: Potential Impact of GLP-1 Utilization ............................................................................................... 19
+Section 6: Other Sources of Information ......................................................................................................... 20
+6.1: Social Security Administration Approach to Reflecting Pandemic Mortality ...................................... 20
+6.2: Approaches in Other Countries to Reflecting Pandemic Mortality ..................................................... 20
+Section 7: Reliance and Limitations ................................................................................................................ 25
+Section 8: Acknowledgments.......................................................................................................................... 26
+References ...................................................................................................................................................... 27
+Appendix A. Data Sources .............................................................................................................................. 29
+A.1: Death Counts.................................................................................................................................... 29
+A.2: Exposure Data .................................................................................................................................. 29
+A.3: Rationale for Using Social Security Data for Exposures .................................................................... 29
+Appendix B: Impact of Exposure Revisions .................................................................................................... 31
+Appendix C: Age Standardization................................................................................................................... 32
+Appendix D: Expected Death Rates ................................................................................................................ 34
+Appendix E: Excess Mortality Estimated Using Medicare Data ...................................................................... 35
+Appendix F: Theoretical Impact of Historical Data Revisions on MP-2021 ..................................................... 36
+About The Society of Actuaries Research Institute ......................................................................................... 37
+
+Copyright © 2026 Society of Actuaries 3Research Institute
+
+4
+
+Executive Summary
+This report presents an analysis of recent population mortality experience compiled by the
+Retirement Plans Experience Committee (RPEC) of the Society of Actuaries Research Institute
+(SOA), with respect to the development of mortality improvement assumptions for measuring
+obligations of retirement programs in the United States (U.S.).
+RPEC’s 2026 analysis finds that mortality rates for the U.S. population ages 65+ have generally
+returned to levels that would have been expected by projecting 2019 mortality rates using MP2021. The ratio of actual (“A”) to expected (“E”) mortality for ages 65+ exceeded 120% at the
+height of the COVID-19 pandemic, declined to approximately 101% in 2025, and was 98.7% for
+the 12 months from July 2025 through June 2026. The latest result is therefore slightly below the
+level projected by MP-2021 and no longer indicates persistent excess mortality.
+Longer-term analyses also support the continued use of MP-2021 for ages 65+. After excluding
+deaths attributed to COVID-19, estimated annual mortality improvement rates for 2010–2019,
+2010–2025, and 2010–2025 excluding 2020–2023 are all approximately 0.5%, which is
+comparable to the rate predicted by MP-2021. Therefore, the available data do not provide clear
+evidence of a sustained change in the underlying mortality improvement trend predicted by MP2021.
+RPEC will not release a new mortality improvement scale in 2026. Although the mortality shock
+associated with the pandemic has dissipated, there is not yet enough post-pandemic experience
+to develop a new scale using RPEC’s traditional methods. RPEC continues to view MP-2021 as a
+reasonable best-estimate mortality improvement scale for retirement plan actuarial valuations,
+especially for ages 65+. Actuaries may consider plan-specific adjustments, but RPEC does not
+believe that modified assumptions are inherently better predictors of future U.S. population
+mortality.
+RPEC’s analysis continues to use timely Centers for Disease Control and Prevention (CDC) deathcount data and Social Security area population estimates. Because recent population estimates
+are subject to revision, the resulting A/E ratios should be viewed as estimates rather than exact
+measurements.
+
+4
+Copyright © 2026 Society of Actuaries Research Institute
+
+5
+
+Section 1: Potential Timing of Release of an Updated MP-Scale
+From 2015 through 2021, RPEC released annual updates to Mortality Improvement Scale MP2014 incorporating the latest available historical mortality data. The most recent scale, MP2021, reflects mortality experience through 2019.
+The timing of a new scale depends partly on data availability. RPEC’s MP scales have
+historically been developed using Medicare data, which provides internally consistent death and
+exposure counts but has a reporting lag of more than two years. To monitor more recent
+experience, RPEC uses CDC death counts together with estimated exposures. Section 2 describes
+these data sources and their limitations.
+Once sufficient post-pandemic experience is available, RPEC’s traditional mortality improvement
+methodology could be used to develop a new scale. This methodology applies third-order
+Whittaker-Henderson graduation to smooth experience across multiple years and uses a twoyear step-back to mitigate edge effects. As a result, the data used in the model would need to
+include at least five years of post-pandemic experience. If the post-pandemic period is
+considered to begin in 2024, five years of experience would extend through 2028. Medicare data
+for 2028 would not become available from the Centers for Medicare and Medicaid Services
+(CMS) until 2030. Accordingly, an updated MP scale developed using RPEC’s traditional
+methodology would likely not be available before fall 2030.
+RPEC will continue to evaluate emerging experience and consider whether alternative methods
+could support a meaningful update sooner.1 It is possible that an appropriate alternative
+methodology could produce an updated scale using only three or four years of post-pandemic
+experience.
+Another consideration is the identification of the post-pandemic period. Although the major
+effects of the pandemic are commonly considered to have ended in the first quarter of 2022, U.S.
+population mortality remained elevated into 2023. Future analysis will therefore consider
+whether post-pandemic experience should begin in 2023 or 2024 and whether that choice
+materially affects the resulting improvement rates.
+Recent U.S. population experience does not currently provide a compelling basis for replacing
+MP-2021. For ages 65 and older—the ages most important for typical U.S. pension and retiree
+welfare plan obligations—observed mortality is now broadly consistent with mortality obtained
+by projecting 2019 base rates using MP-2021. Results for younger ages differ from MP-2021
+projections but generally have limited significance for these applications.
+RPEC therefore continues to view MP-2021 as a reasonable best-estimate scale for projecting
+future mortality improvement at ages 65 and older. RPEC will continue to monitor emerging
+experience and evaluate potential methodologies, but additional post-pandemic data is needed
+before a replacement scale can be developed.
+
+Such alternative methods might include: (1) assigning zero weight to the pandemic years of data and applying the current
+graduation process; (2) filling years 2020 through 2023, inclusive, with expected mortality data based on the MP-2021 scale, and
+then performing the graduation while including data for post-pandemic years as it becomes available, and (3) including data from
+the pandemic years but with COVID mortality excluded, and then applying the current graduation process.
+1
+
+5
+Copyright © 2026 Society of Actuaries Research Institute
+
+6
+
+Section 2: Data Sources
+Data sources and methodology remain unchanged relative to RPEC’s 2025 report (SOA 2025),
+but the results shown for historical periods have changed slightly, largely due to updated
+historical population counts from the Social Security Administration (SSA).
+
+2.1: Data Sources
+The Medicare dataset used to produce the MP-scale provides both death counts and exposure
+counts tied together via a system of individual-level beneficiary records. The tight relationship
+between the death and exposure data is a key reason that RPEC uses Medicare data to produce
+the MP-scale. However, the Medicare dataset has a reporting lag of over two years.
+Because timely data is essential for the analysis presented in this report, RPEC used death count
+data from the CDC’s WONDER database. CDC data has a relatively short reporting lag and
+captures deaths across the entire U.S. resident population. However, unlike the Medicare
+dataset, exposures associated with CDC death data must be estimated. Possible sources for
+exposure data include (1) estimates of the U.S. resident population produced by the Census
+Bureau, (2) U.S. resident estimates from the Human Mortality Database (HMD), and (3) the
+SSA’s estimates of the Social Security area population (which is a slightly broader population
+definition compared to that used by the Census Bureau). For reasons elaborated in Appendix A.3,
+RPEC selected the SSA’s population estimates to facilitate the analysis presented in this report.
+To compute death rates for this analysis, CDC-reported death counts were divided by the SSA’s
+population estimates by sex, age, and year, and the results were then averaged across broad
+age groups. The estimated death rates for broad age groups were age-standardized (as
+explained in Appendix C) to remove noise caused by gradual shifts in the age/sex structure of
+the population.
+
+2.2: Annual Refinements of Historical U.S. Population Estimates
+The U.S. population is large and dynamic; consequently, it is challenging to develop estimates of
+population counts with a short reporting lag. On an annual basis, the SSA refines and updates its
+estimates (both historical and projected) of the Social Security area population (SSAP) and
+releases the results as a component of its annual OASDI Trustees Report. It is not uncommon for
+previously reported SSAP estimates for recent years to change slightly from one Trustees Report
+to the next.
+For RPEC’s 2025 report, SSAP data was obtained from the 2025 OASDI Trustees Report (SSA
+2025); for the current RPEC report, SSAP data was obtained from the 2026 Trustees Report (SSA
+2026a). Across the two Trustees reports, some small shifts occurred to SSAP estimates for the
+65+ population. For the period from 2019 through 2024, the estimated 65+ population increased
+slightly, while for 2025 it decreased slightly (as shown in Table 1).
+Table 1
+
+Estimated Social Security Area Population Age 65+ (Millions)
+2025 Trustees Report
+2026 Trustees Report
+2026 / 2025 Report
+
+2019
+54.24
+54.45
+100.39%
+
+2020
+55.89
+56.09
+100.36%
+
+2021
+57.40
+57.54
+100.24%
+
+2022
+59.12
+59.19
+100.11%
+
+2023
+60.97
+60.98
+100.02%
+
+2024
+62.84
+62.84
+100.01%
+
+2025
+64.66
+64.62
+99.93%
+6
+
+Copyright © 2026 Society of Actuaries Research Institute
+
+7
+As shown later in this report (see Figure 5), these exposure refinements led to a 0.4% upward
+shift in the July 2024–June 2025 A/E ratio relative to the corresponding result presented in last
+year’s report, with smaller A/E shifts occurring for 2020 through 2024. A detailed explanation is
+provided in Appendix B.
+
+7
+Copyright © 2026 Society of Actuaries Research Institute
+
+8
+
+Section 3: Recent U.S. Mortality Trends
+This section of the report provides RPEC’s analysis of recent U.S. mortality experience, with a
+focus on excess mortality and how it has abated over time since the onset of the COVID-19
+pandemic. Subsection 3.1 focuses on the age 65+ population; Subsection 3.2 provides results for
+10-year age groups; and Subsection 3.3 focuses on COVID-related mortality as opposed to
+mortality across all causes of death. We note that the age 65+ population will likely be of
+greater interest to pension actuaries, given that mortality among individuals under age 65 has
+relatively little impact on pension obligations.
+
+3.1: Results for the 65+ Population
+In the late winter/early spring of 2020, the COVID-19 pandemic began to exert a material
+impact on U.S. mortality experience. As shown in Figure 1, spikes in mortality for ages 65+
+persisted through early 2022, driving up overall average excess mortality. Since that time,
+however, mortality rates for ages 65+ have gradually declined, with more recent periods falling
+below 2019 levels.
+Figure 1
+Monthly Death Rate for the 65+ Population as % of the Corresponding Monthly Death Rate in 2019
+
+2026-Jun
+
+2025-Dec
+
+2025-Jun
+
+2024-Dec
+
+2024-Jun
+
+2023-Dec
+
+2023-Jun
+
+2022-Dec
+
+2022-Jun
+
+2021-Dec
+
+2021-Jun
+
+2020-Dec
+
+2020-Jun
+
+2019-Dec
+
+2019-Jun
+
+150%
+140%
+130%
+120%
+110%
+100%
+90%
+80%
+
+The results in Figure 1 were produced using CDC death count data and Social Security area population data, as explained in Section 2.1. The
+results are age-standardized to remove noise caused by year-to-year changes in the population’s age structure.
+
+Because monthly death rates are volatile (and were so even before the onset of the pandemic),
+the remainder of Section 3 focuses on death rates and A/E ratios computed over trailing 12month periods. For example, in Figure 2, the result for June 2026 reflects data from July 2025
+through June 2026 and is compared with data from January through December 2019. Results are
+age-standardized using 2019 population counts by age and sex as weights, thereby eliminating
+noise associated with shifts in the population’s age structure.
+
+8
+Copyright © 2026 Society of Actuaries Research Institute
+
+9
+Figure 2
+Ratio of Actual to Expected Death Rates for Trailing 12-Month Periods for the 65+ Population (M+F)
+With MP-Scale Improvement
+
+Without Mortality Improvement
+
+125%
+120%
+115%
+110%
+
+98.7%
+
+105%
+100%
+95%
+
+94.9%
+
+90%
+
+The age-standardized
+death rate for the 65+
+population has fallen to 5%
+below the level observed
+in 2019, and about 1%
+below the level expected
+by projecting 2019
+mortality forward in time
+using MP-2021.
+The final data point in
+Figure 2 captures the 12month period from July
+2025 to June 2026.
+
+The dashed line uses expected values computed directly from 2019 data, without adjustment based on the MP -2021 scale. The solid line also
+uses 2019 data to compute the expected death rate, adjusted to reflect mortality improvement implied by the MP-2021 scale.
+
+Figure 3
+Ratio of Actual to Expected Death Rates for Trailing 12-Month Periods for the 65+ Population (M+F)
+With MP-Scale Improvement
+
+108%
+106%
+104%
+102%
+100%
+98%
+96%
+94%
+92%
+
+Without Mortality Improvement
+
+105.0%
+102.3%
+
+102.1%
+
+101.1%
+
+101.7%
+
+100.8%
+98.7%
+
+103.0%
+
+100.0%
+
+99.5%
+
+98.2%
+
+98.5%
+
+97.2%
+
+This is the
+same data that
+appears in
+Figure 2, but
+only the period
+from June 2023
+onwards is
+included.
+
+94.9%
+
+Figure 4
+Ratio of Actual to Expected Death Rates (with MP-2021 scale) for Ages 65+, by Sex
+125%
+
+Male
+
+120%
+115%
+
+110%
+105%
+100%
+95%
+
+Female
+99.5% Female
+97.8%, Male
+
+9
+Copyright © 2026 Society of Actuaries Research Institute
+
+10
+Relative to expected levels using the MP-2021 scale, Figure 2 shows that in February 2026, for
+the first time since the onset of the pandemic, the age 65+ A/E ratio for the trailing 12 months
+fell below 100%—that is, below the level predicted by MP-2021 applied to 2019 baseline data.
+For the 12 months ending in June 2026, the A/E ratio is 98.7% (for males and females combined).
+Section 5.3 discusses GLP-1 utilization as one possible contributor to recent mortality
+improvement, though the available data does not yet support isolating or quantifying its effect
+on recent population mortality.
+Figure 3 reflects the same data as Figure 2 but shows only the trailing 12-month periods ending
+in June 2023 or later.
+There are differences in excess mortality levels when assessed on a sex-specific basis, as shown
+in Figure 4. Excess mortality for males was higher than for females from the onset of the
+pandemic through 2022, but since then excess mortality for females has been higher. Across the
+final 12-month period captured in this analysis (from July 2025 to June 2026), the A/E ratio is
+99.5% for females and 97.8% for males – a difference of 1.7%.
+A comparison of the results in Figures 2 and 3 against corresponding results presented in last
+year’s report highlights differences for years 2023 through 2025. For example, the 2025-Jun A/E
+with the MP-2021 scale was 101.3%, while in this year’s report it is 101.7%. Figure 5 shows a
+modest upward shift in estimated A/E ratios for 2023 through 2025 due to refinements to the
+exposure estimates reflected in the 2026 Trustees Report (see Table 1). While the shifts in
+exposure estimates are relatively small, they have a material impact on A/E ratios. A detailed
+explanation is provided in Appendix B.
+Figure 5
+Impact of Exposure Updates on the Ratio of Actual to Expected Death Rates (with MP-2021 scale)
+for Trailing 12-Month Periods for the 65+ Population (M+F)
+Using Exposure Estimates from 2026 Trustees Report
+106%
+105%
+104%
+103%
+102%
+101%
+100%
+99%
+98%
+97%
+96%
+
+Using Exposure Estimates from 2025 Trustees Report
+
+101.7%
+
+101.3%
+
+98.7%
+
+Revisions to
+the exposure
+data from
+the SSA
+have an
+upward
+effect on
+A/E
+estimates.
+
+98.1%
+
+The final data point in Figure 5 covers the 12-month period from July 2025 to June 2026. For this
+data point, the A/E ratio is 98.1% when calculated with exposures from the 2025 Trustees Report
+and 98.7% when calculated using exposures from the 2026 Trustees Report. Results throughout
+this report reflect the 2026 SSAP data, which represents the SSA’s updated estimate after
+incorporating additional data and analysis over the past year.
+10
+Copyright © 2026 Society of Actuaries Research Institute
+
+11
+3.2: Results By 10-Year Age Group
+The results in the previous subsection reflect the aggregate mortality experience for the age 65+
+population. Results in this subsection are aggregated into 10-year age groups. Note that both
+Figures 6 and 7 include the MP-scale in the calculation of expected deaths. Figure 7 decomposes
+the A/E results presented in Figure 6, comparing the percent change in “A” against the percent
+change in “E”.
+Figure 6
+Ratio of Actual to Expected Death Rates (with MP-2021 scale), by Age Group
+Peak of Pandemic
+160%
+140%
+
+126%
+
+133%
+
+140%
+
+120%
+
+100%
+
+85%
+
+80%
+
+76%
+
+89%
+
+July 2025 to June 2026
+
+139%
+
+128%
+
+124%
+
+122%
+
+96%
+
+95%
+
+101%
+
+98%
+
+45-54
+
+55-64
+
+65-74
+
+75-84
+
+120%
+
+98%
+
+60%
+40%
+
+20%
+0%
+15-24
+
+25-34
+
+35-44
+
+85+
+
+Figure 7
+Total Mortality Improvement from 2019 through Mid-2026
+Expected Using MP-2021
+
+Actual
+
+20%
+15%
+10%
+5%
+
+0%
+-5%
+-10%
+-15%
+15-24
+
+25-34
+
+35-44
+
+45-54
+
+55-64
+
+65-74
+
+75-84
+
+85+
+
+Figures 6 and 7 use different
+approaches for representing
+mortality improvement. In
+Figure 6, the baseline is
+100%, and a value below
+100% indicates mortality has
+improved relative to
+expectations. In Figure 7,
+the baseline is 0%, and a
+positive value indicates
+mortality improvement. A
+value of 10%, for example,
+indicates that the mortality
+rate has dropped by 10%
+relative to 2019 data.
+
+Figure 6 shows that, across all age groups, A/E ratios are now well below the peaks that
+occurred during the pandemic. For ages 45+, A/E ratios for the 12-month period from July 2025
+to June 2026 fall between 95% and 101%. For ages below 45, A/E ratios are under 90%,
+significantly lower than for ages 45+.
+These results are driven, in part, by MP-2021’s short-term forecast of mortality deterioration for
+young ages, as illustrated in Figure 7. For example, for ages 25 to 34, MP-2021 predicts
+11
+Copyright © 2026 Society of Actuaries Research Institute
+
+12
+cumulative mortality improvement of negative 7% (i.e. a 7% increase in mortality rates, indicated
+by the dark blue bar) from 2019 through mid-2026. In fact, cumulative mortality improvement
+for this age group is 18% (light blue bar in Figure 7). This large divergence between the forecast
+and actual mortality improvement helps explain the 76% A/E ratio for ages 25 to 34 shown in
+Figure 6.
+The algorithm for developing each MP scale uses the recent past as a predictor for the nearterm future. Thus, the unfavorable mortality experience from 2010 to 2019 for younger ages is
+baked into MP-2021’s short-term forecast, resulting in a prediction of additional mortality
+deterioration from 2020 through 2026. This prediction for younger ages has proven to be too
+pessimistic, as can be seen by the greater differences between the light and dark blue bars in
+Figure 7. Even so, RPEC believes mortality projection assumptions for younger ages are not a key
+assumption in most retirement plan applications.
+
+3.3: COVID-19’s Diminishing Role as a Cause of Death
+RPEC’s focus is on all-cause mortality trends, rather than mortality trends by individual cause of
+death. However, given the significance of COVID-19 on mortality levels during the recent
+pandemic, it is worthwhile to examine mortality data that isolate COVID-19.
+Figure 8a
+Deaths with COVID-19 as the Underlying Cause, as a Percentage of Total Deaths for Ages 65+
+December 2019–June 2026
+Monthly
+
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+Trailing 12 Months
+
+Figure 8b
+Deaths with COVID-19 as the Underlying Cause, as a Percentage of Total Deaths for Ages 65+,
+June 2023–June 2026
+Monthly
+
+3.0%
+
+Trailing 12 Months
+
+2.5%
+2.0%
+1.5%
+
+1.0%
+0.5%
+0.0%
+2023-Jun
+
+2023-Dec
+
+2024-Jun
+
+2024-Dec
+
+2025-Jun
+
+2025-Dec
+
+2026-Jun
+
+12
+Copyright © 2026 Society of Actuaries Research Institute
+
+13
+Figure 9
+Death Counts (1000s) for Ages 65+: COVID versus Influenza and Pneumonia
+COVID
+
+Flu & Pneumonia
+
+2021
+
+2022
+
+300
+
+250
+200
+
+150
+100
+50
+2019
+
+2020
+
+2023
+
+2024
+
+2025
+
+Death counts reflect cases in which COVID-19, influenza, or pneumonia was identified as the underlying cause of death; they exclude deaths
+in which these conditions were reported only as contributing causes.
+
+As shown in Figure 8, for the age 65+ population the percent of total deaths attributed to
+COVID-19 was only 0.1% in June 2026, and 0.3% across the 12-month period from July 2025 to
+June 2026. As shown in Figure 9, COVID-19 deaths in 2025 were less than one-third of the
+number attributed to influenza and pneumonia. While COVID-19 mortality reporting is potentially
+understated (Tausch 2023), recent data suggests that COVID-19 is no longer a significant
+distinct contributor to excess mortality.
+
+13
+Copyright © 2026 Society of Actuaries Research Institute
+
+14
+
+Section 4: The Trajectory of Mortality Improvement Rates for Ages 65+
+Even in the absence of mortality shocks such as the COVID-19 pandemic, U.S. general population
+mortality rates exhibit significant volatility. Seasonality typically leads to a spike during the
+winter, but no two seasonal patterns are identical, with the size and/or timing of seasonal spikes
+and troughs varying from year to year. When studying mortality trends, seasonal effects can be
+neutralized by focusing on annual (rather than monthly) data; however, historical year-over-year
+rates of change are themselves volatile – a year of strong improvement may be immediately
+followed by a year of weak improvement, for example.
+Because mortality data is noisy, and because only two or three years of post-pandemic data are
+currently available, identifying a trend in recent data is challenging. All else equal, the longer a
+time series, the more useful it is for identifying trends. One approach for constructing a mortality
+series that can be analyzed consistently across the pandemic period is to exclude deaths for
+which COVID-19 was the underlying cause, as depicted in Figures 10 and 11.
+Figure 10
+Age-Sex Standardized Death Rate, Excluding COVID, for Ages 65+
+Monthly
+
+5.5%
+
+Trailing 12 Months
+
+5.0%
+
+4.5%
+4.0%
+3.5%
+
+3.0%
+2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+Figure 11
+Age-Sex Standardized Death Rate by Calendar Year, Excluding COVID, for Ages 65+
+4.1%
+
+4.03%
+
+4.0%
+3.9%
+
+3.8%
+
+3.72%
+
+3.7%
+3.6%
+3.5%
+
+The resulting data exhibits ups and downs that appear to be of normal magnitude and,
+consequently, is more amenable to trend analysis. While there may be some arguments against
+this approach, its simplicity makes it appealing as an initial step for trend analysis.
+14
+Copyright © 2026 Society of Actuaries Research Institute
+
+15
+To estimate mortality trends, RPEC applied log-linear regressions to the monthly time series
+shown in Figure 10. Calendar-month indicators were included to separate recurring seasonal
+patterns from the underlying trend. In effect, the regressions compare mortality across years
+after accounting for the fact that mortality is typically higher or lower in particular months. The
+estimated trend was converted to an annual mortality improvement rate. Confidence intervals
+were calculated using the Newey–West method, which allows mortality results in nearby months
+to be correlated.2
+Using monthly rather than annual observations preserves information about within-year
+mortality patterns while allowing recurring seasonal effects to be accounted for explicitly. Eight
+regressions were run, corresponding to the eight overlapping periods shown in Table 2 and
+Figure 12. For each regression, the table and figure show the central estimate for the annual
+mortality improvement rate and the 95% confidence interval.
+For comparison, a parallel set of regressions was run using annual rather than monthly data. In
+these analyses, annual aggregation had no material effect on the central estimates but produced
+slightly wider confidence intervals.
+Table 2
+Estimated Annual Mortality Improvement Rate for Ages 65+ Based on Log-Linear Regression
+
+Period
+1
+2
+3
+4
+5
+6
+7
+8
+
+2010 to 2019
+2010 to 2025
+2010 to 2025, excluding 2020–2023
+2019 to 2025
+2020 to 2025
+2021 to 2025
+2022 to 2025
+2023 to 2025
+
+Number
+of
+Months
+120
+192
+144
+84
+72
+60
+48
+36
+
+Low End
+of 95%
+Confidence
+Interval
+0.27%
+0.36%
+0.45%
+0.40%
+0.75%
+0.30%
+0.54%
+-0.67%
+
+Central
+Estimate of
+Improvement
+Rate
+0.44%
+0.47%
+0.54%
+0.87%
+1.29%
+1.20%
+1.49%
+0.73%
+
+High End
+of 95%
+Confidence
+Interval
+0.62%
+0.58%
+0.64%
+1.34%
+1.82%
+2.09%
+2.43%
+2.10%
+
+Each regression was estimated by ordinary least squares using the natural logarithm of the monthly mortality rate as the depe ndent
+variable, a linear trend measured in years, and 11 calendar-month indicators, with January as the reference month. Confidence intervals were
+based on Newey–West heteroskedasticity-consistent and autocorrelation-consistent standard errors with a maximum lag of three months, a
+finite-sample correction, and a t reference distribution. The annual mortality improvement rate was calculated from the estimated trend
+coefficient β, as 1 − exp(β), with the confidence-interval endpoints transformed in the same manner. For the regression excluding 2020–2023,
+those observations were omitted without compressing the calendar-time variable.
+2
+
+15
+Copyright © 2026 Society of Actuaries Research Institute
+
+16
+Figure 12
+Estimated Rate of Mortality Improvement and 95% Confidence Interval, by Time Period, for Ages 65+
+3.0%
+2.5%
+
+2.0%
+1.5%
+
+1.29%
+
+1.0%
+0.5%
+
+1.20%
+
+1.49%
+
+0.87%
+0.44%
+
+0.47%
+
+0.73%
+
+0.54%
+
+0.0%
+-0.5%
+-1.0%
+2010 2019
+
+2010 2025
+
+2010 2025, excl
+2020-23
+
+2019 2025
+
+2020 2025
+
+2021 2025
+
+2022 2025
+
+2023 2025
+
+The blue dots are the central estimates for the rate of mortality improvement, while the red bars represent the 95% confidence intervals.
+
+Mortality improvement rates have been higher in recent years than during the pre-pandemic
+period. The key question is whether these higher improvement rates will continue in the mediumand long-term future. As shown in Figure 12, estimates based solely on post-pandemic
+experience remain subject to considerable uncertainty because of the relatively short observation
+period. Additionally, while deaths attributed to COVID-19 have been excluded from the analysis,
+there is some evidence that COVID-19 deaths were underreported during the early pandemic
+period and that the pandemic may have affected mortality attributed to other causes (Tausch
+2023).
+The regressions for 2010–2019, 2010–2025, and 2010–2025 excluding 2020–2023 have relatively
+narrow confidence intervals, with point estimates of about 0.5% for the annual rate of
+improvement.3 The similarity of these estimates is consistent with the long-term underlying nonCOVID mortality improvement trend remaining broadly stable when measured over these
+extended periods. It does not, however, establish that the pandemic had no effect on the
+trajectory of mortality improvement. Because these estimation periods overlap substantially and
+estimates based on more recent experience are less precise, the available data do not provide
+clear evidence either for or against a material change in the underlying trend.
+Additional post-pandemic experience will be needed to determine whether the higher
+improvement rates suggested by some of the more recent periods represent a sustained change
+in the age 65+ population’s mortality improvement rate.
+The log-linear regressions in Table 2 and Figure 12 use data that excludes COVID as the
+underlying cause of death. This raises an interesting question: how well does MP-2021 match
+the trends in this data? A close match would provide further evidence that MP-2021 has
+retained predictive value. Figure 13 compares the actual versus expected death rate for ages
+65+, with COVID excluded as an underlying cause of death. As in Figures 2 through 5, “E” is
+3
+
+Note that across the period from 2010 to 2025, MP-2021 has an average improvement rate of about 0.6% for ages 65+.
+
+16
+Copyright © 2026 Society of Actuaries Research Institute
+
+17
+defined using 2019 data as the baseline, projected forward (and backwards) through time using
+MP-2021. Alternatively, “E” could have been defined using all data from 2010 to 2019; this
+would slightly increase all values of “E” but would not alter the slope.
+Figure 13
+Actual and Expected Mortality Rates for Ages 65+, Excluding COVID-19 as an Underlying Cause of Death
+Actual
+
+Expected
+
+4.15%
+4.10%
+4.05%
+4.00%
+3.95%
+3.90%
+3.85%
+3.80%
+3.75%
+
+3.70%
+
+Overall, Figure 13 indicates that MP-2021 has been broadly consistent with the underlying
+improvement trend in mortality excluding COVID-19 for the age 65+ population. Actual mortality
+exceeded expected mortality most noticeably in 2020 through 2022; these differences may be
+partly attributable to underreporting of COVID-19 deaths, although other pandemic-related
+effects and normal mortality variation may also have contributed.
+
+17
+Copyright © 2026 Society of Actuaries Research Institute
+
+18
+
+Section 5: Considerations for Alternative Mortality Improvement Scale
+Development
+5.1: Application of Loads to MP-2021
+RPEC continues to believe the emerging experience supports the use of MP-2021 for projecting
+future mortality improvement at ages 65+. RPEC also recognizes that some actuaries and plan
+sponsors may wish to reflect post-2019 experience when developing a view on future mortality
+improvement. For that purpose, Section 3 of this report, as well as Table 3 below, provide A/E
+ratios by year and sex, which actuaries may consider when determining whether and how to
+apply historical and future loads to MP-2021.
+Table 3
+
+Ratio of Actual to Expected Deaths (with MP-2021 scale) for Ages 65+, by Sex
+
+Male
+Female
+Total
+
+2019
+100.0%
+100.0%
+100.0%
+
+2020
+117.4%
+116.1%
+116.7%
+
+2021
+116.3%
+113.1%
+114.6%
+
+2022
+109.7%
+109.6%
+109.7%
+
+2023
+101.7%
+102.8%
+102.3%
+
+2024
+100.3%
+101.9%
+101.1%
+
+2025
+99.9%
+101.6%
+100.8%
+
+Jul 2025
+to
+Jun 2026
+97.8%
+99.5%
+98.7%
+
+Table 3 provides context for the following key considerations for developing an alternative
+mortality improvement assumption:
+•
+
+Potential permanent reduction: mortality for the latest 12-month period is approximately
+1.3% below expected for males and females combined and may remain below expected
+over the long term. Reflecting this 1.3% as a permanent adjustment is equivalent to
+applying a negative load that would continue into the future. It should be noted that this
+approach is based on one year of (volatile) results.
+
+•
+
+Potential continued excess: there is excess mortality of approximately 1% for 2024 and
+2025 which might be more indicative of future mortality rates than the 12-month period
+ending in June 2026. However, COVID-19 deaths do not appear to be a significant driver
+of excess mortality for 2025, so actuaries and plan sponsors would need to provide
+alternative reasoning for why the excess mortality observed during 2025 would be
+expected to persist for the long term.4
+
+•
+
+Split by Sex: in 2024, 2025 and the 12-month period ending in June 2026, A/E ratios for
+males are nearly 2% lower than for females. This male-female differential is a valid
+consideration for actuaries making adjustments to MP-2021. It should also be noted this
+follows a period from 2020-2022 where A/E ratios were higher for males than for
+females.
+
+4 COVID-19 deaths were minimal in 2025—less than one-third of the number attributed to influenza and pneumonia—so the explicit effects of
+COVID are now minimal. Future mortality improvement may potentially still be affected by indirect social and behavioral changes caused by
+the pandemic. Nonetheless, RPEC no longer believes that COVID-19 should be used as an explicit justification for an adjustment to the MP2021 scale. This view is consistent with the Social Security Administration’s 2026 Annual Trustees Report discussed further in Section 6.1.
+
+18
+Copyright © 2026 Society of Actuaries Research Institute
+
+19
+•
+
+U.S. general population versus target population: excess mortality for a specific pension
+population may differ from the broader U.S. population. Anecdotally, members of RPEC
+have observed that excess mortality levels vary significantly from one pension population
+to another and generally have not been as severe as for the general U.S. population.
+
+•
+
+Uncertainty from exposure data: the A/E results presented in Table 3 and Section 3 of
+this report are subject to some uncertainty, arising primarily from the exposure data used
+in the A/E calculations. As explained in Appendix A.3, estimating the U.S. general
+population by year, sex, and age is challenging. The uncertainty is generally greater in
+recent years (compared to earlier years) and is greater at ages above 80.
+
+5.2: Changes to Long-Term Improvement Rates
+Adding a load to MP-2021 does not alter the scale’s long-term improvement rates, nor does it
+alter the underlying trajectory and speed for transitioning from near-term to long-term rates. An
+adjustment to transition speed or the ultimate improvement rates is a deeper, more fundamental
+adjustment than adding a mortality load. Such an adjustment is best described as the creation
+of a new scale rather than simply a modification of MP-2021. While the MIM workbook offers
+this capability, RPEC is of the opinion that there is not yet sufficient post-pandemic data to
+develop a new MP scale with greater predictive power for the general U.S. age 65+ population
+than MP-2021. Additionally, the A/E analysis presented in Section 3 indicates that MP-2021 is
+well-aligned with recent mortality experience for ages 65+.
+
+5.3: Potential Impact of GLP-1 Utilization
+There has been some recent attention to the increased utilization of glucagon-like peptide-1
+(GLP-1) agonists and its impact on population mortality. U.S. reinsurers have recently published
+analyses suggesting that increased GLP-1 use may partly explain recent mortality reductions.
+Some reinsurers have gone a step further by estimating how much future mortality improvement
+could be attributed specifically to GLP-1 utilization over an extended period.
+In the United Kingdom, the Continuous Mortality Investigation (CMI) stated in Working Paper
+212 (CMI WP212) that actuaries should consider the future impact of medical advances,
+including GLP-1 drugs, when setting long-term mortality improvement rates, but provided no
+further guidance. In Germany, there is also interest within the German Actuarial Association in
+whether actuaries should consider medical advances, including GLP-1 drugs, and their effect on
+mortality when performing valuation, risk management, and product development work.
+While the recent prevalence of GLP-1 utilization may well explain some of the mortality
+improvements we have observed in recent years, RPEC believes it may be somewhat premature
+to adjust a long-term mortality improvement assumption for pension and retiree welfare
+valuations based on GLP-1-based mortality studies alone.
+
+19
+Copyright © 2026 Society of Actuaries Research Institute
+
+20
+
+Section 6: Other Sources of Information
+This section reviews how the SSA and selected actuarial organizations outside the United States
+have treated pandemic mortality in their projections. These approaches provide context for
+RPEC’s assessment of whether pandemic experience should be excluded, modeled separately, or
+incorporated into future mortality assumptions.
+
+6.1: Social Security Administration Approach to Reflecting Pandemic Mortality
+While the 2025 Trustees Report contains explicit COVID load factors, the 2026 Trustees Report
+does not. For the 2025 Trustees Report, projections of future mortality improvement were based
+on data through 2019, i.e. pre-COVID. Table 4 shows load factors extracted from the 2025
+Trustees Report. These loads were applied to reflect COVID excess mortality through 2025; for
+2026, no loads were used.
+Table 4
+
+2025 Trustees Report: Multiplicative Factors Applicable to Baseline Death Probabilities, by Age Group
+2020
+2021
+2022
+2023
+2024
+2025
+
+0
+0.98
+1.01
+1.05
+1.05
+1.01
+1.00
+
+1-14
+1.03
+1.13
+1.22
+1.20
+1.17
+1.09
+
+15-64
+1.18
+1.32
+1.16
+1.07
+0.99
+1.00
+
+65-84
+1.16
+1.17
+1.10
+1.03
+1.02
+1.00
+
+85+
+1.14
+1.07
+1.07
+1.01
+0.98
+1.00
+
+The factors above were extracted from the 2025 Trustees Report, reflecting actual data through 2023 and estimates for 2024-2025. Baseline
+death probabilities are the death probabilities that were estimated to have occurred in the absence of the pandemic at the time the
+assumptions were developed for each Trustees Report.
+
+For the 2026 Trustees Report, projections of future mortality are based on regressions using
+2009-2019 and 2024, excluding 2020-2023. The combined impact of these mortality updates
+was a small improvement in the long-range actuarial balance of OASDI. A comprehensive
+discussion of the report’s approach can be found in the mortality section of THE LONG-RANGE
+DEMOGRAPHIC ASSUMPTIONS FOR THE 2026 TRUSTEES REPORT (SSA 2026b).
+The 2025 Trustees Report provides period life-expectancy estimates for 2024 at age 65 of 18.3
+years for males and 20.9 years for females. These estimates are based on preliminary CMS data
+for 2023 projected to 2024 under the intermediate alternative.
+In the 2026 Trustees Report, period life expectancy for 2025 at age 65 is estimated to be 18.2
+years for males and 20.7 years for females, reflecting preliminary CMS data for 2024 and
+partial-year provisional data for 2025. These slightly lower life expectancies reflect the slightly
+higher post-65 mortality produced by the updated methodology, which incorporates 2024 as a
+year of experience. The higher mortality contributed to the small improvement in the long-range
+actuarial balance noted above.
+
+6.2: Approaches in Other Countries to Reflecting Pandemic Mortality
+6.2.1: United Kingdom (U.K.)
+The Continuous Mortality Investigation (CMI), which is owned by the U.K.’s Institute and Faculty
+of Actuaries and funded by commercial subscribers, studies how mortality and sickness rates
+change over time and produces standard tables and models for long-term insurance products
+20
+Copyright © 2026 Society of Actuaries Research Institute
+
+21
+and pension scheme liabilities. As noted in last year’s report, the CMI changed its methodology
+in the CMI_2024 version of its model (CMI 2024).
+The revised methodology reflects a “fitted overlay” approach under which the model separates
+the experience into “underlying” and “overlay” mortality, with the “overlay” mortality decaying
+based on an assumed half-life parameter “H”. The default parameter under the Core model is
+H=1, meaning excess mortality decreases by 50% for each year since 2020.
+The CMI decided not to make further changes in CMI_2025 (the latest version of its model
+released in March 2026), other than a routine update (CMI 2025) to reflect another year’s worth
+of data. Based on anecdotal information provided to RPEC, our understanding is that the use of
+the H=1 model parameter has become fairly widespread. We note that this parameter is
+becoming less material as more post-pandemic data is added to the model.
+In terms of mortality experience, we reported last year that overall mortality levels in 2024 for
+England and Wales were the lowest on record and slightly lower than 2019 levels, although there
+was significant variance among different age groups. 2025 turned out to be another record low
+year, with overall mortality levels around 2% lower than 2019 levels. Declining mortality levels
+have so far continued into 2026, with levels for the first half of the year around 4% lower than
+2019 levels. However, the 2026 population estimates are subject to greater uncertainty. As with
+the 2024 results, there is some variation among different age groups, with older age groups
+generally seeing higher mortality improvements since 2019 (CMI 2026).
+It is also worth noting that the CMI is reporting COVID-related deaths to be significantly lower
+than deaths due to influenza or pneumonia in recent years, as can be seen Figure 14 obtained
+from the CMI’s mortality monitor report for week 35 of 2026 (CMI 2026):
+Figure 14
+Exhibits from CMI Mortality Monitor Report for Week 35 of 2026
+Weekly Deaths Involving COVID-19
+Weekly Deaths Involving Influenza or Pneumonia
+
+Source: CMI Mortality Monitor Report for week 35 of 2026 (CMI 2026). Reprinted with permission.
+
+21
+Copyright © 2026 Society of Actuaries Research Institute
+
+22
+This pattern is similar to recent U.S. experience, as shown in Figure 9. Some of the difference
+between the number of reported COVID-19 deaths and the number of deaths involving influenza
+or pneumonia may reflect underreporting of COVID-19, perhaps because COVID-19 is now
+diagnosed or reported less intensively than during the early years of the pandemic.
+6.2.2: Netherlands
+In the Netherlands, excess mortality has continued through 2025 with notable discrepancies
+between males and females and among age groups. Mortality for males aged 0-90 years was
+approximately 4% higher than expected under the pre-pandemic projection, compared with
+approximately 11% for females. As shown in Figure 15, the difference is particularly pronounced
+at older ages. At ages 70–79, for example, excess mortality in 2025 was approximately 6% for
+males compared with 18% for females; at ages 80–89, the corresponding amounts were
+approximately 1% and 11%. This is in stark contrast to ages 50–59, where the corresponding
+amounts were approximately 7% and -11%.
+Figure 15
+Excess Mortality in the Netherlands by Age Group and Sex, 2016–2025
+
+Source: Royal Dutch Actuarial Association, Projections Life Table AG2026, Figure 2.3 (AG2026). Reprinted with
+permission.
+
+The Royal Dutch Actuarial Association publishes a new Projections Life Table every two years.
+This table is used by nearly all insurance companies and pension funds for pricing and reserving.
+The latest table, AG2026, was published in September of 2026 along with the report Projections
+Life Table AG2026 and reflects the addition of 2024 and 2025 mortality experience since the
+prior table AG2024. Consistent with AG2022 and AG2024, AG2026 based its long-term mortality
+projection on pre-pandemic mortality experience through 2019 from the Netherlands and other
+European countries with similar levels of prosperity, with a separate adjustment for excess
+mortality observed during the pandemic.
+
+22
+Copyright © 2026 Society of Actuaries Research Institute
+
+23
+AG2022 assumed that the initial excess mortality would decrease by 50% annually. When
+mortality in 2022 and 2023 remained higher than anticipated, AG2024 reduced the annual runoff
+assumption to 25%, while continuing to assume that the excess mortality would ultimately
+disappear. AG2026 marks a further change in this progression. It includes 25% of the estimated
+excess mortality in 2025 permanently and the remaining excess mortality declines by only 5%
+annually.5 The excess mortality adjustment has also been expanded to all ages; AG2024 applied
+the adjustment only at ages 55 and older.
+The changes in AG2026 produce higher projected mortality and lower life expectancies than
+AG2024. For an individual age 65 in 2027, cohort life expectancy under AG2026 is 20.6 years for
+males and 23.1 years for females, compared with 20.8 and 23.7 years, respectively, under
+AG2024—a reduction of approximately three months for males and seven months for females.
+The Association estimates that, relative to AG2024, the provision for an average pension
+portfolio decreases by approximately 0.9% for males and 1.4% for females.
+Canada
+As noted in RPEC’s 2025 report, the Canadian Institute of Actuaries (CIA) published new
+mortality improvement research and a new mortality improvement scale (CIA 2024) in April
+2024, referred to in this report as “CanMI-2024.” At that time, adoption of the new improvement
+scale was not widespread, as many pension actuaries were awaiting an updated Canadian
+pensioner base mortality table. On March 11, 2026, the CIA published the 2024 Canadian
+Pensioner Mortality Research Project (CPM2024). Earlier Canadian pension mortality work
+produced the CPM2014 base tables and CPM-B improvement scale in 2014, followed by the MI2017 improvement scale in 2017. The CPM2024 research was conducted by Ad Res Reinsurance
+Services GmbH and supervised by a project oversight group of the CIA’s Research Council.
+The CPM2024 study is based primarily on mortality experience from 2011 through 2021 and
+includes an extended observation through 2023 for a subset of the data. It contains
+approximately 1.6 million individual records, about three times the volume of data underlying
+CPM2014. There are several differences between the new and prior studies. CPM2014 included
+separate mortality tables for public- and private-sector pension plans, whereas CPM2024
+provides a “Combined” table as well as “Light” and “Heavy” tables reflecting pension plans
+with lower and higher mortality, respectively. The larger volume of data available for CPM2024
+supported this approach and allows the selection of a mortality table to be based more directly
+on the mortality experience and characteristics of an individual plan rather than its classification
+as a public- or private-sector plan. The study also found that surviving spouses exhibited
+distinctly heavier mortality than pensioners and, unlike CPM2014, provides separate mortality
+tables for widows and widowers.
+The experience period used to develop CPM2024 includes 2020 and 2021, but the researchers did
+not simply exclude mortality experience during the COVID-19 pandemic. Instead, they developed
+a model that allowed them to distinguish normal seasonal variation and the underlying mortality
+improvement trend from temporary spikes in mortality. The analysis identified a significant
+mortality spike during the initial wave of the pandemic in April and May 2020, which was
+modeled separately so that the associated excess mortality did not affect the underlying
+5
+
+Modelled stochastically as 75% probability of 0% excess mortality and 25% probability of 100% of the excess mortality.
+
+23
+Copyright © 2026 Society of Actuaries Research Institute
+
+24
+mortality trend used to develop the table. A second increase in mortality around December 2020
+and January 2021 was considered, but was not treated as a separate COVID-19 spike because
+its magnitude was not unusual relative to other fluctuations in the historical experience. Notably,
+the researchers projected the mortality rates to January 1, 2024 using the mortality improvement
+trend estimated directly from the pensioner experience underlying the study, rather than the
+CanMI-2024 mortality improvement scale. They also examined available experience through
+2023 for a subset of the contributing plans as a reasonableness check on the continuation of the
+estimated underlying mortality trend following the pandemic. Thus, rather than excluding the
+pandemic years altogether, CPM2024 retains the information in those years while attempting to
+separate temporary pandemic excess mortality from the underlying mortality level and
+improvement trend used to develop the 2024 base tables.
+The financial effect of adopting CPM2024 depends in part on the mortality improvement scale
+used to project the new base table. A bulletin published by Aon estimates that using CPM2024
+together with CanMI-2024, rather than CPM2014 together with the CPM-B improvement scale,
+would increase cohort life expectancy at age 65 by approximately 0.7 years for males and 1.0
+year for females. For plans that had previously adopted the MI-2017 improvement scale, the
+increases in life expectancy would be 0.4 years for males and 0.6 years for females. The same
+analysis estimates that the change would increase pension liabilities and current service costs by
+approximately 1% to 3% (depending on the plan’s demographic profile and the improvement
+scale currently in use), with most of the increase attributable to the change in the mortality
+improvement scale rather than the change in the base mortality table. As discussed in last year’s
+report, CanMI-2024 was developed using pre-pandemic mortality experience and has a longterm mortality improvement rate of 1.3%, compared with 0.8% under CPM-B and 1.0% under
+MI2017.
+On September 21, 2026, the CIA published a final communication (CIA 2026) from the Actuarial
+Standards Board (ASB) adopting the amount-weighted CPM2024 Combined table together with
+the CanMI-2024 mortality improvement scale for determining commuted values. The new
+mortality basis will become effective April 1, 2027, replacing the CPM2014 mortality table and
+CPM-B mortality improvement scale currently used for these calculations. The effective date was
+delayed two months from February 1, 2027 (the date originally proposed by the ASB).
+
+24
+Copyright © 2026 Society of Actuaries Research Institute
+
+25
+
+Section 7: Reliance and Limitations
+The information in this report has been developed from data from other sources and has been
+presented for the purpose of providing retirement and post-employment benefit actuaries with
+relevant information regarding recent and future U.S. mortality patterns. No assessment has
+been made concerning the applicability of the information to other purposes.
+
+25
+Copyright © 2026 Society of Actuaries Research Institute
+
+26
+
+Section 8: Acknowledgments
+The SOA would like to thank RPEC and, especially, the Mortality Improvement Subcommittee for
+their support, guidance, direction, and feedback throughout the project.
+RPEC members (members of the Mortality Improvement Subcommittee are denoted with an
+asterisk):
+David L. Driscoll, FSA, MAAA, EA, FCA, Committee chairperson
+Martin W. Hill, FSA, MAAA, FCA, Mortality Improvement Subcommittee chairperson*
+Brent A. Banister, FSA, MAAA, EA, FCA*
+James G. Berberian, ASA, EA, MAAA, FCA*
+Ben Blakeslee, FSA, MAAA*
+Robert A. Blough, FSA, MAAA, EA, FCA
+John Braddock, FSA, EA*
+Stephen Breeding, FSA, MAAA, EA, FCA*
+James Chakan, FSA, EA*
+Douglas J. Fiddler, ASA, MAAA, EA, FCA
+Timothy J. Geddes, FSA, EA, MAAA, FCA*
+Piotr Krekora, ASA, MAAA, FCA, EA*
+Nina Lantz, FSA, EA, MAAA, FCA
+Adrienne Ostroff Lieberthal, FSA, EA, CERA, FCA, MAAA
+John R. Popiolek, FSA, MAAA, EA
+Scott F. Porter, FSA, MAAA, EA
+Michael P. Quercia, ASA, MAAA
+Mitchell Rubenstein, ASA
+Graham A. Schmidt, FSA, MAAA, FCA, EA
+Mark Spong, FSA, CERA, MAAA*
+Larry Stern, FSA, MAAA*
+Matthew A. Strom, FSA, MAAA, EA
+Elizabeth A. Wiley, FSA, MAAA, EA, FCA
+Eva Sau Ying Yum, FSA, FCIA, EA, MAAA
+At the SOA:
+Patrick D. Nolan, FSA, MAAA, Senior Experience Studies Actuary
+Patrick Wiese, ASA, Modeling Researcher
+
+26
+Copyright © 2026 Society of Actuaries Research Institute
+
+27
+
+References
+These links were accessed on September 25, 2026.
+(AG2026) Royal Dutch Actuarial Association (Koninklijk Actuarieel Genootschap). 2026.
+“Projections Life Table AG2026.” September 8, 2026.
+https://www.actuarieelgenootschap.nl/kennisbank/projections-life-table-ag2026-1
+(CDC Wonder Database), Mortality Data, National Center for Health Statistics.
+https://wonder.cdc.gov/mcd.html
+(CIA 2024) Canadian Institute of Actuaries. 2024. “Mortality Improvements Research: Report to
+the Canadian Institute of Actuaries’ Project Oversight Group.” April 2024. https://www.ciaica.ca/publications/224043e/
+(CIA 2026) Canadian Institute of Actuaries, Actuarial Standards Board. 2026. “Final
+Communication of a Promulgation of the Mortality Table Referenced in the Standards of Practice
+for Pension Plans (Subsection 3530).” September 21, 2026. Accession No. 226094.
+https://www.cia-ica.ca/publications/226094e/
+(CMI 2024) Continuous Mortality Investigation. 2025. “Working Paper 201: CMI Mortality
+Projections Model, CMI_2024.” Institute and Faculty of Actuaries, June 2025.
+https://www.actuaries.org.uk/learn-and-develop/continuous-mortality-investigation/cmiworking-papers/mortality-projections/cmi-working-paper-201
+(CMI 2025) Continuous Mortality Investigation. 2026. “Working Paper 211: CMI Mortality
+Projections Model, CMI_2025.” Institute and Faculty of Actuaries, March 2026.
+https://www.actuaries.org.uk/learn-and-develop/continuous-mortality-investigation/cmiworking-papers/mortality-projections/cmi-working-paper-211
+(CMI WP212) Continuous Mortality Investigation. 2026. “Working Paper 212: Using the CMI
+Mortality Projections Model for Term Assurances.” Institute and Faculty of Actuaries, March
+2026. https://www.actuaries.org.uk/learn-and-develop/continuous-mortality-investigation/cmiworking-papers/assurances/cmi-working-paper-212
+(CMI 2026) Continuous Mortality Investigation. 2026. “CMI Mortality Monitor – Week 35 of
+2026.” Institute and Faculty of Actuaries, September 9, 2026.
+https://www.actuaries.org.uk/system/files/field/document/Mortality%20monitor%20Week%2035%2
+0of%202026%20v01%202026-09-09.pdf
+(SOA 2014) Society of Actuaries. 2014. “Mortality Improvement Scale MP-2014.” Schaumburg:
+Society of Actuaries. https://www.soa.org/resources/experience-studies/2014/research-2014mp/
+(SOA 2021) Society of Actuaries. 2021. “Mortality Improvement Scale MP-2021.”
+https://www.soa.org/resources/experience-studies/2021/mortality-improvement-scale-mp-2021
+(SOA 2025) Society of Actuaries. 2025. “RPEC 2025 Mortality Improvement Update.”
+https://www.soa.org/resources/research-reports/2025/rpec-mort-improvement-update/
+(SOA 2026) Society of Actuaries. 2026. “The Mortality Improvement Model, MIM-2026.”
+Schaumburg: Society of Actuaries. https://www.soa.org/resources/research-reports/2026/2026updates-mim/
+27
+Copyright © 2026 Society of Actuaries Research Institute
+
+28
+(SSA 2025) Social Security Administration. 2025. “The 2025 Annual Report of the Board of
+Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust
+Funds.” https://www.ssa.gov/OACT/TR/2025/tr2025.pdf
+(SSA 2026a) Social Security Administration. 2026. “The 2026 Annual Report of the Board of
+Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust
+Funds.” https://www.ssa.gov/OACT/TR/2026/tr2026.pdf
+(SSA 2026b) Social Security Administration. 2026. “The Long-Range Demographic Assumptions
+for the 2026 Trustees Report.” https://www.ssa.gov/oact/tr/2026/2026_LongRange_Demographic_Assumptions.pdf
+(Tausch 2023) Tausch, Alan J. 2023. “How to Count: Understanding the Death Toll from the
+COVID-19 Pandemic.” Contingencies, January/February 2023. American Academy of Actuaries,
+January 3, 2023. https://actuary.org/article/how-to-count/
+
+28
+Copyright © 2026 Society of Actuaries Research Institute
+
+29
+
+Appendix A. Data Sources
+A.1: Death Counts
+As explained in Section 2.1, the analysis presented in this report uses CDC death-count data.
+This data is available with a short reporting lag, facilitating an examination of recent mortality
+trends. The data used in this analysis was downloaded on September 23, 2026. Because CDC
+data for recent months is provisional and incomplete, the analysis excludes the three most
+recent months—July through September 2026. Reported death counts for June 2026 and earlier
+were adjusted upward to estimate final counts. RPEC estimated reporting-completeness rates by
+comparing successive CDC datasets downloaded at different times during 2025 and 2026 and
+observing how reported counts matured over time. For the age 65+ population, the estimated
+completion rates exceeded 99.90% for March 2026 and earlier and were 99.90%, 99.83%, and
+99.35% for April, May, and June 2026, respectively. Estimated final death counts were calculated
+by dividing the reported counts by the applicable completion rate.
+
+A.2: Exposure Data
+To compute crude death rates for the analysis presented in this report, CDC death counts were
+divided by “Social Security area population” (SSAP) estimates produced by the Social Security
+Administration (SSA) for its 2026 Trustees Report.
+An asymmetry exists between the geographical area covered by CDC death data and the area
+covered by the SSAP counts. The CDC data captures U.S. residents of the 50 states and the
+District of Columbia (DC), while the SSAP data captures a broader population. In addition to the
+50 states and DC, the SSAP data captures the following population segments: civilian residents
+of Puerto Rico, the Virgin Islands, Guam, American Samoa, and the Northern Mariana Islands;
+Federal civilian employees and persons in the U.S. Armed Forces abroad and their dependents;
+non-citizens living abroad who are insured for Social Security benefits; and all other U.S. citizens
+abroad. As a result of this broader definition, SSAP is about 2% larger than the U.S. resident
+population. This asymmetry is material with respect to computing mortality rates, but the
+objective of this report is to examine mortality trends rather than to quantify mortality rates.
+Trends are unlikely to be affected by the asymmetry.
+
+A.3: Rationale for Using Social Security Data for Exposures
+To develop the A/E results presented in this report, estimates of population counts are required
+by year, sex, and age. Because the report covers the period through June 2026, population
+estimates should ideally extend through that month.
+Because the U.S. general population is large and dynamic, it is challenging to develop estimates
+with a short reporting lag relative to the present. The closer the data is to the present, the
+greater its uncertainty. In addition, the uncertainty is greater at advanced ages because
+population counts are smaller and errors in age reporting have a greater impact. These
+uncertainties are generally modest at ages 65–74 but become more significant at ages 80+.
+For this report, RPEC considered three possible population datasets: (1) estimates of the U.S.
+resident population produced by the U.S. Census Bureau, (2) U.S. resident population estimates
+produced by HMD, and (3) estimates of SSAP produced by the SSA. Because this report focuses
+29
+Copyright © 2026 Society of Actuaries Research Institute
+
+30
+on mortality trends rather than the absolute level of mortality rates, RPEC believes that SSAP’s
+slightly broader population definition is not a material concern for this analysis.
+In its evaluation of these three datasets, RPEC focused on ages 80+ for which net migration is
+presumably negligible as a percent of the underlying population. If one assumes net migration of
+zero, then each year the 80+ population should change as follows:
+Pop(EOY) = Pop(BOY) + Newly80(during year) - Deaths(during year)
+Pop = population age 80+
+Deaths = deaths at ages 80+
+BOY = beginning of year
+EOY = end of year
+Newly80 = number of people reaching age 80 during the year
+Focusing on the period from January 1, 2020, through December 31, 2024, the equation above
+can be used to derive the following relationship:
+Pop(EOY 2024) - Pop(BOY 2020) = Newly80(2020 to 2024) - Deaths(2020 to 2024)
+This equation expresses the following relationship: the cumulative change in the 80+ population
+from 2020 to 2024 is equal to the number of persons reaching age 80 during this period minus
+the cumulative number of deaths at ages 80+. A useful variant of this equation is as follows:
+Implied Deaths(2020 to 2024)
+= Newly80(2020 to 2024) – [Pop(EOY 2024) – Pop(BOY 2020)]
+“Implied deaths” are the number needed to precisely account for the net change in the
+population. The closer implied deaths are to actual deaths, the better the fit between the
+exposure and death-count datasets.
+As shown in Table A-1 below, the ratio of implied to actual deaths is nearly 99% for the SSAP
+data, but less than 95% for the Census data. This result suggests that SSAP provides closer
+agreement with the CDC death count data than does the Census data. Therefore, RPEC continues
+to use SSAP as the exposure dataset for the analysis presented in this report.
+Table A-1
+
+Population Counts for Ages 80+, and Implied versus Actual Deaths (1000s)
+1
+2
+3
+4
+5
+6
+7
+
+Population, Jan 1, 2020
+Population Dec 31, 2024
+Population Change
+People Reaching Age 80 from 2020 to 2024
+Implied Deaths (4 - 3)
+Actual Deaths (CDC Data) 2020 to 2024
+Implied / Actual Deaths
+
+Census
+12,610
+14,656
+2,046
+8,438
+6,392
+6,754
+94.6%
+
+HMD
+12,646
+14,655
+2,009
+8,434
+6,425
+6,754
+95.1%
+
+SSAP
+12,542
+14,276
+1,734
+8,396
+6,662
+6,754
+98.6%
+
+An additional reason for selecting SSAP data is that it provides both historical data and forward
+projections (well beyond 2026), whereas the latest Census dataset ends in July 2025. This report
+covers mortality trends through mid-2026; consequently, it is helpful that SSAP data includes
+2026.
+30
+Copyright © 2026 Society of Actuaries Research Institute
+
+31
+
+Appendix B: Impact of Exposure Revisions
+As discussed in subsection 2.2, the analysis presented in this report uses the SSAP dataset for
+exposure. This dataset is revised annually by the SSA to support development of the annual
+OASDI Trustees Report, often leading to shifts in population estimates for recent years. Indeed,
+shifts in SSAP estimates occurred across the two most recent Trustees Reports, as shown in
+Table B-1. Revisions to the population estimates, in turn, lead to revisions in RPEC’s A/E ratios,
+as shown in Table B-2 (which is consistent with Figure 5, but extending back to 2019). Using
+exposure estimates from the 2026 Trustees Report rather than the 2025 Trustees Report
+increased the calculated calendar-year 2025 A/E ratio by approximately 0.5 percentage points.
+Table B-1
+Estimated Social Security Area Population Age 65+ (Millions)
+2025 Trustees Report
+2026 Trustees Report
+2026 / 2025 Report
+
+2019
+54.24
+54.45
+100.39%
+
+2020
+55.89
+56.09
+100.36%
+
+2021
+57.40
+57.54
+100.24%
+
+2022
+59.12
+59.19
+100.11%
+
+2023
+60.97
+60.98
+100.02%
+
+2024
+62.84
+62.84
+100.01%
+
+2025
+64.66
+64.62
+99.93%
+
+Table B-2
+Actual-to-Expected Death-Rate Ratios for Ages 65+, Using Exposure Estimates from the 2025 and 2026
+Trustees Reports
+2025 Trustees Report
+2026 Trustees Report
+2026 minus 2025
+
+2019
+100.00%
+100.00%
+0.00%
+
+2020
+116.71%
+116.71%
+0.00%
+
+2021
+114.56%
+114.62%
+0.06%
+
+2022
+109.53%
+109.67%
+0.14%
+
+2023
+102.06%
+102.30%
+0.24%
+
+2024
+100.73%
+101.11%
+0.38%
+
+2025
+100.26%
+100.77%
+0.51%
+
+Some readers may find these changes in A/E ratios counterintuitive. To understand why they
+changed the way they did, recall that the expected death rates in 2019 are set equal to the
+actual death rates. By definition, the 2019 A/E ratio is 100.0%. The updated SSAP exposure
+counts in 2019 increased 0.39% but actual deaths stayed the same, so the actual death rate –
+and thus the expected death rate – decreased. Because the expected death rate in 2019
+decreased, the expected death rates in all future years decreased as well, since they are
+determined by applying MP-2021 to the expected 2019 death rate.
+If the SSAP exposures in each subsequent year increased by the same 0.39%, then the A/E ratios
+in each subsequent year would be relatively unchanged. But the SSAP exposures increased by
+different amounts, as shown in Table B-1. The further from 0.39% the exposure increase is for a
+given year, the larger the change in A/E ratio, because the actual death rate would reflect that
+year’s exposure change whereas the expected would still reflect the 0.39% exposure increase
+from 2019. The lower the exposure increase, the higher the increase in A/E ratio. This explains
+why in Table B-2 (and Figure 5) there is little change in A/E ratios for 2019-2022, but the A/E
+ratios for 2023-2025 increased more significantly. The increase in A/E ratio is the highest in 2025
+because the updated SSAP exposure actually decreased.
+
+31
+Copyright © 2026 Society of Actuaries Research Institute
+
+32
+
+Appendix C: Age Standardization
+The A/E results presented in Section 3 are calculated across broad age groups. For example, the
+results in Figures 1 through 5 reflect data for ages 65 and above. Shifts in a population’s age
+structure can influence the aggregate death rate computed across an age group. In general, if
+the average age shifts upwards (downwards) across time, this will tend to increase (decrease)
+the aggregate death rate, even if age-specific mortality rates remain unchanged. This makes it
+difficult to interpret trends in unstandardized death rates.
+For a hypothetical data set, suppose that the unstandardized death rate for females of age 60to-64 is 1.00% in year one of a mortality study, and 0.98% in year five. Without more information,
+it cannot be determined if the 2% decrease in the aggregate death rate is due to (1) a downward
+shift in age-specific mortality rates, (2) a downward shift in the age distribution, or (3) a
+combination of these two effects. This issue is illustrated using fictional data in Tables C-1 and
+C-2. In Table C-1, age-specific mortality rates decrease by 2%, leading to a 2% decline in the
+aggregate mortality rate. In Table C-2, age-specific mortality rates are constant across time,
+but shifts in the population’s age structure lead to that same 2% decline in the aggregate
+mortality rate as in Table C-1.
+Table C-1
+Downward Shift in Age-Specific Death Rates Leads to 2% Decrease in Aggregate Death Rate
+
+Age
+60
+61
+62
+63
+64
+Total
+
+1
+Year 1
+Exposure
+100,000
+99,000
+98,010
+97,030
+96,060
+490,100
+
+2
+Year 1
+Deaths
+789
+875
+970
+1,076
+1,193
+4,902
+
+3
+Year 1
+D/E
+0.789%
+0.884%
+0.990%
+1.108%
+1.242%
+1.000%
+
+4
+Year 5
+Exposure
+100,000
+99,000
+98,010
+97,030
+96,060
+490,100
+
+5
+Year 5
+Deaths
+773
+857
+951
+1,054
+1,169
+4,804
+
+6
+Year 5
+D/E
+0.773%
+0.866%
+0.970%
+1.086%
+1.217%
+0.980%
+
+6/3
+Mort
+Ratio
+98.0%
+98.0%
+98.0%
+98.0%
+98.0%
+98.0%
+
+Table C-2
+Shift in Age Composition Leads to a 2% Decrease in the Aggregate Death Rate
+
+Age
+60
+61
+62
+63
+64
+Total
+
+1
+Year 1
+Exposure
+100,000
+99,000
+98,010
+97,030
+96,060
+490,100
+
+2
+Year 1
+Deaths
+789
+875
+970
+1,076
+1,193
+4,902
+
+3
+Year 1
+D/E
+0.789%
+0.884%
+0.990%
+1.108%
+1.242%
+1.000%
+
+4
+Year 5
+Exposure
+140,000
+126,700
+114,664
+103,770
+93,912
+579,046
+
+5
+Year 5
+Deaths
+1,105
+1,120
+1,135
+1,150
+1,166
+5,675
+
+6
+Year 5
+D/E
+0.789%
+0.884%
+0.990%
+1.108%
+1.242%
+0.980%
+
+6/3
+Mort
+Ratio
+100.0%
+100.0%
+100.0%
+100.0%
+100.0%
+98.0%
+
+To neutralize the effects of changes in the population’s age structure, the results presented in
+this report are standardized by age. Age-standardized results are easy to interpret because the
+effects of changes in age structure are eliminated. If an age-standardized death rate increases
+or decreases over time, the change reflects movements in age-specific death rates rather than
+changes in the age composition of the population.
+32
+Copyright © 2026 Society of Actuaries Research Institute
+
+33
+For this report, age standardization was accomplished using 2019 population counts as weights.
+In effect, this “freezes” the population’s age structure at 2019 levels. Aggregate death rates are
+computed as the weighted average of age-specific death rates, using weights derived from 2019
+population counts. For example, to compute the age-standardized death rate in 2023 for ages
+60 to 69, the following calculation is performed:
+69
+
+69
+
+x=60
+
+x=60
+
+Deaths(x)2023
+(∑
+∗ Population(x)2019) ÷ ∑ Population(x)2019
+Population(x)2023
+
+Revisiting the situation depicted above in Table C-2, this methodology of age standardization
+would use the year one exposure counts by age in computing the weighted-average death rate
+for the 60-64 age band in year five. Since the year five death rates are the same as year one
+death rates for each age, the resulting age-standardized, weighted-average death rate for the
+60-64 age band would be the same 1.000% as in year one, and therefore the mortality ratio in
+the rightmost column would be 100%. This illustrates how age standardization resolves the
+skewing of death rates when there are shifts in the age composition of a group over time.
+For presentational simplicity, the prior equation shows death and population data in annual time
+units. The SSAP data consists of annual (mid-year) estimates; RPEC uses linear interpolation to
+translate the annual population counts into monthly estimates. The monthly data facilitates
+calculations for rolling 12-month periods that straddle adjacent calendar years – for example,
+the period from July 2024 to June 2025.
+
+33
+Copyright © 2026 Society of Actuaries Research Institute
+
+34
+
+Appendix D: Expected Death Rates
+The A/E values presented in Sections 3.1 and 3.2 are determined as the ratio of two agestandardized death rates. The numerator (the actual death rate) is calculated as described in
+Appendix C. The denominator (the expected death rate) is calculated using 2019 death count
+data because 2019 was chosen as the base year for RPEC’s A/E analysis. Because 2019 data is
+also used for age standardization, the expected death rate calculation in any given year reduces
+to the following, as illustrated for the age group running from 60 to 69:
+69
+
+69
+
+∑ Deaths(x)2019 ÷ ∑ Population(x)2019
+x=60
+
+x=60
+
+The fact that the resulting expected death rate for any given year is the same as in 2019 makes
+sense, since without a mortality improvement assumption the expected mortality is constant. To
+determine expected death rates that include mortality improvement implied by the MP-2021
+scale, the calculation of the expected mortality rate in year y is modified as follows:
+69
+
+69
+
+∑ Mort Improve Factor(x, y) ∗ Deaths(x)2019 ÷ ∑ Population(x)2019
+x=60
+
+x=60
+
+The mortality improvement factor varies by age and target year, reflecting cumulative MP-2021
+improvement from 2019 to the target year y that is captured in the numerator of the A/E
+calculation. For example, if the actual period is calendar 2023, then the mortality improvement
+factor will reflect cumulative MP-scale improvement across the 2019-to-2023 period. A factor of
+95% indicates cumulative mortality improvement of 5%, or a 5% reduction in the mortality rate.
+To calculate the expected death rate for a period that straddles adjacent calendar years, the
+calculation is similar, except the summation in the numerator is broken into separate months,
+and the appropriate mortality improvement factor is applied to each month’s data. For example,
+suppose the base period for computing the expected death rate is 2019, and the target period to
+be compared against the base period runs from February 2024 to January 2025; thus, eleven
+months of the target period fall in 2024, and one month (January) falls in 2025. In this case,
+expected deaths would reflect (1) data from February to December of 2019, projected forward
+to 2024 and (2) data from January of 2019, projected forward to 2025. Notice that each
+calendar month in the target period is always paired with the same calendar month in the base
+period, ensuring that the numerator and denominator share the same seasonality. In this
+example, February 2024 is matched with February 2019, and the projection period is five years
+(2024 minus 2019). Similarly, January 2025 is matched with January 2019, and the projection
+period is six years (2025 minus 2019).
+To generate sex-specific results, the calculations are performed separately for males and
+females. To generate combined results for males and females, the calculations are aggregated
+across both sexes.
+
+34
+Copyright © 2026 Society of Actuaries Research Institute
+
+35
+
+Appendix E: Excess Mortality Estimated Using Medicare Data
+The excess mortality estimates presented in this report were generated using CDC data for
+death counts and SSAP data for exposure counts. This approach was used because CDC data is
+available with a relatively short time lag, thereby facilitating an analysis of recent mortality
+experience.
+In contrast, the MP-scale is produced using death rates published by the SSA. For ages above
+65, the SSA uses Medicare data to develop the death rates. Medicare data has a lengthy
+reporting lag, but provides both exposure counts and death counts, tied together via a database
+of individual beneficiary records. The tight relationship between the death and exposure data is
+a key reason that RPEC uses the SSA’s Medicare-based death rates to produce the MP-scale.
+At the time of publication of this report, the SSA’s death rate dataset was finalized only through
+2023. Using this data, RPEC computed excess mortality for the 65+ population separately for
+each year from 2020 to 2023 and compared the results against those produced using CDC and
+SSAP data:
+Table E-1
+Ratio of Actual to Expected Deaths for the 65+ Population
+Data Source(s)
+CDC and SSAP
+Medicare
+Medicare minus CDC/SSAP
+
+2019
+100.0%
+100.0%
+0.0%
+
+2020
+116.7%
+116.1%
+-0.6%
+
+2021
+114.6%
+114.1%
+-0.5%
+
+2022
+109.6%
+109.3%
+-0.3%
+
+2023
+102.3%
+102.0%
+-0.3%
+
+Expected deaths reflect 2019 data, adjusted to reflect mortality improvement anticipated by the MP-2021 projection scale.
+
+In the preceding table, the A/E results calculated using Medicare data are quite close to those
+calculated using CDC and SSAP data. While there is a difference in A/E ratios between the two
+datasets that has persisted through 2023, the rate of decline in excess mortality (equal to A/E
+minus 1.0) since 2020 is similar, as illustrated in Table E-2.
+Table E-2
+Excess Mortality as % of Excess Mortality in 2020 for the 65+ Population
+Data Source(s)
+Excess (year) / Excess (2020): CDC and SSAP
+Excess (year) / Excess (2020): Medicare
+
+2020
+100.0%
+100.0%
+
+2021
+87.4%
+87.2%
+
+2022
+57.8%
+58.0%
+
+2023
+13.7%
+12.6%
+
+The 65+ populations covered by the Medicare data and the CDC data are similar but not
+identical. The CDC death count data covers the entire U.S. resident population, while the
+Medicare data captures about 94% of the 65+ population (this percentage was estimated by
+RPEC). The slight difference in covered populations is one potential source of the gap between
+the A/E results in Table E-1. Another potential source is the uncertainty associated with the
+SSA’s general population estimates.
+
+35
+Copyright © 2026 Society of Actuaries Research Institute
+
+36
+
+Appendix F: Theoretical Impact of Historical Data Revisions on MP-2021
+The first step in the development of each MP scale is to smooth historical death rate data by
+age and calendar year. The smoothed data facilitates the estimation of recent improvement
+rates. MP-2021 was developed in 2021 using historical death rate data through 2019. The data
+through 2016 was obtained from the Social Security Administration’s 2021 OASDI Trustees
+Report and was considered final.6 In contrast, the data for 2017 through 2019 consisted of
+preliminary estimates. This raises the following question: if MP-2021 were to be recalculated
+today using final data for 2017 through 2019 rather than the preliminary data, would this lead to
+a material change in the projection scale? To answer this question, RPEC re-ran the MP scale’s
+two-dimensional smoothing process using final death rate data through 2019. The impact was
+immaterial for ages 65+ and slight for ages below 65. In RPEC’s view, there is no compelling
+reason to release a slightly modified MP-2021 scale reflecting updated historical data through
+2019. Rather, RPEC’s focus is on comparing emerging data against that predicted by MP-2021
+and evaluating options for developing an updated scale that reflects post-pandemic data.
+
+SSA uses different underlying data sources by age to develop its historical death rates. For ages under 65, death counts are obtained from
+the National Center for Health Statistics (NCHS), a component of the Centers for Disease Control and Prevention, and population exposures
+are obtained from the U.S. Census Bureau. For ages 65 and older, both death counts and exposures are derived from Medicare en rollment
+records maintained by the Centers for Medicare & Medicaid Services. Thus, although the historical death rates discussed in this appendix were
+obtained from the OASDI Trustees Report, the underlying data for ages 65 and older are Medicare data.
+6
+
+36
+Copyright © 2026 Society of Actuaries Research Institute
+
+37
+
+About The Society of Actuaries Research Institute
+Serving as the research arm of the Society of Actuaries (SOA), the SOA Research Institute
+provides objective, data-driven research bringing together tried and true practices and futurefocused approaches to address societal challenges and your business needs. The Institute
+provides trusted knowledge, extensive experience and new technologies to help effectively
+identify, predict and manage risks.
+Representing the thousands of actuaries who help conduct critical research, the SOA Research
+Institute provides clarity and solutions on risks and societal challenges. The Institute connects
+actuaries, academics, employers, the insurance industry, regulators, research partners,
+foundations and research institutions, sponsors and non-governmental organizations, building an
+effective network which provides support, knowledge and expertise regarding the management
+of risk to benefit the industry and the public.
+Managed by experienced actuaries and research experts from a broad range of industries, the
+SOA Research Institute creates, funds, develops and distributes research to elevate actuaries as
+leaders in measuring and managing risk. These efforts include studies, essay collections,
+webcasts, research papers, survey reports, and original research on topics impacting society.
+Harnessing its peer-reviewed research, leading-edge technologies, new data tools and
+innovative practices, the Institute seeks to understand the underlying causes of risk and the
+possible outcomes. The Institute develops objective research spanning a variety of topics with its
+strategic research programs: aging and retirement; actuarial innovation and technology;
+mortality and longevity; diversity, equity and inclusion; health care cost trends; and catastrophe
+and climate risk. The Institute has a large volume of topical research available, including an
+expanding collection of international and market-specific research, experience studies, models
+and timely research.
+
+Society of Actuaries Research Institute
+8770 Bryn Mawr Ave, Suite 1000
+Chicago, IL 60631
+www.SOA.org
+
+37
+Copyright © 2026 Society of Actuaries Research Institute
+
+

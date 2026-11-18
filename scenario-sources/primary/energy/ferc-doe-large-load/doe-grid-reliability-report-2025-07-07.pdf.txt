@@ -1,0 +1,9089 @@
+Report on Evaluating U.S. Grid Reliability and Security
+
+Resource Adequacy Report
+
+Evaluating the Reliability and Security of the United
+States Electric Grid
+July 2025
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Acknowledgments
+This report and associated analysis were prepared for DOE purposes to evaluate both the current
+state of resource adequacy as well as future pressures resulting from the combination of
+announced retirements and large load growth.
+It was developed in collaboration with and with assistance from the Pacific Northwest National
+Laboratory (PNNL) and National Renewable Energy Laboratory (NREL). We thank the North
+American Electric Reliability Corporation (NERC) for providing data used in this study, the Telos
+Corporation for their assistance in interpreting this data, and the U.S Energy Information
+Administration (EIA) for their dissemination of historical datasets. In addition, thank you to NREL
+for providing synthetic weather data created by Evolved Energy Research for the Regional Energy
+Deployment System (ReEDS) model.
+DOE acknowledges that the resource adequacy analysis that was performed in support of this
+study could benefit greatly from the in-depth engineering assessments which occur at the regional
+and utility level. The DOE study team built the methodology and analysis upon the best data that
+was available. However, entities responsible for the maintenance and operation of the grid have
+access to a range of data and insights that could further enhance the robustness of reliability
+decisions, including resource adequacy, operational reliability, and resilience.
+Historically, the nation’s power system planners would have shared electric reliability information
+with DOE through mechanisms such as EIA-411, which has been discontinued. Thus, one of the
+key takeaways from this study process is the underscored “call to action” for strengthened
+regional engagement, collaboration, and robust data exchange which are critical to addressing
+the urgency of reliability and security concerns that underpin our collective economic and national
+security.
+
+U.S. Department of Energy
+
+i
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Table of Contents
+
+Acknowledgments ........................................................................................................................i
+Background to this Report .......................................................................................................... vi
+Executive Summary ................................................................................................................... 1
+1
+
+Modeling Methodology ......................................................................................................10
+1.1 Modeling Resource Adequacy .........................................................................................13
+1.2 Planning Years and Weather Years ................................................................................15
+1.3 Load Modeling..…………… .............................................................................................15
+1.4 Transfer Capabilities and Import Export Modeling ...........................................................18
+1.5 Perfect Capacity Additions ……………………………………………………………………..19
+
+2
+
+Regional Analysis ..............................................................................................................20
+2.1 MISO…………….…………………. ..................................................................................20
+2.2 ISO-NE…………………………….. ...................................................................................23
+2.3 NYISO……………………….. ...........................................................................................25
+2.4 PJM…………..……………………………………………………………………………………27
+2.5 SERC…………..………………………………………………………………………………….30
+2.6
+SPP………..………………………………………………………………………………………Error!
+Bookmark not defined.
+2.7 CAISO+………………………….. .....................................................................................35
+2.8 West Non-CAISO……………. .........................................................................................37
+2.9 ERCOT………………………… ........................................................................................40
+
+Appendix A - Generation Calibration and Forecast ................................................................. A-1
+Appendix B - Representing Canadian Transfer Limits ............................................................. B-1
+References .............................................................................................................................C-1
+EO 14262................................................................................................................................C-3
+
+U.S. Department of Energy
+
+ii
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+List of Figures
+
+Figure 1. Mean Annual LOLH by Region (2030) – Plant Closures .................................. 6
+Figure 2. Mean Annual LOLH by Region (2030) – No Plant Closures ............................ 6
+Figure 3. Mean Annual NUSE by Region (2030) -Plant Closures ................................... 8
+Figure 4. Tuned Perfect Capacity (MW) By Region ........................................................ 9
+Figure 5. TPRs used in NERC ITCS ............................................................................. 10
+Figure 6. Simplified Overview of Model ......................................................................... 14
+Figure 7. 2024 to 2030 Projected Data Center Load Additions ..................................... 16
+Figure 8. New Data Center Build (% Split by ISO/RTO) (2030 Estimated).................... 17
+Figure 9. Mean Peak Load by RTO (Current Case vs 2030 Case) ............................... 18
+Figure 10. MISO Max Daily Load in the Current System versus 2030 .......................... 21
+Figure 11. MISO Generation Capacity by Technology and Scenario ............................ 21
+Figure 12. ISO-NE Max Daily Load in the Current System versus 2030 ....................... 23
+Figure 13. ISO-NE Generation Capacity by Technology and Scenario ......................... 24
+Figure 14. NYISO Max Daily Load in the Current System versus 2030 ........................ 25
+Figure 15. NYISO Generation Capacity by Technology and Scenario .......................... 26
+Figure 16. PJM Max Daily Load in the Current System versus 2030 ............................ 28
+Figure 17. PJM Generation Capacity by Technology and Scenario .............................. 28
+Figure 18. SERC Max Daily Load in the Current System versus 2030.......................... 30
+Figure 19. SERC Generation Capacity by Technology and Scenario ........................... 31
+Figure 20. SPP Max Daily Load in the Current System versus 2030 ............................ 33
+Figure 21. SPP Generation Capacity by Technology and Scenario .............................. 33
+Figure 22. CAISO+ Max Daily Load in the Current System versus 2030 ...................... 35
+Figure 23. CAISO+ Generation Capacity by Technology and Scenario ........................ 36
+Figure 24. West Non-CAISO Max Daily Load in the Current System versus 2030 ....... 38
+Figure 25. West Non-CAISO Generation Capacity by Technology and Scenario ......... 38
+Figure 26. ERCOT Max Daily Load in the Current System versus 2030 ....................... 41
+Figure 27. ERCOT Generation Capacity by Technology and Scenario ......................... 41
+
+U.S. Department of Energy
+
+iii
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+List of Tables
+Table 1. Summary Metrics Across Cases ....................................................................... 7
+Table 2. Summary of MISO Reliability Metrics .............................................................. 20
+Table 3. Nameplate Capacity by MISO Subregion and Technology (MW) .................... 22
+Table 4. Summary of ISO-NE Reliability Metrics ........................................................... 23
+Table 5. Nameplate Capacity by ISO-NE Subregion and Technology (MW)................. 24
+Table 6. Summary of NYISO Reliability Metrics ............................................................ 25
+Table 7. Nameplate Capacity by NYISO Subregion and Technology (MW) .................. 26
+Table 8. Summary of PJM Reliability Metrics ................................................................ 27
+Table 9. Nameplate Capacity by PJM Subregion and Technology (MW) ...................... 29
+Table 10. Summary of SERC Reliability Metrics ........................................................... 30
+Table 11. Nameplate Capacity by SERC Subregion and Technology (MW) ................. 31
+Table 12. Summary of SPP Reliability Metrics .............................................................. 32
+Table 13. Nameplate Capacity by SPP Subregion and Technology (MW) .................... 34
+Table 14. Summary of CAISO+ Reliability Metrics ........................................................ 35
+Table 15. Nameplate Capacity by CAISO+ Subregion and Technology (MW) .............. 36
+Table 16. Summary of West Non-CAISO Reliability Metrics ......................................... 37
+Table 17. Nameplate Capacity by West Non-CAISO Subregion and Technology (MW)39
+Table 18. Summary of ERCOT Reliability Metrics ......................................................... 40
+Table 19. Nameplate Capacity for ERCOT and by Technology (MW) .......................... 42
+Additional figures and tables in appendices
+
+U.S. Department of Energy
+
+iv
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+List of Acronyms
+AI
+
+Artificial Intelligence
+
+CAISO
+
+California Independent System Operator
+
+DOE
+
+U.S. Department of Energy
+
+EIA
+
+Energy Information Administration
+
+EO
+
+Executive Order
+
+EPRI
+
+Electric Power Research Institute
+
+ERCOT
+
+Electric Reliability Council of Texas
+
+EUE
+
+Expected Unserved Energy
+
+FERC
+
+Federal Energy Regulatory Commission
+
+GADS
+
+Generating Availability Data System
+
+ISO
+
+Independent System Operator
+
+ISO-NE
+
+ISO New England Inc.
+
+ITCS
+
+Interregional Transfer Capability Study
+
+LBNL
+
+Lawrence Berkeley National Laboratory
+
+LOLE
+
+Loss of Load Expectation
+
+LOLH
+
+Loss of Load Hours
+
+LTRA
+
+Long-Term Reliability Assessment
+
+MISO
+
+Midcontinent Independent System Operator
+
+NERC
+
+North American Electric Reliability Corporation
+
+NREL
+
+National Renewable Energy Laboratory
+
+NYISO
+
+New York Independent System Operator
+
+PJM
+
+PJM Interconnection, LLC
+
+PNNL
+
+Pacific Northwest National Laboratory
+
+ReEDS
+
+Regional Energy Deployment System
+
+RTO
+
+Regional Transmission Organization
+
+SERC
+
+SERC Reliability Corporation
+
+TPR
+
+Transmission Planning Region
+
+USE
+
+Unserved Energy
+
+U.S. Department of Energy
+
+v
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Background to this Report
+On April 8, 2025, President Trump issued Executive Order 14262, "Strengthening the Reliability
+and Security of the United States Electric Grid.” EO 14262 builds on EO 14156, “Declaring a
+National Emergency (Jan. 20, 2025),” which declared that the previous administration had driven
+the Nation into a national energy emergency where a precariously inadequate and intermittent
+energy supply and increasingly unreliable grid require swift action. The United States’ ability to
+remain at the forefront of technological innovation depends on a reliable supply of energy and the
+integrity of our Nation’s electrical grid.
+EO 14262 mandates the development of a uniform methodology for analyzing current and
+anticipated reserve margins across regions of the bulk power system regulated by the Federal
+Energy Regulatory Commission (FERC). Among other things, EO 14262 requires that such
+methodology accredit generation resources based on the historical performance of each
+generation resource type. This report serves as DOE’s response to Section 3(b) of EO 14262 by
+delivering the required uniform methodology to identify at-risk region(s) and guide reliability
+interventions. The methodology described herein and any analysis it produces will be assessed
+on a regular basis to ensure its usefulness for effective action among industry and government
+decision-makers across the United States.
+
+U.S. Department of Energy
+
+vi
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Executive Summary
+Our Nation possesses abundant energy resources and capabilities such as oil and gas, coal, and
+nuclear. The current administration has made great strides—such as deregulation, permitting
+reform, and other measures—to enable addition of more energy infrastructure crucial to the
+utilization of these resources. However, even with these foundational strengths, the accelerated
+retirement of existing generation capacity and the insufficient pace of firm, dispatchable
+generation additions (partly due to a recent focus on intermittent rather than dispatchable sources
+of energy) undermine this energy outlook.
+Absent decisive intervention, the Nation’s power grid will be unable to meet projected demand for
+manufacturing, re-industrialization, and data centers driving artificial intelligence (AI) innovation.
+A failure to power the data centers needed to win the AI arms race or to build the grid infrastructure
+that ensures our energy independence could result in adversary nations shaping digital norms
+and controlling digital infrastructure, thereby jeopardizing U.S. economic and national security.
+Despite current advancements in the U.S. energy mix, this analysis underscores the urgent
+necessity of robust and rapid reforms. Such reforms are crucial to powering enough data centers
+while safeguarding grid reliability and a low cost of living for all Americans.
+
+Key Takeaways
+•
+
+Status Quo is Unsustainable. The status quo of more generation retirements and less
+dependable replacement generation is neither consistent with winning the AI race and
+ensuring affordable energy for all Americans, nor with continued grid reliability (ensuring
+“resource adequacy”). Absent intervention, it is impossible for the nation’s bulk power
+system to meet the AI growth requirements while maintaining a reliable power grid and
+keeping energy costs low for our citizens.
+
+•
+
+Grid Growth Must Match Pace of AI Innovation. The magnitude and speed of projected
+load growth cannot be met with existing approaches to load addition and grid
+management. The situation necessitates a radical change to unleash the transformative
+potential of innovation.
+
+•
+
+Retirements Plus Load Growth Increase Risk of Power Outages by 100x in 2030.
+The retirement of firm power capacity is exacerbating the resource adequacy problem.
+104 GW of firm capacity are set for retirement by 2030. This capacity is not being replaced
+on a one-to-one basis and losing this generation could lead to significant outages when
+weather conditions do not accommodate wind and solar generation. In the “plant closures”
+scenario of this analysis, annual loss of load hours (LOLH) increased by a factor of a
+hundred.
+
+•
+
+Planned Supply Falls Short, Reliability is at Risk. The 104 GW of retirements are
+projected to be replaced by 209 GW of new generation by 2030; however, only 22 GW
+would come from firm baseload generation sources. Even assuming no retirements, the
+model found increased risk of outages in 2030 by a factor of 34.
+
+1
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+•
+
+Old Tools Won’t Solve New Problems. Antiquated approaches to evaluating resource
+adequacy do not sufficiently account for the realities of planning and operating modern
+power grids. At a minimum, modern methods of evaluating resource adequacy need to
+incorporate frequency, magnitude, and duration of power outages; move beyond
+exclusively analyzing peak load time periods; and develop integrated models to enable
+proper analysis of increasing reliance on neighboring grids.
+
+This report clearly demonstrates the need for rapid and robust reform to address
+resource adequacy issues across the Nation. Inadequate resource adequacy will
+hinder the development of new manufacturing in America, slow the reindustrialization of the U.S. economy, drive up the cost of living for all Americans,
+and eliminate the potential to sustain enough data centers to win the AI arms race.
+
+Developing a Uniform Methodology
+DOE’s resource adequacy methodology assesses the U.S. electric grid's ability to meet future
+demand through 2030. It provides a forward-looking snapshot of resource adequacy that is tied
+to electricity supply and new load growth, systematically exploring a range of dimensions that can
+be compared across regions. As detailed in the methodology section of this report, the model is
+derived from the North American Electric Reliability Corporation (NERC) Interregional Transfer
+Capability Study (ITCS) which leverages time-correlated generation and outages based on actual
+historic data. 1 A deterministic approach 2 simulates system stress in all hours of the year and
+incorporates varied grid conditions and operating scenarios based on historical events:
+•
+
+Demand for Electricity – Assumed Load Growth: The methodology accounts for the
+significant impact of data centers, particularly those supporting AI workloads, on electricity
+demand. Various organizations' projections for incremental data center electricity use by
+2030 range widely (35 GW to 108 GW). DOE adopted a national midpoint assumption of
+50 GW by 2030, aligning with central projections from Electric Power Research Institute
+(EPRI) 3 and Lawrence Berkeley National Laboratory (LBNL). 4 This 50 GW was allocated
+regionally using state-level growth ratios from S&P's forecast, 5 reflecting infrastructure
+characteristics, siting trends, and market activity; and, mapped to NERC Transmission
+Planning Regions (TPRs).
+
+1. This model differs from traditional peak hour reliability assessments in that it explicitly simulates grid
+performance hour-by-hour across multiple weather years with finer geographic detail and optimized interregional transfers, and explores various retirement and build-out scenarios. Furthermore, the DOE
+approach integrates weather-synchronized outage data.
+2. Deterministic approaches evaluate resource adequacy using relatively stable or fixed assumptions about
+the representation of the power system. Probabilistic approaches incorporate data and advanced modeling
+techniques to represent uncertainty that require more computing power. Deterministic was chosen for this
+analysis for transparency and to model detailed historic system conditions.
+3. EPRI, “Powering Intelligence: Analyzing Artificial Intelligence and Data Center Energy Consumption,”
+March 2024, https://www.epri.com/research/products/3002028905.
+4. Shehabi, A., et al., “2024 United States Data Center Energy Usage Report,”
+https://escholarship.org/uc/item/32d6m0d1.
+5. S&P Global – Market Intelligence, “US Datacenters and Energy Report,” 2024.
+
+2
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+An additional 51 GW of non-data center load was modeled using NERC data, historical
+loads (2019-2023), and simulated weather years (2007-2013), adjusted by the Energy
+Information Administration’s (EIA) 2022 energy forecast, with interpolation between 2024
+and 2033 to estimate 2030 demand.
+•
+
+Supply of Electricity – Assumed Generation Retirements and Additions: Between
+the current system and the projected 2030 system, the model considers three scenarios
+for generator retirements and additions. These scenarios were selected to describe the
+metrics of interest and how they change during certain assumptions of generation growth
+and retirements.
+
+The resource adequacy standard (or criterion) is the measure that defines the desired level of
+adequacy needed for a given system. Conceptually, a resource adequacy criterion has two
+components—metrics and target levels—that determine whether a system is considered
+adequate. Comprehensive resource adequacy metrics 6 are incorporated in this analysis to
+capture the magnitude and duration of system stress events:
+•
+
+Magnitude of Outages – Normalized Unserved Energy (NUSE): Measures the amount
+of unmet electrical energy demand because of insufficient generation or transmission,
+typically measured in megawatt hours (MWh).
+While USE describes the absolute amount of energy not delivered, it is less useful when
+comparing systems of different size or across different periods. Normalizing, by dividing
+by total load over a whole period (for example, a year) allows comparison of these metrics
+across different system sizes, demand levels, and periods of analysis. For example, 100
+MWh of USE in a small, isolated microgrid can be more impactful than 100 MWh of USE
+in a larger regional grid that serves millions of people. USE is normalized by dividing by
+total load:
+100 𝑀𝑀𝑀𝑀ℎ (𝑜𝑜𝑜𝑜 𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒)
+𝑥𝑥100 = 0.001 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝
+10,000,000 𝑀𝑀𝑀𝑀ℎ (𝑜𝑜𝑜𝑜 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 𝑖𝑖𝑖𝑖 𝑎𝑎 𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦)
+
+Although the use of NUSE is not standardized in the U.S. today, 7 several system operators
+domestically and across the world have begun using NUSE as a useful metric.
+•
+
+Duration of Outages – Loss of Load Hours (LOLH): Measures the expected duration
+of power outages when a system's load exceeds its available generation capacity. At the
+core, LOLH helps assess how frequently and for how long the power system is likely to
+experience insufficient supply, providing a picture of reliability in terms of time. LOLH is
+calculated as both a total and average value per year, in addition to the maximum
+percentage of load lost in any given hour per year.
+
+6. In the interest of technical accuracy, and separate from their contextualization in the main text, NUSE
+is more precisely a measure of volume that is expressed as a percentage. Similarly, 2.4 hours of LOLH
+represents the cumulative sum of distinct periods of load loss, not a singular, continuous duration.
+7. There is no common planning criterion for this metric in North America. NERC's Long-Term Reliability
+Assessment employs a normalized expected unserved energy (NEUE) metric to define target risk levels
+for each region. Grid operators, such as ISO-NE, have also considered NUSE in energy adequacy
+studies. For example, see ISO-NE, “Regional Energy Shortfall Threshold (REST): ISO’s Current Thinking
+Regarding Tail Selection,” April 2025, https://www.iso-ne.com/staticassets/documents/100022/a09_rest_april_2025.pdf.
+
+3
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Reliability Standard
+DOE’s methodology recognizes that the traditional 1-in-10 loss of load expectation (LOLE)
+criterion is insufficient for a complete assessment of resource adequacy and risk profile. This
+antiquated criterion is not calculated uniformly and fails to adequately account for crucial factors
+such as the duration and magnitude of potential outages. 8 To provide a comprehensive
+understanding of system reliability and, specifically, to complement current resource adequacy
+standards while informing the creation of new criteria, the methodology uses the following
+reliability standard:
+•
+
+Duration of Outages: No more than 2.4 hours of lost load in an individual year. 9 This
+translates into one day of lost load in ten years to meet the 1-in-10 criteria.
+
+•
+
+Magnitude of Outages: No more than an NUSE of 0.002%. 10 This means that the total
+amount of energy that cannot be supplied to customers is 0.002% of the total energy
+demanded in a given year.
+
+Achieving Reliability Standard
+•
+
+Perfect Capacity Surplus/Deficit: Defined as the amount of generation capacity (in MW)
+a region would need to achieve specified threshold conditions. Based on these thresholds,
+this standard helps answer the hypothetical question of how much more (or less) power
+plant capacity is needed for a power system to be considered “perfectly reliable” according
+to pre-defined standards. This methodology employs this perfect capacity metric to identify
+the amount of capacity needed to remedy potential shortfalls (or excesses) in generation.
+
+Key Results Summary
+This analysis developed three separate cases for 2030. The “Plant Closures” case assumes all
+announced retirements occur plus mature generation additions based on NERC’s Tier 1
+resources category, 11 which encompasses completed and under-construction power generation
+projects, as well as those with firm-signed and approved interconnection service or power
+purchase agreements. The “No Plant Closures” case assumes no retirements plus mature
+additions. A “Required Build” case further compares the impacts of retirements on perfect
+capacity additions needed to return 2030 to the current system level of reliability.
+8. While 1-in-10 analyses have evolved, industry experts have raised concerns about its effectiveness to
+address future system risks. Concerns include energy constraints that arise from intermittent resources,
+increasing battery storage, limited fuel supplies, and the shifting away of peak load periods from times of
+supply shortfalls.
+9. The "1-in-10 year" reliability standard for electricity grids means that, on average, there should be no
+more than one day (24 hours) of lost load over a ten-year period. This translates to a maximum of 2.4 hours
+of lost load per year.
+10. This analysis targets NUSE below 0.002% for each region because this is the target NERC uses to
+represent high risk in resource adequacy analyses. Estimates used in industry and analyzed recently range
+from 0.0001% to 0.003%.
+10. Mature generation additions are based on NERC’s 2024 LTRA Tier 1 resources, which assume that
+only projects considered very mature in the development pipeline will be built. For example, Tier 1 additions
+are those with signed interconnection agreements or power purchase agreements, or included in an
+integrated resource plan, indicating a high degree of certainty in their addition to the grid. Full details of the
+retirement and addition assumptions can be found in the methodology section of this report.
+
+4
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+DOE ran simulations using 12 different years of historical weather. Every hour was based on
+actual data for wind, solar, load, and thermal availability to stress test the grid under a range of
+realistic weather conditions. The benefit of this approach is that it allows for transparent review of
+how actual conditions manifest themselves in capacity shortfalls. For all scenarios, LOLH and
+NUSE are calculated and used to compare how they change based on generation growth,
+retirements, and potential weather conditions.
+•
+
+Current System: Supply of power (generation) and demand for power (load) consistent
+with 2024 NERC Long-Term Reliability Assessment (LTRA), including 2023 actual
+generation plus Tier 1 additions for 2024.
+
+•
+
+Plant Closures: This case assumes 104 GW of announced retirements based on NERC
+estimates including approximately 71 GW of coal and 25 GW of natural gas, which closely
+align with retirement numbers in EIA’s 2025 Annual Energy Outlook. In addition, this case
+assumes 100% of 2024 NERC LTRA Tier 1 additions totaling 209 GW are constructed by
+2030. This includes 20 GW of new natural gas, 31 GW of additional 4-hour batteries, 124
+GW of new solar and 32 GW of incremental wind. Details of the breakdown can be found
+in Appendix A.
+
+•
+
+No Plant Closures: This case adds all the Tier 1 NERC additions but assumes no
+retirements.
+
+•
+
+Required Build: To understand how much capacity may need to be added to reach
+reliability targets, the analysis adds hypothetical perfect capacity (which is idealized
+capacity that has no outages or profile) until a NUSE target of 0.002% is realized in each
+region. This scenario includes the same assumptions about retirements as our Plant
+Closures scenario described above.
+
+As shown in the figures and tables below, the model shows a significant decline in all reliability
+metrics between the current system scenario and the 2030 Plant Closures scenario. Most notably,
+there is a hundredfold increase in annual LOLH from 8.1 hours per year in the current case to 817
+hours per year in the 2030 Plant Closures. In the worst weather year assessed, the total lost load
+hours increase from 50 hours to 1,316 hours.
+
+5
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Figure 1. Mean Annual LOLH by Region (2030) – Plant Closures
+
+Figure 2. Mean Annual LOLH by Region (2030) – No Plant Closures
+
+6
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+Table 1. Summary Metrics Across Cases
+Reliability Metric
+
+2030 Projection
+Current
+System
+
+Plant
+Closures
+
+No Plant
+Closures
+
+Required
+Build
+
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+
+8.1
+
+817.7
+
+269.9
+
+13.3
+
+0.0005
+
+0.0465
+
+0.0164
+
+0.00048
+
+50
+
+1316
+
+658
+
+53
+
+0.0033
+
+0.1119
+
+0.0552
+
+0.002
+
+WORST WEATHER YEAR
+Annual Loss of Load Hours
+Normalized Unserved Load (%)
+
+Current System Analysis
+Analysis of the current system shows all regions except ERCOT have less than 2.4 hours of
+average loss of load per year and less than 0.002% NUSE. This indicates relative reliability for
+most regions based on the average indicators of risk used in this study. In the current system
+case, ERCOT would be expected to experience on average 3.8 LOLH annually going forward and
+a NUSE of 0.0032%. When looking at metrics in the worst weather years, regions meet or exceed
+additional criteria. All regions experienced less than 20% of lost load in any hour.
+However, PJM, ERCOT, 12 and SPP experienced significant loss of load events during 2021 and
+2022 winter storms Uri and Elliot which translated into more than 20 hours of lost load. This results
+in a concentration of lost load within certain years such that some regions exceeded 3-hours-peryear of lost load. It is worth noting that in the case of PJM and SPP, the current system model
+shortfalls occurred within subregions rather than for the entire ISO footprint.
+
+12. ERCOT has since winterized its generation fleet and did not suffer any outages during Winter Storm
+Elliot.
+
+7
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+2030 Model Results
+
+Figure 3. Mean Annual NUSE by Region (2030) -Plant Closures
+
+Key Findings – Plant Closures Case:
+•
+
+Systemwide Failures: All regions except ISO-NE and NYISO failed reliability thresholds.
+These two regions did not have additional AI/data center (AI/DC) load growth modeled.
+
+•
+
+Loss of Load Hours (LOLH): Ranged from 7 hours/year in CAISO to 430 hours/year in
+PJM.
+
+•
+
+Load Shortfall Severity: Max shortfall reached as high as 43% of hourly load in PJM;
+31% in CAISO.
+
+•
+
+Normalized Unserved Energy: Normalized values ranged from 0.0032% (non-CAISO
+West) to 0.1473% (PJM), far exceeding thresholds of 0.002%.
+
+•
+
+Extreme Events: Most regions experienced ≥3 hours of unserved load in at least one
+year. PJM had 1,052 hours in its worst year.
+
+•
+
+Spatial Takeaways: Subregions in PJM, MISO, and SERC met thresholds—indicating
+possible benefits from transmission—but SPP and CAISO failed in all subregions.
+
+Key Findings – No Plant Closures Case:
+•
+
+Improved System Performance: Most regions avoided loss of load events. PJM, SPP,
+and SERC still experienced shortfalls.
+
+•
+
+Regional Failures:
+
+8
+
+Report on Evaluating U.S. Grid Reliability and Security
+
+ο
+
+PJM: 214 hours/year average, 0.066% normalized unserved energy, 644 hours in
+worst year, max 36% of load lost.
+
+ο
+
+SPP: 48 hours/year average, 0.008% normalized unserved energy, max 19% load
+lost.
+
+ο
+
+ERCOT: 20 average hours, 0.028% normalized unserved energy, 101 max
+hours/year, peak shortfall of 27%.
+
+ο
+
+SERC-East: Generally adequate (avg. 1 hour/year, 0.0003% NUSE), but Elliot
+storm in 2022 caused 42 hours of shortfall.
+
+The overall takeaway is that avoiding announced retirements improves grid reliability, but
+shortfalls persist in PJM, SPP, ERCOT, and SERC, particularly in winter.
+
+Required Build
+This required build analysis quantifies "hypothetical capacity," defined as power that is 100%
+reliable and available that is needed to resolve the shortfalls. Known in industry as “perfect
+capacity,” this metric is utilized to avoid the complex decision of selecting specific generation
+technologies, as that is ultimately an optimization of reliability against cost considerations.
+Nevertheless, it serves as a valuable indicator, illustrating either the magnitude of a resource gap
+or the scale of large load that will be unable to interconnect. For the Required Build case, this
+hypothetical capacity was calculated by adding new generating resources to each region until a
+target of 0.002% of NUSE is reached.
+The table below shows the tuned perfect capacity results. For the current system, this analysis
+identifies an additional 2.4 MW of capacity to meet the NUSE target for PJM, which experiences
+shortfalls due to the winter storm Elliot historical weather year. By 2030, without considering any
+generation retirements, an additional 12.5 GW of generating capacity is needed across PJM,
+SPP, and SERC to reduce shortfalls.
+
+PJM
+
+2024-Current
+System (MW)
+
+2030-No Plant
+Closures (MW)
+
+2400
+
+10,500
+
+SERC-E
+
+500
+
+SPP-N
+
+1,500
+
+ERCOT
+
+1600
+
+10500
+
+Total
+
+4000
+
+23000
+
+Perfect Capacity/Additions
+
+Figure 4. Tuned Perfect Capacity (MW) By Region
+
+9
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+1 Modeling Methodology
+The methodology uses a zonal PLEXOS 13 model with hourly time-synchronous datasets for load,
+generation, and interregional transfer for the 23 U.S. subregions (referred to as TPRs in this
+study) 14 including ERCOT (see Figure 5 below). While ERCOT operates outside of FERC's
+general jurisdiction, 15 it provides a valuable case for understanding broader reliability and
+resource adequacy challenges in the U.S. electric grid, and FPA Section 202(c) allows DOE to
+issue emergency orders to ERCOT.
+We base this analysis on actual weather and power plant outage data from 2007 to 2023 using
+NERC’s ITCS 16 base dataset. DOE specifically decided to start this analysis with the ITCS dataset
+since it is a complete representation of the interconnected electrical system for the lower 48 and
+it has been thoroughly reviewed by industry experts in a public and transparent process. DOE
+has in turn made modifications to the dataset to fit the needs of this study. The contents of this
+section focus on those modifications which DOE implemented for purposes of this study.
+PLEXOS is an industry-trusted simulation tool used for energy optimization, resource adequacy,
+and production cost modeling. This study leverages PLEXOS’ ability to exercise an hourly
+production cost model to determine the balance between loads, generation, and imports for each
+region. Modeling was carried out using a deterministic approach that evaluates whether a power
+system has sufficient resources to meet projected demand under a pre-defined set of conditions
+which correspond to the past few years of real-world events. The model ultimately determines the
+amount of unmet load if generation resources and imports are not sufficient for meeting the load
+in each discrete time period.
+
+Figure 5. TPRs used in NERC ITCS
+13. Energy Exemplar, “PLEXOS,” https://www.energyexemplar.com/plexos.
+14. The TPRs match the regional subdivisions in the NERC ITCS study, itself based on FERC’s
+transmission planning regions.
+15. Transmission within ERCOT is intrastate commerce. 16 U.S.C. § 824(b)(1) (provisions applying to
+“the transmission of electric energy in interstate commerce”).
+16. NERC "Integrated Transmission and Capacity System (ITCS)," accessed June 25, 2025,
+https://www.nerc.com/pa/RAPA/Pages/ITCS.aspx.
+
+10
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+This methodology developed a current model and series of scenarios to explore how different
+assumptions impact resource adequacy. This sensitivity analysis includes assumptions regarding
+load growth, generation build-outs and retirements, and transfer capabilities. By comparing the
+results of the current model with the scenario results, we can assess how generation retirements
+and load growth affect future generation needs.
+The assessment uses data from 2007–2013 (synthetic weather data) and 2019–2023 (historical
+data). A brief summary of the methodological assumptions is provided here, with additional details
+available in the relevant appendixes.
+•
+
+Solar and Wind Availability – Created from historical output from EIA 930 data, with bias
+correction of any nonhistorical data to match regional capacity factors, as calibrated to EIA
+930 data. 17 Synthetic years used 2018 technology characteristics from NREL based on
+the Variable Energy Potential (reV) model, then mapped to synthetic weather year data.
+See Appendix A for more details.
+
+•
+
+Thermal Availability – Calculated according to NERC LTRA capacity data, adjusted for
+historical outages and derates, primarily with GADS data. GADS data does not capture
+historical outages caused by fuel supply interruptions. 18
+
+•
+
+Hydroelectric Availability – Historical outputs are processed by NERC to establish
+monthly power rating limits and energy budgets, but energy budgets are not enforced in
+alignment with how they were treated in the ITCS. The team evaluated performance under
+different energy budget restrictions, but did not find significant differences during peak
+hours, justifying NERC ITCS assumptions that hydroelectric resources could generally be
+dispatched to peak load conditions. Later work may benefit from exploring drought
+scenarios or combinations of weather and hydrological years, where energy budgets may
+be significantly decreased.
+
+•
+
+Outages and Derates – Data for the actual data period (2019–2023) are based on
+historical forced outage rates and deratings. Outage and deratings data for the synthetic
+period (2007–2013) are based on the historical relationships observed between
+temperature and outages (see Appendix G of the NERC ITCS Final Report for more
+information).
+
+•
+
+Load Projections and AI Growth – Load growth through 2030 is assumed to match
+NERC 2024 ITCS projections, scaling the 12 weather years to meet 2030 projections.
+Additional AI and data center load is then added according to reports from EPRI and S&P
+regarding potential futures.
+
+•
+
+Transfer Capabilities and Imports/Exports - Each subregion is treated as a “copper
+plate,” with the transfer capacity between each subregion defined by the availability of
+transmission pathways. It is an approximation that assumes all resources are connected
+to a single point, simplifying the transmission system within the model. Subregions are
+generally assumed to exhaust their own capacity before utilizing capacity available from
+their neighbors. Once the net remaining capacity is at or below 10 percent of load, the
+subregion begins to use capacity from a neighbor.
+
+17. See ITCS Final Report, Appendix F, for the method that was implemented to scale synthetic weather
+years 2007–2013.
+18. See ITCS Final Report, Appendix G, for outage and derate methods.
+
+11
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+o
+
+Imports are assumed to be available up to the minimum total transfer capacity and
+spare generation in the neighboring subregion.
+
+o
+
+To the extent the remaining capacity after transmission and demand response falls
+below the 6 percent or 3 percent needed for error forecasting and ancillary
+services, depending on the scenario, the model projects an energy shortfall. See
+“Outputs” in the appendix for more details.
+
+o
+
+To ensure that transfers are dispatched only after local resources are exhausted,
+a wheeling charge of $1,000 is applied for every megawatt-hour of energy
+transferred between regions through transmission pathways.
+
+•
+
+Storage – In alignment with the NERC ITCS methodology, storage was split into pumped
+hydro and battery storage. Pumped hydro was assumed to have 12 hours duration at rated
+capacity with 30% round-trip losses, while battery storage was assumed to have four
+hours and 13% round-trip losses. Storage is dispatched as an optimization to minimize
+USE and demand response usage under various constraints and is recharged during
+periods of surplus energy.
+
+•
+
+Demand Response – Demand Response (DR) is treated as a supply-side resource and
+dynamically scheduled after all other regional resources and imports are exhausted. It is
+modeled with both capacity (MW) and energy (MWh) limitations and assumed to have
+three hours of availability at capacity but could be spread across more than three hours
+up to the energy limit. DR capacity was based on LTRA Form A data submissions for
+“Controllable and Dispatchable Demand Response – Available”, or firm, controllable DR
+capacity.
+
+•
+
+Retirements – Retirements as per the NERC LTRA 2024 model. To disaggregate
+generation capacity from the NERC assessment areas to the ITCS regions, EIA 860 plant
+level data are used to tabulate generation retirement or addition capacity for each ITCS
+region and NERC assessment area. Disaggregation fractions are then calculated by
+technology based on planned retirements through 2030. See Appendix B for further
+information. Retirements are categorized into two categories:
+1. Announced Retirements: Includes both confirmed retirements and announced
+retirements. Confirmed retirements are generators formally recognized by system
+operators as having started the official retirement process and are assumed to retire
+on their expected date. To go from LTRA regions to ITCS regions, weighting factors
+are derived in the same way as in the generation set, based on EIA retirement data.
+In addition to confirmed retirements, announced retirements are generators that have
+publicly stated retirement plans that have not formally notified system operators and
+initiated the retirement process. This disaggregation method for announced
+retirements mirrors used for confirmed retirements. 19
+2. None: Removes all retirements (after 2024) for comparison. Delaying or canceling
+some near-term retirements may not be feasible, but this case can help determine how
+much retirement contributes to some of the adequacy challenges in some regions.
+
+•
+
+Additions – Assumes only projects that are very mature in the pipeline (such as those
+with a signed interconnection agreement) will be built. This data is based on projects
+
+19. If announced retirements were less than or equal to confirmed retirements, the model adjusted the
+announced retirement to equal confirmed.
+
+12
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+designated as Tier 1 in the NERC 2024 LTRA and are mapped to ITCS regions with EIA
+860-derived weighting factors similar to those described for the retirements above. See
+Appendix A for further information.
+•
+
+1.1
+
+Perfect Capacity Required - Estimates perfect capacity (which is idealized capacity that
+has no outages or profile and is described in Section 2) until we reach a pre-defined
+reliability target. We used a metric of NUSE given the deterministic nature of the model,
+to be consistent with evolving metrics, and to be consistent with NERC’s recent LTRAs.
+We targeted NUSE of below 0.002% for each region.
+
+Modeling Resource Adequacy
+
+This model calculates several reliability metrics to assess resource adequacy. These metrics were
+calculated using PLEXOS simulation outputs, which report the USE (in MWh) for all 8,760 hourly
+periods in each of the 12 weather years:
+•
+
+•
+
+USE refers to the amount of electricity demand that could not be met due to insufficient
+generation and/or transmission capacity. Several USE-derived indicators were
+considered:
+o
+
+Normalized USE (percentage %): The total amount of unserved load over 12 years
+of weather data, normalized by dividing by total load, and reported as a
+percentage. 20
+
+o
+
+Mean Annual USE (GWh): The 12-year average of each region’s total USE in each
+weather year. This mean value represents the average annual USE across
+weather variability.
+
+o
+
+Mean Max Unserved Power (GW): The 12-year average of each region’s
+maximum USE value in each weather year. This mean value characterizes the
+typical non-coincident peak stress on system reliability.
+
+o
+
+% Max Unserved Power: The Mean Max Unserved Power expressed as a
+percentage of the average native load during those peak unserved hours for each
+region. This percentage value provides a normalized measure of the severity of
+peak unserved events relative to demand.
+
+o
+
+Total number of customers without power. The Mean Max Unserved Power
+expressed as the equivalent number of typical U.S. persons assuming a ratio of
+17,625 persons/MW lost. This estimation contextualizes the effects of the outage
+on average Americans.
+
+Loss of Load Hours (LOLH) refers to the number of hours during which the system
+experiences USE (i.e., any hour with non-zero USE). Two LOLH-based indicators were
+considered:
+
+20. NUSE can be reported as parts per million or as a percentage (or parts per hundred); though for
+power system reliability, this would include several zeros after the decimal point.
+
+13
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+o
+
+Mean Annual LOLH: for each weather year and TPR, we count the total number
+of hours with USE across all 8,760 hours, and we then take the average of those
+12 totals. Annual LOLH Distribution is represented in box and whisker plots for 12
+samples, each sample corresponding to a unique weather year.
+
+o
+
+Max Consecutive LOLH (hours) 21: The longest continuous period with reported
+USE in each weather year.
+
+It should be noted that USE is not an indication that reliability coordinators would allow this level
+of load growth to jeopardize the reliability of the system. Rather, it represents the unrealizable AI
+and data center load growth under the given assumptions for generator build outs by 2030,
+generator retirements by 2030, reserve requirements, and potential load growth. These numbers
+are used as indicators to determine where it may be beneficial to encourage increased generation
+and transmission capacity to meet an expected need.
+This study does not employ common probabilistic industry metrics such as EUE or LOLE due to
+their reliance on probabilistic modeling. Instead, deterministic equivalents are used.
+
+Figure 6. Simplified Overview of Model
+
+21. One caveat on the maximum consecutive LOLH and max USE values is in how storage is dispatched
+in the model. Storage is dispatched to minimize the overall USE and is indifferent to the peak depth or the
+duration of the event. This may construe some of the max USE and max consecutive LOLH values to be
+higher than if storage was dispatched to minimize these values.
+
+14
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+1.2
+
+Planning Years and Weather Years
+
+For the planning year (2030), historical weather year data are applied based on conditions
+between 2007 and 2024 to calculate load, wind and solar generation, and hydro generation.
+Dispatchable capacity (including dispatchable hydro capacity) is calculated through adjustment
+of the 2024 LTRA capacity data for historical outages from GADS data. Storage assets are
+scheduled to arbitrage hourly energy margins or else charge during periods of high energy
+margins (surplus resources) and discharge during periods of lower energy margins.
+
+1.3
+
+Load Modeling
+
+Data Center Growth
+Several utilities and financial and industry analysts identify data centers, particularly those
+supporting AI workloads, as a key driver of electricity demand growth. Multiple organizations have
+developed a wide range of projections for U.S. data center electricity use through 2030 and
+beyond, each using distinct methodologies tailored to their institutional expertise.
+These datasets were used to explore reasonable boundaries for what different parts of the
+economy envision for the future state of AI and data center (AI/DC) load growth. For the purposes
+of this study, rather than focusing on any specific analysis, a more generic sweep was performed
+across AI/DC load growth and the various sensitivities that fit within those assumptions, as
+summarized below:
+•
+
+McKinsey & Company projects ~10% annual growth in U.S. data center electricity
+demand, reaching 2,445 TWh by 2050. Their model blends internal scenarios with public
+signals, including announced projects, capital investment, server shipments, and chiplevel power trends, supported by third-party market data.
+
+•
+
+Lawrence Berkeley National Laboratory (LBNL) uses a bottom-up approach based on
+historical and projected IT equipment shipments, paired with assumptions on power draw,
+utilization, and infrastructure efficiency (PUE, WUE). Their projections through 2028
+account for AI hardware adoption, operational shifts, and evolving cooling technologies.
+
+•
+
+EPRI combines public data, expert input, and historical trends to define four national
+growth scenarios, low to higher, for 2023–2030, reflecting data processing demand,
+efficiency improvements, and AI-driven load impacts.
+
+•
+
+S&P Global merges technology and power-sector models, evaluating grid readiness and
+facility growth under varying demand scenarios. Their forecasts consider AI adoption,
+efficiency trends, grid and permitting constraints, on-site generation, and offshoring risk,
+resulting in a wide range of outcomes.
+
+15
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+These projections show wide variation, with 2030 electricity demand ranging from approximately
+35 GW to 108 GW of average load. Given this uncertainty, including differences in hardware
+intensity, thermal management, siting assumptions, and behind-the-meter generation, the
+modeling team adopted a national midpoint assumption of approximately 50 GW by 2030.
+50 GW National Midpoint
+
+120
+
+109
+
+100
+
+Load Additions
+(GW)
+
+80
+60
+40
+
+51
+33
+
+35
+
+LBNL
+Low
+
+EPRI
+Low
+
+50
+
+52
+
+EPRI
+High
+
+DOE
+Model
+
+66
+
+68
+
+EPRI
+Higher
+
+LBNL
+High
+
+38
+
+20
+0
+
+EPRI McKinsey
+Medium
+
+S&P
+
+Figure 7. 2024 to 2030 Projected Data Center Load Additions
+
+Figure 2 above displays a benchmark reflecting the median across major studies and aligns with
+central projections from EPRI and LBNL. Using a single planning midpoint avoids double counting
+and enables consistent load allocation across national transmission and resource adequacy
+models.
+
+16
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Data Center Allocation Method
+To allocate the 50 GW midpoint regionally, the team used state-level growth ratios from S&P’s
+forecast. These ratios reflect factors such as infrastructure, siting trends, and projected market
+activity. The modeling team mapped the state-level projections to NERC TPRs, ensuring
+transparent and repeatable regional allocation. While other methods exist, this approach ensured
+consistency with the broader modeling framework.
+45%
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+EPRI Low
+
+EPRI Medium
+
+EPRI High
+
+EPRI Higher
+
+McKinsey
+
+S&P
+
+DOE Model
+
+Figure 8. New Data Center Build (% Split by ISO/RTO) (2030 Estimated)
+
+Non-Data Center Load Modeling
+The current electricity demand projections were built from NERC data, using historical load
+(2019–2023) and simulated weather years (2007–2013). These were adjusted based on the EIA’s
+2022 energy forecast. To estimate 2030 demand, the team interpolated between 2024 and 2033,
+scaling loads to reflect energy use and seasonal peaks. NERC provided datasets to address
+anomalies and include behind-the-meter and USE.
+Given the rapid emergence of AI/DC loads, additional steps were taken to account for this
+category of demand. It is difficult to determine how much AI/DC load is already embedded in
+NERC LTRA forecast, for example, the 2024 LTRA saw more than 50GW increase from 2023,
+signaling a major shift in utility expectations. To benchmark existing AI/DC contribution, DOE
+assumed base 2023 AI/DC load equaled the EPRI low-growth case of 166 TWh.
+
+17
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Overall Impact on Projected Peak Load
+As a result of the methods applied above, the average year co-incident peak load is projected to
+grow from a current average peak of 774 GW to 889 GW in 2030. This represents a 15% increase
+or 2.3% growth rate per year. Excluding the impact of data centers, this would amount to a 51GW
+increase from 774 GW to 826 GW which represents a 1.1% annual growth rate.
+
+Figure 9. Mean Peak Load by RTO (Current Case vs 2030 Case)
+
+1.4
+
+Transfer Capabilities and Import Export Modeling
+
+The methodology assumes electricity moves between subregions, when conditions start to
+tighten. Each region has a certain amount of capacity available, and the methodology determines
+if there is enough to meet the demand. When regions reach a “Tight Margin Level” of 10% of
+capacity, i.e., if a region’s available capacity is less than 110% of load, it will start transferring
+from other regions if capacity is available. A scarcity factor is used to determine which regions to
+transfer from and at what fraction – those with a greater amount of reserve capacity will transfer
+more. A region is only allowed to export above when it is above the Tight Margin Level.
+Total Transfer Capability (TTC) was used and is the sum of the Base Transfer Level and the First
+Contingency Incremental Transfer Capability. These were derived from scheduled interchange
+tables or approximated from actual line flows. It should be noted that the TTC does not represent
+a single line, but rather multiple connections between regions. It is similar to path limits used by
+many entities but may have different values.
+Due to data and privacy limitations, the Canadian power system was not modeled directly as a
+combination of generation capacity and demand. Instead, actual hourly imports were used from
+nearly 20 years of historical data, along with recent trends (generally less transfers available
+during peak hours), to develop daily limits on transfer capabilities. See Appendix B for more details
+on Canadian transfer limits.
+
+18
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+1.5
+
+Perfect Capacity Additions
+
+To understand how much capacity may need to be added to reach approximate reliability targets,
+we tuned two scenarios by adding hypothetical perfect capacity to reach the reliability threshold
+based on NUSE. 22 Today, NERC uses a threshold of 0.002% to indicate regions are at high risk
+of resource adequacy shortfalls. In addition, several system operators, including the Australia
+Energy Market Operator and Alberta Electric System Operator, are using NUSE thresholds in the
+range of 0.001% to 0.003%. Several U.S. entities are considering lower thresholds for U.S. power
+systems in the range of 0.0001% to 0.0002%. 23
+For this analysis, we target NUSE below 0.002% for each region to align with NERC definitions.
+We iteratively ran the model, hand-tuning the “perfect capacity” to be as small as possible while
+reaching NUSE values below 0.002% in all regions. 24 As the work was done by hand with a limited
+number of iterations (15), this should not be considered the minimum possible capacity to
+accomplish these targets. Further, because the perfect capacity can be located in various places,
+there would be multiple potential solutions to the problem. These scenarios represent the
+approximate quantity of perfect capacity each region would require (beyond announced
+retirements and mature generation additions only) that would lead to Medium or Low risk based
+on the NERC metrics for USE.
+Due to some regions with zero USE, the tuned cases do not reach the same level of adequacy,
+where the national average is 0.00045% vs. 0.00013%. Due to transmission and siting selection
+of perfect capacity, there could be many solutions.
+
+22. We are not using the standard term “expected unserved energy” because we are not running a
+probabilistic model, so we do not have the full understanding of long-term expectations
+23. MISO, “Resource Adequacy Metrics and Criteria Roadmap,” December 2024.
+https://cdn.misoenergy.org/Resource%20Adequacy%20Metrics%20and%20Criteria%20Roadmap667168
+.pdf.
+24. NERC, “Evolving Criteria for a Sustainable Power Grid,” July 2024.
+https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/Evolving_Planning_Criteria_for_a_
+Sustainable_Power_Grid.pdf.
+
+19
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2 Regional Analysis
+This section presents more regional details on resource adequacy according to this analysis. For
+each of the nine Regional Transmission Organizations (RTOs) and sub-regions, comprehensive
+summaries are provided of reliability metrics, load assumptions, and composition of generation
+stacks.
+
+2.1
+
+MISO25
+
+In the current system model and the No Plant Closures cases,
+MISO did not experience shortfall events. MISO’s minimum
+spare capacity in the tightest year was negative, showing that
+adequacy was achieved by importing power from neighbors. In
+the Plant Closures case, MISO experienced significant
+shortfalls, with key reliability metrics exceeding each of the
+threshold criteria defined for the study.
+
+Table 2. Summary of MISO Reliability Metrics
+Reliability Metric
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+
+Current
+System
+
+Plant Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+-
+
+37.8
+0.0211
+157,599
+
+-
+
+-
+
+-
+
+124
+0.0702
+524,180
+
+-
+
+-
+
+Load Assumptions
+MISO’s peak load was roughly 130 GW in the current model and projected to increase to roughly
+140 GW by 2030. Approximately 6 GW of this relates to new data centers being installed (12% of
+U.S. total).
+
+25. Following the initial data collection for this report, MISO issued its 2025 Summer Reliability
+Assessment. Based on that report, NERC revised evaluations from its 2024 LTRA and reclassified the
+MISO footprint from being an ‘elevated risk’ to ‘high risk’ in the 2028–2031 timeframe, depending on new
+resource additions/retirements. While DOE’s analysis is based on the previously reported figures, DOE is
+committed to assessing the implications of updated data on overall resource adequacy and providing
+technical updates on findings, as appropriate.
+
+20
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Subregion
+
+2024
+
+2030
+
+MISO-W
+
+37,913
+
+40,981
+
+MISO-C
+
+35,387
+
+39,243
+
+MISO-S
+
+36,476
+
+38,596
+
+MISO-E
+
+23,167
+
+23,758
+
+Total
+
+130,136
+
+139,846
+
+Figure 10. MISO Max Daily Load in the Current System versus 2030
+
+Generation Stack
+Total installed generating capacity for 2024 was approximately 207 GW. 26 In 2030, 21 GW of new
+capacity was added leading to 228 GW of capacity in the No Plant Closures case. In the Plant
+Closures case, 32 GW of capacity was retired such that net retirements in the Plant Closures
+case were -11 GW, or 196 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030 No
+Plant
+Closures
+
+MISO-W
+
+71,612
+
+67,453
+
+77,605
+
+MISO-C
+
+51,982
+
+47,735
+
+58,823
+
+MISO-S
+
+54,511
+
+52,756
+
+59,710
+
+MISO-E
+
+29,213
+
+28,105
+
+32,255
+
+Total
+
+207,319
+
+196,049
+
+228,393
+
+Figure 11. MISO Generation Capacity by Technology and Scenario
+
+MISO’s generation mix was comprised primarily of natural gas, coal, wind, and solar. In 2024,
+natural gas comprised 31% of nameplate, wind comprised 20%, coal 18%, and solar 14%. In
+2030, most retirements come from coal and natural gas while additions occur for solar, batteries,
+and wind. In addition, the model assumed 3 GW of rooftop solar and 8 GW of demand response.
+
+26. The total installed capacity numbers reported in this regional analysis section do not reflect the
+generating capability of all resources during stress conditions.
+
+21
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table 3. Nameplate Capacity by MISO Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+37,914
+
+64,194
+
+11,127
+
+2,867
+
+8,717
+
+5,427
+
+2,533
+
+32,826
+
+41,715
+
+207,319
+
+MISO-W
+
+12,651
+
+13,608
+
+2,753
+
+1,491
+
+2,613
+
+200
+
+777
+
+8,109
+
+29,411
+
+71,612
+
+MISO-C
+
+15,050
+
+10,307
+
+2,169
+
+494
+
+2,211
+
+1,272
+
+769
+
+12,361
+
+7,350
+
+51,982
+
+MISO-S
+
+5,493
+
+31,052
+
+5,100
+
+589
+
+2,469
+
+54
+
+845
+
+8,315
+
+596
+
+54,511
+
+MISO-E
+
+4,720
+
+9,227
+
+1,105
+
+292
+
+1,424
+
+3,901
+
+143
+
+4,042
+
+4,359
+
+29,213
+
+Additions
+
+0
+
+2,535
+
+0
+
+330
+
+0
+
+1,929
+
+0
+
+14,354
+
+1,926
+
+21,074
+
+MISO-W
+
+0
+
+537
+
+0
+
+172
+
+0
+
+374
+
+0
+
+3,552
+
+1,358
+
+5,993
+
+MISO-C
+
+0
+
+407
+
+0
+
+57
+
+0
+
+934
+
+0
+
+5,103
+
+339
+
+6,841
+
+MISO-S
+
+0
+
+1,226
+
+0
+
+68
+
+0
+
+9
+
+0
+
+3,868
+
+27
+
+5,199
+
+MISO-E
+
+0
+
+364
+
+0
+
+34
+
+0
+
+611
+
+0
+
+1,831
+
+201
+
+3,042
+
+(24,913)
+
+(6,597)
+
+0
+
+(324)
+
+(140)
+
+(16)
+
+(83)
+
+0
+
+(272)
+
+(32,345)
+
+MISO-W
+
+(8,313)
+
+(1,398)
+
+0
+
+(168)
+
+(56)
+
+0
+
+(25)
+
+0
+
+(192)
+
+(10,152)
+
+MISO-C
+
+(9,889)
+
+(1,059)
+
+0
+
+(56)
+
+(7)
+
+(3)
+
+(25)
+
+0
+
+(48)
+
+(11,088)
+
+MISO-S
+
+(3,609)
+
+(3,191)
+
+0
+
+(67)
+
+(55)
+
+(0)
+
+(28)
+
+0
+
+(4)
+
+(6,954)
+
+MISO-E
+
+(3,102)
+
+(948)
+
+0
+
+(33)
+
+(21)
+
+(13)
+
+(5)
+
+0
+
+(28)
+
+(4,150)
+
+2024
+
+Closures
+
+22
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.2
+
+ISO-NE
+
+In the current system model and the No Plant
+Closures case, ISO-NE did not experience
+shortfall events. The region maintained
+adequacy throughout the study period through
+reliance on imports. In the Plant Closures case,
+ISO-NE still did not exceed any key reliability
+thresholds, despite moderate retirements. This
+finding is partly due to the absence of additional
+AI or data center load growth modeled in the
+region. Accordingly, no additional perfect
+capacity was deemed necessary by 2030 to
+meet the study’s reliability standards.
+Table 4. Summary of ISO-NE Reliability Metrics
+Reliability Metric
+
+Current
+System
+
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+2030 Projection
+No Plant
+Closures
+
+Plant
+Closures
+
+Required
+Build
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Load Assumptions
+ISO-NE’s peak load was roughly 28 GW in the current model and projected to increase to roughly
+31 GW by 2030. No additional AI/DCs were projected to be installed.
+
+Subregion
+
+2024
+
+2030
+
+ISO-NE
+
+28,128
+
+31,261
+
+Total
+
+28,128
+
+31,261
+
+Figure 12. ISO-NE Max Daily Load in the Current System versus 2030
+
+23
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Generation Stack
+Total installed generating capacity for 2024 was approximately 40 GW. In 2030, 5.5 GW of new
+capacity was added leading to 45.5 GW of capacity in the No Plant Closures case. In the Plant
+Closures case, 2.7 GW of capacity was retired such that net generation change in the Plant
+Closures case was +11 GW, or 42.8 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+ISO-NE
+
+39,979
+
+42,845
+
+45,534
+
+Total
+
+39,979
+
+42,845
+
+45,534
+
+Figure 13. ISO-NE Generation Capacity by Technology and Scenario
+
+ISO-NE’s generation mix was comprised primarily of natural gas, solar, oil, and nuclear. In 2024,
+natural gas comprised 39% of nameplate, solar comprised 17%, oil 14%, and nuclear 8%. In
+2030, most retirements come from coal and natural gas while additions occur for solar, storage,
+and wind. The model assumed nearly 2 GW of rooftop solar and 1.6 GW of energy storage.
+Table 5. Nameplate Capacity by ISO-NE Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+541
+
+15,494
+
+3,331
+
+5,710
+
+1,712
+
+1,628
+
+1,911
+
+7,099
+
+2,553
+
+39,979
+
+ISONE
+
+541
+
+15,494
+
+3,331
+
+5,710
+
+1,712
+
+1,628
+
+1,911
+
+7,099
+
+2,553
+
+39,979
+
+Additions
+
+0
+
+90
+
+0
+
+181
+
+0
+
+1,607
+
+0
+
+2,183
+
+1,495
+
+5,555
+
+2024
+
+ISONE
+Closures
+ISONE
+
+0
+
+90
+
+0
+
+181
+
+0
+
+1,607
+
+0
+
+2,183
+
+1,495
+
+5,555
+
+(534)
+
+(1,875)
+
+0
+
+(203)
+
+(77)
+
+0
+
+0
+
+0
+
+0
+
+(2,690)
+
+(534)
+
+(1,875)
+
+0
+
+(203)
+
+(77)
+
+0
+
+0
+
+0
+
+0
+
+(2,690)
+
+24
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.3
+
+NYISO
+
+In both the current system model and the No
+Plant Closures case, NYISO maintained
+reliability and did not exceed any shortfall
+thresholds. Adequacy was preserved through
+reliance on imports. In the Plant Closures case,
+NYISO experienced shortfalls but average
+annual LOLH remaining well below the 2.4-hour
+threshold and NUSE under the 0.002%
+standard. The worst weather year produced only
+6 hours of lost load and a peak unserved load of
+914 MW. Given the modest impact of
+retirements and no additional AI/data center
+load modeled, the study concluded that NYISO
+would not require additional perfect capacity to
+remain reliable through 2030.
+Table 6. Summary of NYISO Reliability Metrics
+Reliability Metric
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Current
+System
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+0.2
+0.00001
+18
+
+0.5
+0.0001
+209
+
+-
+
+-
+
+2
+0.0001
+216
+194
+
+6
+0.0013
+2,505
+914
+
+-
+
+-
+
+Load Assumptions
+NYISO’s peak load was roughly 36 GW in the current system model and projected to increase to
+roughly 38 GW by 2030. No additional AI/DCs were projected to be installed.
+
+Subregion
+
+2024
+
+2030
+
+NYISO
+
+35,669
+
+37,844
+
+Total
+
+35,669
+
+37,844
+
+Figure 14. NYISO Max Daily Load in the Current System versus 2030
+
+25
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Generation Stack
+Total installed generating capacity for 2024 was approximately 46 GW. In 2030, 5.5 GW of new
+capacity was added leading to 51 GW of capacity in the No Plant Closures case. In the Plant
+Closures case, 1 GW of capacity was retired such that net generation in the Plant Closures case
+was +4 GW, or 50 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+NYISO
+
+45,924
+
+50,396
+
+51,444
+
+Total
+
+45,924
+
+50,396
+
+51,444
+
+Figure 15. NYISO Generation Capacity by Technology and Scenario
+
+NYISO’s generation mix was comprised primarily of natural gas, solar, and hydro. In 2024, natural
+gas comprised 50% of total nameplate generation, solar comprised 14%, and hydro 11%. In 2030,
+most retirements come from natural gas while additions occur for solar and wind. The model
+assumed 6 GW of rooftop solar and nearly 1 GW of demand response.
+Table 7. Nameplate Capacity by NYISO Subregion and Technology (MW)
+2024
+NYISO
+Additions
+NYISO
+Closures
+NYISO
+
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+0
+
+22,937
+
+3,330
+
+2,631
+
+1,194
+
+1,460
+
+4,915
+
+6,749
+
+2,706
+
+45,924
+
+0
+
+22,937
+
+3,330
+
+2,631
+
+1,194
+
+1,460
+
+4,915
+
+6,749
+
+2,706
+
+45,924
+
+0
+
+0
+
+0
+
+15
+
+0
+
+0
+
+0
+
+3,604
+
+1,902
+
+5,521
+
+0
+
+0
+
+0
+
+15
+
+0
+
+0
+
+0
+
+3,604
+
+1,902
+
+5,521
+
+0
+
+(1,030)
+
+0
+
+(19)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(1,049)
+
+0
+
+(1,030)
+
+0
+
+(19)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(1,049)
+
+26
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.4
+
+PJM
+
+In the current system model, PJM
+experienced shortfalls, but they were
+below the required threshold. In the
+No Plant Closures case, shortfalls
+increased dramatically, with 214
+average annual LOLH and peak
+unserved load reaching 17,620 MW,
+indicating growing strain even
+without retirements. In the Plant
+Closures case, reliability metrics
+worsened significantly, with annual
+LOLH surging to over 430 hours per
+year and NUSE reaching 0.1473%—
+over 70 times the accepted threshold. During the worst weather year, 1,052 hours of load were
+shed. To restore reliability, the study found that PJM would require 10,500 MW of additional
+perfect capacity by 2030.
+Table 8. Summary of PJM Reliability Metrics
+Reliability Metric
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Current
+System
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+2.4
+0.0008
+6,891
+
+430.3
+0.1473
+1,453,513
+
+213.7
+0.0657
+647,893
+
+1.4
+0.0003
+2,536
+
+29
+0.0100
+82,687
+4,975
+
+1,052
+0.4580
+1,453,513
+21,335
+
+644
+0.2703
+647,893
+17,620
+
+17
+0.0031
+2,536
+4,162
+
+27
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Load Assumptions
+PJM’s peak load was roughly 162 GW in the current system model and projected to increase to
+roughly 187 GW by 2030. Approximately 15 GW of this relates to new AI/DC being installed (29%
+of U.S. total), primarily in PJM-S.
+
+Subregion
+
+2024
+
+2030
+
+PJM-W
+
+81,541
+
+92,378
+
+PJM-S
+
+39,904
+
+51,151
+
+PJM-E
+
+41,003
+
+43,118
+
+Total
+
+162,269
+
+186,627
+
+Figure 16. PJM Max Daily Load in the Current System versus 2030
+
+Generation Stack
+Total installed generating capacity for 2024 was approximately 215 GW. In 2030, 39 GW of new
+capacity was added leading to 254 GW of capacity in the No Plant Closures case. In the Plant
+Closures case, 17 GW of capacity was retired such that net generation in the Plant Closures case
+was +22 GW, or 237 GW of overall nameplate capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+PJM-W
+
+114,467
+
+123,100
+
+135,810
+
+PJM-S
+
+39,951
+
+48,850
+
+50,667
+
+PJM-E
+
+60,221
+
+64,848
+
+67,027
+
+Total
+
+214,638
+
+236,798
+
+253,504
+
+Figure 17. PJM Generation Capacity by Technology and Scenario
+
+PJM’s generation mix was comprised primarily of natural gas, coal, and nuclear. In 2024, natural
+gas comprised 39% of nameplate, coal comprised 19%, and nuclear 15%. In 2030, most
+retirements come from coal and some natural gas and oil while significant additions occur for
+solar plus lesser additions of wind, storage, and natural gas. The model assumed 9 GW of rooftop
+solar and 7 GW of demand response.
+
+28
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table 9. Nameplate Capacity by PJM Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+39,915
+
+84,381
+
+32,535
+
+9,875
+
+8,248
+
+5,400
+
+3,071
+
+19,495
+
+11,718
+
+214,638
+
+PJM-W
+
+34,917
+
+39,056
+
+16,557
+
+1,933
+
+3,926
+
+383
+
+1,252
+
+6,379
+
+10,065
+
+114,467
+
+PJM-S
+
+2,391
+
+15,038
+
+5,288
+
+3,985
+
+2,303
+
+3,085
+
+1,070
+
+6,430
+
+360
+
+39,951
+
+PJM-E
+
+2,608
+
+30,287
+
+10,690
+
+3,956
+
+2,019
+
+1,932
+
+749
+
+6,686
+
+1,294
+
+60,221
+
+0
+
+4,499
+
+0
+
+32
+
+317
+
+1,938
+
+0
+
+24,991
+
+7,089
+
+38,866
+
+PJM-W
+
+0
+
+2,082
+
+0
+
+6
+
+135
+
+855
+
+0
+
+12,176
+
+6,089
+
+21,343
+
+PJM-S
+
+0
+
+802
+
+0
+
+13
+
+102
+
+726
+
+0
+
+8,856
+
+218
+
+10,717
+
+2024
+
+Additions
+
+0
+
+1,615
+
+0
+
+13
+
+81
+
+357
+
+0
+
+3,958
+
+783
+
+6,806
+
+(13,253)
+
+(1,652)
+
+0
+
+(1,790)
+
+(11)
+
+0
+
+0
+
+0
+
+0
+
+(16,706)
+
+PJM-W
+
+(11,593)
+
+(765)
+
+0
+
+(350)
+
+(1)
+
+0
+
+0
+
+0
+
+0
+
+(12,710)
+
+PJM-S
+
+(794)
+
+(294)
+
+0
+
+(722)
+
+(6)
+
+0
+
+0
+
+0
+
+0
+
+(1,817)
+
+PJM-E
+
+(866)
+
+(593)
+
+0
+
+(717)
+
+(3)
+
+0
+
+0
+
+0
+
+0
+
+(2,179)
+
+PJM-E
+Closures
+
+29
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.5
+
+SERC
+
+In the current system model and the No Plant
+Closures case, SERC maintained overall
+adequacy,
+though some
+subregions—
+particularly
+SERC-East—faced emerging
+winter reliability risks. In the Plant Closures
+case, shortfalls became more severe, with
+SERC-East experiencing increased unserved
+energy and loss of load hours during extreme
+cold events, including 42 hours of outages in a
+single winter storm. The analysis identified that
+planned retirements, combined with rising
+winter load from electrification, would stress
+the system. To restore reliability in SERC-East, the study found that 500 MW of additional perfect
+capacity would be needed by 2030. Other SERC subregions performed adequately, but continued
+monitoring is warranted due to shifting seasonal peaks and fuel supply vulnerabilities.
+Table 10. Summary of SERC Reliability Metrics
+Reliability Metric
+
+Current
+System
+
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+0.3
+0.0001
+489
+
+8.1
+0.0041
+44,514
+
+1.2
+0.0004
+3,748
+
+0.8
+0.0002
+2,373
+
+4
+0.0006
+5,683
+2,373
+
+42
+0.0428
+465,392
+19,381
+
+14
+0.0042
+44,977
+6,359
+
+10
+0.0026
+2,373
+5,859
+
+Load Assumptions
+SERC’s peak load was roughly 193 GW in the current system model and projected to increase to
+roughly 209 GW by 2030. Approximately 7.5 GW of this relates to new AI/DCs being installed
+(14% of U.S. total).
+
+Subregion
+
+2024
+
+2030
+
+SERC-C
+
+50,787
+
+52,153
+
+SERC-SE
+
+48,235
+
+54,174
+
+SERC-FL
+
+58,882
+
+62,572
+
+SERC-E
+
+51,693
+
+56,313
+
+Total
+
+193,654
+
+209,269
+
+Figure 18. SERC Max Daily Load in the Current System versus 2030
+
+30
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Generation Stack
+Total installed generating capacity for 2024 was approximately 254 GW. In 2030, 26 GW of new
+capacity was added leading to 279 GW of capacity in the No Plant Closures case. In the Plant
+Closures case, 19 GW of capacity was retired such that net generation change in the Plant
+Closures case was +7 GW, or 260 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+SERC-C
+
+53,978
+
+54,014
+
+59,660
+
+SERC-SE
+
+67,073
+
+64,768
+
+69,478
+
+SERC-FL
+
+72,714
+
+83,127
+
+86,173
+
+SERC-E
+
+59,914
+
+58,513
+
+63,973
+
+Total
+
+253,680
+
+260,423
+
+279,285
+
+Figure 19. SERC Generation Capacity by Technology and Scenario
+
+SERC’s generation mix was comprised primarily of natural gas, coal, nuclear, and solar. In 2024,
+natural gas comprised 45% of nameplate, coal comprised 18%, nuclear 12%, and solar 11%. In
+2030, most retirements come from coal and natural gas while additions occur for solar and some
+storage. The model assumed 3 GW of rooftop solar and 8 GW of demand response.
+Table 11. Nameplate Capacity by SERC Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+45,747
+
+113,334
+
+31,702
+
+4,063
+
+8,779
+
+7,469
+
+11,425
+
+30,180
+
+982
+
+253,680
+
+SERC-C
+
+13,348
+
+20,127
+
+8,280
+
+148
+
+1,887
+
+1,884
+
+4,995
+
+2,328
+
+982
+
+53,978
+
+SERC-SE
+
+13,275
+
+29,866
+
+8,018
+
+915
+
+2,493
+
+1,662
+
+3,260
+
+7,584
+
+0
+
+67,073
+
+SERC-FL
+
+4,346
+
+47,002
+
+3,502
+
+1,957
+
+3,198
+
+538
+
+0
+
+12,172
+
+0
+
+72,714
+
+SERC-E
+
+14,777
+
+16,340
+
+11,902
+
+1,044
+
+1,202
+
+3,384
+
+3,170
+
+8,096
+
+0
+
+59,914
+
+Additions
+
+0
+
+6,898
+
+0
+
+0
+
+381
+
+2,254
+
+0
+
+16,073
+
+0
+
+25,606
+
+SERC-C
+
+0
+
+4,831
+
+0
+
+0
+
+0
+
+80
+
+0
+
+771
+
+0
+
+5,682
+
+SERC-SE
+
+0
+
+906
+
+0
+
+0
+
+19
+
+0
+
+0
+
+3,135
+
+0
+
+4,059
+
+SERC-FL
+
+0
+
+1,161
+
+0
+
+0
+
+218
+
+1,670
+
+0
+
+10,410
+
+0
+
+13,459
+
+SERC-E
+
+0
+
+0
+
+0
+
+0
+
+144
+
+504
+
+0
+
+1,757
+
+0
+
+2,405
+
+(14,075)
+
+(4,115)
+
+0
+
+(672)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(18,862)
+
+2024
+
+Closures
+SERC-C
+
+(4,465)
+
+(1,181)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(5,646)
+
+SERC-SE
+
+(5,160)
+
+(124)
+
+0
+
+(176)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(5,460)
+
+SERC-FL
+
+(1,495)
+
+(1,071)
+
+0
+
+(480)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(3,046)
+
+SERC-E
+
+(2,955)
+
+(1,739)
+
+0
+
+(16)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(4,710)
+
+31
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.6
+
+SPP
+
+In the current system model, SPP experienced shortfalls, but
+they were below the required threshold. Adequacy was
+preserved through reliance on imports. In the No Plant
+Closures case, SPP experienced persistent reliability
+challenges, with average annual LOLH reaching
+approximately 48 hours per year and peak hourly shortfalls
+affecting up to 19% of demand. In the Plant Closures case,
+system conditions deteriorated further, with unserved energy
+and outage hours increasing substantially. These shortfalls
+were concentrated in the northern subregion, which lacks the
+firm generation and import capacity needed to meet peak
+winter demand. The analysis determined that 1,500 MW of
+additional perfect capacity would be needed in SPP by 2030
+to restore reliability.
+
+Table 12. Summary of SPP Reliability Metrics
+Reliability Metric
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Current
+System
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+1.7
+0.0002
+541
+
+379.6
+0.0911
+313,797
+
+47.8
+0.0081
+27,697
+
+2.4
+0.0002
+803
+
+20
+0.0022
+6,492
+606
+
+556
+0.2629
+907,518
+13,263
+
+186
+0.0475
+163,775
+2,432
+
+26
+0.0027
+9,433
+762
+
+32
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Load Assumptions
+SPP’s peak load was roughly 57 GW in the current system model and projected to increase to
+roughly 63 GW by 2030. Approximately 1.5 GW of this relates to new AI/DCs being installed (3%
+of U.S. total).
+
+Subregion
+SPP-N
+
+2024
+
+2030
+
+12,668
+
+14,676
+
+SPP-S
+
+44,898
+
+48,337
+
+Total
+
+57,449
+
+62,891
+
+Figure 20. SPP Max Daily Load in the Current System versus 2030
+
+Generation Stack
+Total installed generating capacity for 2024 was 95 GW. In 2030, 15 GW of new capacity was
+added leading to 110 GW of capacity in the No Plant Closures case. In the Plant Closures case,
+7 GW of capacity was retired such that net generation change in the 2030 Plant Closures case
+was +8 GW, or 103 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+SPP-N
+
+20,065
+
+20,679
+
+22,385
+
+SPP-S
+
+75,078
+
+82,451
+
+88,064
+
+Total
+
+95,142
+
+103,130
+
+110,449
+
+Figure 21. SPP Generation Capacity by Technology and Scenario
+
+SPP’s generation mix was comprised primarily of wind, natural gas, and coal. In 2024, wind
+comprised 36% of nameplate, natural gas comprised 32%, and coal 20%. In the 2030 case, most
+retirements come from coal and natural gas while additions occur for wind, solar, storage, and
+natural gas. The model assumed almost no rooftop solar and 1.3 GW of demand response.
+
+33
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table 13. Nameplate Capacity by SPP Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+18,919
+
+30,003
+
+769
+
+1,626
+
+1,718
+
+1,522
+
+5,123
+
+774
+
+34,689
+
+95,142
+
+SPP-N
+
+5,089
+
+3,467
+
+304
+
+504
+
+519
+
+8
+
+3,041
+
+91
+
+7,041
+
+20,065
+
+SPP-S
+
+13,829
+
+26,536
+
+465
+
+1,121
+
+1,199
+
+1,514
+
+2,082
+
+683
+
+27,649
+
+75,078
+
+Additions
+
+0
+
+1,094
+
+0
+
+7
+
+462
+
+1,390
+
+0
+
+5,288
+
+7,066
+
+15,306
+
+SPP-N
+
+0
+
+126
+
+0
+
+2
+
+114
+
+11
+
+0
+
+633
+
+1,434
+
+2,320
+
+SPP-S
+
+0
+
+968
+
+0
+
+5
+
+348
+
+1,379
+
+0
+
+4,655
+
+5,632
+
+12,987
+
+(5,530)
+
+(1,732)
+
+0
+
+(56)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(7,318)
+
+2024
+
+Closures
+SPP-N
+
+(1,488)
+
+(200)
+
+0
+
+(17)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(1,705)
+
+SPP-S
+
+(4,042)
+
+(1,532)
+
+0
+
+(39)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(5,613)
+
+34
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.7
+
+CAISO+
+
+In the current system and No Plant Closures cases,
+CAISO+ did not experience major reliability issues,
+though adequacy was often maintained through
+significant imports during tight conditions. In the Plant
+Closures case, however, the region faced substantial
+shortfalls, particularly during summer evening hours
+when solar output declines. Average LOLH reached 7
+hours per year, and the worst-case year showed load
+shed events affecting up to 31% of demand. The
+NUSE exceeded reliability thresholds, signaling the
+system’s vulnerability to high load and low renewable
+output periods.
+Table 14. Summary of CAISO+ Reliability Metrics
+Reliability Metric
+
+Current
+System
+
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+-
+
+6.8
+0.0062
+23,488
+
+-
+
+-
+
+-
+
+21
+0.0195
+73,462
+12,391
+
+-
+
+-
+
+Load Assumptions
+CAISO+’s peak load was roughly 79 GW in the current system model and projected to increase
+to roughly 82 GW by 2030. Approximately 2 GW of this relates to new AI/DCs being installed (4%
+of U.S. total).
+
+Subregion
+
+2024
+
+2030
+
+CALI-N
+
+29,366
+
+34,066
+
+CALI-S
+
+41,986
+
+48,666
+
+Total
+
+70,815
+
+82,146
+
+Figure 22. CAISO+ Max Daily Load in the Current System versus 2030
+
+35
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Generation Stack
+Total installed generating capacity for 2024 was approximately 117 GW. In 2030, 14 GW of new
+capacity was added leading to 131 GW of capacity in the No Plant Closures case. In the Plant
+Closures case, 8 GW of capacity was retired such that net closures in the Plant Closures case
+were +6 GW, or 123 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+CALI-N
+
+47,059
+
+48,897
+
+52,501
+
+CALI-S
+
+69,866
+
+74,041
+
+78,308
+
+Total
+
+116,925
+
+122,938
+
+130,809
+
+Figure 23. CAISO+ Generation Capacity by Technology and Scenario
+
+CAISO+’s generation mix was comprised primarily of natural gas, solar, storage, and hydro. In
+2024, natural gas comprised 32% of nameplate, solar comprised 31%, storage 13%, and hydro
+9%. In 2030, most retirements come from coal, natural gas, and nuclear while additions occur for
+solar and storage. The model assumed 10 GW of rooftop solar and less than 1 GW of demand
+response.
+Table 15. Nameplate Capacity by CAISO+ Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+1,816
+
+37,434
+
+5,582
+
+185
+
+3,594
+
+14,670
+
+10,211
+
+35,661
+
+7,773
+
+116,925
+
+CALI-N
+
+0
+
+12,942
+
+5,582
+
+165
+
+1,872
+
+4,639
+
+8,727
+
+11,759
+
+1,373
+
+47,059
+
+CALI-S
+
+2024
+
+1,816
+
+24,492
+
+0
+
+20
+
+1,722
+
+10,031
+
+1,483
+
+23,902
+
+6,400
+
+69,866
+
+Additions
+
+0
+
+2,126
+
+0
+
+0
+
+92
+
+3,161
+
+0
+
+8,507
+
+0
+
+13,885
+
+CALI-N
+
+0
+
+735
+
+0
+
+0
+
+44
+
+757
+
+0
+
+3,906
+
+0
+
+5,442
+
+CALI-S
+
+0
+
+1,391
+
+0
+
+0
+
+48
+
+2,404
+
+0
+
+4,600
+
+0
+
+8,442
+
+Closures
+
+(1,800)
+
+(3,771)
+
+(2,300)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(7,871)
+
+CALI-N
+
+0
+
+(1,304)
+
+(2,300)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(3,604)
+
+CALI-S
+
+(1,800)
+
+(2,467)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(4,267)
+
+36
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.8
+
+West Non-CAISO
+
+In both the current system and No Plant Closures
+cases, the West Non-CAISO region maintained
+adequacy on average. In the Plant Closures case, the
+region’s reliability declined, with annual LOLH
+increasing and peak shortfalls in the worst year
+affecting up to 20% of hourly load in some subregions.
+While overall NUSE normalized unserved energy
+remained just above the 0.002% threshold, specific
+areas, especially those with limited local resources
+and constrained transmission, exceeded acceptable
+risk levels. These reliability gaps were primarily driven
+by increasing reliance on variable energy resources
+without sufficient firm generation.
+Table 16. Summary of West Non-CAISO Reliability Metrics
+Reliability Metric
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Current
+System
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+-
+
+17.8
+0.0032
+21,785
+
+-
+
+-
+
+-
+
+47
+0.0098
+66,248
+5,071
+
+-
+
+-
+
+37
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Load Assumptions
+West Non-CAISO’s peak load was roughly 92 GW in the current system model and projected to
+increase to roughly 119 GW by 2030. Approximately 12 GW of this relates to new AI/DCs being
+installed (24% of U.S. total).
+
+Subregion
+
+2024
+
+2030
+
+WASHINGTON
+
+20,756
+
+23,187
+
+OREGON
+
+11,337
+
+16,080
+
+SOUTHWEST
+
+23,388
+
+30,169
+
+WASATCH
+
+27,161
+
+35,440
+
+FRONT R
+
+20,119
+
+24,996
+
+Total
+
+92,448
+
+118,657
+
+Figure 24. West Non-CAISO Max Daily Load in the Current System versus 2030
+
+Generation Stack
+Total installed generating capacity for 2024 was 178 GW. In 2030, 29 GW of new capacity was
+added leading to 207 GW of capacity in the No Plant Closures case. In the Plant Closures case,
+13 GW of capacity was retired such that net generation change in the Plant Closures case was
+16 GW, or 193 GW of overall installed capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+WASHINGTON
+
+35,207
+
+36,588
+
+37,573
+
+OREGON
+
+19,068
+
+21,689
+
+22,081
+
+SOUTHWEST
+
+42,335
+
+47,022
+
+49,158
+
+WASATCH
+
+42,746
+
+45,175
+
+50,251
+
+FRONT R
+
+38,572
+
+43,011
+
+47,844
+
+Total
+
+177,929
+
+193,485
+
+206,908
+
+Figure 25. West Non-CAISO Generation Capacity by Technology and Scenario
+
+West Non-CAISO’s generation mix was comprised primarily of natural gas, hydro, wind, solar,
+and coal. In 2024, natural gas comprised 28% of nameplate, hydro comprised 24%, wind 15%,
+solar 13%, and coal 11%. In 2030, most retirements come from coal and natural gas while
+additions occur for solar, wind, storage, and natural gas. The model assumed 6 GW of rooftop
+solar and over 1 GW of demand response.
+
+38
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table 17. Nameplate Capacity by West Non-CAISO Subregion and Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+2024
+
+19,850
+
+49,969
+
+3,820
+
+644
+
+4,114
+
+5,104
+
+42,476
+
+24,652
+
+27,298
+
+177,929
+
+WASHINGTON
+
+560
+
+3,919
+
+1,096
+
+17
+
+595
+
+489
+
+24,402
+
+1,438
+
+2,690
+
+35,207
+
+OREGON
+
+0
+
+3,915
+
+0
+
+6
+
+456
+
+482
+
+8,253
+
+2,517
+
+3,440
+
+19,068
+
+SOUTHWEST
+
+4,842
+
+17,985
+
+2,724
+
+323
+
+1,316
+
+2,349
+
+1,019
+
+8,093
+
+3,685
+
+42,335
+
+WASATCH
+
+7,033
+
+14,061
+
+0
+
+87
+
+1,433
+
+1,194
+
+7,587
+
+7,299
+
+4,052
+
+42,746
+
+FRONT R
+
+7,415
+
+10,089
+
+0
+
+211
+
+314
+
+590
+
+1,215
+
+5,306
+
+13,432
+
+38,572
+
+Additions
+
+0
+
+2,320
+
+0
+
+1
+
+8
+
+2,932
+
+0
+
+14,759
+
+8,959
+
+28,979
+
+WASHINGTON
+
+0
+
+246
+
+0
+
+0
+
+0
+
+109
+
+0
+
+1,059
+
+952
+
+2,366
+
+OREGON
+
+0
+
+246
+
+0
+
+0
+
+0
+
+150
+
+0
+
+1,399
+
+1,218
+
+3,013
+
+SOUTHWEST
+
+0
+
+309
+
+0
+
+0
+
+0
+
+2,338
+
+0
+
+3,578
+
+599
+
+6,823
+
+WASATCH
+
+0
+
+884
+
+0
+
+0
+
+7
+
+233
+
+0
+
+4,946
+
+1,435
+
+7,505
+
+FRONT R
+
+0
+
+634
+
+0
+
+0
+
+0
+
+102
+
+0
+
+3,779
+
+4,756
+
+9,271
+
+Closures
+
+(9,673)
+
+(2,540)
+
+0
+
+(6)
+
+(311)
+
+(170)
+
+(627)
+
+0
+
+(95)
+
+(13,422)
+
+WASHINGTON
+
+(317)
+
+(195)
+
+0
+
+(0)
+
+(66)
+
+(28)
+
+(369)
+
+0
+
+(11)
+
+(986)
+
+0
+
+(195)
+
+0
+
+(0)
+
+(58)
+
+0
+
+(125)
+
+0
+
+(14)
+
+(392)
+
+SOUTHWEST
+
+(1,185)
+
+(951)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(2,136)
+
+WASATCH
+
+(3,978)
+
+(699)
+
+0
+
+(2)
+
+(178)
+
+(89)
+
+(115)
+
+0
+
+(16)
+
+(5,077)
+
+FRONT R
+
+(4,194)
+
+(501)
+
+0
+
+(4)
+
+(8)
+
+(53)
+
+(18)
+
+0
+
+(54)
+
+(4,832)
+
+OREGON
+
+39
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+2.9
+
+ERCOT
+
+In the current system model, ERCOT exceeded
+reliability thresholds, with 3.8 annual Loss of Load
+Hours and a NUSE of 0.0032%, indicating stress
+even before future retirements and load growth. In
+the No Plant Closures case, conditions worsened
+as average LOLH rose to 20 hours per year and
+the worst-case year reached 101 hours, driven by
+data center growth and limited dispatchable
+additions. The Plant Closures case intensified
+these risks, with average annual LOLH rising to
+45 hours per year and unserved load reaching
+0.066%. Peak shortfalls reached 27% of demand,
+with outages concentrated in winter when
+generation is most vulnerable. To meet reliability
+targets, ERCOT would require 10,500 MW of
+additional perfect capacity by 2030.
+Table 18. Summary of ERCOT Reliability Metrics
+Reliability Metric
+AVERAGE OVER 12 WEATHER YEARS
+Average Loss of Load Hours
+Normalized Unserved Energy (%)
+Unserved Load (MWh)
+WORST WEATHER YEAR
+Max Loss of Load Hours in Single Year
+Normalized Unserved Load (%)
+Unserved Load (MWh)
+Max Unserved Load (MW)
+
+Current
+System
+
+Plant
+Closures
+
+2030 Projection
+No Plant
+Closures
+
+Required
+Build
+
+3.8
+0.0032
+15,378
+
+45.0
+0.0658
+397,352
+
+20.3
+0.0284
+171,493
+
+1.0
+0.0008
+4,899
+
+30
+0.0286
+136,309
+10,115
+
+149
+0.02895
+1,741,003
+27,156
+
+101
+0.01820
+1,093,560
+23,105
+
+12
+0.0098
+58,787
+8,202
+
+Load Assumptions
+ERCOT’s peak load was roughly 90 GW in the current system model and projected to increase
+to roughly 105 GW by 2030. Approximately 8 GW of this relates to new data centers being
+installed (62% of U.S. total).
+
+40
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Subregion
+
+2024
+
+2030
+
+ERCOT
+
+90,075
+
+105,485
+
+Total
+
+90,075
+
+105,485
+
+Figure 26. ERCOT Max Daily Load in the Current System versus 2030
+
+Generation Stack
+Total installed generating capacity for 2024 was 157 GW. In 2030, 55 GW of new capacity was
+added leading to 213 GW of capacity in the No Plant Closures case. In the Plant Closures case,
+4 GW of capacity was retired such that net generation change in the Plant Closures case was
++51 GW, or 208 GW of overall nameplate capacity on the system.
+
+Subregion
+
+Current
+System
+
+2030
+Plant
+Closures
+
+2030
+No Plant
+Closures
+
+ERCOT
+
+157,490
+
+208,894
+
+212,916
+
+Total
+
+157,490
+
+208,894
+
+212,916
+
+Figure 27. ERCOT Generation Capacity by Technology and Scenario
+
+ERCOT’s generation mix was comprised primarily of natural gas, wind, and solar. In 2024, natural
+gas comprised 32% of nameplate, wind comprised 25%, and solar 22%. In 2030, most retirements
+come from coal and natural gas while additions occur for solar, storage, and wind. The model
+assumed 2.5 GW of rooftop solar and 3.5 GW of demand response.
+
+41
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table 19. Nameplate Capacity for ERCOT and by Technology (MW)
+Coal
+
+Gas
+
+Nuclear
+
+Oil
+
+Other
+
+Storage
+
+Hydro
+
+Solar
+
+Wind
+
+Total
+
+13,568
+
+50,889
+
+4,973
+
+10
+
+3,627
+
+10,720
+
+583
+
+33,589
+
+39,532
+
+157,490
+
+13,568
+
+50,889
+
+4,973
+
+10
+
+3,627
+
+10,720
+
+583
+
+33,589
+
+39,532
+
+157,490
+
+Additions
+
+0
+
+569
+
+0
+
+0
+
+0
+
+16,538
+
+0
+
+34,681
+
+3,638
+
+55,426
+
+ERCOT
+
+0
+
+569
+
+0
+
+0
+
+0
+
+16,538
+
+0
+
+34,681
+
+3,638
+
+55,426
+
+(2,000)
+
+(2,022)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(4,022)
+
+(2,000)
+
+(2,022)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+(4,022)
+
+2024
+ERCOT
+
+Closures
+ERCOT
+
+42
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Appendix A - Generation Calibration and Forecast
+The study team started with the grid model from the NERC ITCS, which was published in 2024
+with reference to NERC 2023 LTRA capacity. 27 This zonal ITCS model serves as the starting
+point for the network topology (covering 23 U.S regions), transmission capacity between zones,
+and general modeling assumptions. The resource mix and retirements in the ITCS model were
+updated for this study to reflect the various 2030 scenarios discussed previously. Prior to
+developing the 2030 scenarios, the study team also updated the 2024 ITCS model to ensure
+consistency in the current model assumptions.
+
+2024 Resource Mix
+Because there were noted changes in assumed capacity additions between the 2023 and 2024
+LTRAs 28, the ITCS model was updated with the 2024 LTRA data, provided directly by NERC to
+the study team. The 2024 LTRA dataset, reported at the NERC assessment area level—which is
+more aggregated in some areas than the ITCS regional structure (covering 13 U.S. regions; see
+Figure A.1)—includes both existing resource capacities 29 and Tier 1, 2, and 3 planned additions
+for each year from 2024 to 2033. As explained below, to incorporate this data into the ITCS model,
+a mapping process was developed to disaggregate generation capacities from the NERC
+assessment areas to the more granular ITCS regions by technology type. To preserve the daily
+or monthly adjustments to generator availability for certain categories (wind, solar, hybrid,
+hydropower, batteries, and other) by using the ITCS methods, the nameplate LTRA capacity was
+used. For all other categories (mostly thermal generators), summer and winter on-peak capacity
+contributions were used.
+
+27. NERC, “Interregional Transfer Capability Study (ITCS).”
+https://www.nerc.com/pa/RAPA/Documents/ITCS_Final_Report.pdf.
+28. NERC, “2024 Long-Term Reliability Assessment,” December, 2024, 24.
+https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_Long%20Term%20Reliabili
+ty%20Assessment_2024.pdf.
+29. Capacities are reported for both winter and summer seasonal ratings, along with nameplate values.
+
+U.S. Department of Energy
+
+A-1
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure A.1. NERC assessment areas.
+To disaggregate generation capacity from the NERC assessment areas to the ITCS regions, EIA
+860 plant-level data were used to tabulate the generation capacity for each ITCS region and
+NERC assessment area. The geographical boundaries for the NERC assessment areas and the
+ITCS regions were constructed based on ReEDS zones. 30 Disaggregation fractions were then
+calculated by technology type using the combined existing capacity and planned additions
+through 2030 from EIA 860 data as of December 2024. Specifically, to compute each fraction, an
+ITCS region’s total (existing plus planned) capacity was divided by the corresponding total
+capacity across all ITCS regions within the same mapped NERC assessment area and fuel type
+group:
+
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑛𝑛𝑟𝑟𝑟𝑟 =
+
+𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑦𝑦𝑟𝑟𝑟𝑟
+∑𝑟𝑟′∈𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼(𝑅𝑅) 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑦𝑦𝑟𝑟 ′ 𝑓𝑓
+
+(Equation.1)
+
+Where 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑦𝑦𝑟𝑟𝑟𝑟 is the capacity of fuel type 𝑓𝑓 in ITCS region 𝑟𝑟 and 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼(𝑅𝑅) is the set of all ITCS
+regions mapped to the same NERC assessment area 𝑅𝑅. The denominator is the total capacity of
+that fuel type across all ITCS regions mapped to 𝑅𝑅.
+
+Note that in cases where NERC assessment areas align one-to-one with ITCS regions, no
+mapping was required. Table A.1 summarizes which areas exhibited a direct one-to-one matching
+and which required disaggregation (1-to-many) or aggregation (many-to-one) to align with the
+ITCS regional structure.
+
+An exception to this general approach is the case of the Front Range ITCS region, which
+geographically spans across two NERC assessment areas—WECC-NW and WECC-SW—
+resulting in two-to-one mapping. For this case, a separate allocation method was used: Plantlevel data from EIA 860 were analyzed to determine the proportion of Front Range capacity
+located in each NERC area. These proportions were then used to derive custom weighting factors
+for allocating capacities from both WECC-NW and WECC-SW into the Front Range region.
+30. NREL, “Regional Energy Development System,” https://www.nrel.gov/analysis/reeds/.
+
+U.S. Department of Energy
+
+A-2
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table A.1. Mapping of NERC assessment areas to ITCS regions.
+NERC Area
+ERCOT
+NPCC-New England
+NPCC-New York
+SERC-C
+SERC-E
+SERC-FP
+
+ITCS Region
+ERCOT
+NPCC-New England
+NPCC-New York
+SERC-C
+SERC-E
+SERC-FP
+
+SERC-SE
+WECC-SW
+MISO
+MISO
+MISO
+MISO
+
+SERC-SE
+Southwest Region
+MISO Central
+MISO East
+MISO South
+MISO West
+
+SPP
+SPP
+WECC-CAMX
+WECC-CAMX
+WECC-NW
+WECC-NW
+WECC-NW
+
+SPP North
+SPP South
+Southern California
+Northern California
+Oregon Region
+Washington Region
+Wasatch Front
+
+WECC-NW
+WECC-SW
+
+Front Range
+Front Range
+
+Match
+1 to 1
+1 to 1
+1 to 1
+1 to 1
+1 to 1
+1 to 1
+1 to 1
+1 to 1
+1 to 4
+
+1 to 2
+1 to 2
+1 to 3
+2 to 1
+
+Table A.2 and Figure A.2 show the same combined capacities by ITCS region and NERC planning
+region, respectively.
+
+U.S. Department of Energy
+
+A-3
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table A.2. Existing and Tier 1 capacities by NERC assessment area (in MW) in 2024.
+2024 Exsting + Tier 1
+EAST
+
+Total
+
+Nuclear
+
+Oil
+
+Biomass
+
+Geo
+
+Other
+
+Pumped
+Storage
+
+Battery
+
+Hydro
+
+Solar
+
+Wind
+
+DR
+
+DGPV
+
+Total
+
+143,035
+
+330,342
+
+82,793
+
+26,771
+
+3,624
+
+-
+
+991
+
+19,607
+
+3,298
+
+28,980
+
+72,757
+
+94,364
+
+25,753
+
+24,367
+
+856,682
+
+ISONE
+
+Total
+
+541
+
+15,494
+
+3,331
+
+5,710
+
+818
+
+-
+
+233
+
+1,571
+
+57
+
+1,911
+
+3,386
+
+2,553
+
+661
+
+3,713
+
+39,979
+
+Total
+
+37,914
+
+64,194
+
+11,127
+
+2,867
+
+613
+
+-
+
+329
+
+4,396
+
+1,031
+
+2,533
+
+29,777
+
+41,715
+
+7,775
+
+3,049
+
+207,319
+
+MISO-W
+
+12,651
+
+13,608
+
+2,753
+
+1,491
+
+244
+
+-
+
+2
+
+-
+
+200
+
+777
+
+7,368
+
+29,411
+
+2,367
+
+741
+
+71,612
+
+MISO-C
+
+15,050
+
+10,307
+
+2,169
+
+494
+
+32
+
+-
+
+152
+
+773
+
+499
+
+769
+
+10,587
+
+7,350
+
+2,026
+
+1,774
+
+51,982
+
+MISO-S
+
+5,493
+
+31,052
+
+5,100
+
+589
+
+243
+
+-
+
+117
+
+49
+
+5
+
+845
+
+8,024
+
+596
+
+2,109
+
+291
+
+54,511
+
+MISO-E
+
+4,720
+
+9,227
+
+1,105
+
+292
+
+94
+
+-
+
+57
+
+3,574
+
+327
+
+143
+
+3,799
+
+4,359
+
+1,273
+
+243
+
+29,213
+
+NYISO
+
+Total
+
+-
+
+22,937
+
+3,330
+
+2,631
+
+334
+
+-
+
+-
+
+1,400
+
+60
+
+4,915
+
+1,039
+
+2,706
+
+860
+
+5,710
+
+45,924
+
+PJM
+
+Total
+
+39,915
+
+84,381
+
+32,535
+
+9,875
+
+851
+
+-
+
+-
+
+5,062
+
+338
+
+3,071
+
+10,892
+
+11,718
+
+7,397
+
+8,603
+
+214,638
+
+PJM-W
+
+34,917
+
+39,056
+
+16,557
+
+1,933
+
+112
+
+-
+
+-
+
+234
+
+149
+
+1,252
+
+5,780
+
+10,065
+
+3,814
+
+599
+
+114,467
+
+PJM-S
+
+2,391
+
+15,038
+
+5,288
+
+3,985
+
+479
+
+-
+
+-
+
+2,958
+
+127
+
+1,070
+
+3,932
+
+360
+
+1,824
+
+2,498
+
+39,951
+
+PJM-E
+
+2,608
+
+30,287
+
+10,690
+
+3,956
+
+260
+
+-
+
+-
+
+1,870
+
+62
+
+749
+
+1,180
+
+1,294
+
+1,759
+
+5,506
+
+60,221
+
+83
+
+253,680
+
+SPP
+
+45,747
+
+113,334
+
+31,702
+
+4,063
+
+989
+
+-
+
+6,701
+
+768
+
+11,425
+
+26,959
+
+982
+
+7,707
+
+3,221
+
+SERC-C
+
+13,348
+
+20,127
+
+8,280
+
+148
+
+36
+
+-
+
+-
+
+1,784
+
+100
+
+4,995
+
+2,308
+
+982
+
+1,851
+
+20
+
+53,978
+
+SERC-SE
+
+13,275
+
+29,866
+
+8,018
+
+915
+
+424
+
+-
+
+-
+
+1,548
+
+115
+
+3,260
+
+7,267
+
+-
+
+2,069
+
+317
+
+67,073
+
+Total
+
+SERC-FL
+
+4,346
+
+47,002
+
+3,502
+
+1,957
+
+310
+
+-
+
+-
+
+538
+
+-
+
+10,121
+
+-
+
+2,804
+
+2,051
+
+72,714
+
+SERC-E
+
+14,777
+
+16,340
+
+11,902
+
+1,044
+
+219
+
+-
+
+-
+
+3,369
+
+15
+
+3,170
+
+7,263
+
+-
+
+983
+
+833
+
+59,914
+
+1,044
+
+5,123
+
+703
+
+34,689
+
+1,353
+
+71
+
+95,142
+
+8
+
+3,041
+
+84
+
+7,041
+
+333
+
+7
+
+20,065
+
+18,919
+
+30,003
+
+769
+
+1,626
+
+20
+
+-
+
+345
+
+477
+
+5,089
+
+3,467
+
+304
+
+504
+
+1
+
+-
+
+185
+
+-
+
+SPP-S
+
+13,829
+
+26,536
+
+465
+
+1,121
+
+19
+
+-
+
+160
+
+477
+
+1,037
+
+2,082
+
+619
+
+27,649
+
+1,020
+
+64
+
+75,078
+
+13,568
+
+50,889
+
+4,973
+
+10
+
+163
+
+-
+
+-
+
+-
+
+10,720
+
+583
+
+31,058
+
+39,532
+
+3,464
+
+2,531
+
+157,490
+
+13,568
+
+50,889
+
+4,973
+
+10
+
+163
+
+-
+
+-
+
+-
+
+10,720
+
+583
+
+31,058
+
+39,532
+
+3,464
+
+2,531
+
+157,490
+
+21,666
+
+87,403
+
+9,403
+
+829
+
+1,565
+
+4,093
+
+106
+
+4,536
+
+15,238
+
+52,687
+
+44,042
+
+35,071
+
+1,944
+
+16,271
+
+294,854
+
+1,816
+
+37,434
+
+5,582
+
+185
+
+726
+
+2,004
+
+35
+
+3,514
+
+11,156
+
+10,211
+
+25,614
+
+7,773
+
+829
+
+10,047
+
+116,925
+
+CALI-N
+
+-
+
+12,942
+
+5,582
+
+165
+
+465
+
+1,049
+
+9
+
+1,967
+
+2,672
+
+8,727
+
+6,723
+
+1,373
+
+349
+
+5,036
+
+47,059
+
+CALI-S
+
+1,816
+
+24,492
+
+-
+
+20
+
+261
+
+955
+
+26
+
+1,547
+
+8,484
+
+1,483
+
+18,891
+
+6,400
+
+480
+
+5,011
+
+69,866
+
+71
+
+177,929
+
+Total
+
+Total
+CAISO+
+
+Non-CA
+WECC
+
+83
+
+SPP-N
+
+Total
+
+Total
+ERCOT
+
+WEST
+
+NG
+
+MISO
+
+SERC
+
+ERCOT
+
+Coal
+
+Total
+
+19,850
+
+49,969
+
+3,820
+
+644
+
+839
+
+2,089
+
+WA
+
+560
+
+3,919
+
+1,096
+
+17
+
+352
+
+-
+
+OR
+
+-
+
+3,915
+
+-
+
+6
+
+293
+
+Total
+
+1,022
+
+4,082
+
+42,476
+
+18,428
+
+27,298
+
+1,115
+
+6,224
+
+-
+
+140
+
+350
+
+24,402
+
+1,052
+
+2,690
+
+243
+
+386
+
+35,207
+
+21
+
+-
+
+-
+
+482
+
+8,253
+
+2,145
+
+3,440
+
+141
+
+372
+
+19,068
+
+SOUTHWEST
+
+4,842
+
+17,985
+
+2,724
+
+323
+
+102
+
+1,047
+
+-
+
+176
+
+2,173
+
+1,019
+
+5,641
+
+3,685
+
+168
+
+2,452
+
+42,335
+
+WASATCH
+
+7,033
+
+14,061
+
+-
+
+87
+
+56
+
+1,011
+
+61
+
+444
+
+750
+
+7,587
+
+5,625
+
+4,052
+
+305
+
+1,674
+
+42,746
+
+FRONT R
+Total
+
+7,415
+
+10,089
+
+-
+
+211
+
+36
+
+10
+
+10
+
+262
+
+328
+
+1,215
+
+3,966
+
+13,432
+
+258
+
+1,340
+
+38,572
+
+178,268
+
+468,635
+
+97,169
+
+27,610
+
+5,353
+
+4,093
+
+1,096
+
+24,144
+
+29,256
+
+82,249
+
+147,856
+
+168,966
+
+31,161
+
+43,169
+
+1,309,026
+
+U.S. Department of Energy
+
+A-4
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure A.2. Existing and Tier 1 capacities by NERC assessment area in 2024.
+
+Forecasting 2030 Resource Mixes
+To develop the 2030 ITCS generation portfolio, the study team added new capacity builds and
+removed planned retirements.
+(i) Tier 1: Assumes that only projects considered very mature in the development
+pipeline—such as those with signed interconnection agreements—will be built. This
+results in minimal capacity additions beyond 2026. The data are based on projects
+designated as Tier 1 in the 2024 LTRA data for the year 2030.
+
+Retirements
+To project which units will retire by 2030, the study team primarily used the LTRA 2024 data and
+cross-checked it with EIA data. The assessment areas were disaggregated to ITCS zones based
+on the ratios of projected retirements in EIA 860 data. The three scenarios modeled are as follows:
+(i) Announced: Assumes that in addition to confirmed retirements, generators that have
+publicly announced retirement plans but have not formally notified system operators
+have also begun the retirement process. This is based on data from the 2024 LTRA,
+which were collected by the NERC team from sources like news announcements,
+public disclosures, etc.
+
+U.S. Department of Energy
+
+A-5
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+(ii) None: Assumes that there are no retirements between 2024 and 2030 for comparison.
+Delaying or canceling some near-term retirements may not be feasible, but this case
+can help determine how much retirements contribute to resource adequacy challenges
+in regions where rapid AI and data center growth is expected.
+
+Generation Stack for Each Scenario
+Finally, when summing all potential future changes, the team arrived at a generation stack for
+each of the various scenarios to be studied. The first figure provides a visual comparison of all
+the cases, which vary from 1,309 GW to 1,519 GW total generation capacity for the entire
+continental United States, to enable the exploration of a range of potential generation futures. The
+tables below provide breakdowns by ITCS region and by resource type.
+
+Figure A.9. Comparison of 2030 generation stacks for the various scenarios.
+
+U.S. Department of Energy
+
+A-6
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table A.4. 2030 generation stack for Tier 1 mature + announced retirements.
+2030 Tier 1 Mature + Announced
+EAST
+
+Total
+
+Nuclear
+
+Oil
+
+Biomass
+
+Geo
+
+Other
+
+Pumped
+Storage
+
+Battery
+
+Hydro
+
+Solar
+
+Wind
+
+DR
+
+DGPV
+
+Total
+
+84,730
+
+328,457
+
+82,793
+
+24,272
+
+3,473
+
+-
+
+991
+
+19,591
+
+12,415
+
+28,897
+
+126,849
+
+113,568
+
+26,837
+
+36,768
+
+889,641
+
+ISONE
+
+Total
+
+7
+
+13,708
+
+3,331
+
+5,687
+
+741
+
+-
+
+233
+
+1,571
+
+1,664
+
+1,911
+
+3,676
+
+4,048
+
+661
+
+5,606
+
+42,845
+
+Total
+
+13,001
+
+60,132
+
+11,127
+
+2,873
+
+473
+
+-
+
+329
+
+4,380
+
+2,960
+
+2,450
+
+44,132
+
+43,369
+
+7,775
+
+3,049
+
+196,049
+
+MISO-W
+
+4,338
+
+12,747
+
+2,753
+
+1,494
+
+188
+
+-
+
+2
+
+-
+
+574
+
+751
+
+10,920
+
+30,577
+
+2,367
+
+741
+
+67,453
+
+MISO-C
+
+5,161
+
+9,655
+
+2,169
+
+495
+
+25
+
+-
+
+152
+
+770
+
+1,433
+
+743
+
+15,690
+
+7,642
+
+2,026
+
+1,774
+
+47,735
+
+MISO-S
+
+1,883
+
+29,087
+
+5,100
+
+591
+
+187
+
+-
+
+117
+
+49
+
+14
+
+817
+
+11,892
+
+619
+
+2,109
+
+291
+
+52,756
+
+MISO-E
+
+1,619
+
+8,643
+
+1,105
+
+293
+
+72
+
+-
+
+57
+
+3,561
+
+938
+
+138
+
+5,630
+
+4,531
+
+1,273
+
+243
+
+28,105
+
+NYISO
+
+Total
+
+-
+
+21,907
+
+3,330
+
+2,628
+
+334
+
+-
+
+-
+
+1,400
+
+60
+
+4,915
+
+1,159
+
+4,608
+
+860
+
+9,194
+
+50,396
+
+PJM
+
+Total
+
+26,662
+
+87,228
+
+32,535
+
+8,117
+
+917
+
+-
+
+-
+
+5,062
+
+2,276
+
+3,071
+
+33,530
+
+18,807
+
+7,638
+
+10,955
+
+236,798
+
+PJM-W
+
+23,323
+
+40,373
+
+16,557
+
+1,589
+
+120
+
+-
+
+-
+
+234
+
+1,004
+
+1,252
+
+17,793
+
+16,153
+
+3,939
+
+762
+
+123,100
+
+PJM-S
+
+1,597
+
+15,546
+
+5,288
+
+3,276
+
+516
+
+-
+
+-
+
+2,958
+
+853
+
+1,070
+
+12,105
+
+577
+
+1,883
+
+3,181
+
+48,850
+
+PJM-E
+
+1,742
+
+31,309
+
+10,690
+
+3,252
+
+280
+
+-
+
+-
+
+1,870
+
+419
+
+749
+
+3,632
+
+2,076
+
+1,816
+
+7,012
+
+64,848
+260,423
+
+SPP
+
+31,672
+
+116,117
+
+31,702
+
+3,391
+
+989
+
+-
+
+6,701
+
+3,021
+
+11,425
+
+38,360
+
+982
+
+8,088
+
+7,893
+
+SERC-C
+
+8,883
+
+23,777
+
+8,280
+
+148
+
+36
+
+-
+
+-
+
+1,784
+
+180
+
+4,995
+
+3,070
+
+982
+
+1,851
+
+29
+
+54,014
+
+SERC-SE
+
+10,321
+
+28,127
+
+8,018
+
+899
+
+424
+
+-
+
+-
+
+1,548
+
+618
+
+3,260
+
+9,024
+
+-
+
+2,213
+
+317
+
+64,768
+
+Total
+
+2,851
+
+47,092
+
+3,502
+
+1,477
+
+310
+
+-
+
+-
+
+2,208
+
+-
+
+16,717
+
+-
+
+3,022
+
+5,865
+
+83,127
+
+SERC-E
+
+9,617
+
+17,122
+
+11,902
+
+868
+
+219
+
+-
+
+-
+
+3,369
+
+15
+
+3,170
+
+9,549
+
+-
+
+1,002
+
+1,682
+
+58,513
+
+Non-CA
+WECC
+
+83
+
+103,130
+
+13,389
+
+29,365
+
+769
+
+1,576
+
+20
+
+-
+
+345
+
+477
+
+2,434
+
+5,123
+
+5,991
+
+41,755
+
+1,815
+
+71
+
+SPP-N
+
+3,602
+
+3,394
+
+304
+
+489
+
+1
+
+-
+
+185
+
+-
+
+18
+
+3,041
+
+717
+
+8,475
+
+447
+
+7
+
+20,679
+
+SPP-S
+
+9,787
+
+25,971
+
+465
+
+1,087
+
+19
+
+-
+
+160
+
+477
+
+2,416
+
+2,082
+
+5,274
+
+33,280
+
+1,368
+
+64
+
+82,451
+
+11,568
+
+49,436
+
+4,973
+
+10
+
+163
+
+-
+
+-
+
+-
+
+27,258
+
+583
+
+62,406
+
+43,169
+
+3,464
+
+5,864
+
+208,894
+
+11,568
+
+49,436
+
+4,973
+
+10
+
+163
+
+-
+
+-
+
+-
+
+27,258
+
+583
+
+62,406
+
+43,169
+
+3,464
+
+5,864
+
+208,894
+
+10,193
+
+85,538
+
+7,103
+
+823
+
+1,427
+
+3,983
+
+106
+
+4,366
+
+21,330
+
+52,060
+
+51,648
+
+43,935
+
+1,981
+
+31,931
+
+316,424
+
+16
+
+35,789
+
+3,282
+
+185
+
+726
+
+2,059
+
+35
+
+3,514
+
+14,316
+
+10,211
+
+27,112
+
+7,773
+
+866
+
+17,055
+
+122,938
+
+CALI-N
+
+-
+
+12,373
+
+3,282
+
+165
+
+465
+
+1,078
+
+9
+
+1,967
+
+3,429
+
+8,727
+
+7,116
+
+1,373
+
+364
+
+8,549
+
+48,897
+
+CALI-S
+
+16
+
+23,416
+
+-
+
+20
+
+261
+
+982
+
+26
+
+1,547
+
+10,887
+
+1,483
+
+19,996
+
+6,400
+
+501
+
+8,506
+
+74,041
+
+71
+
+193,485
+
+Total
+
+Total
+
+Total
+CAISO+
+
+83
+
+SERC-FL
+
+Total
+ERCOT
+
+WEST
+
+NG
+
+MISO
+
+SERC
+
+ERCOT
+
+Coal
+
+Total
+
+10,177
+
+49,749
+
+3,820
+
+639
+
+701
+
+1,924
+
+WA
+
+243
+
+3,971
+
+1,096
+
+16
+
+286
+
+-
+
+OR
+
+-
+
+3,967
+
+-
+
+6
+
+238
+
+Total
+
+852
+
+7,014
+
+41,849
+
+24,536
+
+36,162
+
+1,115
+
+14,876
+
+-
+
+111
+
+459
+
+24,033
+
+1,404
+
+3,631
+
+243
+
+1,092
+
+36,588
+
+18
+
+-
+
+-
+
+632
+
+8,128
+
+2,865
+
+4,644
+
+141
+
+1,051
+
+21,689
+
+SOUTHWEST
+
+3,657
+
+17,343
+
+2,724
+
+323
+
+102
+
+1,047
+
+-
+
+176
+
+4,511
+
+1,019
+
+7,460
+
+4,284
+
+168
+
+4,211
+
+47,022
+
+WASATCH
+
+3,055
+
+14,247
+
+-
+
+86
+
+45
+
+850
+
+61
+
+355
+
+983
+
+7,472
+
+7,512
+
+5,470
+
+305
+
+4,733
+
+45,175
+
+FRONT R
+Total
+
+3,221
+
+10,222
+
+-
+
+208
+
+30
+
+8
+
+10
+
+209
+
+430
+
+1,197
+
+5,296
+
+18,133
+
+258
+
+3,789
+
+43,011
+
+106,491
+
+463,431
+
+94,869
+
+25,106
+
+5,063
+
+3,983
+
+1,096
+
+23,958
+
+61,003
+
+81,539
+
+240,902
+
+200,673
+
+32,282
+
+74,563
+
+1,414,959
+
+U.S. Department of Energy
+
+A-7
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Table A.5. 2030 generation stack for Tier 1 mature + no retirements.
+2030 Tier 1 Mature + No
+Retirements
+EAST
+
+Total
+
+Nuclear
+
+Oil
+
+Biomass
+
+Geo
+
+Other
+
+Pumped
+Storage
+
+Battery
+
+Hydro
+
+Solar
+
+Wind
+
+DR
+
+DGPV
+
+Total
+
+143,035
+
+345,459
+
+82,793
+
+27,336
+
+3,701
+
+-
+
+991
+
+19,607
+
+12,415
+
+28,980
+
+126,849
+
+113,840
+
+26,837
+
+36,768
+
+968,610
+
+ISONE
+
+Total
+
+541
+
+15,584
+
+3,331
+
+5,891
+
+818
+
+-
+
+233
+
+1,571
+
+1,664
+
+1,911
+
+3,676
+
+4,048
+
+661
+
+5,606
+
+45,534
+
+Total
+
+37,914
+
+66,729
+
+11,127
+
+3,197
+
+613
+
+-
+
+329
+
+4,396
+
+2,960
+
+2,533
+
+44,132
+
+43,641
+
+7,775
+
+3,049
+
+228,393
+
+MISO-W
+
+12,651
+
+14,145
+
+2,753
+
+1,662
+
+244
+
+-
+
+2
+
+-
+
+574
+
+777
+
+10,920
+
+30,768
+
+2,367
+
+741
+
+77,605
+
+MISO-C
+
+15,050
+
+10,714
+
+2,169
+
+551
+
+32
+
+-
+
+152
+
+773
+
+1,433
+
+769
+
+15,690
+
+7,690
+
+2,026
+
+1,774
+
+58,823
+
+MISO-S
+
+5,493
+
+32,278
+
+5,100
+
+657
+
+243
+
+-
+
+117
+
+49
+
+14
+
+845
+
+11,892
+
+623
+
+2,109
+
+291
+
+59,710
+
+MISO-E
+
+4,720
+
+9,592
+
+1,105
+
+326
+
+94
+
+-
+
+57
+
+3,574
+
+938
+
+143
+
+5,630
+
+4,560
+
+1,273
+
+243
+
+32,255
+
+NYISO
+
+Total
+
+-
+
+22,937
+
+3,330
+
+2,646
+
+334
+
+-
+
+-
+
+1,400
+
+60
+
+4,915
+
+1,159
+
+4,608
+
+860
+
+9,194
+
+51,444
+
+PJM
+
+Total
+
+39,915
+
+88,880
+
+32,535
+
+9,907
+
+928
+
+-
+
+-
+
+5,062
+
+2,276
+
+3,071
+
+33,530
+
+18,807
+
+7,638
+
+10,955
+
+253,504
+
+PJM-W
+
+34,917
+
+41,138
+
+16,557
+
+1,939
+
+122
+
+-
+
+-
+
+234
+
+1,004
+
+1,252
+
+17,793
+
+16,153
+
+3,939
+
+762
+
+135,810
+
+PJM-S
+
+2,391
+
+15,840
+
+5,288
+
+3,998
+
+522
+
+-
+
+-
+
+2,958
+
+853
+
+1,070
+
+12,105
+
+577
+
+1,883
+
+3,181
+
+50,667
+
+PJM-E
+
+2,608
+
+31,902
+
+10,690
+
+3,969
+
+284
+
+-
+
+-
+
+1,870
+
+419
+
+749
+
+3,632
+
+2,076
+
+1,816
+
+7,012
+
+67,027
+279,285
+
+SPP
+
+45,747
+
+120,232
+
+31,702
+
+4,063
+
+989
+
+-
+
+6,701
+
+3,021
+
+11,425
+
+38,360
+
+982
+
+8,088
+
+7,893
+
+SERC-C
+
+13,348
+
+24,958
+
+8,280
+
+148
+
+36
+
+-
+
+-
+
+1,784
+
+180
+
+4,995
+
+3,070
+
+982
+
+1,851
+
+29
+
+59,660
+
+SERC-SE
+
+13,275
+
+29,866
+
+8,018
+
+915
+
+424
+
+-
+
+-
+
+1,548
+
+618
+
+3,260
+
+9,024
+
+-
+
+2,213
+
+317
+
+69,478
+
+Total
+
+4,346
+
+48,163
+
+3,502
+
+1,957
+
+310
+
+-
+
+-
+
+2,208
+
+-
+
+16,717
+
+-
+
+3,022
+
+5,865
+
+86,173
+
+SERC-E
+
+14,777
+
+17,246
+
+11,902
+
+1,044
+
+219
+
+-
+
+-
+
+3,369
+
+15
+
+3,170
+
+9,549
+
+-
+
+1,002
+
+1,682
+
+63,973
+
+Non-CA
+WECC
+
+83
+
+110,449
+
+18,919
+
+31,098
+
+769
+
+1,632
+
+20
+
+-
+
+345
+
+477
+
+2,434
+
+5,123
+
+5,991
+
+41,755
+
+1,815
+
+71
+
+SPP-N
+
+5,089
+
+3,594
+
+304
+
+506
+
+1
+
+-
+
+185
+
+-
+
+18
+
+3,041
+
+717
+
+8,475
+
+447
+
+7
+
+22,385
+
+SPP-S
+
+13,829
+
+27,504
+
+465
+
+1,126
+
+19
+
+-
+
+160
+
+477
+
+2,416
+
+2,082
+
+5,274
+
+33,280
+
+1,368
+
+64
+
+88,064
+
+13,568
+
+51,458
+
+4,973
+
+10
+
+163
+
+-
+
+-
+
+-
+
+27,258
+
+583
+
+62,406
+
+43,169
+
+3,464
+
+5,864
+
+212,916
+
+13,568
+
+51,458
+
+4,973
+
+10
+
+163
+
+-
+
+-
+
+-
+
+27,258
+
+583
+
+62,406
+
+43,169
+
+3,464
+
+5,864
+
+212,916
+
+21,666
+
+91,849
+
+9,403
+
+829
+
+1,565
+
+4,156
+
+106
+
+4,536
+
+21,330
+
+52,687
+
+51,648
+
+44,030
+
+1,981
+
+31,931
+
+337,717
+
+1,816
+
+39,560
+
+5,582
+
+185
+
+726
+
+2,059
+
+35
+
+3,514
+
+14,316
+
+10,211
+
+27,112
+
+7,773
+
+866
+
+17,055
+
+130,809
+
+CALI-N
+
+-
+
+13,677
+
+5,582
+
+165
+
+465
+
+1,078
+
+9
+
+1,967
+
+3,429
+
+8,727
+
+7,116
+
+1,373
+
+364
+
+8,549
+
+52,501
+
+CALI-S
+
+1,816
+
+25,883
+
+-
+
+20
+
+261
+
+982
+
+26
+
+1,547
+
+10,887
+
+1,483
+
+19,996
+
+6,400
+
+501
+
+8,506
+
+78,308
+
+71
+
+206,908
+
+Total
+
+Total
+
+Total
+CAISO+
+
+83
+
+SERC-FL
+
+Total
+ERCOT
+
+WEST
+
+NG
+
+MISO
+
+SERC
+
+ERCOT
+
+Coal
+
+Total
+
+19,850
+
+52,289
+
+3,820
+
+645
+
+839
+
+2,097
+
+WA
+
+560
+
+4,166
+
+1,096
+
+17
+
+352
+
+-
+
+OR
+
+-
+
+4,161
+
+-
+
+6
+
+293
+
+Total
+
+1,022
+
+7,014
+
+42,476
+
+24,536
+
+36,257
+
+1,115
+
+14,876
+
+-
+
+140
+
+459
+
+24,402
+
+1,404
+
+3,642
+
+243
+
+1,092
+
+37,573
+
+22
+
+-
+
+-
+
+632
+
+8,253
+
+2,865
+
+4,658
+
+141
+
+1,051
+
+22,081
+
+SOUTHWEST
+
+4,842
+
+18,294
+
+2,724
+
+323
+
+102
+
+1,047
+
+-
+
+176
+
+4,511
+
+1,019
+
+7,460
+
+4,284
+
+168
+
+4,211
+
+49,158
+
+WASATCH
+
+7,033
+
+14,945
+
+-
+
+88
+
+56
+
+1,018
+
+61
+
+444
+
+983
+
+7,587
+
+7,512
+
+5,486
+
+305
+
+4,733
+
+50,251
+
+FRONT R
+Total
+
+7,415
+
+10,723
+
+-
+
+212
+
+36
+
+10
+
+10
+
+262
+
+430
+
+1,215
+
+5,296
+
+18,187
+
+258
+
+3,789
+
+47,844
+
+178,268
+
+488,766
+
+97,169
+
+28,175
+
+5,429
+
+4,156
+
+1,096
+
+24,144
+
+61,003
+
+82,249
+
+240,902
+
+201,040
+
+32,282
+
+74,563
+
+1,519,243
+
+U.S. Department of Energy
+
+A-8
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Appendix B - Representing Canadian Transfer Limits
+Introduction
+The reliability and stability of cross-border electricity interconnections between the United States
+and Canada are critical to ensuring continuous power delivery amid evolving demands and
+variable supply conditions. In recent years, increased integration of wind and solar generation,
+coupled with extreme weather events, has introduced significant uncertainties in regional power
+flows.
+This report describes the development and implementation of a machine learning (ML)-based
+model designed to project the maximum daily energy transfer (MaxFlow) across major United
+States–Canada interfaces, such as BPA–BC Hydro and NYISO–Ontario. Leveraging 15 years of
+high-resolution load and generation data, summarizing it into key daily statistics, and training a
+robust eXtreme Gradient Boosting (XGBoost) regressor can allow data-driven predictions to be
+captured with quantified uncertainty.
+The project team provided percentile-based forecasts—25, 50, and 75 percent—to support both
+conservative and strategic planning. The conservative methodology (25 percent) was used for
+this report to ensure availability when needed.
+The subsequent sections detail the methodology used for data processing and feature
+engineering, the architecture and training of the predictive model, and the validation metrics and
+feature importance analyses used. Future enhancements could include incorporating weather
+patterns, neighboring-region dynamics, and fuel-specific generation profiles to further strengthen
+predictive performance and support grid resilience.
+
+Methodology
+This section describes the ML approach used to build the MaxFlow prediction model.
+Dataset Collection and Preparation
+Data were collected for hourly and derived daily load and generation over a 15-year period (2010–
+2024), comprising 8,760 hourly observations annually. Hourly interconnection flow rates were
+collected for the same years across all major United States–Canada interfaces.1–17
+Underlying Hypothesis
+The team hypothesized that the MaxFlow between interconnected regions is critically influenced
+by regional load and generation extrema (maximum and minimum) and their variability. These
+statistics reflect grid stress conditions, influencing interregional energy flow. Additionally,
+nonlinear interactions due to imbalances in adjacent regions further affect energy transfer
+dynamics.
+
+Regression Model
+The XGBoost regression model was chosen because of its ability to capture complex, nonlinear
+relationships, regularization capability to prevent overfitting, high speed and performance, fast
+convergence, built-in handling of missing data, and ease of confidence interval approximation.
+
+U.S. Department of Energy
+
+B-1
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+XGBoost builds many small decision trees, one after another. Each new tree learns to correct the
+mistakes of the previous ensemble by focusing on which predictions had the greatest error.
+Instead of creating one large, complex tree, it combines many simpler trees—each making a
+modest adjustment—so that, together, they capture nonlinear patterns and interactions.
+Regularization (penalties for tree size and leaf adjustments) prevents overfitting, and a “learning
+rate” scales each tree’s contribution so that improvements are made gradually. The final
+prediction is simply the sum of all those small corrections.
+Model Training, Validation, and Assessment
+Figure B.1 shows the data analysis and prediction process, which ties together seven stages—
+from raw CSV loading through outlier filtering, feature engineering, projecting to 2030, rebuilding
+2030 features, training an XGBoost model, and finally making and evaluating the 2030 flow
+forecasts with quantiles. Each stage feeds into the next, ensuring that the features used for
+training mirror exactly those that will be available for future (2030) predictions.
+Data Preparation
+
+Outlier Removal
+
+Load Historical CSV File
+
+Calculate IQR
+
+Parse Dates
+
+Remove Days Outside IQR
+
+Feature Engineering
+
+2030 Feature Rebuild
+
+Add Cyclical Features
+
+Construct Date
+
+One-Hot Encode Months
+
+Add Cyclical Features
+
+Flag US Federal Holidays
+
+Flag Holidays
+
+Compute Rolling Means and Lags
+
+Prediction & Evaluation
+
+Compute Rolling Means and Lags
+Data
+Analysis and
+Prediction
+Process
+
+Predict 2030 MinFlow and
+MaxFlow
+
+Model Training
+Combine Historical and 2030 Data
+Define Training Inputs
+
+Generate Per-Tree Predictions
+
+Tune Hyperparameters
+
+Hold-Out Data for Validation
+
+Train Best Model
+
+Save Hourly Output
+2030 Raw Projection
+Fit Linear Trend
+Predict Raw Values
+
+Figure B.1. Data analysis and prediction process.
+
+Example Feature Importance for Predicting MaxFlow from Ontario to NYISO
+
+The trained ML/XGBoost model can be used for predicting the desired year’s MaxFlow. In
+addition, feature importance analysis can be added to assess the contribution of each variable.
+
+U.S. Department of Energy
+
+B-2
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure B.2. Feature importance for predicting the hourly maximum energy transfer (MaxFlow)
+between NYISO and Ontario. XGB = eXtreme Gradient Boosting.
+The feature importance plot shows that MaxFlow rolling/lagging features and
+Ontario_All.MaxTran are the dominant predictors of MaxFlow, meaning temporal patterns and
+Ontario’s peak transfer capacity strongly influence interregional flow limits. Weather-related
+variables (WWI, e.g., temperature, humidity, etc.) and Ontario_All.TotalTran also rank highly. The
+2030 MaxFlow prediction plot shows seasonal fluctuations, with higher values early and late in
+the year. The red shaded area represents a 95 percent confidence interval for the predictions.
+
+Figure B.3. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI).
+
+U.S. Department of Energy
+
+B-3
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Model Performance
+
+Validating model performance on unseen data is essential to ensure the model’s reliability and
+generalizability. The following evaluation examines how well the XGBoost model predicts
+minimum energy transfer (MinFlow) and MaxFlow on the validation split, highlighting strengths
+and areas for improvement.
+Rigorous performance evaluation is a fundamental step in any ML workflow. From quantifying
+error metrics (root mean square error and mean absolute error) and goodness-of-fit (R²) on both
+training and validation splits, it is possible to identify overfitting, assess generalization, and guide
+model refinement. Table B.1 shows XGBoost model performance for the Ontario–NYISO transfer
+limit.
+Table B.1. eXtreme Gradient Boosting model performance for the Ontario–NYISO transfer limit.
+Metric
+MinFlow RMSE (Train)
+MinFlow R2 (Train)
+MinFlow RMSE
+(Validation)
+MinFlow R2 (Validation)
+MaxFlow RMSE (Train)
+MaxFlow R2 (Train)
+MaxFlow RMSE
+(Validation)
+MaxFlow R2 (Validation)
+
+Value
+Explanation
+69.2528 Root mean square error (RMSE) on training data for minimum
+energy transfer (MinFlow)
+0.9651 R² on training data for MinFlow (higher  better fit)
+163.6642 RMSE on held-out data for MinFlow
+0.8073 R² on held-out data for MinFlow (higher  better generalization)
+114.4234 RMSE on training data for maximum energy transfer (MaxFlow)
+0.8838 R² on training data for MaxFlow (higher  better fit)
+144.9614 RMSE on held-out data for MaxFlow
+0.8178 R² on held-out data for MaxFlow (higher  better generalization)
+
+Overall, the XGBoost model delivers excellent in-sample as well as out-of-sample accuracy.
+Similar outputs are available for each transfer limit.
+Maximum flow predictions: Ontario to New York
+Ontario and NYISO are connected through multiple high-voltage interconnections, which
+collectively provide a total transfer capability of up to 2,500 MW, subject to individual tie-line limits.
+Table B.2 outlines the data sources, preparation process, and assumptions used in creating
+datasets for the prediction models.
+Table B.2. Ontario to New York transmission flow data and assumptions overview.
+Data source
+Data preparation
+Assumptions
+
+Description
+https://www.ieso.ca/power-data/data-directory
+IESO public hourly inter-tie schedule flow data can be accessed for the
+years spanning from 2002 to 2023.
+Positive flow indicates that Ontario is exporting to NY, and negative flow
+indicates that Ontario is importing from NY.
+
+Figure B.4 illustrates the historical monthly MaxFlow for Ontario from 2007 through 2024,
+alongside 2030 projected quartile scenarios (Q1, Q2, and Q3). Analyzing these trends helps
+assess future reliability and facilitates capacity planning under varying conditions.
+
+U.S. Department of Energy
+
+B-4
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Historical monthly peaks (2007–2023) reveal a clear seasonal cycle for ONT–NYISO transfers:
+flows typically increase in late winter/early spring (February–April) and again in late fall/early
+winter (November–December). Over 16 years, the average spring peaks hovered around 1,700–
+1,900 MW, with occasional spikes above 2,200 MW. The 2030 forecast for Q1, Q2, and Q3 aligns
+with this pattern, predicting a springtime peak near 1,800 MW, a summer trough around 1,400
+MW, and a modest late-summer uptick near 1,500 MW.
+
+Figure B.4. Monthly maximum energy transfer between Ontario (ONT) and New York (NYISO).
+The team used robust validation metrics to justify these results. When trained on daily data from
+the 2010–2024 period—incorporating projected 2030 loads, seasonal flags, and holiday effects—
+the XGBoost model achieved R² > 0.80 and a root mean square error below 150 MW on an
+unseen 20 percent hold-out dataset. Moreover, the 95 percent confidence intervals for monthly
+maxima were narrow (approximately ±150 MW), demonstrating low predictive uncertainty. A
+comparison of predicted maxima with historical extremes revealed that 2030 forecasts
+consistently fell within (or slightly above) the previous window of variability, implying realistic
+demand-driven behavior. In summary, the close alignment with historical peaks, strong crossvalidated performance, and tight confidence bands collectively validate the results.
+
+Discussion
+The reason that the team used ML/XGBoost to approximate the 2030 transfer profiles was to
+ensure that there would be no violations or inconsistencies between transfer limits, load, and
+generation. The 15 years of data used were sufficient for having the models learn historical
+relationships and project them forward to 2030 to capture the underlying trends in load,
+
+U.S. Department of Energy
+
+B-5
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+generation, and their interactions. The use of such an extensive dataset justifies using ML to
+establish consistent transfer profiles.
+However, in some regions, like Ontario to NYISO, the available data encompassed a shorter time
+period, and the relationships were only partially captured because of a lack of neighboring-region
+data. In such cases, it was necessary to incorporate additional predictors, such as rolling and lag
+features from the transfer limits. Although the direct use of transfer limit data to project future
+transfer limits would typically be avoided, these engineered features help improve predictions
+when data coverage is sparse and the model’s goodness-of-fit is low.
+In all cases, the ML models ensured that these historical relationships were not violated,
+maintaining internal consistency among load, generation, and transfer limits. Overall, the team
+relied on ML when long-term data were available for training and projecting load and generation
+profiles. Rolling and lag features were used to reinforce the model when data availability was
+limited, but always with the goal of upholding consistent physical relationships in the 2030
+projections.
+Supplementary Plots for Additional Transfers
+This section presents figures and tables showing results and source data information for each
+transfer listed below:
+(iii) Pacific Northwest to British Columbia
+(iv) Alberta to Montana
+(v)
+
+Manitoba to MISO West
+
+(vi) Ontario to MISO West
+(vii) Ontario to MISO East
+(viii) Ontario to New York
+(ix) Hydro-Quebec to New York
+(x)
+
+Hydro-Quebec to New England
+
+(xi) New Brunswick to New England
+The figures show the daily MaxFlow for each transfer that was considered in this analysis.
+
+U.S. Department of Energy
+
+B-6
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure B.5. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between British Columbia and the Pacific Northwest.
+
+Figure B.6. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between AESO and Montana.
+
+U.S. Department of Energy
+
+B-7
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure B.7. Projected 2030 maximum energy transfer (MaxFlow) with 95 percent confidence
+interval (CI) between Manitoba and MISO.
+
+Figure B.8. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between Ontario and MISO West.
+
+U.S. Department of Energy
+
+B-8
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure B.9. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between Ontario and MISO East.
+
+Figure B.10. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between Ontario and New York.
+
+U.S. Department of Energy
+
+B-9
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure B.11. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between Quebec and New York.
+
+Figure B.12. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between Quebec and New England.
+
+U.S. Department of Energy
+
+B-10
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Figure B.13. Projected 2030 daily maximum energy transfer (MaxFlow) with 95 percent
+confidence interval (CI) between New Brunswick and New England.
+
+U.S. Department of Energy
+
+B-11
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+References
+1. AESO. 2019. “Annual Market Statistics Report”
+
+https://public.tableau.com/app/profile/market.analytics/viz/AnnualStatistics_1616185422
+8350/Introduction Last updated May 13, 2025.
+
+2. AESO. “Hourly Metered Volumes and Pool Price and AIL”
+
+https://www.aeso.ca/assets/Uploads/datarequests/Hourly_Metered_Volumes_and_Pool_Price_and_AIL.csv Accessed May 30,
+2025.
+
+3. AESO. 2016 “Historical Generation Data (CSD)” https://www.aeso.ca/market/market-
+
+and-system-reporting/data-requests/historical-generation-data Accessed May 30, 2025.
+
+4. BC Hydro. 2025. “Historical Transmission Data” https://www.bchydro.com/energy-inbc/operations/transmission/transmission-system/balancing-authority-load-data/historicaltransmission-data.html
+5. BPA. “Rolling 30 Days and Monthly History”
+
+https://transmission.bpa.gov/business/operations/paths/ Accessed May 30, 2025.
+
+6. BPA. “VER* Generation and Total Load in The BPA Balancing Authority”
+
+https://transmission.bpa.gov/business/operations/wind/ Accessed May 30, 2025.
+
+7. Government of Canada. 2022. “Historical Data on Electricity Consumption and
+
+Production in Quebec” https://open.canada.ca/data/en/dataset/bd6a1401-15db-438d9b8b-ff11af48064e Updated July 24, 2024.
+
+8. IESO. 2025. “Data Directory” https://www.ieso.ca/power-data/data-directory
+9. IESO. 2019. “Yearly Intertie Actual Schedule and Flow Report” https://reports-
+
+public.ieso.ca/public/IntertieScheduleFlowYear/ Updated May 30, 2025.
+
+10. IESO. 2018. ”Hourly Demand Report” https://reports-public.ieso.ca/public/Demand/
+
+Updated May 30, 2025.
+
+11. IESO. 2025. “Generator Output by Fuel Type Hourly Report” https://reports-
+
+public.ieso.ca/public/GenOutputbyFuelHourly/ Updated May 30, 2025.
+
+12. ISO-NE. 2025. “Energy, Load, and Demand Reports: Zonal Information” https://www.iso-
+
+ne.com/isoexpress/web/reports/load-and-demand/-/tree/zone-info
+
+13. ISO-NE. 2025. “Energy, Load, and Demand Reports: Historical Hourly Flows and Limits”
+
+https://www.iso-ne.com/isoexpress/web/reports/load-and-demand/-/tree/historical-hourlyflows-and-limits
+
+14. MISO. “Load, Generation, and Interchange API” https://dataexchange.misoenergy.org/api-details#api=load-generation-and-interchangeapi&operation=get-v1-real-time-date-interchange-net-actual Accessed May 30, 2025.
+
+U.S. Department of Energy
+
+C-1
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+15. NB Power. 2025. “System Information Archive”
+https://tso.nbpower.com/Public/en/system_information_archive.aspx Accessed May 30,
+2025.
+16. NYISO. 2002 “Internal and External Interface Limits and Flows”
+https://mis.nyiso.com/public/P-32list.htm Updated May 30, 2025.
+17. NYISO. 2004 “Day-Ahead Markey Daily Energy Report" https://mis.nyiso.com/public/P30list.htm Updated May 30, 2025
+18. Stephen et al. 2022. “Clarifying the Interpretation and Use of the LOLE Resource
+Adequacy Metric” https://www.spp.org/documents/69303/lole%20metric.pdf
+
+U.S. Department of Energy
+
+C-2
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+EO 14262
+
+U.S. Department of Energy
+
+C-3
+
+Report on Strengthening U.S. Grid Reliability and Security
+
+Available at (accessed on 5/27/2025):
+https://www.federalregister.gov/documents/2025/04/14/2025-06381/strengthening-the-reliabilityand-security-of-the-united-states-electric-grid
+
+U.S. Department of Energy
+
+C-4
+
+For more information, visit:
+energy.gov/topics/reliability
+DOE/Publication Number • July, 7 2025
+DOE/GO-000000-0000 ▪ Month Year
+
+

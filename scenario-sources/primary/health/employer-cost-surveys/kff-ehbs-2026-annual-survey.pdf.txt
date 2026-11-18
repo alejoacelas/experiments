@@ -1,0 +1,3299 @@
+Employer
+Health Benefits
+Annual Survey
+2026
+
+Primary Authors
+KFF
+Gary Claxton
+Matthew Rae
+Aubrey Winger
+Emma Wager
+
+Davis Research
+Ellen Byers
+Jason Kerns
+Greg Shmavonian
+
+Independent Consultant
+Anthony Damico
+
+The authors would like to thank Carene Clark, Tricia Neuman, Nirmita Panchal,
+Alice Burns, Juliette Cubanski, Alina Salganicoff, Laurie Sobel, Usha Ranji,
+Brittni Frederiksen, Kaye Pestaina, Matt McGough, Craig Palosky, Khanh Pham,
+Jennifer Tolbert, Cynthia Cox, Larry Levitt, and Drew Altman for their many
+contributions in making this report possible.
+KFF is the independent source for health policy research, polling, and news.
+Our mission is to serve as a nonpartisan source of information for
+policymakers, the media, the health policy community, and the public.
+
+Copyright © 2026 KFF, San Francisco, California. All rights reserved.
+Printed in the United States of America.
+
+2026 Employer Health Benefits Survey
+KFF
+October 22, 2026
+
+TABLE OF CONTENTS
+
+Table of Contents
+Introduction
+
+5
+
+Summary of Findings
+
+8
+
+HEALTH INSURANCE PREMIUMS AND WORKER CONTRIBUTIONS . . . . . . . . . . . . . . . . . . . .
+
+8
+
+PLAN ENROLLMENT
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+11
+
+SELF‑FUNDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+EMPLOYEE COST SHARING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+AVAILABILITY OF EMPLOYER‑SPONSORED COVERAGE . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+GLP‑1 DRUG COVERAGE FOR WEIGHT LOSS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+IN VITRO FERTILIZATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+PRIOR AUTHORIZATION OF SERVICES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+ABILITY OF EMPLOYERS TO OBTAIN INFORMATION ABOUT THE COST AND USE OF SERVICES . . . . . .
+
+16
+
+PROVIDER NETWORKS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+18
+
+DISCUSSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+METHODOLOGY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+20
+
+Survey Design and Methods
+
+22
+
+SURVEY TOPICS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+22
+
+SAMPLE DESIGN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+22
+
+RESPONSE RATE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+FIRM SIZES AND KEY DEFINITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+
+ROUNDING AND IMPUTATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+
+WEIGHTING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+STATISTICAL SIGNIFICANCE AND LIMITATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+DATA COLLECTION AND SURVEY MODE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+EMPLOYER SURVEY LANDSCAPE
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+31
+
+PREFERRED REPORTING ITEMS FOR COMPLEX SAMPLE SURVEY ANALYSIS (PRICSSA) . . . . . . . . . .
+
+31
+
+2026 SURVEY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+32
+
+OTHER RESOURCES
+
+32
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1 Cost of Health Insurance
+
+35
+
+PREMIUMS FOR SINGLE AND FAMILY COVERAGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+35
+
+PREMIUM DISTRIBUTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+PREMIUM CHANGES OVER TIME . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+44
+
+KFF / Page 2
+
+TABLE OF CONTENTS
+2 Health Benefits Offer Rates
+
+48
+
+FIRM OFFER RATES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+48
+
+OFFERS TO SPOUSES AND DEPENDENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+52
+
+PROVISIONS TO ENCOURAGE ENROLLMENT IN OTHER COVERAGE
+
+. . . . . . . . . . . . . . . . . . .
+
+53
+
+SPOUSAL ELIGIBILITY AND SURCHARGES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+PART‑TIME WORKERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+56
+
+CHOICE/ICHRA AND ASSISTING EMPLOYEES WITH PURCHASING COVERAGE IN THE NON‑GROUP MARKET
+
+57
+
+FIRMS NOT OFFERING HEALTH BENEFITS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+60
+
+3 Employee Coverage, Eligibility, and Participation
+
+65
+
+ELIGIBILITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+65
+
+TAKE‑UP RATE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+70
+
+COVERAGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+71
+
+COVERAGE AMONG ALL FIRMS
+
+73
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4 Types of Plans Offered
+
+76
+
+NUMBER OF PLAN TYPES OFFERED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+76
+
+PERCENTAGE OF FIRMS OFFERING HSA‑QUALIFIED PLANS . . . . . . . . . . . . . . . . . . . . . . .
+
+79
+
+5 Market Shares of Health Plans
+
+83
+
+COVERAGE IN HSA‑QUALIFIED PLANS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6 Worker and Employer Contributions for Premiums
+
+85
+88
+
+DISTRIBUTIONS OF WORKER CONTRIBUTIONS TO THE PREMIUM . . . . . . . . . . . . . . . . . . . .
+
+93
+
+DIFFERENCES BY FIRM CHARACTERISTICS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+97
+
+DIFFERENCES BY REGION AND INDUSTRY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+101
+
+CHANGES OVER TIME . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+102
+
+7 Employee Cost‑Sharing
+
+107
+
+GENERAL ANNUAL DEDUCTIBLES FOR WORKERS IN PLANS WITH DEDUCTIBLES . . . . . . . . . . . . .
+
+107
+
+GENERAL ANNUAL DEDUCTIBLES AMONG ALL COVERED WORKERS . . . . . . . . . . . . . . . . . . .
+
+113
+
+GENERAL ANNUAL DEDUCTIBLES AND ACCOUNT CONTRIBUTIONS . . . . . . . . . . . . . . . . . . .
+
+116
+
+GENERAL ANNUAL DEDUCTIBLES FOR WORKERS ENROLLED IN FAMILY COVERAGE . . . . . . . . . . .
+
+119
+
+COVERAGE OF SERVICES AND PRODUCTS BEFORE MEETING THE GENERAL ANNUAL DEDUCTIBLE . . . .
+
+124
+
+HOSPITAL ADMISSIONS AND OUTPATIENT SURGERY . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+125
+
+COST‑SHARING FOR PHYSICIAN OFFICE VISITS . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+130
+
+OUT‑OF‑POCKET MAXIMUMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+135
+
+KFF / Page 3
+
+TABLE OF CONTENTS
+8 Health Plans with Savings Accounts
+
+139
+
+AVAILABILITY OF AND ENROLLMENT IN HSA‑QUALIFIED PLANS . . . . . . . . . . . . . . . . . . . . .
+
+139
+
+EMPLOYER CONTRIBUTIONS TO HSA ACCOUNTS . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+139
+
+WORKER AND EMPLOYER CONTRIBUTIONS TO HSA‑QUALIFIED PLAN PREMIUMS . . . . . . . . . . . .
+
+142
+
+COST‑SHARING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+145
+
+HEALTH REIMBURSEMENT ARRANGEMENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+147
+
+9 Prescription Drug Benefits
+
+151
+
+TIERS NOT EXCLUSIVELY FOR SPECIALTY DRUGS
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+152
+
+COINSURANCE MAXIMUMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+156
+
+SEPARATE TIERS FOR SPECIALTY DRUGS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+157
+
+10 Plan Funding
+
+164
+
+SELF‑FUNDED PLANS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+164
+
+LEVEL‑FUNDED PLANS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+168
+
+STOPLOSS COVERAGE
+
+170
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+11 Retiree Health Benefits
+
+173
+
+EMPLOYER RETIREE BENEFITS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+173
+
+BENEFIT ELIGIBILITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+176
+
+MEDICARE ADVANTAGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+178
+
+12 Employer Opinions and Practices: Satisfaction with Health Plans, Provider Networks, Coverage for
+GLP‑1s, and Access to Data
+182
+EMPLOYER SATISFACTION WITH HEALTH PLANS . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+182
+
+HEALTH PLAN NETWORKS
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+184
+
+REACTIONS TO HIGHER PROJECTED COSTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+190
+
+GLP‑1 DRUG COVERAGE FOR WEIGHT LOSS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+191
+
+PRIOR AUTHORIZATION OF SERVICES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+195
+
+IN VITRO FERTILIZATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+197
+
+EMPLOYER ACCESS TO INFORMATION ABOUT THE COST AND USE OF MEDICAL SERVICES BY PLAN EN‑
+ROLLEES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+197
+
+EMPLOYER ACCESS TO INFORMATION ABOUT THE COST AND USE OF PRESCRIPTION DRUGS . . . . . .
+
+202
+
+KFF / Page 4
+
+INTRODUCTION
+
+Introduction
+Employer‑sponsored insurance covers 157 million people under age 65. To provide a current snapshot of
+employer‑sponsored health benefits, KFF conducts an annual survey of private and non‑federal public
+employers with 10 or more workers. This is the 28th Employer Health Benefits Survey (EHBS) and reflects
+employer‑sponsored health benefits in 2026. As in years past, the survey examines trends in employer coverage,
+including premiums, employee contributions, cost sharing, offer rates, and employer practices. This year, we
+asked employers detailed questions about satisfaction with their health plans; coverage of GLP‑1 agonists and
+IVF; actions taken in response to projected cost increases; and firms’ ability to obtain information about health
+care costs and utilization. The 2026 survey includes 1,937 interviews with non‑federal public and private firms.
+The survey was fielded from December 2025 through July 2026.
+
+Key Findings
+• Family premiums reach $28,000. The average annual premium for family coverage reached $28,303 this
+year, 5 percent higher than last year. Over the last five years, family premiums grew 28%, compared with
+inflation of 24.4% and wage growth of 26.9%.
+• Coverage rates remain stable. Among workers in all firms, including those that offer and those that do
+not offer health benefits, 55% are covered by health benefits offered by their employer, similar to the
+percentage last year (55%). Sixty‑six percent of small firms and 98% of large firms offer health benefits to at
+least some workers, with an overall offer rate of 67%.
+• Some large firms responded to projected cost increases by increasing workers’ premium
+contributions or cost sharing. Among large firms offering health benefits, 44% increased the share of
+premiums paid by workers, and 21% increased deductibles or other cost sharing for most services. In 2026,
+covered workers contribute an average of 18% of the premium for single coverage and 27% for family
+coverage.
+• Average deductible nears $2,000. Among workers who face an annual deductible for single coverage, the
+average this year stands at $1,955, compared to $1,886 in 2025. Covered workers at small firms face much
+larger average deductibles than workers at larger firms ($2,624 vs. $1,772).
+• Coverage of GLP‑1 drugs for weight loss has remained relatively stable. Among firms with 200 or more
+workers, the share covering GLP‑1 agonists for weight loss is similar to the previous two years. Among
+firms with 200 or more workers that cover GLP‑1 agonists for weight loss, 29% say that covering these
+medications has had a significant impact on their plan’s prescription drug spending, including 61% of firms
+with 5,000 or more workers.
+• In‑vitro fertilization coverage. About a quarter (27%) of large firms provide coverage for in‑vitro
+fertilization services, unchanged from 2024.
+• Mail‑order prescription drug alternatives. A third (33%) of employers with at least 50 workers offer
+enrollees access to lower‑cost mail‑order generic drugs through venders such as GoodRx, Single‑Care, or
+Mark Cuban Cost Plus. In addition, 9% participate in an international prescription drug purchasing service,
+such as ScriptSourcing or CanaRx, to access discounted maintenance medications from outside the U.S.
+• On‑site and near‑site clinics. A quarter (24%) of offering employers with at least 50 workers provide
+health services by contracting with clinics either on site or near their site. These clinics treat both
+work‑related and non‑work‑related conditions.
+
+KFF / Page 5
+
+INTRODUCTION
+• Firms report narrower networks for mental health and substance use services than for providers
+overall. Among firms offering health benefits, 15% characterize the network for mental health and
+substance use services as “somewhat narrow” or “very narrow,” compared with 7% for providers overall.
+Three in ten large firms added new virtual providers for substance use services in the past two years.
+Survey results are released in several formats, including a full report with downloadable tables and a summary of
+findings. Additional resources, including an interactive graphic of premium trends and a de‑identified public‑use
+dataset, are available at ehbs.kff.org.
+
+KFF / Page 6
+
+(+'*4 -
+
+'/# ) জ/. · Annual Survey 2026
+
+Summary of Findings
+
+SUMMARY OF FINDINGS
+
+Summary of Findings
+Employer‑sponsored insurance covers almost 157 million people under age 651 . To provide a current snapshot
+of employer‑sponsored health benefits, KFF conducts an annual survey of private and non‑federal public
+employers with ten or more workers. This is the 28th Employer Health Benefits Survey (EHBS), reflecting
+employer‑sponsored health benefits in 2026.
+
+HEALTH INSURANCE PREMIUMS AND WORKER CONTRIBUTIONS
+The average annual premiums for employer‑sponsored health insurance in 2026 are $9,804 for single coverage
+and $28,303 for family coverage. Over the last year, the average single premium increased by 5%, and the average
+family premium increased by 5%. By comparison, workers’ wages increased by 3.7%, while inflation was 2.7%.2 3
+Over the last five years, the average premium for family coverage has increased by 28%, compared with a 26.9%
+increase in workers’ wages and inflation of 24.4% [Figure A, Figure B].
+The average premium for smaller firms (firms with 10 to 199 workers) is similar to the average premium at larger
+firms for covered workers with single coverage ($9,593 and $9,865) but lower for covered workers with family
+coverage ($27,288 vs. $28,592) [Figure C]. The average premiums for covered workers in HSA‑qualified plans are
+lower than the overall average premiums for both single coverage ($8,989) and family coverage ($26,450). The
+average premiums for covered workers enrolled in PPOs are higher than the overall average premiums for both
+single ($10,272) and family coverage ($29,522).
+Premiums also vary with firm characteristics. Average premiums for covered workers are relatively high in the
+Northeast for both single coverage ($10,806) and for family coverage ($31,378) and are relatively low in the South
+for both single coverage ($9,272) and for family coverage ($26,702). The average premiums for covered workers
+at firms with relatively large shares of higher‑wage workers (where at least 35% of workers earn $82,000 a year or
+more) are higher than the average premiums for covered workers at firms with smaller shares of higher‑wage
+workers for family ($29,139 vs. $27,664) coverage. The average premium for family coverage for covered workers
+at firms with a relatively large share of older workers (where at least 35% of the workers are age 50 or older) is
+higher than the average premium for covered workers at firms with a smaller share of older workers ($28,689
+vs. $27,889). The average premium for single coverage for covered workers in private, for‑profit firms is relatively
+low ($9,291); the average premiums for covered workers in private, not‑for‑profit firms are relatively high for both
+single ($10,927) and family ($30,783) coverage [Figure C].
+1
+
+KFF’s analysis of data from the 2024 American Community Survey. See KFF. Health insurance coverage of the population ages 0–64 [Internet].
+San Francisco (CA): KFF; [cited 2026 Aug 19]. [Time frame: 2024]. Available from: https://www.kff.org/state‑health‑policy‑data/state‑
+indicator/health‑insurance‑coverage‑population‑0‑64/.
+2
+Bureau of Labor Statistics, Mid‑Atlantic Information Office. Consumer Price Index historical tables for U.S. city average (1967=100), Consumer
+Price Index for All Urban Consumers (CPI‑U) (not seasonally adjusted) [Internet]. Philadelphia (PA): BLS, Mid‑Atlantic Information Office.
+Available from: https://www.bls.gov/regions/mid‑atlantic/data/consumerprice indexhistorical1967base_us_table.htm
+3
+Average hourly earnings of production and nonsupervisory employees (seasonally adjusted) from the Current Employment Statistics
+survey. See Bureau of Labor Statistics. Current Employment Statistics—CES (national) [Internet]. Washington (DC): BLS;. Available from:
+https://www.bls.gov/ces/data/
+
+KFF / Page 8
+
+SUMMARY OF FINDINGS
+
+KFF / Page 9
+
+SUMMARY OF FINDINGS
+
+Most covered workers contribute to the cost of the premium directly. On average, covered workers contribute
+18% of the premium for single coverage and 27% of the premium for family coverage, similar to the percentages
+contributed in 2025. The average contribution rates for single coverage are similar for covered workers in smaller
+firms and larger firms (16% vs. 18%) but the average contribution rate for family coverage is much higher for
+covered workers in smaller firms than for those in larger firms (37% vs. 25%). On average, covered workers
+at private, for‑profit firms have a relatively high premium contribution rate for single coverage (20%). The
+average contribution rate for family coverage is higher for covered workers in firms with relatively large shares of
+lower‑wage workers (where at least 35% earn $38,000 or less annually) than those in firms with smaller shares of
+lower‑wage workers (31% vs. 27%).
+Twenty‑nine percent of covered workers at smaller firms are enrolled in a plan where the employer pays the
+entire premium for single coverage, compared with only 5% of covered workers at larger firms. In contrast, 32%
+of covered workers at smaller firms are in a plan where they must contribute more than half of the premium for
+family coverage, compared to 6% of covered workers at larger firms [Figure D].
+The average annual contribution amounts for covered workers are $1,672 for single coverage and $7,471 for
+family coverage, both higher than last year. The average contribution amount for family coverage for covered
+workers at smaller firms ($9,687) is higher than the amount for covered workers at larger firms ($6,840) [Figure
+C]. Thirteen percent of covered workers, including 31% of covered workers at smaller firms, are in a plan with a
+worker contribution of $12,000 or more for family coverage. The average contribution amount for family coverage
+for covered workers enrolled in HSA‑qualified plans is lower than the overall average contribution amount for
+covered workers ($6,211 vs. $7,471).
+
+REACTIONS TO HIGHER PROJECTED COSTS
+Employers have multiple avenues by which they can respond to higher health care costs. These include
+increasing the amount of the premium that workers pay for coverage, changing provider networks, or modifying
+KFF / Page 10
+
+SUMMARY OF FINDINGS
+benefits. The cost of health benefits was projected to increase substantially in 2026, and early projections for
+2027 point to further cost growth. Firms offering health benefits were asked whether they took certain actions in
+response to projected cost increases for their plan with the largest enrollment.
+The most commonly reported employer action by large firms was increasing the share of the premium that
+workers contribute toward their coverage (44%). Other actions by large firms included increasing deductibles
+or other cost sharing for most services (21%), changing insurers or plan administrators (16%), increasing cost
+sharing for specific services (14%), adding utilization management requirements, such as prior authorization,
+for some services (10%), switching to a plan with a tiered or narrower provider network (7%), and reducing or
+tightening eligibility for certain benefits (4%) [Figure D].
+Large firms offering health benefits were generally more likely to report taking actions in response to projected
+cost increases compared to firms overall. Among all firms, 18% increased the share of premiums paid by workers,
+and 4% increased deductibles or other cost sharing for most services.
+
+PLAN ENROLLMENT
+Health plans are often categorized into plan types based on their coverage of out‑of‑network services and
+whether they require primary care referrals. This survey classifies plans into five plan types. Beginning in 2026,
+this survey changed how it classifies high‑deductible health plans associated with a Health Reimbursement
+Arrangement (HRA). In previous years, these plans were grouped with HSA‑qualified plans in a broader HDHP/SO
+(high‑deductible health plan with a savings option) category. HRA plans are now classified as PPOs, POS plans, or
+HMOs based on their plan characteristics. HSA‑qualified plans are now reported as a separate plan type.
+PPOs continue to be the most common plan type in 2026. Fifty percent of covered workers are enrolled in a PPO,
+29% are enrolled in an HSA‑qualified plan, 12% are enrolled in an HMO, 8% are enrolled in a POS plan, and less
+KFF / Page 11
+
+SUMMARY OF FINDINGS
+than one percent are enrolled in a conventional (also known as an indemnity) plan.
+
+SELF‑FUNDING
+Many firms, particularly larger firms, have self‑funded health plans, which means that they pay for health services
+for enrollees directly from their own funds, rather than through the purchase of health insurance. Seventy‑one
+percent of covered workers, including 25% of covered workers at smaller firms and 85% at larger firms, are
+enrolled in plans that are self‑funded.
+Thirty‑eight percent of covered workers in smaller firms are covered by a level‑funded plan, similar to the
+percentage in 2025. Level‑funded arrangements combine a relatively small self‑funded component with stop‑loss
+insurance, which limits the employer’s liability and transfers a substantial share of risk to insurers. These plans
+have the potential to meaningfully affect competition in the small group market because, unlike insured plans,
+they may use health status in rating and underwriting. Level‑funded plans are also not required to provide all of
+the essential health benefits that are mandatory for insured plans.
+
+EMPLOYEE COST SHARING
+Eighty‑eight percent of workers with single coverage have a general annual deductible that must be met before
+most services are paid for by the plan, the same as the percentage last year (88%).
+Among covered workers in a plan with a general annual deductible in 2026, the average deductible amount is
+$1,955, similar to the amount last year. The average deductible for covered workers at smaller firms ($2,624) is
+higher than the average deductible at larger firms ($1,772). For covered workers in a plan with a general annual
+deductible, the average deductible for single coverage has increased 18% over the last five years and 34% over
+the last 10 years.
+Thirty‑eight percent of covered workers in 2026 are in a plan with a general annual deductible of $2,000 or more
+for single coverage, similar to the percentage (34%) last year. Over half (55%) of covered workers in smaller firms
+are in such a plan, compared with 33% of covered workers in larger firms [Figure E]. The share of covered workers
+in a plan with a general annual deductible of $2,000 or more for single coverage has increased 31% over the last
+five years and 63% over the last ten years.
+
+KFF / Page 12
+
+SUMMARY OF FINDINGS
+
+Some workers in health plans with high deductibles also receive contributions to savings accounts from their
+employers, which can be used to reduce cost sharing liability. Among covered workers in an HSA‑qualified health
+plan, 3% receive an account contribution for single coverage that is greater than or equal to their deductible
+amount, and an additional 10% of covered workers in an HSA‑qualified plan receive account contributions that, if
+applied to their deductible, would reduce their personal annual liability to less than $1,000. Some workers also
+have access to funds in health reimbursement arrangements (HRAs) established by their employers, which can
+often be used for cost sharing. As of 2026, this survey no longer collects the amounts contributed to HRAs, so the
+impacts of these contributions on worker cost sharing cannot be calculated. In 2026, 8% of covered workers are
+in a plan that is offered along with a health reimbursement arrangement. Among these covered workers, 61% are
+in a plan where the HRA contribution can be used to reduce plan cost sharing liability.
+In addition to any general annual deductible they may have, most covered workers also pay a portion of the
+cost of care when they use health care services, typically a copayment (a fixed dollar amount) or coinsurance
+(a percentage of the covered amount). For physician office visits, the average copayment for a primary care
+visit is $27 and the average copayment for a visit to a specialist is $46. Each of these amounts is similar to the
+amount last year. The average coinsurance rate is 20% for both primary care and specialist visits, similar to the
+percentages last year.
+When admitted to the hospital, 60% of covered workers have a coinsurance requirement, 11% have a copayment,
+and 10% have both. The average coinsurance rate for a hospital admission is 20% and the average copayment
+amount is $317. The cost sharing requirements for outpatient surgery follow a similar pattern to those for
+hospital admissions, although the average copayment amount for outpatient surgery is lower ($205).
+Virtually all covered workers are in plans with an annual limit on in‑network cost sharing (called an out‑of‑pocket
+maximum) for single coverage, although these limits vary significantly. Among covered workers in plans with an
+out‑of‑pocket maximum for single coverage, 14% are in a plan with an out‑of‑pocket limit of $2,000 or less, while
+24% are in a plan with a limit above $6,000.
+KFF / Page 13
+
+SUMMARY OF FINDINGS
+
+AVAILABILITY OF EMPLOYER‑SPONSORED COVERAGE
+In 2026, 67% of firms with 10 or more workers offer health benefits, higher than the percentage last year (61%)
+but similar to the percentage two years ago (65%) and lower than the percentage (73%) five years ago.
+Because most firms are small, the overall offer rate can fluctuate over time, as estimates for smaller firms tend to
+vary considerably from year to year. Most workers, however, work for larger firms, where offer rates are higher
+and much more stable. Among firms with 200 or more workers, 98% of firms with 200 to 999 workers and over
+99% of firms with 1,000 or more workers offer health benefits to at least some of their workers. Overall, 92%
+of workers are employed by a firm that offers health benefits to at least some of its workers, lower than the
+percentage (94%) five years ago.
+Inducements Not to Enroll. Among firms with ten or more employees that offer health benefits, 8% provide
+additional compensation or benefits to employees if they enroll in a spouse’s plan, and 7% provide additional
+compensation or benefits to employees if they do not participate in the firm’s health benefits.
+Even in firms offering health benefits, many workers are not covered by health benefits provided by the firm.
+Some are not eligible to enroll (due to factors such as waiting periods or part‑time/temporary work status), while
+others who are eligible choose not to enroll (they may feel the coverage is too expensive, or they may be covered
+through another source). Additionally, some firms provide incentives for workers or spouses of workers not to
+enroll in their plans, or to enroll in a spouse’s plan. On average, at firms that offer coverage, 80% of workers are
+eligible. Among eligible workers, 74% take up the firm’s offer. Overall, 59% of workers at firms that offer health
+benefits are enrolled in that coverage. All of these percentages are similar to the percentages in 2025.
+The coverage rate varies with workforce characteristics. Among workers at firms offering health benefits, those
+working for firms with a relatively large share of younger workers are less likely to be covered by their own firm
+than workers in firms with a smaller share of younger workers (44% vs. 62%) and those working at firms with a
+relatively large share of lower‑wage workers are less likely to be covered by their own firm than workers at firms
+with a smaller share of lower‑wage workers (47% vs. 61%)4 . Workers at public organizations are more likely to be
+covered by their own employer (72%) than workers at private for‑profit firms (57%), or private not‑for‑profit firms
+(57%).
+Across firms that offer health benefits and firms that do not, 55% of workers are covered by a health plan offered
+by their employer, the same percentage as last year.
+
+GLP‑1 DRUG COVERAGE FOR WEIGHT LOSS
+GLP‑1 (glucagon‑like peptide‑1) agonists, used to help control blood sugar levels in people with type 2 diabetes,
+have also been shown to be effective at helping people lose weight. Health plans generally have covered these
+medications when prescribed for people with diabetes, but there is now widespread interest in their use for
+people who have a clinical need to lose weight. Although the cost of these drugs has been decreasing, the large
+number of people who may benefit from them, combined with the potential of long‑term maintenance usage,
+has raised questions about their impact on plan costs. The increasing availability of direct‑to‑consumer programs
+for these medications, often at relatively low costs, has also provided options for employers to potentially fund
+access to these medications through account contributions.
+Among firms that offer health benefits with 200 or more workers, 16% of firms with 200 to 999 workers, 29% of
+firms with 1,000 to 4,999 workers, and 33% of firms with 5,000 or more workers cover GLP‑1 agonists when used
+primarily for weight loss in 2026. The overall percentage of firms with 200 or more workers that cover GLP‑1
+agonists for weight loss (18%) is similar to the percentage last year (19%) and two years ago [Figure F]. Forty
+percent of firms that cover these medications for weight loss, including 59% of firms with 5,000 or more workers,
+4
+
+This threshold is based on the twenty‑fifth percentile of workers’ earnings ($38,000 in 2026). Seasonally adjusted data from the Current
+Employment Statistics Survey. Bureau of Labor Statistics. Current Employment Statistics—CES (national) [Internet]. Washington (DC): BLS.
+Available from: https://www.bls.gov/ces/publications/highlights/highlights‑archive.htm
+
+KFF / Page 14
+
+SUMMARY OF FINDINGS
+require enrollees to meet with a dietitian, case manager, or therapist, or participate in a lifestyle program in order
+for the drug to be covered, similar to the percentage (34%) last year.
+Among firms with 200 or more workers that cover GLP‑1 agonists for weight loss in their plan with the largest
+enrollment, 29% say that covering these medications has had a “significant” impact on their plan’s prescription
+drug spending, 27% say that the impact on spending has been “moderate”, 23% say that the impact on spending
+has been “minor”, 10% say that there has been no impact on spending, and 11% say they do not know. The share
+of these firms saying that covering GLP‑1 agonists for weight loss has had a significant impact on prescription
+drug spending increases with firm size, ranging from 21% of firms with 200 to 999 workers to 61% of firms with
+5,000 or more workers.
+Among firms with 200 or more workers that offer health benefits and do not cover GLP‑1 agonists for weight loss,
+only 1% say that they are “very likely” to begin covering GLP‑1 agonists for weight loss within the next 12 months,
+13% say that they are “somewhat likely,” 79% say that they are “not likely,” and 7% do not know the answer to
+the question. Twelve percent of these firms say that they have stopped covering these medications for weight
+loss within the last 12 months.
+
+PRESCRIPTION DRUG POLICY
+Some employers are pursuing strategies outside of their health plan or pharmacy benefit manager (PBM) to help
+workers obtain lower‑cost prescription drugs. Firms with 50 or more workers offering prescription drug coverage
+were asked about several of these approaches. Thirty‑three percent of these employers offer enrollees access to
+lower‑cost mail‑order generic drugs through a third‑party vendor, such as Mark Cuban Cost Plus, SingleCare, or
+GoodRx.
+Eleven percent of these employers limit coverage for certain prescriptions exclusively to mail‑order pharmacies.
+In these cases, the plan does not pay for those prescriptions if an enrollee uses an in‑person pharmacy.
+KFF / Page 15
+
+SUMMARY OF FINDINGS
+A smaller share of employers participate in an international prescription drug purchasing service, such as
+ScriptSourcing or CanaRx, which provides access to discounted maintenance medications purchased outside the
+United States (9%).
+
+IN VITRO FERTILIZATION
+Improving affordable access to in vitro fertilization (IVF) and other assisted reproductive services has been a topic
+of public debate in recent years, particularly after President Trump campaigned on the idea of providing access to
+these services at no cost. Among firms with 200 or more workers, 24% of firms with 200 to 999 workers, 38% of
+firms with 1,000 to 4,999 workers, and 47% of firms with 5,000 or more workers provide coverage for IVF services
+in their plan with largest enrollment, either through their plan or through a third‑party vendor. Firms with 200 to
+999 workers are more likely than larger firms to say that they do not know (27% vs. 9%).
+
+PRIOR AUTHORIZATION OF SERVICES
+Health plan management practices, particularly prior authorization, have received considerable recent attention.
+Firms with 200 or more workers offering health benefits were asked about recent changes in the use of prior
+authorization in their plan with the largest enrollment. Seven percent of these firms say that the number
+of services subject to prior authorization is “higher” than it was last year, 2% say that it is “lower” than last
+year, 70% say that it is “about the same” as last year, and 21% say they do not know. Firms with 1,000 or more
+workers are more likely than firms with 200 to 999 workers to say that the number of services subject to prior
+authorization is “higher” than it was last year (12% vs. 6%). Among firms that say that the number of services
+subject to prior authorization is “higher” than it was last year, 48% say that prior authorization was added to
+additional services to help control overall cost growth in the plan.
+
+ABILITY OF EMPLOYERS TO OBTAIN INFORMATION ABOUT THE COST AND
+USE OF SERVICES
+Firms that offer health benefits with 200 or more workers were asked about their ability to obtain information
+about the cost and use of medical services (other than prescription drugs) in their plan with the largest
+enrollment. This information might include summary information from an insurer or plan administrator or more
+specific data reports. Specifically, firms were asked how strongly they agree or disagree that they are able to
+obtain enough information to understand each of these areas [Figure G]:
+• Service use by type of medical provider. Sixteen percent of these firms “strongly agree” that they
+are able to get sufficient information to understand the service use of plan enrollees by type of medical
+provider, 54% of the firms “agree” that they are able to get this information, 12% “disagree” that they are
+able to get this information, 3% “strongly disagree” that they are able to get this information, and 16% say
+that they do not know. Firms with 1,000 or more workers are more likely than firms with 200 to 999 workers
+to say that they “strongly agree” that they are able to get sufficient information to understand the service
+use of plan enrollees by type of medical provider (25% vs. 14%).
+• The medical conditions of plan enrollees, including those that contribute the most to plan
+cost. Twenty percent of these firms “strongly agree” that they are able to get sufficient information to
+understand the medical conditions of plan enrollees, including those that contribute the most to plan cost,
+52% of the firms “agree” that they are able to get this information, 11% “disagree” that they are able to get
+this information, 4% “strongly disagree” that they are able to get this information, and 14% say they do not
+know. Firms with 1,000 or more workers are more likely than firms with 200 to 999 workers to say that they
+KFF / Page 16
+
+SUMMARY OF FINDINGS
+“strongly agree” that they are able to get sufficient information to understand the medical conditions of
+plan enrollees (28% vs. 18%).
+• The prevalence of chronic conditions among plan enrollees. Eighteen percent of these firms
+“strongly agree” that they are able to get sufficient information to understand the prevalence of chronic
+conditions among plan enrollees, 52% of the firms “agree” that they are able to get this information, 12%
+“disagree” that they were able to get this information, 2% “strongly disagree” that they are able to get this
+information, and 15% say they do not know. Firms with 1,000 or more workers are more likely than firms
+with 200 to 999 workers to say that they “strongly agree” that they are able to get sufficient information to
+understand the prevalence of chronic conditions among plan enrollees (27% vs. 16%).
+• The prices the plan pays to in‑network providers, and how those prices compare to other providers.
+Fourteen percent of these firms “strongly agree” that they are able to get sufficient information to
+understand the prices the plan pays to in‑network providers and how those prices compare to other
+providers, 46% of the firms “agree” that they are able to get this information, 19% “disagree” that they are
+able to get this information, 4% “strongly disagree” that they are able to get this information, and 17% say
+they do not know.
+• Areas where enrollees may have unmet needs or gaps in care. Ten percent of these firms “strongly
+agree” that are able to get sufficient information to understand areas of unmet needs or gaps in care, 45%
+of the firms “agree” that they are able to get this information, 20% “disagree” that they are able to get this
+information, 5% “strongly disagree” that they are able to get this information, and 19% say they do not
+know.
+
+KFF / Page 17
+
+SUMMARY OF FINDINGS
+
+PROVIDER NETWORKS
+Employers that offer health benefits were asked to characterize the breadth of the provider network in their plan
+with the largest enrollment, for all providers as well as specifically for services for mental health and substance
+use conditions.
+Fifty‑one percent of firms characterize the network in their plan with the largest enrollment as “very broad,”
+38% say it is “somewhat broad,” and 7% say it is “somewhat narrow” or “very narrow.” Firms with 200 or more
+employees are more likely than smaller firms to characterize the provider network in their plan with the largest
+enrollment as “very broad” (64% vs. 50%).
+Twenty‑two percent of firms characterize the network in their plan with the largest enrollment as “very broad”
+for mental health and substance use condition services, 42% say it is “somewhat broad” for these services, and
+15% say it is “somewhat narrow” or “very narrow”. Firms with 200 or more employees are more likely than
+smaller firms to characterize the provider network in their plan with the largest enrollment as “very broad” for
+mental health and substance use condition services (32% vs. 21%).
+Employers that offer health benefits are less likely to characterize the network in their plan with the largest
+enrollment as “very broad” for mental health and substance use condition services than for medical services
+overall. This is true for small firms (10 to 199 employees) (21% vs. 50%) and larger firms (32% vs. 64%).
+
+TREATMENT OPTIONS FOR SUBSTANCE USE CONDITIONS
+Firms with 200 or more workers offering health benefits were asked whether they had made efforts in the last
+two years to expand the availability of services to treat substance use conditions. Among these firms, 34% say
+that they have added new virtual providers within the last two years, and 20% say that they have added new
+providers or facilities for in‑person care.
+
+EMPLOYER SATISFACTION WITH HEALTH PLANS
+Firms that offer health benefits were asked about their satisfaction with several aspects of the health plans they
+offer [Figure H]:
+• Cost of care: Employers have low levels of satisfaction with the overall cost of care for their workers. Only
+17% of firms say they are “very satisfied” with the overall cost of care, while 51% say they are “satisfied.” In
+contrast, 29% say they are “dissatisfied” or “very dissatisfied”.
+• Quality of network providers: Firms report higher levels of satisfaction with the quality of providers
+participating in their plan networks. Forty‑two percent of firms say they are “very satisfied”, and 53% say
+they are “satisfied.” Only 2% say they are “dissatisfied” or “very dissatisfied” with the quality of network
+providers.
+• Timely access to services: Thirty‑three percent of firms say they are “very satisfied” with timely access to
+services in the health plans they offer, and 58% say they are “satisfied.” Only 5% say they are “dissatisfied”
+or “very dissatisfied.”
+• Access to behavioral health care: Twenty‑six percent of firms say they are “very satisfied” with access to
+behavioral health care in the health plans they offer, and 56% say they are “satisfied.” Only 7% say they are
+“dissatisfied” or “very dissatisfied.”
+• Employee access to information about the cost and quality of treatment options: Twenty‑four percent
+of firms say they are “very satisfied” with workers’ ability to obtain information about the cost and quality
+of treatment options before receiving care, and 60% say they are “satisfied.” 8% say they are “dissatisfied”
+or “very dissatisfied.”
+KFF / Page 18
+
+SUMMARY OF FINDINGS
+
+DISCUSSION
+Despite early projections pointing toward higher costs in 2026, average premiums increased at a relatively
+modest pace. Over the last five years, family health insurance premiums have grown at about the same rate as
+general inflation and workers’ wages (28% vs 24.4% and 26.9%).
+Heading into 2027, forecasts are again projecting premium increases approaching double digits. How and when
+higher health care spending projections translates into higher premiums remains to be seen, but employers
+may face increasing pressure to maintain the affordability of their plans if steep increases materialize. In 2026,
+18% of employers, including 66% of employers with 5,000 or more employees, said they increased the share of
+premiums paid by workers in response to anticipated premium increases. After decades in which the average
+share of the premium paid by workers has remained relatively stable, a shift toward higher worker contributions
+could raise new affordability concerns.
+Much of the policy response to rising health care costs has focused on increasing price transparency,
+strengthening employers’ negotiating position with providers, and giving purchasers more information to
+design efficient provider networks. Many employers agree or strongly agree that they have the data they need to
+understand key elements of their health plans, and most employers that have sought access to their claims data
+reported receiving it. How greater access to data will change employers’ role as health care purchasers will be
+an important policy topic over the next several years, particularly because many employers continue to place
+a high value on broad provider networks. Eighty‑nine percent of employers described the provider network in
+their largest plan as “very broad” or “somewhat broad.” Mental health and substance use disorder services are
+one notable exception: only 64% described those networks as broad or very broad. Some large employers are
+addressing accessibility challenges for these conditions by adding virtual and in‑person providers.
+While rising costs remain a significant challenge for employer plans going forward, employers reported high
+KFF / Page 19
+
+SUMMARY OF FINDINGS
+levels of satisfaction with several key elements of their plans. Prescription drug costs remain an important area
+of focus for managing plan costs. Meaningful shares of large employers continue to cover GLP‑1 drugs when
+prescribed primarily for weight loss, but lower prices available through direct‑to‑consumer arrangements,
+together with the significant cost of these drugs, may lead employers to continue adapting their coverage. Small
+shares of employers are also exploring alternative approaches to purchasing some prescription drugs, including
+international sourcing and alternative mail‑order pharmacy arrangements.
+
+METHODOLOGY
+The KFF 2026 Employer Health Benefits Survey reports findings from a survey of 1,937 randomly selected
+non‑federal public and private employers with ten or more workers. Davis Research, LLC conducted the fieldwork
+between January and July 2026. The overall response rate is 11%, which includes firms that offer and do not offer
+health benefits. Unless otherwise noted, differences referred to in the text and figures use the 0.05 confidence
+level as the threshold for significance. Small firms have 10 to 199 workers unless otherwise noted. Values below
+3% are not shown on graphs to improve readability. Some distributions may not sum due to rounding. For more
+information about survey methodology, see the Survey Design and Methods section at http://ehbs.kff.org/.
+
+Filling the need for trusted information on national health issues, KFF is a nonprofit organization based in San
+Francisco, California.
+
+KFF / Page 20
+
+Employer Health Benefits · Annual Survey 2026
+
+Survey Design
+and Methods
+
+SURVEY DESIGN AND METHODS
+
+Survey Design and Methods
+KFF has conducted this annual survey of employer‑sponsored health benefits since 1999. Since 2020, KFF has
+employed Davis Research LLC (Davis) to field the survey. From January to July 2026, Davis interviewed business
+owners as well as human resource and benefits managers at 1,937 firms.
+
+SURVEY TOPICS
+The survey includes questions on the cost of health insurance, offer rates, coverage, eligibility, plan type
+enrollment, premium contributions, employee cost sharing, prescription drug coverage, retiree health benefits,
+and wellness programs.
+Firms that offer health benefits are asked about the attributes of their largest HMO, PPO, POS and HSA plans.
+Exclusive provider organizations (EPOs) are grouped with HMOs, and conventional (or indemnity) plans are
+grouped with PPOs.
+Plan Definitions:
+• HMO (Health Maintenance Organization): A plan that does not cover non‑emergency services provided out
+of network.
+• PPO (Preferred Provider Organization): A plan that allows use of both in‑network and out‑of‑network
+providers, with lower cost sharing for in‑network services and no requirement for a primary care referral.
+• POS (Point‑of‑Service Plan): A plan with lower cost sharing for in‑network services, but that requires a
+primary care gatekeeper for specialist or hospital visits.
+• HSA (Health Savings Account): A plan with a deductible of at least $1,650 for single coverage or $3,300 for
+family coverage, paired with a health savings account. (See the introduction to Section 8 for more detail on
+HSAs and other high deductible health plans with savings options.)
+To reduce respondent burden, questions on cost sharing for office visits, hospitalization, outpatient surgery,
+and prescription drugs are limited to the firm’s largest plan. Firms offering multiple plan types report premium
+contributions and deductibles for their two largest plans. Within each plan type, respondents are asked about
+the plan with the highest enrollment.
+Firms report attributes of their current plans as of the time of the interview. While the survey fielding begins in
+January, many firms have plan years that do not align with the calendar year. In some cases, firms may report
+data based on the prior year’s plan. As a result, some reported attributes‑such as HSA deductible thresholds‑may
+not align with current regulatory requirements. Additionally, plan decisions may have been made months prior
+to the interview.
+
+SAMPLE DESIGN
+The sample for the annual KFF Employer Health Benefits Survey includes private firms and nonfederal
+government employers with ten or more employees. The universe is defined by the U.S. Census’ 2021 Statistics
+of U.S. Businesses (SUSB) for private firms and the 2022 Census of Governments (COG) for non‑federal public
+employers. At the time of sample design (December 2025), this data represented the most current information
+on the number of public and private firms. The sample size is determined based on the number of firms needed
+to achieve a target number of completes across five firm‑size categories and whether the firm was located in
+California.
+KFF / Page 22
+
+SURVEY DESIGN AND METHODS
+We attempted to re‑interview prior survey respondents who participated in either the 2024 or 2025 survey, or
+both. In total,
+* 207 firms participated in 2024, * 307 firms participated in 2025, and * 729 firms participated in both years.
+Non‑panel firms were randomly selected within size and industry groups.
+Since 2010, the sample has been drawn from a Dynata list (based on a census compiled by Dun & Bradstreet)
+of the nation’s private employers, and from the COG for public employers. Starting in 2025, we included an
+augmented sample of 50 firms from the Forbes America’s Largest Private Companies list. This list includes
+U.S.‑based firms with annual revenue of $2 billion or more and is intended to complement the Dynata sample
+frame.
+To increase precision, the sample is stratified by ten industry categories and six size categories. Education is
+treated as a separate category for sampling but included in the “Service” category for weighting.
+For more information on changes to sampling methods over time, please consult the extended methods
+(http://ehbs.kff.org) which describes changes made in each year’s survey.
+
+RESPONSE RATE
+Response rates are calculated using a CASRO method, which accounts for firm eligibility in the study. The rate
+is computed by dividing the number of completes by the sum of refusals and the estimated number of eligible
+firms among those with unknown eligibility. The overall response rate is 11% [Figure M.1]. As in prior years, the
+response rate for panel firms is higher than for non‑panel firms.
+Similar to other employer and household surveys, response rates have declined over time. Since 2017, we have
+attempted to increase the number of completes by expanding the number of non‑panel firms in the sample.
+While this strategy improves the precision of estimates‑particularly for subgroups‑it tends to reduce the overall
+response rate.
+Most survey questions are asked only of firms that offer health benefits. A total of 1,668 of the 1,937 firms
+responding to the full survey indicated that they offer health benefits.
+We asked one question of all firms we contacted by phone, even if they declined to complete the full survey:
+“Does your company offer a health insurance program as a benefit to any of your employees?” A total of
+3,653 firms responded to this question, including 1,937 full survey respondents and 1,716 firms who responded
+to this question only.
+These responses are included in the estimates of the percentage of firms offering health benefits presented in
+Chapter 2. The response rate for this question is 20.4% [Figure M.1].
+
+KFF / Page 23
+
+SURVEY DESIGN AND METHODS
+While response rates have decreased, elements of the survey design limit the potential impact of a response
+bias. Most major statistics are weighted by the number of covered workers at a firm. Collectively, 3,300,000 of the
+70,400,000 workers covered by their own employer’s health benefits nationwide were employed at firms that
+completed the survey. The most important statistic weighted by the number of employers is the offer rate. Firms
+that do not complete the full survey are still asked whether they offer health benefits, ensuring a larger sample.
+As in previous years, most responding firms are very small. As a result, fluctuations in the offer rate for these
+small firms significantly influence the overall offer rate.
+
+FIRM SIZES AND KEY DEFINITIONS
+Throughout the report, we present data by firm size, region, and industry; [Figure M.2] displays selected
+characteristics of the sample. Unless otherwise noted, firm size is defined as follows: small firms have 10‑199
+workers, and large firms have 200 or more workers.
+A firm’s primary industry classification is based on Dynata’s designation, which in turn is derived from the U.S.
+Census Bureau’s North American Industry Classification System (NAICS) [Figure M.3]. Firm ownership type,
+average wage level, and workforce age are based on respondents’ self‑reported information.
+While there is considerable overlap between firms categorized as “State/Local Government” in the industry
+classification and those identified as publicly owned, the two categories are not identical. For example, public
+school districts are included in the “Service” industry category, even though they are publicly owned.
+Family coverage is defined as health insurance coverage for a family of four.
+
+KFF / Page 24
+
+SURVEY DESIGN AND METHODS
+
+KFF / Page 25
+
+SURVEY DESIGN AND METHODS
+[Figure M.4] shows the categorization of states into regions, based on the U.S. Census Bureau’s regional
+definitions. State‑level data are not reported due to limited sample sizes in many states and because the survey
+collects information only on a firm’s primary location‑not where employees may be based. Some mid‑size and
+large employers operate in multiple states, so the location of a firm’s headquarters may not correspond to the
+location of the health plan for which premium information was collected.
+
+[Figure M.5] displays the distribution of the nation’s firms, workers, and covered workers (employees receiving
+health coverage from their employer). Beginning in 2025, firms with fewer than 10 employees were excluded
+from the survey universe. Although most firms in the United States are small, most workers covered by health
+benefits are employed at large firms: 78% of the covered worker weight is controlled by firms with 200 or more
+employees. Conversely, firms with 10‑199 employees represent 95% percent of the employer weight.
+Because small firms make up the vast majority of all firms, they heavily influence statistics weighted by the
+number of employers. For this reason, most firm‑level statistics are reported by firm size. In contrast, large
+firms‑especially those with 1,000 or more workers‑have the greatest influence on statistics related to covered
+workers. Even with the large firm category (those with 200 or more workers), 84% of the employer weight is
+driven by firms with 200‑999 employees.
+Statistics for small firms and employer‑weighted measures tend to exhibit greater variability.
+
+KFF / Page 26
+
+SURVEY DESIGN AND METHODS
+
+The survey asks firms what percentage of their employees earn more or less than a specified amount in order to
+identify the portion of the workforce that has relatively lower or higher wages. This year, the income threshold is
+$38,000 or less per year for lower‑wage workers and $82,000 or more for higher‑wage workers. These thresholds
+are based on the 25th and 75th percentile of workers’ earnings as reported by the Bureau of Labor Statistics
+using data from the Occupational Employment Statistics (OES) (2024).5 The cutoffs were inflation‑adjusted and
+rounded to the nearest thousand.
+Annual inflation estimates are calculated as an average of the first three months of the year. The 12 month
+percentage change for this period was 2.7%.6 Data presented is nominal unless indicated specifically otherwise.
+
+ROUNDING AND IMPUTATION
+Some figures may not sum to totals due to rounding. While overall totals and totals by firm size and industry are
+statistically valid, some breakdowns are not reported due to limited sample sizes or high relative standard errors.
+Where the unweighted sample size is fewer than 30 observations, figures are labeled “NSD” (Not Sufficient Data).
+Estimates with high relative standard errors are reviewed and, in some cases, suppressed. Many subset estimates
+may have large standard errors, meaning that even large differences between groups may not be statistically
+significant.
+5
+
+May 2024 Data from the Occupational Employment and Wage Statistics (OEWS) Survey. Bureau of Labor Statistics. Occupational
+Employment and Wage Statistics (OEWS) Tables [Internet]. Washington (DC): BLS; [cited 2026 Sep 24]. Available from:
+https://www.bls.gov/oes/tables.htm
+6
+Bureau of Labor Statistics, Mid‑Atlantic Information Office. Consumer Price Index historical tables for, U.S. City Average (1967 =
+100) of Annual Inflation [Internet]. Washington (DC): BLS; [cited 2026 Sep 24]. Available from: https://www.bls.gov/regions/mid‑
+atlantic/data/consumerpriceindexhistorical1967base_us_table.htm
+
+KFF / Page 27
+
+SURVEY DESIGN AND METHODS
+To improve readability, values below 3% are not shown in graphical figures. The underlying data for all estimates
+presented in graphs are available in Excel files accompanying each section at http://ehbs.kff.org.
+To control for item nonresponse bias, we impute missing values for most variables. On average, 10% of
+observations are imputed. All variables‑except single coverage premiums‑are imputed using a hotdeck method,
+which replaces missing values with observed values from a similar firm (based on size and industry).
+When both single and family coverage premiums are missing for a firm, the single coverage premium is first
+predicted using a random forest algorithm based on other known plan and firm characteristics. This predicted
+value is then used to impute related variables, such as family premiums and worker contributions, using the
+hotdeck approach. Some variables are hotdecked based on their relationship to another variable. For example,
+if a firm reports a family worker contribution but not a family premium, we impute a ratio between the two and
+then calculate the missing premium.
+In 2026, there were thirty‑two variables where the imputation rate exceeded 20%, most of which were related
+to plan‑level statistics. When constructing aggregate estimates across all plans, the imputation rate is typically
+much lower. A few variables are not imputed‑these are usually cases where a “don’t know” response is
+considered valid.
+To ensure data quality, we conduct multiple reviews of outliers and illogical responses. Each year, several
+hundred firms are recontacted to verify or correct their responses. In some cases, responses are edited based on
+open‑ended comments or established logic rules.
+
+KFF / Page 28
+
+SURVEY DESIGN AND METHODS
+
+KFF / Page 29
+
+SURVEY DESIGN AND METHODS
+
+WEIGHTING
+Because we select firms randomly, it is possible through the use of weights to extrapolate results to national
+(as well as firm size, regional, and industry) averages. These weights allow us to present findings based on the
+number of workers covered by health plans, the number of workers, and the number of firms. In general, findings
+in dollar amounts (such as premiums, worker contributions, and cost sharing) are weighted by covered workers.
+Other estimates, such as the offer rate, are weighted by firms.
+The employer weight was determined by calculating the firm’s probability of selection. This weight was trimmed
+of overly influential weights and calibrated to U.S. Census Bureau’s 2022 Statistics of U.S. Businesses for
+firms in the private sector, and the 2022 Census of Governments totals. The worker weight was calculated by
+multiplying the employer weight by the number of workers at the firm and then following the same weight
+adjustment process described above. The covered‑worker weight and the plan‑specific weights were calculated
+by multiplying the percentage of workers enrolled in each of the plan types by the firm’s worker weight. These
+weights allow analyses of workers covered by health benefits and of workers in a particular type of health plan.
+The trimming procedure follows the following steps: First, we grouped firms into size and offer categories
+of observations. Within each strata, we calculated the trimming cut point as the median plus six times the
+interquartile range (M + [6 * IQR]). Weight values larger than this cut point are trimmed. In all instances, very few
+weight values were trimmed.
+To account for design effects, the statistical computing package R version 4.6.1 (2026‑06‑24 ucrt) and the library
+“survey” version 4.5 were used to calculate standard errors.
+
+STATISTICAL SIGNIFICANCE AND LIMITATIONS
+All statistical tests are performed at the 0.05 confidence level. For figures spanning multiple years, comparisons
+are made between each year and the previous year shown, unless otherwise noted. No statistical tests are
+conducted for years prior to 1999.
+Subgroup comparisons are made against all other firm sizes not included in the specified group. For example,
+firms in the Northeast are compared to an aggregate of firms in the Midwest, South, and West. For plan type
+comparisons (e.g., average premiums in PPOs), results are tested against the “All Plans” estimate. In some
+cases, plan‑specific estimates are also compared to similar estimates for other plan types (e.g., single and family
+premiums in HSAs vs. HMO, PPO, and POS plans); such comparisons are noted in the text.
+Two statistical tests are used: the t‑test and the Wald test. A small number of observations for certain variables
+can result in large variability around point estimates. Readers should be cautious of these when interpreting
+year‑to‑year changes, as large shifts may not be statistically significant. Standard errors for selected estimates are
+available in a technical supplement at http://ehbs.kff.org.
+Due to the complexity of many employer health benefit programs, the survey may not capture all elements of
+any given plan. For instance, employers may offer intricate and varying prescription drug benefits, premium
+contributions, or wellness incentives. Interviews were conducted with the individual most knowledgeable about
+the firm’s health benefits, though some respondents may not have complete information on all aspects of the
+plan. While the survey collects data on the number of workers enrolled in coverage, it does not capture the
+characteristics of those offered or enrolled in specific plans.
+
+DATA COLLECTION AND SURVEY MODE
+Starting in 2022, we expanded the use of computer assisted web interview (CAWI), offering most respondents the
+opportunity to complete the survey using an online questionnaire rather a telephone interview. In 2026, fifty‑five
+percent of survey responses were completed via telephone interview, and the remainder were completed online.
+KFF / Page 30
+
+SURVEY DESIGN AND METHODS
+Previous analysis has found that survey mode had little impact on major statistics such as annual premiums,
+contributions, and deductibles.
+
+EMPLOYER SURVEY LANDSCAPE
+Given the complexity of the private health insurance system, estimating changes in health insurance costs is
+challenging and depends on both what is being measured and how it is measured. The KFF Employer Health
+Benefits Survey provides a comprehensive snapshot of current‑year premiums and uses methods designed to
+produce estimates representative of workers and employers with 10 or more workers.
+Actuarial and consulting firms often produce prospective estimates of employer health benefit cost growth.
+These forecasts often include assumptions about changes in health care prices, utilization, and the mix of
+services. Prospective estimates of cost growth may be higher than the premium increases ultimately observed,
+in part because employers can mitigate anticipated cost increases by changing plan designs, provider networks,
+vendors, or other aspects of their plans.
+By contrast, the KFF Employer Health Benefits Survey measures observed health insurance premiums or
+premium equivalents, that is the cost of the plans actually offered to workers in the current year. Other
+annual employer surveys, including AHRQ’s MEPS‑Insurance Component and Mercer’s National Survey
+of Employer‑Sponsored Health Plans, use probability samples to measure employer health benefit costs.
+While these surveys use different methods and cover somewhat different populations, over time they have
+documented a similar rate of premium growth.
+
+PREFERRED REPORTING ITEMS FOR COMPLEX SAMPLE SURVEY ANALYSIS
+(PRICSSA)
+In their Journal of Survey Statistics and Methodology article, Seidenberg, Moser, and West (2023) propose a
+checklist for survey administrators and sponsoring organizations to help external researchers quickly understand
+the methods used to create a complex sample dataset.7 The Preferred Reporting Items for Complex Sample
+Survey Analysis (PRICSSA) recommends a standard format to enumerate data collection and analysis techniques
+across a variety of different surveys. KFF has adopted this checklist to increase transparency for our readership
+and also to promote reproducibility among external researchers granted access to our public use files.
+• 1.1 Data collection dates: January 05, 2026‑July 13, 2026.
+• 1.2 Data collection mode(s): fifty‑five percent computer‑assisted telephone interviewing (CATI), and the
+remainder completed with computer assisted web interview (CAWI).
+• 1.3 Target population: Private firms as well as state and local government employers with ten or more
+employees in 50 US states and Washington DC.
+• 1.4 Sample design: A sample stratified by ten industry categories and six size categories drawn from a
+Dynata list (based on a census assembled by Dun and Bradstreet) of the nation’s private employers and the
+Census of Governments for public employers.
+• 1.5 Full Survey response rate: 11 percent (CASRO method).
+• 2.1 Missingness rates: On average, 10% of observations are imputed.
+• 2.2 Observation deletion: Observations found to be duplicated firms, out of business, or no longer exisiting
+in the sample universe.
+7
+
+Seidenberg, Andrew B, Richard P Moser, and Brady T West. 2023. “Preferred Reporting Items for Complex Sample Survey Analysis (PRICSSA).”
+Journal of Survey Statistics and Methodology 11 (4): 743‑57. https://doi.org/10.1093/jssam/smac040.
+
+KFF / Page 31
+
+SURVEY DESIGN AND METHODS
+• 2.3 Sample sizes: 1,937 firms completed the entire survey, 3,653 completed at least the offer question, out
+of 35,781 initially sampled firms, generalizing to a total of about one million firms.
+• 2.4 Confidence intervals / standard errors: All statistical tests are performed at the .05 confidence level.
+• 2.5 Weighting: empwt (firms), empwt_a6 (firms, including those answering only the offer question), wkrwt
+(workers), covwt (policyholders), hmowt, ppowt, poswt, and hsawt (plan weights)
+• 2.6 Variance estimation: Taylor Series Linearization with newcell used as the stratum variable but no PSU
+variable.
+• 2.7 Subpopulation analysis: The R survey package toolkit such as svyby and a complex sample design’s
+subset method allowed for most analysis of subdomains.
+• 2.8 Suppression rules: Where the unweighted sample size is fewer than 30 observations, figures include the
+notation “NSD” (Not Sufficient Data). Estimates with high relative standard errors are reviewed and in some
+cases not published.
+• 2.9 Software and code: All design‑based analyses were performed using R version 4.6.1 (2026‑06‑24 ucrt)
+and survey library version 4.5.
+
+2026 SURVEY
+The 2026 survey includes new questions on substance use disorder services, transparency, and prior
+authorization, among other topics. As in previous years, modifications were also made to existing questions to
+improve clarity and reflect changes in the health care marketplace.
+Previous surveys combined high deductible plans paired with HSAs or HRAs into a single plan type referred to
+as high deductible health plans with savings options (“HDHP/SOs”). Over time, the prevalence of HSA‑qualified
+plans has grown while that of high deductible plans paired with HRAs has waned. The different types and uses
+of HRAs also has made it more difficult to make generalizations about these plans. So, beginning this year, the
+survey no longer tracks the HDHP/SOs as a plan type and instead focuses on HSA‑qualified plans as a plan type.
+The survey will continue to ask employers whether they offer HRAs and what the HRA funds may be used for, but
+will no longer ask about the amounts made available in these arrangements.
+Due to data availability changes starting with the 2022 SUSB, we revised the firm size categories used for
+weighting. Prior surveys calibrated nationwide totals based on each firm’s employment using the categories
+10‑24, 25‑49, 50‑199, 200‑999, 1,000‑4,999, and 5,000+. For this year’s survey, firm sizes were grouped into 10‑19,
+20‑99, 100‑499, 500‑999, 1,000‑4,999, and 5,000+ employment categories. When analyzing the impact with the
+2021 SUSB, the most recent year with both categorizations available, we did not find any changes to our main
+findings weighted separately based on the two distinct sets of firm sizes. We also adjusted how our weighting
+accounts for California. Statistics of US Businesses (SUSB) public tables include nationwide counts for firms with
+500 or more and 5,000 or more employees, and these tables also contain California statewide counts for firms
+with 500 or more employees, but not for California firms with 5,000 or more employees. From special tabulations
+received from the US Census Bureau, we know the distribution of the largest firms in California to be stable over
+time. Among California firms with at least 500 employees in both the 2016 and 2021 SUSB, the share of firms with
+500‑999 employees was 34%, the share of firms with 1,000‑4,999 employees was 44%, and the remaining share of
+firms with 5,000+ employees was 22%. We retained this distribution to estimate the weighting cell for firms with
+5,000+ employees with any presence in California based on the 2022 count of firms with 500+ employees.
+
+OTHER RESOURCES
+Additional information about the Employer Health Benefits Survey is available at http://ehbs.kff.org, including
+an interactive graphic and historical reports. Researchers may also request access to a public use dataset at
+https://www.kff.org/contact‑us/.
+KFF / Page 32
+
+SURVEY DESIGN AND METHODS
+The Survey Design and Methods section on our website includes an extended methodology document that is not
+available in the PDF or printed versions of this report. Readers interested in more detailed information on survey
+methods should consult the online edition.
+Published: October 22, 2026. Last Updated: October 21, 2026.
+
+KFF / Page 33
+
+Employer Health Benefits · Annual Survey 2026
+
+ բ
+
+Cost of Health Insurance
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+Section 1
+
+Cost of Health Insurance
+The average annual health insurance premiums in 2026 are $9,804 for single coverage and $28,303 for family
+coverage. The average single coverage premium increased 5% in 2026, the same as the average family premium
+increased (5%). The average family premium has increased 28% since 2021 and 55% since 2016.
+As part of this report, KFF publishes an online tool which allows users to look at changes in premiums and
+worker contributions for covered workers at different types of firms over time: https://www.kff.org/interactive/
+premiums‑and‑worker‑contributions/
+
+PREMIUMS FOR SINGLE AND FAMILY COVERAGE
+The average premium for single coverage in 2026 is $9,804 per year. The average premium for family coverage is
+$28,303 per year [Figure 1.1].
+• The average annual premiums for single coverage are similar for covered workers at firms with 10 to 199
+workers ($9,593) and at larger firms ($9,865) [Figure 1.3].
+• The average annual premiums for family coverage are lower for covered workers at firms with 10 to 199
+workers ($27,288) than for those at larger firms ($28,592) [Figure 1.3].
+• The average annual premiums for covered workers in HSA‑qualified plans are lower than the average
+premiums for coverage overall for both single coverage ($8,989 vs. $9,804) and family coverage ($26,450
+vs. $28,303). The average premiums for covered workers in PPOs are higher than the overall average
+premiums for both single coverage ($10,272 vs. $9,804) and family coverage ($29,522 vs. $28,303) [Figure
+1.1].
+• The average premium for covered workers with both single and family coverage is higher in the Northeast
+and lower in the South [Figure 1.4].
+• The average premium for family coverage for covered workers at firms with relatively large shares of
+lower‑wage workers (where at least 35% of workers earn $38,000 a year or less) is lower than the average
+premium for covered workers at firms with smaller shares of lower‑wage workers ($26,533 vs. $28,524). The
+average premium for covered workers at firms with relatively large shares of higher‑wage workers (where at
+least 35% of workers earn $82,000 a year or more) is higher than the average premium for covered workers
+at firms with smaller shares of higher‑wage workers for family coverage ($29,139 vs. $27,664) [Figure 1.6]
+and [Figure 1.7].
+• The average premium for family coverage for covered workers at firms with relatively large shares of older
+workers (firms where at least 35% of the workers are age 50 or older) is similar to the average premium for
+covered workers at firms with smaller shares of older workers ($28,689 and $27,889) [Figure 1.7].
+• The average premiums for single coverage and family coverage are relatively lower for covered workers at
+private for‑profit firms and relatively higher for covered workers at private not‑for‑profit firms [Figure 1.6]
+and [Figure 1.7].
+• The average premiums for single coverage are relatively higher for covered workers at firms with at least
+some union workers than firms without any union workers [Figure 1.6].
+KFF / Page 35
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 36
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 37
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 38
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 39
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 40
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+PREMIUM DISTRIBUTION
+There is considerable variation in premiums for both single and family coverage.
+• Eighteen percent of covered workers are employed at firms where the single premium is at least 20%
+higher than the average single premium, while 23% of covered workers are at firms with a single premium
+less than 80% of the average single premium [Figure 1.9].
+KFF / Page 41
+
+SECTION 1. COST OF HEALTH INSURANCE
+• For family coverage, 17% of covered workers are employed at a firm with a family premium at least 20%
+higher than the average family premium, while 21% of covered workers are at firms with a family premium
+less than 80% of the average family premium [Figure 1.9].
+• Thirteen percent of covered workers are employed at a firm with an average annual premium of at least
+$12,500 for single coverage [Figure 1.10]. Twenty‑one percent of covered workers are employed at a firm
+with an average annual premium of at least $33,000 for family coverage [Figure 1.11].
+
+KFF / Page 42
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 43
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+PREMIUM CHANGES OVER TIME
+The average premiums for covered workers for both single and family coverage increased 5% from last year
+[Figure 1.12].
+• The average premium for single coverage grew 27% over the past five years.
+• The $28,303 average family premium in 2026 is 28% higher than the average family premium in 2021 and
+55% higher than the average family premium in 2016. [Figure 1.15].
+• The average family premiums for covered workers at smaller firms (firms with 10 to 199 workers) and at
+larger firms have grown at similar rates since 2021 (26% at smaller firms and 28% at larger firms). For
+smaller firms, the average family premium rose from $21,598 in 2021 to $27,288 in 2026. For larger firms,
+the average family premium rose from $22,389 in 2021 to $28,592 in 2026 [Figure 1.14].
+• The average family premiums for covered workers at smaller firms (firms with 10 to 199 workers) and at
+larger firms have grown at similar rates since 2016 (54% at smaller firms and 55% at larger firms). For
+smaller firms, the average family premium rose from $17,753 in 2016 to $27,288 in 2026. For larger firms,
+the average family premium rose from $18,395 in 2016 to $28,592 in 2026 [Figure 1.13].
+• Over the past five years, the average family premium for covered workers at large firms that are fully
+insured has grown at a similar rate to the average family premium for covered workers in fully or partially
+self‑funded plans (33% for fully‑insured plans and 27% for self‑funded plans) [Figure 1.14].
+• The average family premium grew 5% in 2026 while inflation was 2.7%. Over the last 5 years, family
+premiums grew 28%, while inflation during this period was 24.4%. Over the last ten years, the growth in
+the average premium for family coverage far outpaced inflation (55% vs. 37.9%) [Figure 1.15].
+• The average family premium grew 5% in 2026 while wages grew 3.7%. Over the last 5 years, family
+premiums grew 28%, similar to the 26.9% growth in wages. Over the last ten years, the average family
+premium and average wages grew at roughly comparable rates (55% vs. 50.1%) [Figure 1.15].
+
+KFF / Page 44
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 45
+
+SECTION 1. COST OF HEALTH INSURANCE
+
+KFF / Page 46
+
+Employer Health Benefits · Annual Survey 2026
+
+ գ
+
+Health Benefits
+ʯ -/ .
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+Section 2
+
+Health Benefits Offer Rates
+Nearly all (98%) firms with 200 or more workers offer health benefits to at least some workers, while two in
+three (66%) smaller firms do. Ninety‑five percent of firms that offer health benefits offer both single and family
+coverage, similar to the percentage last year.
+Firms with fewer than 200 workers that do not offer health benefits say the most important reason they do not
+offer coverage is that the “cost of insurance is too high.”
+Beginning with the 2025 survey, the sample frame changed from firms with 3 or more employees to firms with
+10 or more employees. Because firms with 3 to 9 employees historically have lower offer rates, excluding them
+increases overall offer rates and affects estimates for firms that do not offer coverage. Historical offer‑rate tables
+have been adjusted to reflect this change. For more information, see the Methods section.
+
+FIRM OFFER RATES
+• In 2026, 67% of firms with 10 or more workers offer health benefits, higher than the percentage last year
+(61%) but similar to the percentage two years ago (65%) and lower than the percentage five years ago
+(73%) [Figure 2.1].
+– Among smaller firms (10 to 199 workers), the likelihood of offering health benefits increases with firm
+size: 59% of firms with 10 to 24 workers, 66% of firms with 25 to 49 workers, and 87% of firms with 50
+to 199 workers offer health benefits to at least some of their workers [Figure 2.2].
+– The percentage of smaller firms that offer health benefits (66%) is higher than the percentage last year
+(59%) but lower than the percentage (72%) five years ago [Figure 2.1].
+• A large majority of firms are small, and the survey sees considerable year‑to‑year variation in the offer rates
+for these firms, which results in fluctuations in the overall offer rate. Most workers, however, work for larger
+firms, where offer rates are much higher.
+
++ Eighty-nine percent of firms with 50 or more workers offer health benefits in 2026; this percenta
+– Among larger firms, 98% of firms with 200 to 999 workers and over 99% of firms with 1,000 or more
+workers offer health benefits to at least some of their workers. These percentages are similar to those
+last year.
+• Because most workers are employed by larger firms, most workers work at a firm that offers health benefits
+to at least some of its employees. In 2026, 92% of all workers are employed by a firm that offers health
+benefits to at least some of its workers. This percentage is similar to the percentage last year (91%) but
+lower than the percentage five years ago (94%) [Figure 2.4].
+
+KFF / Page 48
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 49
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 50
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 51
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+OFFERS TO SPOUSES AND DEPENDENTS
+• Almost all firms that offer health benefits offer family coverage. In 2026, nearly all firms with 200 or more
+workers and 94% of smaller firms that offer health benefits offer family coverage to their workers [Figure
+2.5].
+• The vast majority of firms with 10 or more workers that offer health benefits offer them to spouses and
+dependents, such as children. Ninety‑four percent of smaller firms and virtually all larger firms that offer
+health benefits offer coverage to spouses. These percentages are similar to the percentages in 2025 [Figure
+2.6].
+– Ninety‑three percent of smaller firms and virtually all larger firms that offer health benefits offer
+coverage to dependents other than spouses, such as children. These percentages are similar to the
+percentages in 2025 [Figure 2.6].
+– Seven percent of firms with 10 to 49 workers offering health benefits offer only single coverage to their
+workers, similar to the percentage last year.
+
+KFF / Page 52
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+PROVISIONS TO ENCOURAGE ENROLLMENT IN OTHER COVERAGE
+Some firms have provisions to encourage workers or their spouses to forgo enrolling in coverage, or to choose
+other sources of coverage when available.
+• Among firms with 10 or more workers offering coverage, 7% provide additional compensation or benefits
+to workers if they choose not to enroll in the firm’s health plan and 8% provide additional compensation or
+benefits to workers who choose to enroll in a spouses health plan [Figure 2.7].
+
+SPOUSAL ELIGIBILITY AND SURCHARGES
+Some employers place conditions on the ability of dependent spouses to enroll in a health plan if the spouse is
+offered health insurance from another source, such as the spouse’s own employer.
+• Among firms offering health benefits to spouses, 81% say that an employee’s spouse is able to enroll in the
+employee’s health plan even if the spouse is offered coverage from another source, 6% say the spouse can
+enroll subject to some conditions (for example, the type of coverage offered), and 13% say that the spouse
+is not eligible to enroll if they have access to another source of coverage [Figure 2.8].
+– Firms with 1,000 or more workers are more likely than smaller firms to allow these spouses to enroll
+with conditions (17% vs. 6%).
+
+KFF / Page 53
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+• Among firms offering coverage (with or without conditions) to spouses with access to other coverage, 8%
+require the spouses to pay more than spouses without access to other coverage if they decide to enroll.
+This may be implemented through higher premium contributions or higher cost sharing. Firms with 1,000
+or more workers are more likely than smaller firms to have restrictions or assess higher costs to spouses
+with access to other coverage (17% vs. 8%).
+• Overall, 24% of firms offering spousal coverage restrict eligibility or require a surcharge for spouses who
+have an offer of coverage from another source. Among large firms (200 or more workers) offering spousal
+coverage, this share is 29%, up from 22% in 2022 [Figure 2.9].
+
+KFF / Page 54
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 55
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+PART‑TIME WORKERS
+Among firms that offer health benefits, relatively few offer benefits to part‑time workers.
+The Affordable Care Act (ACA) defines “full‑time” workers as those who work an average of at least 30 hours per
+week, and “part‑time” workers as those who work fewer than 30 hours. The employer shared responsibility
+provision of the ACA requires that firms with at least 50 full‑time equivalent employees offer most of their
+full‑time employees coverage that meets minimum standards or be assessed a penalty.1
+• Twenty‑nine percent of firms with 200 or more workers that offer health benefits in 2026 offer health
+benefits to part‑time workers, similar to the percentage (27%) that did so in 2025. Firms with 200 or more
+workers are more likely than smaller firms to offer health benefits to part‑time workers [Figure 2.11].
+
+1
+
+Employer Responsibility Under the Affordable Care Act. KFF. https://www.kff.org/infographic/employer‑responsibility‑under‑the‑
+affordable‑care‑act/.
+
+KFF / Page 56
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+CHOICE/ICHRA AND ASSISTING EMPLOYEES WITH PURCHASING COVERAGE
+IN THE NON‑GROUP MARKET
+Some employers provide funds to some or all of their employees to help them purchase coverage in the
+individual (“non‑group”) market. Employers that do not otherwise offer health benefits may provide these funds
+as an alternative to offering a group plan. Employers that offer a group plan to some employees may also use this
+approach for other types or classes of workers, such as those working part‑time or remotely.
+One way employers can provide tax‑preferred assistance for employees to purchase non‑group coverage is
+through a Custom Health Option and Individual Care Expense Arrangement (CHOICE). Prior to 2026, these
+arrangements were called Individual Coverage Health Reimbursement Arrangements (ICHRAs). Small
+employers may also contribute toward employees’ health coverage through a Qualified Small Employer Health
+Reimbursement Arrangement (QSEHRA). Both employers that offer health benefits and those that do not were
+asked whether they provide funds to any employees to purchase non‑group coverage.
+• Four percent of firms that offer health benefits and 11% of firms that do not offer health benefits provided
+funds to one or more of their employees to purchase non‑group coverage in 2026 [Figure 2.12].
+• Among firms with 10 to 199 workers that do not offer health benefits, 11% offer funds to one or more of
+their employees to purchase non‑group coverage, a similar percentage as last year (9%) [Figure 2.14].
+• Firms that do not offer funds to any employees to purchase non‑group coverage in 2026 were asked if they
+were likely to do so in the next two years.
+– Among firms with 10 or more workers that offer health benefits, 6% say they are “somewhat likely” to
+offer a CHOICE/ICHRA to at least some employees in the next two years [Figure 2.13].
+KFF / Page 57
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+– Among firms with 10 to 199 workers that do not offer health benefits, 2% say they are “very likely”
+and an additional 13% say they are “somewhat likely” to offer a CHOICE/ICHRA to at least some
+employees in the next two years [Figure 2.15].
+
+KFF / Page 58
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 59
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+FIRMS NOT OFFERING HEALTH BENEFITS
+Firms that do not offer health benefits were asked several questions, including whether they have offered
+insurance or shopped for insurance in the recent past, what their most important reasons for not offering
+coverage are, and their opinion on whether their employees would prefer an increase in wages or health
+insurance if additional funds were available to increase their compensation. Because very few larger firms report
+not offering health benefits, we present responses only for firms with 10 to 199 workers.
+• The “cost of insurance is too high” is the most common reason these firms cite for not offering health
+benefits. When firms were asked the most important reason for not offering coverage, 46% say the “cost of
+insurance is too high,” 13% say the “firm is too small,” 10% say that their “employees are covered under
+another plan, including coverage on a spouse’s plan,” 7% say that “their employees will get a better deal on
+the health insurance exchanges,” 10% say that “most employees are part‑time or temporary workers”, and
+8% say their “employees are not interested.” [Figure 2.16]
+• Some firms not offering health benefits have either offered health insurance in the past five years or
+shopped for health insurance in the past year [Figure 2.17].
+– Sixteen percent of firms not offering health benefits have offered health benefits in the past five years
+[Figure 2.17]. Among these firms, 10% stopped offering coverage within the past year.
+– Among firms that stopped offering coverage within the past five years, 31% say the firm stopped
+offering health insurance coverage after receiving a high renewal quote following high claims from a
+small number of enrollees.
+
+KFF / Page 60
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+– Among firms that stopped offering coverage within the past five years, 34% say the cost of coverage
+was too high, 3% say premium increases were unpredictable or unsustainable, 28% say too few
+employees wanted to enroll, and 12% say employees obtained coverage elsewhere. Other reasons
+include transitioning to a stipend or other benefit instead of group coverage (9%), and downsizing,
+merging, or changing ownership (5%) [Figure 2.19].
+– Seventeen percent of firms not offering health benefits have shopped for coverage in the past year,
+similar to the percentage last year (16%) [Figure 2.17].
+• Eighty‑one percent of firms not offering health benefits agreed with the statement that their employees
+would prefer a two‑dollar‑per‑hour increase. increase in wages rather than health insurance [Figure 2.18].
+
+KFF / Page 61
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 62
+
+SECTION 2. HEALTH BENEFITS OFFER RATES
+
+KFF / Page 63
+
+Employer Health Benefits · Annual Survey 2026
+
+ դ
+
+Employee Coverage,
+Eligibility, and Participation
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+Section 3
+
+Employee Coverage, Eligibility, and
+Participation
+Employers are the principal source of health insurance in the United States, providing health benefits for 157
+million nonelderly people.1 Most workers are offered health coverage at work, and most of the workers who are
+offered coverage take it. Workers may not be covered by their own employer for several reasons: their employer
+may not offer coverage, they may not be eligible for the benefits offered by their firm, they may elect to receive
+coverage from another source (such as through their spouse’s employer), or they may decline the offer from
+their firm. In 2026, 59% of workers in firms offering health benefits are covered by their own firm, similar to the
+percentages last year, five years ago, and ten years ago.
+
+ELIGIBILITY
+• Some workers employed at firms that offer health benefits may not be eligible to participate. Many firms,
+for example, do not offer coverage to part‑time or temporary workers. Among workers in firms offering
+health benefits in 2026, 80% are eligible to enroll in the benefits offered by their firm, similar to the
+percentages last year, five years ago, and ten years ago [Figure 3.1].
+– Eligibility varies considerably with firm wage level. Workers in firms with a relatively large share of
+lower‑wage workers (where at least 35% of workers earn $38,000 a year or less) have a lower average
+eligibility rate than workers in firms with a smaller share of lower‑wage workers (73% vs. 81%) [Figure
+3.6].
+– Workers in firms with a relatively large share of higher‑wage workers (where at least 35% earn $82,000
+or more annually) have a higher average eligibility rate than workers in firms with a smaller share of
+higher‑wage workers (86% vs. 77%) [Figure 3.6].
+– Eligibility also varies by the age of the workforce within firms. Workers in firms with a relatively small
+share of younger workers (where fewer than 35% of the workers are age 26 or younger) have a higher
+average eligibility rate than those in firms with a larger share of younger workers (82% vs. 70%)
+[Figure 3.6].
+– Eligibility rates vary considerably for workers in different industries. The average eligibility rate
+remains particularly low for workers in retail firms (61%) [Figure 3.3].
+1
+
+KFF. Health Insurance Coverage of the Non elderly [Internet]. San Francisco (CA): KFF; 2024 [cited 2026 Aug 5. Available from:
+https://www.kff.org/other/state‑indicator/nonelderly‑0‑64/.
+
+KFF / Page 65
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+KFF / Page 66
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+KFF / Page 67
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+KFF / Page 68
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+KFF / Page 69
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+TAKE‑UP RATE
+• On average, 74% of eligible workers take up coverage when it is offered to them, the similar to the
+percentage last year.
+– Eligible workers in firms with 10 to 199 workers have a lower average take‑up rate than those in larger
+firms (70% vs. 75%) [Figure 3.8].
+
+* Eligible workers in firms with a relatively large share of lower‑wage workers have a lower average
+
+take‑up rate than those in firms with a smaller share of lower‑wage workers (64% vs. 76%) [Figure
+3.7].
+
+– Eligible workers in firms with a relatively large share of higher‑wage workers have a higher average
+take‑up rate than those in firms with a smaller share of higher‑wage workers (79% vs. 70%) [Figure
+3.7].
+– Eligible workers in private, for‑profit firms have a lower average take‑up rate (71%) and eligible
+workers in public firms have a higher average take‑up rate (87%) than workers in other firm types
+[Figure 3.7].
+– Eligible workers in firms with some union workers have a higher average take‑up rate (80%) than
+eligible workers in firms with no union workers (71%) [Figure 3.7].
+• The average percentages of eligible workers taking up benefits in offering firms also vary across industries
+[Figure 3.3].
+• The share of eligible workers taking up benefits in offering firms (74%) is similar to the share in 2021 (77%)
+but lower than the share in 2016 (79%) [Figure 3.1].
+
+KFF / Page 70
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+COVERAGE
+• In 2026, the percentage of workers at firms offering health benefits covered by their firm’s health plan is
+59%, the same as last year [Figure 3.10].
+– The coverage rate at firms offering health benefits is similar for smaller firms (10 to 199 workers) and
+larger firms in 2026. Rates for both groups are similar to last year. [Figure 3.1].
+• There is significant variation by industry in the coverage rate among workers in firms offering health
+benefits. The average coverage rate is particularly low in the retail industry (32%) [Figure 3.3].
+• The coverage rate also varies with firm wage levels. Among workers in firms offering health benefits, those
+in firms with a relatively large share of lower‑wage workers are less likely to be covered by their own firm
+than workers in firms with a smaller share of lower‑wage workers (47% vs. 61%). A similar pattern exists
+in firms with a relatively large share of higher‑wage workers, with workers in higher‑wage firms being
+more likely to be covered by their employer’s health benefits than those in firms with a smaller share of
+higher‑wage workers (68% vs. 54%) [Figure 3.9].
+• The age distribution of workers is also related to variation in coverage rates. Among workers in firms
+offering health benefits, those in firms with a relatively small share of younger workers are more likely to
+be covered by their own firm than those in firms with a larger share of younger workers (62% vs. 44%).
+Similarly, workers in offering firms with a relatively large share of older workers are more likely to be
+covered by their own firm than those in firms with a smaller share of older workers (65% vs. 54%) [Figure
+3.9].
+• Among workers in firms offering health benefits, those working in firms with some union workers are more
+likely than workers in firms with no union workers to be covered by their own firm [Figure 3.9].
+KFF / Page 71
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+• Among workers in firms offering health benefits, those working in public firms are more likely than workers
+in other firm types to be covered by their own firm [Figure 3.9].
+
+KFF / Page 72
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+COVERAGE AMONG ALL FIRMS
+• Among workers in all firms, including those that offer and those that do not offer health benefits, 55% are
+covered by health benefits offered by their employer, similar to the percentages last year (55%) and ten
+years ago (57%) but lower than five years ago (58%) [Figure 3.10].
+
+KFF / Page 73
+
+SECTION 3. EMPLOYEE COVERAGE, ELIGIBILITY, AND PARTICIPATION
+
+KFF / Page 74
+
+Employer Health Benefits · Annual Survey 2026
+
+ ե
+
+4+ .*!').ʯ - 
+
+SECTION 4. TYPES OF PLANS OFFERED
+
+Section 4
+
+Types of Plans Offered
+Most firms (68%) that offer health benefits offer only one type of health plan. Firms with 200 or more workers are
+more likely than smaller firms to offer more than one plan type.
+
+NUMBER OF PLAN TYPES OFFERED
+• Among firms that offer health benefits, 68% offer only one type of health plan in 2026. Firms with 200 or
+more workers are more likely than smaller firms to offer more than one plan type (58% vs. 30%) [Figure
+4.1].
+• While most firms are small, most workers are employed by larger firms, which are more likely to offer more
+than one type of health plan. Sixty‑eight percent of covered workers in 2026 are employed in a firm that
+offers more than one type of health plan. Seventy‑six percent of covered workers in firms with 200 or more
+workers are employed by a firm that offers more than one plan type, compared to 40% of covered workers
+in smaller firms [Figure 4.2].
+• Seventy‑five percent of covered workers in firms that offer health benefits work in firms that offer a PPO,
+56% work in firms that offer an HSA‑qualified plan, 19% work in firms that offer an HMO, 11% work in firms
+that offer a POS plan, and 1% work in firms that offer one or more conventional plans [Figure 4.4].
+• Among covered workers in firms offering only one type of health plan, 60% are in firms that offer only PPOs
+and 19% are in firms that offer only HSA‑qualified plans [Figure 4.5].
+
+KFF / Page 76
+
+SECTION 4. TYPES OF PLANS OFFERED
+
+KFF / Page 77
+
+SECTION 4. TYPES OF PLANS OFFERED
+
+KFF / Page 78
+
+SECTION 4. TYPES OF PLANS OFFERED
+
+PERCENTAGE OF FIRMS OFFERING HSA‑QUALIFIED PLANS
+Thirty‑nine percent of firms with 10 or more workers offering health benefits offer an HSA‑qualified plan [Figure
+4.6]. This percentage is more than last year (31%) and five years ago (31%).
+• Firms with 200 or more workers are more likely than smaller firms to offer an HSA‑qualified plan to at least
+some workers (54% vs. 38%). The percentage of larger firms offering an HSA‑qualified plan is similar to five
+years ago. Among smaller firms, the percentage offering an HSA‑qualified plan increased from 29% to 38%
+over the last five years.
+
+KFF / Page 79
+
+SECTION 4. TYPES OF PLANS OFFERED
+
+The survey collects information on the plan with the largest enrollment for each plan type a firm offers. While we
+know the number of plan types a firm offers, we do not know the total number of plans. In addition, firms may
+offer different types of plans to different workers. For example, workers at one location may be offered one type
+of plan, while workers at another location are offered a different type.
+Health plans are often categorized into plan types based on their coverage of out‑of‑network services and
+whether they require primary care referrals. This survey classifies plans into five plan types:
+• Conventional/Indemnity: A plan with no preferred provider network and the same cost sharing
+regardless of physician or hospital.
+• HMO (Health Maintenance Organization): A plan that does not cover non‑emergency services provided
+by out‑of‑network providers.
+• PPO (Preferred Provider Organization): A plan that covers services from both in‑network and
+out‑of‑network providers, generally with lower cost sharing for in‑network services, and does not require a
+primary care referral for specialist care.
+• POS (Point‑of‑Service): A plan that covers services from both in‑network and out‑of‑network providers,
+generally with lower cost sharing for in‑network services, but requires a primary care referral for specialist
+care.
+• HSA‑qualified plan: A high‑deductible health plan that meets federal requirements allowing an enrollee
+to contribute to a Health Savings Account (HSA). In 2026, an HSA‑qualified plan must have a deductible of
+at least $1,650 for single coverage and $3,300 for family coverage.
+KFF / Page 80
+
+SECTION 4. TYPES OF PLANS OFFERED
+Beginning in 2026, this survey changed how it classifies high‑deductible health plans associated with a Health
+Reimbursement Arrangement (HRA). In previous years, these plans were grouped with HSA‑qualified plans in a
+broader HDHP/SO category. HRA plans are now classified as conventional, PPOs, POS plans, or HMOs based on
+their plan characteristics. HSA‑qualified plans are now reported as a separate plan type.
+
+KFF / Page 81
+
+Employer Health Benefits · Annual Survey 2026
+
+ զ
+
+Market Shares of
+Health Plans
+
+SECTION 5. MARKET SHARES OF HEALTH PLANS
+
+Section 5
+
+Market Shares of Health Plans
+Health plans are often characterized into plan types based on their coverage of out‑of‑network services and their
+use of primary care gatekeeping. In 2026, PPOs remain the most common plan type.
+As described previously, high‑deductible health plans (HDHPs) associated with a health reimbursement
+arrangement (HRA) are no longer classified as an HDHP/SO plan type. As a result, covered workers who were
+classified as enrolled in an HDHP/HRA in previous versions of this survey are now included in the HMO, PPO, POS,
+or conventional plan categories. In 2025, 4% of covered workers were enrolled in an HDHP/HRA, compared with
+7% in 2021. Historical comparisons should be interpreted in light of this change in methods.
+• Fifty percent of covered workers are enrolled in PPOs in 2026, followed by HSA‑qualified plans (29%), HMOs
+(12%), POS plans (8%), and conventional plans (less than one percent). All of these percentages are similar
+to the enrollment percentages in 2025 [Figure 5.1].
+• The percentage of covered workers enrolled in HSA‑qualified plans is similar to the percentage last year
+(29%), but higher than the percentages five years ago (22%) and 10 years ago (19%) [Figure 5.1].
+• The percentage of covered workers enrolled in HMOs (12%) is the same percentage as last year and similar
+to the percentage five years ago (16%) [Figure 5.1].
+• A larger share of covered workers are enrolled in HSA‑qualified plans than in HMOs in both smaller firms (10
+to 199 workers) and larger firms (200 or more workers) [Figure 5.2].
+• Plan enrollment patterns differ between firms with 10 to 199 workers and larger firms.
+– The share of covered workers enrolled in a PPO is larger in larger firms than in smaller firms (52%
+vs. 44%) [Figure 5.2]. This is different than last year and may reflect the change in methods around
+classifying plans associated with a health reimbursement arrangement.
+– The share of covered workers enrolled in a POS plan is larger in smaller firms than in larger firms (16%
+vs. 6%) [Figure 5.2].
+– The shares of covered workers enrolled in an HSA‑qualified plan are similar in smaller firms (27%) and
+in larger firms (30%). The shares of covered workers enrolled in an HMO are similar in firms with 10 to
+199 workers (11%) and in larger firms (12%) [Figure 5.2].
+• Plan enrollment patterns also differ across regions.
+– Covered workers in the West are more likely (23%) to be enrolled in an HMO than workers in other
+regions, while covered workers in the Midwest are less likely (5%) to be enrolled in an HMO [Figure
+5.3].
+– Covered workers in the Midwest are more likely (41%) to be enrolled in an HSA‑qualified plan than
+workers in other regions, while covered workers in the South and West are less likely to be enrolled in
+an HSA‑qualified plan (24%) [Figure 5.3].
+– Covered workers in the West are less likely (37%) to be enrolled in a PPO than workers in other regions
+[Figure 5.3].
+
+KFF / Page 83
+
+SECTION 5. MARKET SHARES OF HEALTH PLANS
+
+KFF / Page 84
+
+SECTION 5. MARKET SHARES OF HEALTH PLANS
+
+COVERAGE IN HSA‑QUALIFIED PLANS
+The share of covered workers enrolled in HSA‑qualified plans varies with firm characteristics.
+• Covered workers in firms with a relatively large share of younger workers (firms where at least 35% of the
+workers are age 26 or younger) are less likely to be enrolled in an HSA‑qualified plan than covered workers
+in firms with smaller shares of younger workers (22% vs. 30%) [Figure 5.4].
+• Covered workers in firms with a relatively large share of higher‑wage workers (firms where at least 35% of
+workers earn $82,000 a year or more) are more likely to be enrolled in an HSA‑qualified plan than covered
+workers in firms with smaller shares of higher‑wage workers (36% vs. 24%) [Figure 5.4].
+• Covered workers in private, for‑profit firms are more likely (35%) to be enrolled in an HSA‑qualified plan
+than covered workers in public firms (19%) or in private, not‑for‑profit firms (22%). [Figure 5.4].
+
+KFF / Page 85
+
+SECTION 5. MARKET SHARES OF HEALTH PLANS
+
+KFF / Page 86
+
+Employer Health Benefits · Annual Survey 2026
+
+ է
+
+Worker and Employer
+Contributions for Premiums
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+Section 6
+
+Worker and Employer Contributions for
+Premiums
+The vast majority of covered workers make contributions toward the cost of their coverage.
+• In 2026, the average contribution percentages for covered workers are 18% of the premium for single
+coverage and 27% of the premium for family coverage, similar to the levels last year [Figure 6.1].1
+– The average contribution percentage for single coverage is similar for covered workers in smaller
+firms (firms with 10 to 199 workers) and for those in larger firms [Figure 6.2].
+
+* Covered workers in smaller firms contribute, on average, a much higher percentage of the
+
+premium for family coverage than covered workers in larger firms (37% vs. 25%) [Figure 6.2].
+
+• The average contribution amount for covered workers for single coverage is $139 per month ($1,672
+annually), higher than last year ($1,440) [Figure 6.3]. The average contribution amount for covered workers
+for family coverage is $623 per month ($7,471 annually), higher than the amount ($6,850 annually) last year
+[Figure 6.3].
+– The average contribution amount for covered workers for single coverage in smaller firms is lower
+than the average contribution amount for covered workers in larger firms ($1,451 vs. $1,736) [Figure
+6.7].
+– The average contribution amount for covered workers for family coverage in smaller firms is higher
+than the average contribution amount for covered workers in larger firms ($9,687 vs. $6,840) [Figure
+6.7].
+
+* The average contribution amount for family coverage among workers enrolled in HSA‑qualified
+plans is lower than the overall average contribution amount for covered workers ($6,211
+vs. $7,471) [Figure 6.6].
+
+1
+
+The average percentage contribution is calculated as a weighted average of all a firm’s plan types and may not necessarily equal the average
+worker contribution divided by the average premium.
+
+KFF / Page 88
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 89
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 90
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 91
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 92
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+DISTRIBUTIONS OF WORKER CONTRIBUTIONS TO THE PREMIUM
+Almost nine in ten covered workers (88%) are in a plan where the employer contributes at least half of the
+premium for both single and family coverage [Figure 6.10].
+• Ten percent of covered workers are in a plan where the employer pays the entire premium for single
+coverage, while only 3% of covered workers are in a plan where the employer pays the entire premium for
+family coverage [Figure 6.10].
+• Covered workers in smaller firms (firms with 10 to 199 workers) are much more likely than covered workers
+in larger firms to be in a plan where the employer pays the entire premium for single coverage.
+– Twenty‑nine percent of covered workers in smaller firms are in a firm where their employer pays the
+full premium for single coverage, compared to 5% of covered workers in larger firms [Figure 6.10].
+– For family coverage, 9% of covered workers in smaller firms have an employer that pays the full
+premium, compared to 2% of covered workers in larger firms [Figure 6.10].
+• Twelve percent of covered workers are in a plan where the worker contributes more than half of the
+premium for family coverage [Figure 6.10].
+– This percentage differs significantly by firm size. Thirty‑two percent of covered workers in smaller
+firms are in a plan where the worker contribution for family coverage is more than half of the
+premium, compared to 6% of covered workers in larger firms [Figure 6.10].
+– Small shares of covered workers in smaller firms (4%) or in larger firms (1%) are in a plan where the
+worker must contribute more than 50% of the premium for single coverage [Figure 6.10].
+KFF / Page 93
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+• There is substantial variation in the dollar amounts that covered workers must contribute toward health
+coverage.
+– Among covered workers in firms with 10 to 199 workers, 34% have a contribution for single coverage
+of less than $500 a year, while 29% have a contribution of $2,000 or more [Figure 6.13]. For family
+coverage, 16% have a contribution of less than $3,000, while 37% have a contribution of $10,500 or
+more [Figure 6.14].
+– Among covered workers in firms with 200 or more workers, 9% contribute less than $500 a year for
+single coverage, while 31% have a contribution of $2,000 or more [Figure 6.13]. For family coverage,
+only 11% contribute less than $3,000 a year, while 11% have a contribution of $10,500 or more [Figure
+6.14].
+
+KFF / Page 94
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 95
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 96
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+DIFFERENCES BY FIRM CHARACTERISTICS
+The average share of the premium paid by covered workers varies with firm characteristics.
+• For single coverage, covered workers in private, for‑profit firms have a relatively high average contribution
+rate (20%) while, those in private, not‑for‑profit firms have a relatively low average contribution rate (20%).
+• The average contribution rate for family coverage is higher for covered workers at firms with few older
+workers (where at least 35% are 50 years or older) than those in firms with many older workers (29%
+vs. 26%) [Figure 6.17].
+• The average contribution rate for family coverage is higher for covered workers in firms with relatively large
+shares of lower‑wage workers (where at least 35% earn $38,000 or less annually) than those in firms with
+smaller shares of lower‑wage workers (31% vs. 27%) [Figure 6.17].
+• The average contribution rate for family coverage is lower for covered workers in firms with relatively large
+shares of higher‑wage workers (where at least 35% earn $82,000 or more annually) than those in firms with
+smaller shares of higher‑wage workers (25% vs. 29%) [Figure 6.17].
+• Covered workers in firms that have at least some union workers have a lower average contribution rate for
+family coverage than those in firms without any union workers (22% vs. 31%) [Figure 6.17].
+• Covered workers in large firms that are fully insured have a higher average contribution rate for family
+coverage than those in firms with self‑funded plans (28% vs. 24%) [Figure 6.17].
+
+KFF / Page 97
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 98
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 99
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 100
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+DIFFERENCES BY REGION AND INDUSTRY
+• The average worker contribution rate for single coverage is relatively low in the West (15%) [Figure 6.19].
+• The average worker contribution rate for family coverage is relatively low in the Northeast (24%) and the
+Midwest (25%) and relatively high in the South (30%) [Figure 6.19].
+• Average worker contribution rates vary significantly across industries for single and family coverage [Figure
+6.20].
+
+KFF / Page 101
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+CHANGES OVER TIME
+The average worker contribution amounts in 2026 are higher than the amounts last year for single coverage
+($1,672 vs. $1,440) and for family coverage ($7,471 vs. $6,850) [Figure 6.21].
+• Over the last five years, the average worker contribution amount for single coverage has increased 29%
+and the average worker contribution for family coverage increased 26%. For comparison, during the same
+period inflation increased 24.4% and workers’ wages increased 26.9%.
+• Over the last 10 years, the average worker contribution amount for single coverage has increased 45% and
+the average worker contribution amount for family coverage has increased 42% [Figure 6.4] and [Figure
+6.5].
+• The average worker contribution amount for family coverage increased 42% at private for‑profit firms, 46%
+at public firms and 41% at private not‑for‑profit firms over the last ten years.
+
+KFF / Page 102
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 103
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 104
+
+SECTION 6. WORKER AND EMPLOYER CONTRIBUTIONS FOR PREMIUMS
+
+KFF / Page 105
+
+Employer Health Benefits · Annual Survey 2026
+
+ ը
+
+Employee Cost Sharing
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+Section 7
+
+Employee Cost‑Sharing
+In addition to any required premium contributions, most covered workers must pay a share of the cost for the
+medical services they use. The most common forms of cost‑sharing are deductibles (an amount that must be
+paid before most services are covered by the plan), copayments (fixed dollar amounts), and coinsurance (a
+percentage of the charge for services). Some plans combine forms of cost‑sharing, such as requiring coinsurance
+for a service up to a maximum amount, or assessing either coinsurance or a copayment for a service, whichever
+results in the higher payment. The type and level of cost‑sharing may vary by the type of plan in which the worker
+is enrolled. Cost‑sharing may also vary by the type of service, with with different requirements for office visits,
+hospitalizations, and prescription drugs.
+The cost‑sharing amounts reported here are for covered workers using in‑network services. Plan enrollees
+receiving services from out‑of‑network providers often face higher cost‑sharing and may be responsible for
+charges that exceed the plan’s allowable amounts. This survey does not allow us to capture all of the complex
+cost‑sharing requirements in modern plans, including ancillary services (such as durable medical equipment
+or physical therapy) or cost‑sharing arrangements that vary across different settings (such as tiered networks).
+Therefore, we do not collect information on all plan provisions and limits that affect the out‑of‑pocket liability of
+plan enrollees.
+
+GENERAL ANNUAL DEDUCTIBLES FOR WORKERS IN PLANS WITH
+DEDUCTIBLES
+We consider a general annual deductible to be an amount that must be paid by enrollees before most services
+are covered by their health plan. Non‑grandfathered health plans are required to cover some services, such
+as preventive care, without cost‑sharing. Some plans require enrollees to meet a specific deductible for
+certain services, such as prescription drugs or hospital admissions, in lieu of or in addition to a general annual
+deductible. As discussed below, some plans with a general annual deductible for most services exclude specified
+classes of care from the deductible, such as prescriptions or physician office visits.
+• Eighty‑eight percent of covered workers in 2026 are enrolled in a plan with a general annual deductible for
+single coverage, the same percentage as last year and similar to the percentage five years ago (85%), but
+higher than the percentage ten years ago (83%) [Figure 7.2].
+• The percentage of covered workers enrolled in a plan with a general annual deductible for single coverage
+is similar for covered workers in smaller firms (firms with 10 to 199 workers) (88%) and for those in larger
+firms (88%) [Figure 7.5].
+• The likelihood of a plan having a general annual deductible varies by plan type. Forty‑nine percent of
+covered workers in HMOs do not have a general annual deductible for single coverage, compared to 23% of
+workers in POS plans and 9% of workers in PPOs [Figure 7.1].
+• For workers with single coverage in a plan with a general annual deductible, the average annual deductible
+is $1,955, similar to the average deductible last year ($1,886) [Figure 7.3] and [Figure 7.8].
+• For covered workers in plans with a general annual deductible, the average deductibles for single coverage
+are $1,562 in HMOs, $1,446 in PPOs, $1,902 in POS plans, and $2,912 in HSA‑qualified plans [Figure 7.5].
+KFF / Page 107
+
+SECTION 7. EMPLOYEE COST‑SHARING
+• Among covered workers in plans with a general annual deductible, average deductibles for single coverage
+are higher at smaller firms (firms with 10 to 199 workers) than at larger firms across plan types. For covered
+workers in PPOs, the most common plan type, the average deductibles for single coverage are $2,097 in
+smaller firms and $1,282 in firms with 200 or more workers [Figure 7.5]. Overall, for covered workers in
+plans with a general annual deductible, the average deductible for single coverage at smaller firms ($2,624)
+is higher than the average deductible at larger firms ($1,772) [Figure 7.3].
+• The average general annual deductible for single coverage ($1,955) for workers in plans with a deductible is
+higher than five years ago ($1,658) and ten years ago ($1,464) [Figure 7.9].
+
+KFF / Page 108
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 109
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 110
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 111
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 112
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+GENERAL ANNUAL DEDUCTIBLES AMONG ALL COVERED WORKERS
+As discussed above, the share of covered workers in plans with a general annual deductible has increased over
+time, from 83% in 2016 to 88% this year [Figure 7.6]. The average deductible amount for covered workers in plans
+with a deductible has also increased over the same period, from $1,464 in 2016 to $1,955 in 2026 [Figure 7.9].
+Neither trend by itself, however, captures the full impact that changes in deductibles have had on all covered
+workers. We can look at the average impact of both trends together by assigning a zero deductible to covered
+workers in plans with no deductible and examining how the resulting average changes over time. These averages
+are lower than the averages among only workers in plans with deductibles, but the changes over time reflect
+both workers facing higher monetary deductible amounts and a greater number of workers facing deductibles.
+• Using this approach, the average general annual deductible for all covered workers with single coverage
+KFF / Page 113
+
+SECTION 7. EMPLOYEE COST‑SHARING
+(with or without a deductible) in 2026 is $1,733, similar to the amount last year ($1,663) [Figure 7.9].
+• The 2026 value is 21% higher than the average general annual deductible in 2021 ($1,431) and 43% higher
+than in 2016 ($1,210) [Figure 7.9].
+• Another way to assess deductibles on covered workers is to look at the percent of all covered workers who
+are in a plan with a deductible that exceeds a certain amount. Thirty‑eight percent of covered workers are
+in plans with a general annual deductible of $2,000 or more for single coverage, similar to the percentage
+last year (34%) but higher than the percentage five years ago (29%) [Figure 7.12].
+– Workers at smaller firms are more likely to have a general annual deductible of $2,000 or more for
+single coverage than workers at larger firms (55% vs. 33%) [Figure 7.11].
+
+KFF / Page 114
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 115
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+GENERAL ANNUAL DEDUCTIBLES AND ACCOUNT CONTRIBUTIONS
+HSA‑qualified plans are subject to a minimum deductible, have an important impact on the average deductible
+amounts across the market. The higher deductibles in these plans, however, are often paired with employer
+contributions to an HSA, offsetting some or all of the higher cost‑sharing.
+• Among covered workers enrolled in an HSA‑qualified plan, 3% receive an employer HSA contribution for
+single coverage that is at least equal to their deductible, and another 10% receive a contribution that would
+reduce their deductible to $1,000 or less. [Figure 7.14].
+• If employer HSA contributions are subtracted from general annual deductibles, the percentage of covered
+workers with a deductible of $2,000 or more would be reduced from 38% to 29% [Figure 7.13].
+Some employers also make funds available to employees through health reimbursement arrangements (HRAs),
+which in many cases can also be used by employees to reduce their cost‑sharing liability. The survey this year
+did not collect information on the amounts that employers make available in HRAs, so we cannot estimate their
+potential impact on cost‑sharing liability. Additional information on the ways that workers can use funds made
+available by employers in HRAs is provided in Chapter 8.
+
+KFF / Page 116
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 117
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 118
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+GENERAL ANNUAL DEDUCTIBLES FOR WORKERS ENROLLED IN FAMILY
+COVERAGE
+General annual deductibles for family coverage are structured in two primary ways: (1) an aggregate family
+deductible, where the out‑of‑pocket expenses of all family members count against a specified family deductible
+amount and where the deductible is considered met when the combined family expenses exceed the deductible
+amount, or (2) a separate per‑person family deductible, where each family member is subject to a specified
+deductible amount before the plan covers expenses for that member. Many plans with a per‑person deductible,
+however, consider the deductible for all family members met once a certain number of family members (such as
+two or three) meet their specified deductible amount.1
+• Forty‑nine percent of covered workers in HMOs are in plans without a general annual deductible for family
+coverage, much higher than the percentage of covered workers in plans without a family deductible in
+PPOs (8%) and POS plans (23%). As defined, all covered workers in HSA‑qualified plans have a general
+annual deductible for family coverage [Figure 7.17].
+• Among covered workers enrolled in family coverage, 42% of those in HMOs have an aggregate general
+annual deductible, compared with 56% of those in PPOs, 55% of those in POS plans, and 72% of those in
+HSA‑qualified plans [Figure 7.17].
+– The average deductible for covered workers in plans with an aggregate annual deductible for family
+coverage are $3,207 for HMOs, $3,320 for PPOs, $3,875 for POS plans, and $5,380 for HSA‑qualified
+plans [Figure 7.18]. The average deductible for HSA‑qualified plans is higher than last year ($4,936).
+The average deductible amounts for the other plan types are similar to the amounts last year.
+• For covered workers in HMOs, PPOs, and HSA‑qualified plans with an aggregate deductible for family
+coverage, average annual deductibles are higher at firms with 10 to 199 workers than at larger firms [Figure
+7.21].
+• Among covered workers enrolled in family coverage, 10% of those in HMOs have a separate per‑person
+annual deductible, compared with 36% of those in PPOs, 21% of those in POS plans, and 28% of those in
+HSA‑qualified plans.
+– The average deductible amounts for covered workers in plans with separate per‑person annual
+deductibles for family coverage are $1,693 for PPOs, and $4,614 for HSA‑qualified plans [Figure 7.18].
+• Twenty‑eight percent of covered workers in plans with a separate per‑person annual deductible for family
+coverage have a limit on the number of family members required to meet separate deductible amounts
+[Figure 7.21]. Among these covered workers, the most common number of family members required to
+meet the separate per‑person deductible is two [Figure 7.22].
+1
+
+Some workers with separate per‑person deductibles or out‑of‑pocket maximums for family coverage do not have a specific number of family
+members that are required to meet the deductible amount and instead have another type of limit, such as a per‑person amount with a total
+dollar amount limit. These responses are included in the averages and distributions for separate family deductibles and out‑of‑pocket
+maximums.
+
+KFF / Page 119
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 120
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 121
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 122
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 123
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+COVERAGE OF SERVICES AND PRODUCTS BEFORE MEETING THE GENERAL
+ANNUAL DEDUCTIBLE
+A majority of covered workers with a general annual deductible are enrolled in plans in which the deductible
+does not have to be met before certain services, such as physician office visits or prescription drugs, are covered.
+Covered workers in HSA‑qualified plans are not included in these estimates, because different deductible
+requirements apply to HSA‑qualified plans.
+• Among covered workers enrolled in a plan with a general annual deductible, 80% in HMOs, 80% in PPOs,
+and 58% in POS plans are enrolled in plans where the deductible does not have to be met before primary
+care office visits are covered [Figure 7.24].
+• Similarly, among covered workers enrolled in a plan with a general annual deductible, 92% in HMOs, 82%
+in PPOs, and 78% in POS plans are enrolled in plans where the deductible does not have to be met before
+prescription drugs are covered [Figure 7.24].
+
+KFF / Page 124
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+HOSPITAL ADMISSIONS AND OUTPATIENT SURGERY
+Whether or not a covered worker is in a plan with a general annual deductible, most covered workers face
+additional types of cost‑sharing (such as a copayment, coinsurance, or a per diem charge) when admitted to a
+hospital or undergoing outpatient surgery. The distribution of workers with cost‑sharing for hospital admissions
+or outpatient surgery does not equal 100%, as workers may face a complex combination of types of cost‑sharing.
+For this reason, the average copayment and coinsurance rates include workers who may have a combination
+of these cost‑sharing methods. Coinsurance, in particular, may include minimums or maximums which affect
+the liability of enrollees. We report the distribution of cost‑sharing for covered workers enrolled in a plan which
+covers hospital admissions and outpatient surgery, respectively. A small share of firms indicate that they have
+some “other” type of cost‑sharing arrangement.
+• In addition to any general annual deductible that may apply, 60% of covered workers have coinsurance
+and 11% have a copayment that apply to an inpatient hospital admission. A lower percentage of covered
+workers have per‑day (per diem) payments (4%), a separate hospital deductible (3%), or both a copayment
+and coinsurance (10%). Seventeen percent of covered workers have no additional cost‑sharing for hospital
+admissions after any general annual deductible has been met [Figure 7.27]. Covered workers with both a
+copay and coinsurance may be required to pay both, or to pay the greater or lesser amount.
+– Covered workers in HMOs are more likely than workers in other plan types to have a copayment for
+hospital admissions, while those in PPOs and HSA‑qualified plans are less likely to have a copayment
+[Figure 7.28].
+– Covered workers in PPOs are more likely and those in HMOs and POS plans are less likely than those
+in other plan types to have a coinsurance requirement for hospital admissions [Figure 7.28].
+KFF / Page 125
+
+SECTION 7. EMPLOYEE COST‑SHARING
+– In 2026, the average coinsurance rate for a hospital admission is 20%, the average copayment is $317,
+and the average per diem charge is $337 [Figure 7.31]. Eighty percent of workers enrolled in a plan
+with a per diem for hospital admissions have a limit on the number of days for which the per diem
+charge applies [Figure 7.32].
+• The cost‑sharing provisions for outpatient surgery are similar to those for hospital admissions, as most
+workers have coinsurance or copayments. In 2026, 12% of covered workers have a copayment and 64%
+have a coinsurance requirement for outpatient surgery. In addition, 5% have both a copayment and a
+coinsurance requirement, while 19% have no additional cost‑sharing after any general annual deductible
+has been met [Figure 7.29] and [Figure 7.30].
+– For covered workers with cost‑sharing for outpatient surgery, the average coinsurance rate is 20% and
+the average copayment is $205 [Figure 7.31].
+
+KFF / Page 126
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 127
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 128
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 129
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+COST‑SHARING FOR PHYSICIAN OFFICE VISITS
+The majority of covered workers are enrolled in health plans that require cost‑sharing for an in‑network physician
+office visit, in addition to any general annual deductible.2 The amounts shown below are for visits to in‑network
+providers.
+• The most common form of cost‑sharing for a physician office visit is a copayment. Sixty‑six percent of
+covered workers have a copayment for a primary care office visit and 19% have coinsurance. For specialist
+office visit, 67% of covered workers have a copayment and 21% have coinsurance [Figure 7.32].
+– Covered workers at firms with 10 to 199 workers are less likely to have coinsurance than workers at
+larger firms for a primary care office visit (8% vs. 22%) or an office visit with a specialist. (9% vs. 24%)
+[Figure 7.37].
+– Covered workers in HSA‑qualified plans are less likely to have a copayment for a primary care office
+visit than workers in other plan types. For covered workers in HSA‑qualified plans, 11% have a
+copayment for a primary care office visit, 55% have coinsurance, and 28% have no cost‑sharing after
+the general annual deductible is met [Figure 7.35].
+– Covered workers in HSA‑qualified plans also are less likely to have a copayment for office visits to
+specialists than workers in other plan types. For covered workers in HSA‑qualified plans, 14% have
+a copayment for an office visit to a specialist, 57% have coinsurance, and 24% have no cost‑sharing
+after the general annual plan deductible is met [Figure 7.35].
+• Among covered workers with a copayment for physician office visits, the average copayments are $27 for a
+primary care office visit and $46 for a specialist. Both amounts are similar to last year. [Figure 7.36].
+• Among covered workers with coinsurance for physician office visits, the average coinsurance rates are 20%
+for a primary care office visit and 21% for a specialist. Each of these is similar to the rates last year [Figure
+7.36].
+2
+
+Starting in 2010, the survey asked about the prevalence and cost of physician office visits separately for primary care and specialty care.
+Prior to the 2010 survey, if the respondent indicated the plan had a copayment for office visits, we assumed the plan had a copayment for
+both primary and specialty care visits. The survey did not allow for a respondent to report that a plan had a copayment for primary care
+visits and coinsurance for visits with a specialist physician. The changes made in 2010 allow for variations in the type of cost‑sharing for
+primary care and specialty care visits. The survey includes cost‑sharing for in‑network services only.
+
+KFF / Page 130
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 131
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 132
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 133
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 134
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+OUT‑OF‑POCKET MAXIMUMS
+Virtually all covered workers are in a plan that either partially or fully limits the amount of cost‑sharing that
+enrollees must pay in a year. This limit is generally referred to as an out‑of‑pocket maximum. The Affordable Care
+KFF / Page 135
+
+SECTION 7. EMPLOYEE COST‑SHARING
+Act (ACA) requires requires non‑grandfathered health plans to have an annual out‑of‑pocket maximum of no
+more than $10,600 for single coverage and $21,200 for family coverage in 2026. HSA‑qualified plans are subject
+to lower out‑of‑pocket limits.3 Many plans have complex out‑of‑pocket cost‑sharing structures, which makes it
+difficult to accurately collect information on this element of plan design.
+• In 2026, more than 99% of covered workers are in a plan with an out‑of‑pocket maximum for single
+coverage [Figure 7.40].
+• Among covered workers in plans with an out‑of‑pocket maximum for single coverage, 14% have a
+maximum of $2,000 or less, while 24% have a maximum above $6,000 [Figure 7.41].
+
+3
+
+For those enrolled in an HDHP/HSA, the out‑of‑pocket maximum may be no more than $8,500 for an individual plan and $17,000 for a family
+plan in 2026.
+
+KFF / Page 136
+
+SECTION 7. EMPLOYEE COST‑SHARING
+
+KFF / Page 137
+
+(+'*4 -
+
+'/# ) জ/. · Annual Survey 2026
+
+ թ
+
+ֈ0'$জ ').
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+Section 8
+
+Health Plans with Savings Accounts
+Health plans can be paired with account options that workers can use to help pay for expenses not covered by
+the plan. The two most common account options are health savings accounts (HSAs) and health reimbursement
+arrangements (HRAs). HSAs and HRAs both allow workers to pay for health care expenses on a tax‑preferred
+basis. Workers enrolled in an HSA‑qualified plan can establish an HSA, into which employers and workers may
+make pre‑tax contributions up to specified limits. Employer contributions to HSAs belong to workers once they
+are made, and workers may use their HSA funds to pay for health care expenses permitted by law.
+In contrast, HRAs are employer‑funded arrangements, and employers can determine how the funds may be
+used. For example, an employer could establish an HRA that workers could use only for a specific service, such
+as in‑vitro fertilization, or it could establish an HRA that could be used for a broader range of services, or for plan
+cost‑sharing. HRAs are nominal accounts, meaning that the employer promises to provide funds if an employee
+has eligible expenses, but the funds remain with the employer if the employee does not use them.
+These savings arrangements are often (or, in the case of HSAs, always) paired with health plans with high
+deductibles. Since 2004, the survey has combined high deductible plans paired with HSAs or HRAs into a single
+plan type referred to as high deductible health plans with savings options (“HDHP/SOs”). Since that time, the
+prevalence of HSA‑qualified plans has grown while that of high deductible plans paired with HRAs has waned.
+The different types and uses of HRAs has also made it more difficult to make generalizations about these plans.
+So, beginning this year, the survey will no longer track the HDHP/SOs as a plan type and instead focus on
+HSA‑qualified plans as a plan type. The survey will continue to ask employers whether they offer HRAs and what
+the HRA funds may be used for, but will no longer ask about the amounts made available in these arrangements.
+
+AVAILABILITY OF AND ENROLLMENT IN HSA‑QUALIFIED PLANS
+• Among firms with 10 or more workers offering health benefits, 39% offer an HSA‑qualified plan to at least
+some of their workers, higher than the percentages last year (31%) and two years ago (28%).
+• Firms with 200 or more workers are more likely than smaller firms to offer an HSA‑qualified plan to at least
+some workers (54% vs. 38%) [Figure 4.6].
+• As discussed in Section 5, 29% of covered workers are enrolled in an HSA‑qualified plan in 2026, similar
+to the percentage last year (29%), but higher than the percentages five years ago (22%) and 10 years ago
+(19%) [Figure 5.1].
+
+EMPLOYER CONTRIBUTIONS TO HSA ACCOUNTS
+Employers may, but are not required to, make contributions to the HSAs of employees enrolled in HSA‑qualified
+plans.
+• Covered workers enrolled in HSA‑qualified plans in 2026 receive an average annual employer HSA
+contribution of $713 for single coverage and $1,346 for family coverage [Figure 8.1].
+KFF / Page 139
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+• In many cases, employers that sponsor HSA‑qualified plans do not make any contributions to HSAs
+established by their employees. Thirty‑nine percent of employers offering single coverage and 40% of
+employers offering family coverage through HSA‑qualified plans do not make HSA contributions. Among
+covered workers enrolled in HSA‑qualified plans, 16% with single coverage and 16% with family coverage
+do not receive an employer HSA contribution, similar to the percentages last year [Figure 8.1] and [Figure
+8.2].
+• The average HSA contributions number reported above include covered workers whose employer
+contribution is zero. Excluding workers with no employer contribution, the average employer HSA
+contribution is $853 for single coverage and $1,615 for family coverage.
+• The amounts that employers contribute to HSAs can vary considerably. Twenty‑seven percent of covered
+workers in an HSA‑qualified plan receive an annual employer HSA contribution of less than $400 for single
+coverage, including 16% who receive no employer contribution [Figure 8.3]. In contrast, 16% receive an
+annual employer HSA contribution of $1,200 or more. Two percent of covered workers have an employer
+that matches worker HSA contributions for single coverage.
+
+KFF / Page 140
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+KFF / Page 141
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+WORKER AND EMPLOYER CONTRIBUTIONS TO HSA‑QUALIFIED PLAN
+PREMIUMS
+• The average worker premium contribution for covered workers enrolled in HSA‑qualified plans are $1,497
+for single coverage and $6,211 for family coverage, similar to the amounts last year [Figure 8.6].
+• The average worker premium contribution for covered workers enrolled in HSA‑qualified plans is similar
+to the average for covered workers overall for single coverage ($1,497 and $1,672), but lower for family
+coverage ($6,211 vs. $7,471).
+Employers contribute to HSA‑qualified plans in two ways: through contributions toward the cost of the health
+plan premiums and through contributions, if any, to workers’ HSAs.
+• The average annual employer contributions toward premiums for covered workers in HSA‑qualified plans
+are $7,492 for single coverage and $20,239 for family coverage. These amounts are similar to last year
+[Figure 8.7].
+• For single coverage, the average employer contribution toward premiums for covered workers in
+HSA‑qualified plans ($7,492) is lower than the average employer contribution for workers in plans that are
+not HSA‑qualified ($8,392) [Figure 8.7].
+Employer contributions toward premiums for HSA‑qualified plans can be combined with employer contributions,
+if any, to workers’ HSAs to calculate the total employer contribution for workers enrolled in these plans.
+KFF / Page 142
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+• The average total annual employer contribution for covered workers enrolled in HSA‑qualified plans is
+$8,242 for single coverage and $21,742 for family coverage.
+These amounts are similar to the average employer contributions for single and family coverage in plans that are
+not HSA‑qualified [Figure 8.7].
+
+KFF / Page 143
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+KFF / Page 144
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+COST‑SHARING
+For covered workers in HSA‑qualified plans the the average deductibles for single coverage is $3,595 at small
+firms and $2,734 at large firms. Overall, the average deductible for single coverage is $2,912 [Figure 8.9].
+• Forty‑eight percent of covered workers in HSA‑qualified plans have a deductible of $3,000 or more for
+single coverage.
+While HSA‑qualified plans often have higher deductibles, they are often paired with employer account
+contributions, which can offset some costs. If employer HSA contributions are subtracted from general annual
+deductibles, the average deductible for single coverage is $2,222.
+Among covered workers enrolled in family coverage, 72% of those in HSA‑qualified plans have an aggregate
+general annual deductible. The average deductible for covered workers in HSA‑qualified plans with an aggregate
+annual deductible for family coverage is $5,380 for HSA‑qualified plans.
+• Nineteen percent of covered workers in HSA‑qualified plans with an aggregate annual deductible for family
+coverage have a deductible of $7,000 or more.
+
+KFF / Page 145
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+KFF / Page 146
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+HEALTH REIMBURSEMENT ARRANGEMENTS
+Some employers offering health benefits make funds available to covered workers through an HRA.
+• In 2026, 8% of covered workers are in a plan that is offered along with a health reimbursement
+arrangement [Figure 8.12].
+• Among covered workers in a plan offered with an HRA, 61% are in a plan where HRA funds can be used to
+offset workers’ cost‑sharing expenses [Figure 9.13].
+
+KFF / Page 147
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+KFF / Page 148
+
+SECTION 8. HEALTH PLANS WITH SAVINGS ACCOUNTS
+
+Health Reimbursement Arrangements (HRAs) are employer‑funded arrangements that reimburse employees
+for eligible health care expenses. Employers may make a specified amount of money available through an
+HRA for premiums and medical expenses incurred by employees or their dependents. HRAs are accounting
+devices, and employers are not required to expend funds until an employee incurs an expense that is eligible
+for reimbursement. Unspent HRA funds can usually be carried over to the next year, sometimes subject to
+a limit. Employees generally cannot take their HRA balances with them if they leave their job, although an
+employer can choose to make the remaining balance available to former employees to pay for health care.
+HRAs are often offered along with health plans with high deductibles. In such cases, employees may use HRA
+funds to pay eligible health care expenses and then pay out of pocket until the health plan deductible is met.
+Certain preventive services or other services, such as prescription drugs, may be covered by the plan before the
+employee meets the deductible.
+Health Savings Accounts (HSAs) are savings accounts established by individuals to pay for health care expenses.
+An individual may establish an HSA if they are covered by an HSA‑qualified plan that meets federal requirements,
+including a minimum deductible of $1,650 for single coverage and $3,300 for family coverage in 2026, compared
+with $1,600 and $3,200, respectively, in 2025. Employers can facilitate employees’ access to HSAs by offering
+an HSA‑qualified plan and may also assist employees by identifying HSA options, facilitating applications, or
+negotiating favorable fees from HSA vendors.
+Both employers and employees can contribute to an HSA, up to the statutory contribution limit of $4,400 for
+single coverage and $8,650 for family coverage in 2026. Employee contributions to an HSA may be made on
+a pre‑tax basis, and some employers arrange for employees to fund their HSAs through payroll deductions.
+Employers are not required to contribute to HSAs established by their employees, but employer contributions are
+not taxable to the employee. Interest and other earnings on amounts in an HSA are not taxable, and withdrawals
+used to pay for qualified medical expenses are not taxed. The account is owned by the individual, so employees
+retain their HSA balances if they leave their job.
+
+KFF / Page 149
+
+Employer Health Benefits · Annual Survey 2026
+
+ ժ
+
+Prescription Drug Benefits
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+Section 9
+
+Prescription Drug Benefits
+Nearly all (98%) covered workers are in a firm that provides prescription drug coverage to enrollees in its largest
+health plan. Over time, employer plans have incorporated more complex prescription drug benefit designs
+as employers and insurers have expanded the use of formularies with multiple cost‑sharing tiers and other
+management approaches. To reduce the burden on respondents, we ask firms offering health benefits about the
+attributes of prescription drug coverage only for their largest health plan. We collect information on cost‑sharing
+in up to four tiers, and, if applicable, a separate tier exclusively for specialty drugs. Some plans may have more
+than one tier for specialty drugs, or other variations in their formularies that are not captured by the survey.
+
+KFF / Page 151
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+TIERS NOT EXCLUSIVELY FOR SPECIALTY DRUGS
+Excluding formulary tiers that cover only specialty drugs, a large share (82%) of covered workers are in a plan
+with three or more tiers of cost sharing for prescription drugs. The cost‑sharing statistics presented in this section
+do not include tiers that cover only specialty drugs. When specialty drugs are covered on a tier with other drugs,
+those drugs are included in these averages. Cost‑sharing statistics for tiers covering only specialty drugs are
+presented separately below.
+• For covered workers in a plan with three or more tiers of cost‑sharing for prescription drugs, copayments
+are the most common form of cost‑sharing in the first three tiers, and coinsurance is the second‑most
+common [Figure 9.3].
+– Among covered workers in plans with three or more tiers of cost‑sharing for prescription drugs, the
+average copayment is $12 for first‑tier drugs, $36 for second‑tier drugs, $66 for third‑tier drugs, and
+$136 for fourth‑tier drugs [Figure 9.6].
+– Among covered workers in plans with three or more tiers of cost‑sharing for prescription drugs, the
+average coinsurance rate is 21% for first‑tier drugs, 26% for second‑tier drugs, 35% for third‑tier drugs,
+and 30% for fourth‑tier drugs [Figure 9.6].
+• Six percent of covered workers are in a plan with two tiers of prescription drug cost‑sharing, excluding tiers
+that cover only specialty drugs.
+– For these workers, copayments are more common than coinsurance in both tiers [Figure 9.3]. The
+average copayment is $13 for the first tier and $37 for the second tier. The average coinsurance rate is
+19% for the first tier and 27% for the second tier [Figure 9.6].
+KFF / Page 152
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+• Six percent of covered workers are in a plan with the same cost‑sharing for all prescription drugs, excluding
+tiers that cover only specialty drugs [Figure 9.2].
+– Among these workers, 22% have copayments and 78% have coinsurance [Figure 9.3].
+
+KFF / Page 153
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+KFF / Page 154
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+KFF / Page 155
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+COINSURANCE MAXIMUMS
+Coinsurance rates for prescription drugs often include maximum and/or minimum dollar amounts. Depending
+on the plan design, coinsurance maximums can significantly limit the amount an enrollee must spend
+out‑of‑pocket for higher‑cost drugs. Even in plans without explicit coinsurance maximum amounts, the overall
+plan out‑of‑pocket maximum limits enrollee cost‑sharing on covered services, including prescription drugs.
+Coinsurance minimum and maximum amounts vary across tiers and plan designs.
+• For example, among covered workers in a plan with coinsurance for the third cost‑sharing tier, 38% have
+only a maximum dollar amount attached to the coinsurance rate, 9% have only a minimum dollar amount,
+27% have both a minimum and maximum dollar amount, and 27% have neither.
+• For those in a plan with coinsurance for the fourth cost‑sharing tier, 76% have only a maximum dollar
+amount attached to the coinsurance rate, <1% have only a minimum dollar amount, 6% have both a
+minimum and maximum dollar amount, and 16% have neither [Figure 9.7].
+
+KFF / Page 156
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+SEPARATE TIERS FOR SPECIALTY DRUGS
+Specialty drugs are generally high‑cost medications used to treat complex or chronic conditions, such as cancer,
+rheumatoid arthritis, or multiple sclerosis. They may be biologics or other drugs and often require special
+handling, administration, or monitoring. Given the high cost of these drugs, we ask separately about formulary
+tiers that cover only specialty drugs.
+• In 2026, 89% of covered workers at firms with 10 or more workers are in a plan with coverage for specialty
+drugs, similar to the percentage as last year.
+– Covered workers in larger firms (firms with 200 or more workers) are more likely than workers in
+smaller firms to be in a plan with coverage for specialty drugs (93% vs. 76%).
+– Covered workers in smaller firms are more likely than workers in larger firms to work for a firm that
+did not know whether its largest plan covers specialty drugs (17% vs. 3%).
+• Among covered workers in larger firms in a plan with coverage for specialty drugs, 62% are in a plan with at
+least one cost‑sharing tier exclusively for specialty drugs [Figure 9.8].
+– Among covered workers in larger firms whose plan has at least one separate tier for specialty drugs,
+41% have a copayment for specialty drugs and 54% have coinsurance [Figure 9.10]. The average
+copayment is $110 and the average coinsurance rate is 27% [Figure 9.11]. Seventy percent of those
+with coinsurance have a maximum dollar limit on the amount of coinsurance they must pay.
+
+KFF / Page 157
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+KFF / Page 158
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+PRESCRIPTION DRUG POLICY
+Firms with 50 or more workers offering prescription drug coverage were asked about several strategies to reduce
+prescription drug costs.
+• Thirty‑three percent of these firms offer enrollees access to lower‑cost mail‑order generic drugs through
+a third‑party vendor, such as Mark Cuban Cost Plus, SingleCare, or GoodRx. Firms with 50 to 199 workers
+KFF / Page 159
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+are less likely than larger firms to offer access to lower‑cost mail‑order generic drugs through a third‑party
+vendor (31% vs. 40%) [Figure 9.12].
+– The share of firms with 200 or more workers offering access to lower‑cost mail‑order generic drugs
+through a third‑party vendor increased from 32% in 2024 to 40% in 2026.
+• Eleven percent of firms limit coverage for certain prescription drugs exclusively to mail‑order pharmacies.
+In these cases, the plan does not pay for those prescriptions if an enrollee uses an in‑person pharmacy.
+– Firms with 5,000 or more workers are more likely than smaller firms to limit coverage for certain
+prescription drugs exclusively to mail‑order pharmacies (20%) [Figure 9.13].
+• Nine percent of firms participate in an international prescription drug purchasing service, such as
+ScriptSourcing or CanaRx, which provides access to discounted maintenance medications purchased
+outside the United States [Figure 9.14].
+– Firms with 5,000 or more workers are less likely than smaller firms to participate in an international
+prescription drug purchasing service (1%).
+
+KFF / Page 160
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+KFF / Page 161
+
+SECTION 9. PRESCRIPTION DRUG BENEFITS
+
+Generic drugs
+• Drugs that are no longer protected by a patent and may be produced or distributed by multiple drug
+companies.
+Preferred drugs
+• Drugs included on a formulary or preferred drug list; for example, a brand‑name drug without a generic
+substitute.
+Non‑preferred drugs
+• Drugs not included on a formulary or preferred drug list; for example, a brand‑name drug for which a
+generic substitute is available.
+Fourth‑tier drugs
+• Drugs placed on an additional cost‑sharing tier that typically requires higher copayments or coinsurance
+than the first three tiers. This tier may include specialty or other high‑cost drugs.
+Specialty drugs
+• Generally high‑cost medications used to treat complex or chronic conditions, such as cancer, rheumatoid
+arthritis, or multiple sclerosis. They may be biologic or other drugs and often require special handling,
+administration, or monitoring.
+
+KFF / Page 162
+
+Employer Health Benefits · Annual Survey 2026
+
+ բա
+
+Plan Funding
+
+SECTION 10. PLAN FUNDING
+
+Section 10
+
+Plan Funding
+Many firms, particularly larger firms, choose to pay for some or all of the health services of their workers directly
+from their own funds rather than by purchasing health insurance to cover them. This is called self‑funding.
+Both public and private employers can use self‑funding to provide health benefits. Federal law (the Employee
+Retirement Income Security Act of 1974, or ERISA) exempts self‑funded plans established by private employers
+(but not public employers) from most state insurance laws, including reserve requirements, mandated benefits,
+premium taxes, and some consumer protection regulations. In 2026, 71% of covered workers are in a self‑funded
+health plan. Some employers who sponsor self‑funded plans purchase stoploss coverage to limit their liabilities.
+In recent years, a complex funding option, often called level‑funding, has become more widely available to small
+employers. Level‑funded arrangements are nominally self‑funded options that package together a self‑funded
+plan with extensive stoploss coverage that significantly reduces the risk retained by the employer. Thirty‑eight
+percent of covered workers in firms with 10 to 199 workers are in a level‑funded plan in 2026.
+
+SELF‑FUNDED PLANS
+• Seventy‑one percent of covered workers are in a plan that is self‑funded, similar to the percentage (67%)
+last year [Figure 10.2].
+– The percentage of covered workers enrolled in self‑funded plans is higher than the percentages two
+years ago (65%), five years ago (66%) and ten years ago (63%) [Figure 10.2].
+– Covered workers in firms with 200 or more workers are significantly more likely to be in a self‑funded
+plan than covered workers in smaller firms (85% vs. 25%) [Figure 10.1] and [Figure 10.1].
+
+KFF / Page 164
+
+SECTION 10. PLAN FUNDING
+
+KFF / Page 165
+
+SECTION 10. PLAN FUNDING
+
+KFF / Page 166
+
+SECTION 10. PLAN FUNDING
+
+KFF / Page 167
+
+SECTION 10. PLAN FUNDING
+
+LEVEL‑FUNDED PLANS
+In recent years, insurers have been offering health plans that provide a nominally self‑funded option for small
+and mid‑sized employers that incorporates stoploss insurance with relatively low attachment points. In these
+arrangements, the insurer calculates an expected monthly expense for the employer, which includes a share of
+estimated annual claims costs, premiums for the stoploss protection, and an administrative fee. The employer
+pays this “level premium” amount, with the possibility of reconciliation between the employer and insurer
+at the end of the year, although small employers are often protected from any meaningful additional liability.
+These policies are sold as self‑funded plans, so they generally are not subject to state requirements for insured
+plans and, for those sold to employers with fewer than 50 employees, are not subject to the rating and benefit
+standards in the ACA for small firms.
+Due to the complexity of the funding (and regulatory status) of these plans, and because employers often pay a
+monthly amount that resembles a premium, respondents may be confused as to whether or not their health plan
+is self‑funded or insured. There also may be confusion because different plan administrators (generally insurers)
+use different labels to refer to these arrangements. We asked employers with fewer than 200 workers whether or
+not they have a level‑funded plan.
+• Thirty‑seven percent of firms with 10 to 199 workers that offer health benefits offer a level‑funded plan in
+2026, the same percentage as last year [Figure 10.8].
+• Thirty‑eight percent of covered workers in firms with 10 to 199 workers are enrolled in a level‑funded plan
+in 2026, similar to the percentage last year [Figure 10.6] . Fifty percent of covered workers in firms with 10
+to 199 workers are enrolled in either a level‑funded plan or a self‑insured plan, similar to the percentage
+last year [Figure 10.7] and [Figure 10.8].
+
+KFF / Page 168
+
+SECTION 10. PLAN FUNDING
+
+KFF / Page 169
+
+SECTION 10. PLAN FUNDING
+
+STOPLOSS COVERAGE
+Employers purchase insurance, often referred to as “stoploss” coverage, to protect themselves from unexpected
+losses for claims incurred by a self‑funded plan. There are different types of stoploss coverage. For example,
+a policy may cover any amount that the plan sponsor must pay over a specified amount for each worker or
+enrollee (referred to as specific stoploss coverage) or it may limit the total amount the plan sponsor must pay for
+all claims in the plan over the plan year (referred to as aggregate stoploss coverage). Stoploss coverage may also
+be focused on particular types of claims (e.g., organ transplants). A firm may have more than one type of stoploss
+coverage.
+• Among covered workers in self‑funded plans at firms with 200 or more workers, 75% of covered workers
+are in plans that have stoploss insurance, similar to the percentage last year (75%) [Figure 10.9]. Covered
+workers in firms with 5,000 or more workers are less likely than covered workers in smaller firms to be in a
+plan with stoploss insurance [Figure 10.10].
+
+KFF / Page 170
+
+SECTION 10. PLAN FUNDING
+
+Self‑Funded Plan An insurance arrangement in which the employer assumes direct financial responsibility for
+the costs of enrollees’ medical claims. Employers sponsoring self‑funded plans typically contract with a
+third‑party administrator or insurer to provide administrative services for the self‑funded plan. In some
+cases, the employer may buy stoploss coverage from an insurer to protect the employer against very large
+claims.
+Fully‑Insured Plan An insurance arrangement in which the employer contracts with a health plan that assumes
+financial responsibility for the costs of enrollees’ medical claims.
+Level‑Funded Plan An insurance arrangement in which the employer makes a set payment each month to an
+insurer or third‑party administrator which funds a reserve account for claims, administrative costs, and
+premiums for stoploss coverage. When claims are lower than expected, surplus funds may be refunded at
+the end of the contract.
+Stoploss Coverage Stoploss coverage limits the amount that a plan sponsor has to pay in claims. Stoploss
+coverage may limit the amount of claims that must be paid for each employee or may limit the total
+amount the plan sponsor must pay for all claims over the plan year.
+Attachment Point Attachment points refer to the amount at which the insurer begins to pay its obligations for
+stoploss coverage, either because plan, individual or claim spending exceeds a designated amount.
+
+KFF / Page 171
+
+Employer Health Benefits · Annual Survey 2026
+
+ բբ
+
+ /$- 
+
+'/# ) !$/.
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+Section 11
+
+Retiree Health Benefits
+Retiree health benefits are an important consideration for older workers making decisions about retirement,
+and can be a crucial source of coverage for people retiring before they are eligible for Medicare. For retirees with
+Medicare coverage, retiree health benefits can provide important supplementary coverage by helping them pay
+for cost sharing and benefits that Medicare does not cover.
+Twenty‑five percent of large firms offering health benefits offer retiree health benefits in 2026, similar to the
+percentage in 2025 (27%).
+This survey asks questions about retiree health benefits only of firms with 200 or more workers that offer health
+benefits.
+
+EMPLOYER RETIREE BENEFITS
+In 2026, 25% of firms with 200 or more workers that offer health benefits offer retiree health benefits for at least
+some current workers or retirees [Figure 11.1]. Starting in 2019, we instructed firms to respond “yes” if they were
+providing coverage to retirees but were not offering these benefits to current employees, or if they were planning
+to provide retiree health benefits to current employees in the future.
+• Retiree health benefit offer rates vary with firm characteristics.
+• Firms with 5,000 or more workers are more likely than smaller firms to offer retiree health benefits (35%
+vs. 24%) [Figure 11.2].
+• The share of firms that offer retiree health benefits varies considerably by industry [Figure 11.2].
+• Public employers are far more likely than other types of firms to offer retiree health benefits (61% vs. 11%)
+[Figure 11.3].
+• Firms that have at least some union workers are more likely to offer retiree health benefits than firms
+without any union workers (48% vs. 15%) [Figure 11.3].
+
+KFF / Page 173
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+KFF / Page 174
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+KFF / Page 175
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+BENEFIT ELIGIBILITY
+Among firms with 200 or more workers that offer retiree health benefits:
+• Ninety‑three percent offer benefits to early retirees under age 65 [Figure 11.4].
+• Fifty‑seven percent offer benefits to Medicare‑age retirees [Figure 11.4].
+• Fifty‑one percent offer benefits to both early and Medicare‑age retirees.
+Among firms that offer retiree health benefits, three in four (88%) offer health benefits to retirees’ spouses [Figure
+11.5].
+
+KFF / Page 176
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+KFF / Page 177
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+MEDICARE ADVANTAGE
+Fifty‑nine percent of firms that offer retiree health benefits to Medicare‑age retirees offer coverage to at least
+some Medicare‑age retirees through a contract with a Medicare Advantage plan, similar to the share last year
+(47%) [Figure 11.7].
+• Among firms that offer retiree health benefits through a Medicare Advantage plan:
+– Sixty‑one percent offer retiree health benefits only through Medicare Advantage plans, while 39%
+offer a choice of Medicare Advantage and other types of plans for retiree health benefits [Figure 11.8].
+Both shares are similar to last year.
+– Sixty‑one percent say, to the best of their knowledge, that the shift to offering Medicare Advantage
+plans lowered their per‑retiree costs; 16% say the shift did not lower their per‑retiree costs; and 23%
+say they do not know [Figure 11.9].
+• Among firms that offer retiree health benefits but do not offer benefits through a Medicare Advantage plan
+in 2026, 5% are somewhat likely to do so in the next two years [Figure 11.10].
+
+KFF / Page 178
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+KFF / Page 179
+
+SECTION 11. RETIREE HEALTH BENEFITS
+
+KFF / Page 180
+
+Employer Health Benefits · Annual Survey 2026
+
+ բգ
+
+Employer Opinions and
+Practices: Satisfaction with
+Health Plans, Provider
+Networks, Coverage for
+GLP-1s, and Access to Data
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+Section 12
+
+Employer Opinions and Practices:
+Satisfaction with Health Plans, Provider
+Networks, Coverage for GLP‑1s, and
+Access to Data
+Employers frequently review and modify their health plans to incorporate new options or adapt to changing
+circumstances. Topics covered this year include employer satisfaction with their health plans, the structure and
+breadth of provider networks, employer responses to higher costs, coverage of GLP‑1 agonists for weight loss,
+prior authorization practices, and employer access to information on prices and utilization.
+
+EMPLOYER SATISFACTION WITH HEALTH PLANS
+Firms that offer health benefits were asked about their satisfaction with several aspects of the health plans
+offered to their employees.
+• Cost of care. Only 17% of firms say that they are “very satisfied” with the overall cost of care for
+employees, 51% say that they are “satisfied”, 29% say that they are “dissatisfied” or “very dissatisfied”, and
+4% say that they do not know [Figure 12.1]. Firms with fewer than 200 workers are less likely than larger
+firms to say that they are “very satisfied” with the overall cost of care for employees (16% vs. 23%).
+• Quality of network providers. Forty‑two percent of firms say that they are “very satisfied” and 53%
+say that they are “satisfied” with the quality of providers in plan networks. Only 2% say that they are
+“dissatisfied” or “very dissatisfied” with the quality of network providers, and 3% say that they do not know.
+[Figure 12.1].
+• Timely access to services. Thirty‑three percent of firms say that they are “very satisfied” and 58% say that
+they are “satisfied” with the timely access to services in the health plans that they offer. Only 5% say that
+they are “dissatisfied” or “very dissatisfied” with timely access to services in their health plans, and 4% say
+that they do not know [Figure 12.1].
+• Access to behavioral health care. Twenty‑six percent of firms say that they are “very satisfied” and 56%
+say that they are “satisfied” with access to behavioral health care in the health plans that they offer. Only
+7% say that they are “dissatisfied” or “very dissatisfied” with access to behavioral health care in their
+health plans, and 11% say that they do not know [Figure 12.1]. The share of firms offering health benefits
+that report being “very satisfied” with access to behavioral health care in their health plan has increased
+since 2022, the last time firms were asked about plan satisfaction (26% vs. 16%).
+• Employee access to information about the cost and quality of treatment options. Twenty‑four percent
+of firms say that they are “very satisfied” with employees’ ability to obtain information about the cost and
+quality of treatment options before receiving care, while 60% say that they are “satisfied.” Seven percent
+say that they are “dissatisfied,” 2% say that they are “very dissatisfied,” and 8% say that they do not know
+KFF / Page 182
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+[Figure 12.1]. Firms with 1,000 or more workers are more likely than smaller firms to say that they are
+“dissatisfied” or “very dissatisfied” with employees’ access to this information (15% vs. 8%).
+
+KFF / Page 183
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+HEALTH PLAN NETWORKS
+Firms and health plans structure their provider networks to ensure access to care while also encouraging
+enrollees to use providers who are lower cost or provide better care. Firms were asked about several aspects of
+their provider networks, including network breadth, virtual care options, and access to on‑site clinics.
+
+BREADTH OF NETWORKS
+Some firms offer their employees health plans with relatively small, or narrow, networks of providers. Narrow
+network plans limit the number of participating providers, which may help reduce costs and are generally more
+restrictive than standard HMO networks.
+• Among firms that offer health benefits, 8% offer a narrow network plan in 2026, similar to the percentage
+last year (9%). Firms with 1,000 to 4,999 workers (13%) and 5,000 or more workers (20%) are more likely
+than smaller firms to offer a narrow network plan [Figure 12.3].
+Firms offering health benefits were asked about the breadth of the provider network of their plan with the largest
+enrollment. A broad network includes most local doctors and hospitals; a narrow network has a limited number
+of providers.
+• Among these firms, 51% say that the network is “very broad,” 38% say that it is “somewhat broad,” 5% say
+that it is “somewhat narrow,” 3% say that it is “very narrow,” and 4% say that they do not know [Figure
+12.5]. Firms with 200 or more workers are more likely than smaller firms to characterize the network of
+their health plan with the largest enrollment as “very broad” (64% vs. 50%) [Figure 12.5].
+KFF / Page 184
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+Firms offering health benefits were also asked about the breadth of the provider network of their plan with the
+largest enrollment for mental health and substance use conditions.
+• Among these firms, 22% say that the network for mental health and substance use conditions is “very
+broad,” 42% say that it is “somewhat broad,” 12% say that it is “somewhat narrow,” 3% say that it is “very
+narrow,” and 20% say that they do not know [Figure 12.5]. Firms with 200 or more workers are more likely
+than smaller firms to characterize the network for these services as “very broad” (32% vs. 21%), while firms
+with fewer than 200 workers are more likely to say that they do not know (21% vs. 10%) [Figure 12.5].
+
+KFF / Page 185
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 186
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+TREATMENT OPTIONS FOR SUBSTANCE USE CONDTIONS
+Firms with 200 or more workers offering health benefits were asked whether they had made efforts in the last two
+years to expand the availability of services to treat substance use conditions. Firms also were asked whether they
+had taken actions to reduce out‑of‑network coverage for these services due to concerns about cost or quality.
+• Among these firms, 34% say that they have added new virtual providers within the last two years, and 20%
+say that they have added new providers or facilities for in‑person care [Figure 12.6].
+• Three percent of these firms say that they have taken actions to reduce out‑of‑network coverage for
+substance use services due to concerns about cost or quality [Figure 12.6].
+
+VARIABLE COPAY PLANS
+Some firms offer plans, such as those from Surest and Coupe Health, that replace deductibles with copayments
+that vary based on the provider chosen by the enrollee. Enrollees who choose more efficient providers generally
+face lower copayments.
+• Among firms with 200 or more workers that offer health benefits, 4% offer a plan to at least some
+employees that uses this variable copayment approach. Firms with 5,000 or more workers are more likely
+than firms with 200 to 4,999 workers to offer such a plan (10% vs. 4%) [Figure 12.7].
+
+KFF / Page 187
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+ON‑SITE AND NEAR‑SITE CLINICS
+Some firms provide health care services through clinics located at or near their workplaces. These clinics are
+staffed by health professionals and may treat work‑related or non‑work‑related conditions.
+• Among firms with 50 or more workers that offer health benefits, 24% have an on‑site or near‑site clinic at
+at least one of their major locations. Seven percent have an on‑site clinic and 20% have a near‑site clinic
+[Figure 12.8].
+• Among firms with 200 or more workers that offer health benefits, 24% have an on‑site or near‑site clinic
+[Figure 12.9]. Among firms with 200 or more workers that have this type of clinic, 28% have a near‑site
+clinic, 46% have an on‑site clinic, and 25% have both an on‑site and a near‑site clinic. Overall, 13% of large
+firms have an on‑site clinic and 17% have a near‑site clinic [Figure 12.9].
+
+KFF / Page 188
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 189
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+REACTIONS TO HIGHER PROJECTED COSTS
+Health insurance costs were projected to increase relatively rapidly in 2026. Firms offering health benefits were
+asked whether they took certain actions in response to projected cost increases for their plan with the largest
+enrollment.
+Among these firms:
+• Seventeen percent increased deductibles or other cost sharing for most services [Figure 12.10]. Firms with
+1,000 or more workers are more likely than smaller firms to have taken this action (33% vs. 16%).
+• Four percent increased cost sharing for selected services [Figure 12.10]. Firms with 1,000 or more workers
+are more likely than smaller firms to have taken this action (20% vs. 4%).
+• Two percent reduced or tightened eligibility for certain benefits [Figure 12.10]. Firms with 1,000 or more
+workers are more likely than smaller firms to have taken this action (10% vs. 2%).
+• Three percent added additional management requirements, such as prior authorization, for some services
+[Figure 12.10]. The likelihood of taking this action increased with firm size, ranging from 3% of firms with 10
+to 199 workers to 21% of firms with 5,000 or more workers.
+• Eighteen percent increased the share of the premium paid by employees [Figure 12.10]. The likelihood of
+taking this action increased with firm size, ranging from 16% of firms with 10 to 199 workers to 66% of firms
+with 5,000 or more workers.
+• Eleven percent changed insurers or administrators.
+• Five percent switched to a plan with a tiered or narrower provider network.
+
+KFF / Page 190
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+GLP‑1 DRUG COVERAGE FOR WEIGHT LOSS
+GLP‑1 (glucagon‑like peptide‑1) agonists are used to help control blood sugar levels in people with type 2
+diabetes, and have also been shown to be effective treatments for obesity. Common brand names include
+Wegovy, Saxenda, and Zepbound. Health plans generally have covered GLP‑1 drugs when prescribed to treat
+diabetes, but there is widespread interest in their use for people who have a clinical need to lose weight.
+Although the costs of these drugs have been declining, the large number of people who may benefit from them,
+combined with the potential for long‑term use, has raised questions about their impact on plan spending. The
+increasing availability of direct‑to‑consumer programs for these medications, often at relatively low costs, have
+also provided options for employers to potentially fund access through alternate methods, such as account
+contributions.
+Firms with 200 or more workers that offer health benefits were asked about coverage of GLP‑1 agonists when
+used primarily for weight loss in their plan with the largest enrollment.
+• Among these firms, 16% of firms with 200 to 999 workers, 29% of firms with 1,000 to 4,999 workers, and
+33% of firms with 5,000 or more workers cover GLP‑1 agonists when used primarily for weight loss [Figure
+12.12].
+– Firms with 200 to 999 workers are more likely than larger firms to say that they do not know whether
+their plan covers GLP‑1 agonists for weight loss (19% vs. 8%).
+– The overall percentage of firms with 200 or more workers that cover GLP‑1 agonists for weight loss
+(18%) is similar to the percentage last year (19%) and two years ago (18%) [Figure 12.13].
+– The percentage of firms with 5,000 or more workers that cover GLP‑1 agonists for weight loss is similar
+to the percentage last year (33% vs. 43%) [Figure 12.13].
+KFF / Page 191
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+• Among firms that cover GLP‑1 agonists for weight loss, 40% require enrollees to meet with a clinical
+professional (such as a dietitian, case manager, or therapist) or participate in a lifestyle program in order for
+the drug to be covered, similar to the percentage last year (34%) [Figure 12.14].
+– Firms with 200 to 999 workers are less likely (35%) and firms with 5,000 or more workers are more
+likely (59%) to have such a requirement [Figure 12.14].
+• Among firms that cover GLP‑1 agonists for weight loss, 29% say that covering these medications has had a
+significant impact on their plan’s prescription drug spending, 27% say that the impact has been moderate,
+23% say that the impact has been minor, 10% say that there has been no impact, and 11% say that they do
+not know [Figure 12.15].
+– The share of these firms saying that covering GLP‑1 agonists for weight loss has had a significant
+impact on prescription drug spending increases with firm size, ranging from 21% of firms with 200 to
+999 workers to 61% of firms with 5,000 or more workers [Figure 12.16].
+– Firms with 200 to 999 workers are more likely than larger firms to say that covering these medications
+for weight loss has had only a minor impact on prescription drug spending (30% vs. 5%) [Figure
+12.15].
+• Among firms with 200 or more workers that do not cover GLP‑1 agonists for weight loss in their plan with
+the largest enrollment, 12% say that they stopped covering these medications for weight loss within the
+last 12 months [Figure 12.17].
+• Among firms with 200 or more workers that do not cover GLP‑1 agonists for weight loss in their plan with
+the largest enrollment, only 1% say that they are very likely to begin covering GLP‑1 agonists for weight loss
+within the next 12 months, while 13% say that they are somewhat likely to do so, 79% say that they are not
+likely to do so, and 7% say that they do not know [Figure 12.16].
+
+KFF / Page 192
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 193
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 194
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+PRIOR AUTHORIZATION OF SERVICES
+Certain health plan management practices, particularly prior authorization, have received considerable attention
+in recent years. Firms with 200 or more workers that offer health benefits were asked about recent changes in the
+usage of prior authorization in their plan with the largest enrollment.
+• Seven percent of these firms say that the number of services subject to prior authorization is higher than it
+was last year, 2% say that it is lower, 70% say that it is about the same, and 21% say that they do not know
+[Figure 12.18].
+– Firms with 1,000 or more workers are more likely than firms with 200 to 999 workers to say that the
+number of services subject to prior authorization is higher than it was last year (12% vs. 6%) [Figure
+12.18].
+– Among firms that say that the number of services subject to prior authorization is higher than it was
+last year, 18% say that the primary reason is that the plan has a new insurer or administrator that
+makes greater use of prior authorization, while 16% say that new services were made subject to
+prior authorization to target specific areas where use or costs were higher than expected or seemed
+unreasonable, 48% say that prior authorization was added to additional services to help control
+overall cost growth in the plan, and 18% say that they do not know [Figure 12.19].
+
+KFF / Page 195
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 196
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+IN VITRO FERTILIZATION
+Improving affordable access to in vitro fertilization (IVF) and other assisted reproductive services has received
+considerable public attention in recent years. During the 2024 presidential campaign, President Trump proposed
+making IVF services free for patients, and in 2025, he signed an executive order directing the development of
+recommendations to expand access to IVF and reduce its cost. Firms with 200 or more workers that offer health
+benefits were asked whether their plan with the largest enrollment covers IVF services, either through the plan or
+through a third‑party vendor.
+• Among these firms, 24% of firms with 200 to 999 workers, 38% of firms with 1,000 to 4,999 workers, and
+47% of firms with 5,000 or more workers provide coverage for IVF services. Firms with 200 to 999 workers
+are more likely than larger firms to say that they do not know whether their plan covers IVF services (27%
+vs. 9%) [Figure 12.20].
+• The percentage of large firms offering health benefits that cover IVF services in 2026 (27%) is the same as
+the percentage in 2024 (27%).
+
+EMPLOYER ACCESS TO INFORMATION ABOUT THE COST AND USE OF
+MEDICAL SERVICES BY PLAN ENROLLEES
+Providing employers with greater transparency into the cost and use of health care services within the plans
+they sponsor has become an important priority for policymakers and plan sponsors. Firms were asked a series
+of questions about the cost and utilization information available to them, including whether they have access to
+claims data for their plan enrollees.
+KFF / Page 197
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+ABILITY OF EMPLOYERS TO OBTAIN INFORMATION ABOUT THE COST AND USE OF
+SERVICES
+Firms with 200 or more workers that offer health benefits were asked about their ability to obtain information
+about the cost and use of medical services (apart from prescription drugs) in their plan with the largest
+enrollment. This information may include summary information from an insurer or plan administrator, or more
+detailed data reports. Specifically, firms were asked how strongly they agreed or disagreed that they have
+enough information to understand each of the following areas:
+• Service use by type of medical provider. Sixteen percent of these firms “strongly agree” that they
+are able to get sufficient information to understand the service use of plan enrollees by type of medical
+provider, 54% “agree,” 12% “disagree,” 3% “strongly disagree,” and 16% say that they do not know [Figure
+12.21]. Firms with 1,000 or more workers are more likely than firms with 200 to 999 workers to say that
+they “strongly agree” that they are able to get sufficient information to understand service use by type of
+medical provider (25% vs. 14%).
+• The medical conditions of plan enrollees, including those that contribute the most to plan
+cost. Twenty percent of these firms “strongly agree” that they are able to get sufficient information to
+understand the medical conditions of plan enrollees, including those that contribute the most to plan
+cost, 52% “agree,” 11% “disagree,” 4% “strongly disagree,” and 14% say that they do not know [Figure
+12.21]. Firms with 1,000 or more workers are more likely than firms with 200 to 999 workers to say that they
+“strongly agree” that they are able to get sufficient information to understand the medical conditions of
+plan enrollees (28% vs. 18%).
+• The prevalence of chronic conditions among plan enrollees. Eighteen percent of these firms “strongly
+agree” that they are able to get sufficient information to understand the prevalence of chronic conditions
+among plan enrollees, 52% “agree,” 12% “disagree,” 2% “strongly disagree,” and 15% say that they do not
+know [Figure 12.21]. Firms with 1,000 or more workers are more likely than firms with 200 to 999 workers to
+say that they “strongly agree” that they are able to get sufficient information to understand the prevalence
+of chronic conditions among plan enrollees (27% vs. 16%).
+• The prices the plan pays to in‑network providers, and how those prices compare to other providers.
+Fourteen percent of these firms “strongly agree” that they are able to get sufficient information to
+understand the prices the plan pays to in‑network providers and how those prices compare to other
+providers, 46% “agree,” 19% “disagree,” 4% “strongly disagree,” and 17% say that they do not know [Figure
+12.21].
+• Areas where enrollees may have unmet needs or gaps in care. Ten percent of these firms “strongly
+agree” that they are able to get sufficient information to understand areas where enrollees may have
+unmet needs or gaps in care, 45% “agree,” 20% “disagree,” 5% “strongly disagree,” and 19% say that they
+do not know [Figure 12.21].
+
+KFF / Page 198
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 199
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+ACCESS TO CLAIMS DATA OF ENROLLEES
+Firms with 200 or more workers that offer health benefits were asked about their access to claims data for plan
+enrollees. Claims data is defined as detailed information about the services used by plan enrollees, which may
+have personal identifiers removed, and the amounts paid to providers for each service.
+• Among these firms, 27% say that it is “very easy” to access claims data from their plan administrator or
+vendors, 25% say that it is “somewhat easy,” 7% say that it is “somewhat difficult,” 10% say that it is “very
+difficult,” 25% say that they have not tried to access claims data, and 5% say that they do not know [Figure
+12.24].
+• Firms that have been able to access claims data for their enrollees were asked how helpful the data has
+been in making decisions about health benefits. Sixty‑six percent of these firms say that their claims data
+has been “a great deal” of help, 29% say that it has been “somewhat” helpful, 4% say that it has provided
+“very little” help, and 1% say that it has been “not at all” helpful [Figure 12.25].
+
+KFF / Page 200
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 201
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+EMPLOYER ACCESS TO INFORMATION ABOUT THE COST AND USE OF
+PRESCRIPTION DRUGS
+Firms with 200 or more workers that offer health benefits were asked about their ability to obtain information
+about the cost and use of prescription drugs in their plan with the largest enrollment. Specifically, firms were
+asked how strongly they agreed or disagreed with statements about their ability to obtain sufficient information
+about the following:
+• Prescription medications used by plan enrollees. Twenty‑four percent of these firms “strongly agree”
+that they are able to get sufficient information about the prescription medications used by plan enrollees,
+40% “agree,” 14% “disagree,” 7% “strongly disagree,” and 15% say they do not know [Figure 12.26].
+• Rebates and other manufacturer payments related to prescription drug use by plan enrollees.
+Fifteen percent of these firms “strongly agree” that they are able to get sufficient information about rebates
+and other payments, such as administrative fees and incentives, that drug manufacturers pay to the insurer,
+administrator, or PBM related to prescription drug use by plan enrollees, 34% “agree,” 17% “disagree,” 11%
+“strongly disagree,” and 23% say they do not know [Figure 12.26].
+
+KFF / Page 202
+
+SECTION 12. EMPLOYER OPINIONS AND PRACTICES: SATISFACTION WITH HEALTH PLANS, PROVIDER NETWORKS,
+COVERAGE FOR GLP‑1S, AND ACCESS TO DATA
+
+KFF / Page 203
+
+The independent source for
+health policy research, polling, and news.
+
+Headquarters
+185 Berry Street, Suite 2000
+San Francisco, CA 94107
+650.854.9400
+Washington Office &
+Barbara Jordan Conference Center
+1330 G Street NW
+Washington, DC 20005
+202.347.5270
+
+October 2026
+This publication is available at kff.org.
+
+

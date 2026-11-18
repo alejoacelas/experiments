@@ -1,0 +1,350 @@
+DEPARTMENT OF HEALTH AND HUMAN SERVICES (HHS)
+Centers for Medicare & Medicaid Services (CMS)
+7500 Security Boulevard
+Baltimore, Maryland 21244-1850
+
+CENTER FOR MEDICARE
+DATE:
+
+July 28, 2026
+
+TO:
+
+All Medicare Advantage Organizations and Medicare Prescription Drug Plan
+Sponsors
+
+FROM:
+
+John Brooks
+Deputy Administrator and Director, Center for Medicare
+
+SUBJECT:
+
+Annual Release of Part D National Average Monthly Bid Amount and Other
+Part C & D Bid Information
+
+The Centers for Medicare & Medicaid Services (CMS) is announcing today that the Calendar
+Year (CY) 2027 Part D national average monthly bid amount is $296.05, the Part D base
+beneficiary premium is $41.33, and the de minimis amount is $2. Please see the attached notice
+for more detailed information concerning the CY 2027 Part D national average monthly bid
+amount, the Medicare Part D base beneficiary premium, the Part D regional low-income
+premium subsidy amounts, the Medicare Advantage (MA) regional Preferred Provider
+Organization (PPO) benchmarks, the MA employer group waiver plan (EGWP) regional
+payment rates, and the Part D calendar year EGWP prospective reinsurance amount.
+CMS is also announcing the conclusion of the Part D Premium Stabilization Demonstration (first
+implemented in CY 2025). For CY 2027, CMS analysis of the bids submitted indicates that Part
+D plan sponsors had sufficient experience under the redesigned Part D benefit to support their
+assumptions in developing prescription drug plan (PDP) bids. Therefore, CMS will discontinue
+the demonstration at the end of CY 2026 to return the program to operating under traditional
+market conditions in CY 2027.
+Detailed information regarding the de minimis amount is attached in a separate memo, which
+contains instructions and timelines for completing rebate reallocation and volunteering to waive
+the de minimis amount. All Part D sponsors will have from Tuesday, July 28, 2026, until 11:59
+PM PDT on Thursday, August 6, 2026, to complete rebate reallocation. Note that bids may be
+resubmitted for rebate reallocation multiple times prior to the August 6 deadline. Following the
+conclusion of the rebate reallocation window, Part D sponsors will have from Friday, August 7,
+2026, until 11:59 PM PDT on Tuesday, August 11, 2026, to inform CMS of their intent to
+participate in the voluntary de minimis program.
+
+1
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Centers for Medicare & Medicaid Services
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+OFFICE OF THE ACTUARY
+DATE:
+
+July 28, 2026
+
+TO:
+
+All Medicare Advantage Organizations and Medicare Prescription Drug Plan
+Sponsors
+
+FROM:
+
+Jennifer Lazio, Director, Parts C & D Actuarial Group
+
+SUBJECT:
+
+Annual Release of Part D National Average Monthly Bid Amount and other
+Part C & D Bid Related Information
+
+Today we are releasing the Calendar Year (CY) 2027 Part D national average monthly bid
+amount, the Medicare Part D base beneficiary premium, the Part D regional low-income
+premium subsidy amounts, the Medicare Advantage (MA) regional Preferred Provider
+Organization (PPO) benchmarks, the MA employer group waiver plan (EGWP) regional payment
+rates, and the Part D calendar year EGWP prospective reinsurance amount.
+Below we describe the determination of these amounts. The regional low-income premium
+subsidy amounts and the regional MA benchmarks can be downloaded from the Centers for
+Medicare & Medicaid Services (CMS) web site at:
+https://www.cms.gov/files/document/regional-rates-and-benchmarks-2027.pdf.
+
+Part D National Average Monthly Bid Amount
+CMS has calculated the national average monthly bid amount for CY 2027 in accordance with
+section 1860D-13(a)(4) of the Social Security Act (“the Act”), codified in 42 CFR § 423.279.
+For each coverage year, CMS computes the national average monthly bid amount from the
+applicable Part D plan bid submissions in order to calculate the base beneficiary premium, as
+provided in 42 CFR § 423.286(c).
+The national average monthly bid amount is a weighted average of the standardized bid amounts
+for each prescription drug plan (PDP) and MA prescription drug (MA-PD) plan described in
+section 1851(a)(2)(A)(i) of the Act. The weights are based on the number of enrollees in each
+plan. The weight for each plan bid is a percentage calculated with the numerator equal to the
+number of Part D eligible individuals enrolled in the plan in the reference month (as defined in
+42 CFR § 422.258(c)(1)) and the denominator equal to the total number of Part D eligible
+individuals enrolled in the reference month in all applicable Part D plans. Per section 1860D13(a)(4)(A) of the Act, the calculation does not include Part D bids submitted by Medicare
+Medical Savings Account (MSA) plans, MA private fee-for-service plans, specialized MA plans
+for special needs individuals, PACE programs under section 1894, any “fallback” prescription
+drug plans, and plans established through reasonable cost reimbursement contracts under section
+2
+
+1876(h) of the Act (“Cost Plans”). The reference month for the CY 2027 calculation was June
+2026.
+The national average monthly bid amount for CY 2027 is $296.05.
+As discussed in 42 CFR 423.272(e), if a bid's total Part D premium is less than $0 under the
+published national average monthly bid amount, CMS will negotiate the incorporation of the
+negative Part D basic premium amount into the bid. Specifically, CMS will require the plan
+sponsor to achieve a $0 total Part D premium during rebate reallocation by either: (1) increasing
+the Part D supplemental premium to offset the negative Part D basic premium, for bids that
+already include an enhanced alternative (EA) benefit; or (2) adding an EA benefit with a Part D
+supplemental premium sufficient to offset the negative Part D basic premium, for bids that do not
+already include an EA benefit. In this situation, in accordance with the guidance provided during
+the May 14, 2026, Actuarial User Group Call, if a plan sponsor enhances benefits to the 70%
+Defined Standard (DS) Out-of-Pocket-Cost (OOPC) threshold and a $0 total Part D premium has
+not been achieved, increases to the Part D gain/loss margin are permitted. For basic PDPs and
+Platino plans that do not have the option to become EA, plan sponsors may increase Part D
+gain/loss margin to achieve a $0 total Part D premium without enhancing Part D benefits.
+If a bid’s total Part D premium is greater than or equal to $0 under the published national average
+monthly bid amount, the plan sponsor must follow the Rebate Reallocation Guidelines as set
+forth in Appendix E of the Instructions for Completing the Medicare Advantage Bid Pricing
+Tools for Contract Year 2027. In this situation, plan sponsors are not permitted to make changes
+to the Part D Bid Pricing Tool (BPT) during rebate reallocation. Accordingly, the Part D
+gain/loss margin may not be reduced, even in cases where margin flexibility was used to achieve
+a $0 total Part D premium at the initial submission.
+
+Part D Base Beneficiary Premium
+Section 1860D-13(a) of the Act, as amended by section 11201 of the Inflation Reduction Act of
+2022 (IRA), specifies the methodology for calculating the base beneficiary premium (BBP).
+Specifically, the BBP for 2024 through 2029 is equal to the lesser of the following calculations:
+A. The prior year’s BBP increased by 6 percent.
+B. The product of the beneficiary premium percentage and the national average monthly bid
+amount. The beneficiary premium percentage (“applicable percentage”) is a fraction, with
+a numerator of 25.5 percent and a denominator equal to 100 percent minus a percentage
+equal to (i) the total reinsurance payments that CMS estimates will be paid for the
+coverage year, divided by (ii) that amount plus the total payments that CMS estimates
+will be paid to Part D plans based on the standardized bid amount during the year, taking
+into account amounts paid by both CMS and plan enrollees.
+The result of calculation A is $41.33.
+2026 BBP x 1.06 or $38.99 x 1.06 = $41.33
+
+The result of calculation B is $94.06.
+
+3
+
+Therefore, the Part D BBP for CY 2027 is $41.33. 1
+In accordance with section 1860D-13(a) of the Act, codified in 42 CFR § 423.286, Part D
+beneficiary premiums are calculated as the BBP adjusted by the following factors: (i) the
+difference between the plan’s standardized bid amount and the national average monthly bid
+amount; (ii) adjusted by any supplemental premium; (iii) an increase for any late enrollment
+penalty; (iv) a decrease for MA-PD plans that apply MA A/B rebates to buy down the Part D
+premium; and (v) elimination or decrease with the application of the low-income premium
+subsidy.
+
+Part D Regional Low-Income Premium Subsidy Amounts
+In accordance with 42 CFR § 423.780, low-income subsidy (LIS) individuals are entitled to a
+premium subsidy equal to 100 percent of the premium subsidy amount. A Part D plan’s premium
+subsidy amount is the lesser of the plan’s premium for basic coverage or the regional low-income
+premium subsidy amount (LIPSA).
+The regional LIPSAs are the greater of the low-income benchmark premium amount for a PDP
+region or the lowest monthly beneficiary premium for a prescription drug plan that offers basic
+prescription drug coverage in the PDP region. In accordance with section 1860D-14 of the Act
+and the final rule “Modification to the Weighting Methodology Used to Calculate the LowIncome Benchmark Amount,” which appeared in the Federal Register (73 FR 18176) on April 3,
+2008, the low-income benchmark premium amount for a PDP region is a weighted average of the
+monthly beneficiary premiums for basic prescription drug coverage in the region. The weight for
+each PDP and MA-PD plan is a percentage calculated with the numerator equal to the number of
+Part D LIS-eligible individuals enrolled in the plan in the reference month and the denominator
+equal to the total number of Part D LIS-eligible individuals enrolled in all PDP and MA-PD
+plans in a Part D region in the reference month.
+The Patient Protection and Affordable Care Act of 2010 amended the statute governing the
+calculation of the LIS benchmark premium amount (see section 3302, as amended by section
+1102 of the Health Care and Education Reconciliation Act of 2010). As amended, section
+1860D-14(b)(2)(B)(iii) of the Act requires the calculation of the weighted average premium
+amounts described above using MA-PD basic Part D premiums before the application of Part C
+rebates each year.
+The calculation does not include bids submitted by MA private fee-for-service plans, PACE
+programs under section 1894, and Cost Plans. The reference month for the CY 2027 calculation
+was June 2026.
+The regional low-income premium subsidy amounts are provided in the file Regional Rates and
+Benchmarks 2027, which can be accessed on the CMS website through the following link:
+https://www.cms.gov/files/document/regional-rates-and-benchmarks-2027.pdf.
+
+1
+
+As noted above, the actual Part D premiums paid by individual beneficiaries equal the BBP adjusted by several
+factors. In practice, premiums vary significantly from one Part D plan to another and seldom equal the base
+beneficiary premium.
+
+4
+
+MA Regional PPO Benchmarks
+Per section 1858(f)(2) of the Act, the standardized PPO benchmark for each MA region is a sum
+of two components: (i) a statutory component consisting of the weighted average of the county
+capitation rates across the region for each appropriate level of star rating; and (ii) a competitive,
+or plan-bid, component consisting of the weighted average of all of the standardized A/B bids for
+regional MA PPO plans in the region. (Such regional MA plan bids relate to the benefits covered
+under Parts A and B of Medicare.) The two components are then summed for each region, with
+the statutory component reflecting the national market share of Original Medicare and the
+regional MA plan-bid component reflecting the market share of all MA organizations in the
+Medicare population nationally. In other words, the weights used in combining the statutory and
+competitive components of the benchmark are the same for all regions and are equal to the
+national enrollment percentages, respectively, for Original Medicare and all MA plans. For CY
+2027, the national weights applied to the statutory and plan-bid components are 44.8 percent and
+55.2 percent, respectively.
+The separate weighted-average statutory component and weighted-average competitive
+component in each region are determined based on the following weights:
+•
+
+The weighting for the statutory component is based on all MA eligible individuals in the
+region — i.e., all Medicare beneficiaries who are either in the Original Medicare program
+or enrolled in an MA plan and who are entitled to benefits under Part A and enrolled in
+Part B.
+
+•
+
+The weighting for the plan-bid component is based on the enrollment in regional MA plans
+in the region for the reference month of June 2026. (That is, the weight for each plan’s bid
+is based on the plan’s market share in the region.)
+
+As stated in the Advance Notice of Methodological Changes for Calendar Year 2027 for
+Medicare Advantage Capitation Rates and Part C and Part D Payment Policies (“2027 Advance
+Notice”) and Announcement of Calendar Year 2027 Medicare Advantage Capitation Rates and
+Part C and Part D Payment Policies (“2027 Rate Announcement”), these benchmarks reflect the
+average bid component of the regional benchmark excluding EGWPs. The statutory and plan-bid
+components of the MA regional standardized benchmarks for 14 of the 26 MA regions 2 are in the
+file Regional Rates and Benchmarks 2027, which can be accessed on the CMS website through
+the following link: https://www.cms.gov/files/document/regional-rates-and-benchmarks2027.pdf.
+
+MA Regional EGWP Payment Rates
+In accordance with the payment methodology finalized in the 2027 Rate Announcement, the
+2027 EGWP Regional payment rates are being released concurrently with this 2027 MA
+Regional benchmark release. For detailed descriptions of the payment policy finalized for 2027,
+please refer to the 2027 Advance Notice and 2027 Rate Announcement: https://www.cms.gov/
+medicare/payment/medicare-advantage-rates-statistics/announcements-and-documents.
+2
+
+In the remaining 12 MA regions, there are no regional MA plans.
+
+5
+
+The payment rates for Regional EGWPs are in the file Regional Rates and Benchmarks 2027,
+which can be accessed on the CMS website through the following link:
+https://www.cms.gov/files/zip/2027-regional-ppo-egwp-rates.zip.
+
+Part D CY EGWP Prospective Reinsurance Amount
+In accordance with the payment methodology described in the Final CY 2025 Part D Redesign
+Program Instructions, the CY 2027 prospective reinsurance payment amount for Part D Calendar
+Year EGWPs is being released concurrently with this release of the Part D national average
+monthly bid amount, Part D base beneficiary premium, and related Part D bid information. For a
+detailed description of the methodology, please refer to the Final CY 2025 Part D Redesign
+Program Instructions: https://www.cms.gov/files/document/final-cy-2025-part-d-redesignprogram-instructions.pdf.
+For CY 2027, CMS is calculating the prospective reinsurance payments to all Part D Calendar
+Year EGWP sponsors using the weighted average of the per member-per month (PMPM)
+prospective reinsurance amounts submitted by Part D sponsors for enhanced alternative (EA)
+plans as part of the Part D bid submissions for the payment year in question. For CY 2027, this
+amount is $63.21.
+/s/
+Jennifer Lazio, F.S.A., M.A.A.A. Director, Parts C & D Actuarial Group Office of the Actuary
+
+6
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+Centers for Medicare & Medicaid Services
+7500 Security Boulevard
+Baltimore, Maryland 21244-1850
+
+MEDICARE PLAN PAYMENT GROUP
+DATE:
+
+July 28, 2026
+
+TO:
+
+All Medicare Advantage Organizations and Medicare Prescription Drug Plan
+Sponsors
+
+FROM:
+
+Shruti Rajan, Acting Director, Medicare Plan Payment Group
+
+SUBJECT:
+
+Release of the De Minimis Amount and Operational Guidance
+
+In this memo, the Centers for Medicare & Medicaid Services (CMS) is releasing information
+regarding the CY 2027 de minimis amount. In addition, this memo provides instructions and
+timelines for completing rebate reallocation and volunteering to waive the de minimis amount.
+All Part D sponsors will have from Tuesday, July 28, 2026, until 11:59 PM PDT on Thursday,
+August 6, 2026, to complete rebate reallocation. Following the conclusion of the reallocation
+windows, Part D sponsors will have from Friday, August 7, 2026, until 11:59 PM PDT on
+Tuesday, August 11, 2026, to inform CMS of their intent to participate in the de minimis
+program.
+
+De Minimis Amount
+Under section 1860D-14(a)(5) of the Act, a prescription drug plan (PDP) or Medicare Advantage
+(MA) prescription drug (MA-PD) plan may volunteer to waive the portion of beneficiary’s
+monthly adjusted basic Part D premium that is a de minimis amount above the low-income
+subsidy (LIS) benchmark for a subsidy eligible individual. The law prohibits CMS from
+reassigning LIS members from plans who volunteered to waive the de minimis amount. The de
+minimis amount for CY 2027 will be $2.
+
+Operational Guidance and Deadlines
+Rebate Reallocation - Action by 11:59 PM PDT on Thursday, August 6, 2026
+MA organizations that offer MA-PD plans will have from Tuesday, July 28, 2026, until 11:59
+PM PDT on Thursday, August 6, 2026, to complete rebate reallocation. Plan-specific
+information, such as plan standardized bid amounts, plan-specific premiums, and MA rebate
+dollars used, can be found at the following path in HPMS:
+HPMS Home > Plan Bids > Bid Submission > CY 2027 > Review Plan Data > Review Plan
+Data
+
+7
+
+After reviewing the plan-specific information in HPMS, some bids may need to be resubmitted
+to adjust the MA rebate dollars in the Bid Pricing Tool (BPT). Local MA-only plans (which do
+not offer Part D) and PDPs (which cannot use MA rebates) cannot resubmit their bids during the
+rebate reallocation period. In instances when an MA-PD plan allocates all of its MA rebates to
+buy down the Part D basic premium and the plan’s intended target for its Part D basic premium
+is the low-income premium subsidy amount, the MA-PD plan may volunteer to use the de
+minimis premium policy.
+Guidance on rebate reallocation and premium rounding can be found in Appendix E of the
+Instructions for Completing the MA BPT for Contract Year 2027. Changes to the BPT must be in
+accordance with the guidance contained in Appendix E.
+If resubmitting, the Part D bid pricing tools must reflect the final benchmarks released earlier in
+this announcement. Except in specific circumstances described in Appendix E for plans with
+negative total Part D premium, no pricing changes will be accepted to the Part D bid forms.
+As a reminder, CMS expects MA organizations to submit CY 2027 plan bids that satisfy our
+requirements, including, but not limited to, service category cost sharing, per member per month
+actuarial equivalence, Total Beneficiary Cost, and, for Part D benefit packages in MA- PDs,
+meaningful difference. CMS will not approve plan bids that do not satisfy our requirements.
+A “final” actuarial certification must be submitted by all plans. A separate announcement will be
+released regarding the submission of final actuarial certifications.
+If you have questions about this information, please submit them to actuarial-bids@cms.hhs.gov.
+If you have technical questions about your resubmissions, please contact the HPMS Help Desk at
+1-800-220-2028 or hpms@cms.hhs.gov.
+Volunteering to Waive the De Minimis Amount - Action by 11:59 PM PDT on Tuesday,
+August 11, 2026
+Part D sponsors of eligible plans must actively inform CMS of their intent to participate in the de
+minimis program. Sponsors can inform CMS of their intent to participate starting Friday, August
+7, 2026, until 11:59 PM PDT on Tuesday, August 11, 2026.
+The mechanism to volunteer for de minimis can be found at the following path in HPMS:
+HPMS Home > Plan Bids > Bid Submission > CY 2027 > Review Plan Data > Voluntary De
+Minimis
+The ‘Voluntary de minimis’ link will be available at the left navigation bar. The default value
+will be unchecked (i.e., “No”), and eligible plans must select the checkbox to indicate that they
+want to volunteer to participate.
+Please send any questions about de minimis to PartDPaymentPolicy@cms.hhs.gov.
+
+8
+
+

@@ -1,0 +1,2680 @@
+2026 Long-Term Load Forecast
+Supplement
+PJM Resource Adequacy Planning Department
+February 2026
+
+For Public Use
+
+User Guide
+
+This page is intentionally left blank.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+i|Pa g e
+
+User Guide
+
+Introduction and Overview .......................................................................................................................................... 1
+Sector Models .............................................................................................................................................................. 1
+Residential................................................................................................................................................................ 1
+Commercial .............................................................................................................................................................. 5
+Industrial................................................................................................................................................................... 6
+Usage Indexes.......................................................................................................................................................... 8
+Weather Variables ........................................................................................................................................................ 8
+Cooling and Heating Degree Variables .................................................................................................................. 9
+Additional Weather Variables ............................................................................................................................... 11
+Forecast Model ........................................................................................................................................................... 12
+Model Specification ............................................................................................................................................... 12
+Binary and Trend Variables................................................................................................................................................... 13
+
+Simulation .............................................................................................................................................................. 14
+Coincident Peaks ................................................................................................................................................... 15
+Assumption Development ......................................................................................................................................... 15
+Weather................................................................................................................................................................... 15
+Vendor Data............................................................................................................................................................ 15
+Plug-in Electric Vehicles ....................................................................................................................................... 16
+Behind-the-Meter Battery Storage Operation...................................................................................................... 19
+Exogenous Factors ............................................................................................................................................... 19
+AEP ....................................................................................................................................................................................... 20
+APS ....................................................................................................................................................................................... 22
+ATSI ...................................................................................................................................................................................... 24
+BGE....................................................................................................................................................................................... 26
+COMED ................................................................................................................................................................................. 27
+Dayton ................................................................................................................................................................................... 30
+DLCO .................................................................................................................................................................................... 32
+Dominion ............................................................................................................................................................................... 33
+JCPL ..................................................................................................................................................................................... 38
+METED.................................................................................................................................................................................. 39
+PECO .................................................................................................................................................................................... 41
+PEPCO.................................................................................................................................................................................. 42
+PL .......................................................................................................................................................................................... 44
+PS ......................................................................................................................................................................................... 46
+EKPC – Peak Shaving Adjustment ....................................................................................................................................... 48
+
+State Policy ............................................................................................................................................................ 49
+Additional Model Detail ............................................................................................................................................. 49
+Calendar Variables ................................................................................................................................................ 49
+Zonal End-Use Variable Calibration ..................................................................................................................... 52
+Economics Zonal Geographic Assignment......................................................................................................... 57
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+ii | P a g e
+
+User Guide
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+iii | P a g e
+
+User Guide
+
+Introduction and Overview
+This document serves as a supplement to the 2026 PJM Long-Term Load Forecast report. It is intended as a
+reference, to provide details of the processes used to develop the load forecast and the data and assumptions used.
+It describes the load forecast model that produces the forecast as well as non-model adjustments to it.
+This document acts as a resource to help describe the load forecast process. For details such as parameter
+estimates and model outputs, additional resources are available on the PJM website:
+https://www.pjm.com/planning/resource-adequacy-planning/load-forecast-dev-process.aspx.
+This is the fourth year in which PJM has employed the use of an hourly forecast model, as a result of a multi-month
+engagement in 2022 with Itron. Their final report can be found here (https://www.pjm.com/-/media/planning/resadeq/load-forecast/pjm-model-review-final-report-from-itron.ashx) and should be viewed in conjunction with PJM
+documentation.
+
+Sector Models
+Sector models are a key part of the load forecast process, providing insights into why load trends are happening. The
+job of a forecaster is to use models to understand what has happened such that they can make an informed
+judgment about the future. Looking at total peak and energy trends over time only tells us part of the story: what is
+happening. Sector models can give us greater insight into why things are happening.
+Sector models are where we incorporate the independent assumptions on economic trends and end-use adoption
+and efficiency. The load forecast process considers three sectors: Residential, Commercial, and Industrial. Each
+sector has its own set of models and inputs.
+
+Residential
+The Residential Sector model is actually two models, a customer model and an average use model. The product of
+these two concepts—customers and average use—provides total residential use. Total Residential use is considered
+according to the three use classes of Heating, Cooling, and Other.
+Customers are modeled for each zone as a function of households. Monthly customer data is obtained from the EIA
+861 dataset. Households are an economic concept, with quarterly history and forecast provided by Moody’s
+Analytics. The relationship of customers to economics is defined by the below equation.
+Equation 1.
+
+Residential Customers
+𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 = 𝐵𝐵1 ∗ ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜 + 𝐵𝐵2 ∗ 𝑦𝑦2021
+Where
+y2021 = 1 when year is greater than or equal to 2021 and 0 otherwise
+
+Average use per customer is modeled as a function of Heating, Cooling, and Other. Average use data is obtained
+from the EIA 861 dataset. Heating, Cooling, and Other are functions of end-use concepts provided by Itron (based on
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+1|Pa g e
+
+User Guide
+
+data from the EIA’s Annual Energy Outlook) and economic concepts that are provided by Moody’s Analytics
+(household size and real household income). The relationship of average use to Heating (xheat), Cooling (xcool), and
+Other (xother) is defined by the below equation.
+Equation 2.
+
+Residential Average Use
+
+𝑢𝑢𝑢𝑢𝑒𝑒𝑡𝑡 = 𝐵𝐵0 ∗ 𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 + 𝐵𝐵1 ∗ 𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡−1 + 𝐵𝐵2 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡 + 𝐵𝐵3 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡−1 + 𝐵𝐵4 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥ℎ𝑒𝑒𝑟𝑟𝑡𝑡
+
+The table below provides a list of residential end-uses and indicates how they are allocated to Heating, Cooling, and
+Other. For each end-use, data provided by Itron includes saturation (% of customers with device), efficiency (relative
+efficiency of device), and intensity (use per device accounting for saturation and efficiency).
+Table 1. List of Residential End-Uses and Assignment
+
+PJM © 2026
+
+Bucket
+
+Use Type
+
+Definition
+
+Heating
+
+EFurn
+
+Electric furnace and resistant room space heaters
+
+Heating
+
+HPHeat
+
+Heat pump space heating
+
+Heating
+
+GHPHeat
+
+Ground-source heat pump space heating
+
+Heating
+
+SecHt
+
+Secondary heating
+
+Cooling
+
+CAC
+
+Central air conditioning
+
+Cooling
+
+HPCool
+
+Heat pump space cooling
+
+Cooling
+
+GHPCool
+
+Ground-source heat pump space cooling
+
+Cooling
+
+RAC
+
+Room air conditioners
+
+Other
+
+EWHeat
+
+Electric water heating
+
+Other
+
+ECook
+
+Electric cooking
+
+Other
+
+Ref1
+
+Refrigerator
+
+Other
+
+Ref2
+
+Second refrigerator
+
+Other
+
+Frz
+
+Freezer
+
+Other
+
+Dish
+
+Dishwasher
+
+Other
+
+CWash
+
+Electric clothes washer
+
+Other
+
+EDry
+
+Electric clothes dryer
+
+www.pjm.com | For Public Use
+
+2|Pa g e
+
+User Guide
+
+Other
+
+TV
+
+TV sets
+
+Heating
+
+FurnFan
+
+Furnace fans
+
+Other
+
+Light
+
+Lighting
+
+Other
+
+Misc
+
+Miscellaneous electric appliances 1
+
+Heating (xheat) is a function of heating end-uses as identified in the above table with adjustments for weather, real
+income per household, population per household, and building shell efficiency.
+Equation 3.
+
+Residential Heating Variable (xheat)
+𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 = 𝑠𝑠𝑠𝑠𝑠𝑠_ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 ∗ ℎ𝑑𝑑𝑑𝑑_𝑖𝑖𝑛𝑛𝑡𝑡
+Where
+
+𝑠𝑠𝑠𝑠𝑠𝑠_ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 = (𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝑛𝑛𝑡𝑡 + 𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑡𝑡𝑡𝑡 + 𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝑡𝑡𝑡𝑡 + 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑡𝑡𝑡𝑡 + 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑛𝑛𝑡𝑡 ) ∗
+(𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃_𝑝𝑝𝑝𝑝𝑝𝑝_ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑑𝑑𝑡𝑡 )𝑥𝑥 ∗ (𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼_𝑝𝑝𝑝𝑝𝑝𝑝_ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑑𝑑𝑡𝑡 )𝑦𝑦 ∗ 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆_𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑔𝑔𝑡𝑡
+
+Where x and y are elasticities provided by Itron and Structural_Heating is a measure of building size adjusted for
+relative building shell efficiency.
+and
+ℎ𝑑𝑑𝑑𝑑_𝑖𝑖𝑛𝑛𝑡𝑡 =
+
+ℎ𝑑𝑑𝑑𝑑𝑡𝑡
+ℎ𝑑𝑑𝑑𝑑2016
+
+Cooling (xcool) is a function of cooling end-uses as identified in the above table with adjustments for weather, income
+per household, population per household, and building shell efficiency.
+Equation 4.
+
+Residential Cooling Variable (xcool)
+𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡 = 𝑠𝑠𝑠𝑠𝑠𝑠_𝑐𝑐𝑐𝑐𝑐𝑐𝑙𝑙𝑡𝑡 ∗ 𝑐𝑐𝑐𝑐𝑐𝑐_𝑖𝑖𝑛𝑛𝑡𝑡
+Where
+
+1 Residential end-use data has always included a category referred to as Miscellaneous, which represented a catch-
+
+all of the non-named appliances listed. In 1998, Miscellaneous represented about a fifth of non-weather sensitive
+uses and now represents about half; a trend spurred as much by growth in Miscellaneous as declines in nonMiscellaneous end-uses. Examples include plug in loads such as televisions, game consoles, coffee makers,
+dehumidifiers, and exercise equipment.
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+3|Pa g e
+
+User Guide
+
+𝑠𝑠𝑠𝑠𝑒𝑒𝑐𝑐𝑐𝑐𝑐𝑐𝑙𝑙𝑡𝑡 = (𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡 + 𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑙𝑙𝑡𝑡 + 𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝑙𝑙𝑡𝑡 + 𝑅𝑅𝑅𝑅𝐶𝐶𝑡𝑡 ) ∗ (𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃_𝑝𝑝𝑝𝑝𝑝𝑝_ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑑𝑑𝑡𝑡 )𝑥𝑥 ∗
+(𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼_𝑝𝑝𝑝𝑝𝑝𝑝_ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑑𝑑𝑡𝑡 )𝑦𝑦 ∗ 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆_𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑔𝑔𝑡𝑡
+
+Where x and y are elasticities provided by Itron and Structural_Cooling is a measure of building size adjusted for
+relative building shell efficiency.
+and
+𝑐𝑐𝑐𝑐𝑐𝑐_𝑖𝑖𝑛𝑛𝑡𝑡 =
+
+𝑐𝑐𝑐𝑐𝑑𝑑𝑡𝑡
+𝑐𝑐𝑐𝑐𝑑𝑑2016
+
+Other (xother) is a function of other end-uses as identified in the above table with adjustments for income per
+household, and population per household.
+Equation 5.
+
+Residential Other Variable (xother)
+𝑥𝑥𝑥𝑥𝑥𝑥ℎ𝑒𝑒𝑟𝑟𝑡𝑡 = 𝑠𝑠𝑠𝑠𝑠𝑠_𝑜𝑜𝑜𝑜ℎ𝑒𝑒𝑒𝑒𝑡𝑡 ∗ 𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷_𝐼𝐼𝐼𝐼𝐼𝐼𝑡𝑡
+Where
+
+𝑠𝑠𝑠𝑠𝑒𝑒𝑜𝑜𝑜𝑜ℎ𝑒𝑒𝑒𝑒𝑡𝑡 = (𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝑡𝑡𝑡𝑡 + 𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝑘𝑘𝑡𝑡 + 𝑅𝑅𝑅𝑅𝑅𝑅1𝑡𝑡 + 𝑅𝑅𝑅𝑅𝑅𝑅2𝑡𝑡 + 𝐹𝐹𝐹𝐹𝑧𝑧𝑡𝑡 + 𝐷𝐷𝐷𝐷𝐷𝐷ℎ𝑡𝑡 + 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶ℎ𝑡𝑡 + 𝐸𝐸𝐸𝐸𝐸𝐸𝑦𝑦𝑡𝑡 + 𝑇𝑇𝑉𝑉𝑡𝑡
+
++ 𝐿𝐿𝐿𝐿𝐿𝐿ℎ𝑡𝑡𝑡𝑡 + 𝑀𝑀𝑀𝑀𝑀𝑀𝑐𝑐𝑡𝑡 ) ∗ (𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃_𝑝𝑝𝑝𝑝𝑝𝑝_ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑑𝑑𝑡𝑡 )𝑥𝑥 ∗ (𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼_𝑝𝑝𝑝𝑝𝑝𝑝_ℎ𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜ℎ𝑜𝑜𝑜𝑜𝑑𝑑𝑡𝑡 )𝑦𝑦
+Where x and y are elasticities provided by Itron
+and
+𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷_𝐼𝐼𝐼𝐼𝐼𝐼𝑡𝑡 =
+
+𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷 𝑖𝑖𝑖𝑖 𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀ℎ
+30.42
+
+The results of Equation 2 (Residential Average Use) are fitted values, which includes historical weather. For
+comparability in heating and cooling trends over time, this then needs to be transformed to be on a consistent
+weather basis.
+Equation 6.
+
+Formulation of HeatUse, CoolUse, and OtherUse
+Heating and Cooling are adjusted to be consistent with 2016 weather for all years.
+𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑒𝑒𝑡𝑡 = 𝐵𝐵0 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 + 𝐵𝐵1 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡−1
+𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑒𝑒𝑡𝑡 = 𝐵𝐵2 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡 + 𝐵𝐵3 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡−1
+𝑂𝑂𝑂𝑂ℎ𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑡𝑡 = 𝐵𝐵4 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥ℎ𝑒𝑒𝑟𝑟𝑡𝑡
+
+where B0, B1, B2, B3, and B4 are from Equation 2
+and
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+4|Pa g e
+
+User Guide
+
+norm_xheat and norm_xcool are the same as xheat and xcool but using 2016 weather
+Total residential use then is the product of customers and each of these defined average use terms.
+Equation 7.
+
+Total Residential Use
+𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑡𝑡 = 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑠𝑠𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞,𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 ∗ 𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑒𝑒𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞,𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦
+𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑡𝑡 = 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑠𝑠𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞,𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 ∗ 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑒𝑒𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞,𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦
+
+𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅ℎ𝑒𝑒𝑒𝑒𝑡𝑡 = 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑠𝑠𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞,𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 ∗ 𝑂𝑂𝑂𝑂ℎ𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞,𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦
+
+Commercial
+The starting point for analysis is Commercial energy provided through the EIA 861 dataset. The Commercial models
+utilize two sets of data: economic and end-use. Economic concepts used are service sector employment, workingage population, and real services output, and are provided by Moody’s Analytics. End-use concepts are provided by
+Itron (based on data from the EIA’s Annual Energy Outlook), and are summarized in the following table.
+Table 2. List of Commercial End-Uses and Assignment
+
+Equation 8.
+
+Bucket
+
+Use Type
+
+Definition
+
+Heating
+
+Heating
+
+Heating
+
+Cooling
+
+Cooling
+
+Cooling
+
+Other
+
+Ventilation Ventilation
+
+Other
+
+WtrHeat
+
+Water Heating
+
+Other
+
+Cooking
+
+Cooking
+
+Other
+
+Refrig
+
+Refrigeration
+
+Other
+
+Lighting
+
+Lighting
+
+Other
+
+Office
+
+Office Equipment (PCs)
+
+Other
+
+Misc
+
+Miscellaneous
+
+Commercial Use
+
+𝑢𝑢𝑢𝑢𝑒𝑒𝑡𝑡 = 𝐵𝐵0 ∗ 𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 + 𝐵𝐵1 ∗ 𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡−1 + 𝐵𝐵2 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡 + 𝐵𝐵3 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡−1 + 𝐵𝐵4 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥ℎ𝑒𝑒𝑟𝑟𝑡𝑡
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+5|Pa g e
+
+User Guide
+
+Where
+𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 = 𝐻𝐻𝐻𝐻𝐻𝐻𝑡𝑡𝑡𝑡 ∗ 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡 ∗ ℎ𝑑𝑑𝑑𝑑_𝑖𝑖𝑛𝑛𝑡𝑡
+𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡 = 𝐶𝐶𝐶𝐶𝐶𝐶𝑙𝑙𝑡𝑡 ∗ 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡 ∗ 𝑐𝑐𝑐𝑐𝑐𝑐_𝑖𝑖𝑛𝑛𝑡𝑡
+𝑥𝑥𝑥𝑥𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡 = 𝑂𝑂𝑂𝑂ℎ𝑒𝑒𝑒𝑒𝑡𝑡 ∗ 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡
+
+Heat, Cool, and Other are end-use intensities from categories in the above table. ComEconVar is a 30/30/40
+weighed combination of services employments, real services output, and working-age population, respectively.
+For comparability in heating and cooling trends over time, this then needs to be transformed to be on a consistent
+weather basis.
+Equation 9.
+
+Formulation of HeatUse, CoolUse, and OtherUse
+Heating and Cooling are adjusted to be consistent with 2016 weather for all years.
+𝐶𝐶𝐶𝐶𝐶𝐶_𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝑡𝑡 = 𝐵𝐵0 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡 + 𝐵𝐵1 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥ℎ𝑒𝑒𝑒𝑒𝑡𝑡𝑡𝑡−1
+𝐶𝐶𝐶𝐶𝐶𝐶_𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡 = 𝐵𝐵2 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡 + 𝐵𝐵3 ∗ 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛_𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑙𝑙𝑡𝑡−1
+𝐶𝐶𝐶𝐶𝐶𝐶_𝑂𝑂𝑂𝑂ℎ𝑒𝑒𝑒𝑒𝑡𝑡 = 𝐵𝐵4 ∗ 𝑥𝑥𝑥𝑥𝑥𝑥ℎ𝑒𝑒𝑟𝑟𝑡𝑡
+
+where B0, B1, B2, B3, and B4 are from Equation 8
+and
+norm_xheat and norm_xcool are the same as xheat and xcool but using 2016 weather
+
+Industrial
+The starting point for analysis is Industrial energy provided through the EIA 861 dataset. Industrial modeling utilizes
+two sets of data: economic and intensity. The economic concept used is real industrial output, using data from
+Moody’s Analytics. Intensity data is pulled from national data from EIA on electricity per real output.
+Real industrial output is an aggregate of output in goods-producing industries (see list below). Moody’s Analytics
+currently only forecasts employment for these series at the metro area level, not output. However, output is available
+at the state level and thus output at the metro level is imputed by using state productivity (output divided by
+employment).
+Equation 10.
+
+Metro Area Real Industrial Output
+𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚
+
+= 𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝒕𝒕𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚
+
+∗ 𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚⁄𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝑬𝒕𝒕𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+6|Pa g e
+
+User Guide
+
+𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚 = � 𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎𝒎,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚
+𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔
+
+where metro areas are assigned to states based on location
+And Sectors are defined as follows:
+Natural Resources and Mining
+Construction
+Manufacturing – Machinery
+Manufacturing - Transportation Equipment
+Manufacturing - Chemicals; Energy; Plastics and Rubber
+Manufacturing - Electronic and Electrical
+Manufacturing - Furniture and Miscellaneous
+Manufacturing - Metals and Mining
+Manufacturing - Textile; Fiber and Printing
+
+Industrial intensity is defined as industrial energy use per real output. The concept is based on national data, but is
+customized to zones through the availability of sector detail. Historical and forecast energy use by sector is compiled
+from the EIA Annual Energy Outlook (AEO) and the EIA Manufacturing Energy Consumption Survey (MECS).
+Economic data by sector is provided by Moody’s Analytics as was described in the prior paragraph. Zonal industrial
+intensity series are then a weighted average of national sector indexes.
+Equation 11.
+
+Zonal Industrial Intensity
+𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚 = � (𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚⁄𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝑻 𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚 ) ∗ 𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔,𝒚𝒚𝒚𝒚𝒚𝒚𝒚𝒚
+𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔𝒔
+
+Discussed above are the types of inputs considered, but as discussed in Itron’s model review 2 it is challenging to fit
+all zones with a structural end-use model. Candidate models that consider the above described variables are
+constructed, and are evaluated on a zone-by-zone basis for goodness of fit and reasonableness. Reasonableness
+checks include items such as ensuring coefficients have the right sign and how the model performs on out-of-sample
+observations. Zonal industrial model selections are provided in supplemental posted materials. Each zone results in
+an Industrial Base component (Ind_Other) and in some cases an Industrial Cooling component (Ind_Cooling).
+2 See pages 15 and 16 for Itron’s discussion of Industrial modeling: https://www.pjm.com/-/media/planning/res-
+
+adeq/load-forecast/pjm-model-review-final-report-from-itron.ashx
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+7|Pa g e
+
+User Guide
+
+Equation 12.
+
+Industrial Cooling
+𝑰𝑰𝑰𝑰𝑰𝑰_𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝑩𝑩 ∗ 𝑪𝑪𝑪𝑪𝑪𝑪𝟐𝟐𝟐𝟐𝟐𝟐𝟐𝟐
+
+Where B is the coefficient on the cooling term in the industrial model. Cooling is included in zones for which it has a
+positive coefficient, and excluded for which it does not.
+
+Usage Indexes
+Heat, Cool, and Other Usage Indexes need to be constructed using the results from the Residential, Commercial,
+and Industrial Sector Models. First, monthly results are rolled up into single measures.
+Equation 13.
+
+Monthly Results
+𝑯𝑯𝑯𝑯𝑯𝑯𝒕𝒕𝒕𝒕 = 𝑹𝑹𝑹𝑹𝑹𝑹_𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝒈𝒈𝒕𝒕 + 𝑪𝑪𝑪𝑪𝑪𝑪_𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝑯𝒈𝒈𝒕𝒕
+
+𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝑹𝑹𝑹𝑹𝑹𝑹_𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 + 𝑪𝑪𝑪𝑪𝑪𝑪_𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 + 𝑰𝑰𝑰𝑰𝑰𝑰_𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕
+𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕 = 𝑹𝑹𝑹𝑹𝑹𝑹_𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕 + 𝑪𝑪𝑪𝑪𝑪𝑪_𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕 + 𝑰𝑰𝑰𝑰𝑰𝑰_𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝑶𝒕𝒕
+
+At this point, Other is essentially complete and is simply converted from a monthly frequency to a daily frequency with
+each day’s value within a month equal to the respective monthly value. Heat and Cool though at this point are still
+reflective of 2016 weather patterns in HDD and CDD. A 365 day moving average is taken of each to calculate
+HeatIdx and CoolIdx, such that these can later be interacted with hourly heating and cooling weather variables to
+capture weather sensitive load over time.
+
+Weather Variables
+Weather variables are defined at the zone level. Zonal weather is a weighted average of weather stations 3.
+Table 3. Weather Station Assignment
+Zone
+
+Weather Station
+
+Weight
+
+Zone
+
+Weather Station
+
+Weight
+
+AE
+
+ACY
+
+100.0%
+
+JCPL
+
+ACY
+
+25.0%
+
+AEP
+
+CAK
+
+15.1%
+
+JCPL
+
+EWR
+
+75.0%
+
+AEP
+
+CMH
+
+23.4%
+
+METED
+
+ABE
+
+50.0%
+
+AEP
+
+CRW
+
+22.6%
+
+METED
+
+PHL
+
+50.0%
+
+AEP
+
+FWA
+
+22.7%
+
+PECO
+
+PHL
+
+100.0%
+
+AEP
+
+ROA
+
+16.2%
+
+PENLC
+
+ERI
+
+50.0%
+
+APS
+
+IAD
+
+30.0%
+
+PENLC
+
+IPT
+
+50.0%
+
+3 Weather station weights are provided by Electric Distribution Companies (EDCs).
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+8|Pa g e
+
+User Guide
+APS
+
+PIT
+
+70.0%
+
+PEPCO
+
+DCA
+
+100.0%
+
+ATSI
+
+CAK
+
+46.5%
+
+PL
+
+ABE
+
+25.0%
+
+ATSI
+
+CLE
+
+30.0%
+
+PL
+
+AVP
+
+25.0%
+
+ATSI
+
+PIT
+
+8.5%
+
+PL
+
+IPT
+
+25.0%
+
+ATSI
+
+TOL
+
+15.0%
+
+PL
+
+MDT
+
+25.0%
+
+BGE
+
+BWI
+
+100.0%
+
+PS
+
+EWR
+
+100.0%
+
+COMED
+
+ORD
+
+100.0%
+
+RECO
+
+EWR
+
+100.0%
+
+DAYTON
+
+DAY
+
+100.0%
+
+UGI
+
+AVP
+
+100.0%
+
+DPL
+
+ILG
+
+70.0%
+
+VEPCO
+
+IAD
+
+33.3%
+
+DPL
+
+WAL
+
+30.0%
+
+VEPCO
+
+ORF
+
+33.3%
+
+DQE
+
+PIT
+
+100.0%
+
+VEPCO
+
+RIC
+
+33.3%
+
+DUKE
+
+CVG
+
+100.0%
+
+EKPC
+
+CVG
+
+25.0%
+
+EKPC
+
+LEX
+
+49.0%
+
+EKPC
+
+SDF
+
+26.0%
+
+Cooling and Heating Degree Variables
+Temperature-Humidity Index (THI) values are translated to CD1, CD2, and CD3 in order to allow the forecast the
+flexibility to capture different relationships of load to weather under different conditions (a spline). The goal in defining
+cut points for CD2 and CD3 is to try to have it hot enough to capture any potential inflection points but not so hot
+such that there is limited ability to make a good statistical inference.
+Equation 14.
+
+Temperature-Humidity Index and Cooling Degrees Formulas
+
+𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 = 𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕 + 𝟎𝟎. 𝟓𝟓𝟓𝟓 ∗ (𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒕𝒕 /𝟏𝟏𝟏𝟏𝟏𝟏−. 𝟒𝟒) ∗ 𝒎𝒎𝒎𝒎𝒎𝒎(𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕𝒕 − 𝟓𝟓𝟓𝟓, 𝟎𝟎)
+Base-points are set for each hour to calculate CD1, CD2, and CD3
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+9|Pa g e
+
+User Guide
+
+Hour Ending Base Point
+1
+65
+2
+65
+3
+65
+4
+65
+5
+65
+6
+65
+7
+65
+8
+65
+9
+65
+10
+65
+11
+65
+12
+70
+13
+70
+14
+70
+15
+70
+16
+70
+17
+70
+18
+70
+19
+70
+20
+70
+21
+65
+22
+65
+23
+65
+24
+65
+
+𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝐦𝐦𝐦𝐦𝐦𝐦 ( 𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 − 𝐁𝐁𝐁𝐁𝐁𝐁𝐁𝐁_𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏 𝑯𝑯𝑯𝑯 , 𝟎𝟎)
+
+𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝐦𝐦𝐦𝐦𝐦𝐦 ( 𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 − (𝐁𝐁𝐁𝐁𝐁𝐁𝐞𝐞𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏 𝑯𝑯𝑯𝑯 + 𝟏𝟏𝟏𝟏, 𝟎𝟎))
+𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝐦𝐦𝐦𝐦𝐦𝐦 ( 𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 − (𝐁𝐁𝐁𝐁𝐁𝐁𝐞𝐞𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏 𝑯𝑯𝑯𝑯 + 𝟏𝟏𝟏𝟏, 𝟎𝟎))
+
+Heating degree variables are then also used.
+Equation 15.
+
+Heating Degrees
+Base-points are set for each hour to calculate HD1, HD2, and HD3
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+10 | P a g e
+
+User Guide
+
+Hour Ending Base Point
+1
+55
+2
+55
+3
+55
+4
+55
+5
+55
+6
+55
+7
+55
+8
+55
+9
+55
+10
+55
+11
+55
+12
+60
+13
+60
+14
+60
+15
+60
+16
+60
+17
+60
+18
+60
+19
+60
+20
+60
+21
+55
+22
+55
+23
+55
+24
+55
+
+𝑯𝑯𝑯𝑯𝑯𝑯𝒕𝒕 = 𝐦𝐦𝐦𝐦𝐦𝐦 (𝐁𝐁𝐁𝐁𝐁𝐁𝐁𝐁_𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏 𝑯𝑯𝑯𝑯 − 𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 , 𝟎𝟎)
+
+𝑯𝑯𝑯𝑯𝑯𝑯𝒕𝒕 = 𝐦𝐦𝐦𝐦𝐦𝐦 (𝐁𝐁𝐁𝐁𝐁𝐁𝐁𝐁_𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏 𝑯𝑯𝑯𝑯 − 𝟏𝟏𝟏𝟏 − 𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 , 𝟎𝟎)
+𝑯𝑯𝑯𝑯𝑯𝑯𝒕𝒕 = 𝐦𝐦𝐦𝐦𝐦𝐦 (𝐁𝐁𝐁𝐁𝐁𝐁𝐁𝐁_𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏𝐏 𝑯𝑯𝑯𝑯 − 𝟏𝟏𝟏𝟏 − 𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝑻𝒕𝒕 , 𝟎𝟎)
+
+These Cooling Degree and Heating Degree variables are used both contemporaneously as well as lagged
+transformations (Lag6CD, Lag24CD, Lag6HD, Lag24HD), interacted with weekend day-type (WkEndCD, WkEndHD),
+and interacted with seasons (SpringCD, FallCD, SpringHD, FallHD).
+
+Additional Weather Variables
+The load forecast model also includes variables to capture both wind speed and cloud cover.
+Equation 16.
+
+Wind and Cloud Variables
+𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝒕𝒕 = 𝑾𝑾𝑾𝑾𝑾𝑾𝒕𝒕 ∗ 𝐦𝐦𝐦𝐦𝐦𝐦 (𝑯𝑯𝑯𝑯𝑯𝑯𝒕𝒕 /𝟔𝟔𝟔𝟔, 𝟏𝟏)
+𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝑾𝒕𝒕 = 𝑾𝑾𝑾𝑾𝑾𝑾𝒕𝒕 ∗ 𝐦𝐦𝐦𝐦𝐦𝐦 (𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 /𝟔𝟔𝟔𝟔, 𝟏𝟏)
+
+Where WSP is a 3-period centered moving average of wind speed
+
+PJM © 2026
+
+𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 ∗ 𝐦𝐦𝐦𝐦𝐦𝐦 (𝑯𝑯𝑯𝑯𝑯𝑯𝒕𝒕 /𝟔𝟔𝟔𝟔, 𝟏𝟏)
+www.pjm.com | For Public Use
+
+11 | P a g e
+
+User Guide
+
+𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 = 𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 ∗ 𝐦𝐦𝐦𝐦𝐦𝐦 (𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕 /𝟔𝟔𝟔𝟔, 𝟏𝟏)
+
+Where Cloud is a 3-period centered moving average of cloud cover
+
+Forecast Model
+Model Specification
+The load forecast is constructed using 24 hourly models for each zone. In each model, load is the dependent
+variable. In the historical data, we start with metered load and then re-constitute with load management addbacks,
+load drops associated with peak shaving programs, load related to load adjustments (where applicable), and
+distributed solar generation estimates.
+Each regression model has the same set-up, with load modeled against input variables: Weather Variables, Calendar
+effects, and Economic and End-Use considerations. Variable names align with documentations in the posted
+statistical appendix and are grouped below based on whether they are related to non-weather (XOther), heating
+(XHeat), or Cooling (XCool).
+Equation 17.
+
+Forecast Model Specification
+𝒍𝒍𝒍𝒍𝒍𝒍𝒍𝒍 =
+
+�
+
+𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗
+
+𝑩𝑩𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗 ∗ 𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗𝒗
+
+Where
+
+Calendar-type variables (Interacts with XOther)
+Intercept_XOther
+Jan
+Feb
+Mar
+MarDST
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+NovDST
+
+JanWalk
+FebWalk
+MarWalk
+AprWalk
+MayWalk
+JunWalk
+JulWalk
+AugWalk
+SepWalk
+OctWalk
+NovWalk
+DecWalk
+Monday
+Tuesday
+
+Wednesday
+Thursday
+Friday
+Saturday
+MLK
+PresDay
+GoodFri
+MemDay
+July4th
+LaborDay
+Thanks
+FriAThanks
+WkBeforeXMas
+XMasEve
+
+XMasDay
+NYEve
+NYDay
+WkAfterNewYear
+WkDayBeforeHol
+WkDayAfterHol
+Phase1
+Phase2
+Phase3
+binary1
+binary2
+trend1
+trend2
+
+Heating-type Variables (Interacts with XHeat)
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+12 | P a g e
+
+User Guide
+
+HD1
+HD2
+HD3
+Lag6HD
+Lag24HD
+Lag24CD_HD
+WkEndHD
+
+SpringHD
+FallHD
+WindHD
+CloudHD
+MA10_HDD
+MA28_HDD
+
+Cooling-type Variables (Interacts with XCool)
+TD1
+TD2
+TD3
+Lag6CD
+Lag24CD
+Lag24HD_CD
+WkEndCD
+
+SpringCD
+FallCD
+WindCD
+CloudCD
+MA10_CDD
+MA28_CDD
+
+Binary and Trend Variables
+COVID-19 had a large impact on electricity demand. Some of this impact is captured in aspects of the model
+construction via the economic inputs in the sector models. Nevertheless, it is often advisable in periods such as these
+to provide some controls for the abnormal event. The 2026 Long-Term Load Forecast maintains the approach from
+the 2025 Long-Term Load Forecast where a series of binaries are used Phase1 through Phase3 with the Phase3
+variable ending April 2021.
+
+In addition to COVID treatments, binary1/binary2 and trend1/trend2 variables are defined for each zone. These are
+intended to help tune the model and capture abnormal events in the residuals after specifying the model. None of
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+13 | P a g e
+
+User Guide
+
+these trends are extended into the forecast period, so their effect is on the model parameterization and not on
+assumptions of future trends. Contained in the supplemental materials are hourly residual plots of before and after
+the inclusion of these additional model variables.
+
+Simulation
+Once the load model is estimated, forecasts for each PJM transmission zone are produced by solving the hourly
+zonal equations, moving through the year day by day and hour by hour applying historical weather patterns (including
+conditions for distributed solar generation), as well as forecast adjustments (data centers and peak shaving), behindthe-meter battery storage, and electric vehicles .
+To model the most likely weather conditions (often referred to as normal or peak-eliciting weather), a weather rotation
+technique is used to simulate a distribution of hourly load scenarios generated by historical weather observations,
+representing actual weather patterns that occurred across the PJM control region.
+To enhance the simulation process, each yearly weather pattern is shifted by each day of the week moving forward
+six days and backwards six days, providing 13 different weather scenarios for each historical year. For early January
+and late December dates, data from the same calendar year is applied. The table below illustrates the shift of
+weather data across the scenarios.
+
+This approach has two key advantages. One, by rotating the data on the calendar, peak-producing weather will be
+applied to peak producing days. Two, by producing scenarios over a wide range of weather conditions, the weather
+rotation method is able to identify both the probable and possible levels of future peak load.
+The process is repeated for the remaining years of historical weather data. The 2026 Long-Term Load Forecast uses
+31 years of weather history that results in 403 (31 weather years x 13 days) separate forecast simulations for each
+year in the forecast horizon. These simulations produce a frequency distribution of NCP demands by zone.
+For each weather scenario, monthly NCPs are determined by obtaining the maximum NCP for the month. Seasonal
+NCPs are determined as the maximum over the summer/winter/spring/fall months. For each season, the ratio of each
+month’s peak to the highest monthly peak is taken, and then each month’s ratio is multiplied by the seasonal peak. In
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+14 | P a g e
+
+User Guide
+
+this way, one of the month’s peaks is the seasonal peak while still preserving the relationship between monthly
+peaks.
+For purposes of system planning, only a couple of the values in the forecast distribution are used. After ranking the
+scenario forecasts from lowest to highest MW value, the median value is selected as the base (or 50/50) forecast.
+This is the value used for most system planning studies. The 90th percentile (or 90/10) result is used for studies
+where the system is assumed to be at system emergency conditions.
+
+Coincident Peaks
+Hourly results from the method described above are rolled up to the the entire PJM RTO and Locational Deliverability
+Areas (LDA). Weather rotation provides an additional benefit for identifying coincident peaks - the natural diversity of
+weather patterns that impact the PJM footprint is simulated. This is a more plausible approach to peak forecasting than
+traditional methods which tend to have all weather stations having peak producing weather on the same day. Using
+the latter approach would overstate the PJM or LDA peak forecast by minimizing diversity.
+Monthly RTO/LDA peaks are determined by obtaining the maximum for each scenario for each month (403 possible
+peaks). Seasonal RTO/LDA peaks are determined over the summer/winter/spring/fall months by obtaining the
+maximum for each scenario for each season (403 possible peaks). For each season, the ratio of each month’s peak
+to the highest monthly peak is taken, and then each month’s ratio is multiplied by the seasonal peak. From this
+distribution, the median result is used as the base (50/50) forecast; the values at the 10th percentile and 90th
+percentile are assigned to the 10/90 and 90/10 weather bands.
+At this point, the values of the overall RTO peaks are set, but not the contribution of each zone. To determine the
+final zonal RTO/LDA-coincident peak forecasts, each zone’s average contribution across the peak distribution is
+calculated and applied to the RTO forecast.
+
+Assumption Development
+Weather
+The 2026 Long-Term Load Forecast uses historical weather data from 1994 to 2024 as the basis for constructing
+forecasts. No explicit assumption is being made about Climate Change, and thus the assumption is that future
+weather will resemble past weather.
+
+Vendor Data
+The 2026 Long-Term Load Forecast relies on vendor and government sources.
+For economic and demographic forecasts, PJM consults with Moody’s Analytics and used their September 2025
+forecast vintage. Zonal charts for concepts used have been posted with the supplemental materials. The economic
+data incorporates the U.S. Office of Management and Budget (OMB) revisions to metropolitan area delineations for
+changes in commuter flows and population size driven by 2020 Census data.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+15 | P a g e
+
+User Guide
+
+For end-use saturation/efficiency/intensity projections, PJM is a member of the Itron Energy Forecasting Group
+(EFG) that provides Census level history/projections for Residential/Commercial sectors. Their work derives from the
+Energy Information Administration’s Annual Energy Outlook (AEO). The Energy Information Administration (EIA) did
+publish an AEO update in 2025 with revamped models and improvements to capture emerging technologies.
+Therefore, the 2025 update of Itron’s end-use data provides the basis for appliance saturation rates, efficiency, and
+intensity and is consistent with the EIA's 2025 AEO.
+For distributed energy resources (BtM solar and storage), S&P Global provides a BtM solar and storage additions
+forecast. This is combined with historical Generation Attribute Tracking System (GATS) data in order to provide
+cumulative nameplate capacity by zone. UL provides zonal solar production estimates, which are used in both
+determining historical performance and expectations of future performance.
+
+Plug-in Electric Vehicles
+Forecasts of EVs were provided by S&P Global and their zonal forecasts take into account vehicle miles traveled
+(VMT), vehicle efficiency, and charging behavior in their hourly charging impacts. S&P Global uses federal, state, and
+metropolitan level data to produce their forecast. More information on the S&P Global electric vehicle forecast
+methodology and assumptions can be found under the October 28, 2025 Load Analysis Subcommittee materials 4.
+Charts below show vehicle counts for light duty electric vehicles by zone followed by medium & heavy duty electric
+vehicle counts by zone. The medium & heavy duty category contains delivery vans, school bus, transit bus, medium
+truck, short haul, and long haul vehicles.
+
+4 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20251028/20251028-reference-
+
+--spglobal---pjm-ev-forecast.pdf
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+16 | P a g e
+
+User Guide
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+17 | P a g e
+
+User Guide
+
+S&P Global provided an hourly charging impact for each zone throughout the forecast horizon. Below shows a total
+RTO average per-unitized charging shape from summer weekdays for light, medium, and heavy duty electric
+vehicles. The blue line for 2026 and green line for 2040 shows the per-unitized charging shapes for the labeled
+forecast year. For light duty electric vehicles, the 2026 charging shape shows more tendency to charge later in the
+day while the 2040 shows more levelized charging throughout the day. The hourly charging shape for medium &
+heavy duty electric vehicles is impacted by the incorporation of vehicle specific charging shapes. It shows a shift in
+charging behavior towards the middle of the day due to managed charging later in the forecast horizon.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+18 | P a g e
+
+User Guide
+
+Behind-the-Meter Battery Storage Operation
+As indicated above, the amount of behind-the-meter battery storage is based on a forecast from S&P Global. The
+methodology for their forecast is based on an attachment model (storage installed with solar), and thus are assumed
+to be used in conjunction with distributed solar. The assumption is made that batteries available to discharge at
+summer peak and thus subtract from loads on the summer peak distribution.
+
+Exogenous Factors
+PJM annually solicits information from its member Electric Distribution Companies (EDC) and Load Serving Entities
+(LSE) for large load shifts (either positive or negative) that are known to the EDC/LSE but may be unknown to PJM.
+Once the request has been verified per the guidelines in Attachment B of Manual 19, PJM works towards accounting
+for it in its load forecast. In 2025, PJM, in collaboration with stakeholders, discussed topics such as demand versus
+capacity 5, ramp rate 6, and aggreement types to help with further evaluation of submissions.
+Requests for the 2026 Long-Term Load Forecast with an Electric Service Obligation 7 or Construction Commitment
+8(ESO/CC) are considered “firm”, while others are considered “non-firm”. More information can be found under the
+November 24, 2025 LAS meeting. 9 Each request is considered on a case-by-case basis, with particular caution paid
+to avoid double-counting anticipated load increases or decreases. With each forecast adjustment, PJM quantifies the
+MW impact on the forecast that is due to this request.
+
+5 Capacity here refers to facility size in terms of load not to supply-side capacity.
+6 Ramp rate in this context refers to amount of time expected for the customer to ramp up to full demand.
+7 An Electric Service Obligation (ESO) reflects a binding commitment by a prospective retail customer to construct and operate
+
+facilities that will use electric services provided by the electric service provider in accordance with the forecast load. That
+customer obligation may be reflected in different forms, including but not limited to a contract between the customer and the
+EDC/LSE or in rates, terms, and conditions of service approved by a Relevant Electric Retail Regulatory Authority (RERRA) that
+control the relationship between an electric service provider and an end-use retail customer. The ESO should reflect a
+commitment to pay the charges associated with the requested load and can also outline the scope of work, fees, termination,
+and other relevant information.
+
+8 A Construction Commitment (CC) is a legal obligation that a public utility must discharge in furtherance of its obligation to serve
+
+all load and involves constructing transmission system facilities necessary to serve both load being added by an end-use
+customer as well as existing load in a manner that continues to ensure safe, adequate and reliable service to all customers.
+Alternatively, a construction commitment could provide indication that corresponding work is in the public utility’s capital project
+plan. It may describe what will be done, how it will be executed, and if there is any associated payment by an end-use customer.
+
+9 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20251124/20251124-item-03---large-load-
+
+adjustment-requests-summary.pdf
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+19 | P a g e
+
+User Guide
+
+AEP
+AEP requested that PJM consider load additions related to significant growth in data centers. PJM considered the
+below breakdown of “firm” and “non-firm” for AEP data centers.
+
+AEP also requested an adjustment for industrial load. PJM did not include these industrial loads due to overlap with
+economic variables used in the model.
+AEP provided forecasted data center additions as well as historical cumulative data center information. Hourly
+information related to historical data center load was included in the data provided. PJM removed monthly data
+center load from the commercial EIA data in an effort to remove any double counting. PJM also removed hourly data
+center load from our historical loads that are used in our model estimation.
+The first chart below shows the total amount of large loads for summer in history and the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+20 | P a g e
+
+User Guide
+
+The next chart shows the summer AEP forecast in blue and a model sensitivity in orange that is run by leaving
+existing data center history in loads and not adjusting the forecast for any additional large loads. The subsequent bar
+chart shows the difference between the blue and orange line which depicts the amount above embedded that the
+large loads impact the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+21 | P a g e
+
+User Guide
+
+More information on AEP’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 10 and their posted documentation 11.
+
+APS
+First Energy requested that PJM consider load additions related to significant growth in data centers in their APS
+zone. Rappahannock Electric Cooperative (REC) also requested that PJM consider load additions related to data
+centers in the APS zone. PJM considered the below breakdown of “firm” and “non-firm” for data centers in the APS
+zone.
+
+10 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04f--
+
+-aep-large-load-request.pdf
+11 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/aep-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+22 | P a g e
+
+User Guide
+
+First Energy also requested an adjustment for industrial load in APS. PJM did not include these industrial loads due
+to overlap with economic variables used in model.
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+23 | P a g e
+
+User Guide
+
+More information on First Energy’s request can be found under the September 16, 2025 Load Analysis
+Subcommittee materials 12 and their posted documentation 13.
+More information on REC’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 14 and their posted documentation 15.
+
+ATSI
+First Energy requested that PJM consider load additions related to significant growth in data centers in their ATSI
+zone. PJM considered the below breakdown of “firm” and “non-firm” for data centers in the ATSI zone.
+
+12 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04h-
+
+--first-energy-large-load-request.pdf
+13 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/fe-documentation.pdf
+14 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04c-
+
+--rec-large-load-request.pdf
+15 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/rec-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+24 | P a g e
+
+User Guide
+
+First Energy also requested an adjustment for industrial load in ATSI. PJM did not include these industrial loads due
+to overlap with economic variables used in model.
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+25 | P a g e
+
+User Guide
+
+More information on First Energy’s request can be found under the September 16, 2025 Load Analysis
+Subcommittee materials 16 and their posted documentation 17.
+
+BGE
+Exelon requested that PJM consider load additions related to growth in data centers in their BGE zone. PJM
+considered the below breakdown of “firm” and “non-firm” for data centers in the BGE zone.
+
+The chart below shows the total amount of large loads for summer in the forecast. There is only a small amount of
+data center load history so the total amount is equal to the amount above embedded.
+
+16 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04h-
+
+--first-energy-large-load-request.pdf
+17 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/fe-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+26 | P a g e
+
+User Guide
+
+More information on Exelon’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 18 and their posted documentation 19.
+
+COMED
+Exelon requested that PJM consider load additions related to significant growth in data centers. PJM considered the
+below breakdown of “firm” and “non-firm” for COMED data centers.
+
+18 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04d-
+
+--exelon-large-load-request.pdf
+19 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/exelon-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+27 | P a g e
+
+User Guide
+
+COMED also requested an adjustment for industrial load. PJM did not include these industrial loads due to overlap
+with economic variables used in model.
+COMED provided forecasted data center additions as well as historical cumulative data center information. Hourly
+information related to historical data center load was included in the data provided. PJM removed monthly data
+center load from the commercial EIA data in an effort to remove any double counting. PJM also removed hourly data
+center load from our historical loads that are used in our model estimation.
+The first chart below shows the total amount of large loads for summer in history and the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+28 | P a g e
+
+User Guide
+
+The next chart shows the summer COMED forecast in blue and a model sensitivity in orange that is run by leaving
+existing data center history in loads and not adjusting the forecast for any additional large loads. The subsequent bar
+chart shows the difference between the blue and orange line which depicts the amount above embedded that the
+large loads impact the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+29 | P a g e
+
+User Guide
+
+More information on COMED’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 20 and their posted documentation 21.
+
+Dayton
+Dayton requested that PJM consider load additions related to growth in data centers in their DAYTON zone. PJM
+considered the below breakdown of “firm” and “non-firm” for data centers in the DAYTON zone.
+
+20 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04d-
+
+--exelon-large-load-request.pdf
+21 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/exelon-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+30 | P a g e
+
+User Guide
+
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+31 | P a g e
+
+User Guide
+
+More information on Dayton’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 22 and their posted documentation 23.
+
+DLCO
+Duquesne requested that PJM consider load additions related to growth in data centers in their DLCO zone. PJM
+considered the below breakdown of “firm” and “non-firm” for data centers in the DLCO zone.
+
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+22 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04k-
+
+--day-aes-large-load-request.pdf
+23 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/dayton-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+32 | P a g e
+
+User Guide
+
+More information on Duquesne’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 24 and their posted documentation 25.
+
+Dominion
+Dominion Energy requested that PJM consider a forecast adjustment to account for the growth of data centers in the
+Dominion zone. This adjustment has been in place in some form since the 2014 Load Forecast Report. Dominion,
+Northern Virginia Electric Cooperative (NOVEC), Old Dominion Electric Cooperative (ODEC), and Rappahannock
+Electric Cooperative (REC) provided PJM with historical hourly information as well as forecasted peak information for
+the next twenty years. PJM removed monthly data center load from the commercial EIA data in an effort to remove
+any double counting. PJM also removed hourly data center load from our historical loads that are used in our model
+estimation. In addition to the request for data center load, Dominion requested a reduction due to a voltage
+optimization program. PJM considered the below breakdown of “firm” and “non-firm” for Dominion data centers.
+
+24 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04e-
+
+-duquesne-large-load-request.pdf
+25 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/dlco-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+33 | P a g e
+
+User Guide
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+34 | P a g e
+
+User Guide
+
+Dominion Energy, NOVEC, and ODEC provided forecasted data center additions as well as historical aggregate data
+center information. Hourly information related to historical data center load was included in the data provided. PJM
+removed monthly data center load from the commercial EIA data in an effort to remove any double counting. PJM
+also removed hourly data center load from our historical loads that are used in our model estimation.
+The first chart below shows the total amount of large loads for summer in history and the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+35 | P a g e
+
+User Guide
+
+The next chart shows the summer Dominion forecast in blue and a model sensitivity in orange that is run by leaving
+existing data center history in loads and not adjusting the forecast for any additional large loads. The subsequent bar
+chart shows the difference between the blue and orange line which depicts the amount above embedded that the
+large loads impact the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+36 | P a g e
+
+User Guide
+
+More information on Dominion Energy’s requests can be found under the September 16, 2025 Load Analysis
+Subcommittee materials 2627 and their posted documentation 2829. More information on NOVEC’s request can be found
+under the September 16, 2025 Load Analysis Subcommittee materials 30 and their posted documentation 31. More
+information on ODEC’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+
+26 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04ai---dominion-
+
+data-center-large-load-request.pdf
+27 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04aii---
+
+dominion-voltage-optimization.pdf
+28 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/dominion-documentation.pdf
+29 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/dominion-vo-documentation.pdf
+30https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04b---novec-
+
+large-load-request.pdf
+31 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/novec-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+37 | P a g e
+
+User Guide
+
+materials 32 and their posted documentation 33. More information on REC’s request can be found under the September
+16, 2025 Load Analysis Subcommittee materials 34 and their posted documentation 35.
+
+JCPL
+First Energy requested that PJM consider load additions related to growth in data centers in their JCPL zone. PJM
+considered the below breakdown of “firm” and “non-firm” for data centers in the JCPL zone.
+
+This chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+32 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04j---odec-large-
+
+load-request.pdf
+33 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/odec-documentation.pdf
+34 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04c---rec-large-
+
+load-request.pdf
+35 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/rec-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+38 | P a g e
+
+User Guide
+
+More information on First Energy’s request can be found under the September 16, 2025 Load Analysis
+Subcommittee materials 36 and their posted documentation 37.
+
+METED
+First Energy requested that PJM consider load additions related to growth in data centers in their METED zone. PJM
+considered the below breakdown of “firm” and “non-firm” for data centers in the METED zone.
+
+36 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04h-
+
+--first-energy-large-load-request.pdf
+37 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/fe-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+39 | P a g e
+
+User Guide
+
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+40 | P a g e
+
+User Guide
+
+More information on First Energy’s request can be found under the September 16, 2025 Load Analysis
+Subcommittee materials 38 and their posted documentation 39.
+
+PECO
+Exelon requested that PJM consider load additions related to growth in data centers in their PECO zone. PJM
+considered the below breakdown of “firm” and “non-firm” for data centers in the PECO zone.
+
+This chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+38 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04h-
+
+--first-energy-large-load-request.pdf
+39 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/fe-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+41 | P a g e
+
+User Guide
+
+More information on Exelon’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 40 and their posted documentation 41.
+
+PEPCO
+Exelon requested that PJM consider load additions related to significant growth in data centers in their PEPCO zone.
+Southern Maryland Electric Cooperative (SMECO) also requested that PJM consider load additions related to data
+centers in the PEPCO zone. PJM considered the below breakdown of “firm” and “non-firm” for data centers in the
+PEPCO zone.
+
+40 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04d-
+
+--exelon-large-load-request.pdf
+41 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/exelon-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+42 | P a g e
+
+User Guide
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+43 | P a g e
+
+User Guide
+
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+More information on Exelon’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 42 and their posted documentation 43.
+More information on SMECO’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 44 and their posted documentation 45.
+
+PL
+PL requested that PJM consider load additions related to growth in data centers in their PL zone. PJM considered the
+below breakdown of “firm” and “non-firm” for data centers in the PL zone.
+
+42 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04d-
+
+--exelon-large-load-request.pdf
+43 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/exelon-documentation.pdf
+44 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04i--
+
+-smeco-large-load-request.pdf
+45 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/smeco-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+44 | P a g e
+
+User Guide
+
+The chart below shows the total amount of large loads for summer in the forecast. There is no data center load
+history so the total amount is equal to the amount above embedded.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+45 | P a g e
+
+User Guide
+
+More information on PL’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 46 and their posted documentation 47.
+
+PS
+PS requested that PJM consider load additions related to growth in data centers and port electrification in their PS
+zone. PJM considered the below breakdown of “firm” and “non-firm” for data centers and port electrification in the PS
+zone.
+
+PS provided forecasted data center additions as well as historical cumulative data center information. Hourly
+information related to historical data center load was included in the data provided. PJM removed monthly data
+center load from the commercial EIA data in an effort to remove any double counting. PJM also removed hourly data
+center load from our historical loads that are used in our model estimation.
+The first chart below shows the total amount of large loads for summer in history and the forecast.
+
+46 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-04g-
+
+--ppl-large-load-request.pdf
+47 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/ppl-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+46 | P a g e
+
+User Guide
+
+The next chart shows the summer PS forecast in blue and a model sensitivity shown in orange that is run by leaving
+existing data center history in loads and not adjusting the forecast for any additional large loads. The subsequent bar
+chart shows the difference between the blue and orange line which depicts the amount above embedded that the
+large loads impact the forecast.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+47 | P a g e
+
+User Guide
+
+More information on PS’s request can be found under the September 16, 2025 Load Analysis Subcommittee
+materials 48 and their posted documentation 49.
+
+EKPC – Peak Shaving Adjustment
+EKPC requested a peak shaving adjustment that began with the 2023 Delivery Year. EKPC provides PJM with
+weather triggers as well as program response matrixes for their three programs (smart thermostats, air conditioning
+switches, and water heater switches). In the forecast simulation process, on days that exceed the trigger, the
+programs are enacted. The chart below shows an example of program implementation in the forecast. On this day in
+the forecast, the program is triggered and reduces load in HE16 through HE19 resulting in a peak reduction of
+10MW.
+
+48 https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2025/20250916/20250916-item-
+
+04m---pseg-large-load-request.pdf
+49 https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/pseg-documentation.pdf
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+48 | P a g e
+
+User Guide
+
+After summer 2025, PJM evaluated actual performance against expected performance and used this performance
+rating 50 in the 2026 Long-Term Load Foreca
+
+State Policy
+PJM annually contracts with a vendor to provide projections of future additions of behind-the-meter solar and storage
+resources. The outlook for public policy is a key driver of those projections such as renewable portfolio standards and
+solar carve-outs. The forecast of electric vehicles is also provided by a vendor. The assumptions from our
+
+vendors are circulated to stakeholders (particularly state agencies) for review and comment.
+PJM did not include any additional electrification policies in the 2026 Long-Term Load Forecast above what
+is included in the 2025 Energy Information Agency Annual Energy Outlook.
+
+Additional Model Detail
+Calendar Variables
+The forecast model includes a number of variables to capture calendar effects, represented primarily as either binary
+variables or fuzzy binary variables. Binary variables take a value of 1 or 0, whereas fuzzy binary variables have
+values ranging from 0 to 1. There is also a graduated variable to take into account the effect of the week leading up
+to Christmas and the week after the New Year.
+Day of Week (=1 when that day, 0 otherwise)
+Monday
+
+Tuesday
+
+Wednesday Thursday Friday
+
+50 https://www.pjm.com/-/media/documents/manuals/m19.ashx
+
+PJM © 2026
+
+Saturday
+
+Attachment D
+
+www.pjm.com | For Public Use
+
+49 | P a g e
+
+User Guide
+
+Month (=1 when that month, 0 otherwise) and DST variables:
+Jan
+Jul
+
+Feb
+Aug
+
+Mar
+Sep
+
+MarDST
+Oct
+
+Apr
+Nov
+
+May
+NovDST
+
+Jun
+
+Holiday variables are coded such that they have values for more than one day, and for some holidays, these values
+can differ year to year depending on the day of the week the holiday is observed. These variables are included
+because generally these days would be expected to have lower than normal loads.
+MLK
+
+PresDay
+
+MemDay
+
+LaborDay
+
+MLK (Martin Luther King Day), PresDay (Presidents’ Day), MemDay (Memorial Day), and LaborDay (Labor Day)
+Value
+Day before Holiday
+
+0.2
+
+On Holiday
+
+1
+
+All other days
+
+0
+
+GoodFri
+
+Thanks
+
+GoodFri (Good Friday) and Thanks (Thanksgiving Day)
+Value
+On Holiday
+
+1
+
+All other days
+
+0
+
+July4th
+
+July4th (Independence Day)
+Value by Day of Week
+Monday
+
+Tuesday
+
+Wednesday
+
+Thursday
+
+Friday
+
+Saturday
+
+Sunday
+
+July 2
+
+0.10
+
+0.00
+
+0.00
+
+0.15
+
+0.15
+
+0.10
+
+0.15
+
+July 3
+
+0.70
+
+0.25
+
+0.15
+
+0.20
+
+0.80
+
+0.20
+
+0.20
+
+July 4
+
+1.00
+
+1.00
+
+0.80
+
+1.00
+
+1.00
+
+0.40
+
+0.30
+
+July 5
+
+0.80
+
+0.15
+
+0.15
+
+0.25
+
+0.70
+
+0.30
+
+0.15
+
+July 6
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.10
+
+0.20
+
+0.00
+
+All other days
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+50 | P a g e
+
+User Guide
+
+FriAThanks
+
+FriAThanks (After Thanksgiving Day)
+Value
+On Holiday
+
+1
+
+Day After
+
+0.2
+
+All other days
+
+0
+
+WkBeforeXMas
+
+WkAfterNewYear
+
+WkBeforeXMas(If day is weekday before Christmas Day) WkAfterNewYear(If day is weekday after New Year)
+Value if
+Value
+Weekday
+January 1
+December 18
+0.14
+1.14
+January 2
+December 19
+0.29
+1.00
+December 20
+
+0.43
+
+January 3
+
+0.86
+
+December 21
+
+0.57
+
+January 4
+
+0.71
+
+December 22
+
+0.71
+
+January 5
+
+0.57
+
+December 23
+
+0.86
+
+January 6
+
+0.43
+
+December 24
+
+1
+
+January 7
+
+0.29
+
+All other days
+
+0
+
+January 8
+
+0.14
+
+All other days
+
+0
+
+XMasEve
+
+XmasEve (Christmas Eve)
+Value by Day of Week
+Monday
+
+Tuesday Wednesday
+
+Thursday Friday Saturday Sunday
+
+December 24
+
+1.00
+
+1.00
+
+0.80
+
+0.67
+
+1.00
+
+0.50
+
+0.33
+
+All other days
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+XMasDay
+
+XMasDay (Christmas Day)
+Value by Day of Week
+
+December 25
+
+PJM © 2026
+
+Monday
+
+Tuesday Wednesday
+
+Thursday Friday Saturday Sunday
+
+1.00
+
+1.00
+
+1.00
+
+1.00
+
+www.pjm.com | For Public Use
+
+1.00
+
+0.50
+
+0.50
+
+51 | P a g e
+
+User Guide
+
+All other days
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+NYEve
+
+NYEve (New Year’s Eve)
+Value by Day of Week
+Monday
+
+Tuesday
+
+Wednesday
+
+Thursday
+
+Friday
+
+Saturday
+
+Sunday
+
+December 31
+
+0.8
+
+0.8
+
+0.8
+
+0.8
+
+1.0
+
+0.4
+
+0.4
+
+All other days
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+NYDay
+
+NYDay (New Year’s Day)
+Value by Day of Week
+Monday
+
+Tuesday
+
+Wednesday
+
+Thursday
+
+Friday
+
+Saturday
+
+Sunday
+
+January 1
+
+1.0
+
+1.0
+
+1.0
+
+1.0
+
+1.0
+
+0.5
+
+0.4
+
+All other days
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+WkDayBeforeHol WkDayAfterHol
+
+WkDayBeforeHol (weekday before Holiday)
+
+WkDayAfterHol(weekday after Holiday)
+
+Value (if Weekday)
+Day Before Holiday
+All other days
+
+Value (if Weekday)
+
+1.00
+
+Day After Holiday
+
+1.00
+
+0.00
+
+All other days
+
+0.00
+
+Monthly Walk variables are graduated variables that start at 1 on the first day of the month and increase by 1 each
+day until the last day of the month to capture any potential inter-month trends.
+JanWalk
+JulWalk
+
+FebWalk
+AugWalk
+
+MarWalk
+SepWalk
+
+AprWalk
+OctWalk
+
+MayWalk
+NovWalk
+
+JunWalk
+DecWalk
+
+Zonal End-Use Variable Calibration
+The Energy Information Administration’s (EIA) 2025 Annual Energy Outlook Reference Case is the starting point for
+data on residential end-uses. Residential end-uses fall into categories, which are then grouped according to weather
+and non-weather sensitive use types (i.e. Heating, Cooling, and Other). These categories are expressed as
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+52 | P a g e
+
+User Guide
+
+saturation rates (% of customers), efficiency metrics (use per year or efficiency term like Seasonal Energy Efficiency
+Ratio), and intensities (kWh per customer per year). Categories and groupings are as follows:
+•
+
+•
+
+•
+
+Heating
+o Electric furnace and resistant room space heaters
+o Heat pump space heating
+o Ground-source heat pump space heating
+o Secondary heating
+o Furnace fans
+Cooling
+o Central air conditioning
+o Heat pump space cooling
+o Ground-source heat pump space cooling
+o Room air conditioners
+Other
+o Electric water heating
+o Electric cooking
+o Refrigerator
+o Second refrigerator
+o Freezer
+o Dishwasher
+o Electric clothes washer
+o Electric clothes dryer
+o TV sets
+o Lighting
+o Miscellaneous electric appliances
+
+PJM receives this data at the Census division level through membership in Itron’s Energy Forecasting Group. PJM
+then supplements this with two pieces of information:
+• Zonal saturation and intensity data from National Laboratory of the Rockies (NLR) ResStock 51
+• Zonal saturation estimates from:
+o American Electric Power – all appliance categories through 2021
+o Allegheny Power – all appliance categories through 2016
+o American Transmission Systems, Inc. – all appliance categories through 2016
+o Commonwealth Edison – all appliance categories for 2019
+o Duke Energy Ohio and Kentucky – all appliance categories through 2014
+o East Kentucky Power Cooperative – Heat Pumps for Heating and Cooling, Electric Furnaces,
+Secondary Heating (Room Heating), Central A/C, Room Air Conditioners, and Water Heaters
+through 2013
+o Jersey Central Power & Light – all appliance categories through 2016
+o Metropolitan Edison – all appliance categories through 2016
+o Pennsylvania Electric – all appliance categories through 2016
+51 https://resstock.nrel.gov/
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+53 | P a g e
+
+User Guide
+
+o
+
+Dominion Virginia Power – Heat Pumps for Cooling, Central A/C and Room Air Conditioners
+through 2014
+
+Data from NLR ResStock is used to calibrate zones for 2018 to help provide granularity across PJM. Zones are
+mapped to counties, and then PJM uses the ResStock database to provide customized data at the zonal level on
+appliance saturations, appliance intensities, and average home sizes 52. The below chart displays some of the
+information gleaned from this exercise on central cooling.
+
+Resulting data is then aligned with zonal-supplied historical appliance saturation rates. Zones are subsequently
+assigned to Census Divisions for driving the forecasts. This process allows the forecast to be influenced by the
+historical relative mix of appliances. The below table shows the mapping of Zones to Census Divisions.
+
+52 In the case of RECO and UGI, this exercise yielded an insufficient sample size according to guidelines laid out by
+
+NLR for using their data. PS and PL were used, respectively, in this case.
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+54 | P a g e
+
+User Guide
+
+Zone
+AE
+AEP
+APS
+ATSI
+BGE
+COMED
+DAYTON
+DPL
+DQE
+DUKE
+EKPC
+JCPL
+METED
+PECO
+PENLC
+PEPCO
+PL
+PS
+RECO
+UGI
+VEPCO
+
+Census Division
+Middle Atlantic
+East North Central
+South Atlantic
+East North Central
+South Atlantic
+East North Central
+East North Central
+South Atlantic
+Middle Atlantic
+East North Central
+East South Central
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+Middle Atlantic
+South Atlantic
+
+Finally, monthly non-weather sensitive shapes are calculated from the NLR ResStock data as well. These are used
+to shape the end-use intensity variables used in the monthly Residential Average Use model. These can be seen
+below.
+
+Commercial
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+55 | P a g e
+
+User Guide
+
+The EIA’s 2025 Annual Energy Outlook Reference Case is the starting point for data on commercial end-uses.
+Commercial end-uses fall into categories, which are then grouped according to weather and non-weather sensitive
+use types (i.e., Heating, Cooling, and Other). These categories are expressed as intensities (kWh per square foot per
+year). These categories and groupings are as follows:
+•
+•
+•
+
+Heating
+Cooling
+Other
+o Ventilation
+o Water Heating
+o Cooking
+o Refrigeration
+o Lighting
+o Office Equipment
+o Miscellaneous
+
+PJM receives this data at the Census Division level through membership in Itron’s Energy Forecasting Group, and
+zones are assigned to Census Divisions using the same mapping as used for Residential end-uses. Like with
+Residential, NLR has also developed ComStock 53. Monthly non-weather sensitive shapes are calculated from the
+NLR ComStock data. These are used to shape the end-use intensity variables used in the monthly Commercial Use
+model. These can be seen below.
+
+53 https://comstock.nrel.gov/
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+56 | P a g e
+
+User Guide
+
+Economics Zonal Geographic Assignment
+Economic variables come from Moody’s Analytics and geographical areas are assigned to zones per the table below.
+Zone
+AE
+
+Metro Area Name(s) or State
+Atlantic City- Hammonton NJ, Vineland-Bridgeton NJ, Lakewood-New Brunswick, NJ
+
+AEP
+
+Elkhart-Goshen IN, Fort Wayne IN, Muncie IN, Huntington-Ashland WV-KY-OH, Roanoke VA, Blacksburg-ChristiansburgRadford VA, Lynchburg VA, Kingsport-Bristol-Bristol TN-VA, Beckley WV, Charleston WV, Columbus OH, WeirtonSteubenville WV-OH, Canton-Massillon OH, South Bend-Mishawaka IN-MI, Niles-Benton Harbor MI
+
+APS
+
+State College PA, Chambersburg-Waynesboro PA, Hagerstown-Martinsburg MD-WV, Winchester VA-WV, ParkersburgVienna WV, Morgantown WV
+
+ATSI
+
+Pittsburgh PA, Cleveland OH, Sandusky OH, Springfield OH, Toledo OH, Akron OH, Youngstown-Warren OH,
+Mansfield OH
+
+BGE
+
+Baltimore-Columbia-Towson MD
+
+COMED
+
+Rockford IL, Chicago-Naperville-Schaumburg IL, Elgin IL, Kankakee IL, Lake County IL
+
+DAY
+
+Dayton-Kettering-Beavercreek OH
+
+DEOK
+
+Cincinnati OH-KY-IN
+
+DLCO
+
+Pittsburgh PA
+
+DOM
+
+Virginia
+
+DPL
+
+Wilmington DE-MD-NJ, Dover DE, Salisbury MD
+
+EKPC
+
+Cincinnati OH-KY-IN, Lexington-Fayette KY, Louisville/Jefferson County KY-IN, Huntington-Ashland WV-KY-OH, Bowling
+Green KY, Elizabethtown KY
+
+JCPL
+
+Newark NJ, Lakewood-New Brunswick NJ, Camden NJ, Trenton NJ
+
+METED
+
+Lebanon PA, York-Hanover PA, Gettysburg PA, Reading PA, Allentown-Bethlehem-Easton PA-NJ
+
+PECO
+
+Montgomery County-Bucks County-Chester County PA, Philadelphia PA
+
+PENLC
+
+Johnstown PA, Erie PA, Altoona PA
+
+PEPCO
+
+Washington DC-MD, Lexington Park MD
+
+PL
+
+Harrisburg-Carlisle PA, Lancaster PA, Williamsport PA, Allentown-Bethlehem-Easton PA-NJ, Scranton--Wilkes-Barre-Hazleton PA
+
+PS
+
+Lakewood-New Brunswick NJ, Newark NJ, Camden NJ, Trenton NJ
+
+RECO
+
+Newark NJ
+
+UGI
+
+Scranton--Wilkes-Barre--Hazleton PA
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+57 | P a g e
+
+

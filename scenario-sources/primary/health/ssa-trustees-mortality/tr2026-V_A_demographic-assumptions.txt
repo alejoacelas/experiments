@@ -1,0 +1,624 @@
+# V. ASSUMPTIONS AND METHODS UNDERLYING ACTUARIAL ESTIMATES
+URL: https://www.ssa.gov/OACT/TR/2026/V_A_demo.html
+
+V. ASSUMPTIONS AND METHODS UNDERLYING ACTUARIAL ESTIMATES V. ASSUMPTIONS AND METHODS UNDERLYING ACTUARIAL ESTIMATES
+
+## 2026 OASDI Trustees Report
+
+| | | | | | |
+| --- | --- | --- | --- | --- | --- |
+
+---
+
+V. ASSUMPTIONS AND METHODS UNDERLYINGACTUARIAL ESTIMATES
+
+The future income and cost of the OASDI program will depend on many demographic, economic, and program-specific factors. Trust fund income will depend on how these factors affect the size and composition of the working population as well as the level and distribution of earnings. Similarly, program cost will depend on how these factors affect the size and composition of the beneficiary population as well as the general level of benefits.
+
+The Trustees make basic assumptions for several of these factors based on analysis of historical trends, historical conditions, and expected future conditions. These factors include fertility, mortality, immigration, marriage, divorce, productivity, inflation, average earnings, unemployment, real interest rates, and disabled-worker incidence and termination. Other factors depend on these basic assumptions. These other, often interdependent, factors include total population, life expectancy, labor force participation, gross domestic product, and program-specific factors. Each year, the Trustees reexamine these assumptions and methods in light of new information.
+
+Future levels of these factors and their interrelationships are inherently uncertain. To address these uncertainties, this report uses three sets of assumptions, designated as intermediate(alternative II), low-cost(alternative I), and high-cost(alternative III). The intermediate set represents the Trustees’ best estimate of the future course of the population and the economy as of the time assumptions were set in February 2026. With regard to the net effect on the actuarial status of the OASDI program, the low-cost set is more optimistic and the high-cost set is more pessimistic. The low-cost and high-cost sets of assumptions reflect significant potential changes in the interrelationships among factors, as well as changes in the values for individual factors.
+
+While it is unlikely that all of the factors and interactions will differ in the specified directions from the intermediate values, many combinations of individual differences in the factors could have a similar overall effect. Outcomes with overall long-range cost as low as the low-cost scenario or as high as the high-cost scenario are very unlikely. Readers should interpret the estimates based on the three sets of alternative assumptions with care. These estimates are not specific predictions of the future financial status of the OASDI program. Rather, they are intended to provide a reasonable range of future income and cost.
+
+All of the key demographic, economic, and program-specific assumptions reach their long-range ultimate values within the next 25 years. For extrapolations beyond the 75‑year long-range period, the ultimate levels or trends reached by the end of the 75‑year period remain unchanged. The assumed ultimate values represent average annual experience or growth rates. Actual future values will exhibit fluctuations or cyclical patterns, as in the past.
+
+The following sections briefly discuss the various assumptions and methods used in making the projections of trust fund actuarial status, which are the focus of this report.1 There are, of course, many interrelationships among these factors that are important but are beyond the scope of this discussion.
+
+A. DEMOGRAPHIC ASSUMPTIONS AND METHODS
+
+This section of the report provides a brief overview of the demographic historical data and the assumptions used for the projections.
+
+1. Fertility
+
+Birth rates by single year of age, for girls and women aged 14 to 49,2 are the basis for the fertility assumptions. These rates apply to the total number of women, across all marital statuses, in the midyear population at each age. Table V.A1 displays the historical and projected total fertility rates.3
+
+Historically, birth rates in the United States have fluctuated widely. The total fertility rate decreased from 3.31 children per woman in 1918 at the end of World War I to 2.15 in 1936 during the Great Depression. After 1936, the total fertility rate rose to 3.68 in 1957 and then fell to 1.74 by 1976. After 1976, the total fertility rate rose above 2.00 by 1990, where it generally remained through 2009. Since then, it has been generally decreasing, reaching 1.60 in 2024; it is estimated to drop further to 1.59 in 2025.
+
+The variations in the historical total fertility rate resulted from changes in many factors, including social attitudes, economic conditions, birth-control practices, and the racial/ethnic composition of the population. Since the baby-boom era (1946-65), women have had higher educational attainment, higher labor force participation, an older average age at first marriage, and a higher propensity to be unmarried. All of these factors are consistent with continued lower total fertility rates than those experienced during the baby-boom era.
+
+After the baby boom era, the average total fertility rate for years 1966 through 2024 was 1.95 children per woman. There are many factors that indicate that future total fertility rates may be lower than that average. These factors include results from recent surveys of birth expectations, continued lower total fertility rates in recent years, lower total fertility rates in high-immigrant source countries such as Mexico, increased utilization of more effective birth control, other societal changes including lower marriage rates, and possible concerns about economic opportunity for the future. The Trustees assume ultimate total fertility rates of 2.10, 1.75, and 1.40 children per woman for the low-cost, intermediate, and high-cost assumptions, respectively. The low-cost ultimate rate is the same as the ultimate rate assumed in last year’s report. However, the intermediate and high-cost ultimate rates are 0.15 and 0.20 lower, respectively, than the ultimate rates assumed in last year’s report.
+
+For the intermediate assumptions, the projected total fertility rate gradually increases on a period (annual) basis through the year the ultimate value is reached (2050). The assumed low-cost and high-cost total fertility rates trend away from the intermediate path, also reaching their ultimate values in 2050. The Trustees continue to assume that recent low rates of period fertility are, in part, indicative of a gradual shift to older ages of childbearing for younger birth cohorts.
+
+2. Mortality
+
+Mortality projections are developed based on assumptions about the ultimate average annual percentage reductions in future mortality rates by age group and cause of death. The assumptions are used to estimate future central death rates by age group, sex, and cause of death. From the estimated central death rates, probabilities of death by single year of age and sex are calculated.
+
+Historical death rates were calculated for years 1900 through 2024 for ages below 65 (and for all ages for years prior to 1968) using data from the National Center for Health Statistics (NCHS).4 For ages 65 and over, final Medicare data on deaths for years 1968 through 2022 and preliminary data for 2023 and 2024 were used.5 Death rates by cause of death were produced for all ages for years 1979‑2024 using data from the NCHS. Partial-year, provisional data from NCHS were used to estimate death rates for 2025 for all ages. Note, however, that regressions used for the model projections do not include data for 2020 through 2023 due to the elevated death rates caused by the COVID-19 pandemic.
+
+The total age-sex-adjusted death rate6 declined at an average annual rate of 1.00 percent between 1900 and 2024. Between 1979 and 2024, the period for which death rates were analyzed by cause, the total age-sex-adjusted death rate, for all causes combined, declined at an average rate of 0.82 percent per year.
+
+Death rates have declined substantially in the U.S. since 1900, with rapid declines over some periods and slow or no declines over other periods. Many factors are responsible for historical reductions in death rates, including medical advances, increased availability of health-care services, and improvements in sanitation and nutrition. Historical death rates generally declined more slowly for older ages and more rapidly for children and infants than for the rest of the population. Between 1900 and 2024, the age-sex-adjusted death rate declined at an average rate of 0.77 percent per year for ages 65 and over, and 2.83 percent per year for ages under 15.
+
+Mortality assumptions differ for the low-cost, intermediate, and high-cost scenarios. Throughout the projection period, the low-cost scenario contains annual percentage reductions that are smaller than those in the intermediate scenario, while those in the high-cost scenario are larger. The ultimate annual percentage reductions for each of the three alternatives are unchanged from last year’s report.
+
+The trends in the annual reductions in central death rates were calculated for the period from 2009 to 2024 (but excluding 2020 through 2023), by age group, sex, and cause of death. These trends are the starting rates of reduction for alternative II. For alternatives I and III, 50 and 150 percent of the starting rates of reduction are used, respectively. These annual rates of reduction, by alternative, are assumed to transition rapidly from the starting rates of reduction until they reach the ultimate annual rates of reduction assumed for 2050 and later.
+
+Table V.A1 contains historical and projected age-sex-adjusted death rates for the total population (all ages), for ages under 65, and for ages 65 and over. Age-sex adjustment eliminates the effect of a changing distribution of population by age and sex. Under the intermediate assumptions, projected total age-sex-adjusted death rates are slightly higher than the rates in last year’s report. These changes result primarily from updating the years used for the regressions.
+
+The projected average annual rate of decline between 2025 and 2100 for the total age-sex-adjusted death rate is about 0.25 percent for alternative I, 0.73 percent for alternative II, and 1.28 percent for alternative III. In keeping with the patterns observed in the historical data, the assumed future rates of decline are greater for younger ages than for older ages, but to a substantially lesser degree than in the past. Accordingly, the projected age-sex-adjusted death rates for ages 65 and over decline between 2025 and 2100 at average annual rates of about 0.26 percent for alternative I, 0.69 percent for alternative II, and 1.15 percent for alternative III. The projected age-sex-adjusted death rates for ages under 15 decline between 2025 and 2100 at average annual rates of about 0.50 percent for alternative I, 1.49 percent for alternative II, and 2.89 percent for alternative III.
+
+Demographers express a wide range of views on the likely rate of future decline in death rates. For example, some believe that the long-standing historical tendency for mortality to decline more slowly at the oldest ages will cease in the future. Others believe that biological factors, social factors, and limitations on health care spending may slow future rates of decline in mortality.
+
+.
+
+Table V.A1.—Fertility and Mortality Assumptions,a Calendar Years 1940-2100
+
+| Calendar year | | Totalfertility rateb | Age-sex-adjusted death rate c per 100,000 | | |
+| --- | --- | --- | --- | --- | --- |
+| | | | Total | Under 65 | 65 and over |
+| Historical data: | | | | | |
+| | 1940 | 2.23 | 1,919.8 | 750.1 | 9,718.8 |
+| | 1945 | 2.42 | 1,716.6 | 674.8 | 8,662.9 |
+| | 1950 | 3.03 | 1,561.9 | 570.2 | 8,173.7 |
+| | 1955 | 3.50 | 1,453.8 | 508.2 | 7,758.4 |
+| | 1960 | 3.61 | 1,454.3 | 503.2 | 7,795.6 |
+| | 1965 | 2.88 | 1,428.8 | 495.2 | 7,653.9 |
+| | 1970 | 2.43 | 1,350.2 | 485.8 | 7,113.9 |
+| | 1975 | 1.77 | 1,214.2 | 426.2 | 6,467.8 |
+| | 1980 | 1.82 | 1,145.2 | 383.9 | 6,221.5 |
+| | 1985 | 1.83 | 1,088.6 | 352.8 | 5,994.7 |
+| | 1990 | 2.07 | 1,026.2 | 333.3 | 5,646.0 |
+| | 1995 | 1.98 | 1,005.0 | 318.3 | 5,582.9 |
+| | 2000 | 2.05 | 964.1 | 281.4 | 5,515.8 |
+| | 2005 | 2.06 | 903.7 | 271.1 | 5,121.7 |
+| | 2010 | 1.93 | 821.5 | 248.5 | 4,641.9 |
+| | 2015 | 1.84 | 813.7 | 253.0 | 4,552.0 |
+| | 2016 | 1.81 | 805.9 | 258.0 | 4,458.6 |
+| | 2017 | 1.76 | 810.3 | 258.1 | 4,492.0 |
+| | 2018 | 1.73 | 801.8 | 254.7 | 4,449.5 |
+| | 2019 | 1.70 | 789.5 | 253.2 | 4,365.3 |
+| | 2020 | 1.64 | 918.2 | 300.0 | 5,040.0 |
+| | 2021 | 1.66 | 930.8 | 334.3 | 4,907.8 |
+| | 2022 | 1.65 | 867.3 | 294.2 | 4,688.5 |
+| | 2023 | 1.60 | d801.5 | 269.0 | d4,351.3 |
+| | 2024 | 1.60 | e775.6 | e251.7 | e4,268.3 |
+| | 2025 | f1.59 | f774.2 | f245.8 | f4,296.9 |
+| Intermediate: | | | | | |
+| | 2030 | 1.61 | 749.0 | 247.4 | 4,093.3 |
+| | 2035 | 1.66 | 720.2 | 237.3 | 3,939.9 |
+| | 2040 | 1.72 | 691.4 | 226.4 | 3,791.5 |
+| | 2045 | 1.75 | 663.8 | 215.7 | 3,651.0 |
+| | 2050 | 1.75 | 637.7 | 205.5 | 3,519.0 |
+| | 2055 | 1.75 | 613.1 | 195.9 | 3,394.9 |
+| | 2060 | 1.75 | 590.0 | 186.7 | 3,278.5 |
+| | 2065 | 1.75 | 568.2 | 178.1 | 3,169.2 |
+| | 2070 | 1.75 | 547.7 | 169.9 | 3,066.3 |
+| | 2075 | 1.75 | 528.4 | 162.2 | 2,969.5 |
+| | 2080 | 1.75 | 510.1 | 154.9 | 2,878.3 |
+| | 2085 | 1.75 | 492.9 | 148.0 | 2,792.3 |
+| | 2090 | 1.75 | 476.6 | 141.5 | 2,711.1 |
+| | 2095 | 1.75 | 461.2 | 135.3 | 2,634.3 |
+| | 2100 | 1.75 | 446.7 | 129.4 | 2,561.6 |
+| Low-cost: | | | | | |
+| | 2030 | 1.80 | 773.1 | 256.0 | 4,220.6 |
+| | 2035 | 1.95 | 764.2 | 253.5 | 4,169.2 |
+| | 2040 | 2.06 | 754.0 | 249.9 | 4,115.4 |
+| | 2045 | 2.10 | 743.6 | 245.9 | 4,061.5 |
+| | 2050 | 2.10 | 733.2 | 241.9 | 4,008.4 |
+| | 2055 | 2.10 | 722.9 | 238.0 | 3,956.3 |
+| | 2060 | 2.10 | 712.9 | 234.1 | 3,905.4 |
+| | 2065 | 2.10 | 703.1 | 230.2 | 3,855.6 |
+| | 2070 | 2.10 | 693.5 | 226.5 | 3,806.8 |
+| | 2075 | 2.10 | 684.0 | 222.8 | 3,759.1 |
+| | 2080 | 2.10 | 674.8 | 219.2 | 3,712.4 |
+| | 2085 | 2.10 | 665.8 | 215.7 | 3,666.7 |
+| | 2090 | 2.10 | 657.0 | 212.2 | 3,622.0 |
+| | 2095 | 2.10 | 648.3 | 208.8 | 3,578.3 |
+| | 2100 | 2.10 | 639.8 | 205.5 | 3,535.4 |
+| High-cost: | | | | | |
+| | 2030 | 1.43 | 719.3 | 236.6 | 3,937.8 |
+| | 2035 | 1.37 | 665.4 | 216.8 | 3,656.9 |
+| | 2040 | 1.38 | 615.1 | 197.4 | 3,400.0 |
+| | 2045 | 1.40 | 569.7 | 179.5 | 3,171.2 |
+| | 2050 | 1.40 | 529.3 | 163.4 | 2,968.3 |
+| | 2055 | 1.40 | 493.2 | 149.0 | 2,788.3 |
+| | 2060 | 1.40 | 461.1 | 136.1 | 2,628.1 |
+| | 2065 | 1.40 | 432.4 | 124.5 | 2,485.0 |
+| | 2070 | 1.40 | 406.6 | 114.1 | 2,356.6 |
+| | 2075 | 1.40 | 383.4 | 104.7 | 2,241.0 |
+| | 2080 | 1.40 | 362.3 | 96.3 | 2,136.3 |
+| | 2085 | 1.40 | 343.3 | 88.6 | 2,041.1 |
+| | 2090 | 1.40 | 325.9 | 81.7 | 1,954.3 |
+| | 2095 | 1.40 | 310.1 | 75.4 | 1,874.8 |
+| | 2100 | 1.40 | 295.6 | 69.7 | 1,801.6 |
+
+---
+
+a
+
+This table contains basic assumptions along with key summary values that are derived from basic assumptions.
+
+b
+
+The total fertility rate for any year is the average number of children that would be born to a woman if she were to experience, at each age of her life, the birth rate observed in, or assumed for, the selected year, and if she were to survive the entire childbearing period.
+
+c
+
+Based on the enumerated total population as of April 1, 2010, if that population were to experience the death rates by age and sex observed in, or assumed for, the selected year.
+
+d
+
+Estimated using final data for ages below 65 and preliminary data for ages 65 and older.
+
+e
+
+Estimated using preliminary data.
+
+f
+
+Estimated using partial-year, provisional data.
+
+3. Immigration
+
+Projections of the total Social Security area population reflect assumptions for the following four immigration flows:
+
+| • | Lawful permanent resident (LPR) immigration: The flow of persons who enter the Social Security area population and are granted LPR status, or who are already in the Social Security area population and adjust their status to become LPRs.7 |
+| --- | --- |
+
+| • | Legal emigration: The flow of LPRs and citizens who leave the Social Security area population. |
+| --- | --- |
+
+| • | Temporary or unlawfully present immigration: The flow of persons who enter the Social Security area population and stay to the end of the year without being granted LPR status, such as foreign workers and students entering with temporary visas, and immigrants who enter the country illegally. |
+| --- | --- |
+
+| • | Temporary or unlawfully present emigration: The flow of temporary or unlawfully present immigrants who leave the Social Security area population or who adjust their status to become LPRs. The stock of immigrants from which these emigrants are drawn includes temporary visa holders, those who entered the Social Security area population lawfully on temporary visas but subsequently overstayed their visas, and those who entered the country illegally. |
+| --- | --- |
+
+Net LPR immigration is the difference between LPR immigration and legal emigration. Net temporary or unlawfully present immigration is the difference between temporary or unlawfully present immigration and temporary or unlawfully present emigration. Total net immigration refers to the sum of net LPR immigration and net temporary or unlawfully present immigration.
+
+Immigration assumptions differ for the low-cost, intermediate, and high-cost scenarios. The low-cost scenario includes higher annual net immigration and the high-cost scenario includes lower annual net immigration. Table V.A2 contains historical and projected levels of various immigration flows.
+
+LPR Immigration and Legal Emigration
+
+LPR immigration has increased significantly since World War II, due to various factors and legislative changes, including the Immigration Act of 1965 and the Immigration Act of 1990.
+
+LPR new arrival immigration levels dropped significantly in 2020-22, the initial years of the COVID-19 pandemic. In 2023 and 2024, the levels of LPR new arrival immigration were elevated somewhat compared to what would have been expected in the absence of the pandemic. This elevation represents the first two years of an assumed make-up for the lower levels in 2020-22. For each of the alternatives, the LPR new arrival immigration level for 2025 is estimated to be higher than would have been expected in the absence of the pandemic, completing the make-up for the lower levels in 2020-22. The timing of the assumed make-up differs from last year’s report, in which it was assumed that 2026 would be the last year of the make-up period. Also, the pandemic-related effects on the LPR new arrival immigration levels in 2025 are assumed to be smaller than those in last year’s report.
+
+For the intermediate alternative, the ultimate level of annual LPR immigration, which includes residents who adjust their status to become LPRs, is assumed to be 1,050,000 persons for 2026 and later. For alternatives I and III, ultimate annual LPR immigration is assumed to be 1,250,000 persons and 850,000 persons, respectively, for 2026 and later. The ultimate levels of LPR immigration are unchanged from last year’s report.
+
+The assumed ratios of annual legal emigration to LPR immigration are 20, 25, and 30 percent for alternatives I, II, and III, respectively. This range is consistent with the limited historical data for legal emigration from the Social Security area population. These ratios are unchanged from last year’s report. Under the intermediate alternative, by combining the ultimate annual LPR immigration and legal emigration assumptions, ultimate annual net LPR immigration is about 788,000 persons. Ultimate annual net LPR immigration is 1,000,000 persons for the low-cost scenario and 595,000 persons for the high-cost scenario.
+
+Temporary or Unlawfully Present Immigration and Emigration
+
+The number of temporary or unlawfully present immigrants in the Social Security area population and the annual level of temporary or unlawfully present immigration were affected significantly by the economic recession of 2007-09. Although temporary or unlawfully present immigration was greatly reduced during the economic downturn and immediate years thereafter, it returned to higher levels for most years from 2014 through 2019, reflecting a recovery from levels experienced during the recession. The COVID-19 pandemic began to affect temporary or unlawfully present immigration in 2020; the level of temporary or unlawfully present immigration is about 504,000 persons lower in 2020 and 113,000 persons lower in 2021 than would have been expected in the absence of the pandemic.
+
+Data from the Department of Homeland Security (DHS) indicate a notable increase in border crossings in years 2022, 2023, and the first few months of 2024. DHS data further indicate a sharp drop in border crossings in the latter part of 2024 and even lower levels continuing into 2025. Based on the expectation that restrictive border policies will continue into the near future, the Trustees assume a relatively low level of temporary or unlawfully present immigration in 2026 for each of the three alternatives. For years after 2026, the Trustees assume a transition path in which the temporary or unlawfully present immigration levels increase each year from the low levels assumed for 2026 to the ultimate levels.
+
+The ultimate annual levels of temporary or unlawfully present immigration are 1,200,000 persons for alternative II, 1,700,000 persons for alternative I, and 700,000 persons for alternative III. Each of these values is 150,000 less than the respective ultimate values in the 2025 Trustees Report. This assumption change is based on a review of the levels of temporary or unlawfully present immigration since 1999, which average to just under 1,200,000 per year when excluding the unusually low immigration years experienced during the 2007-09 recession and slow recovery that followed. The ultimate levels are attained in 2035 for the low-cost and intermediate alternatives and in 2034 for the high-cost alternative.
+
+Emigration from the temporary or unlawfully present immigrant population includes those who leave the Social Security area population and those who adjust their status to become LPRs. This temporary or unlawfully present immigrant population is highly mobile and far more likely to leave the Social Security area population than is the citizen or LPR population. However, as unlawfully present immigrants stay in the country for longer periods of time, they generally become less likely to leave the country.
+
+The Trustees assume that emigration rates from the unlawfully present population will be higher in years 2025-30 than those assumed in last year’s report. This assumption change is based on the recent adoption of more restrictive policies regarding the unlawfully present population and the expectation that these policies will continue into the near future.
+
+Under the intermediate assumptions, the total annual number of temporary or unlawfully present immigrants who leave the Social Security area population averages about 371,000 through the 75‑year projection period. The ultimate annual number of temporary or unlawfully present immigrants who adjust status to become LPRs is assumed to be 450,000 for the intermediate assumptions and is unchanged from last year’s report. The total annual number of temporary or unlawfully present immigrants who leave the Social Security area population averages about 522,000 for the low-cost scenario and 223,000 for the high-cost scenario through the 75‑year projection period. The ultimate annual number of people adjusting status to LPR status is assumed to be 550,000 persons for the low-cost scenario and 350,000 persons for the high-cost scenario; these levels are unchanged from last year’s report.
+
+The projected size of the temporary or unlawfully present immigrant population drops modestly under the intermediate assumptions, from about 17.3 million at the end of 2025 to about 15.6 million at the end of 2029. This drop reflects the following two factors for the early part of the projection period: (1) an assumed decrease in annual unlawfully present immigration and (2) an assumed increase in the emigration rates from the unlawfully present population. After 2029, the projected size of the temporary or unlawfully present immigrant population grows substantially under the intermediate assumptions, reaching about 28.7 million by the end of 2100. This growth reflects the excess of annual immigration levels over the combined annual numbers of emigrants (including adjustments of status) and deaths that occur within the temporary or unlawfully present immigrant population.
+
+Under the intermediate assumptions, the projected annual levels of net temporary or unlawfully present immigration (that is, inflows less outflows) gradually decrease beginning in 2036. Because the projected number of temporary or unlawfully present immigrants leaving the Social Security area population is based on rates of departure, an increase in the number of temporary or unlawfully present immigrants in the Social Security area population results in an increase in the number who emigrate out of that population. All other components of net temporary or unlawfully present immigration are assumed to be stable after 2034, and thus do not contribute toward any change in annual net temporary or unlawfully present immigration. Under the intermediate assumptions, the projected annual levels of net temporary or unlawfully present immigration over the 75-year projection period average about 351,000 persons. The projected annual net temporary or unlawfully present immigration levels average about 590,000 persons under the low-cost assumptions and 115,000 persons under the high-cost assumptions.
+
+Total Net Immigration
+
+The projected annual levels of total net immigration (LPR immigration and temporary or unlawfully present immigration, combined) average about 1,138,000 persons during the 75-year projection period under the intermediate assumptions. The projected annual total net immigration levels average about 1,590,000 persons under the low-cost assumptions and about 710,000 persons under the high-cost assumptions.
+
+Demographers express a wide range of views about the future course of immigration for the United States. Some believe that net immigration will increase substantially in the future. Others believe that potential immigrants may be increasingly attracted to other countries; that the number of potential immigrants may be lower due to lower birth rates in many source countries; or that more stringent immigration laws, policies, and enforcement will lead to low immigration levels in the future.
+
+Table V.A2.—Immigration Assumptions,a Calendar Years 1940-2100 [In thousands]
+
+| Calendar year | | Lawful permanent resident (LPR) | | | | Temporary or unlawfully presentb | | | | Total net change |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Inflow | Outflowc | Adjustments of statusd e | Net change | Inflow | Outflow | Adjustments of statusd e | Net change | |
+| Historical data: | | | | | | | | | | |
+| | 1940 | 61 | 15 | — | 46 | — | — | — | — | — |
+| | 1945 | 73 | 18 | — | 55 | — | — | — | — | — |
+| | 1950 | 227 | 57 | — | 171 | — | — | — | — | — |
+| | 1955 | 280 | 70 | — | 210 | — | — | — | — | — |
+| | 1960 | 268 | 67 | — | 201 | — | — | — | — | — |
+| | 1965 | 279 | 77 | 31 | 232 | — | — | 31 | — | — |
+| | 1970 | 307 | 93 | 65 | 279 | — | — | 65 | — | — |
+| | 1975 | 342 | 98 | 51 | 294 | — | — | 51 | — | — |
+| | 1980 | 430 | 135 | 112 | 406 | — | — | 112 | 203 | 610 |
+| | 1985 | 458 | 144 | 119 | 432 | — | — | 119 | 261 | 693 |
+| | 1990 | 545 | 166 | 1,114 | 1,493 | — | — | 1,114 | -371 | 1,122 |
+| | 1995 | 509 | 192 | 260 | 577 | — | — | 260 | 557 | 1,134 |
+| | 2000 | 482 | 224 | 413 | 672 | 1,358 | 368 | 413 | 577 | 1,249 |
+| | 2005 | 561 | 290 | 597 | 869 | 1,645 | 33 | 597 | 1,015 | 1,884 |
+| | 2010 | 622 | 262 | 426 | 786 | 663 | 220 | 426 | 17 | 803 |
+| | 2015 | 702 | 280 | 419 | 841 | 1,246 | 164 | 419 | 662 | 1,503 |
+| | 2016 | 770 | 297 | 418 | 891 | 1,080 | 656 | 418 | 6 | 896 |
+| | 2017 | 703 | 276 | 399 | 827 | 903 | 257 | 399 | 247 | 1,073 |
+| | 2018 | 693 | 273 | 397 | 818 | 744 | 549 | 397 | -203 | 615 |
+| | 2019 | 543 | 258 | 489 | 774 | 882 | 886 | 489 | -493 | 281 |
+| | 2020 | 238 | 145 | 344 | 436 | 696 | 76 | 344 | 276 | 713 |
+| | 2021 | 366 | 209 | 471 | 628 | 1,187 | 442 | 471 | 274 | 902 |
+| | 2022 | 588 | 262 | 462 | 787 | f2,150 | f248 | 462 | f1,440 | f2,227 |
+| | 2023 | 676 | 298 | 516 | 894 | f2,550 | f254 | 516 | f1,780 | f2,674 |
+| | 2024 | 860 | 358 | 573 | 1,074 | g2,100 | f314 | 573 | g1,213 | g2,287 |
+| | 2025 | g706 | g302 | g500 | g905 | g800 | g1,016 | g500 | g -716 | g189 |
+| Intermediate: | | | | | | | | | | |
+| | 2030 | 600 | 263 | 450 | 788 | 970 | 329 | 450 | 191 | 978 |
+| | 2035 | 600 | 263 | 450 | 788 | 1,200 | 284 | 450 | 466 | 1,254 |
+| | 2040 | 600 | 263 | 450 | 788 | 1,200 | 311 | 450 | 439 | 1,227 |
+| | 2045 | 600 | 263 | 450 | 788 | 1,200 | 327 | 450 | 423 | 1,210 |
+| | 2050 | 600 | 263 | 450 | 788 | 1,200 | 342 | 450 | 408 | 1,196 |
+| | 2055 | 600 | 263 | 450 | 788 | 1,200 | 352 | 450 | 398 | 1,186 |
+| | 2060 | 600 | 263 | 450 | 788 | 1,200 | 359 | 450 | 391 | 1,178 |
+| | 2065 | 600 | 263 | 450 | 788 | 1,200 | 366 | 450 | 384 | 1,172 |
+| | 2070 | 600 | 263 | 450 | 788 | 1,200 | 372 | 450 | 378 | 1,166 |
+| | 2075 | 600 | 263 | 450 | 788 | 1,200 | 377 | 450 | 373 | 1,161 |
+| | 2080 | 600 | 263 | 450 | 788 | 1,200 | 381 | 450 | 369 | 1,157 |
+| | 2085 | 600 | 263 | 450 | 788 | 1,200 | 384 | 450 | 366 | 1,154 |
+| | 2090 | 600 | 263 | 450 | 788 | 1,200 | 386 | 450 | 364 | 1,151 |
+| | 2095 | 600 | 263 | 450 | 788 | 1,200 | 388 | 450 | 362 | 1,150 |
+| | 2100 | 600 | 263 | 450 | 788 | 1,200 | 389 | 450 | 361 | 1,148 |
+| Low-cost: | | | | | | | | | | |
+| | 2030 | 700 | 250 | 550 | 1,000 | 1,380 | 373 | 550 | 457 | 1,457 |
+| | 2035 | 700 | 250 | 550 | 1,000 | 1,700 | 354 | 550 | 796 | 1,796 |
+| | 2040 | 700 | 250 | 550 | 1,000 | 1,700 | 408 | 550 | 742 | 1,742 |
+| | 2045 | 700 | 250 | 550 | 1,000 | 1,700 | 448 | 550 | 702 | 1,702 |
+| | 2050 | 700 | 250 | 550 | 1,000 | 1,700 | 482 | 550 | 668 | 1,668 |
+| | 2055 | 700 | 250 | 550 | 1,000 | 1,700 | 507 | 550 | 643 | 1,643 |
+| | 2060 | 700 | 250 | 550 | 1,000 | 1,700 | 527 | 550 | 623 | 1,623 |
+| | 2065 | 700 | 250 | 550 | 1,000 | 1,700 | 542 | 550 | 608 | 1,608 |
+| | 2070 | 700 | 250 | 550 | 1,000 | 1,700 | 554 | 550 | 596 | 1,596 |
+| | 2075 | 700 | 250 | 550 | 1,000 | 1,700 | 563 | 550 | 587 | 1,587 |
+| | 2080 | 700 | 250 | 550 | 1,000 | 1,700 | 571 | 550 | 579 | 1,579 |
+| | 2085 | 700 | 250 | 550 | 1,000 | 1,700 | 576 | 550 | 574 | 1,574 |
+| | 2090 | 700 | 250 | 550 | 1,000 | 1,700 | 579 | 550 | 571 | 1,571 |
+| | 2095 | 700 | 250 | 550 | 1,000 | 1,700 | 582 | 550 | 568 | 1,568 |
+| | 2100 | 700 | 250 | 550 | 1,000 | 1,700 | 583 | 550 | 567 | 1,567 |
+| High-cost: | | | | | | | | | | |
+| | 2030 | 500 | 255 | 350 | 595 | 600 | 299 | 350 | -49 | 546 |
+| | 2035 | 500 | 255 | 350 | 595 | 700 | 222 | 350 | 128 | 723 |
+| | 2040 | 500 | 255 | 350 | 595 | 700 | 219 | 350 | 131 | 726 |
+| | 2045 | 500 | 255 | 350 | 595 | 700 | 211 | 350 | 139 | 734 |
+| | 2050 | 500 | 255 | 350 | 595 | 700 | 205 | 350 | 145 | 740 |
+| | 2055 | 500 | 255 | 350 | 595 | 700 | 198 | 350 | 152 | 747 |
+| | 2060 | 500 | 255 | 350 | 595 | 700 | 193 | 350 | 157 | 752 |
+| | 2065 | 500 | 255 | 350 | 595 | 700 | 190 | 350 | 160 | 755 |
+| | 2070 | 500 | 255 | 350 | 595 | 700 | 189 | 350 | 161 | 756 |
+| | 2075 | 500 | 255 | 350 | 595 | 700 | 189 | 350 | 161 | 756 |
+| | 2080 | 500 | 255 | 350 | 595 | 700 | 188 | 350 | 162 | 757 |
+| | 2085 | 500 | 255 | 350 | 595 | 700 | 189 | 350 | 161 | 756 |
+| | 2090 | 500 | 255 | 350 | 595 | 700 | 189 | 350 | 161 | 756 |
+| | 2095 | 500 | 255 | 350 | 595 | 700 | 190 | 350 | 160 | 755 |
+| | 2100 | 500 | 255 | 350 | 595 | 700 | 190 | 350 | 160 | 755 |
+
+---
+
+a
+
+This table contains basic assumptions along with key summary values that are derived from basic assumptions.
+
+b
+
+Historical estimates of immigration to (inflow), and emigration from (outflow), the temporary or unlawfully present immigrant population depend on a residual method. Actuarial Services developed these estimates, as well as the resulting temporary or unlawfully present January 1 stock estimates, for years through 2000. For years 2001 and later, the residual method uses stock estimates. For 2001 through 2004, the stock is set to values that linearly grade from the 2000 stock estimate to the 2005 stock estimate. Stock estimates are developed by Actuarial Services, based on the latest methods used by the Department of Homeland Security.
+
+c
+
+Includes both LPRs and citizens who leave the Social Security area population.
+
+d
+
+Estimates include persons who attained LPR status under the special one-time provisions of the Immigration Reform and Control Act of 1986.
+
+e
+
+Adjustments of status are a positive for net LPR immigration and a negative for net temporary or unlawfully present immigration.
+
+f
+
+Estimated.
+
+g
+
+Estimated, intermediate alternative.
+
+Note: Components may not sum to totals because of rounding.
+
+4. Total Population
+
+The starting Social Security area population for December 31, 2023, is derived from the Census Bureau’s estimate of the residents of the 50 States and D.C. and U.S. Armed Forces overseas. Adjustments are made to reflect mortality assumptions for the aged population since 2020 that are consistent with Medicare and Social Security data, net immigration assumptions for the aged population since 2020, estimates of the net undercount in the 2020 census, inclusion of U.S. citizens living abroad (including residents of U.S. territories), and inclusion of non-citizens living abroad who are insured for Social Security benefits. Actuarial Services projects the Social Security area population by age, sex, and marital status for December 31 of each year from 2024 through 2100 by combining the assumptions for future fertility, mortality, and immigration with assumptions for marriage and divorce. Previous sections of this chapter present the assumptions for future fertility, mortality, and immigration. Assumptions for future rates of marriage and divorce reflect historical data from the National Center for Health Statistics, the Census Bureau, and selected individual States.
+
+Table V.A3 shows the historical and projected population for July 1 by broad age group, for the three alternatives. It also shows the aged and total dependency ratios (see table footnotes for definitions).
+
+Table V.A3.—Social Security Area Population on July 1 and Dependency Ratios,Calendar Years 1945-2100
+
+| Calendar year | | Population (in thousands) | | | | Dependency ratio | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Under 20 | 20-64 | 65 andover | Total | Aged a | Total b |
+| Historical data: | | | | | | | |
+| | 1945 | 49,107 | 87,891 | 10,886 | 147,883 | 0.124 | 0.683 |
+| | 1950 | 53,918 | 92,190 | 12,789 | 158,897 | .139 | .724 |
+| | 1955 | 63,337 | 96,003 | 15,161 | 174,500 | .158 | .818 |
+| | 1960 | 72,915 | 99,752 | 17,323 | 189,990 | .174 | .905 |
+| | 1965 | 80,005 | 104,881 | 19,153 | 204,039 | .183 | .945 |
+| | 1970 | 80,856 | 112,953 | 21,007 | 214,815 | .186 | .902 |
+| | 1975 | 78,576 | 122,592 | 23,370 | 224,538 | .191 | .832 |
+| | 1980 | 74,841 | 134,029 | 26,315 | 235,184 | .196 | .755 |
+| | 1985 | 72,893 | 144,586 | 29,129 | 246,609 | .201 | .706 |
+| | 1990 | 74,791 | 152,730 | 31,926 | 259,447 | .209 | .699 |
+| | 1995 | 79,287 | 160,733 | 34,294 | 274,314 | .213 | .707 |
+| | 2000 | 81,980 | 170,138 | 35,501 | 287,619 | .209 | .691 |
+| | 2005 | 83,906 | 180,820 | 37,132 | 301,858 | .205 | .669 |
+| | 2010 | 85,712 | 188,457 | 41,017 | 315,185 | .218 | .672 |
+| | 2015 | 85,011 | 195,342 | 47,792 | 328,145 | .245 | .680 |
+| | 2016 | 85,123 | 196,393 | 49,360 | 330,876 | .251 | .685 |
+| | 2017 | 85,129 | 197,171 | 50,978 | 333,278 | .259 | .690 |
+| | 2018 | 85,038 | 197,740 | 52,670 | 335,448 | .266 | .696 |
+| | 2019 | 84,748 | 197,923 | 54,449 | 337,121 | .275 | .703 |
+| | 2020 | 84,259 | 197,895 | 56,087 | 338,242 | .283 | .709 |
+| | 2021 | 83,683 | 197,754 | 57,540 | 338,977 | .291 | .714 |
+| | 2022 | 83,470 | 197,960 | 59,186 | 340,617 | .299 | .721 |
+| | 2023c | 83,330 | 198,971 | 60,983 | 343,284 | .306 | .725 |
+| | 2024d | 83,091 | 200,168 | 62,839 | 346,098 | .314 | .729 |
+| | 2025d | 82,682 | 200,488 | 64,619 | 347,788 | .322 | .735 |
+| Intermediate: | | | | | | | |
+| | 2030 | 79,461 | 199,580 | 72,324 | 351,365 | .362 | .761 |
+| | 2035 | 78,200 | 202,376 | 76,797 | 357,372 | .379 | .766 |
+| | 2040 | 78,397 | 205,342 | 79,091 | 362,830 | .385 | .767 |
+| | 2045 | 80,123 | 206,803 | 80,490 | 367,417 | .389 | .777 |
+| | 2050 | 81,577 | 206,679 | 82,753 | 371,009 | .400 | .795 |
+| | 2055 | 82,138 | 206,058 | 85,756 | 373,951 | .416 | .815 |
+| | 2060 | 81,666 | 205,843 | 89,238 | 376,746 | .434 | .830 |
+| | 2065 | 80,902 | 206,596 | 92,214 | 379,712 | .446 | .838 |
+| | 2070 | 80,733 | 206,531 | 95,522 | 382,786 | .463 | .853 |
+| | 2075 | 81,271 | 205,440 | 98,947 | 385,658 | .482 | .877 |
+| | 2080 | 82,096 | 204,782 | 101,192 | 388,070 | .494 | .895 |
+| | 2085 | 82,665 | 204,785 | 102,549 | 389,999 | .501 | .904 |
+| | 2090 | 82,770 | 206,205 | 102,658 | 391,633 | .498 | .899 |
+| | 2095 | 82,601 | 207,901 | 102,702 | 393,204 | .494 | .891 |
+| | 2100 | 82,511 | 209,249 | 103,134 | 394,894 | .493 | .887 |
+| Low-cost: | | | | | | | |
+| | 2030 | 81,561 | 201,563 | 72,233 | 355,356 | .358 | .763 |
+| | 2035 | 83,997 | 206,206 | 76,313 | 366,515 | .370 | .777 |
+| | 2040 | 88,954 | 210,990 | 78,000 | 377,944 | .370 | .791 |
+| | 2045 | 95,782 | 214,202 | 78,692 | 388,676 | .367 | .815 |
+| | 2050 | 101,164 | 216,985 | 80,255 | 398,404 | .370 | .836 |
+| | 2055 | 104,212 | 220,885 | 82,638 | 407,735 | .374 | .846 |
+| | 2060 | 105,884 | 226,113 | 85,607 | 417,604 | .379 | .847 |
+| | 2065 | 107,996 | 232,512 | 88,164 | 428,673 | .379 | .844 |
+| | 2070 | 111,737 | 238,057 | 91,059 | 440,853 | .383 | .852 |
+| | 2075 | 116,659 | 242,794 | 94,048 | 453,501 | .387 | .868 |
+| | 2080 | 121,583 | 248,637 | 95,873 | 466,093 | .386 | .875 |
+| | 2085 | 125,520 | 256,225 | 96,836 | 478,581 | .378 | .868 |
+| | 2090 | 128,470 | 266,247 | 96,610 | 491,328 | .363 | .845 |
+| | 2095 | 131,246 | 276,115 | 97,411 | 504,772 | .353 | .828 |
+| | 2100 | 134,632 | 284,503 | 100,033 | 519,167 | .352 | .825 |
+| High-cost: | | | | | | | |
+| | 2030 | 77,550 | 197,951 | 72,479 | 347,980 | .366 | .758 |
+| | 2035 | 72,769 | 199,046 | 77,496 | 349,311 | .389 | .755 |
+| | 2040 | 68,484 | 200,297 | 80,631 | 349,412 | .403 | .744 |
+| | 2045 | 65,476 | 200,113 | 83,017 | 348,606 | .415 | .742 |
+| | 2050 | 63,415 | 197,213 | 86,266 | 346,895 | .437 | .759 |
+| | 2055 | 61,999 | 192,259 | 90,143 | 344,401 | .469 | .791 |
+| | 2060 | 60,105 | 186,867 | 94,334 | 341,306 | .505 | .826 |
+| | 2065 | 57,556 | 182,288 | 97,853 | 337,696 | .537 | .853 |
+| | 2070 | 54,930 | 176,983 | 101,628 | 333,541 | .574 | .885 |
+| | 2075 | 52,707 | 170,585 | 105,468 | 328,760 | .618 | .927 |
+| | 2080 | 51,000 | 164,236 | 108,039 | 323,276 | .658 | .968 |
+| | 2085 | 49,626 | 157,862 | 109,609 | 317,096 | .694 | 1.009 |
+| | 2090 | 48,301 | 152,256 | 109,788 | 310,345 | .721 | 1.038 |
+| | 2095 | 46,833 | 147,642 | 108,696 | 303,171 | .736 | 1.053 |
+| | 2100 | 45,265 | 144,035 | 106,436 | 295,736 | .739 | 1.053 |
+
+---
+
+a
+
+Ratio of the population at ages 65 and over to the population at ages 20-64.
+
+b
+
+Ratio of the population at ages 65 and over and the population under age 20 to the population at ages 20‑64.
+
+c
+
+Estimated.
+
+d
+
+Estimated, intermediate alternative.
+
+Notes:1. Historical data are subject to revision.2. Components may not sum to totals because of rounding.
+
+5. Life Expectancy
+
+Life expectancy, or the average remaining number of years expected prior to death, is an additional way to summarize the Trustees’ mortality assumptions. This report includes life expectancy both at birth and at age 65, in two different forms (period and cohort), which are useful for separate purposes.
+
+| • | Period life expectancy at a selected age for a particular year incorporates the actual or expected death rates at the selected age and each older age for that year. It is a useful summary statistic for illustrating the overall level of the death rates at or above the given age experienced in a single year. Period life expectancy for a particular year provides an individual’s expected average remaining lifetime at a selected age, assuming no change in death rates after that year. Table V.A4 presents historical and projected life expectancy calculated on a period basis. |
+| --- | --- |
+
+| • | Cohort life expectancy does not incorporate death rates for a single year, instead using rates from the series of years in which an individual would reach each succeeding age. Cohort life expectancy provides the expected average remaining lifetime for an individual at a selected age in a particular year, using actual or expected future death rates for the selected age and all succeeding ages. Table V.A5 presents historical and projected life expectancy calculated on a cohort basis. Cohort life expectancy is generally greater than period life expectancy for a given year because: (1) death rates at any age generally decline over time; and (2) cohort life expectancy uses death rates for future years, while period life expectancy uses death rates only for the given year. |
+| --- | --- |
+
+Life expectancy at a given age reflects death rates at that and all older ages. Period life expectancy is somewhat related to the age-sex-adjusted death rate discussed in section V.A.2. However, life expectancy places far greater weight on death rates at relatively younger ages (those at or just above the given age) than those at relatively older ages. Therefore, changes in death rates at young ages, particularly in infancy, affect life expectancy at birth to a much greater degree than changes in death rates at older ages. It is important to keep this concept in mind when considering trends in life expectancy.
+
+Table V.A4.—Period Life Expectancy a
+
+| | | Historical data | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Calendaryear | | At birth | | At age 65 | | | | | | | | | |
+| | | Male | Female | Male | Female | | | | | | | | |
+| | 1940 | 61.4 | 65.7 | 11.9 | 13.4 | | | | | | | | |
+| | 1945 | 62.9 | 68.4 | 12.6 | 14.4 | | | | | | | | |
+| | 1950 | 65.6 | 71.1 | 12.8 | 15.1 | | | | | | | | |
+| | 1955 | 66.7 | 72.8 | 13.1 | 15.6 | | | | | | | | |
+| | 1960 | 66.7 | 73.2 | 12.9 | 15.9 | | | | | | | | |
+| | 1965 | 66.8 | 73.8 | 12.9 | 16.3 | | | | | | | | |
+| | 1970 | 67.1 | 74.9 | 13.1 | 17.1 | | | | | | | | |
+| | 1975 | 68.7 | 76.6 | 13.7 | 18.0 | | | | | | | | |
+| | 1980 | 69.9 | 77.5 | 14.0 | 18.4 | | | | | | | | |
+| | 1985 | 71.1 | 78.2 | 14.4 | 18.6 | | | | | | | | |
+| | 1990 | 71.8 | 78.9 | 15.0 | 19.0 | | | | | | | | |
+| | 1995 | 72.5 | 79.1 | 15.4 | 19.0 | | | | | | | | |
+| | 2000 | 74.0 | 79.4 | 15.9 | 19.0 | | | | | | | | |
+| | 2005 | 74.8 | 80.0 | 16.7 | 19.5 | | | | | | | | |
+| | 2010 | 76.1 | 80.9 | 17.5 | 20.2 | | | | | | | | |
+| | 2015 | 76.2 | 80.9 | 17.8 | 20.3 | | | | | | | | |
+| | 2016 | 76.1 | 81.0 | 17.9 | 20.5 | | | | | | | | |
+| | 2017 | 76.0 | 81.0 | 17.9 | 20.4 | | | | | | | | |
+| | 2018 | 76.2 | 81.1 | 17.9 | 20.5 | | | | | | | | |
+| | 2019 | 76.3 | 81.3 | 18.1 | 20.7 | | | | | | | | |
+| | 2020 | 74.2 | 79.8 | 16.9 | 19.6 | | | | | | | | |
+| | 2021 | 73.5 | 79.3 | 16.9 | 19.7 | | | | | | | | |
+| | 2022 | 74.8 | 80.2 | 17.5 | 20.1 | | | | | | | | |
+| | 2023b | 75.8 | 81.1 | 18.1 | 20.7 | | | | | | | | |
+| | 2024c | 76.5 | 81.4 | 18.3 | 20.8 | | | | | | | | |
+| | 2025d | 76.7 | 81.4 | 18.2 | 20.7 | | | | | | | | |
+| | | Intermediate | | | | Low-cost | | | | High-cost | | | |
+| Calendaryear | | At birth | | At age 65 | | At birth | | At age 65 | | At birth | | At age 65 | |
+| | | Male | Female | Male | Female | Male | Female | Male | Female | Male | Female | Male | Female |
+| | 2030 | 76.8 | 81.8 | 18.6 | 21.1 | 76.4 | 81.5 | 18.4 | 20.9 | 77.3 | 82.2 | 19.0 | 21.4 |
+| | 2035 | 77.3 | 82.2 | 18.9 | 21.4 | 76.5 | 81.6 | 18.5 | 21.0 | 78.4 | 83.1 | 19.6 | 22.0 |
+| | 2040 | 77.8 | 82.7 | 19.3 | 21.7 | 76.7 | 81.7 | 18.6 | 21.1 | 79.4 | 83.9 | 20.2 | 22.5 |
+| | 2045 | 78.4 | 83.1 | 19.6 | 22.0 | 76.9 | 81.9 | 18.7 | 21.2 | 80.4 | 84.7 | 20.8 | 23.0 |
+| | 2050 | 78.9 | 83.6 | 19.9 | 22.3 | 77.0 | 82.1 | 18.8 | 21.3 | 81.3 | 85.5 | 21.3 | 23.5 |
+| | 2055 | 79.4 | 84.0 | 20.2 | 22.5 | 77.2 | 82.2 | 18.9 | 21.4 | 82.2 | 86.2 | 21.9 | 24.0 |
+| | 2060 | 79.9 | 84.4 | 20.5 | 22.8 | 77.4 | 82.4 | 19.0 | 21.5 | 83.0 | 86.9 | 22.4 | 24.4 |
+| | 2065 | 80.4 | 84.8 | 20.8 | 23.0 | 77.6 | 82.5 | 19.1 | 21.6 | 83.8 | 87.5 | 22.9 | 24.8 |
+| | 2070 | 80.9 | 85.2 | 21.1 | 23.3 | 77.8 | 82.7 | 19.2 | 21.7 | 84.5 | 88.1 | 23.3 | 25.2 |
+| | 2075 | 81.3 | 85.5 | 21.3 | 23.5 | 78.0 | 82.8 | 19.3 | 21.8 | 85.2 | 88.6 | 23.8 | 25.6 |
+| | 2080 | 81.8 | 85.9 | 21.6 | 23.8 | 78.2 | 83.0 | 19.4 | 21.9 | 85.9 | 89.1 | 24.2 | 26.0 |
+| | 2085 | 82.2 | 86.2 | 21.9 | 24.0 | 78.3 | 83.1 | 19.5 | 22.0 | 86.5 | 89.6 | 24.6 | 26.3 |
+| | 2090 | 82.6 | 86.6 | 22.1 | 24.2 | 78.5 | 83.3 | 19.6 | 22.0 | 87.1 | 90.0 | 25.0 | 26.6 |
+| | 2095 | 83.0 | 86.9 | 22.4 | 24.4 | 78.7 | 83.4 | 19.7 | 22.1 | 87.6 | 90.5 | 25.3 | 26.9 |
+| | 2100 | 83.4 | 87.2 | 22.6 | 24.6 | 78.9 | 83.6 | 19.8 | 22.2 | 88.2 | 90.9 | 25.7 | 27.2 |
+
+---
+
+a
+
+The period life expectancy at a given age for a given year is the average remaining number of years expected prior to death for a person at that exact age, born on January 1, using the mortality rates for that year over the course of their remaining life.
+
+b
+
+Estimated using final data for ages below 65 and preliminary data for ages 65 and older.
+
+c
+
+Estimated using preliminary data.
+
+d
+
+Estimated using partial-year, provisional data.
+
+Table V.A5.—Cohort Life Expectancy a
+
+| Calendaryear | Intermediate | | | | Low-cost | | | | High-cost | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | At birth b | | At age 65 c | | At birth b | | At age 65 c | | At birth b | | At age 65 c | |
+| | Male | Female | Male | Female | Male | Female | Male | Female | Male | Female | Male | Female |
+| 1940 | 70.2 | 76.4 | 12.7 | 14.7 | 70.1 | 76.3 | 12.7 | 14.7 | 70.2 | 76.4 | 12.7 | 14.7 |
+| 1945 | 71.9 | 77.9 | 13.0 | 15.4 | 71.8 | 77.8 | 13.0 | 15.4 | 72.0 | 78.1 | 13.0 | 15.4 |
+| 1950 | 73.0 | 79.3 | 13.1 | 16.2 | 72.8 | 79.1 | 13.1 | 16.2 | 73.2 | 79.6 | 13.1 | 16.2 |
+| 1955 | 73.5 | 79.7 | 13.1 | 16.7 | 73.2 | 79.4 | 13.1 | 16.7 | 73.9 | 80.2 | 13.1 | 16.7 |
+| 1960 | 74.1 | 80.0 | 13.2 | 17.4 | 73.7 | 79.5 | 13.2 | 17.4 | 74.8 | 80.8 | 13.2 | 17.4 |
+| 1965 | 75.0 | 80.6 | 13.5 | 18.0 | 74.4 | 79.9 | 13.5 | 18.0 | 75.9 | 81.6 | 13.5 | 18.0 |
+| 1970 | 76.2 | 81.5 | 13.8 | 18.5 | 75.3 | 80.6 | 13.8 | 18.5 | 77.4 | 82.7 | 13.8 | 18.5 |
+| 1975 | 76.9 | 82.2 | 14.2 | 18.7 | 75.8 | 81.0 | 14.2 | 18.7 | 78.5 | 83.7 | 14.2 | 18.7 |
+| 1980 | 77.6 | 82.7 | 14.7 | 18.8 | 76.2 | 81.4 | 14.7 | 18.8 | 79.5 | 84.5 | 14.7 | 18.8 |
+| 1985 | 78.1 | 83.2 | 15.4 | 19.0 | 76.4 | 81.6 | 15.4 | 19.0 | 80.4 | 85.3 | 15.4 | 19.0 |
+| 1990 | 78.6 | 83.7 | 16.0 | 19.3 | 76.7 | 81.9 | 16.0 | 19.3 | 81.2 | 86.0 | 16.0 | 19.3 |
+| 1995 | 79.3 | 84.2 | 16.7 | 19.6 | 77.0 | 82.2 | 16.7 | 19.6 | 82.2 | 86.8 | 16.7 | 19.6 |
+| 2000 | 79.8 | 84.6 | 17.3 | 20.0 | 77.3 | 82.4 | 17.3 | 19.9 | 83.0 | 87.4 | 17.3 | 20.0 |
+| 2005 | 80.3 | 85.0 | 17.8 | 20.4 | 77.4 | 82.5 | 17.8 | 20.3 | 83.8 | 88.0 | 17.9 | 20.5 |
+| 2010 | 80.8 | 85.4 | 18.2 | 20.7 | 77.7 | 82.7 | 18.1 | 20.6 | 84.6 | 88.6 | 18.3 | 20.9 |
+| 2015 | 81.2 | 85.8 | 18.5 | 21.1 | 77.9 | 82.9 | 18.2 | 20.8 | 85.3 | 89.1 | 18.8 | 21.4 |
+| 2016 | 81.3 | 85.9 | 18.5 | 21.1 | 77.9 | 82.9 | 18.2 | 20.8 | 85.4 | 89.2 | 18.9 | 21.5 |
+| 2017 | 81.4 | 85.9 | 18.5 | 21.2 | 78.0 | 83.0 | 18.2 | 20.8 | 85.6 | 89.3 | 18.9 | 21.6 |
+| 2018 | 81.5 | 86.0 | 18.6 | 21.2 | 78.0 | 83.0 | 18.3 | 20.9 | 85.7 | 89.4 | 19.0 | 21.7 |
+| 2019 | 81.6 | 86.1 | 18.6 | 21.3 | 78.0 | 83.0 | 18.3 | 20.9 | 85.9 | 89.5 | 19.1 | 21.8 |
+| 2020 | 81.7 | 86.2 | 18.7 | 21.3 | 78.1 | 83.1 | 18.3 | 20.9 | 86.0 | 89.6 | 19.2 | 21.9 |
+| 2021 | 81.8 | 86.2 | 18.8 | 21.4 | 78.1 | 83.1 | 18.4 | 20.9 | 86.1 | 89.7 | 19.4 | 22.0 |
+| 2022 | 81.9 | 86.3 | 18.9 | 21.5 | 78.1 | 83.1 | 18.4 | 21.0 | 86.2 | 89.8 | 19.6 | 22.2 |
+| 2023 | 82.0 | 86.3 | 19.0 | 21.6 | 78.2 | 83.1 | 18.5 | 21.0 | 86.4 | 89.9 | 19.7 | 22.3 |
+| 2024 | 82.0 | 86.4 | 19.1 | 21.6 | 78.2 | 83.1 | 18.5 | 21.1 | 86.5 | 90.0 | 19.9 | 22.4 |
+| 2025 | 82.1 | 86.4 | 19.1 | 21.7 | 78.3 | 83.2 | 18.5 | 21.1 | 86.7 | 90.1 | 20.0 | 22.6 |
+| 2030 | 82.6 | 86.8 | 19.5 | 22.0 | 78.4 | 83.3 | 18.6 | 21.2 | 87.3 | 90.6 | 20.6 | 23.1 |
+| 2035 | 83.0 | 87.2 | 19.8 | 22.3 | 78.6 | 83.5 | 18.7 | 21.3 | 88.0 | 91.1 | 21.2 | 23.6 |
+| 2040 | 83.4 | 87.5 | 20.1 | 22.6 | 78.8 | 83.6 | 18.9 | 21.4 | 88.6 | 91.5 | 21.8 | 24.1 |
+| 2045 | 83.9 | 87.8 | 20.4 | 22.8 | 79.0 | 83.8 | 19.0 | 21.5 | 89.2 | 92.0 | 22.4 | 24.6 |
+| 2050 | 84.3 | 88.1 | 20.7 | 23.1 | 79.2 | 83.9 | 19.1 | 21.6 | 89.7 | 92.4 | 22.9 | 25.0 |
+| 2055 | 84.6 | 88.4 | 21.0 | 23.3 | 79.3 | 84.0 | 19.2 | 21.7 | 90.2 | 92.7 | 23.4 | 25.4 |
+| 2060 | 85.0 | 88.7 | 21.3 | 23.6 | 79.5 | 84.2 | 19.3 | 21.8 | 90.7 | 93.1 | 23.9 | 25.8 |
+| 2065 | 85.4 | 89.0 | 21.6 | 23.8 | 79.7 | 84.3 | 19.4 | 21.9 | 91.2 | 93.4 | 24.3 | 26.2 |
+| 2070 | 85.7 | 89.2 | 21.8 | 24.1 | 79.8 | 84.5 | 19.5 | 22.0 | 91.6 | 93.8 | 24.7 | 26.6 |
+| 2075 | 86.1 | 89.5 | 22.1 | 24.3 | 80.0 | 84.6 | 19.6 | 22.1 | 92.0 | 94.1 | 25.1 | 26.9 |
+| 2080 | 86.4 | 89.7 | 22.4 | 24.5 | 80.2 | 84.7 | 19.7 | 22.1 | 92.4 | 94.4 | 25.5 | 27.2 |
+| 2085 | 86.7 | 90.0 | 22.6 | 24.7 | 80.3 | 84.9 | 19.8 | 22.2 | 92.8 | 94.7 | 25.9 | 27.5 |
+| 2090 | 87.0 | 90.2 | 22.9 | 24.9 | 80.5 | 85.0 | 19.9 | 22.3 | 93.2 | 95.0 | 26.2 | 27.8 |
+| 2095 | 87.3 | 90.4 | 23.1 | 25.1 | 80.6 | 85.1 | 20.0 | 22.4 | 93.5 | 95.2 | 26.6 | 28.1 |
+| 2100 | 87.6 | 90.7 | 23.3 | 25.3 | 80.8 | 85.2 | 20.1 | 22.5 | 93.9 | 95.5 | 26.9 | 28.3 |
+
+---
+
+a
+
+The cohort life expectancy at a given age for a given year is the average remaining number of years expected prior to death for a person at that exact age, born on January 1, using the mortality rates for the series of years in which the individual would reach each succeeding age.
+
+b
+
+Cohort life expectancy at birth for those born in the calendar year is based on a combination of actual, estimated, and projected death rates for birth years 1940 through 2023. For birth years after 2023, these values depend on estimated and projected death rates.
+
+c
+
+Age 65 cohort life expectancy for those attaining age 65 in calendar years 1940 through 2022 is based on a combination of actual, estimated, and projected death rates. After 2022, these values depend on estimated and projected death rates.
+
+---
+
+1
+
+Actuarial Studies published by Actuarial Services, Social Security Administration, contain further details about the assumptions, methods, and projections. A complete list of available studies may be found at www.ssa.gov/OACT/NOTES/actstud.html. This entire report, along with supplemental year-by-year tables and additional documentation on assumptions and methods, may be found at www.ssa.gov/OACT/TR/2026.
+
+2
+
+Birth rates at age 14 include births to girls aged 14 and under, and birth rates at age 49 include births to women aged 49 and over.
+
+3
+
+The total fertility rate may be interpreted as the average number of children that would be born to a woman if she were to experience, at each age of her life, the birth rate observed in, or assumed for, a specified year, and if she were to survive the entire childbearing period. A rate of about 2.1 would ultimately result in a nearly constant population if immigration and emigration were both zero, and if death rates were to remain at current levels.
+
+4
+
+These rates reflect NCHS data on deaths and Census estimates of population. NCHS death data for 2024 are provisional.
+
+5
+
+These rates reflect Medicare data on deaths and enrollments.
+
+6
+
+Based on the enumerated total population as of April 1, 2010, if that population were to experience the death rates by age and sex for the selected year.
+
+7
+
+Persons who enter the country with valid visas but without LPR status, such as temporary foreign workers and students, are not included in the “LPR immigration” category.
+
+---
+
+| | | | | | |
+| --- | --- | --- | --- | --- | --- |
+
+| SSA Home| Privacy Policy| Website Policies & Other Important Information| Site Map| Actuarial Publications | June 9, 2026 |
+| --- | --- |
