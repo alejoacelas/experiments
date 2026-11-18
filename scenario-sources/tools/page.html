@@ -98,6 +98,8 @@ details>summary:hover{color:var(--accent)}
 .q{background:var(--quote-bg);border-left:3px solid var(--fill);padding:12px 14px;display:flex;flex-direction:column;gap:8px;border-radius:0 4px 4px 0}
 .q blockquote{font-family:var(--serif);font-size:16px;line-height:1.5;max-width:68ch;overflow-wrap:anywhere}
 .q blockquote::before{content:"\201C"}.q blockquote::after{content:"\201D"}
+.q.data blockquote{font-family:var(--mono);font-size:12.5px;line-height:1.55}
+.q.data blockquote::before,.q.data blockquote::after{content:""}
 .q figcaption{display:flex;flex-direction:column;gap:3px;font-size:12.5px;color:var(--ink2)}
 .cite{font-family:var(--mono);font-size:11.5px;color:var(--ink3);overflow-wrap:anywhere}
 .cite a{color:var(--ink2)}
@@ -112,6 +114,9 @@ details>summary:hover{color:var(--accent)}
 .dn{font-family:var(--sans);font-size:12px}
 .cons summary{padding:4px 0}
 .cons .tw{margin-top:8px}
+.find{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px 28px;font-size:14px;color:var(--ink2)}
+.find li{border-top:1px solid var(--line);padding-top:10px;max-width:60ch}
+.find b{color:var(--ink);font-weight:600;display:block;margin-bottom:2px}
 .method{font-size:13.5px;color:var(--ink2);max-width:80ch;display:flex;flex-direction:column;gap:8px}
 .method li{padding-left:14px;position:relative}
 .method li::before{content:"";position:absolute;left:0;top:.65em;width:6px;height:1px;background:var(--ink3)}

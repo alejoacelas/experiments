@@ -16,6 +16,7 @@ This is NOT "has it been right". It counts how many of five tests the source pas
                     construction, trials enrolled, contracts signed, plants in the queue).
 
  5 = passes 4–5 tests and has no known directional bias.
+     (A known, measurable directional bias costs one point at any level.)
  4 = passes 3 tests; or passes 4+ but has a known, measurable bias (e.g. issuer optimism, utility over-forecasting).
  3 = passes 2 tests. Typical: accountable institution with a published track record but no money at stake;
      or real money at stake but the instrument is much shorter than 5 years.
@@ -39,6 +40,7 @@ This is NOT "has it been right". It counts how many of five tests the source pas
  2 = edition from 2025–2026 with no AI treatment; or the method structurally cannot respond (pure trend
      extrapolation, fixed statutory assumptions).
  1 = latest edition is pre-2025 and has no AI treatment.
+ (A 2025 edition that does treat AI is capped at 3.)
 
 Every score needs evidence: which tests pass and why (A); what kinds of specifics appear (R);
 edition date + a verbatim AI passage or an explicit "searched for AI/artificial intelligence/data center/automation: none found" (AI).

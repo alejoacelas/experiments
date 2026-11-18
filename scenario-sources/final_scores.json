@@ -1,0 +1,129 @@
+{
+ "_areas": {
+  "macro": {
+   "takeaway": "Official forecasts and bond prices now treat AI as an investment boom that pushes rates up, not as a jobs shock. The 10-year real yield rose from 1.94% to 2.89% during 2026 while the Fed's baseline keeps unemployment at 4.1% through 2029. A takeoff or mass-unemployment tail has a price only on Kalshi, and on thin volume."
+  },
+  "ai-compute": {
+   "takeaway": "The richest and most AI-responsive material in the set: signed commitments broken out by year and counterparty, such as Alphabet's $924.4bn of purchase commitments running mostly through 2031. The weakness is shared authorship. Four of five picks are issuer documents, so the same optimism runs through all of them and the prediction markets are the only outside check."
+  },
+  "energy": {
+   "takeaway": "The strongest area on all three scores at once. Forecasts are filed under regulatory challenge, itemised by zone and year, and treat data centres as a separate line. PJM has large-load demand rising from 11.5 GW in 2026 to 46.6 GW in 2031, and its capacity auction for 2028/29 cleared at the price cap, 6.8 GW short of the reliability requirement."
+  },
+  "labor": {
+   "takeaway": "Official projections barely move for AI: the Fed holds unemployment flat and the BLS still adds 174,700 software developers by 2035. The AI signal is in documents where someone is committed, such as Block cutting from over 10,000 people to under 6,000 and a longshore contract that bars fully automated terminals until October 2030."
+  },
+  "health": {
+   "takeaway": "Strong on dated prices and coverage rules, such as Wegovy's US list price falling to $675 on 1 January 2027 and Medicare paying $274 for semaglutide. Weak on AI: none of the actuarial baselines mentions it, and it appears only in company restructuring plans."
+  },
+  "housing-cities": {
+   "takeaway": "City and transit budgets give the most liftable local detail in the set: New York's gaps of $6.2bn, $8.7bn and $9.0bn for fiscal 2028 to 2030, and MTA fare rises scheduled for March 2027 and March 2029. Almost none of it has absorbed AI. Loudoun County's budget leans on data-centre tax and never uses the term."
+  },
+  "climate-insurance": {
+   "takeaway": "Prices here are real and current but short: reinsurance resets yearly and catastrophe bonds run about three years. AI enters through contract wording, where insurers are now excluding it from general liability policies and selling separate cover."
+  },
+  "fiscal-government": {
+   "takeaway": "The February 2026 CBO baseline has already been overtaken. It assumed a 4.1% ten-year Treasury rate for 2026 and the market stood at 5.10% on 17 November. Enacted statutes are the reliable part: they give exact dates for benefit rules, tax changes and AI compliance duties."
+  },
+  "demographics-education": {
+   "takeaway": "The most predetermined area and the least AI-aware. Cohort sizes for 2031 are fixed by births that have already happened, so migration is the open variable, and the Census Bureau's 2023 projection assumed 865,000 net migrants in 2026 against about 321,000 in its current estimate. Education-company filings are the one place AI is quantified."
+  },
+  "mobility-tech": {
+   "takeaway": "Filings carry hard dates, such as the first 777-9 delivery in 2027 and Starlink at 13.6 million consumer subscribers. This area also has the widest gap between issuer targets and outside forecasts, so prediction markets do the most work here."
+  }
+ },
+ "macro/goldman-macro-outlook": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "macro/jpm-market-outlook": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "macro/nyfed-survey-of-consumer-expectations": {
+  "accuracy": {
+   "score": 1,
+   "note": "passes none of the five tests, so the anchor gives 1."
+  }
+ },
+ "macro/imf-weo": {
+  "ai": {
+   "score": 3,
+   "note": "lowered from 4. Only the Executive Summary could be read; the quantified AI scenario is known from press coverage, not from the document."
+  }
+ },
+ "health/prediction-markets": {
+  "accuracy": {
+   "score": 3,
+   "tests_passed": [
+    "T1",
+    "T2"
+   ],
+   "note": "aligned with prediction markets in other areas. Long-dated contracts are thin and have no multi-year error record."
+  }
+ },
+ "energy/ipp-nuclear-ppas": {
+  "tier": "top",
+  "why_top_or_not": "Promoted in calibration: highest combined score in the area and the only source of signed 20-year power contracts with named plants."
+ },
+ "mobility-tech/metaculus-mobility-tech": {
+  "ai": {
+   "score": 3,
+   "note": "lowered from 4 because no values could be inspected."
+  }
+ },
+ "mobility-tech/consumer-ai-usage-disclosures": {
+  "ai": {
+   "score": 3,
+   "note": "lowered from 4 because nothing was retrieved to verify."
+  }
+ },
+ "mobility-tech/gartner-hype-cycle": {
+  "ai": {
+   "score": 2,
+   "note": "lowered from 3 because the 2026 edition could not be confirmed."
+  }
+ },
+ "climate-insurance/iea-weo": {
+  "ai": {
+   "score": 2,
+   "note": "lowered from 3. No document obtained in this area and the latest edition is November 2025."
+  }
+ },
+ "demographics-education/ssa-trustees-2026": {
+  "extra_docs": [
+   {
+    "title": "2026 OASDI Trustees Report (full official GPO copy, filed under the fiscal area)",
+    "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+    "local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+    "status": "full",
+    "note": "Quotes above were taken from the section captures; this is the complete report."
+   }
+  ]
+ },
+ "macro/cbo-budget-economic-outlook": {
+  "extra_docs": [
+   {
+    "title": "CBO Budget and Economic Outlook: 2026 to 2036 (full official GPO copy, filed under the fiscal area)",
+    "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+    "local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+    "status": "full",
+    "note": ""
+   }
+  ]
+ },
+ "labor/cbo-budget-economic-outlook": {
+  "extra_docs": [
+   {
+    "title": "CBO Budget and Economic Outlook: 2026 to 2036 (full official GPO copy, filed under the fiscal area)",
+    "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+    "local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+    "status": "full",
+    "note": ""
+   }
+  ]
+ }
+}

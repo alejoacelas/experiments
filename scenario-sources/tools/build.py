@@ -12,8 +12,8 @@ AREA_ORDER = ["macro", "ai-compute", "energy", "labor", "health", "housing-citie
 E = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
 ANCHORS = {
- "accuracy": {5: "Passes 4–5 of the five tests, no known directional bias.",
-              4: "Passes 3 tests, or 4+ with a known, measurable bias.",
+ "accuracy": {5: "Passes 4–5 of the five tests, no known directional bias. A known, measurable bias costs one point at any level.",
+              4: "Passes 3 tests, or 4–5 with a known, measurable bias.",
               3: "Passes 2 tests: accountable with a track record but no money at stake, or money at stake on a much shorter instrument.",
               2: "Passes 1 test: interested party, long-dated vendor roadmap, unscored panel or survey.",
               1: "Passes none: marketing, advocacy, unscored scenarios."},
@@ -25,7 +25,7 @@ ANCHORS = {
  "ai": {5: "2026 edition and AI is a quantified, separately identified driver, or the instrument visibly re-prices on AI news.",
         4: "2026 edition; AI analysed as a material driver with partial quantification.",
         3: "2026 edition; AI acknowledged qualitatively but numbers unmoved, or a live price that embeds AI inseparably.",
-        2: "2025–26 edition with no AI treatment, or a method that structurally cannot respond.",
+        2: "2025–26 edition with no AI treatment, or a method that structurally cannot respond. A 2025 edition that does treat AI is capped at 3.",
         1: "Latest edition pre-2025 with no AI treatment."},
 }
 DIM_LABEL = {"accuracy": "Accuracy conditions", "richness": "Worldbuilding richness", "ai": "AI responsiveness"}
@@ -89,11 +89,14 @@ def load():
             for dim in ("accuracy", "richness", "ai"):
                 s.setdefault(dim, {})
                 if dim in o:
+                    note = o[dim].pop("note", None)
                     s[dim].update(o[dim])
+                    if note:
+                        s[dim]["why"] = (s[dim].get("why", "") + " Calibration note: " + note).strip()
             for k in ("tier", "why_top_or_not", "name", "what_it_forecasts", "drop_quotes", "quote_order"):
                 if k in o:
                     s[k] = o[k]
-            s["primary_docs"] = [check_doc(d) for d in s.get("primary_docs", [])]
+            s["primary_docs"] = [check_doc(d) for d in s.get("primary_docs", []) + o.get("extra_docs", [])]
             good = []
             for i, q in enumerate(s.get("quotes", [])):
                 if i in s.get("drop_quotes", []):
@@ -132,9 +135,34 @@ def fmt_bytes(n):
 STATUS = {"full": ("✓", "in full"), "partial": ("◐", "partial"), "failed": ("✕", "not obtained"), "paywalled": ("▣", "paywalled")}
 
 
+def uniq_docs(sources):
+    seen, out = set(), []
+    for s in sources:
+        for d in s.get("primary_docs", []):
+            k = d.get("local_path") or d.get("url") or id(d)
+            if k in seen:
+                continue
+            seen.add(k)
+            out.append(d)
+    return out
+
+
 def doc_counts(sources):
-    docs = [d for s in sources for d in s.get("primary_docs", [])]
+    docs = uniq_docs(sources)
     return sum(d["status"] == "full" for d in docs), len(docs)
+
+
+def norm_kind(k):
+    k = (k or "").lower()
+    for key in ("market price", "binding commitment", "regulated filing", "statutory projection", "scored forecast", "expert report", "survey"):
+        if key in k:
+            return key
+    return "expert report"
+
+
+def is_data(t):
+    letters = sum(c.isalpha() for c in t)
+    return letters / max(1, len(t)) < 0.45 or t.count(",") > 8 and letters / max(1, len(t)) < 0.6
 
 
 def doc_title_for(s, lp):
@@ -164,7 +192,7 @@ def card(a, s):
         title = doc_title_for(s, q.get("doc_local_path"))
         link = q.get("url") or next((d.get("url") for d in s["primary_docs"] if d.get("local_path") == q.get("doc_local_path")), "")
         src = f'<a href="{E(link)}" target="_blank" rel="noopener">{E(title)}</a>' if link else E(title)
-        quotes += (f'<figure class="q"><blockquote>{E(q["text"])}</blockquote>'
+        quotes += (f'<figure class="q{" data" if is_data(q["text"]) else ""}"><blockquote>{E(q["text"])}</blockquote>'
                    f'<figcaption><span class="cite">{src}{" · " + E(" · ".join(loc)) if loc else ""}</span>'
                    f'<span class="use"><b>Scenario input</b> {E(q.get("worldbuilding_use", ""))}</span></figcaption></figure>')
     if not quotes:
@@ -215,9 +243,22 @@ def build():
     full_all, tot_all = doc_counts(all_src)
     full_top, tot_top = doc_counts(tops)
     nq = sum(len(s["quotes"]) for s in tops)
-    total_bytes = sum(d.get("bytes") or 0 for s in all_src for d in s["primary_docs"] if d["status"] in ("full", "partial"))
-    total_pages = sum(d.get("pages") or 0 for s in all_src for d in s["primary_docs"] if d["status"] == "full")
-    partial_all = sum(d["status"] == "partial" for s in all_src for d in s["primary_docs"])
+    ud = uniq_docs(all_src)
+    total_bytes = sum(d.get("bytes") or 0 for d in ud if d["status"] in ("full", "partial"))
+    total_pages = sum(d.get("pages") or 0 for d in ud if d["status"] == "full")
+    partial_all = sum(d["status"] == "partial" for d in ud)
+    kinds = {}
+    for x in all_src:
+        kinds.setdefault(norm_kind(x.get("kind")), []).append(x)
+    order = ["market price", "binding commitment", "regulated filing", "statutory projection", "scored forecast", "expert report", "survey"]
+    KLAB = {"market price": "Market prices", "binding commitment": "Binding commitments (contracts, statutes, enacted budgets)", "regulated filing": "Regulated filings",
+            "statutory projection": "Official projections", "scored forecast": "Scored forecasts", "expert report": "Expert reports", "survey": "Surveys"}
+    avg = lambda xs, d: sum(int(x[d].get("score", 0) or 0) for x in xs) / len(xs)
+    kind_rows = "".join(
+        f'<tr><td>{KLAB[k]}</td><td class="num">{len(kinds[k])}</td><td class="num">{avg(kinds[k], "accuracy"):.1f}</td>'
+        f'<td class="num">{avg(kinds[k], "richness"):.1f}</td><td class="num">{avg(kinds[k], "ai"):.1f}</td></tr>' for k in order if k in kinds)
+    all3 = sum(all(int(x[d].get("score", 0) or 0) >= 4 for d in ("accuracy", "richness", "ai")) for x in all_src)
+    ai_silent = sum(int(x["ai"].get("score", 0) or 0) <= 2 for x in all_src)
     missing_all = tot_all - full_all - partial_all
 
     nav = "".join(f'<a href="#{E(a["area_id"])}">{E(a["area_name"])}</a>' for a in areas)
@@ -251,6 +292,7 @@ def build():
     tpl = open(os.path.join(ROOT, "tools", "page.html")).read()
     fp = os.path.join(ROOT, "tools", "findings.html")
     tpl = tpl.replace("{{FINDINGS}}", open(fp).read() if os.path.exists(fp) else "")
+    tpl = tpl.replace("{{KIND_ROWS}}", kind_rows).replace("{{ALL3}}", str(all3)).replace("{{AI_SILENT}}", str(ai_silent))
     page = (tpl.replace("{{NAV}}", nav).replace("{{GLANCE}}", glance).replace("{{SECTIONS}}", sections)
             .replace("{{N_ALL}}", str(len(all_src))).replace("{{N_TOP}}", str(len(tops))).replace("{{N_AREAS}}", str(len(areas)))
             .replace("{{FULL_ALL}}", str(full_all)).replace("{{TOT_ALL}}", str(tot_all))
