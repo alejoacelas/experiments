@@ -50,7 +50,7 @@
      "T3",
      "T5"
     ],
-    "why": "Suppliers take binding delivery obligations with non-performance penalties and load pays $16.4bn (T1); hundreds of offers clear under three-pivotal-supplier mitigation and the IMM is paid to attack the result (T2); every auction is re-marked by incremental auctions and the next BRA, with an 11-year price/reserve-margin table in the report (T3); 2028/29 supply is existing or under-construction plant (T5). T4 fails: tenor is ~2 years, not 5. Known measurable distortion: an administrative cap/floor ($325/$175) binds - PJM's own simulation clears at $554.72 uncapped - so the price understates scarcity."
+    "why": "Suppliers take binding delivery obligations with non-performance penalties and load pays $16.4bn (T1); offers from competing suppliers clear under three-pivotal-supplier mitigation and the IMM is paid to attack the result (T2); every auction is re-marked by incremental auctions and the next BRA, with an 11-year price/reserve-margin table in the report (T3); 2028/29 supply is existing or under-construction plant (T5). T4 fails: tenor is ~2 years, not 5. Known measurable distortion: an administrative cap/floor ($325/$175) binds - PJM's own simulation clears at $554.72 uncapped - so the price understates scarcity."
    },
    "richness": {
     "score": 4,
@@ -368,7 +368,7 @@
    },
    "ai": {
     "score": 5,
-    "why": "Filings dated 15 Oct, 16 Nov and 17 Nov 2026; data-centre load is modelled separately, tested in a staff-directed restriction case, and tracked project by project ('Data Center/Crypto' segment)."
+    "why": "Documents dated 15 Oct and 16 Nov 2026; data-centre load is modelled separately, tested in a staff-directed restriction case, and tracked project by project ('Data Center/Crypto' segment)."
    },
    "ai_evidence": {
     "updated_2026": true,
@@ -420,13 +420,13 @@
      "note": "Text rendering saved as .xlsx.txt"
     },
     {
-     "title": "NCUC Order Providing Direction for Carbon Plan and Integrated Resource Plan, Docket E-100 Sub 207 (Duke Energy Carolinas/Progress 2025 CPIRP), 17 Nov 2026",
+     "title": "NCUC Order Providing Direction for Carbon Plan and Integrated Resource Plan, Docket E-100 Sub 207 (Duke Energy Carolinas/Progress 2025 CPIRP), issued 16 Nov 2026",
      "url": "https://www.selc.org/wp-content/uploads/2026/11/2026-11-17-Carbon-Plan-and-Integrated-Resource-Plan-Order.pdf",
-     "local_path": "primary/energy/utility-irps/ncuc-2026-11-17-carbon-plan-irp-order-E-100-sub-207.pdf",
+     "local_path": "primary/energy/utility-irps/ncuc-2026-11-16-carbon-plan-irp-order-E-100-sub-207.pdf",
      "status": "full",
      "bytes": 2462809,
      "pages": 185,
-     "note": "Copy hosted by SELC (an intervenor); official docket is NCUC E-100 Sub 207. PDF metadata created 16 Nov 2026; order dated per file name/host as 17 Nov 2026."
+     "note": "Copy hosted by SELC (an intervenor); official docket is NCUC E-100 Sub 207. Order text reads 'This the 16th day of November, 2026'; SELC posted it on 17 Nov 2026."
     },
     {
      "title": "Duke Energy Semi-Annual Economic Development Report on Large Load Additions, Spring 2026 (filed with SC PSC)",
@@ -475,15 +475,15 @@
     {
      "text": "As of September 30, 2026, the portfolio of large load customers committed to receiving service from Georgia Power has grown by 600 MW, reaching a total of 16,100 MW across 32 customers. By the winter of 2028/2029, these customers will represent a load of 8,600 MW.",
      "doc_local_path": "primary/energy/utility-irps/georgia-power-q3-2026/DKT_55378_Lg_Load_Econ_Dev_Report_Q3_2026_PD.pdf",
-     "page": 3,
+     "page": 5,
      "locator": "Introduction",
      "url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/229481/110424",
      "worldbuilding_use": "Georgia: 32 committed large customers, 8.6 GW of new load live by winter 2028/29."
     },
     {
      "text": "That the Commission selects the following resources as part of its 2025 [...] CC4 (approximately 1,365 MW) by 2032; b. CC5 (approximately 1,365 MW) by 2033; c. CT5 (approximately 255 MW) by 2030; and d. CTs 6 and 7 (approximately 856 MW) by 2032.",
-     "doc_local_path": "primary/energy/utility-irps/ncuc-2026-11-17-carbon-plan-irp-order-E-100-sub-207.pdf",
-     "page": 181,
+     "doc_local_path": "primary/energy/utility-irps/ncuc-2026-11-16-carbon-plan-irp-order-E-100-sub-207.pdf",
+     "page": 182,
      "locator": "Ordering paragraph 32",
      "url": "https://www.selc.org/wp-content/uploads/2026/11/2026-11-17-Carbon-Plan-and-Integrated-Resource-Plan-Order.pdf",
      "worldbuilding_use": "Carolinas: two more 1,365 MW gas combined cycles ordered for 2032-33, peakers from 2030."
@@ -516,7 +516,7 @@
      "T4",
      "T5"
     ],
-    "why": "Statements carry Rule 10b-5 and Section 11/14(a) liability and the proxy projections underpin a merger vote (T1); sell-side analysts, short-sellers, rating agencies and merger intervenors (e.g. IEEFA at the Virginia SCC, Nov 2026) attack them (T2); capital plans and contracted-load disclosures run to 2030-31 and PPAs 20 years (T4); the load counted is 'backed by fully executed electric service agreements or letters of agreement' and turbines are ordered with down payments (T5). T3 fails: results are marked quarterly but no multi-year forecast-error record is published. Known bias: issuer optimism; capex plans have been revised up every year since 2023 and letters of agreement can lapse."
+    "why": "Statements carry Rule 10b-5 and Section 11/14(a) liability and the proxy projections underpin a merger vote (T1); sell-side analysts, short-sellers, rating agencies and merger intervenors (e.g. IEEFA at the Virginia SCC, Nov 2026) attack them (T2); capital plans and contracted-load disclosures run to 2030-31 and PPAs 20 years (T4); the load counted is 'backed by fully executed electric service agreements or letters of agreement' and turbines are ordered with down payments (T5). T3 fails: results are marked quarterly but no multi-year forecast-error record is published. Known bias: issuer optimism; AEP's five-year plan grew from $72bn (Oct 2025) to $100bn (Oct 2026), and letters of agreement can lapse."
    },
    "richness": {
     "score": 5,
@@ -791,7 +791,7 @@
      "worldbuilding_use": "Dominion's own year-by-year capex to 2030, as given to merger advisers."
     },
     {
-     "text": "Four of the new combined cycle combustion turbine generation resources are to be located near the customer site in north Louisiana (Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). The seven new combined cycle combustion turbine generation resources have various estimated in-service dates in 2030 and 2031.",
+     "text": "Four of the new combined cycle combustion turbine generation resources are to be located near the customer site in north Louisiana (Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). [...] have various estimated in-service dates in 2030 and 2031.",
      "doc_local_path": "primary/energy/utility-sec-filings/entergy-10q-2026q3.htm",
      "page": null,
      "locator": "Entergy Louisiana - new generation for large customer (Form 10-Q Q3 2026)",
@@ -1076,8 +1076,25 @@
      "note": "Not downloaded: SMR offtakes are announced by private developers outside EDGAR; not pursued in the time available."
     }
    ],
-   "tier": "considered",
-   "quotes": []
+   "quotes": [
+    {
+     "text": "1,268 MW of energy and capacity from Perry and 908 MW of energy and capacity from Davis-Besse [...] Under the terms of the PPAs, the Company anticipates commencing delivery on a portion of the operating energy and capacity in late 2026 and full delivery of the operating energy and capacity by year end 2027.",
+     "doc_local_path": "primary/energy/ipp-nuclear-ppas/vistra-10q-2026q3.htm",
+     "page": null,
+     "locator": "Vistra Form 10-Q Q3 2026 - Meta PPAs",
+     "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm",
+     "worldbuilding_use": "Ohio reactors Perry and Davis-Besse fully committed to Meta by end-2027."
+    },
+    {
+     "text": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+     "doc_local_path": "primary/energy/ipp-nuclear-ppas/talen-10k-fy2025.htm",
+     "page": null,
+     "locator": "Talen Energy Form 10-K FY2025 - Business overview",
+     "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm",
+     "worldbuilding_use": "Pennsylvania: Susquehanna nuclear plant feeds the Amazon campus next door through 2042."
+    }
+   ],
+   "tier": "considered"
   },
   {
    "id": "ercot-load-forecast",
@@ -1101,7 +1118,7 @@
     "tests_passed": [
      "T4"
     ],
-    "why": "Statute (SB6 / 16 TAC 25.370) obliges ERCOT to include loads reported by transmission providers on the strength of officer letters, producing 367,790 MW for 2032 against an 85,508 MW record peak; ERCOT itself tells the PUCT it 'has concerns' with using the values and seeks an adjustment based on realisation rates. The plan period reaches 2032 (T4) and the numbers are publicly disputed (partial T2), but there is no money at stake, no published long-range error record, and a very large known upward bias. Batch Zero ($50,000/MW security) will firm the pipeline from 2027."
+    "why": "Statute (SB6 / 16 TAC 25.370) obliges ERCOT to include loads reported by transmission providers on the strength of officer letters, producing 367,790 MW for 2032 against an 85,508 MW record peak; ERCOT itself tells the PUCT it 'has concerns' with using the values and seeks an adjustment based on realisation rates. The plan period reaches 2032 (T4) and the numbers are publicly disputed (partial T2), but there is no money at stake, no published long-range error record, and a very large known upward bias. ERCOT's new Batch Zero study requires $50,000/MW of financial security, which should firm the pipeline."
    },
    "richness": {
     "score": 4,
@@ -1273,8 +1290,17 @@
      "note": "HTTP 404 at the expected URL on 18 Nov 2026; not found by search - may not be published yet."
     }
    ],
-   "tier": "considered",
-   "quotes": []
+   "quotes": [
+    {
+     "text": "MISO forecasts its peak total internal demand at 127 GW during the 2026 summer season [...] and expects that summer demand will grow to 143.7 GW by 2035. The largest contributor to this accelerated demand growth is data center additions with 18 GW of data center loads projected by 2035.",
+     "doc_local_path": "primary/energy/nerc-ltra/NERC_LTRA_2025.pdf",
+     "page": 15,
+     "locator": "Capacity and Energy Risk Assessment - MISO",
+     "url": "https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_LTRA_2025.pdf",
+     "worldbuilding_use": "Midwest: 18 GW of data centres by 2035; NERC has MISO meeting elevated-risk criteria from 2027."
+    }
+   ],
+   "tier": "considered"
   },
   {
    "id": "eia-860m",
@@ -1303,7 +1329,7 @@
    },
    "richness": {
     "score": 5,
-    "why": "2,363 planned-generator rows with owner, plant name, state, county, coordinates, MW, technology, status and month/year (e.g. Entergy Louisiana 'Richland Parish Power Station 1&2', March 2030)."
+    "why": "About 2,360 planned-generator rows with owner, plant name, state, county, coordinates, MW, technology, status and month/year (e.g. Entergy Louisiana 'Richland Parish Power Station 1&2', March 2030)."
    },
    "ai": {
     "score": 3,
@@ -1412,7 +1438,7 @@
      "T3",
      "T4"
     ],
-    "why": "Statutory, policy-neutral projections from an accountable agency that publishes a retrospective review of past AEO errors (T3) and whose horizon covers the period (T4); no money at stake and no adversary. Known limits: cases are 'not predictions', and inputs were frozen in February 2026 - before the Strait of Hormuz disruption that the November STEO describes."
+    "why": "Statutory, policy-neutral projections from an accountable agency that publishes a retrospective review of past AEO errors (T3) and whose horizon covers the period (T4); no money at stake and no adversary. Known limits: cases are 'not predictions', and the reference-case run is dated February 2026 (table ID d021826b) - before the Strait of Hormuz disruption that the November STEO describes."
    },
    "richness": {
     "score": 4,
@@ -1507,11 +1533,29 @@
      "note": "Text rendering saved as .xlsx.txt"
     },
     {
-     "title": "AEO landing page and reference-table index (HTML)",
+     "title": "AEO landing page (HTML)",
      "url": "https://www.eia.gov/outlooks/aeo/",
      "local_path": "primary/energy/eia-aeo/aeo_index.html",
      "status": "full",
      "bytes": 62469,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AEO2026 narrative web page (HTML)",
+     "url": "https://www.eia.gov/outlooks/aeo/narrative/",
+     "local_path": "primary/energy/eia-aeo/aeo2026_narrative_index.html",
+     "status": "full",
+     "bytes": 130271,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "AEO2026 reference case tables index (HTML)",
+     "url": "https://www.eia.gov/outlooks/aeo/tables_ref.php",
+     "local_path": "primary/energy/eia-aeo/aeo2026_tables_ref.html",
+     "status": "full",
+     "bytes": 120560,
      "pages": 0,
      "note": ""
     }
@@ -1537,11 +1581,11 @@
    },
    "update_cadence": "Monthly (next 8 Dec 2026)",
    "accuracy": {
-    "score": 3,
+    "score": 2,
     "tests_passed": [
      "T3"
     ],
-    "why": "Statutory forecast from an agency independent by law, issued monthly and scored - EIA publishes forecast-evaluation retrospectives and shows NYMEX-implied confidence bands. No money at stake, no adversary, and the horizon stops at end-2027, well short of five years."
+    "why": "Only one test passes, so 2 despite the institution's standing. Statutory forecast from an agency independent by law, issued monthly so every forecast is quickly marked against outcomes, and EIA has published STEO forecast evaluations and plots NYMEX futures alongside its price forecasts. No money at stake, no adversary, and the horizon stops at end-2027, well short of five years."
    },
    "richness": {
     "score": 4,
@@ -1569,8 +1613,33 @@
      "note": "Release date 10 Nov 2026 per eia.gov/outlooks/steo; model inputs finalised 5 Nov 2026."
     }
    ],
-   "tier": "considered",
-   "quotes": []
+   "quotes": [
+    {
+     "text": "We assess that crude oil production shut-ins in the Middle East averaged 2.5 million barrels per day (b/d) in October, down from 10.9 million b/d at the peak in May.",
+     "doc_local_path": "primary/energy/eia-steo/steo_full_2026-11.pdf",
+     "page": 6,
+     "locator": "Global Oil Markets",
+     "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+     "worldbuilding_use": "Scale and timing of the 2026 Hormuz shock: 10.9 mb/d shut in at the May 2026 peak."
+    },
+    {
+     "text": "Amid these conditions, we expect the Brent crude oil spot price will remain near $100 per barrel (b) for the remainder of this year. [...] As depleted global oil inventories build throughout next year, we forecast the Brent spot price will gradually fall to an average of $77/b in the fourth quarter of 2027.",
+     "doc_local_path": "primary/energy/eia-steo/steo_full_2026-11.pdf",
+     "page": 3,
+     "locator": "Overview",
+     "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+     "worldbuilding_use": "Official oil path: about $100 Brent to end-2026, $77 by 4Q27."
+    },
+    {
+     "text": "In our forecast, the U.S. retail diesel price averages $5.03 per gallon (gal) next year, 12% higher than we forecast last month. Gasoline prices average $3.73/gal, 5% higher than last month.",
+     "doc_local_path": "primary/energy/eia-steo/steo_full_2026-11.pdf",
+     "page": 4,
+     "locator": "Overview",
+     "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+     "worldbuilding_use": "Pump prices for 2027 scenes: diesel $5.03, gasoline $3.73."
+    }
+   ],
+   "tier": "considered"
   },
   {
    "id": "iea-weo",
@@ -1858,7 +1927,7 @@
    "horizon": "To 2050",
    "latest_edition": {
     "title": "ExxonMobil Global Outlook: Our view to 2050 (2026 edition)",
-    "date": "2026-09",
+    "date": "2026-09-17",
     "url": "https://corporate.exxonmobil.com/energy-and-innovation/outlook-for-energy"
    },
    "update_cadence": "Annual (late summer)",
@@ -1867,7 +1936,7 @@
     "tests_passed": [
      "T4"
     ],
-    "why": "An oil major's planning view doubling as advocacy ('sustained oil and natural gas investment is more critical than ever'); no scoring and no adversary. Horizon fits. Publication month (September 2026) is from secondary coverage and the company page; the exact day was not confirmed."
+    "why": "An oil major's planning view doubling as advocacy ('sustained oil and natural gas investment is more critical than ever'); no scoring and no adversary. Horizon fits. Publication date (17 Sep 2026) is from press coverage and the company web page, not read off the captured document."
    },
    "richness": {
     "score": 3,
@@ -2045,9 +2114,9 @@
    "what_it_forecasts": "Zonal energy and peak demand by year (NYISO to 2056) with large-load projects itemised, existing and proposed generators and transmission; MISO peak and data-centre load paths.",
    "horizon": "NYISO: annual 2026-2056 for load, to 2036 for capacity; MISO: to 2046",
    "latest_edition": {
-    "title": "NYISO 2026 Load & Capacity Data Report (Gold Book), released April 2026",
-    "date": "2026-04",
-    "url": "https://www.nyiso.com/documents/20142/2226333/2026-Gold-Book-Public.pdf/"
+    "title": "NYISO Power Trends 2026 (drawing on the 2026 Gold Book, released April 2026)",
+    "date": "2026-06-09",
+    "url": "https://www.nyiso.com/documents/20142/2223020/2026-Power-Trends.pdf"
    },
    "update_cadence": "Annual (Gold Book April; Power Trends June; MISO forecast annual)",
    "accuracy": {

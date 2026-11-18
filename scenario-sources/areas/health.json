@@ -25,280 +25,6 @@
  ],
  "sources": [
   {
-   "id": "cms-nhe-projections",
-   "name": "National Health Expenditure Projections 2025–2034",
-   "publisher": "CMS Office of the Actuary (published in Health Affairs + CMS tables)",
-   "kind": "statutory projection",
-   "covers_trends": [
-    "Cost of care outruns incomes",
-    "Coverage erosion and churn",
-    "Ageing, Medicare strain and slow longevity gains",
-    "GLP-1s, new drugs and government price-setting"
-   ],
-   "what_it_forecasts": "Annual US health spending 2025–2034 by payer, service and sponsor, per-capita and per-enrollee amounts, and insurance enrollment/uninsured counts under current law (incl. OBBBA and expiry of enhanced ACA subsidies).",
-   "horizon": "annual to 2034",
-   "latest_edition": {
-    "title": "National Health Expenditure Projections 2025-2034 (Forecast Summary and Tables 1-18)",
-    "date": "2026-06-24",
-    "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/projected"
-   },
-   "update_cadence": "annual (June); Table 17 file re-issued 2026-09-03",
-   "accuracy": {
-    "score": 3,
-    "tests_passed": [
-     "T3",
-     "T5"
-    ],
-    "why": "Accountable actuarial office with no money at stake: T3 passes because OACT re-benchmarks annually and publishes an 'Analysis of National Health Expenditure Projections Accuracy' (latest Nov 2020, errors through 2018; saved locally) – that record is now stale. T5 passes because the 2026–2031 path is dominated by cohorts already born (boomers enrolling through 2029) and law already enacted (OBBBA Medicaid rules, IRA, subsidy expiry). No stakes, no adversaries, and it is a current-law projection, so it is wrong by construction whenever Congress acts (a Health Affairs Forefront critique of 2026-06-23 says it leans on recent trends and strong assumptions)."
-   },
-   "richness": {
-    "score": 4,
-    "why": "18 tables by payer, service category and sponsor with per-capita and per-enrollee dollars, enrollment by coverage type and a year-by-year narrative of drivers (OBBBA community-engagement rules, subsidy expiry, GLP-1 utilisation, Part D negotiation); national only – no places or named firms."
-   },
-   "ai": {
-    "score": 2,
-    "why": "June 2026 edition; no AI treatment at all – the model is econometric/actuarial trend plus legislated effects. The only 'algorithm' hit in the methodology paper is iterative proportional fitting."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "none",
-    "ai_passage": null,
-    "search_note": "Searched forecast summary, results presentation, infographic, methodology paper, accuracy paper and 18 table renderings for: artificial intelligence, AI, machine learning, generative, automation, algorithm, ambient, data cent(er/re), Super Intelligence/SI. Only hit: 'algorithm' in a footnote defining iterative proportional fitting."
-   },
-   "tier": "top",
-   "why_top_or_not": "The canonical current-law baseline for what care costs per person and who is insured each year to 2034; weak on stakes and silent on AI but unmatched for dated national quantities.",
-   "primary_docs": [
-    {
-     "title": "NHE Projections 2025-2034 – Forecast Summary",
-     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
-     "local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
-     "status": "full",
-     "bytes": 104298,
-     "pages": 3,
-     "note": "Document is undated; PDF metadata creation date 2026-06-17; public release with the Health Affairs article on 2026-06-24 per press coverage."
-    },
-    {
-     "title": "NHE Projections – Results presentation (charts)",
-     "url": "https://www.cms.gov/files/document/national-health-expenditure-projections-results-presentation.pdf",
-     "local_path": "primary/health/cms-nhe-projections/nhe-projections-results-presentation.pdf",
-     "status": "full",
-     "bytes": 392238,
-     "pages": 8,
-     "note": ""
-    },
-    {
-     "title": "NHE Projections – Infographic",
-     "url": "https://www.cms.gov/files/document/nhe-projections-infographic.pdf",
-     "local_path": "primary/health/cms-nhe-projections/nhe-projections-infographic.pdf",
-     "status": "full",
-     "bytes": 487979,
-     "pages": 1,
-     "note": ""
-    },
-    {
-     "title": "NHE Projections Tables 1-18 (zip of 18 xlsx)",
-     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
-     "local_path": "primary/health/cms-nhe-projections/nhe-projections-tables.zip",
-     "status": "full",
-     "bytes": 259263,
-     "pages": 0,
-     "note": "Unzipped to tables/; each xlsx has a .xlsx.txt CSV rendering."
-    },
-    {
-     "title": "Table 03 National Health Expenditures by Sources of Funds (xlsx from zip)",
-     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
-     "local_path": "primary/health/cms-nhe-projections/tables/Table03 National Health Expenditures by Sources of Funds.xlsx",
-     "status": "full",
-     "bytes": 16715,
-     "pages": 0,
-     "note": "CSV rendering saved alongside as .xlsx.txt"
-    },
-    {
-     "title": "Table 17 Health Insurance Enrollment and Enrollment Growth Rates (xlsx from zip)",
-     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
-     "local_path": "primary/health/cms-nhe-projections/tables/Table17 Health Insurance Enrollment and Enrollment Growth Rates.xlsx",
-     "status": "full",
-     "bytes": 20178,
-     "pages": 0,
-     "note": "CSV rendering saved alongside as .xlsx.txt; file dated 2026-09-03 inside the zip"
-    },
-    {
-     "title": "Projections of National Health Expenditures: Methodology and Model Specification",
-     "url": "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/downloads/projectionsmethodology.pdf",
-     "local_path": "primary/health/cms-nhe-projections/projections-methodology.pdf",
-     "status": "full",
-     "bytes": 728032,
-     "pages": 32,
-     "note": ""
-    },
-    {
-     "title": "Analysis of National Health Expenditure Projections Accuracy (Nov 2020)",
-     "url": "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/downloads/projectionaccuracy.pdf",
-     "local_path": "primary/health/cms-nhe-projections/projection-accuracy.pdf",
-     "status": "full",
-     "bytes": 702299,
-     "pages": 16,
-     "note": "Track-record study; latest version is November 2020."
-    },
-    {
-     "title": "Health Affairs article: National Health Expenditure Projections, 2025–34",
-     "url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2026.00642",
-     "local_path": "",
-     "status": "failed",
-     "bytes": 0,
-     "pages": 0,
-     "note": "healthaffairs.org returned HTTP 403 to curl (bot protection); journal article is also subscription-gated. CMS summary and tables carry the same numbers."
-    }
-   ],
-   "quotes": [
-    {
-     "text": "2026: National health spending growth is expected to slow to 6.3 percent in part due to moderating use. Direct purchase insurance enrollment is expected to decline by 3.7 million largely due to the expiration of enhanced marketplace subsidies.",
-     "doc_local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
-     "page": 1,
-     "locator": "Chronological Discussion of Key Trends",
-     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
-     "worldbuilding_use": "2026: 3.7 million people drop individual-market coverage after subsidies lapse."
-    },
-    {
-     "text": "2027-28: In this period, Medicaid spending growth is expected to slow further, to an average of 2.7 percent. Enrollment is expected to decline by 2.6 million over the two-year period due to OBBBA’s community engagement and other enrollment-related requirements.",
-     "doc_local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
-     "page": 2,
-     "locator": "Key Trends by Payer – Medicaid",
-     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
-     "worldbuilding_use": "2027–28: Medicaid rolls shrink 2.6 million as work requirements bite."
-    },
-    {
-     "text": "2029-34: Average annual growth over this period for Medicare spending is projected to be 7.3 percent. The baby boomer generation will enroll through 2029, and the oldest baby boomers will reach ages where health care consumption typically increases.",
-     "doc_local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
-     "page": 2,
-     "locator": "Key Trends by Payer – Medicare",
-     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
-     "worldbuilding_use": "Last boomers turn 65 in 2029; Medicare spending compounds 7.3% a year."
-    },
-    {
-     "text": "2025,16486,1721 [...] 2026,17496,1826 [...] 2027,18295,1892 [...] 2028,19204,1974 [...] 2029,20141,2053 [...] 2030,21092,2139 [...] 2031,22095,2223",
-     "doc_local_path": "primary/health/cms-nhe-projections/tables/Table03 National Health Expenditures by Sources of Funds.xlsx",
-     "page": null,
-     "locator": "Table 3, block 'Per Capita Amount': columns = Year, Total NHE per capita ($), Out-of-Pocket per capita ($); projected rows (file dated 2026-06-16)",
-     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
-     "worldbuilding_use": "Health spending per American: $17,496 (2026) to $22,095 (2031); out-of-pocket $1,826 to $2,223."
-    },
-    {
-     "text": "Uninsured3,44.3,35.6,29.7,28.9,30,30.8,31.9,31.4,28.7,26.8,25.2,28,28.6,31.6,32.9,33.3,33.1,33.1,32.7,33,33.3,33.5",
-     "doc_local_path": "primary/health/cms-nhe-projections/tables/Table17 Health Insurance Enrollment and Enrollment Growth Rates.xlsx",
-     "page": null,
-     "locator": "Table 17, 'Enrollment (in millions)' block, row Uninsured, columns 2013…2034 (2025 onward projected; file dated 2026-09-03)",
-     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
-     "worldbuilding_use": "Uninsured: 28.6m (2025), 31.6m (2026), 33.3m (2028), 32.7m (2031)."
-    }
-   ]
-  },
-  {
-   "id": "medicare-trustees-report",
-   "name": "2026 Medicare Trustees Report (+ CMS 2027 Parts A & B premium determination)",
-   "publisher": "Boards of Trustees, Federal HI and SMI Trust Funds / CMS Office of the Actuary",
-   "kind": "statutory projection",
-   "covers_trends": [
-    "Ageing, Medicare strain and slow longevity gains",
-    "Cost of care outruns incomes",
-    "GLP-1s, new drugs and government price-setting"
-   ],
-   "what_it_forecasts": "Medicare enrollment, spending by part, premiums/deductibles for the next decade and HI trust-fund depletion (2033), with the binding 2027 Part B premium set by CMS on 2026-11-17.",
-   "horizon": "annual to 2035 (short range), to 2100 (long range); premiums set one year ahead",
-   "latest_edition": {
-    "title": "2026 Annual Report of the Boards of Trustees of the Federal Hospital Insurance and Federal Supplementary Medical Insurance Trust Funds",
-    "date": "2026-06-09",
-    "url": "https://www.cms.gov/oact/tr/2026"
-   },
-   "update_cadence": "annual (report, usually spring/June); premiums announced each autumn",
-   "accuracy": {
-    "score": 3,
-    "tests_passed": [
-     "T3",
-     "T5"
-    ],
-    "why": "Statutory projection by an accountable actuary, re-issued every year with changes from the prior report itemised, and checkable against outcomes (its June estimate of the 2027 Part B premium was $209.50; CMS set $209.40 on 2026-11-17). Beneficiary cohorts are already born (T5). No money at stake and no adversary; known bias: it must assume current-law payment updates the Trustees themselves doubt (an 'illustrative alternative' scenario is published), so long-range costs are understated, and the depletion date has moved by years between editions."
-   },
-   "richness": {
-    "score": 4,
-    "why": "271 pages of dated series by Part A/B/D with narrated drivers (GLP-1 and specialty-drug utilisation, skin-substitute payment change, IRA negotiation, GLP-1 Bridge), premium and deductible paths, depletion date and benefit-cut percentage; national, few named entities."
-   },
-   "ai": {
-    "score": 2,
-    "why": "June 2026 edition; zero mentions of AI or automation – cost growth comes from fixed statutory updates and actuarial trend assumptions that cannot respond to AI."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "none",
-    "ai_passage": null,
-    "search_note": "Searched full 271-page report text and the CMS 2027 premium fact sheet for: artificial intelligence, AI, machine learning, generative, automation, algorithm, ambient, data cent(er/re), Super Intelligence/SI – none found."
-   },
-   "tier": "top",
-   "why_top_or_not": "Only source that dates the ageing/Medicare squeeze (premiums, 2033 depletion, GLP-1 drug costs) with a statutory actuary's signature and an annual check against outcomes.",
-   "primary_docs": [
-    {
-     "title": "2026 Medicare Trustees Report (full)",
-     "url": "https://www.cms.gov/oact/tr/2026",
-     "local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
-     "status": "full",
-     "bytes": 2844621,
-     "pages": 271,
-     "note": ""
-    },
-    {
-     "title": "CMS Fact Sheet: 2027 Medicare Parts A & B Premiums and Deductibles (2026-11-17)",
-     "url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
-     "local_path": "primary/health/medicare-trustees-report/cms-fact-sheet-2027-medicare-parts-a-b-premiums-deductibles.html",
-     "status": "full",
-     "bytes": 69823,
-     "pages": 0,
-     "note": "Binding 2027 amounts; lets the Trustees' June estimate be checked."
-    }
-   ],
-   "quotes": [
-    {
-     "text": "The HI trust fund is projected to become depleted in the second quarter of 2033, which is one quarter earlier than projected in last year’s report. Upon reserve depletion in 2033, projected income is sufficient to pay 89 percent of scheduled benefits.",
-     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
-     "page": 14,
-     "locator": "II.B Overview – HI trust fund reserves and reserve depletion",
-     "url": "https://www.cms.gov/oact/tr/2026",
-     "worldbuilding_use": "Hospital insurance fund runs dry Q2 2033; automatic 11% payment cut looms over the scenario's end."
-    },
-    {
-     "text": "In 2026 the monthly Part B premium rate is $202.90, which is higher than the 2025 monthly premium of $185.00. The estimated monthly premium for 2027 is $209.50.",
-     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
-     "page": 93,
-     "locator": "III.C Part B financing",
-     "url": "https://www.cms.gov/oact/tr/2026",
-     "worldbuilding_use": "Retirees' Part B premium path: $185.00 (2025), $202.90 (2026), ~$209.50 (2027)."
-    },
-    {
-     "text": "The standard monthly premium for Medicare Part B enrollees will be $209.40 for 2027, an increase of $6.50 from $202.90 in 2026. The annual deductible for all Medicare Part B beneficiaries will be $292 in 2027, an increase of $9 from the annual deductible of $283 in 2026.",
-     "doc_local_path": "primary/health/medicare-trustees-report/cms-fact-sheet-2027-medicare-parts-a-b-premiums-deductibles.html",
-     "page": null,
-     "locator": "Medicare Part B Premium and Deductible (fact sheet dated Nov 17, 2026)",
-     "url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
-     "worldbuilding_use": "Binding 2027 numbers a retiree sees on the Social Security statement."
-    },
-    {
-     "text": "A Medicare GLP-1 Bridge demonstration program will be implemented in the second half of 2026 to increase access of weight-loss drugs for beneficiaries. This program will operate outside of the Medicare Part D plan benefit coverage and will result in additional government contributions.",
-     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
-     "page": 115,
-     "locator": "III.D Part D financing",
-     "url": "https://www.cms.gov/oact/tr/2026",
-     "worldbuilding_use": "Medicare starts paying for weight-loss drugs from mid-2026, off the Part D books."
-    },
-    {
-     "text": "The Part D expenditures are significantly higher than those in last year’s report in all years. This is mainly due to increases in the utilization of GLP-1 and expensive specialty drugs in 2025.",
-     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
-     "page": 12,
-     "locator": "II.A Highlights – changes from last year's report",
-     "url": "https://www.cms.gov/oact/tr/2026",
-     "worldbuilding_use": "GLP-1 uptake is already forcing upward revisions to official drug-spending paths."
-    }
-   ]
-  },
-  {
    "id": "pharma-filings",
    "name": "Pharma SEC filings and guidance: Eli Lilly, Novo Nordisk, Pfizer, Merck, Vertex (Q3 2026)",
    "publisher": "Companies, filed with the US SEC (10-Q/10-K/8-K/6-K)",
@@ -628,6 +354,139 @@
    ]
   },
   {
+   "id": "fda-ai-devices",
+   "name": "AI in healthcare with regulatory commitments: FDA AI-Enabled Medical Device List (+ CMS CY2027 Physician Fee Schedule final rule fact sheet)",
+   "publisher": "US Food and Drug Administration; CMS",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "AI and workforce strain in care delivery and administration"
+   ],
+   "what_it_forecasts": "Not a forecast: the cumulative register of AI-enabled devices legally authorised for US marketing (1,614 rows; decisions through 2026-06-29; 335 dated 2025 and 181 so far in 2026), by company, panel and date; plus what Medicare will pay physicians in 2027.",
+   "horizon": "realised authorisations; payment rules for CY2027",
+   "latest_edition": {
+    "title": "Artificial Intelligence-Enabled Medical Devices (list; content current as of 09/04/2026)",
+    "date": "2026-09-04",
+    "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
+   },
+   "update_cadence": "periodic (roughly twice a year)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "A legal register, not a forecast: each row is a marketing authorisation, so the stock of clinical AI that can be deployed over the next five years is partly visible (T5), but nobody loses anything if adoption does not follow (T1 fails as a forward claim), there is no adversary, scoring or horizon. It measures supply, not use: authorisation does not mean hospitals bought it or Medicare pays for it, FDA says the list 'is not a comprehensive resource', and it excludes unregulated tools (ambient scribes, coding/billing AI, payer algorithms) that matter most for daily experience."
+   },
+   "richness": {
+    "score": 4,
+    "why": "1,614 named devices with company, medical specialty panel, product code and decision date (1,230 of them radiology); no prices, adoption or outcomes."
+   },
+   "ai": {
+    "score": 5,
+    "why": "2026 edition and AI is the subject itself; FDA says it will start tagging devices that incorporate foundation models/LLMs. The CMS CY2027 PFS fact sheet, by contrast, contains no AI terms."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "To support transparency in the use of modern AI technologies, the FDA will explore methods to identify and tag medical devices that incorporate foundation models encompassing a wide range of AI systems, from large language models (LLMs) to multimodal architectures.",
+     "doc_local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
+     "page": null
+    },
+    "search_note": "FDA page also carries the banner: federal agencies now use 'Super Intelligence (SI)' in place of 'AI' per Executive Order 14434. CMS CY2027 PFS fact sheet: 0 hits for AI/SI/algorithm/software."
+   },
+   "tier": "top",
+   "why_top_or_not": "Top on combined score (2+4+5) and the only source whose subject is AI in care: a hard, dated, named count of clinical AI – but read it as a lagging register of supply, not a forecast of adoption or payment.",
+   "primary_docs": [
+    {
+     "title": "FDA: Artificial Intelligence-Enabled Medical Devices (web page)",
+     "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+     "local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
+     "status": "full",
+     "bytes": 416722,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "FDA AI-Enabled Medical Device List (Excel)",
+     "url": "https://www.fda.gov/media/178540/download?attachment",
+     "local_path": "primary/health/fda-ai-devices/ai-enabled-devices-list.xlsx",
+     "status": "full",
+     "bytes": 133134,
+     "pages": 0,
+     "note": "CSV rendering saved as .xlsx.txt"
+    },
+    {
+     "title": "FDA AI-Enabled Medical Device List (CSV)",
+     "url": "https://www.fda.gov/media/178541/download?attachment",
+     "local_path": "primary/health/fda-ai-devices/ai-enabled-devices-list.csv",
+     "status": "full",
+     "bytes": 141468,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CMS Fact Sheet: CY2027 Medicare Physician Fee Schedule Final Rule",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-final-rule",
+     "local_path": "primary/health/fda-ai-devices/cms-cy2027-pfs-final-rule-fact-sheet.html",
+     "status": "full",
+     "bytes": 77255,
+     "pages": 0,
+     "note": "Fact sheet only; the Federal Register rule text (where 'Software as a Medical Service' policy is reportedly finalised) was not downloaded."
+    },
+    {
+     "title": "Epic/ambient-scribe adoption data; hospital bond (EMMA) disclosures",
+     "url": "",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted: no single primary document; vendor adoption claims are marketing."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "04/30/2026,K250680,Bayesian Health Sepsis Flagging Device,Bayesian Health, Inc.,General Hospital,SAK",
+     "doc_local_path": "primary/health/fda-ai-devices/ai-enabled-devices-list.csv",
+     "page": null,
+     "locator": "CSV row; columns = Date of Final Decision, Submission Number, Device, Company, Panel (Lead), Primary Product Code; list current to decisions of 06/29/2026",
+     "url": "https://www.fda.gov/media/178541/download?attachment",
+     "worldbuilding_use": "A named AI sepsis alarm cleared for hospital wards on 30 April 2026."
+    },
+    {
+     "text": "The list is not a comprehensive resource of AI-enabled medical devices. Instead, the list includes AI-enabled medical devices that were identified primarily based on the use of AI-related terms in the summary descriptions of their marketing authorization document and/or the device’s classification.",
+     "doc_local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
+     "page": null,
+     "locator": "Contents of the AI-Enabled Medical Devices List",
+     "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+     "worldbuilding_use": "Even the regulator cannot fully count clinical AI: the 1,614-device list is a floor."
+    },
+    {
+     "text": "To support transparency in the use of modern AI technologies, the FDA will explore methods to identify and tag medical devices that incorporate foundation models encompassing a wide range of AI systems, from large language models (LLMs) to multimodal architectures.",
+     "doc_local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
+     "page": null,
+     "locator": "Contents of the AI-Enabled Medical Devices List",
+     "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+     "worldbuilding_use": "LLM-based medical devices are coming; FDA plans to label them in future list updates."
+    },
+    {
+     "text": "Per Executive Order 14434 , federal agencies are now using \"Super Intelligence\" (SI) in place of \"Artificial Intelligence\" (AI). You may see both terms across FDA content during this transition.",
+     "doc_local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
+     "page": null,
+     "locator": "Site-wide banner (page content current as of 09/04/2026; banner added after the 29 Sep 2026 order)",
+     "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+     "worldbuilding_use": "Late-2026 federal health paperwork says 'Super Intelligence (SI)', not AI."
+    },
+    {
+     "text": "The update to the qualifying APM conversion factor for CY 2027 is +0.75% while the update to the non-qualifying APM conversion factor for CY 2027 is +0.25%.",
+     "doc_local_path": "primary/health/fda-ai-devices/cms-cy2027-pfs-final-rule-fact-sheet.html",
+     "page": null,
+     "locator": "CY 2027 PFS Rate Setting and Conversion Factor",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-final-rule",
+     "worldbuilding_use": "Medicare's 2027 statutory doctor pay update: +0.25% to +0.75%, far below cost growth."
+    }
+   ]
+  },
+  {
    "id": "insurer-filings",
    "name": "Health insurer SEC filings and guidance: UnitedHealth, Elevance, CVS/Aetna, Humana, Cigna (Q3 2026)",
    "publisher": "Companies, filed with the US SEC (10-Q/10-K/8-K)",
@@ -833,6 +692,280 @@
      "locator": "MD&A – Health Care Benefits segment",
      "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000108/cvs-20260930.htm",
      "worldbuilding_use": "Aetna is gone from the ACA exchanges in 2026: fewer carrier choices for buyers."
+    }
+   ]
+  },
+  {
+   "id": "cms-nhe-projections",
+   "name": "National Health Expenditure Projections 2025–2034",
+   "publisher": "CMS Office of the Actuary (published in Health Affairs + CMS tables)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Cost of care outruns incomes",
+    "Coverage erosion and churn",
+    "Ageing, Medicare strain and slow longevity gains",
+    "GLP-1s, new drugs and government price-setting"
+   ],
+   "what_it_forecasts": "Annual US health spending 2025–2034 by payer, service and sponsor, per-capita and per-enrollee amounts, and insurance enrollment/uninsured counts under current law (incl. OBBBA and expiry of enhanced ACA subsidies).",
+   "horizon": "annual to 2034",
+   "latest_edition": {
+    "title": "National Health Expenditure Projections 2025-2034 (Forecast Summary and Tables 1-18)",
+    "date": "2026-06-24",
+    "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/projected"
+   },
+   "update_cadence": "annual (June); Table 17 file re-issued 2026-09-03",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Accountable actuarial office with no money at stake: T3 passes because OACT re-benchmarks annually and publishes an 'Analysis of National Health Expenditure Projections Accuracy' (latest Nov 2020, errors through 2018; saved locally) – that record is now stale. T5 passes because the 2026–2031 path is dominated by cohorts already born (boomers enrolling through 2029) and law already enacted (OBBBA Medicaid rules, IRA, subsidy expiry). No stakes, no adversaries, and it is a current-law projection, so it is wrong by construction whenever Congress acts (a Health Affairs Forefront critique of 2026-06-23 says it leans on recent trends and strong assumptions)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "18 tables by payer, service category and sponsor with per-capita and per-enrollee dollars, enrollment by coverage type and a year-by-year narrative of drivers (OBBBA community-engagement rules, subsidy expiry, GLP-1 utilisation, Part D negotiation); national only – no places or named firms."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition; no AI treatment at all – the model is econometric/actuarial trend plus legislated effects. The only 'algorithm' hit in the methodology paper is iterative proportional fitting."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched forecast summary, results presentation, infographic, methodology paper, accuracy paper and 18 table renderings for: artificial intelligence, AI, machine learning, generative, automation, algorithm, ambient, data cent(er/re), Super Intelligence/SI. Only hit: 'algorithm' in a footnote defining iterative proportional fitting."
+   },
+   "tier": "top",
+   "why_top_or_not": "Lowest-scoring of the top five (9, tied with several considered sources) but chosen for coverage: the canonical current-law baseline for cost per person, coverage and Medicare enrollment each year to 2034.",
+   "primary_docs": [
+    {
+     "title": "NHE Projections 2025-2034 – Forecast Summary",
+     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
+     "local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
+     "status": "full",
+     "bytes": 104298,
+     "pages": 3,
+     "note": "Document is undated; PDF metadata creation date 2026-06-17; public release with the Health Affairs article on 2026-06-24 per press coverage."
+    },
+    {
+     "title": "NHE Projections – Results presentation (charts)",
+     "url": "https://www.cms.gov/files/document/national-health-expenditure-projections-results-presentation.pdf",
+     "local_path": "primary/health/cms-nhe-projections/nhe-projections-results-presentation.pdf",
+     "status": "full",
+     "bytes": 392238,
+     "pages": 8,
+     "note": ""
+    },
+    {
+     "title": "NHE Projections – Infographic",
+     "url": "https://www.cms.gov/files/document/nhe-projections-infographic.pdf",
+     "local_path": "primary/health/cms-nhe-projections/nhe-projections-infographic.pdf",
+     "status": "full",
+     "bytes": 487979,
+     "pages": 1,
+     "note": ""
+    },
+    {
+     "title": "NHE Projections Tables 1-18 (zip of 18 xlsx)",
+     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
+     "local_path": "primary/health/cms-nhe-projections/nhe-projections-tables.zip",
+     "status": "full",
+     "bytes": 259263,
+     "pages": 0,
+     "note": "Unzipped to tables/; each xlsx has a .xlsx.txt CSV rendering."
+    },
+    {
+     "title": "Table 03 National Health Expenditures by Sources of Funds (xlsx from zip)",
+     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
+     "local_path": "primary/health/cms-nhe-projections/tables/Table03 National Health Expenditures by Sources of Funds.xlsx",
+     "status": "full",
+     "bytes": 16715,
+     "pages": 0,
+     "note": "CSV rendering saved alongside as .xlsx.txt"
+    },
+    {
+     "title": "Table 17 Health Insurance Enrollment and Enrollment Growth Rates (xlsx from zip)",
+     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
+     "local_path": "primary/health/cms-nhe-projections/tables/Table17 Health Insurance Enrollment and Enrollment Growth Rates.xlsx",
+     "status": "full",
+     "bytes": 20178,
+     "pages": 0,
+     "note": "CSV rendering saved alongside as .xlsx.txt; file dated 2026-09-03 inside the zip"
+    },
+    {
+     "title": "Projections of National Health Expenditures: Methodology and Model Specification",
+     "url": "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/downloads/projectionsmethodology.pdf",
+     "local_path": "primary/health/cms-nhe-projections/projections-methodology.pdf",
+     "status": "full",
+     "bytes": 728032,
+     "pages": 32,
+     "note": ""
+    },
+    {
+     "title": "Analysis of National Health Expenditure Projections Accuracy (Nov 2020)",
+     "url": "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/downloads/projectionaccuracy.pdf",
+     "local_path": "primary/health/cms-nhe-projections/projection-accuracy.pdf",
+     "status": "full",
+     "bytes": 702299,
+     "pages": 16,
+     "note": "Track-record study; latest version is November 2020."
+    },
+    {
+     "title": "Health Affairs article: National Health Expenditure Projections, 2025–34",
+     "url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2026.00642",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "healthaffairs.org returned HTTP 403 to curl (bot protection); journal article is also subscription-gated. CMS summary and tables carry the same numbers."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "2026: National health spending growth is expected to slow to 6.3 percent in part due to moderating use. Direct purchase insurance enrollment is expected to decline by 3.7 million largely due to the expiration of enhanced marketplace subsidies.",
+     "doc_local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
+     "page": 1,
+     "locator": "Chronological Discussion of Key Trends",
+     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
+     "worldbuilding_use": "2026: 3.7 million people drop individual-market coverage after subsidies lapse."
+    },
+    {
+     "text": "2027-28: In this period, Medicaid spending growth is expected to slow further, to an average of 2.7 percent. Enrollment is expected to decline by 2.6 million over the two-year period due to OBBBA’s community engagement and other enrollment-related requirements.",
+     "doc_local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
+     "page": 2,
+     "locator": "Key Trends by Payer – Medicaid",
+     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
+     "worldbuilding_use": "2027–28: Medicaid rolls shrink 2.6 million as work requirements bite."
+    },
+    {
+     "text": "2029-34: Average annual growth over this period for Medicare spending is projected to be 7.3 percent. The baby boomer generation will enroll through 2029, and the oldest baby boomers will reach ages where health care consumption typically increases.",
+     "doc_local_path": "primary/health/cms-nhe-projections/nhe-projections-forecast-summary.pdf",
+     "page": 2,
+     "locator": "Key Trends by Payer – Medicare",
+     "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
+     "worldbuilding_use": "Last boomers turn 65 in 2029; Medicare spending compounds 7.3% a year."
+    },
+    {
+     "text": "2025,16486,1721 [...] 2026,17496,1826 [...] 2027,18295,1892 [...] 2028,19204,1974 [...] 2029,20141,2053 [...] 2030,21092,2139 [...] 2031,22095,2223",
+     "doc_local_path": "primary/health/cms-nhe-projections/tables/Table03 National Health Expenditures by Sources of Funds.xlsx",
+     "page": null,
+     "locator": "Table 3, block 'Per Capita Amount': columns = Year, Total NHE per capita ($), Out-of-Pocket per capita ($); projected rows (file dated 2026-06-16)",
+     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
+     "worldbuilding_use": "Health spending per American: $17,496 (2026) to $22,095 (2031); out-of-pocket $1,826 to $2,223."
+    },
+    {
+     "text": "Uninsured3,44.3,35.6,29.7,28.9,30,30.8,31.9,31.4,28.7,26.8,25.2,28,28.6,31.6,32.9,33.3,33.1,33.1,32.7,33,33.3,33.5",
+     "doc_local_path": "primary/health/cms-nhe-projections/tables/Table17 Health Insurance Enrollment and Enrollment Growth Rates.xlsx",
+     "page": null,
+     "locator": "Table 17, 'Enrollment (in millions)' block, row Uninsured, columns 2013…2034 (2025 onward projected; file dated 2026-09-03)",
+     "url": "https://www.cms.gov/files/zip/nhe-projections-tables.zip",
+     "worldbuilding_use": "Uninsured: 28.6m (2025), 31.6m (2026), 33.3m (2028), 32.7m (2031)."
+    }
+   ]
+  },
+  {
+   "id": "medicare-trustees-report",
+   "name": "2026 Medicare Trustees Report (+ CMS 2027 Parts A & B premium determination)",
+   "publisher": "Boards of Trustees, Federal HI and SMI Trust Funds / CMS Office of the Actuary",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Ageing, Medicare strain and slow longevity gains",
+    "Cost of care outruns incomes",
+    "GLP-1s, new drugs and government price-setting"
+   ],
+   "what_it_forecasts": "Medicare enrollment, spending by part, premiums/deductibles for the next decade and HI trust-fund depletion (2033), with the binding 2027 Part B premium set by CMS on 2026-11-17.",
+   "horizon": "annual to 2035 (short range), to 2100 (long range); premiums set one year ahead",
+   "latest_edition": {
+    "title": "2026 Annual Report of the Boards of Trustees of the Federal Hospital Insurance and Federal Supplementary Medical Insurance Trust Funds",
+    "date": "2026-06-09",
+    "url": "https://www.cms.gov/oact/tr/2026"
+   },
+   "update_cadence": "annual (report, usually spring/June); premiums announced each autumn",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Statutory projection by an accountable actuary, re-issued every year with changes from the prior report itemised, and checkable against outcomes (its June estimate of the 2027 Part B premium was $209.50; CMS set $209.40 on 2026-11-17). Beneficiary cohorts are already born (T5). No money at stake and no adversary; known bias: it must assume current-law payment updates the Trustees themselves doubt (an 'illustrative alternative' scenario is published), so long-range costs are understated, and the depletion date has moved by years between editions."
+   },
+   "richness": {
+    "score": 4,
+    "why": "271 pages of dated series by Part A/B/D with narrated drivers (GLP-1 and specialty-drug utilisation, skin-substitute payment change, IRA negotiation, GLP-1 Bridge), premium and deductible paths, depletion date and benefit-cut percentage; national, few named entities."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition; zero mentions of AI or automation – cost growth comes from fixed statutory updates and actuarial trend assumptions that cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched full 271-page report text and the CMS 2027 premium fact sheet for: artificial intelligence, AI, machine learning, generative, automation, algorithm, ambient, data cent(er/re), Super Intelligence/SI – none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Tied at 9 with the NHE projections and narrowly left out of the top five (NHE is broader and also carries Medicare enrollment); the only source that dates the ageing/Medicare squeeze – premiums, 2033 depletion, GLP-1 costs – so its quotes are kept.",
+   "primary_docs": [
+    {
+     "title": "2026 Medicare Trustees Report (full)",
+     "url": "https://www.cms.gov/oact/tr/2026",
+     "local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
+     "status": "full",
+     "bytes": 2844621,
+     "pages": 271,
+     "note": ""
+    },
+    {
+     "title": "CMS Fact Sheet: 2027 Medicare Parts A & B Premiums and Deductibles (2026-11-17)",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
+     "local_path": "primary/health/medicare-trustees-report/cms-fact-sheet-2027-medicare-parts-a-b-premiums-deductibles.html",
+     "status": "full",
+     "bytes": 69823,
+     "pages": 0,
+     "note": "Binding 2027 amounts; lets the Trustees' June estimate be checked."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The HI trust fund is projected to become depleted in the second quarter of 2033, which is one quarter earlier than projected in last year’s report. Upon reserve depletion in 2033, projected income is sufficient to pay 89 percent of scheduled benefits.",
+     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
+     "page": 14,
+     "locator": "II.B Overview – HI trust fund reserves and reserve depletion",
+     "url": "https://www.cms.gov/oact/tr/2026",
+     "worldbuilding_use": "Hospital insurance fund runs dry Q2 2033; automatic 11% payment cut looms over the scenario's end."
+    },
+    {
+     "text": "In 2026 the monthly Part B premium rate is $202.90, which is higher than the 2025 monthly premium of $185.00. The estimated monthly premium for 2027 is $209.50.",
+     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
+     "page": 93,
+     "locator": "III.C Part B financing",
+     "url": "https://www.cms.gov/oact/tr/2026",
+     "worldbuilding_use": "Retirees' Part B premium path: $185.00 (2025), $202.90 (2026), ~$209.50 (2027)."
+    },
+    {
+     "text": "The standard monthly premium for Medicare Part B enrollees will be $209.40 for 2027, an increase of $6.50 from $202.90 in 2026. The annual deductible for all Medicare Part B beneficiaries will be $292 in 2027, an increase of $9 from the annual deductible of $283 in 2026.",
+     "doc_local_path": "primary/health/medicare-trustees-report/cms-fact-sheet-2027-medicare-parts-a-b-premiums-deductibles.html",
+     "page": null,
+     "locator": "Medicare Part B Premium and Deductible (fact sheet dated Nov 17, 2026)",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
+     "worldbuilding_use": "Binding 2027 numbers a retiree sees on the Social Security statement."
+    },
+    {
+     "text": "A Medicare GLP-1 Bridge demonstration program will be implemented in the second half of 2026 to increase access of weight-loss drugs for beneficiaries. This program will operate outside of the Medicare Part D plan benefit coverage and will result in additional government contributions.",
+     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
+     "page": 115,
+     "locator": "III.D Part D financing",
+     "url": "https://www.cms.gov/oact/tr/2026",
+     "worldbuilding_use": "Medicare starts paying for weight-loss drugs from mid-2026, off the Part D books."
+    },
+    {
+     "text": "The Part D expenditures are significantly higher than those in last year’s report in all years. This is mainly due to increases in the utilization of GLP-1 and expensive specialty drugs in 2025.",
+     "doc_local_path": "primary/health/medicare-trustees-report/tr2026.pdf",
+     "page": 12,
+     "locator": "II.A Highlights – changes from last year's report",
+     "url": "https://www.cms.gov/oact/tr/2026",
+     "worldbuilding_use": "GLP-1 uptake is already forcing upward revisions to official drug-spending paths."
     }
    ]
   },
@@ -1202,6 +1335,316 @@
    "quotes": []
   },
   {
+   "id": "clinicaltrials-gov-phase3",
+   "name": "ClinicalTrials.gov registry – phase 3 primary-completion dates for 26 late-stage drugs (snapshot)",
+   "publisher": "US National Library of Medicine (sponsor-submitted, FDAAA 801)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "GLP-1s, new drugs and government price-setting"
+   ],
+   "what_it_forecasts": "Sponsor-registered start, primary-completion and completion dates, enrollment and status for 248 phase 3 trials of 26 named pipeline drugs (retatrutide, orforglipron, CagriSema, MariTide, survodutide, donanemab, lenacapavir, etc.).",
+   "horizon": "trial completion dates to 2034 (most 2027–2030)",
+   "latest_edition": {
+    "title": "ClinicalTrials.gov API v2 snapshot, query.intr by drug, Phase 3",
+    "date": "2026-11-18",
+    "url": "https://clinicaltrials.gov/api/v2/studies"
+   },
+   "update_cadence": "continuous (sponsors must update at least annually and within 30 days of key changes)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "Registration and updating are legal duties with civil penalties (T1), dates reach 2029–2032 (T4) and the trials are enrolled (T5). No adversary or scoring, and there is a known optimistic bias: primary-completion dates are 'anticipated' and slip far more often than they advance; a completion date is also not an approval. Docked one point for that bias."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Trial-level rows naming sponsor, drug, condition, enrollment and month-level dates (e.g. TRIUMPH-Outcomes, 10,000 patients, primary completion 2029-02); no narrative."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Snapshot dated 2026-11-18, continuously updated, but a registry of fixed protocols cannot express AI effects except through later date changes."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Structured registry fields only (dates, enrollment, status); no AI terms searched beyond confirming none of the 248 trial titles mention AI."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Excellent raw pipeline calendar, used here to cross-check company claims; duplicates the mechanism of pharma-filings and lacks narrative.",
+   "primary_docs": [
+    {
+     "title": "ClinicalTrials.gov phase 3 snapshot (CSV, 248 trials, 26 interventions)",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=retatrutide&filter.advanced=AREA[Phase]PHASE3",
+     "local_path": "primary/health/clinicaltrials-gov-phase3/ctgov-phase3-snapshot-2026-11-18.csv",
+     "status": "full",
+     "bytes": 65239,
+     "pages": 0,
+     "note": "Built from API v2 JSON on 2026-11-18; one query per intervention name."
+    },
+    {
+     "title": "ClinicalTrials.gov phase 3 snapshot (raw API JSON)",
+     "url": "https://clinicaltrials.gov/api/v2/studies",
+     "local_path": "primary/health/clinicaltrials-gov-phase3/ctgov-phase3-snapshot-2026-11-18.json",
+     "status": "full",
+     "bytes": 164836,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "fda-novel-approvals",
+   "name": "FDA CDER Novel Drug Approvals for 2026 (and PDUFA goal-date calendar)",
+   "publisher": "US Food and Drug Administration",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "GLP-1s, new drugs and government price-setting"
+   ],
+   "what_it_forecasts": "Record of novel drugs approved in 2026 (50 listed as of 2026-11-16, e.g. asundexian on 2026-11-09) – the realised output of the pipeline; PDUFA goal dates for pending applications are company-disclosed, not on this page.",
+   "horizon": "realised approvals; PDUFA goal dates reach ~10–12 months ahead",
+   "latest_edition": {
+    "title": "Novel Drug Approvals for 2026",
+    "date": "2026-11-16",
+    "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+   },
+   "update_cadence": "rolling (each approval)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "Approvals are legal acts and PDUFA goals are statutory user-fee commitments whose performance FDA reports to Congress each year (T1, T3). But the look-ahead is under a year (T4 fails) and applications now under review say little about 2029–2031 (T5 fails). No official forward calendar exists; third-party PDUFA calendars were not downloaded."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named drugs, active ingredients, approval dates and indications – directly liftable, but backward-looking."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 page; no AI treatment of approvals. (The page carries a banner that, per Executive Order 14434, federal agencies now say 'Super Intelligence (SI)' in place of 'AI'.)"
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Only AI-term hit is the site-wide Executive Order 14434 terminology banner; nothing about AI in drug review or approvals on this page."
+   },
+   "tier": "considered",
+   "why_top_or_not": "A scoreboard rather than a forecast; useful to calibrate launch claims in pharma filings.",
+   "primary_docs": [
+    {
+     "title": "FDA: Novel Drug Approvals for 2026 (content current as of 11/16/2026)",
+     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "local_path": "primary/health/fda-novel-approvals/novel-drug-approvals-2026.html",
+     "status": "full",
+     "bytes": 44741,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "evaluate-world-preview",
+   "name": "Evaluate World Preview 2026 (outlook to 2032)",
+   "publisher": "Evaluate (Norstella/Citeline)",
+   "kind": "expert report",
+   "covers_trends": [
+    "GLP-1s, new drugs and government price-setting"
+   ],
+   "what_it_forecasts": "Consensus-based worldwide prescription drug sales to 2032 (past $2 trillion), top products (tirzepatide over $70bn) and company rankings.",
+   "horizon": "annual to 2032",
+   "latest_edition": {
+    "title": "World Preview 2026",
+    "date": "2026-06-23",
+    "url": "https://www.evaluate.com/thought-leadership/world-preview-2026/"
+   },
+   "update_cadence": "annual (mid-year)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Aggregates many sell-side analysts' product forecasts (a crowd of informed parties, T2) but Evaluate itself has nothing at stake and publishes no systematic error record; consensus long-range drug forecasts are known to be badly over-optimistic for pipeline assets. Edition date from Evaluate's press release dateline (23 June 2026); the PDF itself is undated (data cut: Evaluate Omnium, May 2026)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named drugs and companies with 2032 sales, therapy-area splits, deal examples and patent-cliff totals; global, not located."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 edition; one qualitative sentence on AI drug design, explicitly 'too soon to see the downstream effects' – numbers not moved."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "AI-powered drug design tools are helping optimize molecules for clinical success, though it is too soon to see the downstream effects.",
+     "doc_local_path": "primary/health/evaluate-world-preview/world-preview-2026.pdf",
+     "page": 25
+    },
+    "search_note": "1 hit in 30 pages."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Famous and rich in named products, but it is unscored consensus with a house interest in excitement.",
+   "primary_docs": [
+    {
+     "title": "Evaluate World Preview 2026 (PDF)",
+     "url": "https://images.info.citeline.com/Web/Citeline/%7B096f7e06-3bfd-49e7-b18a-d0080ce13d97%7D_world-preview-2026.pdf",
+     "local_path": "primary/health/evaluate-world-preview/world-preview-2026.pdf",
+     "status": "full",
+     "bytes": 4466578,
+     "pages": 30,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "hospital-credit-outlooks",
+   "name": "Rating-agency not-for-profit hospital sector outlooks (Fitch, Moody's, S&P)",
+   "publisher": "Fitch Ratings; Moody's; S&P Global Ratings",
+   "kind": "expert report",
+   "covers_trends": [
+    "Cost of care outruns incomes",
+    "Coverage erosion and churn",
+    "AI and workforce strain in care delivery and administration"
+   ],
+   "what_it_forecasts": "Sector outlook (Fitch: neutral) and median operating margins for rated hospitals, with expected hit from OBBBA Medicaid changes 'beginning in 2027' (per press coverage).",
+   "horizon": "12–18 months, with commentary to 2028",
+   "latest_edition": {
+    "title": "Fitch 2026 not-for-profit hospital medians (Aug 2026) and 2026 sector outlook (Dec 2025); no 2027 outlook found as of 2026-11-18",
+    "date": "2026-08-04",
+    "url": "https://www.fitchratings.com/us-public-finance/healthcare"
+   },
+   "update_cadence": "annual outlook (Dec), annual medians (Aug)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "NRSROs are regulated and publish rating-transition and default studies (T3) and carry franchise/regulatory risk when wrong (T1, weakly); bond investors read them against market spreads. But sector outlooks are short-horizon opinions, and the documents are paywalled so claims here rest on trade-press summaries."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Median margins, days cash, named downgrades and policy drivers; detail sits behind the paywall."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 editions; press coverage of Fitch's outlook mentions hospitals investing in technology including AI as a qualitative factor – unverified against primary text."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": null,
+    "search_note": "No primary document obtained, so no verbatim passage."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Accountable forecaster of hospital closures and mergers, but paywalled and short-horizon.",
+   "primary_docs": [
+    {
+     "title": "Fitch Ratings U.S. not-for-profit hospitals outlook / medians",
+     "url": "https://www.fitchratings.com/us-public-finance/healthcare",
+     "local_path": "",
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Research requires login; landing page rendered empty without JavaScript. Moody's and S&P equivalents are subscriber-only."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "prediction-markets",
+   "name": "Prediction-market health contracts (Kalshi, Polymarket; Metaculus not accessible)",
+   "publisher": "Kalshi; Polymarket; Metaculus",
+   "kind": "market price",
+   "covers_trends": [
+    "GLP-1s, new drugs and government price-setting",
+    "Coverage erosion and churn",
+    "Ageing, Medicare strain and slow longevity gains"
+   ],
+   "what_it_forecasts": "Traded probabilities for dated health events: FDA approval of retatrutide (0.70 before 2028), CagriSema (~0.89 before 2027), ACA tax-credit extension (0.31–0.33 before 2028), a new pandemic (0.15–0.16 before 2028), a type 1 diabetes cure by 2033, measles counts.",
+   "horizon": "mostly to end-2027; a few contracts to 2029–2033",
+   "latest_edition": {
+    "title": "Kalshi and Polymarket open health markets, API snapshot",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Real money (T1), many independent traders (T2) and every contract is resolved and scored, with public calibration studies of both venues (T3). Horizon fit is weak: liquid contracts end within ~14 months and the multi-year ones are thin (e.g. about $11k volume on the 2033 diabetes-cure market), where long-shot bias and capital lock-up distort prices. No T5."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A probability per named event and date plus resolution rules; no reasoning. 212 Kalshi market rows and 54 Polymarket rows saved."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Live prices dated 2026-11-18 that can re-price on AI news, but no health contract isolates AI (searched event titles: none on AI diagnostics, AI drug approvals or clinician displacement)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched 20,667 open Kalshi event titles and Polymarket search results for health keywords; no health-specific AI contract found. Metaculus API returned 403 ('only available to authenticated users')."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Highest structural accuracy for a handful of dated binaries (drug approvals, subsidy extension, pandemic), but too sparse and short-dated to carry a scenario; best used as probability checks on the top sources.",
+   "primary_docs": [
+    {
+     "title": "Kalshi health-related open markets snapshot (CSV, 2026-11-18)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
+     "local_path": "primary/health/prediction-markets/kalshi-health-markets-snapshot-2026-11-18.csv",
+     "status": "full",
+     "bytes": 39748,
+     "pages": 0,
+     "note": "Filtered from all 20,667 open events by category 'Health' or health keywords; prices in dollars (0–1)."
+    },
+    {
+     "title": "Kalshi health-related open events snapshot (raw JSON incl. rules text)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
+     "local_path": "primary/health/prediction-markets/kalshi-health-events-snapshot-2026-11-18.json",
+     "status": "full",
+     "bytes": 557316,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Polymarket health-related markets snapshot (CSV, 2026-11-18)",
+     "url": "https://gamma-api.polymarket.com/public-search",
+     "local_path": "primary/health/prediction-markets/polymarket-health-search-snapshot-2026-11-18.csv",
+     "status": "partial",
+     "bytes": 14052,
+     "pages": 0,
+     "note": "Keyword-search results only (25 queries), filtered to health; not an exhaustive market list."
+    },
+    {
+     "title": "Metaculus health questions (life expectancy, pandemics, drug approvals)",
+     "url": "https://www.metaculus.com/api/posts/",
+     "local_path": "",
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "API returned HTTP 403: 'only available to authenticated users'; question pages also 403."
+    }
+   ],
+   "quotes": []
+  },
+  {
    "id": "pwc-behind-the-numbers",
    "name": "PwC Health Research Institute: Medical cost trend – Behind the Numbers 2027",
    "publisher": "PwC",
@@ -1251,58 +1694,6 @@
      "bytes": 0,
      "pages": 0,
      "note": "pwc.com returned HTTP 403 to curl for both the landing page and the PDF."
-    }
-   ],
-   "quotes": []
-  },
-  {
-   "id": "milliman-medical-index",
-   "name": "2026 Milliman Medical Index",
-   "publisher": "Milliman",
-   "kind": "expert report",
-   "covers_trends": [
-    "Cost of care outruns incomes"
-   ],
-   "what_it_forecasts": "Actuarial estimate of 2026 total healthcare cost for a typical employer-insured family of four ($37,824) and average person ($8,460, +7.9%), by service category.",
-   "horizon": "current year (2026) – a nowcast, not a multi-year forecast",
-   "latest_edition": {
-    "title": "2026 Milliman Medical Index",
-    "date": "2026-05-20",
-    "url": "https://www.milliman.com/en/insight/2026-milliman-medical-index"
-   },
-   "update_cadence": "annual (May)",
-   "accuracy": {
-    "score": 2,
-    "tests_passed": [
-     "T3"
-    ],
-    "why": "Produced by a consulting actuary from claims data with each prior year restated in the next edition (2025 family value restated to $35,281), so its error is visible; but there are no stakes and it only covers the current year."
-   },
-   "richness": {
-    "score": 3,
-    "why": "A few headline dollar figures split by inpatient, outpatient, professional, pharmacy and by employer/employee share, with short commentary."
-   },
-   "ai": {
-    "score": 2,
-    "why": "May 2026 edition; no AI treatment in the web summary."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "none",
-    "ai_passage": null,
-    "search_note": "Searched downloaded text for: artificial intelligence, AI, machine learning, generative, automation, algorithm, ambient, data cent(er/re), Super Intelligence/SI – none found. (web summary only; full PDF report not located.)"
-   },
-   "tier": "considered",
-   "why_top_or_not": "Good single number for a scene ('$37,824 for a family of four') but a nowcast with no forward horizon.",
-   "primary_docs": [
-    {
-     "title": "2026 Milliman Medical Index (web insight page)",
-     "url": "https://www.milliman.com/en/insight/2026-milliman-medical-index",
-     "local_path": "primary/health/milliman-medical-index/2026-milliman-medical-index.html",
-     "status": "partial",
-     "bytes": 539306,
-     "pages": 0,
-     "note": "HTML summary page; the full PDF report link was not found in the page source."
     }
    ],
    "quotes": []
@@ -1514,178 +1905,6 @@
    "quotes": []
   },
   {
-   "id": "clinicaltrials-gov-phase3",
-   "name": "ClinicalTrials.gov registry – phase 3 primary-completion dates for 26 late-stage drugs (snapshot)",
-   "publisher": "US National Library of Medicine (sponsor-submitted, FDAAA 801)",
-   "kind": "regulated filing",
-   "covers_trends": [
-    "GLP-1s, new drugs and government price-setting"
-   ],
-   "what_it_forecasts": "Sponsor-registered start, primary-completion and completion dates, enrollment and status for 248 phase 3 trials of 26 named pipeline drugs (retatrutide, orforglipron, CagriSema, MariTide, survodutide, donanemab, lenacapavir, etc.).",
-   "horizon": "trial completion dates to 2034 (most 2027–2030)",
-   "latest_edition": {
-    "title": "ClinicalTrials.gov API v2 snapshot, query.intr by drug, Phase 3",
-    "date": "2026-11-18",
-    "url": "https://clinicaltrials.gov/api/v2/studies"
-   },
-   "update_cadence": "continuous (sponsors must update at least annually and within 30 days of key changes)",
-   "accuracy": {
-    "score": 3,
-    "tests_passed": [
-     "T1",
-     "T4",
-     "T5"
-    ],
-    "why": "Registration and updating are legal duties with civil penalties (T1), dates reach 2029–2032 (T4) and the trials are enrolled (T5). No adversary or scoring, and there is a known optimistic bias: primary-completion dates are 'anticipated' and slip far more often than they advance; a completion date is also not an approval. Docked one point for that bias."
-   },
-   "richness": {
-    "score": 4,
-    "why": "Trial-level rows naming sponsor, drug, condition, enrollment and month-level dates (e.g. TRIUMPH-Outcomes, 10,000 patients, primary completion 2029-02); no narrative."
-   },
-   "ai": {
-    "score": 2,
-    "why": "Snapshot dated 2026-11-18, continuously updated, but a registry of fixed protocols cannot express AI effects except through later date changes."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "none",
-    "ai_passage": null,
-    "search_note": "Structured registry fields only (dates, enrollment, status); no AI terms searched beyond confirming none of the 248 trial titles mention AI."
-   },
-   "tier": "considered",
-   "why_top_or_not": "Excellent raw pipeline calendar, used here to cross-check company claims; duplicates the mechanism of pharma-filings and lacks narrative.",
-   "primary_docs": [
-    {
-     "title": "ClinicalTrials.gov phase 3 snapshot (CSV, 248 trials, 26 interventions)",
-     "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=retatrutide&filter.advanced=AREA[Phase]PHASE3",
-     "local_path": "primary/health/clinicaltrials-gov-phase3/ctgov-phase3-snapshot-2026-11-18.csv",
-     "status": "full",
-     "bytes": 65239,
-     "pages": 0,
-     "note": "Built from API v2 JSON on 2026-11-18; one query per intervention name."
-    },
-    {
-     "title": "ClinicalTrials.gov phase 3 snapshot (raw API JSON)",
-     "url": "https://clinicaltrials.gov/api/v2/studies",
-     "local_path": "primary/health/clinicaltrials-gov-phase3/ctgov-phase3-snapshot-2026-11-18.json",
-     "status": "full",
-     "bytes": 164836,
-     "pages": 0,
-     "note": ""
-    }
-   ],
-   "quotes": []
-  },
-  {
-   "id": "fda-novel-approvals",
-   "name": "FDA CDER Novel Drug Approvals for 2026 (and PDUFA goal-date calendar)",
-   "publisher": "US Food and Drug Administration",
-   "kind": "binding commitment",
-   "covers_trends": [
-    "GLP-1s, new drugs and government price-setting"
-   ],
-   "what_it_forecasts": "Record of novel drugs approved in 2026 (50 listed as of 2026-11-16, e.g. asundexian on 2026-11-09) – the realised output of the pipeline; PDUFA goal dates for pending applications are company-disclosed, not on this page.",
-   "horizon": "realised approvals; PDUFA goal dates reach ~10–12 months ahead",
-   "latest_edition": {
-    "title": "Novel Drug Approvals for 2026",
-    "date": "2026-11-16",
-    "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
-   },
-   "update_cadence": "rolling (each approval)",
-   "accuracy": {
-    "score": 3,
-    "tests_passed": [
-     "T1",
-     "T3"
-    ],
-    "why": "Approvals are legal acts and PDUFA goals are statutory user-fee commitments whose performance FDA reports to Congress each year (T1, T3). But the look-ahead is under a year (T4 fails) and applications now under review say little about 2029–2031 (T5 fails). No official forward calendar exists; third-party PDUFA calendars were not downloaded."
-   },
-   "richness": {
-    "score": 4,
-    "why": "Named drugs, active ingredients, approval dates and indications – directly liftable, but backward-looking."
-   },
-   "ai": {
-    "score": 2,
-    "why": "2026 page; no AI treatment of approvals. (The page carries a banner that, per Executive Order 14434, federal agencies now say 'Super Intelligence (SI)' in place of 'AI'.)"
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "none",
-    "ai_passage": null,
-    "search_note": "Only AI-term hit is the site-wide Executive Order 14434 terminology banner; nothing about AI in drug review or approvals on this page."
-   },
-   "tier": "considered",
-   "why_top_or_not": "A scoreboard rather than a forecast; useful to calibrate launch claims in pharma filings.",
-   "primary_docs": [
-    {
-     "title": "FDA: Novel Drug Approvals for 2026 (content current as of 11/16/2026)",
-     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
-     "local_path": "primary/health/fda-novel-approvals/novel-drug-approvals-2026.html",
-     "status": "full",
-     "bytes": 44741,
-     "pages": 0,
-     "note": ""
-    }
-   ],
-   "quotes": []
-  },
-  {
-   "id": "evaluate-world-preview",
-   "name": "Evaluate World Preview 2026 (outlook to 2032)",
-   "publisher": "Evaluate (Norstella/Citeline)",
-   "kind": "expert report",
-   "covers_trends": [
-    "GLP-1s, new drugs and government price-setting"
-   ],
-   "what_it_forecasts": "Consensus-based worldwide prescription drug sales to 2032 (past $2 trillion), top products (tirzepatide over $70bn) and company rankings.",
-   "horizon": "annual to 2032",
-   "latest_edition": {
-    "title": "World Preview 2026",
-    "date": "2026-06-23",
-    "url": "https://www.evaluate.com/thought-leadership/world-preview-2026/"
-   },
-   "update_cadence": "annual (mid-year)",
-   "accuracy": {
-    "score": 2,
-    "tests_passed": [
-     "T2"
-    ],
-    "why": "Aggregates many sell-side analysts' product forecasts (a crowd of informed parties, T2) but Evaluate itself has nothing at stake and publishes no systematic error record; consensus long-range drug forecasts are known to be badly over-optimistic for pipeline assets. Edition date from Evaluate's press release dateline (23 June 2026); the PDF itself is undated (data cut: Evaluate Omnium, May 2026)."
-   },
-   "richness": {
-    "score": 4,
-    "why": "Named drugs and companies with 2032 sales, therapy-area splits, deal examples and patent-cliff totals; global, not located."
-   },
-   "ai": {
-    "score": 3,
-    "why": "2026 edition; one qualitative sentence on AI drug design, explicitly 'too soon to see the downstream effects' – numbers not moved."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "qualitative",
-    "ai_passage": {
-     "text": "AI-powered drug design tools are helping optimize molecules for clinical success, though it is too soon to see the downstream effects.",
-     "doc_local_path": "primary/health/evaluate-world-preview/world-preview-2026.pdf",
-     "page": 25
-    },
-    "search_note": "1 hit in 30 pages."
-   },
-   "tier": "considered",
-   "why_top_or_not": "Famous and rich in named products, but it is unscored consensus with a house interest in excitement.",
-   "primary_docs": [
-    {
-     "title": "Evaluate World Preview 2026 (PDF)",
-     "url": "https://images.info.citeline.com/Web/Citeline/%7B096f7e06-3bfd-49e7-b18a-d0080ce13d97%7D_world-preview-2026.pdf",
-     "local_path": "primary/health/evaluate-world-preview/world-preview-2026.pdf",
-     "status": "full",
-     "bytes": 4466578,
-     "pages": 30,
-     "note": ""
-    }
-   ],
-   "quotes": []
-  },
-  {
    "id": "iqvia-global-medicine-use",
    "name": "IQVIA Institute: Global Medicine Use Trends 2026 (outlook to 2030)",
    "publisher": "IQVIA Institute for Human Data Science",
@@ -1748,94 +1967,53 @@
    "quotes": []
   },
   {
-   "id": "fda-ai-devices",
-   "name": "AI in healthcare with regulatory commitments: FDA AI-Enabled Medical Device List (+ CMS CY2027 Physician Fee Schedule final rule fact sheet)",
-   "publisher": "US Food and Drug Administration; CMS",
-   "kind": "binding commitment",
+   "id": "milliman-medical-index",
+   "name": "2026 Milliman Medical Index",
+   "publisher": "Milliman",
+   "kind": "expert report",
    "covers_trends": [
-    "AI and workforce strain in care delivery and administration"
+    "Cost of care outruns incomes"
    ],
-   "what_it_forecasts": "Not a forecast: the cumulative register of AI-enabled devices legally authorised for US marketing (1,614 rows; decisions through 2026-06-29; 335 dated 2025 and 181 so far in 2026), by company, panel and date; plus what Medicare will pay physicians in 2027.",
-   "horizon": "realised authorisations; payment rules for CY2027",
+   "what_it_forecasts": "Actuarial estimate of 2026 total healthcare cost for a typical employer-insured family of four ($37,824) and average person ($8,460, +7.9%), by service category.",
+   "horizon": "current year (2026) – a nowcast, not a multi-year forecast",
    "latest_edition": {
-    "title": "Artificial Intelligence-Enabled Medical Devices (list; content current as of 09/04/2026)",
-    "date": "2026-09-04",
-    "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
+    "title": "2026 Milliman Medical Index",
+    "date": "2026-05-20",
+    "url": "https://www.milliman.com/en/insight/2026-milliman-medical-index"
    },
-   "update_cadence": "periodic (roughly twice a year)",
+   "update_cadence": "annual (May)",
    "accuracy": {
-    "score": 3,
+    "score": 2,
     "tests_passed": [
-     "T1",
-     "T5"
+     "T3"
     ],
-    "why": "Each row is a legal marketing authorisation (T1) and the list is the deployable pipeline of clinical AI (T5). It measures supply, not use: authorisation does not mean hospitals bought it or Medicare pays for it, FDA says the list 'is not a comprehensive resource', and it excludes unregulated tools (ambient scribes, coding/billing AI, payer algorithms) that matter most for daily experience."
+    "why": "Produced by a consulting actuary from claims data with each prior year restated in the next edition (2025 family value restated to $35,281), so its error is visible; but there are no stakes and it only covers the current year."
    },
    "richness": {
-    "score": 4,
-    "why": "1,614 named devices with company, medical specialty panel, product code and decision date (1,230 of them radiology); no prices, adoption or outcomes."
+    "score": 3,
+    "why": "A few headline dollar figures split by inpatient, outpatient, professional, pharmacy and by employer/employee share, with short commentary."
    },
    "ai": {
-    "score": 5,
-    "why": "2026 edition and AI is the subject itself; FDA says it will start tagging devices that incorporate foundation models/LLMs. The CMS CY2027 PFS fact sheet, by contrast, contains no AI terms."
+    "score": 2,
+    "why": "May 2026 edition; no AI treatment in the web summary."
    },
    "ai_evidence": {
     "updated_2026": true,
-    "ai_treatment": "quantified driver",
-    "ai_passage": {
-     "text": "To support transparency in the use of modern AI technologies, the FDA will explore methods to identify and tag medical devices that incorporate foundation models encompassing a wide range of AI systems, from large language models (LLMs) to multimodal architectures.",
-     "doc_local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
-     "page": null
-    },
-    "search_note": "FDA page also carries the banner: federal agencies now use 'Super Intelligence (SI)' in place of 'AI' per Executive Order 14434. CMS CY2027 PFS fact sheet: 0 hits for AI/SI/algorithm/software."
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched downloaded text for: artificial intelligence, AI, machine learning, generative, automation, algorithm, ambient, data cent(er/re), Super Intelligence/SI – none found. (web summary only; full PDF report not located.)"
    },
    "tier": "considered",
-   "why_top_or_not": "The one hard count of clinical AI, but a lagging register of supply rather than a forward view of adoption or payment.",
+   "why_top_or_not": "Good single number for a scene ('$37,824 for a family of four') but a nowcast with no forward horizon.",
    "primary_docs": [
     {
-     "title": "FDA: Artificial Intelligence-Enabled Medical Devices (web page)",
-     "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
-     "local_path": "primary/health/fda-ai-devices/ai-enabled-medical-devices.html",
-     "status": "full",
-     "bytes": 416722,
+     "title": "2026 Milliman Medical Index (web insight page)",
+     "url": "https://www.milliman.com/en/insight/2026-milliman-medical-index",
+     "local_path": "primary/health/milliman-medical-index/2026-milliman-medical-index.html",
+     "status": "partial",
+     "bytes": 539306,
      "pages": 0,
-     "note": ""
-    },
-    {
-     "title": "FDA AI-Enabled Medical Device List (Excel)",
-     "url": "https://www.fda.gov/media/178540/download?attachment",
-     "local_path": "primary/health/fda-ai-devices/ai-enabled-devices-list.xlsx",
-     "status": "full",
-     "bytes": 133134,
-     "pages": 0,
-     "note": "CSV rendering saved as .xlsx.txt"
-    },
-    {
-     "title": "FDA AI-Enabled Medical Device List (CSV)",
-     "url": "https://www.fda.gov/media/178541/download?attachment",
-     "local_path": "primary/health/fda-ai-devices/ai-enabled-devices-list.csv",
-     "status": "full",
-     "bytes": 141468,
-     "pages": 0,
-     "note": ""
-    },
-    {
-     "title": "CMS Fact Sheet: CY2027 Medicare Physician Fee Schedule Final Rule",
-     "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-final-rule",
-     "local_path": "primary/health/fda-ai-devices/cms-cy2027-pfs-final-rule-fact-sheet.html",
-     "status": "full",
-     "bytes": 77255,
-     "pages": 0,
-     "note": "Fact sheet only; the Federal Register rule text (where 'Software as a Medical Service' policy is reportedly finalised) was not downloaded."
-    },
-    {
-     "title": "Epic/ambient-scribe adoption data; hospital bond (EMMA) disclosures",
-     "url": "",
-     "local_path": "",
-     "status": "failed",
-     "bytes": 0,
-     "pages": 0,
-     "note": "Not attempted: no single primary document; vendor adoption claims are marketing."
+     "note": "HTML summary page; the full PDF report link was not found in the page source."
     }
    ],
    "quotes": []
@@ -1907,144 +2085,6 @@
      "bytes": 0,
      "pages": 0,
      "note": "bhw.hrsa.gov returned HTTP 403 to curl."
-    }
-   ],
-   "quotes": []
-  },
-  {
-   "id": "hospital-credit-outlooks",
-   "name": "Rating-agency not-for-profit hospital sector outlooks (Fitch, Moody's, S&P)",
-   "publisher": "Fitch Ratings; Moody's; S&P Global Ratings",
-   "kind": "expert report",
-   "covers_trends": [
-    "Cost of care outruns incomes",
-    "Coverage erosion and churn",
-    "AI and workforce strain in care delivery and administration"
-   ],
-   "what_it_forecasts": "Sector outlook (Fitch: neutral) and median operating margins for rated hospitals, with expected hit from OBBBA Medicaid changes 'beginning in 2027' (per press coverage).",
-   "horizon": "12–18 months, with commentary to 2028",
-   "latest_edition": {
-    "title": "Fitch 2026 not-for-profit hospital medians (Aug 2026) and 2026 sector outlook (Dec 2025); no 2027 outlook found as of 2026-11-18",
-    "date": "2026-08-04",
-    "url": "https://www.fitchratings.com/us-public-finance/healthcare"
-   },
-   "update_cadence": "annual outlook (Dec), annual medians (Aug)",
-   "accuracy": {
-    "score": 3,
-    "tests_passed": [
-     "T1",
-     "T3"
-    ],
-    "why": "NRSROs are regulated and publish rating-transition and default studies (T3) and carry franchise/regulatory risk when wrong (T1, weakly); bond investors read them against market spreads. But sector outlooks are short-horizon opinions, and the documents are paywalled so claims here rest on trade-press summaries."
-   },
-   "richness": {
-    "score": 3,
-    "why": "Median margins, days cash, named downgrades and policy drivers; detail sits behind the paywall."
-   },
-   "ai": {
-    "score": 3,
-    "why": "2026 editions; press coverage of Fitch's outlook mentions hospitals investing in technology including AI as a qualitative factor – unverified against primary text."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "qualitative",
-    "ai_passage": null,
-    "search_note": "No primary document obtained, so no verbatim passage."
-   },
-   "tier": "considered",
-   "why_top_or_not": "Accountable forecaster of hospital closures and mergers, but paywalled and short-horizon.",
-   "primary_docs": [
-    {
-     "title": "Fitch Ratings U.S. not-for-profit hospitals outlook / medians",
-     "url": "https://www.fitchratings.com/us-public-finance/healthcare",
-     "local_path": "",
-     "status": "paywalled",
-     "bytes": 0,
-     "pages": 0,
-     "note": "Research requires login; landing page rendered empty without JavaScript. Moody's and S&P equivalents are subscriber-only."
-    }
-   ],
-   "quotes": []
-  },
-  {
-   "id": "prediction-markets",
-   "name": "Prediction-market health contracts (Kalshi, Polymarket; Metaculus not accessible)",
-   "publisher": "Kalshi; Polymarket; Metaculus",
-   "kind": "market price",
-   "covers_trends": [
-    "GLP-1s, new drugs and government price-setting",
-    "Coverage erosion and churn",
-    "Ageing, Medicare strain and slow longevity gains"
-   ],
-   "what_it_forecasts": "Traded probabilities for dated health events: FDA approval of retatrutide (0.70 before 2028), CagriSema (~0.89 before 2027), ACA tax-credit extension (0.31–0.33 before 2028), a new pandemic (0.15–0.16 before 2028), a type 1 diabetes cure by 2033, measles counts.",
-   "horizon": "mostly to end-2027; a few contracts to 2029–2033",
-   "latest_edition": {
-    "title": "Kalshi and Polymarket open health markets, API snapshot",
-    "date": "2026-11-18",
-    "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true"
-   },
-   "update_cadence": "continuous",
-   "accuracy": {
-    "score": 4,
-    "tests_passed": [
-     "T1",
-     "T2",
-     "T3"
-    ],
-    "why": "Real money (T1), many independent traders (T2) and every contract is resolved and scored, with public calibration studies of both venues (T3). Horizon fit is weak: liquid contracts end within ~14 months and the multi-year ones are thin (e.g. about $11k volume on the 2033 diabetes-cure market), where long-shot bias and capital lock-up distort prices. No T5."
-   },
-   "richness": {
-    "score": 2,
-    "why": "A probability per named event and date plus resolution rules; no reasoning. 212 Kalshi market rows and 54 Polymarket rows saved."
-   },
-   "ai": {
-    "score": 3,
-    "why": "Live prices dated 2026-11-18 that can re-price on AI news, but no health contract isolates AI (searched event titles: none on AI diagnostics, AI drug approvals or clinician displacement)."
-   },
-   "ai_evidence": {
-    "updated_2026": true,
-    "ai_treatment": "none",
-    "ai_passage": null,
-    "search_note": "Searched 20,667 open Kalshi event titles and Polymarket search results for health keywords; no health-specific AI contract found. Metaculus API returned 403 ('only available to authenticated users')."
-   },
-   "tier": "considered",
-   "why_top_or_not": "Highest structural accuracy for a handful of dated binaries (drug approvals, subsidy extension, pandemic), but too sparse and short-dated to carry a scenario; best used as probability checks on the top sources.",
-   "primary_docs": [
-    {
-     "title": "Kalshi health-related open markets snapshot (CSV, 2026-11-18)",
-     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
-     "local_path": "primary/health/prediction-markets/kalshi-health-markets-snapshot-2026-11-18.csv",
-     "status": "full",
-     "bytes": 39748,
-     "pages": 0,
-     "note": "Filtered from all 20,667 open events by category 'Health' or health keywords; prices in dollars (0–1)."
-    },
-    {
-     "title": "Kalshi health-related open events snapshot (raw JSON incl. rules text)",
-     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
-     "local_path": "primary/health/prediction-markets/kalshi-health-events-snapshot-2026-11-18.json",
-     "status": "full",
-     "bytes": 557316,
-     "pages": 0,
-     "note": ""
-    },
-    {
-     "title": "Polymarket health-related markets snapshot (CSV, 2026-11-18)",
-     "url": "https://gamma-api.polymarket.com/public-search",
-     "local_path": "primary/health/prediction-markets/polymarket-health-search-snapshot-2026-11-18.csv",
-     "status": "partial",
-     "bytes": 14052,
-     "pages": 0,
-     "note": "Keyword-search results only (25 queries), filtered to health; not an exhaustive market list."
-    },
-    {
-     "title": "Metaculus health questions (life expectancy, pandemics, drug approvals)",
-     "url": "https://www.metaculus.com/api/posts/",
-     "local_path": "",
-     "status": "failed",
-     "bytes": 0,
-     "pages": 0,
-     "note": "API returned HTTP 403: 'only available to authenticated users'; question pages also 403."
     }
    ],
    "quotes": []

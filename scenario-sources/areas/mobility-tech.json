@@ -164,10 +164,9 @@
     "score": 3,
     "tests_passed": [
      "T1",
-     "T2",
-     "T4"
+     "T2"
     ],
-    "why": "Securities liability is live (the 10-Q itself describes a class action over Autopilot/FSD/Robotaxi statements) (T1); the stock is among the most shorted and litigated (T2); the 2025 CEO award ties ~424m shares to product milestones over 10 years (T4). But there is no published error record and a long, well-documented pattern of missed autonomy/product timelines, so the 3-test score is cut to 3 for directional optimism."
+    "why": "Securities liability is live (the 10-Q itself describes a class action over Autopilot/FSD/Robotaxi statements) (T1); the stock is among the most shorted and litigated (T2); the 2025 CEO award ties ~424m shares to product milestones over up to 10 years, but that is an incentive, not a binding forecast, so T4 is only partial. No published error record (T3), nothing pipeline-locked for robotaxis/humanoids (T5), and a long pattern of missed autonomy timelines: 3."
    },
    "richness": {
     "score": 4,
@@ -294,10 +293,9 @@
     "score": 3,
     "tests_passed": [
      "T1",
-     "T2",
-     "T3"
+     "T2"
     ],
-    "why": "Traders lose money when wrong (T1), prices are set by many independent participants (T2) and every contract is settled and scoreable (T3). But almost all tenors are far shorter than 5 years (T4 fails), nothing is pipeline-locked (T5 fails), and the long-dated contracts are thin (e.g. EV-share-2030 open interest in the low thousands of contracts; several 2027 Waymo-city markets have zero volume and 15-cent spreads), so the rubric anchor \"real money but much shorter than 5 years\" applies."
+    "why": "Traders lose money when wrong (T1) and prices are set by many independent participants (T2). Contracts are settled and scoreable, but I found no published multi-year calibration record for these thin technology contracts, so T3 is only partial. Almost all tenors are far shorter than 5 years (T4 fails), nothing is pipeline-locked (T5 fails), and the long-dated contracts are thin (e.g. EV-share-2030 open interest in the low thousands of contracts; several 2027 Waymo-city markets have zero volume and 15-cent spreads), so the rubric anchor \"real money but much shorter than 5 years\" applies."
    },
    "richness": {
     "score": 3,
@@ -432,7 +430,7 @@
      "T4",
      "T5"
     ],
-    "why": "No money or licence at stake and no published error record (T1-T3 fail), but the scenarios are built on legislated policies and announced plant/charger pipelines that reach 2030-35 (T4, T5): e.g. it marks US cell output at only ~40% of committed nameplate capacity. Known bias: past IEA stated-policy outlooks under-forecast EV uptake in China and over-relied on announced Western capacity."
+    "why": "No money or licence at stake and no published error record (T1-T3 fail), but the scenarios are built on legislated policies and announced plant/charger pipelines that reach 2030-35 (T4, T5): e.g. it marks US cell output at only ~40% of committed nameplate capacity. No track-record study was located; the 2026 edition itself documents large downward revisions for the United States after the policy reversal, showing how sensitive the scenarios are to policy assumptions."
    },
    "richness": {
     "score": 5,
@@ -646,10 +644,9 @@
     "score": 3,
     "tests_passed": [
      "T1",
-     "T2",
-     "T3"
+     "T2"
     ],
-    "why": "Reports are filed with a signed verification and the operating permit is at stake (T1); CPUC staff, cities and researchers audit the public files (T2); a continuous quarterly record exists since 2021 (T3). But it is measurement, not forecast: no horizon (T4 fails) and only the permit pipeline hints at the future (T5 partial). Scored 3 rather than 4 because nothing in it binds beyond the current quarter."
+    "why": "Reports are filed with a signed verification and the operating permit is at stake (T1); CPUC staff, cities and researchers audit the public files (T2). A multi-quarter public record exists, but there is no forecast in it to score (T3 not applicable), no horizon (T4 fails) and only the permit pipeline hints at the future (T5 partial)."
    },
    "richness": {
     "score": 4,
@@ -1145,7 +1142,7 @@
     "tests_passed": [
      "T5"
     ],
-    "why": "Subscription research with reputational stakes only; revisions are visible year to year (US 2030 share cut to 17% from 27%; robotaxi outlook \"significantly reduced\") but no formal error record is published. Near-term numbers lean on model pipelines and policy already enacted (T5)."
+    "why": "Subscription research with reputational stakes only; revisions are visible year to year (US passenger EV adoption by 2040 cut to 57% from 71%; robotaxi outlook \"significantly reduced\") but no formal error record is published. Near-term numbers lean on model pipelines and policy already enacted (T5)."
    },
    "richness": {
     "score": 4,
@@ -1206,10 +1203,10 @@
    "covers_trends": [
     "ev-transition"
    ],
-   "what_it_forecasts": "Legally binding fleet CO2 targets for new cars: 2030 (-55%) and 2035, where the Commission proposes replacing the 100% cut with 90% plus offsets; Parliament committee backed 87.5% on 4 Nov 2026 and the law is not yet adopted.",
+   "what_it_forecasts": "Legally binding fleet CO2 targets for new cars: 2030 (-55%) and 2035, where the Commission proposes replacing the 100% cut with 90% plus offsets; press reports say a Parliament committee backed 87.5% on 4 Nov 2026; the law is not yet adopted.",
    "horizon": "2030 and 2035 compliance years",
    "latest_edition": {
-    "title": "Commission proposal to revise the CO2 standards (Automotive Package, 16 Dec 2025) - Commission summary page",
+    "title": "Commission proposal to revise the CO2 standards (Automotive Package, December 2025; day per press coverage) - Commission summary page",
     "date": "2025-12-16",
     "url": "https://climate.ec.europa.eu/eu-action/transport-decarbonisation/road-transport/cars-and-vans_en"
    },
@@ -1395,7 +1392,7 @@
      "T1",
      "T2"
     ],
-    "why": "Nominally passes stakes and adversaries (securities liability; both are heavily shorted), but the directional bias is extreme and measurable: commercial-launch dates have slipped every year since the 2021 SPAC decks (2024, then 2025, now 2026) and FAA type certification is outside management control. Graded down to 2."
+    "why": "Nominally passes stakes and adversaries (securities liability; both are heavily shorted), but the directional bias is extreme and measurable: commercial-launch targets set at the 2021 SPAC listings (2024) have slipped to 2025 and now 2026 and FAA type certification is outside management control. Graded down to 2."
    },
    "richness": {
     "score": 4,
@@ -1542,7 +1539,7 @@
     "robots-drones",
     "robotaxis"
    ],
-   "what_it_forecasts": "Capital committed to the Leo (Kuiper) constellation (launch-service deposits of $7.5bn at 30 Sept 2026), the pending Globalstar acquisition (expected to close in 2027) and aggregate technology/infrastructure spend; warehouse-robot and drone plans are not quantified in filings.",
+   "what_it_forecasts": "Capital committed to the Leo (Kuiper) constellation (prepaid and other current assets, which include launch-service deposits, of $7.5bn at 30 Sept 2026), the pending Globalstar acquisition (expected to close in 2027) and aggregate technology/infrastructure spend; warehouse-robot and drone plans are not quantified in filings.",
    "horizon": "quarterly; commitments 1-3 years",
    "latest_edition": {
     "title": "Amazon Form 10-Q for the quarter ended September 30, 2026",
@@ -1560,7 +1557,7 @@
    },
    "richness": {
     "score": 2,
-    "why": "A handful of relevant numbers (launch deposits, Globalstar timing); robots, drones and Zoox appear only as generic expense descriptions."
+    "why": "A handful of relevant numbers (prepaid assets including launch deposits, Globalstar timing); robots, drones and Zoox appear only as generic expense descriptions."
    },
    "ai": {
     "score": 3,
@@ -1946,7 +1943,7 @@
     "tests_passed": [
      "T3"
     ],
-    "why": "Tracker actuals are published quarterly and forecasts are visibly revised (a -0.9% 2026 call in Dec 2025 became -13.9% by May 2026), giving informal feedback (T3, weakly); vendor-funded, no money at stake, no formal error record."
+    "why": "Tracker actuals are published quarterly and forecasts are visibly revised (per press coverage, a -0.9% 2026 call in Dec 2025 became -13.9% by May 2026), giving informal feedback (T3, weakly); vendor-funded, no money at stake, no formal error record."
    },
    "richness": {
     "score": 3,
@@ -2113,8 +2110,8 @@
    "what_it_forecasts": "Dates on which 6G becomes buildable: Release 20 studies now, Release 21 normative work, ITU IMT-2030 technology proposals due early 2029 and full specifications by mid-2030; Rel-20 5G-Advanced stage-3 freeze targeted March 2027.",
    "horizon": "to 2030",
    "latest_edition": {
-    "title": "3GPP Release 20 page (citing the March 2026 Work Plan)",
-    "date": "2026-03-31",
+    "title": "3GPP Release 20 page as captured 2026-11-18 (cites the March 2026 Work Plan, SP-260360)",
+    "date": "2026-11-18",
     "url": "https://www.3gpp.org/specifications-technologies/releases/release-20"
    },
    "update_cadence": "rolling work plan (quarterly plenaries)",
@@ -2125,7 +2122,7 @@
      "T4",
      "T5"
     ],
-    "why": "A consensus schedule set by rival vendors and operators who all must build to it (T2), reaching 2030 (T4), with study items already under way (T5). No money is lost if a freeze slips and 3GPP releases have historically slipped by quarters, so 3 not 4. Page date approximated from the March 2026 work plan it cites."
+    "why": "A consensus schedule set by rival vendors and operators who all must build to it (T2), reaching 2030 (T4), with study items already under way (T5). No money is lost if a freeze slips and 3GPP releases have historically slipped by quarters, so 3 not 4."
    },
    "richness": {
     "score": 2,
@@ -2180,7 +2177,7 @@
      "T4",
      "T5"
     ],
-    "why": "Licence authority and a surety bond are forfeit on a missed final milestone (T1); SpaceX formally opposed the request (T2); the binding date is 2029 (T4); launches are contracted and deposits paid (T5; Amazon 10-Q shows $7.5bn of launch deposits). Bias: the regulator has just shown it will waive interim milestones, and Amazon itself projected only about 700 satellites by July 2026, so the deadline is softer than it looks: 4."
+    "why": "Licence authority and a surety bond are forfeit on a missed final milestone (T1); SpaceX filed comments, reply comments and an ex parte in the proceeding (T2); the binding date is 2029 (T4); launches are contracted and deposits paid (T5; Amazon 10-Q shows $7.5bn of prepaid and other current assets that include launch deposits). Bias: the regulator has just shown it will waive interim milestones, and Amazon itself projected only about 700 satellites by July 2026, so the deadline is softer than it looks: 4."
    },
    "richness": {
     "score": 3,
@@ -2355,8 +2352,8 @@
    "what_it_forecasts": "Community probability forecasts on dated technology milestones, some reaching 2030 and beyond.",
    "horizon": "months to 10+ years",
    "latest_edition": {
-    "title": "not retrieved",
-    "date": "2026-11-18",
+    "title": "not retrieved (no edition date)",
+    "date": null,
     "url": "https://www.metaculus.com/questions/"
    },
    "update_cadence": "continuous",
@@ -2409,8 +2406,8 @@
    "what_it_forecasts": "Qualitative placement of technologies (humanoid robots, AI agents, autonomous vehicles) on a hype curve with \"years to plateau\" bands.",
    "horizon": "2 to 10+ year bands",
    "latest_edition": {
-    "title": "not retrieved (2026 edition presumed published August 2026; not confirmed)",
-    "date": "2026-08-01",
+    "title": "not retrieved (2026 edition presumed published mid-2026; date not confirmed)",
+    "date": null,
     "url": "https://www.gartner.com/en/newsroom"
    },
    "update_cadence": "annual",
@@ -2459,8 +2456,8 @@
    "what_it_forecasts": "Self-reported active-user counts and usage mixes for consumer AI assistants; not forecasts.",
    "horizon": "point-in-time",
    "latest_edition": {
-    "title": "not retrieved",
-    "date": "2026-11-18",
+    "title": "not retrieved (no edition date)",
+    "date": null,
     "url": "https://openai.com/index/how-people-are-using-chatgpt/"
    },
    "update_cadence": "irregular",

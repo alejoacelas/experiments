@@ -1061,7 +1061,7 @@
     "search_note": "searched prospectus supplements for: use of proceeds, artificial intelligence, AI infrastructure, data center; use of proceeds is stated only as general corporate purposes"
    },
    "tier": "considered",
-   "why_top_or_not": "A genuine market price with long tenor, and the first runner-up; not top because it prices issuer credit rather than the AI outcome and offers few liftable specifics beyond coupons.",
+   "why_top_or_not": "A genuine market price with long tenor and real money, and a vivid stress signal (Oracle paying 8.65% to 2046); not top because it prices issuer credit rather than the AI outcome and offers few liftable specifics beyond coupons.",
    "primary_docs": [
     {
      "title": "Meta 8-K: $15bn USD senior notes (5.850% due 2031 to 7.500% due 2056), 2026-11-05",
@@ -2384,8 +2384,8 @@
     "why": "Aggregate dollar needs, instrument mix (ABS, CMBS, private credit) and maturity walls; public teasers carry few specifics."
    },
    "ai": {
-    "score": 4,
-    "why": "A January 2026 Moody's report exists per secondary coverage and treats AI capex as the driver with partial quantification; not verified against the primary document. The documents actually saved are from 2025."
+    "score": 3,
+    "why": "A January 2026 Moody's report exists per secondary coverage and reportedly quantifies AI capex needs, but it could not be read, so quantification in the latest edition is unverified; the documents actually saved are from 2025."
    },
    "ai_evidence": {
     "updated_2026": false,
