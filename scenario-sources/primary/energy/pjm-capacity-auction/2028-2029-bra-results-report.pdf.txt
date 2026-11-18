@@ -1,0 +1,1534 @@
+2028/2029 Base Residual
+Auction Report
+July 14, 2026
+For Public Use
+
+2028/2029 Base Residual Auction Report
+
+This page is intentionally left blank.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+i|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Contents
+Introduction ..................................................................................................................................................................1
+Executive Summary .....................................................................................................................................................3
+Detailed Report ............................................................................................................................................................5
+Summary of results and associated Installed Reserve Margin ...........................................................................5
+Clearing price trend, offered and cleared capacity by LDA, and new/uprate generation .................................6
+RTO offered and unoffered installed capacity by resource type, trend in offered and cleared unforced
+capacity ..................................................................................................................................................................10
+RTO offered and cleared unforced capacity by fuel type trend.........................................................................12
+Capacity import participation and seasonal resource participation .................................................................13
+Demand Response, Price Responsive Demand and Distributed Energy Resources ......................................14
+Appendix.....................................................................................................................................................................17
+BRA Clearing Simulation Without Cap and Floor ...............................................................................................17
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+ii | P a g e
+
+2028/2029 Base Residual Auction Report
+
+Introduction
+This document provides information for PJM stakeholders regarding the results of the 2028/2029 Reliability Pricing
+Model (RPM) Base Residual Auction (BRA).
+In each BRA, PJM seeks to procure a target capacity reserve level for the RTO in a least-cost manner while
+recognizing the following reliability-based constraints on the location and type of capacity that can be committed:
+• Internal PJM locational constraints are established by setting up Locational Deliverability Areas (LDAs) with
+each LDA having a separate target capacity reserve level and a maximum limit on the amount of capacity that
+it can import from resources located outside of the LDA.
+• Summer and winter seasonal sell offers must be matched to clear in order to meet the required annual
+commitment.
+The clearing solution may be required to commit capacity resources in out-of-merit order, but still in a least-cost
+manner, to ensure that all of these constraints are respected. In those cases where one or more of the constraints
+result in an out-of-merit commitment in the auction solution, resource clearing prices will be reflective of the price of
+resources selected in out-of-merit order to meet the necessary requirements.
+An LDA was modeled in the BRA and had a separate VRR Curve if: (1) the LDA has a CETO/CETL margin that is
+less than 115%; or (2) the LDA had a Locational Price Adder in any of the three immediately preceding BRAs; or
+(3) the LDA is EMAAC, SWMAAC and MAAC. An LDA not otherwise qualifying under the above three tests may also
+be modeled if PJM finds that the LDA is determined to be likely to have a Locational Price Adder based on historic
+offer price levels or if such LDA is required to achieve an acceptable level of reliability consistent with the Reliability
+Principles and Standards.
+As a result of the above criteria, MAAC, EMAAC, SWMAAC, PSEG, PS-NORTH, DPL-SOUTH, PEPCO, ATSI, ATSICleveland, COMED, BGE, PPL, DAY, DOM, DEOK and JCPL were modeled as LDAs in the 2028/2029 RPM BRA. A
+Locational Price Adder represents the difference in Resource Clearing Prices for the Capacity Performance product
+between a resource in a constrained LDA and the immediate higher-level LDA.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+1|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Locational Deliverability Area Definition
+Locational Deliverability Areas
+(LDAs) defined as “(rest of)”
+do not include figures from
+modeled child LDAs contained
+within the parent LDA. For
+example, the PS (rest of) LDA
+does not include PS-NORTH
+within its totals.
+
+• EMAAC total includes DPL-SOUTH,
+PS-NORTH, PS (rest of), JCPL,
+EMAAC (rest of).
+• SWMAAC total includes PEPCO,
+BGE, SWMAAC (rest of).
+• MAAC total includes EMAAC total,
+SWMAAC total, PPL, MAAC (rest of).
+
+RTO total includes MAAC total,
+ATSI (rest of), ATSI-Cleveland,
+COMED, DAY, DEOK, DOM,
+RTO (rest of).
+See Map 1.
+
+Map 1. PJM LDAs
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+2|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Executive Summary
+The 2028/2029 Reliability Pricing Model (RPM) Base Residual Auction (BRA) cleared 138,317.8 MW of Unforced
+Capacity (UCAP) in the RTO from annual and summer-period and winter-period matched resources. A price cap
+below the established VRR Curve can reduce the amount of investment, and therefore supply, in the PJM region.
+The Fixed Resource Requirement (FRR) committed 10,863.8 MW UCAP to meet the FRR commitment. The total
+procured capacity in the RTO, which includes RPM and FRR, is 149,181.6 MW UCAP or 6,831.3 MW UCAP below
+the RTO Reliability Requirement. This is very similar to the prior BRA where the shortage was 6,516 MW UCAP.
+Such a shortage does not necessarily mean that the PJM system will be unable to serve load reliably in the delivery
+year; it means that PJM would have to operate with slimmer reserves and greater level of risk.
+RPM cleared at a 14.4% Installed Reserve Margin (IRM) or 5.6 percentage points below the 20% IRM. The IRM is
+the reserve margin determined to be necessary to maintain a one-day-in-10-year Loss of Load Expectation (LOLE).
+This is the second BRA in a row where PJM has cleared more than one percentage point below the IRM. PJM is
+proactively working through the stakeholder process on a variety of changes that include an update to the existing
+Reliability Backstop Auction1 rules to address the current and future expected shortfalls. Please see Critical Issue
+Fast Path – Large Load Additions and Critical Issue Fast Path – Reliability Backstop Procurement / Connect &
+Manage on PJM.com for additional details on the process.
+Supply offered into the RPM capacity market increased 3,447 MW (UCAP) from 136,147.6 MW in the 2027/2028
+BRA to 139,594.6 MW in the 2028/2029 BRA. The total amount of new generation and generation uprates was
+524.7 MW UCAP. The number of constrained LDAs remained at zero in the 2028/2029 BRA since the total amount
+cleared was less than the RTO Reliability Requirement. The total amount of capacity in RPM (annual plus matched
+seasonal, inclusive of Demand Response (DR) and Price Responsive Demand (“PRD”)) that cleared increased by
+3,733.2 MW (UCAP) from 134,584.6 MW (UCAP) in the 2027/2028 BRA to 138,317.8 MW (UCAP) in the 2028/2029
+BRA. The increase was primarily from an increase in Accredited UCAP factors and a reduction in the unoffered
+megawatts.
+The RTO, as a whole, failed the Market Structure Test (i.e., the Three-Pivotal Supplier Test), resulting in the
+application of market power mitigation to all Existing Generation Capacity Resources. Mitigation was applied to a
+supplier’s existing generation resources, resulting in utilizing the lesser of the supplier’s approved Market Seller Offer
+Cap for such resource or the supplier’s submitted offer price for such resource in the RPM Auction clearing.
+Table 1 summarizes the prices ($/MW-day UCAP) from the previous BRA and this BRA. For the 2028/2029 BRA, all
+prices cleared at the cap ($325.00). In the 2027/2028 BRA, the RTO cleared at the price cap of $333.44.
+
+1 See OATT Attachment DD, section 16 – The current Tariff provision requires a Reliability Backstop Auction to be conducted if
+
+three consecutive BRAs clear more than one percentage point below the IRM or if the Base Load Generation Resources
+committed are less the forecast minimum hourly load in three consecutive BRAs.
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+3|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+The sum of the product of total cleared supply by LDA and the associated clearing price in the 2028/2029 BRA was
+$16.4 billion, which was unchanged from the $16.4 billion value in the 2027/2028 BRA. Since the RPM Auction
+cleared 6,831.3 MW UCAP less than the Reliability Requirement, the product of cleared supply and the associated
+clearing price is estimated to be $0.8 billion less than it would have been if the RPM cleared enough capacity to meet
+the IRM. Note that the $16.4 billion value does not equate to a total cost to load because load that is hedged through
+self-supply or bilateral contracts is not exposed to the clearing prices in the auction.
+Comparison of BRA Clearing Prices by Delivery Year by LDA
+
+BRA Resource Clearing Prices ($/UCAP MW-day)
+Capacity Type
+
+BRA
+
+RTO
+
+Capacity
+Performance
+
+2028/29**
+
+$325.00
+
+2027/28*
+
+$333.44
+
+*Cap of $333.44; **Cap of $325.00
+The following is a list of significant planning parameter and market rule changes that impacted the auction results:
+• Key planning parameters changes [please see the Planning Parameters Report (PDF)], which include:
+− RTO Reliability Requirement increase from 152,400 MW to 156,013 MW (UCAP)
+▪ 1,374.5 MW increase in forecasted load, largely due to additional Large Loads
+▪ IRM remained at 20.0%
+▪ FPR increased from 0.926 to 0.9401
+• Implemented a cap of $256.75 $/MW-ICAP ($325.00 $/MW-UCAP) and a floor of $138.25 $/MW-ICAP
+($175.00 $/MW-UCAP) to the VRR Curve.2 This cap and floor were also in effect for the 2026/2027 and
+2027/2028 BRAs. All offers below the floor were cleared, and all offers above the cap were not cleared.
+• Distributed Energy Resources (DER) under Order 2222 were eligible to participate for first time, but PJM received
+no offers.
+• First year for VRR Curve was adopted as part of the periodic review but had minimal impact because of cap
+and floor.
+• PJM submitted $0 offers for specific Reliability Must-Run units and will allocate the revenue as a credit to the
+associated load.
+• As a result of delayed in-service dates for transmission upgrades, MAAC, SWMAAC and DOM CETLs were
+significantly impacted.
+
+2 Approximate cap/floor price of $325/$175 $/MW-UCAP filed in ER25-1357 was based on preliminary Reference Resource
+
+Accredited UCAP Factor. Actual Reference Resource AUCAP Factor resulted in stated $/MW-UCAP values.
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+4|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Note: This BRA was conducted under a compressed auction schedule where the auction occurred ~23 months
+prior to the start of the delivery year. A typical BRA is held more than three years before the start of the
+delivery year. The prior BRA was conducted under the same compressed auction schedule.
+
+Detailed Report
+Summary of results and associated Installed Reserve Margin
+Table 2 contains a summary of the RTO clearing prices, cleared Unforced Capacity (UCAP) and estimated procured
+installed reserve margins for the 2018/2019 through 2028/2029 RPM BRAs. The estimated reserve margin presented
+in Table 2 represents the percentage of installed capacity (ICAP) cleared in the RPM and committed by FRR entities
+in excess of the RTO load (including load served under the FRR alternative). The estimated reserve margin used a
+pool-wide EFORd prior to 2025/2026 Delivery Year and a pool-wide Accredited UCAP factor in subsequent delivery
+years to convert from cleared UCAP to cleared ICAP, which may result in a difference from the actual reserve
+margin. The reserve margin procured for the entire RTO, which includes FRR and RPM load, is 14.7%, or 5.3
+percentage points lower (8,716.1 MW ICAP lower) than the target reserve margin of 20% included in the Reliability
+Requirement to meet one-day-in-10-year Loss of Load Expection (LOLE) (or 0.1 loss-of-load days per year).
+RPM Base Residual Auction Resource Clearing Price Results in the RTO
+Auction Results
+
+Delivery Year
+2018/19
+2019/20
+2020/213
+2021/22
+2022/23
+2023/24
+2024/25
+2025/264
+2026/275
+2027/28
+2028/29
+1
+
+Resource
+Clearing
+Price
+$164.77
+$100.00
+$76.53
+$140.00
+$50.00
+$34.13
+$28.92
+$269.92
+$329.17
+$333.44
+$325.00
+
+Cleared
+UCAP (MW)
+166,836.9
+167,305.9
+165,109.2
+163,627.3
+144,477.3
+144,870.6
+147,478.9
+135,684.0
+134,205.3
+134,478.1
+138,317.8
+
+Installed
+Reserve
+Margin
+
+Cleared MW
+Times
+1,2,6
+Clearing
+Price
+Margin
+($ billion)
+19.8%
+$10.9
+22.4%
+$7.0
+23.3%
+$7.0
+21.5%
+$9.3
+19.9%
+$3.9
+20.3%
+$2.2
+20.4%
+$2.2
+18.5%
+$14.7
+18.9%
+$16.1
+14.9%
+$16.4
+14.7%
+$16.4
+
+RPM Reserve Total Reserve
+Margin 1
+
+16.1%
+16.0%
+15.5%
+14.7%
+14.9%
+14.9%
+17.7%
+17.8%
+18.6%
+20.0%
+20.0%
+
+20.2%
+22.9%
+23.9%
+22.0%
+21.1%
+21.6%
+21.7%
+18.6%
+18.9%
+14.4%
+14.4%
+
+Reserve Margins converted to ICAP using Pool-Wide AUCAP Factor or EFORd prior to 2025/26 DY, PRD removed from Reliability
+Requirement in calculation of RPM Reserve Margin; 2 Total Reserve Margin includes FRR+RPM (Total ICAP/Total Peak-1); 3
+
+Beginning 2020/2021 Cleared UCAP (MW) includes Annual and matched Seasonal Capacity Performance sell offers; 4 DOM zone
+included in RPM; 5 EE removed from Market; 6 Total Reserve margin does not include FRR commitments to meet the threshold to
+allow sales into RPM.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+5|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Clearing price trend, offered and cleared capacity by LDA, and new/uprate generation
+Figure 1 represents the trend in BRA capacity price by delivery year for RTO, EMAAC, SWMAAC and MAAC. For
+2028/2029, all four LDAs cleared at $325.00. This clearing price was a decrease from $333.44 in the RTO in the
+2027/2028 BRA. The number of constrained LDAs remained at zero.
+BRA Clearing Prices by Delivery Year for Major LDAs
+
+Table 3 provides the total offered and cleared megawatts and associated prices by LDA. This table provides an
+indication of how much supply did not clear for each LDA.
+Since there were no constrained LDAs in the 2028/2029 BRA, Capacity Transfer Rights (CTRs) have no value for the
+2028/2029 Delivery Year. CTRs are allocated by load ratio share to all Load Serving Entities (LSEs) in a constrained
+LDA that has a higher clearing price than the unconstrained region. CTRs serve as a credit back to the LSEs in the
+constrained LDA for use of the transmission system to import less expensive capacity into that constrained LDA and
+are valued at the difference in the clearing prices of the constrained and unconstrained regions.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+6|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Offered and Cleared Megawatt and Associated Prices by LDA
+MW (UCAP)
+
+LDA
+ATSI
+ATSI-CLEVELAND
+COMED
+DAY
+DEOK
+DOM
+MAAC
+PPL
+EMAAC
+DPL-SOUTH
+PSEG
+PS-NORTH
+JCPL
+SWMAAC
+BGE
+PEPCO
+RTO
+
+Offered MW*
+
+Cleared MW**
+
+7,519.1
+1,267.4
+21,449.9
+972.5
+2,403.0
+21,373.0
+53,841.9
+8,911.5
+24,805.1
+1,005.4
+4,353.4
+2,495.0
+2,596.3
+6,953.8
+2,380.8
+2,400.8
+139,594.6
+
+7,519.1
+1,267.4
+20,919.3
+972.5
+2,401.2
+21,246.4
+53,457.6
+8,856.9
+24,789.4
+1,005.4
+4,353.4
+2,495.0
+2,596.3
+6,717.0
+2,289.3
+2,255.5
+138,317.8
+
+System
+Marginal Price
+
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+
+Locational
+Price Adder***
+
+RCP for Capacity
+Performance Resources
+
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+$325.00
+
+* Offered MW values include sum of Annual, Summer-Period, and Winter-Period Capacity Performance sell offers.
+** Cleared MW values include sum of Annual and matched Seasonal Capacity Performance sell offers within the LDA.
+*** Locational Price Adder is with respect to the immediate parent LDA
+
+As seen in Figure 2, the 2028/2029 BRA procured 317.1 MW UCAP of capacity from new generation and 207.6 MW
+UCAP from uprates to existing or planned generation through the RPM Auction. New generation is primarily planned
+generators that are offered for the first time in this BRA. Uprates include any increase in ICAP for a planned or
+existing generator that participated in the prior BRA. Reactivated resources represent resources that were retired or
+mothballed for the prior BRA but now qualify and offer in this BRA. The total quantity of new, uprated and reactivated
+generation decreased from 774.3 MW in 2027/2028 to 524.7 MW in 2028/2029.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+7|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+Cleared Megawatts (UCAP) by New Generation/Uprates by Delivery Year
+
+Table 4 contains a summary of the RTO resources for each cleared BRA from 2018/2019 through the 2028/2029 delivery
+years in terms of ICAP. The summary includes all resources located in the RTO (including FRR Capacity Plans).
+A total of 202,288.2 MW of ICAP was eligible to be offered into the 2028/2029 BRA or used in an FRR Capacity Plan. The
+total amount of supply in the PJM service area increased from 200,993.8 MW ICAP to 202,288.2 MW ICAP, or an increase
+in the total amount of supply by 1,294.4 MW ICAP.
+A total of 179,985.7 MW (ICAP) of Generation Capacity Resources and Demand Response Resources were offered into
+the Base Residual Auction. This is an increase of 527.6 MW (ICAP) offered when compared to the 2027/2028 BRA. The
+total Demand Response offered into the auction declined slightly from 7,937.6 MW ICAP to 7,713.7 MW ICAP.
+A total of 22,302.5 MW (ICAP) of Generation Capacity Resources were not offered into the auction. This includes
+resources that received a must-offer exception, participated in FRR, did not offer, or submitted a capacity modification
+(“capmod”) reduction because the resource will not be available for the full Delivery Year.
+278.7 MW ICAP (193.4 MW UCAP) were not offered but were required to offer and are included in the 22,302.5 MW
+ICAP described above. This is a significant decrease from the last BRA where 1,003.8 MW ICAP (809 MW UCAP) did not
+offer. These values reflect units with a must-offer requirement that did not offer and planned generation resources that
+submitted an NOI but then did not offer. All megawatts that were unoffered but required to offer are considered
+“unoffered” and may not be used as capacity in PJM for the delivery year. This means they may not be used to participate
+in an incremental auction or bilateral transaction or be included in an FRR plan. Any seller with unoffered megawatts is
+subject to further review by PJM and the Independent Market Monitor (“IMM”). Such review may result in a referral to the
+FERC Office of Investigation for a comprehensive investigation to ensure the seller did not withhold in order to exercise
+market power.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+8|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+25.2 MW ICAP (17.7 MW UCAP) were not allowed to participate because: i) they were subject to both MOPR and MSOC3
+where the MOPR price was greater than the MSOC price and the resource did not request and receive a unit-specific
+price or ii) they were subject to MOPR, did not have a default MOPR price and did not request and receive a unit-specific
+price.
+
+3 MSOC includes Market Seller Offer Cap outlined in OATT 6.4 and Planned Generation offer price cap included in OATT 6.5.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+9|Pa g e
+
+2028/2029 Base Residual Auction Report
+
+RTO offered and unoffered installed capacity by resource type, trend in offered and cleared unforced capacity
+Total RTO Resources (RPM + FRR) Offered vs. Unoffered by Resource Type Used To Meet the Reliability Requirement
+Delivery Year (All values in ICAP) ****
+Auction Supply
+
+2018/19
+
+2019/20
+
+2020/21
+
+2021/22
+
+2022/23
+
+2023/24
+
+2024/25
+
+2025/26*
+
+2026/27
+
+2027/28**;***
+
+2028/29***
+
+Internal PJM Gen Capacity
+
+191,322.3
+
+195,203.0
+
+197,804.7
+
+198,726.6
+
+193,412.2
+
+189,704.7
+
+191,133.4
+
+186,134.2
+
+187,022.1
+
+191,580.6
+
+193,378.9
+
+Internal PJM DR+PRD
+Capacity
+
+10,772.8
+
+10,859.2
+
+8,245.5
+
+10,694.8
+
+9,501.2
+
+9,517.2
+
+9,626.1
+
+8,233.7
+
+8,135.1
+
+8,052.6
+
+7,713.7
+
+Imports Offered
+
+5,724.6
+
+4,821.4
+
+5,440.5
+
+4,725.0
+
+1,649.1
+
+1,601.2
+
+1,617.1
+
+1,485.2
+
+1,492.3
+
+1,360.6
+
+1,195.6
+
+Eligible
+RPM Capacity
+
+207,819.7
+
+210,883.6
+
+211,490.7
+
+214,146.4
+
+204,562.5
+
+200,823.1
+
+202,376.6
+
+195,853.1
+
+196,649.5
+
+200,993.8
+
+202,288.2
+
+Exports/ Delistings
+FRR Commitments
+
+1,313.4
+15,793.0
+
+1,318.2
+15,385.3
+
+1,319.8
+13,931.6
+
+1,319.8
+13,657.4
+
+1,525.3
+33,297.1
+
+1,518.9
+33,500.7
+
+1,522.7
+34,584.2
+
+1,525.3
+13,184.5
+
+1,426.3
+14,837.5
+
+2,441.1
+14,372.2
+
+2,334.0
+13,765.6
+
+Excused/Unoffered
+
+2,348.4
+
+1,454.5
+
+8,384.4
+
+9,433.8
+
+2,190.0
+
+9,949.6
+
+12,207.4
+
+9,819.0
+
+1,984.4
+
+5,736.5
+
+6,202.9
+
+Eligible PJM Capacity
+Excluded From RPM
+
+21,304.6
+
+19,454.8
+
+18,158.0
+
+24,411.0
+
+37,012.4
+
+44,969.2
+
+48,314.3
+
+24,528.8
+
+18,248.2
+
+21,535.7
+
+22,302.5
+
+Eligible RPM Capacity
+
+186,515.1
+
+191,428.8
+
+193,332.7
+
+189,735.4
+
+167,550.1
+
+155,853.9
+
+154,062.3
+
+171,324.3
+
+178,401.3
+
+179,458.1
+
+179,985.7
+
+Generation Offered
+177,592.1 181,866.4 178,807.1 178,823.5 157,872.2 146,571.7
+DR Offered
+10,772.8
+10,859.2
+9,047.8
+10,911.9
+9,677.9
+9,282.2
+Total Eligible RPM
+Capacity: Offered
+188,364.9 192,725.6 187,854.9 189,735.4 167,550.1 155,853.9
+*includes DOM zone load previously under the FRR Alternative.
+**includes DEOK zone load previously under the FRR Alternative.
+***process changed to recognize exports to approved must-offer exceptions based on external sales
+****offered MW values include sum of Annual, Summer-Period, and Winter-Period Capacity Performance sell offers.
+
+144,741.2
+9,321.1
+
+163,314.6
+8,009.7
+
+170,381.2
+8,020.1
+
+171,520.5
+7,937.6
+
+172,272.0
+7,713.7
+
+154,062.3
+
+171,324.3
+
+178,401.3
+
+179,458.1
+
+179,985.7
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+10 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+Table 5 shows the Generation, DR and EE Resources offered and cleared in the RTO translated into UCAP megawatt amounts. Until the 2025/2026 Delivery Year,
+participants’ sell offers for thermal resources used EFORd values to convert a resource’s ICAP values into UCAP values. Effective for 2025/2026, the appropriate
+Accredited UCAP Factor is used to convert ICAP values into UCAP values. Prior to the 2025/2026 Delivery Year, DR sell offers and EE sell offers were converted into
+UCAP using the appropriate Forecast Pool Requirement (FPR). Beginning in 2025/2026, DR sell offers are converted into UCAP using the appropriate DR Accredited
+UCAP Factor, while EE sell offers were calculated by multiplying the EE nominated value by the FPR. Beginning in 2026/2027, EE Resources are not eligible to
+participate as a capacity resource in PJM.
+Total offered Generation and DR (UCAP) used to meet the Reliability Requirement increased from 136,147.6 MW to 139,594.6 MW. Please note that UCAP for
+delivery years prior to 2025/2026 were not calculated using the marginal ELCC methodology, and changes going forward from 2025/2026 are in part responsible for
+the subsequent decreases in offered and cleared UCAP.
+Capacity Resource Offered and Cleared by Type by Delivery Year (UCAP)
+
+Cleared
+
+Offered
+
+Delivery Year
+Auction Results (UCAP)
+
+2018/19
+
+2019/20
+
+Generation
+DR
+Total GEN/DR Offered
+EE
+
+166,909.6
+11,675.5
+178,585.1
+1,306.1
+
+Generation
+DR
+Total GEN/DR Cleared
+EE
+Uncleared GEN/DR
+
+154,506.0
+11,084.4
+165,590.4
+1,246.5
+12,994.7
+
+2020/21*
+
+2021/22
+
+2022/23
+
+2023/24
+
+2024/25
+
+2025/26
+
+2026/27** 2027/28** 2028/29**
+
+172,071.2 171,262.3 171,663.2 152,128.6
+11,818.0
+9,846.7 11,886.8 10,513.0
+183,889.2 181,109.0 183,550.0 162,641.6
+1,650.3
+2,242.5
+2,954.8
+5,056.8
+
+141,026.7
+10,116.7
+151,143.4
+5,471.1
+
+138,799.3
+10,146.4
+148,945.7
+8,417.0
+
+129,607.5
+6,084.8
+135,692.3
+1,459.8
+
+129,661.2 128,849.0 132,577.2
+5,530.6
+7,298.6
+7,017.4
+135,191.8 136,147.6 139,594.6
+0.0
+0.0
+0.0
+
+155,442.8 155,976.5 150,385.0 131,541.6
+10,348.0
+7,820.4 11,125.8
+8,811.9
+165,790.8 163,399.0 161,510.8 140,353.5
+1,515.1
+1,710.2
+2,832.0
+4,810.6
+18,098.4 17,312.1 22,039.2 22,288.1
+
+131,777.4
+8,096.2
+139,873.6
+5,471.1
+11,269.8
+
+132,423.1
+7,992.7
+140,415.8
+7,668.7
+8,529.9
+
+128,607.5
+6,064.7
+134,672.2
+1,459.8
+1,020.1
+
+128,845.5 127,448.1 131,630.3
+5,530.6
+7,298.6
+7,017.4
+134,376.1 134,478.1 138,317.8
+0.0
+0.0
+0.0
+815.7
+1,400.9
+1,276.8
+
+Note: RTO numbers include all LDAs. UCAP calculated using ELCC values for Generation Resources. DR and EE UCAP values include appropriate DR AUCAP Factor and FPR.
+*Starting 2020/2021:Offered values include sum of Annual, Summer-Period, and Winter-Period CP sell offers. Cleared values include sum of Annual and matched Seasonal cleared offers
+**EE Eliminated
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+11 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+RTO offered and cleared unforced capacity by fuel type trend
+Table 6 shows the offered and cleared megawatts by resource type for RPM plus FRR commitments over the last four
+delivery years. Intermittent and Capacity Storage Resources (solar, wind, water, battery/hybrid) offered increased by
+1,078 MW UCAP, while coal megawatts offered decreased by 3,541 MW UCAP, primarily due to planned
+deactivations. Natural gas offered increased substantially in the 2028/2029 BRA from the 2027/2028 BRA by 5,550
+MW UCAP largely as a result of: i) an increase in Accredited UCAP factor, ii) resource fuel type changes to natural
+gas, and iii) units that received a must-offer exception in a prior BRA but offered and cleared in the 2028/2029 BRA.
+Demand Response offers decreased modestly by 277 MW UCAP.
+Offered and Cleared MWs by Type for RPM and Committed FRR for Previous BRAs
+Offered and Cleared UCAP
+2025/26
+
+2026/27
+
+2027/28
+
+Offered Cleared Offered Cleared Offered Cleared
+Type
+Coal
+30,081 30,081
+30,948
+30,948 30,366
+29,766
+Distillate Oil (No.2)
+2,408
+2,408
+2,608
+2,608
+2,421
+2,421
+Gas
+66,354 66,354
+63,377
+63,377 62,800
+62,634
+Nuclear
+30,549 30,549
+30,562
+30,562 30,552
+30,552
+Oil
+578
+578
+1,155
+1,155
+1,167
+1,167
+Solar
+1,337
+1,337
+1,584
+1,567
+1,481
+1,465
+Water
+5,365
+5,361
+5,597
+5,597
+6,002
+6,002
+Wind
+2,618
+1,676
+4,507
+3,717
+4,144
+3,526
+Battery/Hybrid
+14
+14
+35
+35
+205
+205
+Other
+911
+911
+899
+899
+1,005
+1,005
+Demand Response
+6,363
+6,342
+5,795
+5,795
+7,641
+7,641
+Aggregate Resource
+327
+273
+58
+49
+Total (without EE)
+146,905 145,883 147,125 146,309 147,786 146,385
+Energy Efficiency
+1,460
+1,460
+-
+
+2028/29
+
+2028/29 - 2027/28
+Change
+
+Offered
+
+Cleared Offered Cleared
+
+26,825.4
+2,515.2
+68,349.7
+30,677.6
+1,140.8
+2,115.8
+6,033.9
+4,282.7
+478.3
+1,005.5
+7,364.7
+150,790
+-
+
+26,825.4
+2,515.2
+68,272.9
+30,677.6
+1,140.8
+2,115.8
+6,033.9
+3,412.6
+478.3
+1,005.5
+7,364.7
+149,843
+-
+
+(3,541) (2,941)
+94
+94
+5,550
+5,639
+125
+125
+(26)
+(26)
+635
+651
+32
+32
+139
+(114)
+273
+273
+0
+0
+(277)
+(277)
+3,004
+3,458
+NA
+NA
+
+The table shows the UCAP MW quantities that offered and cleared in the BRA of each DY plus the UCAP MW committed to
+FRR Capacity Plans. Notes: Offered and Cleared MW quantities include sum of Annual, Summer-Period, and Winter-Period
+Capacity Performance sell offers. Other consists of: Kerosene, Other Gas, Other Liquid, Other Solid, Wood.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+12 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+Capacity import participation and seasonal resource participation
+Table 7 shows the quantity of capacity imports cleared in the 2028/2029 BRA at 1,040.6 MW (UCAP). Certain external
+generation capacity that has cleared are Prior CIL Exception External Resources that qualify for an exception for the
+2028/2029 Delivery Year to satisfy the enhanced pseudo-tie requirements established by FERC Order ER17-1138.
+Capacity Imports (UCAP) Offered and Cleared by Region
+
+External Resource (Imports) Totals*;**
+2024/25 2025/26 2026/27 2027/28
+1,527.1
+1,268.5
+1,281.7
+1,144.8
+1,397.6
+1,268.5
+1,281.7
+1,005.9
+
+Offered MW (UCAP)
+Cleared MW (UCAP)
+
+2028/29
+1,040.6
+1,040.6
+
+*Offered and Cleared MW quantities include resources that received CIL Exception and those associated with preOATT grandfathered transmission. Attachment G of Manual 14B provides a mapping of outside Balancing
+Authorities to the External Source Zones. **External Resources receive RTO Clearing Price
+
+Table 8 provides a breakdown of the offered and cleared megawatts by season by resource type. There were 329.9
+MW of summer capability and 1,200.0 MW of winter capability offered in the auction. All 329.9 MW of Summer
+Resources were matched with Winter Resources to meet the annual Capacity Performance capability requirement.
+Offered and Cleared (UCAP) by Resource Type by Season
+
+Capacity Performance
+Offered MW (UCAP)
+
+Cleared MW (UCAP)
+
+Resource Type
+
+Annual
+
+GEN
+
+131,377.2
+
+-
+
+1,200.0
+
+131,300.4
+
+-
+
+329.9
+
+DR
+PRD
+
+6,687.5
+-
+
+329.9
+-
+
+-
+
+6,687.5
+-
+
+329.9
+-
+
+-
+
+138,064.7
+
+329.9
+
+1,200.0
+
+137,987.9
+
+329.9
+
+329.9
+
+Grand Total
+
+PJM © 2026
+
+Summer
+
+Winter
+
+Annual
+
+www.pjm.com | For Public Use
+
+Summer
+
+Winter
+
+13 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+Demand Response, Price Responsive Demand and Distributed Energy Resources
+Figure 3 displays the trend in offered and cleared DR and Price Responsive Demand (PRD) and cleared EE prior to
+2026/2027 by delivery year. DR offered and cleared amounts decreased for 2028/2029 to approximately 7,000 MW,
+about 300 MW fewer than in 2027/2028. There were no PRD offers in the 2028/2029 Delivery Year.
+DR and PRD Offered and Cleared and EE Cleared MW(UCAP) by Delivery Year
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+14 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+Table 9 provides a breakdown of offered and cleared DR by LDA. AEP cleared the most DR (1,220.1 MW), followed by
+COMED (1,105.6 MW) and DOM (755.3 MW).
+DR Offered and Cleared by LDA
+
+LDA
+Zone
+AECO
+EMAAC
+EMAAC/DPL-S DPL
+JCPL
+JCPL
+PECO
+EMAAC
+PSEG
+PSEG/PS-N
+RECO
+EMAAC
+EMAAC Sub Total
+PEPCO
+PEPCO
+BGE
+BGE
+METED
+MAAC
+PENELEC
+MAAC
+PPL
+PPL
+MAAC** Sub Total
+AEP
+RTO
+APS
+RTO
+ATSI
+ATSI/ATSI-C
+COMED
+COMED
+DAY
+DAY
+DEOK
+DEOK
+DOM
+DOM
+DUQ
+RTO
+EKPC
+RTO
+Grand Total
+
+Offered MW Cleared MW % Cleared
+(UCAP)*
+(UCAP)*
+40.3
+40.3
+100.0%
+138.5
+138.5
+100.0%
+66.4
+66.4
+100.0%
+285.8
+285.8
+100.0%
+231.8
+231.8
+100.0%
+2.2
+2.2
+100.0%
+765.0
+765.0
+100.0%
+284.5
+284.5
+100.0%
+252.4
+252.4
+100.0%
+120.4
+120.4
+100.0%
+180.1
+180.1
+100.0%
+373.2
+373.2
+100.0%
+1,975.6
+1,975.6
+100.0%
+1,220.1
+1,220.1
+100.0%
+580.7
+580.7
+100.0%
+663.4
+663.4
+100.0%
+1,200.3
+1,200.3
+100.0%
+161.3
+161.3
+100.0%
+156.8
+156.8
+100.0%
+755.3
+755.3
+100.0%
+99.1
+99.1
+100.0%
+204.8
+204.8
+100.0%
+7,017.4
+7,017.4
+100.0%
+
+* MW values include sum of Annual and Summer-Period Capacity Performance DR
+** MAAC sub-total includes all MAAC Zones
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+15 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+PRD is provided by a PJM Member that represents retail customers having the ability to predictably reduce
+consumption in response to energy wholesale prices. In the PJM capacity market, a PRD Provider may voluntarily
+make a firm commitment of the quantity of PRD that will reduce its consumption in response to real-time energy price
+during a delivery year. A PRD Provider that is committing PRD in a BRA must also submit a PRD election in the
+Capacity Exchange system that indicates the Nominal PRD Value in megawatts that the PRD Provider is willing to
+commit at different reservation prices ($/MW-day). The VRR Curve of the RTO and each affected LDA is shifted
+leftward along the horizontal axis by the UCAP megawatt quantity of elected PRD where the leftward shift occurs only
+for the portion of the VRR Curve at or above the PRD Reservation Price. The planning parameters include a
+breakdown of elected PRD in ICAP, which can be converted to UCAP by taking ICAP * FPR. The VRR Curve of the
+RTO and each affected LDA is shifted leftward along the horizontal axis by the UCAP megawatt value of these
+quantities at the PRD Reservation Price. Once committed in a BRA, a PRD commitment cannot be replaced; the
+commitment can only be satisfied through the registration of price response load in the DR Hub system prior to or
+during the delivery year.
+For the 2028/2029 Delivery Year, zero Price Responsive Demand offers were submitted.
+Distributed Energy Resources (“DER”) are comprised of Distributed Generators (“DG”) connected directly to the
+distribution system and approved by the electric distribution company and DR. DER was eligible to participate in the
+capacity market for the first time for the 22028/2029 BRA. For the 2028/2029 Delivery Year, zero DER offers were
+submitted.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+16 | P a g e
+
+2028/2029 Base Residual Auction Report
+
+Appendix
+BRA Clearing Simulation Without Cap and Floor
+Table 1 contains a summary of the estimated RTO clearing prices,4 cleared UCAP and estimated procured reserve
+margins for the 2028/2029 RPM BRA without the cap and floor applied. Cleared UCAP and estimated reserve margins
+are both very slightly higher as compared to the actual results with the cap and floor applied, and the estimated
+resource clearing prices increased substantially, which resulted in the product of the cleared megawatt times the
+associated prices to increase $13.3 billion over actual results.
+RPM Auction Resource Clearing Prices Results in the RTO With No Cap or Floor Simulation
+Auction Simulation – Estimated Impact of No Cap or Floor
+RTO Resource Cleared UCAP
+Clearing Price
+(MW)
+Delivery Year
+2028/29
+
+$554.72
+
+Cleared MW
+Total Reserve
+Times
+Margin
+Clearing Price
+(RPM+FRR)
+($ billion)*
+14.4%
+14.8%
+$29.7
+
+Installed
+Reserve
+Margin
+
+138,394.6
+
+RPM
+Reserve
+Margin
+
+20.0%
+
+* - Estimated total clearing price in $ for this simulation includes the impact of higher clearing prices in LDAs with price separation
+
+Table 2 summarizes the prices ($/MW-day UCAP) from the previous simulated BRAs with no cap and floor and the
+2028/2029 simulated BRA with no cap and floor. For the 2028/2029 simulated BRA, all prices cleared at $554.72
+except the COMED LDA, which cleared at $776.69. In the 2027/2028 simulated BRA, all prices cleared at $529.80
+except the DOM LDA, which cleared at $542.83.
+RPM Simulated Base Residual Auction Resource Clearing Price Results
+
+Resource Clearing Prices ($/MW-day, UCAP)
+Capacity Type
+Capacity
+Performance
+
+BRA
+
+Rest of RTO
+
+DOM
+
+COMED
+
+2026/27
+
+$388.57
+
+-
+
+-
+
+2027/28
+
+$529.80
+
+$542.83
+
+-
+
+2028/29
+
+$554.72
+
+-
+
+$776.69
+
+Note: Clearing prices in bold indicate constrained LDA
+
+4 The PJM simulation included existing offers provided by Capacity Market Sellers. PJM does not know how offers may have
+
+changed if the temporary cap and floor was not implemented.
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+17 | P a g e
+
+

@@ -1,0 +1,467 @@
+Dominion
+Energy LSE
+20-Year Data
+Center Forecast
+September 29, 2026
+
+Market Overview
+▪ Dominion has over 13 years of experience serving data centers
+
+▪ Dominion serves the largest market in the world
+o Approximately 54GW of capacity under contract (ELOA, CLOA, ESA)
+o 55 discreet data center companies connected
+
+o Approximately 500 data center metered accounts
+o Data center billing peak load as of August 2026 is 4.8 GW
+o Market is mainly cloud/AI inference
+
+2
+
+6,000
+
+Dominion Energy Service Territory
+Historical Data Center Demand
+
+5,000
+
+Latest DOM LSE peaks:
+
+19,688 MW
+
+▪
+
+2/9/26
+
+19,629 MW
+
+753
+
+931
+
+1,113
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Coincident Demand
+
+2019
+
+2020
+
+Billing Demand
+
+2021
+
+2022
+
+3,040
+3,183
+
+2,626
+2,767
+
+2,152
+2,302
+
+1,697
+1,808
+
+636
+
+0
+
+532
+
+1,000
+
+1,421
+
+2,000
+
+2023
+
+2024
+
+4,559
+4,838
+
+6/7/26
+
+3,999
+4,237
+
+3,000
+
+▪
+
+3,410
+3,636
+
+▪ 6/30/26 19,775 MW
+
+462
+
+Demand (MW)
+
+4,000
+
+2025
+
+2026F
+
+Poly. (Billing Demand)
+
+3
+
+Evolution of Data Center Forecasting
+Model
+Comparison
+
+Customer Regression
+
+Quantile Regression
+
+Prior to 2027 Forecast
+
+2027 Forecast
+
+Scope of data
+
+• All existing load for 7 largest
+customers plus 8th segment for all
+other customers
+
+• All existing load plus executed
+contracts for future energization
+
+Model certainty
+
+• 8th segment of remaining
+customers limits speculation
+
+• Executed contracts limits speculation
+
+Methodology
+
+• Apply statistical regression trends
+and adjust based on industry
+knowledge
+
+• Apply historical utilization rate to all
+connected and future load based on
+energization date
+
+• Derive High, Low, and Official
+scenarios
+
+• Derive High, Low, and Official
+scenarios
+• Apply quantiles to official forecast
+
+Scenario modeling
+
+4
+
+Forecast Details
+▪
+
+The forecast includes both firm and non-firm load
+▪
+
+Firm load – includes all load based on executed ESAs and CLOAs
+
+▪
+
+Non-firm load – includes load from ELOAs (2032 and beyond)
+
+▪
+
+19 GW (59%) of ELOAs excluded from the forecast
+
+▪
+
+Dominion’s industry average ramp period is 5 years maturing at a utilization rate of
+63% (Utilization Rate = Demand / Contract Capacity)
+
+▪
+
+RERRA Process:
+▪
+
+On August 14th, Dominion shared the forecast with the Virginia SCC
+
+▪
+
+On August 28th, the SCC acknowledged Dominion will submit forecast to PJM
+
+▪
+
+The SCC conducts a 20-year Integrated Resource Plan process in Virginia
+
+5
+
+Executed Contracts as of July 2026 vs. Coincident Demand
+
+50,000
+
+Coincident Demand (MW)
+
+40,000
+
+32,473 MW of Engineering Letters of Authorization (ELOA)
+• 13,429 MW in forecast (41%)xxxx
+• 19,044 MW not in forecast (59%)
+
+30,000
+
+20,000
+
+9,356 MW of Construction Letters of Authorization (CLOA - Firm)
+
+10,000
+
+11,997 MW of Electric Service Agreements (ESA - Firm)
+2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048
+
+2027 Coincident Demand Forecast
+6
+
+Quantile Process to Model Demand
+Forecast leverages 13 years of observed utilization rates and all available contracts
+1. Statistically model billed demand for all connected load and all future load based on
+contracts using the relationship of demand to contract capacity (utilization rate) and
+energization date
+2. Model Components
+o High billing demand forecast based on current energization date
+o Low billing demand forecast based on historical energization trends
+o Official billing demand forecast to align with the average of the High and Low
+o MWH sales based on forecasted billing demand and historical load factor
+o Upper and lower quantiles on Official forecast based on utilization rate thresholds
+3. Calculate coincident demand using historical ratio (Coincident / Billing demand)
+
+7
+
+8
+
+Comparison of Forecasts
+20,000
+19,000
+18,000
+17,000
+
+Coincident Demand (MW)
+
+16,000
+15,000
+
+14,000
+13,000
+12,000
+11,000
+10,000
+9,000
+
+8,000
+7,000
+6,000
+5,000
+4,000
+3,000
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+2032
+
+2033
+
+2034
+
+2035
+
+Current Year
+
+2036
+
+2037
+
+2038
+
+2039
+
+2040
+
+2041
+
+2042
+
+2043
+
+2044
+
+2045
+
+2046
+
+Prior Year
+
+9
+
+2047
+
+Dominion LSE Forecast in the DOMZONE
+MW
+
+2027
+
+2028
+
+2029
+
+2030
+
+2031
+
+2032
+
+2033
+
+2034
+
+2035
+
+2036
+
+2037
+
+2038
+
+2039
+
+2040
+
+2041
+
+2042
+
+2043
+
+2044
+
+2045
+
+2046
+
+2047
+
+Capacity
+
+11,590
+
+12,946
+
+15,122
+
+17,570
+
+18,582
+
+19,182
+
+21,771
+
+22,329
+
+24,627
+
+26,088
+
+26,736
+
+27,906
+
+28,174
+
+29,674
+
+30,077
+
+30,077
+
+30,377
+
+31,907
+
+33,111
+
+34,299
+
+34,299
+
+Demand
+
+5,075
+
+5,871
+
+6,661
+
+7,777
+
+8,898
+
+9,880
+
+10,793
+
+11,714
+
+12,548
+
+13,396
+
+14,293
+
+15,170
+
+15,828
+
+16,460
+
+17,007
+
+17,412
+
+17,681
+
+17,962
+
+18,367
+
+18,890
+
+19,466
+
+10
+
+

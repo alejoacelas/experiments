@@ -1,0 +1,902 @@
+Annual Energy Outlook 2026
+with projections to 2050
+
+#AEO2026
+
+April 8, 2026
+www.eia.gov/aeo
+
+What does EIA do?
+The U.S. Energy Information Administration (EIA) is the statistical and
+analytical agency within the U.S. Department of Energy.
+EIA is the nation's premier source of energy information.
+By law, our data, analyses, and forecasts are independent of approval by any
+other officer or employee of the U.S. government.
+Our Annual Energy Outlook 2026 explores long-term energy trends in the
+United States.
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+2
+
+What is the Annual Energy Outlook?
+The AEO is a product suite: an
+analytical narrative, a Counterfactual
+Baseline and 10 side cases, data
+tables and visualizations,
+assumptions, and methodologies. It
+represents the highest level of Gold
+Standard energy data science.
+The AEO is built on the open-source
+National Energy Modeling System.
+EIA publishes the Retrospective that
+compares AEO projections to
+realized outcomes.
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+3
+
+Annual Energy Outlook Retrospective 2025
+Total energy consumption from all sectors (Reference)
+quadrillion British thermal units
+
+Total electricity sales excluding direct use (Reference)
+
+billion kilowatthours
+6,000
+
+160
+140
+
+AEO2005
+
+5,000
+
+120
+AEO2015
+
+100
+80
+
+AEO2025
+all other AEO
+3,000
+Reference
+case
+projections
+2,000
+from 2005–
+2025
+
+historical data series
+from 1970–2024
+
+60
+40
+
+1,000
+
+20
+0
+1970
+
+4,000
+
+1980
+
+1990
+
+2000
+
+2010
+
+2020
+
+2030
+
+0
+1970
+
+1980
+
+1990
+
+2000
+
+2010
+
+2020
+
+2030
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook Retrospective 2025, March 2026
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+4
+
+The AEO2026 includes cases that vary technical and economic assumptions
+and highlight the impact of policies
+All core cases reflect current laws and regulations as of December 2025.
+Counterfactual Baseline*
+*previously known as Reference
+
+Economic Growth
+
+Oil and Gas Supply
+
+Zero-carbon Technology
+Cost (electric power sector)
+
+1.7% annual GDP growth; Brent = $87 per barrel in 2050
+Low: 1.2% annual GDP growth
+High: 2.2% annual GDP growth
+Low: 50% lower ultimate recovery and 50% slower technological
+improvement for specified resources† from the Counterfactual
+Baseline
+High: 50% higher ultimate recovery and 50% faster technological
+improvement for specified resources† from the Counterfactual
+Baseline
+Low: About 40% reduction in cost from the Counterfactual Baseline
+by 2050
+High: Costs held unchanged through projection period
+
+†tight oil, tight gas, shale gas, Alaska, and offshore resources
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+5
+
+The AEO2026 includes cases that vary technical and economic assumptions
+and highlight the impact of policies
+High Electricity Demand
+
+Examines uncertainty about long-term computational requirements
+and data center server power draw across the commercial building
+stock.
+
+Alternative Electricity
+
+Assumes that the June 2025 EPA proposed rule to repeal all
+greenhouse gas emissions (GHG) standards for the power sector
+under Section 111 of the CAA becomes final and that the
+requirements of the rules issued in April 2024 are not in place.
+
+Alternative Transportation
+
+Removes light- and heavy-duty vehicle tailpipe (GHG) standards
+finalized in 2024.
+
+Alternative ElectricityAlternative Transportation
+
+Assumes both the repeal of EPA 111 rule and the vehicle tailpipe
+GHG standards.
+
+The assumptions used in these alternative cases should not be construed as EIA’s assessment on how laws or regulations could be
+changed or on the likelihood of such a change.
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+6
+
+Natural gas and petroleum and other liquids remain the
+energy sources most consumed in 2050
+U.S. consumption by fuel in 2030, 2040, and 2050
+
+U.S. consumption by fuel, 2025 and 2050
+quadrillion British thermal units
+
+natural gas petroleum and other liquids nuclear
+coal wind solar hydro other
+
+share of annual total
+
+natural gas
+
+2025
+High Oil and Gas Supply
+High Economic Growth
+
+2030
+2040
+2050
+
+2025
+value
+
+petroleum and other liquids
+
+each dot represents
+one of the 11 AEO
+cases
+
+nuclear
+
+Combination
+High Electricity Demand
+
+coal
+
+Alt Transportation
+Alt Electricity
+
+wind
+
+High ZTC
+solar
+
+Counterfactual Baseline
+Low ZTC
+
+hydro
+
+Low Economic Growth
+Low Oil and Gas Supply
+
+other
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+0%
+
+10%
+
+20%
+
+30%
+
+40%
+
+50%
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+Note: Alt=Alternative; Combination=Alternative Transportation-Alternative Electricity; ZTC=Zero-carbon Technology Cost
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+7
+
+U.S. total energy consumption remains largely flat, with
+greatest growth in the industrial sector
+Total energy consumption by end-use sector
+quadrillion British thermal units
+
+2025
+
+40
+
+projections
+industrial
+
+30
+transportation
+20
+
+commercial
+residential
+
+10
+
+0
+2000
+
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+Note: Total consumption in end-use sectors includes purchased electricity, electricity-related losses, and hydrogen-related losses. Transportation sector
+includes pipeline and liquefaction consumption. Each line represents AEO Counterfactual Baseline case projections.
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+8
+
+Regulations influence vehicle fleet composition and liquid
+fuel consumption
+U.S. transportation sector consumption by mode, 2025 and 2050
+quadrillion British thermal units
+
+U.S. motor gasoline consumption
+million barrels per day
+
+2025
+10
+Combination
+
+lightduty
+vehicles
+freight
+trucks
+air
+water
+
+Alt Transportation
+High Economic Growth
+High Oil and Gas Supply
+Alt Electricity
+High Electricity Demand
+Counterfactual Baseline
+
+8
+
+6
+
+4
+
+High ZTC
+Low ZTC
+
+2025
+projections
+Alternative
+Transportation
+Combination
+Counterfactual
+Baseline
+other cases
+
+2
+
+Low Oil and Gas Supply
+Low Economic Growth
+
+0
+2020
+2030
+2040
+2050
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+Note: In the left chart, other includes rail, buses, and military. Not included in chart: natural gas consumption for pipeline operation and liquefaction, lubricants,
+losses due to electricity generation, transmission, and distribution, and losses due to hydrogen production. In the right chart, the Alternative Transportation and
+Combination cases closely align. Alt=Alternative; Combination=Alternative Transportation-Alternative Electricity; ZTC=Zero-carbon Technology Cost
+0
+
+5
+
+10
+
+15
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+20
+
+25
+
+30
+
+9
+
+Electric vehicle shares grow in all cases; policies play a
+critical role
+Battery electric vehicle share of light-duty vehicle
+stocks
+percentage
+
+60%
+
+2025
+
+Zero-emission vehicle share of Class 3-8 freight truck stocks
+percentage
+
+60%
+
+projections
+
+50%
+
+50%
+
+40%
+
+40%
+
+30%
+
+30%
+
+20%
+
+20%
+
+10%
+
+10%
+
+0%
+2015
+
+2025
+
+2035
+
+2045
+
+0%
+2015
+
+other cases
+Counterfactual
+Baseline
+
+Combination
+Alternative
+Transportation
+2025
+
+2035
+
+2045
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+Note: Alternative Transportation and Combination cases closely align.
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+10
+
+Data center load is emerging as the dominant driver of longterm U.S. electricity growth
+Total electricity consumption,
+all sectors
+
+Commercial data center server
+electricity consumption
+
+billion kilowatthours
+
+Commercial data center server
+electricity use, High Electricity
+Demand case, by census division
+
+billion kilowatthours
+
+billion kilowatthours
+7,000
+
+2025
+projections
+
+1,000
+
+6,000
+
+750
+
+300
+High Electricity Demand
+High Economic Growth
+Counterfactual Baseline
+other cases
+
+250
+200
+
+5,000
+500
+4,000
+
+3,000
+//
+0
+2,000
+2020
+
+High Electricity Demand
+High Economic Growth
+Counterfactual Baseline
+other cases
+
+150
+
+South
+Atlantic
+West
+South
+Central
+
+100
+250
+50
+
+2030
+
+2040
+
+2050
+
+0
+2020
+
+2030
+
+2040
+
+2050
+
+0
+2020 2025 2030 2035 2040 2045 2050
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+11
+
+In an evolving power grid, natural gas, solar, and wind grow
+most
+Installed electric generating capacity
+
+Total generation in all sectors, 2025 and 2050
+
+gigawatts
+
+billion kilowatthours
+
+2025
+
+2025
+
+3,000
+
+other coal nuclear natural gas and oil wind solar
+
+projections
+
+Alt Transportation
+
+2,500
+
+Combination
+
+Counterfactual Low Economic Growth
+Baseline
+Low Oil and Gas Supply
+other cases
+
+2,000
+
+High ZTC
+
+1,500
+
+Counterfactual Baseline
+Low ZTC
+
+1,000
+
+Alt Electricity
+High Oil and Gas Supply
+
+500
+0
+2010
+
+High Economic Growth
+High Electricity Demand
+
+2020
+
+2030
+
+2040
+
+2050
+
+0
+
+1,000
+
+2,000
+
+3,000
+
+4,000
+
+5,000
+
+6,000
+
+7,000
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+Note: Alt=Alternative; Combination=Alternative Transportation-Alternative Electricity; ZTC=Zero-carbon Technology Cost
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+12
+
+Natural gas production, consumption, and exports grow
+across most cases
+U.S. natural gas consumption
+
+U.S. liquefied natural gas exports
+
+180
+
+180
+
+160
+
+160
+
+140
+
+140
+
+140
+
+120
+
+120
+
+120
+
+100
+
+100
+
+100
+
+80
+
+80
+
+80
+
+60
+
+60
+
+60
+
+40
+
+40
+
+40
+
+20
+
+20
+
+20
+
+U.S. dry natural gas production
+
+180
+
+2025
+projections
+
+160
+
+0
+2010
+
+2020
+
+2030
+
+2040
+
+billion cubic feet per day
+
+billion cubic feet per day
+
+billion cubic feet per day
+
+2050
+
+0
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+0
+2010
+
+Combination
+Alternative
+Transportation
+High Oil and Gas
+Supply
+Counterfactual
+Baseline
+other cases
+Low Oil and Gas
+Supply
+
+2020
+
+2030
+
+2040
+
+2050
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+13
+
+In most cases, crude oil production and exports remain
+historically high
+Crude oil production
+million barrels per day
+20
+
+Gross crude oil exports
+
+Gross petroleum liquids exports
+
+5
+
+20
+
+million barrels per day
+
+million barrels per day
+
+2025
+projections
+
+4
+
+15
+
+High Oil and Gas
+Supply
+Counterfactual
+Baseline
+other cases
+
+15
+
+3
+
+Alternative
+Transportation
+Combination
+Low Oil and Gas
+Supply
+
+10
+
+10
+
+2
+5
+
+0
+2010
+
+5
+
+1
+
+2020
+
+2030
+
+2040
+
+2050
+
+0
+
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+0
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+14
+
+Focus on technologies: Nuclear-powered electric generating
+plants
+U.S. nuclear electricity generation for all cases
+billion kilowatthours
+
+2025
+
+1,000
+
+Low Oil and Gas Supply
+Counterfactual Baseline
+other cases
+High Oil and Gas Supply
+
+projections
+
+800
+
+600
+
+400
+
+200
+
+0
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026, April 2026
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+15
+
+View the full report at eia.gov/aeo
+Contact us at AnnualEnergyOutlook@eia.gov
+
+AEO2026, U.S. Energy Information Administration
+April 8, 2026
+
+16
+
+

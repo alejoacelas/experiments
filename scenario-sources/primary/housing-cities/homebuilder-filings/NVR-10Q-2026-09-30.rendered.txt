@@ -1,0 +1,1074 @@
+ 
+ nvr-20260930 false 2026 Q3 0000906163 12-31 xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure nvr:lot nvr:joint_venture nvr:segment 0000906163 2026-01-01 2026-09-30 0000906163 dei:FormerAddressMember 2026-01-01 2026-09-30 0000906163 2026-10-31 0000906163 nvr:HomeBuildingSegmentMember 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember 2025-12-31 0000906163 nvr:MortgageBankingSegmentMember 2026-09-30 0000906163 nvr:MortgageBankingSegmentMember 2025-12-31 0000906163 2026-09-30 0000906163 2025-12-31 0000906163 nvr:HomeBuildingSegmentMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember 2025-01-01 2025-09-30 0000906163 nvr:MortgageBankingSegmentMember 2026-07-01 2026-09-30 0000906163 nvr:MortgageBankingSegmentMember 2025-07-01 2025-09-30 0000906163 nvr:MortgageBankingSegmentMember 2026-01-01 2026-09-30 0000906163 nvr:MortgageBankingSegmentMember 2025-01-01 2025-09-30 0000906163 2026-07-01 2026-09-30 0000906163 2025-07-01 2025-09-30 0000906163 2025-01-01 2025-09-30 0000906163 2024-12-31 0000906163 2025-09-30 0000906163 us-gaap:OtherAssets 2026-09-30 0000906163 us-gaap:OtherAssets 2025-12-31 0000906163 us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember 2026-09-30 0000906163 nvr:RawGroundContractsVariableInterestEntityNotPrimaryBeneficiaryMember 2026-09-30 0000906163 nvr:TotalRawLandParcelOwnedMember 2026-09-30 0000906163 us-gaap:CommonStockMember 2026-06-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2026-06-30 0000906163 us-gaap:RetainedEarningsMember 2026-06-30 0000906163 us-gaap:TreasuryStockCommonMember 2026-06-30 0000906163 nvr:DeferredCompensationTrustMember 2026-06-30 0000906163 nvr:DeferredCompensationLiabilityMember 2026-06-30 0000906163 2026-06-30 0000906163 us-gaap:RetainedEarningsMember 2026-07-01 2026-09-30 0000906163 us-gaap:TreasuryStockCommonMember 2026-07-01 2026-09-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2026-07-01 2026-09-30 0000906163 us-gaap:CommonStockMember 2026-09-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2026-09-30 0000906163 us-gaap:RetainedEarningsMember 2026-09-30 0000906163 us-gaap:TreasuryStockCommonMember 2026-09-30 0000906163 nvr:DeferredCompensationTrustMember 2026-09-30 0000906163 nvr:DeferredCompensationLiabilityMember 2026-09-30 0000906163 us-gaap:CommonStockMember 2025-12-31 0000906163 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0000906163 us-gaap:RetainedEarningsMember 2025-12-31 0000906163 us-gaap:TreasuryStockCommonMember 2025-12-31 0000906163 nvr:DeferredCompensationTrustMember 2025-12-31 0000906163 nvr:DeferredCompensationLiabilityMember 2025-12-31 0000906163 us-gaap:RetainedEarningsMember 2026-01-01 2026-09-30 0000906163 us-gaap:TreasuryStockCommonMember 2026-01-01 2026-09-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-09-30 0000906163 us-gaap:CommonStockMember 2025-06-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2025-06-30 0000906163 us-gaap:RetainedEarningsMember 2025-06-30 0000906163 us-gaap:TreasuryStockCommonMember 2025-06-30 0000906163 nvr:DeferredCompensationTrustMember 2025-06-30 0000906163 nvr:DeferredCompensationLiabilityMember 2025-06-30 0000906163 2025-06-30 0000906163 us-gaap:RetainedEarningsMember 2025-07-01 2025-09-30 0000906163 us-gaap:TreasuryStockCommonMember 2025-07-01 2025-09-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2025-07-01 2025-09-30 0000906163 us-gaap:CommonStockMember 2025-09-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2025-09-30 0000906163 us-gaap:RetainedEarningsMember 2025-09-30 0000906163 us-gaap:TreasuryStockCommonMember 2025-09-30 0000906163 nvr:DeferredCompensationTrustMember 2025-09-30 0000906163 nvr:DeferredCompensationLiabilityMember 2025-09-30 0000906163 us-gaap:CommonStockMember 2024-12-31 0000906163 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0000906163 us-gaap:RetainedEarningsMember 2024-12-31 0000906163 us-gaap:TreasuryStockCommonMember 2024-12-31 0000906163 nvr:DeferredCompensationTrustMember 2024-12-31 0000906163 nvr:DeferredCompensationLiabilityMember 2024-12-31 0000906163 us-gaap:RetainedEarningsMember 2025-01-01 2025-09-30 0000906163 us-gaap:TreasuryStockCommonMember 2025-01-01 2025-09-30 0000906163 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-09-30 0000906163 nvr:SeniorNotesDueTwoThousandThirtyMember 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember nvr:CorporateReconcilingItemsAndEliminationsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000906163 nvr:MortgageBankingSegmentMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000906163 nvr:MortgageBankingSegmentMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000906163 nvr:MortgageBankingSegmentMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000906163 nvr:MortgageBankingSegmentMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000906163 us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000906163 us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000906163 us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000906163 us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000906163 us-gaap:MaterialReconcilingItemsMember 2026-07-01 2026-09-30 0000906163 us-gaap:MaterialReconcilingItemsMember 2025-07-01 2025-09-30 0000906163 us-gaap:MaterialReconcilingItemsMember 2026-01-01 2026-09-30 0000906163 us-gaap:MaterialReconcilingItemsMember 2025-01-01 2025-09-30 0000906163 us-gaap:CorporateNonSegmentMember 2026-07-01 2026-09-30 0000906163 us-gaap:CorporateNonSegmentMember 2025-07-01 2025-09-30 0000906163 us-gaap:CorporateNonSegmentMember 2026-01-01 2026-09-30 0000906163 us-gaap:CorporateNonSegmentMember 2025-01-01 2025-09-30 0000906163 nvr:CorporateAndReconcilingItemsMember 2026-07-01 2026-09-30 0000906163 nvr:CorporateAndReconcilingItemsMember 2025-07-01 2025-09-30 0000906163 nvr:CorporateAndReconcilingItemsMember 2026-01-01 2026-09-30 0000906163 nvr:CorporateAndReconcilingItemsMember 2025-01-01 2025-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember us-gaap:OperatingSegmentsMember 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidAtlanticMember us-gaap:OperatingSegmentsMember 2025-12-31 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember us-gaap:OperatingSegmentsMember 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:NorthEastMember us-gaap:OperatingSegmentsMember 2025-12-31 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember us-gaap:OperatingSegmentsMember 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:MidEastMember us-gaap:OperatingSegmentsMember 2025-12-31 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember us-gaap:OperatingSegmentsMember 2026-09-30 0000906163 nvr:HomeBuildingSegmentMember nvr:SouthEastMember us-gaap:OperatingSegmentsMember 2025-12-31 0000906163 nvr:MortgageBankingSegmentMember us-gaap:OperatingSegmentsMember 2026-09-30 0000906163 nvr:MortgageBankingSegmentMember us-gaap:OperatingSegmentsMember 2025-12-31 0000906163 us-gaap:OperatingSegmentsMember 2026-09-30 0000906163 us-gaap:OperatingSegmentsMember 2025-12-31 0000906163 us-gaap:MaterialReconcilingItemsMember 2026-09-30 0000906163 us-gaap:MaterialReconcilingItemsMember 2025-12-31 0000906163 us-gaap:EmployeeStockOptionMember 2026-01-01 2026-09-30 0000906163 srt:MinimumMember 2026-01-01 2026-09-30 0000906163 srt:MaximumMember 2026-01-01 2026-09-30 0000906163 us-gaap:EmployeeStockOptionMember 2026-04-01 2026-06-30 0000906163 us-gaap:RestrictedStockUnitsRSUMember 2026-04-01 2026-06-30 0000906163 us-gaap:RestrictedStockUnitsRSUMember 2026-01-01 2026-09-30 0000906163 us-gaap:EmployeeStockMember nvr:TwoThousandEighteenEquityPlanMember 2026-01-01 2026-09-30 0000906163 nvr:EmployeePerformanceBasedStockOptionMember nvr:TwoThousandEighteenEquityPlanMember 2026-01-01 2026-09-30 0000906163 nvr:TwoThousandEighteenEquityPlanMember 2026-01-01 2026-09-30 0000906163 us-gaap:RestrictedStockUnitsRSUMember nvr:TwoThousandEighteenEquityPlanMember 2026-01-01 2026-09-30 0000906163 nvr:PerformanceBasedRestrictedStockUnitMember nvr:TwoThousandEighteenEquityPlanMember 2026-01-01 2026-09-30 0000906163 us-gaap:EmployeeStockMember 2025-12-31 0000906163 us-gaap:EmployeeStockOptionMember 2025-12-31 0000906163 us-gaap:EmployeeStockMember 2026-01-01 2026-09-30 0000906163 us-gaap:EmployeeStockOptionMember 2026-09-30 0000906163 us-gaap:EmployeeStockMember 2026-09-30 0000906163 us-gaap:RestrictedStockUnitsRSUMember 2025-12-31 0000906163 us-gaap:RestrictedStockUnitsRSUMember 2026-09-30 0000906163 us-gaap:RestrictedStockMember 2026-09-30 0000906163 nvr:A600MSeniorNotesDueTwoThousandThirtyMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000906163 nvr:A600MSeniorNotesDueTwoThousandThirtyMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000906163 us-gaap:InterestRateLockCommitmentsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000906163 us-gaap:InterestRateLockCommitmentsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000906163 us-gaap:ForwardContractsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000906163 us-gaap:ForwardContractsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000906163 us-gaap:InterestRateLockCommitmentsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-07-01 2026-09-30 0000906163 us-gaap:InterestRateLockCommitmentsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-01-01 2025-12-31 0000906163 us-gaap:ForwardContractsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-07-01 2026-09-30 0000906163 us-gaap:ForwardContractsMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-01-01 2025-12-31 0000906163 nvr:MortgagesHeldForSaleMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000906163 nvr:MortgagesHeldForSaleMember nvr:MortgageBankingSegmentMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000906163 nvr:SeniorNotesDueTwoThousandThirtyMember 2026-01-01 2026-09-30 0000906163 nvr:A600MSeniorNotesDueTwoThousandThirtyMember 2026-09-30 0000906163 nvr:A300MSeniorNotesDueTwoThousandThirtyMember 2026-09-30 0000906163 us-gaap:RevolvingCreditFacilityMember nvr:CreditAgreementMember 2026-09-30 0000906163 us-gaap:RevolvingCreditFacilityMember nvr:CreditAgreementMember 2026-01-01 2026-09-30 0000906163 nvr:SublimitForIssuanceOfLettersOfCreditMember us-gaap:RevolvingCreditFacilityMember nvr:CreditAgreementMember 2026-09-30 0000906163 us-gaap:RevolvingCreditFacilityMember nvr:RepurchaseAgreementMember 2026-09-30 
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ Washington, D.C. 20549 
+ FORM 10-Q 
+ (Mark One) 
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+ For the quarterly period ended September 30, 2026 
+ OR 
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+ For the transition period from ____ to ____ 
+ Commission File Number: 1-12378 
+ NVR, Inc. 
+ (Exact name of registrant as specified in its charter) 
+ Virginia 54-1394360 
+ (State or other jurisdiction of
+incorporation or organization) (I.R.S. Employer
+Identification No.) 
+ 1900 Oracle Way , Suite 300 
+ Reston , Virginia 20190 
+ ( 703 ) 956-4000 
+ (Address, including zip code, and telephone number, including area code, of registrant's principal executive offices) 
+ 11700 Plaza America Drive , Suite 500 
+ Reston , Virginia 20190 
+ (Former name, former address, and former fiscal year if changed since last report) 
+ Securities registered pursuant to Section 12(b) of the Act: 
+ Title of each class Trading Symbol(s) Name of each exchange on which registered 
+ Common stock, par value $0.01 per share NVR New York Stock Exchange 
+ Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ 
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes ☒ No ☐ 
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. 
+ Large accelerated filer ☒ Accelerated filer ☐ 
+ Non-accelerated filer ☐ Smaller reporting company ☐ 
+ Emerging growth company ☐ 
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ 
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒ 
+ As of October 31, 2026 there were 2,645,788 shares of common stock outstanding. 
+ NVR, Inc. 
+ F ORM 10-Q 
+ T ABLE OF C ONTENTS 
+ Page 
+ PART I 
+ FINANCIAL INFORMATION 
+ 1 
+ Item 1. 
+ Condensed Consolidated Financial Statements 
+ 1 
+ Condensed Consolidated Balance Sheets (unaudited) 
+ 1 
+ Condensed Consolidated Statements of Income (unaudited) 
+ 3 
+ Condensed Consolidated Statements of Cash Flows (unaudited) 
+ 4 
+ Notes to Condensed Consolidated Financial Statements (unaudited) 
+ 5 
+ Item 2. 
+ Management's Discussion and Analysis of Financial Condition and Results of Operations 
+ 21 
+ Item 3. 
+ Quantitative and Qualitative Disclosure About Market Risk 
+ 35 
+ Item 4. 
+ Controls and Procedures 
+ 36 
+ PART II 
+ OTHER INFORMATION 
+ 37 
+ Item 1. 
+ Legal Proceedings 
+ 37 
+ Item 1A. 
+ Risk Factors 
+ 37 
+ Item 2. 
+ Unregistered Sales of Equity Securities and Use of Proceeds 
+ 37 
+ Item 5. Other Information 
+ 37 
+ Item 6. 
+ Exhibits 
+ 38 
+ SIGNATURE 
+ 39 
+ PART I. FINANCIAL INFORMATION 
+ Item 1. Financial Statements 
+ NVR, Inc. 
+ Condensed Consolidated Balance Sheets 
+ (in thousands, except share and per share data) 
+ (unaudited) 
+ September 30, 2026 December 31, 2025 
+ ASSETS 
+ Homebuilding: 
+ Cash and cash equivalents $ 1,091,315 $ 1,883,844 
+ Restricted cash 37,549 34,348 
+ Receivables 54,560 32,742 
+ Inventory: 
+ Lots and housing units, covered under sales agreements with customers 1,941,337 1,410,695 
+ Unsold lots and housing units 384,837 252,029 
+ Land under development 21,792 39,312 
+ Building materials and other 24,821 21,524 
+ 2,372,787 1,723,560 
+ Contract land deposits, net 916,747 851,458 
+ Property, plant and equipment, net 109,860 103,770 
+ Operating lease right-of-use assets 120,701 110,535 
+ Other assets 359,355 349,306 
+ 5,062,874 5,089,563 
+ Mortgage Banking: 
+ Cash and cash equivalents 34,071 32,642 
+ Restricted cash 6,596 6,047 
+ Mortgage loans held for sale, net 346,874 571,596 
+ Property and equipment, net 7,256 7,727 
+ Operating lease right-of-use assets 21,741 23,953 
+ Other assets 86,538 125,402 
+ 503,076 767,367 
+ Total assets $ 5,565,950 $ 5,856,930 
+ See notes to condensed consolidated financial statements. 
+ 1 
+ NVR, Inc. 
+ Condensed Consolidated Balance Sheets (Continued) 
+ (in thousands, except share and per share data) 
+ (unaudited) 
+ September 30, 2026 December 31, 2025 
+ LIABILITIES AND SHAREHOLDERS' EQUITY 
+ Homebuilding: 
+ Accounts payable $ 365,207 $ 259,244 
+ Accrued expenses and other liabilities 306,013 376,976 
+ Customer deposits 285,364 249,210 
+ Operating lease liabilities 136,289 117,589 
+ Senior notes 907,659 909,160 
+ 2,000,532 1,912,179 
+ Mortgage Banking: 
+ Accounts payable and other liabilities 106,690 53,738 
+ Operating lease liabilities 23,735 26,144 
+ 130,425 79,882 
+ Total liabilities 2,130,957 1,992,061 
+ Commitments and contingencies 
+ Shareholders' equity: 
+ Common stock, $ 0.01 par value; 60,000,000 shares authorized; 20,555,330 shares issued as of both September 30, 2026 and December 31, 2025 
+ 206 206 
+ Additional paid-in capital 3,255,240 3,155,367 
+ Deferred compensation trust – 106,697 shares of NVR, Inc. common stock as of both September 30, 2026 and December 31, 2025 
+ ( 16,710 ) ( 16,710 ) 
+ Deferred compensation liability 16,710 16,710 
+ Retained earnings 17,070,191 16,386,769 
+ Less treasury stock at cost – 17,911,054 and 17,755,943 shares as of September 30, 2026 and December 31, 2025, respectively 
+ ( 16,890,644 ) ( 15,677,473 ) 
+ Total shareholders' equity 3,434,993 3,864,869 
+ Total liabilities and shareholders' equity $ 5,565,950 $ 5,856,930 
+ See notes to condensed consolidated financial statements. 
+ 2 
+ Table of Contents 
+ NVR, Inc. 
+ Condensed Consolidated Statements of Income 
+ (in thousands, except per share data) 
+ (unaudited) 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Homebuilding: 
+ Revenues $ 2,349,284 $ 2,560,343 $ 6,463,934 $ 7,459,055 
+ Other income 12,209 22,000 52,353 73,800 
+ Cost of sales ( 1,920,068 ) ( 2,021,398 ) ( 5,235,824 ) ( 5,856,756 ) 
+ Selling, general and administrative ( 135,017 ) ( 142,736 ) ( 442,709 ) ( 457,023 ) 
+ Interest expense ( 6,692 ) ( 6,855 ) ( 20,244 ) ( 20,721 ) 
+ Homebuilding income 299,716 411,354 817,510 1,198,355 
+ Mortgage Banking: 
+ Mortgage banking fees 53,146 49,162 145,915 152,296 
+ Interest income 4,293 4,881 11,905 13,180 
+ Other income 1,271 1,400 3,340 3,794 
+ General and administrative ( 23,470 ) ( 22,397 ) ( 72,750 ) ( 73,515 ) 
+ Interest expense ( 268 ) ( 327 ) ( 897 ) ( 900 ) 
+ Mortgage banking income 34,972 32,719 87,513 94,855 
+ Income before taxes 334,688 444,073 905,023 1,293,210 
+ Income tax expense ( 86,083 ) ( 101,385 ) ( 221,601 ) ( 317,209 ) 
+ Net income $ 248,605 $ 342,688 $ 683,422 $ 976,001 
+ Basic earnings per share $ 93.49 $ 119.26 $ 251.99 $ 333.86 
+ Diluted earnings per share $ 89.45 $ 112.33 $ 240.54 $ 315.33 
+ Basic weighted average shares outstanding 2,659 2,874 2,712 2,923 
+ Diluted weighted average shares outstanding 2,779 3,051 2,841 3,095 
+ See notes to condensed consolidated financial statements. 
+ 3 
+ Table of Contents 
+ NVR, Inc. 
+ Condensed Consolidated Statements of Cash Flows 
+ (in thousands) 
+ (unaudited) 
+ Nine Months Ended September 30, 
+ 2026 2025 
+ Cash flows from operating activities: 
+ Net income $ 683,422 $ 976,001 
+ Adjustments to reconcile net income to net cash provided by operating activities: 
+ Depreciation and amortization 19,829 17,567 
+ Equity-based compensation expense 55,386 53,695 
+ Contract land deposit impairments, net 55,435 40,138 
+ Gain on sale of loans, net ( 120,204 ) ( 121,975 ) 
+ Mortgage loans closed ( 3,797,978 ) ( 4,532,399 ) 
+ Mortgage loans sold and principal payments on mortgage loans held for sale 4,171,987 4,646,571 
+ Net change in assets and liabilities: 
+ Increase in inventory ( 649,226 ) ( 72,718 ) 
+ Increase in contract land deposits ( 120,724 ) ( 181,771 ) 
+ Decrease (increase) in receivables 11,436 ( 10,899 ) 
+ Increase (decrease) in accounts payable and accrued expenses 71,657 ( 81,116 ) 
+ Increase (decrease) in customer deposits 36,154 ( 45,575 ) 
+ Other, net ( 5,078 ) ( 5,927 ) 
+ Net cash provided by operating activities 412,096 681,592 
+ Cash flows from investing activities: 
+ Investments in and advances to unconsolidated joint ventures ( 12,306 ) ( 37,281 ) 
+ Proceeds from the sale of ownership interest in unconsolidated joint ventures 21,559 — 
+ Purchase of property, plant and equipment ( 29,879 ) ( 20,808 ) 
+ Proceeds from the sale of property, plant and equipment 425 715 
+ Net cash used in investing activities ( 20,201 ) ( 57,374 ) 
+ Cash flows from financing activities: 
+ Purchase of treasury stock ( 1,242,774 ) ( 1,331,212 ) 
+ Principal payments on finance lease liabilities ( 5,026 ) ( 3,412 ) 
+ Proceeds from the exercise of stock options 68,555 69,343 
+ Net cash used in financing activities ( 1,179,245 ) ( 1,265,281 ) 
+ Net decrease in cash, restricted cash, and cash equivalents ( 787,350 ) ( 641,063 ) 
+ Cash, restricted cash, and cash equivalents, beginning of the period 1,956,881 2,664,667 
+ Cash, restricted cash, and cash equivalents, end of the period $ 1,169,531 $ 2,023,604 
+ Supplemental disclosures of cash flow information: 
+ Interest paid during the period, net of interest capitalized $ 15,550 $ 15,546 
+ Income taxes paid during the period, net of refunds $ 265,213 $ 354,638 
+ See notes to condensed consolidated financial statements. 
+ 4 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ 1. Significant Accounting Policies 
+ Basis of Presentation 
+ The accompanying unaudited, condensed consolidated financial statements include the accounts of NVR, Inc. and its subsidiaries (“NVR”, the “Company”, "we", "us" or "our") and certain other entities in which the Company is deemed to be the primary beneficiary (see Notes 2 and 3 to the accompanying condensed consolidated financial statements). Intercompany accounts and transactions have been eliminated in consolidation. The statements have been prepared in conformity with accounting principles generally accepted in the United States of America (“GAAP”) for interim financial information and with the instructions to Form 10-Q and Regulation S-X. Accordingly, they do not include all of the information and footnotes required by GAAP for complete financial statements. Because the accompanying condensed consolidated financial statements do not include all of the information and footnotes required by GAAP, they should be read in conjunction with the financial statements and notes thereto included in our Annual Report on Form 10-K for the year ended December 31, 2025. In the opinion of management, all adjustments (consisting only of normal recurring accruals except as otherwise noted herein) considered necessary for a fair presentation have been included. Operating results for the three and nine months ended September 30, 2026 are not necessarily indicative of the results that may be expected for the year ending December 31, 2026. 
+ The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates. 
+ For the three and nine months ended September 30, 2026 and 2025, comprehensive income equaled net income; therefore, a separate statement of comprehensive income is not included in the accompanying condensed consolidated financial statements. 
+ Revenue Recognition 
+ Homebuilding revenue is recognized on the settlement date at the contract sales price, when control is transferred to our customers. Our contract liabilities, which consist of deposits received from customers on homes not settled, were $ 285,364 and $ 249,210 as of September 30, 2026 and December 31, 2025, respectively. Substantially all customer deposits are recognized in revenue within twelve months of being received from customers. Our contract assets consisting of prepaid sales compensation, totaled approximately $ 23,200 and $ 16,300 as of September 30, 2026 and December 31, 2025, respectively. These amounts are included in homebuilding “Other assets” on the accompanying condensed consolidated balance sheets. 
+ Recently Issued Accounting Pronouncements 
+ In November 2024, the Financial Accounting Standards Board ("FASB") issued Accounting Standards Update ("ASU") 2024-03, "Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses," requiring public entities to disclose additional information about specific expense categories in the notes to the financial statements on an interim and annual basis. ASU 2024-03 is effective for fiscal years beginning after December 15, 2026, and for interim periods beginning after December 15, 2027, with early adoption permitted. The Company is currently evaluating the impact that the adoption of ASU 2024-03 will have on our consolidated financial statements and related disclosures. 
+ 5 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ 2. Variable Interest Entities ("VIEs") 
+ We generally do not engage in land development. Instead, we typically acquire finished building lots at market prices from various third party land development entities under lot purchase agreements (" LPAs"). The LPAs require deposits that may be forfeited if we fail to perform under the LPAs. The deposits required under the LPAs are in the form of cash or letters of credit in varying amounts, and typically range up to 10 % of the aggregate purchase price of the finished lots. 
+ The deposit placed by us pursuant to the LPA is deemed to be a variable interest in the respective development entities. Those development entities are deemed to be VIEs. Therefore, the development entities with which we enter into LPAs, including the joint venture limited liability corporations discussed below, are evaluated for possible consolidation by us. We have concluded that we are not the primary beneficiary of the development entities with which we enter into LPAs, and therefore, we do not consolidate any of these VIEs. 
+ As of September 30, 2026, we controlled approximately 176,000 lots under LPAs with third parties through deposits in cash and letters of credit totaling approximately $ 1,026,400 and $ 9,900 , respectively. Our sole legal obligation and economic loss for failure to perform under these LPAs is limited to the amount of the deposit pursuant to the liquidated damage provisions contained in the LPAs and, in very limited circumstances, specific performance obligations. For the three and nine months ended September 30, 2026, we incurred pre-tax impairment charges on lot deposits of approximately $ 24,800 and $ 55,400 , respectively. For the three and nine months ended September 30, 2025, we incurred pre-tax impairment charges of approximately $ 18,900 and $ 40,100 , respectively. Our contract land deposit asset is shown net of a $ 156,392 and $ 110,958 impairment allowance as of September 30, 2026 and December 31, 2025, respectively. 
+ In addition, we have certain properties under contract with land owners that are expected to yield approximately 38,700 lots, which are not included in the number of total lots controlled. Some of these properties may require rezoning or other approvals to achieve the expected yield. These properties are controlled with cash deposits totaling approximately $ 46,700 as of September 30, 2026, of which approximately $ 13,000 is refundable if certain contractual conditions are not met. We generally expect to assign the raw land contracts to a land developer and simultaneously enter into an LPA with the assignee if the project is determined to be feasible. 
+ Our total risk of loss related to contract land deposits as of September 30, 2026 and December 31, 2025 was as follows: 
+ September 30, 2026 December 31, 2025 
+ Contract land deposits $ 1,073,139 $ 962,416 
+ Allowance for losses on contract land deposits 
+ ( 156,392 ) ( 110,958 ) 
+ Contract land deposits, net 916,747 851,458 
+ Contingent obligations in the form of letters of credit 9,871 4,565 
+ Total risk of loss $ 926,618 $ 856,023 
+ 3. Joint Ventures 
+ On a limited basis, we acquire finished lots using joint venture limited liability corporations (“JVs”). The JVs are typically structured such that we are a non-controlling member and are at risk only for the amount we have invested, or have committed to invest, in addition to any deposits placed under LPAs with the joint venture. We are not a borrower, guarantor or obligor on any debt of the JVs, as applicable. We enter into LPAs to purchase lots from these JVs, and as a result have a variable interest in these JVs. We determined that we are not the primary beneficiary in any of the JVs because we and the other JV partner either share power or the other JV partner has the controlling financial interest. 
+ 6 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ During the first quarter of 2026, we sold our ownership interest in one of our JVs to a developer for approximately $ 21,800 . In conjunction with the sale, we entered into an LPA with the developer for the option to purchase the finished lots expected to be developed. 
+ As of September 30, 2026, we had an aggregate investment totaling approximately $ 80,200 in four JVs that are expected to produce approximately 7,850 finished lots, all of which were controlled by us. We had additional JV funding commitments totaling approximately $ 19,500 as of September 30, 2026. As of December 31, 2025, our aggregate investment in JVs totaled approximately $ 78,100 . Investments in JVs for the respective periods are reported in the homebuilding "Other assets" line item on the accompanying condensed consolidated balance sheets. None of the JVs had any indicators of impairment as of September 30, 2026. 
+ We recognize income from the JVs as a reduction to the lot cost of the lots purchased from the respective JVs when the homes are settled, based on the expected total profitability and the total number of lots expected to be produced by the respective JVs. 
+ We classify distributions received from unconsolidated JVs using the cumulative earnings approach. As a result, distributions received up to the amount of cumulative earnings recognized by us are reported as distributions of earnings and those in excess of that amount are reported as a distribution of capital. These distributions are classified within the accompanying condensed consolidated statements of cash flows as cash flows from operating activities and investing activities, respectively. 
+ 4. Land Under Development 
+ On a limited basis, we directly acquire raw land parcels already zoned for its intended use to develop into finished lots. Land under development includes the land acquisition costs, direct improvement costs, capitalized interest, where applicable, and real estate taxes. 
+ During the first quarter of 2026, we sold a land parcel to a developer for approximately $ 24,500 . In conjunction with the sale, we entered into an LPA with the developer for the option to purchase the finished lots expected to be developed from the parcel. 
+ As of September 30, 2026, we owned land with a carrying value of $ 21,792 , expected to produce approximately 1,450 finished lots. As of December 31, 2025, the carrying value of land under development was $ 39,312 . None of the raw parcels had any indicators of impairment as of September 30, 2026. 
+ 7 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ 5. Earnings per Share 
+ The following weighted average shares and share equivalents were used to calculate basic and diluted earnings per share ("EPS") for the three and nine months ended September 30, 2026 and 2025: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Weighted average number of shares outstanding used to calculate basic EPS 2,659,137 2,873,501 2,712,144 2,923,371 
+ Dilutive securities: 
+ Stock options and restricted share units 120,265 177,219 129,016 171,816 
+ Weighted average number of shares and share equivalents outstanding used to calculate diluted EPS 2,779,402 3,050,720 2,841,160 3,095,187 
+ The following non-qualified stock options ("Options") and restricted share units ("RSUs") issued under equity incentive plans were outstanding during the three and nine months ended September 30, 2026 and 2025, but were not included in the computation of diluted EPS because the effect would have been anti-dilutive. 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Anti-dilutive securities 56,480 8,128 56,550 8,488 
+ 6. Shareholders’ Equity 
+ A summary of changes in shareholders’ equity for the three months ended September 30, 2026 is presented below: 
+ Common
+Stock Additional
+Paid-In
+Capital Retained
+Earnings Treasury
+Stock Deferred
+Compensation
+Trust Deferred
+Compensation
+Liability Total 
+ Balance, June 30, 2026 $ 206 $ 3,223,670 $ 16,821,586 $ ( 16,654,266 ) $ ( 16,710 ) $ 16,710 $ 3,391,196 
+ Net income — — 248,605 — — — 248,605 
+ Purchase of common stock for treasury — — — ( 239,385 ) — — ( 239,385 ) 
+ Equity-based compensation — 22,806 — — — — 22,806 
+ Proceeds from Options exercised — 11,771 — — — — 11,771 
+ Treasury stock issued upon Option exercise — ( 3,007 ) — 3,007 — — — 
+ Balance, September 30, 2026 $ 206 $ 3,255,240 $ 17,070,191 $ ( 16,890,644 ) $ ( 16,710 ) $ 16,710 $ 3,434,993 
+ 8 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ A summary of changes in shareholders’ equity for the nine months ended September 30, 2026 is presented below: 
+ Common
+Stock Additional
+Paid-In
+Capital Retained
+Earnings Treasury
+Stock Deferred
+Compensation
+Trust Deferred
+Compensation
+Liability Total 
+ Balance, December 31, 2025 $ 206 $ 3,155,367 $ 16,386,769 $ ( 15,677,473 ) $ ( 16,710 ) $ 16,710 $ 3,864,869 
+ Net income — — 683,422 — — — 683,422 
+ Purchase of common stock for treasury — — — ( 1,237,239 ) — — ( 1,237,239 ) 
+ Equity-based compensation — 55,386 — — — — 55,386 
+ Proceeds from Options exercised — 68,555 — — — — 68,555 
+ Treasury stock issued upon Option exercise and RSU vesting — ( 24,068 ) — 24,068 — — — 
+ Balance, September 30, 2026 $ 206 $ 3,255,240 $ 17,070,191 $ ( 16,890,644 ) $ ( 16,710 ) $ 16,710 $ 3,434,993 
+ We repurchased 37,088 and 181,984 shares of our outstanding common stock during the three and nine months ended September 30, 2026, respectively. We settle Option exercises and vesting of RSUs by issuing shares of treasury stock. We issued 3,211 and 26,873 shares from the treasury account during the three and nine months ended September 30, 2026, respectively, in settlement of Option exercises and vesting of RSUs. Shares are relieved from the treasury account based on the weighted average cost basis of treasury shares. 
+ A summary of changes in shareholders’ equity for the three months ended September 30, 2025 is presented below: 
+ Common
+Stock Additional
+Paid-In
+Capital Retained
+Earnings Treasury
+Stock Deferred
+Compensation
+Trust Deferred
+Compensation
+Liability Total 
+ Balance, June 30, 2025 $ 206 $ 3,085,904 $ 15,680,266 $ ( 14,921,245 ) $ ( 16,710 ) $ 16,710 $ 3,845,131 
+ Net income — — 342,688 — — — 342,688 
+ Purchase of common stock for treasury — — — ( 278,094 ) — — ( 278,094 ) 
+ Equity-based compensation — 17,356 — — — — 17,356 
+ Proceeds from Options exercised — 39,681 — — — — 39,681 
+ Treasury stock issued upon Option exercise — ( 10,961 ) — 10,961 — — — 
+ Balance, September 30, 2025 $ 206 $ 3,131,980 $ 16,022,954 $ ( 15,188,378 ) $ ( 16,710 ) $ 16,710 $ 3,966,762 
+ 9 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ A summary of changes in shareholders’ equity for the nine months ended September 30, 2025 is presented below: 
+ Common
+Stock Additional
+Paid-In
+Capital Retained
+Earnings Treasury
+Stock Deferred
+Compensation
+Trust Deferred
+Compensation
+Liability Total 
+ Balance, December 31, 2024 $ 206 $ 3,031,637 $ 15,046,953 $ ( 13,868,724 ) $ ( 16,710 ) $ 16,710 4,210,072 
+ Net income — — 976,001 — — — 976,001 
+ Purchase of common stock for treasury — — — ( 1,342,349 ) — — ( 1,342,349 ) 
+ Equity-based compensation — 53,695 — — — — 53,695 
+ Proceeds from Options exercised — 69,343 — — — — 69,343 
+ Treasury stock issued upon Option exercise and RSU vesting 
+ — ( 22,695 ) — 22,695 — — — 
+ Balance, September 30, 2025 $ 206 $ 3,131,980 $ 16,022,954 $ ( 15,188,378 ) $ ( 16,710 ) $ 16,710 $ 3,966,762 
+ We repurchased 35,224 and 178,178 shares of our outstanding common stock during the three and nine months ended September 30, 2025, respectively. We issued 12,908 and 27,433 shares from the treasury account during the three and nine months ended September 30, 2025, respectively, in settlement of Option exercises and vesting of RSUs. Shares are relieved from the treasury account based on the weighted average cost basis of treasury shares. 
+ 7. Product Warranties 
+ We establish warranty and product liability reserves (“Warranty Reserve”) to provide for estimated future expenses as a result of construction and product defects, product recalls and litigation incidental to our homebuilding business. Liability estimates are determined based on management’s judgment, considering such factors as historical experience, the estimated current cost of corrective action, manufacturers’ and subcontractors’ participation in sharing the cost of corrective action, consultations with third party experts such as engineers, and discussions with our general counsel and outside counsel retained to handle specific product liability cases. The warranty reserve for the respective periods is reported in the homebuilding “Accrued expenses and other liabilities” line item on the accompanying condensed consolidated balance sheets. 
+ The following table reflects the changes in our Warranty Reserve during the three and nine months ended September 30, 2026 and 2025: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Warranty reserve, beginning of period $ 110,092 $ 127,440 $ 116,561 $ 133,095 
+ Provision 13,708 20,989 42,537 58,888 
+ Payments ( 19,957 ) ( 23,578 ) ( 55,255 ) ( 67,132 ) 
+ Warranty reserve, end of period $ 103,843 $ 124,851 $ 103,843 $ 124,851 
+ 8. Segment Disclosures 
+ We disclose four homebuilding operating and reportable segments that aggregate geographically our homebuilding divisions, and we present our mortgage banking operations as a single reportable segment. The 
+ 10 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ homebuilding reportable segments are comprised of divisions in the following geographic areas: 
+ Mid Atlantic: Maryland, Virginia, West Virginia, Delaware and Washington, D.C 
+ North East: New Jersey and Eastern Pennsylvania 
+ Mid East: New York, Ohio, Western Pennsylvania, Indiana and Illinois 
+ South East: North Carolina, South Carolina, Florida, Tennessee, Georgia and Kentucky 
+ The Company's Chief Operating Decision Maker ("CODM"), identified as the Chief Executive Officer, utilizes segment profit to evaluate the performance of the Company's homebuilding and mortgage banking operating segments against the annual plan to make resource allocation decisions. 
+ Homebuilding segment profit includes all revenues and income generated from the sale of homes, less the cost of homes sold, selling, general and administrative expenses and a corporate capital allocation charge. The corporate capital allocation charge is eliminated in consolidation and is based on the segment’s average net assets employed. The corporate capital allocation charged to the operating segment allows the CODM to determine whether the operating segment’s results are providing the desired rate of return after covering our cost of capital. 
+ Assets not allocated to the operating segments are not included in either the operating segment’s corporate capital allocation charge or the CODM’s evaluation of the operating segment’s performance. We record charges on contract land deposits when it is determined that it is probable that recovery of the deposit is impaired. For segment reporting purposes, impairments on contract land deposits are charged to the operating segment upon the termination of an LPA with the developer, or the restructuring of an LPA resulting in the forfeiture of the deposit. 
+ Mortgage banking segment profit before tax consists of revenues generated from mortgage financing, title insurance and closing services, less the costs of such services and general and administrative costs, including certain corporate overhead functions. Mortgage banking operations are not charged a corporate capital allocation charge. 
+ In addition to the corporate capital allocation and contract land deposit impairments discussed above, the other reconciling items between segment profit and consolidated profit before taxes include unallocated corporate overhead (including all management incentive compensation), equity-based compensation expense, consolidation adjustments and external corporate interest income and expense. Our overhead functions such as accounting, treasury and human resources are centrally performed and the costs are not allocated to our homebuilding operating segments. Consolidation adjustments consist of such items necessary to convert the reportable segments’ results, which are predominantly maintained on a cash basis, to a full accrual basis for external financial statement presentation purposes, and are not allocated to our operating segments. External corporate interest expense primarily consists of interest charges on our 3.00 % Senior Notes due 2030 (the “Senior Notes”), which are not charged to the operating segments because the charges are included in the corporate capital allocation discussed above. 
+ The following tables present certain segment financial data with reconciliations to the amounts reported for the consolidated company, where applicable: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Revenues: 
+ Homebuilding Mid Atlantic $ 895,495 $ 1,039,957 $ 2,513,053 $ 3,251,066 
+ Homebuilding North East 287,985 291,753 809,292 889,508 
+ Homebuilding Mid East 471,384 508,798 1,235,275 1,371,160 
+ Homebuilding South East 694,420 719,835 1,906,314 1,947,321 
+ Mortgage Banking 53,146 49,162 145,915 152,296 
+ Total consolidated revenues $ 2,402,430 $ 2,609,505 $ 6,609,849 $ 7,611,351 
+ 11 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Segment cost of sales 
+ Homebuilding Mid Atlantic $ ( 708,013 ) $ ( 796,238 ) $ ( 1,977,475 ) $ ( 2,481,372 ) 
+ Homebuilding North East ( 227,112 ) ( 215,063 ) ( 632,890 ) ( 655,666 ) 
+ Homebuilding Mid East ( 377,891 ) ( 398,371 ) ( 985,451 ) ( 1,082,109 ) 
+ Homebuilding South East ( 575,877 ) ( 590,149 ) ( 1,574,855 ) ( 1,582,472 ) 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Segment selling, general & administrative expense: 
+ Homebuilding Mid Atlantic $ ( 38,991 ) $ ( 37,832 ) $ ( 115,785 ) $ ( 112,559 ) 
+ Homebuilding North East ( 11,157 ) ( 12,373 ) ( 32,764 ) ( 34,907 ) 
+ Homebuilding Mid East ( 20,596 ) ( 21,215 ) ( 60,261 ) ( 61,645 ) 
+ Homebuilding South East ( 38,012 ) ( 40,598 ) ( 112,754 ) ( 119,526 ) 
+ Mortgage Banking 
+ ( 22,164 ) ( 21,910 ) ( 69,584 ) ( 70,633 ) 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Corporate capital allocation charge: 
+ Homebuilding Mid Atlantic $ ( 45,490 ) $ ( 38,204 ) $ ( 120,640 ) $ ( 112,350 ) 
+ Homebuilding North East ( 12,256 ) ( 12,383 ) ( 35,199 ) ( 34,275 ) 
+ Homebuilding Mid East ( 13,000 ) ( 12,917 ) ( 36,359 ) ( 36,157 ) 
+ Homebuilding South East ( 34,367 ) ( 33,058 ) ( 96,171 ) ( 93,305 ) 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Other segment items, net 
+ Homebuilding Mid Atlantic $ 664 $ 458 $ 1,371 $ 1,579 
+ Homebuilding North East 538 30 941 379 
+ Homebuilding Mid East 118 136 358 520 
+ Homebuilding South East 578 842 952 2,102 
+ Mortgage Banking (1) 
+ 5,297 5,954 14,348 16,074 
+ (1) This item relates primarily to interest income received on mortgage loans closed and mortgage loans held for sale. 
+ 12 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Segment profit 
+ Homebuilding Mid Atlantic $ 103,665 $ 168,141 $ 300,524 $ 546,364 
+ Homebuilding North East 37,998 51,964 109,380 165,039 
+ Homebuilding Mid East 60,015 76,431 153,562 191,769 
+ Homebuilding South East 46,742 56,872 123,486 154,120 
+ Mortgage Banking 36,279 33,206 90,679 97,737 
+ Total segment profit 
+ 284,699 386,614 777,631 1,155,029 
+ Reconciling items: 
+ Contract land deposit allowance adjustment (2) 
+ ( 24,648 ) ( 18,634 ) ( 55,129 ) ( 39,904 ) 
+ Equity-based compensation expense (3) 
+ ( 22,806 ) ( 17,356 ) ( 55,386 ) ( 53,695 ) 
+ Corporate capital allocation (4) 
+ 105,113 96,562 288,369 276,087 
+ Unallocated corporate overhead ( 17,701 ) ( 26,359 ) ( 110,374 ) ( 116,692 ) 
+ Consolidation adjustments and other (5) 
+ 6,927 10,433 41,761 27,903 
+ Corporate interest income 
+ 9,774 19,654 38,348 65,129 
+ Corporate interest expense 
+ ( 6,670 ) ( 6,841 ) ( 20,197 ) ( 20,647 ) 
+ Reconciling items sub-total 49,989 57,459 127,392 138,181 
+ Consolidated profit before taxes 
+ $ 334,688 $ 444,073 $ 905,023 $ 1,293,210 
+ (2) This item represents changes to the contract land deposit impairment allowance, which are not allocated to the reportable segments. See further discussion of lot deposit impairment charges in Note 2. 
+ (3) This item represents compensation expense for all Option and RSU grants. 
+ (4) This item represents the elimination of the corporate capital allocation charge included in the respective homebuilding reportable segments. The corporate capital allocation charge is based on the segment’s monthly average asset balance. 
+ (5) The consolidation adjustments and other in each period are primarily attributable to changes in units under construction period over period, and any significant changes in material costs, primarily lumber. Our reportable segments' results include the intercompany profits of our production facilities for home packages delivered to our homebuilding divisions. Costs related to homes not yet settled are reversed through the consolidation adjustment and recorded in inventory. These costs are subsequently recorded through the consolidation adjustment when the respective homes are settled. 
+ 13 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ September 30, 2026 December 31, 2025 
+ Assets: 
+ Homebuilding Mid Atlantic $ 1,622,518 $ 1,185,864 
+ Homebuilding North East 410,232 374,313 
+ Homebuilding Mid East 470,000 359,826 
+ Homebuilding South East 1,171,123 971,162 
+ Mortgage Banking 495,729 760,020 
+ Total segment assets 4,169,602 3,651,185 
+ Reconciling items (1): 
+ Cash and cash equivalents 1,091,315 1,883,844 
+ Deferred taxes 161,635 143,666 
+ Intangible assets 48,927 48,927 
+ Operating lease right-of-use assets 120,701 110,535 
+ Finance lease right-of-use assets 34,461 39,080 
+ Contract land deposit allowance 
+ ( 156,392 ) ( 110,958 ) 
+ Consolidation adjustments and other 95,701 90,651 
+ Reconciling items sub-total 1,396,348 2,205,745 
+ Consolidated assets $ 5,565,950 $ 5,856,930 
+ (1) All reconciling items except for the "intangible assets" are related to the Homebuilding Segment only. 
+ 9. Equity-Based Compensation 
+ Our equity-based compensation plans provide for the granting of Options and RSUs to key management employees, including executive officers and members of our Board of Directors ("Directors"). The exercise price of Options granted is equal to the closing price of our common stock on the New York Stock Exchange (the “NYSE”) on the day prior to the date of grant, and Options are granted with a 10 -year term. Both Option and RSU grants typically vest in separate tranches over periods of 3 to 6 years. Grants to key management employees are generally divided such that vesting for 50 % of the grant is contingent solely on continued employment, while vesting for the remaining 50 % of the grant is contingent upon both continued employment and the achievement of a performance metric based on our return on capital performance relative to a peer group during a three year period specified on the date of grant. Grants to Directors vest solely based on continued service as a Director. 
+ During the second quarter of 2026, we issued 44,318 Options and 5,486 RSUs to key management employees and Directors, substantially all of which vest on December 31, 2028. Total Option and RSU grants for the nine month period ended September 30, 2026 totaled 47,274 and 5,976 , respectively, and were granted under the NVR, Inc. 2018 Equity Incentive Plan as follows: 
+ Options Granted 
+ Options - service-only 24,407 
+ Options - performance-based 22,867 
+ Total Options Granted 47,274 
+ RSUs Granted 
+ RSUs - service-only 3,023 
+ RSUs - performance-based 2,953 
+ Total RSUs Granted 5,976 
+ 14 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ All Options were granted at an exercise price equal to the closing price of the Company’s common stock on the day prior to the date of grant, and expire ten years from the date of grant. 
+ The following table provides additional information relative to our equity-based compensation plans for the nine months ended September 30, 2026: 
+ Shares Weighted Avg. Per Share
+Exercise Price Weighted Avg. Remaining
+Contract Life (years) Aggregate
+Intrinsic Value 
+ Stock Options 
+ Outstanding at December 31, 2025 333,292 $ 3,880.52 
+ Granted 47,274 $ 5,835.24 
+ Exercised ( 19,652 ) $ 3,488.45 
+ Forfeited ( 3,736 ) $ 4,980.14 
+ Outstanding at September 30, 2026 357,178 $ 4,149.30 4.6 $ 730,272 
+ Exercisable at September 30, 2026 211,364 $ 3,493.23 3.0 $ 562,473 
+ RSUs 
+ Outstanding at December 31, 2025 16,913 
+ Granted 5,976 
+ Vested ( 7,221 ) 
+ Forfeited ( 204 ) 
+ Outstanding at September 30, 2026 15,464 $ 95,171 
+ Vested, but not issued at September 30, 2026 — — 
+ To estimate the grant-date fair value of our Options, we use the Black-Scholes option-pricing model (the “Pricing Model”). The Pricing Model estimates the per share fair value of an Option on its date of grant based on the following factors: the Option’s exercise price; the price of the underlying stock on the date of grant; the estimated dividend yield; a risk-free interest rate; the estimated Option term; and the expected volatility. For the risk-free interest rate, we use U.S. Treasury STRIPS which mature at approximately the same time as the Option’s expected holding term. For the estimated option life, the assumption is based on the Company's historical Option exercise experience, giving consideration to the contractual term, vesting provisions, and expected employee exercise behavior. For expected volatility, we have concluded that our historical volatility over the Option’s expected holding term provides the most reasonable basis for this estimate. 
+ The fair value of the Options granted during the first nine months of September 30, 2026 was estimated on the grant date using the Pricing Model, based on the following assumptions: 
+ Estimated option life (range) 3.67 - 6.69 
+ Risk free interest rate (range) 3.82 % - 4.45 % 
+ Expected volatility (range) 24.10 % - 28.75 % 
+ Expected dividend rate — % 
+ Weighted average grant-date fair value per share of options granted $ 1,564.44 
+ 15 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ The weighted average grant date fair value per share of $ 5,870.87 for the RSUs was determined based on the closing price of our common stock on the day immediately preceding the date of grant. 
+ Compensation cost for Options and RSUs is recognized on a straight-line basis over the requisite service period for the entire award (from the date of grant through the period of the last separately vesting portion of the grant). For the recognition of equity-based compensation, the Options and RSUs which are subject to a performance condition are treated as a separate award from the “service-only” Options and RSUs, and compensation cost is recognized when it becomes probable that the stated performance target will be achieved. We currently believe that it is probable that the stated performance condition will be satisfied at the target level for all of our performance-based Options and RSUs granted. Compensation cost is recognized within the income statement in the same expense line as the cash compensation paid to the respective employees. 
+ We recognize forfeitures of equity-based awards as a reduction to compensation costs in the period in which they occur. During the three and nine month periods ended September 30, 2026, we recognized $ 22,806 and $ 55,386 in equity-based compensation costs, respectively. During the three and nine month periods ended September 30, 2025, we recognized $ 17,356 and $ 53,695 in equity-based compensation costs, respectively. 
+ As of September 30, 2026, the total unrecognized compensation cost for all outstanding Options and RSUs equaled approximately $ 180,801 . The unrecognized compensation cost will be recognized over each grant’s applicable vesting period with the latest vesting date being December 31, 2031. The weighted-average period over which the unrecognized compensation cost will be recorded is equal to approximately 1.8 years. 
+ 10. Fair Value 
+ GAAP assigns a fair value hierarchy to the inputs used to measure fair value. Level 1 inputs are quoted prices in active markets for identical assets and liabilities. Level 2 inputs are inputs other than quoted market prices that are observable for the asset or liability, either directly or indirectly. Level 3 inputs are unobservable inputs. 
+ Financial Instruments 
+ The estimated fair values of our Senior Notes as of September 30, 2026 and December 31, 2025 were $ 822,528 and $ 852,930 , respectively. The estimated fair value is based on recent market prices of similar transactions, which is classified as Level 2 within the fair value hierarchy. The carrying values as of September 30, 2026 and December 31, 2025 were $ 907,659 and $ 909,160 , respectively. 
+ Due to the short term nature of our cash equivalents, we believe that the differences between their carrying value and fair value are insignificant. 
+ Derivative Instruments and Mortgage Loans Held for Sale 
+ In the normal course of business, our wholly owned subsidiary, NVR Mortgage Finance, Inc. (“NVRM”) enters into contractual commitments to extend credit to homebuyers with fixed expiration dates. The commitments become effective when the borrowers “lock-in” a specified interest rate within time frames established by NVRM, and some of these commitments include a float down option. All borrowers are evaluated for credit worthiness prior to the extension of the commitment. Market risk arises if interest rates move adversely between the time of the “lock-in” of rates by the borrower and the sale date of the loan to an investor. To mitigate the effect of the interest rate risk inherent in providing rate lock commitments to borrowers, NVRM enters into optional or mandatory delivery forward sales contracts to sell whole loans and mortgage-backed securities to investors. The forward sales contracts lock-in a range of interest rates and prices for the sale of loans similar to the specific rate lock commitments. NVRM does not engage in speculative or trading derivative activities. Both the rate lock commitments to borrowers and the forward sales contracts to investors are undesignated derivatives and, accordingly, are marked to fair value through earnings. 
+ 16 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ To calculate the fair value of rate lock commitments, NVRM utilizes applicable published mortgage-backed security prices, and multiplies the price movement between the rate lock date and the balance sheet date by the notional loan commitment amount. NVRM sells its loans primarily on a servicing released basis, and receives a servicing released premium upon sale. Thus, the value of the servicing rights is included in the fair value measurement and is based upon contractual terms with investors and varies depending on the loan type. NVRM assumes a fallout rate when measuring the fair value of rate lock commitments. Fallout is defined as locked loan commitments for which NVRM does not close a mortgage loan and is based on historical experience and market conditions. 
+ The fair value of NVRM’s forward sales contracts to investors solely considers the market price movement of the same type of security between the trade date and the balance sheet date. The market price changes are multiplied by the notional amount of the forward sales contracts to measure the fair value. 
+ Mortgage loans held for sale are recorded at fair value using observable market information including pricing from actual market transactions and investor commitment prices. This approach reduces earnings volatility by matching changes in fair value in mortgage loans held for sale with the offsetting change in fair value of the forward delivery contracts used to economically hedge them. 
+ The fair value measurement of NVRM's undesignated derivative instruments was as follows: 
+ September 30, 2026 December 31, 2025 
+ Rate lock commitments: 
+ Gross assets $ 4,665 $ 37,437 
+ Gross liabilities 23,184 158 
+ Net rate lock commitments $ ( 18,519 ) $ 37,279 
+ Forward sales contracts: 
+ Gross assets $ 25,832 $ 1,348 
+ Gross liabilities 354 1,236 
+ Net forward sales contracts $ 25,478 $ 112 
+ As of September 30, 2026 the net rate lock commitments are reported in mortgage banking “Accounts payable and other liabilities” and the net forward sales contracts are reported in mortgage banking “Other assets” on the accompanying condensed consolidated balance sheets. As of December 31, 2025, the net rate lock commitments and the net forward sales contracts are reported in mortgage banking "Other assets" on the accompanying consolidated balance sheets. 
+ The fair value measurement as of September 30, 2026 and December 31, 2025 was as follows: 
+ September 30, 2026 December 31, 2025 
+ Fair
+Value
+Hierarchy Notional or
+Principal
+Amount Fair
+Value
+Measurement Notional or
+Principal
+Amount Fair
+Value
+Measurement 
+ Rate lock commitments 
+ Level 2 
+ $ 2,227,702 $( 18,519 ) $ 1,707,835 $ 37,279 
+ Forward sales contracts 
+ Level 2 
+ $ 1,923,000 $ 25,478 $ 1,430,400 $ 112 
+ Mortgage loans held for sale 
+ Level 2 
+ $ 356,670 $ 346,874 $ 557,540 $ 571,596 
+ The net gain on sale of loans was $ 43,308 and $ 118,854 for the three and nine month periods ended September 30, 2026, respectively, and $ 38,776 and $ 121,295 for the three and nine month periods ended September 30, 2025 , respectively. These amounts are included in mortgage banking fees in the accompanying consolidated statements of income. These amounts include realized and unrealized gains and losses associated with fair value measurements, rate lock commitments, forward sale contracts and mortgage loans held for sale. 
+ 17 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ 11. Debt 
+ As of September 30, 2026, we had the following debt instruments outstanding: 
+ Senior Notes 
+ Our outstanding Senior Notes have an aggregate principal balance of $ 900,000 , mature on May 15, 2030 and bear interest at 3.00 %, payable semi-annually in arrears on May 15 and November 15 . The Senior Notes are senior unsecured obligations and rank equally in right of payment with any of our existing and future unsecured senior indebtedness. The Senior Notes were issued in three separate issuances, $ 600,000 issued at a discount to yield 3.02 %, and the two additional issuances totaling $ 300,000 issued at a premium to yield 2.00 %. The Senior Notes have been reflected net of the unamortized discount or premium, as applicable, and the unamortized debt issuance costs in the accompanying condensed consolidated balance sheet. 
+ The indenture governing the Senior Notes does not contain any financial covenants; however, it does contain, among other items, and subject to certain exceptions, covenants that restrict our ability to create, incur, assume or guarantee secured debt, enter into sale and leaseback transactions and conditions related to mergers and/or the sale of assets. We were in compliance with all covenants under the Senior Notes as of September 30, 2026. 
+ Credit Agreement 
+ We have an unsecured Credit Agreement (the "Credit Agreement") which provides for aggregate revolving loan commitments of $ 300,000 (the "Facility"). The Credit Agreement has an uncommitted accordion feature allowing the Company to increase the commitment by an additional $ 300,000 , subject to certain conditions and availability of additional Lender commitments. Additionally, the Credit Agreement provides for a $ 100,000 sublimit for the issuance of letters of credit, of which approximately $ 15,400 was outstanding as of September 30, 2026. The Credit Agreement termination date is March 11, 2030. There were no borrowings outstanding under the Facility as of September 30, 2026. 
+ Repurchase Agreement 
+ NVRM provides for its mortgage origination and other operating activities using cash generated from its operations, borrowings from its parent company, NVR, as well as a revolving mortgage repurchase agreement (the “Repurchase Agreement”), which is non-recourse to NVR. The Repurchase Agreement provides for loan purchases up to $ 150,000 , subject to certain sub-limits. Amounts outstanding under the Repurchase Agreement are collateralized by the Company’s mortgage loans held for sale. 
+ Effective July 10, 2026, NVRM entered into the Fifth Amendment to Second Amended and Restated Master Repurchase Agreement with U.S. Bank National Association, as Agent and a Buyer, which extended the term of the Repurchase Agreement through July 8, 2027. All other terms and conditions under the amended Repurchase Agreement remained materially consistent. As of September 30, 2026, there were no borrowing base limitations reducing the amount available under the Repurchase Agreement and there were no borrowings outstanding. 
+ 12. Commitments and Contingencies 
+ We are involved in various litigation arising in the ordinary course of business. In the opinion of management, and based on advice of legal counsel, this litigation is not expected to have a material adverse effect on our financial position, results of operations or cash flows. Legal costs incurred in connection with outstanding litigation are expensed as incurred. 
+ 13. Leases 
+ We have operating leases for our corporate and division offices, production facilities, model homes, and certain office and production equipment. Additionally, we have finance leases for certain production equipment and facilities which are recorded in homebuilding "Property, plant and equipment, net" and "Accrued expenses and other liabilities" on the accompanying condensed consolidated balance sheets. Our finance lease right-of-use 
+ 18 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ ("ROU") assets and finance lease liabilities were $ 34,461 and $ 37,449 , respectively, as of September 30, 2026, and $ 39,080 and $ 42,474 , respectively, as of December 31, 2025. Our leases have remaining lease terms of up to 14.3 years, some of which include options to extend the lease for up to 20 years, and some of which include options to terminate the lease. 
+ We recognize operating lease expense on a straight-line basis over the lease term. We have elected to use the portfolio approach for certain equipment leases which have similar lease terms and payment schedules. Additionally, for certain equipment we account for the lease and non-lease components as a single lease component. Our sublease income is de minimis. 
+ We have certain leases, primarily the leases of model homes, which have initial lease terms of twelve months or less ("Short-term leases"). We elected to exclude these leases from the recognition requirements under Topic 842, and these leases have not been included in our recognized ROU assets and lease liabilities. 
+ The components of lease expense were as follows: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Lease expense 
+ Operating lease expense $ 12,063 $ 10,835 $ 34,450 $ 31,699 
+ Finance lease expense: 
+ Amortization of ROU assets 1,463 1,457 4,617 4,207 
+ Interest on lease liabilities 450 469 1,401 1,391 
+ Short-term lease expense 8,641 7,979 24,893 24,666 
+ Total lease expense $ 22,617 $ 20,740 $ 65,361 $ 61,963 
+ 19 
+ Table of Contents 
+ NVR, Inc. 
+ Notes to Condensed Consolidated Financial Statements 
+ (dollars in thousands, except per share data) 
+ (unaudited) 
+ Other information related to leases was as follows: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Supplemental Cash Flows Information: 
+ Cash paid for amounts included in the measurement of lease liabilities: 
+ Operating cash flows from operating leases $ 9,780 $ 8,342 $ 28,893 $ 24,659 
+ Operating cash flows from finance leases 450 469 1,401 1,391 
+ Financing cash flows from finance leases 2,106 1,193 5,026 3,412 
+ ROU assets obtained in exchange for lease obligations: 
+ Operating leases $ 17,016 $ 8,786 $ 33,404 $ 32,204 
+ Finance leases $ — $ 2,658 $ — $ 5,085 
+ September 30, 2026 December 31, 2025 
+ Weighted-average remaining lease term (in years): 
+ Operating leases 8.3 7.2 
+ Finance leases 7.4 8.6 
+ Weighted-average discount rate: 
+ Operating leases 4.9 % 4.8 % 
+ Finance leases 4.8 % 4.8 % 
+ 14. Income Taxes 
+ Our effective tax rate for the three and nine month periods ended September 30, 2026 was 25.7 % and 24.5 %, respectively, compared to 22.8 % and 24.5 % for the three and nine months ended September 30, 2025, respectively. The effective tax rate for the respective periods is primarily impacted by the income tax benefit recognized for excess tax benefits from stock option exercises, which totaled $ 1,476 and $ 14,943 , for the three and nine months ended September 30, 2026, respectively, compared to $ 13,436 and $ 19,655 for the three and nine months ended September 30, 2025, respectively . 
+ 20 
+ Table of Contents 
+ Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations 
+ (dollars in thousands, except per share data) 
+ Forward-Looking Statements 
+ Some of the statements in this Quarterly Report on Form 10-Q, as well as statements made by us in periodic press releases or other public communications, constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. Certain, but not necessarily all, of such forward-looking statements can be identified by the use of forward-looking terminology, such as “believes,” “expects,” “may,” “will,” “should,” "could," or “anticipates” or the negative thereof or other comparable terminology. All statements other than of historical facts are forward-looking statements. Forward-looking statements contained in this document may include those regarding market trends, our financial position and financial results, business strategy, the outcome of pending litigation, investigations or similar contingencies, projected plans and objectives of management for future operations. Such forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause our actual results or performance to be materially different from future results, performance or achievements expressed or implied by the forward-looking statements. Such risk factors include, but are not limited to the following: general economic and business conditions (on both a national and regional level); interest rate changes; access to suitable financing by us and our customers; increased regulation in the mortgage banking industry; the ability of our mortgage banking subsidiary to sell loans it originates into the secondary market; competition; the availability and cost of land and other raw materials used by us in our homebuilding operations; shortages of labor; the economic impact of a major epidemic or pandemic; weather related slow-downs; building moratoriums; governmental regulation; fluctuation and volatility of stock and other financial markets; mortgage financing availability; and other factors over which we have little or no control. We undertake no obligation to update such forward-looking statements except as required by law. For additional information regarding risk factors and uncertainties, see Part II, Item 1A of this Quarterly Report on Form 10-Q and Part I, Item 1A of our Annual Report on Form 10-K for the fiscal year ended December 31, 2025. 
+ Unless the context otherwise requires, references to “NVR,” “we,” “us,” or “our” include NVR and its consolidated subsidiaries. 
+ 21 
+ Table of Contents 
+ Results of Operations for the Three and Nine Months Ended September 30, 2026 and 2025 
+ Business Environment and Current Outlook 
+ During the third quarter of 2026, demand for new homes weakened further. Demand continued to be negatively impacted by affordability issues, rising mortgage interest rates, increasing home inventory levels in certain markets, weak consumer sentiment and economic volatility. We expect that these issues may continue to weigh on demand and home prices. In addition, homebuilding operations have been negatively impacted by labor capacity issues, elevated cancellation rates and mortgage qualification challenges. We also expect further margin pressure from higher land prices and from repositioning of communities as the housing market continues to adjust to current conditions. Although we are unable to predict the extent to which this will impact our operational and financial performance, we believe that we are well positioned to take advantage of opportunities that may arise from future economic and homebuilding market volatility due to the strength of our balance sheet and our disciplined lot acquisition strategy. 
+ Business 
+ Our primary business is the construction and sale of single-family detached homes, townhomes and condominiums, all of which are primarily constructed on a pre-sold basis. To fully serve customers of our homebuilding operations, we also operate a mortgage banking and title services business. We primarily conduct our operations in mature markets. Additionally, we generally grow our business through market share gains in our existing markets and by expanding into markets contiguous to our current active markets. Our four homebuilding reportable segments consist of the following regions: 
+ Mid Atlantic: Maryland, Virginia, West Virginia, Delaware and Washington, D.C. 
+ North East: New Jersey and Eastern Pennsylvania 
+ Mid East: New York, Ohio, Western Pennsylvania, Indiana and Illinois 
+ South East: North Carolina, South Carolina, Tennessee, Florida, Georgia and Kentucky 
+ Our lot acquisition strategy is predicated upon avoiding the financial requirements and risks associated with direct land ownership and development. We generally do not engage in land development (see discussion below of our land development activities). Instead, we typically acquire finished building lots from various third-party land developers pursuant to fixed price finished lot purchase agreements (“LPAs”). These LPAs require deposits, typically ranging up to 10% of the aggregate purchase price of the finished lots, in the form of cash or letters of credit that may be forfeited if we fail to perform under the LPA. This strategy has allowed us to maximize inventory turnover, which we believe enables us to minimize market risk and to operate with less capital, thereby enhancing rates of return on equity and total capital. 
+ In addition to constructing homes primarily on a pre-sold basis and utilizing what we believe is a conservative lot acquisition strategy, we focus on obtaining and maintaining a leading market position in each market we serve. This strategy allows us to gain valuable efficiencies and competitive advantages in our markets, which we believe contributes to minimizing the adverse effects of regional economic cycles and provides growth opportunities within these markets. Our continued success is contingent upon our ability to control an adequate supply of finished lots on which to build. 
+ In certain specific strategic circumstances, we deviate from our historical lot acquisition strategy and engage in joint venture arrangements with land developers or directly acquire raw ground already zoned for its intended use for development. Once we acquire raw ground, we generally sell the raw parcel to a developer and enter into an LPA with the developer to purchase the finished lots or, on a limited basis, hire a developer to develop the land on our behalf. While joint venture arrangements and direct land development activity are not our preferred method of acquiring finished building lots, we may enter into additional transactions in the future on a limited basis where there exists a compelling strategic or prudent financial reason to do so. We expect, however, to continue to acquire substantially all our finished lot inventory using LPAs with forfeitable deposits. 
+ As of September 30, 2026, we controlled approximately 185,300 lots as described below. 
+ 22 
+ Table of Contents 
+ Lot Purchase Agreements 
+ We controlled approximately 176,000 lots under LPAs with third parties through deposits in cash and letters of credit totaling approximately $1,026,400 and $9,900, respectively. Included in the number of controlled lots are approximately 24,000 lots for which we have recorded a contract land deposit impairment allowance of approximately $156,400 as of September 30, 2026. 
+ Joint Venture Limited Liability Corporations (“JVs”) 
+ We had an aggregate investment totaling approximately $80,200 in four JVs, expected to produce approximately 7,850 lots. We had additional JV funding commitments totaling approximately $19,500 as of September 30, 2026. 
+ Land Under Development 
+ We owned land with a carrying value of approximately $21,800, expected to produce approximately 1,450 finished lots. 
+ See Notes 2, 3 and 4 to the condensed consolidated financial statements included herein for additional information regarding LPAs, JVs and land under development, respectively. 
+ Raw Land Purchase Agreements 
+ In addition, we have certain properties under contract with land owners that are expected to yield approximately 38,700 lots, which are not included in the number of total lots controlled. Some of these properties may require rezoning or other approvals to achieve the expected yield. As of September 30, 2026, these properties are controlled with deposits in cash totaling approximately $46,700, of which approximately $13,000 is refundable if certain contractual conditions are not met. We generally expect to assign the raw land contracts to a land developer and simultaneously enter into an LPA with the assignee if the project is determined to be feasible. 
+ Key Financial Results 
+ Our consolidated revenues for the third quarter of 2026 totaled $2,402,430, a decrease of 8% from the third quarter of 2025. Net income for the third quarter ended September 30, 2026 was $248,605, or $89.45 per diluted share. For the third quarter ended September 30, 2026, net income decreased 27% and diluted earnings per share decreased 20% when compared to net income and diluted earnings per share for the third quarter of 2025, respectively. Our homebuilding gross profit margin percentage decreased to 18.3% in the third quarter of 2026 from 21.1% in the third quarter of 2025. New orders, net of cancellations (“New Orders”) decreased by 7% in the third quarter of 2026 compared to the third quarter of 2025. The New Order cancellation rate for the third quarter of 2026 increased to 21.0% from 19.4% in the same period in 2025. The average sales price for New Orders in the third quarter of 2026 was $442.1, a decrease of 5% compared to the same period in the prior year. 
+ 23 
+ Table of Contents 
+ Homebuilding Operations 
+ The following table summarizes the results of operations and other data for our homebuilding operations: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Financial Data: 
+ Revenues $ 2,349,284 $ 2,560,343 $ 6,463,934 $ 7,459,055 
+ Cost of sales $ 1,920,068 $ 2,021,398 $ 5,235,824 $ 5,856,756 
+ Gross profit margin percentage 18.3 % 21.1 % 19.0 % 21.5 % 
+ Selling, general and administrative expenses $ 135,017 $ 142,736 $ 442,709 $ 457,023 
+ Operating Data: 
+ New orders (units) 4,391 4,735 16,014 15,459 
+ Average new order price $ 442.1 $ 464.8 $ 439.6 $ 456.8 
+ Settlements (units) 5,268 5,639 14,341 16,247 
+ Average settlement price $ 445.9 $ 454.0 $ 450.7 $ 459.1 
+ Backlog (units) 10,121 9,165 
+ Average backlog price $ 453.0 $ 479.5 
+ New order cancellation rate 21.0 % 19.4 % 16.3 % 17.1 % 
+ Consolidated Homebuilding - Three Months Ended September 30, 2026 and 2025 
+ Homebuilding revenues decreased 8% in the third quarter of 2026 compared to the same period in 2025, as a result of a 7% decrease in units settled, coupled with a 2% decrease in average price of units settled. The decrease in units settled was primarily attributable to a lower backlog turnover rate quarter over quarter, due in part to the aforementioned operational challenges. Gross profit margin percentage in the third quarter of 2026 decreased to 18.3% from 21.1% in the third quarter of 2025. Gross profit margin was negatively impacted primarily by higher lot and certain construction costs. In addition, margins were impacted by contract land deposit impairments totaling approximately $24,800, compared to $18,900 in the third quarter of 2025. 
+ New Orders and the average sales price of New Orders decreased 7% and 5%, respectively, in the third quarter of 2026 compared to the third quarter of 2025. New Orders were negatively impacted by an 8% lower sales absorption rate in the third quarter of 2026, attributable to the aforementioned weaker demand. The decrease in the average sales price of New Orders is attributable to pricing pressure and a relative product mix shift in New Orders from single family detached homes to single family attached homes, which generally sell at lower prices. 
+ Selling, general and administrative (“SG&A”) expense in the third quarter of 2026 decreased by approximately $7,700, or 5%, but as a percentage of revenue remained relatively flat when compared to the third quarter of 2025. The decrease in SG&A expense was primarily attributable to a decrease of approximately $6,800 in personnel costs attributable to lower headcount quarter over quarter. 
+ Consolidated Homebuilding - Nine Months Ended September 30, 2026 and 2025 
+ Homebuilding revenues decreased 13% in the first nine months of 2026 compared to the same period in 2025, as a result of a 12% decrease in units settled, coupled with a 2% decrease in the average settlement price year over year. The decrease in settlements was attributable to a 15% lower backlog unit balance entering 2026 compared to 2025 and lower backlog turnover due in part to the aforementioned operational challenges. Gross profit margin percentage in the first nine months of 2026 decreased to 19.0% from 21.5% in the first nine months of 2025. Gross profit margin was negatively impacted primarily by higher lot and certain construction costs. In addition, margins were impacted by contract land deposit impairments totaling approximately $55,400 in the nine months ended September 30, 2026, compared to $40,100 in the first nine months of 2025. 
+ New Orders increased 4% while the average sales price of New Orders decreased 4% in the first nine months of 2026 compared to the same period in 2025. New Orders were favorably impacted by a 4% increase in the average number of active communities. The decrease in the average sales price of New Orders is attributable to pricing 
+ 24 
+ Table of Contents 
+ pressure and a relative product mix shift in New Orders from single family detached homes to single family attached homes, which generally sell at lower prices. 
+ SG&A expense in the first nine months of 2026 decreased by approximately $14,300 compared to the same period in 2025, but increased as a percentage of revenue to 6.8% in 2026 from 6.1% in 2025. The decrease in SG&A expense was primarily attributable to a decrease of approximately $10,200 in personnel costs due primarily to lower headcount year over year. 
+ Our backlog represents homes sold but not yet settled with our customers. As of September 30, 2026, our backlog increased on a unit basis by 10% to 10,121 units and on a dollar basis by 4% to $4,585,259, when compared to 9,165 units and $4,394,695, respectively, as of September 30, 2025. The increase in the number of backlog units was primarily attributable to a 4% increase in New Orders year over year, coupled with a lower backlog turnover rate year over year, as discussed above. Backlog dollars were higher primarily due to the increase in backlog units in 2026, offset partially by a 6% decrease in the average price of backlog units year over year. 
+ Our backlog may be impacted by customer cancellations for various reasons that are beyond our control, such as failure to obtain mortgage financing, inability to sell an existing home, job loss, or a variety of other reasons. In any period, a portion of the cancellations that we experience are related to new sales that occurred during the same period, and a portion are related to sales that occurred in prior periods and therefore appeared in the opening backlog for the current period. Our cancellation rate was approximately 16% and 17% in the first nine months of 2026 and 2025, respectively, calculated as the total of all cancellations during the period as a percentage of gross sales during the same period. During the most recent four quarters, approximately 6% of a reporting quarter’s opening backlog cancelled during the fiscal quarter. We can provide no assurance that our historical cancellation rates are indicative of the actual cancellation rate that may occur during the remainder of 2026 or future years. Other than units that are cancelled, we expect to settle substantially all of our September 30, 2026 backlog within the next twelve months. 
+ The rate at which we turn over our backlog is impacted by various factors, including, but not limited to, changes in New Order activity, internal production capacity, external subcontractor capacity, building material availability, regulatory approvals and other external factors over which we do not exercise control. 
+ Reportable Segments 
+ Homebuilding segment profit includes all revenues and income generated from the sale of homes, less the cost of homes sold, SG&A expenses, and a corporate capital allocation charge determined by corporate management. The corporate capital allocation charge eliminates in consolidation and is based on the segment’s average net assets employed. The corporate capital allocation charged to the operating segment allows the Chief Operating Decision Maker to determine whether the operating segment is providing the desired rate of return after covering our cost of capital. 
+ We record charges on contract land deposits when we determine that it is probable that recovery of the deposit is impaired. For segment reporting purposes, impairments on contract land deposits are generally charged to the operating segment upon the termination of an LPA with the developer, or the restructuring of an LPA resulting in the forfeiture of the deposit. We evaluate our entire net contract land deposit portfolio for impairment each quarter. For presentation purposes below, the contract land deposit reserve as of September 30, 2026 and December 31, 2025 has been allocated to the respective year’s reportable segments to show contract land deposits on a net basis. The net contract land deposit balances below also include approximately $9,900 and $4,600 as of September 30, 2026 and December 31, 2025, respectively, of letters of credit issued as deposits in lieu of cash. 
+ The following tables summarize certain homebuilding operating activity by reportable segment for the three and nine months ended September 30, 2026 and 2025. 
+ 25 
+ Table of Contents 
+ Selected Segment Financial Data: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Revenues: 
+ Mid Atlantic $ 895,495 $ 1,039,957 $ 2,513,053 $ 3,251,066 
+ North East 287,985 291,753 809,292 889,508 
+ Mid East 471,384 508,798 1,235,275 1,371,160 
+ South East 694,420 719,835 1,906,314 1,947,321 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Gross profit margin: 
+ Mid Atlantic $ 187,482 $ 243,719 $ 535,578 $ 769,694 
+ North East 60,873 76,690 176,402 233,842 
+ Mid East 93,493 110,427 249,824 289,051 
+ South East 118,543 129,686 331,459 364,849 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Gross profit margin percentage: 
+ Mid Atlantic 20.9 % 23.4 % 21.3 % 23.7 % 
+ North East 21.1 % 26.3 % 21.8 % 26.3 % 
+ Mid East 19.8 % 21.7 % 20.2 % 21.1 % 
+ South East 17.1 % 18.0 % 17.4 % 18.7 % 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Segment profit: 
+ Mid Atlantic $ 103,665 $ 168,141 $ 300,524 $ 546,364 
+ North East 37,998 51,964 109,380 165,039 
+ Mid East 60,015 76,431 153,562 191,769 
+ South East 46,742 56,872 123,486 154,120 
+ 26 
+ Table of Contents 
+ Operating Activity: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Units Average
+Price Units Average
+Price Units Average
+Price Units Average
+Price 
+ New orders, net of cancellations: 
+ Mid Atlantic 1,641 $ 499.0 1,714 $ 529.7 5,639 $ 499.1 5,510 $ 525.1 
+ North East 232 $ 733.2 433 $ 647.1 1,091 $ 647.5 1,234 $ 664.6 
+ Mid East 891 $ 417.7 931 $ 431.9 3,260 $ 421.0 3,101 $ 425.0 
+ South East 1,627 $ 356.7 1,657 $ 368.6 6,024 $ 356.2 5,614 $ 361.8 
+ Total 4,391 $ 442.1 4,735 $ 464.8 16,014 $ 439.6 15,459 $ 456.8 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Units Average
+Price Units Average
+Price Units Average
+Price Units Average
+Price 
+ Settlements: 
+ Mid Atlantic 1,786 $ 501.4 2,008 $ 517.9 4,925 $ 510.2 6,159 $ 527.8 
+ North East 477 $ 603.7 420 $ 694.6 1,295 $ 624.9 1,365 $ 651.7 
+ Mid East 1,090 $ 432.5 1,200 $ 423.8 2,868 $ 430.7 3,295 $ 416.1 
+ South East 1,915 $ 362.6 2,011 $ 357.9 5,253 $ 362.9 5,428 $ 358.8 
+ Total 5,268 $ 445.9 5,639 $ 454.0 14,341 $ 450.7 16,247 $ 459.1 
+ As of September 30, 
+ 2026 2025 
+ Units Average
+Price Units Average
+Price 
+ Backlog: 
+ Mid Atlantic 3,874 $ 508.6 3,419 $ 539.7 
+ North East 769 $ 681.3 924 $ 676.0 
+ Mid East 2,025 $ 419.1 1,851 $ 431.3 
+ South East 3,453 $ 359.7 2,971 $ 379.1 
+ Total 10,121 $ 453.0 9,165 $ 479.5 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ New order cancellation rate: 
+ Mid Atlantic 21.0 % 19.3 % 17.3 % 17.4 % 
+ North East 34.1 % 17.4 % 21.3 % 14.8 % 
+ Mid East 17.1 % 17.9 % 14.2 % 16.8 % 
+ South East 20.9 % 20.8 % 15.5 % 17.4 % 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Average active communities: 
+ Mid Atlantic 147 125 135 122 
+ North East 26 34 28 28 
+ Mid East 96 100 97 96 
+ South East 185 191 183 180 
+ Total 454 450 443 426 
+ 27 
+ Table of Contents 
+ Homebuilding Inventory: 
+ September 30, 2026 December 31, 2025 
+ Sold inventory: 
+ Mid Atlantic $ 859,309 $ 595,369 
+ North East 226,521 220,684 
+ Mid East 309,780 219,389 
+ South East 554,201 386,759 
+ Total (1) $ 1,949,811 $ 1,422,201 
+ September 30, 2026 December 31, 2025 
+ Unsold lots and housing units inventory: 
+ Mid Atlantic $ 204,325 $ 90,988 
+ North East 49,400 24,423 
+ Mid East 28,468 29,253 
+ South East 103,323 108,812 
+ Total (1) $ 385,516 $ 253,476 
+ (1) The reconciling items between segment inventory and consolidated inventory include certain consolidation adjustments necessary to convert the reportable segments’ results, which are predominantly maintained on a cash basis, to a full accrual basis for external financial statement presentation purposes. These consolidation adjustments are not allocated to our operating segments. 
+ Lots Controlled and Land Deposits: 
+ September 30, 2026 December 31, 2025 
+ Total lots controlled: 
+ Mid Atlantic 63,700 60,100 
+ North East 20,100 19,000 
+ Mid East 29,700 28,100 
+ South East 71,800 72,900 
+ Total 185,300 180,100 
+ September 30, 2026 December 31, 2025 
+ Contract land deposits, net: 
+ Mid Atlantic $ 417,402 $ 347,941 
+ North East 104,028 105,051 
+ Mid East 97,540 85,515 
+ South East 307,648 317,516 
+ Total $ 926,618 $ 856,023 
+ Mid Atlantic 
+ Three Months Ended September 30, 2026 and 2025 
+ The Mid Atlantic segment had an approximate $64,500, or 38%, decrease in segment profit in the third quarter of 2026 compared to the third quarter of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $144,500, or 14%, coupled with a decrease in gross profit margin to 20.9% in the third quarter of 2026 from 23.4% in the same period of 2025. Segment revenues decreased due to an 11% decrease in units settled, coupled with a 3% lower average settlement price quarter over quarter. The decrease in settlements was primarily attributable to a lower backlog turnover rate quarter over quarter, resulting in part from the aforementioned operational challenges in markets within the segment. The decrease in the average settlement 
+ 28 
+ Table of Contents 
+ price was primarily attributable to a 4% lower average price of units in backlog entering the third quarter of 2026 compared to the backlog entering the third quarter of 2025. Gross profit margins were negatively impacted by higher lot and certain construction costs, quarter over quarter. 
+ Segment New Orders and the average sales price of New Orders decreased 4% and 6%, respectively, in the third quarter of 2026 compared to the third quarter of 2025. The decrease in New Orders was primarily attributable to an 18% lower sales absorption quarter over quarter, attributable to the aforementioned weaker demand. The average sales price of New Orders was negatively impacted by a shift to lower priced communities in certain markets within the segment. 
+ Nine Months Ended September 30, 2026 and 2025 
+ The Mid Atlantic segment had an approximate $245,800, or 45%, decrease in segment profit in the first nine months of 2026 compared to the first nine months of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $738,000, or 23%, coupled with a decrease in gross profit margin to 21.3% in the first nine months of 2026 from 23.7% in the first nine months of 2025. Segment revenues decreased due to a 20% decrease in units settled, coupled with a 3% lower average settlement price in the first nine months of 2026 compared to the same period in 2025. The decrease in settlements was primarily attributable to a 22% lower backlog unit balance entering 2026 compared to the backlog entering 2025, coupled with a lower backlog turnover rate in 2026. The decrease in the average settlement price was primarily attributable to a 3% lower average price of units in backlog entering 2026 compared to the backlog entering 2025. Gross profit margins were negatively impacted by higher lot and certain construction costs. 
+ Segment New Orders increased 2%, while the average sales price of New Orders decreased 5%, in the first nine months of 2026 compared to the first nine months of 2025. New Orders were higher primarily due to an 11% increase in the average number of active communities, offset by an 8% lower sales absorption rate year over year resulting from the aforementioned weaker demand. The average sales price of New Orders was negatively impacted by a shift to lower priced communities in certain markets within the segment. 
+ North East 
+ Three Months Ended September 30, 2026 and 2025 
+ The North East segment had an approximate $14,000, or 27%, decrease in segment profit in the third quarter of 2026 compared to the third quarter of 2025. The decrease in segment profit was primarily driven by a decrease in in gross profit margin to 21.1% in the third quarter of 2026 from 26.3% in the same period of 2025. Gross profit margins were negatively impacted by higher lot costs. 
+ Segment New Orders decreased 46% while the average sales price of New Orders increased 13%, in the third quarter of 2026 compared to the third quarter of 2025. New Orders were lower primarily due to a 22% decrease in the average number of active communities quarter over quarter, coupled with a 31% lower sales absorption rate. The decrease in sales absorption was attributable to the aforementioned weaker demand, coupled with a higher cancellation rate quarter over quarter. The increase in the average sales price of New Orders was attributable to a shift to higher priced communities in certain markets within the segment. 
+ Nine Months Ended September 30, 2026 and 2025 
+ The North East segment had an approximate $55,700, or 34%, decrease in segment profit in the first nine months of 2026 compared to the first nine months of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $80,200, or 9%, coupled with a decrease in gross profit margin to 21.8% in the first nine months of 2026 from 26.3% in the first nine months of 2025. Segment revenues decreased primarily due to a 5% decrease in units settled, coupled with a 4% lower average settlement price year over year. The decrease in settlements was attributable to both an 8% lower backlog unit balance entering 2026 compared to the backlog entering 2025 and a lower backlog turnover rate year over year. The decrease in the average settlement price was primarily attributable to a 7% lower average price of New Orders in the first six months of 2026 compared to the first six months of 2025. Gross profit margins were negatively impacted by higher lot costs. 
+ Segment New Orders and the average sales price of New Orders decreased 12% and 3%, respectively, in the first nine months of 2026 compared to the first nine months of 2025. New Orders were lower primarily due to a 
+ 29 
+ Table of Contents 
+ 14% lower sales absorption rate, resulting from the aforementioned weaker demand as well as a higher cancellation rate. 
+ Mid East 
+ Three Months Ended September 30, 2026 and 2025 
+ The Mid East segment had an approximate $16,400, or 21%, decrease in segment profit in the third quarter of 2026 compared to the third quarter of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $37,400, or 7%, coupled with a decrease in gross profit margin to 19.8% in the third quarter of 2026 from 21.7% in the same period of 2025. Segment revenues decreased primarily due to a 9% decrease in units settled. The decrease in settlements was primarily attributable to a lower backlog turnover rate quarter over quarter, resulting from the aforementioned operational challenges. Gross profit margin was negatively impacted primarily by higher lot costs. 
+ Segment New Orders and the average sales price of New Orders decreased 4% and 3%, respectively, in the third quarter of 2026 compared to the third quarter of 2025. New Orders were lower primarily due to a 4% decrease in the average number of active communities quarter over quarter. The average sales price of New Orders was negatively impacted largely by a shift to lower priced markets within the segment. 
+ Nine Months Ended September 30, 2026 and 2025 
+ The Mid East segment had an approximate $38,200, or 20%, decrease in segment profit in the first nine months of 2026 compared to the first nine months of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $135,900, or 10%, coupled with a decrease in gross profit margin to 20.2% in the first nine months of 2026 from 21.1% in the first nine months of 2025. Segment revenues decreased due to a 13% decrease in units settled, offset partially by a 4% higher average settlement price. The decrease in settlements was primarily attributable to a 20% lower backlog unit balance entering 2026 compared to the backlog entering 2025, coupled with a lower backlog turnover rate year over year. The increase in the average settlement price was attributable to a 5% higher average price of units in backlog entering 2026 compared to backlog entering 2025. Gross profit margins were negatively impacted primarily by higher lot costs year over year. 
+ Segment New Orders increased 5% while the average sales price of New Orders remained relatively flat in the first nine months of 2026 compared to the first nine months of 2025. New Orders were favorably impacted by a 4% higher sales absorption rate. 
+ South East 
+ Three Months Ended September 30, 2026 and 2025 
+ The South East segment had an approximate $10,100, or 18%, decrease in segment profit in the third quarter of 2026 compared to the third quarter of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $25,400, or 4%, coupled with a decrease in gross profit margin percentage to 17.1% in the third quarter of 2026 from 18.0% in the third quarter of 2025. Segment revenues decreased due to a 5% decrease in units settled, primarily attributable to a lower backlog turnover rate quarter over quarter. Gross profit margins were negatively impacted primarily by higher lot costs quarter over quarter. 
+ Segment New Orders and the average sales price of New Orders decreased 2% and 3%, respectively, in the third quarter of 2026 compared to the third quarter of 2025. New Orders were lower primarily due to a 3% decrease in the average number of active communities quarter over quarter. The average sales price of New Orders was negatively impacted by a shift to lower priced communities in certain markets within the segment. 
+ Nine Months Ended September 30, 2026 and 2025 
+ The South East segment had an approximate $30,600, or 20%, decrease in segment profit in the first nine months of 2026 compared to the first nine months of 2025. The decrease in segment profit was driven by a decrease in segment revenues of approximately $41,000, or 2%, coupled with a decrease in gross profit margin percentage to 17.4% in the first nine months of 2026 from 18.7% in the first nine months of 2025. Segment revenues decreased 
+ 30 
+ Table of Contents 
+ due to a 3% decrease in units settled, primarily attributable to a lower backlog turnover rate year over year. Gross profit margins were negatively impacted primarily by higher lot costs year over year. 
+ Segment New Orders increased 7% while the average sales price of New Orders decreased 2% in the first nine months of 2026 compared to the first nine months of 2025. New Orders were favorably impacted by a 6% higher sales absorption rate, attributable to better product positioning in certain markets in the current year, coupled with a 2% increase in the average number of active communities within the segment year over year. The average sales price of New Orders was negatively impacted by a shift to lower priced communities in certain markets within the segment. 
+ Homebuilding Segment Reconciliations to Consolidated Homebuilding Operations 
+ In addition to the corporate capital allocation and contract land deposit impairments discussed above, the other reconciling items between homebuilding segment profit and homebuilding consolidated income before tax include unallocated corporate overhead (which includes all management incentive compensation), equity-based compensation expense, consolidation adjustments and external corporate interest expense. Our overhead functions, such as accounting, treasury and human resources, are centrally performed and the costs are not allocated to our operating segments. Consolidation adjustments consist of such items to convert the reportable segments’ results, which are predominantly maintained on a cash basis, to a full accrual basis for external financial statement presentation purposes, and are not allocated to our operating segments. External corporate interest expense primarily consists of interest charges on our Senior Notes, and is not charged to the operating segments because the charges are included in the corporate capital allocation discussed above. 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Homebuilding consolidated gross profit: 
+ Mid Atlantic $ 187,482 $ 243,719 $ 535,578 $ 769,694 
+ North East 60,873 76,690 176,402 233,842 
+ Mid East 93,493 110,427 249,824 289,051 
+ South East 118,543 129,686 331,459 364,849 
+ Consolidation adjustments and other (31,175) (21,577) (65,153) (55,137) 
+ Homebuilding consolidated gross profit $ 429,216 $ 538,945 $ 1,228,110 $ 1,602,299 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Homebuilding consolidated income before taxes: 
+ Mid Atlantic $ 103,665 $ 168,141 $ 300,524 $ 546,364 
+ North East 37,998 51,964 109,380 165,039 
+ Mid East 60,015 76,431 153,562 191,769 
+ South East 46,742 56,872 123,486 154,120 
+ Reconciling items: 
+ Contract land deposit reserve adjustment (1) (24,648) (18,634) (55,129) (39,904) 
+ Equity-based compensation expense 
+ (21,499) (16,869) (52,220) (50,813) 
+ Corporate capital allocation (2) 
+ 105,113 96,562 288,369 276,087 
+ Unallocated corporate overhead (17,701) (26,359) (110,374) (116,692) 
+ Consolidation adjustments and other 6,927 10,433 41,761 27,903 
+ Corporate interest income 
+ 9,774 19,654 38,348 65,129 
+ Corporate interest expense 
+ (6,670) (6,841) (20,197) (20,647) 
+ Reconciling items sub-total 51,296 57,946 130,558 141,063 
+ Homebuilding consolidated income before taxes $ 299,716 $ 411,354 $ 817,510 $ 1,198,355 
+ 31 
+ Table of Contents 
+ (1) This item represents changes to the contract land deposit impairment reserve, which are not allocated to the reportable segments. See further discussion of lot deposit impairment charges in Note 2 in the accompanying condensed consolidated financial statements. 
+ (2) This item represents the elimination of the corporate capital allocation charge included in the respective homebuilding reportable segments. The corporate capital allocation charge is based on the segment’s monthly average asset balance, and is as follows for the periods presented: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Corporate capital allocation charge: 
+ Mid Atlantic $ 45,490 38,204 $ 120,640 112,350 
+ North East 12,256 12,383 35,199 34,275 
+ Mid East 13,000 12,917 36,359 36,157 
+ South East 34,367 33,058 96,171 93,305 
+ Total $ 105,113 $ 96,562 $ 288,369 $ 276,087 
+ 32 
+ Table of Contents 
+ Mortgage Banking Segment 
+ Three and Nine Months Ended September 30, 2026 and 2025 
+ We conduct our mortgage banking activity through NVR Mortgage Finance, Inc. (“NVRM”), a wholly owned subsidiary. NVRM focuses exclusively on serving the homebuilding segment's customers. NVRM sells almost all of the mortgage loans it closes to investors in the secondary markets on a servicing-released basis, typically within 30 days from the loan closing. The following table summarizes the results of our mortgage banking operations and certain statistical data for the three and nine months ended September 30, 2026 and 2025: 
+ Three Months Ended September 30, Nine Months Ended September 30, 
+ 2026 2025 2026 2025 
+ Loan closing volume: 
+ Total principal $ 1,381,742 $ 1,539,781 $ 3,789,439 $ 4,527,982 
+ Loan volume mix: 
+ Adjustable rate mortgages 22 % 7 % 21 % 5 % 
+ Fixed-rate mortgages 78 % 93 % 79 % 95 % 
+ Operating profit: 
+ Segment profit $ 36,278 $ 33,206 $ 90,679 $ 97,737 
+ Equity-based compensation expense (1,306) (487) (3,166) (2,882) 
+ Mortgage banking income before tax $ 34,972 $ 32,719 $ 87,513 $ 94,855 
+ Capture rate: 85 % 86 % 85 % 86 % 
+ Mortgage banking fees: 
+ Net gain on sale of loans $ 43,308 $ 38,776 $ 118,854 $ 121,295 
+ Title services 9,729 10,340 26,797 30,689 
+ Servicing fees 109 46 264 312 
+ $ 53,146 $ 49,162 $ 145,915 $ 152,296 
+ Loan closing volume for the three and nine months ended September 30, 2026 decreased by approximately $158,000, or 10%, and $738,500, or 16%, respectively, from the same periods in 2025. These decreases are consistent with the decreases in homebuilding revenue of 8% and 13%, respectively. 
+ Segment profit for the three months ended September 30, 2026 increased by approximately $3,000, or 9%, from the same period in 2025. This increase was primarily attributable to an increase of approximately $4,000, or 8%, in mortgage banking fees due to an increase in gains on sales of loans. 
+ Segment profit for the nine months ended September 30, 2026 decreased by approximately $7,100, or 7%, from the same period in 2025. This decrease was primarily attributable to a decrease of approximately $6,400, or 4%, in mortgage banking fees due to a decrease in gains on sales of loans and title fees and lower loan closing volume. 
+ 33 
+ Table of Contents 
+ Seasonality 
+ We historically have experienced variability in our quarterly results, generally having higher New Order activity in the first half of the year and higher home settlements, revenue and net income in the second half of the year. As a result, our quarterly results of operations are not necessarily indicative of the results that may be expected for the full year. 
+ Effective Tax Rate 
+ Our effective tax rate for the three and nine month periods ended September 30, 2026 was 25.7% and 24.5%, respectively, compared to 22.8% and 24.5% for the three and nine months ended September 30, 2025, respectively. The effective tax rate for the respective periods is primarily impacted by the income tax benefit recognized for excess tax benefits from stock option exercises, which totaled approximately $1,500 and $14,900 for the three and nine months ended September 30, 2026, respectively, compared to $13,400 and $19,700 for the three and nine months ended September 30, 2025, respectively. 
+ We expect continued tax rate volatility in future periods attributable to the recognition of excess tax benefits from equity-based awards activity and distributions from the deferred compensation plans. Given the limited number of participants in our deferred compensation plan, the retirement of a participant could result in a significant distribution of the rabbi trust shares and corresponding tax deduction for the Company. 
+ Liquidity and Capital Resources 
+ We fund our operations primarily from our current cash holdings and cash flows generated by operating activities. In addition, we have available a short-term unsecured working capital revolving credit facility and revolving mortgage repurchase facility, as further described below. As of September 30, 2026, we had approximately $1,100,000 in cash and cash equivalents, approximately $284,600 in unused committed capacity under our revolving credit facility and $150,000 in unused committed capacity under our revolving mortgage repurchase facility. 
+ Material Cash Requirements 
+ We believe that our current cash holdings, cash generated from operations, and cash available under our short-term unsecured credit agreement and revolving mortgage repurchase facility, as well as the public debt and equity markets, will be sufficient to satisfy both our short term and long term cash requirements for working capital to support our daily operations and meet commitments under our contractual obligations with third parties. Our material contractual obligations primarily consist of the following: 
+ (i) Payments due to service our debt and interest on that debt. Our Senior Notes have an outstanding aggregate principal balance of $900,000 and mature in May 2030. Future interest payments on our outstanding Senior Notes total $104,550, with $27,000 due within the next twelve months. 
+ (ii) Payment obligations totaling approximately $747,200 under existing LPAs for deposits to be paid to land developers, assuming that contractual development milestones are met by the developers and we exercise our option to acquire finished lots under those LPAs. We expect to make the majority of these payments within the next five years. 
+ (iii) Obligations under operating and finance leases related primarily to office space and our production facilities. See Note 13 of this Quarterly Report on Form 10-Q for additional discussion of our leases. 
+ In addition to funding growth in our homebuilding and mortgage banking operations, we historically have used a substantial portion of our excess liquidity to repurchase outstanding shares of our common stock in open market and privately negotiated transactions. This ongoing repurchase program assists us in accomplishing our primary objective, creating increases in shareholder value. See Part II, Item 2, Unregistered Sales of Equity Securities and Use of Proceeds, of this Quarterly Report on Form 10-Q for further discussion of repurchase activity during the third quarter of 2026. For the nine months ended September 30, 2026, we repurchased 181,984 shares of our common stock at an aggregate purchase price of $1,226,951. As of September 30, 2026, we had approximately $822,646 available under Board approved repurchase authorizations. 
+ 34 
+ Table of Contents 
+ Capital Resources 
+ Senior Notes 
+ As of September 30, 2026, we had Senior Notes with an aggregate principal balance of $900,000, which mature in May 2030. 
+ Credit Agreement 
+ We have an unsecured revolving credit agreement (the "Credit Agreement") which provides for aggregate revolving loan commitments of $300,000, and a $100,000 sublimit for the issuance of letters of credit of which there was approximately $15,400 outstanding as of September 30, 2026. There were no borrowings outstanding under the Credit Agreement as of September 30, 2026. 
+ Repurchase Agreement 
+ NVRM has an unsecured revolving mortgage repurchase facility (the “Repurchase Agreement”) which provides for aggregate borrowings up to $150,000. There were no borrowings outstanding under the Repurchase Agreement as of September 30, 2026. 
+ For additional information regarding the Senior Notes, Credit Agreement and Repurchase Agreement, see Note 11 to the condensed consolidated financial statements included herein, and Part II, Item 7 of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ Cash Flows 
+ For the nine months ended September 30, 2026, cash, restricted cash, and cash equivalents decreased by $787,350. Net cash provided by operating activities was $412,096, due primarily to cash provided by earnings for the nine months ended September 30, 2026 and a $253,805 reduction in mortgage loans held for sale. In addition, $71,657 of cash was provided by an increase in accounts payable and accrued expenses attributable to an increase in inventory and by a $36,154 increase in customer deposits. Cash was primarily used to fund the increase in inventory of $649,226, attributable to an increase in units under construction as of September 30, 2026 compared to December 31, 2025, and an increase of $120,724 in contract land deposits. 
+ Net cash used in investing activities for the nine months ended September 30, 2026 was $20,201. Cash was used primarily for investments in unconsolidated joint ventures totaling $12,306 and purchases of property, plant and equipment of $29,879. Cash was provided by the sale of our interest in an unconsolidated joint venture for $21,559. 
+ Net cash used in financing activities was $1,179,245 for the nine months ended September 30, 2026. Cash was used to repurchase 181,984 shares of our common stock at an aggregate purchase price of $1,226,951 under our ongoing common stock repurchase program, discussed above. Cash was provided from stock option exercise proceeds totaling $68,555. 
+ Critical Accounting Estimates 
+ There have been no material changes to our critical accounting estimates as previously disclosed in Part II, Item 7 of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ Item 3. Quantitative and Qualitative Disclosure about Market Risk 
+ There have been no material changes in our market risks during the nine months ended September 30, 2026. For additional information regarding our market risks, see Part II, Item 7A of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ 35 
+ Table of Contents 
+ Item 4. Controls and Procedures 
+ As of the end of the period covered by this report, an evaluation was performed under the supervision and with the participation of our management, including our Chief Executive Officer and Chief Financial Officer, of the effectiveness of the design and operation of our disclosure controls and procedures, as defined in Exchange Act Rule 13a-15. Based on that evaluation, our Chief Executive Officer and Chief Financial Officer concluded that the design and operation of these disclosure controls and procedures were effective. There have been no changes in our internal control over financial reporting in the last fiscal quarter that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. 
+ 36 
+ Table of Contents 
+ PART II. OTHER INFORMATION 
+ Item 1. Legal Proceedings 
+ We are involved in various litigation matters arising in the ordinary course of business. In the opinion of management, and based on advice of legal counsel, this litigation is not expected to have a material adverse effect on our financial position, results of operations or cash flows. Legal costs incurred in connection with outstanding litigation are expensed as incurred. 
+ Item 1A. Risk Factors 
+ There have been no material changes to the risk factors as previously disclosed in Part I, Item 1A of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+ During the quarter ended September 30, 2026, we had two share repurchase authorizations outstanding. On each of February 11, 2026 and May 8, 2026, we publicly announced that our Board of Directors had approved new repurchase authorizations in the amount of up to $750 million per authorization. Each share repurchase authorization authorized the repurchase of our outstanding common stock in one or more open market and/or privately negotiated transactions, with no expiration date. Repurchase activity is typically executed in accordance with the safe-harbor provisions of Rule 10b-18 and Rule 10b5-1 promulgated under the Securities Exchange Act of 1934, as amended. We repurchased the following shares of our common stock during the quarter ended September 30, 2026: 
+ Period Total Number
+of Shares
+Purchased Average
+Price Paid
+per Share Total Number of
+Shares Purchased
+as Part of Publicly
+Announced Plans
+or Programs Approximate Dollar Value of
+Shares that May Yet
+Be Purchased Under
+the Plans or
+Programs (in thousands) 
+ July 1 - 31, 2026 13,600 $ 6,548.31 13,600 $ 970,807 
+ August 1 - 31, 2026 13,710 $ 6,345.82 13,710 $ 883,805 
+ September 1 - 30, 2026 9,778 $ 6,254.82 9,778 $ 822,646 
+ Total 37,088 $ 6,396.08 37,088 
+ Item 5. Other Information 
+ During the quarter ended September 30, 2026, no director or officer of the Company adopted or terminated a "Rule 10b5-1 trading arrangement" or "non-Rule 10b5-1 trading arrangement", as each term is defined in Item 408(a) of Regulation S-K. 
+ 37 
+ Table of Contents 
+ Item 6. Exhibits 
+ Exhibit Number Exhibit Description 
+ 10.1 Extension of Employment Agreement between NVR, Inc. and Paul C. Saville dated November 4, 2026. Filed herewith. 
+ 31.1 Certification of NVR’s Chief Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. Filed herewith. 
+ 31.2 Certification of NVR’s Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. Filed herewith. 
+ 32 Certification of NVR’s Chief Executive Officer and Chief Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. Furnished herewith. 
+ 101.INS XBRL Instance Document - the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document 
+ 101.SCH XBRL Taxonomy Extension Schema Document 
+ 101.CAL XBRL Taxonomy Extension Calculation Linkbase Document 
+ 101.DEF XBRL Taxonomy Extension Definition Linkbase Document 
+ 101.LAB XBRL Taxonomy Extension Label Linkbase Document 
+ 101.PRE XBRL Taxonomy Extension Presentation Linkbase Document 
+ 104 Cover Page Interactive Data File (formatted as Inline XBRL and contained in Exhibit 101) 
+ * Exhibit is a management contract or compensatory plan or arrangement. 
+ 38 
+ Table of Contents 
+ SIGNATURE 
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+ NVR, Inc. 
+ Date: November 4, 2026 By: /s/ Daniel D. Malzahn 
+ Daniel D. Malzahn 
+ Senior Vice President, Chief Financial Officer and Treasurer 
+ 39 

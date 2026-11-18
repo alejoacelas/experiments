@@ -1,0 +1,940 @@
+LAS Meeting
+November 2, 2026
+
+Introductions
+
+CRA team
+
+2
+
+Margarita Patria, PhD
+
+Oliver Stove, PhD
+
+Tayler Amatto
+
+Project Director
+
+Technical Director
+
+Project Manager and Bottom-Up
+Workstream Lead
+
+Michael May
+
+Nyah Spearman
+
+Allen Hu
+
+Modeling and Forecasting Lead
+
+Modeling and Forecasting
+Support (Top-Down)
+
+Modeling and Forecasting
+Support (Top-Down)
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Next Steps & Close
+
+3
+
+Methodology Updates
+
+PJM data center capacity & peak demand forecast
+CRA's independent, hourly load forecast for PJM (2027–2047).
+METHODOLOGY STEPS
+
+PROJECT SCOPE
+Independent PJM-wide data center forecast
+with hourly load profiles and explicit uncertainty
+quantification, integrating bottom-up project
+intelligence with top-down market analysis to
+support transmission planning, reliability, and
+resource adequacy.
+Horizon
+
+2027–2047
+
+Region
+
+PJM
+
+Method
+
+Bottom-up / Top-down
+
+Timeline
+
+May–Oct 2026
+
+1
+
+Top-down Demand and Constraint Modeling. Start with unconstrained demand but forecast what can
+materialize. National AI and non-AI demand is tested against semiconductor, infrastructure, and supplychain constraints. The PJM share of national demand is then estimated over time using third-party data on
+data center load share by geography.
+
+2
+
+Bottom-Up: Site-level project pipeline scored on siting favorability and developer readiness. CRA
+reconciles PJM/EDC/LSE and commercial project data, distinguishes project maturity based on contractual
+stage and permitting status, and evaluates whether any projects are under moratorium. PJM headroom for
+supporting new load at 1-in-10 reliability, along with on-site generation build limits for hybrid or off-grid data
+centers, are quantified to identify how much load could realistically come on the system.
+
+3
+
+Reconciliation: Data center demand is the blended average of top-down and bottom-up forecasts.
+The load that is ready to come on the system, adjusted for PJM headroom, is blended with the PJM share
+of projected national AI adoption to set a demand. Projects are then allocated to meet demand. Top-down
+determines scale; bottom-up determines location and timing. We assume that existing projects receive
+priority to ramp before new projects are added when the PJM headroom constraint is binding.
+
+4
+
+Hourly forecasts translate forecasted data-center capacity into hourly demand profiles by zone and
+power configuration type, incorporating stochastic variation and changes in load factors and operating
+patterns over time. BTM generation and other supply-side effects are not netted from the hourly datacenter demand forecast shown here.
+
+5
+
+Scenarios capture alternative paths for data-center growth. Scenarios test different assumptions around
+AI adoption, efficiency, power availability, infrastructure, and supply-chain constraints to show how demand
+could evolve under different plausible futures.
+
+UPDATES FROM PRIOR PRESENTATIONS
+•
+•
+
+Updated power-availability assumptions
+Incorporated and reviewed the latest
+EDC/LSE submissions
+Completed top-down/bottom-up
+reconciliation
+Finalized hourly profiles and scenarios
+Final forecast results presented today
+
+•
+•
+•
+
+CRA is independent and unbiased across utility and data center clients — rigorous screening, neutral data sources, and top-down/bottom-up reconciliation ensure
+transparent, defensible results.
+4
+
+Methodology Updates: Power Availability
+
+Updated power-availability assumptions in PJM
+Updates apply through 2031; long-term methodology (LTCE with build limits) is unchanged
+
+Updated Topic
+
+August LAS Assumption
+
+Reliability Resource
+Initiative (RRI)
+
+RRI projects treated like
+other Transition Cycle
+projects, with technologyspecific dropout rates
+applied
+
+Updated Forecast
+
+Rationale
+
+All active RRI projects
+included at full listed
+capacity, with no dropout
+applied
+
+RRI projects were selected through a
+reliability-focused screen and have
+continued to advanced with PJM-provided
+CODs, which supports treating all
+remaining projects as fully committed
+
+Expedited Interconnection
+Track (EIT)
+
+Not included; no projectlevel detail was available
+
+Four EIT projects included,
+adding about 2.6 GW ICAP in
+2029
+
+Capacity, zone, and COD available for
+specific projects; these projects
+demonstrate certified schedule to meet
+COD within 36 months of application
+
+Homer City
+
+Treated with other Cycle 1
+submissions, with additions
+after 2030
+
+Commercial operation
+assumed in late 2029
+
+Active construction and public project
+milestones support a COD before 2030
+
+5
+
+Methodology Updates: EDC/LSE Submissions
+
+CRA reviewed EDC/LSE submissions and adjusted the pipeline for project materialization
+risk using key development criteria
+Project Risk Assessment
+Contractual commitments: Status and extent of financial
+backing
+
+In-service date (ISD): Near-term versus longer-term
+project timing
+
+Binding agreements: Signed customer ESAs/LSAs and
+extent of binding obligations
+
+Permitting: Potential constraints from local restrictions
+and zoning requirements
+Increasingly important risk
+
+6
+
+Resulting Pipeline Adjustments
+The adjusted pipeline groups projects into the following
+tiers based on assessed risk:
+Tier 1 (Early-Stage) – Projects not fully permitted but with
+signed LOA and in areas with local moratoriums, or with an inservice date (ISD) beyond 2035
+Tier 2 (Advancing) – Construction commitments (ISD: ≤2035) or
+ESAs (ISD: 2030-2035). Permits may not be fully issued (in state
+or local review)
+Tier 3 (Deployment-Ready) – Permits issued, high probability of
+materialization, signed ESA, imminent ISD
+Tier 4 (Operating) – Existing / already constructed data centers
+Removed - Projects not fully permitted or in review, no firm
+contract, or in areas with active local moratoriums
+
+Methodology Updates: Reconciliation
+
+Top-down market analysis is combined with project-level EDC/LSE data and PJM power
+constraints to determine an annual demand
+EDC/LSE
+Submissions
+
+Project
+likelihood
+screening
+
+1
+
+1-in-10 PJM
+headroom
+screen
+
+0.9
+
+0.7
+
+Weight
+
+• Projects with an ESA/CC and progress on permits are kept
+
+Output: Annual Bottom-Up Implied Load
+
+Mostly economics
+
+0.8
+
+• Planned data centers are input from EDC/LSE submissions
+
+• Given the assumed 99.999% reliability preference in the
+hard-constraint case, bottom-up demand is constrained by
+PJM headroom for 1-in-10; load with on-site generation does
+not contribute to peak
+
+Mostly pipeline
+
+Bottom-Up Weight
+
+0.6
+
+Top-Down Weight
+
+0.5
+
+0.4
+0.3
+0.2
+
+National AI
+Demand
+
+Material and
+Supply Chain
+Constraints
+
+PJM
+Allocation
+
+• National AI demand is estimated using non-AI, AI training,
+and AI inference projections
+• Demand is adjusted based on supply chain limitations
+• The historically observed PJM market share is assumed to be
+preserved, maintaining 39.9% of U.S. load1
+
+0.1
+0
+2026
+
+2028
+
+2030
+
+2032
+
+2034
+
+2036 2038
+Year
+
+2042
+
+2044
+
+2046
+
+The LAS submission are the best view of demand in PJM. However, they are a snapshot in
+time today. Long-term dynamics are driven by economic factors (e.g., AI adoption and
+supply chains) that we assume the future pipeline will conform to. Weights are therefore
+biased to the pipeline at forecast start and decay over time to favor economics.
+
+Output: Annual Top-Down Implied Load
+7
+
+2040
+
+1 PJM share was determined based on the national fraction of operating data center power that is in PJM, with demand data retrieved from datacenterHawk.
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Next Steps & Close
+
+8
+
+Bottom Up: State and Local Moratoriums
+
+CRA’s pipeline adjustments reflect growing concerns over state and local moratoriums
+A data center moratorium refers to a temporary hold or pause imposed by a state or local government on data center
+construction, which often include officials ceasing on issuing permits, zoning approvals and other authorization documents.
+State-Level Moratoriums
+•
+•
+
+As of June 2026, 13 states had introduced proposals for statewide data center moratoriums. 1
+– New York is the only state with a statewide moratorium in place on new, large-scale hyperscale data centers (EO No. 62)
+Alaska and West Virginia are the only states with no restrictions on record.
+
+Local Moratoriums2
+•
+•
+•
+•
+
+9
+
+Rather than waiting for statewide regulation, local authorities are intervening while they assess the potential impact of proposed developments. In fact, 294
+local moratoriums and bans were passed between January – July 2026.2
+Four states account for 35% of all local moratoriums, the most within Ohio, following by Michigan, Georgia and North Carolina.
+New Jersey has the highest number of permanent data center bans.
+Virginia, Pennsylvania and Illinois have all seen an increase in the number of local moratoriums as well as broader governor actions:
+– Governor Spanberger (VA) signed EO 22 in Sept 2026 which introduces a comprehensive data center framework tightening local approval, costallocation, environmental and energy requirements, including removal of by-right approval for >25 MW facilities and restrictions on fast-track permitting.
+– Governor Shapiro (PA) signed EO 2026-05 in Aug 2026 which requires data centers to secure local approvals and make binding commitments to GRID
+standards before DEP will review permit applications, while also removing projects from fast-track permitting.
+– Governor Pritzker (IL) directed the IL Department of Commerce and Economic Opportunity to pause all new data center tax agreements and urged
+lawmakers to pass new data center reforms during the fall veto session.
+
+1 - https://programs.com/resources/data-center-moratoriums-tracker, Last updated October 25, 2026
+2 - https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/10/data-center-backlash-shapes-midterm-ballotscampaigns-across-us-106324121
+
+Bottom Up: State and Local Moratoriums
+
+Permitting barriers can delay data center projects or shift demand to other locations,
+affecting when and where demand is realized
+Permitting uncertainty and restrictive local development requirements can reduce a location’s attractiveness by extending
+delivery timelines, increasing costs and raising the risk that a project cannot proceed. Developers may therefore favor alternative
+sites with adequate power and more predictable approval pathways, shifting where data center demand is realized.
+•
+
+Difficult permitting can redirect investment. Developers may favor locations with adequate power and more predictable approvals, shifting where data center
+demand is realized.
+
+•
+
+Moratoriums and lengthy reviews extend development timelines. Pauses on covered approvals, public hearings and additional review cycles can push
+back construction and delivery of usable capacity.
+
+•
+
+Zoning changes can increase costs and reduce site feasibility. Setbacks, design requirements and restrictions on permitted locations can require redesign,
+reduce developable acreage or make a site unsuitable.
+
+•
+
+Community opposition adds uncertainty and can cause withdrawal. Microsoft abandoned its proposed Caledonia site in WI following community feedback
+while remaining committed to investing elsewhere in the region.
+
+•
+
+Together, these factors raise costs, lengthen timelines and reduce the likelihood that announced projects proceed as planned. Foley’s survey found
+that 48% of respondents identified regulatory/permitting as the stage where deals most commonly stall or break down due to insufficient stakeholder
+collaboration.
+
+10
+
+Bottom Up: State and Local Moratoriums
+
+Most data center projects in the pipeline1 are concentrated in VA, OH, NJ, IL and PA, with
+OH and NJ having the highest number of local moratoriums and bans since 20222
+
+11
+
+1 - The Pipeline refers to utility planned data centers submissions and third-party hybrid and BTM data centers
+2 - https://programs.com/resources/data-center-moratoriums-tracker, last updated October 25, 2026
+
+State
+
+Number of
+Projects
+
+Number of Local
+Moratoriums and
+Bans since ‘22
+
+Virginia
+
+196
+
+5
+
+Ohio
+
+80
+
+94
+
+New Jersey
+
+43
+
+66
+
+Illinois
+
+34
+
+21
+
+Pennsylvania
+
+28
+
+6
+
+Maryland
+
+6
+
+18
+
+Indiana
+
+4
+
+34
+
+West Virginia
+
+4
+
+0
+
+Kentucky
+
+2
+
+28
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Next Steps & Close
+
+12
+
+Final Results
+
+Data center demand forecast: comparison of alternative trajectories
+
+13
+
+•
+
+EDC/LSE Submissions (Green): Unadjusted
+aggregate data center demand from EDC/LSE
+submissions.
+
+•
+
+EDC/LSE Requests (Red): Requested power
+from PJM by each EDC/LSE.
+
+•
+
+EDC/LSE Probability-Adjusted Submissions
+(Dark Grey): Aggregated demand adjusted for
+probability of materialization and delay.
+
+•
+
+PJM 2026 Load Forecast (Dashed Orange):
+PJM's published forecast for comparison.
+
+•
+
+Soft Supply Constraint (Light Blue): CRA's
+reconciled top-down and bottom-up demand
+forecast.
+
+•
+
+Hard Supply Constraint (Dark Blue): CRA's
+power-constrained base forecast, reflecting
+planned generation additions, current
+regulations, behind-the-meter generation
+offsets, and 1-in-10 reliability.
+
+Final Results: Soft Supply Constraint - reconciled top-down and bottom-up demand forecast.
+
+PJM data center demand reaches 30 GW by 2030 and 82 GW by 2047, concentrated in
+Dominion and AEP
+Data Center Forecast: Soft Supply Constraint
+
+14
+
+•
+
+Soft Supply Constraint assumes
+that projects deploy beyond PJM’s
+ability to support at 1-in-10.
+
+•
+
+Dominion and AEP comprise the
+largest share of demand given
+pipeline size and existing deployed
+data centers.
+
+•
+
+PPL and ComEd represent
+important secondary markets that
+grow substantially in the 2030s.
+
+Final Results
+
+Absent faster supply additions, PJM could face a ~11.5 GW shortfall by 2030
+
+Data Center Forecast: Hard Supply Constraint
+
+•
+
+Hard Supply Constraint represents
+how deployment would occur if 1in-10 reliability were binding,
+identifying the generation gap
+existing across zones.
+
+•
+
+Supply may not keep pace with
+projected demand under status
+quo assumptions.
+
+•
+
+Additional policy or market action
+could increase the demand served
+at 1-in-10, reducing the gap.
+
+•
+
+Curtailable load with on-site
+generation (gold segment) is
+assumed not to contribute to peak.
+Rules for how that curtailment
+would work are still being defined.
+
+Data centers that are curtailable but have
+backup generation to avoid downtime
+
+Deployment may
+still occur, but not
+Near-term deployment
+at 1-in-10 reliability
+may exceed PJM’s
+ability to serve at 1-in-10
+
+Grid-connected data centers
+supported at 1-in-10 reliability
+
+15
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Final Summary & Close
+
+16
+
+Scenarios – Impact
+
+Impact of Scenarios
+Using scenarios can illustrate how demand growth and constraints interact under different states of the world, how quickly
+constraints relax, and therefore how much national demand can realistically translate into regional load.
+
+State of the World
+
+Constraint Environment
+
+Impact on Forecast
+
+Base
+Baseline power and
+adoption assumptions
+
+AI adoption continues, but power, supply chain, and siting
+constraints slow realization. Going forward, new infrastructure
+accelerates beyond current rates.
+
+Demand grows steadily, but constraints cap near-term
+load realization and push some growth into later years.
+
+Abundance
+More generation added
+than base
+
+Infrastructure, compute, and power constraints are relaxed
+faster than base case expectation
+
+Faster load growth enabled by fewer binding constraints
+on realizing demand.
+
+Constrained
+Less generation added than
+base
+
+AI demand remains strong, but power availability and
+interconnection remain severely constrained (current rates
+remain), particularly in legacy markets. This forces efficiency
+gains in AI adoption
+
+National demand exists, but regional load realization is
+significantly limited by deliverability, cost, and timing of
+power. Data centers are likely to increasingly shift toward
+emerging and tertiary markets.
+
+Low Adoption
+U.S. AI adoption is lower
+than expected
+
+AI adoption is more measured due to cost, use-case
+uncertainty, efficiency improvements, or customer adoption
+friction.
+
+Lower overall demand trajectory, with less pressure on
+infrastructure constraints and slower regional siting.
+
+17
+
+Scenarios – Outcome Testing
+
+Scenarios test a range of internally consistent outcomes across power supply and AI
+adoption
+
+Scenario
+
+Supply-Demand Outlook
+
+AI Adoption
+
+AI Efficiency
+
+BTM Generation
+
+Abundance
+More generation added than
+base
+
+More generation added than
+base
+
+Same as base
+
+Same as base
+
+Same availability as base
+
+Constrained
+Less generation added than
+base
+
+Less generation added than
+base
+
+Same as base
+
+Incentivized to innovate:
+Increased efficiency gains
+
+Build limits tighten
+
+Low Adoption
+US AI adoption is lower than
+expected
+
+Same as base
+
+Lower adoption rate than
+base case
+
+Same as base
+
+Same availability as base
+
+Most significant implication
+
+18
+
+Scenarios – Results
+
+Additional near-term generation buildout can increase PJM demand. Constrained
+generation additions cause demand to plateau
+• PJM data center demand
+under Soft Supply
+Constraints varies by
+scenario. Uncertainty spans
+6.6 GW in 2030 and 29.3 GW
+in 2047.
+• Near-term generation
+additions increase the
+Abundance demand relative to
+the Constrained scenario.
+• Constrained power represents
+the most pessimistic long-term
+view of data center load and
+implies permanently lost
+market share.
+
+19
+
+Final Results
+
+Abundance Case: The abundant power scenario reduces the amount of demand not served
+at 1-in-10 reliability to 3.9 GW in 2028.
+
+20
+
+•
+
+The abundant power supply
+scenario implies generation
+additions near-term that
+strongly improve the nearterm outlook.
+
+•
+
+4.7 GW of data centers are
+deployed in this scenario
+compared to 0.6 GW by
+2030.
+
+•
+
+The abundance and base
+scenarios converge to the
+same deployment level by
+2035 as power ceases to be
+a binding constraint.
+
+Final Results
+
+Low Adoption Case: Low adoption maintains similar modeled deployment near-term but
+converges to a 19.4 GW lower demand in 2047
+
+21
+
+•
+
+Low adoption sees similar
+load growth through 2031
+as the base case and
+abundance scenario.
+
+•
+
+Long-term load growth
+reaches 62 GW by 2047, a
+19.4 GW decrease from the
+base case.
+
+Final Results
+
+Constrained Case: Power availability would fundamentally cap data center growth in PJM.
+Restricted growth rates result in a 29.2 GW demand reduction in 2047.
+
+22
+
+•
+
+Constrained power also sees
+similar load growth through
+2031 but diverges as generation
+additions observed in the base
+case do not materialize.
+
+•
+
+Power availability is the single
+most important factor to longterm demand growth in PJM. A
+constrained power scenario
+decreases long term demand by
+36% in 2047, down to 52.2 GW.
+
+Scenarios – Results
+
+Near-term data center growth concentrates in zones with existing projects ramping or BTM
+projects in the pipeline that can circumvent the PJM headroom constraint
+2030
+Near-term growth concentrates
+in Dominion and AEP, particularly
+given the large number of
+projects still ramping as of 2026
+
+Zones with behind-the-meter projects in the
+pipeline have an advantage, being able to
+avoid delay from headroom constraints
+
+23
+
+Scenarios – Results
+
+Realized load varies most in Dominion, AEP, and ComEd, with uncertainty of up to 10.4 GW
+in Dominion by 2047
+2047
+Uncertainty spans 10.4 GW
+in Dominion and 5.7 GW in
+both ComEd and AEP
+
+As many as 9 zones reach >1
+GW of data center load by 2047,
+with 4 more exceeding 500 MW
+
+24
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Final Summary & Close
+
+25
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Final Summary & Close
+
+26
+
+Agenda
+
+Meeting Agenda
+Topic
+Methodology Updates
+Moratorium Assessment
+Results
+Scenarios and Sensitivities
+Break
+
+Q&A
+Final Summary & Close
+
+27
+
+Scenarios – Results
+
+Conclusions / Key Take-away
+1. Power constraints in PJM create a significant reduction in data center load that can be powered at 1-in10 reliability through 2033.
+2. The gap between the soft and hard constraint view reaches 11.5 GW in 2030.
+3. Load growth concentrates in Dominion and AEP, with significant secondary markets of PPL and ComEd.
+4. Low AI adoption reduces data center demand by 19 GW in 2047. Constrained power supply is more
+restrictive, reducing 2047 demand by 29 GW.
+5. Zonal load growth from data centers varies significantly by the forecast end. Dominion, AEP, and ComEd
+have the largest uncertainty ranges, while nine zones may see data center load above 1 GW.
+
+28
+
+29
+
+

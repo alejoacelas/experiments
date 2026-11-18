@@ -1,0 +1,1043 @@
+2026 PJM Long-Term Load Forecast
+Load Analysis Subcommittee
+January 23, 2026
+Molly Mooney
+Resource Adequacy Planning
+
+www.pjm.com | Public
+
+PJM © 2026
+
+Model Parameters
+• Estimation Period: January 2016 through August 2025
+• Weather Simulation: 1994 to 2024 (403 scenarios)
+• Sector Models (2015-2024 Monthly from EIA 861 and EIA 861m)
+– End Use Data: Based on Itron’s 2025 release
+– Economics: September 2025 vintage from Moody’s Analytics
+• S&P Global Solar/Battery Forecast (zonal & peak allocation by PJM)
+– Production estimates by UL
+• S&P Global - Plug-in Electric Vehicles (PEVs)
+
+www.pjm.com | Public
+
+2
+
+PJM © 2026
+
+Forecast Adjustments
+• Load Adjustments:
+– Data Centers (AEP, ATSI, APS, BGE, COMED, DAYTON, DQE, JCPL,
+METED, PECO, PEPCO, PL, PS and Dominion);
+– Port Electrification (PS);
+– Voltage Optimization (Dominion);
+– Peak Shaving Adjustment (EKPC)
+
+www.pjm.com | Public
+
+3
+
+PJM © 2026
+
+Heating/Cooling/Other
+
+www.pjm.com | Public
+
+PJM © 2026
+
+• Heat/Cool/Other are driven by Sector (Residential/Commercial/Industrial)
+models. Sector model results are influenced by two factors.
+– Economics
+§ Residential – Households, Personal Income, Population per household
+§ Commercial – Employment, Population, Output
+§ Industrial - Output
+
+– End-use (saturation/efficiency/intensity)
+§ Residential
+§ Commercial
+§ Industrial
+
+www.pjm.com | Public
+
+5
+
+PJM © 2026
+
+Residential
+
+www.pjm.com | Public
+
+6
+
+PJM © 2026
+
+Residential
+
+www.pjm.com | Public
+
+7
+
+PJM © 2026
+
+Commercial
+
+www.pjm.com | Public
+
+8
+
+PJM © 2026
+
+Commercial
+
+www.pjm.com | Public
+
+9
+
+PJM © 2026
+
+Industrial
+
+www.pjm.com | Public
+
+10
+
+PJM © 2026
+
+Cooling
+
+www.pjm.com | Public
+
+11
+
+PJM © 2026
+
+Heating
+
+www.pjm.com | Public
+
+12
+
+PJM © 2026
+
+Other
+
+www.pjm.com | Public
+
+13
+
+PJM © 2026
+
+Cooling, Heating, and Other Comparison
+
+www.pjm.com | Public
+
+14
+
+PJM © 2026
+
+Distributed Solar and
+Battery Generation
+
+www.pjm.com | Public
+
+PJM © 2026
+
+Distributed Solar Generation 2026 Forecast by Zone
+
+www.pjm.com | Public
+
+16
+
+PJM © 2026
+
+Distributed Solar Peak Forecast by Zone
+
+www.pjm.com | Public
+
+17
+
+PJM © 2026
+
+Total PJM Nameplate
+
+www.pjm.com | Public
+
+18
+
+PJM © 2026
+
+Plug-in Electric Vehicles
+
+www.pjm.com | Public
+
+PJM © 2026
+
+Vendor Supplied Electric Vehicle Forecast
+
+• PJM has contracted with S&P Global to produce an Electric Vehicle
+forecast for Light Duty and Medium & Heavy Duty
+
+• S&P Global provided PJM with:
+– Zonal forecasts of vehicle counts by class
+– Zonal hourly charging by vehicle class for forecast horizon
+
+www.pjm.com | Public
+
+20
+
+PJM © 2026
+
+Electric Vehicle Counts
+
+www.pjm.com | Public
+
+21
+
+PJM © 2026
+
+Electric Vehicle Comparison
+
+www.pjm.com | Public
+
+22
+
+PJM © 2026
+
+Load Forecast Adjustments
+
+www.pjm.com | Public
+
+PJM © 2026
+
+Timeline for Large Load Adjustments
+
+Official request sent July 1
+October/
+July
+PJM requests
+information on
+potential load
+adjustments
+
+Early
+September
+PJM receives
+information on
+load
+adjustments and
+begins
+evaluation
+
+September
+Members
+present on load
+adjustments to
+Load Analysis
+Subcommittee
+
+November
+PJM continues
+evaluation and
+presents
+preliminary
+accepted
+requests to Load
+Analysis
+Subcommittee
+
+January
+PJM presents
+and posts official
+PJM Load
+Forecast
+
+EDC/LSE presentations from the 9.16.2025 LAS meeting and PJM
+presentation from the 11.24.2025 are here:
+https://www.pjm.com/committees-and-groups/subcommittees/las
+
+www.pjm.com | Public
+
+24
+
+PJM © 2026
+
+Evaluating Requests
+• Filtered projects
+– Worked to identify those that had ESO/CC and marked those as “Firm”.
+Only these projects will be allowed to impact RPM
+– All other projects were labeled “Non-Firm”
+• Investigated ramp rates (how long it takes for a data center to get from online
+to full demand) and imposed minimum 36 month
+• Investigated utilization rate (% of final capacity that is used) and imposed 70%
+unless otherwise supported
+• Considered national projections for a top-down estimate
+• Review of economic data in load forecast model to mitigate double counting
+load growth
+www.pjm.com | Public
+
+25
+
+PJM © 2026
+
+RTO
+100,000
+90,000
+80,000
+70,000
+MW
+
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+
+20
+26
+20
+27
+20
+28
+20
+29
+20
+30
+20
+31
+20
+32
+20
+33
+20
+34
+20
+35
+20
+36
+20
+37
+20
+38
+20
+39
+20
+40
+20
+41
+20
+42
+20
+43
+20
+44
+20
+45
+20
+46
+
+0
+
+RTO Total - Firm
+www.pjm.com | Public
+
+RTO - Total Non-Firm
+26
+
+PJM © 2026
+
+Total Load Adjustment Comparison
+Table B9b:Total Load Associated with
+Adjustments to Summer Peak Load
+100,000
+90,000
+80,000
+70,000
+
+MW
+
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+0
+
+2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046
+2025LF
+
+www.pjm.com | Public
+
+27
+
+2026LF
+
+PJM © 2026
+
+Processing Steps
+2026 Forecast (blue line):
+• For any zone with existing data center loads in history:
+– PJM removes monthly data center load from the commercial EIA data in an effort to remove any
+double counting
+– PJM also removes hourly data center load from our historical loads that get used in our model
+estimation
+– Final total accepted load gets added
+
+• For any zone without existing data center loads in history:
+– Final total accepted large load gets added
+
+For Table B9 (amount above embedded) :
+• To compute B9 values
+– A sensitivity is run with no data center loads removed from history in Commercial loads
+and historical loads (orange line)
+– This forecast is compared to final forecast to show amount above embedded (green bars)
+www.pjm.com | Public
+
+28
+
+PJM © 2026
+
+AEP
+
+www.pjm.com | Public
+
+29
+
+PJM © 2026
+
+APS
+
+www.pjm.com | Public
+
+30
+
+PJM © 2026
+
+ATSI
+
+www.pjm.com | Public
+
+31
+
+PJM © 2026
+
+BGE
+
+www.pjm.com | Public
+
+32
+
+PJM © 2026
+
+COMED
+
+www.pjm.com | Public
+
+33
+
+PJM © 2026
+
+DAYTON
+
+www.pjm.com | Public
+
+34
+
+PJM © 2026
+
+DLCO
+
+www.pjm.com | Public
+
+35
+
+PJM © 2026
+
+DOMINION
+
+www.pjm.com | Public
+
+36
+
+PJM © 2026
+
+JCPL
+
+www.pjm.com | Public
+
+37
+
+PJM © 2026
+
+METED
+
+www.pjm.com | Public
+
+38
+
+PJM © 2026
+
+PECO
+
+www.pjm.com | Public
+
+39
+
+PJM © 2026
+
+PL
+
+www.pjm.com | Public
+
+40
+
+PJM © 2026
+
+PEPCO
+
+www.pjm.com | Public
+
+41
+
+PJM © 2026
+
+PS
+
+www.pjm.com | Public
+
+42
+
+PJM © 2026
+
+2026 Long-Term Load Forecast
+
+www.pjm.com | Public
+
+PJM © 2026
+
+Summer Forecast Comparison 2025 vs 2026
+
+• 20-year/ Annualized Growth Rate
+• 2025 Forecast: 2.0%
+• 2026 Forecast: 2.4%
+
+• Select year comparisons
+(2026 Forecast vs 2025 Forecast)
+•
+•
+•
+•
+www.pjm.com | Public
+
+44
+
+2027: -2.3% (~3,700 MW)
+2029: -2.7% (~4,600 MW)
+2031: -0.9% (~1,600 MW)
+2040: +7.8% (~18,600 MW)
+PJM © 2026
+
+Summer 2026 Forecast Waterfall Comparison
+
+*Economics and EIA is the impact of new EIA end use data as well as new economics
+**Remainder is the impact of re-estimation of R,C,I models and hourly models
+www.pjm.com | Public
+
+45
+
+PJM © 2026
+
+Summer 2028 Forecast Waterfall Comparison
+
+*Economics and EIA is the impact of new EIA end use data as well as new economics
+**Remainder is the impact of re-estimation of R,C,I models and hourly models
+www.pjm.com | Public
+
+46
+
+PJM © 2026
+
+Summer 2031 Forecast Waterfall Comparison
+
+*Economics and EIA is the impact of new EIA end use data as well as new economics
+**Remainder is the impact of re-estimation of R,C,I models and hourly models
+www.pjm.com | Public
+
+47
+
+PJM © 2026
+
+Summer Forecast Flow – Additions and Subtractions
+
+www.pjm.com | Public
+
+48
+
+PJM © 2026
+
+Summer Forecast – Peak Timing
+400
+
+Count in RTO Coincident Peak Distribution
+
+350
+
+300
+
+Mostly HE17
+
+Mostly HE19
+Mostly HE18
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046
+HE15
+
+www.pjm.com | Public
+
+HE16
+
+HE17
+
+49
+
+HE18
+
+HE19
+
+HE20
+
+PJM © 2026
+
+2027 Summer Peak Distribution Comparison
+50/50 Forecast = 1.0
+
+www.pjm.com | Public
+
+50
+
+PJM © 2026
+
+2026 Summer Forecast
+w/ 10th and 90th Percentile Weather Bands
+
+www.pjm.com | Public
+
+51
+
+PJM © 2026
+
+Summer Peak Average Annual Growth (2026-2041)
+6.0%
+
+EVs
+
+Adjustments
+
+BtM Solar
+
+Economics and EIA
+
+Remainder
+
+Total
+
+5.0%
+4.0%
+3.0%
+2.0%
+1.0%
+0.0%
+-1.0%
+
+www.pjm.com | Public
+
+52
+
+PC
+
+O
+
+I
+G
+
+VE
+
+U
+
+O
+EC
+R
+
+PS
+
+PL
+
+O
+PC
+
+PE
+
+LC
+N
+
+O
+
+PE
+
+C
+PE
+
+ED
+
+M
+
+ET
+
+PL
+JC
+
+PC
+EK
+
+KE
+U
+D
+
+E
+Q
+D
+
+PL
+D
+
+N
+
+AY
+TO
+
+ED
+
+D
+
+C
+
+O
+
+M
+
+E
+BG
+
+I
+AT
+S
+
+S
+AP
+
+P
+AE
+
+AE
+
+-2.0%
+
+PJM © 2026
+
+Winter Forecast Comparison 2025 vs 2026
+
+• 20-year Annualized Growth Rate
+• 2025 Forecast : 2.4%
+• 2026 Forecast : 2.7%
+
+• Select year comparisons
+(2026 Forecast vs 2025 Forecast)
+•
+•
+•
+•
+www.pjm.com | Public
+
+53
+
+2027: -3.9% (~5,800MW)
+2029: -4.4% (~7,100MW)
+2031: -2.6% (~4,700MW)
+2039: +5.2% (~11,500MW)
+PJM © 2026
+
+Winter 2026/2027 Forecast Waterfall Comparison
+
+*Economics and EIA is the impact of new EIA end use data as well as new economics
+**Remainder is the impact of re-estimation of R,C,I models and hourly models
+www.pjm.com | Public
+
+54
+
+PJM © 2026
+
+Winter 2028/2029 Forecast Waterfall Comparison
+
+*Economics and EIA is the impact of new EIA end use data as well as new economics
+**Remainder is the impact of re-estimation of R,C,I models and hourly models
+www.pjm.com | Public
+
+55
+
+PJM © 2026
+
+Winter 2031/2032 Forecast Waterfall Comparison
+
+*Economics and EIA is the impact of new EIA end use data as well as new economics
+**Remainder is the impact of re-estimation of R,C,I models and hourly models
+www.pjm.com | Public
+
+56
+
+PJM © 2026
+
+Winter Forecast Flow – Additions and Subtractions
+
+www.pjm.com | Public
+
+57
+
+PJM © 2026
+
+Winter Forecast – Peak Timing
+400
+
+Count in RTO Coincident Peak Distribution
+
+350
+
+Mostly HE19
+
+Mostly HE8
+300
+
+250
+
+Mostly HE9
+
+200
+
+150
+
+100
+
+50
+
+0
+2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045
+HE8
+
+www.pjm.com | Public
+
+HE9
+
+HE10
+
+HE11
+
+HE12
+
+58
+
+HE18
+
+HE19
+
+HE20
+
+HE21
+
+PJM © 2026
+
+2027/28 Winter Peak Distribution Comparison
+50/50 Forecast = 1.0
+
+www.pjm.com | Public
+
+59
+
+PJM © 2026
+
+2026 Winter Forecast
+w/ 10th and 90th Percentile Weather Bands
+
+www.pjm.com | Public
+
+60
+
+PJM © 2026
+
+Winter Peak Average Annual Growth (2026-2041)
+8.0%
+
+EVs
+
+Adjustments
+
+BtM Solar
+
+Economics and EIA
+
+Remainder
+
+Total
+
+6.0%
+4.0%
+2.0%
+0.0%
+-2.0%
+-4.0%
+
+www.pjm.com | Public
+
+61
+
+PC
+
+O
+
+I
+G
+
+VE
+
+U
+
+O
+EC
+R
+
+PS
+
+PL
+
+O
+PC
+
+PE
+
+LC
+
+PE
+
+N
+
+O
+C
+PE
+
+ED
+
+M
+
+ET
+
+PL
+JC
+
+PC
+EK
+
+KE
+U
+D
+
+E
+Q
+D
+
+PL
+D
+
+N
+
+AY
+TO
+
+ED
+
+D
+
+C
+
+O
+
+M
+
+E
+BG
+
+I
+AT
+S
+
+S
+AP
+
+P
+AE
+
+AE
+
+-6.0%
+
+PJM © 2026
+
+Next Steps
+• Final report is posted with a number of supplemental data items
+• Review with Planning Committee (2/3/2026)
+• Additional files to be posted:
+– Load Report Supplement
+– EDC/LSE methodology documents
+
+www.pjm.com | Public
+
+62
+
+PJM © 2026
+
+Contact
+
+SME/Presenter:
+Molly Mooney,
+
+Molly.Mooney@pjm.com
+Load_Analysis_Team@pjm.com
+Member Hotline
+(610) 666 – 8980
+
+2026 PJM Long-Term Load Forecast
+
+www.pjm.com | Public
+
+63
+
+(866) 400 – 8980
+custsvc@pjm.com
+
+PJM © 2026
+
+www.pjm.com | Public
+
+64
+
+PJM © 2026
+
+

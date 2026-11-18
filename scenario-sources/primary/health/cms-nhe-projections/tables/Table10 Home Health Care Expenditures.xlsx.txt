@@ -1,0 +1,86 @@
+### sheet: Table10
+"Table 10 
+Home Health Care Expenditures; Aggregate and per Capita Amounts, Percent Distribution and Annual Percent Change by Source of Funds:  Calendar Years 2018-2034",,,,,,,,
+     ,     ,     ,Health Insurance1,,,,,
+Year ,Total,Out-of-Pocket Payments,Total,Private Health Insurance,Medicare,Medicaid,Other Health Insurance Programs2,Other Third Party Payers3
+Historical Estimates,Amount in Billions,,,,,,,
+2018,106.6,15.8,87.2,19.1,40.4,26.8,0.8,3.6
+2019,113.9,17,93,21.7,43.3,27.1,0.9,3.9
+2020,126.2,17.1,95.9,22.7,43.7,28.8,0.6,13.3
+2021,127.4,19.1,101.4,23.5,46.6,30.5,0.8,7
+2022,138.2,23.7,109.6,27.9,48.1,32.5,1,5
+2023,153.6,27.4,120.7,33.2,51.8,34,1.6,5.5
+2024,169.4,30.4,132.9,37.3,55.7,38.2,1.7,6.1
+Projected,,,,,,,,
+2025,186.9,34.3,145.8,42.8,59.6,41.9,1.4,6.8
+2026,201.7,37.4,156.8,46.7,64,44.4,1.6,7.5
+2027,216.6,40.3,168.1,50.4,70,46,1.7,8.1
+2028,233.4,43.6,181,54.5,76.1,48.5,1.9,8.9
+2029,251.7,47,195,58.9,82.7,51.4,2,9.7
+2030,271.3,50.6,210.2,63.6,89.8,54.5,2.2,10.5
+2031,291.8,54.3,226.2,68.3,97.5,58,2.4,11.4
+2032,314.8,58.5,243.8,73.8,105.8,61.7,2.6,12.4
+2033,340,63.1,263.4,79.7,115.4,65.4,2.8,13.5
+2034,367.8,68,285.2,86,126.5,69.6,3.1,14.6
+Historical Estimates,Per Capita Amount,,,,,,,
+2018,324,48,—,—,—,—,—,—
+2019,344,51,—,—,—,—,—,—
+2020,379,51,—,—,—,—,—,—
+2021,382,57,—,—,—,—,—,—
+2022,413,71,—,—,—,—,—,—
+2023,455,81,—,—,—,—,—,—
+2024,496,89,—,—,—,—,—,—
+Projected,,,,,,,,
+2025,544,100,—,—,—,—,—,—
+2026,586,109,—,—,—,—,—,—
+2027,629,117,—,—,—,—,—,—
+2028,676,126,—,—,—,—,—,—
+2029,728,136,—,—,—,—,—,—
+2030,782,146,—,—,—,—,—,—
+2031,839,156,—,—,—,—,—,—
+2032,901,168,—,—,—,—,—,—
+2033,970,180,—,—,—,—,—,—
+2034,1046,193,—,—,—,—,—,—
+Historical Estimates,Percent Distribution,,,,,,,
+2018,100,14.8,81.8,17.9,37.9,25.2,0.8,3.4
+2019,100,15,81.7,19.1,38,23.8,0.8,3.4
+2020,100,13.5,75.9,18,34.6,22.8,0.5,10.5
+2021,100,15,79.6,18.5,36.6,23.9,0.6,5.5
+2022,100,17.1,79.3,20.2,34.8,23.5,0.7,3.6
+2023,100,17.9,78.6,21.6,33.7,22.2,1,3.6
+2024,100,17.9,78.5,22,32.9,22.5,1,3.6
+Projected,,,,,,,,
+2025,100,18.3,78,22.9,31.9,22.4,0.8,3.7
+2026,100,18.6,77.7,23.1,31.7,22,0.8,3.7
+2027,100,18.6,77.6,23.3,32.3,21.3,0.8,3.8
+2028,100,18.7,77.5,23.4,32.6,20.8,0.8,3.8
+2029,100,18.7,77.5,23.4,32.8,20.4,0.8,3.8
+2030,100,18.7,77.5,23.5,33.1,20.1,0.8,3.9
+2031,100,18.6,77.5,23.4,33.4,19.9,0.8,3.9
+2032,100,18.6,77.5,23.5,33.6,19.6,0.8,3.9
+2033,100,18.6,77.5,23.4,34,19.3,0.8,4
+2034,100,18.5,77.5,23.4,34.4,18.9,0.8,4
+Historical Estimates,Annual Percent Change from Previous Year Shown,,,,,,,
+2018,—,—,—,—,—,—,—,—
+2019,6.8,7.7,6.7,13.5,7.1,1,7.2,7.3
+2020,10.8,0.3,3.1,4.7,0.9,6.4,-31.3,243.6
+2021,1,11.5,5.8,3.6,6.7,5.8,25,-47.3
+2022,8.5,24.4,8.1,18.5,3.3,6.7,35.8,-28.8
+2023,11.1,15.8,10.2,19.2,7.7,4.7,55.4,10.2
+2024,10.2,10.7,10.1,12.2,7.6,12.2,5.2,10.9
+Projected,,,,,,,,
+2025,10.3,12.9,9.7,14.9,6.9,9.7,-15.4,12.2
+2026,7.9,9.1,7.6,9,7.5,6.1,12.5,9.8
+2027,7.4,7.7,7.2,8,9.3,3.5,7.5,8.7
+2028,7.8,8.1,7.7,8.2,8.7,5.3,9.1,9
+2029,7.8,7.8,7.8,8,8.6,6.1,8.3,8.8
+2030,7.8,7.8,7.7,8.1,8.6,5.9,8.5,8.8
+2031,7.6,7.2,7.6,7.3,8.6,6.4,8.4,8.2
+2032,7.9,7.9,7.8,8,8.5,6.3,8.6,8.8
+2033,8,7.8,8,8,9.2,6.1,8.8,8.8
+2034,8.2,7.8,8.3,7.9,9.6,6.4,8.6,8.8
+"1Includes Private Health Insurance (Employer Sponsored Insurance and other private insurance, which includes Marketplace plans), Medicare, Medicaid, Children's Health Insurance Program (Titles XIX and XXI), Department of Defense, and Department of Veterans’ Affairs.",,,,,,,,
+"2Children's Health Insurance Program (Titles XIX and XXI), Department of Defense, and Department of Veterans' Affairs.",,,,,,,,
+"3Includes worksite health care, other private revenues, Indian Health Service, workers' compensation, general assistance, maternal and child health, vocational rehabilitation, other federal programs, Substance Abuse and Mental Health Services Administration, other state and local programs, and school health.",,,,,,,,
+"NOTE: Per capita amounts based on estimates that reflect the U.S. Bureau of Census definition for resident-based population (which includes all persons who usually reside in one of the fifty states or the District of Columbia, but excludes (i) residents living in Puerto Rico and areas under U.S. sovereignty, and (ii) U.S. Armed Forces overseas and U.S. citizens whose usual place of residence is outside of the United States) plus a small (approximately 0.3% of population) adjustment to reflect Census undercounts.  Projected estimates reflect the area population growth assumptions found in the Medicare Trustees Report.  Numbers and percents may not add to totals because of rounding.  Dashes (—) indicate ""not applicable"". ",,,,,,,,
+"SOURCE:  Centers for Medicare & Medicaid Services, Office of the Actuary.",,,,,,,,

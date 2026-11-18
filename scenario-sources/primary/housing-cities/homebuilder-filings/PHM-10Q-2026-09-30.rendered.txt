@@ -1,0 +1,1141 @@
+ 
+ phm-20260930 0000822416 12/31 2026 Q3 FALSE xbrli:shares iso4217:USD iso4217:USD xbrli:shares phm:segment xbrli:pure 0000822416 2026-01-01 2026-09-30 0000822416 2026-10-15 0000822416 2026-09-30 0000822416 2025-12-31 0000822416 phm:HomeBuildingSegmentMember phm:HomeBuildingSalesMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:HomeBuildingSalesMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:HomeBuildingSalesMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:HomeBuildingSalesMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:LandMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:LandMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:LandMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:LandMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:FinancialServicesMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:FinancialServicesMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:FinancialServicesMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:FinancialServicesMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 2026-07-01 2026-09-30 0000822416 2025-07-01 2025-09-30 0000822416 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSalesMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSalesMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSalesMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSalesMember 2025-01-01 2025-09-30 0000822416 us-gaap:LandMember 2026-07-01 2026-09-30 0000822416 us-gaap:LandMember 2025-07-01 2025-09-30 0000822416 us-gaap:LandMember 2026-01-01 2026-09-30 0000822416 us-gaap:LandMember 2025-01-01 2025-09-30 0000822416 us-gaap:CommonStockMember 2026-06-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2026-06-30 0000822416 us-gaap:RetainedEarningsMember 2026-06-30 0000822416 2026-06-30 0000822416 us-gaap:CommonStockMember 2026-07-01 2026-09-30 0000822416 us-gaap:RetainedEarningsMember 2026-07-01 2026-09-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2026-07-01 2026-09-30 0000822416 us-gaap:CommonStockMember 2026-09-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2026-09-30 0000822416 us-gaap:RetainedEarningsMember 2026-09-30 0000822416 us-gaap:CommonStockMember 2025-12-31 0000822416 us-gaap:AdditionalPaidInCapitalMember 2025-12-31 0000822416 us-gaap:RetainedEarningsMember 2025-12-31 0000822416 us-gaap:CommonStockMember 2026-01-01 2026-09-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2026-01-01 2026-09-30 0000822416 us-gaap:RetainedEarningsMember 2026-01-01 2026-09-30 0000822416 us-gaap:CommonStockMember 2025-06-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2025-06-30 0000822416 us-gaap:RetainedEarningsMember 2025-06-30 0000822416 2025-06-30 0000822416 us-gaap:CommonStockMember 2025-07-01 2025-09-30 0000822416 us-gaap:RetainedEarningsMember 2025-07-01 2025-09-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2025-07-01 2025-09-30 0000822416 us-gaap:CommonStockMember 2025-09-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2025-09-30 0000822416 us-gaap:RetainedEarningsMember 2025-09-30 0000822416 2025-09-30 0000822416 us-gaap:CommonStockMember 2024-12-31 0000822416 us-gaap:AdditionalPaidInCapitalMember 2024-12-31 0000822416 us-gaap:RetainedEarningsMember 2024-12-31 0000822416 2024-12-31 0000822416 us-gaap:CommonStockMember 2025-01-01 2025-09-30 0000822416 us-gaap:AdditionalPaidInCapitalMember 2025-01-01 2025-09-30 0000822416 us-gaap:RetainedEarningsMember 2025-01-01 2025-09-30 0000822416 us-gaap:InterestRateLockCommitmentsMember 2026-09-30 0000822416 us-gaap:InterestRateLockCommitmentsMember 2025-12-31 0000822416 us-gaap:ForwardContractsMember 2026-09-30 0000822416 us-gaap:ForwardContractsMember 2025-12-31 0000822416 us-gaap:LoanPurchaseCommitmentsMember 2026-09-30 0000822416 us-gaap:LoanPurchaseCommitmentsMember 2025-12-31 0000822416 us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember 2026-09-30 0000822416 us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember 2025-12-31 0000822416 us-gaap:ConsolidatedEntityExcludingVieMember 2026-09-30 0000822416 us-gaap:ConsolidatedEntityExcludingVieMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:NortheastMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:NortheastMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:NortheastMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:NortheastMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:SoutheastMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:SoutheastMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:SoutheastMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:SoutheastMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:FL us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:FL us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:FL us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:FL us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:MidwestMemberMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:MidwestMemberMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:MidwestMemberMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:MidwestMemberMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:TX us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:TX us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:TX us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:TX us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:WestMemberMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:WestMemberMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:WestMemberMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:WestMemberMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:OtherHomebuildingMember us-gaap:OperatingSegmentsMember 2026-07-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:OtherHomebuildingMember us-gaap:OperatingSegmentsMember 2025-07-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:OtherHomebuildingMember us-gaap:OperatingSegmentsMember 2026-01-01 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:OtherHomebuildingMember us-gaap:OperatingSegmentsMember 2025-01-01 2025-09-30 0000822416 phm:HomeBuildingSegmentMember phm:NortheastMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:NortheastMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember phm:SoutheastMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:SoutheastMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember stpr:FL us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:FL us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember phm:MidwestMemberMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:MidwestMemberMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember stpr:TX us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember stpr:TX us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember phm:WestMemberMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:WestMemberMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember phm:OtherHomebuildingMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember phm:OtherHomebuildingMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:HomeBuildingSegmentMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:HomeBuildingSegmentMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:FinancialServicesMember us-gaap:OperatingSegmentsMember 2026-09-30 0000822416 phm:FinancialServicesMember us-gaap:OperatingSegmentsMember 2025-12-31 0000822416 phm:OtherHomebuildingMember 2026-09-30 0000822416 phm:OtherHomebuildingMember 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:A5.500unsecuredseniornotesdueMarch2026Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:A5.500unsecuredseniornotesdueMarch2026Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:SeniorUnsecuredTermLoanMaturingJanuary32027Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:SeniorUnsecuredTermLoanMaturingJanuary32027Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:A4.250UnsecuredSeniorNotesDueMarch2031Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:A4.250UnsecuredSeniorNotesDueMarch2031Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:UnsecuredSeniorNotes7875DueJune2032Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:UnsecuredSeniorNotes7875DueJune2032Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:UnsecuredSeniorNotes6375DueMay2033Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:UnsecuredSeniorNotes6375DueMay2033Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:UnsecuredSeniorNotes600DueFebruary2035Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:UnsecuredSeniorNotes600DueFebruary2035Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember phm:A4.900UnsecuredSeniorNotesDueMarch2036Member 2026-09-30 0000822416 us-gaap:SeniorNotesMember phm:A4.900UnsecuredSeniorNotesDueMarch2036Member 2025-12-31 0000822416 us-gaap:SeniorNotesMember 2026-02-28 0000822416 us-gaap:SeniorNotesMember phm:A4.250UnsecuredSeniorNotesDueMarch2031Member 2026-02-28 0000822416 us-gaap:SeniorNotesMember phm:A4.900UnsecuredSeniorNotesDueMarch2036Member 2026-02-28 0000822416 us-gaap:SeniorNotesMember phm:A5.500unsecuredseniornotesdueMarch2026Member 2026-02-01 2026-02-28 0000822416 us-gaap:SeniorNotesMember phm:SeniorUnsecuredTermLoanMaturingJanuary32027Member 2026-02-01 2026-02-28 0000822416 us-gaap:NotesPayableOtherPayablesMember 2026-09-30 0000822416 us-gaap:NotesPayableOtherPayablesMember 2025-12-31 0000822416 us-gaap:NotesPayableOtherPayablesMember 2026-01-01 2026-09-30 0000822416 us-gaap:NotesPayableOtherPayablesMember srt:MaximumMember 2026-09-30 0000822416 us-gaap:NotesPayableOtherPayablesMember 2025-01-01 2025-09-30 0000822416 us-gaap:LineOfCreditMember us-gaap:RevolvingCreditFacilityMember 2026-01-31 0000822416 us-gaap:LineOfCreditMember us-gaap:RevolvingCreditFacilityMember 2026-02-28 0000822416 us-gaap:RevolvingCreditFacilityMember 2025-12-31 0000822416 phm:JointVentureDebtMember us-gaap:CorporateJointVentureMember 2026-09-30 0000822416 us-gaap:LineOfCreditMember phm:FinancialServicesMember 2026-09-30 0000822416 phm:FinancialServicesMember us-gaap:LineOfCreditMember 2026-09-30 0000822416 phm:FinancialServicesMember 2026-09-30 0000822416 phm:FinancialServicesMember us-gaap:LineOfCreditMember 2025-12-31 0000822416 phm:FinancialServicesMember 2025-12-31 0000822416 phm:SharerepurchaseplanMember 2026-01-01 2026-09-30 0000822416 phm:SharerepurchaseplanMember 2025-01-01 2025-09-30 0000822416 2025-01-29 0000822416 2026-04-22 0000822416 phm:SharerepurchaseplanMember 2026-09-30 0000822416 phm:ShareswithheldtopaytaxesMember 2026-01-01 2026-09-30 0000822416 phm:ShareswithheldtopaytaxesMember 2025-01-01 2025-09-30 0000822416 us-gaap:ResidentialMortgageMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000822416 us-gaap:ResidentialMortgageMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000822416 us-gaap:InterestRateLockCommitmentsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000822416 us-gaap:InterestRateLockCommitmentsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000822416 us-gaap:ForwardContractsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000822416 us-gaap:ForwardContractsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000822416 us-gaap:LoanPurchaseCommitmentsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2026-09-30 0000822416 us-gaap:LoanPurchaseCommitmentsMember us-gaap:FairValueMeasurementsRecurringMember us-gaap:FairValueInputsLevel2Member 2025-12-31 0000822416 us-gaap:LandMember us-gaap:FairValueMeasurementsNonrecurringMember us-gaap:FairValueInputsLevel3Member 2026-09-30 0000822416 us-gaap:LandMember us-gaap:FairValueMeasurementsNonrecurringMember us-gaap:FairValueInputsLevel3Member 2025-12-31 0000822416 us-gaap:FairValueInputsLevel1Member 2026-09-30 0000822416 us-gaap:FairValueInputsLevel1Member 2025-12-31 0000822416 us-gaap:FairValueInputsLevel2Member 2026-09-30 0000822416 us-gaap:FairValueInputsLevel2Member 2025-12-31 0000822416 us-gaap:CarryingReportedAmountFairValueDisclosureMember 2026-09-30 0000822416 us-gaap:CarryingReportedAmountFairValueDisclosureMember 2025-12-31 
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ Washington, D.C. 20549 
+ FORM 10-Q 
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) 
+ OF THE SECURITIES EXCHANGE ACT OF 1934 
+ For the quarterly period ended September 30, 2026 
+ or 
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) 
+ OF THE SECURITIES EXCHANGE ACT OF 1934 
+ Commission File Number 1-9804 
+ PULTEGROUP, INC. 
+ (Exact name of registrant as specified in its charter) 
+ Michigan 38-2766606 
+ (State or other jurisdiction of
+incorporation or organization) (I.R.S. Employer
+Identification No.) 
+ 3350 Peachtree Road NE, Suite 1500 
+ Atlanta, Georgia 30326 
+ (Address of principal executive offices) (Zip Code) 
+ Registrant’s telephone number, including area code: 404 978-6400 
+ Securities registered pursuant to Section 12(b) of the Act: 
+ Title of each class Trading Symbol(s) Name of each exchange on which registered 
+ Common Shares, par value $0.01 PHM New York Stock Exchange 
+ Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes [X] No [ ] 
+ Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes [X] No [ ] 
+ Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer”, “accelerated filer”, “smaller reporting company” and "emerging growth company" in Rule 12b-2 of the Exchange Act. (Check one): 
+ Large accelerated filer Accelerated filer Non-accelerated filer Smaller reporting company Emerging growth company 
+ ☒ ☐ ☐ ☐ ☐ 
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. [ ] 
+ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). 
+ Yes ☐ No ☒ 
+ Number of common shares outstanding as of October 15, 2026: 184,086,754 
+ 1 
+ PULTEGROUP, INC. 
+ TABLE OF CONTENTS 
+ Page 
+ No. 
+ PART I FINANCIAL INFORMATION 
+ Item 1 Financial Statements 
+ Condensed Consolidated Balance Sheets at September 30 , 2026 and December 31, 2025 
+ 3 
+ Consolidated Statements of Operations for the three and nine months ended September 30, 2026 and 2025 
+ 4 
+ Consolidated Statements of Shareholders' Equity for the three and nine months ended September 30, 2026 and 2025 
+ 5 
+ Consolidated Statements of Cash Flows for the nine months ended September 30, 2026 and 2025 
+ 7 
+ Notes to Condensed Consolidated Financial Statements 
+ 8 
+ Item 2 Management's Discussion and Analysis of Financial Condition and Results of Operations 
+ 24 
+ Item 3 Quantitative and Qualitative Disclosures About Market Risk 
+ 40 
+ Item 4 Controls and Procedures 
+ 41 
+ PART II OTHER INFORMATION 
+ 41 
+ Item 1 Legal Proceedings 
+ 41 
+ Item 1A Risk Factors 
+ 41 
+ Item 2 Unregistered Sales of Equity Securities and Use of Proceeds 
+ 42 
+ Item 5 Other Information 
+ 42 
+ Item 6 Exhibits 
+ 43 
+ Signatures 
+ 44 
+ 2 
+ PART I. FINANCIAL INFORMATION 
+ Item 1. Financial Statements 
+ PULTEGROUP, INC. 
+ CONDENSED CONSOLIDATED BALANCE SHEETS 
+ ($000’s omitted) 
+ September 30,
+2026 December 31,
+2025 
+ (Unaudited) 
+ ASSETS 
+ Cash and equivalents $ 1,369,902 $ 1,980,869 
+ Restricted cash 38,125 27,907 
+ Total cash, cash equivalents, and restricted cash 1,408,027 2,008,776 
+ House and land inventory 14,090,509 12,925,413 
+ Residential mortgage loans available-for-sale 433,947 613,665 
+ Investments in unconsolidated entities 141,741 167,342 
+ Other assets 2,303,038 2,217,483 
+ Goodwill 40,377 40,377 
+ Other intangible assets 21,973 26,210 
+ Deferred tax assets 45,294 49,157 
+ $ 18,484,906 $ 18,048,423 
+ LIABILITIES AND SHAREHOLDERS’ EQUITY 
+ Liabilities: 
+ Accounts payable $ 747,157 $ 724,885 
+ Customer deposits 515,886 387,837 
+ Deferred tax liabilities 469,179 448,493 
+ Accrued and other liabilities 1,464,582 1,338,330 
+ Financial Services debt 383,245 532,338 
+ Notes payable 1,808,896 1,631,098 
+ 5,388,945 5,062,981 
+ Shareholders' equity 13,095,961 12,985,442 
+ $ 18,484,906 $ 18,048,423 
+ See accompanying Notes to Condensed Consolidated Financial Statements. 
+ 3 
+ PULTEGROUP, INC. 
+ CONSOLIDATED STATEMENTS OF OPERATIONS 
+ (000’s omitted, except per share data) 
+ (Unaudited) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Revenues: 
+ Homebuilding 
+ Home sale revenues $ 3,859,030 $ 4,248,375 $ 10,973,638 $ 12,265,619 
+ Land sale and other revenues 7,790 53,169 116,025 140,345 
+ 3,866,820 4,301,544 11,089,663 12,405,964 
+ Financial Services 107,026 103,255 275,712 295,241 
+ Total revenues 3,973,846 4,404,799 11,365,375 12,701,205 
+ Homebuilding Cost of Revenues: 
+ Home sale cost of revenues ( 2,901,856 ) ( 3,133,548 ) ( 8,258,644 ) ( 8,968,112 ) 
+ Land sale and other cost of revenues ( 5,046 ) ( 48,062 ) ( 100,322 ) ( 129,504 ) 
+ ( 2,906,902 ) ( 3,181,610 ) ( 8,358,966 ) ( 9,097,616 ) 
+ Financial Services expenses ( 61,468 ) ( 58,897 ) ( 181,306 ) ( 173,478 ) 
+ Selling, general, and administrative expenses ( 397,198 ) ( 400,681 ) ( 1,160,497 ) ( 1,184,472 ) 
+ Equity income (loss) from unconsolidated entities, net ( 2,772 ) 2,422 2,069 3,333 
+ Other income, net 19,700 1,755 30,366 7,110 
+ Income before income taxes 625,206 767,788 1,697,041 2,256,082 
+ Income tax expense ( 149,479 ) ( 181,954 ) ( 402,315 ) ( 538,967 ) 
+ Net income $ 475,727 $ 585,834 $ 1,294,726 $ 1,717,115 
+ Per share: 
+ Basic earnings $ 2.55 $ 2.98 $ 6.84 $ 8.62 
+ Diluted earnings $ 2.53 $ 2.96 $ 6.79 $ 8.55 
+ Cash dividends declared $ 0.26 $ 0.22 $ 0.78 $ 0.66 
+ Number of shares used in calculation: 
+ Basic 186,633 196,536 189,353 199,258 
+ Effect of dilutive securities 1,205 1,605 1,239 1,548 
+ Diluted 187,838 198,141 190,592 200,806 
+ See accompanying Notes to Condensed Consolidated Financial Statements. 
+ 4 
+ PULTEGROUP, INC. 
+ CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY 
+ (000's omitted) 
+ (Unaudited) 
+ Additional
+Paid-in
+Capital Retained
+Earnings Total 
+ Common Stock 
+ Shares $ 
+ Shareholders' equity, June 30, 2026 187,673 $ 1,877 $ 3,523,123 $ 9,488,731 $ 13,013,731 
+ Share issuances 18 — — — — 
+ Dividends declared — — — ( 48,632 ) ( 48,632 ) 
+ Share repurchases ( 2,810 ) ( 28 ) — ( 350,371 ) ( 350,399 ) 
+ Excise tax on share repurchases — — — ( 3,482 ) ( 3,482 ) 
+ Cash paid for shares withheld for taxes — — — ( 1,495 ) ( 1,495 ) 
+ Share-based compensation — — 10,511 — 10,511 
+ Net income — — — 475,727 475,727 
+ Shareholders' equity, September 30, 2026 184,881 $ 1,849 $ 3,533,634 $ 9,560,478 $ 13,095,961 
+ Shareholders' equity, December 31, 2025 192,725 $ 1,927 $ 3,488,924 $ 9,494,591 $ 12,985,442 
+ Share issuances 508 5 ( 8 ) — ( 3 ) 
+ Dividends declared — — — ( 148,128 ) ( 148,128 ) 
+ Share repurchases ( 8,352 ) ( 83 ) — ( 1,031,484 ) ( 1,031,567 ) 
+ Excise tax on share repurchases — — — ( 9,670 ) ( 9,670 ) 
+ Cash paid for shares withheld for taxes — — — ( 39,557 ) ( 39,557 ) 
+ Share-based compensation — — 44,718 — 44,718 
+ Net income — — — 1,294,726 1,294,726 
+ Shareholders' equity, September 30, 2026 184,881 $ 1,849 $ 3,533,634 $ 9,560,478 $ 13,095,961 
+ 5 
+ Additional
+Paid-in
+Capital Retained
+Earnings Total 
+ Common Stock 
+ Shares $ 
+ Shareholders' equity, June 30, 2025 197,599 $ 1,976 $ 3,465,074 $ 9,107,892 $ 12,574,942 
+ Share issuances 6 1 — — 1 
+ Dividends declared — — — ( 43,451 ) ( 43,451 ) 
+ Share repurchases ( 2,435 ) ( 24 ) — ( 299,976 ) ( 300,000 ) 
+ Excise tax on share repurchases — — — ( 2,994 ) ( 2,994 ) 
+ Cash paid for shares withheld for taxes — — — ( 543 ) ( 543 ) 
+ Share-based compensation — — 12,248 — 12,248 
+ Net income — — — 585,834 585,834 
+ Shareholders' equity, September 30, 2025 195,170 $ 1,953 $ 3,477,322 $ 9,346,762 $ 12,826,037 
+ Shareholders' equity, December 31, 2024 202,913 $ 2,029 $ 3,425,384 $ 8,694,551 $ 12,121,964 
+ Share issuances 453 6 8,558 — 8,564 
+ Dividends declared — — — ( 132,199 ) ( 132,199 ) 
+ Share repurchases ( 8,196 ) ( 82 ) — ( 899,918 ) ( 900,000 ) 
+ Excise tax on share repurchases — — — ( 8,484 ) ( 8,484 ) 
+ Cash paid for shares withheld for taxes — — — ( 24,303 ) ( 24,303 ) 
+ Share-based compensation — — 43,380 — 43,380 
+ Net income — — — 1,717,115 1,717,115 
+ Shareholders' equity, September 30, 2025 195,170 $ 1,953 $ 3,477,322 $ 9,346,762 $ 12,826,037 
+ See accompanying Notes to Condensed Consolidated Financial Statements. 
+ 6 
+ PULTEGROUP, INC. 
+ CONSOLIDATED STATEMENTS OF CASH FLOWS 
+ ($000’s omitted) 
+ (Unaudited) 
+ Nine Months Ended 
+ September 30, 
+ 2026 2025 
+ Cash flows from operating activities: 
+ Net income $ 1,294,726 $ 1,717,115 
+ Adjustments to reconcile net income to net cash provided by operating activities: 
+ Deferred income tax expense 24,524 51,921 
+ Land-related charges 65,030 69,811 
+ Loss on debt retirement 2,637 — 
+ Depreciation and amortization 76,626 75,549 
+ Equity income from unconsolidated entities, net ( 2,069 ) ( 3,333 ) 
+ Distributions of income from unconsolidated entities 4,758 3,060 
+ Share-based compensation expense 44,718 43,221 
+ Other, net ( 21,494 ) ( 739 ) 
+ Increase (decrease) in cash due to: 
+ Inventories ( 1,149,355 ) ( 635,860 ) 
+ Residential mortgage loans available-for-sale 179,718 143,516 
+ Other assets ( 127,060 ) ( 203,007 ) 
+ Accounts payable, accrued and other liabilities 244,207 ( 161,132 ) 
+ Net cash provided by operating activities 636,966 1,100,122 
+ Cash flows from investing activities: 
+ Capital expenditures ( 78,221 ) ( 91,401 ) 
+ Investments in unconsolidated entities ( 45,773 ) ( 9,171 ) 
+ Distributions of capital from unconsolidated entities 21,564 45,669 
+ Proceeds from asset dispositions 90,587 2,799 
+ Other investing activities, net 3,000 ( 12,000 ) 
+ Net cash used in investing activities ( 8,843 ) ( 64,104 ) 
+ Cash flows from financing activities: 
+ Proceeds from debt issuance 794,784 — 
+ Repayments of notes payable ( 612,691 ) ( 9,163 ) 
+ Financial Services repayments, net ( 149,093 ) ( 122,683 ) 
+ Debt issuance costs ( 23,411 ) ( 1,446 ) 
+ Proceeds from liabilities related to consolidated inventory not owned 26,558 25,643 
+ Payments related to consolidated inventory not owned ( 31,633 ) ( 32,981 ) 
+ Share repurchases ( 1,031,567 ) ( 900,000 ) 
+ Excise tax on share repurchases ( 11,482 ) ( 11,550 ) 
+ Cash paid for shares withheld for taxes ( 39,557 ) ( 24,303 ) 
+ Dividends paid ( 150,780 ) ( 133,658 ) 
+ Net cash used in financing activities ( 1,228,872 ) ( 1,210,141 ) 
+ Net increase (decrease) in cash, cash equivalents, and restricted cash ( 600,749 ) ( 174,123 ) 
+ Cash, cash equivalents, and restricted cash at beginning of period 2,008,776 1,653,680 
+ Cash, cash equivalents, and restricted cash at end of period $ 1,408,027 $ 1,479,557 
+ Supplemental Cash Flow Information: 
+ Interest paid, net $ 10,760 $ 12,904 
+ Income taxes paid, net $ 410,565 $ 533,574 
+ See accompanying Notes to Condensed Consolidated Financial Statements. 
+ 7 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ 1. Basis of presentation 
+ PulteGroup, Inc. is one of the largest homebuilders in the United States ("U.S."), and our common shares trade on the New York Stock Exchange under the ticker symbol “PHM”. Unless the context otherwise requires, the terms "PulteGroup," the "Company," "we," "us," and "our" used herein refer to PulteGroup, Inc. and its subsidiaries. While our subsidiaries engage primarily in the homebuilding business, we also engage in mortgage banking operations, conducted through Pulte Mortgage LLC (“Pulte Mortgage”), and title and insurance agency operations. 
+ The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with U.S. generally accepted accounting principles ("GAAP") for interim financial information and with the instructions to Form 10-Q and Article 10 of Regulation S-X. Accordingly, they do not include all of the information and footnotes required by U.S. GAAP for complete financial statements. In the opinion of management, all adjustments (consisting of normal, recurring adjustments) considered necessary for a fair presentation have been included. Operating results for the interim periods presented are not necessarily indicative of the results that may be expected for the full year. These financial statements should be read in conjunction with our consolidated financial statements and footnotes thereto included in our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ Use of estimates 
+ The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates. 
+ Subsequent events 
+ We evaluated subsequent events up until the time the financial statements were filed with the Securities and Exchange Commission (the "SEC"). 
+ Other income, net 
+ Other income, net consists of the following ($000’s omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Write-offs of deposits and pre-acquisition costs $ ( 11,678 ) $ ( 10,836 ) $ ( 23,132 ) $ ( 26,515 ) 
+ Amortization of intangible assets ( 1,412 ) ( 2,301 ) ( 4,237 ) ( 6,968 ) 
+ Loss on debt retirement — — ( 2,637 ) — 
+ Interest income 8,221 11,804 31,842 31,646 
+ Interest expense ( 140 ) ( 170 ) ( 410 ) ( 438 ) 
+ Miscellaneous, net (a) 
+ 24,709 3,258 28,940 9,385 
+ Other income, net $ 19,700 $ 1,755 $ 30,366 $ 7,110 
+ (a) Includes a gain of $ 21.4 million in the three and nine months ended September 30, 2026 related to the divestiture of certain manufacturing assets. 
+ 8 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ Revenue recognition 
+ Home sale revenues - Home sale revenues and related profit are generally recognized when title to and possession of the home are transferred to the buyer, and our performance obligation to deliver the agreed-upon home is generally satisfied at the home closing date. Home sale contract assets consist of cash from home closings held in escrow for our benefit, typically for less than five days, which are considered deposits in-transit and classified as cash. Contract liabilities include customer deposits related to sold but undelivered homes, which totaled $ 515.9 million and $ 387.8 million at September 30, 2026 and December 31, 2025, respectively. Substantially all of our home sales are scheduled to close and be recorded to revenue within one year from the date of receiving a customer deposit. See Note 8 for information on warranties and related obligations. 
+ Land sale and other revenues - We periodically elect to sell parcels of land to third parties in the event such assets no longer fit into our strategic operating plans or are zoned for commercial or other development. Land sales are generally outright sales of specified land parcels with cash consideration due on the closing date, which is generally when performance obligations are satisfied. Other revenues related to our construction services operations are generally recognized as materials are delivered and installation services are provided. 
+ Financial Services revenues - Loan origination fees, commitment fees, and discount points are recognized upon loan origination. Expected gains and losses from the sale of residential mortgage loans and their related servicing rights are included in the measurement of interest rate lock commitments ("IRLCs") that are accounted for at fair value through Financial Services revenues at the time of commitment. Subsequent changes in the fair value of IRLCs and residential mortgage loans available-for-sale are reflected in Financial Services revenues as they occur. Interest income is accrued from the date a mortgage loan is originated until the loan is sold. Mortgage servicing fees represent fees earned for servicing loans until the loans are sold. Servicing fees are based on a contractual percentage of the outstanding principal balance and are credited to income when related mortgage payments are received. 
+ Revenues associated with our title operations are recognized as closing services are rendered and title insurance policies are issued, both of which generally occur as each home is closed. Insurance agency commissions relate to commissions on home and other insurance policies placed with third-party carriers through various agency channels. Our performance obligations for policy renewal commissions are considered satisfied upon issuance of the initial policy. The related contract assets for estimated future renewal commissions are included in other assets and totaled $ 90.0 million and $ 82.6 million at September 30, 2026 and December 31, 2025, respectively. 
+ Residential mortgage loans available-for-sale 
+ Substantially all of the loans originated by us are sold in the secondary mortgage market within a short period of time after origination, generally within 30 days. At September 30, 2026 and December 31, 2025, residential mortgage loans available-for-sale had an aggregate fair value of $ 433.9 million and $ 613.7 million, respectively, and an aggregate outstanding principal balance of $ 463.5 million and $ 621.6 million, respectively. These changes in fair value were substantially offset by changes in fair value of the corresponding derivative instruments. Net gains from the sale of mortgages were $ 54.1 million and $ 59.6 million for the three months ended September 30, 2026 and 2025, respectively, and $ 142.0 million and $ 169.1 million for the nine months ended September 30, 2026 and 2025, respectively, and have been included in Financial Services revenues. 
+ Derivative instruments and hedging activities 
+ We are party to IRLCs with customers resulting from our mortgage origination operations. At September 30, 2026 and December 31, 2025, we had aggregate IRLCs of $ 1.5 billion and $ 820.2 million, respectively. Since we can terminate a loan commitment if the borrower does not comply with the terms of the contract, and some loan commitments may expire without being drawn upon, these commitments do not necessarily represent future cash requirements. 
+ We hedge our exposure to interest rate market risk relating to residential mortgage loans available-for-sale and IRLCs using forward contracts on mortgage-backed securities, which are commitments to either purchase or sell a specified financial instrument at a specified future date for a specified price, and whole loan investor commitments, which are obligations of an investor to buy loans at a specified price within a specified time period. Forward contracts on mortgage-backed securities are the predominant derivative financial instruments we use to minimize market risk during the period from the time we extend an interest rate lock to a loan applicant until the time the loan is sold to an investor. At September 30, 2026 and December 31, 2025, we had unexpired forward contracts of $ 1.8 billion and $ 1.3 billion, respectively, and whole loan investor commitments 
+ 9 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ of $ 161.9 million and $ 270.6 million, respectively. Changes in the fair value of IRLCs and other derivative financial instruments are recognized in Financial Services revenues, and the fair values are reflected in other assets or other liabilities, as applicable. 
+ There are no credit-risk-related contingent features within our derivative agreements, and counterparty risk is considered minimal. Gains and losses on IRLCs are substantially offset by corresponding gains or losses on forward contracts on mortgage-backed securities and whole loan investor commitments. We are generally not exposed to variability in cash flows of derivative instruments for more than approximately 120 days. 
+ The fair values of derivative instruments and their locations in the Condensed Consolidated Balance Sheets are summarized below ($000’s omitted): 
+ September 30, 2026 December 31, 2025 
+ Other Assets Accrued and Other Liabilities Other Assets Accrued and Other Liabilities 
+ IRLCs $ 686 $ 98,553 $ 1,459 $ 20,829 
+ Forward contracts 79,570 128 3,316 3,407 
+ Whole loan commitments 49 329 24 85 
+ $ 80,305 $ 99,010 $ 4,799 $ 24,321 
+ Earnings per share 
+ Basic earnings per share is computed by dividing income available to common shareholders by the weighted-average number of common shares outstanding, adjusted for unvested shares for the period (the “Denominator”). Computing diluted earnings per share is similar to computing basic earnings per share, except that the Denominator is increased to include the dilutive effects of unvested restricted share units and other potentially dilutive instruments. Anti-dilutive shares were immaterial in the three and nine months ended September 30, 2026 and 2025. 
+ Credit losses 
+ We are exposed to credit losses primarily through our vendors and insurance carriers. We assess and monitor each counterparty’s ability to pay amounts owed by considering contractual terms and conditions, the counterparty’s financial condition, macroeconomic factors, and business strategy. Our assets exposed to credit losses consist primarily of insurance receivables, contract assets related to insurance agency commissions, accounts receivable, and vendor rebate receivables. Counterparties associated with these assets are generally highly rated. Allowances on the aforementioned assets were not material as of September 30, 2026 and December 31, 2025. 
+ New accounting pronouncements 
+ In November 2024, the Financial Accounting Standards Board ("FASB") issued Accounting Standards Update ("ASU") 2024-03, “Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses” ("ASU 2024-03"), which requires disaggregated disclosure of certain costs and expenses on an interim and annual basis in the notes to the financial statements. ASU 2024-03 is effective for us for annual periods beginning after December 31, 2026. We are currently evaluating the impact ASU 2024-03 will have on our financial statement disclosures. 
+ In September 2025, the FASB issued ASU 2025-06, "Intangibles - Goodwill and Other - Internal-use Software (Subtopic 350-40): Targeted Improvement to the Accounting for Internal-use Software", which amends certain aspects of the accounting and disclosure of developed software costs. ASU 2025-06 is effective for us for annual periods beginning after December 31, 2027. We are currently evaluating the impact of ASU 2025-06 but do not expect that the adoption will have a material impact on our consolidated financial statements or related disclosures. 
+ 10 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ 2. House and land inventory 
+ Major components of inventory were as follows ($000’s omitted): 
+ September 30,
+2026 December 31,
+2025 
+ Homes under construction $ 5,667,088 $ 5,192,711 
+ Land under development 7,671,608 6,955,016 
+ Raw land 575,904 637,936 
+ Consolidated inventory not owned (a) 
+ 136,727 120,160 
+ Land held for sale 39,182 19,590 
+ $ 14,090,509 $ 12,925,413 
+ (a) Consolidated inventory not owned includes land sold to third parties for which the Company retains a repurchase option. 
+ We capitalize interest cost into inventory during the active development and construction of our communities. In all periods presented, we capitalized substantially all Homebuilding interest costs into inventory because the level of our active inventory exceeded our debt levels. Information related to interest capitalized into inventory is as follows ($000’s omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Interest in inventory, beginning of period $ 125,299 $ 136,624 $ 122,327 $ 139,960 
+ Interest capitalized 29,550 26,139 85,874 78,360 
+ Interest expensed ( 28,627 ) ( 31,199 ) ( 81,979 ) ( 86,756 ) 
+ Interest in inventory, end of period $ 126,222 $ 131,564 $ 126,222 $ 131,564 
+Land option agreements 
+ We enter into land option agreements in order to procure land for the construction of homes in the future. Pursuant to these land option agreements, we generally provide a deposit to the seller as consideration for the right to purchase land at different times in the future, usually at predetermined prices. Such contracts enable us to defer acquiring portions of properties owned by third parties or unconsolidated entities until we have determined whether and when to exercise our option, which may serve to reduce our financial risks associated with long-term land holdings. Option deposits and pre-acquisition costs (such as environmental testing, surveys, engineering, and entitlement costs) are capitalized if the costs are directly identifiable with the land under option, the costs would be capitalized if we owned the land, and acquisition of the property is probable. Such costs are reflected in other assets and are reclassified to inventory upon taking title to the land. We write off deposits and pre-acquisition costs when it becomes probable that we will not go forward with the project or recover the capitalized costs. Such decisions take into consideration changes in local market conditions, the timing of required land purchases, the availability and best use of necessary incremental capital, and other factors. We record any such write-offs of deposits and pre-acquisition costs within other income, net. See Note 1 . 
+ 11 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ If an entity holding the land under option is a variable interest entity ("VIE"), our deposit represents a variable interest in that entity. No VIEs required consolidation at either September 30, 2026 or December 31, 2025 because we determined that we were not any VIE's primary beneficiary. Our maximum exposure to loss related to these VIEs is generally limited to our deposits and pre-acquisition costs under the land option agreements. The following provides a summary of our interests in land option agreements as of September 30, 2026 and December 31, 2025 ($000’s omitted): 
+ September 30, 2026 December 31, 2025 
+ Deposits and
+Pre-acquisition
+Costs Remaining Purchase
+Price Deposits and
+Pre-acquisition
+Costs Remaining Purchase
+Price 
+ Land options with VIEs $ 416,517 $ 3,254,138 $ 436,258 $ 3,307,698 
+ Other land options 828,690 6,182,281 830,642 6,695,156 
+ $ 1,245,207 $ 9,436,419 $ 1,266,900 $ 10,002,854 
+ Land-related charges 
+ We recorded the following land-related charges ($000's omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ Statement of Operations Classification 2026 2025 2026 2025 
+ Land impairments Home sale cost of revenues $ 25,791 $ 16,752 $ 41,898 $ 42,181 
+ Net realizable value ("NRV") adjustments - land held for sale Land sale and other cost of revenues — 39 — 1,115 
+ Write-offs of deposits and pre-acquisition costs Other expense, net 11,678 10,836 23,132 26,515 
+ $ 37,469 $ 27,627 $ 65,030 $ 69,811 
+ Our evaluations for land impairments, NRV adjustments, and write-offs of deposits and pre-acquisition costs are based on our best estimates of the future cash flows of our communities. Due to uncertainties in the estimation process, the significant volatility in demand for new housing, the long life cycles of certain of our communities, and potential changes in our strategy related to certain communities, actual results could differ significantly from such estimates. See Note 3 for a summary of such charges by reportable segment. 
+ 3. Segment information 
+ Our Homebuilding operations are engaged in the acquisition and development of land primarily for residential purposes within the U.S. and the construction of housing on such land. For reporting purposes, our Homebuilding operations are aggregated into six reportable segments: 
+ Northeast: Maryland, Massachusetts, New Jersey, Pennsylvania, Rhode Island, Virginia 
+ Southeast: Georgia, North Carolina, South Carolina, Tennessee 
+ Florida: Florida 
+ Midwest: Illinois, Indiana, Kentucky, Michigan, Minnesota, Ohio 
+ Texas: Texas 
+ West: Arizona, California, Colorado, Nevada, New Mexico, Oregon, Utah, Washington 
+ 12 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ We also have a reportable segment for our Financial Services operations, which consist principally of mortgage banking, title, and insurance agency operations. The Financial Services segment operates generally in the same markets as the Homebuilding segments. Evaluation of segment performance is generally based on income before income taxes. Each reportable segment generally follows the same accounting policies described in Note 1 . 
+ Operating Data by Segment 
+($000’s omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Revenues: 
+ Northeast $ 254,573 $ 303,181 $ 666,061 $ 900,352 
+ Southeast 681,534 770,295 2,002,088 2,156,041 
+ Florida 1,102,778 1,098,712 3,070,529 3,116,603 
+ Midwest 664,353 719,327 1,827,794 1,993,116 
+ Texas 361,579 409,160 1,089,470 1,287,491 
+ West 794,213 946,662 2,316,177 2,815,217 
+ Other homebuilding (a) 
+ 7,790 54,207 117,544 137,144 
+ 3,866,820 4,301,544 11,089,663 12,405,964 
+ Financial Services 107,026 103,255 275,712 295,241 
+ Consolidated revenues $ 3,973,846 $ 4,404,799 $ 11,365,375 $ 12,701,205 
+ Cost of revenues 
+ Northeast $ ( 182,407 ) $ ( 211,608 ) $ ( 473,442 ) $ ( 605,945 ) 
+ Southeast ( 489,065 ) ( 534,351 ) ( 1,450,539 ) ( 1,488,573 ) 
+ Florida ( 784,999 ) ( 775,440 ) ( 2,204,256 ) ( 2,189,091 ) 
+ Midwest ( 466,400 ) ( 506,999 ) ( 1,292,318 ) ( 1,413,295 ) 
+ Texas ( 291,175 ) ( 311,384 ) ( 851,397 ) ( 963,097 ) 
+ West ( 667,799 ) ( 759,282 ) ( 1,924,068 ) ( 2,232,067 ) 
+ Other homebuilding (b) 
+ ( 25,057 ) ( 82,546 ) ( 162,946 ) ( 205,548 ) 
+ $ ( 2,906,902 ) $ ( 3,181,610 ) $ ( 8,358,966 ) $ ( 9,097,616 ) 
+ Selling, general, and administrative expenses: 
+ Northeast $ ( 24,101 ) $ ( 24,901 ) $ ( 71,567 ) $ ( 75,189 ) 
+ Southeast ( 73,720 ) ( 75,418 ) ( 217,537 ) ( 216,580 ) 
+ Florida ( 102,924 ) ( 100,587 ) ( 300,646 ) ( 299,681 ) 
+ Midwest ( 63,994 ) ( 61,387 ) ( 188,481 ) ( 181,760 ) 
+ Texas ( 51,586 ) ( 54,898 ) ( 151,105 ) ( 168,900 ) 
+ West ( 77,971 ) ( 85,333 ) ( 236,069 ) ( 252,769 ) 
+ Other homebuilding (c) 
+ ( 2,902 ) 1,843 4,908 10,407 
+ $ ( 397,198 ) $ ( 400,681 ) $ ( 1,160,497 ) $ ( 1,184,472 ) 
+ 13 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ Operating Data by Segment 
+($000’s omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Other segment items (d) : 
+ Northeast $ ( 2,756 ) $ ( 1,141 ) $ ( 6,274 ) $ ( 3,880 ) 
+ Southeast ( 7,364 ) ( 7,422 ) ( 18,528 ) ( 20,349 ) 
+ Florida ( 6,020 ) ( 7,105 ) ( 17,859 ) ( 19,108 ) 
+ Midwest ( 2,665 ) ( 3,035 ) ( 7,474 ) ( 6,403 ) 
+ Texas ( 4,766 ) ( 4,659 ) ( 9,206 ) ( 12,340 ) 
+ West ( 9,032 ) ( 9,329 ) ( 15,045 ) ( 23,592 ) 
+ Other homebuilding (e) 
+ 49,531 36,868 105,711 94,865 
+ 16,928 4,177 31,325 9,193 
+ Financial Services ( 61,468 ) ( 58,897 ) ( 180,196 ) ( 172,228 ) 
+ $ ( 44,540 ) $ ( 54,720 ) $ ( 148,871 ) $ ( 163,035 ) 
+ Income before income taxes (f) : 
+ Northeast $ 45,309 $ 65,531 $ 114,778 $ 215,338 
+ Southeast 111,385 153,104 315,484 430,539 
+ Florida 208,835 215,580 547,768 608,723 
+ Midwest 131,294 147,906 339,521 391,658 
+ Texas 14,052 38,219 77,762 143,154 
+ West 39,411 92,718 140,995 306,789 
+ Other homebuilding 29,362 10,372 65,217 36,868 
+ 579,648 723,430 1,601,525 2,133,069 
+ Financial Services 45,558 44,358 95,516 123,013 
+ Consolidated income before income taxes $ 625,206 $ 767,788 $ 1,697,041 $ 2,256,082 
+ (a) Other homebuilding includes revenues from land sales and construction services. 
+ (b) Other homebuilding includes cost of revenues related to land sales, construction services, and amortization of capitalized interest. 
+ (c) Other homebuilding includes eliminations of corporate overhead allocated to the operating segments. 
+ (d) Other segment items reflects other sources of income and expense, including internal capital charge allocations that are eliminated within Other homebuilding. 
+ (e) Other homebuilding includes income from unconsolidated entities, interest, the amortization of intangible assets, and other items not allocated to the operating segments. Other homebuilding also includes a gain of $ 21.4 million in the three and nine months ended September 30, 2026 related to the divestiture of certain manufacturing assets. 
+ (f) Income before income taxes includes certain land-related charges (see the following table and Note 2 ). 
+ 14 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ Operating Data by Segment 
+($000’s omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Land-related charges (a) : 
+ Northeast $ 1,243 $ 160 $ 1,800 $ 401 
+ Southeast 3,629 3,099 7,731 8,773 
+ Florida 877 1,200 13,610 6,489 
+ Midwest 1,336 898 2,655 2,501 
+ Texas 15,948 7,840 21,448 12,190 
+ West 13,468 13,710 15,603 37,134 
+ Other homebuilding 968 720 2,183 2,323 
+ $ 37,469 $ 27,627 $ 65,030 $ 69,811 
+ (a) Land-related charges include land impairments, NRV adjustments on land held for sale, and write-offs of deposits and pre-acquisition costs for land option contracts we elected not to pursue. Other homebuilding consists primarily of write-offs of capitalized interest related to such land-related charges. 
+ Operating Data by Segment 
+($000’s omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Depreciation and amortization: 
+ Northeast $ 1,108 $ 770 $ 3,061 $ 2,488 
+ Southeast 3,312 3,059 9,546 7,726 
+ Florida 4,963 4,797 14,348 14,285 
+ Midwest 3,031 2,348 8,322 6,741 
+ Texas 2,354 2,099 6,195 6,013 
+ West 5,230 4,811 15,617 13,568 
+ Other homebuilding 3,142 5,490 10,426 17,143 
+ 23,140 23,374 67,515 67,964 
+ Financial Services 3,551 2,460 9,111 7,585 
+ $ 26,691 $ 25,834 $ 76,626 $ 75,549 
+ 15 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ Operating Data by Segment 
+ ($000's omitted) 
+ September 30, 2026 December 31, 2025 
+ Total
+Inventory Total
+Assets Total
+Inventory Total
+Assets 
+ Northeast $ 910,753 $ 1,036,464 $ 735,538 $ 830,114 
+ Southeast 2,546,187 2,943,338 2,224,780 2,646,216 
+ Florida 3,449,016 3,966,197 3,204,259 3,664,325 
+ Midwest 1,504,192 1,675,918 1,406,118 1,560,397 
+ Texas 1,560,226 1,861,368 1,545,253 1,829,532 
+ West 4,017,955 4,498,707 3,720,564 4,224,604 
+ Other homebuilding (a) 
+ 102,180 1,623,223 88,901 2,400,496 
+ 14,090,509 17,605,215 12,925,413 17,155,684 
+ Financial Services — 879,691 — 892,739 
+ $ 14,090,509 $ 18,484,906 $ 12,925,413 $ 18,048,423 
+ (a) Other homebuilding primarily includes cash and equivalents, capitalized interest, intangibles, deferred tax assets, other corporate items that are not allocated to the operating segments, and eliminations of certain inventory not owned allocated to the operating segments. Other homebuilding also includes goodwill of $ 40.4 million at both September 30, 2026 and December 31, 2025 . 
+ 4. Debt 
+ Notes payable 
+ Our notes payable are summarized as follows ($000’s omitted): 
+ September 30,
+2026 December 31,
+2025 
+ 5.500 % unsecured senior notes due March 2026 (a) 
+ $ — $ 251,867 
+ 5.000 % unsecured senior notes due January 2027 (a) 
+ — 337,277 
+ 4.250 % unsecured senior notes due March 2031 (a) 
+ 400,000 — 
+ 7.875 % unsecured senior notes due June 2032 (a) 
+ 300,000 300,000 
+ 6.375 % unsecured senior notes due May 2033 (a) 
+ 400,000 400,000 
+ 6.000 % unsecured senior notes due February 2035 (a) 
+ 300,000 300,000 
+ 4.900 % unsecured senior notes due March 2036 (a) 
+ 400,000 — 
+ Net premiums, discounts, and issuance costs (b) 
+ ( 16,496 ) ( 5,231 ) 
+ Total senior notes $ 1,783,504 $ 1,583,913 
+ Other notes payable 25,392 47,185 
+ Notes payable $ 1,808,896 $ 1,631,098 
+ Estimated fair value $ 1,800,092 $ 1,755,396 
+ (a) Redeemable prior to maturity; guaranteed on a senior basis by certain wholly-owned subsidiaries. 
+ (b) The carrying value of senior notes reflects the impact of premiums, discounts, and issuance costs that are amortized to interest cost over the respective terms of the senior notes. 
+ 16 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ In February 2026, we issued $ 800.0 million of unsecured senior notes, consisting of $ 400.0 million of 4.250 % senior notes scheduled to mature on March 1, 2031, and $ 400.0 million of 4.900 % senior notes scheduled to mature on March 1, 2036. The net proceeds from the February 2026 senior notes issuance were used to repay at maturity $ 251.9 million principal amount of unsecured senior notes which matured on March 1, 2026, and to redeem in full prior to maturity all $ 337.3 million principal amount of unsecured senior notes which were scheduled to mature in January 2027, and, in each case, to pay any premium and accrued interest in respect thereof, with the remaining net proceeds used for general corporate purposes. 
+ Other notes payable 
+ Other notes payable include non-recourse and limited recourse notes with third parties that totaled $ 25.4 million and $ 47.2 million at September 30, 2026 and December 31, 2025, respectively. These notes have maturities ranging up to four years , are secured by the applicable land positions to which they relate, and generally have no recourse to other assets. The stated interest rates on these notes range up to 9 %. We recorded $ 34.2 million and $ 13.1 million of inventory through seller financing in the nine months ended September 30, 2026 and September 30, 2025, respectively. 
+ Revolving credit facility 
+ We maintain a revolving credit facility with third-party lenders entered into in June 2022 (the "Original Revolving Credit Facility", and, as amended, the "Revolving Credit Facility") scheduled to mature in February 2031. The Original Revolving Credit Facility was amended and restated in February 2026 to (i) extend the maturity from June 2027 to February 2031, (ii) increase the total committed capacity from $ 1.25 billion to $ 1.75 billion, and (iii) expand the uncommitted accordion feature from $ 500.0 million to $ 750.0 million, providing for potential capacity of up to $ 2.5 billion, subject to customary conditions and additional lender commitments. The Revolving Credit Facility provides for the issuance of letters of credit that reduce the available borrowing capacity under the Revolving Credit Facility, up to the maximum borrowing capacity. The interest rate on borrowings under the Revolving Credit Facility may be based on either the Secured Overnight Financing Rate or a base rate, plus an applicable margin, as defined therein. The Revolving Credit Facility contains financial covenants that require us to maintain a minimum Tangible Net Worth and a maximum Debt-to-Capitalization Ratio (as each term is defined in the Revolving Credit Facility). As of September 30, 2026, we were in compliance with all covenants and requirements of the Revolving Credit Facility. Outstanding balances under the Revolving Credit Facility are guaranteed by certain of our wholly-owned subsidiaries. 
+ At September 30, 2026, we had no borrowings outstanding, $ 368.3 million of letters of credit issued, and $ 1.4 billion of remaining capacity under the Revolving Credit Facility. At December 31, 2025, we had no borrowings outstanding, $ 357.1 million of letters of credit issued, and $ 892.9 million of remaining capacity under the Original Revolving Credit Facility. 
+ Joint venture debt 
+ At September 30, 2026, aggregate outstanding debt of unconsolidated joint ventures was $ 64.6 million. 
+ Financial Services debt 
+ Pulte Mortgage entered into a master repurchase agreement (the "Repurchase Agreement") in August 2026 with third-party lenders that matures on August 10, 2027. The Repurchase Agreement replaced a substantially similar agreement that previously existed with different lenders (the "Original Repurchase Agreement"). The maximum aggregate commitment under the Repurchase Agreement was $ 625.0 million at September 30, 2026, which continues until maturity. Borrowings under the Repurchase Agreement are secured by residential mortgage loans available-for-sale. The Repurchase Agreement contains various affirmative and negative covenants applicable to Pulte Mortgage, including quantitative thresholds related to net worth, net income, and liquidity. At September 30, 2026, Pulte Mortgage had $ 383.2 million outstanding at a weighted-average interest rate of 5.61 % and $ 241.8 million of remaining capacity under the Repurchase Agreement. At December 31, 2025, Pulte Mortgage had $ 532.3 million outstanding at a weighted-average interest rate of 5.51 % and $ 92.7 million of remaining capacity under the Original Repurchase Agreement. Pulte Mortgage was in compliance with all covenants and requirements as of such dates. 
+ 17 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ 5. Shareholders’ equity 
+ In the nine months ended September 30, 2026, we declared cash dividends totaling $ 148.1 million and repurchased 8.4 million shares under our share repurchase authorization for $ 1.0 billion. In the nine months ended September 30, 2025, we declared cash dividends totaling $ 132.2 million and repurchased 8.2 million shares under our share repurchase authorization for $ 900.0 million. On January 29, 2025, the Board of Directors increased our share repurchase authorization by $ 1.5 billion, which was publicly announced on January 30, 2025. On April 22, 2026, the Board of Directors approved an additional increase to our share repurchase authorization of $ 1.5 billion, which was publicly announced on April 23, 2026. At September 30, 2026, we had remaining authorization to repurchase $ 1.5 billion of common shares. 
+ Under our share-based compensation plans, we accept shares as payment under certain conditions related to the vesting of shares, generally related to the payment of minimum tax obligations. In the nine months ended September 30, 2026 and 2025, participants surrendered shares valued at $ 39.6 million and $ 24.3 million, respectively, under these plans. Such share transactions are excluded from the above noted share repurchase authorization. 
+ 6. Income taxes 
+ Our effective tax rate was 23.9 % and 23.7 % for the three and nine months ended September 30, 2026, respectively, compared with 23.7 % and 23.9 % for the comparable prior year periods in 2025. Our effective tax rate for each of these periods differs from the federal statutory rate primarily due to state income tax expense and federal tax credits. Our effective tax rate for the nine months ended September 30, 2026 and 2025 also includes benefits from stock-based compensation. 
+ At September 30, 2026 and December 31, 2025, we had net deferred tax liabilities of $ 423.9 million and $ 399.3 million, respectively. The accounting for deferred taxes is based upon estimates of future results. Differences between estimated and actual results could result in changes in the valuation of deferred tax assets that could have a material impact on our consolidated results of operations or financial position. Changes in existing tax laws could also affect actual tax results and the realization of deferred tax assets over time. 
+ Unrecognized tax benefits represent the difference between tax positions taken or expected to be taken in a tax return and the benefits recognized for financial statement purposes. We had $ 29.1 million and $ 29.9 million of gross unrecognized tax benefits at September 30, 2026 and December 31, 2025, respectively. Additionally, we had no accrued interest and penalties at September 30, 2026 and $ 0.6 million at December 31, 2025. 
+ 18 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ 7. Fair value disclosures 
+ Accounting Standards Codification 820, “Fair Value Measurements and Disclosures”, provides a framework for measuring fair value in generally accepted accounting principles and establishes a fair value hierarchy which requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. The fair value hierarchy can be summarized as follows: 
+ Level 1 Fair value determined based on quoted prices in active markets for identical assets or liabilities. 
+ Level 2 Fair value determined using significant observable inputs, generally either quoted prices in active markets for similar assets or liabilities or quoted prices in markets that are not active. 
+ Level 3 Fair value determined using significant unobservable inputs, such as pricing models, discounted cash flows, or similar techniques. 
+ Our assets and liabilities measured or disclosed at fair value are summarized below ($000’s omitted): 
+ Financial Instrument Fair Value
+Hierarchy Fair Value 
+ September 30,
+2026 December 31,
+2025 
+ Measured at fair value on a recurring basis: 
+ Residential mortgage loans available-for-sale Level 2 $ 433,947 $ 613,665 
+ IRLCs Level 2 ( 97,867 ) ( 19,370 ) 
+ Forward contracts Level 2 79,442 ( 91 ) 
+ Whole loan commitments Level 2 ( 280 ) ( 61 ) 
+ Measured at fair value on a non-recurring basis: 
+ House and land inventory Level 3 $ 51,947 $ 55,119 
+ Disclosed at fair value: 
+ Cash, cash equivalents, and restricted cash Level 1 $ 1,408,027 $ 2,008,776 
+ Financial Services debt Level 2 383,245 532,338 
+ Senior notes payable Level 2 1,774,700 1,708,211 
+ Other notes payable Level 2 25,392 47,185 
+ Fair values for agency residential mortgage loans available-for-sale are determined based on quoted market prices for comparable instruments. Fair values for non-agency residential mortgage loans available-for-sale are determined based on purchase commitments from whole loan investors and other relevant market information available to management. Fair values for IRLCs, including the value of servicing rights, and forward contracts on mortgage-backed securities are valued based on market prices for similar instruments. Fair values for whole loan commitments are based on market prices for similar instruments from the specific whole loan investor. 
+ The carrying amounts of cash and equivalents, Financial Services debt and other notes payable approximate their fair values due to their short-term nature and/or floating interest rate terms. The fair values of senior notes are based on quoted market prices, when available. If quoted market prices are not available, fair values are based on quoted market prices of similar issues. The carrying value of senior notes was $ 1.8 billion and $ 1.6 billion at September 30, 2026 and December 31, 2025, respectively. 
+ 19 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ 8. Commitments and contingencies 
+ Letters of credit and surety bonds 
+ In the normal course of business, we post letters of credit and surety bonds pursuant to certain performance-related obligations, as security for certain land option agreements, and under various insurance programs. The majority of these letters of credit and surety bonds are in support of our land development and construction obligations to various municipalities, other government agencies, and utility companies related to the construction of roads, sewers, and other infrastructure. We had outstanding letters of credit and surety bonds totaling $ 368.3 million and $ 3.0 billion, respectively, at September 30, 2026, and $ 357.1 million and $ 3.1 billion, respectively, at December 31, 2025. In the event any such letter of credit or surety bond is drawn, we would be obligated to reimburse the issuer of the letter of credit or surety bond. Our surety bonds generally do not have stated expiration dates; rather we are released from the surety bonds as the underlying contractual performance is completed. Because significant construction and development work has been performed related to projects that have not yet received final acceptance by the respective counterparties, the aggregate amount of surety bonds outstanding is in excess of the projected cost of the remaining work to be performed. We do not believe that a material amount, if any, of the letters of credit or surety bonds will be drawn. 
+ Litigation and regulatory matters 
+ We are involved in various litigation and legal claims in the normal course of our business operations, including actions brought on behalf of various classes of claimants. We are also subject to a variety of local, state, and federal laws and regulations related to land development activities, house construction standards, sales practices, mortgage lending operations, employment practices, and protection of the environment. As a result, we are subject to periodic examination or inquiry by various governmental agencies that administer these laws and regulations. 
+ We establish liabilities for litigation, legal claims, and regulatory matters when such matters are both probable of occurring and any potential loss is reasonably estimable. We accrue for such matters based on the facts and circumstances specific to each matter and revise these estimates as the matters evolve. In such cases, an exposure to loss in excess of any amounts currently accrued may exist. In view of the inherent difficulty of predicting the outcome of these legal and regulatory matters, we generally cannot predict the ultimate resolution of the pending matters, the related timing, or the eventual loss. While the outcome of such contingencies cannot be predicted with certainty, we do not believe that the resolution of such matters will have a material adverse impact on our results of operations, financial position, or cash flows. However, to the extent the liability arising from the ultimate resolution of any matter exceeds the estimates reflected in the recorded reserves relating to such matter, we could incur additional charges that could be significant. 
+ Warranty liabilities 
+ Home buyers are provided with a limited warranty against certain building defects, including a one-year comprehensive limited warranty and coverage for certain other aspects of the home's construction and operating systems for periods of up to, and, in limited instances, exceeding, 10 years. We estimate the costs to be incurred under these warranties and record liabilities in the amount of such costs at the time product revenue is recognized. Factors that affect our warranty liabilities include the number of homes sold, historical and anticipated rates of warranty claims, and the projected cost per claim. We periodically assess the adequacy of the warranty liabilities for each geographic market in which we operate and adjust the amounts as necessary. Actual warranty costs in the future could differ from the current estimates. Changes to warranty liabilities were as follows ($000’s omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Warranty liabilities, beginning of period $ 126,537 $ 133,717 $ 128,717 $ 130,538 
+ Reserves provided 21,334 21,164 64,212 73,455 
+ Payments ( 25,455 ) ( 25,420 ) ( 73,453 ) ( 75,763 ) 
+ Other adjustments 1,202 2,868 4,142 4,099 
+ Warranty liabilities, end of period $ 123,618 $ 132,329 $ 123,618 $ 132,329 
+ 20 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ Self-insured risks 
+ We maintain, and require our subcontractors to maintain, general liability insurance coverage. We also maintain builders' risk, property, errors and omissions, workers compensation, and other business insurance coverages. These insurance policies protect us against a portion of the risk of loss from potential claims. However, we retain a significant portion of the overall risk for such claims either through our own self-insured per occurrence and aggregate retentions, deductibles, policies issued by our captive insurance subsidiaries, and any potential claims in excess of available insurance policy limits. 
+ Our general liability insurance includes coverage for certain construction defects. While construction defect claims may relate to a variety of issues, the majority of our claims relate to alleged problems with siding, windows, roofing, and foundations. The availability of general liability insurance for the homebuilding industry and its subcontractors has become increasingly limited, and the insurance policies available require companies to retain significant per occurrence and aggregate retention levels. In certain instances, we may offer our subcontractors the opportunity to purchase general liability insurance through one of our captive insurance subsidiaries or participate in a project-specific insurance program. Policies issued by our captive insurance subsidiaries represent self-insurance of these risks by us, limited by reinsurance policies that we purchase. General liability coverage for the homebuilding industry is complex, and our coverage varies from policy year to policy year. Our insurance coverage requires a per occurrence retention as well as an overall aggregate amount. Amounts paid to resolve insured claims apply to our per occurrence and aggregate retention obligations. Any amounts incurred in excess of the occurrence or aggregate retention levels are covered by insurance up to the purchased coverage levels. Our insurance policies, including the captive insurance subsidiaries' reinsurance policies, are maintained with highly-rated carriers for whom we believe counterparty default risk is not significant. 
+ At any point in time, we are managing numerous individual claims related to general liability, property, errors and omission, workers compensation, and other business insurance coverages. We reserve for costs associated with these claims (including expected claims management expenses) on an undiscounted basis at the time revenue is recognized for each home closing and evaluate the recorded liabilities based on actuarial analyses of our historical claims. The actuarial analyses calculate estimates of the ultimate net cost of all unpaid losses, including estimates for incurred but not reported losses ("IBNR"). IBNR represents losses related to claims incurred but not yet reported plus development on reported claims. 
+ Our recorded reserves for all such claims totaled $ 259.8 million and $ 259.4 million at September 30, 2026 and December 31, 2025, respectively. The recorded reserves include loss estimates related to both (i) existing claims and related claim expenses and (ii) IBNR and related claim expenses. Liabilities related to IBNR and related claim expenses represented approximately 71 % and 74 % of the total general liability reserves at September 30, 2026 and December 31, 2025, respectively. The actuarial analyses that determine the IBNR portion of reserves consider a variety of factors, including the frequency and severity of losses, which are based on our historical claims experience supplemented by industry data. The actuarial analyses of the reserves also consider historical third party recovery rates and claims management expenses. 
+ Volatility in both national and local housing market conditions may affect the frequency and cost of construction defect claims. Additionally, IBNR estimates comprise the substantial majority of our liability and are subject to a high degree of uncertainty due to a variety of factors, including changes in claims reporting and resolution patterns, third party recoveries, insurance industry practices, the regulatory environment, and legal precedent. State regulations vary, but construction defect claims are typically reported and resolved over an extended time period often exceeding ten years. Changes in the frequency and timing of reported claims and estimates of specific claim values can impact the underlying inputs and trends utilized in the actuarial analyses, which could have a material impact on the recorded reserves. Because of the inherent uncertainty in estimating future losses and the timing of such losses related to these claims, actual costs could differ significantly from estimated costs. 
+ 21 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ Adjustments to reserves are recorded in the period in which the change in estimate occurs. Costs associated with our insurance programs are classified within selling, general, and administrative expenses. Changes in these liabilities were as follows ($000's omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Balance, beginning of period $ 262,207 $ 273,448 $ 259,410 $ 267,474 
+ Reserves provided 10,555 12,433 32,889 36,363 
+ Adjustments to previously recorded reserves — — ( 13,514 ) ( 8,666 ) 
+ Payments, net ( 12,952 ) ( 3,859 ) ( 18,975 ) ( 13,149 ) 
+ Balance, end of period $ 259,810 $ 282,022 $ 259,810 $ 282,022 
+ Leases 
+ We lease certain office space and equipment for use in our operations. We recognize lease expense for these leases on a straight-line basis over the lease term and combine lease and non-lease components for all leases. Right-of-use ("ROU") assets and lease liabilities are recorded on the balance sheet for all leases with an expected term of at least one year. Some leases include one or more options to renew. The exercise of lease renewal options is generally at our discretion. The depreciable lives of ROU assets and leasehold improvements are limited to the expected lease term. Certain of our lease agreements include rental payments based on a pro rata share of the lessor’s operating costs which are variable in nature. Our lease agreements do not contain any residual value guarantees or material restrictive covenants. 
+ ROU assets are classified within other assets on the balance sheet, while lease liabilities are classified within accrued and other liabilities. Leases with an initial term of 12 months or less are not recorded on the balance sheet. ROU assets and lease liabilities were $ 107.8 million and $ 123.2 million at September 30, 2026, respectively, and $ 109.7 million and $ 133.2 million at December 31, 2025, respectively. In the three and nine months ended September 30, 2026 we recorded an additional $ 7.6 million and $ 13.0 million, respectively, of lease liabilities under operating leases, and $ 2.7 million and $ 36.7 million, respectively, in the comparable prior year periods. Payments on lease liabilities in the three and nine months ended September 30, 2026 totaled $ 6.0 million and $ 19.3 million, respectively, and $ 5.7 million and $ 17.2 million in the comparable prior year periods. 
+ Lease expense includes costs for leases with terms in excess of one year as well as short-term leases with terms of less than one year. In the three and nine months ended September 30, 2026 our total lease expense was $ 13.3 million and $ 41.0 million, respectively, and $ 14.6 million and $ 45.6 million in the comparable prior year periods. Our total lease expense is inclusive of variable lease costs of $ 2.0 million and $ 6.1 million in the three and nine months ended September 30, 2026, respectively, and $ 2.0 million and $ 7.3 million in the comparable prior year periods, as well as short-term lease costs of $ 4.6 million and $ 13.9 million in the three and nine months ended September 30, 2026, respectively, and $ 6.0 million and $ 17.4 million in the comparable prior year periods. Sublease income was de minimis. 
+ 22 
+ PULTEGROUP, INC. 
+ NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS 
+ (UNAUDITED) 
+ The future minimum lease payments required under our leases as of September 30, 2026 were as follows ($000's omitted): 
+ Years Ending December 31, 
+ 2026 (a) 
+ $ 8,616 
+ 2027 26,828 
+ 2028 25,788 
+ 2029 22,321 
+ 2030 19,344 
+ Thereafter 38,314 
+ Total lease payments (b) 
+ 141,211 
+ Less: Interest (c) 
+ ( 18,014 ) 
+ Present value of lease liabilities (d) 
+ $ 123,197 
+ (a) Remaining payments are for the three months ending December 31, 2026. 
+ (b) Lease payments include options to extend lease terms that are reasonably certain of being exercised and exclude $ 0.6 million of legally binding minimum lease payments for leases signed but not yet commenced at September 30, 2026. 
+ (c) Our leases do not provide a readily determinable implicit rate. As a result, we must estimate our discount rate for such leases to determine the present value of lease payments at the lease commencement date. 
+ (d) The weighted-average remaining lease term and weighted-average discount rate used in calculating our lease liabilities were 5.6 years and 4.7 %, respectively, at September 30, 2026. 
+ 23 
+ Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations 
+ The following discussion and analysis of our financial condition and results of operations is provided as a supplement to and should be read in conjunction with the consolidated financial statements and related notes included elsewhere in this Quarterly Report on Form 10-Q as well as our audited consolidated financial statements and related notes included in our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ The following is a summary of our operating results by line of business ($000's omitted, except per share data): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Income before income taxes: 
+ Homebuilding $ 579,648 $ 723,430 $ 1,601,525 $ 2,133,069 
+ Financial Services 45,558 44,358 95,516 123,013 
+ Income before income taxes 625,206 767,788 1,697,041 2,256,082 
+ Income tax expense (149,479) (181,954) (402,315) (538,967) 
+ Net income $ 475,727 $ 585,834 $ 1,294,726 $ 1,717,115 
+ Diluted earnings per share $ 2.53 $ 2.96 $ 6.79 $ 8.55 
+ Demand conditions further weakened during the third quarter of 2026. Elevated mortgage rates, which increased sharply during the third quarter of 2026, most notably during September, continue to pressure affordability and consumer demand. These conditions, together with higher housing costs, broader economic uncertainty, and volatility in geopolitical conditions, in part due to tensions in the Middle East, have also negatively impacted inflation, interest rates, and consumer confidence. We have continued responding to these conditions by adjusting production cadence and sales prices where necessary and focusing sales incentives on discounts, closing cost incentives, and mortgage interest rate buydowns. We have also continued to manage our spec inventory levels, leveraging sales incentives as needed. Despite these pricing actions, net new orders in units decreased 6% compared to the prior year period. Closings decreased 9% in the third quarter of 2026, while average selling prices decreased 1%. 
+ We expect that many homebuyers will continue to face affordability challenges. In response, we expect our sales incentives to remain elevated and for our pace of house starts to remain dynamic in response to market conditions. We have successfully lowered our mix of spec home inventory. However, we continue to face pressure in the cost of land acquisition and development. Due to the length of our land development and construction cycle times, there is a lag between when such cost changes occur and when they impact our operating results. Our gross margin decreased to 24.8% in the third quarter of 2026 versus 26.2% in the third quarter of 2025, and 25.0% in the second quarter of 2026. 
+ Although elevated mortgage interest rates and volatile macroeconomic and geopolitical conditions may persist for some time, we believe the demographics supporting housing demand remain favorable over the long term. Inventories of new and existing homes have increased in the majority of our geographies as a result of the weakened demand experienced this year, so we are taking a measured approach to our capital allocation strategy as we anticipate continued volatility in demand. Accordingly, we are focused on protecting liquidity and closely managing our cash flows while also continuing to emphasize shareholder returns, including the following actions: 
+ – Emphasizing our lot optionality within our land pipeline for increased flexibility; 
+ – Updating the underwriting for our land option contracts prior to buying additional land, and we have made decisions to walk away from a number of land option agreements; 
+ – Working with our vendors to update the costs for materials, labor, and services to reflect changes in market conditions; 
+ – Adjusting our overhead cost structure as necessary to align with demand; 
+ – Rebalancing our mix of spec versus sold home inventory to continue to service buyers seeking to close within 30 to 90 days while increasing our backlog of build-to-order homes; 
+ – Maintaining a focus on shareholder return through share buybacks and dividends, including $1.0 billion of share repurchases in the first nine months of 2026 and an 18% increase in our quarterly dividends from $0.22 to $0.26 per share effective with our January 2026 dividend payment; and 
+ – Maintaining ample liquidity. 
+ We believe our strategic approach with respect to balancing sales price with sales pace, including actions taken related to sales incentives and our production cadence, will enable us to meet consumer demand at the selling prices necessary to turn our 
+ 24 
+ inventory, maintain market share, and generate healthy returns. We remain confident in our ability to navigate the future environment and to position the Company to take advantage of opportunities as they arise and support future growth while maintaining profitability and financial strength. 
+ Homebuilding Operations 
+ The following presents selected financial information for our Homebuilding operations ($000’s omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2026 vs. 2025 2025 2026 2026 vs. 2025 2025 
+ Home sale revenues $ 3,859,030 (9) % $ 4,248,375 $ 10,973,638 (11) % $ 12,265,619 
+ Land sale and other revenues 7,790 (85) % 53,169 116,025 (17) % 140,345 
+ Total Homebuilding revenues 3,866,820 (10) % 4,301,544 11,089,663 (11) % 12,405,964 
+ Home sale cost of revenues (a) 
+ (2,901,856) (7) % (3,133,548) (8,258,644) (8) % (8,968,112) 
+ Land sale and other cost of revenues (5,046) (90) % (48,062) (100,322) (23) % (129,504) 
+ Selling, general, and administrative
+ expenses ("SG&A") (397,198) (1) % (400,681) (1,160,497) (2) % (1,184,472) 
+ Equity income (loss) from unconsolidated entities, net (2,772) (b) 2,422 959 (b) 2,083 
+ Other income, net (d) 
+ 19,700 (b) 1,755 30,366 (b) 7,110 
+ Income before income taxes $ 579,648 (20) % $ 723,430 $ 1,601,525 (25) % $ 2,133,069 
+ Supplemental data: 
+ Gross margin from home sales (a) 
+ 24.8 % (140) bps 26.2 % 24.7 % (220) bps 26.9 % 
+ SG&A as a percentage of home
+ sale revenues 10.3 % 90 bps 9.4 % 10.6 % 90 bps 9.7 % 
+ Closings (units) 6,876 (9) % 7,529 19,975 (8) % 21,751 
+ Average selling price $ 561 (1) % $ 564 $ 549 (3) % $ 564 
+ Net new orders: 
+ Units 6,208 (6) % 6,638 21,778 1 % 21,486 
+ Dollars (c) 
+ $ 3,498,584 (4) % $ 3,639,690 $ 12,147,961 1 % $ 12,005,455 
+ Cancellation rate 16 % 16 % 13 % 15 % 
+ Average active communities 1,077 7 % 1,002 1,064 8 % 986 
+ Backlog at September 30: 
+ Units 10,298 4 % 9,888 
+ Dollars $ 6,444,435 3 % $ 6,234,554 
+ (a) Includes the amortization of capitalized interest. 
+ (b) Percentage not meaningful. 
+ (c) Net new order dollars represent a composite of new order dollars combined with other movements of the dollars in backlog related to cancellations and change orders. 
+ (d) Includes a gain of $21.4 million in the three and nine months ended September 30, 2026 related to the divestiture of certain manufacturing assets. 
+ 25 
+ Home sale revenues 
+ Home sale revenues in the three and nine months ended September 30, 2026 were lower than the prior year periods by $389.3 million and $1.3 billion, respectively. In the three months ended September 30, 2026, the 9% decrease resulted primarily from a 9% decrease in closings from the prior year period, combined with a 1% decrease in average selling price. In the nine months ended September 30, 2026, the 11% decrease resulted primarily from an 8% decrease in closings, combined with a 3% decrease in average selling price. The decreases in closings were primarily attributable to the more challenging demand conditions, partially offset by a higher community count and improved production cycle times. Average selling price during the three and nine months ended September 30, 2026 decreased due to product and geographic mix, elevated sales incentives, and efforts to reduce our level of spec inventory during 2026. 
+ Home sale gross margins 
+ Home sale gross margins were 24.8% and 24.7% in the three and nine months ended September 30, 2026, respectively, compared with 26.2% and 26.9% in the three and nine months ended September 30, 2025, respectively. The decreases in home sale gross margins were primarily attributable to the aforementioned pricing actions, including elevated sales incentives, and increased land acquisition and development costs. We expect these factors to continue to impact our gross margins over the near term. Gross margins for the first nine months of 2026 were also unfavorably impacted by our efforts to reduce completed spec inventory to more appropriate levels. 
+ Land sale and other revenues 
+ We periodically elect to sell parcels of land to third parties in the event such assets no longer fit into our strategic operating plans or are zoned for commercial or other development. Land sale and other revenues and their related gains or losses vary between periods, depending on the timing of land sales and our strategic operating decisions. Land sale and other revenues contributed income of $2.7 million and $15.7 million for the three and nine months ended September 30, 2026, respectively, compared with income of $5.1 million and $10.8 million for the three and nine months ended September 30, 2025, respectively. 
+ SG&A 
+ SG&A as a percentage of home sale revenues was 10.3% and 10.6% in the three and nine months ended September 30, 2026, respectively, compared with 9.4% and 9.7% for the three and nine months ended September 30, 2025, respectively. The gross dollar amount of our SG&A decreased $3.5 million, or 1%, for the three months ended September 30, 2026 compared with the prior year period, and decreased $24.0 million, or 2%, for the nine months ended September 30, 2026 compared with the prior year period. The decrease in gross dollars for the three and nine months ended September 30, 2026 was primarily attributable to lower variable costs associated with the decrease in closings along with lower liability insurance costs. We expect to continue managing and balancing our overhead costs consistent with expected changes in the demand environment. 
+ Other income, net 
+ Other income, net includes the following ($000’s omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Write-offs of deposits and pre-acquisition costs $ (11,678) $ (10,836) $ (23,132) $ (26,515) 
+ Amortization of intangible assets (1,412) (2,301) (4,237) (6,968) 
+ Loss on debt retirement — — (2,637) — 
+ Interest income 8,221 11,804 31,842 31,646 
+ Interest expense (140) (170) (410) (438) 
+ Miscellaneous, net (a) 
+ 24,709 3,258 28,940 9,385 
+ Other income, net $ 19,700 $ 1,755 $ 30,366 $ 7,110 
+ (a) Includes a gain of $21.4 million in the three and nine months ended September 30, 2026 related to the divestiture of certain manufacturing assets. 
+ 26 
+ Net new orders 
+ Net new orders in units decreased 6% while net new orders in dollars decreased 4% in the three months ended September 30, 2026, as compared with the prior year period. Net new orders in units increased 1% while net new orders in dollars increased 1% in the nine months ended September 30, 2026, as compared with the prior year period. The decreased net new order volume and dollars in the three months ended September 30, 2026 was primarily attributable to our West, Southeast, and Texas segments, partially offset by higher volumes in our Florida segment. The increased net new order volume and dollars in the nine months ended September 30, 2026 over the comparable prior year period was primarily attributable to higher order volumes in our Florida and Midwest segments, partially offset by lower volumes in our West segment. Cancellation rates (canceled orders for the period divided by gross new orders for the period) were 16% and 13% for the three and nine months ended September 30, 2026, respectively, and 16% and 15% for the three and nine months ended September 30, 2025, respectively. Ending backlog dollars, which represent orders for homes that have not yet closed, increased 3% at September 30, 2026 compared with September 30, 2025. 
+ Homes in production 
+ The following is a summary of our homes in production: 
+ September 30,
+2026 September 30,
+2025 
+ Sold 7,972 7,727 
+ Unsold 
+ Under construction 4,931 5,342 
+ Completed 1,696 2,027 
+ 6,627 7,369 
+ Models 1,782 1,710 
+ Total 16,381 16,806 
+ The number of homes in production at September 30, 2026 was 3% lower than at September 30, 2025. This decrease was primarily due to our focus on reducing the number of spec homes and improved production cycle times, which reduces the length of time a home remains under construction. 
+ Controlled lots 
+ The following is a summary of our lots under control at September 30, 2026 and December 31, 2025: 
+ September 30, 2026 December 31, 2025 
+ Owned Optioned Controlled Owned Optioned Controlled 
+ Northeast 3,633 7,317 10,950 3,671 7,202 10,873 
+ Southeast 19,762 32,367 52,129 18,853 36,519 55,372 
+ Florida 26,430 32,710 59,140 25,849 34,345 60,194 
+ Midwest 11,471 20,642 32,113 10,319 21,660 31,979 
+ Texas 14,783 17,032 31,815 16,220 19,162 35,382 
+ West 25,681 12,447 38,128 26,192 14,640 40,832 
+ Total 101,760 122,515 224,275 101,104 133,528 234,632 
+ 45 % 55 % 100 % 43 % 57 % 100 % 
+ Developed (%) 50 % 26 % 37 % 50 % 25 % 36 % 
+ While competition for well-positioned land is robust, we have continued to pursue land investments that we believe can achieve appropriate risk-adjusted returns on invested capital. We have also continued to seek to maintain a high percentage of our lots that are controlled via land option agreements as such contracts enable us to defer acquiring portions of properties owned by third parties or unconsolidated entities until we have determined whether and when to exercise our option, which reduces our financial risks associated with long-term land holdings. The remaining purchase price under our land option agreements totaled $9.4 billion at September 30, 2026. 
+ 27 
+ Homebuilding Segment Operations 
+ As of September 30, 2026, we conducted our operations in 48 markets located throughout 26 states. For reporting purposes, our Homebuilding operations are aggregated into six reportable segments: 
+ Northeast: Maryland, Massachusetts, New Jersey, Pennsylvania, Rhode Island, Virginia 
+ Southeast: Georgia, North Carolina, South Carolina, Tennessee 
+ Florida: Florida 
+ Midwest: Illinois, Indiana, Kentucky, Michigan, Minnesota, Ohio 
+ Texas: Texas 
+ West: Arizona, California, Colorado, Nevada, New Mexico, Oregon, Utah, Washington 
+ The following tables present selected financial information for our reportable Homebuilding segments: 
+ Operating Data by Segment ($000's omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2026 vs. 2025 2025 2026 2026 vs. 2025 2025 
+ Revenues: 
+ Northeast $ 254,573 (16) % $ 303,181 $ 666,061 (26) % $ 900,352 
+ Southeast 681,534 (12) % 770,295 2,002,088 (7) % 2,156,041 
+ Florida 1,102,778 — % 1,098,712 3,070,529 (1) % 3,116,603 
+ Midwest 664,353 (8) % 719,327 1,827,794 (8) % 1,993,116 
+ Texas 361,579 (12) % 409,160 1,089,470 (15) % 1,287,491 
+ West 794,213 (16) % 946,662 2,316,177 (18) % 2,815,217 
+ Other homebuilding (a) 
+ 7,790 (86) % 54,207 117,544 (14) % 137,144 
+ $ 3,866,820 (10) % $ 4,301,544 $ 11,089,663 (11) % $ 12,405,964 
+ Income before income taxes (b) : 
+ Northeast $ 45,309 (31) % $ 65,531 $ 114,778 (47) % $ 215,338 
+ Southeast 111,385 (27) % 153,104 315,484 (27) % 430,539 
+ Florida 208,835 (3) % 215,580 547,768 (10) % 608,723 
+ Midwest 131,294 (11) % 147,906 339,521 (13) % 391,658 
+ Texas 14,052 (63) % 38,219 77,762 (46) % 143,154 
+ West 39,411 (57) % 92,718 140,995 (54) % 306,789 
+ Other homebuilding (c) 
+ 29,362 183 % 10,372 65,217 77 % 36,868 
+ $ 579,648 (20) % $ 723,430 $ 1,601,525 (25) % $ 2,133,069 
+ (a) Other homebuilding includes revenues from land sales and construction services. 
+ (b) Income before income taxes includes land-related charges as summarized in the table below. 
+ (c) Other homebuilding includes the amortization of intangible assets and capitalized interest and other items not allocated to the other segments. Other homebuilding also includes a gain of $21.4 million in the three and nine months ended September 30, 2026 related to the divestiture of certain manufacturing assets. 
+ 28 
+ Operating Data by Segment ($000's omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2026 vs. 2025 2025 2026 2026 vs. 2025 2025 
+ Closings (units): 
+ Northeast 363 (11) % 408 955 (20) % 1,198 
+ Southeast 1,305 (10) % 1,444 3,903 (3) % 4,039 
+ Florida 1,904 (1) % 1,932 5,468 — % 5,464 
+ Midwest 1,197 (9) % 1,313 3,347 (9) % 3,675 
+ Texas 989 (8) % 1,073 2,976 (11) % 3,330 
+ West 1,118 (18) % 1,359 3,326 (18) % 4,045 
+ 6,876 (9) % 7,529 19,975 (8) % 21,751 
+ Average selling price: 
+ Northeast $ 701 (6) % $ 743 $ 697 (7) % $ 752 
+ Southeast 522 (2) % 533 513 (4) % 534 
+ Florida 579 2 % 569 562 (2) % 570 
+ Midwest 555 1 % 548 546 1 % 542 
+ Texas 366 (4) % 381 366 (5) % 387 
+ West 710 2 % 697 696 — % 696 
+ $ 561 (1) % $ 564 $ 549 (3) % $ 564 
+ Net new orders - units: 
+ Northeast 316 (15) % 371 1,156 — % 1,159 
+ Southeast 1,132 (16) % 1,354 3,997 (3) % 4,115 
+ Florida 1,823 6 % 1,721 6,144 15 % 5,363 
+ Midwest 1,130 (1) % 1,144 3,824 1 % 3,804 
+ Texas 862 (8) % 938 3,173 (3) % 3,267 
+ West 945 (15) % 1,110 3,484 (8) % 3,778 
+ 6,208 (6) % 6,638 21,778 1 % 21,486 
+ Net new orders - dollars: 
+ Northeast $ 211,947 (17) % $ 254,954 $ 800,990 (4) % $ 836,914 
+ Southeast 591,602 (17) % 714,843 2,023,419 (8) % 2,189,595 
+ Florida 1,070,826 12 % 956,442 3,606,658 19 % 3,035,876 
+ Midwest 648,152 3 % 626,244 2,129,519 3 % 2,062,965 
+ Texas 328,809 (5) % 344,946 1,188,556 (4) % 1,233,766 
+ West 647,248 (13) % 742,261 2,398,819 (9) % 2,646,339 
+ $ 3,498,584 (4) % $ 3,639,690 $ 12,147,961 1 % $ 12,005,455 
+ 29 
+ Operating Data by Segment ($000's omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2026 vs. 2025 2025 
+ Cancellation rates: 
+ Northeast 12 % 8 % 10 % 9 % 
+ Southeast 17 % 13 % 14 % 12 % 
+ Florida 13 % 16 % 11 % 15 % 
+ Midwest 11 % 11 % 10 % 10 % 
+ Texas 19 % 19 % 16 % 16 % 
+ West 21 % 22 % 18 % 20 % 
+ 16 % 16 % 13 % 15 % 
+ Unit backlog: 
+ Northeast 708 23 % 576 
+ Southeast 1,845 (7) % 1,988 
+ Florida 3,097 15 % 2,694 
+ Midwest 2,082 8 % 1,931 
+ Texas 988 12 % 885 
+ West 1,578 (13) % 1,814 
+ 10,298 4 % 9,888 
+ Backlog dollars: 
+ Northeast $ 511,479 16 % $ 442,684 
+ Southeast 1,051,360 (9) % 1,161,072 
+ Florida 2,055,425 19 % 1,730,836 
+ Midwest 1,260,455 11 % 1,134,011 
+ Texas 427,387 13 % 377,451 
+ West 1,138,329 (18) % 1,388,500 
+ $ 6,444,435 3 % $ 6,234,554 
+ 30 
+ Operating Data by Segment 
+($000’s omitted) 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2025 2026 2025 
+ Land-related charges (a) : 
+ Northeast $ 1,243 $ 160 $ 1,800 $ 401 
+ Southeast 3,629 3,099 7,731 8,773 
+ Florida 877 1,200 13,610 6,489 
+ Midwest 1,336 898 2,655 2,501 
+ Texas 15,948 7,840 21,448 12,190 
+ West 13,468 13,710 15,603 37,134 
+ Other homebuilding 968 720 2,183 2,323 
+ $ 37,469 $ 27,627 $ 65,030 $ 69,811 
+ (a) Land-related charges include land inventory impairments, net realizable value adjustments on land held for sale, and write-offs of deposits and pre-acquisition costs for land option contracts we elected not to pursue. Other homebuilding consists primarily of write-offs of capitalized interest related to such land-related charges. 
+ Northeast 
+ For the third quarter of 2026, Northeast home sale revenues decreased 16% when compared with the prior year period due to an 11% decrease in closings combined with a 6% decrease in average selling price. The decrease in closings and average selling price occurred across the majority of markets. Income before income taxes decreased 31%, primarily due to lower revenues and gross margins across the majority of markets. The decrease in net new orders primarily occurred in our Mid-Atlantic operations. 
+ For the nine months ended September 30, 2026, Northeast home sale revenues decreased 26% when compared with the prior year period due to a 20% decrease in closings combined with a 7% decrease in average selling price. The decrease in closings occurred across all markets, while the decrease in average selling price occurred across the majority of markets. Income before income taxes decreased 47% primarily due to lower revenues and gross margins across all markets. The decrease in net new orders primarily occurred in our Mid-Atlantic operations. 
+ Southeast 
+ For the third quarter of 2026, Southeast home sale revenues decreased 12% when compared with the prior year period due to a 10% decrease in closings combined with a 2% decrease in average selling price. The decrease in closings occurred across all markets, while the decrease in average selling price was mixed among markets. Income before income taxes decreased 27%, primarily due to lower revenues and gross margins across the majority of markets. Net new orders decreased across the majority of markets. 
+ For the nine months ended September 30, 2026, Southeast home sale revenues decreased 7% when compared with the prior year period due to a 3% decrease in closings combined with a 4% decrease in average selling price. The decrease in closings occurred across the majority of markets, while the decrease in average selling price was mixed among markets. Income before income taxes decreased 27% primarily due to lower revenues across the majority of markets and lower gross margins across all markets. The decrease in net new orders was mixed among markets. 
+ Florida 
+ For the third quarter of 2026, Florida home sale revenues increased slightly when compared with the prior year period primarily due to a 2% increase in average selling price partially offset by a 1% decrease in closings. The increase in average selling price occurred across all markets, while the decrease in closings occurred across the majority of markets. Income before income taxes decreased 3% primarily due to lower gross margins across the majority of markets. Net new orders increased across the majority of markets. 
+ 31 
+ For the nine months ended September 30, 2026, Florida home sale revenues decreased 1% when compared with the prior year period due to a 2% decrease in the average selling price partially offset by a slight increase in closings. The decrease in average selling price and increase in closings occurred across the majority of markets. Income before income taxes decreased 10% primarily due to lower revenues and closings in our Southwest Florida operations, combined with lower gross margins across all markets. The increase in net new orders occurred across all markets. 
+ Midwest 
+ For the third quarter of 2026, Midwest home sale revenues decreased 8% when compared with the prior year period due to a 9% decrease in closings partially offset by a 1% increase in average selling price. The decrease in closings and increase in average selling price occurred across the majority of markets. Income before income taxes decreased 11% primarily due to lower revenues. The decrease in net new orders was mixed among markets. 
+ For the nine months ended September 30, 2026, Midwest home sale revenues decreased 8% when compared with the prior year period due to a 9% decrease in closings partially offset by a 1% increase in average selling price. The decrease in closings and increase in average selling price occurred across the majority of markets. Income before income taxes decreased 13% primarily due to lower revenues across the majority of markets. The increase in net new orders was mixed among markets. 
+ Texas 
+ For the third quarter of 2026, Texas home sale revenues decreased 12% when compared with the prior year period due to an 8% decrease in closings combined with a 4% decrease in average selling price. The decrease in closings occurred across all markets, while the decrease in average selling price was mixed across markets. Income before income taxes decreased 63% primarily due to lower revenues across all markets, and lower gross margins primarily in our Dallas and Central Texas operations. The decrease in net new orders occurred across all markets. 
+ For the nine months ended September 30, 2026, Texas home sale revenues decreased 15% when compared with the prior year period due to an 11% decrease in closings combined with a 5% decrease in average selling price. The decrease in closings occurred across all markets, while the decrease in average selling price occurred across the majority of markets. Income before income taxes decreased 46% primarily due to lower revenues across all markets, and lower gross margins primarily in our Dallas and Central Texas operations. The decrease in net new orders occurred across all markets. 
+ West 
+ For the third quarter of 2026, West home sale revenues decreased 16% when compared with the prior year period due to an 18% decrease in closings partially offset by a 2% increase in average selling price. The decrease in closings occurred across the majority of markets while the increase in average selling price was primarily due to closings mix in our California markets. Income before income taxes decreased 57% primarily due to lower revenues and gross margins across the majority of markets. The decrease in net new orders occurred across the majority of markets. 
+ For the nine months ended September 30, 2026, West home sale revenues decreased 18% when compared with the prior year period due to an 18% decrease in closings, while average selling price was in line with the prior year period. The decrease in closings occurred across the majority of markets. Income before income taxes decreased 54% primarily due to lower revenues and gross margins across the majority of markets. The decrease in net new orders occurred across the majority of markets. 
+ 32 
+ Financial Services Operations 
+ We conduct our Financial Services operations, which include mortgage banking, title, and insurance agency operations, through Pulte Mortgage LLC ("Pulte Mortgage") and other subsidiaries. In originating mortgage loans, we initially use our own funds supplemented by funds available pursuant to a credit agreement with third parties. Substantially all of the loans we originate are sold in the secondary market within a short period of time after origination, generally within 30 days. We also sell the servicing rights for the loans we originate through fixed price servicing sales contracts to reduce the risks and costs inherent in servicing loans. This strategy results in owning loans and related servicing rights for only a short period of time. Operating as a captive business model primarily targeted to support our Homebuilding operations, the business levels of our Financial Services operations are highly correlated to Homebuilding, as Homebuilding customers continue to account for substantially all of its business. We believe that our mortgage capture rate, which represents loan originations from our Homebuilding operations as a percentage of total loan opportunities from our Homebuilding operations, excluding cash closings, is an important metric in evaluating the effectiveness of our captive mortgage business model. The following tables present selected financial information for our Financial Services operations ($000's omitted): 
+ Three Months Ended Nine Months Ended 
+ September 30, September 30, 
+ 2026 2026 vs. 2025 2025 2026 2026 vs. 2025 2025 
+ Mortgage revenues $ 75,719 3 % $ 73,816 $ 187,088 (11) % $ 210,910 
+ Title services revenues 23,840 (5) % 25,086 68,624 (4) % 71,844 
+ Insurance agency commissions 7,467 72 % 4,353 20,000 60 % 12,487 
+ Total Financial Services revenues 107,026 4 % 103,255 275,712 (7) % 295,241 
+ Expenses (61,468) 4 % (58,897) (181,306) 5 % (173,478) 
+ Equity income from unconsolidated entities — — % — 1,110 (11) % 1,250 
+ Income before income taxes $ 45,558 3 % $ 44,358 $ 95,516 (22) % $ 123,013 
+ Total originations: 
+ Loans 4,438 (7) % 4,782 13,056 (7) % 14,037 
+ Principal $ 1,920,110 (7) % $ 2,054,441 $ 5,599,429 (8) % $ 6,085,214 
+ Nine Months Ended 
+ September 30, 
+ 2026 2025 
+ Supplemental data: 
+ Capture rate 84.9 % 85.1 % 
+ Average FICO score 750 752 
+ Funded origination breakdown: 
+ Government (FHA, VA, USDA) 29 % 27 % 
+ Other agency 68 % 69 % 
+ Total agency 97 % 96 % 
+ Non-agency 3 % 4 % 
+ Total funded originations 100 % 100 % 
+ 33 
+ Revenues 
+ Total Financial Services revenues decreased 7% for the nine months ended September 30, 2026, compared with the comparable prior year period, primarily due to lower Homebuilding volumes. 
+ Income before income taxes 
+Income before income taxes decreased 22% for the nine months ended September 30, 2026, compared with the comparable prior year period, primarily due to lower Homebuilding volumes. 
+ Income Taxes 
+ Our effective tax rate for the three and nine months ended September 30, 2026 was 23.9% and 23.7%, respectively, compared with 23.7% and 23.9% for the comparable prior year periods. Our effective tax rate for each of these periods differs from the federal statutory rate primarily due to state income tax expense and federal tax credits. Our effective tax rate for the nine months ended September 30, 2026 and 2025 also includes benefits from stock-based compensation. 
+ Liquidity and Capital Resources 
+ We finance our land acquisition, development, and construction activities and financial services operations using internally-generated funds, supplemented by credit arrangements with third parties and capital market financing. We routinely monitor current and expected operational requirements and financial market conditions to evaluate accessing available financing sources, including revolving bank credit and securities offerings. 
+ At September 30, 2026, we had unrestricted cash and equivalents of $1.4 billion, restricted cash balances of $38.1 million, and $1.4 billion available under our Revolving Credit Facility. Our ratio of debt-to-total capitalization, excluding our Financial Services debt, was 12.1% at September 30, 2026, compared with 11.2% at December 31, 2025. We follow a diversified investment approach for our cash and equivalents by maintaining such funds with a portfolio of banks within our group of relationship banks in high quality, highly liquid, short-term deposits and investments, which helps mitigate banking concentration risk. 
+ For the next 12 months, we expect our principal demand for funds will be for the acquisition and development of land inventory, construction of house inventory, and operating expenses, including our general and administrative expenses. We plan to continue our dividend payments and repurchases of common stock. We need to repay or refinance Pulte Mortgage's master repurchase agreement with third-party lenders (the "Repurchase Agreement") prior to or at the time it comes due in August 2027. While we intend to refinance the Repurchase Agreement, there can be no assurances that the Repurchase Agreement can be renewed or replaced on commercially reasonable terms upon its expiration. However, we believe we have adequate liquidity to meet Pulte Mortgage's anticipated financing needs. Beyond the next 12 months, we will need to repay or refinance our Revolving Credit Facility, which matures in February 2031, and additional unsecured senior notes beginning in March 2031 and beyond (see Note 4 ). We may from time to time repurchase our unsecured senior notes through open market purchases, privately negotiated transactions, or otherwise. 
+ We believe that our current cash position and other available financing resources, coupled with our ongoing operating activities, will provide sufficient liquidity to fund our business needs over the next 12 months and beyond. To the extent the sources of capital described above are insufficient to meet our needs, we may also conduct additional public offerings of our securities, refinance debt, dispose of certain assets to fund our operating activities, or draw on existing or new debt facilities. 
+ Unsecured senior notes 
+ We had $1.8 billion and $1.6 billion of unsecured senior notes outstanding at September 30, 2026 and December 31, 2025, respectively. As of September 30, 2026, no repayments are due until March 2031. 
+ In February 2026, we issued $800.0 million of unsecured senior notes, consisting of $400.0 million of 4.250% senior notes scheduled to mature on March 1, 2031, and $400.0 million of 4.900% senior notes scheduled to mature on March 1, 2036. The net proceeds from the February 2026 senior notes issuance were used to repay at maturity $251.9 million principal amount of unsecured senior notes which matured on March 1, 2026, and to redeem in full prior to maturity all $337.3 million principal amount of unsecured senior notes which were scheduled to mature in January 2027, and, in each case, to pay any premium and accrued interest in respect thereof, with the remaining net proceeds used for general corporate purposes. 
+ 34 
+ Other notes payable 
+ Other notes payable include non-recourse and limited recourse secured notes with third parties that totaled $25.4 million and $47.2 million at September 30, 2026 and December 31, 2025, respectively. These notes have maturities ranging up to four years, are secured by the applicable land positions to which they relate, and generally have no recourse to other assets. The stated interest rates on these notes range up to 9%. 
+ Revolving credit facility 
+ We maintain a revolving credit facility with third-party lenders entered into in June 2022 (the "Original Revolving Credit Facility", and, as amended, the "Revolving Credit Facility") scheduled to mature in February 2031. The Original Revolving Credit Facility was amended and restated in February 2026 to (i) extend the maturity from June 2027 to February 2031, (ii) increase the total committed capacity from $1.25 billion to $1.75 billion, and (iii) expand the uncommitted accordion feature from $500.0 million to $750.0 million, providing for potential capacity of up to $2.5 billion, subject to customary conditions and additional lender commitments. The Revolving Credit Facility provides for the issuance of letters of credit that reduce the available borrowing capacity under the Revolving Credit Facility, up to the maximum borrowing capacity. The interest rate on borrowings under the Revolving Credit Facility may be based on either the Secured Overnight Financing Rate or a base rate, plus an applicable margin, as defined therein. The Revolving Credit Facility contains financial covenants that require us to maintain a minimum Tangible Net Worth and a maximum Debt-to-Capitalization Ratio (as each term is defined in the Revolving Credit Facility). As of September 30, 2026, we were in compliance with all covenants and requirements of the Revolving Credit Facility. Outstanding balances under the Revolving Credit Facility are guaranteed by certain of our wholly-owned subsidiaries. 
+ At September 30, 2026, we had no borrowings outstanding, $368.3 million of letters of credit issued, and $1.4 billion of remaining capacity under the Revolving Credit Facility. At December 31, 2025, we had no borrowings outstanding, $357.1 million of letters of credit issued, and $892.9 million of remaining capacity under the Original Revolving Credit Facility. 
+ Joint venture debt 
+ At September 30, 2026, aggregate outstanding debt of unconsolidated joint ventures was $64.6 million. 
+ Financial Services debt 
+ Pulte Mortgage entered into a master repurchase agreement (the "Repurchase Agreement") in August 2026 with third-party lenders that matures on August 10, 2027. The Repurchase Agreement replaced a substantially similar agreement that previously existed with different lenders (the "Original Repurchase Agreement"). The maximum aggregate commitment under the Repurchase Agreement was $625.0 million at September 30, 2026, which continues until maturity. Borrowings under the Repurchase Agreement are secured by residential mortgage loans available-for-sale. The Repurchase Agreement contains various affirmative and negative covenants applicable to Pulte Mortgage, including quantitative thresholds related to net worth, net income, and liquidity. At September 30, 2026, Pulte Mortgage had $383.2 million outstanding at a weighted-average interest rate of 5.61% and $241.8 million of remaining capacity under the Repurchase Agreement. At December 31, 2025, Pulte Mortgage had $532.3 million outstanding at a weighted-average interest rate of 5.51% and $92.7 million of remaining capacity under the Original Repurchase Agreement. Pulte Mortgage was in compliance with all covenants and requirements as of such dates. 
+ Dividends and share repurchase program 
+ In the nine months ended September 30, 2026, we declared cash dividends totaling $148.1 million and repurchased 8.4 million shares under our share repurchase authorization for $1.0 billion. In the nine months ended September 30, 2025, we declared cash dividends totaling $132.2 million and repurchased 8.2 million shares under our share repurchase authorization for $900.0 million. On January 29, 2025, the Board of Directors increased our share repurchase authorization by $1.5 billion, which was publicly announced on January 30, 2025. On April 22, 2026, the Board of Directors approved an additional increase to our share repurchase authorization of $1.5 billion, which was publicly announced on April 23, 2026. At September 30, 2026, we had remaining authorization to repurchase $1.5 billion of common shares. 
+ 35 
+ Contractual Obligations 
+ We are a party to many contractual obligations involving commitments to make payments to third parties. These obligations impact our short-term and long-term liquidity and capital resource needs. Certain contractual obligations are reflected on the Condensed Consolidated Balance Sheet as of September 30, 2026, while others are considered future commitments. Our contractual obligations primarily consist of long-term debt and related interest payments, purchase obligations related to expected acquisitions and development of land, house construction costs, operating leases, and obligations under our various compensation and benefit plans. 
+ We use letters of credit and surety bonds to guarantee our performance under various contracts, principally in connection with the development of our homebuilding projects and insurance programs. The expiration dates of the letter of credit contracts coincide with the expected completion date of the related homebuilding projects and insurance programs. If the obligations related to a project or program are ongoing, annual extensions of the letters of credit are typically granted on a year-to-year basis. At September 30, 2026, we had outstanding letters of credit totaling $368.3 million. Our surety bonds generally do not have stated expiration dates; rather, we are released from the bonds as the contractual performance is completed. These bonds, which approximated $3.0 billion at September 30, 2026, are typically outstanding over a period of approximately three to five years. Because significant construction and development work has been performed related to projects that have not yet received final acceptance by the respective counterparties, the aggregate amount of surety bonds outstanding is in excess of the projected cost of the remaining work to be performed. 
+ In the ordinary course of business, we enter into land option agreements in order to procure land for the construction of houses in the future. At September 30, 2026, these agreements had an aggregate remaining purchase price of $9.4 billion. Pursuant to these land option agreements, we generally provide a deposit to the seller as consideration for the right to purchase land at different times in the future, usually at predetermined prices. At September 30, 2026, outstanding deposits totaled $686.3 million, of which $15.1 million is refundable. 
+ For further information regarding our primary obligations, refer to Note 4 and Note 8 to the Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report on Form 10-Q for amounts outstanding as of September 30, 2026 related to debt and commitments and contingencies, respectively. 
+ Cash flows 
+ Operating activities 
+ Net cash provided by operating activities in the nine months ended September 30, 2026 was $637.0 million. Generally, the primary drivers of our cash flow from operations are profitability and changes in the levels of inventory and residential mortgage loans available-for-sale, each of which experience seasonal fluctuations. The cash inflows from our operations for the nine months ended September 30, 2026 were primarily due to net income of $1.3 billion and a net decrease in residential mortgage loans available-for-sale of $179.7 million, partially offset by a net increase in inventories of $1.1 billion, which was primarily attributable to land acquisition, development, and house spend to support ongoing operations. 
+ Net cash provided by operating activities in the nine months ended September 30, 2025 was $1.1 billion. The cash inflows from our operations for the nine months ended September 30, 2025 were primarily due to net income of $1.7 billion, partially offset by a net increase in inventories of $635.9 million, which was primarily attributable to land acquisition, development, and house spend to support expected future growth. 
+ Investing activities 
+ Net cash used in investing activities in the nine months ended September 30, 2026 was $8.8 million. These cash outflows primarily resulted from capital expenditures of $78.2 million related to our ongoing investments in new communities, facilities, and information technology applications, along with $45.8 million of investments in unconsolidated entities, partially offset by distributions of capital from unconsolidated entities of $21.6 million and proceeds from asset dispositions of $90.6 million. 
+ Net cash used in investing activities in the nine months ended September 30, 2025 was $64.1 million. These cash outflows primarily resulted from capital expenditures of $91.4 million related to our ongoing investments in new communities, facilities, and information technology applications, partially offset by distributions of capital from unconsolidated entities of $45.7 million. 
+ 36 
+ Financing activities 
+ Net cash used in financing activities in the nine months ended September 30, 2026 totaled $1.2 billion. These cash outflows resulted primarily from repayments and redemptions of notes payable of $612.7 million, repurchases of 8.4 million common shares for $1.0 billion under our share repurchase authorization, payments of $150.8 million in cash dividends, and net repayments of $149.1 million under the Repurchase Agreement, partially offset by $794.8 million of proceeds from debt issuance. 
+ Net cash used in financing activities in the nine months ended September 30, 2025 totaled $1.2 billion. These cash outflows resulted primarily from repurchases of 8.2 million common shares for $900.0 million under our share repurchase authorization, payments of $133.7 million in cash dividends, payments of $33.0 million related to consolidated inventory not owned, and net repayments of $122.7 million under the Original Repurchase Agreement. 
+ Seasonality 
+ Although significant changes in market conditions have impacted our seasonal patterns in the past and could do so again, we historically experience variability in our quarterly results from operations due to the seasonal nature of the homebuilding industry. We generally experience increases in revenues and cash flow from operations in the fourth quarter based on the timing of home closings. This seasonal activity increases our working capital requirements in our third and fourth quarters to support our home production and loan origination volumes. As a result of the seasonality of our operations, our quarterly results of operations are not necessarily indicative of the results that may be expected for the full year. 
+ Supplemental Guarantor Financial Information 
+ As of September 30, 2026, PulteGroup, Inc. had outstanding $1.8 billion principal amount of unsecured senior notes due at dates from March 2031 through March 2036 and no borrowings outstanding, $368.3 million of letters of credit issued, and $1.4 billion of remaining capacity under its Revolving Credit Facility. 
+ All of our unsecured senior notes and the Revolving Credit Facility are fully and unconditionally guaranteed, on a joint and several basis, by certain subsidiaries of PulteGroup, Inc. ("Guarantors" or "Guarantor Subsidiaries"). Each of the Guarantor Subsidiaries is 100% owned, directly or indirectly, by PulteGroup, Inc. Our subsidiaries associated with our Financial Services operations and certain other subsidiaries do not guarantee the unsecured senior notes or the Revolving Credit Facility (collectively, "Non-Guarantor Subsidiaries"). The guarantees are senior unsecured obligations of each Guarantor and rank equal with all existing and future senior debt of such Guarantor and senior to all subordinated debt of such Guarantor. The guarantees are effectively subordinated to any secured debt of such Guarantor to the extent of the value of the assets securing such debt. 
+ A court could void or subordinate any Guarantor’s guarantee under the fraudulent conveyance laws if existing or future creditors of any such Guarantor were successful in establishing that such Guarantor: 
+ (a) incurred the guarantee with the intent of hindering, delaying or defrauding creditors; or 
+ (b) received less than reasonably equivalent value or fair consideration in return for incurring the guarantee and, in the case of any one of the following being true at the time thereof: 
+ • such Guarantor was insolvent or rendered insolvent by reason of the issuance or incurrence of the guarantee; 
+ • the incurrence of the guarantee left such Guarantor with an unreasonably small amount of capital or assets to carry on its business; 
+ • such Guarantor intended to, or believed that it would, incur debts beyond its ability to pay as they mature; or 
+ • such Guarantor was a defendant in an action for money damages, or had a judgment for money damages docketed against it, if the judgment is unsatisfied after final judgment. 
+ The measures of insolvency for purposes of determining whether a fraudulent conveyance occurred would vary depending upon the laws of the relevant jurisdiction and upon the valuation assumptions and methodology applied by the court. However, in general, a court would deem a company insolvent if: 
+ • the sum of its debts, including contingent and unliquidated liabilities, was greater than the fair saleable value of all of its assets; 
+ 37 
+ • the present fair saleable value of its assets was less than the amount that would be required to pay its probable liability on its existing debts, including contingent liabilities, as they become absolute and mature; or 
+ • it could not pay its debts as they became due. 
+ The guarantees of the senior notes contain a provision to limit each Guarantor’s liability to the maximum amount that it could incur without causing the incurrence of obligations under its guarantee to be a fraudulent transfer. However, under certain case law, this provision may not be effective to protect such guarantee from being voided under fraudulent transfer law or otherwise determined to be unenforceable. If a court were to find that the incurrence of a guarantee was a fraudulent transfer or conveyance, the court could void the payment obligations under that guarantee, could subordinate that guarantee to presently existing and future indebtedness of the Guarantor or could require the holders of the senior notes to repay any amounts received with respect to that guarantee. In the event of a finding that a fraudulent transfer or conveyance occurred, holders may not receive any repayment on the senior notes. 
+ Finally, as a court of equity, a bankruptcy court may subordinate the claims in respect of the guarantees to other claims against us under the principle of equitable subordination if the court determines that (1) the holder of senior notes engaged in some type of inequitable conduct, (2) the inequitable conduct resulted in injury to our other creditors or conferred an unfair advantage upon the holders of senior notes and (3) equitable subordination is not inconsistent with the provisions of the bankruptcy code. 
+ On the basis of historical financial information, operating history and other factors, we believe that each of the Guarantors, after giving effect to the issuance of the guarantees when such guarantees were issued, was not insolvent, did not have unreasonably small capital for the business in which it engaged and did not and has not incurred debts beyond its ability to pay such debts as they mature. We cannot, however, provide assurances as to what standard a court would apply in making these determinations or whether a court would agree with our conclusions in this regard. 
+ The following tables present summarized financial information for PulteGroup, Inc. and the Guarantor Subsidiaries on a combined basis after intercompany transactions and balances have been eliminated among PulteGroup, Inc. and the Guarantor Subsidiaries, as well as their investment in and equity in earnings from the Non-Guarantor Subsidiaries ($000’s omitted): 
+ 38 
+ PulteGroup, Inc. and Guarantor Subsidiaries of the Company’s 7.875% unsecured senior notes due 2032, 6.375% unsecured senior notes due 2033, and 6.000% unsecured senior notes due 2035: 
+ Summarized Balance Sheet Data 
+ ASSETS September 30, 2026 December 31, 2025 
+ Cash, cash equivalents, and restricted cash $1,048,455 $1,632,196 
+ House and land inventory 13,816,167 12,635,442 
+ Amount due from Non-Guarantor Subsidiaries 974,854 1,083,631 
+ Total assets 17,134,300 16,507,470 
+ LIABILITIES 
+ Accounts payable, customer deposits,
+ accrued and other liabilities $2,828,448 $2,601,837 
+ Notes payable 1,808,896 1,631,098 
+ Total liabilities 5,107,848 4,682,755 
+ Nine Months Ended Year Ended 
+ September 30, December 31 
+ Summarized Statement of Operations Data 2026 2025 
+ Revenues $10,940,777 $16,594,878 
+ Cost of revenues 8,232,522 12,220,999 
+ Selling, general, and administrative expenses 1,114,104 1,508,055 
+ Income before income taxes 1,630,764 3,047,519 
+ PulteGroup, Inc. and Guarantor Subsidiaries of the Company’s 4.250% unsecured senior notes due 2031 and 4.900% unsecured senior notes due 2036: 
+ Summarized Balance Sheet Data 
+ ASSETS September 30, 2026 December 31, 2025 
+ Cash, cash equivalents, and restricted cash $1,019,989 $1,623,081 
+ House and land inventory 14,099,253 12,935,565 
+ Total assets 17,410,042 16,819,499 
+ LIABILITIES 
+ Accounts payable, customer deposits,
+ accrued and other liabilities $2,846,066 $2,627,453 
+ Notes payable 1,808,896 1,631,098 
+ Amount due to Non-Guarantor Subsidiaries 233,806 142,311 
+ Total liabilities 5,125,467 4,708,371 
+ Nine Months Ended Year Ended 
+ September 30, December 31 
+ Summarized Statement of Operations Data 2026 2025 
+ Revenues $11,065,140 $16,796,525 
+ Cost of revenues 8,343,448 12,403,216 
+ Selling, general, and administrative expenses 1,111,119 1,504,824 
+ Income before income taxes 1,626,682 3,040,908 
+ 39 
+ Critical Accounting Estimates 
+ There have been no significant changes to our critical accounting estimates in the nine months ended September 30, 2026 compared with those contained in Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ Item 3. Quantitative and Qualitative Disclosures About Market Risk 
+ Quantitative disclosure 
+We are subject to market risk on our debt instruments primarily due to fluctuations in interest rates. We utilize both fixed-rate and variable-rate debt. For fixed-rate debt, changes in interest rates generally affect the fair value of the debt instrument but not our earnings or cash flows. Conversely, for variable-rate debt, changes in interest rates generally do not affect the fair value of the debt instrument but could affect our earnings and cash flows. Except in very limited circumstances, we do not have an obligation to prepay fixed-rate debt prior to maturity. As a result, interest rate risk and changes in fair value should not have a significant impact on our fixed-rate debt until we are required or elect to refinance or repurchase such debt. 
+The following table sets forth the principal cash flows by scheduled maturity, weighted-average interest rates, and estimated fair value of our debt obligations as of September 30, 2026 ($000’s omitted): 
+ As of September 30, 2026 for the
+Years ending December 31, 
+ 2026 2027 2028 2029 2030 Thereafter Total Fair
+Value 
+ Rate-sensitive liabilities: 
+ Fixed rate debt $ 8,424 $ 5,071 $ 7,557 $ 4,340 $ — $ 1,800,000 $ 1,825,392 $ 1,800,092 
+ Average interest rate 2.58 % 7.23 % 6.64 % 5.00 % — % 5.76 % 5.75 % 
+ Variable rate debt (a) $ 383,245 $ — $ — $ — $ — $ — $ 383,245 $ 383,245 
+ Average interest rate 5.61 % — % — % — % — % — % 5.61 % 
+ (a) Includes the Repurchase Agreement and amounts outstanding under our Revolving Credit Facility, under which there was no amount outstanding at September 30, 2026 . 
+ Qualitative disclosure 
+ There have been no material changes to the qualitative disclosure found in Item 7A, Quantitative and Qualitative Disclosures about Market Risk , of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ SPECIAL NOTES CONCERNING FORWARD-LOOKING STATEMENTS 
+ As a cautionary note, except for the historical information contained herein, certain matters discussed in Item 2, Management's Discussion and Analysis of Financial Condition and Results of Operations, Item 3, Quantitative and Qualitative Disclosures About Market Risk , and elsewhere in this report are “forward-looking” statements within the meaning of the Private Securities Litigation Reform Act of 1995. Such forward-looking statements are subject to a number of risks, uncertainties and other factors that could cause our actual results, performance, prospects or opportunities, as well as those of the markets we serve or intend to serve, to differ materially from those expressed in, or implied by, these statements. You can identify these statements by the fact that they do not relate to matters of a strictly factual or historical nature and generally discuss or relate to forecasts, estimates or other expectations regarding future events. Generally, the words “believe,” “expect,” “intend,” “estimate,” “anticipate,” “plan,” “project,” “continue,” “may,” “can,” “could,” “might,” “should,” “will” and similar expressions identify forward-looking statements, including statements related to any potential impairment charges and the impacts or effects thereof, expected operating and performing results, planned transactions, planned objectives of management, future developments or conditions in the industries in which we participate and other trends, developments and uncertainties that may affect our business in the future. 
+ Such risks, uncertainties and other factors include, among other things: interest rate changes and the availability of mortgage financing; the impact of any changes to our strategy in responding to the cyclical nature of the industry or deteriorations in industry conditions or downward changes in general economic or other business conditions, including any changes regarding our land positions and the levels of our land spend; economic changes nationally or in our local markets, including inflation, 
+ 40 
+ deflation, changes in consumer confidence and preferences and the state of the market for homes in general; supply shortages and the cost of labor and building materials; the availability and cost of land and other raw materials used by us in our homebuilding operations; a decline in the value of the land and home inventories we maintain and resulting possible future writedowns of the carrying value of our real estate assets; competition within the industries in which we operate; rapidly changing technological developments including, but not limited to, the use of artificial intelligence in the homebuilding industry; governmental regulation directed at or affecting the housing market, the homebuilding industry or construction activities, slow growth initiatives and/or local building moratoria; the availability and cost of insurance covering risks associated with our businesses, including warranty and other legal or regulatory proceedings or claims; damage from improper acts of persons over whom we do not have control or attempts to impose liabilities or obligations of third parties on us; weather related slowdowns; the impact of climate change and related governmental regulation; adverse capital and credit market conditions, which may affect our access to and cost of capital; the insufficiency of our income tax provisions and tax reserves, including as a result of changing laws or interpretations; the potential that we do not realize our deferred tax assets; our inability to sell mortgages into the secondary market; uncertainty in the mortgage lending industry, including revisions to underwriting standards and repurchase requirements associated with the sale of mortgage loans, and related claims against us; risks associated with the implementation of a new enterprise resource planning system; risks related to information technology failures, data security issues, and the effect of cybersecurity incidents and threats; the impact of negative publicity on sales; failure to retain key personnel; the impairment of our intangible assets; disruptions associated with epidemics, pandemics or other serious public health threats (as well as fear of such events), and the measures taken to address it; and other factors of national, regional and global scale, including those of a political, economic, business and competitive nature. See Item 1A – Risk Factors in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, for a further discussion of these and other risks and uncertainties applicable to our businesses. We undertake no duty to update any forward-looking statement, whether as a result of new information, future events or changes in our expectations. 
+ Item 4. Controls and Procedures 
+ Disclosure Controls and Procedures 
+ Management, including our President and Chief Executive Officer and Executive Vice President and Chief Financial Officer, evaluated the effectiveness of the design and operation of our disclosure controls and procedures as of September 30, 2026. Based upon, and as of the date of that evaluation, our President and Chief Executive Officer and Executive Vice President and Chief Financial Officer concluded that the disclosure controls and procedures were effective as of September 30, 2026. 
+ Internal Control over Financial Reporting 
+ Management is responsible for establishing and maintaining effective internal control over financial reporting, as such term is defined in Exchange Act Rule 13a-15(f). There was no change in our internal control over financial reporting during the quarter ended September 30, 2026 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting. 
+ PART II. OTHER INFORMATION 
+ Item 1. Legal Proceedings 
+ There have been no material developments with respect to the information previously reported under Part I, Item 3 of our Annual Report on Form 10-K for the year ended December 31, 2025. 
+ Item 1A. Risk Factors 
+ There have been no material changes in our risk factors from those disclosed in Part I, Item 1A of our Annual Report on Form 10-K for the year ended December 31, 2025 . 
+ 41 
+ Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+ Issuer Purchases of Equity Securities 
+ Total number
+of shares
+purchased (1) 
+ Average
+price paid
+per share 
+ Total number of
+shares purchased
+as part of publicly
+announced plans
+or programs 
+ Approximate dollar
+value of shares
+that may yet be
+purchased under
+the plans or
+programs
+($000’s omitted) (2) 
+ July 1, 2026 to July 31, 2026 790,036 $ 127.78 790,036 $ 1,700,784 
+ August 1, 2026 to August 31, 2026 809,588 $ 129.69 809,588 $ 1,595,785 
+ September 1, 2026 to September 30, 2026 1,210,221 $ 119.36 1,210,221 $ 1,451,335 
+ Total 2,809,845 $ 124.70 2,809,845 
+ (1) During 2026, participants surrendered shares for payment of minimum tax obligations upon the vesting or exercise of previously granted share-based compensation awards. Such shares were not repurchased as part of our publicly-announced share repurchase programs and are excluded from the table above. 
+ (2) On January 29, 2025, the Board of Directors approved an increase to our share repurchase authorization of $1.5 billion, which was publicly announced on January 30, 2025. On April 22, 2026, the Board of Directors approved an additional increase to our share repurchase authorization of $1.5 billion, which was publicly announced on April 23, 2026. There is no expiration date for these programs, under which $1.5 billion remained available for repurchases as of September 30, 2026. 
+ Item 5. Other Information 
+ During the period covered by this Quarterly Report on Form 10-Q, no director or officer of the Company adopted or terminated a “Rule 10b5-1 trading arrangement” or “non-Rule 10b5-1 trading arrangement,” as each term is defined in Item 408(a) of Regulation S-K. 
+ 42 
+ Item 6. Exhibits 
+ Exhibit Number and Description 
+ 3 (a) Restated Articles of Incorporation, of PulteGroup, Inc. (Incorporated by reference to Exhibit 3.1 of our Current Report on Form 8-K, filed with the SEC on August 18, 2009) 
+ (b) Certificate of Amendment to the Articles of Incorporation, dated March 18, 2010 (Incorporated by reference to Exhibit 3(b) of our Quarterly Report on Form 10-Q for the quarter ended March 31, 2010) 
+ (c) Certificate of Amendment to the Articles of Incorporation, dated May 21, 2010 (Incorporated by reference to Exhibit 3(c) of our Quarterly Report on Form 10-Q for the quarter ended September 30, 2010) 
+ (d) Certificate of Amendment to the Articles of Incorporation, dated May 6, 2024 (Incorporated by reference to Exhibit 3.1 of our Current Report on Form 8-K, filed with the SEC on May 8, 2024) 
+ (e) Amended and Restated By-Laws of PulteGroup, Inc. (Incorporated by reference to Exhibit 3.1 of our Current Report on Form 8-K, filed with the SEC on May 6, 2025) 
+ (f) Certificate of Designation of Series A Junior Participating Preferred Shares, dated August 6, 2009 (Incorporated by reference to Exhibit 3(b) of our Registration Statement on Form 8-A, filed with the SEC on August 18, 2009) 
+ (g) Certificate of Elimination of Series A Junior Participating Preferred Shares of PulteGroup, Inc., dated June 2, 2025 (Incorporated by reference to Exhibit 3.1 of our Current Report on Form 8-K, filed with the SEC on June 3, 2025) 
+ 4 (a) Any instrument with respect to long-term debt, where the securities authorized thereunder do not exceed 10% of the total assets of PulteGroup, Inc. and its subsidiaries, has not been filed. The Company agrees to furnish a copy of such instruments to the SEC upon request. 
+ 10 (a) Master Repurchase Agreement dated as of August 11, 2026, among Truist Bank, as Agent and a Buyer and Swing Line Facility Buyer, the other Buyers party hereto Pulte Mortgage LLC, as seller (Incorporated by reference to Exhibit 10.1 of our Current Report on Form 8-K, filed with the SEC on August 12, 2026) 
+ 22 (a) List of Guarantor Subsidiaries (Incorporated by reference to Exhibit 22 of our Quarterly Report on Form 10-Q for the quarter ended March 31, 2026) 
+ 31 (a) Rule 13a-14(a) Certification by Ryan R. Marshall, President and Chief Executive Officer (Filed herewith) 
+ (b) Rule 13a-14(a) Certification by James L. Ossowski, Executive Vice President and Chief Financial Officer (Filed herewith) 
+ 32 Certification Pursuant to 18 United States Code § 1350 and Rule 13a-14(b) of the Securities Exchange Act of 1934 (Furnished herewith) 
+ 101.INS Inline XBRL Instance Document - The instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document 
+ 101.SCH Inline XBRL Taxonomy Extension Schema Document 
+ 101.CAL Inline XBRL Taxonomy Extension Calculation Linkbase Document 
+ 101.DEF Inline XBRL Taxonomy Extension Definition Linkbase Document 
+ 101.LAB Inline XBRL Taxonomy Extension Label Linkbase Document 
+ 101.PRE Inline XBRL Taxonomy Extension Presentation Linkbase Document 
+ 104 The cover page from this Quarterly Report on Form 10-Q for the quarter ended September 30, 2026, formatted in Inline XBRL 
+ 43 
+ SIGNATURES 
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+ PULTEGROUP, INC. 
+ /s/ James L. Ossowski 
+ James L. Ossowski 
+ Executive Vice President and Chief Financial Officer 
+ (Principal Financial Officer and duly authorized officer) 
+ Date: October 22, 2026 
+ 44 

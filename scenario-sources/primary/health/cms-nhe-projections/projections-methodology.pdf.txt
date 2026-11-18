@@ -1,0 +1,1775 @@
+PROJECTIONS OF NATIONAL HEALTH EXPENDITURES AND
+HEALTH INSURANCE ENROLLMENT:
+METHODOLOGY AND MODEL SPECIFICATION
+LAST UPDATED: JUNE 24, 2026
+TABLE OF CONTENTS
+Introduction.............................................................................................................. - 2 1)
+
+2)
+
+Data Sources and Exogenous Inputs to the NHE Projections Model ......... - 3 a.
+
+Historical data sources .............................................................. - 3 -
+
+b.
+
+Exogenous projections used as inputs to the NHE Projections
+Model........................................................................................ - 6 -
+
+NHE Projections Model Specification..................................................... - 7 a.
+
+Aggregate model for private personal health care (PHC) spending . - 7 -
+
+b.
+
+Models for non-PHC health care spending ................................. - 17 -
+
+c.
+
+Submodels for sectors, sources of funds, and sponsors of
+payment .................................................................................. - 18 -
+
+d.
+
+Private health insurance enrollment and uninsured population
+models .................................................................................... - 25 -
+
+3)
+
+Appendix: List of Acronyms ................................................................. - 29 -
+
+4)
+
+References ........................................................................................ - 30 -
+
+-1-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+Introduction
+The National Health Expenditure (NHE) projections, produced by the Office of the Actuary (OACT) in the
+Centers for Medicare & Medicaid services, project spending for all categories within the National Health
+Expenditure Accounts (NHEA) over a ten-year period from the last historical data point. The projections
+are consistent in definition and scope with the historical NHE1 and include projected trends in health
+care spending by service/good, payer, and sponsor (source of financing), as well as health insurance
+enrollment and the uninsured. Detailed tables and documentation are available online.2 In addition, an
+article describing these results is published annually in the journal Health Affairs.3
+This paper summarizes the process for deriving these projections. These methods are based on
+accepted econometric and actuarial projection techniques, and they rely on the foundational
+assumptions and conventions below:
+•
+•
+
+•
+
+The NHE Projections are constructed using a current-law framework; thus, the projections do
+not assume any potential legislative changes over the projection period, nor do they attempt to
+speculate on possible deviations from current law.
+The models used to project trends in health care spending are estimated based on historical
+relationships within the health sector and between the health sector and macroeconomic
+variables. These projections also rely on assumptions about future trends in exogenous inputs
+to the model, such as macroeconomic conditions. Accordingly, the spending projections
+assume that these relationships will remain consistent with history, except in those cases in
+which adjustments are explicitly specified.
+The NHE projections are inherently subject to uncertainty and are best viewed with this caveat.
+The degree of uncertainty associated with the projections increases with the projection
+horizon and with lower levels of aggregation.
+
+We periodically review the accuracy of our work and strive to make improvements in this
+methodology.4 Please e-mail DNHS@cms.hhs.gov with any comments or feedback.
+
+-2-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+1)
+
+DATA SOURCES AND EXOGENOUS INPUTS TO THE NHE PROJECTIONS MODEL
+a. Historical data sources
+i. Historical NHE
+
+The NHE Projections are extrapolated from the latest historical NHE time series produced by OACT and
+are structured/aggregated by service/good, source of funding, and sponsor in a manner consistent with
+NHEA convention.1 Exhibits 1 and 2 show NHEA categories by services/goods and by payer,
+respectively; a sponsor exhibit is provided in section 2.c.vii.
+EXHIBIT 1: STRUCTURE OF THE NHEA BY SERVICES AND GOODS
+National Health Expenditures (NHE)
+equals HCE plus Investment
+
+Health Consumption Expenditures (HCE)
+equals PHC plus Government Administration, Non-Medical Insurance Expenditures, Public Health
+Activities
+
+Personal Health Care (PHC)
+Hospital Care
+Physician and Clinical Services
+Other Professional Services
+Dental Services
+Other Health, Residential, and Personal Care
+Home Health Care
+Nursing Care Facilities and Continuing Care
+Retirement Communities
+Prescription Drugs
+Other Non-Durable Medical Products
+Durable Medical Equipment
+
+Government Administration
+Non-Medical Insurance Expenditures
+Public Health Activities
+Investment
+Non-Commercial Research
+Structures and Equipment
+SOURCE: Centers for Medicare & Medicaid Services, Office of the Actuary, National Health Statistics Group
+
+-3-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+EXHIBIT 2: STRUCTURE OF THE NHEA BY SOURCE OF FUNDS
+National Health Expenditures (NHE)
+equals HCE plus Investment
+
+Health Consumption Expenditures (HCE)
+equals PHC plus Government Administration, Non-Medical Insurance Expenditures, Public Health Activities
+Personal Health Care (PHC)
+Out-of-Pocket
+Health Insurance
+Private Health Insurance
+Medicare
+Medicaid (Title XIX)
+Children's Health Insurance Program (Title XIX and Title XXI)
+Department of Defense
+Department of Veterans Affairs
+Other Third-Party Payers and Programs1
+Worksite Health Care
+Other Private Revenues
+Indian Health Services
+Workers' Compensation
+General Assistance
+Maternal/Child Health
+Vocational Rehabilitation
+Other Federal Programs
+SAMHSA
+Other State and Local Programs
+School Health
+
+Government Administration
+Non-Medical Insurance Expenditures
+Public Health Activities
+Investment
+Non-Commercial Research
+Structures and Equipment
+The projected other third-party payers and programs spending total includes spending from all of programs
+listed under that heading. Except for other private revenues, spending for the individual programs is not
+projected separately. For purposes of modeling and projections, the payer categories are grouped such that the
+key underlying drivers of spending trends are shared, but that the totals align with the NHEA estimates.
+1
+
+-4-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+ii. Historical NHE and PHC price deflators, medical price indexes
+Projections of the NHE price deflator, as well as the personal health care (PHC) price deflator, are
+developed as part of the NHE projections. Price deflators are consistent in definition with historical NHE
+and PHC deflators and underlying price proxies, as shown in Exhibit 3 below.
+EXHIBIT 3: COMPONENTS OF NHE AND PHC EXPENDITURE ANNUAL-WEIGHTED PRICE INDEXES
+Industry/Commodity or Service
+National Health Expenditures
+Non-Personal Health Care
+Government Administration
+
+Non-Medical Insurance Expenditures
+
+Government Public Health Activities
+Research
+Structures & Equipment
+
+Personal Health Care
+Hospital Care
+Physician and Clinical Services
+Other Professional Services
+Dental Services
+Home Health Care
+Other Health, Residential, and Personal
+Care:
+Other (School Health, Worksite Health
+Care, Other Federal, Other State &
+Local, etc.)
+Home and Community-Based Waivers
+(HCBW)
+Ambulance
+Residential Mental Health &
+Substance Abuse Facilities
+Nursing Care Facilities and Continuing
+Care Retirement Communities
+Prescription Drugs
+Other Non-Durable Medical Products
+Durable Medical Equipment
+
+Price proxy
+
+Composite index of wages, benefits, professional fees,
+claims/financial intermediary services, office rent, and other
+expenses for six government programs
+Composite index of compensation, capital, taxes and fees,
+reserves/gains/losses, and other expenses for five classes of
+insurance
+Composite index of federal, state, and local government
+consumption
+NIH Biomedical Research and Development Price Index
+Composite Index of BEA Price indexes for private fixed
+investment in structures by type and private fixed investment
+in equipment and software by type
+PPI hospitals1
+Composite Index: PPI for Office of Physicians2 and PPI for
+medical & diagnostic laboratories
+CPI services by other medical professionals
+CPI dental services
+PPI home health care services
+
+CPI physicians’ services
+CPI care of invalids & elderly at home
+CPI-U All Items
+PPI residential developmental disability homes
+PPI nursing care facilities
+
+CPI prescription drugs
+CPI non-prescription drugs
+Composite Index: CPI for eyeglasses and eye care and CPI
+medical equipment and supplies
+Notes: The underlying PPI and CPI indexes used are at times adjusted for unique factors where the trends in the index do not
+match the definition/scope or trends in the expenditure categories that are being deflated.
+1
+PPI for hospitals, U.S. Department of Labor, Bureau of Labor Statistics. Used beginning in 1994. Indexes for 1960-93 are based
+on a CMS-developed output or transaction price index.
+2
+PPI for Office of Physicians, U.S. Department of Labor, Bureau of Labor Statistics, level was adjusted in 2021 to account for
+differences in estimates of underlying prices in public programs, specifically for differences between estimates of Medicare
+prices from the Bureau of Labor Statistics with price updates based on internal analysis of the Medicare Physician Fee
+Schedule.
+
+Our price measure for total PHC spending is a chain-weighted deflator with the weight set equal to the
+share of PHC spending accounted for by that type of service. 1 For the historical estimates of the PHC
+-5-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+price index, the Producer Price Indexes (PPIs) and Consumer Price Indexes (CPIs) published by the
+Bureau of Labor Statistics (BLS) are the primary data sources for medical price indexes. PPIs account
+for the largest share of the PHC deflator. The use of PPI versus CPI indexes as price indicators is largely
+determined by the relative importance of third-party payment relative to direct consumer spending as
+a share of total expenditures. Because PPIs capture variation in prices based on transactions for all
+payers, for most services they are preferable to CPIs, which track the prices paid by consumers.
+To develop a price measure for overall NHE, additional composite price measures were estimated for
+each of the non-personal health care categories of spending (government administration, non-medical
+insurance expenditures, government public health activity, research, structures, and equipment
+expenditures). Because of the unique nature of the non-PHC categories, alternative data sources are
+used to identify the contribution from key underlying inputs used in their production, such as
+compensation or capital costs, and then publicly available price series are used to deflate those input
+costs.
+iii. Insurance coverage data
+As with spending, historical enrollment estimates are drawn from historical NHEA data. The estimates
+cover total PHI, which is comprised of employer-sponsored and direct purchase plans, public
+insurance programs (including, but not limited to Medicare and Medicaid), and the uninsured.
+Estimates of total PHI enrollment are available from 1960 forward. Medicare and Medicaid enrollment
+estimates are available from 1966 forward; however, all other enrollment categories (including the more
+detailed estimates for employer-sponsored and direct purchase insurance) are only available from
+1987 forward.1
+iv. Data inputs used in the initial year of NHE projections
+Annual historical data for the NHEA are generally available with a lag of more than a year at the time of
+producing the NHE Projections. As a result, the first year of the projection period can take into account
+monthly and quarterly data that are available for the most recent historical year. The most important
+source for this purpose is the US Census Bureau’s Quarterly Services Survey (QSS), which provides
+timely estimates of revenue and expenses for major service industries by NAICS within the health care
+sector.5
+Additional key data sources used as inputs to the initial year of NHE projections are monthly data from
+the Current Employment Statistics for employment, hours, and earnings (CES; Bureau of Labor
+Statistics), which are used to generate an estimate of payrolls for health care industries, and producer
+and consumer price indexes (Bureau of Labor Statistics), which provide timely data for trends in
+medical price inflation.
+
+b. Exogenous projections used as inputs to the NHE Projections Model
+Exogenous inputs into the NHE projections include macroeconomic assumptions for projections of real
+Gross Domestic Product (GDP) growth, economy-wide inflation, labor market indicators, input price
+indexes for medical care, and demographic projections for the distribution of the population by age and
+gender, as well as the composition of population by time-to-death (based on trends in mortality rates
+by age and sex).
+Projections for macroeconomic and demographic assumptions are based on the annual projections of
+the Board of Trustees for Federal Old-Age, Survivors, and Disability Insurance (OASDI), which are
+produced annually by the Social Security Administration (SSA).6 These projections were finalized in
+February 2026.
+Projections for personal income and disposable personal income are defined for consistency with the
+economic assumptions from the 2026 Medicare Trustees Report and are generated using the University
+-6-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+of Maryland Long Term Interindustry Forecasting Tool (LIFT).7
+The Boards of Trustees for Medicare report annually to Congress on the actuarial status of the Hospital
+Insurance and Supplementary Medical Insurance trust funds.8 Projections of Medicare spending and
+enrollment used in the NHE projections were generated for the most recent Trustees Report, are
+produced by OACT, and are also consistent with macroeconomic and demographic assumptions
+included in the OASDI Trustees Report. The NHE projections also incorporate the latest Medicaid and
+CHIP projections for spending and enrollment prepared by OACT, which utilize assumptions consistent
+with the Medicare Trustees Report. Actuarial projections for Medicare and Medicaid spending and
+enrollment are on a current-law basis and are adjusted to reflect the effects of legislation, including the
+impact of the Inflation Reduction Act of 2022 and the One Big Beautiful Bill Act of 2025.
+Projections for input price indexes in each sector are based on projections from IHS Markit, which rely
+on macroeconomic assumptions for aggregate wage and price growth that can differ from those
+incorporated in the OASDI Trustees Report. Accordingly, price and wage proxies included in these
+indexes are adjusted for consistency with OASDI macroeconomic assumptions on economy-wide wage
+and price inflation.
+
+2)
+
+NHE PROJECTIONS MODEL SPECIFICATION
+
+Equations in the NHE Projections model are re-estimated annually following the release of updated
+historical NHEA data, and the fit and appropriateness of model specifications are reviewed and revised
+at that time.
+The post-COVID-19 period of historical NHE spending estimates (after 2019) continue to be strongly
+influenced by large and unique effects associated with the pandemic that are not representative of
+relationships that would apply in the projection period. As a result, our current models for spending
+growth continue to be estimated based on data through 2019 from the latest historical NHE estimates.
+While models for growth in health care spending continue to be based on pre-COVID-19 data, in other
+areas it has proved possible to update based on data through the pandemic period. The estimation of
+models of health care price inflation and for models of health insurance coverage and the uninsured
+population are estimated based on the most recent available data, with model specifications adjusted
+to capture and exclude effects that are specific to the pandemic period.
+The NHE Projections model is primarily used to project private (rather than total) health expenditures.
+Projections of total NHE are then based on private spending projections combined with the actuarial
+projections for Medicare, Medicaid, CHIP, VA/DoD (and major inputs to Marketplace) that are
+exogenous inputs. Effects of legislation inherent in our current-law projections tend to have their largest
+effects on spending and enrollment for the large public programs – much of these effects are therefore
+exogenous to the NHE Projections model. Direct and spillover effects of major legislation that influence
+private spending projections include those within the Inflation Reduction Act and the One Big Beautiful
+Bill Act. These effects are represented within model specifications for private spending (and enrollment)
+in most cases and occasionally require separate adjustments to projections.
+
+a. Aggregate model for private personal health care (PHC) spending
+i. Overview
+Spending for PHC comprises the vast majority of total national health spending. The drivers of growth
+in spending for different types of PHC services and goods tend to be broadly similar, since these are all
+forms of medical care provided to patients by medical providers in the context of treatment.
+Econometric models are used to generate projections for total private PHC spending. The aggregate
+private PHC model defines the relationship of trends in PHC spending growth for private sources of
+-7-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+funding9 to the exogenous and endogenous variables in the model. Model variables include
+macroeconomic variables, projections for Medicare, Medicaid, and CHIP spending, relative PHC price
+and additional health-care-specific assumptions. The basic structure of the model involves separate
+projections for real per capita growth in PHC (quantity and intensity 10) and for relative price of PHC.
+Nominal spending growth for PHC is then based on growth in relative PHC price and in quantity and
+intensity.
+Models for spending for each type of service within PHC (e.g. hospital, physician and clinical services,
+etc.) parallel the specification at the aggregate level (for PHC). However, projections for all types of
+services are constrained to sum to aggregate PHC. These models and the normalization process are
+discussed in greater detail in Section 2c of this paper.
+Separately, econometric models for aggregate PHC and for individual services and goods also
+incorporate equations for smaller public spending programs (other than Medicare, Medicaid, and CHIP)
+for which exogenous projections are not available.
+Exhibit 4 below provides an overview of the NHE Projections Model and shows the linkages among the
+data sources, exogenous data, the PHC model, the non-PHC output, and the aggregate NHE projection.
+
+-8-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+EXHIBIT 4: HIGH-LEVEL ILLUSTRATION OF THE NHE PROJECTIONS MODEL
+Major Sources and Key Exogenous Inputs
+
+SSA OACT:
+Projections
+Population
+-Age, Sex,
+-TTD
+GDP
+GDP deflator
+Wage growth
+
+Market basket
+Index
+Projections
+(IHS Markit)
+
+Spending and Price Models
+NHE = PHC + Non-PHC
+
+Private PHC
+Spending,
+real per capita=
+f(income,
+relative PHC price,
+demographics,
+legislation/regulatory
+effects)
+
+CMS OACT:
+Spending
+projections
+Medicare
+Medicaid
+CHIP
+
+PHC relative price inflation =
+f( input price inflation,
+Medicare price inflation)
+
+Enrollment
+projections:
+Medicare
+Medicaid
+CHIP
+Marketplace
+
+Non-PHC Spending Models
+
+Disposable
+Personal
+Income (DPI)
+Projections
+(UMD LIFT)
+
+Private Health insurance
+Enrollment Model
+The key dynamic in econometric models for PHC spending is the relationship between private health
+spending growth and macroeconomic variables and with exogenous projections of spending for the
+major public payers (Medicare and Medicaid). Spending growth for private PHC exhibits a strong
+relationship to the macroeconomic business cycle, but most effects of economic growth occur with a
+substantial lag, extending over a period as long as six years in some cases. The causal link between
+private PHC spending and macroeconomic growth is defined by the relationship to disposable personal
+income (specifically, real per capita disposable personal income). The lag masks this relationship when
+looking at growth in health care spending relative to growth in GDP on a current period basis. The lag in
+aggregate income effects is incorporated in the model specification, with the pattern of coefficients on
+-9-
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+lagged values based on a polynomial-distributed-lag.
+Distinguishing long term trend effects in PHC spending growth requires that we control for cyclical
+effects which correspond to the macroeconomic business cycle which are often extended in duration.
+Trends in growth in health care spending over periods covering less than two decades must be placed
+in this cyclical context to be correctly interpreted. Evaluating the pattern of growth without this context
+– and particularly any attempt to extrapolate growth in spending based on short-term trends – may
+generate conclusions for growth in private health care spending that are inconsistent with sustainable
+long-term relationships. In contrast, variation in spending growth for the Medicare and Medicaid
+programs is strongly influenced by administrative actions and legislative effects rather than
+macroeconomic effects and thus does not usually track the timing of the cycle for private PHC
+spending.
+The explanatory power of lagged income growth for aggregate health spending growth has historically
+been very strong. However, this relationship is substantially weaker for the years impacted by the
+COVID-19 pandemic and public health emergency due to a combination of one-time, large effects of
+the pandemic on both health care delivery and on macroeconomic trends, reflecting the large-scale
+governmental response to the pandemic both within the health system and more generally. Spending
+trends are expected to continue to deviate from model predictions through approximately 2027 as the
+period of depressed utilization during and immediately after the pandemic has been followed by a
+period of faster than predicted growth as spending levels catch up with historical trends.
+The NHE Projections Model can be characterized as a top-down, reduced-form model. It is a reducedform model in that both supply and demand factors are incorporated in model equations, but without
+an explicit theoretical model framework. Thus, the coefficients in the model capture the relationships
+between health sector variables and macroeconomic variables as they occur in equilibrium without
+attempting to identify the underlying parameters that characterize the dynamics of supply and demand.
+Growth in spending and price are modeled at the aggregate PHC level, with underlying trends by sector
+constrained to aggregate PHC for consistency with the broader picture. Thus, spending projections for
+all subcategories—types of medical care by sector, direct sources of funding for medical care, and all
+sponsors of payment—are constrained to equal aggregate projections. Though the ultimate projections
+for all the subcategories are constrained to add up to the aggregate projection, models for spending by
+sector, source of funds, and sponsor are also estimated individually—both to maintain any distinctive
+trends relative to the aggregate trend and also to maintain consistency with exogenous projections of
+macroeconomic variables, actuarial projections of spending for the Medicare and Medicaid programs,
+and additional assumptions specific to the health sector.
+The constraint that sectoral spending must sum to the aggregate for private PHC spending is based on
+the greater predictability of spending trends at the aggregate PHC as compared to the dynamics of
+spending growth for each individual type of service (such as hospital or physician and clinical services).
+This greater predictability at the aggregate level reflects the difficulty in capturing the dynamics of
+interrelationships in spending growth across types of care that often act as substitutes or
+complements. In particular, it is critical to account for the net effects on aggregate PHC spending of
+shifts across settings for health care delivery. Such shifts often occur in response to changes in
+legislation or health insurance coverage, which can be difficult to model at the sector-specific level.
+The core of the model of private PHC spending growth consists of two equations:
+1) Real per capita private PHC spending growth (adjusted to hold demographics constant)11
+2) Relative PHC price inflation
+- 10 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+Equation (1) represents a measure of the quantity and intensity10 of medical care, while Equation (2)
+represents the price of medical care relative to economywide inflation (in particular, the economy-wide
+GDP deflator). Nominal spending growth is based on the product of relative PHC price and real per
+capita PHC spending based on these models, and economy-wide price inflation and population.
+All variables are expressed as log differences (growth rates). Our focus on relationships in terms of
+growth rates (rather than levels) reflects the relatively short forecast horizon of these projections.
+Models that are estimated based on growth rates effectively focus on short-term dynamics of spending
+relative to underlying variables and assume that coefficients can be approximated as constant. This
+implies that there will be no major adjustment to long-term relationships in levels terms that would
+influence growth rates, and that there are no shocks to the system that would imply an adjustment in
+spending levels. We monitor relationships across variables and over time in terms of levels and adjust
+model projections to maintain consistency with historical patterns in levels and with projections
+assumptions as necessary. In particular, the post-COVID era has been marked by a combination of
+major shocks to the level of spending on medical care followed by an extended process of
+renormalization in spending levels. The adjustment of spending levels following these one-time shocks
+has influenced subsequent growth rates for health care spending in ways that cannot be captured by a
+model based on historical relationships to factors contributing to growth, requiring special adjustments
+to model predictions.
+The aggregate model for growth in PHC spending incorporates factors that influence both the supply
+and demand for medical care. Real per capita private PHC is a measure of quantity that reflects both
+the utilization and “intensity” of medical care purchased by private payers.12 The “intensity” of medical
+care refers to a measure of the average cost of care per patient that implicitly captures the complexity
+of treatment received by the average patient, as well as the severity of underlying illnesses that the
+patient is being treated for. In this model, growth in quantity and intensity of care is driven primarily by
+factors that influence aggregate consumer demand, the effects of changes in aggregate income, and
+the relative price of medical care.
+Growth in real per capita public PHC spending is included as a variable in this model to capture the
+effects of shifts in insurance coverage between private insurers and public programs and effects of
+changing relative medical price across payers. Effects on enrollment attributable to legislative changes
+anticipated over the projection are captured within exogenous projections for Medicare, Medicaid, and
+other public programs would be incorporated within this variable. Where specific changes are expected
+to directly impact private spending, or where the nature of enrollment effects is expected to be atypical,
+separate adjustments are made to projections for private spending growth.
+In addition, the model for growth in private real per capita PHC controls for the effects of shifts in the
+demographic composition of the population on spending growth. These effects are estimated based on
+an index that is defined to capture the change in spending that is implied by a change in the composition
+of the population across age, sex, and proximity to death (time-to-death, or TTD) cohorts. Effects of
+demographic change on spending trends are gradual and can be difficult to estimate econometrically
+in a time-series model; for this reason, the effect of demographic change is incorporated in the
+dependent variable. The dependent variable is adjusted for demographic composition — specifically, it
+can be interpreted as the growth in real per capita private spending that would be observed if the
+composition of the population across age, sex, and TTD cohorts remained constant over time.
+The model for relative medical price inflation is primarily a supply-side model; relative medical price
+inflation is assumed to be primarily a function of the input price inflation (or the costs to provide care),
+with this effect occurring with a lag as medical providers set prices for private payers to reflect their
+recent changes in input prices. In addition, we include variables for the share of spending that is paid
+on an out-of-pocket basis by consumers, and price inflation for Medicare fee-for-service beneficiaries
+- 11 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+(which is set administratively).
+ii. Model Equation: Real per capita private PHC spending
+The dependent variable in the aggregate model of real per capita private PHC spending is growth in real
+per capita private PHC spending (the price deflator is the chain-weighted price deflator for PHC) divided
+by a demographic index defined to control for variation in the demographic composition of the total
+population.
+The demographic index for PHC spending is defined as the share of total population by each age, sex,
+and proximity to death (referred to as the “time-to-death” or TTD) cohort, multiplied by the base year
+spending for that cohort.13 This index captures variation in spending growth that is specifically
+attributable to changes in the composition of the population across these dimensions. Additionally, the
+index is adjusted over 2020-23 to reflect population growth expectations prior to the COVID-19
+pandemic, essentially removing peak mortality effects of the pandemic from the index. Population
+assumptions prior to the COVID-19 pandemic are sourced from the 2020 Medicare Trustees Report
+which reflect population and mortality assumptions developed prior to the onset of the pandemic.
+The independent variables in the model are as follows:
+
+(1) Disposable personal income (current and lagged growth in real per capita disposable personal
+income subtracting Medicare and Medicaid spending)
+
+(2) Lagged health share of Gross Domestic Product (PHC spending for all sources of funds as a
+share of Gross Domestic Product)
+
+(3) Relative medical price inflation (PHC divided by the implicit GDP deflator)
+(4) Public personal health care spending (PHC, real per capita spending growth)
+(5) ACA coverage expansion variables (dummy variables for 2014, 2015, 2016)
+EXHIBIT 5: MODEL EQUATION: REAL PER CAPITA PRIVATE PERSONAL HEALTH CARE (PHC) SPENDING
+−6
+
+∆ln (ℎpr,t ⁄ 𝑝ℎ,𝑡 / 𝑛𝑡 / 𝑑𝑡 ) = 𝛼 + ∑ 𝛽𝑦,𝑥 ∆ln (𝑦𝑑𝑝𝑖,𝑡−𝑥 / 𝑝𝑦,𝑡−𝑥 / 𝑛𝑡−𝑥 ) + 𝛽𝑝 ∆ln (𝑝ℎ,𝑡 ⁄ 𝑝𝑦,𝑡 )
+𝑥=0
+
++ 𝛽ℎ ℎ𝑡−1 ⁄ 𝑦𝑔𝑑𝑝,𝑡−1 + 𝛽𝑝𝑢 ∆ln (ℎ𝑝𝑢,𝑡 / 𝑝ℎ,𝑡 / 𝑛𝑡 ) + 𝛽2014 𝐷2014 + 𝛽2015 𝐷2015 + 𝛽2016 𝐷2016 + 𝜀𝑡
+Model variables and parameters (t subscript represents time period):
+ℎ𝑝𝑟,𝑡 = private PHC health spending
+ℎ𝑝𝑢,𝑡 = public PHC health spending
+ℎ𝑡
+= total PHC health spending
+𝑑𝑡
+=
+demographic index (age-sex-TTD)
+𝑛𝑡
+= population
+𝑦𝑑𝑝𝑖,𝑡−𝑥 = real disposable personal income per capita, time=t-x (x=years lagged)
+𝑦𝑔𝑑𝑝,𝑡 =
+real gross domestic product
+𝑝ℎ,𝑡
+=
+PHC price deflator
+𝑝𝑦,𝑡
+= GDP price deflator
+𝐷 yyyy =
+dummy variable for years yyyy=2014, 2015, 2016
+𝛼
+=
+model constant
+𝛽𝑥
+=
+model coefficients
+𝜀𝑡
+=
+error term
+All variables are included in the model as log differences.  indicates that variables are first differences
+(i.e., ht = ht - ht-1). The coefficients of each lagged value of real per capita disposable personal income
+- 12 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+(ydpi,t /py,t /nt ) are fitted based on a polynomial-distributed-lag (coefficients across lagged values are
+constrained to fit along a second degree polynomial).
+We discuss each of the model variables in turn below.
+(1) Disposable personal income
+For purposes of this model, income is defined as real per capita DPI excluding Medicaid and Medicare
+payments. The exclusion of Medicaid and Medicare spending reflects the fact that these programs are
+effectively “in-kind” income (income paid in the form of health care benefits) that accrues to those
+individuals with public coverage. Since this variable approximates income growth for those with private
+coverage, we exclude this in-kind income from our measure.
+Growth in income is an important explanatory variable for growth in health care spending. In the model
+of real per capita private personal health care spending, income has a lagged effect on health spending.
+To capture the timing of these lags, the income term in our model of PHC spending is incorporated as a
+polynomial-distributed lag estimated over 7 years (extending from 6 previous years through the current
+period). This structure allows for differing effects for each of the lagged years; the peak effects are
+estimated for the second and third lagged years. Coefficients on model variables can be interpreted as
+price and income elasticities, which are assumed to be constant over time. The income elasticity is
+equal to the sum of coefficients across all lagged values.
+Our estimates are based on time-series data for the United States and include spending only by private
+payers. However, the importance of real per capita DPI for growth in spending on PHC in our model (as
+captured by its estimated coefficient) is consistent with a large body of literature examining the
+empirical relationship between national income and health spending. Several studies based on timeseries cross-country data for the Organization of Economic Cooperation and Development (OECD)
+economies confirm the importance of the link between health spending and income.14
+Though fluctuations in growth in aggregate income have some immediate effects on growth in private
+PHC spending, these initial impacts are small relative to the elasticity across all lagged periods. The
+current-period income elasticity in the NHE Projections Model estimate is 0.19, which means that the
+change in growth for health spending in response to a change in income growth in the same period will
+be 19 percent as large as growth in income. The sum of coefficients across all lagged periods implies
+the long-term income elasticity of private PHC spending, which is 1.62.
+The long lags that are captured within this model reflect important characteristics of markets for health
+services. Since private insurers or public payers account for most health expenditures, this spending is
+largely insulated from contemporaneous changes in household income. Furthermore, since
+consumers generally do not pay for most medical expenses directly at the point of purchase, the choice
+of most medical care by insured patients is not immediately affected by changes in their own household
+income. However, some immediate effects can be expected in response to cost sharing requirements
+in PHI plans or the loss of employment with the associated loss of employer-sponsored health
+insurance.
+The long lags in the income effect reflect the role of multiple intermediaries between consumers and
+medical providers. Example of key intermediaries are employers or unions (who negotiate on behalf of
+pools of employees), and governments at the Federal and state level (which determine the nature of
+coverage, regulations that constrain private employers and insurers, and methods of payment and price
+updates for Medicare and Medicaid). Actions of intermediary institutions’ influence the nature of
+insurance coverage and methods of payment, which then affect medical providers’ decisions on behalf
+of individual patients. Many such decisions are determined contractually or via regulation, which take
+time to develop and to implement. Consequently, substantial delays may be required to implement any
+- 13 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+response to changes in underlying consumer preferences, both to negotiate any changes to contracts
+and regulations, and to implement such changes in a way that would influence choices of medical
+treatment in practice.
+In addition, in response to any modifications in the design of their health plans, employees may take
+time to respond to changes in incentives under the conditions of insurance coverage by gradually
+changing their patterns of health care consumption over time. Furthermore, doctors and other medical
+providers may also respond gradually to changes put in place by payers. In the long run, responses
+could include altering treatment protocols in response to the incentives inherent in methods of
+payment for care and in response to constraints on coverage imposed by insurers, and effects on the
+investment in capital equipment by medical providers. These complex interactions among
+intermediaries, consumers, and providers imply that the response of the system to changes in income
+growth will extend over a period of multiple years.
+(2) Lagged health share of Gross Domestic Product
+This lagged health share of Gross Domestic Product (GDP) is intended to capture the effect on growth
+in health care spending of long-term changes in the relationship of the level of health care consumption
+relative to aggregate income. As discussed previously, the aggregate model for private personal health
+care spending is defined in terms of growth rates. However, over the long-term, growth in private PHC
+spending is not independent of spending levels; the relationship between current growth in private PHC
+spending and aggregate DPI growth can be expected to change gradually over time as health spending
+accounts for a rising share of consumption. As the aggregate health spending share of consumption
+increases, demand will tend to become more responsive to rising relative medical prices. The income
+elasticity of demand for health care must decline over the long run such that health spending ultimately
+grows at the same pace as income.
+As this adjustment in consumer preferences occurs in response to the changing composition of
+consumption, the rate of increase in the share of income allocated to health care can be expected to
+slow compared to other services and goods. To capture this effect, the model specification includes a
+variable intended to capture the impact of the rising health share of consumption on the long-term
+relationship between health care spending growth and its determinants. This variable is defined as the
+ratio of total PHC spending to GDP, lagged by one year. Its estimated impact is negative and significant,
+but fairly small in magnitude compared with the year-to-year variation in real per capita private PHC
+spending.
+(3) Relative medical price inflation
+Growth in real per capita private PHC is a function of growth in relative medical price (personal health
+care price deflator relative to the GDP price deflator). The denominator for relative price is defined as a
+two-year moving average of the economy-wide consumer price deflator; this reflects a lag in the
+effects of economy-wide inflation on consumer response to relative medical prices. Faster relative
+medical price inflation implies slower growth in demand for medical care (and vice versa), thus the
+coefficient on this variable is predicted to be negative. Within the model for private real per capita
+PHC, relative medical price inflation has a negative coefficient that implies a price elasticity of
+demand for private PHC of −0.5.
+The price elasticity in this model is higher than micro-level estimates of price elasticity of demand for
+medical care (−0.1 to −0.2 based on the RAND Health Insurance Experiment).15 This difference reflects
+the use of individual-level data in micro-based studies to analyze the relationship between an
+individual’s out-of-pocket spending and effective prices paid for services (accounting for coinsurance
+rates), compared to our use of macro-level national health spending data and price indexes from the
+- 14 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+Bureau of Labor Statistics. The difference also reflects the relatively short time frame used in microlevel studies as compared to our analysis, which spans more than six decades. Economic theory
+predicts that consumers adjust their spending on different services and goods in response to
+variations in the relative price of these alternatives. However, the existence of third-party payers for
+medical care complicates the response of demand to relative price variation. Consumers bear only a
+fraction of the actual price of medical services at the time of purchase. In consumption decisions at
+the point of purchase, consumers respond to the out-of-pocket price at the point of purchase – which
+is determined by several factors, such as deductibles, cost-sharing requirements, and out-of-pocket
+maximums as defined in insurance coverage.16
+The effect of out-of-pocket prices on consumer choices is only one potential avenue for price effects in
+health care markets; medical prices may also influence demand for care through other channels. The
+price of health insurance is effectively the price of the average bundle of medical services and goods an
+enrollee is expected to consume (plus administrative costs and profits). Consumers’ decisions to
+purchase private health insurance (PHI) and the generosity of the coverage selected will be influenced
+by the relative price of medical care through their choice of insurance coverage. In addition, the relative
+price of care influences the demand for services through the selection of medical provider covered
+networks by insurers based on pricing; insurance plans may choose to cover broad or narrow provider
+networks as a function of prices charged by these medical providers. Price effects may also be
+encouraged through the design of cost-sharing requirements that create incentive effects for
+consumers (e.g. tiered copays or networks defined based on provider prices).
+(4) Public personal health care spending
+Growth in real per capita public PHC spending is an independent variable in the model for private real
+per capita PHC spending. This variable captures a negative short-term relationship between private and
+public PHC spending growth. This negative relationship largely reflects shifts in enrollment per capita
+between private and public insurance coverage and may also capture short-term fluctuations in price
+inflation by payer that influence growth in PHC spending per enrollee in private and public coverage.
+Projections of growth in public PHC spending and enrollment are largely exogenous to the model for
+private spending growth; determined by actuarial projections of Medicare, Medicaid, and CHIP
+spending. Projected effects on private spending growth of changes in legislation that impact enrollment
+in public programs are incorporated through this variable.
+A small share of public spending (other than Medicare, Medicaid, or CHIP spending) is projected
+endogenously based on actuarial analysis and relationships to macroeconomic variables combined
+with historical extrapolation of trends in growth.
+(5) ACA coverage expansion variables
+Dummy variables are included in the model to capture the effects of the ACA for the years 2014, 2015,
+and 2016. The expansion of PHI coverage under the ACA corresponds to an increase in private PHC
+spending growth.
+iii. Model Equation: Relative personal health care price inflation
+Relative PHC price inflation is projected within the model and contributes to projections for PHC
+spending growth. The dependent variable in the model equation for PHC price inflation is the log
+difference (growth) in the PHC price index, defined as OACT’s chain-weighted,17 price deflator for PHC
+spending to the economy-wide consumer price deflator.
+The model for PHC price inflation includes three independent variables: 1) relative input price inflation
+for medical services and goods (a measure of the wages and prices paid by providers of medical care
+- 15 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+for costs)18, 2) a variable based on the chain-weighted index of price updates for Medicare fee-forservice (FFS) beneficiaries, and 3) out-of-pocket share of private health spending. Of these variables,
+the most important relationship in the model is the supply-side relationship between relative PHC price
+inflation and relative input-price inflation (the price of inputs used by medical providers).
+EXHIBIT 6: MODEL EQUATION: RELATIVE PHC PRICE INFLATION
+∆ln (𝑝ℎ,𝑡 ⁄𝑝𝑐,𝑡 )
+= 𝛼 + 𝛽𝑖𝑝𝑖 ∆ ln (
+
+∑ −1
+𝑥=0 (𝑖𝑝𝑖𝑡−𝑥 / 𝑝𝑦,𝑡−𝑥 )
+
+)
+2
++ ∆ln (𝑝𝑚𝑐𝑟,𝑡 ⁄𝑝𝑐,𝑡 ) + 𝛽𝑜𝑜𝑝 ∆ln (ℎ𝑝𝑟𝑜𝑜𝑝,𝑡 ⁄ ℎ𝑡 ) + 𝜀𝑡
+𝑝ℎ,𝑡
+𝑝𝑚𝑐𝑟,𝑡
+𝑝𝑐,𝑡
+𝑝𝑦,𝑡
+𝑖𝑝𝑖ℎ,𝑡
+ℎ𝑝𝑟𝑜𝑜𝑝,𝑡
+ℎ𝑡
+α
+𝛽𝑥
+𝜀𝑡
+
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+chain-weighted PHC price deflator, all payers
+residual Medicare fee-for-service price update, chain-weighted, PHC
+personal consumption price deflator
+gross domestic product price deflator
+input price index for medical providers
+out-of-pocket PHC health spending
+total private PHC health spending
+model constant
+model coefficients
+error term
+
+All variables are included as log differences.  indicates that variables are first differences (i.e. ht = ht
+– ht-1). Growth in input prices for medical providers is estimated based on an index composed of input
+costs, with each major input to production of medical care represented by a price index (or proxy).
+The measure of input price inflation included in the model for relative medical price inflation is a chainweighted index of input price indexes for each type of medical provider (e.g. hospital, physician, etc.).
+Within input price indexes for each provider the price for each component of provider costs is
+represented by a proxy price series for that service or commodity, and the index weights are based on
+the share of provider costs for that input.19
+We control for the effect of Medicare fee-for-service (FFS) price updates on overall PHC price inflation
+based on a two-stage estimation process. The variable in the relative PHC price model is the residual
+from a first stage estimation of the relationship between growth in Medicare FFS price updates as a
+function of our input price index. This two-stage estimate is necessary because input price inflation is
+an input to Medicare FFS price updates, so that the two series are interrelated. The residual included
+as a variable in this model captures variation in Medicare FFS price updates that is independent of
+variation in input price inflation. The positive coefficient on this variable implies that Medicare FFS price
+updates increase overall personal health care price inflation.
+Finally, out-of-pocket share of private PHC spending is intended to capture the incentive effects for
+medical providers in price setting in response to increasing price sensitivity by consumers as a function
+of out-of-pocket costs.
+The estimation period for the model for PHC price inflation was extended to cover the period through
+the most recent available data in 2024. Model fit for the post-COVID period from 2020 through 2024 is
+comparable to the period prior to COVID, implying that most pandemic-era effects were captured
+within model variables, particularly input price inflation.
+
+- 16 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+b. Models for non-PHC health care spending
+Non-PHC health care spending accounts for the relatively small proportion of residual national health
+spending. Models are estimated for each of four categories of non-PHC spending: (1) government
+administration and non-medical insurance expenditures, (2) non-commercial research, (3) government
+public health, and (4) structures and equipment. These categories are heterogeneous and tend to be
+more volatile and unpredictable than those within personal health care. As a result, projections for the
+non-PHC categories are based on separate models with varying specifications depending on their
+nature.
+Projections for the NHE price deflators and for non-PHC sectors are based on econometric models for
+price indexes for non-personal health care categories of spending. The PHC and non-PHC price
+projections and the projected spending by sector for NHE are combined to generate the chain-weighted
+NHE deflator.
+i. Government administration and non-medical insurance expenditures
+Administrative costs include government administrative costs and non-medical insurance
+expenditures (this category was previously termed ‘net cost of health insurance’) for private coverage
+These two categories are projected separately. Government administration spending (i.e., salaries and
+expenses related to the management of health insurance) is projected based on available budgetary
+information, with trend-based econometric models for the remaining categories.
+Non-medical insurance expenditures is a category of spending that is equal to the difference between
+health insurance premiums and health insurance benefits. It is composed of the costs associated with
+administering health insurance and the profit margins that accrue to private health insurers and also
+reflects variation in taxation of health insurers. Non-medical costs for all health insurance plans are
+included in the category. The non-medical insurance expenditures for Medicare Advantage plans, as
+well as for Medicaid and CHIP managed care plans are estimated primarily using actuarial methods and
+are exogenous to the model, as with spending and enrollment projections for these payers.
+The share of spending on non-medical insurance expenditures solely associated with private health
+insurers (excluding Medicare, Medicaid, CHIP, etc.) is projected based on an econometric model that
+extrapolates the historical ratio of their spending on non-medical insurance expenditures relative to
+total spending on implied PHI premiums (equal to PHC spending plus non-medical insurance
+expenditures). Expectations for growth in this spending for the first few years of the projection period
+are primarily based on exogenous data (including quarterly financial reports for the major commercial
+insurers) and adjusted for the estimated impact of recent legislation, where relevant. Such estimates
+include the projected non-medical insurance expenditures for coverage purchased directly through the
+Marketplace, the mix of employer-sponsored and direct purchase policies, and the anticipated effects
+of legislation on insurer premiums.
+The projection for non-medical insurance expenditures (excluding Medicare, Medicaid, and CHIP) in the
+later part of the projection period assumes that the ratio of non-medical expenditures to implied
+premiums for those plans (the insurer non-medical ratio) will converge to its historical mean for the
+most recent decade prior to the COVID-19 pandemic. The mean of this ratio has historically been
+stationary over the long-term, with cyclical deviations relative to this mean. The administrative costs
+portion of the category is generally stable over the long term. Most of the historical time-series variation
+in this ratio being attributable to variation in profit margins, which have tended to fluctuate in a cycle
+around a roughly stable long-term mean. The amplitude of this cyclical pattern (the underwriting cycle)
+has diminished in recent years as information technology has improved the ability of insurers to track
+medical claims in real time and as the consolidation of the industry has reduced variation in premiums
+due to insurers’ entry into and exit from markets. In addition, because of the passage of the ACA and
+- 17 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+the establishment of the minimum medical loss ratio requirements20, the importance of this cycle is
+ultimately expected to diminish further, reducing volatility in PHI premiums.
+Finally, some variation is expected to be generated by shifts in enrollment to the relatively smaller
+market for Direct purchase private coverage, which is subject to a relatively higher proportion of nonmedical costs than is the case in the large group market. Changes in the direct purchase insurance
+market reflect the combined impacts of the continued effects of the implementation of the
+Marketplaces under the ACA, as well as other regulatory changes that have since occurred.21
+ii. Non-commercial research
+Non-commercial research spending growth is projected based on its relationship to other federal and
+other state and local per capita personal health care spending. Adjustments may be made based on
+Federal budgetary information, if available and applicable.
+iii. Government public health
+Government public health spending growth is extrapolated based on its relationship to other federal
+and other state and local per capita personal health care spending. Adjustments may be made based
+on Federal budgetary information, if available and applicable.
+iv. Structures and equipment
+Spending on health system structures is dominated by hospital construction and is therefore projected
+as a function of growth in hospital spending. Any additional information that becomes available (such
+as surveys of hospital construction)22 may be incorporated via adjustments into the projection.
+Equipment purchases are projected as a function of spending on health system structures to capture
+concurrent equipment spending that occurs with medical real estate investments and as a function of
+relative prices of new equipment purchases compared with other health care prices.
+
+c. Submodels for sectors, sources of funds, and sponsors of payment
+Spending projections are estimated for three underlying subcategories of health care spending:
+(1) Type of service (sector)
+(2) Source of funds (direct payer)
+(3) Sponsor of payment (ultimate payer)
+i. Models for health care spending by type of service
+Models for real per capita private spending growth and price inflation for individual types of medical
+services generally parallel the specification for the aggregate model for total PHC. Projections for
+spending by sector are generated by sector-specific models. Projected spending levels for all types of
+care within PHC (excluding prescription drugs) is then normalized to sum to aggregate projections for
+PHC. In practice this means that spending by type of service is multiplied by an adjustment factor that
+constrains aggregate spending levels across the sectors to sum to the aggregate spending projection
+for total PHC (excluding prescription drugs).23 This process is depicted in Exhibit 7.
+
+- 18 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+EXHIBIT 7: ILLUSTRATION OF NORMALIZATION PROCESS FOR SPENDING BY SERVICE AND GOOD TO THE
+AGGREGATE PHC SPENDING MODEL TOTAL
+
+Total Personal Health Care Spending equals:
+Total PHC spending calculated by the aggregate model minus
+prescription drug spending constrains spending for:
+Hospital Care
+Physician and Clinical Services
+Other Professional Services
+Dental Services
+Other Health, Residential, and Personal Care
+Home Health Care
+Nursing Care Facilities and Continuing Care Retirement Communities
+Other Non-Durable Medical Products
+Durable Medical Equipment
+
++
+Prescription Drugs
+For the most part, key variables in the sector models follow a template specification similar to that of
+the aggregate model for PHC spending growth. Major variables in the sector models include the
+following:
+
+•
+•
+•
+•
+
+Disposable personal income (excluding Medicare and Medicaid, real per capita)
+Relative medical price inflation
+Public spending growth (real per capita)
+Dummy variables for legislation, regulatory, and event driven effects
+
+The parallel structure of the sectors within PHC allows income and price elasticities, and sensitivity to
+variation in public spending growth, to vary relative to the aggregate model for personal health care,
+with the constraint that the sum across all sectors must be equal to the projection generated by the
+aggregate model. Dissimilarities across the models for different types of services include varying lag
+structures for the income effect, the relative importance of the three variables, and the inclusion of
+dummy variables to capture phenomena specific to each sector. In a few cases in which relevant data
+are available, additional independent variables are included that are specific to the individual sector.
+For each type of service, the lag on the income term in the models generally tends to vary with the share
+of spending that is accounted for by consumers’ out-of-pocket expenses; that is, the greater the out-ofpocket share, the shorter the lag, as consumer demand responds more quickly to changes in income.
+Exhibit 8 below summarizes the independent variables used to model real per capita private spending
+growth for each of the PHC sectors. We have provided additional descriptive information about the
+models for those sectors that represent the greatest shares of health spending.
+
+- 19 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+EXHIBIT 8: MODELS BY TYPE OF SERVICE OR GOOD
+SECTOR
+
+DEPENDENT VARIABLE
+
+INDEPENDENT VARIABLES*
+
+Hospital services
+
+Real private hospital
+services per capita, agesex-TTD adjusted
+
+Real disposable personal income (PDL, 7 years) (+)
+Relative price (−)
+Real per capita public spending growth (−)
+Dummy, 1984- (−)
+Dummy, 1984- * log of time trend (+)
+Log of Time trend (−)
+Dummy, 2015 (+)
+Dummy, 2016 (+)
+
+Physician and Clinical
+Services
+
+Real private physician
+services per capita, agesex-TTD adjusted
+
+Real disposable personal income (moving average of lags, 4 years) (+)
+Real per capita public spending growth (−)
+Relative price (−)
+Dummy, 1983-85 (+)
+Dummy, 1960-92*time trend (+)
+Dummy, 2015 (+)
+Dummy, 2016 (+)
+
+Prescription Drugs**
+
+Real aggregate drug
+spending per capita,
+age-sex-TTD adjusted*
+
+Real disposable personal income (3-year moving average) (+)
+Relative drug price*Share paid out-of-pocket (3-year moving average) (−)
+New drug introductions (+)
+Generic dispensing rate (−)
+
+Dental Services
+
+Real private dental
+services per capita, agesex-TTD adjusted
+
+Real disposable personal income (PDL, 3 years) (+)
+Relative price (−)
+Real per capita Medicaid and CHIP spending growth (3-year moving
+average of lags) (+)
+Dummy, 1981 (+)
+Dummy, 1960-1992 (+)
+
+Nursing Care Facilities
+and Continuing Care
+Retirement Communities
+
+Real private nursing
+home services per
+capita, age-sex-TTD
+adjusted
+
+Real disposable personal income (moving average, 6 years) (+)
+Real per capita public spending (−)
+Relative price (−)
+Dummy, 1990 (+)
+Dummy, pre-Balanced Budget Act of 1997 (+)
+Share of population aged 85+ years (+)
+
+Other Professional
+Services
+
+Real private other
+professional services
+per capita, age-sex-TTD
+adjusted
+
+Real disposable personal income (+)
+Real per capita public spending growth (−)
+Relative price (+)
+Dummy, 1977 (+)
+Dummy, 1989 (−)
+Dummy, 1992- (−)
+Dummy, 1992- *Real disposable personal income (−)
+Dummy, 1992- *Real per capita public spending growth (+)
+Dummy, 1992- *Relative Price (-)
+
+Other Non-Durable
+Medical Products
+
+Real private other
+nondurables spending
+per capita, age-sex-TTD
+adjusted
+
+Real disposable personal income (2-year moving average) (+)
+Relative price (−)
+Lagged dependent variable (+)
+
+Durable Medical
+Equipment
+
+Real private durables
+spending per capita,
+age-sex-TTD adjusted
+
+Real disposable personal income (PDL, 2 years) (+)
+Relative price (−)
+Public spending growth (−)
+
+Home Health Services
+
+Real private home
+health services per
+capita, age-sex-TTD
+adjusted
+
+Relative price (−)
+Real per capita Medicaid spending growth (−)
+
+* Dummy variable names followed by a dash denote that the variable effect starts in the specified year and continues through the projection
+period. **The prescription drug model is based on aggregate expenditures rather than private expenditures, due to complications in projecting
+shifts in payments associated with the introduction of Medicare Part D prescription drug coverage. See the Prescription Drug section below.
+
+- 20 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+ii. Sector model: hospital services
+Real per capita growth in private hospital spending (inclusive of care in both inpatient and outpatient
+settings) is well explained by the variables in our template model specification. Because hospital
+services represent the largest share of personal health care spending among the services, we would
+expect to find a similar relationship between household income and hospital services spending as we
+observed between household income and overall personal health care spending. In addition, given the
+low out-of-pocket spending share relative to other payers for hospital services, we anticipate a longer
+lag between a change in household income and the time of impact on hospital spending. Our results
+are consistent with these expectations; we estimate coefficients on lagged income growth with a
+polynomial distributed lag estimated for the current period and 7 previous years, one year longer than
+the lag structure for disposable personal income in the aggregate model for private personal health care
+spending. Additionally, the peak effect of income fluctuations occurs with a lag of 3 to 4 years, slightly
+longer than the aggregate model. As expected, public real per capita spending has a negative
+coefficient, capturing shifts in enrollment between private and public coverage as well as any possible
+short-term cost-shifting effects between private and public payers.
+For this sector, the combined effects of managed care expansion and the introduction of the Medicare
+prospective payment system (PPS) are represented in the current model as a structural change in the
+relationship of growth to price and income that is largely one-time in nature, beginning in 1984 after the
+PPS was introduced. The alterations in provider incentives associated with the PPS, coupled with
+similar pressures from the expansion of managed care in the late 1980s through the 1990s, produced
+an initial reduction in growth that gradually tapers off. This tapering of the impact of PPS and managed
+care reflects the diminishing potential for reduced inpatient utilization over time as it becomes more
+difficult to find additional efficiencies at the margin. Similarly, the one-time effect of the ACA’s coverage
+expansion implementation on real per capita hospital spending in 2015 and 2016 is captured through
+dummy variables, an approach consistent with that previously discussed for the aggregate model. 24
+Likewise, consistent with the method discussed for the aggregate model, the above model forecasts
+using historical data through 2019.
+iii. Sector model: physician and clinical services
+In the physician model, the estimated effect of the lag of disposable personal income (DPI) extends
+4 years. The coefficient of relative price inflation is negative, as expected. Growth in real per capita
+public spending on physician services has a smaller estimated negative effect than the magnitude
+estimated in the aggregate model.
+In general, our template specification fits real per capita growth in physician spending somewhat less
+well than it accommodates hospital spending. This reduction in model fit primarily reflects two
+distinctive periods of growth—1983-1985 and 1960-1992—that are not well predicted by the model. To
+capture the period of rapid growth from 1983 through 1985, we have included a dummy variable for
+these years. Our interpretation of this variable is that it captures a non-recurring substitution effect of
+professional services for inpatient care. The 1983-1985 period saw a major shift in provider incentives
+associated with the introduction of the Medicare PPS and the initial surge in managed care enrollments
+(as described earlier).
+Despite substantial volatility, real per capita growth rates exhibit a slight upward trend during the period
+from 1960 through 1992. We have included a trend variable for these years to capture this effect. We
+interpret this variable as capturing the period of faster growth prior to the dampening effects of
+constraints from managed care organizations on use and intensity of care for privately insured
+individuals enrolled in these organizations. Even as the effects of these more stringent utilization
+constraints diminished in the late 1990s, real per capita growth over 1992-2014 rarely peaked above 4
+- 21 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+percent (compared to the period from the 1970s through 1992, when growth was above 4 percent for
+nearly half of the years). The result of the inclusion of this variable is that the effects of the rapid growth
+prior to 1992 are removed from the other estimated coefficients, thereby moderating projected growth
+after 1992 in a manner that is more consistent with the recent history.
+Mainly due to the major coverage expansions implemented in 2014 under the ACA, there was a notable
+acceleration in real per capita private spending growth that occurred in 2015 and 2016 for physician and
+clinical services. Given that these growth rates are largely influenced by exogenous legislative effects,
+we have included dummy variables for 2015 and 2016 to capture the effects of these major coverage
+expansions (similar to the handling previously discussed for the aggregate model for PHC). Consistent
+with the aggregate model, as discussed previously, the model for this service was estimated through
+2019.
+iv. Sector model: prescription drugs
+Prescription drugs differ in important ways from other types of medical care. First, since prescription
+drugs are a product, not a service, the cost structure of the industry differs substantially from that of
+other sectors (such as hospital, physician, or nursing home), for which labor costs play a critical role in
+driving price. In contrast, the cost structure of production for prescription drugs is highly capitalintensive, with relatively low marginal costs and a relatively larger role for the introduction of new
+products. Second, prescription drug spending has had a larger consumer out-of-pocket share than
+other types of medical care, so that demand tends to be more sensitive to price. Third, we have access
+to additional information on supply and demand factors for this sector, in the form of data on new drug
+introductions, generic dispensing rates, research spending, patent expirations, and direct-to-consumer
+advertising. As a result, our model for prescription drugs is somewhat different from the models
+developed for other sectors.
+As opposed to the other health sectors, the dependent variable in the prescription drug model is real
+aggregate per capita drug spending (not private only). This decision was made because the start of
+Medicare drug coverage in 2006 produced a massive shift in the source of payments for drugs, which
+resulted in a sharp decrease in private drug spending growth in 2006, though it had little estimated effect
+on overall growth in drug spending. Accordingly, our model projects total prescription drug spending
+without simulating an explicit effect for Part D. The income variable within the prescription drug model
+fits with a shorter lag than in our aggregate model; this is the expected result based on the larger share
+paid on an out-of-pocket basis historically. Relative price inflation has a strong fit. The price variable is
+defined as the product of the out-of-pocket prescription drug share and the prescription drug price
+index—a definition that accounts for the trend in consumers’ steadily declining out-of-pocket share
+over the last 20 years. However, available data do not distinguish out-of-pocket spending by the
+uninsured and by Medicare beneficiaries from the fixed co-payments that are often required within
+managed care, and thus our ability to capture this declining share is limited. The prescription drug price
+index is estimated historically and projected net of rebates received. Public spending growth is not
+included as a variable in this model due to its relatively minor role in the historical period (prior to 2006)
+and because the dependent variable is overall drug spending and not private drug spending.
+Patterns of growth over the most recent 15 to 20 years of data are difficult to explain, as the effects of
+several different factors must be disentangled. The out-of-pocket share of spending by consumers
+dropped sharply as privately insured patients moved into managed care plans that generally have lower
+co-payments. For Medicare beneficiaries, they pay a relatively large share of drug costs out-of-pocket;
+however, this has been substantially reduced in recent years with the closing of Part D coverage gap.25
+Also, changes to regulations in 1997 eliminated some of the earlier restrictions on television advertising
+for prescription drugs. In addition to income and relative price terms, our model for real per capita drug
+spending includes a 4-year moving average of the number of new prescription drugs introduced, as well
+- 22 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+as the rising generic dispensing rate, which has played an increasing role in depressing growth in
+prescription drug spending in recent years. In 2014, drug spending growth spiked up partly as a result of
+the use of new, expensive specialty drugs that were curative treatments for Hepatitis C (growth also
+increased because of the first year of the ACA major coverage expansion). However, in 2016 and 2017,
+the growth rate of prescription drug spending decelerated significantly and one major factor driving the
+slower growth was the decline in the use of these expensive Hepatitis C drugs. Another factor keeping
+drug spending growth relatively low from 2016-2020 was an increase in drug rebates, which resulted in
+the net growth of drug prices to be negative from 2018 to 2020. The impact of the Inflation Reduction
+Act is consistent with what was assumed in the 2025 Medicare Trustees Report, which is lower gross
+drug prices (as they are expected to be reduced from what they otherwise would have been) because of
+drug price negotiations and inflation rebate provisions from the law. However, the impact on net prices
+is anticipated to be mitigated compared to that of gross prices because drug manufacturers are
+assumed to reduce the amount of manufacturer rebates offered.
+v. Models for health care spending by source of funds (direct payer)
+Our core econometric models project direct payments (spending) by all private sector payers. This total
+spending by private payer can be disaggregated to sources of payment at a more detailed level. The
+major types of private payers are private health insurers, direct payment by consumers on an out-ofpocket basis (OOP), and other private revenues.26
+In contrast to methods for modeling total private spending for each of the sectors within PHC relative to
+aggregate PHC, health care spending by private payer is projected at the level of individual sectors
+(hospital, physician, drugs, etc.) and then aggregated across sectors to determine the share of spending
+by payer at the level of PHC. This approach reflects variation in the nature of patient cost-sharing across
+settings in which services are provided and facilitates the application of sector-specific research and
+sector-level trends. For example, prescription drugs, physician services, nursing home care, and dental
+services account for roughly three-fifths of OOP spending; each of these sectors is influenced by a
+different mix of factors.
+The projections for relative growth in PHI, OOP, and all other private spending for each individual sector
+are aggregated to generate the projections for the shares of total private spending for the detailed
+private payer categories at the level of PHC. This process includes an adjustment procedure (iterative
+proportional fitting27) to constrain the sum of spending for all private sources of funds by sector to equal
+the total for private spending for all sources of funding.
+In addition to private sources of funds, we also project public sources of funds other than Medicare and
+Medicaid. The largest of these payers are the Department of Veterans Affairs (VA) and the Department
+of Defense (DoD),28 with the methodology we use for these programs discussed below. Spending for
+other third party payers and programs29 is projected based on econometric models similar to those
+used to project real per capita private spending.
+vi. Spending projections for Department of Defense (DOD) and Department of Veterans Affairs
+(VA) health insurance programs
+The NHE projection model includes the separate model equations for both the Department of Defense
+and Department of Veterans Affairs health care systems by type of service. Projections based on these
+models are then adjusted using data from published Federal budget requests for the upcoming fiscal
+year and data projections of the veteran population from the current VA Office of the Actuary’s Veteran
+Population Projection Model (or “VetPop” Model). 30
+Expenditures for both the DOD and VA are driven mainly by fiscal policy, demographics, and economic
+conditions and, to a lesser extent, by overseas military operations. VA spending is expected to exhibit
+- 23 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+countercyclical elements, as eligibility is determined in part by income and the presence of other
+insurance coverage along with a myriad of other factors. Consistent with actuarial projections from the
+VA, it is expected that the number of veterans and active-duty military personnel will decrease over the
+forecast period. Specific adjustments are made in cases in which Federal budgetary information is
+available.
+vii. Models for spending by sponsor of payment
+Sponsors of payment (businesses, households, and governments) are the entities that bear the
+ultimate responsibility for financing or supplying the funds needed to support health care spending by
+direct payers. Exhibit 9 provides a detailed description of how spending by source of funding maps to
+sponsor categories and associated sponsor accounting identities in the NHEA.1
+EXHIBIT 9. CROSSWALK OF NATIONAL HEALTH EXPENDITURE PAYERS TO BUSINESS, HOUSEHOLD, AND
+GOVERNMENT SPONSORS
+Business, Household, and Other
+Sponsor
+
+Private
+
+Government
+
+Private
+
+Payers
+
+Business
+
+Out-of-pocket
+Private Health Insurance
+
+Household
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+X
+
+X
+
+Medicaid
+Other Payers 2
+
+Federal State and Local
+
+X
+
+Other Private Revenues1
+Medicare
+
+Other Private
+
+X
+
+1
+
+Includes Medical portion of Property and Casualty Insurance, Philanthropy, Private Research, Private Structures and
+Equipment, and Other Non-Patient revenues.
+2
+Includes Department of Defense, Department of Veterans Affairs, Children’s Health Insurance Program, Worksite Health
+Care, Indian Health Service, workers’ compensation, general assistance, Maternal and Child Health, vocational rehabilitation,
+Substance Abuse and Mental Health Services Administration, school health, public health activities, federal and state and
+local research, and structures and equipment and other federal and state and local programs.
+
+We project premiums for PHI plans, including their underlying components, employer-sponsored
+insurance (ESI) and other PHI for households and employers by types of insurance (group and direct
+purchase) and sector of employment (public or private). PHI consists of ESI, Medicare supplemental
+insurance, and direct purchase plans. ESI premiums comprise the majority of PHI premiums. Thus the
+factors that influence the PHI share of our aggregate projection of private PHC spending, combined with
+growth in the non-medical costs of PHI, explain nearly all the variation in ESI premium growth.
+Because premiums for Medicare supplemental insurance and other direct purchase plans grow
+differently than ESI premiums, we project these categories separately. Our projections of per enrollee
+Medicare supplemental premium growth incorporate assumptions from the most recent Medicare
+Trustees Report regarding beneficiary trends in benefits and cost-sharing. For other direct purchase PHI
+- 24 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+plans, growth in spending per enrollee is projected based on the historical relationship with overall PHI.
+We then multiply projected enrollment in both Medicare supplemental plans and other direct purchase
+plans by their respective per enrollee PHI premium projection to obtain an overall premium projection.
+(See further details on enrollment below.)
+To maintain consistency within total expenditures across sponsor and payer estimates, we utilize
+iterative proportional fitting to adjust the matrix of spending for each cell relative to totals. For example,
+projections of components of PHI premiums, described above, for households and employers by types
+of insurance (group and direct purchase) and sector of employment (public or private) must be adjusted
+to sum to total PHI spending. Additionally, we project payments by employers to state and local
+governments for workers’ compensation and temporary disability insurance econometrically using
+macroeconomic trends.
+A number of categories of spending are exogenous projections, based on the financing assumptions for
+both Medicare and Medicaid contained in the most recent Medicare Trustees Report for Medicare and
+President’s Budget for Medicaid. Exogenous Marketplace financing assumptions are generally sourced
+from the most recent President’s Budget exercise. These categories include the following:
+
+•
+•
+•
+•
+•
+•
+
+Worker contributions to Hospital Insurance trust fund and taxation of benefits
+Employer contributions to Hospital Insurance trust fund
+Supplemental Medical Insurance Part B and Part D premium revenues
+Medicaid buy-ins of Medicare Part B premiums for dually eligible beneficiaries
+State Medicaid Part D phased-down contribution payments (also known as “clawback”)
+Federal Advanced Premium Tax Credit (APTC) and Cost Sharing Reduction (CSR) subsidies to
+Marketplace enrollees
+
+d. Private health insurance enrollment and uninsured population models
+Projections for insurance enrollment by source of coverage are generated separately from projections
+for spending by payer. Both enrollment and spending are modelled as a function of assumptions for
+macroeconomic and public sector trends. The implications of models for spending and for enrollment
+for trends in spending on a per enrollee basis are evaluated as part of the adjustment process involved
+in generating the final projections.
+As with spending models, enrollment models primarily focus on projecting private sector insurance
+enrollment, taking projections for enrollment in public sector programs as exogenous inputs to the
+model to capture shifts in enrollment across sources of coverage.
+To project private health insurance enrollment, we incorporate exogenous projections of enrollment for
+several public programs, such as Medicare, Medicaid, and CHIP. Current projections of enrollment for
+these programs are based on the most recent Medicare Trustees Report and the latest available
+Medicaid projections from the Office of the Actuary.
+PHI enrollment consists of three components, which are (1) employer-sponsored insurance, (2) direct
+purchase insurance (excluding Medicare supplemental insurance), and (3) direct purchase
+supplemental coverage for Medicare enrollees (Medicare supplemental insurance or Medigap).
+The uninsured population is projected as a function of the residual implied by projections of population,
+together with enrollment from all sources of coverage together with assumptions on variations in
+overlap across all sources of coverage.
+Models for enrollment and for the uninsured population were strongly influenced by COVID-era effects.
+These effects have largely waned since the end of the pandemic, with patterns of growth in enrollment
+and the uninsured converging with patterns consistent with pre-COVID history. Models have been
+- 25 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+updated to include all available recent data in the NHEA (currently extending through 2024), and
+preliminary data from the National Health Interview Survey for 2025.31 The effects of COVID are
+captured within these models by the inclusion of dummy variables for the post-COVID years where
+significant.
+Effects of legislative changes under current law include the effects of the One Big Beautiful Bill Act as
+reflected in exogenous enrollment projections for Medicaid and ACA Marketplace. The effects of this
+legislation are captured in projections for PHI enrollment and the uninsured based on model
+specifications and separate adjustments.
+i. Employer-sponsored insurance
+Employer-sponsored insurance (ESI) enrollment growth is primarily a function of employment trends,
+with substitution effects for Medicaid and Medicare capturing the response of ESI to changes in
+enrollment through these programs. COVID era effects are captured by dummy variables for the postCOVID period where significant ( 2020 (positive), and 2021-2022 (negative)).
+Growth in employment is projected for consistency with exogenous projections generated in the most
+recent Trustees Report, with adjustment for the near-term projection to reflect the most recent data
+and expectations.
+ESI as a share of employment consistently declines over historical period from 1992 to 2024 included
+in the model estimation (with the exception of the immediate post-COVID period). The relationship
+between ESI enrollment to growth in employment is driven by the employers’ offer rate for coverage and
+the terms under which it is offered (share of premium paid by employee) and by employees’ “take-up”
+rate (the rate at which employees sign up for coverage when offered). Over time, employer offer rates
+of coverage and employee take-up rates of coverage both gradually decline, with ESI enrollment
+growing slightly more slowly than employment. Finally, a number of those enrolled in ESI are not current
+employees, because retirees and dependents of employees may also have coverage. For these groups,
+rates of coverage are determined by access to family or retiree coverage and the terms on which it is
+available. The effect of aging on ESI enrollment are largely captured in the model as a shift from ESI to
+Medicare coverage.
+The model of ESI enrollment includes the following independent variables:
+
+•
+•
+•
+•
+
+Growth in total employment. This variable has a coefficient less than 1.0, implying that ESI
+enrollment grows at a pace that is slightly less than proportional to employment growth, and
+less responsive to business cycle fluctuations than employment.
+Growth in enrollment in Medicaid coverage. Substitution effect between ESI coverage and
+Medicaid coverage.
+Growth in enrollment in Medicare coverage. Substitution effect between ESI coverage and
+Medicare coverage.
+COVID effects: Dummy variables for 2020(+), 2021(-),2022(-)
+ii. Direct purchase insurance (excluding Medicare supplemental insurance)
+
+Direct purchase insurance for non-Medicare enrollees includes coverage purchased both on and off of
+the ACA Health Insurance Marketplace; however, Marketplace enrollment accounts for the largest
+share of this enrollment. Marketplace enrollment is projected exogenously based on actuarial methods
+and includes the effects of legislation providing additional resources to individuals to enroll in this
+coverage in response to the economic effects of the COVID-19 pandemic.
+Off-Marketplace coverage (sold outside of the ACA Marketplace) is not eligible for subsidies. Current
+projections assume that off-Marketplace direct purchase insurance enrollment will continue to
+- 26 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+account for a small share of the direct purchase market.
+iii. Medicare supplemental insurance
+Private secondary Medigap coverage for Medicare enrollees is projected as a share of overall Medicare
+enrollment. An additional variable in this model is Medicare Advantage enrollment (exogenous
+projection based on the most recent Medicare Trustees Report) to capture the substitution of Medicare
+Advantage coverage for privately purchased Medigap plans.
+iv. Uninsured population
+The model for change in the uninsured population is a function of the “population residual”, which is
+defined as the total population minus the sum of enrollment in insurance across all sources of coverage
+(assuming constant overlap across enrollment categories). The regression specification is shown
+below:
+𝑑(𝑈𝑡 ) = 𝛼 + 𝛽𝑃𝑂𝑃𝑅𝐸𝑆𝐼𝐷𝑈𝐴𝐿 𝑑(𝑁𝑡 − ∑𝐼𝑖=1 𝜔𝑖 𝐸𝑖𝑡 ) + 𝛽𝑀𝐴 𝑑(𝐸𝑀𝐴𝑡 ) + ∑4𝑦=1 𝛽𝑦 𝑌𝑡 + 𝜀𝑡
+Ut = number of uninsured persons (millions), year t
+Nt = Population (millions), year t
+Eit = Enrollment in insurance type i (millions), year t
+EMAt = Enrollment in Medicare Advantage (millions), year t
+Yt = dummy variables for year t (included for 2020,2021,2022, 2023)
+𝜔𝑖 = (1-assumed share of overlap with other insurance categories)
+Historically, the change in uninsured population has tracked the change in the population residual fairly
+well; however there are notable deviations in this relationship over recent years with multiple
+contributing factors. In particular, it is always the case that some persons are enrolled in more than one
+type of coverage at a time (a coverage “overlap”), and the magnitude of overlap varies over time. The
+uninsured population also reflects compositional effects in the population Nt that are not constant over
+time, as well as any measurement issues in the source data.
+We cannot track the enrollment overlap across individual sources of coverage precisely over time
+because available survey data are not consistent with time-series estimates. Rather, we include an
+estimate for the average overlap for the largest source of overlap (between Medicare, private health
+insurance, and Medicaid) based on survey data from the Medicare Current Beneficiary Survey (MCBS).
+A comparison of the change in the uninsured population with the change in the population residual (with
+constant overlap) implies a residual variation in net overlap in enrollment across all sources of
+coverage. Annual net variation in overlap across all insurance categories (relative to the constant
+overlap assumption) is observed in the population residual. Enrollment in Medicare Advantage (MA) is
+included as a separate variable because variation in MA is associated with change in overlap between
+private health insurance and Medicare as MA coverage substitutes for supplementary private health
+insurance coverage.
+The period surrounding the COVID-19 pandemic has exhibited unusually large differences between the
+uninsured population and the population residual, implying large increases in the magnitude of overlap
+across sources of coverage. This fluctuation in overlap across sources of coverage occurred in
+response to flux in employment conditions combined with the Federal government legislation in
+response to the COVID-19 pandemic. The COVID-era reduction in the uninsured rate was driven by
+higher Medicaid enrollment and higher enrollment in Marketplace plans (primarily related to the
+American Rescue Plan Act’s expanded eligibility for subsidized premiums). Medicaid enrollment
+- 27 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+increased over 2020-23 because of faster growth in new enrollment combined with the continuous
+enrollment requirement of the Families First Coronavirus Relief Act (FFCRA), which encouraged states
+to refrain from initiating disenrollments by paying a larger Federal medical assistance percentage for
+their enrollees to keep Medicaid enrollment at high levels. This continuous enrollment requirement led
+to large increases in implied overlap between the Medicaid enrollment and ESI enrollment over 202023, and overlap during this period rose to levels well in excess of the historical range before 2020.32
+For the period from late 2023 forward, projections of the uninsured are influenced by the ending of the
+public health emergency (in May 2023), which discontinued the FFCRA continuous enrollment
+requirement. The declines in Medicaid enrollment following the end of the continuous coverage
+requirement were largely concentrated in 2024, with some decline continuing into 2025. This decline in
+Medicaid enrollment was associated with a reduction in coverage overlap in 2024 and for 2025 (based
+on preliminary data). Declines in enrollment overlap partially offset the impact on the uninsured
+population that might otherwise be expected when enrollment declines.
+An additional factor that is estimated to have increased the uninsured share of the population is the
+substantially faster growth over 2021-2024 in immigration since this population has typically been
+characterized by substantially higher rates of uninsured status.33 The effects of the immigration
+increases over this period are also expected to have influenced employer sponsored coverage and are
+reflected in the population total.
+The effects of COVID (and COVID-era legislation) and the relatively rapid growth in immigration affect
+the relationship between the uninsured and the total population. The timing of the two effects is largely
+overlapping, influencing much of the period since 2020. The net effects of both phenomena on model
+coefficients are controlled for by the inclusion of dummy variables for years within this period where
+significant. The dummy variables for these years absorb variation in the regression residual that is not
+consistent with model coefficients based on the pre-2020 period. The NHE projections model
+estimated for the uninsured population should therefore capture the relationships characteristic of the
+period prior to 2019. Projections for the uninsured generated by this model should be consistent with
+the absence of effects unique to the COVID era, and with the relatively lower immigration flows for the
+historical period before 2020.
+
+- 28 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+3)
+
+APPENDIX: LIST OF ACRONYMS
+
+ACA
+BLS
+CHIP
+CMS
+CPI
+DoD
+DPI
+ESI
+GDP
+HCBW
+LIFT
+NAIC
+NHE
+OACT
+OASDI
+PHC
+PHI
+PI
+PPI
+VA
+
+Affordable Care Act
+Bureau of Labor Statistics
+Children’s Health Insurance Program
+Centers for Medicare & Medicaid Services
+Consumer Price Index
+Department of Defense
+Disposable Personal Income
+Employer Sponsored Insurance
+Gross Domestic Product
+Home and Community-Based Waivers
+Maryland Long Term Interindustry Forecasting
+National Association of Insurance
+Commissioners
+National Health Expenditure
+Office of the Actuary
+Old-Age, Survivors, and Disability Insurance
+Personal Health Care
+Private Health Insurance
+Personal Income
+Producer Price Index
+Department of Veterans Affairs
+
+- 29 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+4)
+
+REFERENCES
+
+1
+
+For more information on definitions, sources, and methods used in the historical NHE, see Centers
+for Medicare & Medicaid Services. National Health Expenditure Accounts (NHEA): methodology paper,
+2024 definitions, sources, and methods [Internet]. Baltimore (MD): CMS; 2026 Jan [cited 2026 Jun 17].
+Available from: https://www.cms.gov/files/document/definitions-sources-and-methods.pdf.
+Centers for Medicare & Medicaid Services. National Health Expenditure Data: Projected. [Cited 2026
+Jun 17]. Available from: https://www.cms.gov/data-research/statistics-trends-and-reports/nationalhealth-expenditure-data/projected.
+2
+
+Fiore JA, Sisko AM, Poisal JA, Smith SD, Cuckler GA, Madison AJ, et al. National health expenditure
+projections, 2025-34: strong utilization growth initially, legislative impacts later. Health Aff (Millwood).
+2026; 45(7).
+3
+
+Centers for Medicare & Medicaid Services. Accuracy analysis of the short-term (10-year) national
+health expenditure projections [Internet]. Baltimore (MD): CMS; 2020 Nov [cited 2026 Jun 17].
+Available from: https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-andReports/NationalHealthExpendData/Downloads/ProjectionAccuracy.pdf
+4
+
+Census Bureau. Quarterly Services [Internet]. Washington (DC): Census Bureau [cited 2026 Jun 17].
+Available from: https://www.census.gov/services/index.html
+5
+
+Boards of Trustees. 2026 annual report of the board of trustees of the federal old-age and survivors
+insurance and federal disability insurance trust funds [Internet]. Baltimore (MD): Social Security
+Administration; 2026 Jun 9 [cited 2026 Jun 17]. Available from: https://www.ssa.gov/OACT/TR/2026/
+6
+
+Projections of personal income and gross domestic product are available in Table 1 of CMS.gov.
+NHE projections tables [Internet]. Baltimore (MD): CMS; 2026 Jun 24 [cited 2026 Jun 24]. Available for
+download from: https://www.cms.gov/files/zip/nhe-projections-tables.zip.
+7
+
+Boards of Trustees. 2026 annual report of the boards of trustees of the federal hospital insurance
+and federal supplementary medical insurance trust funds [Internet]. Baltimore (MD): Centers for
+Medicare & Medicaid Services; 2026 Jun 9 [cited 2026 Jun 17]. https://www.cms.gov/oact/tr/2026
+8
+
+“Private sources of funding” in this context include all private health insurance spending, which in
+turn, includes government subsidies for Marketplace premiums. As such, this spending is defined as
+private from the perspective of direct payment for care (a ‘Payer’ basis), rather than on the ultimate
+source of funding for coverage (a ‘Sponsor-of-payment’ basis). For purposes of econometric modeling
+and discussion in this paper, all private health insurance spending, out-of-pocket spending, and other
+private revenues are grouped together as “private spending.” To obtain sponsor-based delineations of
+public and private spending, we incorporate models that reallocate spending from direct payer basis
+to sponsor-based categories (discussed later in this paper).
+9
+
+Intensity is defined as the residual growth in medical care spending on a real per capita basis after
+controlling for changes in quantity and demographic effects; conceptually it captures variation in the
+quality and nature of care provided per unit of treatment.
+10
+
+This dependent variable is divided by a demographic index to control for the effects on spending of
+shifts in the composition of the population across age, sex, and proximity to death cohorts.
+11
+
+The accuracy of real per capita spending as a measure of quantity is dependent on the accuracy of
+the medical price indexes that are used as deflators.
+12
+
+- 30 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+Centers for Medicare & Medicaid Services. Memo: demographic factors used to project Medicare
+expenditures—incorporation of time-to-death to account for increasing longevity on the age-sex
+distribution of spending [Internet]. Baltimore (MD): CMS; 2020 Apr 22 [cited 2026 Jun 17]. Available
+from: https://www.cms.gov/files/document/incorporation-time-death-medicare-demographicassumptions.pdf.
+13
+
+Baltagi BH, Lagravinese R, Moscone F, Tosetti E. Health care expenditure and income: a global
+perspective. Health Econ. 2017; 26(7): 863-874. Available from: https://doi.org/10.1002/hec.3424.
+14
+
+Manning WG et al. Health insurance and the demand for medical care: evidence from a randomized
+experiment. Am Econ Rev. 1987; 77(3): 251-277.
+15
+
+The price to consumers can be roughly approximated by the fraction of total costs paid out-ofpocket multiplied by the actual price. This approximation is flawed; for decision-making purposes, the
+important question is the marginal price, which is the amount that the consumer pays for an
+additional dollar of medical care. Because of the broad use of copayments, deductibles, and out-ofpocket maximums, combined with the fact that a large share of health care consumption is
+accounted for by high-cost cases, the marginal price paid by consumers is often zero.
+16
+
+Chain-weighting is a method that accounts for changes to health spending patterns over time
+among different types of medical providers to provide an inflation measure that more accurately
+captures aggregated prices associated with such shifts in medical spending.
+17
+
+The input price index used for personal health care is a weighted average of OACT’s input price
+indexes for hospital services, physician services, home health services, nursing home services, and
+pharmaceuticals.
+18
+
+Due to data limitations, input price indexes have historically omitted compensation for selfemployed workers in some sectors. A substantial fraction of these self-employed workers are
+physicians or other medical professionals.
+19
+
+The minimum medical loss ratio requirement under the ACA states that health insurers must spend
+a minimum share of premium revenues on health care benefits and quality improvements (80 percent
+in the direct purchase and small group coverage and 85 percent in the large group coverage).
+20
+
+Such regulatory changes included: the health tax provisions of the continuing resolution legislation
+passed January 22, 2018 (the insurer fees associated with the ACA were deferred in 2019) and the
+cancellation of the cost-sharing reduction payments (previously mandated under the ACA to insurers
+from the federal government) from 2018 forward, in accordance with the October 12, 2017, executive
+order.
+21
+
+Surveys include 1) Census Bureau Value of Construction Put in Place Survey (VIP), available from:
+https://www.census.gov/construction/c30/c30index.html and 2) The American Society for Health
+Care Engineering (ASHE) Health Facilities Management magazine’s Hospital Construction Survey,
+available from https://www.hfmmagazine.com/
+22
+
+Prescription drug spending is excluded from the normalization process because of its historic
+volatility and its lack of correlation with spending in other sectors.
+23
+
+A dummy variable for 2014 was also tested as part of the model specification but was found to be
+not statistically significant.
+24
+
+25
+
+National Council on Aging. Who pays what for Medicare part D in 2026: a guide [Internet]. Arlington
+- 31 -
+
+Projections of National Health Expenditures and Enrollment: Methodology and Model Specification
+Last Updated: June 24, 2026
+
+(VA): NCOA; 2026 Apr 7 [cited 2026 Jun 17]. Available from: https://www.ncoa.org/article/who-payswhat-for-medicare-part-d-in-2026-a-guide/
+The other private revenues source of funds category is comprised of the medical portion of property
+and casualty insurance and philanthropy. Philanthropic support may be obtained directly from
+individuals, through philanthropic fund-raising organizations, or from foundations or corporations. For
+institutions such as hospitals and nursing homes, other private funds also include income from the
+operation of gift shops, cafeterias, parking lots, and educational programs, as well as investment
+income.
+26
+
+Terry P. Speed defines iterative proportional fitting as “an algorithm for constructing tables of
+numbers satisfying certain constraints.” Speed TP. Iterative proportional fitting. In: Armitage P, Colton
+T, editors. Encyclopedia of biostatistics [Internet]. Wiley Online Library; 2005 Jul 15 [cited 2026 Jun
+17]. Available from: https://doi.org/10.1002/0470011815.b2a10027
+27
+
+These payers are classified in a manner consistent with National Health Expenditure Accounts
+Methodology paper (note 1).
+28
+
+The payer categories included within the other third-party payers and programs category are listed in
+Exhibit 2 (p.4) and are consistent with National Health Expenditure Accounts Methodology paper (note
+1).
+29
+
+US Department of Veterans Affairs. National Center for Veterans Analysis and Statistics: Veteran
+Population. [Cited 2026 Jun 17]. Available from: https://www.va.gov/vetdata/veteran_population.asp.
+30
+
+National Center for Health Statistics (NCHS). 2026. Early Release of Selected Estimates Based on
+Data From the 2025 National Health Interview Survey. Hyattsville, MD: CDC.
+https://dx.doi.org/10.15620/cdc/174644.
+31
+
+Gupta S, Behrer C, Wang V, Banthin JS, Bundorf MK. Resumption of Medicaid eligibility
+redeterminations: little change in overall insurance coverage. Health Aff (Millwood). 2024;
+43(11):1518–27.
+32
+
+Hale J, Hong N, Hopkins B, Lyons S, Molloy, E, Congressional Budget Office Coverage Team. Health
+insurance coverage projections for the US population and sources of coverage, by age, 2024–34.
+Health Aff (Millwood). 2024; 43(7): 922-932.
+33
+
+- 32 -
+
+

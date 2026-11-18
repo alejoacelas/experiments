@@ -1,0 +1,1233 @@
+Verisk 2026
+Global Modeled
+Catastrophe
+Losses Report
+
+Table of contents
+Executive summary.......................................................................................................................4
+Exceedance probability metrics................................................................................................7
+Insured losses............................................................................................................................8
+Economic losses.....................................................................................................................10
+Global protection gap.............................................................................................................11
+Key drivers of modeled loss......................................................................................................13
+Modeling in the near-present climate.................................................................................14
+Demand surge..........................................................................................................................16
+Precision in site-specific risk modeling..............................................................................17
+Exposure growth......................................................................................................................19
+Non-modeled sources of risk........................................................................................21
+Managing your global risk........................................................................................................ 23
+Endnotes.......................................................................................................................................... 26
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 2
+
+Figures and tables
+Figure 1. Historical and average losses....................................................................... 6
+Figure 2. Contribution to global insured AAL by peril for all regions....................... 9
+Figure 3. Protection gap visualization: insured vs. uninsured loss by region...... 12
+Figure 4. The percentage of reported insured losses covered by Verisk’s
+current suite of models, and models available through Verisk
+Model Exchange, 2016–2025......................................................................22
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+Table 1.
+
+Key insured loss metrics from Verisk’s global industry EP curve
+for all regions and perils................................................................................. 8
+
+Table 2.
+
+AAL and EP metrics, by region, based on Verisk’s global suite
+of models, including those introduced or updated in 2026..................... 8
+
+Table 3.
+
+Insured and economic AAL by region.......................................................10
+
+Table 4.
+
+Annual exposure growth by region (2021–2025) measured
+using the Verisk Global Capital Stock Index.............................................20
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 3
+
+Executive
+summary
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 4
+
+E X E C U T I V E S U M M A RY
+
+For the first time in a decade, no hurricane made landfall
+in the continental United States.
+
+$171
+
+billion
+
+estimated global modeled insured
+average annual property loss (AAL)
+from natural catastrophes
+
+* in 2012 dollars, includes crop losses.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+In 2025, insured losses from natural catastrophes still
+exceeded $100 billion globally, led by the costliest wildfires
+ever recorded and sustained by severe thunderstorm activity averaging $771 million per event, proving, yet again, that
+years without a severity peril event can still exceed the
+$100 billion threshold.
+A decade ago, such a number, let alone one driven almost
+entirely by frequency perils, seemed implausible, but now
+the insurance industry is asking: What does a year like 2025
+look like with the addition of a U.S. landfalling hurricane?
+When should we expect a $200 billion insured loss year?
+How can the industry prepare to withstand those losses?
+Catastrophe modeling quantifies the answers to these
+questions, looking beyond the next event or the next year
+to consider what’s possible. Against a 100,000-year catalog, a single “down” year, such as 2025, carries little signal.
+A year without a landfalling hurricane can still lull the
+market into thinner pricing, more relaxed underwriting, and
+looser terms. 2025 marked the sixth consecutive year of
+insured losses exceeding $100 billion, and while the year’s
+losses may have surprised the market, they did not
+
+surprise the models that inform this report: the Eaton and
+Palisades fires and the significant number of severe thunderstorm events fell within the modeled range. Set aside
+the fires, and the first half of 2026 tells a similar story to
+2025: an accumulation of frequency-peril losses rather
+than a single headline event. For the communities affected, the losses were anything but modest. But for the industry, a below-average year reflects a favorable draw, not a
+change in the risk landscape. Down years are when catastrophe models matter most, and when the market turns,
+they are the difference between resilience and volatility.
+Verisk catastrophe models estimate the global modeled
+insured average annual property loss (AAL) from natural
+catastrophes at $171 billion: the number the industry must
+be prepared to withstand on average. This isn’t an estimate
+based on extrapolated data sets or past claims. It is
+informed by our suite of global natural catastrophe models
+covering more than 120 countries and regions, built on a
+framework that first pushes the bounds of what’s physically possible, then refines it toward what’s probable. Since
+we first published this report in 2012, the estimated AAL
+has grown from $59 billion* to $171 billion, reflecting
+expanded model coverage across more than 20 new countries and regions and advances in the science, data, and
+methods behind our models.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 5
+
+E X E C U T I V E S U M M A RY
+
+Such a consequential number demands transparency into what drives it. This report
+examines four factors contributing to the losses that are captured in Verisk’s models:
+ iew of the near-present climate: Warming seas and shiftV
+ing large-scale climate patterns set expected hazard activity
+above the historical record, raising losses most sharply in
+the tail.
+
+Site-specific risk modeling: Blending structural physics,
+claims data, and high-resolution hazard detail at the property level sharpens risk selection and carries that precision
+through to portfolio-level results.
+
+ ccounting for demand surge: The total cost of a catastroA
+phe event is settled when the final claim closes, not when
+the event ends, and demand surge over that interval adds
+to those losses.
+
+Exposure growth: Global property exposure has grown
+steadily since 2021, increasing losses independent of
+catastrophe activity.
+
+Others may estimate losses after the year unfolds, or
+publish a range of what might come, guarding their sources
+and methods. This report is built with the same models and
+software on which our clients rely every day; they can reproduce our published numbers in their own environments.
+These numbers are a baseline the market can test, challenge, and use without conversion or adaptation. Rather
+than a forecast, this report serves as a benchmark the industry can prepare against.
+
+
+
+200
+
+150
+
+100
+
+$
+
+50
+
+47
+
+B
+
+1H
+0
+2016
+
+2017
+
+2018
+
+2019
+
+Verisk AAL:
+
+171
+
+$
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+B
+
+2020
+
+2021
+
+10-yr avg:
+
+134
+
+$
+
+B
+
+2022
+
+5-yr avg:
+
+139 B
+
+$
+
+2023
+
+2024
+
+5-yr moving
+avg
+
+2025
+
+2026
+
+Note: 2025 USD adjusted for
+inflation and exposure growth
+using the Verisk Global Capital
+Stock Index
+Figure 1. Historical and
+average losses (Source:
+Verisk, Aon, Swiss Re)
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 6
+
+Exceedance
+probability
+metrics
+Verisk’s comprehensive approach to catastrophe
+modeling transforms complex global risk into actionable
+intelligence for the insurance industry. We produce this
+annual report using the same global suite of catastrophe
+models and software offerings available to our clients.
+All Verisk catastrophe models leverage the same shared
+industry-leading financial framework, enabling seamless
+risk quantification across diverse portfolios and
+geographies.
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 7
+
+EXCEEDANCE PROBABILITY METRICS
+
+The metrics derived from these models represent more than statistical
+measures: they are strategic tools that can reveal market opportunities and
+guide capital allocation decisions.
+
+Insured losses
+The evolution of our global aggregate AAL and exceedance probability loss
+metrics for 2026 reflects changes in risk as a result of our commitment to
+continuous innovation through updated models (Verisk Tropical Cyclone Model
+for the United States, Verisk Inland Flood Model for the United States, Verisk
+Tropical Cyclone Model for Central America, Verisk Tropical Cyclone Model for
+the Caribbean, Verisk Tropical Cyclone Model for Mexico, and the Verisk Winter
+Storm Model for the United States) and the Global Industry Exposure database,
+in addition to enhancements in demand surge calculations.
+
+Year
+
+AAL (USD
+Billions)
+
+2021
+
+Aggregate EP Loss (USD Billions)
+5.0% (20-year
+return period)
+
+1.0% (100-year
+return period)
+
+0.4% (250-year
+return period)
+
+87
+
+176
+
+285
+
+359
+
+2022
+
+100
+
+193
+
+311
+
+394
+
+2023
+
+109
+
+215
+
+351
+
+430
+
+2024
+
+120
+
+223
+
+363
+
+448
+
+2025
+
+152
+
+274
+
+425
+
+521
+
+2026
+
+171
+
+309
+
+477
+
+606
+
+Table 1. Key insured loss metrics from Verisk’s global industry EP curve for all
+regions and perils (Source: Verisk)
+
+Table 1 presents global insured AAL and key metrics from the aggregate exceedance probability (EP) curve spanning 2021 to 2026.
+Aggregate Insured Losses (USD Billions)
+
+Average annual insured losses and the metrics from the aggregate insured EP
+curve—for all regions and perils modeled by Verisk—have increased since we
+published our first report on this topic in 2012. This expected rise reflects
+several factors:
+• Greater numbers and values of insured properties in high-hazard areas
+• Inclusion of regions and perils for which new models are now available
+• More comprehensive and reliable data to power those models
+• Continuous updates to Verisk’s view of risk
+A breakdown of contributions to global AAL by region and key aggregate
+EP metrics by region appears in Table 2.
+
+Region
+AAL
+
+1.0% (100-year
+return period)
+
+0.4% (250-year
+return period)
+
+Asia
+
+10
+
+58
+
+79
+
+Europe
+
+24
+
+101
+
+128
+
+Latin America
+
+7
+
+67
+
+100
+
+North America
+
+124
+
+433
+
+565
+
+Oceania
+
+5
+
+35
+
+46
+
+All exposed areas*
+
+171
+
+477
+
+606
+
+* Note: Aggregate EP losses are not additive
+
+Table 2. AAL and EP metrics, by region, based on Verisk’s global suite of models,
+including those introduced or updated in 2026 (Source: Verisk)
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 8
+
+EXCEEDANCE PROBABILITY METRICS
+
+6%
+7%
+
+27%
+
+Tropical Cyclone
+Earthquake
+
+9%
+
+Severe Thunderstorm
+
+10%
+
+Winter Storm
+Flood
+
+40%
+
+Wildfire
+
+Figure 2. Contribution to global insured AAL by peril for all regions (Source: Verisk)
+
+It’s important to note that the AAL represents expected losses over extended periods, not what
+would be expected in any given year. Our stochastic catalogs reflect that global aggregate
+losses may comprise a few large loss events in peak regions or lower losses across multiple
+perils and regions in any given year. What’s certain is that these losses are unlikely to resemble
+the long-term AAL breakdowns shown in Figures 1 and 2. While future years may look similar
+to historical losses, our stochastic simulations provide a realistic representation of what the
+industry can expect but has never experienced.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 9
+
+EXCEEDANCE PROBABILITY METRICS
+
+Economic losses
+Global economic losses encompass insured losses and uninsured sources, which may include
+properties with no insurance, self-insured infrastructure assets such as roads, bridges, railways,
+and lost economic productivity. Comparing insured losses with reported economic loss estimates for natural disasters since 2015 (as reported by Verisk, Swiss Re, and Aon), Verisk has
+determined that global insured losses make up more than 38% of global economic losses in
+total when adjusted for inflation. Based on Verisk’s modeled global insured AAL, this would
+correspond to an economic AAL of more than $450 billion.
+On a regional basis, the insured percentage of economic loss from natural disasters varies
+considerably (Table 3). In North America, for example, about 53% of the economic loss from
+natural disasters is insured, while in Asia and Latin America, insured losses account for only
+about 14% and 33% of economic losses, respectively, reflecting the very low insurance penetration in these regions. The insured portion of economic losses also varies significantly
+by peril.
+
+Region
+
+Insured AAL (USD Billion)
+
+Percentage of Economic Losses
+Estimated to Be Insured
+
+Economic AAL (USD Billion)
+
+Asia
+
+10
+
+14%
+
+71
+
+Europe
+
+24
+
+22%
+
+110
+
+Latin America
+
+7
+
+33%
+
+23
+
+North America
+
+124
+
+53%
+
+235
+
+Oceania
+
+5
+
+46%
+
+11
+
+All exposed areas
+
+171
+
+38%
+
+450*
+
+Note: There is considerable uncertainty in the estimated percentage of economic losses that is insured,
+which partly stems from uncertainty in reported economic losses for actual catastrophes.
+
+*Sum of Regional Losses
+
+Table 3. Insured and economic AAL by region (Source: Verisk)
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 10
+
+EXCEEDANCE PROBABILITY METRICS
+
+Global protection gap
+Using the same techniques employed to quantify the protection gap
+on an AAL basis, we can calculate the insured and economic losses
+for each region at the 1% exceedance probability (the 100-year return
+period). The sizable difference between insured and economic losses—
+the protection gap—represents the societal cost of catastrophes. The
+reasons for the protection gap are multifaceted, and these examples
+from 2025 highlight the wide variance.
+In January, Windstorm Éowyn, the costliest windstorm on record for Irish insurers, produced
+an insured loss of €661 millioni to €765 millionii against roughly €890 million in economic loss,
+a gap of 14%–26%. In March, an earthquake caused approximately $12 billion in economic
+loss in Myanmar; insurers covered less than $100 millioniii, highlighting a gap exceeding 99%.
+With models available for both perils, the difference between a 14–26% gap and a 99% gap
+does not result from incomplete or inconsistent data. The widely divergent protection gaps
+reflect significant differences in insurance penetration and availability between the two markets.
+Even within mature markets, the gap exists. The July 2025 Central Texas floods claimed more
+than 130 lives, the deadliest flash flood event in nearly five decades. Flood coverage is excluded
+from standard homeowners’ insurance policies and largely absent on properties that carry little
+perceived risk, such as those outside mapped floodplains. Nationally, the flood insurance
+take-up rate is 3%iv, and with a 2.5% flood insurance take-up rate in Kerr Countyv, most of the
+$1.1 billionvi in residential economic losses fell on the families and communities already bearing the human toll.
+In Australia, another well-developed market, Tropical Cyclone Alfred revealed a roughly 25%
+protection gapvii where state insurance taxes and levies and elevated rebuilding costs suppress
+take-up despite the federal cyclone reinsurance pool. Notably, these gaps persisted through a
+softening market, reinforcing that the gap is not a question of data—it’s a question of who has
+access to insurance.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+Closing the wildfire protection gap in California
+In our 2025 report, we noted the significant gap in the
+January 2025 Eaton and Palisades wildfires, where
+roughly 65%–70% of the $53 billion to $65 billion in
+economic loss was insured.  Supply drove the uninsured
+share: insurer retrenchment pushed many homeowners
+onto the California FAIR Plan. Regulatory progress
+continued through 2025, following the first-ever successful Pre-Application Required Information Determination
+(PRID) review of the Verisk Wildfire Model for the United
+States. Catastrophe modeling is now being incorporated
+into California ratemaking, a significant step toward
+restabilizing the California insurance market by providing
+improved access to wildfire insurance coverage.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 11
+
+EXCEEDANCE PROBABILITY METRICS
+
+Global Insured vs Uninsured Modeled Losses
+
+Europe
+
+North America
+
+433
+
+101
+357
+
+384
+
+Asia
+58
+358
+
+Oceania
+Latin America
+35
+
+67
+
+42
+
+137
+
+All numbers in USD Billions
+Figure 3. Protection gap visualization:
+insured vs. uninsured loss by region.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+Insured
+
+Uninsured
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 12
+
+Key drivers of
+modeled loss
+The global modeled AAL is the product of deliberate
+methodological choices. Four factors shape it significantly: a view of hazard grounded in the near-present
+climate; accounting for demand surge to ensure
+accurate insured loss values; vulnerability modeling
+precise enough to capture the property-level differences
+that drive the tail; and steady growth in global exposure.
+None of these forces paused in 2025: a year without a
+U.S. landfalling hurricane still produced more than $100
+billion in insured losses, and each driver helps explain
+why. The sections that follow examine each driver:
+what it is, how Verisk models capture it, and what it
+means for the losses the industry must be prepared to
+withstand.
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 13
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+Modeling in the
+near-present climate
+Earth’s climate is evolving, so catastrophe models must evolve with it to
+represent the near-present climate distribution of hazards from atmospheric
+perils. To properly capture atmospheric peril risk, a near-present climate
+catastrophe risk model must address two facets of the climate distribution:
+climate change and coherent large-scale variability.
+Anthropogenic climate change drives systematic shifts in the behavior of
+the climate system. As a result, a credible catastrophe model should reflect
+an expected hazard level today that differs from the hazard levels based on
+observations of even the recent past. By the same reasoning, a single quiet
+season—such as 2025, when no hurricane made landfall in the continental
+United States—carries little signal about that expected hazard level. Similarly, catastrophe models that reflect the state of the science should represent how large-scale variations inherent to the climate system drive spatially
+connected hazard patterns.
+The El Niño Southern Oscillation (ENSO), defined by cycles of sea surface
+temperature (SST) fluctuations in the tropical Pacific, is widely discussed
+by general-interest media outlets. The two ends of the ENSO spectrum dial
+vertical wind shear over the Atlantic Basin up and down, which affects how
+tropical cyclones form and intensify, and therefore how they threaten
+communities on land. This climate pattern also shifts atmospheric and
+oceanic dynamics elsewhere around the globe, leading to changes in tropical cyclone risk in other ocean basins and shifting regional probabilities of
+flood, severe thunderstorm, winter storm, and wildfire activity. Catastrophe
+models that accurately reflect these hazard-climate relationships will allow
+the industry to understand and manage risk as a system correlated across
+regions and perils, rather than peril by peril.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+2025: A year
+without a U.S.
+landfalling
+hurricane
+still produced
+more than
+
+100B
+
+$
+
+in insured losses.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 14
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+U.S. hurricanes in the near-present climate
+The scientific community has made tremendous progress
+in understanding the changing climatology of hurricane
+activity over the past two decades, especially in the Atlantic
+Basin. Scientific consensus now holds that Atlantic SSTs
+are extremely unlikely to return to below-average levels of
+the 1960s, ’70s, and ’80s. Environmental regulations have
+meaningfully reduced emissions of aerosol pollutants that
+caused sea surface cooling during these decades, which, in
+turn, resulted in a marked decrease in hurricane activity
+during the same interval.
+Despite this advancement, uncertainty remains in quantifying the contribution of multiple concurrent effects impacting
+tropical cyclone hazard. Because the aerosol interval
+masked the influence of global warming that presumably
+would have otherwise increased SSTs, the rebound in hurri-
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+cane activity since about 1990 can’t be cleanly attributed to
+either effect. Verisk’s view of risk sidesteps some of this
+uncertainty by using relative SST patterns rather than absolute values. While SSTs are trending upward everywhere,
+regional patterns of differing SSTs are the main driver of the
+convective instability felt locally by intensifying tropical
+cyclones. The global warming effect on tropical cyclone risk
+is therefore subtler than a simple trendline might otherwise
+suggest. Meanwhile, subtle shifts in the background distribution of ENSO toward more La Niña-like patterns of global
+convective forcing also slightly favor Atlantic seasons with
+heightened activity. Taken together, these changes in the
+climatic background have increased U.S. tropical cyclone
+risk. The regional expression of these changes is quantified
+and represented carefully in the rearchitected Verisk Tropical
+Cyclone model for the United States.    
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 15
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+Demand surge
+A catastrophe’s final insured cost isn’t settled when the event ends, but when the
+final claim closes. During that period, loss inflation can push claim values beyond
+what initial damage would suggest. A key component of loss inflation is demand
+surge, a temporary spike in the cost of materials, services, and labor as postevent demand outpaces supply.
+The sudden influx of claims after a catastrophe triggers demand surge, increasing insured losses by pushing
+up material and labor costs and delaying reconstruction over the course of the claim. Demand surge modeling
+assesses the loss potential of this cost driver by incorporating the economic mechanisms that drive reconstruction costs after a natural catastrophe.
+Building a framework on real-world scenarios
+Reconstruction after recent natural catastrophes
+highlights the significance of demand surge as a loss
+driver, especially for large, long-tail events, where
+resolving all claims can take months or years. The
+Eaton and Palisades fires fit this profile: their final cost
+will be settled over the claims tail, with demand surge
+accruing along the way. After large catastrophes,
+construction labor shortages and reconstruction
+delays have historically increased losses by 20–30%
+or moreviii. It typically takes about a year to rebuild after
+major hurricanes, and more than two years for even
+more severe events.
+The magnitude of any demand surge function
+depends on concurrent economic conditions. For
+example, as inflation returns to long-term averages,
+demand surge may be less than during periods of high
+inflation, as we saw during 2021 and 2022. Account-
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+ing for demand surge is critical for pricing and reserving. Models should estimate its impact by return
+period—a measure of expected frequency for an event
+of a given severity—while allowing for adjustments
+based on economic market conditions.
+Globally, demand surge contributes 10% ($15.7 billion)
+to the modeled AAL. In the United States, modeled
+estimates show demand surge can increase AAL by
+13% for tropical cyclones. For frequency perils, the
+demand surge impact is less, increasing AAL by an
+estimated 2% for both inland flood and winter storm
+perils. Demand surge effects increase with return
+period, meaning EP curves show stronger demand
+surge amplification at higher return periods than for
+AAL. For example, demand surge after a tropical
+cyclone event with a 100-year return period could
+increase costs 23% in the United States.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 16
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+Precision in site-specific
+risk modeling
+In recent decades, two broad paradigms have shaped the development of
+vulnerability models: empirical approaches grounded in inferences from
+observed damage and claims data, and analytical approaches derived from
+how structures behave under physical stress. Both approaches have advanced
+significantly, and their balanced application is critical to building models that
+are both predictive and widely usable.
+Paired with granular, high-resolution hazard data, that precision turns risk selection from an averaging exercise into a property-by-property discipline, and in a
+market moving toward thinner pricing and looser terms, that discipline is what
+keeps the margin for error from disappearing.
+Statistical methods capture overall trends from real building populations,
+while analytical methods explain physical phenomena and support wider
+generalizations. The two methods don’t merely co-exist in this paradigm; they
+join to drive a modeling architecture that clearly defines each component’s
+role, calls out any sources of uncertainty, and states the conditions under
+which the model may apply.
+Integrated wind vulnerability modeling
+A usable model depends on specific statistical and physical inputs. Wind hazard
+is more than the strongest gusts; the duration of damaging winds is distinct
+and consequential. Prolonged exposure introduces structural fatigue. Fasteners gradually loosen, connections weaken, and the risk grows for cascading
+wall or roof failures that can turn minor damage into a total loss. A model that
+considers intensity but ignores duration misses critical information. And
+beyond the hazard itself, detailed building attributes are just as critical.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+A model that
+considers
+intensity but
+ignores duration
+misses critical
+information.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 17
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+From single properties to portfolios
+Reliable portfolio estimation starts with granular,
+property-level inputs. Models built on regional averages can obscure a book’s concentrations—aging
+roofs, pre-code construction, or occupancy classes
+that drive the tail of the loss distribution. Modeling
+each property’s structural characteristics, including
+performance under prolonged stress, and summing
+the results preserves the diversity that determines
+aggregate outcomes, keeping portfolio-level conclusions grounded in physically defensible data. Granularity isn’t a layer of refinement but a necessary
+precondition of sound underwriting. Two properties
+identical on a schedule can carry materially different
+expected losses once their attributes are modeled,
+and a book priced on averages is mispriced in both
+directions. In a soft market, that error stays hidden
+until a tail event surfaces it.
+
+Bridging physics and data across risk types
+Structural vulnerability depends on both individual
+property characteristics and the regulatory environment at the time the structure was built. This information can contextualize how local code adoption and
+enforcement may materially affect a structure’s
+
+as-built resistance, often more than the design on
+paper suggests, and capture the variable patterns in
+diverse damage data. The contrast between resilient
+and vulnerable construction also widens as winds
+intensify: a well-maintained roof or an enforced code
+matters most precisely where losses concentrate.
+
+Construction type determines how structural loads are
+distributed and the most likely points of failure.
+Year built points to era-specific design practices and material
+standards.
+Occupancy shapes both the building’s configuration and the
+consequences of its failure.
+Detailed characteristics—such as roof covering type, roof geometry,
+roof cover attachment, and especially age—frequently are the first
+and most critical point of failure from destructive winds.
+Residential properties tend to be more alike by type but are highly sensitive to roof age and component-level
+details, with loss outcomes heavily dependent on how the external structure performs. Commercial structures
+fail in different ways due to their varied geometry, heights, structural systems, and occupancy-driven configurations. Sound modeling applies attributes, damage relationships, and code-effectiveness adjustments distinctly
+to each segment, which pays off at both the property and portfolio level.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 18
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+Exposure growth
+Exposure growth raises insured losses regardless of catastrophe activity: a
+year without a U.S. landfalling hurricane did nothing to slow it. Over the past
+five years (2021–2025), global property exposure in Verisk-modeled countries
+grew about 7% per year on average (Table 4), driven by both new construction
+and construction price increases. During this period, fast-rising global inflation
+significantly increased the value of exposure, which helped spur increases in
+modeled insured natural catastrophe losses. While construction price inflation
+has slowed recently, exposure growth continues to contribute to rising actual
+and modeled insured losses. Changing exposure patterns and repair costs
+make it essential to regularly reassess exposure, particularly when inflation is
+high and where risk from natural hazards is greatest.
+Keeping exposure data current
+Verisk annually updates the Industry Exposure Databases for most modeled
+countries based on the Verisk Global Capital Stock Index (VGCSI). Industry
+exposure indexes use the VGCSI to reflect changes in a country’s total industry
+exposure. The index reflects country-level changes in physical asset values
+across all business lines.
+
+Residential
+reconstruction
+costs grew at
+
+5.0%
+
+per year from
+2021 to 2025
+
+Exposure growth varies by region, averaging between 6.3% (Asia) and 8.6%
+(Oceania) per year over the past five-year period (Table 4). During this period,
+new construction activity increased exposure value by 2.8% annually, while
+prices increased 4.2% annually.
+In the United States, residential construction costs drove exposure growth to
+outpace overall inflation, with residential reconstruction costs growing at 5.0%
+per year from 2021 to 2025, compared with 4.4% per year for overall consumer
+pricesix. In the past year, reconstruction costs increased 3.3%, while construction cost inflation has slowed. Even a 3.3% increase in exposure value from
+construction cost inflation alone would result in nearly a 38% increase in losses
+over 10 years.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 19
+
+K E Y D R I V E R S O F M O D E L E D LO S S
+
+A study in shifting trends
+Exposure growth varies as populations shift and urbanization increases. The
+most recent U.S. Census data shows that population growth continues to be
+concentrated in the U.S. South, home to 10 of the nation’s 15 fastest-growing
+cities and 11 of the 12 cities with the largest population gainsx. In the past year,
+Houston-Pasadena-The Woodlands, Texas, recorded the highest population
+growth among U.S. metro areas, and its fast-growing population coincides with
+increasing insured exposure accumulation in the area.
+Precise location and valuation of residential, commercial, and industrial structures based on building-specific attributes is key to accurately capturing exposure growth as seen in the Verisk U.S. Industry Exposure Database. In the
+growing Houston metro area, this means better accounting for the full range
+of replacement values—from single-family homes and increasingly prevalent
+high-value residential properties to commercial and industrial locations.
+Measured by residential risk growth, Houston ranks as the fifth fastest-growing
+metro area in the U.S., a different picture than its population rank alone would
+suggest.
+Globally, more than half of the world’s population lives in urban areas, many of
+them highly exposed to one or more natural hazardsxi. In England, residential
+properties are increasingly built in flood-prone areas, with 7.1% of single-family
+homes in the 100-year flood plain, and ongoing construction is steadily increasing the housing stock within these areasxii. Recent analysis of new home
+construction in England agrees: one in nine (11%) new homes built between
+2022 and 2024 sits in an area at risk from flooding. With the pace of new home
+construction accelerating, by 2050, the risk to these properties is projected to
+rise to 15%, or one in seven new homesxiii.
+
+Region
+
+Annual Exposure
+Growth
+
+Annual New
+Construction
+Activity
+
+Annual Price
+Inflation
+
+Asia
+
+6.3%
+
+3.7%
+
+2.5%
+
+Europe
+
+7.6%
+
+2.1%
+
+5.4%
+
+Latin America
+
+6.8%
+
+3.0%
+
+3.8%
+
+North America
+
+7.0%
+
+1.6%
+
+5.4%
+
+Oceania
+
+8.6%
+
+2.5%
+
+6.0%
+
+All exposed
+areas
+
+7.0%
+
+2.8%
+
+4.2%
+
+Note: Growth rates are based on each country’s local currency. Annual exposure
+growth is nominal exposure growth and includes new construction activity (in
+real terms) and price inflation. Annual figures are the average of the countries in
+each region and calculated as the compound annual growth rates from 2021 to
+2025. Annual figures exclude Lebanon, Turkey, and Venezuela as each country
+is experiencing periods of hyperinflation, which skew results. Annual nominal
+exposure growth is 104% in Lebanon, 71% in Turkey, and 161% in Venezuela.
+Table 4. Annual exposure growth by region (2021–2025) measured using the Verisk
+Global Capital Stock Index
+
+Together, these four drivers explain both the scale
+of modeled losses and their continued rise. None is
+speculative; each is observable, quantifiable, and already
+embedded in the models behind this report. The question
+for the industry is not whether these forces shape its
+losses, but how to put that understanding to work.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 20
+
+Non-modeled
+sources of risk
+Not every insured loss occurs in a region or from a peril
+that Verisk models, and those losses aren’t included in
+Verisk’s global insured estimates. Transparency about
+that boundary matters: if all losses could be modeled,
+both the aggregate insured loss figures at given EPs and
+the EPs associated with given loss figures would be
+slightly higher.
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 21
+
+N O N-M O D E L E D S O U R C E S O F R I S K
+
+Verisk’s current suite of models, which covers perils
+in more than 120 countries and regions, captures
+catastrophe events responsible for 94% of worldwide
+insured losses on average for the ten-year period from
+2016 through 2025, as shown in Figure 4.
+
+Verisk Model Exchange extends that coverage, providing access to third-party models through a governed
+open-standard platform. Models accessible through
+Verisk now average 97% of insured losses during that
+same period.
+
+Share of reported insured losses covered
+
+100%
+
+75%
+
+50%
+
+25%
+
+0%
+2016
+Verisk models
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+Additional coverage through models in Verisk Model Exchange
+
+2024
+
+2025
+
+Total (2016–2025) 97%
+
+Figure 4. The percentage of reported insured losses covered by Verisk’s current suite of models, and models
+available through Verisk Model Exchange, 2016–2025. (Source: Verisk, Aon, Swiss Re)
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 22
+
+Managing
+your global
+risk
+The AAL at the center of this report is a
+strategic decision-making tool. The same
+modeled output that produces the global AAL
+and EP curves can help you price portfolios,
+set reserves, structure risk transfer, and
+allocate capital. The events that drove losses
+in 2025 are captured in the models and
+well-validated against actual claims
+experience—a solid foundation for pricing,
+reserving, and capital allocation decisions.
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 23
+
+M A N A G I N G Y O U R G LO B A L R I S K
+
+The data behind the models enhances their reliability. Verisk models are bolstered with property-level data, reconstruction cost actuals, and decades of claims
+experience—a depth of information that industry benchmarks built on less complete inputs cannot match. In a softening market, where thinner pricing narrows
+the margin for error, that granularity is a competitive advantage. To capture it,
+organizations should focus on four key areas:
+Deploy complete peril model suites for competitive advantage: Comprehensive modeling
+across tropical cyclone, earthquake, severe thunderstorm, winter storm, wildfire, and inland
+flood enables effective risk selection and pricing strategies that create sustainable competitive
+advantages.
+Leverage accurate building characteristics for superior loss protection: Precise capture
+of construction, occupancy, and year-built attributes enables more accurate loss estimates
+and pricing strategies than relying on generalized assumptions.
+Optimize geocoding precision for enhanced model performance: Ensure that as many properties as possible are accurately geocoded to represent their actual location within the models.
+Inland floods, severe thunderstorms, winter storms, and wildfires are increasingly important
+drivers of loss, and these risks are particularly sensitive to a property’s exact location.
+Maintain current replacement values for accurate risk assessment: Dynamic replacement
+value management in high-inflation, high-risk markets enables accurate pricing and prevents
+unexpected loss emergence.
+
+Outputs warrant much greater trust when complete
+data is run against the full suite of models, helping to
+avoid unpleasant surprises in the wake of any catastrophic event. These outputs serve as the currency
+for risk transfer and are increasingly important for
+organizations and communities across the globe to
+manage risk as conversations on resiliency become
+more detailed. Going beyond the standard model
+output, Verisk has also provided tools to help compa-
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+nies stress-test their portfolios to account for the
+impacts of long-term climate change or social inflation. We are continuing this commitment with Verisk
+Model Exchange. Leveraging catastrophe models and
+purpose-built solutions—supported by data and methodologies that are well-validated, founded in science,
+and transparent—empowers the industry to face challenges head-on, providing stability and resilience to
+organizations and the communities they serve.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 24
+
+M A N A G I N G Y O U R G LO B A L R I S K
+
+Verisk’s global suite of catastrophe models, spanning more
+than 120 countries and regions, helps provide context for the
+losses the industry has experienced over the past few years.
+The models capture a range of both natural catastrophes, as
+reviewed in this paper, and man-made perils, including terrorism, strikes, riots, civil commotion, and casualty events. While
+actual annual insured losses over the past five years have been
+high, averaging $139 billion, they should not be seen as outliers. The Verisk global AAL at $171 billion represents the scale
+of potential loss for a given year. With this information, companies can prepare for large loss years and truly own their risk
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+with confidence, so they can weather these challenging years
+without threatening their solvency.
+As organizations continue to understand and manage these
+events, Verisk’s models, used with Verisk Synergy Studio,
+Touchstone®, and Touchstone Re, and the EP curves they generate, can provide the information companies need to benchmark
+their potential losses and confidently manage their catastrophe
+risk. The opportunity extends beyond defense: closing the
+protection gap will improve global resilience and provide a
+growth opportunity for carriers that seek to close it.
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 25
+
+Endnotes
+i.
+
+Aon, Windstorm Éowyn: One Year On (Chicago: Aon plc, January 2026).
+
+ii.
+
+PERILS AG, “Final Industry Loss Estimate for Windstorm Éowyn,” January 2026.
+
+iii. 	Aon, 1H 2025 Global Catastrophe Recap (Chicago: Aon plc, July 2025), executive summary.
+iv. 	Federal Emergency Management Agency, “NFIP Residential Penetration Rates - v1,”
+OpenFEMA, dataset, data as of April 29, 2026, accessed July 15, 2026, https://www.fema.gov/
+openfema-data-page/nfip-residential-penetration-rates-v1.
+v.   Insurance Information Institute, “Triple-I: Texas Home Insurance Market Impacted by Complex Mix
+of Natural Catastrophe Exposures,” press release, July 14, 2025, https://www.iii.org/press-release/
+triple-i-texas-home-insurance-market-impacted-by-complex-mix-of-natural-catastrophe-exposures071425.
+vi.   Cotality, “July 2025 Central Texas Floods,” Hazard HQ Command Central, last updated September
+21, 2025, https://www.cotality.com/hazard-hq/july-2025-central-texas-floods.
+vii. 	Insurance Council of Australia, cited in Aon, 1H 2025 Global Catastrophe Recap (Chicago: Aon plc,
+July 2025).
+viii. Verisk Analytics, “Historical Validation of Enhanced U.S. Demand Surge,” Verisk Synergy
+Studio Demand Surge Documentation, version 1.0.0, updated July 16, 2026,
+https://docs.risksolutions.verisk.com/synergyStudioDemandSurge/v1.0.0/historical_evidence_of_
+demand_surge_in_the_united_states.html.
+ix. V
+ erisk analysis of Verisk’s 360Value® Quarterly Reconstruction Cost Analysis and Federal Reserve
+Bank of St. Louis Consumer Price Index for All Urban Consumers from 2021 to 2025.
+x.
+
+ .S. Census Bureau, “Population Growth Holds Steady in Midsized Cities Amid Widespread
+U
+Slowdown,” press release CB26-80, May 14, 2026, https://www.census.gov/newsroom/pressreleases/2026/vintage-2025-city-town-pop-estimates.html.
+
+xi. 	Danan Gu, Exposure and Vulnerability to Natural Disasters for World’s Cities, Population Division
+Technical Paper No. 2019/4 (New York: United Nations, Department of Economic and Social
+Affairs, 2019), https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/
+files/files/documents/2020/Apr/un_2019_techpaper4.pdf.
+xii. Verisk analysis of Verisk’s United Kingdom Industry Exposure Database and the UK 100-year
+flood extent map.
+xiii. 	Aviva, “Proportion of New Homes Built in Flood Areas Rises to One in Nine,” news
+release, February 18, 2026, https://www.aviva.com/newsroom/news-releases/2026/02/
+proportion-of-new-homes-built-in-flood-areas-rises-to-one-in-nine/.
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 26
+
+Information in this document is subject to change without notice. No part of
+this document may be reproduced or transmitted in any form, for any purpose,
+without the express written permission of Verisk.
+
+If you have any questions regarding this document, contact:
+Verisk
+Lafayette City Center
+2 Avenue de Lafayette
+Boston, MA 02111
+USA
+Tel: (617) 267-6645 | Fax: (617) 267-8284
+© 2026 Verisk Analytics, Inc. Verisk Analytics and Touchstone are registered trademarks and Verisk and the Verisk logo
+are trademarks of Insurance Services Office, Inc. All other product or corporate names are trademarks or registered
+trademarks of their respective companies. 2509350 (9/26)
+
+Verisk 2026 Global Modeled Catastrophe Losses
+
+verisk.com | © 2026 Verisk Analytics, Inc. All rights reserved | 27
+
+

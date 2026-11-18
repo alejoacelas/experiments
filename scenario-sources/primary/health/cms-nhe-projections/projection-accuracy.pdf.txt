@@ -1,0 +1,842 @@
+Analysis of National Health Expenditure Projections Accuracy
+November 2020
+
+SECTION ONE: Introduction
+The information below provides an analysis of the accuracy of the National Health Expenditure (NHE)
+Projections produced by the Office of the Actuary (OACT). The report includes: accuracy measurements
+through the latest historical year (which is currently through 2018) for growth in total NHE spending,
+personal health care (PHC) spending and spending for the four major payers (Medicare, Medicaid,
+Private Health Insurance (PHI), and Out-of-Pocket (OOP)). The report also contains spending for three of
+the major health care sectors (hospitals, physicians and clinical services, and prescription drugs) and
+health care coverage (insured share of the population).
+The table with these measurements in Section Two is followed by a comprehensive discussion in Section
+Three on the underlying reasons why projections of health care spending and health insurance
+enrollment can be higher or lower than actual experience.
+Finally, the report includes an appendix intended to illustrate various examples of over- or underprojected figures over the last several cycles that are highlighted in the analysis.
+
+SECTION TWO: Historical Accuracy
+OACT’s primary objective is to produce the best technical projections possible with the intention of
+providing an unbiased outlook for national health care spending and health insurance enrollment
+trends. Inherent in the projections, however, is considerable uncertainty, which can result in inexact
+projections.
+To the extent possible, the underlying issues that contribute to these imprecisions, whether they are a
+result of data, assumptions, or methods, should be identified and analyzed. By taking a critical look at
+the accuracy of the results on a regular basis, the likelihood of perpetuating any unintended bias in their
+construction is mitigated. Moreover, by being transparent regarding where the estimates tend to be
+more (or less) accurate and why, stakeholders will be better able to interpret the results, as well as have
+confidence in their technical construction.
+
+Background
+The NHE projections are comprised of three primary components.1 They are i) projections of Medicare
+spending and enrollment (consistent with, at the time of publication, the latest Medicare Trustees
+Report), ii) projections of Medicaid spending and enrollment (reflecting OACT’s latest projections), and
+iii) projections of private health insurance spending (and its associated enrollment), out-of-pocket
+spending, and other private revenues. The Medicaid and private projections are constructed using
+macroeconomic assumptions that are consistent with those that underlie the Medicare projections.
+
+1
+
+Smaller components that are also projected, but not discussed here include spending for Marketplace plans, the
+Department of Defense, and the Department of Veterans’ Affairs.
+
+Examples of critical assumptions include projected growth in gross domestic product (GDP), the GDP
+deflator2, real disposable personal income, and levels of employment.
+Past analyses of the projections’ accuracy have shown that projected growth rates tend to be more
+accurate in the earliest years of the projection period.3 As seen in Table 1 below, this tendency has
+generally been observed over the past nine projections cycles (Proj10 through Proj18) 4 using the
+estimates from NHE185 as the bass for actual historical rates of growth. This tendency is attributable to
+two primary reasons. First, in the year after the last historical estimate, there are often preliminary
+historical data available for part of the year by payer and by sector. Moreover, monthly price data and
+certain quarterly financial reports are also available for publicly traded health insurance companies that
+can be used to construct a preliminary picture of price, utilization, and enrollment growth. Second, the
+projections are typically published in what is year two of the respective projection period (for example,
+the 2019-2028 projections were published in March 2020). As a result, any recent substantive changes
+in law that become effective in years one and two are very likely to have been included when
+developing the figures. Fundamental changes in law that occur after the figures are released, however,
+are of course not included and thus can significantly contribute to differing rates of growth than were
+previously expected.
+TABLE 1: Average Growth Rate Differential By Projection Year (Proj10 through Proj18)a
+Period
+
+Aggregate $
+
+Payer $
+
+NHE
+
+PHC
+
+Year 1
+
+0.1%
+
+0.1%
+
+0.3%
+
+0.7%
+
+Year 2
+
+0.5%
+
+0.4%
+
+0.6%
+
+Years
+3-5
+
+1.0%
+
+1.0%
+
+0.6%
+
+Sector $
+
+Medicare Medicaid PHI
+
+Health
+Insured
+Drugs
+Share of
+Populationb
+
+OOP
+
+Hosp
+
+Phys
+
+-0.3%
+
+0.1%
+
+-0.2%
+
+0.1%
+
+1.2%
+
+0.0%
+
+1.7%
+
+0.1%
+
+-0.2%
+
+-0.1%
+
+0.2%
+
+1.5%
+
+0.0%
+
+2.3%
+
+0.6%
+
+0.0%
+
+0.7%
+
+0.5%
+
+1.4%
+
+1.0%
+
+a
+
+Growth rate differentials calculated as applicable projected rates of growth less historical rates of growth.
+b
+Insured share differential calculated as projected insured share of population less historical share of population.
+
+2
+
+See The 2020 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal
+Disability Insurance Trust Funds, https://search.ssa.gov/oact/TR/2020/tr2020.pdf. Section V.B, which discusses
+economic assumptions and methods and gives long-run assumptions for GDP and price inflation begins on page
+100 of this report.
+3
+CMS, “Accuracy Analysis Of The Short-term (10-year) National Health Expenditure Projections.” 14 February
+2018. https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-andReports/NationalHealthExpendData/Downloads/ProjectionAccuracy.pdf.
+4
+The various vintages of projections are referenced using the following notation: Proj10 represents the vintage of
+projections that covered 2010-2019. The Proj11 vintage spanned 2011-2020 and so on.
+5
+M Hartman et al, “National Health Care Spending In 2018: Growth Driven By Accelerations In Medicare and
+Private Insurance Spending.” Health Affairs 39, No. 1, January 2020: 8-17.
+
+SECTION THREE: Five Underlying Reasons for Under- or Over-Projecting or
+Evolving Projections
+Health spending projections can differ from the eventual published historical estimates for a variety of
+reasons. In general, those reasons can be lumped into five categories including:
+1.
+2.
+3.
+4.
+5.
+
+Assumptions (Exogenous & Endogenous)
+Changes In Law
+Historical Data Revisions
+Unforeseen Developments in the Health Care Industry
+Data Vintages
+
+Being able to uncover and understand these reasons is important and helps to quantify the various
+levels and magnitudes of uncertainty inherent in the projections. Moreover, looking in detail at the
+various underlying reasons can also help to identify and address components that may be affected by
+unintended bias during their construction. The remainder of this section speaks to the underlying issues
+with various examples illustrated in the accompanying appendix.
+
+Reason #1: Assumptions (Exogenous & Endogenous)
+The first reason for why health spending projections may not match the historical estimates that follow
+is because of actual experience differing from projected trends for certain underlying assumptions (both
+exogenous, such as the overall macroeconomic assumptions, and endogenous, such as growth in the
+availability of new and expensive pharmaceuticals). One critical exogenous macroeconomic assumption
+is the assumed growth of economy-wide price growth, which is measured in the NHE projections by the
+GDP Deflator and is influential on the price models for individual medical goods and services. Examples
+of common reasons for this projection to be under- or over-projected are related to: (1) the difference
+between actual and projected economic growth (as price growth tends to be positively correlated with
+real growth in the economy), or (2) price movements (up or down) caused by a weather event, shortage,
+bumper crop, or productivity surge that could be created from an advancement on technology. The
+price assumption is critically important because projections of prices of medical goods and services are
+modeled to be consistent with growth in economy-wide prices. As a result, to the extent the GDP
+deflator projection is imprecise, the projections of medical prices could also be imprecise. For more
+information on how this impacted the accuracy of recent projections, see Charts 1 and 2 in the
+appendix.
+The single most critical exogenous macroeconomic assumption in our modeling that drives the
+projection of real per capita private U.S. health spending growth (or growth in PHI, OOP, and other
+private revenues) is the projection of real disposable personal income (DPI). Examination of the entire
+National Health Expenditure Accounts time series indicates that, typically, changes in real DPI are
+associated with changes in real per capita private health spending, but with a lag.6 When growth in
+income differs from what was projected, it can be due to an unanticipated recession (such as The Great
+Recession over 2007-2010) or an economic upturn that was not anticipated when the income
+6
+
+CMS, “Projections of National Health Expenditures and Health Insurance Enrollment: Methodology and Model
+Specification.” 24 March 2020, https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-andReports/NationalHealthExpendData/Downloads/ProjectionsMethodology.pdf.
+
+assumptions were developed. Significant differences between the projected growth in real DPI and its
+actual growth can result in notable differences between projected and actual health spending growth.
+Inexact endogenous assumptions can also contribute to under- or over-projected estimates. An
+example would be where a trend appeared to be established in the history, but evolved in a different
+manor after the release of the projections. For instance, in the prescription drug industry around the
+year 2000, there was an industry consensus that the pipeline was full of promising new drugs and that
+there were serious roadblocks to generic drugs taking a much larger share of dispensed prescriptions
+than the relatively small share that they had at the time. Although prescription drug spending growth
+was anticipated to slow from the very high growth rates experienced in 1998 and 1999, there was a
+widespread belief that prescription drugs would remain one of the fastest growing sectors in health care
+for the near future. However, the pipeline turned out not to be as impactful as was assumed (and there
+were notable high-profile safety issues with some newly approved drugs).7 That development, coupled
+with the widespread adoption of generic drugs, such that they accounted for 86 percent of all
+prescriptions dispensed in 20188 versus just 42 percent in 2000, significantly altered the level of
+expenditures and the growth profile for this sector.9 For more information about the accuracy of recent
+prescription drug projections, see Chart 3 in the appendix below.
+Another example relates to assumptions associated with growth in the number of people who were
+expected to be insured via directly purchased health insurance plans. Early projections of this metric
+that were constructed close to when Marketplace plans established by Patient Protection and
+Affordable Care Act (ACA) became available assumed rapid growth in take-up. Although the number of
+people covered by these plans has grown since their inception, the growth rate in enrollment has been
+slower than anticipated contributing to fewer people enrolled in directly purchased plans in more recent
+years (see Chart 4 in the appendix on recent projections of the insured share of the population).
+Finally, endogenous assumptions related to expected growth in the volume and intensity (V&I) of
+services can also contribute to imprecise projections. For instance, assumed growth in V&I among
+Medicare beneficiaries is a key input into the Medicare spending projections. After the Great Recession,
+growth in V&I had slowed to historically low rates and it was not clear whether this slower growth was
+permanent or temporary (and if temporary, when faster growth would resume).10 In subsequent
+projections after the Great Recession, growth in V&I was expected to accelerate somewhat rapidly and
+more closely resemble the growth rates observed between 2000 and 2009. However, this acceleration
+in growth did not materialize for several years because of unanticipated changes in behavior of
+Medicare beneficiaries. The latest historical data indicate growth in 2018 that is the highest since 2008,
+
+7
+
+K Kaitlin and J DiMasi, “Pharmaceutical innovation in the 21st century: new drug approvals in the first decade,
+2000-2009.” Clincial Pharmacology & Therapeutics, February 2011,
+https://ascpt.onlinelibrary.wiley.com/doi/full/10.1038/clpt.2010.286.
+8
+M Hartman et al, “National Health Care Spending In 2018: Growth Driven By Accelerations In Medicare and
+Private Insurance Spending.” Health Affairs 39, No. 1, January 2020: 8-17.
+9
+Kaiser Family Foundation, “Prescription Drug Trends, A Chartbook Update.” November 2001,
+http://files.kff.org/attachment/report-prescription-drug-trends-a-chartbook-update.
+10
+L Keohane et al. “The Slowdown in Medicare Spending Growth for Baby Boomers and Older Beneficiaries.”
+Commonwealth Fund, 27 December 2019, https://www.commonwealthfund.org/sites/default/files/202001/Keohane_Medicare_spending_slowdown_db.pdf.
+
+due in part to faster growth in V&I. See Chart 5 in the appendix for more information on the evolution
+of the Medicare spending projections.
+
+Reason #2: Changes In Law
+A second reason for why health spending projections may not match historical estimates once they are
+available is because of changes in law that affect the health sector. The NHE projections have always
+been constructed on a current-law basis, which means that the projections assume no new law changes
+are passed during the time period of the projection. Although one cannot necessarily expect that the
+law will remain unchanged over the next 10 years, this assumption i) provides a baseline for
+policymakers and the public off of which law changes can be estimated, and ii) ensures the Office of the
+Actuary isn’t viewed as advocating for a particular law change or the timing of such a change.
+When changes in law result in new programs and/or other significant expansions or restrictions in
+benefits (or who is covered), they can dramatically alter the growth rates at all levels of aggregation
+across the health care sector.11 Clear recent examples of this are the ACA and the Medicare Prescription
+Drug, Improvement, and Modernization Act (which added a prescription drug benefit to Medicare). In
+the case of the ACA’s implementation, for certain aspects, there were no historical data on which to
+base projections (such as who would take up subsidized insurance available in the new Health Insurance
+Marketplaces). As a result, new and innovative approaches were implemented in order to generate
+projected enrollment and spending trends. Since the ACA’s implementation there have been subsequent
+law changes to some of its provisions, such as multiple moratoriums on the collection of the health
+insurance tax, that have altered some of the more recent projections of private health insurance growth
+(see Chart 6 in the appendix below).
+In the case of the law that created Medicare Part D, which was passed in May of 2004, all prescription
+drug spending projections published prior to that law’s passage would not reflect the enormous rise in
+Medicare prescription drug spending (and associated changes for other payers) when the Part D
+program began in 2006.
+In an example of how changes in law can affect hospital spending trends, recent legislation that
+penalized hospitals based on their rates of readmission had the effect of exerting downward pressure on
+the number hospital stays resulting in actual growth falling below projected growth. For additional
+detail, see chart 7 in the appendix.
+
+Reason #3: Historical Data Revisions
+The third reason for why health spending projections may not match historical estimates is because of
+revisions to the historical data that served as the basis for the projections when they were built. Each
+year when historical NHE estimates are published, they are subject to revisions to i) accommodate more
+complete data that may not have been available when the estimates were originally produced, and ii) to
+incorporate any improvements in methods or data sources if necessary. These historical revisions can
+
+11
+
+In some instances where the law change is substantial in terms of who is covered, what is covered, or both, the
+impacts might start affecting the health sector a few years after passage and thus would have a minimal effect on
+first few years of the projection period.
+
+affect the resulting levels, the magnitudes of observed growth rates, and at times, the direction of an
+observed growth rate (that is, did growth accelerate or decelerate).
+When historical revisions are minor in nature, such as when levels of spending are updated slightly and
+growth rates are largely unaffected, they aren’t likely to have a material impact on what the resulting
+projections would have been. The more impactful historical revisions are when the magnitudes of
+growth rates change substantially or when the direction of the changing growth rate switches from an
+acceleration to a deceleration (or the opposite). One recent example is the implementation of a new
+methodology to reflect higher prescription drug rebates that lowered the actual historical price growth
+of prescription drugs, as well as overall medical prices. This revision contributes to the price trends
+displayed in Chart 2.12
+Other exogenous inputs used to generate the NHE projections are also subject to historical data
+revisions. For instance, as mentioned above, the most influential driver of real per capita spending
+among private payers is the trend in real disposable personal income. Private spending trends tend to
+positively correlate with changes in income trends, but with a lag. Consequently, in those cases where
+income data are revised, it is expected that such updates would impact the timing and magnitude of
+changes in projected health spending.
+
+Reason #4: Unforeseen Developments in the Health Care Industry
+The fourth reason for why health spending projections may not match historical estimates is because of
+unforeseen influential developments in the health sector. For instance, a significant unforeseen impact
+occurred in the prescription drug sector when Gilead Sciences introduced Sovaldi (a pharmaceutical that
+cured Hepatitis C), which was approved in late 2013. Although this drug was known to be in the pipeline
+of drugs likely to be approved, there were not expectations for the high introductory price of this drug
+or the much higher than expected number of prescriptions that would be dispensed in the first full year
+of its availability, 2014.13 As a result, the projected spending growth rates for prescription drugs for
+2014 and 2015 (when Gilead launched another expensive Hepatitis C drug, Harvoni) were underprojected for the vintage of NHE projections released in 2013 and before when the impact of these
+drugs was not known.
+Recent over-estimated Medicaid projections have also reflected unforeseen events including largerthan-expected risk mitigation payments back to the federal government by Medicaid managed care
+plans and implementation delays in states expanding their Medicaid programs to cover additional
+people (see Chart 8 in the Appendix below for more information regarding recent Medicaid
+projections).14
+Finally, two recent examples of unforeseen developments in the health sector impacted spending
+growth in the physician and clinical services sector. First, in earlier vintages of projection cycles, the
+12
+
+CMS, “National Health Expenditure Accounts: methodology paper, 2019 definitions, sources, and
+methods.” 16 December 2020, https://www.cms.gov/files/document/definitions-sources-and-methods.pdf
+13
+
+L Fegraus and M Ross. “Sovaldi, Harvoni, And Why It’s Different This Time.” Health Affairs, 21 November 2014,
+https://www.healthaffairs.org/do/10.1377/hblog20141121.042908/full/.
+14
+Risk mitigation payments to the federal government reflected a refund of overpayments to managed care plans
+whose experience in covering newly-eligible Medicaid enrollees was less costly than anticipated.
+
+price projections for physician and clinical services did not consider the more recent trend of physicians’
+offices utilizing more non-physicians (such as nurse practitioners) to help deliver care.15 Recent analysis
+of physician compensation data suggests that this trend may have contributed to slow growth in
+operating expenses, which in turn would suggest slower than expected price growth in this
+sector. Second, in late 2017, the penalty associated with the ACA’s individual mandate was reduced to
+zero. Although the change in penalty wasn’t effective until 2019, there were more immediate notable
+and unexpected drops in health insurance enrollment in the year prior. The associated higher than
+expected increase in the number of uninsured contributed to slower actual spending growth than
+projected in this sector for 2018 (see Chart 9 in the appendix).
+A final example of this type of event is the pandemic associated with COVID-19 (coronavirus). The rapid
+initial increases in the number of people infected resulted in i) high demand for intensive care units in
+some areas of the country, ii) many people who weren’t infected delaying or foregoing care, and iii)
+significant economic impacts including the loss of employment and/or employer-based private health
+insurance. The next publication of the NHE projections will be the first to reflect the impacts of the virus
+across the entire health sector.
+
+Reason #5: Data Vintages
+The fifth reason for why health spending projections may not match historical estimates is because of
+the timing of the vintages that are used. In most years, this issue has only minor impacts on projections
+accuracy. For example, the NHE projections rely on the latest publically available Medicare spending
+trends from the Medicare Trustees Report. Although additional Medicare claims data become available
+between the time the Trustees report is released and when the NHE projections are published, the
+updated data do not tend to be significantly different from what underlie the projections in the
+preceding vintage and are thus unlikely to materially alter the profile for growth.
+
+SECTION FOUR: Conclusion
+The analysis above provides measurements of accuracy on the latest 9 cycles of NHE projections, as well
+as an examination of the 5 main underlying reasons as to why a projection may turn out to be imprecise.
+On average, the projected figures have tended to be slightly over-projected with the earliest years being
+somewhat more accurate than the years that follow. Nonetheless, for the vast majority of metrics
+shown in Table 1, projected spending growth rates have been within plus or minus 1.0 percentage point,
+on average, of their historical estimates.
+As has been the practice, the Office of the Actuary will continue to review and evaluate the accuracy of
+future cycles. As a result, models will be re-estimated and perhaps re-specified, and core assumptions
+that underlie those models will be scrutinized, and perhaps wholly or partially changed. The goal will
+
+15
+
+Medical Group Management Association, “New MGMA Data Shows Medical Practices Utilizing More NonPhysician Providers are More Profitable, Productive.” 18 July 2018. Available at: https://www.mgma.com/newsinsights/press/new-mgma-data-shows-medical-practices-utilizing-mo.
+
+continue to be to produce the best technical estimates possible for use by policy-makers and other
+interested stakeholders.
+
+Appendix: Charts and background illustrating recent vintages of projections
+relative to the most recent estimates of historical growth
+Below are a series of selected charts illustrating many of the examples of the issues highlighted above.
+The charts are accompanied by additional background on how these particular projections evolved.
+Note that the Proj19 projections reflect historical data through 2018, thus the charts that follow
+illustrate historical accuracy through that year, as well as how the projections have evolved for the years
+2019 and later.
+CHART #1 – NHE Spending Growth by Vintage
+6.0%
+
+5.5%
+
+5.0%
+
+4.5%
+
+4.0%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 NHE
+
+PROJ17 NHE
+
+PROJ16 NHE
+
+PROJ15 NHE
+
+PROJ14 NHE
+
+2018
+
+CHART #2 – Growth in Prices for Personal Health Care (PPHC) by Vintage
+3.0%
+2.5%
+2.0%
+1.5%
+1.0%
+0.5%
+0.0%
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+NHE 2018 Historical
+
+PROJ18 PPHC
+
+PROJ17 PPHC
+
+PROJ16 PPHC
+
+PROJ15 PPHC
+
+PROJ14 PPHC
+
+Charts 1 and 2 above illustrate that over the last 6 projection cycles, projections of aggregate NHE
+growth have generally been over-projected, a result largely attributable to slower-than-expected growth
+in prices.
+As stated above under Reason #1 (Assumptions), the projection of medical price growth has two
+components: (1) total economy-wide price inflation, as measured by the GDP deflator, and (2) relative
+medical price inflation (or the difference between growth in medical prices and growth in economywide prices). The majority of the explanation behind recent over-projections of medical price growth
+relates to over-projections in the assumptions for the GDP deflator. The table below showing projected
+growth by year from the 2014 Medicare Trustees Report is an example that illustrates this point.
+Despite gradual declines in the assumed growth over subsequent Trustees Reports as illustrated in Chart
+2, the majority of the roughly 1 percentage point over-projection of medical price inflation from 2015 to
+2019 can traced back to an over-projection of the GDP Deflator.
+Growth in the GDP Price Deflator, 2014 Medicare Trustees Report versus Actual
+Year
+2014TR16
+Actual17
+Difference
+
+16
+
+2015
+1.5%
+1.0%
+0.5%
+
+2016
+1.8%
+1.0%
+0.8%
+
+2017
+2.0%
+1.3%
+0.7%
+
+2018
+2.2%
+1.5%
+0.7%
+
+2019
+2.3%
+1.7%
+0.6%
+
+See The 2020 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and
+Federal Disability Insurance Trust Funds, https://search.ssa.gov/oact/TR/2014/tr2014.pdf, Table V.B1.—Principal
+Economic Assumptions, page 99.
+17
+See Table 1.1.4 Price Indexes for Gross Domestic Product, line 1, calculated growth from annual levels,
+https://apps.bea.gov/iTable/iTable.cfm?reqid=19&step=2#reqid=19&step=2&isuri=1&1921=survey.
+
+CHART #3 – Prescription Drugs Spending Growth by Vintage
+14.0%
+12.0%
+10.0%
+8.0%
+6.0%
+4.0%
+2.0%
+0.0%
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+NHE 2018 Historical
+
+PROJ18 Prescription Drugs
+
+PROJ17 Prescription Drugs
+
+PROJ16 Prescription Drugs
+
+PROJ15 Prescription Drugs
+
+PROJ14 Prescription Drugs
+
+Slower than projected growth in this sector over 2016-2018 was partly explained by three factors. First,
+economy-wide price growth was at historically low levels when those earlier cycles of projections were
+completed. Price growth was expected to rebound, but this failed to materialize. Second, in 2018, the
+National Health Expenditure Accounts incorporated a new method for estimating rebates on
+prescription drugs, which resulted in historical revisions that lowered growth. Finally, for 2016
+specifically, drug spending growth was coming down from a sharp acceleration in 2014 and 2015 due to
+the waning effects of both the implementation of the ACA, as well as the high use of expensive drugs to
+treat hepatitis C. It was clear that drug spending growth would decelerate from its relatively high level
+in 2015, but the pace at which this occurred was unforeseen at the time.
+
+CHART #4 – Insured Share of the Population by Vintage
+93.0%
+92.0%
+91.0%
+90.0%
+89.0%
+88.0%
+87.0%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 Ins Share
+
+PROJ17 Ins Share
+
+PROJ16 Ins Share
+
+PROJ15 Ins Share
+
+PROJ14 Ins Share
+
+2018
+
+This series is calculated as follows: (Population – Uninsured) / Population. Projections of population
+count are very stable. As a result, almost all of the changes seen in the graph above are the result of
+projections of the number of people who are uninsured, which itself, is a function of the projections of
+health insurance enrollment for third-party payers. The over-projected rates of insurance beginning in
+2015 are partly explained by slower growth in the direct purchase segment of the private health
+insurance market, partly because fewer people enrolled in Marketplace plans than were originally
+expected.
+
+CHART #5 – Medicare Spending Growth by Vintage
+7.0%
+6.5%
+6.0%
+5.5%
+5.0%
+4.5%
+4.0%
+3.5%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 Medicare
+
+PROJ17 Medicare
+
+PROJ16 Medicare
+
+PROJ15 Medicare
+
+PROJ14 Medicare
+
+2018
+
+Slower than expected growth in the volume and intensity (V&I) of goods and services among Medicare
+beneficiaries, coupled with assumed higher than actual price growth, contributed to generally overprojected growth in Medicare spending over 2016-2017. This was mainly caused by projections of
+inpatient admissions growth being higher than the historical estimates of this growth as a result of
+hospitals attempting to trying to cut preventable readmissions (see Chart #7 for more information). In
+addition, as described in Chart #2, projections of growth in prices for many types of Medicare goods and
+services were over-projected during this period.
+
+CHART #6 – Private Health Insurance Spending Growth by Vintage
+7.0%
+
+6.5%
+
+6.0%
+
+5.5%
+
+5.0%
+
+4.5%
+
+4.0%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 Insurance
+
+PROJ17 Insurance
+
+PROJ16 Insurance
+
+PROJ15 Insurance
+
+PROJ14 Insurance
+
+2018
+
+The evolution of recent private health insurance projections provides an example of the impact of
+changes in law as they occur over time. For example, the profile for growth over 2017 and 2018 has
+changed substantially as a result of the moratoriums on the collection of the Health Insurance Tax (in
+2017 and 2019).18 The suspension of that tax is currently projected to influence a notable slowdown in
+the growth of the net cost of private health insurance (from 15.3 percent in 2018 to 2.0 percent in 2019)
+and by extension, overall PHI spending.19 The three earliest vintages of trends highlighted here had no
+such slowdown as current law did not call for the moratorium at the time they were produced.
+
+18
+
+The Health Insurance Tax was applicable in 2020 but has now been permanently repealed for all future years.
+S. Keehan et al., “National Health Expenditure Projections, 2019-28: Expected Rebound In Prices Drives Rising
+Spending Growth.” Health Affairs 39 (4), April 2020, 704-714.
+19
+
+CHART #7 – Hospital Spending Growth by Vintage
+6.0%
+
+5.5%
+
+5.0%
+
+4.5%
+
+4.0%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 Hospital
+
+PROJ17 Hospital
+
+PROJ16 Hospital
+
+PROJ15 Hospital
+
+PROJ14 Hospital
+
+2018
+
+In the graph above, hospital spending growth for 2018 was 4.5 percent, or about one percentage point
+lower than the average of the 4 earliest projections (Proj14 through Proj17) for that year. One of the
+main reasons leading to projected spending growth being lower than the eventual historical growth was
+the assumption on the use of inpatient hospital services. Although slower economic growth and the
+continued shift from inpatient to outpatient were important factors, inpatient hospital use grew less
+rapidly than expected. This was mainly a result of reduced admissions as hospitals sought to avoid
+penalties from the Hospital Readmissions Reduction Program. A recent MedPAC report cited multiple
+actions by hospitals to reduce readmissions of Medicare beneficiaries, which were applied to all patients
+and reduced readmissions for all payers.20 Moreover, the application of the penalties themselves
+(Medicare cut payments to over 2,000 hospitals in 2018 due to readmission penalties) also contributed
+to slower than expected growth.21
+
+20
+
+MedPAC, “Mandated Report: The Effects of the Hospital Readmissions Reduction Program.” 27 November 2019,
+http://medpac.gov/docs/default-source/reports/jun18_ch1_medpacreport_rev_nov2019_v2_note_sec.pdf
+21
+Rau, J, “New Round of Medicare Readmission Penalties Hits 2,583 Hospitals.” 1 October 2019,
+https://khn.org/news/hospital-readmission-penalties-medicare-2583-hospitals.
+
+CHART #8 – Medicaid Spending Growth by Vintage
+13.0%
+
+11.0%
+
+9.0%
+
+7.0%
+
+5.0%
+
+3.0%
+
+1.0%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 Medicaid
+
+PROJ17 Medicaid
+
+PROJ16 Medicaid
+
+PROJ15 Medicaid
+
+PROJ14 Medicaid
+
+2018
+
+While Medicaid spending growth was projected to grow near 6 percent in the last few vintages, recent
+historical growth rates for 2017 and 2018 have been closer to 3 percent. Revisions to historical data
+have been a primary factor in Medicaid spending growth being recently over-projected. The downward
+revisions were, in part, related to recovery payments from managed care organizations paid to the
+federal government based on their favorable prior-period experience.22
+Also contributing to slower than projected spending growth was the enrollment trend, which came in at
+a lower rate than was expected. The Affordable Care Act allowed for optional expansion of the
+Medicaid program, which would be almost entirely funded by the federal government. After the
+implementation of the ACA in 2014, additional states had voted to expand their Medicaid programs and
+these expansions were expected to be implemented in 2016 and 2017. As a result, Medicaid enrollment
+growth was expected to be above its historical trend. However, the experience in several states was
+that there were unanticipated delays in implementation, as well as challenges in completing the
+enrollment process for those eligible for coverage.23 As a result of lower than expected enrollment
+growth, there was lower overall Medicaid spending growth than was anticipated when the projections
+were completed.
+
+22
+
+Hartman, M et al., “National Health Care Spending In 2018: Growth Driven By Accelerations In Medicare And
+Private Insurance Spending.” Health Affairs 39 (1), January 2020, 8-17.
+23
+T Brooks et al, “Medicaid and CHIP Eligibility, Enrollment, and Cost Sharing Policies as of January 2020: Findings
+from a 50-State Survey, 26 March 2020, https://www.kff.org/coronavirus-covid-19/report/medicaid-and-chipeligibility-enrollment-and-cost-sharing-policies-as-of-january-2020-findings-from-a-50-state-survey/.
+
+CHART #9 – Physician Spending Growth by Vintage
+7.0%
+
+6.0%
+
+5.0%
+
+4.0%
+
+3.0%
+2014
+
+2015
+
+2016
+
+2017
+
+NHE 2018 Historical
+
+PROJ18 Physician
+
+PROJ17 Physician
+
+PROJ16 Physician
+
+PROJ15 Physician
+
+PROJ14 Physician
+
+2018
+
+Slower growth in physician and clinical services spending, particularly for 2018, was influenced by fewer
+people enrolled in private health insurance than was expected and cost-cutting measures recently
+implemented, namely the incorporation of less expensive non-physicians in the delivery of care. In
+addition, the actual prices paid for physician and clinical services grew at a slower rate than projected,
+partly caused by over-projections in the GDP Deflator (described above).
+
+

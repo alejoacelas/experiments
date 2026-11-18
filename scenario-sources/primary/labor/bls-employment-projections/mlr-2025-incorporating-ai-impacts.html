@@ -1,0 +1,1062 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Incorporating AI impacts in BLS employment projections: occupational case studies : Monthly Labor Review : U.S. Bureau of Labor Statistics</title>
+              
+	<!-- START include/global/head.stm -->
+	<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOL&subagency=BLS&yt=true"></script>
+
+	<script src="/javascripts/jquery-latest.js"></script>
+	<script src="/javascripts/bls-latest.js"></script>
+	<script src="/javascripts/jquery-tools.js"></script>
+	<script src="/javascripts/jquery-migrate-1.2.1.min.js"></script>
+	
+	<link rel="stylesheet" href="/assets/bootstrap/latest/bootstrap.min.css">
+	<script src="/assets/bootstrap/latest/popper.min.js"></script>
+	<script src="/assets/bootstrap/latest/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_combined.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_content.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_tables.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/jquery-tools.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_nr.css">
+    <!--[if lt IE 9]>
+		<link href="/stylesheets/ie8-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link href="/stylesheets/ie7-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link href="/stylesheets/ie6-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+		<style>
+		body {
+			behavior:url(/stylesheets/csshover2.htc);
+		}
+		</style>			
+	<![endif]-->
+	<!--[if IE]>
+		<style>
+		body {
+			font-size: expression(1 / (screen.deviceXDPI / 96) * 84 + '%');
+		}
+		</style>	
+	<![endif]-->
+	<noscript>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_noscript.css">
+	</noscript>
+	<!--  This means that the browser will (probably) render the width of the page at the width of its own screen. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta property="og:image" content="https://www.bls.gov/images/bls_emblem_2016.png" />
+	<meta property="og:image:alt" content="BLS Logo">
+	<meta name="robots" content="index, follow">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:site_name" content="Bureau of Labor Statistics">
+		<style>
+			td.gsc-table-cell-thumbnail{
+			display:none !important;
+			}
+		</style>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="theme-color" content="#ffffff" />
+    <!-- END include/global/head.stm -->
+<meta charset="UTF-8">
+
+  <script src="/javascripts/jquery-tools.js"></script>
+<script src="/javascripts/jquery-tools-1.2.7.min.js"></script>
+<script src="/javascripts/filesaver.js"></script>
+<script src="/assets/highcharts/latest/highcharts.js"></script>
+<script src="/assets/highcharts/latest/highcharts-more.js"></script>
+<script src="/assets/highcharts/latest/modules/map.js"></script>
+<script src="/assets/highcharts/latest/modules/data.js"></script>
+<script src="/assets/highcharts/latest/modules/exporting.js"></script>
+<script src="/assets/highcharts/latest/modules/offline-exporting.js"></script>
+<script src="/assets/highcharts/latest/modules/drilldown.js"></script>
+<script src='/assets/highcharts/latest/modules/accessibility.js'></script>
+<script src='/assets/highcharts/latest/modules/pattern-fill.js'></script>
+
+
+<noscript>
+	<style>
+		.bls-chartdata-overlay>div,
+		.bls-chartdata-trigger {
+			display: none;
+		}
+		.bls-chartdata-overlay {
+			overflow-y: auto !important;
+			overflow-x: auto !important;
+			margin: 0 !important;
+			display: block !important;
+			max-height: 500px !important;
+			max-width: 600px !important;
+			position: relative !important;
+			left: 0 !important;
+			top: 0 !important;
+			border: none !important;
+		}
+		.bls-chartdata-overlay div+div {
+			display: block;
+		}
+	</style>
+</noscript>
+<link rel="stylesheet" type="text/css" href="/stylesheets/bls_mlr.css">
+
+<script>
+	$(document).ready(function () {
+		$(".bls-chartdata-overlay").each(function () {
+			var temp_element = $(this);
+			$(this).remove();
+			$("#mlr-main-content").append(temp_element);
+		});
+		$(".simple_overlay").each(function () {
+			var temp_element = $(this);
+			$(this).remove();
+			$("#mlr-main-content").append(temp_element);
+		});
+
+		const link = document.getElementById('archives-link');
+		const submenu = document.getElementById('archives-submenu');
+		const parentItem = link.parentNode;
+		link.addEventListener('focus', () => {
+			submenu.hidden = false;
+			link.setAttribute('aria-expanded', 'true');
+		});
+		parentItem.addEventListener('mouseover', () => {
+		submenu.hidden = false;
+		link.setAttribute('aria-expanded', 'true');
+		});
+		parentItem.addEventListener('mouseleave', () => {
+		submenu.hidden = true;
+		link.setAttribute('aria-expanded', 'false');
+		});
+		parentItem.addEventListener('focusout', (e) => {
+		setTimeout(() => {
+			if (!parentItem.contains(document.activeElement)) {
+				submenu.hidden = true;
+				link.setAttribute('aria-expanded', 'false');
+			}
+		}, 10);
+		});
+		$('div[id^=cms-image-link] img').addClass("cms-zoomable-image")
+		$('div[id^=cms-image-link] img').wrap('<a href="#" data-toggle="modal" data-target=".citations-modal"></a>')
+
+		$(".MsoEndnoteReference > span:not(.MsoEndnoteReference)").each(function () {
+			$(this).html($(this).html().replace(/[\[]/gi, "<sup>").replace(/[\]]/gi, "</sup>"))
+			$(this).replaceWith(this.childNodes);
+		})
+		$(".notes .MsoEndnoteReference").each(function () {
+			$(this).html($(this).html().replace(/[\[]/gi, "").replace(/[\]]/gi, ""))
+			$(this).replaceWith(this.childNodes);
+		})
+
+		$("body").append(`<div class="bootstrap"><div class="modal citations-modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<span class="modal-title"></span>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+				<p>Modal body text goes here.</p>
+				</div>
+			</div>
+			</div>
+		</div></div>`)
+
+		$(".citations-modal").on('shown.bs.modal', function (event) {
+			let targetEl = $(event.relatedTarget)
+			$(this).find(".modal-body").html(targetEl.parent().attr("class") == "citation-number"?$("#crossref-citations").html():targetEl.html());
+			$(this).find(".modal-body").focus();
+		})
+
+		$("#mlr-main-article table").addClass("fixed-headers")
+
+		$("a[name^='_edn']").css("text-decoration", "none");
+		$("#mlr-main-article a[href]").each(function () {
+			if (!$(this).parents("#errata").size()) {
+				if ($(this).attr("href").match("/opub/mlr/.*?/(highcharts/data|images/data|tables)/.*\.stm")) {
+					// var that = $(this);
+					// $(this).attr("rel", "#custom-overlay");
+					// $(this).mouseover(function () {
+					// 	$(".contentWrap").load(that.attr("href"));
+					// });
+					// $(this).overlay({
+					// 	mask: 'black',
+					// 	fixed: false,
+					// 	left: "center",
+					// 	fixed: true,
+					// 	onBeforeLoad: function () {
+					// 		this.getOverlay().find(".contentWrap").load(this.getTrigger().attr("href"));
+
+					// 	},
+					// 	onLoad: function () {
+
+					// 		$(".contentWrap").css("height", ($(window).height() / 2) + 'px')
+					// 		setTimeout(function () { createFixedHeader($("#custom-overlay table"), ".contentWrap"); }, 500)
+
+					// 		if ($.fn.jquery > "1.4.2") {
+					// 			$(".bls-chartdata-overlay .bls-overlay-heading a").on("click", function () {
+					// 				that.data("overlay").close();
+					// 			});
+					// 		} else {
+					// 			$(".bls-chartdata-overlay .bls-overlay-heading a").click(function () {
+					// 				that.data("overlay").close();
+					// 			});
+					// 		}
+
+					// 	},
+					// 	onClose: function () {
+					// 		$("#mlr-main-article table.fixed-headers").each(function () {
+					// 			createFixedHeader($(this));
+					// 		})
+
+					// 	}
+					// });
+				}
+			}
+		});
+
+		if($(".article-page").length>0){
+			const rightSide = document.getElementById('mlr-right-side');
+			$("#mlr-left-side .WordSection1").contents().unwrap();
+			const p = document.querySelectorAll('#mlr-left-side p')[1];
+			const siblings = Array.from(Array.from(p.parentElement.children).filter(el => el !== p));
+			const rightSideBottom = rightSide.getBoundingClientRect().bottom;
+			let passedRightSide = false;
+			for(let i=0;i<siblings.length;i++){
+				el = siblings[i];
+				el.style.width = 'calc(100% - '+ (Number(rightSide.offsetWidth) + 60) +'px)';
+				el.style.height = 'auto';
+				const elTop = el.getBoundingClientRect().top;
+				if (elTop < rightSideBottom) {		
+					const directChild = el.closest('#mlr-main-article > *');
+					if (directChild && !/(\s|^)callout-[^\s]*/.test(directChild.className) && directChild.tagName !== 'P') {
+						directChild.classList.add('resized');
+					}
+				} else {
+					passedRightSide = true;
+				}
+				el.style.width = '';
+				if(passedRightSide){break;}
+			}
+			const resizeStyle = document.createElement('style');
+			resizeStyle.textContent = `.resized{width: calc(100% - ${(Number(rightSide.offsetWidth)+60)}px) !important;}`;
+			document.head.appendChild(resizeStyle);
+			$("#article-intro").addClass("resized");
+		}
+	});
+	setTimeout(()=>{$("#article-intro > p > em").contents().unwrap();},100);
+
+	var screenAdjustment = function () {
+		$articleImg = $('#mlr-right-side #article-page-small-pic'), 
+		$leftSidePos = $('#mlr-left-side #mlr-main-article .date'),
+		$rightSidePos = $('#mlr-right-side')
+		
+		this.setTemplate = function () {
+			if (window.matchMedia("(max-width: 767px)").matches){
+				$articleImg.insertBefore($leftSidePos);
+			}else{
+				$rightSidePos.prepend($articleImg);
+			}
+		}
+		this.screenResize = function () { $(window).resize(()=>{ 
+			this.setTemplate();
+		}) }
+		this.setTemplate();
+		this.screenResize();
+	}
+
+	$(document).ready(function () {
+		var myscreenAdjustment = new screenAdjustment();
+		$('.fixed-headers').each(function () { $(this).wrapAll('<div class="tScrollX"></div>') });
+		$('img[src^="data:image"]:not("[alt]")').attr("alt","formula image")
+	});
+
+
+
+</script>
+
+ 
+
+  <script>
+</script>
+
+ 
+      </head>
+  <body class="toolbar-icon-10 toolbar-loading">
+            <div class="page-wrapper dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+          <!-- OneColHeadBasic Begin: Name -->
+<!-- Header Filename: "/include/opub/opub_header.txt" -->
+<!--no_index_start-->
+
+<!-- DOL BANNER BEGIN -->
+<!-- DOL BANNER START -->
+<header > <!-- Header is closed at the end of BLS banner -->
+		<a class="skiplink" href="#startcontent">Skip to Content</a>
+
+		<div id="usa-banner-wrapper">
+<div id="usa-banner" class="bootstrap standard-width">
+	<div class="content">
+	<div class="USA-flag-link">
+	<img src="https://www.dol.gov/themes/opa_theme/img/flag-favicon-57.png" alt="U.S. flag">
+	<p>An official website of the United States government 
+	  
+	<button type="button" data-toggle="collapse" data-target="#usaBanner" aria-expanded="false" aria-controls="usaBanner">Here is how you know <span class="oi" data-glyph="chevron-bottom"></span></button>
+	</p>
+	</div>
+		<a href="https://www.dol.gov/" id="dolHolder" class="dolHolder" target="_blank"><img src="https://www.dol.gov/themes/opa_theme/img/logo-primary.svg" alt="Department of Labor Logo"/>  United States Department of Labor</a>
+	</div>
+	
+	<div class="collapse " id="usaBanner">	
+	<div class="row">
+	<div class="col-md-6">
+		<img src="https://www.dol.gov/themes/opa_theme/img/icon-dot-gov.svg" alt="Dot gov">
+
+		<p>
+			<strong>The .gov means it's official.</strong>
+			<br> Federal government websites often end in .gov or .mil. Before sharing sensitive information,
+			make sure you're on a federal government site.
+		</p>
+	</div>
+
+	<div class="col-md-6">
+	<img class="usa-banner-icon usa-media_block-img" src="https://www.dol.gov/themes/opa_theme/img/icon-https.svg" alt="Https">
+	
+		<p>
+			<strong>The site is secure.</strong>
+			<br> The
+			<strong>https://</strong> ensures that you are connecting to the official website and that any
+			information you provide is encrypted and transmitted securely.
+		</p>
+	</div>
+	</div>
+	</div>		
+</div>
+</div>
+
+
+
+<!-- DOL BANNER END -->
+
+
+<!-- DOL BANNER END -->
+<!-- BLS BANNER BEGIN -->
+
+<div id="bls-banner-wrapper">
+<div id="top"></div>
+		<div class="bootstrap standard-width">
+<div>
+  <div id="bls-banner" class="row">
+    <div id="bls-banner-emblem" class="col-sm-12 col-md-7">
+      <a href="https://www.bls.gov/">U.S. Bureau of Labor Statistics</a>
+    </div>
+    <div id="bls-banner-right" class="col-sm-12 col-md-5 d-none d-md-block">
+<div id="bls-banner-links"><a href="/schedule/news_release/">Release Calendar</a> | <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');" onclick="window.status='Subscribe'; return true" onmouseover="window.status='Subscribe'; return true" onmouseout="window.status=''; return true" id="social-email-1" title="Subscribe to BLS E-mail Updates" aria-label="Subscribe to BLS E-mail Updates">Subscribe</a></div> 
+      <div id="bls-banner-search1" class="bls-banner-search">
+        <form method="get" action="/search/query">
+		  <label for="bls-banner-search-submit1" class="invisible">Search button</label>
+          <input type="image" src="/images/buttons/search_button_blue_16.png" name="term" id="bls-banner-search-submit1" alt="BLS Search Submit" title="Submit" >
+		  <label for="bls-banner-search-input1" class="invisible">Search:</label>
+          <input name="query" type="text" id="bls-banner-search-input1" value="Search BLS.gov" title="Search Input" onclick="this.value=''; this.onclick = null;">
+
+        </form>
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+  </div>
+</div>
+</div>
+</div>
+</header> <!-- Header is opened at the begining of DOL banner -->
+<!-- BLS BANNER END -->
+<!-- MAIN NAV BEGIN -->
+
+<div id="main-nav-wrapper">
+	<div id="main-nav-container">
+		<div>
+			<div class="bootstrap standard-width">
+<nav aria-label="top-level navigation menu" class="navbar navbar-expand-md">
+
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
+    <span class="navbar-toggler-icon">Menu</span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+
+
+<ul class="nojs navbar-nav mr-auto">
+     <li class="dropdownSearch"><div id="bls-banner-search" class="dropdown-search">
+        <form method="get" action="/search/query">
+		  <label for="bls-banner-search-submit" class="invisible">Search button</label>
+          <input type="image" src="/images/buttons/search_button_blue_20.png" name="term" id="bls-banner-search-submit" alt="BLS Search Submit" title="Submit">
+		  <label for="bls-banner-search-input" class="invisible">Search:</label>
+          <input name="query" type="text" id="bls-banner-search-input" value="Search BLS.gov" title="Search Input" onclick="this.value=''; this.onclick = null;">
+
+        </form>
+      </div>
+	
+	  <div class="bls-banner-links-mob"><a href="/schedule/news_release/">Release Calendar</a> | <a href="javascript:window.open('https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');" onclick="window.status='Subscribe'; return true" onmouseover="window.status='Subscribe'; return true" onmouseout="window.status=''; return true" id="social-email-2" title="Subscribe to BLS E-mail Updates" aria-label="Subscribe to BLS E-mail Updates">Subscribe</a></div>
+	</li>
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="https://www.bls.gov/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ********************************************** Begin Home Tab LIST ****************************************** -->
+<!-- 1st column -->
+<div class="main-nav-submenu" id="submenu-home">
+	<ul class="main-nav-submenu-inn">
+	
+		<li class="heading"><a href="/about-bls/home.htm" aria-label="About BLS">About BLS</a></li>
+		<li><a href="/bls/history/home.htm" aria-label="BLS History">History</a></li>	
+		<li><a href="/bls/senior_staff/home.htm" aria-label="Our Leadership">Our Leadership</a></li>
+		<li><a href="/bls/bls_budget_and_performance.htm" aria-label="Budget and Performance">Budget and Performance</a></li>		
+		<li><a href="/bls/faqs.htm" aria-label="Questions and Answers">Questions and Answers</a></li>	
+		<li><a href="/bls/topicsaz.htm" aria-label="A-Z Index">A-Z Index</a></li>	
+		<li><a href="/bls/glossary.htm" aria-label="Glossary">Glossary</a></li>	
+		<li><a href="/bls/bls-speakers/" aria-label="BLS Speakers Available">BLS Speakers Available</a></li>
+		<li><a href="/errata/" aria-label="Errata">Errata</a></li>  				
+		<li><a href="/bls/contact.htm" aria-label="Contact BLS">Contact BLS</a></li>	
+
+	</ul>	
+	<!-- 2nd column -->	
+<ul class="main-nav-submenu-inn">	
+		<li class="heading"><a href="/bls/overview.htm" aria-label="Overview of BLS Statistics">Overview of BLS Statistics</a></li>
+		<li><a href="/information-guide/home.htm" aria-label="Guide to Programs & Services">Guide to Programs &amp; Services</a></li>
+		<li><a href="/bls/demographics.htm" aria-label="Demographics Data">Demographics</a></li>
+		<li><a href="/bls/industry.htm" aria-label="Statistics by Industries">Industries</a></li>
+		<li><a href="/bls/business.htm" aria-label="Statistics on Business Costs">Business Costs</a></li>
+		<li><a href="/bls/occupation.htm" aria-label="Statistics by Occupations">Occupations</a></li>
+		<li><a href="/bls/geography.htm" aria-label="Statistics by Geography">Geography</a></li>	
+	
+	</ul>
+	<!-- 3rd column -->
+	<ul class="main-nav-submenu-inn">
+		<li class="heading"><a href="/audience/" aria-label="Resources For">Resources For</a></li>
+		<li><a href="/audience/business.htm" aria-label="Resources for Business Leaders">Business Leaders</a></li>
+		<li><a href="/audience/consumers.htm" aria-label="Resources for Consumers">Consumers</a></li>
+		<li><a href="/audience/developers.htm" aria-label="Developers site">Developers</a></li>
+		<li><a href="/audience/economists.htm" aria-label="Economists or Economic Analyst">Economists</a></li>
+		<li><a href="/audience/investors.htm" aria-label="Resources for Financial Investors">Investors</a></li>
+		<li><a href="/audience/jobseekers.htm" aria-label="Resources for Jobseekers">Jobseekers</a></li>
+		<li><a href="/audience/media.htm" aria-label="Media">Media</a></li>
+		<li><a href="/audience/policy.htm" aria-label="Resources for Public Policymakers">Public Policymakers</a></li>
+		<li><a href="/audience/researcher.htm" aria-label="Researcher">Researcher</a></li>		
+		<li><a href="/audience/students.htm" aria-label="Resources for Students & Teachers">Students &amp; Teachers</a></li>
+		<li><a href="/respondents/" aria-label="Survey Respondents">Survey Respondents</a></li>
+	</ul>
+</div>
+
+<!-- ***********************************************End Home Tab LIST ******************************************** --> 
+
+</div>
+    </li>
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/bls/proghome.htm" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Subjects <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ************************************* Begin SUBJECTS TAB list ****************************************** -->
+<!-- 1st column -->
+<div class="main-nav-submenu" id="submenu-programs">
+	<ul class="main-nav-submenu-inn">
+		<li class="heading"><a href="/bls/inflation.htm" aria-label="Statistics on Inflation & Prices">Inflation &amp; Prices</a></li>
+		<li><a href="/cpi/" aria-label="Consumer Price Index ">Consumer Price Index</a></li>
+		<li><a href="/ppi/" aria-label="Producer Price Indexes">Producer Price Indexes</a></li>
+		<li><a href="/mxp/" aria-label="Import/Export Price Indexes">Import/Export Price Indexes</a></li>
+		<li><a href="/bls/escalation.htm" aria-label="Contract Escalation">Contract Escalation</a></li>
+		<li><a href="/pir/" aria-label="Price Index Research">Price Index Research</a></li>
+		<li class="heading"><a href="/bls/wages.htm" aria-label="Statistics on Pay & Benefits">Pay &amp; Benefits</a></li>
+		<li><a href="/eci/" aria-label="Employment Cost Index">Employment Cost Index</a></li>
+		<li><a href="/ecec/home.htm" aria-label="Employer Costs for Employee Compensation">Employer Costs for Employee Compensation</a></li>
+						<li><a href="https://www.bls.gov/oes/" aria-label="Wage Data by Occupation">Wage Data by Occupation</a></li>
+		<li><a href="/cps/earnings.htm#demographics" aria-label="Earnings by Demographics">Earnings by Demographics</a></li>
+		<li><a href="/ces/" aria-label="Earnings by Industry">Earnings by Industry</a></li>
+		<li><a href="https://www.bls.gov/cew/" aria-label="County Wages">County Wages</a></li>  <!--full path is needed since they have a folder on the data server-->
+		<li><a href="/ebs/" aria-label="Employee Benefits Survey">Benefits</a></li>
+		<li><a href="/mwe/" aria-label="Modeled Wage Estimates">Modeled Wage Estimates</a></li>		
+		<li><a href="/crp/" aria-label="Compensation Research & Program Development">Compensation Research</a></li>
+		<li><a href="/wsp/" aria-label="Strikes & Lockouts">Strikes &amp; Lockouts </a></li>
+		<li><a href="/wrp/" aria-label="Wage Records from Unemployment Insurance">Wage Records from Unemployment Insurance</a></li>
+		<li class="heading"><a href="/ors/" aria-label="Occupational Requirements Survey">Occupational Requirements</a></li>		
+	</ul>
+	<!-- 2nd column -->
+	<ul class="main-nav-submenu-inn">
+		<li class="heading"><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment</a></li>
+		<li><a href="/cps/" aria-label="National Unemployment Rate">National Unemployment Rate </a></li>
+		<li><a href="/lau/" aria-label="State & Local Unemployment Rates">State &amp; Local Unemployment Rates </a></li>
+		<li><a href="/ers/" aria-label="Unemployment Research">Unemployment Research</a></li>
+		<li class="heading"><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment</a></li>
+		<li><a href="/ces/" aria-label="National Employment Statistics">National Employment </a></li>
+		<li><a href="/sae/" aria-label="State & Local Employment, Hours, and Earnings">State &amp; Local Employment </a></li>
+		<li><a href="https://www.bls.gov/cew/" aria-label="County Employment">County Employment </a></li> <!--full path is needed since they have a folder on the data server-->
+		<li><a href="/cps/" aria-label="Worker Characteristics">Worker Characteristics </a></li>
+		<li><a href="/air/" aria-label="American Indian Report">American Indian Report</a></li>
+		<li><a href="/emp/" aria-label="Employment Projections">Employment Projections </a></li>
+		<li><a href="/jlt/" aria-label="Job Openings & Labor Turnover Survey">Job Openings &amp; Labor Turnover Survey </a></li>
+		<li><a href="/brs/" aria-label="Business Response Survey">Business Response Survey</a></li>
+		<li><a href="https://www.bls.gov/oes/" aria-label="Employment by Occupation">Employment by Occupation </a></li>
+		<li><a href="/nls/" aria-label="Work Experience Over Time">Work Experience Over Time </a></li>
+		<li><a href="/bdm/" aria-label="Business Employment Dynamics">Business Employment Dynamics </a></li>
+		<li><a href="/fdi/" aria-label="Foreign Direct Investment">Foreign Direct Investment </a></li>
+		<li><a href="/ers/" aria-label="Employment Research and Program Development">Employment Research</a></li>
+		<li class="heading"><a href="/iif/" aria-label="Workplace Injuries, Illnesses, and Fatalities">Workplace Injuries</a></li>
+	</ul>
+	<!-- 3rd column -->
+	<ul class="main-nav-submenu-inn">
+		<li class="heading"><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity</a></li>
+		<li><a href="/productivity/" aria-label="Labor and Total Factor Productivity">Labor and Total Factor Productivity</a></li>
+		<li><a href="/dpr/" aria-label="Productivity Research and Program Development">Productivity Research</a></li>
+		<li class="heading"><a href="/bls/spending.htm" aria-label="Statistics on Spending & Time Use">Spending &amp; Time Use</a></li>
+		<li><a href="/cex/" aria-label="Consumer Expenditures Surveys">Consumer Expenditures </a></li>
+		<li><a href="/tus/" aria-label="How Americans Spend Time Survey">How Americans Spend Time</a></li>			
+		<li class="heading"><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International</a></li>
+		<li><a href="/itc/" aria-label="International Technical Cooperation">International Technical Cooperation</a></li>
+		<li><a href="/mxp/" aria-label="Import/Export Price Indexes">Import/Export Price Indexes</a></li>
+		<li class="heading"><a href="/regions/" aria-label="Geographic Information">Geographic Information</a></li>
+		<li><a href="/regions/northeast/" aria-label="Northeast (Boston-New York) Information Office">Northeast (Boston-New York)</a></li>
+		<li><a href="/regions/mid-atlantic/" aria-label="Mid-Atlantic (Philadelphia) Information Office">Mid-Atlantic (Philadelphia)</a></li>
+		<li><a href="/regions/southeast/" aria-label="Southeast (Atlanta) Information Office">Southeast (Atlanta)</a></li>
+		<li><a href="/regions/midwest/" aria-label="Midwest (Chicago) Information Office">Midwest (Chicago)</a></li>
+		<li><a href="/regions/southwest/" aria-label="Southwest (Dallas) Information Office">Southwest (Dallas)</a></li>
+		<li><a href="/regions/mountain-plains/" aria-label="Mountain-Plains (Kansas City) Information Office">Mountain-Plains (Kansas City)</a></li>
+		<li><a href="/regions/west/" aria-label="West (San Francisco) Information Office">West (San Francisco)</a></li>
+	</ul>
+</div>
+<!-- **************************************End SUBJECT AREAS ******************************************** --> 
+	</div>	
+    </li>
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/data/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Tools <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ******************************************** Begin DATA TOOLS LIST ****************************************** -->
+<div class="main-nav-submenu"  id="submenu-data">
+    <ul class="main-nav-submenu-inn">
+        <li class="heading"><a href="/data/tools.htm" aria-label="Data Retrieval Tools Databases, Tables & Calculators by Subject">Data Retrieval Tools</a></li>
+		<li><a href="https://data.bls.gov/toppicks?code=&survey=bls" aria-label="BLS Popular Series Top Picks">BLS Popular Series</a></li>
+		<li><a href="https://data.bls.gov/series-report" aria-label="Series Report">Series Report</a></li>
+		<li><a href="/data/home.htm" aria-label="Top Picks, One Screen, Multi-Screen, and Maps" >Top Picks, One Screen, Multi-Screen, and Maps</a></li>
+		<li><a href="https://data.bls.gov/dataQuery/search" aria-label="Data Finder">Data Finder</a></li>
+		<li><a href="/developers/home.htm" aria-label="Public Data API Programming Interface">Public Data API</a></li>
+
+    </ul>
+    <!-- 2nd column -->
+    <ul class="main-nav-submenu-inn">
+        <li class="heading"><a href="/data/apps.htm" aria-label="Charts and Applications">Charts and Applications</a></li>
+		<li><a href="/charts/home.htm" aria-label="Charts for Economic News Releases">Charts for Economic News Releases</a></li>	
+		<li><a href="/data/inflation_calculator.htm" aria-label="CPI Inflation Calculator">CPI Inflation Calculator</a></li>	
+		<li><a href="https://data.bls.gov/iirc/" aria-label="Injury and Illness Calculator">Injury and Illness Calculator</a></li>		
+		<li><a href="https://data.bls.gov/apps/compensation-comparison-matrix/home.htm" aria-label="Pay Measure Comparison">Pay Measure Comparison</a></li>
+		<li><a href="https://data.bls.gov/apps/demographic-comparison-matrix/home.htm" aria-label="Demographic Data Sources">Demographic Data Sources</a></li>
+		<li><a href="https://data.bls.gov/apps/covid-dashboard/home.htm" aria-label="COVID-19 Economic Trends">COVID-19 Economic Trends</a></li>
+		<li><a href="https://data.bls.gov/apps/industry-productivity-viewer/home.htm" aria-label="Industry Productivity Viewer" >Industry Productivity Viewer</a></li>
+		<li><a href="https://data.bls.gov/cew/apps/data_views/data_views.htm#tab=Tables" aria-label="Employment and Wages Data Viewer">Employment and Wages Data Viewer</a></li>
+		<li><a href="https://data.bls.gov/cew/apps/bls_naics/bls_naics_app.htm" aria-label="Industry Finder from the Quarterly Census of Employment and Wages">Industry Finder from the Quarterly Census of Employment and Wages</a></li>
+	
+    </ul>
+	<!-- 3rd column -->
+	<ul class="main-nav-submenu-inn">
+	    <li class="heading"><a href="/data/tables.htm" aria-label="Customized Tables">Customized Tables</a></li>
+		<li><a href="/eag/eag.us.htm" aria-label="U.S. Economy at a Glance">U.S. Economy at a Glance</a></li>
+		<li><a href="/eag/home.htm" aria-label="Regions, States & Areas at a Glance">Regions, States &amp; Areas at a Glance</a></li>
+		<li><a href="/iag/home.htm" aria-label="Industry at a Glance">Industry at a Glance</a></li>			
+		<li><a href="https://download.bls.gov/pub/time.series/" aria-label="Text Files">Text Files</a></li>
+		<li><a href="/data/#historical-tables" aria-label="Historical News Release Tables">News Release Tables</a></li>
+		
+		<li class="heading"><a href="/bls/moredata.htm" aria-label="More Sources of Data">More Sources of Data</a></li>
+		<li><a href="/rda/home.htm" aria-label="Bureau of Labor Statistics Restricted Data Access">Restricted Data Access</a></li>
+		<li><a href="/data/archived.htm" aria-label="Discontinued Databases">Discontinued Databases </a></li>
+		<li><a href="/help/hlpform1.htm" aria-label="Questions & Answers regarding Bureau of Labor Statistics website data retrieval tools">Questions &amp; Answers</a></li>
+		<li><a href="/help/notice.htm" aria-label="Special Notices">Special Notices </a></li>	
+	</ul>
+</div>
+<!-- *********************************************End DATABASES and TOOLS LIST ******************************************** --></div>
+    </li>
+    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="/opub/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ********************************************** Begin PUBLICATIONS LIST ****************************************** -->
+<div class="main-nav-submenu"  id="submenu-pubs">    
+    <ul class="main-nav-submenu-inn"> 
+		<li class="heading"><a href="/opub/" aria-label="Latest Publications">Latest Publications</a></li>
+		<li><a href="/opub/ted/" aria-label="The Economics Daily">The Economics Daily</a></li>
+		<li><a href="/opub/mlr/" aria-label="Monthly Labor Review">Monthly Labor Review</a></li>
+		<li><a href="/opub/btn/" aria-label="Beyond the Numbers">Beyond the Numbers</a></li>
+		<li><a href="/spotlight/" aria-label="Spotlight on Statistics">Spotlight on Statistics</a></li>
+		<li><a href="/opub/reports" aria-label="Bureau of Labor Statistics Reports">Reports</a></li>
+		<li><a href="/video/" aria-label="Videos">Videos</a></li>
+		<li><a href="/careeroutlook/" aria-label="Career Outlook">Career Outlook</a></li>		
+    </ul>
+    <!-- 2nd column -->
+    <ul class="main-nav-submenu-inn">
+		<li><a href="/ooh/" aria-label="Occupational Outlook Handbook">Occupational Outlook Handbook</a></li>
+		<li><a href="/opub/geographic-profile/" aria-label="Geographic Profile">Geographic Profile</a></li>
+		<li><a href="/opub/hom/" aria-label="Handbook of Methods">Handbook of Methods</a></li>
+		<li><a href="/osmr/research-papers/" aria-label="Research Papers - Office of Survey Methods Research">Research Papers</a></li>
+		<li><a href="/opub/copyright-information.htm" aria-label="Copyright Information">Copyright Information</a></li>
+		<li><a href="/opub/opbinfo.htm" aria-label="Contact & Help">Contact &amp; Help </a></li>
+		<li><a href="/opub/update.htm" aria-label="Weekly Update">Weekly Update</a></li>		
+    </ul>
+</div>
+<!-- ***********************************************End PUBLICATIONS LIST ******************************************** --> </div>
+    </li>
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/bls/newsrels.htm" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Economic Releases <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ********************************************** Begin ECONOMIC RELEASES LIST ****************************************** -->
+<!-- 1st column -->
+
+<div class="main-nav-submenu" id="submenu-news">
+    <ul class="main-nav-submenu-inn">
+        <li class="heading"><a href="/bls/newsrels.htm#latest-releases" aria-label="Latest Releases">Latest Releases</a></li>
+		<li class="heading"><a href="/bls/newsrels.htm#major" aria-label="Major Economic Indicators">Major Economic Indicators</a></li>
+		<li class="heading"><a href="/schedule/news_release/" aria-label="Schedules for news Releases">Schedules for news Releases</a></li>
+		<li><a href="/schedule/" aria-label="Release Calendar By Month">By Month</a></li>
+		<li><a href="/schedule/schedule/by_prog/all_sched.htm" aria-label="Release Calendar By News Release">By News Release</a></li>
+		<li><a href="/schedule/news_release/current_year.asp" aria-label="Release Calendar Current Year">Current Year</a></li>
+		<li><a href="/bls/archived_sched.htm" aria-label="Schedules for Selected Bureau of Labor Statistics Economic News Releases for Prior Years">Prior Years</a></li>
+		<li class="heading"><a href="/bls/news-release/" aria-label="Archived News Releases">Archived News Releases</a></li>
+    </ul>
+    <!-- 2nd column -->
+    <ul class="main-nav-submenu-inn">
+        <li class="heading"><a href="/bls/newsrels.htm#OEUS" aria-label="Employment & Unemployment">Employment &amp; Unemployment</a></li>
+		<li><a href="/bls/newsrels.htm#OEUS" aria-label="Monthly">Monthly</a></li>
+		<li><a href="/bls/newsrels.htm#OEUS" aria-label="Quarterly, annual, and other">Quarterly, annual, and other</a></li>
+		<li class="heading"><a href="/bls/newsrels.htm#OPLC" aria-label="Inflation & Prices"> Inflation &amp; Prices</a></li>
+		<li class="heading"><a href="/bls/newsrels.htm#OCWC" aria-label="Pay & Benefits & Workplace Injuries">Pay &amp; Benefits &amp; Workplace Injuries</a></li>
+		<li class="heading"><a href="/bls/newsrels.htm#OPT" aria-label="Productivity & Technology">Productivity &amp; Technology</a></li>
+		<li class="heading"><a href="/bls/newsrels.htm#OEP" aria-label="Employment Projections">Employment Projections</a></li>
+		<li class="heading"><a href="/bls/newsrels.htm#NEWS" aria-label="Regional News Releases">Regional News Releases</a></li>
+    </ul>
+</div></div>
+    </li>
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/k12/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classroom <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ********************************************** Begin Students Tab LIST ****************************************** -->
+<div class="main-nav-submenu" id="submenu-students">
+	<ul class="main-nav-submenu-inn">
+		<li class="heading"><a href="/k12/" aria-label="K-12 Student & Teacher Resources">K-12 Student &amp; Teacher Resources</a></li>		
+        <li><a href="/k12/games/" aria-label="Games & Quizzes">Games &amp; Quizzes</a></li>
+		<li><a href="/k12/students/" aria-label="Student's Desk">Student&apos;s Desk</a></li>
+		<li><a href="/k12/teachers/" aria-label="Teacher's Desk">Teacher&apos;s Desk</a></li>
+		<li><a href="/k12/faq.htm" aria-label="Questions & Answers">Questions &amp; Answers</a></li>
+    </ul>
+</div>
+<!-- ***********************************************End Students Tab LIST ******************************************** --></div>
+    </li>
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/beta/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beta <span class="circle-arrow"></span></a>
+        <div class="dropdown-menu"><!-- ***********************************************Start BETA LIST ******************************************** -->
+
+<div class="main-nav-submenu" id="submenu-beta">
+  <ul class="main-nav-submenu-inn">
+    <li class="heading"><a href="/beta/redesigned-news-releases.htm" aria-label="Redesigned News Releases">Redesigned News Releases</a></li>
+  </ul>
+</div>
+<!-- ***********************************************End BETA LIST ******************************************** --></div>
+    </li>
+</ul>
+
+
+  </div>
+</nav>
+</div>
+
+
+
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+</div>
+
+
+<!-- MAIN NAV END -->
+<!-- WRAPPER TOP BEGIN -->
+	<div id="wrapper-outer" role="main">
+		<div id="wrapper">
+			<div id="container">
+<!-- WRAPPER TOP END -->
+<!-- SUBDOMAIN TITLE TOP BEGIN -->
+
+<!-- 1COL CMS LAYOUT COL1 BEGIN -->	
+<div class="main-content">
+<div id="startcontent" class="hidden"></div>
+<!-- 1COL CMS LAYOUT COL1 END -->
+
+<!--no_index_end-->
+<!-- OneColHeadBasic End -->
+
+        
+    
+        
+      
+         <div id="mlr-banner">
+	<a href="/opub/mlr/home.htm"><img src="/images/mlr/mlr_logo.png" alt="Monthly Labor Review logo"></a>
+<ul id="mlr-nav">
+<!--li><a href="/opub/mlr/home.htm">Home</a></li-->
+<li><a aria-haspopup="true" aria-expanded="false" id="archives-link" href="#">Archives</a>
+                   <ul id="archives-submenu" hidden>
+                   <li><a href="/opub/mlr/author/home.htm">Browse by Author</a></li>
+                   <li><a href="/opub/mlr/date/home.htm">Browse by Date</a></li>
+                   <li><a href="/opub/mlr/department/home.htm">Browse by Department</a></li>
+                   <li><a href="/opub/mlr/program/home.htm">Browse by Program</a></li>
+                   <li><a href="/opub/mlr/subject/home.htm">Browse by Subject</a></li>
+                   </ul>
+</li>
+<li><a href="/opub/mlr/for-authors.htm">For Authors</a></li>
+<li><a href="/opub/mlr/about.htm">About</a></li>
+<li><a href="https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new?topic_id=USDOLBLS_670">Subscribe</a></li>
+</ul>
+
+<div id="mlr-search">
+        <form method="get" action="/search/query">
+		  <input type="hidden" name="prefix" id="search-secondary-nav-category" value="https://www.bls.gov/opub/mlr/">
+          <input type="text" name="query" id="mlr-banner-search-input" value="Search MLR" title="Search MLR" onclick="this.value=''; this.onclick = null;">
+          <input type="submit" name="term" id="mlr-banner-search-submit" value="GO" title="Submit">
+        </form>
+</div>
+ <div class="clearfloat"></div>
+
+</div>
+        	
+    
+  
+
+
+
+               <div class="opub--mlr--2025--article">
+             <div id="mlr-main-content" class="article-page">
+        <div id="mlr-right-side">
+                  <img id="article-page-small-pic" src="/opub/mlr/2025/images/machovec-cover-image.png" alt="A collage of images showing AI technology and workers of different occupations " width="262">            <div id="about-author" class="mlr-blue-box">
+                <div class="h5">About the Author</div>
+                <div class="mlr-blue-box-inside">
+                                                                                                      <p style="margin-top: 0;" class="mlr-author-or-date">
+            <a class="author-name-link" href="/opub/mlr/author/m.htm#machovec-christine">Christine Machovec</a><br /><a href="mailto:machovec.christine@bls.gov">machovec.christine@bls.gov</a>            </p>
+            <p>Christine Machovec is an economist in the Office of Employment and Unemployment Statistics, U.S. Bureau of Labor Statistics.</p>
+                                                                        <p style="margin-top: 0;" class="mlr-author-or-date">
+            <a class="author-name-link" href="/opub/mlr/author/r.htm#rieley-michael-j">Michael J. Rieley</a><br /><a href="mailto:rieley.michael@bls.gov">rieley.michael@bls.gov</a>            </p>
+            <p>Michael J. Rieley is an economist in the Office of Employment and Unemployment Statistics, U.S. Bureau of Labor Statistics.</p>
+                                                                        <p style="margin-top: 0;" class="mlr-author-or-date">
+            <a class="author-name-link" href="/opub/mlr/author/r.htm#rolen-emily">Emily Rolen</a><br /><a href="mailto:rolen.emily@bls.gov">rolen.emily@bls.gov</a>            </p>
+            <p>Emily Rolen is an economist in the Office of Employment and Unemployment Statistics, U.S. Bureau of Labor Statistics.</p>
+                  </div>
+		  </div>
+                  <div id="related-content" class="mlr-blue-box">
+        <div class="h5">Related Content</div>
+        <div class="mlr-blue-box-inside">
+                    <div class="h6">Related Articles</div>
+          
+<p><a href="https://doi.org/10.21916/mlr.2024.21" target="_blank" rel="noopener noreferrer">Industry and occupational employment projections overview and highlights, 2023&ndash;33</a>, <em>Monthly Labor Review</em>, November 2024.</p>
+<p><a href="https://doi.org/10.21916/mlr.2024.14" target="_blank" rel="noopener noreferrer">Labor force and macroeconomic projections overview and highlights, 2023&ndash;33</a>, <em>Monthly Labor Review</em>, August 2024.</p>
+<p><a href="https://doi.org/10.21916/mlr.2022.21" target="_blank" rel="noopener noreferrer">Growth trends for selected occupations considered at risk from automation</a>, <em>Monthly Labor Review</em>, July 2022.</p>
+<p></p>
+ 
+                                <div class="h6">Related Subjects</div>
+            <ul>
+                              
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                                                <li><a title="Computers" href="/opub/mlr/subject/c.htm#computers">Computers</a></li>
+                          <li><a title="Employment" href="/opub/mlr/subject/e.htm#employment">Employment</a></li>
+                          <li><a title="Industry and Occupational studies" href="/opub/mlr/subject/i.htm#industry-and-occupational-studies">Industry and Occupational studies</a></li>
+                          <li><a title="Jobs" href="/opub/mlr/subject/j.htm#jobs">Jobs</a></li>
+                          <li><a title="Occupations" href="/opub/mlr/subject/o.htm#occupations">Occupations</a></li>
+                          <li><a title="Projections" href="/opub/mlr/subject/p.htm#projections">Projections</a></li>
+                          <li><a title="Statistical programs and methods" href="/opub/mlr/subject/s.htm#statistical-programs-and-methods">Statistical programs and methods</a></li>
+                          <li><a title="Technological change" href="/opub/mlr/subject/t.htm#technological-change">Technological change</a></li>
+                          <li><a title="Technology" href="/opub/mlr/subject/t.htm#technology">Technology</a></li>
+                        </ul>
+                    
+          
+		   	</div>
+      </div>
+            
+            <div id="cited-by" class="mlr-blue-box">
+        <div class="h5">Article Citations</div>
+        <div class="mlr-blue-box-inside">
+          <p style="margin-bottom:0px">
+            <strong>Crossref</strong>
+            <span style="float:right;position:relative;top:3px" class="citation-number"><a href="#" href="javascript:void(0);" data-toggle="modal" data-target=".citations-modal">0</a></span>
+          </p>
+          <div id="crossref-citations" class="hidden">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+          <script>
+            let citations = $("#crossref-citations p").length;
+            if(citations > 0){
+              $(".citation-number a").html($("#crossref-citations p").length)
+            }else{
+              $(".citation-number a").contents().unwrap();
+            }
+          </script>
+        </div>
+      </div>
+      
+      <div id="page-top-link"><a href="#top"><span>top</span> Back to Top</a></div>
+      <script>    
+        $(document).ready(function(){
+          var back_to_top_location = $("#page-top-link").position().top;
+          var footerHeight = $(document).height() - $(".footerNav").position().top + 20;
+          $(window).scroll(function(){
+            if($(window).scrollTop() > back_to_top_location && $(document).height() - ($(window).scrollTop() + $(window).height()) > footerHeight){
+              $("#page-top-link").css("position","fixed").css("bottom","10px");
+            }else if($(document).height() - ($(window).scrollTop() + $(window).height()) < footerHeight ){
+              var back_to_top_bottom = footerHeight + ($(window).scrollTop() + $(window).height()) - $(document).height();
+              $("#page-top-link").css("position","fixed").css("bottom",back_to_top_bottom+"px") ;
+            }else if($(window).scrollTop() <= back_to_top_location){
+              $("#page-top-link").css("position","relative").css("bottom","");
+            }
+          });
+        });
+      </script>
+    </div>
+    <div id="mlr-left-side">
+      <div id="mlr-main-article">
+                        <span class="date">02/10/2025</span>
+                  <h1>Incorporating AI impacts in BLS employment projections: occupational case studies </h1> 
+        
+                  <span id="article-intro">
+<p><em>In the last few years, artificial intelligence (AI) has advanced rapidly, finding growing applications across industries and occupations. This development has generated interest in how the U.S. Bureau of Labor Statistics assesses and incorporates AI&rsquo;s potential labor market impacts in its employment projections. In this article, we explain the Bureau&rsquo;s approach to this type of projections work, illustrating it with several occupational case studies based on research done for the 2023&ndash;33 projections cycle. The case studies focus on selected occupations in the computer, legal, business and financial, and architecture and engineering occupational groups.</em></p>
+</span>
+                                        
+          <p>Discussions about advances in artificial intelligence (AI) have become commonplace. In recent years, such advances have received constant news coverage, especially since the deployment of Open AI’s ChatGPT in November 2022.<sup><a name="_ednref1" title href="#edn1" id="ednref1"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">1</span></sup></sup></a></sup> ChatGPT, a natural language processing tool driven by AI technology that allows users to have humanlike conversations, was the first to offer many users the opportunity to directly experience the potential power of AI in their lives. Millions of Americans have since used ChatGPT.<sup><a name="_ednref2" title href="#edn2" id="ednref2"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">2</span></sup></sup></a></sup> Although AI and chatbots are not new, ChatGPT and similar tools have opened a new portal into the world of large language models (LLMs) and their wide-ranging applications.<sup><a name="_ednref3" title href="#edn3" id="ednref3"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">3</span></sup></sup></a></sup> Generative AI (GenAI) tools are becoming increasingly powerful in creating prose, images, videos, and sound. Because of the sheer potential of these tools, many people have been asking how they might affect our future, including that of workers and employment.</p><div class="WordSection1"><p class="MsoNormal">The U.S. Bureau of Labor Statistics (BLS) Employment Projections (EP) program approaches AI in the same way as it does other technologies.<sup><a name="_ednref4" title href="#edn4" id="ednref4"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">4</span></sup></sup></a></sup> Established technologies and other structural changes to the labor market have impacts that register in the historical data.<sup><a name="_ednref5" title href="#edn5" id="ednref5"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">5</span></sup></sup></a></sup> BLS projection methods are designed to measure and reflect structural technological changes, and these changes and their employment impacts tend to occur gradually.<sup><a name="_ednref6" title href="#edn6" id="ednref6"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">6</span></sup></sup></a></sup> There have been many claims about new technologies displacing jobs, and although such displacement has occurred in the past, it tends to take longer than technologists typically expect. Various technologies have had occupational impacts throughout recent history, but many affected occupations have still seen employment growth. Although it is always possible that future developments will deviate from historical patterns, BLS projection methods are not designed to capture extremely rapid technological change and, therefore, assume that the overall pace of technological change will be consistent with past experience.</p><p class="MsoNormal">Projecting future employment involves substantial uncertainty, especially in the case of evaluating the future impacts of a developing technology. BLS acknowledges this uncertainty in analyzing the relative likelihood of employment impacts across occupations. In this article, we use case studies to illustrate how BLS considers various factors of uncertainty in its employment projections. The next section provides more details, along with illustrative examples, on how BLS has approached this type of projections work in the past. The section after that presents several case studies, based on EP research done for the 2023–33 projections cycle, examining the potential employment impacts of AI technological advancements on selected occupations in the computer, legal, business and financial, and architecture and engineering occupational groups. The final section concludes, summarizing our results and noting EP’s plans for future research.</p><h3>Background and research considerations</h3><p class="MsoNormal">EP research connects the potential employment impacts of a new technology with data trends. The goal of this approach is to determine whether these impacts are likely to continue as the new technology grows in adoption and maturation or whether they are likely to diminish as the benefits of the technology are fully realized. For an emerging technology that is not yet reflected in historical data, EP aims to determine whether there is sufficient evidence to support a conclusion about the direction and magnitude of the technology’s future impact on the labor market.</p><p class="MsoNormal">One illustrative example of how this research has affected BLS projections involves photographic process workers. To show a decline in labor demand for this occupation in the early 2000s, when digital cameras were on the verge of displacing most film cameras, EP adjusted its models accordingly. Digital cameras improved on an already-existing technology, and the path to integrating them into business operations and consumer lives was clear. Digital cameras were already replacing film cameras, and the employment impacts of this shift were directly implied by the speed and maturation of technological change. Despite the absence of historical data showing employment declines for photographic process workers, EP projected that employment in the occupation would decline 23.6 percent from 2004 to 2014. Indeed, employment in the occupation started to fall precipitously in the early 2000s, declining from a peak of 86,300 in 2004 to 28,800 in 2014, with a further decline to only 9,200 in 2023.<sup><a name="_ednref7" title href="#edn7" id="ednref7"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">7</span></sup></sup></a></sup></p><p class="MsoNormal">By contrast, EP did not make any adjustments to its models for another occupation, truck drivers, despite speculations about autonomous vehicles potentially affecting this occupation in the 2010s. At the time, EP determined that the potential impacts of autonomous vehicles were too uncertain, judging that any such impacts were not likely to be felt in the short-to-medium term. Specifically, EP deemed that incorporating the new technology into actual work would likely take time because of regulatory and public safety concerns. So far, history has shown this assumption to have been correct: autonomous trucking remains a developing technology and has not yet had any meaningful employment impacts. Employment of heavy and tractor-trailer truck drivers was about 1.7 million in 2012 and had grown to over 2.2 million by 2023.<sup><a name="_ednref8" title href="#edn8" id="ednref8"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">8</span></sup></sup></a></sup></p><p class="MsoNormal">The timing and scale of many potential impacts of GenAI are too uncertain to be reflected in BLS projections. New technologies such as autonomous vehicles or AI are harder to assess than technologies that constitute incremental improvements. The lack of relevant historical data on AI technology necessitates assumptions about both the time frame and scale of technological impacts. Brand-new technologies inherently present many sources of uncertainty, including those related to degree of usefulness, developmental roadblocks, regulatory constraints, and pace and cost of adoption. EP generally makes adjustments to its models only if its research on a new technology provides clear expectations for the technology’s employment impacts.</p><p class="MsoNormal">Each occupation involves a set of tasks. Even when a new technology advances rapidly, it takes time for employers and workers to determine how to best incorporate the technology into their work. Although new technologies may change the composition or weighting of tasks performed by workers in an occupation, sometimes dramatically, they may still have no employment impacts. For example, the relatively recent ubiquitousness of smartphones has likely changed the operation of many workplaces, possibly affecting occupational tasks. However, it is unlikely that many workers have lost their jobs to smartphones. In the case of AI, it is important to keep in mind that BLS projections are not about the overall impact of the new technology, but rather about its potential employment impacts.</p><h3>Case studies of AI-related occupational employment impacts</h3><p class="MsoNormal">The 2023–33 BLS employment projections incorporate AI-related impacts for several occupations for which high exposure to automation is deemed likely. These impacts are discussed in a recent <i>Monthly Labor Review</i> article titled “Industry and occupational employment projections overview and highlights, 2023–33.”<sup><a name="_ednref9" title href="#edn9" id="ednref9"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">9</span></sup></sup></a></sup> However, researchers have identified additional occupations potentially susceptible to AI-related impacts,<sup><a name="_ednref10" title href="#edn10" id="ednref10"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">10</span></sup></sup></a></sup> although the employment trajectories of these occupations remain uncertain.</p><p class="MsoNormal">This section discusses some of these occupations, explaining how any potential AI impacts on them are<nobr>incorporated—</nobr>or not—in the 2023–33 National Employment Matrix.<sup><a name="_ednref11" title href="#edn11" id="ednref11"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">11</span></sup></sup></a></sup> The occupations featured in this article are concentrated in the computer, legal, business and financial, and architecture and engineering occupational groups. The employment projections outlined below reflect research based on EP’s interpretation of information available in June 2024, when the program was finalizing its 2023–33 projections. Other interpretations and conclusions derived from existing information are also possible. AI is a new and dynamic technology, and new information about its development and potential uses is continually being released. As such information becomes available, EP will continue to assess the potential employment impacts of AI tools and make appropriate updates to its future sets of projections.</p><h4>Computer occupations</h4><p class="MsoNormal">Workers in many computer-related occupations use AI in their day-to-day work. Programming is one of many work activities in which new LLMs and GenAI are well suited to augment worker efforts and increase productivity.<sup><a name="_ednref12" title href="#edn12" id="ednref12"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">12</span></sup></sup></a></sup> Software developers can use GenAI to develop, test, and document code; improve data quality; and build user stories that articulate how a software feature will provide value.<sup><a name="_ednref13" title href="#edn13" id="ednref13"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">13</span></sup></sup></a></sup> The effects of AI proliferation on this occupation are highly uncertain. On the one hand, AI is well suited for the occupation’s tasks; on the other hand, increased productivity from the use of AI may lower prices and increase demand for software products, thus boosting employment demand for software developers. In addition, AI itself may lead to increased demand for software developers, who may be needed to develop AI-based business solutions and maintain AI systems. Thus, despite its exposure to GenAI applications, this occupation is unlikely to experience a decline in employment, because robust software needs are expected to support continued demand for its workers. Although it is always possible that AI-induced productivity improvements will outweigh continued labor demand, there is no clear evidence to support this conjecture. Given these considerations, BLS projects employment of software developers to increase 17.9 percent between 2023 and 2033, much faster than the average for all occupations (4.0 percent). (See table 1.)</p><p class="MsoNormal">Database administrators (DBAs) and database architects are other examples of computer occupations susceptible to potential AI impacts. With ever-growing volumes of data comes the need for data maintenance and security. Increased labor demand for DBAs and database architects is expected to stem from growing demand for cloud computing and data infrastructure. According to one report on the potential applications of GenAI across industries, superannuated data infrastructure is among the greatest obstacles to business implementation of the technology: “As organisations adopt GenAI, tech, cloud and data infrastructure will need to be set up effectively—both the technology ecosystem and the capabilities within it. For example, data in many organisations is spread across multiple systems and data infrastructure will need to be set up in the right way to be able to benefit from GenAI.”<sup><a name="_ednref14" title href="#edn14" id="ednref14"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">14</span></sup></sup></a></sup> Consistent with this observation, a common refrain heard by BLS staff from other researchers, economists, and professors on the subject of AI is the claim that insufficient data infrastructure is the greatest obstacle to AI usage.<sup><a name="_ednref15" title href="#edn15" id="ednref15"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">15</span></sup></sup></a></sup> Greater adoption of AI is expected to lead to greater database complexity, which could support additional demand for DBAs and database architects.<sup><a name="_ednref16" title href="#edn16" id="ednref16"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">16</span></sup></sup></a></sup> As businesses race to integrate AI solutions into their workflows, they will need DBAs and database architects to navigate the obstacles to such integration.</p><p class="MsoNormal">However, AI tools also have the potential to perform many DBA tasks, such as generating code, predictive analysis, and system integration.<sup><a name="_ednref17" title href="#edn17" id="ednref17"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">17</span></sup></sup></a></sup> Survey results documented in a 2024 industry report by Redgate suggest that, at the time of the survey, more than half of respondents were either already using AI to improve the productivity of database management work or considering doing so in the near future.<sup><a name="_ednref18" title href="#edn18" id="ednref18"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">18</span></sup></sup></a></sup> As more AI tools are integrated into systems management, the tasks of DBAs and database architects will likely evolve.<sup><a name="_ednref19" title href="#edn19" id="ednref19"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">19</span></sup></sup></a></sup> Although some people may see these productivity enhancements as potentially leading to slower job growth in these occupations, their employment effects are projected to be outweighed by those of strong business demand for database management and data infrastructure solutions. Indeed, integration of AI into business operations is likely to spur even more demand for these workers. In the 2023–33 projections, employment of DBAs is projected to grow 8.2 percent, faster than average, and employment of database architects is projected to grow 10.8 percent, much faster than average. (See table 1.)</p><table class="regular" id="BLStable_2025_2_4_11_38" style="width: 95%;"><caption><span class="tableTitle">Table 1. Employment projections for selected computer occupations susceptible to potential artificial intelligence impacts, 2023–33</span></caption><thead><tr><th style="vertical-align: middle; min-width: 80px;" rowspan="1" scope="col">2023 NEM occupation title</th><th style="vertical-align: middle;" scope="col">2023 NEM occupation code</th><th style="vertical-align: middle;" scope="col">Employment, 2023 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Employment, 2033 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Numeric change, 2023–33 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Percent change,<nobr>2023–33</nobr></th></tr></thead><tbody><tr><th scope="row"> <p>Total, all occupations</p> </th><td style="text-align: center;">00-0000</td><td>167,849.8</td><td>174,589.0</td><td>6,739.2</td><td>4.0</td></tr><tr class="greenbar"><th scope="row"> <p class="sub1">Computer occupations</p> </th><td style="text-align: center;">15-1200</td><td>5,021.8</td><td>5,608.5</td><td>586.8</td><td>11.7</td></tr><tr><th scope="row"> <p class="sub2">Database administrators</p> </th><td style="text-align: center;">15-1242</td><td>80.5</td><td>87.1</td><td>6.6</td><td>8.2</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Database architects</p> </th><td style="text-align: center;">15-1243</td><td>61.4</td><td>68.0</td><td>6.6</td><td>10.8</td></tr><tr><th scope="row"> <p class="sub2">Software developers</p> </th><td style="text-align: center;">15-1252</td><td>1,692.1</td><td>1,995.7</td><td>303.7</td><td>17.9</td></tr></tbody><tfoot id="BLStable_2025_2_4_11_38_footnotes" style="display: table-footer-group;"><tr class="footnotes"><td class="footnotes" colspan="6"> <p>Note: Research by the U.S. Bureau of Labor Statistics&nbsp;indicates that the occupations included in the table are likely to be affected by artificial intelligence, but they are not intended as an exhaustive list of occupations susceptible to such impacts. NEM = National Employment Matrix.</p> <p>Source: U.S. Bureau of Labor Statistics, Employment Projections program.</p> </td></tr></tfoot></table><h4>Legal occupations</h4><p class="MsoNormal">GenAI, particularly LLMs, can potentially greatly enhance productivity in the legal services industry. This technology can sift through massive amounts of information and synthesize findings, thereby reducing the time lawyers and paralegals spend on various tasks related to document review. Among the legal, tax, and accounting professionals surveyed for one study in 2023, 67 percent “forecasted the emergence of AI and generative AI to have either a transformational or high-impact change to their profession over the next five years.”<sup><a name="_ednref20" title href="#edn20" id="ednref20"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">20</span></sup></sup></a></sup> Improved productivity was the top priority for 3 in 4 law firms surveyed, followed by improved internal efficiency.<sup><a name="_ednref21" title href="#edn21" id="ednref21"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">21</span></sup></sup></a></sup> Similarly, another 2023 study found that the “legal profession had the second highest [AI] exposure, with an estimated 44% of tasks susceptible to automation.”<sup><a name="_ednref22" title href="#edn22" id="ednref22"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">22</span></sup></sup></a></sup></p><p class="MsoNormal">In recent years, several companies have started to provide machine learning or GenAI services to law firms for tasks such as contract review, pretrial discovery, or research.<sup><a name="_ednref23" title href="#edn23" id="ednref23"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">23</span></sup></sup></a></sup> For example, some existing AI tools can comb legal libraries during the discovery process, while others can serve as study guides or encyclopedias of the law.<sup><a name="_ednref24" title href="#edn24" id="ednref24"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">24</span></sup></sup></a></sup> Researchers at Stanford Law School confirm these developments, noting that “a dizzying number of legal technology startups and law firms are now advertising and leveraging LLM-based tools for a variety of tasks.”<sup><a name="_ednref25" title href="#edn25" id="ednref25"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">25</span></sup></sup></a></sup> Some of these tools are already in use to some degree, and more law firms are expected to adopt them over the 2023–33 projections decade. Partly for this reason, employment growth in the legal services industry is projected to be slower (1.6 percent) than growth for the total economy (4.0 percent).<sup><a name="_ednref26" title href="#edn26" id="ednref26"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">26</span></sup></sup></a></sup></p><p class="MsoNormal">Among legal occupations, paralegals and legal assistants are expected to see the strongest employment impact from the productivity gains afforded by GenAI.<sup><a name="_ednref27" title href="#edn27" id="ednref27"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">27</span></sup></sup></a></sup> Although the new technology is also likely to increase productivity for lawyers, workers in this occupation will still need to review output from LLMs and to conduct tasks for which clients may prefer human interaction (e.g., advising services). Despite GenAI’s great potential for enhancing the efficiency of producing legal briefs and other documents, that output will still require detailed review by lawyers because it may contain errors or biases.<sup><a name="_ednref28" title href="#edn28" id="ednref28"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">28</span></sup></sup></a></sup> Given that accuracy is very important in legal settings and existing AI tools cannot provide the legal context a human can, there will continue to be a need for human reviewers to understand ambiguities, identify model hallucinations or other errors, and ensure that true intent is captured.<sup><a name="_ednref29" title href="#edn29" id="ednref29"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">29</span></sup></sup></a></sup> In addition, the efficiency gains from using LLMs may allow lawyers to spend more time on networking, trial preparation, and other aspects of legal work.<sup><a name="_ednref30" title href="#edn30" id="ednref30"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">30</span></sup></sup></a></sup></p><p class="MsoNormal">These productivity gains can potentially lower costs for clients by reducing billable hours, allowing law firms to offer more competitive pricing. Because of continued demand for legal services, employment of lawyers is projected to grow 5.2 percent through 2033, about as fast as the average for all occupations. (See table 2.) This projected growth rate, which is slower than that in the two previous projections sets, reflects an expectation of modest productivity gains against a backdrop of strong overall demand (reflected in the projection for the legal services industry, which employs more than half of all lawyers).</p><table class="regular" id="BLStable_2025_2_4_13_4" style="width: 95%;"><caption><span class="tableTitle">Table 2. Employment projections for selected legal occupations susceptible to potential artificial intelligence impacts, 2023–33</span></caption><thead><tr><th style="vertical-align: middle; min-width: 80px;" rowspan="1" scope="col">2023 NEM occupation title</th><th style="vertical-align: middle;" scope="col">2023 NEM occupation code</th><th style="vertical-align: middle;" scope="col">Employment, 2023 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Employment, 2033 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Numeric change, 2023–33 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Percent change,<nobr>2023–33</nobr></th></tr></thead><tbody><tr><th scope="row"> <p>Total, all occupations</p> </th><td style="text-align: center;">00-0000</td><td>167,849.8</td><td>174,589.0</td><td>6,739.2</td><td>4.0</td></tr><tr class="greenbar"><th scope="row"> <p class="sub1">Legal occupations</p> </th><td style="text-align: center;">23-0000</td><td>1,394.4</td><td>1,446.2</td><td>51.8</td><td>3.7</td></tr><tr><th scope="row"> <p class="sub2">Lawyers</p> </th><td style="text-align: center;">23-1011</td><td>859.0</td><td>903.3</td><td>44.2</td><td>5.2</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Paralegals and legal assistants</p> </th><td style="text-align: center;">23-2011</td><td>366.2</td><td>370.5</td><td>4.3</td><td>1.2</td></tr></tbody><tfoot id="BLStable_2025_2_4_13_4_footnotes" style="display: table-footer-group;"><tr class="footnotes"><td class="footnotes" colspan="6"> <p>Note: Research by the U.S. Bureau of Labor Statistics&nbsp;indicates that the occupations included in the table are likely to be affected by artificial intelligence, but they are not intended as an exhaustive list of occupations susceptible to such impacts. NEM = National Employment Matrix.</p> <p>Source: U.S. Bureau of Labor Statistics, Employment Projections program.</p> </td></tr></tfoot></table><h4>Business and financial operations occupations</h4><p class="MsoNormal">The business and financial operations occupational group also may be affected by AI. The new technology is largely expected to improve productivity growth for certain occupations within the group, thus moderating or reducing (but not eliminating) employment demand for them.&nbsp;</p><p class="MsoNormal">Among the occupations included in this group are two insurance-related occupations: claims adjusters, examiners, and investigators; and insurance appraisers, auto damage. Claims adjusting and examining involve assessing damage to property (often a house or a car) in order to estimate the required payouts insurance companies must pay to their customers. In recent years, insurance companies have deployed drones to take aerial photographs of sites, without sending a human examiner into the field.<sup><a name="_ednref31" title href="#edn31" id="ednref31"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">31</span></sup></sup></a></sup> In the future, AI is expected to work in tandem with drone technology to further bolster productivity. Once photographs are taken, the analysis and initial payout estimates, traditionally prepared by an adjuster, can be autogenerated by AI.<sup><a name="_ednref32" title href="#edn32" id="ednref32"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">32</span></sup></sup></a></sup> In addition, AI can speed up other tasks performed by claims adjusters, examiners, and investigators, including summarizing “policies, documents and other unstructured forms of content.”<sup><a name="_ednref33" title href="#edn33" id="ednref33"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">33</span></sup></sup></a></sup> Insurance appraisers, auto damage—a smaller occupation—are also expected to be affected by this technology because they can use the same damage-assessment software for cars and trucks.<sup><a name="_ednref34" title href="#edn34" id="ednref34"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">34</span></sup></sup></a></sup> These developments mean that more insurance-related work can be done with fewer employees, reducing employment demand. Over the 2023–33 projections period, employment of claims adjusters, examiners, and investigators is projected to decline 4.4 percent, and employment of insurance appraisers, auto damage, is projected to decline 9.2 percent. (See table 3.)</p><p class="MsoNormal">Personal financial advisors, another occupation in the business and financial operations occupational group, have already begun to see job competition from AI. Specifically, app-based “robo-advisors” have started to compete with human advisors by providing automated financial advice on how much users should spend, save, and invest and how they should allocate their investments. Robo-advisors are especially popular with younger people, who tend to be more comfortable with newer technology and have simpler financial planning needs.<sup><a name="_ednref35" title href="#edn35" id="ednref35"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">35</span></sup></sup></a></sup> However, given that the share of older age groups in the U.S. population is expected to increase over the projections period, the underlying demand for human financial advisors is likely to remain strong.<sup><a name="_ednref36" title href="#edn36" id="ednref36"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">36</span></sup></sup></a></sup> Because older people are closer to or past retirement age, they have more accumulated savings and more complex investment advisory needs. A 2020 study found that the uptake of robo-advisors among older adults is “very limited,” reportedly because these individuals are less likely to trust the technology.<sup><a name="_ednref37" title href="#edn37" id="ednref37"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">37</span></sup></sup></a></sup> In addition, a 2023 survey found that the vast majority of robo-advisor users are in their twenties, thirties, and forties, with only 5.9 percent in their sixties or older.<sup><a name="_ednref38" title href="#edn38" id="ednref38"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">38</span></sup></sup></a></sup> These population and usage patterns suggest that the demographic subset more likely to prefer human advisors will have more weight in the personal financial advisory market than the younger, app-friendly subset. Therefore, although AI technology can compete with personal financial advisors at their core tasks, demand for human advisors is still expected to remain very strong over the projections decade. Employment of personal financial advisors is projected to grow 17.1 percent from 2023 to 2033, much faster than average. (See table 3.)</p><p class="MsoNormal">Several “analyst” occupations within the business and financial operations occupational group are also susceptible to potential impacts from AI automation. Because these occupations largely involve desk work in which computer software is already a primary tool of the trade, further software advances driven by AI could raise the productivity of many analysts but are unlikely to eliminate employment demand for them. For example, budget analysts, who are predominantly employed by government agencies, prepare and review budgets and perform socially oriented tasks such as making presentations and answering questions from stakeholders. Although AI will likely speed up the budgeting review process and even offer data visualization tools that can be used in presentations, the communication and customer service tasks of budget analysts (e.g., discussing the nuances and alternative paths of proposed budgets) will likely continue to require conversations between humans and cannot be easily replaced by AI. Given the expectation for a strong floor of demand for the core tasks performed by these workers, employment of budget analysts is projected to grow 3.9 percent from 2023 to 2033, about as fast as the average for all occupations. (See table 3.)</p><p class="MsoNormal">Credit analysts also are experiencing the effects of automation. These workers analyze financial data and prepare reports used by lending firms to determine whether credit can be extended to individuals or businesses. AI can synthesize large amounts of data and reach big-picture conclusions, and, indeed, these tasks are the essence of a credit rating, which combines a range of financial information on a potential borrower into an overall score. As AI improves, the speed and accuracy of producing credit scores and reports will increase.<sup><a name="_ednref39" title href="#edn39" id="ednref39"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">39</span></sup></sup></a></sup> Therefore, credit analysts are likely to see decreasing employment demand, and their employment is projected to decline 3.9 percent from 2023 to 2033. (See table 3.)</p><p class="MsoNormal">By comparison, financial and investment analysts are more protected from the effects of AI. Like personal financial advisors, these workers perform tasks with varying tolerance for automation, depending on the employer. Some financial firms lean heavily on automated trading with algorithm-based sales and purchases throughout a day, whereas others focus on long-term investments based on deliberate decisions made by a team of analysts who consider a wide range of variables.<sup><a name="_ednref40" title href="#edn40" id="ednref40"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">40</span></sup></sup></a></sup> Although the latter investment strategy may benefit from software improvements (such as those providing faster and more useful numeric comparisons across securities),<sup><a name="_ednref41" title href="#edn41" id="ednref41"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">41</span></sup></sup></a></sup> the final investment decisions associated with it will still be made by humans. Therefore, a sizeable share of institutional investment will still rely on financial and investment analysts. Employment of these workers is projected to grow 9.5 percent from 2023 to 2033, much faster than average. (See table 3.)</p><table class="regular" id="BLStable_2025_2_4_13_7" style="width: 95%;"><caption><span class="tableTitle">Table 3. Employment projections for selected business and financial operations occupations susceptible to potential artificial intelligence impacts, 2023–33</span></caption><thead><tr><th style="vertical-align: middle; min-width: 80px;" rowspan="1" scope="col">2023 NEM occupation title</th><th style="vertical-align: middle;" scope="col">2023 NEM occupation code</th><th style="vertical-align: middle;" scope="col">Employment, 2023 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Employment, 2033 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Numeric change, 2023–33 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Percent change,<nobr>2023–33</nobr></th></tr></thead><tbody><tr><th scope="row"> <p>Total, all occupations</p> </th><td style="text-align: center;">00-0000</td><td>167,849.8</td><td>174,589.0</td><td>6,739.2</td><td>4.0</td></tr><tr class="greenbar"><th scope="row"> <p class="sub1">Business and financial operations occupations</p> </th><td style="text-align: center;">13-0000</td><td>10,977.2</td><td>11,738.5</td><td>761.3</td><td>6.9</td></tr><tr><th scope="row"> <p class="sub2">Claims adjusters, examiners, and investigators</p> </th><td style="text-align: center;">13-1031</td><td>345.2</td><td>330.0</td><td>-15.2</td><td>-4.4</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Insurance appraisers, auto damage</p> </th><td style="text-align: center;">13-1032</td><td>10.5</td><td>9.5</td><td>-1.0</td><td>-9.2</td></tr><tr><th scope="row"> <p class="sub2">Budget analysts</p> </th><td style="text-align: center;">13-2031</td><td>50.8</td><td>52.7</td><td>2.0</td><td>3.9</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Credit analysts</p> </th><td style="text-align: center;">13-2041</td><td>73.7</td><td>70.8</td><td>-2.8</td><td>-3.9</td></tr><tr><th scope="row"> <p class="sub2">Financial and investment analysts</p> </th><td style="text-align: center;">13-2051</td><td>347.4</td><td>380.5</td><td>33.1</td><td>9.5</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Personal financial advisors</p> </th><td style="text-align: center;">13-2052</td><td>321.0</td><td>375.9</td><td>55.0</td><td>17.1</td></tr></tbody><tfoot id="BLStable_2025_2_4_13_7_footnotes" style="display: table-footer-group;"><tr class="footnotes"><td class="footnotes" colspan="6"> <p>Note: Research by the U.S. Bureau of Labor Statistics&nbsp;indicates that the occupations included in the table are likely to be affected by artificial intelligence, but they are not intended as an exhaustive list of occupations susceptible to such impacts. NEM = National Employment Matrix.</p> <p>Source: U.S. Bureau of Labor Statistics, Employment Projections program.</p> </td></tr></tfoot></table><h4>Architecture and engineering occupations</h4><p class="MsoNormal">GenAI can support many tasks involved in architecture and engineering occupations, potentially increasing worker productivity. In fact, many engineering fields are already harnessing the power of various AI tools. Although these developments may affect labor demand, the unique technical expertise of engineering professionals and existing regulatory requirements create uncertainty about the extent and employment impact of AI adoption. For this reason, underlying demand for engineering services is expected to remain strong, resulting in employment growth for most engineering occupations over the 2023–33 decade.</p><p class="MsoNormal">For example, civil engineers can use AI to account for specific building codes in designing complex mechanical, electrical, and plumbing systems, thus reducing the incidence of errors and design revisions and accelerating the design process<a name="_Hlk162355744"></a>. Yet, government-mandated quality-control regulations still require civil and other professional engineers to review and approve any work completed with the use of emerging technologies. Although open-source LLMs and small language models (SLMs) can complete specialized tasks when trained on high-quality data,<sup><a name="_ednref42" title href="#edn42" id="ednref42"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">42</span></sup></sup></a></sup> the level of technical knowledge needed to navigate the intricacies of civil engineering work, such as those involving complex calculations or adherence to codes, will keep civil engineers in demand.<sup><a name="_ednref43" title href="#edn43" id="ednref43"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">43</span></sup></sup></a></sup> As a result, the magnitude of productivity enhancements offered by various AI tools remains unclear, and strong underlying demand for civil engineering services is expected to offset the potential employment impacts of efficiency gains. Employment of civil engineers is projected to grow 6.5 percent from 2023 to 2033, faster than the average for all occupations. (See table 4.)</p><p class="MsoNormal">Two other engineering occupations—aerospace engineers and aerospace engineering and operations technologists and technicians—may also see some of their specific tasks completed or aided by GenAI. Aerospace engineers can leverage GenAI in aircraft design, prescriptive analytics, and predictive maintenance in order to increase productivity and efficiency.<sup><a name="_ednref44" title href="#edn44" id="ednref44"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">44</span></sup></sup></a></sup> Likewise, aircraft and avionics equipment mechanics and technicians can use GenAI tools to perform various aircraft maintenance tasks, achieving more efficient and timely maintenance processes.<sup><a name="_ednref45" title href="#edn45" id="ednref45"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">45</span></sup></sup></a></sup> Despite these enhancements, demand for workers in these occupations is expected to be strong because of the need to comply with federal regulations around quality control for passenger aircraft, as well as continued interest in and funding for commercial air transportation. Therefore, although both occupations are expected to see productivity improvements from GenAI, they are still projected to add jobs over the projections period. Employment of aerospace engineers is projected to grow 6.0 percent from 2023 to 2033, faster than average, and employment of aerospace engineering and operations technologists and technicians is projected to grow 7.9 percent, also faster than average. (See table 4.)</p><p class="MsoNormal">Electrical and electronic engineering occupations may be even more insulated from any employment impacts stemming from the increased use of GenAI. This condition is due to the vast need for electrical and electronic circuitry and infrastructure modernization to support grid updates, electric-vehicle (EV) manufacturing, and other activities in industries reliant on electrical systems. So far, companies have released GenAI tools to more efficiently complete semiconductor chip and electrical circuit design tasks and related activities.<sup><a name="_ednref46" title href="#edn46" id="ednref46"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">46</span></sup></sup></a></sup> For computer hardware engineers, the greatest productivity enhancements are estimated to come from increased efficiency in debugging tasks aided by LLMs.<sup><a name="_ednref47" title href="#edn47" id="ednref47"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">47</span></sup></sup></a></sup> However, despite the rising use of GenAI and LLMs in electrical and electronic device engineering activities, employment of the workers performing these activities is still expected to grow. Over the next decade, the need for energy-efficient electronic features in EVs and electronic control units across products is likely to be robust,<sup><a name="_ednref48" title href="#edn48" id="ednref48"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">48</span></sup></sup></a></sup> driving up labor demand. As a result, between 2023 and 2033, employment is expected to grow for electrical and electronics engineers (9.1 percent), electrical and electronic engineering technologists and technicians (3.0 percent), and computer hardware engineers (7.2 percent). (See table 4.)</p><table class="regular" id="BLStable_2025_2_4_13_14" style="width: 95%;"><caption><span class="tableTitle">Table 4. Employment projections for selected architecture and engineering occupations susceptible to potential artificial intelligence impacts, 2023–33</span></caption><thead><tr><th style="vertical-align: middle; min-width: 80px;" rowspan="1" scope="col">2023 NEM occupation title</th><th style="vertical-align: middle;" scope="col">2023 NEM occupation code</th><th style="vertical-align: middle;" scope="col">Employment, 2023 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Employment, 2033 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Numeric change, 2023–33 <br>(thousands)</th><th style="vertical-align: middle;" scope="col">Percent change,<nobr>2023–33</nobr></th></tr></thead><tbody><tr><th scope="row"> <p>Total, all occupations</p> </th><td style="text-align: center;">00-0000</td><td>167,849.8</td><td>174,589.0</td><td>6,739.2</td><td>4.0</td></tr><tr class="greenbar"><th scope="row"> <p class="sub1">Architecture and engineering occupations</p> </th><td style="text-align: center;">17-0000</td><td>2,639.7</td><td>2,819.7</td><td>180.0</td><td>6.8</td></tr><tr><th scope="row"> <p class="sub2">Aerospace engineers</p> </th><td style="text-align: center;">17-2011</td><td>68.9</td><td>73.0</td><td>4.1</td><td>6.0</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Civil engineers</p> </th><td style="text-align: center;">17-2051</td><td>341.8</td><td>363.9</td><td>22.1</td><td>6.5</td></tr><tr><th scope="row"> <p class="sub2">Electrical engineers</p> </th><td style="text-align: center;">17-2071</td><td>189.1</td><td>206.3</td><td>17.2</td><td>9.1</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Electronics engineers, except computer</p> </th><td style="text-align: center;">17-2072</td><td>98.7</td><td>107.6</td><td>8.9</td><td>9.1</td></tr><tr><th scope="row"> <p class="sub2">Aerospace engineering and operations technologists and technicians</p> </th><td style="text-align: center;">17-3021</td><td>11.0</td><td>11.9</td><td>0.9</td><td>7.9</td></tr><tr class="greenbar"><th scope="row"> <p class="sub2">Electrical and electronic engineering technologists and technicians</p> </th><td style="text-align: center;">17-3023</td><td>99.6</td><td>102.6</td><td>3.0</td><td>3.0</td></tr></tbody><tfoot id="BLStable_2025_2_4_13_14_footnotes" style="display: table-footer-group;"><tr class="footnotes"><td class="footnotes" colspan="6"> <p>Note: Research by the U.S. Bureau of Labor Statistics indicates that the occupations included in the table are likely to be affected by artificial intelligence, but they are not intended as an exhaustive list of occupations susceptible to such impacts. NEM = National Employment Matrix.</p> <p>Source: U.S. Bureau of Labor Statistics, Employment Projections program.</p> </td></tr></tfoot></table><h3>Conclusion</h3><p class="MsoNormal">The potential for AI, particularly GenAI, to disrupt future employment has been a prominent topic in recent economic commentary. BLS employment projections consider and reflect the productivity-enhancing effects of automation and a wide range of technologies, including AI, on occupations and industries. Over the 2023–33 projections period, AI is expected to primarily affect occupations whose core tasks can be most easily replicated by GenAI in its current form. These occupations include medical transcriptionists and customer service representatives, whose employment is projected to decline by 4.7 and 5.0 percent, respectively, through 2033.<sup><a name="_ednref49" title href="#edn49" id="ednref49"><sup><sup><span style="line-height: 120%; font-family: 'Times New Roman',serif; font-size: 12pt;">49</span></sup></sup></a></sup></p><p class="MsoNormal">Other occupations also may see AI impacts, although not to the same extent. For instance, computer occupations may see productivity impacts from AI, but the need to implement and maintain AI infrastructure could in actuality boost demand for some occupations in this group. Among legal occupations, paralegals and legal assistants are likely to experience lower employment demand because of LLM adoption, while lawyers are expected to be less affected. Within business and financial operations occupations, insurance adjusters and appraisers are expected to see reduced employment demand, with AI being able to quickly produce monetary estimates of property damage. Meanwhile, other occupations in this group, such as personal financial advisors, will likely continue to see strong employment growth because demand for human counsel in complex financial matters will persist, particularly for older clients. Architecture and engineering occupations may see some productivity gains from GenAI, but these gains will likely be in line with those afforded by software and other technological advancements in prior decades. As a result, occupations in this group are not expected to see substantial GenAI-driven reductions in employment demand over the projections period.</p><p class="MsoNormal">Each year, BLS issues new 10-year projections that incorporate new data, research, and analysis. EP continually conducts research on new technologies, including AI and LLMs, to better understand their potential employment and economic impacts over the projections period. Besides reflecting these findings in its 10-year projections, the program also evaluates previous projections, explores shifts among skills that are in demand, and considers the potential for technology to create new types of jobs. EP will continue to monitor AI as it evolves, ensuring that BLS projections reflect an updated assessment of the latest developments in this technology and its likely employment impacts.</p></div>
+
+          <div class="citation">
+            <div class="heading-2">Suggested citation:</div>
+            <p>
+                                                                                                                                                                                                                                                                                                                                                      Christine Machovec, Michael J. Rieley,  and Emily Rolen, "Incorporating AI impacts in BLS employment projections: occupational case studies," <em>Monthly Labor Review,</em> U.S. Bureau of Labor Statistics, February 2025, 
+            <a href="https://doi.org/10.21916/mlr.2025.1">https://doi.org/10.21916/mlr.2025.1</a>		
+            </p>
+          </div>
+
+                      <div class="notes">
+            <div class="h4">Notes</div><br />
+            <div><div id="edn1"><p class="MsoEndnoteText"><a name="_edn1" title href="#ednref1"><sup>1</sup></a> “Introducing ChatGPT” (OpenAI, November 30, 2022), <a href="https://openai.com/index/chatgpt/">https://openai.com/index/chatgpt/</a>.</p></div><div id="edn2"><p class="MsoEndnoteText"><a name="_edn2" title href="#ednref2"><sup>2</sup></a> Colleen McClain, “Americans’ use of ChatGPT is ticking up, but few trust its election information” (Washington, DC: Pew Research Center, March 26, 2024), <a href="https://www.pewresearch.org/short-reads/2024/03/26/americans-use-of-chatgpt-is-ticking-up-but-few-trust-its-election-information/">https://www.pewresearch.org/short-reads/2024/03/26/americans-use-of-chatgpt-is-ticking-up-but-few-trust-its-election-information/</a>.</p></div><div id="edn3"><p class="MsoEndnoteText"><a name="_edn3" title href="#ednref3"><sup>3</sup></a> “What are large language models (LLMs)?” (IBM, November 2, 2023), <a href="https://www.ibm.com/think/topics/large-language-models">https://www.ibm.com/think/topics/large-language-models</a>.</p></div><div id="edn4"><p class="MsoEndnoteText"><a name="_edn4" title href="#ednref4"><sup>4</sup></a> For more information on the Employment Projections (EP) program’s methodology, see “Employment projections: overview,” <i>Handbook of Methods</i> (U.S. Bureau of Labor Statistics, last modified August 29, 2024), <a href="https://www.bls.gov/opub/hom/emp/">https://www.bls.gov/opub/hom/emp/</a>.</p></div><div id="edn5"><p class="MsoEndnoteText"><a name="_edn5" title href="#ednref5"><sup>5</sup></a> For more details on the historical record of automation, see Michael J. Handel, “Growth trends for selected occupations considered at risk from automation,” <i>Monthly Labor Review</i>, July 2022, <a href="https://doi.org/10.21916/mlr.2022.21">https://doi.org/10.21916/mlr.2022.21</a>.</p></div><div id="edn6"><p class="MsoEndnoteText"><a name="_edn6" title href="#ednref6"><sup>6</sup></a> See “Employment projections: overview.”</p></div><div id="edn7"><p class="MsoEndnoteText"><a name="_edn7" title href="#ednref7"><sup>7</sup></a> <a name="_Hlk189460860"></a>See “2014–24 projections” (downloadable compressed file) in “Projections archive,” <i>Employment Projections</i> (U.S. Bureau of Labor Statistics, last modified August 29, 2024), <a href="https://www.bls.gov/emp/data/projections-archive.htm">https://www.bls.gov/emp/data/projections-archive.htm</a>. Historical EP releases are available online, going back to the 2008–18 projections set. Older data are available upon request.</p></div><div id="edn8"><p class="MsoEndnoteText"><a name="_edn8" title href="#ednref8"><sup>8</sup></a> See “2012–22 projections” (downloadable compressed file) in “Projections archive.”</p></div><div id="edn9"><p class="MsoEndnoteText"><a name="_edn9" title href="#ednref9"><sup>9</sup></a> Javier Colato, Lindsey Ice, and Sofia Laycock, “Industry and occupational employment projections overview and highlights, 2023–33,” <i>Monthly Labor Review</i>, November 2024, <a href="https://doi.org/10.21916/mlr.2024.21">https://doi.org/10.21916/mlr.2024.21</a>.</p></div><div id="edn10"><p class="MsoEndnoteText"><a name="_edn10" title href="#ednref10"><sup>10</sup></a> Edward W. Felten, Manav Raj, and Robert Seamans, “Occupational heterogeneity in exposure to Generative AI” (SSRN, April 10, 2023), pp. 2, 12, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4414065">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4414065</a>; and A. Shaji George, A. S. Hovan George, and A. S. Gabrio Martin, “ChatGPT and the future of work: a comprehensive analysis of AI’s impact on jobs and employment,” <i>Partners Universal International Innovation Journal</i>, vol. 1, no. 3, May–June 2023, pp. 157–173, <a href="https://puiij.com/index.php/research/article/view/57">https://puiij.com/index.php/research/article/view/57</a>.</p></div><div id="edn11"><p class="MsoEndnoteText"><a name="_edn11" title href="#ednref11"><sup>11</sup></a> The National Employment Matrix (NEM) is a cross-tabulation of industries and occupations that displays data on projected employment. The NEM database can be searched by occupation or industry. For further details, see “Occupational employment projections data,” <i>Employment Projections</i> (U.S. Bureau of Labor Statistics, last modified August 29, 2024), <a href="https://www.bls.gov/emp/data/occupational-data.htm">https://www.bls.gov/emp/data/occupational-data.htm</a>.</p></div><div id="edn12"><p class="MsoEndnoteText"><a name="_edn12" title href="#ednref12"><sup>12</sup></a> Fabrizio Dell’Acqua, Edward McFowland III, Ethan Mollick, Hila Lifshitz-Assaf, Katherine C. Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, and Karim R. Lakhani, “Navigating the jagged technological frontier: field experimental evidence of the effects of AI on knowledge worker productivity and quality,” Working Paper 24-013 (Harvard University, Harvard Business School, September 22, 2023), p. 3, <a href="https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf">https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf</a>.</p></div><div id="edn13"><p class="MsoEndnoteText"><a name="_edn13" title href="#ednref13"><sup>13</sup></a> Jay Bhatnagar, Jonathan Frick, and Arun Ganti, “The talent implications of Generative AI,” in <i>Technology Report 2023</i> (Bain &amp; Company, September 18, 2023), p. 65, <a href="https://www.bain.com/insights/the-talent-implications-of-generative-ai-tech-report-2023/">https://www.bain.com/insights/the-talent-implications-of-generative-ai-tech-report-2023/</a>.</p></div><div id="edn14"><p class="MsoEndnoteText"><a name="_edn14" title href="#ednref14"><sup>14</sup></a> “GenAI: which industries and sectors have the greatest potential for value creation?”<span class="MsoHyperlink"> (Strategy&amp; United Kingdom, accessed May 15, 2024), </span><a href="https://www.strategyand.pwc.com/uk/en/insights/genai.html">https://www.strategyand.pwc.com/uk/en/insights/genai.html</a><span class="MsoHyperlink">.</span></p></div><div id="edn15"><p class="MsoEndnoteText"><a name="_edn15" title href="#ednref15"><sup>15</sup></a> <i>The State of the Database Landscape</i> (Redgate Software, Inc., 2024), <a href="https://www.red-gate.com/solutions/entrypage/state-of-database-landscape-2024/ai">https://www.red-gate.com/solutions/entrypage/state-of-database-landscape-2024/ai</a>.</p></div><div id="edn16"><p class="MsoEndnoteText"><a name="_edn16" title href="#ednref16"><sup>16</sup></a> Mariusz Kujawski, “From database to AI: the evolution of data platforms,” <i>Medium</i>, January 8, 2024, <a href="https://medium.com/@mariusz_kujawski/from-database-to-ai-the-evolution-of-data-platforms-59f487e235df">https://medium.com/@mariusz_kujawski/from-database-to-ai-the-evolution-of-data-platforms-59f487e235df</a>.</p></div><div id="edn17"><p class="MsoEndnoteText"><a name="_edn17" title href="#ednref17"><sup>17</sup></a> Dell’Acqua et al., “Navigating the jagged technological frontier,” p. 3.</p></div><div id="edn18"><p class="MsoEndnoteText"><a name="_edn18" title href="#ednref18"><sup>18</sup></a> Ibid.; and <i>The State of the Database Landscape.</i></p></div><div id="edn19"><p class="MsoEndnoteText"><a name="_edn19" title href="#ednref19"><sup>19</sup></a> Tania Babina, Anastassia Fedyk, Alex Xi He, and James Hodson, “Firm investments in artificial intelligence technologies and changes in workforce composition” (SSRN, December 10, 2023), pp. 23, 25–26, <a href="https://ssrn.com/abstract=4060233">https://ssrn.com/abstract=4060233</a>.</p></div><div id="edn20"><p class="MsoEndnoteText"><a name="_edn20" title href="#ednref20"><sup>20</sup></a> <i>Future of Professionals Report: How AI is the Catalyst for Transforming Every Aspect of Work</i> (Thomson Reuters, August 2023), p. 7, <a href="https://www.thomsonreuters.com/content/dam/ewp-m/documents/thomsonreuters/en/pdf/reports/future-of-professionals-august-2023.pdf">https://www.thomsonreuters.com/content/dam/ewp-m/documents/thomsonreuters/en/pdf/reports/future-of-professionals-august-2023.pdf</a>.</p></div><div id="edn21"><p class="MsoEndnoteText"><a name="_edn21" title href="#ednref21"><sup>21</sup></a> Ibid., p. 8.</p></div><div id="edn22"><p class="MsoEndnoteText"><a name="_edn22" title href="#ednref22"><sup>22</sup></a> Roger E. Barton, “How will leveraging AI change the future of legal services?,” <i>Reuters</i>, August 23, 2023, <a href="https://www.reuters.com/legal/legalindustry/how-will-leveraging-ai-change-future-legal-services-2023-08-23/">https://www.reuters.com/legal/legalindustry/how-will-leveraging-ai-change-future-legal-services-2023-08-23/</a>.</p></div><div id="edn23"><p class="MsoEndnoteText"><a name="_edn23" title href="#ednref23"><sup>23</sup></a> Matthew Stepka, “Law bots: how AI is reshaping the legal profession,” <i>Business Law Today</i> (American Bar Association, February 21, 2022), <a href="https://businesslawtoday.org/2022/02/how-ai-is-reshaping-legal-profession/">https://businesslawtoday.org/2022/02/how-ai-is-reshaping-legal-profession/</a>.</p></div><div id="edn24"><p class="MsoEndnoteText"><a name="_edn24" title href="#ednref24"><sup>24</sup></a> See, for example, “What can CoCounsel do?” (Thomson Reuters, accessed August 15, 2024), <a href="https://casetext.com/cocounsel/">https://casetext.com/cocounsel/</a>; and Eric Revell, “Thomson Reuters launches new AI tools for legal professionals<span class="MsoHyperlink">,” <i>Fox Business</i>, </span>March 2, 2024, <a href="https://www.msn.com/en-us/money/other/thomson-reuters-launches-new-ai-tools-for-legal-professionals/ar-BB1jdJSV">https://www.msn.com/en-us/money/other/thomson-reuters-launches-new-ai-tools-for-legal-professionals/ar-BB1jdJSV</a>.</p></div><div id="edn25"><p class="MsoEndnoteText"><a name="_edn25" title href="#ednref25"><sup>25</sup></a> Matthew Dahl, Varun Magesh, Mirac Suzgun, and Daniel E. Ho, “Hallucinating law: legal mistakes with large language models are pervasive” (Stanford University, Stanford Law School, January 11, 2024), <a href="https://law.stanford.edu/2024/01/11/hallucinating-law-legal-mistakes-with-large-language-models-are-pervasive/">https://law.stanford.edu/2024/01/11/hallucinating-law-legal-mistakes-with-large-language-models-are-pervasive/</a>.</p></div><div id="edn26"><p class="MsoEndnoteText"><a name="_edn26" title href="#ednref26"><sup>26</sup></a> “Table 2.11. Employment and output by industry (employment in thousands of jobs; output in billion of chained 2017 dollars),” <i>Employment Projections</i> (U.S. Bureau of Labor Statistics, last modified August 29, 2024), <a href="https://www.bls.gov/emp/tables/industry-employment-and-output.htm">https://www.bls.gov/emp/tables/industry-employment-and-output.htm</a>.</p></div><div id="edn27"><p class="MsoEndnoteText"><a name="_edn27" title href="#ednref27"><sup>27</sup></a> Colato, Ice, and Laycock, “Industry and occupational employment projections overview and highlights, 2023–33.”</p></div><div id="edn28"><p class="MsoEndnoteText"><a name="_edn28" title href="#ednref28"><sup>28</sup></a> Luca CM Melchionna, “Bias and fairness in artificial intelligence” (New York State Bar Association, June 29, 2023), <a href="https://nysba.org/bias-and-fairness-in-artificial-intelligence/">https://nysba.org/bias-and-fairness-in-artificial-intelligence/</a>.</p></div><div id="edn29"><p class="MsoEndnoteText"><a name="_edn29" title href="#ednref29"><sup>29</sup></a> Jeff Neal, “The legal profession in 2024: AI,” <i>Harvard Law Today</i> (Harvard University, Harvard Law School, February 14, 2024), <a href="https://hls.harvard.edu/today/harvard-law-expert-explains-how-ai-may-transform-the-legal-profession-in-2024/">https://hls.harvard.edu/today/harvard-law-expert-explains-how-ai-may-transform-the-legal-profession-in-2024/</a>.</p></div><div id="edn30"><p class="MsoEndnoteText"><a name="_edn30" title href="#ednref30"><sup>30</sup></a> Bernard Marr, “How Generative AI will change the jobs of lawyers,” <i>Forbes</i>, March 14, 2024, <a href="https://www.forbes.com/sites/bernardmarr/2024/03/14/how-generative-ai-will-change-the-jobs-of-lawyers/">https://www.forbes.com/sites/bernardmarr/2024/03/14/how-generative-ai-will-change-the-jobs-of-lawyers/</a>.</p></div><div id="edn31"><p class="MsoEndnoteText"><a name="_edn31" title href="#ednref31"><sup>31</sup></a> Jack Shaw, “5 ways drones are changing insurance claims” (Insurance Thought Leadership, Inc., March 2024), <a href="https://www.insurancethoughtleadership.com/claims/5-ways-drones-are-changing-insurance-claims">https://www.insurancethoughtleadership.com/claims/5-ways-drones-are-changing-insurance-claims</a>.</p></div><div id="edn32"><p class="MsoEndnoteText"><a name="_edn32" title href="#ednref32"><sup>32</sup></a> Kassandra Jimenez-Sanchez, “McKenzie Intelligence Services launches AI damage classifier to revolutionize insurance assessments,” <i>Reinsurance News</i>, June 2024, <a href="https://www.reinsurancene.ws/mckenzie-intelligence-services-launches-ai-damage-classifier-to-revolutionise-insurance-assessments/">https://www.reinsurancene.ws/mckenzie-intelligence-services-launches-ai-damage-classifier-to-revolutionise-insurance-assessments/</a>.</p></div><div id="edn33"><p class="MsoEndnoteText"><a name="_edn33" title href="#ednref33"><sup>33</sup></a> Chris Raimondo and Vidhya Sekhar, “How insurers can leverage the power of generative AI” (Ernst &amp; Young, August 28, 2023), <a href="https://www.ey.com/en_us/insights/insurance/how-insurers-can-leverage-the-power-of-generative-ai">https://www.ey.com/en_us/insights/insurance/how-insurers-can-leverage-the-power-of-generative-ai</a>.</p></div><div id="edn34"><p class="MsoEndnoteText"><a name="_edn34" title href="#ednref34"><sup>34</sup></a> “Artificial intelligence: who are the leaders in smart vehicle damage assessment for the insurance industry?” (Life Insurance International, updated September 2, 2024), <a href="https://www.lifeinsuranceinternational.com/data-insights/innovators-ai-smart-vehicle-damage-assessment-insurance/?cf-view">https://www.lifeinsuranceinternational.com/data-insights/innovators-ai-smart-vehicle-damage-assessment-insurance/?cf-view</a>.</p></div><div id="edn35"><p class="MsoEndnoteText"><a name="_edn35" title href="#ednref35"><sup>35</sup></a> Amanda Abella, “Robo-advisors and young investors,” <i>Investopedia</i>, August 2023, updated November 22, 2024, <a href="https://www.investopedia.com/articles/investing/121615/are-roboadvisors-good-idea-young-investors.asp">https://www.investopedia.com/articles/investing/121615/are-roboadvisors-good-idea-young-investors.asp</a>.</p></div><div id="edn36"><p class="MsoEndnoteText"><a name="_edn36" title href="#ednref36"><sup>36</sup></a> “Table 3.2. Civilian noninstitutional population by age, sex, race, and ethnicity, 2003, 2013, 2023, and projected 2033 (numbers in thousands),” <i>Employment Projections</i> (U.S. Bureau of Labor Statistics, last modified August 29, 2024), <a href="https://www.bls.gov/emp/tables/civilian-noninstitutional-population.htm">https://www.bls.gov/emp/tables/civilian-noninstitutional-population.htm</a>.</p></div><div id="edn37"><p class="MsoEndnoteText"><a name="_edn37" title href="#ednref37"><sup>37</sup></a> Shangjun Wang and Sojen Pradhan, “Exploring factors influencing older adults’ willingness to use robo-advisors,” Australasian Conference on Information Systems 2020, Wellington, New Zealand, December 1–4, 2020, p. 8, <a href="https://opus.lib.uts.edu.au/bitstream/10453/145124/2/ACIS%202020_Adoption%20of%20Robo-Advisors%20by%20older%20adults.pdf">https://opus.lib.uts.edu.au/bitstream/10453/145124/2/ACIS%202020_Adoption%20of%20Robo-Advisors%20by%20older%20adults.pdf</a>.</p></div><div id="edn38"><p class="MsoEndnoteText"><a name="_edn38" title href="#ednref38"><sup>38</sup></a> Michael Sacchitello and Will Baker, “Investopedia’s 2023 Robo-Advisor Consumer Survey,” <i>Investopedia</i>, October 2, 2023, <a href="https://www.investopedia.com/investopedias-2023-robo-advisor-consumer-survey-8303191">https://www.investopedia.com/investopedias-2023-robo-advisor-consumer-survey-8303191</a>.</p></div><div id="edn39"><p class="MsoEndnoteText"><a name="_edn39" title href="#ednref39"><sup>39</sup></a> Aneta Buchert, “AI in credit: 5 tips for corporate credit analysts” (Global Institute of Credit Professionals, May 15, 2023), <a href="https://gicp.org/news-and-insights/aI-in-credit-5-tips-for-corporate-credit-analysts">https://gicp.org/news-and-insights/aI-in-credit-5-tips-for-corporate-credit-analysts</a>.</p></div><div id="edn40"><p class="MsoEndnoteText"><a name="_edn40" title href="#ednref40"><sup>40</sup></a> Daniel Cohen, “Retail and algo trading: the new giants of the financial world,” <i>Forbes</i>, November 1, 2023, <a href="https://www.forbes.com/councils/forbesfinancecouncil/2023/11/01/retail-and-algo-trading-the-new-giants-of-the-financial-world/">https://www.forbes.com/councils/forbesfinancecouncil/2023/11/01/retail-and-algo-trading-the-new-giants-of-the-financial-world/</a>.</p></div><div id="edn41"><p class="MsoEndnoteText"><a name="_edn41" title href="#ednref41"><sup>41</sup></a> Ashish Jain and Varun Sharma, “Digital intelligence: how to make your analytics functions more efficient and cost-effective” (PricewaterhouseCoopers, accessed September 10, 2024), <a href="https://www.pwc.com/us/en/industries/financial-services/library/analytics-and-automation.html">https://www.pwc.com/us/en/industries/financial-services/library/analytics-and-automation.html</a>.</p></div><div id="edn42"><p class="MsoEndnoteText"><a name="_edn42" title href="#ednref42"><sup>42</sup></a> Michael Rustell, “How civil engineers can use generative AI to create value in projects,” <i>New Civil Engineer</i>, December 11, 2023, <a href="https://www.newcivilengineer.com/opinion/how-civil-engineers-can-use-generative-ai-to-create-value-in-projects-11-12-2023/">https://www.newcivilengineer.com/opinion/how-civil-engineers-can-use-generative-ai-to-create-value-in-projects-11-12-2023/</a>.</p></div><div id="edn43"><p class="MsoEndnoteText"><a name="_edn43" title href="#ednref43"><sup>43</sup></a> Nitin Rane, Saurabh Choudhary, and Jayesh Rane, “Transforming the civil engineering sector with generative artificial intelligence, such as ChatGPT or Bard” (SSRN, January 12, 2024), p. 20, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4681718">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4681718</a>.</p></div><div id="edn44"><p class="MsoEndnoteText"><a name="_edn44" title href="#ednref44"><sup>44</sup></a> Dee Waddell and Steven Peterson, “How generative AI can transform the aviation industry,” <i>IBM Think</i>, December 4, 2023, <a href="https://www.ibm.com/think/topics/generative-ai-for-aviation">https://www.ibm.com/think/topics/generative-ai-for-aviation</a>; and Amina Zaoui, Dieudonne Tchuente, Samuel Fosso Wamba, and Bernard Kamsu-Foguem, “Impact of artificial intelligence on aeronautics: an industry-wide review,” <i>Journal of Engineering and Technology Management</i>, vol. 71, January–March 2024, pp. 10–11, <a href="https://www.sciencedirect.com/science/article/pii/S0923474824000055">https://www.sciencedirect.com/science/article/pii/S0923474824000055</a>.</p></div><div id="edn45"><p class="MsoEndnoteText"><a name="_edn45" title href="#ednref45"><sup>45</sup></a> Christian Langer, Daniel Leblanc, Dave Marcontell, Joe Nutter, Eric Porter, and Joel Thibert, “The generative AI opportunity in airline maintenance” (McKinsey &amp; Company, Aerospace &amp; Defense Practice, April 8, 2024), <a href="https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/the-generative-ai-opportunity-in-airline-maintenance">https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/the-generative-ai-opportunity-in-airline-maintenance</a>.</p></div><div id="edn46"><p class="MsoEndnoteText"><a name="_edn46" title href="#ednref46"><sup>46</sup></a> Examples of such tools include ChipNeMo and SnapMagic Copilot. See Jialin Song and Jonathan Raiman, “Using Generative AI models in circuit design,” <i>Nvidia Technical Blog</i>, September 6, 2024, <a href="https://developer.nvidia.com/blog/using-generative-ai-models-in-circuit-design/">https://developer.nvidia.com/blog/using-generative-ai-models-in-circuit-design/</a>; and Samuel K. Moore, “Nvidia is piloting a Generative AI for its engineers,” <i>IEEE Spectrum</i>, October 31, 2023, <a href="https://spectrum.ieee.org/ai-for-engineering">https://spectrum.ieee.org/ai-for-engineering</a>.</p></div><div id="edn47"><p class="MsoEndnoteText"><a name="_edn47" title href="#ednref47"><sup>47</sup></a> Karan Singh and Umar Shah, “Generative AI for semiconductor design and verification,” <i>AWS for Industries</i> (Amazon Web Services, March 19, 2024), <a href="https://aws.amazon.com/blogs/industries/generative-ai-for-semiconductor-design/">https://aws.amazon.com/blogs/industries/generative-ai-for-semiconductor-design/</a>.</p></div><div id="edn48"><p class="MsoEndnoteText"><a name="_edn48" title href="#ednref48"><sup>48</sup></a> Doug Burcicki, “Generative design accelerates EV electrical system engineering” (Siemens, February 7, 2020), <a href="https://blogs.sw.siemens.com/ee-systems/2020/02/07/generative-design-accelerates-ev-electrical-system-engineering/">https://blogs.sw.siemens.com/ee-systems/2020/02/07/generative-design-accelerates-ev-electrical-system-engineering/</a>; and Chad Jackson, “Generative engineering: automation for electrical distribution systems” (Siemens, December 9, 2020), <a href="https://blogs.sw.siemens.com/ee-systems/2020/12/09/generative-engineering-automation-for-electrical-distribution-systems/">https://blogs.sw.siemens.com/ee-systems/2020/12/09/generative-engineering-automation-for-electrical-distribution-systems/</a>.</p></div><div id="edn49"><p class="MsoEndnoteText"><a name="_edn49" title href="#ednref49"><sup>49</sup></a> “Table 1.2. Occupational projections, 2023–33, and worker characteristics, 2023 (numbers in thousands),” <i>Employment Projections</i> (U.S. Bureau of Labor Statistics, last modified August 29, 2024), <a href="https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm">https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm</a>.</p></div></div>
+            </div>
+          
+              </div>
+        </div>
+      </div>
+
+         </div>
+        
+      <ul class="gb-info" aria-hidden="true" style="display:none;"><li><a href="/opub/">Publications</a></li><li><a href="/opub/mlr/">Monthly Labor Review</a></li></ul>
+         
+
+  
+
+                      <!-- OneColFootBasic Begin -->
+<!-- Footer Filename: -->
+<!--no_index_start-->
+<!-- 1COL CMS BASIC LAYOUT COL1 END -->
+
+<div class="clearfloat"></div>
+<div class="social-media">
+</div>
+</div> 
+
+
+<!-- WRAPPER BOTTOM BEGIN -->
+
+		
+		
+		</div><!-- close id="wrapper-outer" -->
+	</div><!-- close id="wrapper" -->
+</div><!-- close id="container" -->
+
+	
+
+<!-- WRAPPER BOTTOM END -->
+
+
+<!-- FOOTER LEFT BEGIN -->
+<footer >
+	
+<!-- Footer Nav Menu-->
+<div class="footerNav">
+<ul class="footerNavInner">
+   <li class="footerNavItem"><a href="https://www.bls.gov/">Home</a></li>
+   <li class="footerNavItem"><a href="/bls/proghome.htm">Subjects</a></li>
+   <li class="footerNavItem"><a href="/data/">Data Tools</a></li>
+   <li class="footerNavItem"><a href="/opub/">Publications</a></li>
+   <li class="footerNavItem"><a href="/bls/newsrels.htm">Economic Releases</a></li>
+   <li class="footerNavItem"><a href="/k12/" >Classroom</a></li>
+   <li class="footerNavItem"><a href="/beta/">Beta</a></li>
+</ul>
+</div>
+<!-- Footer Nav Menu-->
+<script>/*<![CDATA[*/(function(){var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;sz.src = '//siteimproveanalytics.com/js/siteanalyze_6032860.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);})();/*]]>*/</script> 
+
+<script src="/javascripts/touchpointsForms.js"></script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/touchpointsForms.css">
+
+<div id="footer-primary-wrapper">
+<div class="bootstrap standard-width">
+<div id="footer-container" class="row">
+	<div id="footer-links-container" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	
+	
+<div class="bls-lftside-holder">	
+<div class="bls-logo-footer">
+<img src="/images/bls_emblem_trans.png" class="responsiveImg" alt="U.S. Bureau of Labor Statistics Logo "/><div class="d-none d-md-block clearfloat"><br><br></div>
+
+ </div>
+ <div class="address-contact-footer">
+<!-- FOOTER LEFT END -->
+
+
+<address class="footer-address"  >   
+<strong>U.S. Bureau of Labor Statistics</strong>
+<span>Office of Publications and Special Studies</span> 
+<span>Suitland Federal Center</span>
+<span>Floor 7</span>
+<span>4600 Silver Hill Road</span>  
+<span>Washington, DC 20212-0002</span>
+</address>
+
+<!-- FOOTER CENTER BEGIN -->
+
+
+
+<!-- FOOTER CENTER END -->
+
+
+
+<span class="footer-contact">  
+
+<a href="tel:12026915200" class="number" aria-label="Telephone: 202-691-5200">
+<span>Telephone:</span><span> 202-691-5200 </span>
+
+</a>
+
+<a href="tel:711" class="number" aria-label="If you are deaf, hard of hearing, or have a speech disability, please dial 7-1-1 to access telecommunications relay services">
+<span>Telecommunications Relay Service:</span><span> 7-1-1</span>  
+</a>
+
+<a href="/opub/home.htm" aria-label="www.bls.gov/OPUB" >www.bls.gov/OPUB</a>
+<a href="https://data.bls.gov/forms/opb.htm?/opub/mlr/2025/article/incorporating-ai-impacts-in-bls-employment-projections.htm" aria-label="Contact Us">Contact Us</a>
+
+</span>
+		
+
+
+<!-- FOOTER RIGHT BEGIN -->
+</div> 
+</div>
+</div>
+
+				<div id="quicklinks" class="row col-xs-12 col-sm-12 col-md-8 col-lg-8">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+					<strong>resources</strong>
+					<a class="d-sm-none" data-toggle="collapse" href="#quicklinksli5" role="button" aria-expanded="false" aria-controls="quicklinksli5" aria-label="resources Sub Menu"></a>
+						<div class="collapse" id="quicklinksli5">
+							<ul class="d-sm-block">						
+								<li><a href="https://www.oig.dol.gov/" aria-label="Office of Inspector General (OIG) website">Inspector General (OIG)</a></li>
+								<li><a href="/bls/bls_budget_and_performance.htm" aria-label="Budget and Performance">Budget and Performance</a></li>	
+								<li><a href="https://www.dol.gov/grants" aria-label="Department of Labor Grants">Department of Labor Grants</a></li>									
+								<li><a href="/bls/no_fear_act.htm" aria-label="No Fear Act">No Fear Act</a></li>
+								<li><a href="https://www.usa.gov/" aria-label="USA.gov website">USA.gov</a></li>
+							</ul>
+						</div>
+					</div>		
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+					<strong>about the site</strong>
+					<a class="d-sm-none" data-toggle="collapse" href="#quicklinksli6" role="button" aria-expanded="false" aria-controls="quicklinksli6" aria-label="about this site Sub Menu"></a>
+						<div class="collapse" id="quicklinksli6">
+							<ul class="d-sm-block">	
+								<li><a href="/bls/sitemap.htm" aria-label="Sitemap">Sitemap</a></li>						
+								<li><a href="/bls/blsfoia.htm" aria-label="Freedom of Information Act">Freedom of Information Act</a></li>
+								<li><a href="/bls/pss.htm" aria-label="Privacy and Security Statement">Privacy and Security Statement</a></li>
+								<li><a href="/bls/disclaimer.htm" aria-label="Disclaimers">Disclaimers</a></li>
+								<li><a href="/bls/linksite.htm" aria-label="Linking and Copyright Information">Linking and Copyright Info</a></li>	
+								<li><a href="/bls/website-policies.htm" aria-label="Important Website Notices">Important Website Notices</a></li>
+								<li><a href="/help/" aria-label="Help and Tutorials">Help and Tutorials</a></li>
+								<li><a href="/bls/ada.htm" aria-label="Accessibility Statement">Accessibility Statement</a></li>
+							</ul>
+						</div>
+					</div>				
+                </div>
+				 
+</div>
+</div>
+</div>
+<div id="footer-secondary-wrapper">
+
+<div class="bootstrap standard-width">
+
+<div>
+<span>Connect With BLS</span>
+  <div class="social-media-icons"> 
+    
+			<a class="social-media-icon" href="https://bsky.app/profile/usbls.bsky.social" title="Connect with BLS on Bluesky" target="_blank" rel="noopener noreferrer" >
+              <!--?xml version="1.0" encoding="utf-8"?-->
+				<svg aria-hidden="true" data-prefix="fas" data-icon="bluesky" class="svg-inline--fa fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 530"><path fill="currentColor" xmlns="http://www.w3.org/2000/svg" d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z"/></svg>
+              <span class="sr-only">Bluesky</span>
+          </a>
+
+           <a class="social-media-icon" href="https://www.instagram.com/usbls_gov/" title="Connect with BLS on Instagram" target="_blank" rel="noopener noreferrer" >
+              <!--?xml version="1.0" encoding="utf-8"?-->
+				<svg aria-hidden="true" data-prefix="fas" data-icon="instagram" class="svg-inline--fa fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+              <span class="sr-only">Instagram</span>
+          </a>
+
+           <a class="social-media-icon" href="https://www.linkedin.com/company/bureau-of-labor-statistics/" title="Connect with BLS on LinkedIn" target="_blank" rel="noopener noreferrer" >
+              <!--?xml version="1.0" encoding="utf-8"?-->
+			  <svg aria-hidden="true" data-prefix="fas" data-icon="linkedin" class="svg-inline--fa fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+              <span class="sr-only">LinkedIn</span>
+          </a>
+
+           <a class="social-media-icon" href="https://www.threads.net/@usbls_gov" title="Connect with BLS on Threads" target="_blank" rel="noopener noreferrer" >
+              <!--?xml version="1.0" encoding="utf-8"?-->
+				<svg aria-hidden="true" data-prefix="fas" data-icon="threads" class="svg-inline--fa fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg>
+              <span class="sr-only">Threads</span>
+          </a>  
+    
+           <a class="social-media-icon" href="https://x.com/BLS_gov" title="Connect with BLS on X, formerly referred to as Twitter" target="_blank" rel="noopener noreferrer" >
+              <!--?xml version="1.0" encoding="utf-8"?-->
+              <svg aria-hidden="true" data-prefix="fab" data-icon="x.com" class="svg-inline--fa fa-twitter fa-w-16"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>
+              <span class="sr-only">Visit BLS on X</span>
+          </a>
+                  
+           <a class="social-media-icon" href="https://www.youtube.com/channel/UCijn3WBpHtx4AvSya7NER9Q" title="BLS Youtube" target="_blank" rel="noopener noreferrer" >
+              <!--?xml version="1.0" encoding="utf-8"?-->
+              <svg aria-hidden="true" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+              <span class="sr-only">Youtube</span>
+          </a>
+          <a class="social-media-icon" href="javascript:window.open('https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void('');" onclick="window.status='Subscribe'; return true" onmouseover="window.status='Subscribe'; return true" onmouseout="window.status=''; return true" id="social-email-3" title="Subscribe to BLS E-mail Updates">
+              <!--?xml version="1.0" encoding="utf-8"?-->
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+              <span class="sr-only">Email</span>
+          </a>
+        </div>
+</div>
+</div>
+</div>
+</footer>
+<!-- FOOTER RIGHT END -->
+
+<!--no_index_end-->
+<!-- OneColFootBasic End -->
+
+
+    
+
+
+
+  </div>
+
+      </body>
+</html>
