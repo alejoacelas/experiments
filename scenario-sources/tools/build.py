@@ -183,6 +183,7 @@ def card(a, s):
     le = s.get("latest_edition", {}) or {}
     full, tot = doc_counts([s])
     quotes = ""
+    qparts = []
     for q in s["quotes"]:
         loc = []
         if isinstance(q.get("page"), int) and q["page"] > 0:
@@ -192,9 +193,12 @@ def card(a, s):
         title = doc_title_for(s, q.get("doc_local_path"))
         link = q.get("url") or next((d.get("url") for d in s["primary_docs"] if d.get("local_path") == q.get("doc_local_path")), "")
         src = f'<a href="{E(link)}" target="_blank" rel="noopener">{E(title)}</a>' if link else E(title)
-        quotes += (f'<figure class="q{" data" if is_data(q["text"]) else ""}"><blockquote>{E(q["text"])}</blockquote>'
+        qparts.append(f'<figure class="q{" data" if is_data(q["text"]) else ""}"><blockquote>{E(q["text"])}</blockquote>'
                    f'<figcaption><span class="cite">{src}{" · " + E(" · ".join(loc)) if loc else ""}</span>'
                    f'<span class="use"><b>Scenario input</b> {E(q.get("worldbuilding_use", ""))}</span></figcaption></figure>')
+    quotes = "".join(qparts[:3])
+    if len(qparts) > 3:
+        quotes += f'<details class="moreq"><summary>{len(qparts) - 3} more quote{"s" if len(qparts) > 4 else ""} from this source</summary><div class="mq">{"".join(qparts[3:])}</div></details>'
     if not quotes:
         quotes = '<p class="noq">No quote passed verbatim verification for this source.</p>'
     docs = ""
