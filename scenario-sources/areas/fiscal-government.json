@@ -1,0 +1,2258 @@
+{
+ "area_id": "fiscal-government",
+ "area_name": "Public finances & what government delivers",
+ "trends": [
+  {
+   "trend": "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+   "why_it_shapes_daily_life": "Interest on the debt already exceeds defence and is the fastest-growing federal outlay; 10-year Treasuries above 5% (Nov 2026) feed straight into mortgage, car-loan and business rates and leave less room for everything else government does."
+  },
+  {
+   "trend": "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+   "why_it_shapes_daily_life": "Dated cliffs and rule changes hit households directly: Medicaid work rules from 1 Jan 2027, SNAP costs shifted to states from FY2028, lapsed ACA subsidies, Highway Trust Fund exhaustion in 2028, and the 2032-33 Social Security and Medicare hospital-fund depletion dates that dominate late-decade politics."
+  },
+  {
+   "trend": "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets",
+   "why_it_shapes_daily_life": "Take-home pay and prices move with law: tip, overtime and senior deductions expire after 2028, tariffs were voided by the Supreme Court and re-imposed under other statutes, importers chase refunds, and brackets reset each November."
+  },
+  {
+   "trend": "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)",
+   "why_it_shapes_daily_life": "States must balance budgets while absorbing federal cost-shifts: California's structural gap (about $35bn a year from 2027-28 on the LAO's November 2025 numbers), New York out-year gaps and pension contributions translate into tuition, transit, school and clinic decisions people see locally."
+  },
+  {
+   "trend": "Government adoption and regulation of AI on binding timetables",
+   "why_it_shapes_daily_life": "Whether a benefit claim, job application or loan is decided by software, and what notice and appeal a person gets, is being fixed by statutes with start dates (Colorado 1 Jan 2027; EU 2 Dec 2027 and 2 Aug 2028) while Washington buys AI tools government-wide and sues to pre-empt state rules."
+  }
+ ],
+ "sources": [
+  {
+   "id": "cbo-budget-economic-outlook",
+   "name": "CBO Budget and Economic Outlook: 2026 to 2036 (10-year baseline)",
+   "publisher": "Congressional Budget Office",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets"
+   ],
+   "what_it_forecasts": "Year-by-year federal revenues, outlays by programme, deficits, debt, net interest and the underlying economy (GDP, inflation, rates, unemployment) for fiscal 2026-2036 under current law.",
+   "horizon": "annual, fiscal years 2026-2036 (plus 30-year extension data)",
+   "latest_edition": {
+    "title": "The Budget and Economic Outlook: 2026 to 2036",
+    "date": "2026-02-11",
+    "url": "https://www.cbo.gov/publication/61882"
+   },
+   "update_cadence": "Annual (Jan/Feb), usually with a mid-year update; reposted with corrections March 2026 (the govinfo copy saved here was created 2026-03-20). Secondary sources report a CBO trade-policy update (policy through 31 July 2026) adding $0.9tn to 2027-36 deficits; could not be downloaded.",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "Passes T3 (CBO scores itself: regular forecast-accuracy and 'evaluation of past deficit and debt projections' reports) and T4 (the baseline is a statutory 10-year projection under section 202(e) of the Budget Act). No money or licence at stake (T1 fails), nobody is paid to attack it (T2 fails), and the outcome is not in the pipeline because Congress legislates against the baseline. Known directional issue: the current-law convention (e.g. it must assume benefits are paid in full after trust-fund exhaustion and treats tariffs set by executive action as permanent); nine days after publication the Supreme Court voided the IEEPA tariffs it had booked as $3.0tn of deficit reduction, and it assumed a 4.1% 10-year Treasury rate for 2026 against 5.10% on 2026-11-17 in the Treasury CSV saved under treasury-market-pricing."
+   },
+   "richness": {
+    "score": 5,
+    "why": "172 pages: every major programme by fiscal year, named laws (2025 reconciliation act, tariffs, immigration actions), trust-fund exhaustion dates, enrolment trends, economic assumptions and uncertainty analysis, changes since last baseline."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Feb 2026 edition. Generative AI is a named, quantified driver of the economic forecast (+0.1 pp TFP growth a year, +1% nonfarm business output by 2036; AI capex lifts 2026 investment) but nothing on the budget side (no AI effect on outlays, revenues by source or the federal workforce), so material driver with partial quantification rather than a full line item."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "In CBO’s projections, annual TFP growth from 2026 to 2036 is 0.1 percentage point higher than it would have been without the additional contribution from generative AI diffusion; that faster growth increases the level of output in the nonfarm business sector by 1 percent in 2036.",
+     "doc_local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+     "page": 46
+    },
+    "search_note": "Searched full report for 'artificial intelligence', 'generative AI', 'AI': 25 matching lines, all in the economic chapter (productivity, business investment, interest rates, uncertainty)."
+   },
+   "tier": "top",
+   "why_top_or_not": "The reference baseline every other US fiscal forecast is measured against; richest year-by-year detail and the only official US fiscal projection that quantifies an AI productivity effect.",
+   "primary_docs": [
+    {
+     "title": "The Budget and Economic Outlook: 2026 to 2036 (full report, GPO govinfo copy of CBO publication 61882)",
+     "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+     "local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+     "status": "full",
+     "bytes": 15539226,
+     "pages": 172,
+     "note": "cbo.gov itself returns a DataDome bot challenge (HTTP 403) from this environment; the complete 172-page report was obtained from GPO's Congressionally Mandated Reports collection (package CMR-Y10-00199317)."
+    },
+    {
+     "title": "CBO Director Swagel testimony on the Budget and Economic Outlook, Senate Finance subcommittee, 2026-03-11 (reiterates executive summary)",
+     "url": "https://www.finance.senate.gov/imo/media/doc/03112026_swagel_testimony.pdf",
+     "local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-testimony-Swagel-2026-03-11-Senate-Finance.pdf",
+     "status": "full",
+     "bytes": 773164,
+     "pages": 11,
+     "note": ""
+    },
+    {
+     "title": "CBO testimony (Molly Dahl) on Social Security's Finances, Senate Budget Committee, 2026-03-25",
+     "url": "https://www.budget.senate.gov/wp-content/uploads/media/doc/drmollydahltestimonysenatebudgetcommittee1.pdf",
+     "local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-testimony-Dahl-Social-Security-Finances-2026-03-25.pdf",
+     "status": "full",
+     "bytes": 224933,
+     "pages": 7,
+     "note": ""
+    },
+    {
+     "title": "CBO data supplements, Long-Term Budget Outlook data 2026-2056 (Feb 2026), trade-policy update (mid-2026) and forecast-accuracy reports",
+     "url": "https://www.cbo.gov/publication/61882",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "cbo.gov blocked by bot protection (403); not retried through workarounds. govinfo API search for further CBO items was rate-limited (429). Existence and headline figures of the trade-policy update and long-term data are from secondary search results only."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "If Congress does not address the shortfalls, the balances of two trust funds will be exhausted within the next 10 years, CBO projects: the Highway Trust Fund (in 2028) and the OASI trust fund (in 2032).",
+     "doc_local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+     "page": 151,
+     "locator": "Appendix B: Trust Funds",
+     "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+     "worldbuilding_use": "Two dated cliffs: highway funding fight in 2028, Social Security retirement fund runs dry 2032."
+    },
+    {
+     "text": "Federal debt held by the public rises from 101 percent of GDP this year to 120 percent in 2036, surpassing its previous high of 106 percent of GDP in 1946.",
+     "doc_local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-testimony-Swagel-2026-03-11-Senate-Finance.pdf",
+     "page": 3,
+     "locator": "The Budget Outlook: Debt",
+     "url": "https://www.finance.senate.gov/imo/media/doc/03112026_swagel_testimony.pdf",
+     "worldbuilding_use": "Headline debt path; the WWII record is passed inside the scenario window."
+    },
+    {
+     "text": "In CBO’s projections, the average benefit amount grows by an average of 4.0 percent a year from 2026 to 2028 and by an average of 3.6 percent a year from 2029 to 2036.",
+     "doc_local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+     "page": 71,
+     "locator": "Chapter 3, Mandatory outlays: Social Security",
+     "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+     "worldbuilding_use": "How fast a retiree's Social Security cheque grows each year through 2031."
+    },
+    {
+     "text": "enrollment in Medicaid and the number of recipients of premium tax credits both decline in CBO’s projections [...] Reductions in enrollment cause total growth in outlays for Medicaid to be 14 percentage points smaller in 2036 than it would be if enrollment did not change over the projection period.",
+     "doc_local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+     "page": 81,
+     "locator": "Chapter 3 (Outlays), discussion of how enrolment changes affect mandatory spending growth",
+     "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+     "worldbuilding_use": "Shrinking Medicaid and ACA-subsidy rolls after the 2025 reconciliation act."
+    },
+    {
+     "text": "In CBO’s projections, annual TFP growth from 2026 to 2036 is 0.1 percentage point higher than it would have been without the additional contribution from generative AI diffusion; that faster growth increases the level of output in the nonfarm business sector by 1 percent in 2036.",
+     "doc_local_path": "primary/fiscal-government/cbo-budget-economic-outlook/CBO-Budget-and-Economic-Outlook-2026-2036_govinfo-CMR-Y10-00199317.pdf",
+     "page": 46,
+     "locator": "Chapter 2, Potential Output and Productivity",
+     "url": "https://www.govinfo.gov/content/pkg/CMR-Y10-00199317/pdf/CMR-Y10-00199317.pdf",
+     "worldbuilding_use": "Official Washington's AI assumption: a small, slow productivity nudge, not a transformation."
+    }
+   ]
+  },
+  {
+   "id": "treasury-market-pricing",
+   "name": "US Treasury market pricing and quarterly refunding / TBAC documents",
+   "publisher": "U.S. Department of the Treasury (Office of Debt Management; Treasury Borrowing Advisory Committee)",
+   "kind": "market price",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "What investors charge the US government to borrow for 1 month to 30 years (nominal and real), plus Treasury's committed auction sizes, borrowing estimates and primary-dealer deficit/borrowing forecasts for the coming quarters and fiscal years.",
+   "horizon": "Yield curve to 30 years (continuous); auction calendar and borrowing estimates 2 quarters ahead; primary-dealer borrowing forecasts FY2027-FY2029",
+   "latest_edition": {
+    "title": "Daily Treasury Par Yield Curve Rates (as of 2026-11-17) and Quarterly Refunding documents, 4th Quarter 2026 (2-4 Nov 2026)",
+    "date": "2026-11-17",
+    "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents"
+   },
+   "update_cadence": "Yields daily; refunding statement, borrowing estimates, TBAC report/minutes/charges quarterly (next: 2027-02-03)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Real money at stake on every tenor (T1); set by a large, independent global investor base and the primary dealers, with short positioning possible via futures (T2); 5-30 year tenors genuinely span the horizon (T4). Marked daily, but no multi-year forecast-error record is published by the source and yields include a term premium, so they are not pure expectations (T3 not credited). Auction sizes in the refunding statement are binding only one quarter ahead."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dated auctions and sizes by tenor, quarterly borrowing and cash-balance figures, TBAC narrative naming the drivers (energy shock, Fed hike under Chair Warsh, SI capex) and a quantified table of AI-related corporate issuance; few places or named firms."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Nov 2026 edition. Treasury's own economic statement and TBAC Charge 1 treat 'super intelligence' investment as a material driver (nearly 30% of GDP growth; ~$735bn of tech debt in 2027 competing for buyers) and conclude it has raised yields via growth rather than supply; the yield itself embeds this but cannot be decomposed."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In the first three quarters of 2026, SI-driven investment (BFI in software, computers and hardware, and data center structures relative to pre-large language models trend) accounted for nearly 30% of GDP growth.",
+     "doc_local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-economic-policy-statement-sb0676.html",
+     "page": 0
+    },
+    "search_note": "Treasury documents use 'super intelligence (SI)' and 'tech-related' rather than 'AI'; searched AI, artificial intelligence, super intelligence, data center, hyperscaler."
+   },
+   "tier": "top",
+   "why_top_or_not": "The only source in the area where money is at risk on the 5-30 year fiscal outlook, and its November 2026 edition explicitly prices AI capex against Treasury supply.",
+   "primary_docs": [
+    {
+     "title": "Daily Treasury Par Yield Curve Rates, 2026 year-to-date (CSV, through 2026-11-17)",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/treasury-par-yield-curve-2026.csv",
+     "status": "full",
+     "bytes": 17930,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Daily Treasury Par Real Yield Curve Rates (TIPS), 2026 year-to-date (CSV, through 2026-11-17)",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/treasury-real-yield-curve-2026.csv",
+     "status": "full",
+     "bytes": 7962,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Quarterly Refunding Statement of Assistant Secretary for Financial Markets, 2026-11-04 (sb0678)",
+     "url": "https://home.treasury.gov/news/press-releases/sb0678",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-refunding-policy-statement-sb0678.html",
+     "status": "full",
+     "bytes": 75360,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Treasury Announces Marketable Borrowing Estimates, 2026-11-02 (sb0675)",
+     "url": "https://home.treasury.gov/news/press-releases/sb0675",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-financing-estimates-sb0675.html",
+     "status": "full",
+     "bytes": 72572,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Economic Policy Statement to TBAC, Q4 2026 (sb0676)",
+     "url": "https://home.treasury.gov/news/press-releases/sb0676",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-economic-policy-statement-sb0676.html",
+     "status": "full",
+     "bytes": 99194,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TBAC Report to the Secretary, Q4 2026 (sb0679)",
+     "url": "https://home.treasury.gov/news/press-releases/sb0679",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-TBAC-report-to-secretary-sb0679.html",
+     "status": "full",
+     "bytes": 79262,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Minutes of the TBAC meeting of 2026-11-03 (sb0680)",
+     "url": "https://home.treasury.gov/news/press-releases/sb0680",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-TBAC-minutes-sb0680.html",
+     "status": "full",
+     "bytes": 77868,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "TBAC presentation, Charge 1: SI-related (super intelligence) corporate issuance, 2026-11-04",
+     "url": "https://home.treasury.gov/system/files/221/TBACCharge1Q42026.pdf",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/TBACCharge1Q42026.pdf",
+     "status": "full",
+     "bytes": 896237,
+     "pages": 28,
+     "note": "Slide deck; pdftotext scrambles chart labels but headline text is clean."
+    },
+    {
+     "title": "TBAC presentation, Charge 2: Treasury derivatives, 2026-11-04",
+     "url": "https://home.treasury.gov/system/files/221/TBACCharge2Q42026.pdf",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/TBACCharge2Q42026.pdf",
+     "status": "full",
+     "bytes": 1147518,
+     "pages": 19,
+     "note": ""
+    },
+    {
+     "title": "Treasury Presentation to TBAC (Final), Q4 2026 (fiscal outlook, dealer deficit estimates, auction demand)",
+     "url": "https://home.treasury.gov/system/files/221/TreasuryPresentationToTBACQ42026.pdf",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/TreasuryPresentationToTBACQ42026.pdf",
+     "status": "full",
+     "bytes": 2344417,
+     "pages": 74,
+     "note": ""
+    },
+    {
+     "title": "TBAC Recommended Financing Table by Refunding Quarter, 2026-11-04",
+     "url": "https://home.treasury.gov/system/files/221/TBACRecommendedFinancingTableByRefundingQuarter-11042026.pdf",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/TBACRecommendedFinancingTableByRefundingQuarter-11042026.pdf",
+     "status": "full",
+     "bytes": 248700,
+     "pages": 1,
+     "note": "Table is mostly an image; little extractable text."
+    },
+    {
+     "title": "Tentative Auction Schedule, Q4 2026",
+     "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ42026.pdf",
+     "local_path": "primary/fiscal-government/treasury-market-pricing/TentativeAuctionScheduleQ42026.pdf",
+     "status": "full",
+     "bytes": 27527,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "FRED series DGS10/DGS30/T10YIE/T5YIFR/THREEFYTP10 (breakevens, term premium)",
+     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,DGS30,T10YIE,T5YIFR,THREEFYTP10,DFII10",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "fred.stlouisfed.org timed out on repeated attempts; breakeven inflation can be derived from the two Treasury CSVs (10y: 5.10 - 2.89)."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "11/17/2026,4.09,4.24,4.26,4.33,4.32,4.41,4.60,4.80,4.84,4.90,4.99,5.10,5.50,5.46",
+     "doc_local_path": "primary/fiscal-government/treasury-market-pricing/treasury-par-yield-curve-2026.csv",
+     "page": 0,
+     "locator": "CSV row, as of 2026-11-17; columns: Date,1 Mo,1.5 Month,2 Mo,3 Mo,4 Mo,6 Mo,1 Yr,2 Yr,3 Yr,5 Yr,7 Yr,10 Yr,20 Yr,30 Yr",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+     "worldbuilding_use": "Borrowing-cost backdrop: 2-year 4.80%, 10-year 5.10%, 30-year 5.46% in November 2026."
+    },
+    {
+     "text": "The move accelerated in September and early October, with ten-year yields peaking around 5.4% and thirty-year yields around 5.7% in early October.",
+     "doc_local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-TBAC-report-to-secretary-sb0679.html",
+     "page": 0,
+     "locator": "TBAC Report to the Secretary, first paragraph",
+     "url": "https://home.treasury.gov/news/press-releases/sb0679",
+     "worldbuilding_use": "Autumn 2026 bond selloff: a dated peak for mortgage-rate and deficit headlines."
+    },
+    {
+     "text": "looking ahead to FY2028-2029, the median primary dealer forecast for privately-held net marketable borrowing implies a $2.14 trillion funding shortfall based on current coupon auction sizes and privately-held bill supply.",
+     "doc_local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-TBAC-minutes-sb0680.html",
+     "page": 0,
+     "locator": "TBAC minutes, 3 Nov 2026, debt-management discussion",
+     "url": "https://home.treasury.gov/news/press-releases/sb0680",
+     "worldbuilding_use": "Dealers expect bigger Treasury auctions from late FY2027: more supply through 2029."
+    },
+    {
+     "text": "During the January–March 2027 quarter, Treasury expects to borrow $800 billion in privately-held net marketable debt, assuming an end-of-March cash balance of $1.000 trillion.",
+     "doc_local_path": "primary/fiscal-government/treasury-market-pricing/Treasury-2026Q4-financing-estimates-sb0675.html",
+     "page": 0,
+     "locator": "Marketable borrowing estimates, 2 Nov 2026",
+     "url": "https://home.treasury.gov/news/press-releases/sb0675",
+     "worldbuilding_use": "Scale of quarterly federal borrowing a character in markets would be watching in early 2027."
+    },
+    {
+     "text": "Nearly $600 billion of tech-related debt is projected in 2026 and more than $700 billion in 2027, with upside risk and a growing role for equity.",
+     "doc_local_path": "primary/fiscal-government/treasury-market-pricing/TBACCharge1Q42026.pdf",
+     "page": 2,
+     "locator": "TBAC Charge 1 (SI-related issuance), executive summary",
+     "url": "https://home.treasury.gov/system/files/221/TBACCharge1Q42026.pdf",
+     "worldbuilding_use": "AI build-out borrowing now large enough that Treasury's advisers study it as competition for buyers."
+    }
+   ]
+  },
+  {
+   "id": "ai-regulation-statutes",
+   "name": "Enacted AI-regulation timetables (EU AI Act as amended by the 2026 Digital Omnibus; Colorado SB26-189; Texas TRAIGA; New York RAISE Act; DOJ AI Litigation Task Force)",
+   "publisher": "European Commission / Colorado General Assembly / Texas Legislature / New York Legislature / U.S. Department of Justice",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "The dates on which specific legal duties on AI developers, deployers and public bodies start to apply (EU: 2 Aug 2026, 2 Dec 2027, 2 Aug 2028; Colorado: 1 Jan 2027; Texas: 1 Jan 2026), with penalties and enforcers named.",
+   "horizon": "Statutory application dates through 2 August 2028; record-keeping and compliance cycles beyond",
+   "latest_edition": {
+    "title": "AI Act application timeline after the Digital Omnibus on AI (in force 27 July 2026), European Commission 'AI Act' policy page; Colorado Session Laws 2026 ch. 131 (SB26-189, approved 14 May 2026)",
+    "date": "2026-07-27",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+   },
+   "update_cadence": "Irregular (legislative amendment); each has already been amended at least once since first enactment",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "Regulated firms and agencies lose legal standing and face fines if they miss the dates (T1); the dates reach 2027-2028 (T4); the laws are enacted and rule-making is under way (T5). But no one scores the timetable (T3 fails) and it has a clear, measurable slippage bias: the EU pushed stand-alone high-risk duties from 2 Aug 2026 to 2 Dec 2027; Colorado's 2024 act was delayed, then repealed and re-enacted in narrower form for 1 Jan 2027; the DOJ task force exists solely to attack state laws. Passes 3 tests but docked one point for demonstrated delay."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Exact application dates, covered domains (employment, housing, lending, insurance, health care, public benefits), named enforcers (EU AI Office, state attorneys general), penalty amounts, 30-day adverse-decision notice duties; mechanisms explained in statute text."
+   },
+   "ai": {
+    "score": 5,
+    "why": "2026 texts whose entire subject is AI; the timetables were themselves re-set in 2026 in direct response to AI's pace and industry pressure."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Rules for systems used in certain high-risk areas — including biometrics, critical infrastructure, education, employment, migration, asylum and border control — will apply from 2 December 2027",
+     "doc_local_path": "primary/fiscal-government/ai-regulation-statutes/EC-AI-Act-regulatory-framework-page.html",
+     "page": 0
+    },
+    "search_note": "AI is the subject of every document in this source."
+   },
+   "tier": "top",
+   "why_top_or_not": "The only binding, dated commitments on how governments will police (and be policed in their own use of) AI through 2028; complements the fiscal sources, which barely model AI.",
+   "primary_docs": [
+    {
+     "title": "European Commission, 'AI Act' regulatory-framework page with post-Omnibus application timeline",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "local_path": "primary/fiscal-government/ai-regulation-statutes/EC-AI-Act-regulatory-framework-page.html",
+     "status": "full",
+     "bytes": 93081,
+     "pages": 0,
+     "note": "Official Commission statement of the amended timeline. Consolidated legal text not saved: see failed EUR-Lex entry."
+    },
+    {
+     "title": "Regulation amending the AI Act ('Digital Omnibus on AI'), Official Journal text",
+     "url": "https://eur-lex.europa.eu/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "EUR-Lex and data.europa.eu returned HTTP 202 bot challenges with empty bodies. Law-firm summaries cite it as Regulation (EU) 2026/1744, OJ 24 July 2026; that number was not verified against the Official Journal."
+    },
+    {
+     "title": "artificialintelligenceact.eu implementation timeline (Future of Life Institute tracker, unofficial)",
+     "url": "https://artificialintelligenceact.eu/implementation-timeline/",
+     "local_path": "primary/fiscal-government/ai-regulation-statutes/artificialintelligenceact-eu-implementation-timeline.html",
+     "status": "full",
+     "bytes": 339608,
+     "pages": 0,
+     "note": "Unofficial secondary tracker, saved for cross-checking only."
+    },
+    {
+     "title": "Colorado SB26-189, Automated Decision-Making Technology (Session Laws 2026, ch. 131; approved 2026-05-14)",
+     "url": "https://www.leg.colorado.gov/laws/session-laws/SB26-189/131/download",
+     "local_path": "primary/fiscal-government/ai-regulation-statutes/Colorado-SB26-189-session-law-ch131.pdf",
+     "status": "full",
+     "bytes": 142316,
+     "pages": 17,
+     "note": "Repeals and re-enacts the 2024 Colorado AI Act (SB24-205)."
+    },
+    {
+     "title": "Texas HB 149, Texas Responsible Artificial Intelligence Governance Act (enrolled)",
+     "url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+     "local_path": "primary/fiscal-government/ai-regulation-statutes/Texas-HB149-TRAIGA-enrolled.pdf",
+     "status": "full",
+     "bytes": 191805,
+     "pages": 30,
+     "note": ""
+    },
+    {
+     "title": "New York A6453-B / S6953-B, RAISE Act (Assembly bill page with text and actions; signed 2025-12-19, ch. 699)",
+     "url": "https://assembly.state.ny.us/leg/?default_fld=&leg_video=&bn=A06453&term=2025&Summary=Y&Actions=Y&Text=Y",
+     "local_path": "primary/fiscal-government/ai-regulation-statutes/NY-A06453-RAISE-Act-assembly-page.html",
+     "status": "partial",
+     "bytes": 38403,
+     "pages": 0,
+     "note": "This is the bill as passed in June 2025. It was signed on the basis of agreed chapter amendments (2026) that changed thresholds, penalties and the effective date; the amended text was not obtained (nysenate.gov returned 403), so no quotes are taken from this file."
+    },
+    {
+     "title": "Attorney General memorandum establishing the AI Litigation Task Force, 2026-01-09",
+     "url": "https://www.justice.gov/ag/media/1422986/dl",
+     "local_path": "primary/fiscal-government/ai-regulation-statutes/DOJ-AI-Litigation-Task-Force-memo-2026-01-09.pdf",
+     "status": "full",
+     "bytes": 104807,
+     "pages": 1,
+     "note": "Scanned PDF; text is OCR."
+    },
+    {
+     "title": "California SB 53, Transparency in Frontier Artificial Intelligence Act (chaptered 2025)",
+     "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "leginfo.legislature.ca.gov returned 403; not retried."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Rules for systems used in certain high-risk areas — including biometrics, critical infrastructure, education, employment, migration, asylum and border control — will apply from 2 December 2027 [...] For systems integrated into products such as lifts or toys, the rules will apply from 2 August 2028",
+     "doc_local_path": "primary/fiscal-government/ai-regulation-statutes/EC-AI-Act-regulatory-framework-page.html",
+     "page": 0,
+     "locator": "Section on the AI Omnibus / application timeline",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "worldbuilding_use": "Two hard EU compliance dates inside the scenario window for hiring, schooling and border AI."
+    },
+    {
+     "text": "This legislative proposal (dubbed as the ' AI Omnibus ') was adopted on 19 November 2025, a political agreement was reached on 7 May 2026 and entered into force on 27 July 2026",
+     "doc_local_path": "primary/fiscal-government/ai-regulation-statutes/EC-AI-Act-regulatory-framework-page.html",
+     "page": 0,
+     "locator": "Section on simplification / AI Omnibus",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "worldbuilding_use": "Shows regulators already blinked once: the delay itself is a datable event."
+    },
+    {
+     "text": "IF A DEPLOYER USES A COVERED ADMT TO MATERIALLY INFLUENCE A CONSEQUENTIAL DECISION THAT RESULTS IN AN ADVERSE OUTCOME FOR A CONSUMER, THE DEPLOYER SHALL PROVIDE WITHIN THIRTY DAYS AFTER MAKING THE DECISION [...] A PLAIN LANGUAGE DESCRIPTION OF THE CONSEQUENTIAL DECISION AND THE ROLE THE COVERED ADMT PLAYED IN THE CONSEQUENTIAL DECISION",
+     "doc_local_path": "primary/fiscal-government/ai-regulation-statutes/Colorado-SB26-189-session-law-ch131.pdf",
+     "page": 8,
+     "locator": "C.R.S. 6-1-1704(3)",
+     "url": "https://www.leg.colorado.gov/laws/session-laws/SB26-189/131/download",
+     "worldbuilding_use": "From 2027 a Coloradan denied a job, loan or benefit by software gets a letter saying so."
+    },
+    {
+     "text": "this act takes effect January 1, 2027. [...] This act applies to consequential decisions made on or after January 1, 2027.",
+     "doc_local_path": "primary/fiscal-government/ai-regulation-statutes/Colorado-SB26-189-session-law-ch131.pdf",
+     "page": 17,
+     "locator": "Section 5, Effective date - applicability",
+     "url": "https://www.leg.colorado.gov/laws/session-laws/SB26-189/131/download",
+     "worldbuilding_use": "Start date for Colorado's automated-decision rules, covering public-benefit eligibility decisions."
+    },
+    {
+     "text": "for each violation the court determines to be uncurable, not less than $80,000 and not more than $200,000 [...] This Act takes effect January 1, 2026",
+     "doc_local_path": "primary/fiscal-government/ai-regulation-statutes/Texas-HB149-TRAIGA-enrolled.pdf",
+     "page": 13,
+     "locator": "Enforcement subchapter, civil penalty provision; Section 10 effective date",
+     "url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+     "worldbuilding_use": "Texas penalty scale per AI violation, already live since January 2026."
+    }
+   ]
+  },
+  {
+   "id": "obr-efo",
+   "name": "OBR Economic and fiscal outlook (October 2026) and Fiscal risks and sustainability (July 2026)",
+   "publisher": "Office for Budget Responsibility (UK)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets",
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "UK economy and public finances line by line (each tax, welfare, departmental spending, debt interest, borrowing, debt) for 2026-27 to 2031-32, with costed Budget measures; 50-year sustainability scenarios in the FRS.",
+   "horizon": "Five fiscal years to 2031-32 (EFO); 50 years to 2075-76 (FRS)",
+   "latest_edition": {
+    "title": "Economic and fiscal outlook – October 2026",
+    "date": "2026-10-28",
+    "url": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/"
+   },
+   "update_cadence": "Twice a year with fiscal events (March 2026, October 2026); FRS annual (July); Forecast evaluation report annual (June 2026)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "Statutory independent forecaster that marks itself every year in a Forecast evaluation report (June 2026 edition saved) and maintains a historical forecasts database (T3); the legally mandated horizon is five years (T4). No money at stake and no paid adversary; must condition on stated government policy (e.g. frozen thresholds, pencilled-in departmental cuts), which its own FRS says successive governments have pushed back."
+   },
+   "richness": {
+    "score": 4,
+    "why": "201-page EFO plus spreadsheets: receipts by tax, welfare caseloads, debt interest in pounds by year, gilt-rate assumptions, policy costings, risk scenarios with pound values; little place-level detail."
+   },
+   "ai": {
+    "score": 5,
+    "why": "October 2026 edition whose central forecast contains a separately identified AI effect (+0.2 pp a year on productivity growth by the medium term); July 2026 FRS adds a box quantifying AI's effect on the labour share and tax receipts."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "The development and adoption of artificial intelligence could have a significant positive effect – our central forecast is for it to boost productivity growth by 0.2 percentage points a year by the medium term – but the scale and timing of any effect is highly uncertain.",
+     "doc_local_path": "primary/fiscal-government/obr-efo/OBR-EFO-October-2026.pdf",
+     "page": 25
+    },
+    "search_note": "EFO: 13 lines matching AI/artificial intelligence; FRS: 59 (Box 4.1 'The potential impact of AI on the labour share and tax receipts'); Forecast evaluation report: none."
+   },
+   "tier": "top",
+   "why_top_or_not": "Best-in-class official fiscal forecast for AI responsiveness and self-scoring; gives the non-US (UK) leg of the debt-and-tax story with full spreadsheets.",
+   "primary_docs": [
+    {
+     "title": "Economic and fiscal outlook – October 2026 (full report)",
+     "url": "https://obr.uk/download/economic-and-fiscal-outlook-october-2026/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-October-2026.pdf",
+     "status": "full",
+     "bytes": 1771863,
+     "pages": 201,
+     "note": ""
+    },
+    {
+     "title": "Fiscal risks and sustainability – July 2026 (full report)",
+     "url": "https://obr.uk/download/fiscal-risks-and-sustainability-report-july-2026/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-Fiscal-risks-and-sustainability-July-2026.pdf",
+     "status": "full",
+     "bytes": 1375079,
+     "pages": 148,
+     "note": ""
+    },
+    {
+     "title": "Forecast evaluation report – June 2026",
+     "url": "https://obr.uk/download/forecast-evaluation-report-june-2026/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-Forecast-evaluation-report-June-2026.pdf",
+     "status": "full",
+     "bytes": 559353,
+     "pages": 57,
+     "note": ""
+    },
+    {
+     "title": "EFO October 2026 detailed forecast tables: aggregates (xlsx)",
+     "url": "https://obr.uk/download/october-2026-economic-and-fiscal-outlook-detailed-forecast-tables-aggregates/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-Oct-2026-detailed-tables-aggregates.xlsx",
+     "status": "full",
+     "bytes": 218000,
+     "pages": 0,
+     "note": ".txt rendering saved alongside"
+    },
+    {
+     "title": "EFO October 2026 detailed forecast tables: economy (xlsx)",
+     "url": "https://obr.uk/download/october-2026-economic-and-fiscal-outlook-detailed-forecast-tables-economy/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-Oct-2026-detailed-tables-economy.xlsx",
+     "status": "full",
+     "bytes": 518472,
+     "pages": 0,
+     "note": ".txt rendering saved alongside"
+    },
+    {
+     "title": "EFO October 2026 detailed forecast tables: expenditure (xlsx)",
+     "url": "https://obr.uk/download/october-2026-economic-and-fiscal-outlook-detailed-forecast-tables-expenditure/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-Oct-2026-detailed-tables-expenditure.xlsx",
+     "status": "full",
+     "bytes": 280700,
+     "pages": 0,
+     "note": ".txt rendering saved alongside"
+    },
+    {
+     "title": "EFO October 2026 detailed forecast tables: receipts (xlsx)",
+     "url": "https://obr.uk/download/october-2026-economic-and-fiscal-outlook-detailed-forecast-tables-receipts/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-Oct-2026-detailed-tables-receipts.xlsx",
+     "status": "full",
+     "bytes": 214092,
+     "pages": 0,
+     "note": ".txt rendering saved alongside"
+    },
+    {
+     "title": "EFO October 2026 detailed forecast tables: policy measures (xlsx)",
+     "url": "https://obr.uk/download/october-2026-economic-and-fiscal-outlook-detailed-forecast-tables-policy/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-Oct-2026-detailed-tables-policy.xlsx",
+     "status": "full",
+     "bytes": 106602,
+     "pages": 0,
+     "note": ".txt rendering saved alongside"
+    },
+    {
+     "title": "EFO October 2026 detailed forecast tables: debt interest ready reckoner (xlsx)",
+     "url": "https://obr.uk/download/october-2026-economic-and-fiscal-outlook-detailed-forecast-tables-debt-interest-ready-reckoner/",
+     "local_path": "primary/fiscal-government/obr-efo/OBR-EFO-Oct-2026-detailed-tables-debt-interest-ready-reckoner.xlsx",
+     "status": "full",
+     "bytes": 45331,
+     "pages": 0,
+     "note": ".txt rendering saved alongside; chart-and-table workbooks and devolved forecasts not downloaded"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The development and adoption of artificial intelligence could have a significant positive effect – our central forecast is for it to boost productivity growth by 0.2 percentage points a year by the medium term – but the scale and timing of any effect is highly uncertain.",
+     "doc_local_path": "primary/fiscal-government/obr-efo/OBR-EFO-October-2026.pdf",
+     "page": 25,
+     "locator": "Executive summary, risks, para 1.28",
+     "url": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/",
+     "worldbuilding_use": "UK's official AI dividend baked into tax and borrowing numbers: 0.2 points a year."
+    },
+    {
+     "text": "In nominal terms, debt interest spending is forecast to rise from £124 billion in 2026-27 to £160 billion in 2031-32, an average year-on-year increase of around £7 billion.",
+     "doc_local_path": "primary/fiscal-government/obr-efo/OBR-EFO-October-2026.pdf",
+     "page": 131,
+     "locator": "Chapter 5, debt interest, para 5.29",
+     "url": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/",
+     "worldbuilding_use": "UK debt-interest bill by year: a concrete squeeze on every other budget line."
+    },
+    {
+     "text": "The tax-to-GDP ratio is expected to surpass its historical high of 37.2 per cent in 2027-28 and to reach almost 6 per cent of GDP above the pre-pandemic level by 2031-32.",
+     "doc_local_path": "primary/fiscal-government/obr-efo/OBR-EFO-October-2026.pdf",
+     "page": 22,
+     "locator": "Executive summary, fiscal outlook",
+     "url": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/",
+     "worldbuilding_use": "Record UK tax burden reached in 2027-28: what households feel in pay packets."
+    },
+    {
+     "text": "In the central forecast, public sector net borrowing falls from 4.4 per cent of GDP in 2025-26 to 1.8 per cent of GDP in 2031-32, but is higher than in our March forecast in every year.",
+     "doc_local_path": "primary/fiscal-government/obr-efo/OBR-EFO-October-2026.pdf",
+     "page": 37,
+     "locator": "Chapter 2, fiscal policy, para 2.18",
+     "url": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/",
+     "worldbuilding_use": "Planned UK consolidation path that politics must deliver through 2031-32."
+    }
+   ]
+  },
+  {
+   "id": "obbba-enacted-schedule",
+   "name": "Enacted schedule of the 2025 reconciliation act (Public Law 119-21, 'One Big Beautiful Bill Act') and CMS's Medicaid work-requirement rule",
+   "publisher": "U.S. Congress (statute, via GPO) / Centers for Medicare & Medicaid Services (interim final rule)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets",
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)"
+   ],
+   "what_it_forecasts": "Dated legal changes households and states will meet: Medicaid community-engagement rules from 1 Jan 2027, SNAP cost-sharing by states from FY2028, temporary tax deductions (tips, overtime, seniors) ending after 2028, a $5tn debt-limit increase, and CMS's own estimate of resulting enrolment losses.",
+   "horizon": "Provision-specific effective and sunset dates 2025-2034; CMS impact estimates FY2027-2036",
+   "latest_edition": {
+    "title": "Public Law 119-21 (139 Stat. 72), 4 July 2025; implementing rule CMS-2454-IFC, Federal Register 3 June 2026",
+    "date": "2026-06-03",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11094.pdf"
+   },
+   "update_cadence": "Statute fixed unless amended; agency rules and guidance issued as each deadline approaches (CMS IFC June 2026; IRS annual adjustments)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T4",
+     "T5"
+    ],
+    "why": "States, employers and taxpayers lose federal funds or face penalties if they do not comply (T1); dates run to 2028 and beyond (T4); the law is enacted and CMS has already issued the binding rule with a 1 Jan 2027 start (T5). Not scored (T3) and no independent price-setter (T2), though 25 states plus DC sued over the rule (per secondary reports). Known bias: Congress habitually extends popular sunsets and delays painful start dates, so the 2028 expirations are less firm than the 2027 start dates."
+   },
+   "richness": {
+    "score": 5,
+    "why": "Hundreds of dated, quantified provisions naming programmes, thresholds and dollar amounts (80-hour rule, 6/8/10% SNAP error-rate bands, $6,000 senior deduction to 2028, $5,000,000,000,000 debt limit rise); the CMS rule explains assumptions and gives enrolment and spending effects by year. No place-level detail."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2025 statute with a 2026 implementing rule; AI appears only as a handful of defence/energy appropriations, and the CMS rule (searched: artificial intelligence, AI) does not mention it. The schedule is fixed text and cannot respond to AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "$250,000,000 for the advancement of the artificial intelligence ecosystem; (25) $250,000,000 for the expansion of Cyber Command artificial intelligence lines of effort",
+     "doc_local_path": "primary/fiscal-government/obbba-enacted-schedule/PLAW-119publ21-One-Big-Beautiful-Bill-Act.pdf",
+     "page": 50
+    },
+    "search_note": "Statute: 14 lines with 'artificial intelligence', all appropriations items (DoD, NNSA, DOE 'transformational artificial intelligence models'); none in the tax, Medicaid or SNAP titles. CMS-2454-IFC: none found for 'artificial intelligence'/'AI'."
+   },
+   "tier": "top",
+   "why_top_or_not": "Law already on the books is the firmest predictor of what benefit and tax changes people actually meet in 2027-2029; dated, quantified and largely independent of forecasts.",
+   "primary_docs": [
+    {
+     "title": "Public Law 119-21 (H.R. 1), full statute text, GPO",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "local_path": "primary/fiscal-government/obbba-enacted-schedule/PLAW-119publ21-One-Big-Beautiful-Bill-Act.pdf",
+     "status": "full",
+     "bytes": 968588,
+     "pages": 331,
+     "note": ""
+    },
+    {
+     "title": "CMS-2454-IFC, Medicaid Program; Community Engagement Requirement for Certain Individuals, 91 FR (3 June 2026), doc. 2026-11094",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11094.pdf",
+     "local_path": "primary/fiscal-government/obbba-enacted-schedule/CMS-2454-IFC-Medicaid-community-engagement-FR-2026-06-03.pdf",
+     "status": "full",
+     "bytes": 3857195,
+     "pages": 135,
+     "note": ""
+    },
+    {
+     "title": "CMS fact sheet on the community engagement interim final rule, 2026-06-01",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/medicaid-community-engagement-requirement-certain-individuals-interim-final-rule-comment-period-cms",
+     "local_path": "primary/fiscal-government/obbba-enacted-schedule/CMS-fact-sheet-community-engagement-IFC-2026-06-01.html",
+     "status": "full",
+     "bytes": 59731,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "CBO cost estimate and coverage-loss estimates for P.L. 119-21",
+     "url": "https://www.cbo.gov/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "cbo.gov blocked (403). CBO's baseline treatment of the act is in the saved Budget and Economic Outlook."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "beginning not later than the first day of the first quarter that begins after December 31, 2026 [...] a State shall provide, as a condition of eligibility for medical assistance for an applicable individual, that such individual is required to demonstrate community engagement",
+     "doc_local_path": "primary/fiscal-government/obbba-enacted-schedule/PLAW-119publ21-One-Big-Beautiful-Bill-Act.pdf",
+     "page": 236,
+     "locator": "Sec. 71119, new Social Security Act sec. 1902(xx)(1)",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "worldbuilding_use": "Medicaid work rules bite on 1 January 2027 in every expansion state."
+    },
+    {
+     "text": "We project that enrollment would be reduced by 2.3 million individuals in FY 2027 (accounting for implementation occurring in the second quarter of the fiscal year) and by between 3.1 to 3.3 million individuals in subsequent years.",
+     "doc_local_path": "primary/fiscal-government/obbba-enacted-schedule/CMS-2454-IFC-Medicaid-community-engagement-FR-2026-06-03.pdf",
+     "page": 114,
+     "locator": "Regulatory Impact Analysis, enrolment and expenditure effects (Table 41 discussion)",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11094.pdf",
+     "worldbuilding_use": "The government's own count of people dropping off Medicaid in 2027 and after."
+    },
+    {
+     "text": "beginning in fiscal year 2028, if the payment error rate of a State as determined under clause (ii) is— [...] less than 6 percent, the Federal share of the cost of the allotment described in paragraph (1) for that State in a fiscal year shall be 100 percent, and the State share shall be 0 percent",
+     "doc_local_path": "primary/fiscal-government/obbba-enacted-schedule/PLAW-119publ21-One-Big-Beautiful-Bill-Act.pdf",
+     "page": 14,
+     "locator": "Sec. 10105, Matching funds requirements (SNAP State cost share)",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "worldbuilding_use": "From October 2027 states with sloppy SNAP error rates start paying for food benefits."
+    },
+    {
+     "text": "In the case of a taxable year beginning before January 1, 2029, there shall be allowed a deduction in an amount equal to $6,000 for each qualified individual with respect to the taxpayer.",
+     "doc_local_path": "primary/fiscal-government/obbba-enacted-schedule/PLAW-119publ21-One-Big-Beautiful-Bill-Act.pdf",
+     "page": 89,
+     "locator": "Sec. 70103, Deduction for seniors",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "worldbuilding_use": "Seniors' $6,000 tax break vanishes for tax year 2029: a 2028 election-year cliff."
+    },
+    {
+     "text": "$250,000,000 for the advancement of the artificial intelligence ecosystem; (25) $250,000,000 for the expansion of Cyber Command artificial intelligence lines of effort",
+     "doc_local_path": "primary/fiscal-government/obbba-enacted-schedule/PLAW-119publ21-One-Big-Beautiful-Bill-Act.pdf",
+     "page": 50,
+     "locator": "Title II (Committee on Armed Services), Department of Defense resources list",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "worldbuilding_use": "How the act treats AI: defence line items only, nothing in the benefit or tax rules."
+    }
+   ]
+  },
+  {
+   "id": "ssa-trustees-report",
+   "name": "2026 Social Security (OASDI) Trustees Report",
+   "publisher": "Board of Trustees, Federal OASI and DI Trust Funds (Social Security Administration, Office of the Chief Actuary)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)"
+   ],
+   "what_it_forecasts": "Trust-fund income, cost and reserves year by year, the depletion dates and the share of benefits payable afterwards, with assumed COLAs, wages, fertility, immigration and beneficiary counts.",
+   "horizon": "Short range 2026-2035 (annual); long range 75 years to 2100",
+   "latest_edition": {
+    "title": "The 2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds (H. Doc. 119-163)",
+    "date": "2026-06-09",
+    "url": "https://www.ssa.gov/oact/tr/2026/"
+   },
+   "update_cadence": "Annual (transmittal letter dated 9 June 2026; referred to House Ways and Means 18 June 2026)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T3",
+     "T4",
+     "T5"
+    ],
+    "why": "Annual statutory report whose prior projections are reconciled each year (section IV.B.6) and reviewed by periodic Technical Panels and SSA actuarial notes (T3); 10- and 75-year horizons are the legal requirement (T4); everyone who will draw benefits through 2035 is already born and most earnings histories are fixed, so the early-2030s depletion is largely in the pipeline (T5). No financial stake (T1) or paid adversary (T2). The ultimate fertility assumption had to be cut from 1.90 to 1.75 this year, the kind of slow optimistic drift critics have long flagged."
+   },
+   "richness": {
+    "score": 4,
+    "why": "274 pages of dated quantities (depletion quarter, 78% payable benefits, tax-rate or benefit-cut equivalents, beneficiary counts, COLA/wage-base tables to 2035) with explained assumptions; national only."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition with no AI treatment; ultimate productivity growth assumption (1.63%) is explicitly unchanged from 2025. Searched for AI, artificial intelligence, automation: none found."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched full text for 'artificial intelligence', 'AI', 'automation': no matches. 'technology' appears only as SSA IT systems. Productivity assumptions (section V.B.1) unchanged from the 2025 report."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Essential and fully downloaded, but its headline (OASI exhausted 2032) is duplicated in CBO, the cliff falls just outside 2031, and it is blind to AI; ranks sixth on combined score (10).",
+   "primary_docs": [
+    {
+     "title": "2026 OASDI Trustees Report, House Document 119-163 (complete report, GPO)",
+     "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+     "local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+     "status": "full",
+     "bytes": 76973703,
+     "pages": 274,
+     "note": "ssa.gov returned 403 (Akamai) from this environment; the identical report as printed by GPO was downloaded from govinfo (274 pages, 77 MB). Single-year supplemental tables on ssa.gov not obtained."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The OASI Trust Fund is projected to become depleted in the fourth quarter of 2032, one quarter earlier than projected in last year’s report. Upon reserve depletion in 2032, projected income is sufficient to pay 78 percent of scheduled benefits.",
+     "doc_local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+     "page": 13,
+     "locator": "II.A Highlights: Trust Fund Reserves and Reserve Depletion",
+     "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+     "worldbuilding_use": "The dated cliff: late 2032, retirement cheques fall to 78% absent legislation."
+    },
+    {
+     "text": "Increase the payroll tax rate from 12.40 percent to 17.30 percent starting in 2034, or [...] Reduce scheduled benefits for all current and future beneficiaries by 28.5 percent starting in 2034",
+     "doc_local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+     "page": 15,
+     "locator": "II.A Highlights: Size of the Solvency Gap",
+     "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+     "worldbuilding_use": "Price of waiting: the tax rise or benefit cut politicians would face if nothing is done."
+    },
+    {
+     "text": "Under the intermediate assumptions, the number of DI beneficiaries is projected to begin to increase in 2027, reaching a level of about 9 million at the end of 2035.",
+     "doc_local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+     "page": 58,
+     "locator": "IV.A Short-range estimates, Disability Insurance",
+     "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+     "worldbuilding_use": "Disability rolls turn upward again from 2027 after a decade of decline."
+    },
+    {
+     "text": "There were about 2.6 workers for every OASDI beneficiary in 2025. [...] Under the Trustees’ intermediate assumptions, the underlying demographic shift will continue to drive this ratio down over the next 60 years, to about 1.9 by 2075.",
+     "doc_local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+     "page": 24,
+     "locator": "II.D Projections of future financial status",
+     "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+     "worldbuilding_use": "Worker-to-retiree ratio behind every payroll-tax debate."
+    },
+    {
+     "text": "For the intermediate assumptions, the annual rate of change in productivity is assumed to average 1.61 percent from 2025 to 2031 and to reach its ultimate value of 1.63 percent for 2032 and thereafter.",
+     "doc_local_path": "primary/fiscal-government/ssa-trustees-report/2026-OASDI-Trustees-Report_HDoc-119-163.pdf",
+     "page": 120,
+     "locator": "V.B.1 Productivity assumptions",
+     "url": "https://www.govinfo.gov/content/pkg/CDOC-119hdoc163/pdf/CDOC-119hdoc163.pdf",
+     "worldbuilding_use": "Shows the Trustees assume no AI productivity surge: same 1.63% as last year."
+    }
+   ]
+  },
+  {
+   "id": "prediction-markets",
+   "name": "Kalshi and Polymarket contracts on shutdowns, debt, deficits, yields, tariffs, benefits and AI law",
+   "publisher": "Kalshi (CFTC-regulated exchange); Polymarket",
+   "kind": "market price",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets",
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "Traded probabilities for dated fiscal events: shutdown on 12 Dec 2026, peak national debt before 2029, 2026 deficit/GDP, 2028 COLA, OASI depletion before 2033, Treasury yields end-2027, Colorado AI rules, federal AI law.",
+   "horizon": "Mostly under 14 months; a few contracts to 2029-2036 (debt peak, GDP growth by year, unemployment) with very thin volume",
+   "latest_edition": {
+    "title": "Kalshi open events (public API) and Polymarket gamma API, snapshot 2026-11-18 14:36-14:40 UTC",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true"
+   },
+   "update_cadence": "Continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Real money (T1) and many independent traders (T2). Fails T4: liquidity is concentrated in contracts settling within weeks or months; the 2028-2036 contracts in the snapshot show open interest of tens to a few thousand contracts and bid-ask spreads of 5-60 cents. Platform-level calibration studies exist but no multi-year record for these fiscal series (T3 not credited)."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A few hundred single probabilities with no reasoning; useful as dated odds (e.g. shutdown 12 Dec 2026 at 32-33 cents) rather than narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated 2026 prices; several AI-policy contracts exist (federal AI law, national AI regulator, government takeover of an AI lab) but fiscal contracts do not separate out AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "KXAIBILL-26JUN,Comprehensive federal AI legislation in 2026?,KXAIBILL-26JUN-27JAN01,\"Before Jan 1, 2027\",0.0200,0.1600,0.0300",
+     "doc_local_path": "primary/fiscal-government/prediction-markets/kalshi_fiscal_markets_snapshot_2026-11-18.csv",
+     "page": 0
+    },
+    "search_note": "AI-related contracts in snapshot: KXAIBILL, KXUSAIREGULATOR, KXUSTAKEOVER, KXAICABINET, KXSOFTWAREUNEMP, KXLOCALLAW-COSB26189; Polymarket 'U.S. enacts AI safety bill before 2027?'"
+   },
+   "tier": "considered",
+   "why_top_or_not": "Right incentives but wrong horizon and almost no detail; kept as a dated-odds cross-check.",
+   "primary_docs": [
+    {
+     "title": "Kalshi fiscal/AI-policy markets snapshot (CSV, 342 markets in 56 events)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
+     "local_path": "primary/fiscal-government/prediction-markets/kalshi_fiscal_markets_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 59006,
+     "pages": 0,
+     "note": "Curated subset of 16,000 open events pulled via the public API; columns: bid/ask/last in dollars, volume and open interest in contracts."
+    },
+    {
+     "title": "Kalshi snapshot, raw JSON for the same 56 events",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events?status=open&with_nested_markets=true",
+     "local_path": "primary/fiscal-government/prediction-markets/kalshi_fiscal_events_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 853148,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Polymarket fiscal/AI-policy markets snapshot (CSV)",
+     "url": "https://gamma-api.polymarket.com/events?closed=false",
+     "local_path": "primary/fiscal-government/prediction-markets/polymarket_fiscal_markets_snapshot_2026-11-18.csv",
+     "status": "partial",
+     "bytes": 9605,
+     "pages": 0,
+     "note": "API paging stopped at 2,100 open events; curated subset of 11 events (shutdown, Treasury yield ranges, recession, AI safety bill, filibuster, JGB yield)."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "KXGOVTSHUTDOWN-26DEC12,\"Government shutdown on Dec 12, 2026?\",KXGOVTSHUTDOWN-26DEC12,Yes,0.3200,0.3300,0.3300,367414.46,189331.60",
+     "doc_local_path": "primary/fiscal-government/prediction-markets/kalshi_fiscal_markets_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Kalshi CSV row, retrieved 2026-11-18T14:36Z; columns: event_ticker,event_title,market_ticker,outcome,yes_bid,yes_ask,last,volume,open_interest",
+     "url": "https://kalshi.com/markets/kxgovtshutdown",
+     "worldbuilding_use": "About one-in-three odds of a federal shutdown on 12 December 2026."
+    },
+    {
+     "text": "KXDEBTGROWTH-28DEC31,Peak US National Debt Under Trump Administration,KXDEBTGROWTH-28DEC31-45,$45 trillion,0.8500,0.8600,0.8600",
+     "doc_local_path": "primary/fiscal-government/prediction-markets/kalshi_fiscal_markets_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Kalshi CSV row, retrieved 2026-11-18T14:36Z",
+     "url": "https://kalshi.com/markets/kxdebtgrowth",
+     "worldbuilding_use": "Traders put ~85% on gross debt passing $45tn before the term ends (27-28% on $50tn)."
+    },
+    {
+     "text": "KXSOCIALSECURITYDEPLETE-33,Will Social Security’s retirement trust fund be depleted?,KXSOCIALSECURITYDEPLETE-33-33JAN01,\"Before Jan 1, 2033\",0.1300,0.1600,0.1300",
+     "doc_local_path": "primary/fiscal-government/prediction-markets/kalshi_fiscal_markets_snapshot_2026-11-18.csv",
+     "page": 0,
+     "locator": "Kalshi CSV row, retrieved 2026-11-18T14:36Z (open interest 74.65 contracts)",
+     "url": "https://kalshi.com/markets/kxsocialsecuritydeplete",
+     "worldbuilding_use": "Market gives only ~13-16% to the Trustees' own 2032 depletion date holding: traders expect a fix or slip."
+    }
+   ]
+  },
+  {
+   "id": "medicare-trustees",
+   "name": "2026 Medicare Trustees Report",
+   "publisher": "Boards of Trustees, Federal HI and SMI Trust Funds (CMS Office of the Actuary)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)"
+   ],
+   "what_it_forecasts": "Hospital Insurance trust-fund depletion date and payable share, Part B/D premiums and costs, Medicare spending by year.",
+   "horizon": "Short range 10 years; long range 75 years",
+   "latest_edition": {
+    "title": "2026 Annual Report of the Boards of Trustees of the Federal Hospital Insurance and Federal Supplementary Medical Insurance Trust Funds",
+    "date": "2026-06-09",
+    "url": "https://www.cms.gov/oact/tr/2026"
+   },
+   "update_cadence": "Annual",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T3",
+     "T4",
+     "T5"
+    ],
+    "why": "Same statutory, annually reconciled process as OASDI (T3, T4) with beneficiaries already born (T5); no stake or adversary. Known bias: must assume current-law payment-rate cuts that Congress routinely overrides (the report's own illustrative alternative scenario)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "271 pages of premiums, deductibles, enrolment and cost growth by part and year."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition; searched AI, artificial intelligence: none found."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched 'artificial intelligence', 'AI': 0 matches in 271 pages."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scored for completeness; deep treatment belongs to the health area. HI depletion: second quarter of 2033, 89% of benefits payable.",
+   "primary_docs": [
+    {
+     "title": "2026 Medicare Trustees Report (complete)",
+     "url": "https://www.cms.gov/oact/tr/2026",
+     "local_path": "primary/fiscal-government/medicare-trustees/2026-Medicare-Trustees-Report.pdf",
+     "status": "full",
+     "bytes": 2844621,
+     "pages": 271,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "treasury-financial-report",
+   "name": "Financial Report of the U.S. Government, FY2025",
+   "publisher": "U.S. Treasury (Bureau of the Fiscal Service), audited by GAO",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)"
+   ],
+   "what_it_forecasts": "Accrual-basis federal balance sheet and 75-year sustainability projections (fiscal gap, debt-to-GDP path) under current policy.",
+   "horizon": "75-year projections; statements as of 30 Sep 2025",
+   "latest_edition": {
+    "title": "Financial Report of the United States Government, Fiscal Year 2025",
+    "date": "2026-03-19",
+    "url": "https://www.fiscal.treasury.gov/reports-statements/financial-report/current-report.html"
+   },
+   "update_cadence": "Annual (Feb/March)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "GAO is paid to audit it (and again could not give an opinion), which counts as an adversary (T2); the sustainability statements run 75 years (T4). No money at stake, and no published record of how past fiscal-gap projections performed."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Agency-level liabilities (veterans' benefits, federal pensions, insurance) and sustainability charts; little year-by-year narrative for 2026-31."
+   },
+   "ai": {
+    "score": 2,
+    "why": "March 2026 edition; the only 'Artificial Intelligence' string is the name of a commission in an entity list."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched 'artificial intelligence', 'AI': 1 match (National Security Commission on Artificial Intelligence in list of entities)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Authoritative but backward-looking; long-run projections duplicate CBO with less detail.",
+   "primary_docs": [
+    {
+     "title": "FY2025 Financial Report of the U.S. Government (full report)",
+     "url": "https://fiscal.treasury.gov/system/files/2026-03/FY-2025-Financial-Report-3-19-2025(Final).pdf",
+     "local_path": "primary/fiscal-government/treasury-financial-report/FY-2025-Financial-Report-of-the-US-Government.pdf",
+     "status": "full",
+     "bytes": 9415010,
+     "pages": 245,
+     "note": ""
+    },
+    {
+     "title": "FY2025 Financial Report, executive summary",
+     "url": "https://fiscal.treasury.gov/system/files/2026-03/executive-summary-2025.pdf",
+     "local_path": "primary/fiscal-government/treasury-financial-report/FY-2025-Financial-Report-executive-summary.pdf",
+     "status": "full",
+     "bytes": 929810,
+     "pages": 11,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "omb-presidents-budget",
+   "name": "President's Budget FY2027 and Mid-Session Review",
+   "publisher": "Office of Management and Budget",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets"
+   ],
+   "what_it_forecasts": "The administration's requested discretionary funding by agency for FY2027 and updated FY2026-27 outlay/receipt estimates.",
+   "horizon": "FY2027 request; MSR tables cover mandatory outlays under current law",
+   "latest_edition": {
+    "title": "Budget of the U.S. Government, Fiscal Year 2027: Mid-Session Review",
+    "date": "2026-09-04",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2026/09/MSR_2027.pdf"
+   },
+   "update_cadence": "Annual budget (released April 2026) plus mid-session review (4 Sep 2026)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "An interested party's proposal: CBO re-estimates it every year (T2) but nothing binds the numbers, and per CRFB/Bloomberg coverage this is the second year running that the budget omits standard deficit and debt projections; the 12-page MSR likewise gives only outlay tables."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Agency-by-agency increases and cuts with dollar amounts and named programmes (e.g. $53.9bn DOE; $87.6bn supplemental request); no multi-year fiscal aggregates."
+   },
+   "ai": {
+    "score": 3,
+    "why": "April/September 2026 editions; AI appears as a spending priority (e.g. $1.2bn at DOE) but does not drive any projection."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "$1.2 billion for AI to support seven AI supercomputers at the Argonne and Oak Ridge National Laboratories",
+     "doc_local_path": "primary/fiscal-government/omb-presidents-budget/budget_fy2027.pdf",
+     "page": 21
+    },
+    "search_note": "Budget: 13 lines matching AI/artificial intelligence (DOE, NSF, research priorities). MSR: none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Politically important but unscored, incomplete (no deficit path) and not binding on Congress.",
+   "primary_docs": [
+    {
+     "title": "Fiscal Year 2027 Mid-Session Review",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2026/09/MSR_2027.pdf",
+     "local_path": "primary/fiscal-government/omb-presidents-budget/MSR_2027.pdf",
+     "status": "full",
+     "bytes": 4241975,
+     "pages": 12,
+     "note": ""
+    },
+    {
+     "title": "Fiscal Year 2027 President's Budget (discretionary request)",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/budget_fy2027.pdf",
+     "local_path": "primary/fiscal-government/omb-presidents-budget/budget_fy2027.pdf",
+     "status": "full",
+     "bytes": 8773511,
+     "pages": 92,
+     "note": "pdftotext drops some 'fi' ligatures."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "omb-federal-ai-directives",
+   "name": "Federal AI adoption directives: OMB M-25-21, M-25-22, M-26-04, America's AI Action Plan, GSA OneGov AI agreements",
+   "publisher": "Office of Management and Budget; Executive Office of the President; General Services Administration",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "Deadlines and duties for federal agencies to appoint Chief AI Officers, publish AI strategies and compliance plans, apply 'unbiased AI' contract terms, and the government-wide prices/terms at which agencies buy frontier AI tools.",
+   "horizon": "Deadlines 60-365 days from April 2025; compliance plans every two years until 2036; OneGov OpenAI agreement 27 months from 1 Oct 2026",
+   "latest_edition": {
+    "title": "GSA OneGov agreement with OpenAI (27-month, consumption-based), announced 2026-09-10; OMB M-26-04 (Dec 2025); M-25-21/M-25-22 (April 2025)",
+    "date": "2026-09-10",
+    "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026"
+   },
+   "update_cadence": "Irregular; OneGov offers renewed or replaced as they expire",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Contracts are signed and agencies are formally bound (T5), but there is no penalty for missed OMB deadlines, no scoring, and executive memoranda are rewritten by each administration (M-25-21 itself replaced the 2024 memo). The 2025 federal AI use-case inventory was not obtained to check delivery."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named agencies and roles, exact day-count deadlines, vendor names and contract lengths, per-agency prices in OneGov offers."
+   },
+   "ai": {
+    "score": 5,
+    "why": "AI is the subject; latest binding piece is September 2026 (27-month OpenAI agreement from 1 Oct 2026)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Within 60 days of the issuance of this memorandum, the head of each agency must retain or designate a Chief AI Officer (CAIO).",
+     "doc_local_path": "primary/fiscal-government/omb-federal-ai-directives/M-25-21.pdf",
+     "page": 10
+    },
+    "search_note": "AI is the subject. M-26-10, M-26-18 (Login.gov universal sign-on) and M-26-03 (President's Management Agenda) saved for context; they do not mention AI in extractable text."
+   },
+   "tier": "considered",
+   "why_top_or_not": "High AI relevance and concrete, but weak enforcement and short horizons; the statutes source covers the same trend with firmer dates.",
+   "primary_docs": [
+    {
+     "title": "OMB M-25-21, Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/M-25-21.pdf",
+     "status": "full",
+     "bytes": 2629748,
+     "pages": 25,
+     "note": ""
+    },
+    {
+     "title": "OMB M-25-22, Driving Efficient Acquisition of Artificial Intelligence in Government",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/M-25-22.pdf",
+     "status": "full",
+     "bytes": 1399862,
+     "pages": 13,
+     "note": ""
+    },
+    {
+     "title": "OMB M-26-04, Increasing Public Trust in AI Through Unbiased AI Principles",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/M-26-04.pdf",
+     "status": "full",
+     "bytes": 261386,
+     "pages": 7,
+     "note": ""
+    },
+    {
+     "title": "America's AI Action Plan (July 2025)",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/Americas-AI-Action-Plan-2025-07.pdf",
+     "status": "full",
+     "bytes": 521617,
+     "pages": 28,
+     "note": ""
+    },
+    {
+     "title": "GSA news release: OneGov agreement with OpenAI, 2026-09-10",
+     "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/GSA-OneGov-OpenAI-release-2026-09-10.html",
+     "status": "full",
+     "bytes": 171281,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "OMB M-26-10, Reinforcing Transparency, Accountability, and Oversight of Federal Technology",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/M-26-10-Reinforcing-Transparency-Accountability-and-Oversight-of-Federal-Technology.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/M-26-10.pdf",
+     "status": "full",
+     "bytes": 726309,
+     "pages": 5,
+     "note": ""
+    },
+    {
+     "title": "OMB M-26-18, Scaling Use of Login.gov to Deliver a Universal Sign-on for Public Services",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2026/08/M-26-18-Scaling-Use-of-Login.gov-to-Deliver-a-Universal-Sign-on-for-Public-Services.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/M-26-18.pdf",
+     "status": "full",
+     "bytes": 307678,
+     "pages": 6,
+     "note": ""
+    },
+    {
+     "title": "OMB M-26-03, President's Management Agenda",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-03-Presidents-Management-Agenda.pdf",
+     "local_path": "primary/fiscal-government/omb-federal-ai-directives/M-26-03-PMA.pdf",
+     "status": "full",
+     "bytes": 226169,
+     "pages": 2,
+     "note": ""
+    },
+    {
+     "title": "Federal AI use-case inventories (consolidated 2025)",
+     "url": "https://ai.gov/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not located/downloaded in the time available."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nasbo-fiscal-survey",
+   "name": "NASBO Fiscal Survey of States, Spring 2026",
+   "publisher": "National Association of State Budget Officers",
+   "kind": "survey",
+   "covers_trends": [
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)"
+   ],
+   "what_it_forecasts": "Governors' proposed FY2027 general-fund spending, revenue forecasts, rainy-day balances, Medicaid and pay changes for all 50 states.",
+   "horizon": "Current and next fiscal year (FY2026-FY2027)",
+   "latest_edition": {
+    "title": "The Fiscal Survey of States: Spring 2026 (Governors' Proposed Budgets for Fiscal 2027)",
+    "date": "2026-06-18",
+    "url": "https://www.nasbo.org/reports-data/fiscal-survey-of-states"
+   },
+   "update_cadence": "Twice a year (spring, fall); Fall 2026 edition not yet out on 2026-11-18",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T5"
+    ],
+    "why": "Respondents are the budget offices bound by balanced-budget laws (legal stakes, T1) and it reports budgets already proposed or enacted (T5); but horizon is one year and no error record is published. Cover says 'Spring 2026'; the date given is the PDF creation date (18 June 2026)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "State-by-state tables: spending growth, revenue vs forecast, tax changes, employee pay actions, rainy-day fund levels."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; searched AI, artificial intelligence: none (only IT pay classifications)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched 'artificial intelligence', 'AI', 'automation', 'data center': 0 relevant matches. Pew's state fiscal work (pew.org) returned 403 and was not downloaded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best cross-state snapshot but only one year ahead and silent on AI.",
+   "primary_docs": [
+    {
+     "title": "NASBO Spring 2026 Fiscal Survey of States (full report)",
+     "url": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/Fiscal%20Survey/Spring_2026_Fiscal_Survey_Full_Report_S.pdf",
+     "local_path": "primary/fiscal-government/nasbo-fiscal-survey/NASBO-Spring-2026-Fiscal-Survey-of-States.pdf",
+     "status": "full",
+     "bytes": 1402645,
+     "pages": 104,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "lao-fiscal-outlook",
+   "name": "California LAO Fiscal Outlook",
+   "publisher": "California Legislative Analyst's Office",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)",
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "California General Fund revenues, spending and the budget problem for the coming year plus multi-year structural deficits.",
+   "horizon": "Budget year plus three out-years (2026-27 to 2029-30)",
+   "latest_edition": {
+    "title": "The 2026-27 Budget: California's Fiscal Outlook",
+    "date": "2025-11-19",
+    "url": "https://lao.ca.gov/reports/2025/5091/2026-27_Fiscal_Outlook_111925.pdf"
+   },
+   "update_cadence": "Annual (mid/late November); the November 2026 edition (2027-28 outlook) was not yet posted on lao.ca.gov on 2026-11-18",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "Nonpartisan office that revisits its own revenue forecasts each year (T3) and projects four years (T4); no money at stake; the Legislature can and does adopt different estimates."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named propositions, programme cost drivers, dollar gaps by year ($18bn problem in 2026-27, about $35bn a year from 2027-28)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Edition is November 2025, so capped at 2 on the literal anchors, although its treatment is strong: revenue forecast deliberately discounted for an AI-driven stock-market correction. Would score 4 if dated 2026."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "These strong income tax collections are being driven by enthusiasm around AI, which has pushed the stock market to record highs and boosted compensation among the state’s tech workers.",
+     "doc_local_path": "primary/fiscal-government/lao-fiscal-outlook/LAO-2026-27-Fiscal-Outlook-2025-11-19.pdf",
+     "page": 3
+    },
+    "search_note": "9 lines matching AI/artificial intelligence, all about AI-driven equity gains underpinning income-tax receipts."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Stale by days (new edition imminent) and single-state; the clearest example of AI entering a state revenue forecast.",
+   "primary_docs": [
+    {
+     "title": "The 2026-27 Budget: California's Fiscal Outlook (Nov 2025)",
+     "url": "https://lao.ca.gov/reports/2025/5091/2026-27_Fiscal_Outlook_111925.pdf",
+     "local_path": "primary/fiscal-government/lao-fiscal-outlook/LAO-2026-27-Fiscal-Outlook-2025-11-19.pdf",
+     "status": "full",
+     "bytes": 434090,
+     "pages": 16,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ny-dob-financial-plan",
+   "name": "New York State Financial Plan (FY2027 Enacted Budget; Mid-Year Update)",
+   "publisher": "New York State Division of the Budget (with State Comptroller review)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)"
+   ],
+   "what_it_forecasts": "State receipts, disbursements and out-year budget gaps by fiscal year.",
+   "horizon": "Current year plus three out-years (FY2027-FY2030)",
+   "latest_edition": {
+    "title": "FY 2027 Enacted Budget Financial Plan (DOB); Comptroller's report on the SFY 2026-27 Enacted Budget and Financial Plan",
+    "date": "2026-07-14",
+    "url": "https://www.osc.ny.gov/files/reports/pdf/enacted-budget-and-financial-plan-report-1.pdf"
+   },
+   "update_cadence": "Quarterly updates; a Mid-Year Update was due by 30 Oct 2026 but could not be confirmed",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T4"
+    ],
+    "why": "The independently elected Comptroller is paid to critique it (T2) and it runs four years (T4); the plan is also bond-disclosure material, but out-year gaps are routinely closed by later action, so they overstate realised deficits."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Gap by fiscal year, named programmes (Medicaid, school aid, MTA), reserve levels, federal-cut exposure."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition (Comptroller report); searched AI, artificial intelligence: none."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Comptroller report: 0 matches for 'artificial intelligence'/'AI'. DOB plan itself not obtained."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Primary DOB document unreachable; scored on the Comptroller's review. Date shown is the Comptroller report's PDF creation date (cover: July 2026); it says DOB released the Enacted Budget Financial Plan on 10 June 2026.",
+   "primary_docs": [
+    {
+     "title": "NYS Comptroller, Report on the SFY 2026-27 Enacted Budget and Financial Plan",
+     "url": "https://www.osc.ny.gov/files/reports/pdf/enacted-budget-and-financial-plan-report-1.pdf",
+     "local_path": "primary/fiscal-government/ny-dob-financial-plan/NY-OSC-report-SFY2027-enacted-budget-financial-plan.pdf",
+     "status": "partial",
+     "bytes": 1031720,
+     "pages": 35,
+     "note": "Stand-in: the Comptroller's review, not the DOB Financial Plan itself."
+    },
+    {
+     "title": "NYS DOB FY2027 Enacted Budget Financial Plan / Mid-Year Update",
+     "url": "https://www.budget.ny.gov/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "budget.ny.gov did not respond (connection timeouts) on every attempt."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "texas-revenue-estimate",
+   "name": "Texas Certification Revenue Estimate 2026-27",
+   "publisher": "Texas Comptroller of Public Accounts",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)"
+   ],
+   "what_it_forecasts": "State revenue by tax for the 2026-27 biennium and the ending balance available for certification.",
+   "horizon": "Biennium ending 31 Aug 2027",
+   "latest_edition": {
+    "title": "Certification Revenue Estimate 2026-27",
+    "date": "2025-10-17",
+    "url": "https://comptroller.texas.gov/transparency/reports/certification-revenue-estimate/2026-27/docs/cre2026-27.pdf"
+   },
+   "update_cadence": "Biennial Revenue Estimate each January of odd years (next: January 2027) plus post-session certification estimate",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "The Comptroller's estimate is a constitutional cap on appropriations (legal stakes, T1) and is trued up against actual collections every cycle (T3); horizon is under two years and estimates lean conservative. Date read from PDF metadata (17 Oct 2025)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Tax-by-tax collections with drivers (oil and gas, sales tax, utility taxes)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "October 2025 edition; no AI treatment, though data-centre electricity demand is cited as a driver of utility and gas tax growth."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched 'artificial intelligence': none. 'data centers' appears twice as a driver of electricity use and natural-gas demand."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Legally binding but short-horizon and due to be replaced by the January 2027 BRE.",
+   "primary_docs": [
+    {
+     "title": "Texas Certification Revenue Estimate 2026-27",
+     "url": "https://comptroller.texas.gov/transparency/reports/certification-revenue-estimate/2026-27/docs/cre2026-27.pdf",
+     "local_path": "primary/fiscal-government/texas-revenue-estimate/Texas-Certification-Revenue-Estimate-2026-27.pdf",
+     "status": "full",
+     "bytes": 1136534,
+     "pages": 32,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "calpers-valuation",
+   "name": "State pension actuarial reporting (CalPERS Annual Comprehensive Financial Report 2024-25)",
+   "publisher": "California Public Employees' Retirement System",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)"
+   ],
+   "what_it_forecasts": "Funded status, required employer contributions and actuarial assumptions for the largest US public pension system.",
+   "horizon": "Valuation as of 30 June 2024/2025; amortisation schedules of 20-30 years",
+   "latest_edition": {
+    "title": "CalPERS Annual Comprehensive Financial Report, fiscal year ended June 30, 2025",
+    "date": "2025-11-19",
+    "url": "https://www.calpers.ca.gov/documents/acfr-2025/download?inline"
+   },
+   "update_cadence": "Annual (ACFR each November; valuations each summer)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T3",
+     "T4",
+     "T5"
+    ],
+    "why": "Valuations set legally required employer contributions (T1), are audited and tested in periodic experience studies with annual gain/loss disclosure (T3), amortise over decades (T4) and cover benefits already accrued (T5). Known bias: discount-rate optimism common to US public plans. Date given is that of the independent auditor's report in the document (19 Nov 2025)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Plan-level liabilities, funded ratios, contribution rates and investment returns; little narrative about service impacts."
+   },
+   "ai": {
+    "score": 2,
+    "why": "FY2024-25 edition (2025); AI mentioned only as an internal 'AI Technologies Roadmap'."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "A new Artificial Intelligence (AI) Technologies Roadmap is being developed to harness the transformative potential of generative AI, driving efficiency, innovation, and improved service delivery.",
+     "doc_local_path": "primary/fiscal-government/calpers-valuation/CalPERS-ACFR-2024-25.pdf",
+     "page": 12
+    },
+    "search_note": "2 matches, both about CalPERS's own operations, none about assumptions. Illinois (COGFA, cgfa.ilga.gov) did not respond and was not downloaded."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Solid incentives but a slow-moving, narrow input; state pension costs are a background pressure rather than a scene-setter.",
+   "primary_docs": [
+    {
+     "title": "CalPERS ACFR 2024-25",
+     "url": "https://www.calpers.ca.gov/documents/acfr-2025/download?inline",
+     "local_path": "primary/fiscal-government/calpers-valuation/CalPERS-ACFR-2024-25.pdf",
+     "status": "full",
+     "bytes": 31897619,
+     "pages": 259,
+     "note": ""
+    },
+    {
+     "title": "Illinois COGFA pension reports",
+     "url": "https://cgfa.ilga.gov/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Host did not respond."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "ec-debt-sustainability-monitor",
+   "name": "European Commission Debt Sustainability Monitor 2025",
+   "publisher": "European Commission, DG ECFIN",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates"
+   ],
+   "what_it_forecasts": "Short-, medium- and long-term fiscal sustainability risk classification and 10-year debt projections for each EU member state.",
+   "horizon": "To 2036 (DSA), long-term indicators to 2070",
+   "latest_edition": {
+    "title": "Debt Sustainability Monitor 2025 (Institutional Paper 332)",
+    "date": "2026-02-04",
+    "url": "https://economy-finance.ec.europa.eu/publications/debt-sustainability-monitor-2025_en"
+   },
+   "update_cadence": "Annual",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Ten-year horizon with ageing costs largely predetermined (T4), feeding the EU fiscal rules, but unscored, no stake, and the Commission is itself a party to the surveillance it informs. Date is the PDF creation date (cover: February 2026)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "27 country fiches with debt paths, stress tests and risk ratings."
+   },
+   "ai": {
+    "score": 2,
+    "why": "February 2026 edition; searched AI, artificial intelligence: none found."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "0 matches for 'artificial intelligence'/'AI' in 304 pages."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful for France/Italy colour; unscored and AI-blind.",
+   "primary_docs": [
+    {
+     "title": "Debt Sustainability Monitor 2025 (ip332)",
+     "url": "https://economy-finance.ec.europa.eu/document/download/39b3b61d-42c1-46d7-8088-0aad82e8731e_en?filename=ip332_en.pdf",
+     "local_path": "primary/fiscal-government/ec-debt-sustainability-monitor/EC-Debt-Sustainability-Monitor-2025_ip332.pdf",
+     "status": "full",
+     "bytes": 8035692,
+     "pages": 304,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "imf-fiscal-monitor",
+   "name": "IMF Fiscal Monitor, October 2026",
+   "publisher": "International Monetary Fund",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets"
+   ],
+   "what_it_forecasts": "Cross-country general-government deficits and debt five years ahead, plus a thematic chapter (October 2026: tax design and growth).",
+   "horizon": "Five years (to 2031)",
+   "latest_edition": {
+    "title": "Fiscal Monitor, October 2026: Taxing Better to Boost Growth",
+    "date": "2026-10-14",
+    "url": "https://www.imf.org/en/publications/fm/issues/2026/10/05/fiscal-monitor-october-2026"
+   },
+   "update_cadence": "Twice a year (April, October)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T4"
+    ],
+    "why": "The IMF publishes evaluations of its forecast errors (T3) and projects five years (T4); no money at stake, and country numbers are negotiated with authorities. Release date taken from the IMF media-centre listing in search results (14 Oct 2026), not from the document."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Country tables and thematic analysis; could not be inspected in full."
+   },
+   "ai": {
+    "score": 2,
+    "why": "October 2026 edition, but the full text could not be downloaded; no AI passage in the excerpts obtained, so scored conservatively."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Only two short excerpts obtained (executive summary and chapter 1 opening); neither mentions AI. Full-document search not possible."
+   },
+   "tier": "considered",
+   "why_top_or_not": "imf.org blocked direct download; only excerpts saved, so claims about it are limited.",
+   "primary_docs": [
+    {
+     "title": "Fiscal Monitor October 2026: executive summary and chapter 1 opening (text excerpts via search index)",
+     "url": "https://www.imf.org/-/media/files/publications/fiscal-monitor/2026/october/english/execsum.pdf",
+     "local_path": "primary/fiscal-government/imf-fiscal-monitor/IMF-Fiscal-Monitor-October-2026-excerpts-via-search-index.txt",
+     "status": "partial",
+     "bytes": 2146,
+     "pages": 0,
+     "note": "imf.org returned 403 (Akamai). File holds short excerpts as returned by the Exa search index, with a source note at the top."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "rating-agencies",
+   "name": "Sovereign credit ratings and outlooks (Moody's, S&P, Fitch) on the United States",
+   "publisher": "Moody's Ratings; S&P Global Ratings; Fitch Ratings",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates"
+   ],
+   "what_it_forecasts": "Probability-ranked view of US sovereign creditworthiness and the triggers for further downgrades.",
+   "horizon": "Outlook horizon 1-2 years; rating 'through the cycle'",
+   "latest_edition": {
+    "title": "S&P affirmation of US at AA+/stable (reported June 2026); Fitch AA+/stable (reported early 2026); Moody's Aa1/stable since 16 May 2025",
+    "date": null,
+    "url": "https://www.fitchratings.com/entity/united-states-of-america-80442210"
+   },
+   "update_cadence": "Roughly semi-annual reviews per agency",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "Agencies are registered NRSROs with regulatory and franchise exposure (T1) and publish default and transition studies (T3), but outlooks reach only 1-2 years and sovereign ratings lag markets. Ratings here come from news summaries, not agency documents; exact action dates were not verified, so the edition date is left null."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A rating, an outlook and a short rationale with a few fiscal ratios."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 actions; AI treatment not verifiable without the reports."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No agency document obtained; AI treatment unknown."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Paywalled/registration-gated; low information beyond what CBO and yields already give. Kalshi prices a 2026 downgrade at about 5 cents.",
+   "primary_docs": [
+    {
+     "title": "Agency rating reports on the United States",
+     "url": "https://www.fitchratings.com/entity/united-states-of-america-80442210",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Rating action commentaries require registration/subscription; Fitch entity page is script-rendered and returned no content."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "gao-fiscal-health",
+   "name": "GAO, The Nation's Fiscal Health (annual report to Congress)",
+   "publisher": "U.S. Government Accountability Office",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates"
+   ],
+   "what_it_forecasts": "Long-term simulations of federal debt-to-GDP and the fiscal gap, with recommendations.",
+   "horizon": "30-75 years",
+   "latest_edition": {
+    "title": "The Nation's Fiscal Health (2026 edition not confirmed; GAO 'America's Fiscal Future' page)",
+    "date": null,
+    "url": "https://www.gao.gov/americas-fiscal-future"
+   },
+   "update_cadence": "Annual",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Long-horizon simulation by an accountable institution, but unscored, no stake, and largely derivative of CBO and Trustees inputs. Edition date left null: gao.gov was unreachable and the 2026 edition's existence and date were not confirmed."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Debt simulations and programme-level risk lists."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Not inspected; scored conservatively."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "gao.gov returned 403; document not obtained; AI treatment unknown."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Could not be downloaded or dated; adds little beyond CBO.",
+   "primary_docs": [
+    {
+     "title": "GAO fiscal health report",
+     "url": "https://www.gao.gov/americas-fiscal-future",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "gao.gov returned 403 (Akamai); not retried through workarounds."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "crfb",
+   "name": "Committee for a Responsible Federal Budget analyses",
+   "publisher": "Committee for a Responsible Federal Budget",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)",
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets"
+   ],
+   "what_it_forecasts": "Re-cuts of CBO baselines under alternative assumptions (e.g. tariffs struck down, tax sunsets extended) and running tallies of policy costs.",
+   "horizon": "10 years",
+   "latest_edition": {
+    "title": "CBO's February 2026 Budget and Economic Outlook (CRFB analysis); 'SCOTUS Tariff Ruling Could Add $2.4 Trillion to the Debt' (2026-02-20)",
+    "date": "2026-02-20",
+    "url": "https://www.crfb.org/blogs/scotus-tariff-ruling-could-add-24-trillion-debt"
+   },
+   "update_cadence": "Continuous blog/papers",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "Advocacy organisation with a stated deficit-reduction mission; no stake, no scoring, no horizon mechanism. Useful because it is fast and transparent about how it adjusts CBO numbers."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Clear alternative-scenario figures (e.g. debt 125% of GDP by 2036 if IEEPA tariff revenue is lost and refunded)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 pieces; no AI in the documents saved."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched saved CRFB PDF for 'artificial intelligence'/'AI': none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Unincentivised comparator; scored low on purpose.",
+   "primary_docs": [
+    {
+     "title": "CRFB, analysis of CBO's February 2026 Budget and Economic Outlook",
+     "url": "https://www.crfb.org/sites/default/files/media/documents/CRFB_CBO_February_2026_Budget_And_Economic_Outlook_5.pdf",
+     "local_path": "primary/fiscal-government/crfb/CRFB-analysis-CBO-Feb-2026-Outlook.pdf",
+     "status": "full",
+     "bytes": 1130005,
+     "pages": 9,
+     "note": ""
+    },
+    {
+     "title": "CRFB blog, SCOTUS Tariff Ruling Could Add $2.4 Trillion to the Debt (2026-02-20)",
+     "url": "https://www.crfb.org/blogs/scotus-tariff-ruling-could-add-24-trillion-debt",
+     "local_path": "primary/fiscal-government/crfb/CRFB-SCOTUS-tariff-ruling-blog.html",
+     "status": "full",
+     "bytes": 43146,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "pwbm",
+   "name": "Penn Wharton Budget Model baseline",
+   "publisher": "Penn Wharton Budget Model, University of Pennsylvania",
+   "kind": "expert report",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)"
+   ],
+   "what_it_forecasts": "Independent demographic, economic and conventional budget projections (population growth, GDP, mandatory share of spending).",
+   "horizon": "30 years (2026-2056)",
+   "latest_edition": {
+    "title": "The Demographic, Economic, and Conventional Budget Outlook, 2026-2056",
+    "date": "2026-05-29",
+    "url": "https://budgetmodel.wharton.upenn.edu/p/2026-05-29-the-demographic-economic-and-conventional-budget-outlook-2026-2056/"
+   },
+   "update_cadence": "Twice a year from 2026 (May, November); November 2026 release not found",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "Academic model with a 30-year horizon that can be compared with CBO, but nothing at stake and no published error record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Headline series with brief commentary (population growth 0.47% to 0.08%, GDP growth by decade)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "May 2026 edition; the baseline page does not mention AI (PWBM's separate September 2025 AI-productivity brief was not downloaded)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched saved page for 'AI'/'artificial intelligence': none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Unincentivised comparator to CBO; scored low.",
+   "primary_docs": [
+    {
+     "title": "PWBM, The Demographic, Economic, and Conventional Budget Outlook, 2026-2056 (web brief)",
+     "url": "https://budgetmodel.wharton.upenn.edu/p/2026-05-29-the-demographic-economic-and-conventional-budget-outlook-2026-2056/",
+     "local_path": "primary/fiscal-government/pwbm/PWBM-Budget-Outlook-2026-2056-2026-05-29.html",
+     "status": "full",
+     "bytes": 59459,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "yale-budget-lab",
+   "name": "Yale Budget Lab, State of U.S. Tariffs tracker and tariff model",
+   "publisher": "The Budget Lab at Yale",
+   "kind": "expert report",
+   "covers_trends": [
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets"
+   ],
+   "what_it_forecasts": "Effective US tariff rate, consumer-price and household-cost effects and revenue from current tariff policy.",
+   "horizon": "Current policy; 10-year revenue",
+   "latest_edition": {
+    "title": "The State of U.S. Tariffs (interactive tracker; search results show an update dated 9 Nov 2026); model update 'Improvements to the Budget Lab Tariff Model...' (2026-07-20)",
+    "date": "2026-07-20",
+    "url": "https://budgetlab.yale.edu/research/state-us-tariffs"
+   },
+   "update_cadence": "Updated after each major tariff action",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Publishes retrospectives comparing its price estimates with outcomes (the July 2026 paper is one), which earns partial feedback credit; otherwise an unincentivised academic estimate."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Effective-rate and price-effect series with clear method notes."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 edition; no AI in the saved paper."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched saved PDF: none. The live tracker is script-rendered and its figures could not be captured."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Unincentivised comparator; the live tracker could not be saved, only the July 2026 methods paper.",
+   "primary_docs": [
+    {
+     "title": "Improvements to the Budget Lab Tariff Model and a new tracking tool (published 2026-07-20)",
+     "url": "https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1567/publication_1567.pdf",
+     "local_path": "primary/fiscal-government/yale-budget-lab/Yale-Budget-Lab-publication_1567.pdf",
+     "status": "full",
+     "bytes": 1298345,
+     "pages": 11,
+     "note": ""
+    },
+    {
+     "title": "The State of U.S. Tariffs (interactive page)",
+     "url": "https://budgetlab.yale.edu/research/state-us-tariffs",
+     "local_path": "primary/fiscal-government/yale-budget-lab/Yale-Budget-Lab-State-of-US-Tariffs.html",
+     "status": "partial",
+     "bytes": 1104867,
+     "pages": 0,
+     "note": "HTML shell only (1.1 MB of scripts); the figures render client-side and are not in the saved file."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "irs-inflation-adjustments",
+   "name": "IRS inflation adjustments for tax year 2027 (Rev. Proc. 2026-35)",
+   "publisher": "Internal Revenue Service",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "Tax and tariff regime churn: OBBBA sunsets, court-voided tariffs, refunds, yearly IRS resets"
+   ],
+   "what_it_forecasts": "The exact tax brackets, standard deduction, credits and exclusions that apply to income earned in 2027.",
+   "horizon": "Tax year 2027 (returns filed in 2028)",
+   "latest_edition": {
+    "title": "Revenue Procedure 2026-35; IRS news release IR-2026-133",
+    "date": "2026-11-05",
+    "url": "https://www.irs.gov/pub/irs-drop/rp-26-35.pdf"
+   },
+   "update_cadence": "Annual (October/November)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T5"
+    ],
+    "why": "Legally binding figures computed from already-published inflation data (T1, T5); but it is a one-year determination, not a multi-year forecast (T4 fails)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "About 70 exact dollar thresholds (standard deduction $33,200 joint for 2027; top rate above $661,375 single)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition; mechanical indexation, no AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched Rev. Proc. 2026-35 for 'artificial intelligence'/'AI': none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Perfectly reliable but only one year deep; a lookup table rather than a forecast.",
+   "primary_docs": [
+    {
+     "title": "Rev. Proc. 2026-35",
+     "url": "https://www.irs.gov/pub/irs-drop/rp-26-35.pdf",
+     "local_path": "primary/fiscal-government/irs-inflation-adjustments/rp-26-35.pdf",
+     "status": "full",
+     "bytes": 216025,
+     "pages": 32,
+     "note": ""
+    },
+    {
+     "title": "IRS news release IR-2026-133 (2026-11-05)",
+     "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2027-taxpayers-continue-to-benefit-from-the-working-families-tax-cuts",
+     "local_path": "primary/fiscal-government/irs-inflation-adjustments/IRS-news-release-TY2027-inflation-adjustments.html",
+     "status": "full",
+     "bytes": 108494,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "sovereign-yields-international",
+   "name": "Government bond yields for the UK, euro area (France, Germany, Italy) and Japan",
+   "publisher": "Bank of England; European Central Bank; Ministry of Finance Japan",
+   "kind": "market price",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates"
+   ],
+   "what_it_forecasts": "Market borrowing costs of other large sovereigns across maturities.",
+   "horizon": "Tenors to 40 years",
+   "latest_edition": {
+    "title": "BoE nominal zero-coupon yields (to 2026-11-16); MoF JGB yields (to 2026-11-16); ECB long-term interest rate statistics (monthly to Oct 2026)",
+    "date": "2026-11-16",
+    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+   },
+   "update_cadence": "Daily (BoE, MoF); monthly (ECB)",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Same logic as US Treasuries: money at stake, many independent investors, long tenors; term premium and central-bank holdings blur the forecast content."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Yield series only (UK 10y 5.33%, 20y 5.82% on 16 Nov 2026; JGB 10y 2.927%, 30y 4.062%; Italy 10y 4.68% in Oct 2026)."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated 2026 prices that embed AI-capex and growth expectations (the OBR notes 'competition for financing from increased AI investment') but cannot be separated."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Pure price data. Sovereign CDS spreads not obtainable from free sources; FRED (OECD series) timed out."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Cross-country context for the Treasury source; no narrative content of its own.",
+   "primary_docs": [
+    {
+     "title": "Japan MoF JGB yield curve, November 2026 (CSV)",
+     "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
+     "local_path": "primary/fiscal-government/sovereign-yields-international/Japan-MoF-JGB-yields-current.csv",
+     "status": "full",
+     "bytes": 1350,
+     "pages": 0,
+     "note": "Shift-JIS original; UTF-8 rendering saved as .txt"
+    },
+    {
+     "title": "Bank of England 10y and 20y nominal zero-coupon gilt yields, 2026 (CSV; series IUDMNZC, IUDLNZC)",
+     "url": "https://www.bankofengland.co.uk/boeapps/database/",
+     "local_path": "primary/fiscal-government/sovereign-yields-international/BoE-UK-10y-20y-nominal-zero-coupon-yields-2026.csv",
+     "status": "full",
+     "bytes": 5973,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "ECB long-term interest rates for convergence purposes, FR/DE/IT, last 12 months (CSV)",
+     "url": "https://data-api.ecb.europa.eu/service/data/IRS/M.FR+DE+IT.L.L40.CI.0000.EUR.N.Z?lastNObservations=12&format=csvdata",
+     "local_path": "primary/fiscal-government/sovereign-yields-international/ECB-10y-govt-bond-yields-FR-DE-IT-monthly.csv",
+     "status": "full",
+     "bytes": 13283,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "FRED OECD long-term yields; sovereign CDS",
+     "url": "https://fred.stlouisfed.org/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "FRED timed out; no free CDS source."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "metaculus",
+   "name": "Metaculus forecasting questions on US fiscal outcomes",
+   "publisher": "Metaculus",
+   "kind": "scored forecast",
+   "covers_trends": [
+    "Federal debt-service squeeze: ~6%-of-GDP deficits, interest above defense, higher long rates",
+    "Entitlement cliffs and benefit retrenchment (Social Security, Medicare, Medicaid, SNAP, ACA)"
+   ],
+   "what_it_forecasts": "Community probability distributions on debt, deficits, shutdowns and policy events.",
+   "horizon": "Months to 10+ years",
+   "latest_edition": {
+    "title": "Metaculus question pages (not retrieved)",
+    "date": "2026-11-18",
+    "url": "https://www.metaculus.com/questions/"
+   },
+   "update_cadence": "Continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Many independent forecasters (T2) with a published, scored track record (T3); no money at stake and thin participation on long-dated fiscal questions."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Single distributions with comment threads."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated; AI questions abundant, but fiscal questions do not isolate AI. Not verified against current pages."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "API returned 403; no question data retrieved, so AI treatment on fiscal questions is unverified."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Could not be accessed; scores rest on the platform's general design, not on inspected content.",
+   "primary_docs": [
+    {
+     "title": "Metaculus API / question pages",
+     "url": "https://www.metaculus.com/api2/questions/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 from the API."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "opm-federal-workforce",
+   "name": "OPM Federal Workforce Data (headcount, separations, accessions)",
+   "publisher": "U.S. Office of Personnel Management",
+   "kind": "survey",
+   "covers_trends": [
+    "State and local budget stress and federal cost-shifting (deficits, pensions, service cuts)",
+    "Government adoption and regulation of AI on binding timetables"
+   ],
+   "what_it_forecasts": "Not a forecast: monthly counts of federal civilian employees by agency, used to track announced reductions in force.",
+   "horizon": "Backward-looking; monthly to September 2026",
+   "latest_edition": {
+    "title": "Federal Workforce Data portal (September 2026 data, incomplete for Department of War components per site banner)",
+    "date": "2026-11-18",
+    "url": "https://data.opm.gov/"
+   },
+   "update_cadence": "Monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Administrative data that is regularly revised (feedback) but contains no forward commitment; agency RIF plans are announced separately and often reversed or litigated."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Agency-level headcount and separation series."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2026 data; no AI dimension."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Portal landing page only; dashboards are script-rendered."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Tracks the federal workforce trend but makes no forecast; landing page saved only.",
+   "primary_docs": [
+    {
+     "title": "data.opm.gov landing page",
+     "url": "https://data.opm.gov/",
+     "local_path": "primary/fiscal-government/opm-federal-workforce/data-opm-gov-homepage.html",
+     "status": "partial",
+     "bytes": 153701,
+     "pages": 0,
+     "note": "Landing page HTML only; data dashboards not captured."
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}

@@ -1,0 +1,2301 @@
+{
+ "area_id": "demographics-education",
+ "area_name": "People: population, migration, ageing & education",
+ "trends": [
+  {
+   "trend": "US immigration reversal and enforcement build-out",
+   "why_it_shapes_daily_life": "Decides who is available to build houses, staff care homes, pick crops and fill classrooms: official assumptions cut non-LPR inflows for 2026–2030 by roughly 30–45%, $75bn of detention and ICE money runs to 2029, skilled-visa and refugee channels are nearly closed."
+  },
+  {
+   "trend": "Falling births and near-zero natural population growth",
+   "why_it_shapes_daily_life": "Fewer babies each year (3.61m in 2025) empties maternity wards, day-care and kindergartens first; deaths are projected to exceed births around 2030, so any local growth depends on migration."
+  },
+  {
+   "trend": "Ageing: the 80+ boom, care demand and pension strain",
+   "why_it_shapes_daily_life": "About 7.7 million more Americans aged 65+ by 2030 and the 80+ group up roughly 28%: families hunt for care places as occupancy and prices rise, and the retirement trust fund hits its depletion date in 2032."
+  },
+  {
+   "trend": "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students",
+   "why_it_shapes_daily_life": "The US graduating class peaked in 2025 and shrinks unevenly (Illinois minus 14% by 2030); districts close schools, small colleges merge or close, and foreign students who paid full price are down 15% among new enrolments."
+  },
+  {
+   "trend": "AI rewiring how students learn and what education businesses survive",
+   "why_it_shapes_daily_life": "Half of teens already use chatbots for schoolwork; homework-help firms are collapsing, computer-science majors are falling 12% a year and PISA scores are at record lows — what school is for, and which credentials pay, is being renegotiated."
+  }
+ ],
+ "sources": [
+  {
+   "id": "ssa-trustees-2026",
+   "name": "2026 OASDI Trustees Report — demographic assumptions (fertility, mortality, net immigration) and population by age",
+   "publisher": "Social Security Board of Trustees / SSA Office of the Chief Actuary",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "US immigration reversal and enforcement build-out",
+    "Falling births and near-zero natural population growth",
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "Year-by-year US (Social Security area) fertility, deaths, LPR and temporary/unlawfully-present immigration and emigration, population by age group and trust-fund depletion dates, 2026–2100.",
+   "horizon": "annual to 2100 (short-range detail 2026–2035)",
+   "latest_edition": {
+    "title": "The 2026 Annual Report of the Board of Trustees of the Federal OASI and DI Trust Funds; with \"The Long-Range Demographic Assumptions for the 2026 Trustees Report\"",
+    "date": "2026-06-09",
+    "url": "https://www.ssa.gov/OACT/TR/2026/tr2026.pdf"
+   },
+   "update_cadence": "annual (assumptions set each February; report mid-year)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Statutory annual projection that is re-marked every year with a published reconciliation of assumption changes (section IV.B.6), reviewed by an appointed Technical Panel and shadowed by CBO; the 65+ population of 2031 is already born (T5). No money or licence is lost if wrong, and it has a documented directional bias: Kashin, King & Soneji (J. Econ. Perspectives 2015, https://www.aeaweb.org/articles?id=10.1257/jep.29.2.239) found systematic errors after 2000, and the ultimate fertility assumption has had to be cut again this year (1.90 to 1.75). Date note: 2026-06-09 is read from the demographic-assumptions memo; the main report PDF could not be opened (HTTP 403)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Year-by-year tables of immigration by legal category (e.g. 740,000 temporary/unlawful entrants assumed for 2026), unlawfully-present stock (17.3m to 15.6m by end-2029), TFR path, population by age group, dependency ratios and depletion quarters, with narrated reasons for each change."
+   },
+   "ai": {
+    "score": 2,
+    "why": "June 2026 edition, but AI does not appear in the captured demographic, highlights or economic-assumption sections; the ultimate productivity assumption (1.63%) is explicitly \"unchanged from the 2025 report\"."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the captured sections II.A, V.A, V.B and the Long-Range Demographic Assumptions memo for \"artificial intelligence\", \"AI\", \"automation\", \"technology\": none found. The complete 280+ page PDF was not obtainable (403), so other chapters are unchecked."
+   },
+   "tier": "top",
+   "why_top_or_not": "Ties several sources on score; chosen as the only 2026-vintage official source with year-by-year US immigration, fertility and age-structure numbers through 2031 that could be captured (CBO’s PDF was blocked).",
+   "primary_docs": [
+    {
+     "title": "2026 OASDI Trustees Report, section V.A Demographic Assumptions and Methods (HTML text capture)",
+     "url": "https://www.ssa.gov/OACT/TR/2026/V_A_demo.html",
+     "local_path": "primary/demographics-education/ssa-trustees-2026/tr2026-V_A_demographic-assumptions.txt",
+     "status": "partial",
+     "bytes": 53287,
+     "pages": 0,
+     "note": "ssa.gov returned HTTP 403 to direct download; full section text captured with a web fetch tool incl. tables V.A1–V.A4."
+    },
+    {
+     "title": "The Long-Range Demographic Assumptions for the 2026 Trustees Report (memo, June 9, 2026) — text capture",
+     "url": "https://www.ssa.gov/oact/TR/2026/2026_Long-Range_Demographic_Assumptions.pdf",
+     "local_path": "primary/demographics-education/ssa-trustees-2026/2026_Long-Range_Demographic_Assumptions-textcapture.txt",
+     "status": "partial",
+     "bytes": 134709,
+     "pages": 0,
+     "note": "Text rendering of the PDF via fetch tool (about 134k characters); page breaks not preserved."
+    },
+    {
+     "title": "2026 OASDI Trustees Report, II.A Highlights and V.B Economic Assumptions — excerpts",
+     "url": "https://www.ssa.gov/OACT/TR/2026/II_A_highlights.html",
+     "local_path": "primary/demographics-education/ssa-trustees-2026/tr2026-II_A-highlights-and-V_B-productivity-excerpts.txt",
+     "status": "partial",
+     "bytes": 5259,
+     "pages": 0,
+     "note": "Excerpts only (key results, notable changes, productivity and labour-force paragraphs)."
+    },
+    {
+     "title": "2026 OASDI Trustees Report — complete PDF",
+     "url": "https://www.ssa.gov/OACT/TR/2026/tr2026.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 from ssa.gov (bot protection) on direct download; not retried around the block."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Temporary or Unlawfully Present Immigration, Historical Values and Assumed Future Values Under Intermediate Assumptions Year 2025 Trustees Report 2026 Trustees Report [...] 2025 2,000,000 800,000 2026 1,350,000 740,000 2027 1,350,000 750,000 2028 1,350,000 790,000 2029 1,350,000 860,000 2030 1,350,000 970,000",
+     "doc_local_path": "primary/demographics-education/ssa-trustees-2026/2026_Long-Range_Demographic_Assumptions-textcapture.txt",
+     "page": null,
+     "locator": "Section 3 Immigration, table of temporary/unlawfully present immigration (2025 TR vs 2026 TR), memo dated June 9, 2026",
+     "url": "https://www.ssa.gov/oact/TR/2026/2026_Long-Range_Demographic_Assumptions.pdf",
+     "worldbuilding_use": "Official annual inflow path of non-LPR migrants 2026–2030; 2026 is 45% below last year’s assumption."
+    },
+    {
+     "text": "The projected size of the temporary or unlawfully present immigrant population drops modestly under the intermediate assumptions, from about 17.3 million at the end of 2025 to about 15.6 million at the end of 2029.",
+     "doc_local_path": "primary/demographics-education/ssa-trustees-2026/tr2026-V_A_demographic-assumptions.txt",
+     "page": null,
+     "locator": "Section V.A.3 Immigration",
+     "url": "https://www.ssa.gov/OACT/TR/2026/V_A_demo.html",
+     "worldbuilding_use": "Size of the undocumented/temporary population shrinking by 1.7 million by end-2029."
+    },
+    {
+     "text": "2025d | 82,682 | 200,488 | 64,619 | 347,788 | .322 | .735 | [...] 2030 | 79,461 | 199,580 | 72,324 | 351,365 | .362 | .761 |",
+     "doc_local_path": "primary/demographics-education/ssa-trustees-2026/tr2026-V_A_demographic-assumptions.txt",
+     "page": null,
+     "locator": "Table V.A3 Social Security Area Population on July 1 (thousands): under 20 | 20-64 | 65 and over | total | aged dependency ratio | total dependency ratio; intermediate assumptions",
+     "url": "https://www.ssa.gov/OACT/TR/2026/V_A_demo.html",
+     "worldbuilding_use": "By 2030: 7.7m more people 65+, 3.2m fewer under-20s, working-age population flat."
+    },
+    {
+     "text": "The OASI Trust Fund is projected to become depleted in the fourth quarter of 2032, one quarter earlier than projected in last year’s report. Upon reserve depletion in 2032, projected income is sufficient to pay 78 percent of scheduled benefits.",
+     "doc_local_path": "primary/demographics-education/ssa-trustees-2026/tr2026-II_A-highlights-and-V_B-productivity-excerpts.txt",
+     "page": null,
+     "locator": "II.A Highlights, Trust Fund Reserves and Reserve Depletion",
+     "url": "https://www.ssa.gov/OACT/TR/2026/II_A_highlights.html",
+     "worldbuilding_use": "Dated political cliff: retirement benefits cut to 78% in late 2032 absent legislation."
+    },
+    {
+     "text": "The assumed ultimate annual increase in total-economy productivity is 1.93, 1.63, and 1.33 percent for the low-cost, intermediate, and high-cost assumptions, respectively. These rates of increase are unchanged from the 2025 report.",
+     "doc_local_path": "primary/demographics-education/ssa-trustees-2026/tr2026-II_A-highlights-and-V_B-productivity-excerpts.txt",
+     "page": null,
+     "locator": "V.B.1 Productivity (shows AI is not moving the numbers)",
+     "url": "https://www.ssa.gov/OACT/TR/2026/V_B_econ.html",
+     "worldbuilding_use": "Official baseline assumes no AI productivity break: 1.63% a year, unchanged."
+    }
+   ]
+  },
+  {
+   "id": "immigration-enforcement-commitments",
+   "name": "Enacted immigration-enforcement money and presidential caps: OBBBA (P.L. 119-21) ICE/CBP appropriations, H-1B $100,000 proclamation extension, FY2027 refugee ceiling",
+   "publisher": "US Congress / President (Statutes at Large; Federal Register)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "US immigration reversal and enforcement build-out"
+   ],
+   "what_it_forecasts": "Not a forecast: legally binding dollars and caps — $45bn detention, $29.85bn ICE operations and $46.55bn wall funding available to 30 Sept 2029; H-1B $100,000 payment extended to 21 Sept 2027; 17,500 refugee ceiling for FY2027.",
+   "horizon": "appropriations available through 30 Sept 2029 (state border fund to 2034); proclamation to 21 Sept 2027; refugee ceiling FY2027",
+   "latest_edition": {
+    "title": "Presidential Determination No. 2026-24 on Refugee Admissions for FY2027 (91 FR 63119) and Proclamation 11069 (91 FR 60497); underlying statute Public Law 119-21 of July 4, 2025",
+    "date": "2026-10-02",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20318.pdf"
+   },
+   "update_cadence": "event-driven; refugee determination annual (each September); proclamation renewed annually so far",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T2",
+     "T4",
+     "T5"
+    ],
+    "why": "These are enacted appropriations and signed presidential actions, not opinions: the money is already appropriated and available until 30 Sept 2029 (T4, T5) and the main elements (the H-1B payment, detention expansion, refugee restrictions) are being litigated by states, employers and advocacy groups (T2). Known limits: they fix inputs (dollars, caps, fees), not outcomes such as removal counts, and executive actions can be reversed or enjoined; no error record exists (T3 fails)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named agencies, dollar amounts by purpose (detention capacity, hiring, bonuses, wall, surveillance towers, World Cup/Olympics security), availability dates, visa fee, petitions paid to date, nationality allocation of refugee slots."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Statute dated July 2025 and 2026 presidential documents; AI appears only as a procurement item (AI/\"autonomous\" surveillance towers and inspection equipment inside a $6.168bn CBP technology line), not as a driver of migration or labour demand."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "the term ‘‘autonomous’’ means a system designed to apply artificial intelligence, machine learning, computer vision, or other algorithms to accurately detect, identify, classify, and track items of interest in real time such that the system can make operational adjustments without the active engagement of personnel or continuous human command or control.",
+     "doc_local_path": "primary/demographics-education/immigration-enforcement-commitments/PLAW-119publ21-OBBBA.pdf",
+     "page": 289
+    },
+    "search_note": "OBBBA searched for \"artificial intelligence\", \"machine learning\", \"autonomous\": hits in sec. 90004 (border technology) and defence titles. H-1B proclamations and refugee determination: no AI terms."
+   },
+   "tier": "top",
+   "why_top_or_not": "The hardest evidence on where US immigration is heading to 2029: money already appropriated and caps already signed, with dates.",
+   "primary_docs": [
+    {
+     "title": "Public Law 119-21 (One Big Beautiful Bill Act), July 4, 2025 — full statute",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "local_path": "primary/demographics-education/immigration-enforcement-commitments/PLAW-119publ21-OBBBA.pdf",
+     "status": "full",
+     "bytes": 968588,
+     "pages": 331,
+     "note": "Immigration provisions: Title IX subtitle A (secs. 90001–90007) and Title X subtitle A (secs. 100051–100057)."
+    },
+    {
+     "title": "Proclamation 11069 of September 18, 2026, Restriction on Entry of Certain Nonimmigrant Workers (91 FR 60497)",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-23/pdf/2026-19554.pdf",
+     "local_path": "primary/demographics-education/immigration-enforcement-commitments/FR-2026-19554-H1B-restriction-proclamation-2026-09.pdf",
+     "status": "full",
+     "bytes": 197501,
+     "pages": 4,
+     "note": "Extends the $100,000 H-1B payment requirement to 21 Sept 2027."
+    },
+    {
+     "title": "Proclamation 10973 of September 19, 2025, Restriction on Entry of Certain Nonimmigrant Workers (90 FR)",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2025-09-24/pdf/2025-18601.pdf",
+     "local_path": "primary/demographics-education/immigration-enforcement-commitments/FR-2025-18601-H1B-restriction-proclamation-2025-09.pdf",
+     "status": "full",
+     "bytes": 197134,
+     "pages": 4,
+     "note": "Original $100,000 H-1B proclamation."
+    },
+    {
+     "title": "Presidential Determination No. 2026-24 of September 25, 2026 on Refugee Admissions for Fiscal Year 2027 (91 FR 63119)",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20318.pdf",
+     "local_path": "primary/demographics-education/immigration-enforcement-commitments/FR-2026-20318-refugee-determination-FY2027-published.pdf",
+     "status": "full",
+     "bytes": 190751,
+     "pages": 2,
+     "note": ""
+    },
+    {
+     "title": "DHS OHSS / ICE monthly enforcement and detention statistics",
+     "url": "https://www.ohss.dhs.gov/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "ohss.dhs.gov did not respond (connection failure) on 2026-11-18; outcome data (removals, detention population) therefore not captured."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "there is appropriated to U.S. Immigration and Customs Enforcement for fiscal year 2025, out of any money in the Treasury not otherwise appropriated, to remain available until September 30, 2029, $45,000,000,000, for single adult alien detention capacity and family residential center capacity.",
+     "doc_local_path": "primary/demographics-education/immigration-enforcement-commitments/PLAW-119publ21-OBBBA.pdf",
+     "page": 288,
+     "locator": "Sec. 90003 Detention capacity (139 Stat.)",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "worldbuilding_use": "Detention build-out funded through FY2029: new facilities, contractors, local economies around them."
+    },
+    {
+     "text": "there is appropriated to the Secretary of Homeland Security for U.S. Immigration and Customs Enforcement for fiscal year 2025, out of any money in the Treasury not otherwise appropriated, $29,850,000,000, to remain available through September 30, 2029, for the following purposes: (1) HIRING AND TRAINING.—Hiring and training additional U.S. Immigration and Customs Enforcement personnel",
+     "doc_local_path": "primary/demographics-education/immigration-enforcement-commitments/PLAW-119publ21-OBBBA.pdf",
+     "page": 317,
+     "locator": "Sec. 100052 Appropriation for U.S. Immigration and Customs Enforcement",
+     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+     "worldbuilding_use": "ICE hiring surge and interior enforcement paid for until 30 Sept 2029."
+    },
+    {
+     "text": "The 2025 Proclamation went into effect on September 21, 2025, and, since then, the $100,000 payment has been made for over 700 petitions.",
+     "doc_local_path": "primary/demographics-education/immigration-enforcement-commitments/FR-2026-19554-H1B-restriction-proclamation-2026-09.pdf",
+     "page": 1,
+     "locator": "Proclamation 11069 preamble",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-23/pdf/2026-19554.pdf",
+     "worldbuilding_use": "Only ~700 employers paid the $100k H-1B fee in a year: skilled-visa pipeline nearly shut."
+    },
+    {
+     "text": "It is therefore in the interests of the United States to extend the 2025 Proclamation for an additional 12 months, until 12:00 a.m. eastern daylight time on September 21, 2027.",
+     "doc_local_path": "primary/demographics-education/immigration-enforcement-commitments/FR-2026-19554-H1B-restriction-proclamation-2026-09.pdf",
+     "page": 1,
+     "locator": "Proclamation 11069 preamble",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-23/pdf/2026-19554.pdf",
+     "worldbuilding_use": "H-1B $100,000 fee in force through at least 21 September 2027."
+    },
+    {
+     "text": "The admission of up to 17,500 refugees to the United States during Fiscal Year 2027 is justified by humanitarian concerns or is otherwise in the national interest. The admissions shall primarily be allocated among Afrikaners from South Africa pursuant to Executive Order 14204.",
+     "doc_local_path": "primary/demographics-education/immigration-enforcement-commitments/FR-2026-20318-refugee-determination-FY2027-published.pdf",
+     "page": 1,
+     "locator": "Presidential Determination No. 2026-24",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20318.pdf",
+     "worldbuilding_use": "Refugee resettlement capped at 17,500 in FY2027, mostly Afrikaners; resettlement agencies shrink."
+    }
+   ]
+  },
+  {
+   "id": "senior-housing-reits",
+   "name": "Senior-housing owners’ SEC filings: Welltower, Ventas, Brookdale (occupancy, 80+ demand, supply, investment pace)",
+   "publisher": "Welltower Inc.; Ventas, Inc.; Brookdale Senior Living Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "Occupancy, rent growth, acquisitions and full-year guidance for US/UK/Canada senior housing, explicitly underwritten on growth of the 80+ population and historically low construction starts.",
+   "horizon": "guidance to FY2026 year-end; demand thesis stated through 2030; assets and debt 10–30 years",
+   "latest_edition": {
+    "title": "Welltower Form 10-Q for the quarter ended September 30, 2026 (filed 2026-10-27) and 3Q26 earnings release; Ventas 10-Q (filed 2026-10-28); FY2025 10-Ks",
+    "date": "2026-10-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000046/well-20260930.htm"
+   },
+   "update_cadence": "quarterly (10-Q/8-K), annual 10-K",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3",
+     "T5"
+    ],
+    "why": "Statements are made under securities-law liability and backed by billions of deployed capital ($2.7bn of senior-housing investments in one quarter); analysts and short-sellers contest them, and occupancy is re-reported every quarter against prior guidance. The demand driver (people turning 80 by 2031) is already alive. Known bias: issuer optimism — demand and supply claims are selected to support the equity story, and technology-enabled ageing-in-place is acknowledged only as a risk factor."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Quarter-by-quarter occupancy percentages, same-store NOI and RevPOR growth, number of properties bought, guidance ranges, named operators and geographies, plus stated demographic assumptions (80+ population +28% through 2030)."
+   },
+   "ai": {
+    "score": 3,
+    "why": "2026 filings; AI appears as an operating tool (Welltower data-science platform, Ventas OI) and as a risk factor (AI plus at-home services letting seniors age in place), but no demand or occupancy number is adjusted for it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "our competitors or other third parties may incorporate advanced technology, including artificial intelligence, into their business operations or services more quickly or more successfully than us, which could impair our ability to compete effectively. Such advances in technology and at-home services may also permit more seniors to age-in-place at home and could have an impact on the demand for senior living communities.",
+     "doc_local_path": "primary/demographics-education/senior-housing-reits/brookdale-10k-fy2025.htm",
+     "page": null
+    },
+    "search_note": "Searched all six filings for \"artificial intelligence\", \"machine learning\", \"AI\": risk-factor and platform descriptions only."
+   },
+   "tier": "top",
+   "why_top_or_not": "Best money-at-stake read on how the 80+ wave translates into occupancy, prices and building through 2030.",
+   "primary_docs": [
+    {
+     "title": "Welltower Inc. Form 10-K for FY2025 (filed 2026-02-12)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000010/well-20251231.htm",
+     "local_path": "primary/demographics-education/senior-housing-reits/welltower-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 5403269,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Welltower Inc. Form 10-Q for quarter ended 2026-09-30 (filed 2026-10-27)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000046/well-20260930.htm",
+     "local_path": "primary/demographics-education/senior-housing-reits/welltower-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 3364166,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Welltower 3Q26 earnings press release (8-K exhibit 99.1, 2026-10-26)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000043/a3q26pressreleaseprnnewswi.htm",
+     "local_path": "primary/demographics-education/senior-housing-reits/welltower-3q26-earnings-release-8k-ex99.htm",
+     "status": "full",
+     "bytes": 365586,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Ventas, Inc. Form 10-K for FY2025 (filed 2026-02-06)",
+     "url": "https://www.sec.gov/Archives/edgar/data/740260/000074026026000006/vtr-20251231.htm",
+     "local_path": "primary/demographics-education/senior-housing-reits/ventas-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 4361370,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Ventas, Inc. Form 10-Q for quarter ended 2026-09-30 (filed 2026-10-28)",
+     "url": "https://www.sec.gov/Archives/edgar/data/740260/000074026026000030/vtr-20260930.htm",
+     "local_path": "primary/demographics-education/senior-housing-reits/ventas-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 2876782,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Brookdale Senior Living Inc. Form 10-K for FY2025 (filed 2026-02-19)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm",
+     "local_path": "primary/demographics-education/senior-housing-reits/brookdale-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2340661,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Senior housing is expected to benefit from a large and growing aging demographic in the United States, with the 80+ population anticipated to grow by 28% through 2030. United States senior housing construction starts are at historically low levels.",
+     "doc_local_path": "primary/demographics-education/senior-housing-reits/ventas-10k-fy2025.htm",
+     "page": null,
+     "locator": "Item 1 Business (FY2025 10-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/740260/000074026026000006/vtr-20251231.htm",
+     "worldbuilding_use": "80+ population +28% by 2030 against almost no new building: waiting lists, rising rents."
+    },
+    {
+     "text": "Average occupancy is as follows: Three Months Ended (1) March 31, June 30, September 30, December 31, 2025 85.1 % 85.7 % 86.8 % 87.5 % 2026 87.3 % 87.6 % 88.3 %",
+     "doc_local_path": "primary/demographics-education/senior-housing-reits/welltower-10q-2026q3.htm",
+     "page": null,
+     "locator": "MD&A, Seniors Housing Operating segment, average occupancy table (as of 2026-09-30)",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000046/well-20260930.htm",
+     "worldbuilding_use": "Senior-housing occupancy climbing about 1.5 points a year, 88.3% in Q3 2026."
+    },
+    {
+     "text": "SHO portfolio organic same store revenue growth increased 9.1% year-over-year in the third quarter, resulting from 320 basis points (\"bps\") of average occupancy growth and 5.3% growth in Revenue Per Occupied Room (\"RevPOR\")",
+     "doc_local_path": "primary/demographics-education/senior-housing-reits/welltower-3q26-earnings-release-8k-ex99.htm",
+     "page": null,
+     "locator": "3Q26 earnings release highlights",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000043/a3q26pressreleaseprnnewswi.htm",
+     "worldbuilding_use": "Families face about 5% a year increases in senior-living room charges."
+    },
+    {
+     "text": "In the third quarter, we completed $2.7 billion of pro rata gross investments across 43 seniors housing properties.",
+     "doc_local_path": "primary/demographics-education/senior-housing-reits/welltower-3q26-earnings-release-8k-ex99.htm",
+     "page": null,
+     "locator": "3Q26 earnings release, Seniors Housing Acquisitions",
+     "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000043/a3q26pressreleaseprnnewswi.htm",
+     "worldbuilding_use": "Capital consolidating senior housing into a few giant landlords: $2.7bn in one quarter."
+    },
+    {
+     "text": "The primary market for our senior living services is individuals age 75 and older. [...] U.S. Census projections suggest that there will be over one million new potential residents per year for the next decade, and we believe that demand for senior care will increase as a result.",
+     "doc_local_path": "primary/demographics-education/senior-housing-reits/brookdale-10k-fy2025.htm",
+     "page": null,
+     "locator": "Item 1 Business, industry overview (FY2025 10-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm",
+     "worldbuilding_use": "One million additional Americans a year crossing 75 for the next decade."
+    }
+   ]
+  },
+  {
+   "id": "edtech-filings",
+   "name": "Education-technology company SEC filings as a market signal on AI in learning: Chegg, Duolingo, Coursera (merged with Udemy), Stride",
+   "publisher": "Chegg, Inc.; Duolingo, Inc.; Coursera, Inc.; Stride, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "AI rewiring how students learn and what education businesses survive"
+   ],
+   "what_it_forecasts": "Next-quarter revenue guidance and risk disclosures showing which education businesses AI is destroying (homework help), boosting (AI-native language learning) or forcing to merge (online courses), plus virtual-school enrolment.",
+   "horizon": "one quarter of formal guidance; risk-factor outlook unbounded",
+   "latest_edition": {
+    "title": "Form 10-Q filings for the quarter ended September 30, 2026 (Chegg filed 2026-11-03, Duolingo 2026-11-04, Coursera 2026-11-05); Stride 10-K for FY ended June 30, 2026",
+    "date": "2026-11-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000072/cour-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "why": "Real money and securities liability sit behind every number, short-sellers and analysts attack them, and guidance is marked against actuals each quarter. But the binding horizon is one quarter, not five years, and nothing about 2031 is in a pipeline — the anchor case of \"real money at stake but the instrument is much shorter than 5 years\"."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Company-level revenue, guidance, layoffs (640 employees, 56% of Chegg), daily active users, enrolments, merger dates and explicit causal narrative about Google AI Overviews and student use of generative AI."
+   },
+   "ai": {
+    "score": 5,
+    "why": "November 2026 filings in which AI is the stated, quantified driver: Chegg revenue down 40% year over year and a 56% workforce cut attributed to student adoption of generative AI; Coursera warns AI may \"eliminate the need\" for online courses."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "across our industry, there has been a continued increase in the adoption of free and paid generative AI products for academic support, and students are increasingly turning to generative AI for academic support, such as homework and exams, as well as assistance in other areas of daily life.",
+     "doc_local_path": "primary/demographics-education/edtech-filings/chegg-10k-fy2025.htm",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "top",
+   "why_top_or_not": "The only source in the area where AI demonstrably moves audited numbers, quarter by quarter, in education.",
+   "primary_docs": [
+    {
+     "title": "Chegg, Inc. Form 10-K for FY2025 (filed 2026-03-09)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1364954/000136495426000021/chgg-20251231.htm",
+     "local_path": "primary/demographics-education/edtech-filings/chegg-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2164165,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Chegg, Inc. Form 10-Q for quarter ended 2026-09-30 (filed 2026-11-03)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1364954/000143774926034534/chgg20260930c_10q.htm",
+     "local_path": "primary/demographics-education/edtech-filings/chegg-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 1821919,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Chegg 3Q26 earnings press release (8-K exhibit 99.1, filed 2026-11-03)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1364954/000143774926034518/ex_1013192.htm",
+     "local_path": "primary/demographics-education/edtech-filings/chegg-3q26-earnings-release-8k-ex99.htm",
+     "status": "full",
+     "bytes": 614784,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Duolingo, Inc. Form 10-K for FY2025 (filed 2026-02-27)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm",
+     "local_path": "primary/demographics-education/edtech-filings/duolingo-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 1872958,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Duolingo, Inc. Form 10-Q for quarter ended 2026-09-30 (filed 2026-11-04)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069692/duol-20260930.htm",
+     "local_path": "primary/demographics-education/edtech-filings/duolingo-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 1278007,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Coursera, Inc. Form 10-K for FY2025 (filed 2026-02-23)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000015/cour-20251231.htm",
+     "local_path": "primary/demographics-education/edtech-filings/coursera-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 2158087,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Coursera, Inc. Form 10-Q for quarter ended 2026-09-30 (filed 2026-11-05; first full quarters after Udemy merger)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000072/cour-20260930.htm",
+     "local_path": "primary/demographics-education/edtech-filings/coursera-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 2121688,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Stride, Inc. Form 10-K for FY ended 2026-06-30 (filed 2026-08-05)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1157408/000110465926090515/lrn-20260630x10k.htm",
+     "local_path": "primary/demographics-education/edtech-filings/stride-10k-fy2026.htm",
+     "status": "full",
+     "bytes": 2940332,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Pearson plc annual report",
+     "url": "https://plc.pearson.com/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not attempted in depth: UK filer outside EDGAR; left out to prioritise the four US filers."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "in May 2025 and October 2025, we announced restructuring plans that included reductions of our global workforce of approximately 640 employees, or approximately 56% of our workforce, to better align our cost structure with recent industry challenges that are negatively impacting our business, including increased competition and student adoption of generative AI products.",
+     "doc_local_path": "primary/demographics-education/edtech-filings/chegg-10k-fy2025.htm",
+     "page": null,
+     "locator": "Item 1A Risk Factors (FY2025 10-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1364954/000136495426000021/chgg-20251231.htm",
+     "worldbuilding_use": "A homework-help firm halves its staff because students switched to chatbots."
+    },
+    {
+     "text": "Third Quarter 2026 Highlights • Total Net Revenues of $46.5 million, a decrease of 40% year-over-year [...] Business Outlook Fourth Quarter 2026 • Total Net Revenues between $38 million and $40 million",
+     "doc_local_path": "primary/demographics-education/edtech-filings/chegg-3q26-earnings-release-8k-ex99.htm",
+     "page": null,
+     "locator": "3Q26 earnings release, highlights and outlook",
+     "url": "https://www.sec.gov/Archives/edgar/data/1364954/000143774926034518/ex_1013192.htm",
+     "worldbuilding_use": "Pace of collapse of the pre-AI study-help model: revenue still falling 40% a year in late 2026."
+    },
+    {
+     "text": "generative AI systems may reduce or eliminate the need for dedicated online learning solutions altogether by enabling organizations and individuals to use generative AI systems to perform skilled tasks directly, acquire skills through AI-assisted interaction",
+     "doc_local_path": "primary/demographics-education/edtech-filings/coursera-10q-2026q3.htm",
+     "page": null,
+     "locator": "Part II Item 1A Risk Factors (3Q26 10-Q)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000072/cour-20260930.htm",
+     "worldbuilding_use": "The largest online-course platform says AI may make courses themselves unnecessary."
+    },
+    {
+     "text": "On May 11, 2026 (“Closing Date”), we completed our previously announced all-stock combination with Udemy, Inc. (“Udemy”), an online learning platform, (the “Merger”) pursuant to an agreement and plan of merger dated as of December 17, 2025",
+     "doc_local_path": "primary/demographics-education/edtech-filings/coursera-10q-2026q3.htm",
+     "page": null,
+     "locator": "Note 1, Transaction with Udemy (3Q26 10-Q)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000072/cour-20260930.htm",
+     "worldbuilding_use": "Dated consolidation event: Coursera and Udemy merged on 11 May 2026."
+    },
+    {
+     "text": "For the three months ended September 30, 2026 and 2025, we had approximately 64.9 million and 50.5 million DAUs, respectively, representing an increase of 29%, driven largely by an increase in retention of current users.",
+     "doc_local_path": "primary/demographics-education/edtech-filings/duolingo-10q-2026q3.htm",
+     "page": null,
+     "locator": "MD&A Key Operating Metrics (3Q26 10-Q)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069692/duol-20260930.htm",
+     "worldbuilding_use": "AI-native learning apps keep growing: 65 million people practising daily."
+    }
+   ]
+  },
+  {
+   "id": "wiche-knocking",
+   "name": "Knocking at the College Door: Projections of High School Graduates (11th edition)",
+   "publisher": "Western Interstate Commission for Higher Education (WICHE)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students",
+    "Falling births and near-zero natural population growth"
+   ],
+   "what_it_forecasts": "Number of public and private high-school graduates by state, region and race/ethnicity for every graduating class to 2041 — the \"demographic cliff\" beginning after the 2025 peak.",
+   "horizon": "annual, classes of 2024 to 2041",
+   "latest_edition": {
+    "title": "Knocking at the College Door: Projections of High School Graduates, 11th edition",
+    "date": "2024-12-01",
+    "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf"
+   },
+   "update_cadence": "about every four years (2016, 2020, 2024)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Cohort-survival projection whose inputs are already born: the class of 2031 is in seventh grade today (T5), and WICHE publishes comparisons of past projections with actuals — the 2024 edition reports its totals fall \"within about 2% of the 2020 projections for the first five years\". No money or licence at stake and nobody is paid to attack it; recent direction of error was over-projection (about 750,000 fewer graduates through 2037 than the 2020 edition expected). Edition date: the document says only \"December 2024\" (day not stated; 2024-12-01 used as placeholder)."
+   },
+   "richness": {
+    "score": 5,
+    "why": "State-by-state graduate counts for 2023, 2025, 2030, 2035 and 2041, regional tables, race/ethnicity splits, public/private, and explained mechanisms (births 18 years earlier, grade progression, migration, COVID enrolment loss)."
+   },
+   "ai": {
+    "score": 1,
+    "why": "December 2024 edition (pre-2025) and a pure cohort model: no AI treatment; every \"AI\" string in the text is the abbreviation for American Indian."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched for \"artificial intelligence\", \"AI\", \"automation\", \"chatbot\": none found (all \"AI\" hits are \"AI/AN\" = American Indian/Alaska Native)."
+   },
+   "tier": "top",
+   "why_top_or_not": "Ties several sources on score; chosen because it alone gives dated, state-level graduating-class sizes already locked in by births. Stale on AI.",
+   "primary_docs": [
+    {
+     "title": "Knocking at the College Door, 11th edition — full report (December 2024)",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf",
+     "local_path": "primary/demographics-education/wiche-knocking/2024-Knocking-at-the-College-Door-final.pdf",
+     "status": "full",
+     "bytes": 2708983,
+     "pages": 88,
+     "note": "Technical Appendix with past-projection accuracy analysis is a separate file and was not located for download."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The latest available data confirm while there are periods of projected relative stability (e.g., 2028-29 through 2034-35), the overall national trend is a downward slope to below 3.4 million by 2041. Based on the most recent available data, WICHE projects that 2041 will see about 13% fewer graduates than in 2025",
+     "doc_local_path": "primary/demographics-education/wiche-knocking/2024-Knocking-at-the-College-Door-final.pdf",
+     "page": 12,
+     "locator": "High school graduate projections by total number",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf",
+     "worldbuilding_use": "National graduating class shrinks from 3.8–3.9m in 2025 toward 3.4m; plateau 2029–2035."
+    },
+    {
+     "text": "In terms of total numbers, five high-population states (California, Illinois, Michigan, New York, and Pennsylvania) are projected to account for about three-fourths of the expected decline in total projected graduates between 2023 and 2041.",
+     "doc_local_path": "primary/demographics-education/wiche-knocking/2024-Knocking-at-the-College-Door-final.pdf",
+     "page": 13,
+     "locator": "High school graduate projections by total number",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf",
+     "worldbuilding_use": "Where school and college closures concentrate: CA, IL, MI, NY, PA."
+    },
+    {
+     "text": "California 477,531 469,214 ▼ 435,481 ▼ 402,356 ▼ 339,022 ▼ -29% Colorado 64,096 65,716 ▲ 60,300 ▼ 59,557 ▼ 56,457 ▼ -12%",
+     "doc_local_path": "primary/demographics-education/wiche-knocking/2024-Knocking-at-the-College-Door-final.pdf",
+     "page": 38,
+     "locator": "Table 4. High school graduates by state in the West — columns 2023, 2025, 2030, 2035, 2041, % difference 2023 to 2041",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf",
+     "worldbuilding_use": "California graduating class: 469k in 2025, 435k in 2030, 339k in 2041."
+    },
+    {
+     "text": "Illinois 145,564 144,561 ▼ 124,210 ▼ 119,005 ▼ 99,067 ▼ -32% [...] Michigan 106,883 104,326 ▼ 95,746 ▼ 96,183 ▼ 85,131 ▼ -20%",
+     "doc_local_path": "primary/demographics-education/wiche-knocking/2024-Knocking-at-the-College-Door-final.pdf",
+     "page": 47,
+     "locator": "Table 6. High school graduates by state in the Midwest — columns 2023, 2025, 2030, 2035, 2041, % difference",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf",
+     "worldbuilding_use": "Illinois graduating class is 20,000 smaller in 2030 than in 2025, a 14% drop."
+    },
+    {
+     "text": "Through 2037, the changes in K-12 enrollment cumulatively lead to about 750,000 fewer high school graduates compared to the previous projections.",
+     "doc_local_path": "primary/demographics-education/wiche-knocking/2024-Knocking-at-the-College-Door-final.pdf",
+     "page": 56,
+     "locator": "Section comparing 2020 and 2024 projections (Figure 27)",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf",
+     "worldbuilding_use": "The cliff is steeper than colleges planned for in 2020: 750,000 fewer graduates through 2037."
+    }
+   ]
+  },
+  {
+   "id": "cbo-demographic-outlook",
+   "name": "The Demographic Outlook: 2026 to 2056",
+   "publisher": "Congressional Budget Office",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "US immigration reversal and enforcement build-out",
+    "Falling births and near-zero natural population growth",
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "US population, births, deaths and net immigration by category and year underlying CBO’s 2026 baseline; deaths exceed births from 2030.",
+   "horizon": "annual to 2056",
+   "latest_edition": {
+    "title": "The Demographic Outlook: 2026 to 2056 (CBO publication 61879)",
+    "date": "2026-01-07",
+    "url": "https://www.cbo.gov/publication/61879"
+   },
+   "update_cadence": "annual (January); an extra update was issued in September 2025; no later 2026 update found",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Accountable nonpartisan agency that revises yearly, reconciles each edition with the previous one and regularly publishes evaluations of its projection record (mostly economic and budget; a demographic-specific error record is thin); age structure to 2031 is largely already born. No money at stake, and the near-term immigration path was revised down twice in 12 months (Jan and Sept 2025), showing how policy-sensitive it is."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Per the summary: population 349m (2026) to 364m (2056), deaths exceed births from 2030, net-immigration revisions 2025–2029 by cause; the full report (not obtained) has annual tables by immigration category."
+   },
+   "ai": {
+    "score": 2,
+    "why": "January 2026 edition; the published summary has no AI treatment (full PDF could not be checked)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Only the HTML summary could be captured; searched it for \"artificial intelligence\", \"AI\", \"automation\": none. Full PDF blocked (HTTP 403 bot protection; fetch tool timed out)."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Would rival SSA, but it is a near-duplicate mechanism and its primary PDF could not be downloaded, so no verifiable year-by-year quotes.",
+   "primary_docs": [
+    {
+     "title": "CBO publication page 61879 — summary text capture",
+     "url": "https://www.cbo.gov/publication/61879",
+     "local_path": "primary/demographics-education/cbo-demographic-outlook/cbo-61879-publication-page-textcapture.txt",
+     "status": "partial",
+     "bytes": 4384,
+     "pages": 0,
+     "note": "Summary page text via web fetch tool."
+    },
+    {
+     "title": "The Demographic Outlook: 2026 to 2056 — full report PDF",
+     "url": "https://www.cbo.gov/system/files/2026-01/61879-Demographic-Outlook.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "cbo.gov returned HTTP 403 (DataDome bot protection) to curl and to the WebFetch tool; Exa fetch timed out twice. Not circumvented."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Net immigration (the number of people who migrate to the United States minus the number who leave) is projected to become an increasingly important source of population growth in the coming years, as declining fertility rates cause the annual number of deaths to exceed the annual number of births starting in 2030.",
+     "doc_local_path": "primary/demographics-education/cbo-demographic-outlook/cbo-61879-publication-page-textcapture.txt",
+     "page": null,
+     "locator": "Summary, Population Growth",
+     "url": "https://www.cbo.gov/publication/61879",
+     "worldbuilding_use": "From 2030 the US shrinks without immigrants: deaths outnumber births."
+    }
+   ]
+  },
+  {
+   "id": "census-projections-estimates",
+   "name": "Census Bureau Vintage 2025 population estimates (with 2026 migration projection) and 2023 National Population Projections",
+   "publisher": "U.S. Census Bureau",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "US immigration reversal and enforcement build-out",
+    "Falling births and near-zero natural population growth",
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "Vintage 2025: state and national population and components of change to 1 July 2025 plus a projected net international migration of about 321,000 for 2026; NP2023: annual population, births, deaths and migration to 2100.",
+   "horizon": "estimates to mid-2025 with a one-year migration projection; NP2023 annual to 2100",
+   "latest_edition": {
+    "title": "Vintage 2025 Population Estimates (national and state), released January 27, 2026; 2023 National Population Projections (released November 2023) remain the latest projections series",
+    "date": "2026-01-27",
+    "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+   },
+   "update_cadence": "estimates annual (December/January); projections irregular (2017, 2023)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Official statistics re-benchmarked every year and at each census, with published evaluations of estimate and projection error; cohorts are born. No stakes or adversaries. The NP2023 main series is already badly off on migration: it assumed 865,000 net international migrants in 2026 where the Bureau itself now projects about 321,000."
+   },
+   "richness": {
+    "score": 4,
+    "why": "State-by-state population, births, deaths, domestic and international migration for 2020–2025; national projections by year with components; narrative on emigration."
+   },
+   "ai": {
+    "score": 2,
+    "why": "January 2026 estimates and 2023 projections; cohort-component accounting with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched press release, blog and table notes for \"artificial intelligence\", \"AI\", \"automation\": none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Authoritative for where people live now, but its forward projections predate the immigration reversal and are superseded by SSA/CBO 2026 assumptions.",
+   "primary_docs": [
+    {
+     "title": "Press release: U.S. Population Growth Slows Due to Historic Decline in Net International Migration (2026-01-27)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html",
+     "local_path": "primary/demographics-education/census-projections-estimates/vintage2025-press-release-2026-01-27.html",
+     "status": "full",
+     "bytes": 357919,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Random Samplings blog: New Population Estimates Show Historic Decline in Net International Migration (January 2026)",
+     "url": "https://www.census.gov/newsroom/blogs/random-samplings/2026/01/historic-decline-in-net-international-migration.html",
+     "local_path": "primary/demographics-education/census-projections-estimates/vintage2025-nim-blog-2026-01.html",
+     "status": "full",
+     "bytes": 360371,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NST-EST2025-ALLDATA state population and components of change, 2020–2025 (CSV)",
+     "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+     "local_path": "primary/demographics-education/census-projections-estimates/NST-EST2025-ALLDATA.csv",
+     "status": "full",
+     "bytes": 53555,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NST-EST2025-POP annual state population table (XLSX, .txt rendering saved)",
+     "url": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/state/totals/NST-EST2025-POP.xlsx",
+     "local_path": "primary/demographics-education/census-projections-estimates/NST-EST2025-POP.xlsx",
+     "status": "full",
+     "bytes": 16635,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NST-EST2025-COMP components of change table (XLSX, .txt rendering saved)",
+     "url": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/state/totals/NST-EST2025-COMP.xlsx",
+     "local_path": "primary/demographics-education/census-projections-estimates/NST-EST2025-COMP.xlsx",
+     "status": "full",
+     "bytes": 20364,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "2023 National Population Projections, Table 1 population and components of change 2022–2100 (XLSX, .txt rendering saved)",
+     "url": "https://www2.census.gov/programs-surveys/popproj/tables/2023/2023-summary-tables/np2023-t1.xlsx",
+     "local_path": "primary/demographics-education/census-projections-estimates/np2023-t1.xlsx",
+     "status": "full",
+     "bytes": 31263,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "2023 National Population Projections, Table 2 by age group (XLSX)",
+     "url": "https://www2.census.gov/programs-surveys/popproj/tables/2023/2023-summary-tables/np2023-t2.xlsx",
+     "local_path": "primary/demographics-education/census-projections-estimates/np2023-t2.xlsx",
+     "status": "full",
+     "bytes": 41139,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "2023 National Population Projections, Table 3 (XLSX)",
+     "url": "https://www2.census.gov/programs-surveys/popproj/tables/2023/2023-summary-tables/np2023-t3.xlsx",
+     "local_path": "primary/demographics-education/census-projections-estimates/np2023-t3.xlsx",
+     "status": "full",
+     "bytes": 35855,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "2023 National Population Projections, alternative immigration scenarios summary (XLSX)",
+     "url": "https://www2.census.gov/programs-surveys/popproj/tables/2023/2023-summary-tables/np2023-a.xlsx",
+     "local_path": "primary/demographics-education/census-projections-estimates/np2023-a.xlsx",
+     "status": "full",
+     "bytes": 27940,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Is projected to further decline to approximately 321,000 in 2026 if current trends continue (Figure 1). The large drop in NIM from 2024 to 2026 was caused by both a decrease in immigration and an increase in emigration (people moving out of the United States) during that period.",
+     "doc_local_path": "primary/demographics-education/census-projections-estimates/vintage2025-nim-blog-2026-01.html",
+     "page": null,
+     "locator": "Blog key findings on net international migration (NIM)",
+     "url": "https://www.census.gov/newsroom/blogs/random-samplings/2026/01/historic-decline-in-net-international-migration.html",
+     "worldbuilding_use": "Net migration falls from 2.7m (2024) to about 0.3m (2026)."
+    }
+   ]
+  },
+  {
+   "id": "un-wpp-2024",
+   "name": "World Population Prospects 2024",
+   "publisher": "UN DESA Population Division",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Falling births and near-zero natural population growth",
+    "Ageing: the 80+ boom, care demand and pension strain",
+    "US immigration reversal and enforcement build-out"
+   ],
+   "what_it_forecasts": "Population, fertility, mortality and migration for 237 countries/areas, with probabilistic intervals, to 2100.",
+   "horizon": "annual to 2100",
+   "latest_edition": {
+    "title": "World Population Prospects 2024: Summary of Results",
+    "date": "2024-07-11",
+    "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf"
+   },
+   "update_cadence": "every two to three years; no 2026 revision exists — secondary sources say the next revision moved to July 2027 (unconfirmed on un.org)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Probabilistic projections with a long, published accuracy literature (e.g. Keilman’s evaluations of UN projection errors) and regular revisions; near-term populations are already born. No stakes; recent revisions have repeatedly had to lower fertility for China, Korea and Latin America."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Country-level series for every indicator with narrated key messages (peak year, countries already peaked, role of migration)."
+   },
+   "ai": {
+    "score": 1,
+    "why": "July 2024 edition; automation appears once as generic policy advice, not in any number."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Countries, especially those with populations that have already peaked or will peak in the next decades, should consider leveraging technology, including automation, to improve productivity at all ages.",
+     "doc_local_path": "primary/demographics-education/un-wpp-2024/WPP2024_Summary-of-Results.pdf",
+     "page": 12
+    },
+    "search_note": "Searched for \"artificial intelligence\", \"AI\", \"automation\": only two \"automation\" mentions as policy advice."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Global reference but pre-2025, no AI, and already overtaken by 2025–26 birth data in East Asia.",
+   "primary_docs": [
+    {
+     "title": "World Population Prospects 2024: Summary of Results",
+     "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+     "local_path": "primary/demographics-education/un-wpp-2024/WPP2024_Summary-of-Results.pdf",
+     "status": "full",
+     "bytes": 18523583,
+     "pages": 80,
+     "note": "Data files (country tables) not downloaded."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "eu-ageing-report-europop",
+   "name": "2027 Ageing Report: Underlying Assumptions and Projection Methodologies (with Eurostat EUROPOP2025)",
+   "publisher": "European Commission DG ECFIN and Economic Policy Committee (Ageing Working Group); Eurostat",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Ageing: the 80+ boom, care demand and pension strain",
+    "Falling births and near-zero natural population growth",
+    "US immigration reversal and enforcement build-out"
+   ],
+   "what_it_forecasts": "Population, fertility, life expectancy, net migration, labour force, productivity and GDP for each EU country and Norway, 2025–2080, as agreed inputs for pension, health and long-term-care spending projections.",
+   "horizon": "annual, 2025 to 2080",
+   "latest_edition": {
+    "title": "2027 Ageing Report. Underlying Assumptions & Projection Methodologies, Institutional Paper 347",
+    "date": "2026-11-01",
+    "url": "https://economy-finance.ec.europa.eu/publications/2027-ageing-report-underlying-assumptions-and-projection-methodologies_en"
+   },
+   "update_cadence": "every three years (2021, 2024, 2027 editions); budgetary volume due spring 2027",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T5"
+    ],
+    "why": "Assumptions are negotiated by finance-ministry delegates of 27 member states with the Commission (many informed parties with opposing fiscal interests) and the 2031 elderly are already born; each edition publishes a comparison with the previous one but not a formal multi-year error record, and no one loses money if wrong. The document says \"NOVEMBER 2026\" without a day (2026-11-01 used as placeholder)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Country fiches and tables for 27+ countries by year: population by age, dependency ratios, migration, participation rates, TFP — with explicit methodology and comparison with EUROPOP2023."
+   },
+   "ai": {
+    "score": 3,
+    "why": "November 2026 edition that names AI explicitly but declines to raise long-run TFP for it — AI is acknowledged, the numbers are not moved."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Taken together, these arguments do not support the view that TFP growth will return to its historical long-run average, despite the potential impact of AI.",
+     "doc_local_path": "primary/demographics-education/eu-ageing-report-europop/ip347_en-2027-ageing-report-assumptions.pdf",
+     "page": 75
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scores as high as some top picks (fresh, full download, AI named) but duplicates the ageing trend already covered by a higher-scoring top source and is EU-only; kept as the best non-US complement.",
+   "primary_docs": [
+    {
+     "title": "2027 Ageing Report. Underlying Assumptions & Projection Methodologies (Institutional Paper 347, November 2026)",
+     "url": "https://economy-finance.ec.europa.eu/document/download/65373d1f-3667-4326-ae65-644f740fd67d_en?filename=ip347_en.pdf",
+     "local_path": "primary/demographics-education/eu-ageing-report-europop/ip347_en-2027-ageing-report-assumptions.pdf",
+     "status": "full",
+     "bytes": 3828196,
+     "pages": 186,
+     "note": ""
+    },
+    {
+     "title": "2027 Ageing Report — Country fiches (XLSX)",
+     "url": "https://economy-finance.ec.europa.eu/document/download/856f1862-1355-4868-83d1-3c9ac5f1f7b1_en?filename=2027%20Ageing%20Report%20-%20Country%20fiches.xlsx",
+     "local_path": "primary/demographics-education/eu-ageing-report-europop/2027-ageing-report-country-fiches.xlsx",
+     "status": "full",
+     "bytes": 3602679,
+     "pages": 0,
+     "note": "Text rendering of all sheets saved alongside as .xlsx.txt."
+    },
+    {
+     "title": "Publication landing page",
+     "url": "https://economy-finance.ec.europa.eu/publications/2027-ageing-report-underlying-assumptions-and-projection-methodologies_en",
+     "local_path": "primary/demographics-education/eu-ageing-report-europop/ar2027-landing.html",
+     "status": "full",
+     "bytes": 76777,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "In base year 2025, the EU counted about 1.1 million fewer people than anticipated in EUROPOP2023, published in the spring of 2023 (see Table 2), reflecting data revisions for Germany, Poland and Bulgaria. With few exceptions, fertility was weaker than previously assumed",
+     "doc_local_path": "primary/demographics-education/eu-ageing-report-europop/ip347_en-2027-ageing-report-assumptions.pdf",
+     "page": 17,
+     "locator": "Executive summary, comparison with the 2024 Ageing Report assumptions",
+     "url": "https://economy-finance.ec.europa.eu/document/download/65373d1f-3667-4326-ae65-644f740fd67d_en?filename=ip347_en.pdf",
+     "worldbuilding_use": "Europe’s births keep undershooting official assumptions; migration overshoots."
+    }
+   ]
+  },
+  {
+   "id": "japan-ipss-2023",
+   "name": "Population Projections for Japan (2023 revision): 2021 to 2070 (East Asia low-fertility benchmark; Korea/China tracked via national statistics)",
+   "publisher": "National Institute of Population and Social Security Research (IPSS), Japan",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Falling births and near-zero natural population growth",
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "Japan’s population by age, births, deaths and migration under nine fertility/mortality variants, 2021–2070.",
+   "horizon": "annual to 2070",
+   "latest_edition": {
+    "title": "Population Projections for Japan (2023 revision): 2021 to 2070 — Summary",
+    "date": "2023-04-26",
+    "url": "https://www.ipss.go.jp/pp-zenkoku/e/zenkoku_e2023/pp2023e_Summary.pdf"
+   },
+   "update_cadence": "every five years after each census (next expected about 2028)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Official five-yearly projection that documents differences from its previous revision and whose elderly cohorts are fixed. Known optimistic bias on births: medium-variant fertility has been undershot by actual births in successive revisions, so near-term births run below the medium path. Release day (26 April 2023) is from general knowledge of the release, not read off the summary PDF."
+   },
+   "richness": {
+    "score": 3,
+    "why": "National totals by broad age group and variant with commentary; no regional detail in the summary."
+   },
+   "ai": {
+    "score": 1,
+    "why": "2023 edition, cohort-component method, no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched for \"artificial intelligence\", \"AI\", \"automation\", \"robot\": none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Useful picture of the furthest-aged large society, but old, silent on AI and optimistic on births. Korea (2025 TFR 0.80, 254,300 births per press coverage) and China NBS releases were not downloaded.",
+   "primary_docs": [
+    {
+     "title": "Population Projections for Japan (2023 revision): 2021 to 2070 — Summary (English)",
+     "url": "https://www.ipss.go.jp/pp-zenkoku/e/zenkoku_e2023/pp2023e_Summary.pdf",
+     "local_path": "primary/demographics-education/japan-ipss-2023/pp2023e_Summary.pdf",
+     "status": "full",
+     "bytes": 1147231,
+     "pages": 81,
+     "note": ""
+    },
+    {
+     "title": "Korea Ministry of Data and Statistics 2025 birth statistics; China NBS 2025 population communique",
+     "url": "https://kostat.go.kr/anse/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not downloaded (time); Korean figures known only from press coverage, so not quoted."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "cdc-nchs-births",
+   "name": "Births: Provisional Data for 2025 (Vital Statistics Rapid Release No. 43)",
+   "publisher": "CDC National Center for Health Statistics",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Falling births and near-zero natural population growth"
+   ],
+   "what_it_forecasts": "Not a forecast: near-complete count of 2025 US births and fertility rates by age of mother — the entering kindergarten class of 2030–31 and the college freshmen of 2043.",
+   "horizon": "observed 2025; quarterly provisional updates",
+   "latest_edition": {
+    "title": "Births: Provisional Data for 2025, VSRR Report No. 43",
+    "date": "2026-04-09",
+    "url": "https://www.cdc.gov/nchs/data/vsrr/vsrr043.pdf"
+   },
+   "update_cadence": "annual provisional report (April) plus quarterly dashboard; final data later",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "A measurement (99.95% of records) whose provisional figures are checked against final data every year (\"have tracked closely with final annual statistics\"); as an input it is pure pipeline for school enrolment. It makes no forward claim, so stakes and adversaries do not apply. Date: the report says \"April 2026\"; 9 April is the CDC press-release date."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of national series (births, general fertility rate, age-specific rates); no state detail in this report."
+   },
+   "ai": {
+    "score": 2,
+    "why": "April 2026 release; vital registration with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched captured text for \"artificial intelligence\", \"AI\": none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Essential input but a single-year count rather than a forecast; captured only as text.",
+   "primary_docs": [
+    {
+     "title": "Births: Provisional Data for 2025 (VSRR 43) — excerpted text capture",
+     "url": "https://www.cdc.gov/nchs/data/vsrr/vsrr043.pdf",
+     "local_path": "primary/demographics-education/cdc-nchs-births/vsrr043-births-provisional-2025-textcapture.txt",
+     "status": "partial",
+     "bytes": 3744,
+     "pages": 0,
+     "note": "cdc.gov and stacks.cdc.gov returned HTTP 403 to direct download; abstract, results and Table 1 captured via web fetch tool."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The provisional number of births for the United States in 2025 was 3,606,400, a decrease of 1% from the number in 2024 (3,628,934) (Table 1, Figure 1).",
+     "doc_local_path": "primary/demographics-education/cdc-nchs-births/vsrr043-births-provisional-2025-textcapture.txt",
+     "page": null,
+     "locator": "Results, Births and fertility rates",
+     "url": "https://www.cdc.gov/nchs/data/vsrr/vsrr043.pdf",
+     "worldbuilding_use": "Size of the 2025 birth cohort: 3.61m babies, entering kindergarten in 2030."
+    }
+   ]
+  },
+  {
+   "id": "state-demographers",
+   "name": "State demographer projections: California DOF K-12 enrolment and graduates (2026 Series) and population projections; Texas Demographic Center Vintage 2024 projections",
+   "publisher": "California Department of Finance Demographic Research Unit; Texas Demographic Center",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students",
+    "Falling births and near-zero natural population growth",
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "California public K-12 enrolment by county and grade and high-school graduates to 2035-36 (extended beyond), state and county population to 2060; Texas population by age and race/ethnicity to 2060.",
+   "horizon": "California K-12 annual to 2035-36; population to 2060",
+   "latest_edition": {
+    "title": "California Public K-12 Graded Enrollment and High School Graduate Projections by County — 2026 Series",
+    "date": "2026-08-01",
+    "url": "https://dof.ca.gov/forecasting/demographics/public-k-12-graded-enrollment/"
+   },
+   "update_cadence": "California K-12 series annual; population projections every 1–2 years; Texas roughly biennial",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T4",
+     "T5"
+    ],
+    "why": "Used directly in state budgeting and school-facility planning over a ten-year plan period, and built on children already born and enrolled; re-based on actual enrolment counts every year. No formal multi-year error record was located and no money or licence is at stake for the forecaster. The workbook says \"August 2026\" without a day (2026-08-01 used as placeholder)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "County-by-county, grade-by-grade enrolment and graduates for each school year (e.g. Los Angeles County minus 240,800 pupils by 2035-36), with stated fertility and migration conditions."
+   },
+   "ai": {
+    "score": 2,
+    "why": "August 2026 series; cohort-progression method with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched landing pages, workbook \"About\" sheet and Texas webinar slides for \"artificial intelligence\", \"AI\", \"automation\": none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Excellent dated local detail for the largest state, but single-state and the same cohort mechanism as the WICHE top pick. Florida BEBR not downloaded.",
+   "primary_docs": [
+    {
+     "title": "California K-12 Graded Enrollment and High School Graduate Projections by County, 2026 Series (XLSX, .txt rendering saved)",
+     "url": "https://dof.ca.gov/media/docs/forecasting/Demographics/public-k-12-graded-enrollment/CA_K-12_Enrollment_Series-2026.xlsx",
+     "local_path": "primary/demographics-education/state-demographers/CA_K-12_Enrollment_Series-2026.xlsx",
+     "status": "full",
+     "bytes": 577787,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "California DOF K-12 enrolment landing page with narrative highlights",
+     "url": "https://dof.ca.gov/forecasting/demographics/public-k-12-graded-enrollment/",
+     "local_path": "primary/demographics-education/state-demographers/ca-dof-k12-landing.html",
+     "status": "full",
+     "bytes": 16560,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "California DOF P-1A state total population projections (XLSX, .txt rendering saved)",
+     "url": "https://dof.ca.gov/media/docs/forecasting/Demographics/projections/P1A_State_Total.xlsx",
+     "local_path": "primary/demographics-education/state-demographers/CA_P1A_State_Total.xlsx",
+     "status": "full",
+     "bytes": 148302,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "California DOF P-2A county total population projections (XLSX, .txt rendering saved)",
+     "url": "https://dof.ca.gov/media/docs/forecasting/Demographics/projections/P2A_County_Total.xlsx",
+     "local_path": "primary/demographics-education/state-demographers/CA_P2A_County_Total.xlsx",
+     "status": "full",
+     "bytes": 165593,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "California DOF projections landing page",
+     "url": "https://dof.ca.gov/forecasting/demographics/projections/",
+     "local_path": "primary/demographics-education/state-demographers/ca-dof-projections-landing.html",
+     "status": "full",
+     "bytes": 17713,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Texas Demographic Center projections webinar slides (2025-10-22)",
+     "url": "https://demographics.texas.gov/Resources/TDC/Presentations/29f2de6b-4625-4620-aa9e-2e14ab1fd139/20251022_TDCProjectionWebinar.pdf",
+     "local_path": "primary/demographics-education/state-demographers/TX_20251022_TDCProjectionWebinar.pdf",
+     "status": "full",
+     "bytes": 5066774,
+     "pages": 32,
+     "note": "Slides only; data files not downloaded."
+    },
+    {
+     "title": "Texas Demographic Center projections landing page",
+     "url": "https://demographics.texas.gov/Projections/",
+     "local_path": "primary/demographics-education/state-demographers/texas-projections-landing.html",
+     "status": "full",
+     "bytes": 48948,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Over the next ten years, if current trends in fertility and migration hold, a further decline of 710,500 in total enrollment is projected, resulting in total enrollment of 5,020,800 by 2035-36.",
+     "doc_local_path": "primary/demographics-education/state-demographers/ca-dof-k12-landing.html",
+     "page": null,
+     "locator": "State Enrollment summary, 2026 Series (August 2026)",
+     "url": "https://dof.ca.gov/forecasting/demographics/public-k-12-graded-enrollment/",
+     "worldbuilding_use": "California public schools lose 710,500 pupils (12%) in a decade."
+    },
+    {
+     "text": "The biggest decline in enrollment is expected in Los Angeles County, which will fall by 240,800 students by the end of the 10-year projection.",
+     "doc_local_path": "primary/demographics-education/state-demographers/ca-dof-k12-landing.html",
+     "page": null,
+     "locator": "County Enrollment summary, 2026 Series",
+     "url": "https://dof.ca.gov/forecasting/demographics/public-k-12-graded-enrollment/",
+     "worldbuilding_use": "Los Angeles County school closures: 240,800 fewer pupils by 2035-36."
+    }
+   ]
+  },
+  {
+   "id": "jchs-household-projections",
+   "name": "JCHS household growth projections and 2026 immigration-impact analysis",
+   "publisher": "Harvard Joint Center for Housing Studies",
+   "kind": "expert report",
+   "covers_trends": [
+    "US immigration reversal and enforcement build-out",
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "US household growth 2025–2035 (8.6m main, 6.9m low-immigration) by age and tenure, and the near-term hit to household formation from lower immigration in 2026–2027.",
+   "horizon": "2025–2035 and 2035–2045; near-term 2026–2027",
+   "latest_edition": {
+    "title": "Household Growth to Increasingly Feel the Impacts of the Immigration Drop (Housing Perspectives blog); low-immigration addendum to tenure projections (December 2025)",
+    "date": "2026-08-11",
+    "url": "https://www.jchs.harvard.edu/blog/household-growth-increasingly-feel-impacts-immigration-drop"
+   },
+   "update_cadence": "projections every 2–3 years; blog updates ad hoc",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Respected academic centre applying headship rates to Census projections; adults who will form households by 2031 are already alive, but there are no stakes, no adversaries and no published error record, and the main series rests on the now-stale Census 2023 migration assumption."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Household counts by age, tenure and immigration scenario with clear mechanism (immigrants form households 1–2 years after arrival); national only."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2025–2026 material with no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched captured text for \"artificial intelligence\", \"AI\", \"automation\": none."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good bridge from migration to housing demand, but unincentivised and only captured as text (site blocks downloads).",
+   "primary_docs": [
+    {
+     "title": "JCHS blog (2026-08-11) and December 2025 low-immigration addendum — text capture",
+     "url": "https://www.jchs.harvard.edu/blog/household-growth-increasingly-feel-impacts-immigration-drop",
+     "local_path": "primary/demographics-education/jchs-household-projections/jchs-blog-2026-08-11-household-growth-immigration-drop-textcapture.txt",
+     "status": "partial",
+     "bytes": 5437,
+     "pages": 0,
+     "note": "jchs.harvard.edu returned HTTP 403 to direct download; blog body and an excerpt of the addendum captured via fetch/search tool."
+    },
+    {
+     "title": "Projections of Homeownership Rates and Household Growth by Tenure for 2025–2035, with addendum (PDF)",
+     "url": "https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_tenure_projections_mccue_et_al_2025_with_addendum.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on jchs.harvard.edu."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Household growth from recent immigrants declines an additional 237,000 households in 2026, to 330,000, after factoring in the projected additional decline in net immigration in 2026. And if immigration remains at 0.3 million in 2027, our estimates suggest household growth from recent immigrants in that year would decline another 187,000 households, to 143,000.",
+     "doc_local_path": "primary/demographics-education/jchs-household-projections/jchs-blog-2026-08-11-household-growth-immigration-drop-textcapture.txt",
+     "page": null,
+     "locator": "Blog, \"Digging into the Data\"",
+     "url": "https://www.jchs.harvard.edu/blog/household-growth-increasingly-feel-impacts-immigration-drop",
+     "worldbuilding_use": "Household formation by new arrivals falls three-quarters between 2025 and 2027."
+    }
+   ]
+  },
+  {
+   "id": "nces-projections",
+   "name": "Projections of Education Statistics to 2030 (49th edition) and Condition of Education",
+   "publisher": "National Center for Education Statistics (IES, US Department of Education)",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "US K-12 and postsecondary enrolment, graduates, teachers and expenditures to 2030, national and by state.",
+   "horizon": "annual to fall 2030",
+   "latest_edition": {
+    "title": "Projections of Education Statistics to 2030 (NCES 2024-034)",
+    "date": "2024-02-01",
+    "url": "https://nces.ed.gov/pubs2024/2024034.pdf"
+   },
+   "update_cadence": "formerly annual; no edition since February 2024 — the NCES projections page still lists \"Projections to 2030\" on 2026-11-18, and press reports say NCES staff fell from about 100 to a handful in March 2025 and the 2026 Condition of Education updated only 17 of 702 indicators",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "The series publishes mean absolute percentage errors of its past projections by lead time in its methodology appendix and projects children already born. No stakes; and the latest edition is built on data through 2020–21, so it misses the post-pandemic and immigration shifts. The cover says \"February 2024\" (day not stated)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "National and state tables by level, control, sex, race/ethnicity and attendance status with methodology; many liftable numbers but all from a 2021 base."
+   },
+   "ai": {
+    "score": 1,
+    "why": "February 2024 edition on pre-2022 data; no AI treatment; series appears dormant."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the 153-page report for \"artificial intelligence\", \"AI\", \"automation\": none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Famous federal series that has gone stale: not updated since 2024 after the Education Department staffing cuts.",
+   "primary_docs": [
+    {
+     "title": "Projections of Education Statistics to 2030 (NCES 2024-034), February 2024",
+     "url": "https://nces.ed.gov/pubs2024/2024034.pdf",
+     "local_path": "primary/demographics-education/nces-projections/2024034-projections-to-2030.pdf",
+     "status": "full",
+     "bytes": 4337302,
+     "pages": 153,
+     "note": ""
+    },
+    {
+     "title": "NCES Projections of Education Statistics home page as of 2026-11-18 (still lists \"to 2030\" as the full report)",
+     "url": "https://nces.ed.gov/programs/pes/",
+     "local_path": "primary/demographics-education/nces-projections/nces-pes-landing-2026-11-18.html",
+     "status": "full",
+     "bytes": 17861,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "NCES Condition of Education home page as of 2026-11-18",
+     "url": "https://nces.ed.gov/programs/coe/",
+     "local_path": "primary/demographics-education/nces-projections/nces-coe-landing-2026-11-18.html",
+     "status": "full",
+     "bytes": 115430,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "nsc-enrollment",
+   "name": "Clearinghouse Enrollment Insights: Preliminary Fall Enrollment Trends 2026 (incl. computer-science majors)",
+   "publisher": "National Student Clearinghouse Research Center",
+   "kind": "survey",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students",
+    "AI rewiring how students learn and what education businesses survive"
+   ],
+   "what_it_forecasts": "Not a forecast: near-census counts of fall 2026 US college enrolment by sector, level, age and major field, weeks into the term.",
+   "horizon": "current term (fall 2026); final in January 2027",
+   "latest_edition": {
+    "title": "Preliminary Fall Enrollment Trends Report (2026); landing page \"Updated October 29, 2026\"",
+    "date": "2026-10-29",
+    "url": "https://nscresearchcenter.org/enrollment/"
+   },
+   "update_cadence": "three reports a year (preliminary fall in October, final fall in January, spring in June)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Administrative data from institutions enrolling nearly all US students; preliminary figures are revised to final each January in public, and today’s freshmen are tomorrow’s graduates. It measures rather than forecasts, and the fall 2024 preliminary freshman count was publicly retracted in January 2025 for a methodology error, a reminder to treat preliminary numbers with care."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Percent changes by sector, award level, age band, race/ethnicity and major (computer science, health) with brief commentary; institution names are not given."
+   },
+   "ai": {
+    "score": 3,
+    "why": "October 2026 data that visibly embed AI-era choices (computer science down 12.4% at four-year colleges) but the report does not attribute or separate an AI effect."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched landing page, press release and the August 2026 \"Computer Science Enrollment Is Cooling\" blog for \"artificial intelligence\" and \"AI\": no explicit mention; the CS decline is reported without attribution."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Best real-time read on majors and enrolment, but backward-looking and silent on causes.",
+   "primary_docs": [
+    {
+     "title": "Clearinghouse Enrollment Insights landing page with Preliminary Fall 2026 highlights",
+     "url": "https://nscresearchcenter.org/enrollment/",
+     "local_path": "primary/demographics-education/nsc-enrollment/nsc-enrollment-landing.html",
+     "status": "full",
+     "bytes": 196473,
+     "pages": 0,
+     "note": "Underlying data appendix is an interactive dashboard and was not downloaded."
+    },
+    {
+     "title": "Press release: Preliminary Fall Report Shows Steady Undergraduate Enrollment Growth",
+     "url": "https://www.studentclearinghouse.org/news/preliminary-fall-report-shows-steady-undergraduate-enrollment-growth/",
+     "local_path": "primary/demographics-education/nsc-enrollment/nsc-press-release-prelim-fall-2026.html",
+     "status": "full",
+     "bytes": 283143,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Clearinghouse blog: Computer Science Enrollment Is Cooling (2026-08-11)",
+     "url": "https://www.studentclearinghouse.org/nscblog/computer-science-enrollment-is-cooling/",
+     "local_path": "primary/demographics-education/nsc-enrollment/nsc-blog-computer-science-cooling.html",
+     "status": "full",
+     "bytes": 296539,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Enrollment in Computer and Information Science programs continues to decline sharply, with double-digit decreases across institutions (-12.4% at 4-years, -12.3% at 2-years, and -10.4% at graduate institutions). In contrast, enrollment in Health majors is increasing across undergraduate 4-year (+6.2%), undergraduate 2-year (+4.3%), and graduate (+2.0%) programs.",
+     "doc_local_path": "primary/demographics-education/nsc-enrollment/nsc-enrollment-landing.html",
+     "page": null,
+     "locator": "Highlights from the Preliminary Fall Enrollment Trends 2026 Report",
+     "url": "https://nscresearchcenter.org/enrollment/",
+     "worldbuilding_use": "Students fleeing computer science for health care in fall 2026."
+    }
+   ]
+  },
+  {
+   "id": "iie-open-doors",
+   "name": "Open Doors 2026 and Fall 2026 Snapshot on International Student Enrollment (with NAFSA economic-impact projection)",
+   "publisher": "Institute of International Education (with US Department of State); NAFSA",
+   "kind": "survey",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students",
+    "US immigration reversal and enforcement build-out"
+   ],
+   "what_it_forecasts": "International students in the US by origin, level, state and institution for 2025/26, an 809-institution snapshot of fall 2026, and NAFSA’s projection of 2026–27 totals, revenue and jobs.",
+   "horizon": "academic year 2025/26 census; fall 2026 snapshot; 2026–27 projection",
+   "latest_edition": {
+    "title": "Open Doors 2026 Annual Data Release and Fall 2026 Snapshot on International Student Enrollment",
+    "date": "2026-11-16",
+    "url": "https://opendoorsdata.org/open-doors-2026-annual-data-release/"
+   },
+   "update_cadence": "annual (mid-November)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T3",
+     "T5"
+    ],
+    "why": "Long-running annual census of institutions whose fall snapshot is checked against the following year’s full count; continuing students make next year’s total largely predictable. No stakes for IIE; the NAFSA add-on is advocacy-flavoured (lost revenue and jobs)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Counts by place of origin, state, named host institutions, academic level and OPT, plus survey reasons for decline (visa concerns 88%, travel restrictions 70%)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched Fast Facts, the Fall 2026 Snapshot report and the NAFSA overview for \"artificial intelligence\" and \"AI\": none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Very fresh and concrete on one channel of the enrolment and immigration story, but a count, not an incentivised forecast.",
+   "primary_docs": [
+    {
+     "title": "Open Doors 2026 Fast Facts (PDF)",
+     "url": "https://opendoorsdata.org/wp-content/uploads/2026/11/OD26_Fast-Facts.pdf",
+     "local_path": "primary/demographics-education/iie-open-doors/OD26_Fast-Facts.pdf",
+     "status": "full",
+     "bytes": 217656,
+     "pages": 2,
+     "note": ""
+    },
+    {
+     "title": "Fall 2026 Snapshot on International Student Enrollment — full report (PDF)",
+     "url": "https://iie.widen.net/s/5dkvrgsvfv/iie_fall-2026_snapshot_full-report",
+     "local_path": "primary/demographics-education/iie-open-doors/IIE_Fall-2026_Snapshot_Full-Report.pdf",
+     "status": "full",
+     "bytes": 4879950,
+     "pages": 17,
+     "note": ""
+    },
+    {
+     "title": "NAFSA: Fall 2026 International Student Enrollment Snapshot & Economic Impact (PDF)",
+     "url": "https://www.nafsa.org/sites/default/files/media/document/Fall%202026%20International%20Student%20Enrollment%20Snapshot%20Economic%20Impact%20Overview%20FINAL_0.pdf",
+     "local_path": "primary/demographics-education/iie-open-doors/nafsa-fall-2026-snapshot-economic-impact.pdf",
+     "status": "full",
+     "bytes": 210216,
+     "pages": 4,
+     "note": ""
+    },
+    {
+     "title": "Open Doors 2026 Annual Data Release page",
+     "url": "https://opendoorsdata.org/open-doors-2026-annual-data-release/",
+     "local_path": "primary/demographics-education/iie-open-doors/open-doors-2026-annual-data-release.html",
+     "status": "full",
+     "bytes": 63327,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "IIE Fall 2026 Snapshot publication page",
+     "url": "https://www.iie.org/publications/fall-2026-snapshot-on-international-student-enrollment/",
+     "local_path": "primary/demographics-education/iie-open-doors/iie-fall-2026-snapshot-page.html",
+     "status": "full",
+     "bytes": 156267,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Open Doors Fast Facts index page",
+     "url": "https://opendoorsdata.org/fact_sheets/fast-facts/",
+     "local_path": "primary/demographics-education/iie-open-doors/fast-facts.html",
+     "status": "full",
+     "bytes": 60614,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Open Doors international students data page",
+     "url": "https://opendoorsdata.org/annual-release/international-students/",
+     "local_path": "primary/demographics-education/iie-open-doors/annual-release-international-students.html",
+     "status": "full",
+     "bytes": 77803,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Open Doors home page",
+     "url": "https://opendoorsdata.org/",
+     "local_path": "primary/demographics-education/iie-open-doors/opendoorsdata-home.html",
+     "status": "full",
+     "bytes": 107971,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "IIE survey findings revealed a 15 percent decline in new student enrollment. This decline, combined with our analysis of October SEVIS data, produces a 9 percent decline in total enrollment—excluding students on Optional Practical Training (OPT). Our analysis finds this translates into over $2.4 billion of lost revenue and over 31,000 fewer jobs.",
+     "doc_local_path": "primary/demographics-education/iie-open-doors/nafsa-fall-2026-snapshot-economic-impact.pdf",
+     "page": 1,
+     "locator": "Overview (November 2026)",
+     "url": "https://www.nafsa.org/sites/default/files/media/document/Fall%202026%20International%20Student%20Enrollment%20Snapshot%20Economic%20Impact%20Overview%20FINAL_0.pdf",
+     "worldbuilding_use": "College towns lose $2.4bn and 31,000 jobs as foreign students stay away in 2026–27."
+    }
+   ]
+  },
+  {
+   "id": "common-app",
+   "name": "Common App deadline update, 2026–27: first-year application trends through November 1",
+   "publisher": "Common App Data Analytics and Research",
+   "kind": "survey",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "Not a forecast: early-season counts of applicants and applications for fall 2027 entry at 965 returning member colleges, by region, income proxy, selectivity and citizenship.",
+   "horizon": "fall 2027 entering class (season to date)",
+   "latest_edition": {
+    "title": "Deadline update, 2026–27: First-year application trends through November 1",
+    "date": "2026-11-17",
+    "url": "https://www.commonapp.org/files/DAR/deadline-updates/2026-27/Common-App-Deadline-Update-2026-November.pdf"
+   },
+   "update_cadence": "monthly during the application season (November to March) plus end-of-season report",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Platform administrative data: applicants in November are the visible pipeline of next autumn’s freshmen, but coverage shifts as members join and deadlines move, there are no stakes and no error record, and November data cover only the early-deadline part of the cycle."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Applicant and application counts with splits by state/region, selectivity, fee-waiver status and international origin (e.g. Arizona +80%, Pakistan +41%); little narrative on causes."
+   },
+   "ai": {
+    "score": 2,
+    "why": "November 2026 edition; no AI treatment."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the 47-page report for \"artificial intelligence\", \"AI\", \"chatbot\": none found."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Freshest pipeline signal (published yesterday) but partial-season platform data with no incentive structure.",
+   "primary_docs": [
+    {
+     "title": "Common App deadline update, 2026–27: first-year application trends through November 1 (2026-11-17)",
+     "url": "https://www.commonapp.org/files/DAR/deadline-updates/2026-27/Common-App-Deadline-Update-2026-November.pdf",
+     "local_path": "primary/demographics-education/common-app/Common-App-Deadline-Update-2026-November.pdf",
+     "status": "full",
+     "bytes": 13294123,
+     "pages": 47,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Through November 1, 2026, 992,093 distinct first-year applicants had applied to 965 returning members, a slight increase (1%) from 981,292 at this point in 2025–26. Conversely, account creators intending to enroll in college the following year decreased by 2%, to 1,980,780, from a peak of 2,012,437 at this point in 2025–26.",
+     "doc_local_path": "primary/demographics-education/common-app/Common-App-Deadline-Update-2026-November.pdf",
+     "page": 5,
+     "locator": "Key findings",
+     "url": "https://www.commonapp.org/files/DAR/deadline-updates/2026-27/Common-App-Deadline-Update-2026-November.pdf",
+     "worldbuilding_use": "First fall in would-be college applicants since 2022–23: the cliff arriving."
+    }
+   ]
+  },
+  {
+   "id": "rating-agency-higher-ed-outlooks",
+   "name": "Credit-rating agency US higher-education sector outlooks for 2026 (Fitch \"deteriorating\"; Moody’s and S&P negative)",
+   "publisher": "Fitch Ratings; Moody’s Ratings; S&P Global Ratings",
+   "kind": "expert report",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "One-year credit outlook for US colleges: tuition revenue growth, international and domestic enrolment pressure, pace of mergers and closures.",
+   "horizon": "calendar/fiscal 2026 (one year)",
+   "latest_edition": {
+    "title": "Fitch: U.S. Public Finance Higher Education Outlook 2026",
+    "date": "2025-12-04",
+    "url": "https://www.fitchratings.com/research/us-public-finance/us-public-finance-higher-education-outlook-2026-04-12-2025"
+   },
+   "update_cadence": "annual (late November/early December); 2027 outlooks not yet published as of 2026-11-18",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T3"
+    ],
+    "why": "Regulated rating agencies (NRSRO registration and franchise at risk) that publish annual rating-transition and default studies; but sector outlooks reach one year, not five, are paid for by issuers, and cannot be checked here beyond a public summary. Moody’s and S&P figures are known only from press coverage and are not quoted."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Sector-level drivers with some numbers (revenue growth, share of privates with negative margins) and named downgrades in follow-up actions; full reports are paywalled."
+   },
+   "ai": {
+    "score": 2,
+    "why": "December 2025 edition; the public Fitch summary has no AI treatment (full report not readable)."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Only the public summary paragraph could be captured; no AI terms in it."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Right incentives but one-year horizon, 2025-dated and paywalled; the 2027 outlooks arrive in December 2026.",
+   "primary_docs": [
+    {
+     "title": "Fitch U.S. Public Finance Higher Education Outlook 2026 — public summary paragraph (text capture)",
+     "url": "https://www.fitchratings.com/research/us-public-finance/us-public-finance-higher-education-outlook-2026-04-12-2025",
+     "local_path": "primary/demographics-education/rating-agency-higher-ed-outlooks/fitch-higher-education-outlook-2026-summary-textcapture.txt",
+     "status": "partial",
+     "bytes": 737,
+     "pages": 0,
+     "note": "Direct download returned a JavaScript shell without report text; summary captured through a search/fetch tool."
+    },
+    {
+     "title": "Fitch U.S. Public Finance Higher Education Outlook 2026 — full report",
+     "url": "https://www.fitchratings.com/research/us-public-finance/us-public-finance-higher-education-outlook-2026-04-12-2025",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Requires Fitch login/subscription."
+    },
+    {
+     "title": "Moody’s \"Higher Education – US: 2026 Outlook\" and S&P \"U.S. Not-For-Profit Higher Education Outlook 2026\"",
+     "url": "https://www.moodys.com/",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Subscriber research; not attempted beyond search."
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "university-bond-disclosures",
+   "name": "University municipal-bond disclosures with enrolment data and projections (Indiana University, Florida State University, Nova Southeastern University)",
+   "publisher": "Issuers via MSRB EMMA / Florida Division of Bond Finance",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "Institution-level projected headcount (Indiana University to fall 2029), housing revenue, rent increases and debt-service coverage (Florida State to FY2029-30), and current applications/enrolments (Nova Southeastern fall 2026).",
+   "horizon": "enrolment projections to fall 2029; revenue projections to FY2029-30; bonds 20–30 years",
+   "latest_edition": {
+    "title": "Nova Southeastern University continuing-disclosure operating data (\"Updated 11/10/2026\"); Florida State University Dormitory Revenue Bonds Series 2026A Preliminary Official Statement (2026-08-19); Indiana University Annual Disclosure Document (2025-12-15)",
+    "date": "2026-11-10",
+    "url": "https://emma.msrb.org/P31553392.pdf"
+   },
+   "update_cadence": "annual continuing disclosure per issuer; official statements at each bond sale",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Made under securities antifraud liability (Rule 10b-5, 15c2-12), vetted by underwriters’ counsel and rating analysts, and tied to bonds maturing decades out. But issuers are interested parties and hedge (\"No representation can be made as to the ability of the University to achieve these projections\"); Indiana’s flat 89–90k projection through 2029 looks like issuer optimism against the demographic cliff, and no error record is published."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Named campuses with headcount by year, applications/acceptances/enrolments, rent increases (4.5%, then 10%), debt-service coverage ratios and project opening dates (new housing for fall 2028)."
+   },
+   "ai": {
+    "score": 2,
+    "why": "2025–2026 documents with no AI treatment; the only trace is a renamed \"College of Computing, AI, and Cybersecurity\" whose enrolment fell from 612 (2024) to 537 (2026)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the IU and FSU documents for \"artificial intelligence\" and \"AI\": none. NSU operating data contain only the college name \"College of Computing, AI, and Cybersecurity\"."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Right kind of evidence (money and liability) but three hand-picked institutions cannot stand for the sector; useful as scene-level detail.",
+   "primary_docs": [
+    {
+     "title": "Indiana University Annual Financial Information Disclosure Document, December 15, 2025 (EMMA)",
+     "url": "https://emma.msrb.org/P11903494-P11454119-P11901404.pdf",
+     "local_path": "primary/demographics-education/university-bond-disclosures/indiana-university-annual-disclosure-2025-12-15.pdf",
+     "status": "full",
+     "bytes": 4271497,
+     "pages": 110,
+     "note": ""
+    },
+    {
+     "title": "State of Florida Board of Governors, Florida State University Dormitory Revenue Bonds Series 2026A — Preliminary Official Statement dated August 19, 2026",
+     "url": "https://bondfinance.sbafla.com/media/kjnncnnk/pos-secured.pdf",
+     "local_path": "primary/demographics-education/university-bond-disclosures/florida-state-univ-dormitory-bonds-2026A-POS-2026-08-19.pdf",
+     "status": "full",
+     "bytes": 7205231,
+     "pages": 260,
+     "note": "Preliminary (not final) official statement."
+    },
+    {
+     "title": "Nova Southeastern University continuing-disclosure operating data, updated 2026-11-10 (EMMA)",
+     "url": "https://emma.msrb.org/P31553392.pdf",
+     "local_path": "primary/demographics-education/university-bond-disclosures/nova-southeastern-operating-data-2026-11-10.pdf",
+     "status": "full",
+     "bytes": 801674,
+     "pages": 6,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Projected Headcount Enrollment by Campus 1 Fall Semester 2026 2027 2028 2029 Bloomington 48,627 48,753 48,625 48,793",
+     "doc_local_path": "primary/demographics-education/university-bond-disclosures/indiana-university-annual-disclosure-2025-12-15.pdf",
+     "page": 12,
+     "locator": "Projected Headcount Enrollment by Campus table (based on the Fall 2025 Enrollment Study)",
+     "url": "https://emma.msrb.org/P11903494-P11454119-P11901404.pdf",
+     "worldbuilding_use": "A flagship plans on flat enrolment (about 48,700 at Bloomington) straight through the cliff."
+    },
+    {
+     "text": "Projected revenues are based on approved rental rate increases of 4.5% for Fiscal Year 2025-26 through Fiscal Year 2027-28, and a projected increase of 10% in Fiscal Years 2028-29 and 2029-30 that is subject to approval by the Board of Trustees.",
+     "doc_local_path": "primary/demographics-education/university-bond-disclosures/florida-state-univ-dormitory-bonds-2026A-POS-2026-08-19.pdf",
+     "page": 23,
+     "locator": "Projected Pledged Revenues and Debt Service Coverage",
+     "url": "https://bondfinance.sbafla.com/media/kjnncnnk/pos-secured.pdf",
+     "worldbuilding_use": "Dorm rents at Florida State rise 4.5% a year, then 10% in 2028-29 and 2029-30."
+    }
+   ]
+  },
+  {
+   "id": "philadelphia-fed-closures",
+   "name": "Predicting College Closures and Financial Distress (Working Paper 24-20)",
+   "publisher": "Federal Reserve Bank of Philadelphia (Kelchen, Ritter, Webber)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "Model-based probability of closure for US colleges and simulated additional closures per year under demographic-cliff enrolment scenarios (up to 80 more per year in the worst case).",
+   "horizon": "scenario simulations for the years after 2025; no fixed end date",
+   "latest_edition": {
+    "title": "Predicting College Closures and Financial Distress, WP 24-20",
+    "date": "2024-12-01",
+    "url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2024/wp24-20.pdf"
+   },
+   "update_cadence": "one-off working paper (December 2024)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "Careful out-of-sample-tested research on closures 1996–2023, and the enrolment declines it simulates are in the birth pipeline; but it is unscored research with no stakes, no adversary and no track record, and its scenarios are stylised (a one-time 15% drop). The cover says \"PUBLISHED December 2024\" (day not stated)."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Scenario counts of additional closures per year, predictors of distress and sector splits; institutions are not named."
+   },
+   "ai": {
+    "score": 1,
+    "why": "December 2024 paper; machine learning is the authors’ prediction tool, AI is not a driver of enrolment or closures."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "none",
+    "ai_passage": {
+     "text": "We then show that modern machine learning techniques, combined with richer data, are far more effective at predicting college closures than linear probability models, and considerably more effective than existing accountability metrics.",
+     "doc_local_path": "primary/demographics-education/philadelphia-fed-closures/wp24-20.pdf",
+     "page": 2
+    },
+    "search_note": "All AI-related hits are \"machine learning\" as the estimation method."
+   },
+   "tier": "considered",
+   "why_top_or_not": "The best public quantification of closure risk, but a one-off 2024 academic exercise.",
+   "primary_docs": [
+    {
+     "title": "Predicting College Closures and Financial Distress, Philadelphia Fed WP 24-20 (December 2024)",
+     "url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2024/wp24-20.pdf",
+     "local_path": "primary/demographics-education/philadelphia-fed-closures/wp24-20.pdf",
+     "status": "full",
+     "bytes": 3113343,
+     "pages": 69,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Assuming the worst-case scenario predictions come to pass from the upcoming demographic cliff (or a 15 percent decline in enrollment), there could be as many as 80 (142 percent of the average annual closures) additional closures.",
+     "doc_local_path": "primary/demographics-education/philadelphia-fed-closures/wp24-20.pdf",
+     "page": 38,
+     "locator": "Section on simulated enrollment scenarios",
+     "url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2024/wp24-20.pdf",
+     "worldbuilding_use": "Upper bound for the college-closure wave: about 80 extra closures a year."
+    }
+   ]
+  },
+  {
+   "id": "genworth-ltc",
+   "name": "Long-term-care insurer filings: Genworth Financial 10-K/10-Q (LTC claims, rate increases, CareScout)",
+   "publisher": "Genworth Financial, Inc. (SEC EDGAR)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Ageing: the 80+ boom, care demand and pension strain"
+   ],
+   "what_it_forecasts": "Reserve assumptions, premium-rate-increase programme and claims experience for one of the largest US blocks of long-term-care insurance as policyholders reach their 80s.",
+   "horizon": "reserve cash flows run decades; rate-action plan multi-year",
+   "latest_edition": {
+    "title": "Genworth Financial Form 10-Q for the quarter ended September 30, 2026",
+    "date": "2026-11-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1276520/000162828026071072/gnw-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3",
+     "T5"
+    ],
+    "why": "Audited reserves with capital and solvency at stake, challenged by state regulators in every rate filing and by litigation, re-measured quarterly against actual claims; the insured cohort is fixed. Known bias: the industry, Genworth included, under-estimated LTC claims for two decades, so assumptions have moved one way."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Approved rate increases, settlement coverage (about 70% of in-force), remeasurement gains/losses and CareScout network build-out; little geographic detail."
+   },
+   "ai": {
+    "score": 3,
+    "why": "November 2026 filing; AI is listed as a risk category within enterprise risk management, with no effect on claims assumptions."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "We have identified the following as the most significant risk types to our business: credit risk, market risk, insurance risk, housing risk, operational risk, model risk, and technology, data and cybersecurity, and artificial intelligence risk.",
+     "doc_local_path": "primary/demographics-education/genworth-ltc/genworth-10k-fy2025.htm",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scores 10, but the ageing trend is already covered by the higher-scoring REIT filings, and this is a narrow legacy block.",
+   "primary_docs": [
+    {
+     "title": "Genworth Financial Form 10-K for FY2025 (filed 2026-02-27)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1276520/000162828026012828/gnw-20251231.htm",
+     "local_path": "primary/demographics-education/genworth-ltc/genworth-10k-fy2025.htm",
+     "status": "full",
+     "bytes": 9353700,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Genworth Financial Form 10-Q for quarter ended 2026-09-30 (filed 2026-11-05)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1276520/000162828026071072/gnw-20260930.htm",
+     "local_path": "primary/demographics-education/genworth-ltc/genworth-10q-2026q3.htm",
+     "status": "full",
+     "bytes": 7763183,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  },
+  {
+   "id": "prediction-markets",
+   "name": "Prediction markets on deportations, births, visas and population (Polymarket, Kalshi snapshot; Metaculus unavailable)",
+   "publisher": "Polymarket; Kalshi",
+   "kind": "market price",
+   "covers_trends": [
+    "US immigration reversal and enforcement build-out",
+    "Falling births and near-zero natural population growth",
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "Market-implied probabilities for 2026 deportation totals, 2026 US births and fertility rate, visa revocations, H-1B expansion, abolition of the Education Department, state and city population change.",
+   "horizon": "mostly to early 2027; a few to January 2029 and one to 2035",
+   "latest_edition": {
+    "title": "API snapshot taken 2026-11-18 14:36 UTC",
+    "date": "2026-11-18",
+    "url": "https://polymarket.com/event/how-many-people-will-trump-deport-in-2026-823"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Traders lose money when wrong and prices are set by many independent participants, but these particular contracts are thin (often under $50,000 traded, wide bid-ask spreads), almost all resolve within months rather than years, and no per-market error record exists."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A few dozen probabilities with resolution rules; no reasoning."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Live 2026 prices that would move on news, but none of these contracts isolates AI."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched about 20,000 open Kalshi event titles and Polymarket search results for demographic/education contracts mentioning AI: none found in this area."
+   },
+   "tier": "considered",
+   "why_top_or_not": "Right incentives but thin, short-dated contracts; useful as a cross-check on 2026 deportations and births.",
+   "primary_docs": [
+    {
+     "title": "Combined snapshot of 94 outcomes (CSV), as of 2026-11-18T14:36Z",
+     "url": "https://gamma-api.polymarket.com/events",
+     "local_path": "primary/demographics-education/prediction-markets/prediction_markets_snapshot_2026-11-18.csv",
+     "status": "full",
+     "bytes": 19260,
+     "pages": 0,
+     "note": "Built from the two JSON files below."
+    },
+    {
+     "title": "Polymarket gamma API raw event JSON for 6 events",
+     "url": "https://gamma-api.polymarket.com/events?slug=how-many-people-will-trump-deport-in-2026-823",
+     "local_path": "primary/demographics-education/prediction-markets/polymarket_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 180157,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Kalshi trade API raw event JSON for 15 events",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/events/KXH1B-29?with_nested_markets=true",
+     "local_path": "primary/demographics-education/prediction-markets/kalshi_snapshot_2026-11-18.json",
+     "status": "full",
+     "bytes": 167107,
+     "pages": 0,
+     "note": "Event tickers were identified from a full listing of open events; each event was then fetched individually."
+    },
+    {
+     "title": "Metaculus questions on fertility, immigration and deportations",
+     "url": "https://www.metaculus.com/api/posts/",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Metaculus API returned HTTP 403 without a token; not captured."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "polymarket,2026-11-18T14:36Z,how-many-people-will-trump-deport-in-2026-823,How many people will Trump deport in 2026?,300-400k,0.09,0.06,0.12,16122.198495999995,2027-03-01 [...] polymarket,2026-11-18T14:36Z,how-many-people-will-trump-deport-in-2026-823,How many people will Trump deport in 2026?,400-500k,0.615,0.45,0.78,10575.607160999998,2027-03-01",
+     "doc_local_path": "primary/demographics-education/prediction-markets/prediction_markets_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row; columns venue, as_of_utc, event_id, event_title, outcome, yes_price_or_last, bid, ask, volume, end date; as of 2026-11-18 14:36 UTC",
+     "url": "https://polymarket.com/event/how-many-people-will-trump-deport-in-2026-823",
+     "worldbuilding_use": "Market consensus: 400–500 thousand deportations in 2026 (about 60% probability)."
+    },
+    {
+     "text": "polymarket,2026-11-18T14:36Z,how-many-us-births-in-2026-20261026033533965,How many US births in 2026?,3.53M–3.56M,0.2,0.19,0.21,11432.318557,2027-05-01 [...] polymarket,2026-11-18T14:36Z,how-many-us-births-in-2026-20261026033533965,How many US births in 2026?,3.56M–3.59M,0.395,0.39,0.4,20853.384791,2027-05-01",
+     "doc_local_path": "primary/demographics-education/prediction-markets/prediction_markets_snapshot_2026-11-18.csv",
+     "page": null,
+     "locator": "CSV row; same columns; as of 2026-11-18 14:36 UTC",
+     "url": "https://polymarket.com/event/how-many-us-births-in-2026-20261026033533965",
+     "worldbuilding_use": "Traders put about 60% on 2026 births of 3.53–3.59m, below 2025’s 3.61m."
+    }
+   ]
+  },
+  {
+   "id": "pew-teens-ai",
+   "name": "How Teens Use and View AI (survey of US teens 13–17 and parents)",
+   "publisher": "Pew Research Center",
+   "kind": "survey",
+   "covers_trends": [
+    "AI rewiring how students learn and what education businesses survive"
+   ],
+   "what_it_forecasts": "Not a forecast: share of US teens using AI chatbots, for what (schoolwork, emotional support), perceived cheating, and expectations about AI’s effect on their lives.",
+   "horizon": "survey fielded 25 Sept–9 Oct 2025",
+   "latest_edition": {
+    "title": "How Teens Use and View AI",
+    "date": "2026-02-24",
+    "url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/"
+   },
+   "update_cadence": "roughly annual teen technology surveys",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T3"
+    ],
+    "why": "Transparent, repeated probability-panel survey with published methodology and trend comparisons, so readings are checkable over time; but it is self-report, has no stakes, and says nothing binding about 2031."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Many percentages split by age, race/ethnicity and household income (e.g. 10% do all or most schoolwork with chatbots; 12% get emotional support); no named places or institutions."
+   },
+   "ai": {
+    "score": 4,
+    "why": "2026 publication whose whole subject is AI use, quantified in detail — but as a current-state measurement, not a forecast driver."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "One-in-ten teens say they do all or most of their schoolwork with chatbots’ help. Larger shares say they do some (21%) or a little (23%) of their schoolwork with the help of a chatbot.",
+     "doc_local_path": "primary/demographics-education/pew-teens-ai/PI_2026.02.24_Teens-and-AI_REPORT.pdf",
+     "page": 6
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Good texture on today’s classrooms; unincentivised and not forward-looking. Gallup/Walton surveys of teachers and students were not downloaded.",
+   "primary_docs": [
+    {
+     "title": "How Teens Use and View AI — full report (2026-02-24)",
+     "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PI_2026.02.24_Teens-and-AI_REPORT.pdf",
+     "local_path": "primary/demographics-education/pew-teens-ai/PI_2026.02.24_Teens-and-AI_REPORT.pdf",
+     "status": "full",
+     "bytes": 1033749,
+     "pages": 45,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Just over half of U.S. teens say they have used chatbots for help with schoolwork , and 12% say they’ve gotten emotional support. More teens think AI will be positive for them than negative",
+     "doc_local_path": "primary/demographics-education/pew-teens-ai/PI_2026.02.24_Teens-and-AI_REPORT.pdf",
+     "page": 1,
+     "locator": "Report subtitle / overview",
+     "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PI_2026.02.24_Teens-and-AI_REPORT.pdf",
+     "worldbuilding_use": "Baseline for 2026 classrooms: half of teens use chatbots for schoolwork, 12% for emotional support."
+    }
+   ]
+  },
+  {
+   "id": "oecd-pisa-2025",
+   "name": "PISA 2025 Results (Volume I) and Learning in the Digital World assessment",
+   "publisher": "OECD",
+   "kind": "survey",
+   "covers_trends": [
+    "AI rewiring how students learn and what education businesses survive",
+    "Enrolment cliff: shrinking school and college cohorts, closures, fewer international students"
+   ],
+   "what_it_forecasts": "Not a forecast: measured reading, mathematics and science performance of 15-year-olds in 91 systems in 2025, including how AI and device use relate to scores; further volumes dated April and May 2027.",
+   "horizon": "2025 assessment; next cycle 2029",
+   "latest_edition": {
+    "title": "PISA 2025 Results (Volume I); OECD press release \"PISA 2025: Students’ reading and mathematics performance declined sharply across the OECD\"",
+    "date": "2026-09-08",
+    "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html"
+   },
+   "update_cadence": "every three to four years (2022, 2025, 2029)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "A scored measurement of 760,000 students under technical standards that national authorities and academics scrutinise and contest each cycle, with a consistent trend record since 2000; no stakes for the OECD and no forward claim."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Country-by-country scores, shares of low performers and named improving systems, with analysis of AI and device use; only the press release was captured here."
+   },
+   "ai": {
+    "score": 4,
+    "why": "September 2026 release that analyses AI use explicitly with partial quantification (students who used AI to draft writing scored lower; guidance matters)."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Students who say they did not use AI to draft text for writing assignments outperformed those who say they did. Among frequent users, however, students who used AI to help them learn and were taught how to assess the quality of AI-generated information tended to perform better than those who received no such guidance.",
+     "doc_local_path": "primary/demographics-education/oecd-pisa-2025/oecd-pisa-2025-press-release-2026-09-08-textcapture.txt",
+     "page": null
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Scores 11 on the rubric, but it covers the same trend as the higher-scoring edtech pick, is a measurement rather than a forecast, and only the press release could be captured (oecd.org blocks downloads).",
+   "primary_docs": [
+    {
+     "title": "OECD press release on PISA 2025 results, 8 September 2026 — text capture",
+     "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
+     "local_path": "primary/demographics-education/oecd-pisa-2025/oecd-pisa-2025-press-release-2026-09-08-textcapture.txt",
+     "status": "partial",
+     "bytes": 3489,
+     "pages": 0,
+     "note": "oecd.org returned HTTP 403 to direct download; press release text captured via web fetch tool."
+    },
+    {
+     "title": "PISA 2025 Results (Volume I) — full report",
+     "url": "https://www.oecd.org/en/publications/2026/09/pisa-2025-results-volume-i_5265bfb1.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on oecd.org; not captured."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Average reading scores fell by 28 points across OECD countries between 2015 and 2025, equivalent to about one and a half years of learning. Mathematics scores fell by 22 points, equivalent to just over one year of learning.",
+     "doc_local_path": "primary/demographics-education/oecd-pisa-2025/oecd-pisa-2025-press-release-2026-09-08-textcapture.txt",
+     "page": null,
+     "locator": "Press release, 8 September 2026",
+     "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
+     "worldbuilding_use": "Today’s 15-year-olds read about 1.5 school years behind the class of 2015."
+    }
+   ]
+  },
+  {
+   "id": "ai-in-schools-policy",
+   "name": "Federal AI-in-schools policy: Executive Order 14277, Advancing Artificial Intelligence Education for American Youth",
+   "publisher": "Executive Office of the President (Federal Register)",
+   "kind": "binding commitment",
+   "covers_trends": [
+    "AI rewiring how students learn and what education businesses survive"
+   ],
+   "what_it_forecasts": "Not a forecast: binding directions and deadlines for a White House AI Education Task Force, K-12 AI resources via public-private partnerships, teacher training priorities and a Presidential AI Challenge.",
+   "horizon": "deadlines of 90–180 days and 12 months from April 2025; no end date",
+   "latest_edition": {
+    "title": "Executive Order 14277 of April 23, 2025 (90 FR, published April 28, 2025)",
+    "date": "2025-04-28",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf"
+   },
+   "update_cadence": "one-off; implementation by agencies; state and district AI policies and College Board/AP changes were not systematically collected",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T4"
+    ],
+    "why": "A signed order with dated obligations on agencies, but it commits process rather than money, can be rescinded by any president, has no adversarial test or error record, and school-level adoption is decided by 13,000 districts it does not bind."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Named task force, member agencies, deadlines (90, 120, 180 days; Challenge within 12 months) and programme names; no dollars or school counts."
+   },
+   "ai": {
+    "score": 3,
+    "why": "AI is the subject, but the document is from April 2025 and purely qualitative — no quantities to absorb the 2026 acceleration."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "It is the policy of the United States to promote AI literacy and proficiency among Americans by promoting the appropriate integration of AI into education, providing comprehensive AI training for educators, and fostering early exposure to AI concepts and technology to develop an AI-ready workforce and the next generation of American AI innovators.",
+     "doc_local_path": "primary/demographics-education/ai-in-schools-policy/FR-2025-07368-EO14277-AI-education.pdf",
+     "page": 1
+    },
+    "search_note": ""
+   },
+   "tier": "considered",
+   "why_top_or_not": "Sets the direction of official policy on AI in classrooms, but contains no numbers and binds only federal agencies.",
+   "primary_docs": [
+    {
+     "title": "Executive Order 14277, Advancing Artificial Intelligence Education for American Youth (Federal Register, 2025-04-28)",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf",
+     "local_path": "primary/demographics-education/ai-in-schools-policy/FR-2025-07368-EO14277-AI-education.pdf",
+     "status": "full",
+     "bytes": 199000,
+     "pages": 5,
+     "note": ""
+    }
+   ],
+   "quotes": []
+  }
+ ]
+}

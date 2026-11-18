@@ -1,0 +1,1889 @@
+{
+ "area_id": "macro",
+ "area_name": "Money, prices & growth",
+ "trends": [
+  {
+   "trend": "Higher-for-longer interest rates",
+   "why_it_shapes_daily_life": "The Fed is raising rates again (3.75-4.00% after a September 2026 hike, markets pricing a peak near 4.75% in 2027) and the 10-year Treasury is at 5.1%, so mortgages (rates the FOMC minutes call elevated), car loans, credit cards and business credit stay expensive well into the period."
+  },
+  {
+   "trend": "Sticky inflation and cost of living",
+   "why_it_shapes_daily_life": "PCE inflation is running 3.7% in 2026 on energy, tariffs and AI-related goods prices; the Fed staff does not see 2% until 2029, so real pay, rents and grocery and fuel bills are a live grievance for years."
+  },
+  {
+   "trend": "Debt-financed AI investment boom",
+   "why_it_shapes_daily_life": "AI capex is the main prop under growth and stock prices and is now financed with debt ($680bn issued Jan-Oct 2026); whether it keeps running or reverses decides jobs in construction and tech, retirement account values and credit availability."
+  },
+  {
+   "trend": "Growth, jobs and recession risk",
+   "why_it_shapes_daily_life": "Official baselines show 2-2.4% growth and 4.1% unemployment through 2029, while prediction markets put about 20-30% on a recession by 2027 and hiring is unusually slow; the gap between baseline and tail is what people will live through."
+  },
+  {
+   "trend": "Public debt and term premium",
+   "why_it_shapes_daily_life": "Federal debt is projected to rise from about 100% to 120% of GDP by 2036 (CBO February 2026 baseline as reported in secondary sources; primary not obtained) and investors are demanding a higher term premium, which raises every long-term borrowing rate and squeezes room for tax cuts or benefits."
+  }
+ ],
+ "sources": [
+  {
+   "id": "treasury-curve-breakevens",
+   "name": "US Treasury nominal and TIPS par yield curves, breakevens and 5y5y forward inflation",
+   "publisher": "US Department of the Treasury (daily par curves); Federal Reserve Bank of St. Louis FRED (derived breakevens)",
+   "kind": "market price",
+   "covers_trends": [
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living",
+    "Public debt and term premium"
+   ],
+   "what_it_forecasts": "The market-clearing nominal and real (TIPS) yields for 1 month to 30 years, and by difference the inflation compensation investors demand for the next 5 years, 10 years and for 2031-2036 (5y5y).",
+   "horizon": "daily; tenors 1 month to 30 years (5y, 10y, 5y5y forward cover 2026-2036)",
+   "latest_edition": {
+    "title": "Daily Treasury Par Yield Curve Rates and Par Real Yield Curve Rates, reading for 17 November 2026",
+    "date": "2026-11-17",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+   },
+   "update_cadence": "every business day",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "why": "About $30tn of marketable debt is repriced daily by dealers, funds and foreign reserve managers who lose money if wrong (T1, T2); tenors bind to 30 years (T4); the price is marked daily and forward-rate/breakeven forecast errors are a long-studied record (T3). Capped at 4 because forwards are biased predictors: they embed a time-varying term premium (the Nov 2026 FSR says the estimated term premium is \"notably above its historical median\") and TIPS breakevens embed liquidity and inflation-risk premia."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Fourteen nominal and five real tenors per day plus three breakeven series; exact, dated numbers (mortgage and corporate borrowing costs key off them) but no entities, places or narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Reading dated 17 Nov 2026. A continuously updated price: the 10-year real yield rose from 1.94% (2 Jan 2026) to 2.89% while the 10-year breakeven stayed near 2.2%, the pattern Chow-Halperin-Mazlish associate with markets pricing faster AI-driven growth, but the files cannot separate AI from energy, fiscal supply and Fed hikes."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Pure data files (CSV): no text to search. AI enters only implicitly through real yields; the FOMC minutes (see fomc-sep-minutes) attribute part of the 2026 rise in term premiums to AI-infrastructure debt issuance."
+   },
+   "tier": "top",
+   "why_top_or_not": "Highest accuracy-conditions score in the area and the only source whose instrument tenor actually spans 2026-2036; it anchors every rate a household or firm will pay.",
+   "primary_docs": [
+    {
+     "title": "Daily Treasury Par Yield Curve Rates, 2026 year-to-date (CSV)",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "local_path": "primary/macro/treasury-yield-curve/treasury_par_yield_curve_2026.csv",
+     "status": "full",
+     "bytes": 17930,
+     "pages": 0,
+     "note": "219 daily rows, 2 Jan to 17 Nov 2026"
+    },
+    {
+     "title": "Daily Treasury Par Real Yield Curve Rates, 2026 year-to-date (CSV)",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "local_path": "primary/macro/treasury-yield-curve/treasury_par_real_yield_curve_2026.csv",
+     "status": "full",
+     "bytes": 7962,
+     "pages": 0,
+     "note": "219 daily rows, 2 Jan to 17 Nov 2026"
+    },
+    {
+     "title": "FRED: 5-Year 5-Year Forward Inflation Expectation Rate (T5YIFR), 5-Year and 10-Year Breakeven Inflation Rates (T5YIE, T10YIE), daily",
+     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR,T5YIE,T10YIE",
+     "local_path": "primary/macro/treasury-yield-curve/fred_T5YIFR_T5YIE_T10YIE_daily.csv",
+     "status": "full",
+     "bytes": 158976,
+     "pages": 0,
+     "note": "Extracted from the FRED graph download zip (File Created 2026-11-18 8:45 am CST); direct curl to fred.stlouisfed.org failed (connection reset), the zip was retrieved by the WebFetch tool. Columns: observation_date,T5YIFR,T5YIE,T10YIE."
+    },
+    {
+     "title": "FRED download README (series definitions, file creation time)",
+     "url": "https://fred.stlouisfed.org",
+     "local_path": "primary/macro/treasury-yield-curve/fred_README.txt",
+     "status": "full",
+     "bytes": 1532,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "11/17/2026,4.09,4.24,4.26,4.33,4.32,4.41,4.60,4.80,4.84,4.90,4.99,5.10,5.50,5.46",
+     "doc_local_path": "primary/macro/treasury-yield-curve/treasury_par_yield_curve_2026.csv",
+     "page": null,
+     "locator": "CSV row for 11/17/2026; columns Date,1 Mo,1.5 Month,2 Mo,3 Mo,4 Mo,6 Mo,1 Yr,2 Yr,3 Yr,5 Yr,7 Yr,10 Yr,20 Yr,30 Yr",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "worldbuilding_use": "Nov 2026 borrowing costs: 2-year 4.80%, 10-year 5.10%, 20-year 5.50%; curve upward sloping."
+    },
+    {
+     "text": "01/02/2026,3.72,3.71,3.66,3.65,3.62,3.58,3.47,3.47,3.55,3.74,3.95,4.19,4.81,4.86",
+     "doc_local_path": "primary/macro/treasury-yield-curve/treasury_par_yield_curve_2026.csv",
+     "page": null,
+     "locator": "CSV row for 01/02/2026 (first trading day of 2026); same columns",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "worldbuilding_use": "Baseline for the 2026 sell-off: 10-year rose from 4.19% to 5.10% in under eleven months."
+    },
+    {
+     "text": "11/17/2026,2.64,2.76,2.89,3.14,3.28",
+     "doc_local_path": "primary/macro/treasury-yield-curve/treasury_par_real_yield_curve_2026.csv",
+     "page": null,
+     "locator": "CSV row for 11/17/2026; columns Date,5 YR,7 YR,10 YR,20 YR,30 YR (TIPS real yields)",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "worldbuilding_use": "Real cost of money to 2036: about 2.9% above inflation for ten years, 3.3% for thirty."
+    },
+    {
+     "text": "01/02/2026,1.46,1.69,1.94,2.39,2.63",
+     "doc_local_path": "primary/macro/treasury-yield-curve/treasury_par_real_yield_curve_2026.csv",
+     "page": null,
+     "locator": "CSV row for 01/02/2026; columns Date,5 YR,7 YR,10 YR,20 YR,30 YR",
+     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+     "worldbuilding_use": "Shows the whole 2026 yield rise was real: 10-year real yield 1.94% in January."
+    },
+    {
+     "text": "2026-11-17,2.16,2.26,2.21",
+     "doc_local_path": "primary/macro/treasury-yield-curve/fred_T5YIFR_T5YIE_T10YIE_daily.csv",
+     "page": null,
+     "locator": "CSV row for 2026-11-17; columns observation_date,T5YIFR,T5YIE,T10YIE",
+     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR,T5YIE,T10YIE",
+     "worldbuilding_use": "Markets price CPI near 2.2% a year through 2036 despite 3.7% inflation now."
+    }
+   ]
+  },
+  {
+   "id": "fomc-sep-minutes",
+   "name": "FOMC Summary of Economic Projections, minutes and policy statement",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living",
+    "Growth, jobs and recession risk",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "Eighteen policymakers' projections of real GDP growth, unemployment, PCE inflation and the appropriate federal funds rate for each year 2026-2029 and the longer run, with the staff outlook and the reasoning in the minutes.",
+   "horizon": "annual, 2026 to 2029, plus longer run",
+   "latest_edition": {
+    "title": "Summary of Economic Projections, September 16, 2026 (with minutes of the September 15-16, 2026 meeting and the October 28, 2026 statement)",
+    "date": "2026-09-16",
+    "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf"
+   },
+   "update_cadence": "SEP quarterly (Mar, Jun, Sep, Dec); statement and minutes eight times a year",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Eighteen participants submit independent projections and dissent publicly (the 28 Oct 2026 vote was 10-2) (T2), and every SEP prints Table 2, the root-mean-squared error of fall projections over 2006-2025 (e.g. +/-2.3 points for short-term interest rates in 2028) (T3). No money is at stake and the path is only committed one meeting ahead; the dots have a record of large misses at 2-3 years."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Year-by-year medians, central tendencies and ranges for five variables, plus minutes narrating drivers by sector (energy, tariffs, AI capex, hyperscaler bond spreads, mortgages, a joint US-Japan yen intervention) with named dissenters and dated decisions."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Sep-Oct 2026 edition. The minutes treat the AI buildout as a named driver of investment, goods inflation, Treasury term premiums and trend productivity, and the staff forecast conditions on its effects waning, but the SEP numbers carry no separate AI line."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Participants generally judged that AI-related investments would likely contribute to stronger gains in productivity and potential output in the coming years but they noted that there was substantial uncertainty over the magnitude or timing of the effects.",
+     "doc_local_path": "primary/macro/fomc-sep/fomcminutes20260916.pdf",
+     "page": 9
+    },
+    "search_note": "Minutes: 30+ lines mentioning AI / \"AI buildout\"; SEP tables and the Oct statement contain no AI terms (statement notes \"Productivity growth is strong\")."
+   },
+   "tier": "top",
+   "why_top_or_not": "The people who set the policy rate, with a printed error record and the richest dated narrative of how AI capex, energy and tariffs feed inflation and rates through 2029.",
+   "primary_docs": [
+    {
+     "title": "Summary of Economic Projections, September 16, 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+     "local_path": "primary/macro/fomc-sep/fomcprojtabl20260916.pdf",
+     "status": "full",
+     "bytes": 1227336,
+     "pages": 17,
+     "note": "Default pdftotext at .pdf.txt scrambles table rows; a pdftotext -layout rendering is saved as fomcprojtabl20260916.layout.txt and used for the table quote."
+    },
+    {
+     "title": "Summary of Economic Projections, September 16, 2026 (pdftotext -layout rendering of the same PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+     "local_path": "primary/macro/fomc-sep/fomcprojtabl20260916.layout.txt",
+     "status": "full",
+     "bytes": 101422,
+     "pages": 0,
+     "note": "Derived text rendering, not a separate official file."
+    },
+    {
+     "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+     "local_path": "primary/macro/fomc-sep/fomcminutes20260916.pdf",
+     "status": "full",
+     "bytes": 456038,
+     "pages": 15,
+     "note": "Minutes of the October 27-28, 2026 meeting were not yet posted on 2026-11-18 (HTTP 404)."
+    },
+    {
+     "title": "FOMC statement and implementation note, October 28, 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+     "local_path": "primary/macro/fomc-sep/monetary20261028a1.pdf",
+     "status": "full",
+     "bytes": 256034,
+     "pages": 2,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Unemployment rate 4.1 4.1 4.1 4.1 4.2 [...] PCE inflation 3.7 2.3 2.1 2.0 2.0 [...] Federal funds rate 4.1 4.1 3.9 3.6 3.2",
+     "doc_local_path": "primary/macro/fomc-sep/fomcprojtabl20260916.layout.txt",
+     "page": 2,
+     "locator": "Table 1, median projections for 2026, 2027, 2028, 2029 and longer run (layout rendering)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+     "worldbuilding_use": "Official baseline to 2029: unemployment flat at 4.1%, inflation 2.3% in 2027, policy rate 3.6% by 2029."
+    },
+    {
+     "text": "Inflation was projected to step down over the next two years, as the effects of tariffs, geopolitical developments, and the AI buildout were expected to wane, and to reach 2 percent in 2029.",
+     "doc_local_path": "primary/macro/fomc-sep/fomcminutes20260916.pdf",
+     "page": 6,
+     "locator": "Staff Economic Outlook",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+     "worldbuilding_use": "Fed staff date for inflation back at target: 2029, three more years above 2%."
+    },
+    {
+     "text": "Some participants commented that the AI buildout could cause aggregate demand to outpace aggregate supply over the medium term, putting upward pressure on inflation.",
+     "doc_local_path": "primary/macro/fomc-sep/fomcminutes20260916.pdf",
+     "page": 8,
+     "locator": "Participants' Views on Current Conditions and the Economic Outlook",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+     "worldbuilding_use": "AI capex as an inflation source: grounds for rate hikes while the buildout runs."
+    },
+    {
+     "text": "Market commentary pointed to geopolitical developments, uncertainty related to the U.S. Treasury’s announcement and implementation of the buyback program, and competition for capital from heavy private debt issuance to finance the development of artificial intelligence (AI) infrastructure as also contributing to higher term premiums and Treasury yields.",
+     "doc_local_path": "primary/macro/fomc-sep/fomcminutes20260916.pdf",
+     "page": 2,
+     "locator": "Developments in Financial Markets and Open Market Operations",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+     "worldbuilding_use": "Mechanism: hyperscaler borrowing crowds Treasuries, lifting mortgage and long-term rates."
+    },
+    {
+     "text": "The Committee decided to maintain the target range for the federal funds rate at 3-3/4 to 4 percent [...] Voting against the monetary policy action were Lisa D. Cook and Beth M. Hammack, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "doc_local_path": "primary/macro/fomc-sep/monetary20261028a1.pdf",
+     "page": 1,
+     "locator": "FOMC statement, October 28, 2026",
+     "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+     "worldbuilding_use": "Late-2026 scene: policy rate 3.75-4.00% after a September hike, two named officials pushing for more."
+    }
+   ]
+  },
+  {
+   "id": "fed-financial-stability-report",
+   "name": "Federal Reserve Financial Stability Report",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "kind": "expert report",
+   "covers_trends": [
+    "Debt-financed AI investment boom",
+    "Higher-for-longer interest rates",
+    "Growth, jobs and recession risk"
+   ],
+   "what_it_forecasts": "Not a point forecast: a twice-yearly inventory of where asset valuations, household and business debt, financial leverage and funding risk stand, and which shocks market contacts expect over the next 12-18 months.",
+   "horizon": "current vulnerabilities; near-term risks over about 12-18 months",
+   "latest_edition": {
+    "title": "Financial Stability Report, November 2026",
+    "date": "2026-11-13",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
+   },
+   "update_cadence": "semiannual (spring and November)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T5"
+    ],
+    "why": "The Board loses nothing if its risk ranking is wrong and publishes no scorecard of past warnings, and nobody is paid to attack it. It passes only the pipeline test: the debts, lease commitments and leverage it counts already exist and must be refinanced or repaid inside the 2026-2031 window."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Dollar amounts, dates and named firms (Amazon, Alphabet, Meta, Microsoft, Oracle, Nvidia, Broadcom), market-by-market valuation and leverage readings, and a survey of 23 market contacts; explains financing mechanisms but names few places."
+   },
+   "ai": {
+    "score": 4,
+    "why": "November 2026 edition. A dedicated box quantifies debt behind the data-center buildout and the outreach survey ranks AI as the top-cited risk, but there is no forward scenario or loss estimate."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Investment-grade technology companies issued most of this debt, and advanced computing–related borrowing as a share of nonfinancial investment-grade corporate debt issuance increased from less than 6 percent in 2023 to about 31 percent in 2026.",
+     "doc_local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "page": 31
+    },
+    "search_note": "Box 2.2 \"Leverage in the Data Center Buildout\" and Box 5.1 \"Survey of Salient Risks to Financial Stability\"."
+   },
+   "tier": "top",
+   "why_top_or_not": "Weak incentives but the best-quantified official account of the mechanism most likely to turn the AI boom into a credit event, with names and dollar figures.",
+   "primary_docs": [
+    {
+     "title": "Financial Stability Report, November 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "status": "full",
+     "bytes": 4364069,
+     "pages": 69,
+     "note": ""
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Advanced computing–related debt issuance rose to more than $680 billion by October 2026, about a fivefold increase from $130 billion in all of 2023 (figure A).",
+     "doc_local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "page": 31,
+     "locator": "Box 2.2, Leverage in the Data Center Buildout",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "worldbuilding_use": "Scale of AI borrowing: $680bn issued in ten months of 2026."
+    },
+    {
+     "text": "In addition, the largest U.S. bank holding companies have close to $1 trillion of exposure to large technology firms, data center developers, advanced computing–related SPEs and private credit vehicles, and utility companies, and those exposures are evaluated during the annual supervisory stress test.",
+     "doc_local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "page": 33,
+     "locator": "Box 2.2, Leverage in the Data Center Buildout (continued)",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "worldbuilding_use": "Bank channel for an AI bust: about $1tn of big-bank exposure."
+    },
+    {
+     "text": "AI was the top-cited risk, with responses noting concerns around elevated equity valuations, AI-enabled cyberattacks, and complex forms of AI-related financing (figure A).",
+     "doc_local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "page": 57,
+     "locator": "Box 5.1, Survey of Salient Risks to Financial Stability",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "worldbuilding_use": "What Wall Street contacts feared most in autumn 2026."
+    },
+    {
+     "text": "Hedge fund leverage reached its highest level over the period since 2013 during which comprehensive data have been collected, reflecting record or near-record leverage in equity, relative value, and macro strategies, despite a decrease in basis trade activity.",
+     "doc_local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "page": 37,
+     "locator": "Section 3, Leverage in the Financial Sector",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "worldbuilding_use": "Amplifier for any sell-off: record hedge fund leverage in 2026."
+    },
+    {
+     "text": "In residential real estate markets, prices stayed substantially above their historical relationship with fundamentals, although nominal house price growth remained slow.",
+     "doc_local_path": "primary/macro/fed-fsr/financial-stability-report-20261113.pdf",
+     "page": 13,
+     "locator": "Section 1, Asset Valuations (overview)",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "worldbuilding_use": "Housing: prices far above fundamentals yet flat, alongside elevated mortgage rates."
+    }
+   ]
+  },
+  {
+   "id": "imf-weo",
+   "name": "IMF World Economic Outlook",
+   "publisher": "International Monetary Fund",
+   "kind": "expert report",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Sticky inflation and cost of living",
+    "Debt-financed AI investment boom",
+    "Public debt and term premium"
+   ],
+   "what_it_forecasts": "Growth, inflation, trade and fiscal and external balances for about 190 economies, with annual projections two years ahead and medium-term projections five years ahead, plus risk scenarios.",
+   "horizon": "annual; 2026-2027 in detail, medium term to 2031",
+   "latest_edition": {
+    "title": "World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices",
+    "date": "2026-10-13",
+    "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+   },
+   "update_cadence": "semiannual (April, October) with January and July updates",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "The rubric's typical 3: an accountable institution with a published track record and no money at stake. Country numbers are reviewed by member governments (T2, weakly: nobody is paid to attack them) and forecast errors have been assessed by the IMF's Independent Evaluation Office and in WEO forecast-evaluation boxes (T3). Those assessments find medium-term growth projections lean optimistic."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Verified from the Executive Summary only: global growth and inflation figures by year and a narrated split between technology exporters, energy exporters and energy importers. The full report's country tables and scenario boxes (not obtained) would probably merit 5."
+   },
+   "ai": {
+    "score": 4,
+    "why": "October 2026 edition. AI investment is named as the demand impulse holding up the baseline and as a two-sided risk; a quantified AI-reversal scenario is reported in press coverage but could not be verified because Chapter 1 was not obtainable."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "The technology cycle has provided a demand impulse, driven by strong investment in artificial intelligence (AI).",
+     "doc_local_path": "primary/macro/imf-weo/weo-oct-2026-execsum-text-capture.txt",
+     "page": null
+    },
+    "search_note": "Executive Summary only. \"partial quantification\" rests on secondary reports of a Chapter 1 scenario box (AI investment unwinding); not confirmed against the primary text."
+   },
+   "tier": "top",
+   "why_top_or_not": "Joint-highest combined score and the only source giving country-by-country numbers to 2031, but only the Executive Summary could be saved (imf.org returned 403), so the full report must be fetched by hand.",
+   "primary_docs": [
+    {
+     "title": "WEO October 2026, Executive Summary (text capture)",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf",
+     "local_path": "primary/macro/imf-weo/weo-oct-2026-execsum-text-capture.txt",
+     "status": "partial",
+     "bytes": 8178,
+     "pages": 0,
+     "note": "Text captured with a fetch tool on 2026-11-18; pp. xiii-xiv only. Not the official PDF."
+    },
+    {
+     "title": "WEO October 2026, full report (PDF)",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/text.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 to curl; further automated attempts (browser, fetch tool) were refused by the session permission policy."
+    },
+    {
+     "title": "WEO October 2026, Chapter 1: Global Prospects and Policies (PDF)",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/ch1.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not obtained (same block)."
+    },
+    {
+     "title": "WEO October 2026, Statistical Appendix Tables A (PDF)",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/tablea.pdf",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Not obtained (same block)."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Global growth is projected at 3.1 percent in 2026 and 3.4 percent in 2027, unchanged for 2026 and revised moderately upward for 2027, relative to the projections in the April 2026 World Economic Outlook (WEO).",
+     "doc_local_path": "primary/macro/imf-weo/weo-oct-2026-execsum-text-capture.txt",
+     "page": null,
+     "locator": "Executive Summary, p. xiii",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf",
+     "worldbuilding_use": "World growth baseline: 3.1% in 2026, 3.4% in 2027."
+    },
+    {
+     "text": "Global headline inflation is projected to increase to 4.7 percent in 2026 before easing to 4.1 percent in 2027, marking a cumulative upward revision of 0.7 percentage point with the temporary increase driven mainly by energy and food prices.",
+     "doc_local_path": "primary/macro/imf-weo/weo-oct-2026-execsum-text-capture.txt",
+     "page": null,
+     "locator": "Executive Summary, p. xiii",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf",
+     "worldbuilding_use": "Global cost-of-living path: 4.7% then 4.1%, energy and food led."
+    },
+    {
+     "text": "A reassessment of AI-related profitability and productivity prospects could sharply reduce investment, trigger equity market corrections, and tighten financial conditions, with spillovers to economies integrated into technology supply chains and stakes in technology stocks.",
+     "doc_local_path": "primary/macro/imf-weo/weo-oct-2026-execsum-text-capture.txt",
+     "page": null,
+     "locator": "Executive Summary, p. xiii (risks)",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf",
+     "worldbuilding_use": "The IMF's AI-bust transmission chain: capex cut, equity correction, tighter credit, Asian exporters hit."
+    },
+    {
+     "text": "the case for tightening is strongest in economies that are plugged into stronger demand pressures from the technology value chain, where inflation was already above target before the twin shocks and remains so, and where broader price pressures are expected to remain elevated.",
+     "doc_local_path": "primary/macro/imf-weo/weo-oct-2026-execsum-text-capture.txt",
+     "page": null,
+     "locator": "Executive Summary, p. xiv (policy)",
+     "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf",
+     "worldbuilding_use": "Policy split: AI-boom economies (the US) raise rates while energy importers hold."
+    }
+   ]
+  },
+  {
+   "id": "kalshi-macro",
+   "name": "Kalshi economic event contracts (recession, GDP, unemployment, Fed, CPI, AI growth)",
+   "publisher": "Kalshi (CFTC-regulated designated contract market)",
+   "kind": "market price",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "Traded probabilities that dated macro events occur: a 2027 recession, how high unemployment gets before 2030, annual GDP growth, CPI and the fed funds rate for each year to 2036, and whether US GDP per capita rises 15% above its peak by 2033.",
+   "horizon": "event contracts closing from December 2026 to January 2037",
+   "latest_edition": {
+    "title": "Open markets in 54 queried economics series (33 with open markets), API snapshot of 18 November 2026",
+    "date": "2026-11-18",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/series?category=Economics"
+   },
+   "update_cadence": "continuous trading",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Traders post full collateral and lose it if wrong (T1), and the liquid contracts have many independent participants: the 2027 recession market shows 1.05 million contracts traded (T2). Contracts settle against official data, but the venue publishes no multi-year error record for macro questions (T3 not credited), and although listings run to 2037 the contracts dated 2030 and later show open interest of tens to a few thousand contracts and bid-ask gaps of 30-50 cents, so T4 fails in practice."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Hundreds of dated, thresholded probabilities (1,429 open markets in the snapshot) with exact resolution rules, but no reasoning, entities or places."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Snapshot dated 18 Nov 2026. Lists contracts whose subject is AI's macro effect (a 2033 GDP-per-capita growth bet, 2027 software-developer unemployment, AI as top layoff reason), so the AI view is separately priced, though on trivial volume."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "If the highest percentage increase in U.S. real GDP per capita over its previous peak for Q3 2026 through Q4 2033 is at least [...] then the market resolves to Yes.",
+     "doc_local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot.json",
+     "page": null
+    },
+    "search_note": "Series KXAIGROWTHBET (\"MacAskill-Moll AI growth bet\"), KXSOFTWAREUNEMP, KXCHAICUTS, KXAIJOBLOSS, KXTECHLAYOFF."
+   },
+   "tier": "top",
+   "why_top_or_not": "The only source that prices tail outcomes (recession, 7-10% unemployment, 5%+ growth) as money-backed probabilities, and a different mechanism from the yield curve and official baselines.",
+   "primary_docs": [
+    {
+     "title": "Kalshi open markets for 54 macro series (JSON API snapshot)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=<series>",
+     "local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot.json",
+     "status": "full",
+     "bytes": 3095081,
+     "pages": 0,
+     "note": "Pulled 2026-11-18 14:30 UTC from the public API; one request (KXCHINAUSGDP) returned HTTP 429 and is empty."
+    },
+    {
+     "title": "Derived CSV summary of the JSON snapshot (one row per market)",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=<series>",
+     "local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot_summary.csv",
+     "status": "full",
+     "bytes": 269154,
+     "pages": 0,
+     "note": "Rendering produced from the JSON for readability; not a separate official file."
+    }
+   ],
+   "quotes": [
+    {
+     "text": "KXRECSSNBER,KXRECSSNBER-27,KXRECSSNBER-27,Will there be a recession in 2027?,Yes,2028-01-31,0.1900,0.2000,0.2000,1047203.23,435692.03",
+     "doc_local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot_summary.csv",
+     "page": null,
+     "locator": "Snapshot 2026-11-18 14:30 UTC; columns series,event_ticker,ticker,title,yes_sub_title,close_date,yes_bid,yes_ask,last_price,volume,open_interest",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=KXRECSSNBER",
+     "worldbuilding_use": "Money-backed odds of a 2027 US recession (two negative GDP quarters): about 20%."
+    },
+    {
+     "text": "KXU3MAX,KXU3MAX-30,KXU3MAX-30-7,How high will unemployment get before 2030?,Above 7%,2030-01-04,0.2800,0.2900,0.2800,2057.00,1142.80",
+     "doc_local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot_summary.csv",
+     "page": null,
+     "locator": "Snapshot 2026-11-18 14:30 UTC; columns series,event_ticker,ticker,title,yes_sub_title,close_date,yes_bid,yes_ask,last_price,volume,open_interest",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=KXU3MAX",
+     "worldbuilding_use": "About 28% chance unemployment tops 7% before 2030 (thin market)."
+    },
+    {
+     "text": "KXU3MAX,KXU3MAX-30,KXU3MAX-30-10,How high will unemployment get before 2030?,Above 10%,2030-01-04,0.1000,0.1300,0.2000,3550.77,2785.00",
+     "doc_local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot_summary.csv",
+     "page": null,
+     "locator": "Snapshot 2026-11-18 14:30 UTC; columns series,event_ticker,ticker,title,yes_sub_title,close_date,yes_bid,yes_ask,last_price,volume,open_interest",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=KXU3MAX",
+     "worldbuilding_use": "Tail price for mass unemployment: 10-13% chance of a 10%+ rate before 2030."
+    },
+    {
+     "text": "KXGDPUSMAX,KXGDPUSMAX-28,KXGDPUSMAX-28-5,Will quarterly GDP be above 5% in any quarter in Q1 2025 to Q4 2028?,Above 5%,2029-01-26,0.3110,0.3350,0.3040,184151.16,28941.44",
+     "doc_local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot_summary.csv",
+     "page": null,
+     "locator": "Snapshot 2026-11-18 14:30 UTC; columns series,event_ticker,ticker,title,yes_sub_title,close_date,yes_bid,yes_ask,last_price,volume,open_interest",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=KXGDPUSMAX",
+     "worldbuilding_use": "Upside tail: about one-in-three odds of a 5%+ GDP quarter by end-2028."
+    },
+    {
+     "text": "KXAIGROWTHBET,KXAIGROWTHBET-34JAN26,KXAIGROWTHBET-34JAN26-T15,Will maximum peak-relative growth in U.S. real GDP per capita for Q3 2026 through Q4 2033 be at least 15%?,At least 15%,2034-01-26,0.1000,0.2000,0.3000,115.09,64.55",
+     "doc_local_path": "primary/macro/kalshi-macro/kalshi_macro_markets_snapshot_summary.csv",
+     "page": null,
+     "locator": "Snapshot 2026-11-18 14:30 UTC; columns series,event_ticker,ticker,title,yes_sub_title,close_date,yes_bid,yes_ask,last_price,volume,open_interest",
+     "url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open&series_ticker=KXAIGROWTHBET",
+     "worldbuilding_use": "Explicit AI-takeoff price: 10-20% that GDP per capita gains 15% by 2033."
+    }
+   ]
+  },
+  {
+   "id": "bank-cecl-10q",
+   "name": "Large-bank CECL macroeconomic assumptions in Form 10-Q (JPMorgan Chase, Bank of America, Citigroup, Wells Fargo)",
+   "publisher": "US Securities and Exchange Commission (EDGAR filings by the four banks)",
+   "kind": "regulated filing",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Higher-for-longer interest rates",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "The unemployment and GDP paths each bank uses to size its loan-loss allowance over an eight-quarter reasonable-and-supportable period, with weighted adverse scenarios.",
+   "horizon": "quarterly, about two years ahead (to 4Q27 / 1Q28), then reversion to long-run averages",
+   "latest_edition": {
+    "title": "JPMorgan Chase & Co. Form 10-Q for the quarter ended September 30, 2026 (filed 2026-11-03); also BAC (2026-10-30), C (2026-11-05), WFC (2026-10-28)",
+    "date": "2026-11-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "The assumptions set a $32.0bn allowance at JPMorgan alone and are filed under Sarbanes-Oxley certification (T1); external auditors and bank examiners are paid to challenge them (T2). No error record is published and the binding horizon is eight quarters, not five years. Known bias: prudence, with JPMorgan stating it puts additional weight on adverse scenarios."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Quarter-dated unemployment and GDP figures per bank, scenario weights, allowance dollars and sensitivities (Citi: about $4.5bn more reserves under its downside); little narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Filed Oct-Nov 2026. AI appears as a qualitative risk factor (Citi names financing exposure to capital-intensive AI infrastructure) but no macro variable is adjusted for it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "risks associated with AI, such as financing and counterparty exposures to capital-intensive AI technology and infrastructure, as well as indirect credit risks and competitive pressures facing corporate borrowers across sectors undergoing technological transition",
+     "doc_local_path": "primary/macro/bank-cecl-10q/c-20260930-10q.htm",
+     "page": null
+    },
+    "search_note": "AI / artificial intelligence hits: Citi 11, Wells Fargo 2, JPMorgan 1, Bank of America 1, all in risk-factor or forward-looking-statement language."
+   },
+   "why_top_or_not": "Real legal and financial stakes, but horizon stops at two years and it overlaps the FOMC and SPF on unemployment and GDP; tied on score with Kalshi, which adds a distinct mechanism.",
+   "primary_docs": [
+    {
+     "title": "JPMorgan Chase & Co. Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+     "local_path": "primary/macro/bank-cecl-10q/jpm-20260930-10q.htm",
+     "status": "full",
+     "bytes": 11540734,
+     "pages": 0,
+     "note": "Central case: US unemployment 4.1% 4Q26, 4.0% 2Q27, 4.0% 4Q27; weighted-average unemployment peaking at 5.6% in 3Q27."
+    },
+    {
+     "title": "Bank of America Corp. Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+     "local_path": "primary/macro/bank-cecl-10q/bac-20260930-10q.htm",
+     "status": "full",
+     "bytes": 10917369,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Citigroup Inc. Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+     "local_path": "primary/macro/bank-cecl-10q/c-20260930-10q.htm",
+     "status": "full",
+     "bytes": 14551217,
+     "pages": 0,
+     "note": "Weighted-average US unemployment 5.3% over the eight-quarter period; downside scenario 6.9%."
+    },
+    {
+     "title": "Wells Fargo & Company Form 10-Q, quarter ended 2026-09-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+     "local_path": "primary/macro/bank-cecl-10q/wfc-20260930-10q.htm",
+     "status": "full",
+     "bytes": 10685308,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "philly-fed-spf",
+   "name": "Survey of Professional Forecasters",
+   "publisher": "Federal Reserve Bank of Philadelphia",
+   "kind": "survey",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Sticky inflation and cost of living",
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "Median and distribution of 32 professional forecasters' projections for GDP, unemployment, payrolls, inflation and Treasury yields by quarter and year, plus 5- and 10-year average inflation.",
+   "horizon": "quarterly to 4Q27, annual to 2029, 10-year averages 2026-2035",
+   "latest_edition": {
+    "title": "Fourth Quarter 2026 Survey of Professional Forecasters",
+    "date": "2026-11-16",
+    "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q4-2026"
+   },
+   "update_cadence": "quarterly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Thirty-two independent forecasters (T2) and the Philadelphia Fed publishes forecast-error statistics for every variable and horizon back to 1968 (T3, https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/error-statistics). Responses are anonymous, so nobody loses money or reputation on a miss, and the panel herds toward trend."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Two dozen series with means, medians and probability bins (e.g. 11.5% risk of a negative quarter; 10-year CPI 2.49%); two pages of commentary, no named entities."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Released 16 Nov 2026 with no AI treatment: projections cluster at 2.1-2.4% growth and 4.2-4.3% unemployment through 2029."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched release PDF and web page for AI, artificial intelligence, data center, automation, productivity: none found."
+   },
+   "why_top_or_not": "Best published error record of any forecaster panel, but silent on AI and its 2027-2029 numbers duplicate the FOMC medians.",
+   "primary_docs": [
+    {
+     "title": "Fourth Quarter 2026 Survey of Professional Forecasters (PDF)",
+     "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2026/spfQ426.pdf?sc_lang=en",
+     "local_path": "primary/macro/philly-fed-spf/spfq426.pdf",
+     "status": "full",
+     "bytes": 1125179,
+     "pages": 17,
+     "note": ""
+    },
+    {
+     "title": "SPF Q4 2026 release web page (HTML)",
+     "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q4-2026",
+     "local_path": "primary/macro/philly-fed-spf/spf-q4-2026.html",
+     "status": "full",
+     "bytes": 53234,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "SPF release dates",
+     "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/spf-release-dates.txt",
+     "local_path": "primary/macro/philly-fed-spf/spf-release-dates.txt",
+     "status": "full",
+     "bytes": 8346,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "cbo-budget-economic-outlook",
+   "name": "CBO Budget and Economic Outlook (economic projections) and forecasting-record reports",
+   "publisher": "Congressional Budget Office",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Public debt and term premium",
+    "Growth, jobs and recession risk",
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living"
+   ],
+   "what_it_forecasts": "Current-law ten-year projections of GDP, unemployment, inflation, interest rates, deficits and federal debt.",
+   "horizon": "annual, 2026 to 2036",
+   "latest_edition": {
+    "title": "The Budget and Economic Outlook: 2026 to 2036 (publication 61882); a mid-2026 update is referenced in search results but its date was not confirmed",
+    "date": "2026-02-11",
+    "url": "https://www.cbo.gov/publication/61882"
+   },
+   "update_cadence": "annual, usually with a mid-year update",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "A statutory scorekeeper attacked from both parties (T2) that publishes recurring reports comparing its two- and five-year forecast errors with the Blue Chip consensus and the administration (T3). No money at stake; current-law convention makes the fiscal path a baseline, not a prediction. Scores are provisional: the document could not be opened."
+   },
+   "richness": {
+    "score": 4,
+    "why": "By reputation and secondary summaries: year-by-year tables for dozens of economic and budget lines with narrated assumptions (deficit $1.9tn in 2026 to $3.1tn in 2036; debt 101% to 120% of GDP). Not verified against the primary file."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Edition dated 11 Feb 2026. Secondary coverage (Fortune, AEI) says CBO builds in an AI productivity boost of about 0.1 percentage point a year, leaving output about 1% higher by 2036; unverified against the primary text."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": null,
+    "search_note": "Primary document not obtained (cbo.gov HTTP 403), so no text search was possible; AI treatment is taken from secondary coverage only and should be re-checked."
+   },
+   "why_top_or_not": "Would rank with the top group on provisional scores, but cbo.gov blocked every download, so nothing could be verified or quoted.",
+   "primary_docs": [
+    {
+     "title": "The Budget and Economic Outlook: 2026 to 2036",
+     "url": "https://www.cbo.gov/publication/61882",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 to curl, headless browser and WebFetch; further attempts (including a House Budget Committee mirror) were refused by the session permission policy. Edition date taken from search results, not from the document."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "boe-monetary-policy-report",
+   "name": "Bank of England Monetary Policy Report",
+   "publisher": "Bank of England",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living",
+    "Growth, jobs and recession risk",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "The MPC's three-year projections for UK GDP, CPI inflation, unemployment and productivity conditioned on the market path for Bank Rate.",
+   "horizon": "quarterly, three years ahead (to late 2029)",
+   "latest_edition": {
+    "title": "Monetary Policy Report, November 2026 (MPC meeting ending 4 November 2026)",
+    "date": "2026-11-05",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026"
+   },
+   "update_cadence": "quarterly (Feb, May, Aug, Nov)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Nine MPC members vote individually and are questioned by the Treasury Committee (T2), and the Bank publishes forecast evaluations (annual evaluation; the 2024 Bernanke review) (T3). No money at stake; horizon is three years."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Sector-level UK analysis with boxes on energy, AI investment and productivity, survey evidence from named panels (Decision Maker Panel, Agents) and dated rate decisions (Bank Rate raised to 4%)."
+   },
+   "ai": {
+    "score": 4,
+    "why": "November 2026 edition. Quantifies AI's productivity contribution so far (0.1-0.2pp a year) and firms' expected boost (0.9pp a year), but keeps trend productivity at 1% in the central projection and treats AI as an upside risk."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "Firms responding to the DMP survey expect AI to boost productivity growth by about 0.9 percentage points per year on average over the next three years, split roughly equally between slower employment growth and faster output growth (Yotzov et al (2026)).",
+     "doc_local_path": "primary/macro/boe-mpr/monetary-policy-report-november-2026.pdf",
+     "page": 59
+    },
+    "search_note": "54 AI mentions; Box C (AI investment and demand) and Box D (productivity)."
+   },
+   "why_top_or_not": "Scores as high as the FOMC material but is the same mechanism for a smaller economy; kept as the UK comparator.",
+   "primary_docs": [
+    {
+     "title": "Monetary Policy Report, November 2026 (PDF)",
+     "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf",
+     "local_path": "primary/macro/boe-mpr/monetary-policy-report-november-2026.pdf",
+     "status": "full",
+     "bytes": 3872156,
+     "pages": 93,
+     "note": "Publication day inferred as the day after the MPC meeting ending 4 November 2026."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "ecb-staff-projections",
+   "name": "ECB staff macroeconomic projections for the euro area",
+   "publisher": "European Central Bank",
+   "kind": "statutory projection",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Sticky inflation and cost of living",
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "Euro area GDP, HICP inflation, wages, employment and fiscal balance for 2026-2028, with the global environment and technical assumptions.",
+   "horizon": "annual and quarterly, 2026 to 2028",
+   "latest_edition": {
+    "title": "ECB staff macroeconomic projections for the euro area, September 2026",
+    "date": "2026-09-10",
+    "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html"
+   },
+   "update_cadence": "quarterly (ECB staff Mar/Sep; Eurosystem staff Jun/Dec)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Produced with 20 national central banks in the June and December rounds and scrutinised by the Governing Council (T2); the ECB publishes periodic assessments of its projection errors in the Economic Bulletin (T3). No money at stake; horizon stops at 2028."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Euro-area aggregates with component detail, global assumptions (world growth 3.1/3.3/3.4% for 2026-28) and narrated revisions; a spreadsheet annex of chart data; few named specifics."
+   },
+   "ai": {
+    "score": 4,
+    "why": "September 2026 edition. AI-related investment and trade are named reasons for upward revisions to global growth and euro-area foreign demand, without a separate AI line."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "It has been revised up by 0.1 percentage points for each year of the projection horizon, with easing supply shortages expected to improve prospects broadly and stronger AI-related infrastructure investment expected to support economies integrated in the technology supply chain.",
+     "doc_local_path": "primary/macro/ecb-staff-projections/ecb.projections202609_ecbstaff.en.html",
+     "page": null
+    },
+    "search_note": "10 AI mentions in the HTML report."
+   },
+   "why_top_or_not": "Solid track-record institution but a euro-area duplicate of the FOMC mechanism with a shorter horizon.",
+   "primary_docs": [
+    {
+     "title": "ECB staff macroeconomic projections, September 2026 (HTML)",
+     "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html",
+     "local_path": "primary/macro/ecb-staff-projections/ecb.projections202609_ecbstaff.en.html",
+     "status": "full",
+     "bytes": 284476,
+     "pages": 0,
+     "note": ""
+    },
+    {
+     "title": "Chart and table data annex (XLSX, with .txt rendering)",
+     "url": "https://www.ecb.europa.eu/pub/pdf/other/ecb.projections202609_ecbstaff_annex~ce449cbf17.en.xlsx",
+     "local_path": "primary/macro/ecb-staff-projections/ecb.projections202609_ecbstaff_annex.xlsx",
+     "status": "full",
+     "bytes": 159924,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "bis-annual-economic-report",
+   "name": "BIS Annual Economic Report",
+   "publisher": "Bank for International Settlements",
+   "kind": "expert report",
+   "covers_trends": [
+    "Debt-financed AI investment boom",
+    "Public debt and term premium",
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "No numerical forecast: the central bankers' bank's annual diagnosis of global risks, this year public debt, the AI investment boom and energy shocks, with model scenarios.",
+   "horizon": "qualitative, medium term",
+   "latest_edition": {
+    "title": "Annual Economic Report, June 2026 (went to press 22 June 2026)",
+    "date": "2026-06-22",
+    "url": "https://www.bis.org/publ/arpdf/ar2026e.htm"
+   },
+   "update_cadence": "annual (late June)",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Views are vetted by member central banks, but there is no stake, no scored forecast and no error record; credited with one test at most. The BIS has a reputation for early warnings on credit booms, which is not a measured record."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Cross-country graphs and boxes (supply chains, Strait of Hormuz traffic, AI capex versus canal, railway and dotcom manias) with some figures; mostly analytical narrative."
+   },
+   "ai": {
+    "score": 4,
+    "why": "June 2026 edition. Models \"AI delivers\" versus \"AI disappoints\" capex outcomes and a box on transformative AI, long-term growth and r-star; scenario-based, not a baseline driver."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "In the United States, for example, AI-related investments contributed roughly one percentage point to the country’s real GDP growth in 2025, by some estimates.",
+     "doc_local_path": "primary/macro/bis-aer/bis-aer-2026.pdf",
+     "page": 19
+    },
+    "search_note": "156 AI mentions; Graph 11 \"Rapid AI boom raises questions about its sustainability\"; Box C \"Transformative AI, long-term growth and r-star\"."
+   },
+   "why_top_or_not": "Useful framing of AI and r-star scenarios, but an unscored essay that predates the autumn 2026 rate hikes.",
+   "primary_docs": [
+    {
+     "title": "BIS Annual Economic Report 2026 (PDF)",
+     "url": "https://www.bis.org/publications/aer-2026_0.pdf",
+     "local_path": "primary/macro/bis-aer/bis-aer-2026.pdf",
+     "status": "full",
+     "bytes": 5361365,
+     "pages": 133,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "atlanta-fed-market-probability-tracker",
+   "name": "Market Probability Tracker (SOFR options-implied policy-rate distributions)",
+   "publisher": "Federal Reserve Bank of Atlanta, from CME three-month SOFR options",
+   "kind": "market price",
+   "covers_trends": [
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "The options-implied distribution of average three-month SOFR for each quarterly window out about three years: mean, mode, quartiles and probabilities of hikes or cuts.",
+   "horizon": "quarterly windows from December 2026 to December 2029",
+   "latest_edition": {
+    "title": "Market Probability Tracker historical data, observation of 16 November 2026",
+    "date": "2026-11-16",
+    "url": "https://www.atlantafed.org/cenfis/market-probability-tracker"
+   },
+   "update_cadence": "daily",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "SOFR futures and options are among the most heavily traded contracts in the world (T1, T2), but liquidity thins beyond two years and the last window is three years out, so T4 fails; risk-neutral rates embed a term premium and futures-implied paths have missed turning points repeatedly."
+   },
+   "richness": {
+    "score": 2,
+    "why": "One variable with a full distribution per quarter (e.g. mean 4.74% for the window starting 15 Dec 2027; 78.8% probability above the current 3.75-4.00% range); no narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Daily price through 16 Nov 2026; embeds whatever AI implies for the policy path but cannot separate it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Data file only; dictionary sheet contains no AI terms."
+   },
+   "why_top_or_not": "The cleanest priced path for the policy rate, but it stops in 2029 and the Treasury curve already carries the same information over a longer tenor.",
+   "primary_docs": [
+    {
+     "title": "Market Probability Tracker historical data (XLSX)",
+     "url": "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research-and-data/data/market-probability-tracker/mpt_histdata.xlsx",
+     "local_path": "primary/macro/atlanta-fed-mpt/mpt_histdata.xlsx",
+     "status": "full",
+     "bytes": 7286938,
+     "pages": 0,
+     "note": "323,622 rows from 2023-03-29 to 2026-11-16."
+    },
+    {
+     "title": "Derived CSV: rate statistics and hike/cut probabilities for the latest observation date",
+     "url": "https://www.atlantafed.org/cenfis/market-probability-tracker",
+     "local_path": "primary/macro/atlanta-fed-mpt/mpt_snapshot_latest.csv",
+     "status": "full",
+     "bytes": 4737,
+     "pages": 0,
+     "note": "Rendering of the 2026-11-16 rows only (the full sheet is too large for a text dump)."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "cme-fedwatch-sofr-futures",
+   "name": "CME FedWatch and fed funds / SOFR futures",
+   "publisher": "CME Group",
+   "kind": "market price",
+   "covers_trends": [
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "Futures-implied probabilities for the federal funds target after each scheduled FOMC meeting.",
+   "horizon": "about 12-18 months of FOMC meetings (SOFR futures list further but trade thinly)",
+   "latest_edition": {
+    "title": "CME FedWatch Tool (live page; no dated edition could be read)",
+    "date": "2026-11-18",
+    "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Deep, margined futures market with many independent participants (T1, T2); the instrument is much shorter than five years and CME publishes no error record."
+   },
+   "richness": {
+    "score": 1,
+    "why": "One probability table per meeting, no reasoning."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated price; AI effects not separable."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Page not retrievable (HTTP 403); nothing searched."
+   },
+   "why_top_or_not": "Blocked (403) and redundant with the Atlanta Fed tracker and Kalshi/Polymarket Fed contracts, which were downloaded.",
+   "primary_docs": [
+    {
+     "title": "CME FedWatch Tool",
+     "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403 on first request; not retried."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "ice-bofa-credit-spreads",
+   "name": "ICE BofA US corporate option-adjusted spreads (high yield, investment grade, BBB)",
+   "publisher": "ICE Data Indices via Federal Reserve Bank of St. Louis FRED",
+   "kind": "market price",
+   "covers_trends": [
+    "Debt-financed AI investment boom",
+    "Growth, jobs and recession risk"
+   ],
+   "what_it_forecasts": "The extra yield investors demand over Treasuries to hold corporate bonds, i.e. the priced compensation for default and downgrade losses over the bonds' lives.",
+   "horizon": "daily; index bonds mature mostly 3-10 years out",
+   "latest_edition": {
+    "title": "BAMLH0A0HYM2, BAMLC0A0CM, BAMLC0A4CBBB daily close, reading for 16 November 2026",
+    "date": "2026-11-16",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+   },
+   "update_cadence": "daily",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Set by many bond investors with money at risk, with short-sellers and CDS traders on the other side (T1, T2), on instruments that mature across the 2027-2036 window (T4). Neither ICE nor FRED publishes an error record, and spreads are a biased default forecast because they include a risk premium; they have also been at historically narrow levels before past credit events."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Three index series (high yield 3.34%, investment grade 0.90%, BBB 1.12% on 16 Nov 2026); no issuer detail or narrative in the free data."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Daily price to 16 Nov 2026. FOMC minutes report hyperscaler bond spreads widening on AI issuance, so the market reprices AI credit, but the index series cannot isolate it."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Data file only."
+   },
+   "why_top_or_not": "Strong incentives and the right tenor, but three numbers with no detail; the FSR and FOMC minutes interpret the same spreads with names attached.",
+   "primary_docs": [
+    {
+     "title": "FRED graph download (zip of daily CSVs: OAS series and breakevens)",
+     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,BAMLC0A0CM,BAMLC0A4CBBB,T5YIFR,T5YIE,T10YIE",
+     "local_path": "primary/macro/fred-credit-spreads-breakevens/fredgraph_download_2026-11-18.zip",
+     "status": "full",
+     "bytes": 40789,
+     "pages": 0,
+     "note": "Direct curl failed (connection reset); retrieved by the WebFetch tool, which saved the official zip. File Created 2026-11-18 8:45 am CST."
+    },
+    {
+     "title": "ICE BofA OAS daily close (CSV extracted from the zip)",
+     "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+     "local_path": "primary/macro/fred-credit-spreads-breakevens/fred_ice_bofa_oas_daily_close.csv",
+     "status": "full",
+     "bytes": 17502,
+     "pages": 0,
+     "note": "Columns observation_date,BAMLH0A0HYM2,BAMLC0A0CM,BAMLC0A4CBBB; last row 2026-11-16,3.34,0.90,1.12. FRED supplies only the last three years of ICE data."
+    },
+    {
+     "title": "FRED README for the download",
+     "url": "https://fred.stlouisfed.org",
+     "local_path": "primary/macro/fred-credit-spreads-breakevens/README.txt",
+     "status": "full",
+     "bytes": 1532,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "shiller-cape-equity-valuation",
+   "name": "Shiller S&P 500 price, earnings and CAPE dataset (equity-implied growth)",
+   "publisher": "Robert J. Shiller (shillerdata.com)",
+   "kind": "market price",
+   "covers_trends": [
+    "Debt-financed AI investment boom",
+    "Growth, jobs and recession risk"
+   ],
+   "what_it_forecasts": "The S&P 500 price relative to ten-year average real earnings (CAPE) and the excess CAPE yield, which imply the earnings growth investors are paying for and the long-run real return they can expect.",
+   "horizon": "monthly; valuation implies returns over the next 10 years",
+   "latest_edition": {
+    "title": "ie_data.xls, updated with the 12 November 2026 close (S&P 500 7619.38, CAPE 39.37)",
+    "date": "2026-11-12",
+    "url": "https://shillerdata.com/"
+   },
+   "update_cadence": "monthly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "The price is set by the deepest equity market in the world (T1, T2) and the file itself prints realised 10-year returns beside past CAPE readings, but equity has no maturity that forces convergence at five years and CAPE-based return forecasts have been persistently too pessimistic since the 1990s."
+   },
+   "richness": {
+    "score": 2,
+    "why": "A handful of monthly series (price, earnings, dividends, CPI, long rate, CAPE) with no narrative."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Reading for November 2026. The index demonstrably reprices on AI news (FOMC minutes: 2026 gains led by firms that benefit from AI infrastructure investment), but the dataset gives one aggregate valuation, not an AI component."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Data file only. The copy at econ.yale.edu/~shiller/data/ie_data.xls is stale (ends September 2023); the current file is hosted via shillerdata.com."
+   },
+   "why_top_or_not": "A single valuation ratio; the FSR covers equity valuation with more context. S&P earnings-estimate files (spglobal.com) returned 403.",
+   "primary_docs": [
+    {
+     "title": "ie_data.xls (with CSV rendering of the Data sheet)",
+     "url": "https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/249997aa-1eef-4237-93ec-2d319f7881ab/ie_data.xls?ver=1794837439406",
+     "local_path": "primary/macro/shiller-cape/ie_data_shillerdata.xls",
+     "status": "full",
+     "bytes": 1666048,
+     "pages": 0,
+     "note": "Link taken from shillerdata.com on 2026-11-18."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "polymarket-macro",
+   "name": "Polymarket economy contracts (Fed decisions, recession, inflation, GDP, AI-credit downgrades)",
+   "publisher": "Polymarket",
+   "kind": "market price",
+   "covers_trends": [
+    "Higher-for-longer interest rates",
+    "Growth, jobs and recession risk",
+    "Sticky inflation and cost of living",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "Traded probabilities for Fed, ECB, BoE and BoJ decisions through spring 2027, a US recession by end-2027, 2026 inflation and GDP outcomes, and rating downgrades of AI-linked borrowers.",
+   "horizon": "mostly under 6 months; longest macro contracts close January-April 2028",
+   "latest_edition": {
+    "title": "Gamma API snapshot of open economy-tagged events, 18 November 2026",
+    "date": "2026-11-18",
+    "url": "https://gamma-api.polymarket.com/events?closed=false&active=true&tag_slug=economy"
+   },
+   "update_cadence": "continuous trading",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Real money and many traders on the liquid Fed contracts ($38m traded on the December 2026 decision) (T1, T2); no macro contract reaches beyond early 2028 and the long ones are thin ($25k on \"US recession by end of 2027\"), so T4 fails. Counted as lacking a published multi-year error record for macro questions."
+   },
+   "richness": {
+    "score": 2,
+    "why": "913 open markets across 148 events with dated thresholds; no reasoning."
+   },
+   "ai": {
+    "score": 4,
+    "why": "Snapshot 18 Nov 2026. Includes contracts that isolate AI-credit stress (CoreWeave downgrade, Oracle cut to junk by mid-2027) alongside macro contracts that embed AI inseparably."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "partial quantification",
+    "ai_passage": {
+     "text": "2027-07-01,Oracle downgraded to junk by Moody's or S&P by...?,\"June 30, 2027\",\"[\"\"Yes\"\", \"\"No\"\"]\",\"[\"\"0.305\"\", \"\"0.695\"\"]\",0.29,0.32,0.29,6682.682155,10825.886811",
+     "doc_local_path": "primary/macro/polymarket-macro/polymarket_macro_events_snapshot_summary.csv",
+     "page": null
+    },
+    "search_note": "Rows for \"Oracle downgraded to junk by Moody's or S&P by...?\" and \"CoreWeave downgraded by Moody's or S&P by...?\"."
+   },
+   "why_top_or_not": "Same mechanism as Kalshi with a shorter horizon; kept as a cross-check (it prices a recession by end-2027 at about 30% versus Kalshi's 20% on a stricter definition).",
+   "primary_docs": [
+    {
+     "title": "Polymarket open macro events (JSON API snapshot)",
+     "url": "https://gamma-api.polymarket.com/events?closed=false&active=true&tag_slug=economy",
+     "local_path": "primary/macro/polymarket-macro/polymarket_macro_events_snapshot.json",
+     "status": "full",
+     "bytes": 755421,
+     "pages": 0,
+     "note": "Thirteen tag queries (economy, fed, inflation, recession, gdp, treasuries, stocks, finance, ...) filtered to macro keywords in the event title; the finance tag was truncated at 650 events."
+    },
+    {
+     "title": "Derived CSV summary of the JSON snapshot",
+     "url": "https://gamma-api.polymarket.com/events",
+     "local_path": "primary/macro/polymarket-macro/polymarket_macro_events_snapshot_summary.csv",
+     "status": "full",
+     "bytes": 134529,
+     "pages": 0,
+     "note": "Rendering produced from the JSON."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "cleveland-fed-inflation-expectations",
+   "name": "Cleveland Fed inflation expectations model (Treasury yields, inflation swaps and surveys)",
+   "publisher": "Federal Reserve Bank of Cleveland",
+   "kind": "market price",
+   "covers_trends": [
+    "Sticky inflation and cost of living",
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "Model estimates of expected CPI inflation for every horizon from 1 to 30 years, the real interest rate and the inflation risk premium.",
+   "horizon": "monthly; horizons 1 to 30 years",
+   "latest_edition": {
+    "title": "Inflation Expectations, model output dated November 2026",
+    "date": "2026-11-01",
+    "url": "https://www.clevelandfed.org/indicators-and-data/inflation-expectations"
+   },
+   "update_cadence": "monthly, on CPI release day",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Inputs are traded prices (Treasury yields, inflation swaps) plus surveys, so stakes and adversaries are inherited from those markets (T1, T2), but the output is a model estimate, the page documents revisions rather than forecast errors, and the result depends on the term-structure model."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Thirty expected-inflation horizons, three real-rate series and two risk premia (10-year expected inflation 2.67%, November 2026); no narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "November 2026 reading built from continuously updated prices; AI not separable."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Data workbook only; no AI terms."
+   },
+   "why_top_or_not": "A model overlay on prices already captured by the Treasury source; useful because it strips the risk premium.",
+   "primary_docs": [
+    {
+     "title": "Inflation expectations data (XLSX, with .txt rendering)",
+     "url": "https://www.clevelandfed.org/-/media/files/webcharts/inflationexpectations/inflation-expectations.xlsx?sc_lang=en",
+     "local_path": "primary/macro/cleveland-fed-inflation-expectations/inflation-expectations.xlsx",
+     "status": "full",
+     "bytes": 187661,
+     "pages": 0,
+     "note": "Edition date is the model-output month in the file; exact release day not confirmed."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "inflation-swaps",
+   "name": "US CPI zero-coupon inflation swaps",
+   "publisher": "Interdealer market (quotes via Bloomberg, ICE, LSEG)",
+   "kind": "market price",
+   "covers_trends": [
+    "Sticky inflation and cost of living"
+   ],
+   "what_it_forecasts": "The fixed CPI inflation rate counterparties will exchange for realised inflation over 1 to 30 years.",
+   "horizon": "tenors 1 to 30 years",
+   "latest_edition": {
+    "title": "No public dated file; quotes are proprietary",
+    "date": "2026-11-18",
+    "url": "https://www.clevelandfed.org/indicators-and-data/inflation-expectations"
+   },
+   "update_cadence": "continuous",
+   "accuracy": {
+    "score": 4,
+    "tests_passed": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "why": "Collateralised contracts between dealers, pension funds and hedge funds with tenors beyond five years (T1, T2, T4); no public error record, and swap rates embed an inflation risk premium, typically sitting above TIPS breakevens."
+   },
+   "richness": {
+    "score": 1,
+    "why": "One rate per tenor."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Continuously updated price; AI not separable."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "No document obtained."
+   },
+   "why_top_or_not": "No free primary data; the Cleveland Fed model and TIPS breakevens stand in for it.",
+   "primary_docs": [
+    {
+     "title": "Inflation swap quotes",
+     "url": "",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Vendor terminals only; the Cleveland Fed workbook (see cleveland-fed-inflation-expectations) uses them as an input."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "mpls-fed-market-probabilities",
+   "name": "Market-Based Probabilities (options-implied densities)",
+   "publisher": "Federal Reserve Bank of Minneapolis",
+   "kind": "market price",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living"
+   ],
+   "what_it_forecasts": "Options-implied probability distributions for the S&P 500 (6 and 12 months), Treasury futures, bank stocks, currencies and commodities, including probabilities of large moves.",
+   "horizon": "3 to 12 months",
+   "latest_edition": {
+    "title": "mpd_stats.csv, latest observation 28 October 2026",
+    "date": "2026-10-28",
+    "url": "https://www.minneapolisfed.org/banking/current-and-historical-market-based-probabilities"
+   },
+   "update_cadence": "roughly biweekly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T1",
+     "T2"
+    ],
+    "why": "Derived from exchange-traded options with real money and many participants (T1, T2), but horizons are a year or less and the densities are risk-neutral, overstating crash probabilities."
+   },
+   "richness": {
+    "score": 2,
+    "why": "About twenty markets with moments, percentiles and tail probabilities (S&P 500 12-month: 8.5% chance of a 20% fall, 13.1% of a 20% rise); no narrative."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Reading of 28 Oct 2026; embeds AI through equity options but cannot separate it. The inflation densities people cite from this source stopped updating in May 2025."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Data file and dictionary only; no AI terms."
+   },
+   "why_top_or_not": "Short horizon, and its market-based inflation probabilities (infl5y) are stale: last observation 28 May 2025.",
+   "primary_docs": [
+    {
+     "title": "MPD statistics (CSV)",
+     "url": "https://www.minneapolisfed.org/-/media/files/banking/mpd/mpd_stats.csv",
+     "local_path": "primary/macro/mpls-fed-market-probabilities/mpd_stats.csv",
+     "status": "full",
+     "bytes": 2794647,
+     "pages": 0,
+     "note": "infl1y ends 2018-12-04, infl2y 2019-01-09, infl5y 2025-05-28; equity, rates, FX and commodity series run to 2026-10-28."
+    },
+    {
+     "title": "MPD data dictionary (CSV)",
+     "url": "https://www.minneapolisfed.org/-/media/files/banking/mpd/mpd_data_dictionary.csv",
+     "local_path": "primary/macro/mpls-fed-market-probabilities/mpd_data_dictionary.csv",
+     "status": "full",
+     "bytes": 2471,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "nyfed-survey-of-market-expectations",
+   "name": "Survey of Market Expectations (successor to the primary dealer and market participant surveys)",
+   "publisher": "Federal Reserve Bank of New York, Open Market Trading Desk",
+   "kind": "survey",
+   "covers_trends": [
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living",
+    "Growth, jobs and recession risk"
+   ],
+   "what_it_forecasts": "Dealers' and investors' modal path and probability distribution for the fed funds rate, the longer-run rate, the 10-year average rate, balance-sheet and macro expectations.",
+   "horizon": "meeting-by-meeting to end-2027; longer run and 10-year average",
+   "latest_edition": {
+    "title": "Survey of Market Expectations, September 2026 (received by 8 September 2026); October questionnaire posted, results not yet published",
+    "date": "2026-09-08",
+    "url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations"
+   },
+   "update_cadence": "eight times a year, before each FOMC meeting; results published with the minutes",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [
+     "T2"
+    ],
+    "why": "Sixty-two independent, informed respondents (T2) who trade these markets, but survey answers carry no stake and no error record is published."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Percentile tables for the policy path, probability bins by date, and summarised free-text expectations; no named firms."
+   },
+   "ai": {
+    "score": 3,
+    "why": "September 2026 edition; AI appears once, as a topic respondents expected the Chair to address."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "Several respondents expected the Chairman to discuss the impacts of AI and geopolitics on dual mandate objectives.",
+     "doc_local_path": "primary/macro/nyfed-sme/sep-2026-sme-results.pdf",
+     "page": 5
+    },
+    "search_note": "One AI mention in the results PDF."
+   },
+   "why_top_or_not": "Good read on what dealers expect (10-year average fed funds 3.25%), but unincentivised and short on specifics.",
+   "primary_docs": [
+    {
+     "title": "Survey of Market Expectations, September 2026 results (PDF)",
+     "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2026/sep-2026-sme-results.pdf",
+     "local_path": "primary/macro/nyfed-sme/sep-2026-sme-results.pdf",
+     "status": "full",
+     "bytes": 386947,
+     "pages": 16,
+     "note": ""
+    },
+    {
+     "title": "September 2026 survey data (XLSX, with .txt rendering)",
+     "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2026/sep-2026-data.xlsx",
+     "local_path": "primary/macro/nyfed-sme/sep-2026-data.xlsx",
+     "status": "full",
+     "bytes": 251519,
+     "pages": 0,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "nyfed-survey-of-consumer-expectations",
+   "name": "Survey of Consumer Expectations",
+   "publisher": "Federal Reserve Bank of New York",
+   "kind": "survey",
+   "covers_trends": [
+    "Sticky inflation and cost of living",
+    "Growth, jobs and recession risk"
+   ],
+   "what_it_forecasts": "Households' expected inflation at 1, 3 and 5 years, and expectations for home prices, earnings, job loss, credit access and household finances.",
+   "horizon": "monthly; 1, 3 and 5 years ahead",
+   "latest_edition": {
+    "title": "SCE chart data through October 2026",
+    "date": "2026-10-31",
+    "url": "https://www.newyorkfed.org/microeconomics/sce"
+   },
+   "update_cadence": "monthly",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "The rubric's typical 2 (survey): about 1,300 households, with no stake and a known upward bias in stated inflation expectations; it measures the mood forecasts must pass through, not an informed forecast."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Dozens of monthly series split by age, income, education and region (October 2026 median expected inflation 3.91% at one year, 3.29% at three years); no narrative in the data file."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Data through October 2026; no AI question or term in the core module data."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Searched the workbook rendering for AI, artificial intelligence, automation: none found."
+   },
+   "why_top_or_not": "Shows how households feel prices and job risk, but it is sentiment, not an incentivised forecast.",
+   "primary_docs": [
+    {
+     "title": "SCE chart data (XLSX, with .txt rendering)",
+     "url": "https://www.newyorkfed.org/medialibrary/interactives/sce/sce/downloads/data/frbny-sce-data.xlsx",
+     "local_path": "primary/macro/nyfed-sce/frbny-sce-data.xlsx",
+     "status": "full",
+     "bytes": 1272841,
+     "pages": 0,
+     "note": "Edition date is the last survey month in the file (202610); press-release day not confirmed."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "goldman-macro-outlook",
+   "name": "Goldman Sachs Global Economics Analyst: Macro Outlook 2027",
+   "publisher": "Goldman Sachs Global Investment Research",
+   "kind": "expert report",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Higher-for-longer interest rates",
+    "Sticky inflation and cost of living",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "Sell-side baseline for 2027 global and country GDP, inflation and central bank paths, with AI investment sized as a growth driver.",
+   "horizon": "2027, with AI capex paths to 2032",
+   "latest_edition": {
+    "title": "Macro Outlook 2027: Steady Baseline, Downside Risks",
+    "date": "2026-11-12",
+    "url": "https://www.gspublishing.com/content/research/en/reports/2026/11/12/0c0ea955-0dca-4122-bf64-1ba3ee02be8b.pdf"
+   },
+   "update_cadence": "annual outlook, with weekly updates to clients",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "The rubric's typical 2: an interested party selling research and trade ideas; forecasts are compared with consensus in the report itself but no systematic error record is published and nothing is lost on a miss beyond reputation."
+   },
+   "richness": {
+    "score": 4,
+    "why": "Country-by-country forecasts against consensus, named policy calls (two more Fed hikes), commodity paths and exhibits with dollar figures for AI capex."
+   },
+   "ai": {
+    "score": 5,
+    "why": "Dated 12 Nov 2026. AI investment is a separately quantified driver: $1.1tn in 2026 rising to $1.8tn in 2027, adding 0.4pp to global GDP growth."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "We forecast that nominal global AI investment will rise from $1.1tn in 2026 to $1.8tn in 2027, mostly driven by an increase of over $500bn in hardware spending in the US (Exhibit 4).",
+     "doc_local_path": "primary/macro/goldman-macro-outlook/gs-macro-outlook-2027.pdf",
+     "page": 4
+    },
+    "search_note": "73 AI mentions."
+   },
+   "why_top_or_not": "High on richness and AI but the low-incentive comparator the brief asks to mark down; its baseline overlaps the IMF and FOMC.",
+   "primary_docs": [
+    {
+     "title": "Macro Outlook 2027: Steady Baseline, Downside Risks (PDF)",
+     "url": "https://www.gspublishing.com/content/research/en/reports/2026/11/12/0c0ea955-0dca-4122-bf64-1ba3ee02be8b.pdf",
+     "local_path": "primary/macro/goldman-macro-outlook/gs-macro-outlook-2027.pdf",
+     "status": "full",
+     "bytes": 1446301,
+     "pages": 30,
+     "note": ""
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "jpm-market-outlook",
+   "name": "J.P. Morgan Global Research annual market outlook",
+   "publisher": "JPMorgan Chase & Co.",
+   "kind": "expert report",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Higher-for-longer interest rates",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "Sell-side year-ahead views on growth, rates, equities, currencies and commodities.",
+   "horizon": "one year ahead",
+   "latest_edition": {
+    "title": "2026 Market Outlook (published December 9, 2025); the 2027 outlook was not yet posted on 18 November 2026",
+    "date": "2025-12-09",
+    "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
+   },
+   "update_cadence": "annual (December), mid-year update",
+   "accuracy": {
+    "score": 2,
+    "tests_passed": [],
+    "why": "Interested party, no stake and no published error record; scored 2 rather than 1 only because the house forecasts are tracked in consensus surveys."
+   },
+   "richness": {
+    "score": 3,
+    "why": "Asset-class targets with dates (EUR/USD 1.20 by December 2026, oil demand growth) and quoted strategists; a summary web page, not the full research."
+   },
+   "ai": {
+    "score": 3,
+    "why": "Edition is from December 2025, before the 2026 rate hikes; AI capex is a central qualitative theme but the document is eleven months stale."
+   },
+   "ai_evidence": {
+    "updated_2026": false,
+    "ai_treatment": "qualitative",
+    "ai_passage": {
+     "text": "We expect the global economy to remain resilient in 2026, with AI investment continuing to drive market dynamics and support growth.",
+     "doc_local_path": "primary/macro/jpm-market-outlook/jpm-2026-market-outlook.html",
+     "page": null
+    },
+    "search_note": "31 AI mentions on the page."
+   },
+   "why_top_or_not": "Stale: the latest public edition predates the energy shock and Fed hikes of 2026.",
+   "primary_docs": [
+    {
+     "title": "2026 Market Outlook web page (HTML)",
+     "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook",
+     "local_path": "primary/macro/jpm-market-outlook/jpm-2026-market-outlook.html",
+     "status": "full",
+     "bytes": 317698,
+     "pages": 0,
+     "note": "Summary page; the underlying research notes are client-only."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "oecd-economic-outlook",
+   "name": "OECD Economic Outlook",
+   "publisher": "Organisation for Economic Co-operation and Development",
+   "kind": "expert report",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Sticky inflation and cost of living"
+   ],
+   "what_it_forecasts": "Two-year GDP, inflation, unemployment and fiscal projections for OECD and G20 economies with country notes.",
+   "horizon": "two years ahead",
+   "latest_edition": {
+    "title": "OECD Economic Outlook, Volume 2026 Issue 1 (June 2026) is the latest full edition I could infer (cited as \"OECD (2026) ... as of June 2026\" in the BIS report); a September 2026 interim report probably exists but was not confirmed",
+    "date": "2026-06-01",
+    "url": "https://www.oecd.org/en/publications/serials/oecd-economic-outlook_g1ghg5c1.html"
+   },
+   "update_cadence": "semiannual (June, December) with interim reports (March, September)",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "Accountable institution reviewed by member governments that has published post-mortems of its forecast errors; no money at stake. Provisional: the document could not be opened, and the exact June publication day is not confirmed (the date field is a placeholder for the month)."
+   },
+   "richness": {
+    "score": 4,
+    "why": "By reputation: country notes with narrated drivers for about 50 economies. Not verified."
+   },
+   "ai": {
+    "score": 3,
+    "why": "A 2026 edition exists; AI treatment could not be checked, so scored at the qualitative level."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "qualitative",
+    "ai_passage": null,
+    "search_note": "Document not obtained (oecd.org HTTP 403 to curl and WebFetch); no search possible. AI treatment is an assumption."
+   },
+   "why_top_or_not": "Blocked, unverified, and largely duplicated by the IMF WEO.",
+   "primary_docs": [
+    {
+     "title": "OECD Economic Outlook (latest edition)",
+     "url": "https://www.oecd.org/en/publications/serials/oecd-economic-outlook_g1ghg5c1.html",
+     "local_path": null,
+     "status": "failed",
+     "bytes": 0,
+     "pages": 0,
+     "note": "HTTP 403; not retried beyond one curl and one WebFetch."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "blue-chip-economic-indicators",
+   "name": "Blue Chip Economic Indicators / Blue Chip Financial Forecasts",
+   "publisher": "Wolters Kluwer",
+   "kind": "survey",
+   "covers_trends": [
+    "Growth, jobs and recession risk",
+    "Sticky inflation and cost of living",
+    "Higher-for-longer interest rates"
+   ],
+   "what_it_forecasts": "Consensus and individual forecasts from about 50 business economists for GDP, inflation, unemployment and interest rates, with semiannual long-range (5-10 year) surveys.",
+   "horizon": "monthly, two years ahead; long-range surveys in March and October",
+   "latest_edition": {
+    "title": "November 2026 issue presumed (monthly, published around the 10th); not seen",
+    "date": "2026-11-10",
+    "url": "https://www.wolterskluwer.com/en/solutions/blue-chip"
+   },
+   "update_cadence": "monthly",
+   "accuracy": {
+    "score": 3,
+    "tests_passed": [
+     "T2",
+     "T3"
+    ],
+    "why": "About 50 named, independent forecasters (T2) with a decades-long record that CBO and the Fed use as the benchmark in their own error studies (T3); no money at stake and a strong pull toward consensus."
+   },
+   "richness": {
+    "score": 3,
+    "why": "By reputation: tables of named-firm forecasts for a dozen variables with brief commentary. Not seen."
+   },
+   "ai": {
+    "score": 2,
+    "why": "Could not be checked; consensus surveys rarely identify AI separately. Provisional."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "none",
+    "ai_passage": null,
+    "search_note": "Subscription publication; not obtained. Issue date and AI treatment are unverified assumptions."
+   },
+   "why_top_or_not": "Paywalled; the free SPF covers the same ground.",
+   "primary_docs": [
+    {
+     "title": "Blue Chip Economic Indicators, latest issue",
+     "url": "https://www.wolterskluwer.com/en/solutions/blue-chip",
+     "local_path": null,
+     "status": "paywalled",
+     "bytes": 0,
+     "pages": 0,
+     "note": "Subscription only."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  },
+  {
+   "id": "tai-real-interest-rates-paper",
+   "name": "\"Transformative AI, existential risk, and real interest rates\" (Chow, Halperin, Mazlish)",
+   "publisher": "Authors' working paper (basilhalperin.com)",
+   "kind": "expert report",
+   "covers_trends": [
+    "Higher-for-longer interest rates",
+    "Debt-financed AI investment boom"
+   ],
+   "what_it_forecasts": "Not a forecast: a method for reading long-term real interest rates as the market's implied probability of transformative AI.",
+   "horizon": "interprets 10-30 year real yields",
+   "latest_edition": {
+    "title": "Transformative AI, existential risk, and real interest rates, June 2026 version (first posted January 2023)",
+    "date": "2026-06-07",
+    "url": "https://basilhalperin.com/papers/agi_emh.pdf"
+   },
+   "update_cadence": "irregular revisions",
+   "accuracy": {
+    "score": 1,
+    "tests_passed": [],
+    "why": "An academic argument, not a scored or staked forecast; it passes none of the tests. Its value is as a key for reading the Treasury real-yield data."
+   },
+   "richness": {
+    "score": 2,
+    "why": "Cross-country regressions and a few calibrated magnitudes; no dated events."
+   },
+   "ai": {
+    "score": 5,
+    "why": "June 2026 version; transformative AI is the subject, with real rates as the quantified signal."
+   },
+   "ai_evidence": {
+    "updated_2026": true,
+    "ai_treatment": "quantified driver",
+    "ai_passage": {
+     "text": "Theoretically, we show that either possibility would predict a large increase in long-term real interest rates, due to consumption smoothing.",
+     "doc_local_path": "primary/macro/tai-real-rates-paper/chow-halperin-mazlish-agi_emh-2026-06.pdf",
+     "page": 1
+    },
+    "search_note": "Whole paper is about AI."
+   },
+   "why_top_or_not": "Interpretive key, not a source of forecasts; explains why the 2026 jump in real yields matters.",
+   "primary_docs": [
+    {
+     "title": "Transformative AI, existential risk, and real interest rates (PDF, June 2026)",
+     "url": "https://basilhalperin.com/papers/agi_emh.pdf",
+     "local_path": "primary/macro/tai-real-rates-paper/chow-halperin-mazlish-agi_emh-2026-06.pdf",
+     "status": "full",
+     "bytes": 561637,
+     "pages": 44,
+     "note": "Edition date is the PDF creation date; the title page says June 2026."
+    }
+   ],
+   "quotes": [],
+   "tier": "considered"
+  }
+ ]
+}
